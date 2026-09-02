@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="POSITIVO PLUS MAIS">
+<g id="Union">
+<path d="M17.5 9.43803C18.1111 9.4381 18.6058 9.93344 18.6061 10.5441V16.3939H24.4559C25.0666 16.3943 25.562 16.889 25.562 17.5C25.562 18.111 25.0666 18.6057 24.4559 18.6061H18.6061V24.4559C18.6057 25.0666 18.111 25.562 17.5 25.562C16.889 25.562 16.3943 25.0666 16.3939 24.4559V18.6061H10.5441C9.93344 18.6058 9.4381 18.1111 9.43803 17.5C9.43803 16.8889 9.9334 16.3943 10.5441 16.3939H16.3939V10.5441C16.3943 9.9334 16.8889 9.43803 17.5 9.43803Z" fill="url(#paint0_linear_0_148)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.12575 5.12575C11.9601 -1.70858 23.04 -1.70858 29.8743 5.12575C36.7085 11.9601 36.7086 23.04 29.8743 29.8743C23.04 36.7086 11.9601 36.7085 5.12575 29.8743C-1.70858 23.04 -1.70858 11.9601 5.12575 5.12575ZM28.3099 6.69018C22.3398 0.720145 12.6602 0.720145 6.69018 6.69018C0.720145 12.6602 0.720145 22.3398 6.69018 28.3099C12.6602 34.2798 22.3399 34.2799 28.3099 28.3099C34.2799 22.3399 34.2798 12.6602 28.3099 6.69018Z" fill="url(#paint1_linear_0_148)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_148" x1="-7.95833" y1="-8.71422" x2="36.182" y2="-6.00728" gradientUnits="userSpaceOnUse">
+<stop stop-color="#184AEE"/>
+<stop offset="1" stop-color="#BF18F6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_148" x1="-7.95833" y1="-8.71422" x2="36.182" y2="-6.00728" gradientUnits="userSpaceOnUse">
+<stop stop-color="#184AEE"/>
+<stop offset="1" stop-color="#BF18F6"/>
+</linearGradient>
+</defs>
+</svg>

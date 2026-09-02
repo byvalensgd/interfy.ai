@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+
+  /* Header height (h-20 content + 1px border) — shared with full-height banner sections */
+  --header-height: 81px;
+
+  /* Interfy brand tokens (Figma) */
+  --color-texto: #333333;
+  --color-texto-medio: #5a6272;
+  --color-texto-doc-ok: #07235c;
+  --color-azul-base: #015bf7;
+  --color-azul-bg-superior: #eff6fc;
+  --color-bg-base: #f4f5ff;
+  --color-branco: #ffffff;
+  --color-sm-branco: #fdfdfd;
+  --color-contorno-base: #e6e6e6;
+  --color-shadow: #42869e26;
+
+  /* Product/segment accents */
+  --color-ecm: #2fb79c;
+  --color-bpm: #0781ec;
+  --color-swc: #2669e6;
+  --color-dss: #913afb;
+  --color-cic: #1bc2df;
+  --color-lvs-voice: #09a1ea;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-articulat);
+
+  --color-texto: var(--color-texto);
+  --color-texto-medio: var(--color-texto-medio);
+  --color-texto-doc-ok: var(--color-texto-doc-ok);
+  --color-azul-base: var(--color-azul-base);
+  --color-azul-bg-superior: var(--color-azul-bg-superior);
+  --color-bg-base: var(--color-bg-base);
+  --color-branco: var(--color-branco);
+  --color-sm-branco: var(--color-sm-branco);
+  --color-contorno-base: var(--color-contorno-base);
+
+  --color-ecm: var(--color-ecm);
+  --color-bpm: var(--color-bpm);
+  --color-swc: var(--color-swc);
+  --color-dss: var(--color-dss);
+  --color-cic: var(--color-cic);
+  --color-lvs-voice: var(--color-lvs-voice);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Figma vertical trim: cap height -> baseline, on every text element site-wide */
+p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
