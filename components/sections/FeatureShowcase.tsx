@@ -169,12 +169,14 @@ export default function FeatureShowcase() {
             </div>
 
             <div className="relative hidden size-[180px] shrink-0 sm:block">
-              <Image
-                src="/features/robot.webp"
-                alt="Assistente de IA da Interfy"
-                fill
-                sizes="180px"
-                className="object-contain mix-blend-multiply"
+              <video
+                src="/features/robot.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                aria-label="Assistente de IA da Interfy"
+                className="size-full object-contain mix-blend-multiply"
               />
             </div>
           </div>
