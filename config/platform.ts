@@ -13,16 +13,70 @@ export const platformStats: HeroStat[] = [
 export type EcosystemItem = {
   icon: string;
   title: string;
-  description: string;
+  // Figma's manually-edited two-line break — kept explicit (not left to wrap)
+  // so every badge renders at a predictable, equal width.
+  descriptionLines: [string, string];
+  // English copy, held here for when the site wires up full i18n content
+  // switching (only the language selector UI exists today).
+  titleEn: string;
+  descriptionEn: string;
 };
 
 export const ecosystemItems: EcosystemItem[] = [
-  { icon: "/icons/ecosystem/documents.svg", title: "Documents", description: "Organize e encontre com inteligência" },
-  { icon: "/icons/ecosystem/automation.svg", title: "Automation", description: "Crie fluxos, aprovações e tarefas" },
-  { icon: "/icons/ecosystem/voice.svg", title: "Voice", description: "Fale com a plataforma de forma natural" },
-  { icon: "/icons/ecosystem/capture.svg", title: "Capture", description: "Digitalize, reconheça e extraia dados" },
-  { icon: "/icons/ecosystem/agents.svg", title: "Agents", description: "IA que entende e apoia usuários" },
-  { icon: "/icons/ecosystem/sign.svg", title: "Sign", description: "Assine documentos com validade jurídica" },
-  { icon: "/icons/ecosystem/connect.svg", title: "Connect", description: "Colabore e comunique-se com sua equipe" },
-  { icon: "/icons/ecosystem/mobile.svg", title: "Mobile", description: "Sua operação na palma da mão" },
+  {
+    icon: "/icons/ecosystem/documents.svg",
+    title: "Documents",
+    descriptionLines: ["Organize e encontre", "com inteligência"],
+    titleEn: "Documents",
+    descriptionEn: "Organize and find with intelligence",
+  },
+  {
+    icon: "/icons/ecosystem/automation.svg",
+    title: "Processes",
+    descriptionLines: ["Crie fluxos, aprovações", "e tarefas"],
+    titleEn: "Processes",
+    descriptionEn: "Create flows, approvals and tasks",
+  },
+  {
+    icon: "/icons/ecosystem/voice.svg",
+    title: "Voice",
+    descriptionLines: ["Fale com a plataforma", "de forma natural"],
+    titleEn: "Voice",
+    descriptionEn: "Talk to the platform naturally",
+  },
+  {
+    icon: "/icons/ecosystem/capture.svg",
+    title: "Capture",
+    descriptionLines: ["Digitalize, reconheça", "e extraia dados"],
+    titleEn: "Capture",
+    descriptionEn: "Scan, recognize and extract data",
+  },
+  {
+    icon: "/icons/ecosystem/agents.svg",
+    title: "Agents",
+    descriptionLines: ["IA que entende e", "apoia usuários"],
+    titleEn: "Agents",
+    descriptionEn: "AI that understands and supports users",
+  },
+  {
+    icon: "/icons/ecosystem/sign.svg",
+    title: "Sign",
+    descriptionLines: ["Assine documentos", "com validade jurídica"],
+    titleEn: "Sign",
+    descriptionEn: "Sign documents with legal validity",
+  },
+  {
+    icon: "/icons/ecosystem/connect.svg",
+    title: "Connect",
+    descriptionLines: ["Colabore e comunique-se", "com sua equipe"],
+    titleEn: "Connect",
+    descriptionEn: "Collaborate and communicate with your team",
+  },
+  {
+    icon: "/icons/ecosystem/mobile.svg",
+    title: "Mobile",
+    descriptionLines: ["Sua operação na", "palma da mão"],
+    titleEn: "Mobile",
+    descriptionEn: "Your operation in the palm of your hand",
+  },
 ];

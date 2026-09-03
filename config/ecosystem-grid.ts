@@ -8,31 +8,31 @@ export type EcosystemGridItem = {
 export const ecosystemGridItems: EcosystemGridItem[] = [
   {
     icon: "/icons/ecosystem-grid/documents.svg",
-    product: "Documentos",
+    product: "Documents",
     colorClass: "text-ecm",
     description: "Gestão inteligente de documentos e informações",
   },
   {
     icon: "/icons/ecosystem-grid/automation.svg",
-    product: "Processos",
+    product: "Processes",
     colorClass: "text-bpm",
     description: "Automação inteligente de processos e Tarefas",
   },
   {
     icon: "/icons/ecosystem-grid/capture.svg",
-    product: "Captura",
+    product: "Capture",
     colorClass: "text-swc",
     description: "Captura inteligente de documentos com IA",
   },
   {
     icon: "/icons/ecosystem-grid/sign.svg",
-    product: "Assinatura",
+    product: "Sign",
     colorClass: "text-dss",
     description: "Assinatura digital gratuita para todos os usuários",
   },
   {
     icon: "/icons/ecosystem-grid/connect.svg",
-    product: "Colaboração",
+    product: "Connect",
     colorClass: "text-cic",
     description: "Colaboração e comunicação conectadas à operação",
   },
@@ -44,13 +44,13 @@ export const ecosystemGridItems: EcosystemGridItem[] = [
   },
   {
     icon: "/icons/ecosystem-grid/agents.svg",
-    product: "Agentes",
+    product: "Agents",
     colorClass: "gradient",
     description: "Agentes de IA que analisam, decidem e executam",
   },
   {
     icon: "/icons/ecosystem-grid/voice.svg",
-    product: "Voz",
+    product: "Voice",
     colorClass: "text-lvs-voice",
     description: "Interação por voz com linguagem natural e IA",
   },

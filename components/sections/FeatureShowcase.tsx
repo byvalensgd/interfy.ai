@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ChatDemo from "@/components/sections/ChatDemo";
+import Reveal from "@/components/ui/Reveal";
 
 const cardBackground =
   "linear-gradient(130deg, #ffffff 35.4%, #efefff 81.5%, #c8c8ff 108.4%)";
@@ -21,18 +23,18 @@ export default function FeatureShowcase() {
     >
       <div className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-2">
         {/* Interfy Capture */}
-        <div
-          className="flex flex-col gap-5 rounded-[20px] border border-contorno-base p-5 sm:p-[30px]"
+        <Reveal
+          className="flex flex-col gap-5 rounded-[12px] border border-contorno-base p-5 sm:p-[30px]"
           style={{ backgroundImage: cardBackground }}
         >
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
             <p
               className="bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
               style={{ backgroundImage: gradientText }}
             >
               Captura tudo, de qualquer lugar com IA.
             </p>
-            <h3 className="text-2xl font-bold leading-[1.2] text-texto">
+            <h3 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto">
               <span
                 className="bg-clip-text text-transparent"
                 style={{ backgroundImage: gradientText }}
@@ -75,21 +77,22 @@ export default function FeatureShowcase() {
               />
             </div>
           </div>
-        </div>
+        </Reveal>
 
         {/* Agentes / Voice */}
-        <div
-          className="flex flex-col gap-5 rounded-[20px] border border-contorno-base p-5 sm:p-[30px]"
+        <Reveal
+          className="flex flex-col gap-5 rounded-[12px] border border-contorno-base p-5 sm:p-[30px]"
           style={{ backgroundImage: cardBackground }}
+          delayMs={120}
         >
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
             <p
               className="bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
               style={{ backgroundImage: gradientText }}
             >
               IA que entende, executa e responde.
             </p>
-            <h3 className="text-2xl font-bold leading-[1.2] text-texto">
+            <h3 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto">
               <span
                 className="bg-clip-text text-transparent"
                 style={{ backgroundImage: gradientText }}
@@ -105,68 +108,7 @@ export default function FeatureShowcase() {
           </div>
 
           <div className="flex items-center gap-5">
-            <div className="flex flex-1 flex-col gap-4">
-              <div className="flex items-start gap-2.5">
-                <span
-                  className="flex size-[30px] shrink-0 items-center justify-center rounded-full p-1"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(94deg, #fff0fb 4%, #e3eeff 96.5%)",
-                  }}
-                >
-                  <Image
-                    src="/icons/features/user-avatar.svg"
-                    alt=""
-                    aria-hidden="true"
-                    width={30}
-                    height={30}
-                  />
-                </span>
-                <p className="flex-1 rounded-lg bg-azul-bg-superior p-3 text-sm font-medium leading-[1.2] text-texto">
-                  Mostre os contratos pendentes de assinatura
-                </p>
-              </div>
-
-              <div className="flex items-start gap-2.5">
-                <Image
-                  src="/decor/interfy-icon-sm.svg"
-                  alt=""
-                  aria-hidden="true"
-                  width={30}
-                  height={30}
-                  className="shrink-0"
-                />
-                <p className="flex-1 rounded-lg bg-branco p-3 text-sm font-medium leading-[1.2] text-texto shadow-[1px_2px_10px_0px_var(--color-shadow)]">
-                  15 contratos de assinatura pendentes de encontrados.
-                  <br />
-                  Deseja visualizar?
-                </p>
-              </div>
-
-              <div className="flex items-start gap-2.5">
-                <div className="relative h-[54px] min-h-10 flex-1">
-                  <Image
-                    src="/features/waveform.svg"
-                    alt=""
-                    aria-hidden="true"
-                    fill
-                    sizes="(min-width: 1024px) 260px, 60vw"
-                    className="object-contain"
-                  />
-                </div>
-                <span
-                  className="flex size-[30px] shrink-0 items-center justify-center rounded-full p-1.5"
-                  style={{ backgroundImage: gradientText }}
-                >
-                  <Image
-                    src="/icons/features/voice.svg"
-                    alt="Comando de voz"
-                    width={18}
-                    height={18}
-                  />
-                </span>
-              </div>
-            </div>
+            <ChatDemo />
 
             <div className="relative hidden size-[180px] shrink-0 sm:block">
               <video
@@ -180,7 +122,7 @@ export default function FeatureShowcase() {
               />
             </div>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ const variantClasses = {
 } as const;
 
 const sizeClasses = {
-  sm: "min-h-[35px] px-5 py-2.5 text-xs",
+  sm: "min-h-[35px] px-5 py-2.5 text-sm",
   md: "min-h-[50px] px-5 py-2.5 text-base",
 } as const;
 

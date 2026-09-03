@@ -1,5 +1,6 @@
 import StatsBar from "@/components/ui/StatsBar";
 import EcosystemDiagram from "@/components/ui/EcosystemDiagram";
+import Reveal from "@/components/ui/Reveal";
 import { platformStats } from "@/config/platform";
 
 export default function PlatformIntro() {
@@ -10,26 +11,30 @@ export default function PlatformIntro() {
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="grid w-full items-center gap-10 min-[1440px]:grid-cols-[520fr_840fr]">
-          <div className="flex max-w-[640px] flex-col items-start gap-10">
+          <Reveal className="flex flex-col items-center gap-10 text-center lg:max-w-[640px] lg:items-start lg:text-left">
             <h2
               id="platform-intro-heading"
-              className="text-[clamp(1.75rem,3vw+1rem,2.5rem)] font-bold leading-[1.2] text-texto"
+              className="text-[clamp(1.75rem,1.25vw+1.5rem,2.5rem)] font-bold leading-[1.2] text-texto"
             >
               Uma plataforma empresarial nativa em{" "}
               <span className="bg-[linear-gradient(112.76deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 AI
               </span>
             </h2>
-            <p className="text-lg font-medium leading-[1.2] text-texto sm:text-xl">
+            <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
               Centralize documentos, processos, pessoa, dados e comunicação em
               um único ambiente inteligente. Tudo conectado. Tudo integrado.
             </p>
-          </div>
+          </Reveal>
 
-          <EcosystemDiagram />
+          <Reveal delayMs={120}>
+            <EcosystemDiagram />
+          </Reveal>
         </div>
 
-        <StatsBar stats={platformStats} label="Escala da plataforma Interfy" size="lg" />
+        <Reveal delayMs={200}>
+          <StatsBar stats={platformStats} label="Escala da plataforma Interfy" size="lg" />
+        </Reveal>
       </div>
     </section>
   );

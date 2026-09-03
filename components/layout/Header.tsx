@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Globe } from "lucide-react";
 import { mainNav, siteConfig } from "@/config/site";
 import Button from "@/components/ui/Button";
+import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
 import MobileNav from "@/components/layout/MobileNav";
 
 export default function Header() {
@@ -39,14 +39,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
-          <button
-            type="button"
-            aria-label="Selecionar idioma: Português (Brasil)"
-            className="flex shrink-0 items-center gap-1.5 rounded-md p-1.5 text-sm font-bold text-texto hover:bg-bg-base"
-          >
-            BR
-            <Globe className="size-[18px]" aria-hidden="true" />
-          </button>
+          <LanguageSelectorCompact />
           <Button href="/comece-gratis" variant="primary" size="sm" showArrow>
             Comece Grátis
           </Button>

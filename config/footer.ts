@@ -1,6 +1,7 @@
 export type FooterLink = {
   label: string;
   href: string;
+  icon?: string;
 };
 
 export type FooterColumn = {
@@ -14,52 +15,49 @@ export const footerColumns: FooterColumn[] = [
     title: "Plataforma",
     accentGradient: "linear-gradient(146.8deg, #3447d2 4%, #0035c1 124%)",
     links: [
-      { label: "ECM - Gestão de Conteúdo Empresarial", href: "/plataforma/ecm" },
-      { label: "LVS - Digitalização com Validade Legal", href: "/plataforma/lvs" },
-      { label: "BPM - Gestão de Processos de Negócio", href: "/plataforma/bpm" },
-      { label: "SWC - Captura Web Inteligente com IA", href: "/plataforma/swc" },
-      { label: "DSS - Assinatura Digital", href: "/plataforma/dss" },
-      { label: "CIC - Chat Corporativo", href: "/plataforma/cic" },
-      { label: "Interfy AI", href: "/plataforma/ai" },
+      { label: "Documents", href: "/plataforma/ecm", icon: "/icons/products/documents.svg" },
+      { label: "Processes", href: "/plataforma/bpm", icon: "/icons/products/automation.svg" },
+      { label: "Capture", href: "/plataforma/swc", icon: "/icons/products/capture.svg" },
+      { label: "Sign", href: "/plataforma/dss", icon: "/icons/products/sign.svg" },
+      { label: "Connect", href: "/plataforma/cic", icon: "/icons/products/connect.svg" },
+      { label: "Agents", href: "/plataforma/ai", icon: "/icons/products/agents.svg" },
+      { label: "Mobile", href: "/plataforma/mobile", icon: "/icons/products/mobile.svg" },
+      { label: "Voice", href: "/plataforma/voz", icon: "/icons/products/voice.svg" },
     ],
   },
   {
-    title: "Segmentos",
+    title: "Recursos",
     accentGradient: "linear-gradient(-7.3deg, #2fb763 45.8%, #13df79 116.3%)",
     links: [
-      { label: "Concessionárias", href: "/segmentos/concessionarias" },
-      { label: "Imobiliário", href: "/segmentos/imobiliario" },
-      { label: "Jurídico", href: "/segmentos/juridico" },
-      { label: "Saúde", href: "/segmentos/saude" },
-      { label: "Farmácia & Laboratórios", href: "/segmentos/farmacia" },
-      { label: "Financeiro", href: "/segmentos/financeiro" },
-      { label: "Seguros", href: "/segmentos/seguros" },
-      { label: "Ver todos +", href: "/segmentos" },
+      { label: "Segmentos", href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
+      { label: "AI Créditos", href: "/plataforma/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
+      { label: "Integrações & API", href: "/plataforma/integracoes", icon: "/icons/footer/integracoes.svg" },
+      { label: "Universidade Interfy", href: "/universidade", icon: "/icons/footer/book.svg" },
+      { label: "Cases de Sucesso", href: "/cases", icon: "/icons/footer/certificado.svg" },
+      { label: "Status da Plataforma", href: "/status", icon: "/icons/footer/status-plataforma.svg" },
     ],
   },
   {
     title: "Empresa",
     accentGradient: "linear-gradient(90deg, #ffa812, #feb21c)",
     links: [
-      { label: "Sobre a Interfy", href: "/empresa/sobre" },
-      { label: "Plataforma Interfy", href: "/plataforma" },
-      { label: "Parceiros (Private Label)", href: "/parceria" },
-      { label: "Universidade Interfy", href: "/universidade" },
-      { label: "Blog / Conteúdo", href: "/blog" },
-      { label: "Cases de Sucesso", href: "/cases" },
-      { label: "Contato", href: "/contato" },
+      { label: "Sobre a Interfy", href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
+      { label: "Plataforma Interfy", href: "/plataforma", icon: "/icons/footer/logo-interfy.svg" },
+      { label: "Test Drive", href: "/comece-gratis", icon: "/icons/footer/free.svg" },
+      { label: "Parceiros (Private Label)", href: "/parceria", icon: "/icons/footer/parceria.svg" },
+      { label: "Blog / Conteúdo", href: "/blog", icon: "/icons/footer/blog.svg" },
     ],
   },
   {
     title: "Legal & Suporte",
     accentGradient: "linear-gradient(270deg, #9826e6, #a946ff)",
     links: [
-      { label: "Termos de Uso", href: "/legal/termos" },
-      { label: "Políticas de Privacidade", href: "/legal/privacidade" },
-      { label: "LGPD / GDPR", href: "/legal/lgpd" },
-      { label: "Segurança", href: "/legal/seguranca" },
-      { label: "Status da Plataforma", href: "/status" },
-      { label: "Suporte", href: "/suporte" },
+      { label: "Termos de Uso", href: "/legal/termos", icon: "/icons/footer/doc.svg" },
+      { label: "Políticas de Privacidade", href: "/legal/privacidade", icon: "/icons/footer/shield.svg" },
+      { label: "LGPD / GDPR", href: "/legal/lgpd", icon: "/icons/footer/shield-lgpd.svg" },
+      { label: "Segurança", href: "/legal/seguranca", icon: "/icons/footer/lock.svg" },
+      { label: "Suporte", href: "/suporte", icon: "/icons/footer/fone.svg" },
+      { label: "Contato", href: "/contato", icon: "/icons/footer/telefone.svg" },
     ],
   },
 ];
@@ -87,5 +85,3 @@ export const footerSocialBadges: FooterSocialLink[] = [
   { icon: "/footer/badge-youtube.svg", label: "YouTube", href: "https://youtube.com" },
   { icon: "/footer/badge-facebook.svg", label: "Facebook", href: "https://facebook.com" },
 ];
-
-export const footerLanguages = ["Português", "English", "Español"];

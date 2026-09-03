@@ -26,6 +26,13 @@
   --color-dss: #913afb;
   --color-cic: #1bc2df;
   --color-lvs-voice: #09a1ea;
+
+  /* Pricing plan accents */
+  --color-starter: #158ff3;
+  --color-business: #1549f3;
+  --color-corporate: #5f15f3;
+  --color-enterprise: #071f91;
+  --color-texto-sem-destaque: #bdbdbd;
 }
 
 @theme inline {
@@ -49,6 +56,12 @@
   --color-dss: var(--color-dss);
   --color-cic: var(--color-cic);
   --color-lvs-voice: var(--color-lvs-voice);
+
+  --color-starter: var(--color-starter);
+  --color-business: var(--color-business);
+  --color-corporate: var(--color-corporate);
+  --color-enterprise: var(--color-enterprise);
+  --color-texto-sem-destaque: var(--color-texto-sem-destaque);
 }
 
 body {
@@ -61,4 +74,13 @@ body {
 p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
   text-box-trim: trim-both;
   text-box-edge: cap alphabetic;
+}
+
+@keyframes waveform-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(300%);
+  }
 }
