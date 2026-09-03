@@ -8,12 +8,12 @@ function FeatureStrip({ items, label }: { items: typeof scaleFeatures; label: st
   return (
     <ul
       aria-label={label}
-      className="flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-6 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]"
+      className="grid w-full grid-cols-[repeat(auto-fit,minmax(140px,1fr))] items-stretch gap-x-10 gap-y-6 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]"
     >
       {items.map((item) => (
-        <li key={item.label} className="flex flex-1 items-center gap-2.5 min-w-[180px]">
+        <li key={item.label} className="flex flex-row items-center gap-2.5">
           <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <span className="text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
+          <span className="flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
         </li>
       ))}
     </ul>
