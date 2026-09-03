@@ -85,11 +85,11 @@ export default function Hero() {
                 className="aspect-[2625/1793] w-full"
               />
 
-              <div className="flex w-full flex-wrap items-center justify-center gap-4 px-0 sm:px-12">
+              <div className="flex w-full flex-col items-center gap-4 px-0 sm:px-12 lg:flex-row lg:flex-wrap">
                 <p className="whitespace-nowrap text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold text-texto">
                   Disponível via:
                 </p>
-                <div className="flex flex-1 flex-wrap items-center justify-end gap-4">
+                <div className="flex w-full flex-wrap items-center justify-center gap-4 lg:w-auto lg:flex-1 lg:justify-end">
                   {heroBadges.map((badge) => (
                     <div
                       key={badge.src}

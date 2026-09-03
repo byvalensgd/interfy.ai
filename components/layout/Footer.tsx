@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { footerTrustItems } from "@/config/trust";
 import { LanguageSelectorFull } from "@/components/ui/LanguageSelector";
+import FooterNavColumn from "@/components/ui/FooterNavColumn";
 import {
   footerColumns,
   footerRegions,
@@ -15,15 +15,15 @@ export default function Footer() {
     <footer className="flex flex-col items-center gap-10 bg-bg-base pt-[50px]">
       <div className="flex w-full justify-center px-5">
         <div className="grid w-full max-w-[1400px] grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-[340px_repeat(4,1fr)]">
-          <div className="flex flex-col items-start gap-5 sm:col-span-2 lg:col-span-1">
+          <div className="flex flex-col items-center gap-5 text-center sm:col-span-2 lg:col-span-1 lg:items-start lg:text-left">
             <div className="relative h-[50px] w-full max-w-[200px]">
               <Image src="/footer/logo-land.svg" alt={siteConfig.name} fill sizes="200px" className="object-contain object-left" />
             </div>
-            <p className="mt-auto text-base leading-[1.2] font-normal text-texto">
+            <p className="text-base leading-[1.2] font-normal text-texto">
               Plataforma completa para gestão corporativa, automação de processos, documentos
               digitais e inteligência artificial.
             </p>
-            <div className="flex w-full items-center gap-2.5">
+            <div className="mt-auto flex w-full items-center justify-center gap-2.5 lg:justify-start">
               <Image src="/footer/local.svg" alt="" aria-hidden="true" width={20} height={20} />
               <p className="text-sm leading-[1.2] font-medium text-texto">Orlando, Flórida - USA</p>
             </div>
@@ -45,34 +45,7 @@ export default function Footer() {
           </div>
 
           {footerColumns.map((column) => (
-            <nav
-              key={column.title}
-              aria-label={column.title}
-              className="flex h-full min-h-[320px] flex-col items-start gap-10 border-l border-contorno-base pl-5"
-            >
-              <div className="flex flex-col items-start gap-2.5">
-                <h2 className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-bold text-texto">{column.title}</h2>
-                <div
-                  className="h-[1.5px] w-[30px] rounded-full"
-                  style={{ backgroundImage: column.accentGradient }}
-                />
-              </div>
-              <ul className="flex w-full flex-1 flex-col items-start justify-between">
-                {column.links.map((link) => (
-                  <li key={link.label}>
-                    <Link
-                      href={link.href}
-                      className="flex items-center gap-2.5 text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
-                    >
-                      {link.icon && (
-                        <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
-                      )}
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            <FooterNavColumn key={column.title} column={column} />
           ))}
         </div>
       </div>
@@ -83,11 +56,11 @@ export default function Footer() {
             <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-bold text-texto">
               Uma plataforma global, presente em mais de 180 países
             </p>
-            <div className="flex flex-wrap items-center gap-10">
-              <p className="max-w-[300px] flex-1 text-base leading-[1.2] font-normal text-texto">
+            <div className="flex w-full flex-col gap-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-10">
+              <p className="text-base leading-[1.2] font-normal text-texto sm:max-w-[300px] sm:flex-1">
                 Com páginas comerciais específicas para:
               </p>
-              <ul className="grid flex-1 grid-cols-2 gap-x-6 gap-y-3 sm:flex sm:flex-wrap sm:items-center sm:justify-end sm:gap-10">
+              <ul className="grid grid-cols-2 gap-x-6 gap-y-3 sm:flex sm:flex-1 sm:flex-wrap sm:items-center sm:justify-end sm:gap-10">
                 {footerRegions.map((region) => (
                   <li key={region} className="text-base leading-[1.2] font-normal whitespace-nowrap text-texto sm:text-right">
                     {region}
@@ -100,9 +73,9 @@ export default function Footer() {
       </div>
 
       <div className="flex w-full justify-center px-5">
-        <ul className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-x-20 gap-y-10 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5">
+        <ul className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5">
           {footerTrustItems.map((item) => (
-            <li key={item.title} className="flex items-center gap-5 py-5">
+            <li key={item.title} className="flex items-center gap-5 py-4">
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
               <div className="flex flex-col gap-2.5">
                 <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-bold text-texto">{item.title}</p>
@@ -123,7 +96,7 @@ export default function Footer() {
 
           <div className="flex min-w-[360px] flex-1 flex-wrap items-center justify-center gap-5">
             <p
-              className="min-w-[94px] flex-1 bg-clip-text text-right text-base leading-[1.2] font-normal text-transparent"
+              className="min-w-[94px] flex-1 bg-clip-text text-center text-base leading-[1.2] font-normal text-transparent sm:text-right"
               style={{ backgroundImage: "linear-gradient(90deg, #001d6b, #000928)" }}
             >
               Siga a Interfy:
