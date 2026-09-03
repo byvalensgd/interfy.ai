@@ -50,14 +50,12 @@ export default function HeroSlideshow({
   }, []);
 
   const handleMouseLeave = () => {
-    console.log("[HeroSlideshow] mouseleave");
     setHovering(false);
     setArrowsVisible(false);
     if (arrowsTimerRef.current) clearTimeout(arrowsTimerRef.current);
   };
 
   const handleContainerClick = () => {
-    console.log("[HeroSlideshow] click, index", index);
     goTo(index + 1);
     showArrows();
   };
@@ -65,16 +63,23 @@ export default function HeroSlideshow({
   return (
     <div
       className={`relative cursor-pointer select-none ${className}`}
-      onMouseEnter={() => {
-        console.log("[HeroSlideshow] mouseenter");
-        setHovering(true);
-      }}
+      onMouseEnter={() => setHovering(true)}
       onMouseLeave={handleMouseLeave}
       onClick={handleContainerClick}
       role="group"
       aria-roledescription="carousel"
       aria-label={alt}
     >
+      <svg width="0" height="0" aria-hidden="true" className="absolute">
+        <filter id="hero-slideshow-levels" colorInterpolationFilters="sRGB">
+          <feComponentTransfer>
+            <feFuncR type="table" tableValues="0 0.1 0.2 0.3 0.4 0.5 0.61 0.74 0.9 1 1" />
+            <feFuncG type="table" tableValues="0 0.1 0.2 0.3 0.4 0.5 0.61 0.74 0.9 1 1" />
+            <feFuncB type="table" tableValues="0 0.1 0.2 0.3 0.4 0.5 0.61 0.74 0.9 1 1" />
+          </feComponentTransfer>
+        </filter>
+      </svg>
+
       {images.map((src, i) => (
         <Image
           key={src}
@@ -83,7 +88,9 @@ export default function HeroSlideshow({
           aria-hidden={i === index ? undefined : true}
           fill
           priority={i === 0}
+          loading={i === 0 ? undefined : "eager"}
           sizes="(min-width: 1024px) 50vw, 100vw"
+          style={{ filter: "url(#hero-slideshow-levels)" }}
           className={`object-contain transition-opacity duration-500 ${
             i === index ? "opacity-100" : "opacity-0"
           }`}

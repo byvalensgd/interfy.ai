@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { pricingComparisonRows, smallPlans } from "@/config/pricing";
@@ -22,74 +23,56 @@ export default function PricingComparison() {
           Comparativo entre planos
         </h2>
 
-        <Reveal className="w-full overflow-x-auto rounded-2xl border border-contorno-base">
-          <table className="w-full min-w-[720px] border-collapse text-left">
-            <thead>
-              <tr className="bg-bg-base">
-                <th scope="col" className="px-5 py-2.5 text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2] text-texto">
-                  Recursos
-                </th>
-                {smallPlans.map((plan) => (
-                  <th
-                    key={plan.key}
-                    scope="col"
-                    className="px-5 py-2.5 text-center text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2]"
-                    style={plan.gradient ? undefined : { color: plan.colorVar }}
+        <Reveal className="grid w-full grid-cols-[1.5fr_repeat(4,1fr)] gap-px overflow-hidden rounded-2xl border border-contorno-base bg-contorno-base">
+          <div className="flex min-h-[45px] items-center bg-bg-base px-5 py-2.5">
+            <p className="text-lg font-bold leading-[1.2] text-texto">Recursos</p>
+          </div>
+          {smallPlans.map((plan) => (
+            <div key={plan.key} className="flex min-h-[45px] items-center justify-center bg-bg-base px-5 py-2.5 text-center">
+              <p className="text-lg font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
+                {plan.gradient ? (
+                  <span className="bg-[linear-gradient(148deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                    {plan.name}
+                  </span>
+                ) : (
+                  plan.name
+                )}
+              </p>
+            </div>
+          ))}
+
+          {pricingComparisonRows.map((row) => (
+            <Fragment key={row.label}>
+              <div className="flex min-h-[45px] items-center gap-2.5 bg-branco px-[15px] py-2.5">
+                <Image src={rowIcons[row.icon as keyof typeof rowIcons]} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
+                <p className="text-base font-bold leading-[1.2] text-texto">{row.label}</p>
+              </div>
+              {smallPlans.map((plan) => {
+                const value = row.values[plan.key];
+                const lines = value.split("\n");
+                const isSmallText = row.icon === "modules" || (row.icon === "ai" && plan.key === "startup");
+                return (
+                  <div
+                    key={`${row.label}-${plan.key}`}
+                    className="flex min-h-[45px] flex-col items-center justify-center bg-branco px-[15px] py-2.5 text-center"
                   >
-                    {plan.gradient ? (
-                      <span className="bg-[linear-gradient(148deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                        {plan.name}
-                      </span>
+                    {value === "check" ? (
+                      <Image src="/icons/pricing/compare-check.svg" alt="Incluído" width={20} height={20} />
                     ) : (
-                      plan.name
+                      lines.map((line) => (
+                        <p
+                          key={line}
+                          className={`font-bold leading-[1.2] text-texto ${isSmallText ? "text-sm" : "text-base"}`}
+                        >
+                          {line}
+                        </p>
+                      ))
                     )}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {pricingComparisonRows.map((row) => (
-                <tr key={row.label} className="border-t border-contorno-base">
-                  <th
-                    scope="row"
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-base font-bold leading-[1.2] text-texto"
-                  >
-                    <Image src={rowIcons[row.icon as keyof typeof rowIcons]} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
-                    {row.label}
-                  </th>
-                  {smallPlans.map((plan) => {
-                    const value = row.values[plan.key];
-                    return (
-                      <td
-                        key={plan.key}
-                        className="px-4 py-2.5 text-center text-base font-bold leading-[1.2] text-texto"
-                      >
-                        {value === "check" ? (
-                          <Image
-                            src="/icons/pricing/compare-check.svg"
-                            alt="Incluído"
-                            width={20}
-                            height={20}
-                            className="mx-auto"
-                          />
-                        ) : value === "cross" ? (
-                          <Image
-                            src="/icons/pricing/negative.svg"
-                            alt="Não incluído"
-                            width={20}
-                            height={20}
-                            className="mx-auto"
-                          />
-                        ) : (
-                          value
-                        )}
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                  </div>
+                );
+              })}
+            </Fragment>
+          ))}
         </Reveal>
       </div>
     </section>

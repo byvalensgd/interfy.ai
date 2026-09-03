@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
+import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { pricingHighlights, pricingProductBadges } from "@/config/pricing";
 
 const highlightIcons = {
@@ -10,6 +11,8 @@ const highlightIcons = {
   device: "/icons/pricing/device.svg",
   ai: "/icons/pricing/ai.svg",
 } as const;
+
+const heroSlides = Array.from({ length: 9 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
 
 export default function PricingHero() {
   return (
@@ -72,16 +75,11 @@ export default function PricingHero() {
             </Reveal>
 
             <Reveal className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
-              <div className="relative aspect-[4096/2250] w-full">
-                <Image
-                  src="/hero/hero-screens.webp"
-                  alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
-                  fill
-                  priority
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  className="object-contain"
-                />
-              </div>
+              <HeroSlideshow
+                images={heroSlides}
+                alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
+                className="aspect-[2625/1793] w-full"
+              />
             </Reveal>
           </div>
         </div>

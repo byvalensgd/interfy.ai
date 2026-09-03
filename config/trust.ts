@@ -8,7 +8,7 @@ export const securityBadges: TrustBadge[] = [
   { icon: "/global/lock.svg", label: "Controle de acesso" },
   { icon: "/global/doc-check.svg", label: "Auditoria completa" },
   { icon: "/global/fast-support.svg", label: "Disponibilidade 24/7" },
-  { icon: "/global/shield-workspace.svg", label: "Isolamento por worspace" },
+  { icon: "/global/shield-workspace.svg", label: "Isolamento por workspace" },
 ];
 
 export const scaleFeatures: TrustBadge[] = [

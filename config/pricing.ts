@@ -209,29 +209,54 @@ export type ComparisonRow = {
 
 export const pricingComparisonRows: ComparisonRow[] = [
   {
+    icon: "users",
+    label: "Usuários",
+    values: { free: "Até 3", individual: "1", teams: "Ilimitados", startup: "Ilimitados" },
+  },
+  {
+    icon: "workspace",
+    label: "Workspaces",
+    values: { free: "1", individual: "1", teams: "Ilimitados", startup: "Ilimitados" },
+  },
+  {
     icon: "storage",
     label: "Armazenamento",
-    values: { free: "1 GB", individual: "5 GB", teams: "10 GB", startup: "15 GB" },
+    values: { free: "5 GB", individual: "50 GB", teams: "100 GB", startup: "Ilimitado" },
+  },
+  {
+    icon: "sign",
+    label: "Assinatura Digital",
+    values: { free: "Grátis", individual: "Grátis", teams: "Grátis", startup: "Grátis" },
   },
   {
     icon: "mobile",
-    label: "Interfy Capture + Mobile",
-    values: { free: "cross", individual: "cross", teams: "cross", startup: "check" },
+    label: "Aplicativo Mobile",
+    values: { free: "check", individual: "check", teams: "check", startup: "check" },
   },
   {
     icon: "modules",
-    label: "Produtos inclusos",
-    values: { free: "2 produtos", individual: "3 produtos", teams: "3 produtos", startup: "7 produtos" },
+    label: "Módulos Inclusos",
+    values: {
+      free: "Documentos e Assinatura",
+      individual: "Documentos, Assinatura e Colaboração",
+      teams: "Documentos, Assinatura e Colaboração",
+      startup: "Todos, menos Processos",
+    },
   },
   {
     icon: "ai",
-    label: "Créditos de AI / mês",
-    values: { free: "5", individual: "10", teams: "10", startup: "20" },
+    label: "Recursos de AI",
+    values: { free: "Básicos", individual: "Padrão", teams: "Avançados", startup: "Ilimitados\nCréditos incluídos" },
   },
   {
     icon: "credits",
-    label: "Envios para Assinatura Digital / mês",
-    values: { free: "3", individual: "10", teams: "10", startup: "10" },
+    label: "AI Créditos / mês",
+    values: { free: "-", individual: "1.000", teams: "3.000", startup: "10.000" },
+  },
+  {
+    icon: "support",
+    label: "Suporte",
+    values: { free: "E-mail", individual: "E-mail", teams: "Prioritário", startup: "Premium 24/7" },
   },
 ];
 

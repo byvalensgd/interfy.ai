@@ -22,8 +22,9 @@ export default function PlatformIntro() {
               </span>
             </h2>
             <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-              Centralize documentos, processos, pessoa, dados e comunicação em
-              um único ambiente inteligente. Tudo conectado. Tudo integrado.
+              Centralize documentos, processos, pessoas, dados e comunicação
+              em um único ambiente inteligente.{" "}
+              <span className="font-bold">Tudo conectado. Tudo integrado.</span>
             </p>
           </Reveal>
 

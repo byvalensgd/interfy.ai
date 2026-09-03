@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Reveal from "@/components/ui/Reveal";
 import { resourceSections } from "@/config/pricing";
 
 function ProductResourceToggle({ label, features }: { label: string; features: string[] }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex w-full flex-col items-start">
+    <div className="flex w-full flex-col items-start gap-4">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -44,7 +45,7 @@ export default function ResourcesAccordion() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex w-full flex-col items-center gap-5">
+    <Reveal className="flex w-full flex-col items-center gap-5">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -72,6 +73,6 @@ export default function ResourcesAccordion() {
           ))}
         </div>
       )}
-    </div>
+    </Reveal>
   );
 }

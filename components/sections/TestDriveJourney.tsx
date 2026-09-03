@@ -64,7 +64,7 @@ export default function TestDriveJourney() {
             </span>
           </p>
 
-          <div className="flex w-full flex-wrap items-start">
+          <div className="flex w-full flex-wrap items-start gap-y-8">
             {journeyDays.map((day, index) => (
               <Fragment key={day.line2}>
                 <div className="flex min-w-[100px] flex-1 flex-col items-center gap-5 text-center">

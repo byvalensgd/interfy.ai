@@ -32,7 +32,7 @@ export default function PricingFaq() {
                 />
               </button>
               {isOpen && (
-                <p className="px-2.5 pb-2.5 text-sm leading-[1.2] font-medium text-texto-medio">
+                <p className="px-2.5 pt-2 pb-2.5 text-sm leading-[1.2] font-medium text-texto-medio">
                   {item.answer}
                 </p>
               )}
