@@ -13,7 +13,7 @@ export default function EcosystemGrid() {
           id="ecosystem-grid-heading"
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto"
         >
-          <span className="bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+          <span className="inline-block bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
             Ecossistema completo
           </span>{" "}
           para sua operação
@@ -33,7 +33,7 @@ export default function EcosystemGrid() {
                   <div className="flex w-full flex-col items-center gap-2.5 text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[0] font-bold">
                     <p className="w-full leading-[1.2] text-texto">Interfy</p>
                     {item.colorClass === "gradient" ? (
-                      <p className="w-full bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text leading-[1.2] text-transparent">
+                      <p className="inline-block w-full bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text leading-[1.2] text-transparent">
                         {item.product}
                       </p>
                     ) : (

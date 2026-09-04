@@ -5,13 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Reveal from "@/components/ui/Reveal";
 import ResourcesAccordion from "@/components/sections/ResourcesAccordion";
-import PricingComparison from "@/components/sections/PricingComparison";
 import {
   pricingFeatureRows,
   pricingNotIncluded,
   pricingPlans,
+  productIconPaths,
   smallPlans,
   type PlanKey,
+  type ProductIconKey,
   type SmallFeatureItem,
   type SmallPlanKey,
 } from "@/config/pricing";
@@ -110,6 +111,18 @@ function BillingSwitch({
   );
 }
 
+function ProductIconRow({ icons }: { icons: ProductIconKey[] }) {
+  return (
+    <div className="flex w-full flex-wrap items-center justify-center gap-[5px]">
+      {icons.map((icon) => (
+        <div key={icon} className="flex size-[30px] shrink-0 items-center justify-center rounded-[6px] bg-bg-base p-[6px]">
+          <Image src={productIconPaths[icon]} alt="" aria-hidden="true" width={18} height={18} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function FeatureMark({ item, planKey }: { item: SmallFeatureItem; planKey: SmallPlanKey }) {
   if (item.mark === "product") {
     return (
@@ -156,7 +169,7 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
       <div className="flex w-full flex-col items-center gap-5 border-b border-contorno-base pb-5 text-center">
         <p className="text-[32px] font-extrabold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
           {plan.gradient ? (
-            <span className="bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+            <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
               {plan.name}
             </span>
           ) : (
@@ -194,18 +207,19 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
           <p className="text-sm font-medium leading-[1.2] text-texto">Produtos inclusos no plano</p>
           <p className="text-sm font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
             {plan.gradient ? (
-              <span className="bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+              <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 {plan.productsLabel}
               </span>
             ) : (
               plan.productsLabel
             )}
           </p>
+          <ProductIconRow icons={plan.productIcons} />
         </div>
       </div>
 
       <ul className="flex w-full flex-1 flex-col gap-[15px]">
-        {variant.features.map((item, index) => (
+        {plan.features.map((item, index) => (
           <FeatureMark key={index} item={item} planKey={plan.key} />
         ))}
       </ul>
@@ -219,11 +233,19 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
   const notIncluded = pricingNotIncluded[planKey] ?? [];
 
   return (
-    <div className="flex h-full flex-col items-center gap-5 rounded-2xl border border-contorno-base bg-branco px-[15px] pb-5 pt-10">
+    <div className="relative flex h-full flex-col items-center gap-5 rounded-2xl border border-contorno-base bg-branco px-[15px] pb-5 pt-10">
+      {plan.badge && (
+        <span
+          className="-translate-x-1/2 absolute left-1/2 top-[-12px] whitespace-nowrap rounded-2xl px-5 py-1.5 text-sm font-bold text-branco"
+          style={{ backgroundImage: "linear-gradient(112deg,#184aee 22.86%,#bf18f6 96.41%)" }}
+        >
+          {plan.badge}
+        </span>
+      )}
       <div className="flex w-full flex-col items-center gap-5 border-b border-contorno-base pb-5 text-center">
         <p className="text-[32px] font-extrabold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
           {plan.gradient ? (
-            <span className="bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+            <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
               {plan.name}
             </span>
           ) : (
@@ -275,31 +297,38 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
               {plan.ctaLabel}
             </Link>
           )}
-          {plan.trialLabel && (
-            <Link href="/comece-gratis" className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
-              {plan.trialLabel}
-            </Link>
-          )}
+          {plan.trialLabel &&
+            (plan.trialLabelPlain ? (
+              <span className="text-sm font-bold leading-[1.2]" style={{ color: plan.colorVar }}>
+                {plan.trialLabel}
+              </span>
+            ) : (
+              <Link href="/comece-gratis" className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+                {plan.trialLabel}
+              </Link>
+            ))}
         </div>
 
         <div className="flex w-full flex-col gap-2.5">
           <p className="text-sm font-medium leading-[1.2] text-texto">Produtos inclusos no plano</p>
           <p className="text-base font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
             {plan.gradient ? (
-              <span className="bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+              <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 TODOS OS 8 PRODUTOS
               </span>
             ) : (
               "TODOS OS 8 PRODUTOS"
             )}
           </p>
+          <ProductIconRow icons={plan.productIcons} />
         </div>
       </div>
 
       <ul className="flex w-full flex-1 flex-col gap-[15px]">
         {pricingFeatureRows.map((row, index) => {
+          if (notIncluded.includes(index)) return null;
+
           const text = row.values[planKey];
-          const isExcluded = notIncluded.includes(index);
 
           if (row.mark === "product") {
             return (
@@ -312,21 +341,8 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
 
           return (
             <li key={index} className="flex items-start gap-[5px]">
-              <Image
-                src={isExcluded ? negativeIcon : largeCheckIcon}
-                alt=""
-                aria-hidden="true"
-                width={14}
-                height={14}
-                className="shrink-0"
-              />
-              <span
-                className={`text-sm font-medium leading-[1.2] ${
-                  isExcluded ? "text-texto-sem-destaque line-through" : "text-texto"
-                }`}
-              >
-                {text}
-              </span>
+              <Image src={largeCheckIcon} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
+              <span className="text-sm font-medium leading-[1.2] text-texto">{text}</span>
             </li>
           );
         })}
@@ -352,16 +368,13 @@ export default function PricingPlans() {
         </Reveal>
 
         {segment === "small" ? (
-          <>
-            <Reveal className="w-full" delayMs={120}>
-              <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                {smallPlans.map((plan) => (
-                  <SmallPlanCard key={plan.key} planKey={plan.key} annual={annual} />
-                ))}
-              </div>
-            </Reveal>
-            <PricingComparison />
-          </>
+          <Reveal className="w-full" delayMs={120}>
+            <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {smallPlans.map((plan) => (
+                <SmallPlanCard key={plan.key} planKey={plan.key} annual={annual} />
+              ))}
+            </div>
+          </Reveal>
         ) : (
           <>
             <Reveal className="w-full" delayMs={120}>

@@ -14,7 +14,7 @@ export default function WhyInterfy() {
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto"
         >
           Porque escolher a{" "}
-          <span className="bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+          <span className="inline-block bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
             Interfy AI?
           </span>
         </h2>

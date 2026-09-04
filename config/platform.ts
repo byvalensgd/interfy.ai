@@ -32,9 +32,9 @@ export const ecosystemItems: EcosystemItem[] = [
   },
   {
     icon: "/icons/ecosystem/automation.svg",
-    title: "Processes",
+    title: "Process",
     descriptionLines: ["Crie fluxos, aprovações", "e tarefas"],
-    titleEn: "Processes",
+    titleEn: "Process",
     descriptionEn: "Create flows, approvals and tasks",
   },
   {

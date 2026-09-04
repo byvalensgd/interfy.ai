@@ -11,13 +11,13 @@ export default function TestDriveHero() {
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-          <Reveal className="flex flex-col items-center gap-8 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+          <Reveal immediate className="flex flex-col items-center gap-8 text-center lg:max-w-[520px] lg:items-start lg:text-left">
             <h1
               id="test-drive-hero-heading"
               className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
             >
               Experimente a{" "}
-              <span className="bg-[linear-gradient(109deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+              <span className="inline-block bg-[linear-gradient(109deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 Interfy.AI
               </span>{" "}
               na prática
@@ -29,8 +29,8 @@ export default function TestDriveHero() {
 
             <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-medium text-texto">
               Crie sua Workspace, explore a plataforma e descubra como{" "}
-              <span className="bg-[linear-gradient(110deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text font-bold text-transparent">
-                Interfy Documents, Processes, Capture, Sign, Connect, Mobile, Agents &amp; Voice
+              <span className="inline-block bg-[linear-gradient(110deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text font-bold text-transparent">
+                Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents &amp; Voice
               </span>{" "}
               podem transformar sua operação com AI.
             </p>
@@ -45,7 +45,7 @@ export default function TestDriveHero() {
             </div>
           </Reveal>
 
-          <Reveal className="relative aspect-[4096/3083] w-full" delayMs={120}>
+          <Reveal immediate className="relative aspect-[4096/3083] w-full" delayMs={120}>
             <Image
               src="/test-drive/hero-devices.webp"
               alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
@@ -57,7 +57,7 @@ export default function TestDriveHero() {
           </Reveal>
         </div>
 
-        <Reveal delayMs={240}>
+        <Reveal immediate delayMs={240}>
           <ul
             aria-label="Diferenciais do Test Drive"
             className="flex w-full flex-wrap items-center justify-start gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:justify-around"

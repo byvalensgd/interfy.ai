@@ -68,7 +68,7 @@ export const testDriveCapabilities: CapabilityItem[] = [
   },
   {
     icon: "/icons/ecosystem-grid/automation.svg",
-    title: "Processes",
+    title: "Process",
     description: "Automação inteligente de processos e Tarefas",
     titleClassName: "text-bpm",
   },
@@ -100,7 +100,7 @@ export const testDriveCapabilities: CapabilityItem[] = [
     icon: "/icons/ecosystem-grid/agents.svg",
     title: "Agents",
     description: "Agentes de IA que analisam, decidem e executam",
-    titleClassName: "bg-[linear-gradient(121deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent",
+    titleClassName: "inline-block bg-[linear-gradient(121deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent",
   },
   {
     icon: "/icons/ecosystem-grid/voice.svg",

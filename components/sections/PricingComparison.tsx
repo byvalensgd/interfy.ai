@@ -31,7 +31,7 @@ export default function PricingComparison() {
             <div key={plan.key} className="flex min-h-[45px] items-center justify-center bg-bg-base px-5 py-2.5 text-center">
               <p className="text-lg font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
                 {plan.gradient ? (
-                  <span className="bg-[linear-gradient(148deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                  <span className="inline-block bg-[linear-gradient(148deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                     {plan.name}
                   </span>
                 ) : (
@@ -49,7 +49,6 @@ export default function PricingComparison() {
               </div>
               {smallPlans.map((plan) => {
                 const value = row.values[plan.key];
-                const lines = value.split("\n");
                 const isSmallText = row.icon === "modules" || (row.icon === "ai" && plan.key === "startup");
                 return (
                   <div
@@ -59,14 +58,9 @@ export default function PricingComparison() {
                     {value === "check" ? (
                       <Image src="/icons/pricing/compare-check.svg" alt="Incluído" width={20} height={20} />
                     ) : (
-                      lines.map((line) => (
-                        <p
-                          key={line}
-                          className={`font-bold leading-[1.2] text-texto ${isSmallText ? "text-sm" : "text-base"}`}
-                        >
-                          {line}
-                        </p>
-                      ))
+                      <p className={`font-bold leading-[1.2] text-texto ${isSmallText ? "text-sm" : "text-base"}`}>
+                        {value}
+                      </p>
                     )}
                   </div>
                 );

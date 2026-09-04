@@ -76,6 +76,31 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
   text-box-edge: cap alphabetic;
 }
 
+/* Gradient text (background-clip: text) must keep its full line box. Trimming
+   it shrinks the area the gradient paints into, while glyph outlines (accents,
+   ascenders, descenders) can still extend beyond that shrunk box — those parts
+   of the glyph end up unpainted, i.e. invisible. */
+.bg-clip-text {
+  text-box-trim: none;
+  text-box-edge: auto;
+}
+
+/* Segments grid: hovering any other card nudges the "Ver todos" card twice,
+   as a call-to-action; hovering the card itself keeps the plain hover zoom. */
+@keyframes segments-cta-nudge {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.segments-list:hover:not(:has(> li:last-child:hover)) .segments-cta {
+  animation: segments-cta-nudge 0.35s ease-in-out 2;
+}
+
 @keyframes waveform-sweep {
   from {
     transform: translateX(-100%);

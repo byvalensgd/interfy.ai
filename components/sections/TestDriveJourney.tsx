@@ -24,7 +24,7 @@ export default function TestDriveJourney() {
       <div className="flex w-full max-w-[1400px] flex-col gap-10">
         <Reveal className="flex flex-col gap-5 rounded-[20px] border border-contorno-base p-5 sm:p-[30px]">
           <h2 id="test-drive-journey-heading" className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">
-            Seu <span className="bg-[linear-gradient(168deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">Test Drive</span>{" "}
+            Seu <span className="inline-block bg-[linear-gradient(168deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">Test Drive</span>{" "}
             já começa pronto.
           </h2>
           <p className="text-base leading-[1.2] font-medium text-texto">
@@ -56,7 +56,7 @@ export default function TestDriveJourney() {
         <Reveal className="flex flex-col gap-5 rounded-[20px] border border-contorno-base p-5 sm:p-[30px]" delayMs={120}>
           <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-bold text-texto">
             Sugerimos uma{" "}
-            <span className="bg-[linear-gradient(170deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+            <span className="inline-block bg-[linear-gradient(170deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
               jornada de 7 dias
             </span>{" "}
             <span className="text-base font-medium">

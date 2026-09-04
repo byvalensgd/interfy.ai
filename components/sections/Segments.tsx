@@ -18,16 +18,16 @@ export default function Segments() {
         </h2>
 
         <Reveal className="w-full">
-          <ul className="grid w-full grid-cols-2 gap-4 sm:grid-cols-4 lg:flex lg:flex-wrap">
+          <ul className="segments-list grid w-full grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
             {segments.map((segment, index) => {
               const isViewAll = index === segments.length - 1;
               return (
-                <li key={segment.label} className="flex flex-1 lg:min-w-[140px]">
+                <li key={segment.label} className="flex flex-1">
                   <Link
                     href={segment.href}
                     className={`flex w-full flex-col items-center gap-4 rounded-[12px] border border-contorno-base px-4 py-5 ${
                       isViewAll
-                        ? "transition-[transform,box-shadow] duration-200 hover:scale-105 hover:shadow-[0_10px_24px_-8px_rgba(0,0,0,0.2)]"
+                        ? "segments-cta transition-[transform,box-shadow] duration-200 hover:scale-105 hover:shadow-[0_10px_24px_-8px_rgba(0,0,0,0.2)]"
                         : ""
                     }`}
                   >

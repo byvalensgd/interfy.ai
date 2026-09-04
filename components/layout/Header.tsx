@@ -22,14 +22,14 @@ export default function Header() {
 
         <nav
           aria-label="Menu principal"
-          className="hidden flex-1 items-center justify-center lg:flex"
+          className="hidden min-w-0 flex-1 items-center justify-center lg:flex"
         >
-          <ul className="flex flex-wrap items-center justify-center gap-x-10 gap-y-2.5">
+          <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 xl:gap-x-10">
             {mainNav.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="text-base text-texto transition-colors hover:text-azul-base"
+                  className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
                 >
                   {item.label}
                 </Link>
@@ -38,12 +38,12 @@ export default function Header() {
           </ul>
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
+        <div className="hidden shrink-0 items-center gap-3 lg:flex xl:gap-5">
           <LanguageSelectorCompact />
-          <Button href="/comece-gratis" variant="primary" size="sm" showArrow>
+          <Button href="/comece-gratis" variant="primary" size="sm" showArrow className="!px-3 xl:!px-5">
             Comece Grátis
           </Button>
-          <Button href="/demo" variant="secondary" size="sm">
+          <Button href="/demo" variant="secondary" size="sm" className="!px-3 xl:!px-5">
             Agende uma Demo
           </Button>
         </div>

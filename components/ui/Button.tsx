@@ -18,8 +18,8 @@ const variantClasses = {
 } as const;
 
 const sizeClasses = {
-  sm: "min-h-[35px] px-5 py-2.5 text-sm",
-  md: "min-h-[50px] px-5 py-2.5 text-base",
+  sm: "h-[35px] px-5 text-sm",
+  md: "h-[50px] px-5 text-base",
 } as const;
 
 export default function Button({
@@ -34,7 +34,7 @@ export default function Button({
   return (
     <Link
       href={href}
-      className={`inline-flex shrink-0 items-center justify-center gap-2.5 rounded-lg font-bold transition-colors ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
+      className={`inline-flex shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg font-bold leading-[1.2] transition-colors ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
       {...props}
     >
       {children}

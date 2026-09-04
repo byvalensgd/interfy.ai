@@ -5,7 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { heroBadges, heroStats } from "@/config/hero";
 
-const heroSlides = Array.from({ length: 9 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
+const heroSlides = Array.from({ length: 3 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
 
 export default function Hero() {
   return (
@@ -25,14 +25,14 @@ export default function Hero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-            <Reveal className="flex flex-col items-center gap-8 lg:max-w-[520px] lg:items-start">
+            <Reveal immediate className="flex flex-col items-center gap-8 lg:max-w-[520px] lg:items-start">
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   Transforme sua operação com{" "}
-                  <span className="bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                  <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                     IA
                   </span>
                   .
@@ -51,7 +51,7 @@ export default function Hero() {
                   aria-hidden="true"
                   width={40}
                   height={40}
-                  className="shrink-0"
+                  className="hidden shrink-0 lg:block"
                 />
                 <p className="text-center text-[clamp(1rem,0.4167vw+0.9167rem,1.25rem)] leading-[1.2] text-azul-base lg:flex-1 lg:text-left">
                   <span className="font-bold">A Interfy</span> oferece
@@ -78,7 +78,7 @@ export default function Hero() {
               </div>
             </Reveal>
 
-            <Reveal className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
+            <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
               <HeroSlideshow
                 images={heroSlides}
                 alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
@@ -115,7 +115,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <Reveal delayMs={200}>
+        <Reveal immediate delayMs={200}>
           <StatsBar stats={heroStats} label="Diferenciais da plataforma" />
         </Reveal>
       </div>

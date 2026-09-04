@@ -17,13 +17,45 @@ export type PricingProductBadge = {
 
 export const pricingProductBadges: PricingProductBadge[] = [
   { icon: "/icons/products/documents.svg", label: "Documents" },
-  { icon: "/icons/products/automation.svg", label: "Processes" },
+  { icon: "/icons/products/automation.svg", label: "Process" },
   { icon: "/icons/products/capture.svg", label: "Capture" },
   { icon: "/icons/products/sign.svg", label: "Sign" },
   { icon: "/icons/products/connect.svg", label: "Connect" },
   { icon: "/icons/products/mobile.svg", label: "Mobile" },
   { icon: "/icons/products/agents.svg", label: "Agents" },
   { icon: "/icons/products/voice.svg", label: "Voice" },
+];
+
+export type ProductIconKey =
+  | "documents"
+  | "automation"
+  | "capture"
+  | "sign"
+  | "connect"
+  | "mobile"
+  | "agents"
+  | "voice";
+
+export const productIconPaths: Record<ProductIconKey, string> = {
+  documents: "/icons/pricing/products/documents.svg",
+  automation: "/icons/pricing/products/automation.svg",
+  capture: "/icons/pricing/products/capture.svg",
+  sign: "/icons/pricing/products/sign.svg",
+  connect: "/icons/pricing/products/connect.svg",
+  mobile: "/icons/pricing/products/mobile.svg",
+  agents: "/icons/pricing/products/agents.svg",
+  voice: "/icons/pricing/products/voice.svg",
+};
+
+const allProductIcons: ProductIconKey[] = [
+  "documents",
+  "automation",
+  "capture",
+  "sign",
+  "connect",
+  "mobile",
+  "agents",
+  "voice",
 ];
 
 export type PlanKey = "starter" | "business" | "corporate" | "enterprise";
@@ -33,10 +65,13 @@ export type PricingPlan = {
   name: string;
   colorVar: string;
   gradient?: boolean;
+  badge?: string;
   monthlyPrice: number | null;
   annualPrice: number | null;
   ctaLabel: string;
   trialLabel?: string;
+  trialLabelPlain?: boolean;
+  productIcons: ProductIconKey[];
 };
 
 export const pricingPlans: PricingPlan[] = [
@@ -44,37 +79,44 @@ export const pricingPlans: PricingPlan[] = [
     key: "starter",
     name: "Starter",
     colorVar: "var(--color-starter)",
-    monthlyPrice: 171.5,
+    monthlyPrice: 195,
     annualPrice: 120,
     ctaLabel: "Contratar agora",
     trialLabel: "Teste grátis por 7 dias!",
+    productIcons: allProductIcons,
   },
   {
     key: "business",
     name: "Business",
     colorVar: "var(--color-business)",
-    monthlyPrice: 200,
-    annualPrice: 140,
+    monthlyPrice: 250,
+    annualPrice: 175,
     ctaLabel: "Contratar agora",
     trialLabel: "Teste grátis por 7 dias!",
+    productIcons: allProductIcons,
   },
   {
     key: "corporate",
     name: "Corporate",
     colorVar: "var(--color-corporate)",
-    monthlyPrice: 250,
-    annualPrice: 175,
+    monthlyPrice: 300,
+    annualPrice: 210,
     ctaLabel: "Contratar agora",
     trialLabel: "Teste grátis por 7 dias!",
+    productIcons: allProductIcons,
   },
   {
     key: "enterprise",
     name: "Enterprise",
     colorVar: "var(--color-enterprise)",
     gradient: true,
+    badge: "SOLUÇÃO PERSONALIZADA",
     monthlyPrice: null,
     annualPrice: null,
     ctaLabel: "Fale com um especialista",
+    trialLabel: "CONSULTE",
+    trialLabelPlain: true,
+    productIcons: allProductIcons,
   },
 ];
 
@@ -95,7 +137,7 @@ const included = (text: string): Record<PlanKey, string> => ({
 export const pricingFeatureRows: PlanFeatureRow[] = [
   {
     mark: "check",
-    values: included("Usuários Ilimitados (cobrança p/usuário)"),
+    values: included("Usuários Ilimitados (cobrança por usuário)"),
   },
   {
     mark: "check",
@@ -103,7 +145,7 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
       starter: "Mínimo de 5 Usuários Full",
       business: "Mínimo de 10 Usuários Full",
       corporate: "Mínimo de 15 Usuários Full",
-      enterprise: "Usuários Full Ilimitados",
+      enterprise: "Usuários Full (sob consulta)",
     },
   },
   {
@@ -117,7 +159,7 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
   },
   {
     mark: "product",
-    values: included("Interfy Capture + Mobile"),
+    values: included("Interfy Captura + Mobile"),
   },
   {
     mark: "check",
@@ -125,7 +167,7 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
       starter: "25 GB de Storage",
       business: "50 GB de Storage",
       corporate: "100 GB de Storage",
-      enterprise: "Storage Ilimitado",
+      enterprise: "Storage (sob consulta)",
     },
   },
   {
@@ -134,34 +176,25 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
       starter: "100 Créditos de AI/mês (não cumulativo)",
       business: "250 Créditos de AI/mês (não cumulativo)",
       corporate: "500 Créditos de AI/mês (não cumulativo)",
-      enterprise: "Créditos de AI/mês Ilimitados",
+      enterprise: "Créditos de AI/mês (não cumulativo) (sob consulta)",
     },
   },
   {
     mark: "check",
     values: {
       starter: "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)",
-      business: "20 Envios de Documentos para Assinatura Digital/mês (não cumulativo)",
-      corporate: "30 Envios de Documentos para Assinatura Digital/mês (não cumulativo)",
-      enterprise: "Envios de Documentos para Assinatura Digital Ilimitados",
+      business: "20 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+      corporate: "30 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+      enterprise: "Envios de Documentos Ilimitados para Assinatura Digital",
     },
   },
   {
     mark: "check",
     values: {
-      starter: "10 Digitalizações de Documentos com Validade Legal/mês (não cumulativo)",
-      business: "20 Digitalizações de Documentos com Validade Legal/mês (não cumulativo)",
-      corporate: "30 Digitalizações de Documentos com Validade Legal/mês (não cumulativo)",
-      enterprise: "Digitalizações de Documentos com Validade Legal Ilimitadas",
-    },
-  },
-  {
-    mark: "check",
-    values: {
-      starter: "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
-      business: "15 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
-      corporate: "20 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
-      enterprise: "Tickets Ilimitados do Chat para interação e compartilhamento de documentos",
+      starter: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      business: "15 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      corporate: "20 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      enterprise: "500 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
     },
   },
   {
@@ -170,11 +203,11 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
       starter: "10 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
       business: "15 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
       corporate: "20 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
-      enterprise: "Interações Dinâmicas Ilimitadas para usuários externos em Processos",
+      enterprise: "500 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
     },
   },
   { mark: "check", values: included("Processos Ilimitados") },
-  { mark: "check", values: included("Acesso API Interfy") },
+  { mark: "check", values: included("Acesso à API da Interfy") },
   { mark: "check", values: included("Identidade Visual Personalizada (White Label)") },
   { mark: "check", values: included("URL Exclusiva com Isolamento de Dados") },
   { mark: "check", values: included("Integração com Banco de Dados") },
@@ -185,20 +218,15 @@ export const pricingFeatureRows: PlanFeatureRow[] = [
   { mark: "check", values: included("Busca por OCR Full Text") },
   {
     mark: "check",
-    values: {
-      starter: "Módulo de Gestão de Arquivo Físico",
-      business: "Módulo de Gestão de Arquivo Físico",
-      corporate: "Módulo de Gestão de Arquivo Físico",
-      enterprise: "Módulo de Gestão de Arquivo Físico",
-    },
-    // Starter and Business do not include this module — see notIncludedFor below.
+    values: included("Módulo de Gestão de Arquivo Físico"),
+    // Starter and Business do not include this module — see pricingNotIncluded below (row hidden, not crossed out).
   },
 ];
 
-// Row indexes (0-based) that are crossed out ("not included") for a given plan.
+// Row indexes (0-based) that are not included, and therefore hidden, for a given plan.
 export const pricingNotIncluded: Partial<Record<PlanKey, number[]>> = {
-  starter: [20],
-  business: [20],
+  starter: [19],
+  business: [19],
 };
 
 export type ComparisonRow = {
@@ -246,7 +274,7 @@ export const pricingComparisonRows: ComparisonRow[] = [
   {
     icon: "ai",
     label: "Recursos de AI",
-    values: { free: "Básicos", individual: "Padrão", teams: "Avançados", startup: "Ilimitados\nCréditos incluídos" },
+    values: { free: "Básicos", individual: "Padrão", teams: "Avançados", startup: "Ilimitados · Créditos incluídos" },
   },
   {
     icon: "credits",
@@ -271,7 +299,6 @@ export type SmallPlanVariant = {
   price: number;
   oldPrice?: number;
   billingLabel: string;
-  features: SmallFeatureItem[];
 };
 
 export type SmallPlan = {
@@ -283,6 +310,9 @@ export type SmallPlan = {
   ctaLabel: string;
   trialLabel?: string;
   productsLabel: string;
+  productIcons: ProductIconKey[];
+  // The Mensal/Anual switch only changes how the price is displayed — the feature list is shared.
+  features: SmallFeatureItem[];
   anual: SmallPlanVariant;
   mensal: SmallPlanVariant;
 };
@@ -294,30 +324,16 @@ export const smallPlans: SmallPlan[] = [
     colorVar: "var(--color-ecm)",
     ctaLabel: "Começar grátis",
     trialLabel: "Teste Grátis por 7 dias!",
-    productsLabel: "2 PRODUTOS INCLUSOS",
-    anual: {
-      price: 0,
-      billingLabel: "Cobrança anual",
-      features: [
-        { mark: "check", text: "1 Usuário" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "1 GB de armazenamento" },
-        { mark: "check", text: "5 créditos de IA / mês" },
-        { mark: "check", text: "3 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-      ],
-    },
-    mensal: {
-      price: 0,
-      billingLabel: "Cobrança anual",
-      features: [
-        { mark: "check", text: "1 Usuário" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "1 GB de armazenamento" },
-        { mark: "check", text: "5 créditos de IA / mês" },
-        { mark: "check", text: "3 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-        { mark: "check", text: "5 Digitalizações de Documentos com Validade Legal / mês (não cumulativo)" },
-      ],
-    },
+    productsLabel: "3 PRODUTOS INCLUSOS",
+    productIcons: ["documents", "sign", "mobile"],
+    features: [
+      { mark: "check", text: "1 Usuário Full" },
+      { mark: "check", text: "1 GB de armazenamento" },
+      { mark: "check", text: "5 créditos de IA / mês" },
+      { mark: "check", text: "3 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
+    ],
+    anual: { price: 0, billingLabel: "Cobrança anual" },
+    mensal: { price: 0, billingLabel: "Cobrança mensal" },
   },
   {
     key: "individual",
@@ -325,37 +341,19 @@ export const smallPlans: SmallPlan[] = [
     colorVar: "var(--color-business)",
     ctaLabel: "Contratar agora",
     trialLabel: "Teste Grátis por 7 dias!",
-    productsLabel: "3 PRODUTOS INCLUSOS",
-    anual: {
-      price: 50,
-      oldPrice: 71.5,
-      billingLabel: "Cobrança anual",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 1 Usuário Full" },
-        { mark: "check", text: "2 Usuário(s) de Consulta" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "5 GB de armazenamento" },
-        { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
-    mensal: {
-      price: 71.5,
-      billingLabel: "Cobrança mensal",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 1 Usuário Full" },
-        { mark: "check", text: "2 Usuário(s) de Consulta" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "5 GB de armazenamento" },
-        { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-        { mark: "check", text: "10 Digitalizações de Documentos com Validade Legal / mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
+    productsLabel: "4 PRODUTOS INCLUSOS",
+    productIcons: ["documents", "sign", "connect", "mobile"],
+    features: [
+      { mark: "check", text: "Usuários Ilimitados (cobrança por usuário)" },
+      { mark: "check", text: "Mínimo de 1 Usuário Full" },
+      { mark: "check", text: "2 Usuários de Consulta" },
+      { mark: "check", text: "5 GB de armazenamento" },
+      { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
+      { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
+      { mark: "check", text: "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos" },
+    ],
+    anual: { price: 50, oldPrice: 71.5, billingLabel: "Cobrança anual" },
+    mensal: { price: 71.5, billingLabel: "Cobrança mensal" },
   },
   {
     key: "teams",
@@ -363,78 +361,44 @@ export const smallPlans: SmallPlan[] = [
     colorVar: "var(--color-corporate)",
     ctaLabel: "Contratar agora",
     trialLabel: "Teste Grátis por 7 dias!",
-    productsLabel: "3 PRODUTOS INCLUSOS",
-    anual: {
-      price: 55.02,
-      oldPrice: 78.6,
-      billingLabel: "Cobrança anual",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 2 Usuários Full" },
-        { mark: "check", text: "3 Usuário(s) de Consulta" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "10 GB de armazenamento" },
-        { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
-    mensal: {
-      price: 78.6,
-      billingLabel: "Cobrança mensal",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 2 Usuários Full" },
-        { mark: "check", text: "3 Usuário(s) de Consulta" },
-        { mark: "cross", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "10 GB de armazenamento" },
-        { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
-        { mark: "check", text: "10 Digitalizações de Documentos com Validade Legal / mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
+    productsLabel: "4 PRODUTOS INCLUSOS",
+    productIcons: ["documents", "sign", "connect", "mobile"],
+    features: [
+      { mark: "check", text: "Usuários Ilimitados (cobrança por usuário)" },
+      { mark: "check", text: "Mínimo de 5 Usuários Full" },
+      { mark: "check", text: "5 Usuários de Consulta" },
+      { mark: "check", text: "10 GB de armazenamento" },
+      { mark: "check", text: "10 Créditos de AI/mês (não cumulativo)" },
+      { mark: "check", text: "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)" },
+      { mark: "check", text: "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos" },
+    ],
+    anual: { price: 68.25, oldPrice: 97.5, billingLabel: "Cobrança anual" },
+    mensal: { price: 97.5, billingLabel: "Cobrança mensal" },
   },
   {
     key: "startup",
-    name: "Startup",
+    name: "Essential",
     colorVar: "var(--color-enterprise)",
     gradient: true,
     popular: true,
     ctaLabel: "Contratar agora",
     trialLabel: "Teste Grátis por 7 dias!",
-    productsLabel: "7 PRODUTOS INCLUSOS",
-    anual: {
-      price: 100,
-      oldPrice: 143,
-      billingLabel: "Cobrança anual",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 3 Usuários Full" },
-        { mark: "check", text: "5 Usuário(s) de Consulta" },
-        { mark: "product", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "15 GB de armazenamento" },
-        { mark: "check", text: "20 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)" },
-        { mark: "check", text: "10 Digitalizações de Documentos com Validade Legal/mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
-    mensal: {
-      price: 143,
-      billingLabel: "Cobrança mensal",
-      features: [
-        { mark: "check", text: "Usuários Ilimitados (cobrança p/usuário)" },
-        { mark: "check", text: "Mínimo de 3 Usuários Full" },
-        { mark: "check", text: "5 Usuário(s) de Consulta" },
-        { mark: "product", text: "Interfy Capture + Mobile" },
-        { mark: "check", text: "15 GB de armazenamento" },
-        { mark: "check", text: "20 Créditos de AI/mês (não cumulativo)" },
-        { mark: "check", text: "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)" },
-        { mark: "check", text: "10 Digitalizações de Documentos com Validade Legal/mês (não cumulativo)" },
-        { mark: "check", text: "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos" },
-      ],
-    },
+    productsLabel: "8 PRODUTOS INCLUSOS",
+    productIcons: allProductIcons,
+    features: [
+      { mark: "check", text: "Usuários Ilimitados (cobrança por usuário)" },
+      { mark: "check", text: "Mínimo de 5 Usuários Full" },
+      { mark: "check", text: "5 Usuários de Consulta" },
+      { mark: "product", text: "Interfy Captura + Mobile" },
+      { mark: "check", text: "15 GB de armazenamento" },
+      { mark: "check", text: "20 Créditos de AI/mês (não cumulativo)" },
+      { mark: "check", text: "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)" },
+      { mark: "check", text: "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos" },
+      { mark: "check", text: "Processos Ilimitados" },
+      { mark: "check", text: "Busca por OCR Full Text" },
+    ],
+    anual: { price: 120, oldPrice: 171, billingLabel: "Cobrança anual" },
+    mensal: { price: 171, billingLabel: "Cobrança mensal" },
   },
 ];
 
@@ -447,7 +411,7 @@ export type ResourceSection = {
 export const resourceSections: ResourceSection[] = [
   {
     key: "processos",
-    label: "Recursos do Interfy Processes",
+    label: "Recursos do Interfy Process",
     features: [
       "Criação de Processos Ilimitados",
       "Desenhador BPMN 2.0",
@@ -473,7 +437,7 @@ export const resourceSections: ResourceSection[] = [
       "Notificações por hierarquia no processo a partir do SLA",
       "Notificações de SLA crítico ou de término",
       "Vínculo do SLA com o calendário de dias úteis",
-      "Interação de Interfy Documents com Interfy Processes",
+      "Interação de Interfy Documents com Interfy Process",
       "Integração com Web Services",
     ],
   },

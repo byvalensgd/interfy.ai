@@ -7,16 +7,26 @@ export default function Reveal({
   className = "",
   delayMs = 0,
   style,
+  immediate = false,
 }: {
   children: ReactNode;
   className?: string;
   delayMs?: number;
   style?: CSSProperties;
+  /** Play the reveal on mount instead of waiting for scroll visibility —
+   * for above-the-fold banner/hero content, which must never depend on the
+   * viewport happening to be tall enough to already show it. */
+  immediate?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    if (immediate) {
+      const id = requestAnimationFrame(() => setVisible(true));
+      return () => cancelAnimationFrame(id);
+    }
+
     const el = ref.current;
     if (!el) return;
 
@@ -31,7 +41,7 @@ export default function Reveal({
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [immediate]);
 
   return (
     <div

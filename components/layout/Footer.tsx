@@ -53,16 +53,16 @@ export default function Footer() {
       <div className="flex w-full justify-center px-5">
         <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-y-10 rounded-[12px] border border-contorno-base bg-branco p-5">
           <div className="flex min-w-[350px] flex-1 flex-col gap-5">
-            <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-bold text-texto">
+            <p className="text-[18px] leading-[1.2] font-extrabold text-texto">
               Uma plataforma global, presente em mais de 180 países
             </p>
             <div className="flex w-full flex-col gap-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-10">
               <p className="text-base leading-[1.2] font-normal text-texto sm:max-w-[300px] sm:flex-1">
                 Com páginas comerciais específicas para:
               </p>
-              <ul className="grid grid-cols-2 gap-x-6 gap-y-3 sm:flex sm:flex-1 sm:flex-wrap sm:items-center sm:justify-end sm:gap-10">
+              <ul className="flex flex-wrap items-center justify-end gap-x-6 gap-y-3 sm:flex-1 sm:gap-x-10">
                 {footerRegions.map((region) => (
-                  <li key={region} className="text-base leading-[1.2] font-normal whitespace-nowrap text-texto sm:text-right">
+                  <li key={region} className="text-base leading-[1.2] font-normal whitespace-nowrap text-texto">
                     {region}
                   </li>
                 ))}
@@ -73,12 +73,12 @@ export default function Footer() {
       </div>
 
       <div className="flex w-full justify-center px-5">
-        <ul className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5">
+        <ul className="grid w-full max-w-[1400px] grid-cols-1 items-center justify-items-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 sm:grid-cols-2 lg:grid-cols-4">
           {footerTrustItems.map((item) => (
             <li key={item.title} className="flex items-center gap-5 py-4">
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
               <div className="flex flex-col gap-2.5">
-                <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-bold text-texto">{item.title}</p>
+                <p className="text-[18px] leading-[1.2] font-extrabold text-texto">{item.title}</p>
                 <p className="text-base leading-[1.2] font-normal text-texto">{item.description}</p>
               </div>
             </li>

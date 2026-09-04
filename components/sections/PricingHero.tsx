@@ -12,7 +12,7 @@ const highlightIcons = {
   ai: "/icons/pricing/ai.svg",
 } as const;
 
-const heroSlides = Array.from({ length: 9 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
+const heroSlides = Array.from({ length: 3 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
 
 export default function PricingHero() {
   return (
@@ -32,14 +32,14 @@ export default function PricingHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-            <Reveal className="flex flex-col items-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="pricing-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   A plataforma completa para transformar{" "}
-                  <span className="bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                  <span className="inline-block bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                     sua operação com IA.
                   </span>
                 </h1>
@@ -74,7 +74,7 @@ export default function PricingHero() {
               </ul>
             </Reveal>
 
-            <Reveal className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
+            <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
               <HeroSlideshow
                 images={heroSlides}
                 alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
@@ -84,7 +84,7 @@ export default function PricingHero() {
           </div>
         </div>
 
-        <Reveal delayMs={200}>
+        <Reveal immediate delayMs={200}>
           <ul className="flex w-full flex-wrap items-center justify-center gap-5">
             {pricingProductBadges.map((badge) => (
               <li

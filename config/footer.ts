@@ -16,7 +16,7 @@ export const footerColumns: FooterColumn[] = [
     accentGradient: "linear-gradient(146.8deg, #3447d2 4%, #0035c1 124%)",
     links: [
       { label: "Documents", href: "/plataforma/ecm", icon: "/icons/products/documents.svg" },
-      { label: "Processes", href: "/plataforma/bpm", icon: "/icons/products/automation.svg" },
+      { label: "Process", href: "/plataforma/bpm", icon: "/icons/products/automation.svg" },
       { label: "Capture", href: "/plataforma/swc", icon: "/icons/products/capture.svg" },
       { label: "Sign", href: "/plataforma/dss", icon: "/icons/products/sign.svg" },
       { label: "Connect", href: "/plataforma/cic", icon: "/icons/products/connect.svg" },

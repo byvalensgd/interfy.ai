@@ -29,14 +29,14 @@ export default function FeatureShowcase() {
         >
           <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
             <p
-              className="bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
+              className="inline-block bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
               style={{ backgroundImage: gradientText }}
             >
               Captura tudo, de qualquer lugar com IA.
             </p>
             <h3 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto">
               <span
-                className="bg-clip-text text-transparent"
+                className="inline-block bg-clip-text text-transparent"
                 style={{ backgroundImage: gradientText }}
               >
                 Interfy Capture
@@ -87,14 +87,14 @@ export default function FeatureShowcase() {
         >
           <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
             <p
-              className="bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
+              className="inline-block bg-clip-text text-xs font-bold uppercase tracking-wide text-transparent"
               style={{ backgroundImage: gradientText }}
             >
               IA que entende, executa e responde.
             </p>
             <h3 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto">
               <span
-                className="bg-clip-text text-transparent"
+                className="inline-block bg-clip-text text-transparent"
                 style={{ backgroundImage: gradientText }}
               >
                 Interaja

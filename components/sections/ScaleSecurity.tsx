@@ -6,10 +6,16 @@ import Reveal from "@/components/ui/Reveal";
 import { scaleFeatures, scaleTrustBadges } from "@/config/trust";
 
 function FeatureStrip({ items, label }: { items: typeof scaleFeatures; label: string }) {
+  // Fixed column counts (instead of auto-fit) so every row holds the same
+  // number of items, or at most one fewer on the last row.
+  const n = items.length;
+  const lgCols =
+    n % 4 === 0 || n % 4 === 3 ? "lg:grid-cols-4" : n % 3 === 0 || n % 3 === 2 ? "lg:grid-cols-3" : "lg:grid-cols-2";
+
   return (
     <ul
       aria-label={label}
-      className="grid w-full grid-cols-[repeat(auto-fit,minmax(140px,1fr))] items-stretch gap-x-10 gap-y-6 rounded-[12px] border border-contorno-base bg-branco px-5 py-[30px]"
+      className={`grid w-full grid-cols-1 items-stretch gap-x-10 gap-y-6 rounded-[12px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-2 ${lgCols}`}
     >
       {items.map((item) => (
         <li key={item.label} className="flex flex-row items-center gap-2.5">

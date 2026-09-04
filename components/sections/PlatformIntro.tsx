@@ -11,13 +11,13 @@ export default function PlatformIntro() {
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="grid w-full items-center gap-10 min-[1440px]:grid-cols-[520fr_840fr]">
-          <Reveal className="flex flex-col items-center gap-10 text-center lg:max-w-[640px] lg:items-start lg:text-left">
+          <Reveal className="flex flex-col items-center gap-10 text-center min-[1440px]:max-w-[640px] min-[1440px]:items-start min-[1440px]:text-left">
             <h2
               id="platform-intro-heading"
               className="text-[clamp(1.75rem,1.25vw+1.5rem,2.5rem)] font-bold leading-[1.2] text-texto"
             >
               Uma plataforma empresarial nativa em{" "}
-              <span className="bg-[linear-gradient(112.76deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+              <span className="inline-block bg-[linear-gradient(112.76deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 AI
               </span>
             </h2>

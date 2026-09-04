@@ -14,7 +14,7 @@ export const ecosystemGridItems: EcosystemGridItem[] = [
   },
   {
     icon: "/icons/ecosystem-grid/automation.svg",
-    product: "Processes",
+    product: "Process",
     colorClass: "text-bpm",
     description: "Automação inteligente de processos e Tarefas",
   },
