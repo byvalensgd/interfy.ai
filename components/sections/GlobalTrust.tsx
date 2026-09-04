@@ -84,7 +84,7 @@ export default function GlobalTrust() {
                 className="flex min-w-0 flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base px-[15px] py-5 text-center"
               >
                 <Image src={badge.icon} alt="" aria-hidden="true" width={40} height={40} />
-                <span className="text-sm leading-[1.2] font-bold text-texto">{badge.label}</span>
+                <span className="w-full text-sm leading-[1.2] font-bold text-texto">{badge.label}</span>
               </li>
             ))}
           </ul>

@@ -49,16 +49,10 @@ export default function StatsBar({
       {stats.map((stat) => (
         <li key={stat.icon} className="flex min-w-0 items-center gap-2.5">
           <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <div className="flex min-w-0 flex-col items-start gap-2">
-            {stat.label.map((line) => (
-              <p key={line} className={`leading-[1.2] font-bold text-texto-doc-ok lg:whitespace-nowrap ${number}`}>
-                {line}
-              </p>
-            ))}
+          <div className="flex min-w-0 flex-1 flex-col items-start gap-2">
+            <p className={`w-full leading-[1.2] font-bold text-texto-doc-ok ${number}`}>{stat.label}</p>
             {stat.sublabel && (
-              <p className={`leading-[1.2] font-medium text-texto lg:whitespace-nowrap ${sublabel}`}>
-                {stat.sublabel}
-              </p>
+              <p className={`w-full leading-[1.2] font-medium text-texto ${sublabel}`}>{stat.sublabel}</p>
             )}
           </div>
         </li>

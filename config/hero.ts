@@ -1,17 +1,17 @@
 export type HeroStat = {
   icon: string;
-  label: string[];
+  label: string;
   sublabel?: string;
 };
 
 export const heroStats: HeroStat[] = [
-  { icon: "/icons/stats/clientes.svg", label: ["25.000 +"], sublabel: "clientes" },
-  { icon: "/icons/stats/paises.svg", label: ["180+ países"] },
-  { icon: "/icons/stats/idiomas.svg", label: ["16 idiomas"] },
-  { icon: "/icons/stats/seguranca.svg", label: ["Segurança de ponta"] },
-  { icon: "/icons/stats/ai-native.svg", label: ["AI Native"] },
-  { icon: "/icons/stats/disponibilidade.svg", label: ["Alta", "disponibilidade"] },
-  { icon: "/icons/stats/conformidade.svg", label: ["Conformidade", "Global"] },
+  { icon: "/icons/stats/clientes.svg", label: "25.000 +", sublabel: "clientes" },
+  { icon: "/icons/stats/paises.svg", label: "180+ países" },
+  { icon: "/icons/stats/idiomas.svg", label: "16 idiomas" },
+  { icon: "/icons/stats/seguranca.svg", label: "Segurança de ponta" },
+  { icon: "/icons/stats/ai-native.svg", label: "AI Native" },
+  { icon: "/icons/stats/disponibilidade.svg", label: "Alta disponibilidade" },
+  { icon: "/icons/stats/conformidade.svg", label: "Conformidade Global" },
 ];
 
 export type HeroBadge = {
