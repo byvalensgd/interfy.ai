@@ -42,7 +42,7 @@ export default function TestDriveCTA() {
         </Reveal>
 
         <Reveal delayMs={120}>
-          <StatsBar stats={platformStats} label="Números da plataforma Interfy" />
+          <StatsBar stats={platformStats} label="Números da plataforma Interfy" size="lg" />
         </Reveal>
       </div>
     </section>

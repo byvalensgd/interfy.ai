@@ -33,9 +33,8 @@ export default function Hero() {
                 >
                   Transforme sua operação com{" "}
                   <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    IA
+                    AI.
                   </span>
-                  .
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
                   Gestão de Documentos, Automação de Processos, Captura
@@ -85,7 +84,7 @@ export default function Hero() {
                 className="aspect-[2625/1793] w-full"
               />
 
-              <div className="flex w-full flex-col items-center gap-4 px-0 sm:px-12 lg:flex-row lg:flex-wrap">
+              <div className="flex w-full flex-col items-center gap-4 px-0 lg:flex-row lg:flex-wrap lg:px-12">
                 <p className="whitespace-nowrap text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold text-texto">
                   Disponível via:
                 </p>

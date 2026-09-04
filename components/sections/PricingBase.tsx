@@ -37,7 +37,7 @@ export default function PricingBase() {
         </Reveal>
 
         <Reveal delayMs={120}>
-          <StatsBar stats={platformStats} label="Números da plataforma Interfy" />
+          <StatsBar stats={platformStats} label="Números da plataforma Interfy" size="lg" />
         </Reveal>
 
         <Reveal delayMs={240}>

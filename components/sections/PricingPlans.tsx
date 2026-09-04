@@ -196,10 +196,14 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
           >
             {plan.ctaLabel}
           </Link>
-          {plan.trialLabel && (
+          {plan.trialLabel ? (
             <Link href="/comece-gratis" className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
               {plan.trialLabel}
             </Link>
+          ) : (
+            <span aria-hidden="true" className="invisible text-sm font-bold leading-[1.2]">
+              &nbsp;
+            </span>
           )}
         </div>
 

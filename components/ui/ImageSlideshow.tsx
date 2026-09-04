@@ -35,7 +35,7 @@ export default function ImageSlideshow({
           fill
           sizes="(min-width: 1024px) 33vw, 100vw"
           priority={i === 0}
-          className={`rounded-[12px] object-cover transition-opacity duration-700 ${
+          className={`rounded-[clamp(6px,0.625vw+4px,12px)] object-cover transition-opacity duration-700 ${
             i === active ? "opacity-100" : "opacity-0"
           }`}
         />

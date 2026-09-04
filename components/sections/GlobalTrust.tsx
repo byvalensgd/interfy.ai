@@ -77,11 +77,11 @@ export default function GlobalTrust() {
               Infraestrutura segura e confiável
             </p>
           </div>
-          <ul className="flex w-full flex-wrap content-stretch justify-center gap-2.5 xl:aspect-[1756/989]">
+          <ul className="grid w-full grid-cols-1 gap-2.5 sm:grid-cols-3 xl:aspect-[1756/989]">
             {securityBadges.map((badge) => (
               <li
                 key={badge.label}
-                className="flex grow shrink-0 basis-[calc((100%-40px)/5)] flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base px-[15px] py-5 text-center xl:basis-[calc((100%-20px)/3)]"
+                className="flex min-w-0 flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base px-[15px] py-5 text-center"
               >
                 <Image src={badge.icon} alt="" aria-hidden="true" width={40} height={40} />
                 <span className="text-sm leading-[1.2] font-bold text-texto">{badge.label}</span>

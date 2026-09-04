@@ -15,12 +15,12 @@ function FeatureStrip({ items, label }: { items: typeof scaleFeatures; label: st
   return (
     <ul
       aria-label={label}
-      className={`grid w-full grid-cols-1 items-stretch gap-x-10 gap-y-6 rounded-[12px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-2 ${lgCols}`}
+      className={`grid w-full grid-cols-2 items-stretch gap-x-10 gap-y-6 rounded-[12px] border border-contorno-base bg-branco px-5 py-[30px] ${lgCols}`}
     >
       {items.map((item) => (
-        <li key={item.label} className="flex flex-row items-center gap-2.5">
+        <li key={item.label} className="flex min-w-0 flex-row items-center gap-2.5">
           <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <span className="flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
+          <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
         </li>
       ))}
     </ul>

@@ -12,7 +12,7 @@ const highlightIcons = {
   ai: "/icons/pricing/ai.svg",
 } as const;
 
-const heroSlides = Array.from({ length: 3 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
+const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
 export default function PricingHero() {
   return (
@@ -40,7 +40,7 @@ export default function PricingHero() {
                 >
                   A plataforma completa para transformar{" "}
                   <span className="inline-block bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    sua operação com IA.
+                    sua operação com AI.
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
