@@ -1,13 +1,14 @@
 import type { HeroStat } from "@/config/hero";
 
 export const platformStats: HeroStat[] = [
+  { icon: "/icons/stats/clientes.svg", label: ["25.000 +"], sublabel: "clientes" },
   { icon: "/icons/stats2/usuarios.svg", label: ["2,5M +"], sublabel: "usuários" },
-  { icon: "/icons/stats2/documentos.svg", label: ["7B +"], sublabel: "documentos" },
-  { icon: "/icons/stats2/processos.svg", label: ["6M +"], sublabel: "processos" },
-  { icon: "/icons/stats2/gerenciados.svg", label: ["500 TB"], sublabel: "gerenciados" },
+  { icon: "/icons/stats2/documentos.svg", label: ["12B +"], sublabel: "documentos" },
+  { icon: "/icons/stats2/gerenciados.svg", label: ["1000TB +"], sublabel: "armazenados" },
   { icon: "/icons/stats2/assinaturas.svg", label: ["20M +"], sublabel: "assinaturas" },
-  { icon: "/icons/stats2/uptime.svg", label: ["99,99%"], sublabel: "uptime" },
-  { icon: "/icons/stats2/suporte.svg", label: ["24/7"], sublabel: "suporte" },
+  { icon: "/icons/stats2/processos.svg", label: ["6M +"], sublabel: "processos" },
+  { icon: "/icons/stats/paises.svg", label: ["180 +"], sublabel: "países" },
+  { icon: "/icons/stats/idiomas.svg", label: ["16"], sublabel: "idiomas" },
 ];
 
 export type EcosystemItem = {

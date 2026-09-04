@@ -20,12 +20,9 @@ export default function EcosystemGrid() {
         </h2>
 
         <Reveal className="w-full">
-          <ul className="grid w-full grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-4 lg:flex lg:flex-wrap lg:items-start lg:justify-center">
+          <ul className="grid w-full grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-4 lg:grid-cols-8">
             {ecosystemGridItems.map((item) => (
-              <li
-                key={item.product}
-                className="flex flex-1 flex-col items-center gap-5 lg:min-w-[140px]"
-              >
+              <li key={item.product} className="flex flex-col items-center gap-5">
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>

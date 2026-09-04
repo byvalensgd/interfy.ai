@@ -4,7 +4,11 @@ import { howItWorksSteps } from "@/config/test-drive";
 
 export default function TestDriveSteps() {
   return (
-    <section aria-labelledby="test-drive-steps-heading" className="flex justify-center px-5 py-10 sm:py-16">
+    <section
+      id="como-funciona"
+      aria-labelledby="test-drive-steps-heading"
+      className="flex scroll-mt-[var(--header-height)] justify-center px-5 py-10 sm:py-16"
+    >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <h2 id="test-drive-steps-heading" className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">
           Como funciona o <span className="text-azul-base">Test Drive</span>

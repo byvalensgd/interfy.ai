@@ -9,7 +9,7 @@ import {
 
 function Connector({ from, to }: { from: string; to: string }) {
   return (
-    <div className="relative mt-[35px] h-px min-w-6 flex-1 bg-contorno-base" aria-hidden="true">
+    <div className="relative mt-[35px] hidden h-px min-w-6 flex-1 bg-contorno-base lg:block" aria-hidden="true">
       <span
         className="absolute left-1/2 top-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full"
         style={{ background: `linear-gradient(180deg, ${from}, ${to})` }}
@@ -64,10 +64,10 @@ export default function TestDriveJourney() {
             </span>
           </p>
 
-          <div className="flex w-full flex-wrap items-start gap-y-8">
+          <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-8 sm:grid-cols-4 lg:flex lg:flex-nowrap lg:gap-x-0">
             {journeyDays.map((day, index) => (
               <Fragment key={day.line2}>
-                <div className="flex min-w-[100px] flex-1 flex-col items-center gap-5 text-center">
+                <div className="flex min-w-[100px] flex-col items-center gap-5 text-center lg:flex-1">
                   <div className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                     <Image src={day.icon} alt="" aria-hidden="true" width={30} height={30} />
                   </div>

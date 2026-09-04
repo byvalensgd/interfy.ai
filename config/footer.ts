@@ -6,14 +6,12 @@ export type FooterLink = {
 
 export type FooterColumn = {
   title: string;
-  accentGradient: string;
   links: FooterLink[];
 };
 
 export const footerColumns: FooterColumn[] = [
   {
     title: "Plataforma",
-    accentGradient: "linear-gradient(146.8deg, #3447d2 4%, #0035c1 124%)",
     links: [
       { label: "Documents", href: "/plataforma/ecm", icon: "/icons/products/documents.svg" },
       { label: "Process", href: "/plataforma/bpm", icon: "/icons/products/automation.svg" },
@@ -27,7 +25,6 @@ export const footerColumns: FooterColumn[] = [
   },
   {
     title: "Recursos",
-    accentGradient: "linear-gradient(-7.3deg, #2fb763 45.8%, #13df79 116.3%)",
     links: [
       { label: "Segmentos", href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
       { label: "AI Créditos", href: "/plataforma/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
@@ -39,7 +36,6 @@ export const footerColumns: FooterColumn[] = [
   },
   {
     title: "Empresa",
-    accentGradient: "linear-gradient(90deg, #ffa812, #feb21c)",
     links: [
       { label: "Sobre a Interfy", href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
       { label: "Plataforma Interfy", href: "/plataforma", icon: "/icons/footer/logo-interfy.svg" },
@@ -50,7 +46,6 @@ export const footerColumns: FooterColumn[] = [
   },
   {
     title: "Legal & Suporte",
-    accentGradient: "linear-gradient(270deg, #9826e6, #a946ff)",
     links: [
       { label: "Termos de Uso", href: "/legal/termos", icon: "/icons/footer/doc.svg" },
       { label: "Políticas de Privacidade", href: "/legal/privacidade", icon: "/icons/footer/shield.svg" },

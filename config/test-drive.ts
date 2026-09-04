@@ -136,7 +136,7 @@ export type JourneyDay = {
 export const journeyDays: JourneyDay[] = [
   { icon: "/icons/test-drive/home-bt-2.svg", line1: "Conheça sua", line2: "Workspace" },
   { icon: "/icons/ecosystem-grid/documents.svg", line1: "Explore", line2: "Documents" },
-  { icon: "/icons/ecosystem-grid/automation.svg", line1: "Automatize um", line2: "Processo" },
+  { icon: "/icons/ecosystem-grid/automation.svg", line1: "Automatize", line2: "Processos" },
   { icon: "/icons/ecosystem-grid/capture.svg", line1: "Teste fazer", line2: "Capture" },
   { icon: "/icons/ecosystem-grid/sign.svg", line1: "Experimente", line2: "Sign" },
   { icon: "/icons/ecosystem-grid/agents.svg", line1: "Agents", line2: "+ Voice" },

@@ -5,7 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { heroBadges, heroStats } from "@/config/hero";
 
-const heroSlides = Array.from({ length: 3 }, (_, i) => `/hero/hero-slide-${i + 1}.webp`);
+const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
 export default function Hero() {
   return (
