@@ -109,3 +109,111 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
     transform: translateX(300%);
   }
 }
+
+/* Segments radial diagram: entrance choreography (hex, then lines growing
+   outward, rings/dots fading in as the lines reach them, then the cards). */
+@keyframes radial-pop-in {
+  from {
+    opacity: 0;
+    scale: 0.6;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes radial-grow-x {
+  from {
+    scale: 0 1;
+  }
+  to {
+    scale: 1 1;
+  }
+}
+
+@keyframes radial-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Rings each settle at their own target opacity (set via --tgt-opacity)
+   instead of a shared 1, so the entrance doesn't override the outer-rings-
+   fainter styling already in place. */
+@keyframes radial-fade-in-ring {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: var(--tgt-opacity, 1);
+  }
+}
+
+/* The center hexagon's outer gradient slowly drifts between pale tones of
+   the site's own blue/purple brand gradient — staying light, never fully
+   saturated. The two stops are phase-shifted (animation-delay) so the hue
+   seems to travel across the hexagon instead of pulsing in place. */
+@keyframes radial-hex-glow-a {
+  0%,
+  100% {
+    stop-color: #eaeeff;
+  }
+  50% {
+    stop-color: #f3e2ff;
+  }
+}
+
+@keyframes radial-hex-glow-b {
+  0%,
+  100% {
+    stop-color: #d9edff;
+  }
+  50% {
+    stop-color: #e8daff;
+  }
+}
+
+/* Segments trust illustration (dashboard mockup): bars grow and settle,
+   the donut chart drifts in a slow continuous spin, and the growth badge
+   floats gently — same float keyframe the radial diagram's icon badges use. */
+@keyframes trust-illu-grow {
+  0%,
+  100% {
+    scale: 1 0.55;
+  }
+  50% {
+    scale: 1 1;
+  }
+}
+
+@keyframes trust-illu-spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes trust-illu-spin-reverse {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: -360deg;
+  }
+}
+
+@keyframes hex-badge-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}

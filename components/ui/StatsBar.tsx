@@ -22,12 +22,15 @@ export default function StatsBar({
 
   // Fixed grid columns (instead of flex-wrap) so every row's items start at
   // the same x position, regardless of how many land in the last row.
-  // Two tiers: sm packs 4 per row, xl widens out to fit every stat in a
-  // single row (up to 8) once there's room, per the site's "stay wide as
-  // long as possible" breakpoint rule.
+  // Three tiers so items never get cramped: sm settles for a safe 2-up,
+  // lg packs a "nice" count based on divisibility, and xl widens out to fit
+  // every stat in a single row (up to 8) once there's genuinely room, per
+  // the site's "stay wide as long as possible" breakpoint rule.
   const n = stats.length;
-  const smCols =
-    n % 4 === 0 || n % 4 === 3 ? "sm:grid-cols-4" : n % 3 === 0 || n % 3 === 2 ? "sm:grid-cols-3" : "sm:grid-cols-2";
+  const smCols = n >= 2 ? "sm:grid-cols-2" : "";
+  const packedCount = n % 4 === 0 || n % 4 === 3 ? 4 : n % 3 === 0 || n % 3 === 2 ? 3 : 2;
+  const lgColsByCount = ["", "lg:grid-cols-1", "lg:grid-cols-2", "lg:grid-cols-3", "lg:grid-cols-4"];
+  const lgCols = lgColsByCount[Math.min(packedCount, n)];
   const xlColsByCount = [
     "",
     "xl:grid-cols-1",
@@ -44,7 +47,7 @@ export default function StatsBar({
   return (
     <ul
       aria-label={label}
-      className={`grid w-full grid-cols-1 gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] ${smCols} ${xlCols}`}
+      className={`grid w-full grid-cols-1 gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] ${smCols} ${lgCols} ${xlCols}`}
     >
       {stats.map((stat) => (
         <li key={stat.icon} className="flex min-w-0 items-center gap-2.5">
