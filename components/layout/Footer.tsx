@@ -60,7 +60,7 @@ export default function Footer() {
 
       <div className="flex w-full justify-center px-5">
         <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-y-10 rounded-[12px] border border-contorno-base bg-branco p-5">
-          <div className="flex min-w-[350px] flex-1 flex-col gap-5">
+          <div className="flex w-full min-w-0 flex-1 flex-col gap-5">
             <p className="text-center text-[18px] leading-[1.2] font-extrabold text-texto lg:text-left">
               Uma plataforma global, presente em mais de 180 países
             </p>
@@ -81,11 +81,11 @@ export default function Footer() {
       </div>
 
       <div className="flex w-full justify-center px-5">
-        <ul className="grid w-full max-w-[1400px] grid-cols-1 items-center justify-items-start gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid w-full max-w-[1400px] grid-cols-1 items-center justify-items-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 sm:grid-cols-2 sm:justify-items-start lg:grid-cols-4">
           {footerTrustItems.map((item) => (
-            <li key={item.title} className="flex items-center gap-5 py-4">
+            <li key={item.title} className="flex flex-col items-center gap-5 py-4 text-center sm:flex-row sm:text-left">
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
-              <div className="flex flex-col gap-2.5">
+              <div className="flex flex-col items-center gap-2.5 sm:items-start">
                 <p className="text-[18px] leading-[1.2] font-extrabold text-texto">{item.title}</p>
                 <p className="text-base leading-[1.2] font-normal text-texto">{item.description}</p>
               </div>

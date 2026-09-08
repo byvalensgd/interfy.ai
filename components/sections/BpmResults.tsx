@@ -6,23 +6,25 @@ import { bpmProcessTypes, bpmResultsChecklist } from "@/config/bpm-page";
 export default function BpmResults() {
   return (
     <section aria-label="Resultados e tipos de processos atendidos" className="flex justify-center bg-bg-base px-5 py-10 sm:py-16">
-      <div className="grid w-full max-w-[1400px] items-stretch gap-5 grid-cols-[repeat(auto-fit,minmax(min(630px,100%),1fr))]">
-        <Reveal className="flex w-full flex-col gap-6 overflow-hidden rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:flex-row sm:items-stretch">
-          <div className="flex w-full flex-1 flex-col items-start gap-6">
-            <p className="text-[20px] leading-[1.2] font-bold text-texto">
-              Resultados que você vê <span className="text-azul-base">na prática</span>
-            </p>
-            <ul className="grid w-full grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-x-6 gap-y-3">
-              {bpmResultsChecklist.map((item) => (
-                <li key={item} className="flex w-full items-center gap-2.5">
-                  <Image src="/icons/segments/check.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
-                  <span className="min-w-0 flex-1 text-sm leading-[1.2] font-medium text-texto">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="w-full shrink sm:w-1/2 sm:min-w-[220px]">
-            <ResultsChart />
+      <div className="grid w-full max-w-[1400px] items-stretch gap-5 grid-cols-[repeat(auto-fit,minmax(min(320px,100%),1fr))]">
+        <Reveal className="@container w-full overflow-hidden rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">
+          <div className="flex w-full flex-col gap-6 @min-[630px]:flex-row @min-[630px]:items-stretch">
+            <div className="flex w-full flex-col items-start gap-6 @min-[630px]:flex-1">
+              <p className="text-[20px] leading-[1.2] font-bold text-texto">
+                Resultados que você vê <span className="text-azul-base">na prática</span>
+              </p>
+              <ul className="grid w-full grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-x-6 gap-y-3">
+                {bpmResultsChecklist.map((item) => (
+                  <li key={item} className="flex w-full items-center gap-2.5">
+                    <Image src="/icons/segments/check.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
+                    <span className="min-w-0 flex-1 text-sm leading-[1.2] font-medium text-texto">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="w-full @min-[630px]:w-1/2">
+              <ResultsChart />
+            </div>
           </div>
         </Reveal>
 
