@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
-import StatsBar from "@/components/ui/StatsBar";
 import { dssFeatures } from "@/config/dss-page";
-import { platformStats } from "@/config/platform";
 
 export default function DssFeatures() {
   return (
@@ -33,10 +31,6 @@ export default function DssFeatures() {
               </li>
             ))}
           </ul>
-        </Reveal>
-
-        <Reveal className="w-full" delayMs={120}>
-          <StatsBar stats={platformStats} label="Escala da plataforma Interfy" size="lg" />
         </Reveal>
       </div>
     </section>
