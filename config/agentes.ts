@@ -125,8 +125,8 @@ export const agentesEcosystemLinks: EcosystemLink[] = [
 export const agentesEcosystemConnectorGradients: [string, string][] = [
   ["#2FB79C", "#0781EC"],
   ["#0781EC", "#2669E6"],
-  ["#2669E6", "#1BC2DF"],
-  ["#1BC2DF", "#09A1EA"],
+  ["#2669E6", "#31C4CC"],
+  ["#31C4CC", "#09A1EA"],
 ];
 
 export const agentesGovernanceList: string[] = [

@@ -3,9 +3,8 @@ import SwcHowItWorks from "@/components/sections/SwcHowItWorks";
 import SwcFeatures from "@/components/sections/SwcFeatures";
 import SwcLegalValidity from "@/components/sections/SwcLegalValidity";
 import SwcResults from "@/components/sections/SwcResults";
-import SwcPricing from "@/components/sections/SwcPricing";
-import SwcCredits from "@/components/sections/SwcCredits";
 import SwcCTA from "@/components/sections/SwcCTA";
+// SwcPricing and SwcCredits are temporarily hidden from this page (kept for future re-enabling).
 import { buildMetadata, buildSoftwareAppJsonLd } from "@/lib/seo";
 
 const description =
@@ -14,11 +13,11 @@ const description =
 export const metadata = buildMetadata({
   title: "Capture",
   description,
-  path: "/plataforma/capture",
+  path: "/platform/capture",
   keywords: ["captura inteligente de documentos", "digitalização com IA", "OCR", "reconhecimento de documentos", "Interfy Capture"],
 });
 
-const jsonLd = buildSoftwareAppJsonLd({ name: "Capture", description, path: "/plataforma/capture" });
+const jsonLd = buildSoftwareAppJsonLd({ name: "Capture", description, path: "/platform/capture" });
 
 export default function SwcPage() {
   return (
@@ -29,8 +28,6 @@ export default function SwcPage() {
       <SwcFeatures />
       <SwcLegalValidity />
       <SwcResults />
-      <SwcPricing />
-      <SwcCredits />
       <SwcCTA />
     </>
   );

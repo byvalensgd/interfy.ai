@@ -85,7 +85,7 @@ export default function AgentesHighlights() {
               value={agentesCreditsBalance.value}
               sublabel={agentesCreditsBalance.sublabel}
             />
-            <Button href="/plataforma/ai-creditos" variant="secondary" size="sm" className="!rounded-md">
+            <Button href="/platform/ai-creditos" variant="secondary" size="sm" className="!rounded-md">
               Ver detalhes
             </Button>
           </div>

@@ -11,11 +11,11 @@ const description =
 export const metadata = buildMetadata({
   title: "Sign",
   description,
-  path: "/plataforma/sign",
+  path: "/platform/sign",
   keywords: ["assinatura digital", "assinatura eletrônica", "validade jurídica", "Interfy Sign"],
 });
 
-const jsonLd = buildSoftwareAppJsonLd({ name: "Sign", description, path: "/plataforma/sign" });
+const jsonLd = buildSoftwareAppJsonLd({ name: "Sign", description, path: "/platform/sign" });
 
 export default function DssPage() {
   return (

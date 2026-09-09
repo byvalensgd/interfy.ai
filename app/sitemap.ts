@@ -9,11 +9,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/planos", priority: 0.9, changeFrequency: "weekly" },
     { path: "/comece-gratis", priority: 0.9, changeFrequency: "monthly" },
     { path: "/segmentos", priority: 0.8, changeFrequency: "monthly" },
-    { path: "/agentes", priority: 0.8, changeFrequency: "monthly" },
-    { path: "/plataforma/documents", priority: 0.9, changeFrequency: "monthly" },
-    { path: "/plataforma/process", priority: 0.9, changeFrequency: "monthly" },
-    { path: "/plataforma/capture", priority: 0.9, changeFrequency: "monthly" },
-    { path: "/plataforma/sign", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/platform/agents", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/platform/documents", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/platform/process", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/platform/capture", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/platform/sign", priority: 0.9, changeFrequency: "monthly" },
+    { path: "/platform/connect", priority: 0.9, changeFrequency: "monthly" },
   ];
 
   return routes.map((route) => ({

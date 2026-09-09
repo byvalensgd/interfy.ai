@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   title: "Agentes de IA",
   description:
     "Interfy Agentes é a camada de inteligência da plataforma. Crie agentes inteligentes para automatizar tarefas, analisar informações e impulsionar resultados em toda a sua operação.",
-  path: "/agentes",
+  path: "/platform/agents",
   keywords: ["agentes de IA", "automação inteligente", "AI agents empresarial", "Interfy Agents"],
 });
 

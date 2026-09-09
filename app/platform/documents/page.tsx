@@ -11,11 +11,11 @@ const description =
 export const metadata = buildMetadata({
   title: "Documents",
   description,
-  path: "/plataforma/documents",
+  path: "/platform/documents",
   keywords: ["gestão de documentos", "GED", "ECM", "gestão eletrônica de documentos", "Interfy Documents"],
 });
 
-const jsonLd = buildSoftwareAppJsonLd({ name: "Documents", description, path: "/plataforma/documents" });
+const jsonLd = buildSoftwareAppJsonLd({ name: "Documents", description, path: "/platform/documents" });
 
 export default function EcmPage() {
   return (

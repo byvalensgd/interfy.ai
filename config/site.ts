@@ -28,7 +28,7 @@ export type NavItem = {
 };
 
 export const mainNav: NavItem[] = [
-  { label: "Plataforma", href: "/plataforma" },
+  { label: "Plataforma", href: "/platform" },
   { label: "Segmentos", href: "/segmentos" },
   { label: "Planos", href: "/planos" },
   { label: "Blog", href: "/blog" },

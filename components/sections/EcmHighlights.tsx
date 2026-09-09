@@ -50,7 +50,7 @@ export default function EcmHighlights() {
                 ))}
               </ul>
             </div>
-            <div className="relative size-[255px] shrink-0 @max-[380px]:size-[180px]">
+            <div className="relative size-[255px] shrink-0 overflow-hidden @max-[380px]:size-[180px]">
               <video
                 src={securityBlock.image.src}
                 autoPlay
@@ -58,7 +58,7 @@ export default function EcmHighlights() {
                 muted
                 playsInline
                 aria-hidden="true"
-                className="size-full aspect-square object-cover mix-blend-multiply"
+                className="-m-px size-[calc(100%+2px)] max-w-none object-cover mix-blend-multiply"
               />
             </div>
           </div>

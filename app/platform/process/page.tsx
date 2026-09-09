@@ -12,11 +12,11 @@ const description =
 export const metadata = buildMetadata({
   title: "Process",
   description,
-  path: "/plataforma/process",
+  path: "/platform/process",
   keywords: ["automação de processos", "BPM", "workflow empresarial", "formulários inteligentes", "Interfy Process"],
 });
 
-const jsonLd = buildSoftwareAppJsonLd({ name: "Process", description, path: "/plataforma/process" });
+const jsonLd = buildSoftwareAppJsonLd({ name: "Process", description, path: "/platform/process" });
 
 export default function BpmPage() {
   return (

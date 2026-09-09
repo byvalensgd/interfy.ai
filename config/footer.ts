@@ -11,24 +11,24 @@ export type FooterColumn = {
 
 export const footerColumns: FooterColumn[] = [
   {
-    title: "Plataforma",
+    title: "Produtos",
     links: [
-      { label: "Documents", href: "/plataforma/documents", icon: "/icons/products/documents.svg" },
-      { label: "Process", href: "/plataforma/process", icon: "/icons/products/automation.svg" },
-      { label: "Capture", href: "/plataforma/capture", icon: "/icons/products/capture.svg" },
-      { label: "Sign", href: "/plataforma/sign", icon: "/icons/products/sign.svg" },
-      { label: "Connect", href: "/plataforma/connect", icon: "/icons/products/connect.svg" },
-      { label: "Agents", href: "/plataforma/agents", icon: "/icons/products/agents.svg" },
-      { label: "Mobile", href: "/plataforma/mobile", icon: "/icons/products/mobile.svg" },
-      { label: "Voice", href: "/plataforma/voice", icon: "/icons/products/voice.svg" },
+      { label: "Documents", href: "/platform/documents", icon: "/icons/products/documents.svg" },
+      { label: "Process", href: "/platform/process", icon: "/icons/products/automation.svg" },
+      { label: "Capture", href: "/platform/capture", icon: "/icons/products/capture.svg" },
+      { label: "Sign", href: "/platform/sign", icon: "/icons/products/sign.svg" },
+      { label: "Connect", href: "/platform/connect", icon: "/icons/products/connect.svg" },
+      { label: "Agents", href: "/platform/agents", icon: "/icons/products/agents.svg" },
+      { label: "Mobile", href: "/platform/mobile", icon: "/icons/products/mobile.svg" },
+      { label: "Voice", href: "/platform/voice", icon: "/icons/products/voice.svg" },
     ],
   },
   {
     title: "Recursos",
     links: [
       { label: "Segmentos", href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
-      { label: "AI Créditos", href: "/plataforma/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
-      { label: "Integrações & API", href: "/plataforma/integracoes", icon: "/icons/footer/integracoes.svg" },
+      { label: "AI Créditos", href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
+      { label: "Integrações & API", href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg" },
       { label: "Universidade Interfy", href: "/universidade", icon: "/icons/footer/book.svg" },
       { label: "Cases de Sucesso", href: "/cases", icon: "/icons/footer/certificado.svg" },
       { label: "Status da Plataforma", href: "/status", icon: "/icons/footer/status-plataforma.svg" },
@@ -38,7 +38,7 @@ export const footerColumns: FooterColumn[] = [
     title: "Empresa",
     links: [
       { label: "Sobre a Interfy", href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
-      { label: "Plataforma Interfy", href: "/plataforma", icon: "/icons/footer/logo-interfy.svg" },
+      { label: "Plataforma Interfy", href: "/platform", icon: "/icons/footer/logo-interfy.svg" },
       { label: "Test Drive", href: "/comece-gratis", icon: "/icons/footer/free.svg" },
       { label: "Parceiros (Private Label)", href: "/parceria", icon: "/icons/footer/parceria.svg" },
       { label: "Blog / Conteúdo", href: "/blog", icon: "/icons/footer/blog.svg" },

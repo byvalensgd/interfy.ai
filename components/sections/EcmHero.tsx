@@ -21,8 +21,8 @@ export default function EcmHero() {
       />
 
       <div className="flex w-full max-w-[1400px] flex-1 items-center">
-        <div className="grid w-full items-center gap-10 lg:grid-cols-[660fr_700fr]">
-          <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[660px] lg:items-start lg:text-left">
+        <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
+          <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
             <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
               <h1
                 id="ecm-hero-heading"
@@ -50,24 +50,32 @@ export default function EcmHero() {
             </div>
 
             <ul className="flex w-full flex-wrap items-start gap-5">
-              {ecmHeroStats.map((stat) => (
-                <li key={stat.icon} className="flex min-w-[202px] flex-1 flex-col items-start gap-2.5 text-left">
-                  <div className="flex w-full items-center gap-2">
-                    <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                    <span className="min-w-0 flex-1 text-lg leading-[1.2] font-extrabold text-texto">
-                      {stat.label}
+              {ecmHeroStats.map((stat, index) => {
+                const grows = index < 2;
+                return (
+                  <li
+                    key={stat.icon}
+                    className={`flex min-w-[120px] flex-col items-start gap-2.5 rounded-[14px] text-left ${grows ? "flex-[1_0_0]" : "shrink-0"}`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                      <span className="text-lg leading-[1.2] font-extrabold whitespace-nowrap text-texto">
+                        {stat.label}
+                      </span>
+                    </div>
+                    <span
+                      className={`text-sm leading-[1.2] font-medium whitespace-nowrap text-texto-medio ${grows ? "w-full" : ""}`}
+                    >
+                      {stat.sublabel}
                     </span>
-                  </div>
-                  <span className="w-full text-sm leading-[1.2] font-medium text-texto-medio">
-                    {stat.sublabel}
-                  </span>
-                </li>
-              ))}
+                  </li>
+                );
+              })}
             </ul>
           </Reveal>
 
           <Reveal immediate className="flex min-w-0 flex-col items-center" delayMs={120}>
-            <div className="relative z-0 mb-[-56px] aspect-[2625/1793] w-full">
+            <div className="relative z-0 mb-5 aspect-[2625/1793] w-full lg:mb-[-56px]">
               <Image
                 src="/ecm/hero-mockup.webp"
                 alt="Plataforma Interfy Documents exibida em tablet e smartphone, mostrando a lista de documentos e pastas"

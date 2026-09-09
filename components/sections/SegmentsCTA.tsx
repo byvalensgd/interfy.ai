@@ -8,8 +8,8 @@ import { finalFeatureStrip } from "@/config/segments-page";
 export default function SegmentsCTA() {
   return (
     <section aria-label="Comece a usar a Interfy" className="flex justify-center px-5 py-10 sm:py-16">
-      <div className="flex w-full max-w-[1400px] flex-col gap-6">
-        <Reveal className="relative flex w-full flex-col items-start gap-6 rounded-2xl p-5 sm:p-10 lg:flex-row lg:items-center lg:justify-between">
+      <div className="flex w-full max-w-[1400px] flex-col">
+        <Reveal className="relative flex w-full flex-col items-center gap-8 rounded-2xl p-5 py-8 sm:gap-10 sm:px-[30px] sm:py-10">
           <Image
             src="/segments/cta-bg.webp"
             alt=""
@@ -18,30 +18,30 @@ export default function SegmentsCTA() {
             sizes="100vw"
             className="-z-10 rounded-2xl object-cover"
           />
-          <div className="flex flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
-            <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">
-              Qual o seu segmento, o tamanho da sua empresa ou o seu desafio, somos a plataforma
-              certa.
-            </p>
-            <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium lg:max-w-2xl">
-              A Interfy transforma sua operação com IA, automação e inteligência.
-            </p>
+          <div className="flex w-full flex-col items-start gap-6 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
+              <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">
+                Qual o seu segmento, o tamanho da sua empresa ou o seu desafio, somos a plataforma
+                certa.
+              </p>
+              <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium lg:max-w-2xl">
+                A Interfy transforma sua operação com IA, automação e inteligência.
+              </p>
+            </div>
+            <div className="flex w-full flex-wrap items-center gap-5 lg:w-auto lg:shrink-0">
+              <Button href="/comece-gratis" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                Começar Grátis
+              </Button>
+              <Link
+                href="/demo"
+                className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30 lg:grow-0"
+              >
+                Agendar Demonstração
+                <Calendar className="size-5" aria-hidden="true" />
+              </Link>
+            </div>
           </div>
-          <div className="flex w-full flex-wrap items-center gap-5 lg:w-auto lg:shrink-0">
-            <Button href="/comece-gratis" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-              Começar Grátis
-            </Button>
-            <Link
-              href="/demo"
-              className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30 lg:grow-0"
-            >
-              Agendar Demonstração
-              <Calendar className="size-5" aria-hidden="true" />
-            </Link>
-          </div>
-        </Reveal>
 
-        <Reveal delayMs={120}>
           <ul className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-8 rounded-[20px] border border-contorno-base bg-branco p-5 sm:grid-cols-3 lg:grid-cols-6">
             {finalFeatureStrip.map((item) => (
               <li key={item.title} className="flex flex-col items-center gap-3.5 text-center">
