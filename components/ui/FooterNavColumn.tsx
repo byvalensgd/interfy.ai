@@ -11,7 +11,7 @@ export default function FooterNavColumn({ column }: { column: FooterColumn }) {
   return (
     <nav
       aria-label={column.title}
-      className="flex min-w-[150px] flex-col items-start gap-5 sm:h-full sm:min-h-[320px] sm:gap-10 sm:border-l sm:border-contorno-base sm:pl-5"
+      className="flex min-w-[150px] flex-col items-start gap-5 sm:h-full sm:min-h-[320px] sm:gap-10"
     >
       <button
         type="button"

@@ -1,0 +1,51 @@
+import Image from "next/image";
+import Link from "next/link";
+import { Calendar } from "lucide-react";
+import Button from "@/components/ui/Button";
+import Reveal from "@/components/ui/Reveal";
+
+export default function DssCTA() {
+  return (
+    <section aria-label="Comece a usar o Interfy Sign" className="flex justify-center px-5 py-10 sm:py-16">
+      <Reveal className="relative flex w-full max-w-[1400px] flex-col items-center gap-6 rounded-2xl p-5 sm:p-10 lg:flex-row lg:items-center lg:justify-between">
+        <Image
+          src="/dss/cta-bg.webp"
+          alt=""
+          aria-hidden="true"
+          fill
+          sizes="100vw"
+          className="-z-10 rounded-2xl object-cover"
+        />
+        <Image
+          src="/icons/dss/cta-illustration.svg"
+          alt=""
+          aria-hidden="true"
+          width={120}
+          height={114}
+          className="hidden shrink-0 lg:block"
+        />
+        <div className="flex flex-1 flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
+          <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">
+            Pronto para transformar a forma como sua empresa assina e aprova documentos?
+          </p>
+          <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium lg:max-w-2xl">
+            Comece agora mesmo com o Interfy Sign e leve mais agilidade, segurança e controle para o
+            seu negócio.
+          </p>
+        </div>
+        <div className="flex w-full flex-wrap items-center gap-5 lg:w-auto lg:shrink-0">
+          <Button href="/comece-gratis" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+            Test Drive Grátis por 7 dias
+          </Button>
+          <Link
+            href="/demo"
+            className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30 lg:grow-0"
+          >
+            Agendar Demonstração
+            <Calendar className="size-5" aria-hidden="true" />
+          </Link>
+        </div>
+      </Reveal>
+    </section>
+  );
+}

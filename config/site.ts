@@ -1,9 +1,25 @@
 export const siteConfig = {
   name: "Interfy",
-  title: "Interfy — Sistemas sob medida para o seu negócio",
+  title: "Interfy — Plataforma AI-native para Documentos e Processos",
   description:
-    "A Interfy desenvolve sistemas web sob medida para empresas que precisam de eficiência, escala e tecnologia confiável.",
+    "Gestão de documentos, automação de processos, captura inteligente e assinatura digital em uma única plataforma AI-native. Teste grátis por 7 dias, sem cartão de crédito.",
+  keywords: [
+    "Interfy",
+    "plataforma AI-native",
+    "gestão de documentos",
+    "gestão eletrônica de documentos",
+    "automação de processos",
+    "BPM",
+    "ECM",
+    "captura inteligente de documentos",
+    "assinatura digital",
+    "colaboração empresarial",
+    "agentes de IA",
+    "software de gestão empresarial",
+  ],
   url: "https://interfy.ai",
+  ogImage: "/opengraph-image",
+  locale: "pt_BR",
 } as const;
 
 export type NavItem = {

@@ -4,6 +4,7 @@ import { mainNav, siteConfig } from "@/config/site";
 import Button from "@/components/ui/Button";
 import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
 import MobileNav from "@/components/layout/MobileNav";
+import ProductsMenu from "@/components/layout/ProductsMenu";
 
 export default function Header() {
   return (
@@ -25,7 +26,18 @@ export default function Header() {
           className="hidden min-w-0 flex-1 items-center justify-center lg:flex"
         >
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 xl:gap-x-10">
-            {mainNav.map((item) => (
+            <li>
+              <Link
+                href={mainNav[0].href}
+                className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
+              >
+                {mainNav[0].label}
+              </Link>
+            </li>
+            <li>
+              <ProductsMenu />
+            </li>
+            {mainNav.slice(1).map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
@@ -38,9 +50,9 @@ export default function Header() {
           </ul>
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-3 lg:flex xl:gap-5">
+        <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
           <LanguageSelectorCompact />
-          <Button href="/comece-gratis" variant="primary" size="sm" showArrow className="!px-3 xl:!px-5">
+          <Button href="/comece-gratis" variant="primary" size="sm" className="!px-3 xl:!px-5">
             Comece Grátis
           </Button>
           <Button href="/demo" variant="secondary" size="sm" className="!px-3 xl:!px-5">

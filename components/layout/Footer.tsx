@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center gap-10 bg-bg-base pt-[50px]">
       <div className="flex w-full justify-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-col gap-10 lg:grid lg:grid-cols-[340px_1fr] lg:items-start lg:gap-x-5">
+        <div className="flex w-full max-w-[1400px] flex-col gap-10 lg:grid lg:grid-cols-[340px_1fr] lg:items-start lg:gap-x-10">
           <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
             <div className="relative h-[50px] w-full max-w-[200px]">
               <Image src="/footer/logo-land.svg" alt={siteConfig.name} fill sizes="200px" className="object-contain object-left" />
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
 
       <div className="flex w-full justify-center px-5">
-        <ul className="grid w-full max-w-[1400px] grid-cols-1 items-center justify-items-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 sm:grid-cols-2 sm:justify-items-start lg:grid-cols-4">
+        <ul className="grid w-full max-w-[1400px] grid-cols-1 items-center justify-items-center gap-x-20 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 sm:grid-cols-2 lg:grid-cols-4">
           {footerTrustItems.map((item) => (
             <li key={item.title} className="flex flex-col items-center gap-5 py-4 text-center sm:flex-row sm:text-left">
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />

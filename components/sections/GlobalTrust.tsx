@@ -20,7 +20,7 @@ export default function GlobalTrust() {
         Sua marca, presença global e segurança
       </h2>
 
-      <div className="grid w-full max-w-[1400px] grid-cols-2 items-stretch gap-5 xl:grid-cols-3">
+      <div className="grid w-full max-w-[1400px] grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
         <Reveal className="flex w-full flex-col gap-[30px] rounded-[12px] bg-branco p-5">
           <div className="flex flex-col items-center gap-[15px] text-center xl:items-start xl:text-left">
             <p className="inline-block bg-[linear-gradient(162.5deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-xs leading-[1.2] font-bold text-transparent">
@@ -66,7 +66,7 @@ export default function GlobalTrust() {
         </Reveal>
 
         <Reveal
-          className="col-span-2 flex w-full flex-col gap-[30px] rounded-[12px] bg-branco p-5 xl:col-span-1"
+          className="flex w-full flex-col gap-[30px] rounded-[12px] bg-branco p-5 sm:col-span-2 xl:col-span-1"
           delayMs={240}
         >
           <div className="flex flex-col items-center gap-[15px] text-center xl:items-start xl:text-left">

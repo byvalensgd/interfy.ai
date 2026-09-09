@@ -13,14 +13,14 @@ export const footerColumns: FooterColumn[] = [
   {
     title: "Plataforma",
     links: [
-      { label: "Documents", href: "/plataforma/ecm", icon: "/icons/products/documents.svg" },
-      { label: "Process", href: "/plataforma/bpm", icon: "/icons/products/automation.svg" },
-      { label: "Capture", href: "/plataforma/swc", icon: "/icons/products/capture.svg" },
-      { label: "Sign", href: "/plataforma/dss", icon: "/icons/products/sign.svg" },
-      { label: "Connect", href: "/plataforma/cic", icon: "/icons/products/connect.svg" },
-      { label: "Agents", href: "/plataforma/ai", icon: "/icons/products/agents.svg" },
+      { label: "Documents", href: "/plataforma/documents", icon: "/icons/products/documents.svg" },
+      { label: "Process", href: "/plataforma/process", icon: "/icons/products/automation.svg" },
+      { label: "Capture", href: "/plataforma/capture", icon: "/icons/products/capture.svg" },
+      { label: "Sign", href: "/plataforma/sign", icon: "/icons/products/sign.svg" },
+      { label: "Connect", href: "/plataforma/connect", icon: "/icons/products/connect.svg" },
+      { label: "Agents", href: "/plataforma/agents", icon: "/icons/products/agents.svg" },
       { label: "Mobile", href: "/plataforma/mobile", icon: "/icons/products/mobile.svg" },
-      { label: "Voice", href: "/plataforma/voz", icon: "/icons/products/voice.svg" },
+      { label: "Voice", href: "/plataforma/voice", icon: "/icons/products/voice.svg" },
     ],
   },
   {

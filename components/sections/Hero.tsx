@@ -65,7 +65,7 @@ export default function Hero() {
                   variant="primary"
                   className="grow whitespace-nowrap"
                 >
-                  Teste grátis por 14 dias
+                  Teste grátis por 7 dias
                 </Button>
                 <Button
                   href="/demo"
