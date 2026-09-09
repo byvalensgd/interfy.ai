@@ -42,9 +42,7 @@ export default function EcmCTA() {
               </Link>
             </div>
           </div>
-        </Reveal>
 
-        <Reveal delayMs={120}>
           <StatsBar stats={bpmCtaFeatures} label="Diferenciais do Interfy Documents" size="lg" />
         </Reveal>
       </div>

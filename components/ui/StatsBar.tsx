@@ -13,10 +13,12 @@ export default function StatsBar({
   stats,
   label,
   size = "sm",
+  dense = false,
 }: {
   stats: HeroStat[];
   label: string;
   size?: "sm" | "lg";
+  dense?: boolean;
 }) {
   const { number, sublabel } = sizeClasses[size];
 
@@ -47,7 +49,9 @@ export default function StatsBar({
   return (
     <ul
       aria-label={label}
-      className={`grid w-full grid-cols-1 gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] ${smCols} ${lgCols} ${xlCols}`}
+      className={`grid w-full grid-cols-1 rounded-[20px] border border-contorno-base bg-branco ${
+        dense ? "gap-5 p-5" : "gap-x-10 gap-y-5 px-5 py-[30px]"
+      } ${smCols} ${lgCols} ${xlCols}`}
     >
       {stats.map((stat) => (
         <li key={stat.icon} className="flex min-w-0 items-center gap-2.5">

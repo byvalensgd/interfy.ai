@@ -56,13 +56,12 @@ export default function AgentesCTA() {
               <Image src="/agentes/robot-mascot.png" alt="" fill sizes="160px" className="object-cover object-top" />
             </div>
           </div>
+
+          <BenefitsRow />
+
           <div className="absolute top-1/2 -right-4 hidden size-[60px] -translate-y-1/2 overflow-hidden rounded-[11px] lg:block">
             <Image src="/agentes/ai-badge.png" alt="" fill sizes="60px" className="object-cover" />
           </div>
-        </Reveal>
-
-        <Reveal delayMs={120}>
-          <BenefitsRow />
         </Reveal>
       </div>
     </section>

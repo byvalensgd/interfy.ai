@@ -42,9 +42,7 @@ export default function BpmCTA() {
               </Link>
             </div>
           </div>
-        </Reveal>
 
-        <Reveal delayMs={120}>
           <StatsBar stats={bpmCtaFeatures} label="Diferenciais do Interfy Process" size="lg" />
         </Reveal>
       </div>

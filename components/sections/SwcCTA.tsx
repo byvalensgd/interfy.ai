@@ -42,9 +42,7 @@ export default function SwcCTA() {
               </Link>
             </div>
           </div>
-        </Reveal>
 
-        <Reveal delayMs={120}>
           <StatsBar stats={swcCtaHighlights} label="Diferenciais do Interfy Capture" size="lg" />
         </Reveal>
       </div>

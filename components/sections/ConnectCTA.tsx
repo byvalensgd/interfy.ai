@@ -49,9 +49,7 @@ export default function ConnectCTA() {
               className="hidden h-[120px] w-auto shrink-0 lg:block"
             />
           </div>
-        </Reveal>
 
-        <Reveal delayMs={120}>
           <StatsBar stats={heroStats} label="Números da plataforma Interfy" />
         </Reveal>
       </div>
