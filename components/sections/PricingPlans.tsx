@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -425,6 +425,19 @@ function LargePlanCard({
   );
 }
 
+// Reads the `billing` query param in its own Suspense boundary (required by
+// Next.js for useSearchParams) so the rest of PricingPlans keeps rendering
+// statically instead of the whole section bailing out to CSR.
+function BillingParamSync({ onChange }: { onChange: (billing: string | null) => void }) {
+  const billingParam = useSearchParams().get("billing");
+  const [synced, setSynced] = useState(billingParam);
+  if (billingParam !== synced) {
+    setSynced(billingParam);
+    onChange(billingParam);
+  }
+  return null;
+}
+
 export default function PricingPlans({
   pricing,
   smallPlans: smallPlanDicts,
@@ -443,20 +456,20 @@ export default function PricingPlans({
   const [segment, setSegment] = useState<"small" | "large">("small");
   const [annual, setAnnual] = useState(true);
 
-  // The hero's "Mensal"/"Anual" buttons link here with a `billing` query
-  // param so they switch this section's toggle to match, instead of only
-  // scrolling to it. Adjusting state during render (rather than in an
-  // effect) avoids an extra render pass when the param changes.
-  const billingParam = useSearchParams().get("billing");
-  const [syncedBilling, setSyncedBilling] = useState(billingParam);
-  if (billingParam !== syncedBilling) {
-    setSyncedBilling(billingParam);
-    if (billingParam === "mensal") setAnnual(false);
-    else if (billingParam === "anual") setAnnual(true);
-  }
-
   return (
     <section id="planos" aria-labelledby="pricing-plans-heading" className="flex justify-center px-5 py-10 sm:py-16">
+      {/* The hero's "Mensal"/"Anual" buttons link here with a `billing` query
+          param so they switch this section's toggle to match, instead of
+          only scrolling to it. */}
+      <Suspense fallback={null}>
+        <BillingParamSync
+          onChange={(billingParam) => {
+            if (billingParam === "mensal") setAnnual(false);
+            else if (billingParam === "anual") setAnnual(true);
+          }}
+        />
+      </Suspense>
+
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <h2 id="pricing-plans-heading" className="sr-only">
           {pricing.heading}
