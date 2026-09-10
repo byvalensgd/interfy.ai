@@ -1,0 +1,139 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: fale com sua operação por comandos de voz. Consultas, processos, relatórios e Agents acionados naturalmente, com segurança e governança em cada interação.",
+    "keywords": ["comandos de voz", "assistente de voz corporativo", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Teste Drive gratuito por 7 dias, sem cartão de crédito."
+  },
+  "hero": {
+    "heading": "Fale com",
+    "headingHighlight": "sua operação.",
+    "description": "Você pede. A Interfy entende. Os Agents executam.",
+    "ctaPrimary": "Teste Drive Grátis por 7 dias",
+    "ctaSecondary": "Agende uma demonstração",
+    "imageAlt": "Interfy Voice exibido em tablet e smartphone, mostrando comandos de voz sendo executados na plataforma",
+    "highlights": [
+      { "label": "Fale naturalmente" },
+      { "label": "AI que entende e executa" },
+      { "label": "Seguro e confiável" },
+      { "label": "Disponível em todo lugar" }
+    ],
+    "platformCards": [
+      {
+        "title": "Use pelo desktop",
+        "description": "Integração completa com o app web. Ative pelo botão e voz ou atalho e teclado e comece a falar."
+      },
+      {
+        "title": "Use pelo Mobile",
+        "description": "Disponível no app Interfy Mobile. Fale, consulte, aprove e gerencie tudo na palma da mão."
+      },
+      {
+        "title": "Segurança e permissões",
+        "description": "Acesso controlado por permissões. Sua voz, seus dados e suas operações sempre protegidos."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "O que você pode fazer com",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Interação por voz",
+        "description": "Fale naturalmente e interaja com toda a plataforma usando apenas a sua voz."
+      },
+      {
+        "title": "Linguagem natural",
+        "description": "A AI entende o que você diz, mesmo em frases completas e espontâneas."
+      },
+      {
+        "title": "Busca por voz",
+        "description": "Encontre documentos, processos, informações e muito mais com uma simples pergunta."
+      },
+      {
+        "title": "Criação de processos",
+        "description": "Crie processos completos apenas descrevendo o que você precisa."
+      },
+      {
+        "title": "Criação de formulários",
+        "description": "Gere formulários inteligentes com campos, regras e validações em segundos."
+      },
+      {
+        "title": "Consulta de documentos",
+        "description": "Pergunte sobre documentos e obtenha respostas rápidas e precisas."
+      },
+      {
+        "title": "Geração de relatórios",
+        "description": "Solicite relatórios personalizados e receba análises e insights imediatamente."
+      },
+      {
+        "title": "Acionamento de Agents",
+        "description": "Ative agentes inteligentes para executar tarefas e trazer resultados automaticamente."
+      },
+      {
+        "title": "Comandos operacionais",
+        "description": "Execute ações, atualizações e operações na plataforma por comandos de voz."
+      },
+      {
+        "title": "Confirmação para ações sensíveis",
+        "description": "Ações críticas sempre pedem confirmação por voz para garantir segurança."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Totalmente conectado ao",
+    "headingHighlight": "ecossistema Interfy",
+    "items": [
+      { "description": "Consulte e interaja com documentos" },
+      { "description": "Crie e gerencie processos por voz" },
+      { "description": "Capture documentos e extraia informações" },
+      { "description": "Envie para assinatura e acompanhe status" },
+      { "description": "Converse e colabore por voz" },
+      { "description": "Ative Agents e receba resultados" },
+      { "description": "Interação central por voz" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governança, segurança e AI Credits do Interfy Voice",
+    "governance": {
+      "title": "Governança e segurança",
+      "titleAccent": "em primeiro lugar",
+      "items": [
+        "Dados protegidos com criptografia de ponta a ponta",
+        "Permissões granulares por agente e por usuário",
+        "Trilha de auditoria de todas as interações por voz",
+        "Conformidade com LGPD, ISO 27001, SOC 2 e outras",
+        "Dados protegidos com os mais altos padrões de segurança"
+      ]
+    },
+    "credits": {
+      "title": "Consumo transparente com",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice utiliza AI Credits para processar comandos, consultas, análises e execuções.",
+      "features": [
+        { "label": "Créditos inclusos em todos os planos" },
+        { "label": "Acompanhamento em tempo real" },
+        { "label": "Compre créditos adicionais quando precisar" }
+      ],
+      "cta": "Ver detalhes",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "disponíveis"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar o Interfy Voice",
+    "heading": "Fale com sua operação.",
+    "subheading": "Simples, rápido e inteligente.",
+    "primaryButton": "Test Drive Grátis por 7 dias",
+    "secondaryButton": "Agendar Demonstração",
+    "statsLabel": "Números da plataforma Interfy",
+    "stats": [
+      { "label": "12Bi +", "sublabel": "documentos" },
+      { "label": "20M +", "sublabel": "assinaturas" },
+      { "label": "2,5M +", "sublabel": "usuários" },
+      { "label": "6Mi +", "sublabel": "processos" },
+      { "label": "1000 TB +", "sublabel": "armazenados" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "suporte" }
+    ]
+  }
+}

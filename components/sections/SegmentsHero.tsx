@@ -3,9 +3,18 @@ import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import StatsBar from "@/components/ui/StatsBar";
 import SegmentsRadialDiagram from "@/components/ui/SegmentsRadialDiagram";
-import { segmentsHeroStats } from "@/config/segments-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
+import { segmentsHeroStats as segmentsHeroStatIcons } from "@/config/segments-page";
 
-export default function SegmentsHero() {
+export default async function SegmentsHero() {
+  const locale = await getLocale();
+  const { segments } = await getDictionary();
+  const heroStats = segmentsHeroStatIcons.map((item, i) => ({
+    icon: item.icon,
+    ...segments.hero.statsItems[i],
+  }));
+
   return (
     <section
       aria-labelledby="segments-hero-heading"
@@ -20,15 +29,13 @@ export default function SegmentsHero() {
                   id="segments-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Uma plataforma para{" "}
+                  {segments.hero.titleLine1}{" "}
                   <span className="inline-block bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    todos os segmentos.
+                    {segments.hero.titleHighlight}
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  A Interfy atende empresas de diferentes setores e tamanhos com uma única
-                  plataforma AI-native, sem necessidade de versões separadas ou implantações
-                  complexas.
+                  {segments.hero.description}
                 </p>
               </div>
 
@@ -42,32 +49,31 @@ export default function SegmentsHero() {
                   className="hidden shrink-0 lg:block"
                 />
                 <p className="text-center text-[clamp(1rem,0.4167vw+0.9167rem,1.25rem)] leading-[1.2] font-bold text-texto lg:flex-1 lg:text-left">
-                  Onde existem dados, processos, documentos, clientes e decisões, existe espaço
-                  para a{" "}
+                  {segments.hero.sparkleText}{" "}
                   <span className="inline-block bg-[linear-gradient(131deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    Interfy.
+                    {segments.hero.sparkleBrand}
                   </span>
                 </p>
               </div>
 
               <div className="flex w-full flex-wrap items-center gap-5">
                 <Button href="#catalogo" variant="primary" className="grow whitespace-nowrap">
-                  Ver segmentos
+                  {segments.hero.ctaPrimary}
                 </Button>
-                <Button href="/demo" variant="secondary" className="grow whitespace-nowrap">
-                  Agende uma demonstração
+                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap">
+                  {segments.hero.ctaSecondary}
                 </Button>
               </div>
             </Reveal>
 
             <Reveal immediate className="w-full" delayMs={120}>
-              <SegmentsRadialDiagram />
+              <SegmentsRadialDiagram titles={segments.catalog.items.map((item: { title: string }) => item.title)} />
             </Reveal>
           </div>
         </div>
 
         <Reveal immediate delayMs={200}>
-          <StatsBar stats={segmentsHeroStats} label="Diferenciais da plataforma para segmentos" />
+          <StatsBar stats={heroStats} label={segments.hero.statsLabel} />
         </Reveal>
       </div>
     </section>

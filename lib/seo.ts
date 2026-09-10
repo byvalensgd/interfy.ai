@@ -1,39 +1,47 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import { locales, OG_LOCALE, type Locale } from "@/lib/i18n/config";
+import { withLocale } from "@/lib/i18n/paths";
 
 export function buildMetadata({
+  locale,
   title,
   description,
   path,
   keywords,
 }: {
+  locale: Locale;
   title: string;
   description: string;
   path: string;
   keywords?: string[];
 }): Metadata {
-  const url = `${siteConfig.url}${path}`;
+  const url = `${siteConfig.url}${withLocale(path, locale)}`;
   const fullTitle = `${title} | ${siteConfig.name}`;
 
   return {
     title,
     description,
-    keywords: keywords ?? [...siteConfig.keywords],
-    alternates: { canonical: url },
+    keywords,
+    alternates: {
+      canonical: url,
+      languages: {
+        ...Object.fromEntries(locales.map((l) => [l, `${siteConfig.url}${withLocale(path, l)}`])),
+        "x-default": `${siteConfig.url}${path}`,
+      },
+    },
     openGraph: {
       title: fullTitle,
       description,
       url,
       siteName: siteConfig.name,
-      locale: siteConfig.locale,
+      locale: OG_LOCALE[locale],
       type: "website",
-      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: fullTitle }],
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [siteConfig.ogImage],
     },
   };
 }
@@ -42,24 +50,28 @@ export function buildSoftwareAppJsonLd({
   name,
   description,
   path,
+  locale,
+  freeTrialNote,
 }: {
   name: string;
   description: string;
   path: string;
+  locale: Locale;
+  freeTrialNote: string;
 }) {
   return {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: `Interfy ${name}`,
     description,
-    url: `${siteConfig.url}${path}`,
+    url: `${siteConfig.url}${withLocale(path, locale)}`,
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "BRL",
-      description: "Test Drive grátis por 7 dias, sem cartão de crédito.",
+      description: freeTrialNote,
     },
     brand: {
       "@type": "Brand",

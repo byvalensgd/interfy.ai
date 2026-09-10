@@ -10,10 +10,14 @@ const ARROWS_VISIBLE_MS = 3000;
 export default function HeroSlideshow({
   images,
   alt,
+  prevLabel,
+  nextLabel,
   className = "",
 }: {
   images: string[];
   alt: string;
+  prevLabel: string;
+  nextLabel: string;
   className?: string;
 }) {
   const [index, setIndex] = useState(0);
@@ -88,7 +92,7 @@ export default function HeroSlideshow({
 
       <button
         type="button"
-        aria-label="Slide anterior"
+        aria-label={prevLabel}
         onClick={(e) => {
           e.stopPropagation();
           goTo(index - 1);
@@ -102,7 +106,7 @@ export default function HeroSlideshow({
       </button>
       <button
         type="button"
-        aria-label="Próximo slide"
+        aria-label={nextLabel}
         onClick={(e) => {
           e.stopPropagation();
           goTo(index + 1);

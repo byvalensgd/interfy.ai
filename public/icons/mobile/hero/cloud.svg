@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CLOUD 3">
+<path id="SECOM_x0020_5 (Stroke)" d="M14.3073 5.33333C20.7688 5.33333 26.154 9.7975 27.8464 15.8555H30.9232C35.8461 15.8555 39.9998 20.1592 40 25.2604C40 30.3618 35.8462 34.6666 30.9232 34.6667H14.1536C6.30758 34.6666 0 28.1304 0 20C0 11.8696 6.30758 5.33344 14.1536 5.33333H14.3073ZM14.1536 7.33333C7.47865 7.33344 2 12.9065 2 20C2 27.0935 7.47865 32.6666 14.1536 32.6667H30.9232C34.6751 32.6666 38 29.325 38 25.2604C37.9998 21.1961 34.675 17.8555 30.9232 17.8555H26.3281L25.9193 16.3932C24.4496 11.1322 19.8034 7.33333 14.3073 7.33333H14.1536Z" fill="url(#paint0_linear_0_235)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_235" x1="-9.09524" y1="-1.97002" x2="41.1889" y2="2.23505" gradientUnits="userSpaceOnUse">
+<stop stop-color="#184AEE"/>
+<stop offset="1" stop-color="#BF18F6"/>
+</linearGradient>
+</defs>
+</svg>

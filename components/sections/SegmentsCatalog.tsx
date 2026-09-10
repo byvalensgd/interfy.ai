@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { segmentCatalog } from "@/config/segments";
 
-export default function SegmentsCatalog() {
+export default async function SegmentsCatalog() {
+  const { segments } = await getDictionary();
+  const catalog = segmentCatalog.map((item, i) => ({ ...item, ...segments.catalog.items[i] }));
   return (
     <section
       id="catalogo"
@@ -15,20 +18,19 @@ export default function SegmentsCatalog() {
             id="segments-catalog-heading"
             className="text-2xl font-bold leading-[1.2] text-texto"
           >
-            Um único ecossistema.{" "}
+            {segments.catalog.titleLine1}{" "}
             <span className="inline-block bg-[linear-gradient(165.6deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-              Infinitas possibilidades.
+              {segments.catalog.titleHighlight}
             </span>
           </h2>
           <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-            Escolha seu segmento e descubra como a Interfy AI transforma desafios em resultados
-            reais.
+            {segments.catalog.description}
           </p>
         </div>
 
         <Reveal className="w-full">
           <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {segmentCatalog.map((segment) => (
+            {catalog.map((segment) => (
               <li
                 key={segment.title}
                 className="flex flex-col items-center gap-[35px] rounded-[20px] border border-contorno-base px-[15px] py-5"
@@ -40,7 +42,7 @@ export default function SegmentsCatalog() {
                   </p>
                 </div>
                 <ul className="flex w-full flex-col gap-2.5">
-                  {segment.bullets.map((bullet) => (
+                  {segment.bullets.map((bullet: string) => (
                     <li key={bullet} className="flex items-center gap-2.5">
                       <Image
                         src="/icons/segments/check.svg"

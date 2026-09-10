@@ -2,8 +2,14 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { dssHeroFeatureChips } from "@/config/dss-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
-export default function DssHero() {
+export default async function DssHero() {
+  const locale = await getLocale();
+  const { sign } = await getDictionary();
+  const hero = sign.hero;
+
   return (
     <section
       aria-labelledby="dss-hero-heading"
@@ -27,32 +33,32 @@ export default function DssHero() {
                   id="dss-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Assinatura{" "}
+                  {hero.heading}{" "}
                   <span className="inline-block bg-[linear-gradient(117.12deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
-                    digital grátis
+                    {hero.headingGradient}
                   </span>
                 </h1>
                 <p className="text-[clamp(1.375rem,1.1111vw+1.1111rem,2rem)] font-bold leading-[1.2] text-texto">
-                  para todos os usuários da plataforma.
+                  {hero.subheading}
                 </p>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  Assine e acompanhe documentos com{" "}
-                  <span className="text-azul-base">velocidade, segurança e integração total</span> com
-                  sua operação.
+                  {hero.descriptionPrefix}
+                  <span className="text-azul-base">{hero.descriptionHighlight}</span>
+                  {hero.descriptionSuffix}
                 </p>
               </div>
 
               <div className="flex items-center gap-2.5">
                 <Image src="/icons/dss/checkin.svg" alt="" aria-hidden="true" width={22} height={22} className="shrink-0" />
-                <span className="text-lg leading-[1.2] font-extrabold text-texto">Sem cartão de crédito</span>
+                <span className="text-lg leading-[1.2] font-extrabold text-texto">{hero.noCreditCard}</span>
               </div>
 
               <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href="/comece-gratis" variant="primary" className="grow whitespace-nowrap lg:grow-0">
-                  Teste Drive Grátis por 7 dias
+                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaPrimary}
                 </Button>
-                <Button href="/demo" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                  Agende uma demonstração
+                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaSecondary}
                 </Button>
               </div>
             </Reveal>
@@ -61,7 +67,7 @@ export default function DssHero() {
               <div className="relative aspect-[2625/1793] w-full">
                 <Image
                   src="/dss/hero-mockup.webp"
-                  alt="Plataforma Interfy Sign exibida em tablet e smartphone, mostrando um documento pronto para assinatura"
+                  alt={hero.mockupAlt}
                   fill
                   priority
                   sizes="(min-width: 1024px) 50vw, 100vw"
@@ -74,12 +80,12 @@ export default function DssHero() {
 
         <Reveal immediate delayMs={200} className="w-full">
           <ul className="flex w-full flex-wrap items-start justify-between gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">
-            {dssHeroFeatureChips.map((item) => (
+            {dssHeroFeatureChips.map((item, index) => (
               <li key={item.icon} className="flex flex-col items-center gap-2.5 text-center">
                 <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} className="shrink-0" />
                 <div className="flex flex-col items-center gap-1.5 text-sm leading-[1.2] font-bold whitespace-nowrap text-texto">
-                  <span>{item.labelLines[0]}</span>
-                  <span>{item.labelLines[1]}</span>
+                  <span>{hero.featureChips[index].labelLines[0]}</span>
+                  <span>{hero.featureChips[index].labelLines[1]}</span>
                 </div>
               </li>
             ))}

@@ -4,11 +4,17 @@ import { Calendar } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import StatsBar from "@/components/ui/StatsBar";
-import { bpmCtaFeatures } from "@/config/bpm-page";
+import { ecmCtaFeatureIcons } from "@/config/ecm-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
-export default function EcmCTA() {
+export default async function EcmCTA() {
+  const locale = await getLocale();
+  const { documents } = await getDictionary();
+  const features = ecmCtaFeatureIcons.map((icon, i) => ({ icon, ...documents.cta.features[i] }));
+
   return (
-    <section aria-label="Comece a usar a Interfy Documents" className="flex justify-center px-5 py-10 sm:py-16">
+    <section aria-label={documents.cta.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col gap-6">
         <Reveal className="relative flex w-full flex-col items-start gap-6 rounded-2xl p-5 sm:p-10">
           <Image
@@ -22,28 +28,27 @@ export default function EcmCTA() {
           <div className="flex w-full flex-wrap items-center justify-between gap-6">
             <div className="flex min-w-0 flex-1 flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
               <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">
-                Transforme seus documentos em informação estratégica
+                {documents.cta.title}
               </p>
               <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium lg:max-w-2xl">
-                Comece agora com 7 dias grátis e veja como a Interfy Documents pode revolucionar sua
-                gestão documental.
+                {documents.cta.description}
               </p>
             </div>
             <div className="flex w-full flex-wrap items-center gap-5 lg:w-auto lg:shrink-0">
-              <Button href="/comece-gratis" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                Test Drive Grátis por 7 dias
+              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                {documents.cta.primaryButton}
               </Button>
               <Link
-                href="/demo"
+                href={withLocale("/demo", locale)}
                 className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30 lg:grow-0"
               >
-                Agendar Demonstração
+                {documents.cta.secondaryButton}
                 <Calendar className="size-5" aria-hidden="true" />
               </Link>
             </div>
           </div>
 
-          <StatsBar stats={bpmCtaFeatures} label="Diferenciais do Interfy Documents" size="lg" />
+          <StatsBar stats={features} label={documents.cta.statsLabel} size="lg" />
         </Reveal>
       </div>
     </section>

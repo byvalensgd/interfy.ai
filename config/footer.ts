@@ -1,63 +1,56 @@
 export type FooterLink = {
-  label: string;
   href: string;
   icon?: string;
 };
 
 export type FooterColumn = {
-  title: string;
   links: FooterLink[];
 };
 
+/** Link order/length matches each column in messages/<locale>/footer.json's `columns`. */
 export const footerColumns: FooterColumn[] = [
   {
-    title: "Produtos",
     links: [
-      { label: "Documents", href: "/platform/documents", icon: "/icons/products/documents.svg" },
-      { label: "Process", href: "/platform/process", icon: "/icons/products/automation.svg" },
-      { label: "Capture", href: "/platform/capture", icon: "/icons/products/capture.svg" },
-      { label: "Sign", href: "/platform/sign", icon: "/icons/products/sign.svg" },
-      { label: "Connect", href: "/platform/connect", icon: "/icons/products/connect.svg" },
-      { label: "Agents", href: "/platform/agents", icon: "/icons/products/agents.svg" },
-      { label: "Mobile", href: "/platform/mobile", icon: "/icons/products/mobile.svg" },
-      { label: "Voice", href: "/platform/voice", icon: "/icons/products/voice.svg" },
+      { href: "/platform/documents", icon: "/icons/products/documents.svg" },
+      { href: "/platform/process", icon: "/icons/products/automation.svg" },
+      { href: "/platform/capture", icon: "/icons/products/capture.svg" },
+      { href: "/platform/sign", icon: "/icons/products/sign.svg" },
+      { href: "/platform/connect", icon: "/icons/products/connect.svg" },
+      { href: "/platform/agents", icon: "/icons/products/agents.svg" },
+      { href: "/platform/mobile", icon: "/icons/products/mobile.svg" },
+      { href: "/platform/voice", icon: "/icons/products/voice.svg" },
     ],
   },
   {
-    title: "Recursos",
     links: [
-      { label: "Segmentos", href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
-      { label: "AI Créditos", href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
-      { label: "Integrações & API", href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg" },
-      { label: "Universidade Interfy", href: "/universidade", icon: "/icons/footer/book.svg" },
-      { label: "Cases de Sucesso", href: "/cases", icon: "/icons/footer/certificado.svg" },
-      { label: "Status da Plataforma", href: "/status", icon: "/icons/footer/status-plataforma.svg" },
+      { href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
+      { href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
+      { href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg" },
+      { href: "/universidade", icon: "/icons/footer/book.svg" },
+      { href: "/cases", icon: "/icons/footer/certificado.svg" },
+      { href: "/status", icon: "/icons/footer/status-plataforma.svg" },
     ],
   },
   {
-    title: "Empresa",
     links: [
-      { label: "Sobre a Interfy", href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
-      { label: "Plataforma Interfy", href: "/platform", icon: "/icons/footer/logo-interfy.svg" },
-      { label: "Test Drive", href: "/comece-gratis", icon: "/icons/footer/free.svg" },
-      { label: "Parceiros (Private Label)", href: "/parceria", icon: "/icons/footer/parceria.svg" },
-      { label: "Blog / Conteúdo", href: "/blog", icon: "/icons/footer/blog.svg" },
+      { href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
+      { href: "/platform", icon: "/icons/footer/logo-interfy.svg" },
+      { href: "/comece-gratis", icon: "/icons/footer/free.svg" },
+      { href: "/parceria", icon: "/icons/footer/parceria.svg" },
+      { href: "/blog", icon: "/icons/footer/blog.svg" },
     ],
   },
   {
-    title: "Legal & Suporte",
     links: [
-      { label: "Termos de Uso", href: "/legal/termos", icon: "/icons/footer/doc.svg" },
-      { label: "Políticas de Privacidade", href: "/legal/privacidade", icon: "/icons/footer/shield.svg" },
-      { label: "LGPD / GDPR", href: "/legal/lgpd", icon: "/icons/footer/shield-lgpd.svg" },
-      { label: "Segurança", href: "/legal/seguranca", icon: "/icons/footer/lock.svg" },
-      { label: "Suporte", href: "/suporte", icon: "/icons/footer/fone.svg" },
-      { label: "Contato", href: "/contato", icon: "/icons/footer/telefone.svg" },
+      { href: "/legal/termos", icon: "/icons/footer/doc.svg" },
+      { href: "/legal/privacidade", icon: "/icons/footer/shield.svg" },
+      { href: "/legal/lgpd", icon: "/icons/footer/shield-lgpd.svg" },
+      { href: "/legal/seguranca", icon: "/icons/footer/lock.svg" },
+      { href: "/suporte", icon: "/icons/footer/fone.svg" },
+      { href: "/contato", icon: "/icons/footer/telefone.svg" },
     ],
   },
 ];
-
-export const footerRegions = ["Estados Unidos", "Europa", "LATAM", "Brasil", "Ásia", "África"];
 
 export type FooterSocialLink = {
   icon: string;

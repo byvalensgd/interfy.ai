@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture turns physical and digital documents into smart information in seconds. Capture from your browser, professional scanners, or smartphone, while AI recognizes, extracts, classifies, and routes everything automatically.",
+    "keywords": ["intelligent document capture", "AI-powered scanning", "OCR", "document recognition", "Interfy Capture"],
+    "freeTrialNote": "Free 7-day trial, no credit card required"
+  },
+  "hero": {
+    "titleLine1": "Capture any document.",
+    "titleLine2": "AI does the rest.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "turns physical and digital documents into smart information in seconds. Capture from your browser, professional scanners, or smartphone.",
+    "descriptionNote": "Available as a standalone module or already included in Interfy platform plans.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "mockupAlt": "Interfy Capture shown on laptop and smartphone, showcasing intelligent document capture",
+    "trust": [
+      { "text": "99.9% extraction reliability" },
+      { "text": "100% secure and LGPD-compliant" },
+      { "text": "AI-native across the whole platform" },
+      { "text": "Scalable to any document volume" }
+    ],
+    "flow": [
+      { "text": "AI recognizes and extracts" },
+      { "text": "Classifies, indexes and organizes." },
+      { "text": "Stores in Interfy Documents" },
+      { "text": "Sends to Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "How ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Capture", "description": "Capture from any source: browser, scanners, or phone." },
+      { "title": "AI recognition", "description": "Interfy AI automatically recognizes and extracts content." },
+      { "title": "Reading and understanding", "description": "Understands context, fields, and relationships between information." },
+      { "title": "Data extraction", "description": "Automatically extracts structured and unstructured data." },
+      { "title": "Classification", "description": "Classifies and organizes documents with AI." },
+      { "title": "Indexing and metadata", "description": "Assigns metadata and prepares for search and traceability." },
+      { "title": "Validation and routing", "description": "Validates and routes to Interfy Documents or Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Features and benefits of ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Interfy platform scale",
+    "items": [
+      { "title": "Browser capture", "description": "Capture files directly from your computer. Simple, fast, and secure." },
+      { "title": "Professional scanners", "description": "Native integration with high-performance scanners for maximum quality." },
+      { "title": "Batch capture", "description": "Scan and process large volumes of documents at once." },
+      { "title": "AI Credits included", "description": "AI credits included in every platform plan — no need to purchase the module separately." },
+      { "title": "Mobile Capture", "description": "Capture documents from your smartphone, anywhere, anytime." },
+      { "title": "AI recognition", "description": "AI recognizes and extracts content with high accuracy." },
+      { "title": "Automatic extraction", "description": "Automatic extraction of structured and unstructured data." },
+      { "title": "Interfy Documents", "description": "Store securely with intelligent search and traceability." },
+      { "title": "Interfy Process", "description": "Automatic routing to your operation's flows and automations." },
+      { "title": "Additional credit packs", "description": "More credits whenever your operation needs them." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitization with Legal Validity",
+    "badge": "Optional feature",
+    "description": "An optional feature for companies that need legal validity for their digital documents. Not included in the standard plan.",
+    "checklist": [
+      { "text": "Digital certification and timestamping" },
+      { "text": "Secure storage with legal validity" },
+      { "text": "End-to-end traceability" },
+      { "text": "Audit evidence and trails" },
+      { "textParts": ["Timestamp and trail applied under ", "Decree 10.278 (Brazil)"] },
+      { "text": "Audit trail" },
+      { "text": "Legal validation" },
+      { "text": "Compliance and security" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Real results for your business",
+    "heading": "REAL RESULTS FOR YOUR BUSINESS",
+    "stats": [
+      { "accent": "UP TO 85%", "label": "FEWER ERRORS", "description": "in indexing and classification." },
+      { "accent": "MORE", "label": "PRODUCTIVITY", "description": "Your team focuses on what really matters." },
+      { "accent": "SECURITY &", "label": "COMPLIANCE", "description": "Fully compliant with LGPD, GDPR, and global standards." }
+    ],
+    "ctaTitle": "READY TO TRANSFORM YOUR DOCUMENT OPERATION?",
+    "ctaDescription": "Schedule a demo and see how Interfy Capture can deliver real results for your business.",
+    "mascotAlt": "Interfy AI assistant"
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy Capture",
+    "title": "Ready to transform your document capture with AI?",
+    "description": "Try Interfy Capture free for 7 days and watch AI work to power your operation. Get it as a standalone module or use the credits already included in platform plans.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a Demo",
+    "statsLabel": "Interfy Capture highlights",
+    "highlights": [
+      { "label": "100% Web", "sublabel": "Access from anywhere" },
+      { "label": "Top-tier security", "sublabel": "Protected, compliant data" },
+      { "label": "Scalable", "sublabel": "From small to large business" },
+      { "label": "24/7 support", "sublabel": "Whenever you need it" }
+    ]
+  }
+}

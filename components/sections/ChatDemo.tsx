@@ -5,10 +5,12 @@ import Image from "next/image";
 
 const gradientText = "linear-gradient(157deg, #184aee 22.9%, #bf18f6 96.4%)";
 
-const MESSAGE_1 = "Mostre os contratos pendentes de assinatura";
-const MESSAGE_2_LINE_1 = "15 contratos de assinatura pendentes de encontrados.";
-const MESSAGE_2_LINE_2 = "Deseja visualizar?";
-const MESSAGE_2 = `${MESSAGE_2_LINE_1}\n${MESSAGE_2_LINE_2}`;
+export type ChatDemoDict = {
+  message1: string;
+  message2Line1: string;
+  message2Line2: string;
+  voiceAlt: string;
+};
 
 const TYPE_SPEED_MS = 28;
 const PAUSE_AFTER_MESSAGE_MS = 650;
@@ -68,7 +70,9 @@ function TypedText({ text, onDone }: { text: string; onDone: () => void }) {
   );
 }
 
-export default function ChatDemo() {
+export default function ChatDemo({ dict }: { dict: ChatDemoDict }) {
+  const { message1: MESSAGE_1, message2Line1: MESSAGE_2_LINE_1, message2Line2: MESSAGE_2_LINE_2, voiceAlt } = dict;
+  const MESSAGE_2 = `${MESSAGE_2_LINE_1}\n${MESSAGE_2_LINE_2}`;
   const [phase, setPhase] = useState<Phase>("idle");
 
   useEffect(() => {
@@ -179,7 +183,7 @@ export default function ChatDemo() {
           className="flex size-[30px] shrink-0 items-center justify-center rounded-full p-1.5"
           style={{ backgroundImage: gradientText }}
         >
-          <Image src="/icons/features/voice.svg" alt="Comando de voz" width={18} height={18} />
+          <Image src="/icons/features/voice.svg" alt={voiceAlt} width={18} height={18} />
         </span>
       </div>
     </div>

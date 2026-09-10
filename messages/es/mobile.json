@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile lleva toda la plataforma Interfy a tu celular. Accede, gestiona, aprueba y toma decisiones desde donde estés, con total seguridad.",
+    "keywords": ["app corporativa", "aplicación móvil", "gestión desde el celular", "Interfy Mobile"],
+    "freeTrialNote": "Incluido en todos los planes de la plataforma, sin costo adicional."
+  },
+  "hero": {
+    "heading": "Tu operación",
+    "headingHighlight": "en la palma de tu mano.",
+    "description": "Lleva toda la plataforma Interfy contigo. Accede, gestiona, decide y avanza desde donde estés.",
+    "googlePlayAlt": "Disponible en Google Play",
+    "appStoreAlt": "Disponible en App Store",
+    "mockupAlt": "Aplicación Interfy Mobile en un smartphone",
+    "highlights": [
+      { "label": "Seguro y confiable" },
+      { "label": "100% integrado a la plataforma" },
+      { "label": "Todo en tiempo real y sincronizado" },
+      { "label": "Tus datos protegidos" }
+    ],
+    "floatingCards": [
+      { "title": "Productividad en cualquier lugar", "description": "Accede a todas las funcionalidades de Interfy desde tu celular." },
+      { "title": "Agilidad que transforma", "description": "Responde, aprueba y avanza procesos en segundos." },
+      { "title": "Experiencia simple e intuitiva", "description": "Todo lo que necesitas, organizado de forma inteligente." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Toda la Plataforma Interfy",
+    "headingHighlight": "en tu Mobile",
+    "items": [
+      { "description": "Accede, visualiza, busca y comparte documentos con total seguridad." },
+      { "description": "Da seguimiento a procesos, tareas, plazos y SLAs. Aprueba y decide desde donde estés." },
+      { "description": "Captura documentos con la cámara de tu celular y envíalos directo a la plataforma." },
+      { "description": "Firma documentos digitalmente o envíalos a firmar con pocos toques." },
+      { "description": "Conversa, comparte archivos y comenta documentos y procesos en tiempo real." },
+      { "description": "Agentes de IA que ayudan, responden y ejecutan acciones directo desde la app." },
+      { "description": "Usa la voz para buscar, consultar información y crear tareas con más agilidad." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Colaboración completa",
+    "headingHighlight": "integrada a tu operación",
+    "items": [
+      { "title": "Aprobaciones", "description": "Aprueba documentos, contratos y solicitudes en segundos." },
+      { "title": "Tareas", "description": "Visualiza, ejecuta y da seguimiento a tus tareas con facilidad." },
+      { "title": "Notificaciones", "description": "Recibe alertas en tiempo real de lo que realmente importa." },
+      { "title": "Dashboards", "description": "Da seguimiento a indicadores y resultados de la operación en la palma de tu mano." },
+      { "title": "Captura por cámara", "description": "Digitaliza documentos, notas y comprobantes y envíalos al instante." },
+      { "title": "Consultas", "description": "Consulta información, procesos y documentos de forma rápida." },
+      { "title": "Búsqueda inteligente", "description": "Encuentra lo que necesitas con IA. Pregunta en lenguaje natural y obtén respuestas." },
+      { "title": "Historial completo", "description": "Accede al historial de acciones, documentos y conversaciones con trazabilidad total." },
+      { "title": "Sincronización total", "description": "Todo sincronizado con la plataforma en tiempo real, sin pérdida de datos." },
+      { "title": "Modo sin conexión", "description": "Accede a documentos e información incluso sin internet." },
+      { "title": "Multiempresa", "description": "Gestiona todas tus empresas y oficinas en una sola app." },
+      { "title": "Interfaz intuitiva", "description": "Diseño moderno, fácil de usar. Productividad sin complicaciones." }
+    ]
+  },
+  "security": {
+    "heading": "Gobernanza y seguridad,",
+    "headingHighlight": "lo primero",
+    "description": "Tu operación protegida en cualquier lugar. Cifrado de extremo a extremo, autenticación multifactor y cumplimiento con los principales estándares de seguridad del mercado.",
+    "items": [
+      { "label": "Cifrado de extremo a extremo" },
+      { "label": "Autenticación multifactor (MFA)" },
+      { "label": "Cumplimiento con LGPD, ISO 27001 y SOC 2" },
+      { "label": "Control de acceso y permisos avanzados" },
+      { "label": "Respaldo y alta disponibilidad en la nube" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Descarga Interfy Mobile",
+    "title": "Interfy Mobile. Tu operación en la palma de tu mano.",
+    "subtitle": "Más agilidad, más control y más resultados donde estés.",
+    "downloadPrompt": "Descárgala ahora y lleva toda la plataforma contigo.",
+    "googlePlayAlt": "Disponible en Google Play",
+    "appStoreAlt": "Disponible en App Store",
+    "qrCodeAlt": "Código QR para descargar la app Interfy Mobile",
+    "statsLabel": "Números de la plataforma Interfy"
+  }
+}

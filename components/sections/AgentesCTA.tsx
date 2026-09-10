@@ -3,26 +3,34 @@ import Link from "next/link";
 import { Calendar } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 import { agentesBenefits } from "@/config/agentes";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
-function BenefitsRow() {
+type Benefit = { label: string };
+
+function BenefitsRow({ ariaLabel, benefits }: { ariaLabel: string; benefits: Benefit[] }) {
   return (
     <ul
-      aria-label="Benefícios da Interfy Agentes"
+      aria-label={ariaLabel}
       className="grid w-full grid-cols-2 items-stretch gap-x-8 gap-y-6 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5"
     >
-      {agentesBenefits.map((item) => (
-        <li key={item.label} className="flex min-w-0 flex-row items-center gap-2.5">
+      {agentesBenefits.map((item, i) => (
+        <li key={item.icon} className="flex min-w-0 flex-row items-center gap-2.5">
           <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
+          <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{benefits[i].label}</span>
         </li>
       ))}
     </ul>
   );
 }
 
-export default function AgentesCTA() {
+export default async function AgentesCTA() {
+  const locale = await getLocale();
+  const { agents } = await getDictionary();
+  const cta = agents.cta;
+
   return (
-    <section aria-label="Comece a usar a Interfy Agentes" className="flex justify-center px-5 py-10 sm:py-16">
+    <section aria-label={cta.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <Reveal className="relative flex w-full flex-col items-start gap-6 rounded-2xl p-5 sm:p-10">
           <div className="absolute inset-0 -z-10 overflow-hidden rounded-2xl">
@@ -31,24 +39,24 @@ export default function AgentesCTA() {
           <div className="flex w-full flex-wrap items-center justify-between gap-6">
             <div className="flex min-w-0 flex-1 flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
               <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">
-                Inteligência que trabalha por você.
+                {cta.title}
               </p>
               <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium lg:max-w-xl">
-                Crie agentes, automatize tarefas e transforma sua operação com AI.
+                {cta.description}
               </p>
             </div>
             <div className="flex w-full flex-col items-stretch gap-[10px] lg:w-auto lg:shrink-0">
               <Link
-                href="/comece-gratis"
+                href={withLocale("/comece-gratis", locale)}
                 className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-branco px-[15px] text-sm font-bold text-azul-base transition-colors hover:bg-branco/90"
               >
-                Test Drive grátis por 7 dias
+                {cta.ctaPrimary}
               </Link>
               <Link
-                href="/demo"
+                href={withLocale("/demo", locale)}
                 className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] text-sm font-bold text-branco transition-colors hover:bg-black/50"
               >
-                Agendar Demonstração
+                {cta.ctaSecondary}
                 <Calendar className="size-5" aria-hidden="true" />
               </Link>
             </div>
@@ -57,7 +65,7 @@ export default function AgentesCTA() {
             </div>
           </div>
 
-          <BenefitsRow />
+          <BenefitsRow ariaLabel={cta.benefitsAria} benefits={cta.benefits} />
 
           <div className="absolute top-1/2 -right-4 hidden size-[60px] -translate-y-1/2 overflow-hidden rounded-[11px] lg:block">
             <Image src="/agentes/ai-badge.png" alt="" fill sizes="60px" className="object-cover" />

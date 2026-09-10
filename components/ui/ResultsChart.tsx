@@ -2,14 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const CHART_DATA = [
-  { label: "Jan", value: 20 },
-  { label: "Fev", value: 45 },
-  { label: "Mar", value: 68 },
-  { label: "Abr", value: 58 },
-  { label: "Mai", value: 72 },
-  { label: "Jun", value: 85 },
-];
+const CHART_VALUES = [20, 45, 68, 58, 72, 85];
 
 const Y_STEPS = [0, 20, 40, 60, 80, 100, 120];
 const MAX_VALUE = 120;
@@ -25,13 +18,13 @@ const LINE_COLOR = "#015BF7"; // Azul base claro (Figma)
 const ANIMATION_DURATION_MS = 3000;
 const DEFAULT_WIDTH = 308;
 
-function buildGeometry(width: number) {
+function buildGeometry(width: number, months: string[]) {
   const plotWidth = width - MARGIN.left - MARGIN.right;
 
-  const points = CHART_DATA.map((item, index) => ({
-    x: MARGIN.left + (index / (CHART_DATA.length - 1)) * plotWidth,
-    y: MARGIN.top + PLOT_HEIGHT - (item.value / MAX_VALUE) * PLOT_HEIGHT,
-    label: item.label,
+  const points = CHART_VALUES.map((value, index) => ({
+    x: MARGIN.left + (index / (CHART_VALUES.length - 1)) * plotWidth,
+    y: MARGIN.top + PLOT_HEIGHT - (value / MAX_VALUE) * PLOT_HEIGHT,
+    label: months[index],
   }));
 
   const linePath = points.map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`).join(" ");
@@ -43,7 +36,15 @@ function buildGeometry(width: number) {
   return { plotWidth, points, linePath, areaPath, lineLength };
 }
 
-export default function ResultsChart() {
+export default function ResultsChart({
+  title,
+  ariaLabel,
+  months,
+}: {
+  title: string;
+  ariaLabel: string;
+  months: string[];
+}) {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [width, setWidth] = useState(DEFAULT_WIDTH);
@@ -82,12 +83,15 @@ export default function ResultsChart() {
     return () => observer.disconnect();
   }, []);
 
-  const { points, linePath, areaPath, lineLength } = useMemo(() => buildGeometry(width), [width]);
+  const { points, linePath, areaPath, lineLength } = useMemo(
+    () => buildGeometry(width, months),
+    [width, months]
+  );
 
   return (
     <div className="flex w-full flex-col gap-4 rounded-xl border border-contorno-base bg-branco p-4">
       <div className="flex w-full items-center justify-between gap-2.5">
-        <p className="text-sm leading-[1.2] font-bold text-texto">Solicitações concluídas</p>
+        <p className="text-sm leading-[1.2] font-bold text-texto">{title}</p>
         <span className="inline-flex shrink-0 items-center rounded-full border border-[#34C77B]/40 bg-[#EAFBF1] px-2.5 py-1 text-xs leading-[1.2] font-bold text-[#1FA971]">
           +32%
         </span>
@@ -102,7 +106,7 @@ export default function ResultsChart() {
           className="w-full"
           style={{ height: HEIGHT }}
           role="img"
-          aria-label="Gráfico de linha mostrando o crescimento de solicitações concluídas de Janeiro a Junho, com alta de 32%"
+          aria-label={ariaLabel}
         >
           <defs>
             <linearGradient id="results-chart-fill" x1="0" y1="0" x2="0" y2="1">

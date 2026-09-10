@@ -1,11 +1,22 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import ConnectAppMockup from "@/components/mockup/ConnectAppMockup";
-import ConnectAppSlideshow from "@/components/mockup/ConnectAppSlideshow";
+import HeroSlideshow from "@/components/ui/HeroSlideshow";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 import { connectHeroHighlights } from "@/config/connect-page";
 
-export default function ConnectHero() {
+// Real product screenshots — the "ENG" set covers every non-Portuguese
+// locale (en, es), the plain set is pt-BR only.
+const heroSlidesPt = ["/connect/cic-slide-1.webp", "/connect/cic-slide-2.webp", "/connect/cic-slide-3.webp"];
+const heroSlidesEn = ["/connect/cic-slide-1-en.webp", "/connect/cic-slide-2-en.webp", "/connect/cic-slide-3-en.webp"];
+
+export default async function ConnectHero() {
+  const locale = await getLocale();
+  const { connect, common } = await getDictionary();
+  const { hero } = connect;
+  const heroSlides = locale === "pt" ? heroSlidesPt : heroSlidesEn;
+
   return (
     <section
       aria-labelledby="connect-hero-heading"
@@ -20,45 +31,46 @@ export default function ConnectHero() {
                   id="connect-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Conecte pessoas, documentos e processos em uma{" "}
+                  {hero.heading}{" "}
                   <span className="inline-block bg-[linear-gradient(104deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
-                    única conversa.
+                    {hero.headingHighlight}
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  <span className="font-bold text-azul-base">Interfy Connect </span>
-                  vai muito além do chat. É colaboração real, integrada aos seus documentos,
-                  processos e automações para que nada se perca e tudo aconteça.
+                  <span className="font-bold text-azul-base">{hero.descriptionBrand} </span>
+                  {hero.description}
                 </p>
               </div>
 
               <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href="/comece-gratis" variant="primary" className="grow whitespace-nowrap lg:grow-0">
-                  Teste Drive Grátis por 7 dias
+                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaPrimary}
                 </Button>
-                <Button href="/demo" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                  Agende uma demonstração
+                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaSecondary}
                 </Button>
               </div>
 
               <ul className="flex w-full flex-col gap-[15px]">
-                {connectHeroHighlights.map((item) => (
-                  <li key={item.label} className="flex w-full items-start gap-5">
+                {connectHeroHighlights.map((item, i) => (
+                  <li key={item.icon} className="flex w-full items-start gap-5">
                     <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                     <span className="flex min-h-[30px] min-w-0 flex-1 flex-col justify-center text-lg leading-[1.2] font-extrabold text-texto">
-                      {item.label}
+                      {hero.highlights[i].label}
                     </span>
                   </li>
                 ))}
               </ul>
             </Reveal>
 
-            <Reveal immediate className="flex min-w-0 flex-col items-center" delayMs={120}>
-              <div className="w-full max-w-[720px]">
-                <ConnectAppMockup>
-                  <ConnectAppSlideshow />
-                </ConnectAppMockup>
-              </div>
+            <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
+              <HeroSlideshow
+                images={heroSlides}
+                alt={hero.imageAlt}
+                prevLabel={common.prevSlide}
+                nextLabel={common.nextSlide}
+                className="aspect-[2625/1769] w-full"
+              />
             </Reveal>
           </div>
         </div>

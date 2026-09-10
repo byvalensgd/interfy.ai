@@ -3,6 +3,8 @@
 import { useState, type ComponentPropsWithoutRef, type FormEvent } from "react";
 import Link from "next/link";
 import { ArrowUpRight, CheckCircle2, Loader2 } from "lucide-react";
+import { withLocale } from "@/lib/i18n/paths";
+import type { Locale } from "@/lib/i18n/config";
 
 type FormValues = {
   name: string;
@@ -22,12 +24,39 @@ const initialValues: FormValues = {
   consent: false,
 };
 
-function validate(values: FormValues): FormErrors {
+type FormDict = {
+  heading: string;
+  subheading: string;
+  nameLabel: string;
+  emailLabel: string;
+  companyLabel: string;
+  phoneLabel: string;
+  optionalLabel: string;
+  errors: {
+    name: string;
+    email: string;
+    company: string;
+    consent: string;
+  };
+  consentPrefix: string;
+  consentTerms: string;
+  consentMiddle: string;
+  consentPrivacy: string;
+  consentSuffix: string;
+  submitButton: string;
+  submittingButton: string;
+  successHeading: string;
+  successMessagePrefix: string;
+  successMessageSuffix: string;
+  specialistLink: string;
+};
+
+function validate(values: FormValues, errorMessages: FormDict["errors"]): FormErrors {
   const errors: FormErrors = {};
-  if (values.name.trim().length < 2) errors.name = "Informe seu nome completo.";
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = "Informe um e-mail válido.";
-  if (!values.company.trim()) errors.company = "Informe o nome da sua empresa.";
-  if (!values.consent) errors.consent = "É necessário aceitar os termos para continuar.";
+  if (values.name.trim().length < 2) errors.name = errorMessages.name;
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = errorMessages.email;
+  if (!values.company.trim()) errors.company = errorMessages.company;
+  if (!values.consent) errors.consent = errorMessages.consent;
   return errors;
 }
 
@@ -36,18 +65,20 @@ function FormField({
   id,
   error,
   optional,
+  optionalLabel,
   ...inputProps
 }: {
   label: string;
   id: string;
   error?: string;
   optional?: boolean;
+  optionalLabel?: string;
 } & ComponentPropsWithoutRef<"input">) {
   return (
     <div className="flex flex-col gap-2">
       <label htmlFor={id} className="text-sm font-bold leading-[1.2] text-texto">
         {label}
-        {optional && <span className="font-medium text-texto-medio"> (opcional)</span>}
+        {optional && <span className="font-medium text-texto-medio"> {optionalLabel}</span>}
       </label>
       <input
         id={id}
@@ -67,7 +98,7 @@ function FormField({
   );
 }
 
-export default function TestDriveSignupForm() {
+export default function TestDriveSignupForm({ dict, locale }: { dict: FormDict; locale: Locale }) {
   const [values, setValues] = useState<FormValues>(initialValues);
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<"idle" | "submitting" | "success">("idle");
@@ -79,7 +110,7 @@ export default function TestDriveSignupForm() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const nextErrors = validate(values);
+    const nextErrors = validate(values, dict.errors);
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
 
@@ -97,30 +128,31 @@ export default function TestDriveSignupForm() {
         <div className="flex flex-col items-center gap-5 py-5 text-center">
           <CheckCircle2 className="size-14 text-ecm" aria-hidden="true" strokeWidth={1.5} />
           <div className="flex flex-col gap-2.5">
-            <h3 className="text-lg font-extrabold leading-[1.2] text-texto">Recebemos seu cadastro!</h3>
+            <h3 className="text-lg font-extrabold leading-[1.2] text-texto">{dict.successHeading}</h3>
             <p className="text-sm leading-[1.2] font-medium text-texto-medio">
-              Nossa equipe está preparando sua Workspace. Em instantes você recebe o acesso no
-              e-mail <span className="font-bold text-texto">{values.email}</span>.
+              {dict.successMessagePrefix}
+              <span className="font-bold text-texto">{values.email}</span>
+              {dict.successMessageSuffix}
             </p>
           </div>
           <Link
-            href="/demo"
+            href={withLocale("/demo", locale)}
             className="inline-flex min-h-[40px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base px-5 py-2.5 text-sm font-bold text-azul-base transition-colors hover:bg-azul-bg-superior"
           >
-            Falar com um especialista
+            {dict.specialistLink}
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </Link>
         </div>
       ) : (
         <>
           <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-extrabold leading-[1.2] text-texto">Crie sua Workspace grátis</h3>
-            <p className="text-sm leading-[1.2] font-medium text-texto-medio">Leva menos de 2 minutos.</p>
+            <h3 className="text-lg font-extrabold leading-[1.2] text-texto">{dict.heading}</h3>
+            <p className="text-sm leading-[1.2] font-medium text-texto-medio">{dict.subheading}</p>
           </div>
 
           <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
             <FormField
-              label="Nome completo"
+              label={dict.nameLabel}
               id="td-name"
               autoComplete="name"
               value={values.name}
@@ -128,7 +160,7 @@ export default function TestDriveSignupForm() {
               onChange={(e) => handleChange("name", e.target.value)}
             />
             <FormField
-              label="E-mail corporativo"
+              label={dict.emailLabel}
               id="td-email"
               type="email"
               autoComplete="email"
@@ -137,7 +169,7 @@ export default function TestDriveSignupForm() {
               onChange={(e) => handleChange("email", e.target.value)}
             />
             <FormField
-              label="Empresa"
+              label={dict.companyLabel}
               id="td-company"
               autoComplete="organization"
               value={values.company}
@@ -145,10 +177,11 @@ export default function TestDriveSignupForm() {
               onChange={(e) => handleChange("company", e.target.value)}
             />
             <FormField
-              label="Telefone (WhatsApp)"
+              label={dict.phoneLabel}
               id="td-phone"
               type="tel"
               optional
+              optionalLabel={dict.optionalLabel}
               autoComplete="tel"
               value={values.phone}
               onChange={(e) => handleChange("phone", e.target.value)}
@@ -163,15 +196,15 @@ export default function TestDriveSignupForm() {
                   className="size-4 shrink-0 rounded border-contorno-base text-azul-base focus:ring-azul-base"
                 />
                 <span>
-                  Li e concordo com os{" "}
-                  <Link href="/legal/termos" className="font-bold text-azul-base hover:underline">
-                    Termos de Uso
-                  </Link>{" "}
-                  e a{" "}
-                  <Link href="/legal/privacidade" className="font-bold text-azul-base hover:underline">
-                    Política de Privacidade
+                  {dict.consentPrefix}
+                  <Link href={withLocale("/legal/termos", locale)} className="font-bold text-azul-base hover:underline">
+                    {dict.consentTerms}
                   </Link>
-                  .
+                  {dict.consentMiddle}
+                  <Link href={withLocale("/legal/privacidade", locale)} className="font-bold text-azul-base hover:underline">
+                    {dict.consentPrivacy}
+                  </Link>
+                  {dict.consentSuffix}
                 </span>
               </label>
               {errors.consent && <p className="text-xs font-medium text-red-600">{errors.consent}</p>}
@@ -185,11 +218,11 @@ export default function TestDriveSignupForm() {
               {status === "submitting" ? (
                 <>
                   <Loader2 className="size-5 animate-spin" aria-hidden="true" />
-                  Enviando...
+                  {dict.submittingButton}
                 </>
               ) : (
                 <>
-                  Criar minha Workspace grátis
+                  {dict.submitButton}
                   <ArrowUpRight className="size-5" aria-hidden="true" />
                 </>
               )}

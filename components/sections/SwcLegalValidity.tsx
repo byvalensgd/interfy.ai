@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
-import { swcLegalValidity } from "@/config/swc-page";
+import { swcLegalValidityIcon, swcLegalValidityChecklistIcons } from "@/config/swc-page";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
-export default function SwcLegalValidity() {
+export default async function SwcLegalValidity() {
+  const { capture } = await getDictionary();
+  const { legalValidity } = capture;
+
   return (
     <section aria-labelledby="swc-legal-heading" className="flex justify-center bg-branco px-5 py-10 sm:py-16">
       <Reveal
@@ -11,35 +15,38 @@ export default function SwcLegalValidity() {
       >
         <div className="flex flex-col items-center gap-5 text-center sm:flex-row sm:items-center sm:text-left">
           <span className="flex size-20 shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-5">
-            <Image src={swcLegalValidity.icon} alt="" aria-hidden="true" width={40} height={40} />
+            <Image src={swcLegalValidityIcon} alt="" aria-hidden="true" width={40} height={40} />
           </span>
           <div className="flex flex-1 flex-col items-center gap-[15px] sm:items-start">
             <div className="flex flex-wrap items-end justify-center gap-5 sm:justify-start">
               <h2 id="swc-legal-heading" className="text-2xl leading-[1.2] font-bold text-texto">
-                {swcLegalValidity.title}
+                {legalValidity.title}
               </h2>
-              <span className="text-xl leading-[1.2] font-bold text-ecm">{swcLegalValidity.badge}</span>
+              <span className="text-xl leading-[1.2] font-bold text-ecm">{legalValidity.badge}</span>
             </div>
             <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">
-              {swcLegalValidity.description}
+              {legalValidity.description}
             </p>
           </div>
         </div>
 
         <ul className="grid w-full grid-cols-1 gap-x-[25px] gap-y-[25px] sm:grid-cols-2 lg:grid-cols-4">
-          {swcLegalValidity.checklist.map((item) => (
-            <li key={item.icon} className="flex items-center gap-5">
-              <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} className="shrink-0" />
-              {item.textParts ? (
-                <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto">
-                  {item.textParts[0]}
-                  <span className="text-ecm">{item.textParts[1]}</span>
-                </p>
-              ) : (
-                <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto">{item.text}</p>
-              )}
-            </li>
-          ))}
+          {swcLegalValidityChecklistIcons.map((icon, index) => {
+            const item: { text?: string; textParts?: [string, string] } = legalValidity.checklist[index];
+            return (
+              <li key={icon} className="flex items-center gap-5">
+                <Image src={icon} alt="" aria-hidden="true" width={36} height={36} className="shrink-0" />
+                {item.textParts ? (
+                  <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto">
+                    {item.textParts[0]}
+                    <span className="text-ecm">{item.textParts[1]}</span>
+                  </p>
+                ) : (
+                  <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto">{item.text}</p>
+                )}
+              </li>
+            );
+          })}
         </ul>
       </Reveal>
     </section>

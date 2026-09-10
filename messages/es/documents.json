@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Documents",
+    "description": "Interfy Documents es la nueva generación de gestión documental. Organiza, encuentra, protege y comparte documentos con inteligencia artificial en cada etapa.",
+    "keywords": ["gestión documental", "ECM", "gestión electrónica de documentos", "gestión de contenido", "Interfy Documents"],
+    "freeTrialNote": "Prueba gratis por 7 días, sin tarjeta de crédito."
+  },
+  "hero": {
+    "headingLine1": "Tus documentos dejan de ser archivos. Se convierten en",
+    "headingHighlight": "información inteligente.",
+    "descriptionBrand": "Interfy DOCUMENTS",
+    "description": "es la nueva generación de gestión documental. Organiza, encuentra, protege y comparte documentos con inteligencia artificial en cada etapa.",
+    "ctaPrimary": "Test Drive Gratis por 7 días",
+    "ctaSecondary": "Agenda una demostración",
+    "stats": [
+      { "label": "100% Web", "sublabel": "Accede desde cualquier lugar" },
+      { "label": "AI-Native", "sublabel": "Inteligencia en cada paso" },
+      { "label": "Seguro y Confiable", "sublabel": "Gobernanza y cumplimiento" }
+    ],
+    "mockupAlt": "Plataforma Interfy Documents mostrada en tablet y smartphone, con la lista de documentos y carpetas",
+    "chatCard": {
+      "line1": "Encontrar contratos firmados",
+      "line2": "con la empresa Acme en 2024"
+    }
+  },
+  "capabilities": {
+    "heading": "Gestión documental completa con",
+    "headingHighlight": "Inteligencia Artificial",
+    "items": [
+      {
+        "title": "Almacenamiento seguro",
+        "description": "Almacena cualquier tipo de documento con seguridad, alta disponibilidad y protección de nivel enterprise."
+      },
+      {
+        "title": "Organización inteligente",
+        "description": "Estructura carpetas, subcarpetas y categorías a tu manera, con plantillas flexibles y etiquetas."
+      },
+      {
+        "title": "Búsqueda inteligente",
+        "description": "Encuentra documentos en segundos con filtros avanzados, AI y búsqueda semántica."
+      },
+      {
+        "title": "Búsqueda en lenguaje natural",
+        "description": "Pregunta a tu manera. La AI entiende y encuentra lo que necesitas."
+      },
+      {
+        "title": "Clasificación automática con AI",
+        "description": "La AI clasifica y categoriza documentos automáticamente, reduciendo el trabajo manual y los errores."
+      },
+      {
+        "title": "Extracción de información",
+        "description": "Extrae datos e información automáticamente de contratos, facturas, formularios y mucho más."
+      },
+      {
+        "title": "Metadatos e indexación",
+        "description": "Crea metadatos personalizados e índices inteligentes para recuperar información con precisión."
+      },
+      {
+        "title": "Control de versiones",
+        "description": "Historial completo de versiones, comparación de documentos y restauración en cualquier momento."
+      },
+      {
+        "title": "Records Management",
+        "description": "Políticas de retención, plazos legales y descarte automático con total cumplimiento."
+      },
+      {
+        "title": "Compartición segura",
+        "description": "Comparte documentos y carpetas con usuarios internos y externos de forma segura y controlada."
+      },
+      {
+        "title": "Permisos avanzados",
+        "description": "Controla quién puede ver, editar, descargar, comentar o compartir cada documento."
+      },
+      {
+        "title": "Auditoría y trazabilidad",
+        "description": "Registros completos de todas las acciones con pista de auditoría e informes detallados."
+      },
+      {
+        "title": "Gobernanza y cumplimiento",
+        "description": "Políticas, roles, reglas y controles para garantizar seguridad, privacidad y cumplimiento."
+      },
+      {
+        "title": "Documentos en el móvil",
+        "description": "Accede, visualiza, comparte y aprueba desde cualquier lugar con la app Interfy Mobile."
+      },
+      {
+        "title": "Integración total",
+        "description": "Integración nativa con Capture, Process, Sign, Connect y Agents para una operación continua."
+      },
+      {
+        "title": "Agentes de AI",
+        "description": "Agentes inteligentes que analizan, resumen, clasifican y sugieren acciones automáticamente."
+      }
+    ],
+    "statsLabel": "Escala de la plataforma Interfy"
+  },
+  "ecosystem": {
+    "heading": "Integración nativa con todo el",
+    "headingHighlight": "ecosistema Interfy",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Captura inteligente de documentos." },
+      { "description": "Automatización de procesos." },
+      { "description": "Firma digital integrada." },
+      { "description": "Colaboración y comunicación." },
+      { "description": "Agentes de AI que entienden y actúan." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Diferenciales de Interfy Documents",
+    "blocks": [
+      {
+        "title": "Productividad en la palma de la mano",
+        "description": "La app Interfy Mobile lleva tu gestión documental a donde estés.",
+        "checklist": [
+          "Accede y visualiza documentos",
+          "Aprueba solicitudes y tareas",
+          "Comparte con seguridad",
+          "Busca con AI",
+          "Trabaja sin conexión y sincroniza después"
+        ],
+        "imageAlt": "App Interfy Mobile mostrando la lista de documentos"
+      },
+      {
+        "title": "Seguridad y gobernanza ante todo",
+        "description": "Interfy Documents está diseñada para proteger tu información y garantizar el cumplimiento en todos los niveles.",
+        "checklist": [
+          "Cifrado en reposo y en tránsito",
+          "Control de acceso basado en roles",
+          "RGPD, ISO 27001, SOC 2 y LGPD",
+          "Registros y auditoría completos",
+          "Copia de seguridad automática y recuperación ante desastres"
+        ],
+        "imageAlt": "Ilustración animada de un escudo de seguridad protegiendo los documentos"
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Comienza a usar Interfy Documents",
+    "title": "Convierte tus documentos en información estratégica",
+    "description": "Comienza ahora con 7 días gratis y descubre cómo Interfy Documents puede revolucionar tu gestión documental.",
+    "primaryButton": "Test Drive Gratis por 7 días",
+    "secondaryButton": "Agendar Demostración",
+    "statsLabel": "Diferenciales de Interfy Documents",
+    "features": [
+      { "label": "100% Web", "sublabel": "Accede desde cualquier lugar" },
+      { "label": "Seguridad de punta", "sublabel": "Datos protegidos y conformes" },
+      { "label": "Escalable", "sublabel": "De la pequeña a la gran empresa" },
+      { "label": "Soporte 24/7", "sublabel": "Siempre que lo necesites" }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Success Stories",
+    "description": "Typical results companies across industries achieve with Interfy's document, process and AI platform.",
+    "keywords": ["Interfy case studies", "Interfy results", "document management success stories", "process automation ROI"]
+  },
+  "hero": {
+    "ariaLabel": "Success stories introduction",
+    "eyebrow": "Success Stories",
+    "titleLine1": "Real results across",
+    "titleHighlight": "every industry",
+    "description": "A look at the gains companies like yours achieve by unifying documents, processes and AI in a single platform."
+  },
+  "grid": {
+    "ariaLabel": "Results by industry",
+    "heading": "What our customers achieve",
+    "illustrativeNote": "Illustrative results, based on averages observed across Interfy customers in each industry. Ask for a diagnostic to estimate the impact on your own scenario.",
+    "items": [
+      {
+        "segment": "Financial Institutions",
+        "description": "Digitized contracts and automated credit workflows with a full audit trail.",
+        "metricValue": "-45%",
+        "metricLabel": "average credit analysis time"
+      },
+      {
+        "segment": "Healthcare",
+        "description": "Centralized records and reports, with electronic signature built into the care workflow.",
+        "metricValue": "-60%",
+        "metricLabel": "document filing time"
+      },
+      {
+        "segment": "Legal",
+        "description": "Contract and case management with deadline tracking and end-to-end electronic signature.",
+        "metricValue": "3x",
+        "metricLabel": "more contracts closed per month"
+      },
+      {
+        "segment": "Manufacturing",
+        "description": "Automated purchase orders and multi-level approvals integrated with the ERP.",
+        "metricValue": "-35%",
+        "metricLabel": "approval cycle time"
+      },
+      {
+        "segment": "Logistics",
+        "description": "Automatic capture of delivery receipts and invoices straight from the driver's phone.",
+        "metricValue": "+80%",
+        "metricLabel": "documents captured same-day"
+      },
+      {
+        "segment": "Retail",
+        "description": "Supplier onboarding and standardized contract management on a single workflow.",
+        "metricValue": "-50%",
+        "metricLabel": "supplier onboarding time"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy",
+    "heading": "Want similar results at your company?",
+    "subheading": "Talk to our team and get a free diagnostic of your current process.",
+    "primaryButton": "Start for free",
+    "secondaryButton": "Schedule a demo"
+  }
+}

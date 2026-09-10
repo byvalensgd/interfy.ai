@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "termos": {
+      "title": "Términos de Uso",
+      "description": "Términos de Uso de la plataforma Interfy: condiciones de uso, registro, planes, propiedad intelectual y responsabilidades.",
+      "keywords": ["términos de uso Interfy", "contrato de uso Interfy"]
+    },
+    "privacidade": {
+      "title": "Política de Privacidad",
+      "description": "Política de Privacidad de Interfy: qué datos recopilamos, cómo los usamos, con quién los compartimos y cuáles son tus derechos.",
+      "keywords": ["política de privacidad Interfy", "privacidad de datos Interfy"]
+    },
+    "lgpd": {
+      "title": "LGPD / GDPR",
+      "description": "Cómo Interfy trata los datos personales en conformidad con la LGPD y el GDPR, y cómo ejercer tus derechos como titular de datos.",
+      "keywords": ["LGPD Interfy", "GDPR Interfy", "protección de datos Interfy"]
+    }
+  },
+  "termos": {
+    "ariaLabel": "Términos de Uso de Interfy",
+    "eyebrow": "Información Legal",
+    "sidebarLabel": "En esta página",
+    "title": "Términos de Uso",
+    "updatedLabel": "Última actualización: 1 de septiembre de 2026",
+    "intro": "Estos Términos de Uso rigen el acceso y uso de la plataforma Interfy, incluyendo los productos Documents, Process, Capture, Sign, Connect, Agents, Mobile y Voice, ofrecidos por Interfy Corporation. Al crear una cuenta o utilizar nuestros servicios, aceptas las condiciones descritas a continuación. Este documento es un borrador estándar y debe ser revisado por el equipo legal antes de su publicación final.",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los términos",
+        "paragraphs": [
+          "Al acceder o utilizar la plataforma Interfy, declaras haber leído, comprendido y aceptado íntegramente estos Términos de Uso y nuestra Política de Privacidad. Si no estás de acuerdo con alguna disposición, no debes utilizar los servicios."
+        ]
+      },
+      {
+        "heading": "2. Descripción del servicio",
+        "paragraphs": [
+          "Interfy ofrece una plataforma empresarial que reúne gestión documental, automatización de procesos (BPM), captura inteligente, firma electrónica, integraciones, agentes de IA y aplicaciones móviles, disponible por suscripción (SaaS)."
+        ]
+      },
+      {
+        "heading": "3. Registro y cuenta",
+        "paragraphs": ["Para utilizar la plataforma es necesario crear una cuenta con información verdadera, completa y actualizada. Eres responsable de mantener la confidencialidad de tus credenciales de acceso y de toda actividad realizada en tu cuenta."],
+        "items": [
+          "No compartir contraseñas ni credenciales de acceso con terceros no autorizados",
+          "Notificar a Interfy de inmediato ante cualquier sospecha de uso no autorizado de la cuenta",
+          "Mantener los datos de registro actualizados"
+        ]
+      },
+      {
+        "heading": "4. Uso aceptable",
+        "paragraphs": ["Aceptas no utilizar la plataforma con fines ilícitos, para violar derechos de terceros, para distribuir malware, o para intentar acceder a áreas o datos sin autorización."]
+      },
+      {
+        "heading": "5. Propiedad intelectual",
+        "paragraphs": ["La plataforma Interfy, incluyendo software, marcas, diseños y contenidos, es propiedad de Interfy Corporation o de sus licenciantes, protegida por leyes de propiedad intelectual. Ninguna disposición de estos Términos transfiere derechos de propiedad intelectual al cliente, salvo la licencia de uso de la plataforma durante la vigencia de la suscripción."]
+      },
+      {
+        "heading": "6. Planes, pago y cancelación",
+        "paragraphs": ["El acceso a la plataforma se otorga según el plan contratado. Los precios, formas de pago y condiciones de renovación se informan al momento de la contratación. La cancelación puede solicitarse en cualquier momento, sujeta a las condiciones específicas de cada plan."]
+      },
+      {
+        "heading": "7. Datos y contenido del cliente",
+        "paragraphs": ["Todo contenido enviado, almacenado o procesado por el cliente en la plataforma (\"Contenido del Cliente\") permanece de su propiedad. Interfy actúa como encargada del tratamiento de esos datos, procesándolos conforme a las instrucciones del cliente y nuestra Política de Privacidad."]
+      },
+      {
+        "heading": "8. Disponibilidad y soporte",
+        "paragraphs": ["Interfy realiza esfuerzos comercialmente razonables para mantener la plataforma disponible, con un SLA de disponibilidad descrito en nuestra página de Estado de la Plataforma. El soporte se presta según los canales y plazos descritos en nuestra página de Soporte."]
+      },
+      {
+        "heading": "9. Limitación de responsabilidad",
+        "paragraphs": ["En la máxima medida permitida por la ley aplicable, Interfy no será responsable por daños indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de la plataforma."]
+      },
+      {
+        "heading": "10. Terminación",
+        "paragraphs": ["Interfy puede suspender o finalizar el acceso a la plataforma en caso de incumplimiento de estos Términos, previa notificación, salvo en casos de riesgo inminente para la seguridad de la plataforma o de terceros."]
+      },
+      {
+        "heading": "11. Cambios en estos términos",
+        "paragraphs": ["Estos Términos pueden actualizarse periódicamente. Los cambios relevantes se comunicarán por correo electrónico o aviso en la plataforma, con antelación razonable antes de su entrada en vigor."]
+      },
+      {
+        "heading": "12. Ley aplicable y jurisdicción",
+        "paragraphs": ["Estos Términos se rigen por las leyes de la República Federativa de Brasil, sin perjuicio de disposiciones contractuales específicas para clientes de otras jurisdicciones."]
+      },
+      {
+        "heading": "13. Contacto",
+        "paragraphs": ["Las dudas sobre estos Términos pueden enviarse a contato@interfy.ai."]
+      }
+    ]
+  },
+  "privacidade": {
+    "ariaLabel": "Política de Privacidad de Interfy",
+    "eyebrow": "Privacidad y Transparencia",
+    "sidebarLabel": "En esta página",
+    "title": "Política de Privacidad",
+    "updatedLabel": "Última actualización: 1 de septiembre de 2026",
+    "intro": "Esta Política de Privacidad describe cómo Interfy Corporation recopila, usa, comparte y protege datos personales en el contexto de la plataforma Interfy, en conformidad con la Ley General de Protección de Datos de Brasil (LGPD) y, cuando aplique, el Reglamento General de Protección de Datos europeo (GDPR). Este documento es un borrador estándar y debe ser revisado por el equipo legal antes de su publicación final.",
+    "sections": [
+      {
+        "heading": "1. Quiénes somos",
+        "paragraphs": ["Interfy Corporation, con sede en Orlando, Florida, Estados Unidos, es la responsable del tratamiento de los datos personales procesados a través de la plataforma Interfy, salvo cuando actúe como encargada del tratamiento por instrucción de un cliente."]
+      },
+      {
+        "heading": "2. Qué datos recopilamos",
+        "items": [
+          "Datos de registro: nombre, correo electrónico, teléfono, empresa y cargo",
+          "Datos de uso de la plataforma: registros de acceso, acciones realizadas y preferencias de configuración",
+          "Contenido del Cliente: documentos, procesos y demás información ingresada en la plataforma por el propio cliente",
+          "Datos técnicos: dirección IP, tipo de dispositivo y navegador"
+        ]
+      },
+      {
+        "heading": "3. Cómo usamos los datos",
+        "items": [
+          "Prestar y mantener los servicios contratados",
+          "Autenticar usuarios y proteger cuentas contra accesos no autorizados",
+          "Enviar comunicaciones operativas, de soporte y, con consentimiento, comunicaciones comerciales",
+          "Cumplir obligaciones legales y regulatorias"
+        ]
+      },
+      {
+        "heading": "4. Compartición de datos",
+        "paragraphs": ["Los datos personales pueden compartirse con proveedores de infraestructura (como servicios en la nube de AWS), procesadores de pago y demás encargados estrictamente necesarios para prestar el servicio, siempre bajo obligaciones contractuales de confidencialidad y seguridad. No vendemos datos personales a terceros."]
+      },
+      {
+        "heading": "5. Cookies y tecnologías similares",
+        "paragraphs": ["Utilizamos cookies esenciales para el funcionamiento del sitio y, con consentimiento, cookies analíticas para entender el uso de la plataforma y mejorar la experiencia del usuario."]
+      },
+      {
+        "heading": "6. Retención de datos",
+        "paragraphs": ["Los datos personales se conservan durante el tiempo necesario para cumplir las finalidades descritas en esta Política, o según lo exija la ley, y posteriormente se eliminan o anonimizan."]
+      },
+      {
+        "heading": "7. Seguridad de la información",
+        "paragraphs": ["Adoptamos cifrado AES-256 en reposo y TLS 1.3 en tránsito, controles de acceso basados en roles y monitoreo continuo de seguridad, alineados con buenas prácticas del mercado y certificaciones como ISO 27001."]
+      },
+      {
+        "heading": "8. Tus derechos (LGPD/GDPR)",
+        "items": [
+          "Confirmación de la existencia de tratamiento y acceso a tus datos",
+          "Corrección de datos incompletos, inexactos o desactualizados",
+          "Anonimización, bloqueo o eliminación de datos innecesarios",
+          "Portabilidad de tus datos a otro proveedor de servicio",
+          "Revocación del consentimiento, cuando aplique"
+        ]
+      },
+      {
+        "heading": "9. Transferencia internacional de datos",
+        "paragraphs": ["Al operar con infraestructura global, los datos personales pueden transferirse entre países, siempre con salvaguardas contractuales y técnicas compatibles con la LGPD y el GDPR."]
+      },
+      {
+        "heading": "10. Cambios en esta política",
+        "paragraphs": ["Esta Política puede actualizarse periódicamente. Los cambios relevantes se comunicarán por correo electrónico o aviso en la plataforma."]
+      },
+      {
+        "heading": "11. Contacto del encargado de protección de datos (DPO)",
+        "paragraphs": ["Para ejercer tus derechos o resolver dudas sobre esta Política, contacta a nuestro Encargado de Protección de Datos en privacidade@interfy.ai."]
+      }
+    ]
+  },
+  "lgpd": {
+    "ariaLabel": "Cumplimiento de Interfy con la LGPD y el GDPR",
+    "eyebrow": "Protección de Datos",
+    "sidebarLabel": "En esta página",
+    "title": "LGPD / GDPR",
+    "updatedLabel": "Última actualización: 1 de septiembre de 2026",
+    "intro": "Interfy trata la protección de datos personales como una parte central de su arquitectura, tanto para cumplir con la Ley General de Protección de Datos de Brasil (Ley N.º 13.709/2018) como con el Reglamento General de Protección de Datos europeo (GDPR). Este documento es un borrador estándar y debe ser revisado por el equipo legal antes de su publicación final.",
+    "sections": [
+      {
+        "heading": "1. Nuestro compromiso",
+        "paragraphs": ["Adoptamos la privacidad desde el diseño (\"privacy by design\") en todos los productos de la plataforma, con controles técnicos y organizativos que sostienen el cumplimiento continuo con la LGPD y el GDPR."]
+      },
+      {
+        "heading": "2. Roles: responsable y encargada del tratamiento",
+        "paragraphs": ["Para los datos de registro y de uso de la plataforma, Interfy actúa como responsable del tratamiento. Para el Contenido del Cliente almacenado en la plataforma, Interfy actúa como encargada del tratamiento, procesando los datos estrictamente según las instrucciones del cliente responsable."]
+      },
+      {
+        "heading": "3. Bases legales para el tratamiento",
+        "items": [
+          "Ejecución de contrato, para la prestación de los servicios contratados",
+          "Cumplimiento de una obligación legal o regulatoria",
+          "Interés legítimo, para la seguridad y mejora de la plataforma",
+          "Consentimiento, para comunicaciones comerciales y cookies no esenciales"
+        ]
+      },
+      {
+        "heading": "4. Derechos del titular de los datos",
+        "paragraphs": ["Los titulares de datos pueden solicitar acceso, corrección, anonimización, eliminación, portabilidad o información sobre la compartición de sus datos personales, conforme a la LGPD y, cuando aplique, al GDPR."]
+      },
+      {
+        "heading": "5. Cómo ejercer tus derechos",
+        "paragraphs": ["Las solicitudes pueden enviarse a privacidade@interfy.ai. Responderemos dentro de los plazos legales aplicables, pudiendo solicitar información adicional para confirmar la identidad del solicitante."]
+      },
+      {
+        "heading": "6. Medidas de seguridad técnicas y organizativas",
+        "items": [
+          "Cifrado AES-256 en reposo y TLS 1.3 en tránsito",
+          "Infraestructura en la nube de AWS con alta disponibilidad",
+          "Control de acceso basado en roles y autenticación multifactor",
+          "Monitoreo de seguridad 24/7 y respuesta a incidentes"
+        ]
+      },
+      {
+        "heading": "7. Transferencia internacional de datos",
+        "paragraphs": ["Cuando los datos personales se transfieren entre países, Interfy adopta cláusulas contractuales y salvaguardas técnicas compatibles con los requisitos de la LGPD y el GDPR para transferencias internacionales."]
+      },
+      {
+        "heading": "8. Encargado de Protección de Datos (DPO)",
+        "paragraphs": ["Nuestro Encargado de Protección de Datos puede ser contactado en privacidade@interfy.ai para asuntos relacionados con el tratamiento de datos personales."]
+      },
+      {
+        "heading": "9. Actualizaciones",
+        "paragraphs": ["Este documento puede actualizarse para reflejar cambios legislativos, regulatorios o de la propia plataforma. La fecha de la última actualización siempre se indica en la parte superior de la página."]
+      }
+    ]
+  }
+}

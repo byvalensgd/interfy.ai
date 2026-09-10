@@ -1,0 +1,28 @@
+{
+  "mainNavAria": "Main menu",
+  "mobileNavAria": "Main menu (mobile)",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "nav": {
+    "platform": "Platform",
+    "segments": "Industries",
+    "plans": "Pricing",
+    "blog": "Blog",
+    "partnership": "Partnership"
+  },
+  "productsMenu": {
+    "trigger": "Products",
+    "eyebrow": "More products",
+    "items": [
+      { "label": "Documents", "description": "Organize, find, and protect documents with AI" },
+      { "label": "Process", "description": "Build visual workflows and AI-driven automations" },
+      { "label": "Capture", "description": "Scan, recognize, and extract data" },
+      { "label": "Sign", "description": "Sign documents with full legal validity" },
+      { "label": "Connect", "description": "Collaborate and communicate with your team" },
+      { "label": "Agents", "description": "AI that understands and supports your users" },
+      { "label": "Mobile", "description": "Your operation in the palm of your hand" },
+      { "label": "Voice", "description": "Talk to the platform naturally" }
+    ]
+  },
+  "languageSelectorAria": "Select language"
+}

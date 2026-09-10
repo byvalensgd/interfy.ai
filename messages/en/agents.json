@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "AI Agents",
+    "description": "Interfy Agents is the platform's intelligence layer. Build intelligent agents to automate tasks, analyze information, and drive results across your entire operation.",
+    "keywords": ["AI agents", "intelligent automation", "enterprise AI agents", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agents that",
+    "titleGradient": "understand, decide, and act.",
+    "description": "Interfy Agents is the platform's intelligence layer. Build intelligent agents to automate tasks, analyze information, and drive results across your entire operation.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "slideshowAlt": "Interfy Agents shown on laptop and smartphone, showcasing AI agents in action",
+    "highlights": [
+      { "label": "Intelligence that generates value" },
+      { "label": "Automation without limits" },
+      { "label": "Secure and governed" },
+      { "label": "Integrated across the whole platform" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "What",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "can do for you",
+    "items": [
+      { "title": "Intelligent Agents", "description": "AI-powered agents that understand context and take action autonomously." },
+      { "title": "Agent creation", "description": "Build custom agents with or without code in just a few minutes." },
+      { "title": "Agents by department", "description": "Have dedicated agents for every area of your company: Finance, HR, Legal, and more." },
+      { "title": "Automatic task execution", "description": "Run repetitive tasks, reduce errors, and speed up your operation." },
+      { "title": "Document reading", "description": "Read, understand, and extract information from documents in seconds." },
+      { "title": "Process triggering", "description": "Start and drive processes automatically across the platform based on events." },
+      { "title": "Monitoring", "description": "Track activities, deadlines, and metrics, and send real-time updates." },
+      { "title": "Information analysis", "description": "Analyze large volumes of data and deliver intelligent insights." },
+      { "title": "Smart alerts", "description": "Send proactive alerts about risks, opportunities, deadlines, and exceptions." },
+      { "title": "Recommendations", "description": "Suggest actions, decisions, and next steps based on data and history." },
+      { "title": "System integration", "description": "Connect to external systems via APIs and exchange information securely." },
+      { "title": "Rule-based execution", "description": "Take action following your company's business rules and policies." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Fully integrated with the",
+    "headingGradient": "Interfy ecosystem",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agents read, analyze, and update documents intelligently." },
+      { "description": "Agents start processes, fill in data, and drive workflows automatically." },
+      { "description": "Agents extract information, classify, and route documents to the right workflows." },
+      { "description": "Agents take part in conversations, respond, share information, and collaborate." },
+      { "description": "Agents use voice to respond, log, look up information, and take action." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governance, security, and AI Credits",
+    "governance": {
+      "title": "Governance and security",
+      "titleAccent": "come first",
+      "items": [
+        "Granular permissions by agent and by user",
+        "Auditable, traceable actions at every level",
+        "Access and execution policies defined by your company",
+        "Compliance with LGPD, ISO 27001, SOC 2, and more",
+        "Data protected with end-to-end encryption"
+      ],
+      "cta": "See details"
+    },
+    "credits": {
+      "title": "Simple, transparent usage with AI Credits",
+      "description": "Interfy Agents consume AI Credits based on the actions they perform, giving your business more control, predictability, and scalability.",
+      "features": [
+        { "label": "Credits included in every plan" },
+        { "label": "Real-time tracking" },
+        { "label": "Buy additional credits whenever you need" }
+      ],
+      "cta": "See details",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "available"
+    }
+  },
+  "cta": {
+    "sectionAria": "Start using Interfy Agents",
+    "benefitsAria": "Benefits of Interfy Agents",
+    "title": "Intelligence that works for you.",
+    "description": "Build agents, automate tasks, and transform your operation with AI.",
+    "ctaPrimary": "Free 7-day Test Drive",
+    "ctaSecondary": "Schedule a Demo",
+    "benefits": [
+      { "label": "Reduce operational costs" },
+      { "label": "More productivity and efficiency" },
+      { "label": "Fewer errors and less rework" },
+      { "label": "Faster, smarter decisions" },
+      { "label": "Scalability without limits" }
+    ]
+  }
+}

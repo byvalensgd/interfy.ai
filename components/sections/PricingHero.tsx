@@ -4,6 +4,7 @@ import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { pricingHighlights, pricingProductBadges } from "@/config/pricing";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
 const highlightIcons = {
   trial: "/icons/pricing/trial.svg",
@@ -14,7 +15,10 @@ const highlightIcons = {
 
 const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
-export default function PricingHero() {
+export default async function PricingHero() {
+  const { pricing, common } = await getDictionary();
+  const { hero } = pricing;
+
   return (
     <section
       aria-labelledby="pricing-hero-heading"
@@ -38,37 +42,36 @@ export default function PricingHero() {
                   id="pricing-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  A plataforma completa para transformar{" "}
+                  {hero.headingPrefix}{" "}
                   <span className="inline-block bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    sua operação com AI.
+                    {hero.headingHighlight}
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  Escolha o plano ideal para o tamanho da sua empresa e comece a transformar
-                  documentos, processos e pessoas em resultados reais.
+                  {hero.description}
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center gap-5 lg:justify-start">
-                  <Button href="#planos" variant="primary" size="md">
-                    Mensal
+                  <Button href="?billing=mensal#planos" variant="primary" size="md">
+                    {hero.monthlyCta}
                   </Button>
                   <Link
-                    href="#planos"
+                    href="?billing=anual#planos"
                     className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 text-base font-bold text-texto transition-colors hover:border-azul-base"
                   >
-                    Anual
+                    {hero.annualCta}
                     <span className="rounded-full bg-[#e8f7ec] p-2 text-base font-bold leading-[1.2] text-ecm">
-                      Economize até 30%
+                      {hero.saveBadge}
                     </span>
                   </Link>
                 </div>
               </div>
 
               <ul className="flex w-full items-center gap-[10px]">
-                {pricingHighlights.map((item) => (
-                  <li key={item.label} className="flex flex-1 flex-col items-center gap-[15px] text-center">
+                {pricingHighlights.map((item, index) => (
+                  <li key={item.icon} className="flex flex-1 flex-col items-center gap-[15px] text-center">
                     <Image src={highlightIcons[item.icon]} alt="" aria-hidden="true" width={40} height={40} />
-                    <span className="text-base font-bold leading-[1.2] text-texto">{item.label}</span>
+                    <span className="text-base font-bold leading-[1.2] text-texto">{hero.highlights[index]}</span>
                   </li>
                 ))}
               </ul>
@@ -77,7 +80,9 @@ export default function PricingHero() {
             <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
               <HeroSlideshow
                 images={heroSlides}
-                alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
+                alt={hero.imageAlt}
+                prevLabel={common.prevSlide}
+                nextLabel={common.nextSlide}
                 className="aspect-[2625/1793] w-full"
               />
             </Reveal>

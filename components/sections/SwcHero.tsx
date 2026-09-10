@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { swcHeroTrust, swcHeroFlow } from "@/config/swc-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
-const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
+export default async function SwcHero() {
+  const locale = await getLocale();
+  const { capture } = await getDictionary();
+  const { hero } = capture;
 
-export default function SwcHero() {
   return (
     <section
       aria-labelledby="swc-hero-heading"
@@ -30,56 +33,55 @@ export default function SwcHero() {
                   id="swc-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Capture qualquer documento.
+                  {hero.titleLine1}
                 </h1>
-                <p className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-azul-base">
-                  A AI faz o resto.
+                <p className="inline-block bg-[linear-gradient(104deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-transparent">
+                  {hero.titleLine2}
                 </p>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  Interfy CAPTURA transforma documentos físicos e digitais em informação inteligente em
-                  segundos. Capture pelo navegador, scanners profissionais ou smartphone. A Interfy AI
-                  reconhece, compreende, extrai, classifica, indexa e encaminha tudo automaticamente para
-                  a sua operação.
+                  <span className="font-bold text-azul-base">{hero.descriptionBrand} </span>
+                  {hero.description}
+                </p>
+                <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-bold leading-[1.2] text-azul-base">
+                  {hero.descriptionNote}
                 </p>
               </div>
 
               <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href="/comece-gratis" variant="primary" className="grow whitespace-nowrap lg:grow-0">
-                  Teste Drive Grátis por 7 dias
+                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaPrimary}
                 </Button>
-                <Button href="/demo" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                  Agende uma demonstração
+                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaSecondary}
                 </Button>
               </div>
 
-              <ul className="flex w-full flex-col items-start gap-[15px]">
-                {swcHeroTrust.map((item) => (
-                  <li key={item.icon} className="flex w-full min-w-[240px] items-start gap-5">
-                    <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                    <span className="flex min-h-[30px] w-full min-w-0 flex-1 flex-col justify-center text-lg leading-[1.2] font-extrabold text-texto">
-                      {item.text}
+              <ul className="grid w-full grid-cols-[repeat(auto-fit,minmax(min(200px,100%),1fr))] gap-5">
+                {swcHeroTrust.map((icon, index) => (
+                  <li key={icon} className="flex min-w-0 flex-col items-center gap-2.5 p-5 text-center">
+                    <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                    <span className="w-full min-w-0 text-base leading-[1.2] font-extrabold text-texto">
+                      {hero.trust[index].text}
                     </span>
                   </li>
                 ))}
               </ul>
             </Reveal>
 
-            <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
-              <HeroSlideshow
-                images={heroSlides}
-                alt="Interfy Capture exibido em laptop e smartphone, mostrando a captura inteligente de documentos"
-                className="aspect-[2625/1793] w-full"
-              />
+            <Reveal immediate className="flex min-w-0 flex-col items-start" delayMs={120}>
+              <div className="relative aspect-[2400/1756] w-full">
+                <Image src="/swc/hero-mockup.webp" alt={hero.mockupAlt} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-contain" />
+              </div>
             </Reveal>
           </div>
         </div>
 
-        <Reveal immediate className="flex w-full flex-wrap items-center justify-around gap-[15px] rounded-[20px] bg-branco px-5 py-[30px]" delayMs={120}>
-          {swcHeroFlow.map((item) => (
-            <div key={item.icon} className="flex shrink-0 items-center gap-2.5">
-              <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-              <span className="text-lg leading-[1.2] font-extrabold whitespace-nowrap text-texto">
-                {item.text}
+        <Reveal immediate className="grid w-full grid-cols-[repeat(auto-fit,minmax(min(260px,100%),1fr))] gap-[15px] rounded-[20px] bg-branco px-5 py-[30px]" delayMs={120}>
+          {swcHeroFlow.map((icon, index) => (
+            <div key={icon} className="flex min-w-0 items-center gap-2.5">
+              <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+              <span className="w-full min-w-0 text-lg leading-[1.2] font-extrabold text-texto">
+                {hero.flow[index].text}
               </span>
             </div>
           ))}

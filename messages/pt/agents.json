@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Agentes de IA",
+    "description": "Interfy Agentes é a camada de inteligência da plataforma. Crie agentes inteligentes para automatizar tarefas, analisar informações e impulsionar resultados em toda a sua operação.",
+    "keywords": ["agentes de IA", "automação inteligente", "AI agents empresarial", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agentes que",
+    "titleGradient": "entendem, decidem e executam.",
+    "description": "Interfy Agentes é a camada de inteligência da plataforma. Crie agentes inteligentes para automatizar tarefas, analisar informações e impulsionar resultados em toda a sua operação.",
+    "ctaPrimary": "Test Drive Grátis por 7 dias",
+    "ctaSecondary": "Agendar demonstração",
+    "slideshowAlt": "Interfy Agentes exibido em laptop e smartphone, mostrando agentes de IA em ação",
+    "highlights": [
+      { "label": "Inteligência que gera valor" },
+      { "label": "Automação sem limites" },
+      { "label": "Seguro e governado" },
+      { "label": "Integrado a toda plataforma" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "O que os",
+    "headingBrand": "Interfy Agentes",
+    "headingSuffix": "podem fazer por você",
+    "items": [
+      { "title": "Agentes Inteligentes", "description": "Agentes com IA que entendem o contexto e executam ações de forma autônoma." },
+      { "title": "Criação de agentes", "description": "Crie agentes personalizados com ou sem código em poucos minutos." },
+      { "title": "Agentes por área", "description": "Tenha agentes dedicados para cada área da sua empresa: Financeiro, RH, Jurídico e mais." },
+      { "title": "Execução automática de tarefas", "description": "Executam tarefas repetitivas, reduzem erros e aceleram sua operação." },
+      { "title": "Leitura de documentos", "description": "Leem, compreendem e extraem informações de documentos em segundos." },
+      { "title": "Acionamento de processos", "description": "Iniciam e conduzem processos automaticamente na plataforma com base em eventos." },
+      { "title": "Monitoramento", "description": "Acompanham atividades, prazos, indicadores e enviam atualizações em tempo real." },
+      { "title": "Análise de informações", "description": "Analisam grandes volumes de dados e entregam insights inteligentes." },
+      { "title": "Alertas inteligentes", "description": "Enviam alertas proativos sobre riscos, oportunidades, prazos e exceções." },
+      { "title": "Recomendações", "description": "Sugerem ações, decisões e próximos passos baseados em dados e histórico." },
+      { "title": "Integração com sistemas", "description": "Conectam-se a sistemas externos via APIs e trocam informações com segurança." },
+      { "title": "Execução baseada em regras", "description": "Executam ações seguindo regras de negócio e políticas da sua empresa." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Totalmente integrado ao",
+    "headingGradient": "ecossistema Interfy",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agentes leem, analisam e atualizam documentos inteligentemente." },
+      { "description": "Agentes iniciam processos, preenchem dados e conduzem fluxos automaticamente." },
+      { "description": "Agentes extraem informações, classificam e enviam documentos para os fluxos corretos." },
+      { "description": "Agentes interagem em conversas, respondem, compartilham informações e colaboram." },
+      { "description": "Agentes usam voz para responder, registrar, consultar e executar ações." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governança, segurança e AI Credits",
+    "governance": {
+      "title": "Governança e segurança",
+      "titleAccent": "em primeiro lugar",
+      "items": [
+        "Permissões granulares por agente e por usuário",
+        "Ações auditadas e rastreáveis em todos os níveis",
+        "Políticas de acesso e execução definidas pela empresa",
+        "Conformidade com LGPD, ISO 27001, SOC 2 e outras",
+        "Dados protegidos com criptografia de ponta a ponta"
+      ],
+      "cta": "Ver detalhes"
+    },
+    "credits": {
+      "title": "Consumo simples e transparente com AI Credits",
+      "description": "Os Interfy Agents consomem AI Créditos de acordo com as ações executadas. Mais controle previsibilidade e escalabilidade para o seu negócio.",
+      "features": [
+        { "label": "Créditos inclusos em todos os planos" },
+        { "label": "Acompanhamento em tempo real" },
+        { "label": "Compre créditos adicionais quando precisar" }
+      ],
+      "cta": "Ver detalhes",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "disponíveis"
+    }
+  },
+  "cta": {
+    "sectionAria": "Comece a usar a Interfy Agentes",
+    "benefitsAria": "Benefícios da Interfy Agentes",
+    "title": "Inteligência que trabalha por você.",
+    "description": "Crie agentes, automatize tarefas e transforma sua operação com AI.",
+    "ctaPrimary": "Test Drive grátis por 7 dias",
+    "ctaSecondary": "Agendar Demonstração",
+    "benefits": [
+      { "label": "Reduza custos operacionais" },
+      { "label": "Mais produtividade e eficiência" },
+      { "label": "Menos erros e retrabalho" },
+      { "label": "Decisões mais rápidas e inteligentes" },
+      { "label": "Escalabilidade sem limites" }
+    ]
+  }
+}

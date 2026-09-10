@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { connectProductivityItems } from "@/config/connect-page";
 
-export default function ConnectProductivity() {
+export default async function ConnectProductivity() {
+  const { connect } = await getDictionary();
+  const { productivity } = connect;
+
   return (
-    <section aria-label="Assinatura digital e produtividade com o Interfy Connect" className="flex justify-center bg-branco px-5 py-10 sm:py-16">
+    <section aria-label={productivity.ariaLabel} className="flex justify-center bg-branco px-5 py-10 sm:py-16">
       <Reveal className="flex w-full max-w-[1400px] flex-wrap items-stretch gap-5">
         <div className="flex min-w-[320px] flex-1 items-center gap-[30px] rounded-[20px] border border-contorno-base bg-bg-base px-5 py-[30px]">
           <video
@@ -18,29 +22,31 @@ export default function ConnectProductivity() {
           />
           <div className="flex min-w-0 flex-1 flex-col gap-10">
             <p className="w-full text-2xl leading-[1.2] font-bold text-texto">
-              <span className="text-cic">Assinatura digital grátis</span> para todos os usuários.
+              <span className="text-cic">{productivity.signCard.titleHighlight}</span>{" "}
+              {productivity.signCard.titleSuffix}
             </p>
             <p className="w-full text-base leading-[1.2] font-medium text-texto">
-              Envie documentos para assinatura diretamente das conversas. Simples, rápido e 100%
-              incluso em todos os planos da plataforma.
+              {productivity.signCard.description}
             </p>
           </div>
         </div>
 
         <div className="flex min-w-[320px] flex-1 flex-col gap-[30px] rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">
           <p className="w-full text-2xl leading-[1.2] font-bold text-texto">
-            <span className="text-cic">Produtividade</span> que se vê no dia a dia
+            <span className="text-cic">{productivity.headingHighlight}</span> {productivity.headingSuffix}
           </p>
           <ul className="grid w-full grid-cols-1 gap-[15px] sm:grid-cols-2">
-            {connectProductivityItems.map((item) => (
-              <li key={item.title} className="flex min-w-[260px] flex-1 flex-col items-start gap-[15px]">
+            {connectProductivityItems.map((item, i) => (
+              <li key={item.icon} className="flex min-w-[260px] flex-1 flex-col items-start gap-[15px]">
                 <div className="flex h-[30px] w-full items-center gap-[15px]">
                   <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} className="shrink-0" />
                   <p className="flex min-h-[24px] min-w-0 flex-1 flex-col justify-center text-lg leading-[1.2] font-extrabold text-texto">
-                    {item.title}
+                    {productivity.items[i].title}
                   </p>
                 </div>
-                <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{item.description}</p>
+                <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">
+                  {productivity.items[i].description}
+                </p>
               </li>
             ))}
           </ul>

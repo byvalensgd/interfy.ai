@@ -2,16 +2,22 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import CreditsGauge from "@/components/ui/CreditsGauge";
-import { agentesCreditFeatures, agentesCreditsBalance, agentesGovernanceList } from "@/config/agentes";
+import { agentesCreditFeatures, agentesCreditsBalance } from "@/config/agentes";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
 const governanceCardBackground =
   "linear-gradient(121deg, #ffffff 4.5532%, #eff7ff 90.434%, #c8e0ff 126.82%)";
 const creditsCardBackground =
   "linear-gradient(126deg, #ffffff 4.5532%, #efefff 90.434%, #c8c8ff 126.82%)";
 
-export default function AgentesHighlights() {
+export default async function AgentesHighlights() {
+  const locale = await getLocale();
+  const { agents } = await getDictionary();
+  const highlights = agents.highlights;
+
   return (
-    <section aria-label="Governança, segurança e AI Credits" className="flex justify-center px-5 py-10 sm:py-16">
+    <section aria-label={highlights.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-wrap items-stretch justify-center gap-5">
         <Reveal
           className="flex min-w-[320px] flex-1 basis-[620px] flex-col items-start gap-8 overflow-hidden rounded-[20px] border border-contorno-base p-5 sm:flex-row sm:p-[30px]"
@@ -30,10 +36,10 @@ export default function AgentesHighlights() {
           <div className="flex flex-1 flex-col items-center justify-between gap-[30px] sm:self-stretch">
             <div className="flex w-full flex-col gap-[30px]">
               <h3 className="text-xl leading-[1.2] font-bold text-texto">
-                Governança e segurança <span className="text-azul-base">em primeiro lugar</span>
+                {highlights.governance.title} <span className="text-azul-base">{highlights.governance.titleAccent}</span>
               </h3>
               <ul className="flex flex-col gap-[15px]">
-                {agentesGovernanceList.map((item) => (
+                {highlights.governance.items.map((item: string) => (
                   <li key={item} className="flex items-center gap-2.5">
                     <Image
                       src="/icons/features/check-blue.svg"
@@ -48,8 +54,8 @@ export default function AgentesHighlights() {
                 ))}
               </ul>
             </div>
-            <Button href="/legal/seguranca" variant="secondary" size="sm" className="!rounded-md">
-              Ver detalhes
+            <Button href={withLocale("/legal/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
+              {highlights.governance.cta}
             </Button>
           </div>
         </Reveal>
@@ -62,18 +68,19 @@ export default function AgentesHighlights() {
           <div className="flex min-w-[280px] flex-1 flex-col gap-[30px]">
             <div className="flex flex-col gap-5">
               <h3 className="inline-block bg-[linear-gradient(122deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-xl leading-[1.2] font-bold text-transparent">
-                Consumo simples e transparente com AI Credits
+                {highlights.credits.title}
               </h3>
               <p className="text-sm leading-[1.2] font-medium text-texto">
-                Os Interfy Agents consomem AI Créditos de acordo com as ações executadas. Mais
-                controle previsibilidade e escalabilidade para o seu negócio.
+                {highlights.credits.description}
               </p>
             </div>
             <ul className="flex flex-col gap-[15px]">
-              {agentesCreditFeatures.map((item) => (
-                <li key={item.label} className="flex items-center gap-[15px]">
+              {agentesCreditFeatures.map((item, i) => (
+                <li key={item.icon} className="flex items-center gap-[15px]">
                   <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} className="shrink-0" />
-                  <span className="min-w-0 flex-1 text-xs leading-[1.2] font-bold text-texto">{item.label}</span>
+                  <span className="min-w-0 flex-1 text-xs leading-[1.2] font-bold text-texto">
+                    {highlights.credits.features[i].label}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -81,12 +88,12 @@ export default function AgentesHighlights() {
           <div className="flex w-full max-w-[200px] flex-col items-center justify-between gap-[10px] sm:w-auto sm:self-stretch">
             <CreditsGauge
               percent={agentesCreditsBalance.used}
-              label={agentesCreditsBalance.label}
+              label={highlights.credits.gaugeLabel}
               value={agentesCreditsBalance.value}
-              sublabel={agentesCreditsBalance.sublabel}
+              sublabel={highlights.credits.gaugeSublabel}
             />
-            <Button href="/platform/ai-creditos" variant="secondary" size="sm" className="!rounded-md">
-              Ver detalhes
+            <Button href={withLocale("/platform/ai-creditos", locale)} variant="secondary" size="sm" className="!rounded-md">
+              {highlights.credits.cta}
             </Button>
           </div>
         </Reveal>

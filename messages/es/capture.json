@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture convierte documentos físicos y digitales en información inteligente en segundos. Capture desde el navegador, escáneres profesionales o smartphone, con la AI reconociendo, extrayendo, clasificando y enrutando todo automáticamente.",
+    "keywords": ["captura inteligente de documentos", "digitalización con IA", "OCR", "reconocimiento de documentos", "Interfy Capture"],
+    "freeTrialNote": "Prueba gratis por 7 días, sin tarjeta de crédito"
+  },
+  "hero": {
+    "titleLine1": "Capture cualquier documento.",
+    "titleLine2": "La AI hace el resto.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "convierte documentos físicos y digitales en información inteligente en segundos. Capture desde el navegador, escáneres profesionales o smartphone.",
+    "descriptionNote": "Disponible como módulo independiente o ya incluido en los planes de la plataforma Interfy.",
+    "ctaPrimary": "Test Drive Gratis por 7 días",
+    "ctaSecondary": "Agende una demostración",
+    "mockupAlt": "Interfy Capture mostrado en laptop y smartphone, con la captura inteligente de documentos",
+    "trust": [
+      { "text": "99,9% de confiabilidad en la extracción" },
+      { "text": "100% seguro y conforme con la LGPD" },
+      { "text": "AI-native en toda la plataforma" },
+      { "text": "Escalable para cualquier volumen de documentos" }
+    ],
+    "flow": [
+      { "text": "La AI reconoce y extrae" },
+      { "text": "Clasifica, indexa y organiza." },
+      { "text": "Almacena en Interfy Documents" },
+      { "text": "Envía a Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Cómo funciona ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Captura", "description": "Captura desde cualquier origen: navegador, escáneres o celular." },
+      { "title": "Reconocimiento por AI", "description": "La Interfy AI reconoce y extrae automáticamente el contenido." },
+      { "title": "Lectura y comprensión", "description": "Entiende el contexto, los campos y las relaciones entre la información." },
+      { "title": "Extracción de datos", "description": "Extrae automáticamente los datos estructurados y no estructurados." },
+      { "title": "Clasificación", "description": "Clasifica y organiza los documentos con AI." },
+      { "title": "Indexación y metadatos", "description": "Asigna metadatos y prepara para la búsqueda y la trazabilidad." },
+      { "title": "Validación y enrutamiento", "description": "Valida y envía a Interfy Documents o Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Recursos y beneficios de ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Escala de la plataforma Interfy",
+    "items": [
+      { "title": "Captura por el navegador", "description": "Capture archivos directamente desde su computadora. Simple, rápido y seguro." },
+      { "title": "Escáneres profesionales", "description": "Integración nativa con escáneres de alto rendimiento para máxima calidad." },
+      { "title": "Captura por lotes", "description": "Digitalice y procese grandes volúmenes de documentos de una sola vez." },
+      { "title": "AI Créditos incluidos", "description": "Créditos de AI incluidos en todos los planes de la plataforma, sin necesidad de contratar el módulo por separado." },
+      { "title": "Mobile Capture", "description": "Capture documentos desde el smartphone en cualquier lugar y momento." },
+      { "title": "Reconocimiento por AI", "description": "La AI reconoce y extrae el contenido con alta precisión." },
+      { "title": "Extracción automática", "description": "Extracción automática de datos estructurados y no estructurados." },
+      { "title": "Interfy Documents", "description": "Almacena con seguridad, búsqueda inteligente y trazabilidad." },
+      { "title": "Interfy Process", "description": "Envío automático a los flujos y automatizaciones de su operación." },
+      { "title": "Compra de créditos adicionales", "description": "Más créditos siempre que su operación lo necesite." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitalización con Validez Legal",
+    "badge": "Recurso opcional",
+    "description": "Recurso opcional para empresas que necesitan validez jurídica en sus documentos digitales. No incluido en el plan estándar.",
+    "checklist": [
+      { "text": "Certificación digital y sellado de tiempo" },
+      { "text": "Almacenamiento seguro con validez legal" },
+      { "text": "Trazabilidad de punta a punta" },
+      { "text": "Evidencias y pistas de auditoría" },
+      { "textParts": ["Aplicación de sello y trazabilidad conforme al ", "Decreto 10.278 (Brasil)"] },
+      { "text": "Pista de auditoría" },
+      { "text": "Validación jurídica" },
+      { "text": "Conformidad y seguridad" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Resultados reales para su negocio",
+    "heading": "RESULTADOS REALES PARA SU NEGOCIO",
+    "stats": [
+      { "accent": "HASTA 85%", "label": "MENOS ERRORES", "description": "en la indexación y clasificación." },
+      { "accent": "MÁS", "label": "PRODUCTIVIDAD", "description": "Su equipo se enfoca en lo que realmente importa." },
+      { "accent": "SEGURIDAD Y", "label": "CONFORMIDAD", "description": "Total con LGPD, GDPR y estándares globales." }
+    ],
+    "ctaTitle": "¿LISTO PARA TRANSFORMAR SU OPERACIÓN DE DOCUMENTOS?",
+    "ctaDescription": "Agende una demostración y descubra cómo Interfy Capture puede generar resultados reales para su empresa.",
+    "mascotAlt": "Asistente de AI de Interfy"
+  },
+  "cta": {
+    "ariaLabel": "Comience a usar Interfy Capture",
+    "title": "¿Listo para transformar su captura documental con AI?",
+    "description": "Pruebe Interfy Capture gratis por 7 días y vea a la AI trabajar para impulsar su operación. Contrátelo por separado o aproveche los créditos ya incluidos en los planes de la plataforma.",
+    "ctaPrimary": "Test Drive Gratis por 7 días",
+    "ctaSecondary": "Agendar Demostración",
+    "statsLabel": "Diferenciales de Interfy Capture",
+    "highlights": [
+      { "label": "100% Web", "sublabel": "Acceda desde cualquier lugar" },
+      { "label": "Seguridad de punta", "sublabel": "Datos protegidos y conformes" },
+      { "label": "Escalable", "sublabel": "Desde pequeños hasta grandes negocios" },
+      { "label": "Soporte 24/7", "sublabel": "Siempre que lo necesite" }
+    ]
+  }
+}

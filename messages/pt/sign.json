@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign é a assinatura digital grátis para todos os usuários da plataforma. Assine e acompanhe documentos com velocidade, segurança e integração total com sua operação.",
+    "keywords": ["assinatura digital", "assinatura eletrônica", "validade jurídica", "Interfy Sign"],
+    "freeTrialNote": "Assinatura digital grátis para todos os usuários da plataforma."
+  },
+  "hero": {
+    "heading": "Assinatura",
+    "headingGradient": "digital grátis",
+    "subheading": "para todos os usuários da plataforma.",
+    "descriptionPrefix": "Assine e acompanhe documentos com ",
+    "descriptionHighlight": "velocidade, segurança e integração total",
+    "descriptionSuffix": " com sua operação.",
+    "noCreditCard": "Sem cartão de crédito",
+    "ctaPrimary": "Teste Drive Grátis por 7 dias",
+    "ctaSecondary": "Agende uma demonstração",
+    "mockupAlt": "Plataforma Interfy Sign exibida em tablet e smartphone, mostrando um documento pronto para assinatura",
+    "featureChips": [
+      { "labelLines": ["Assinatura", "digital"] },
+      { "labelLines": ["Assinatura", "eletrônica"] },
+      { "labelLines": ["Assinatura", "por fluxo"] },
+      { "labelLines": ["Múltiplos", "signatários"] },
+      { "labelLines": ["Templates", "prontos"] },
+      { "labelLines": ["Trilha de", "auditoria"] },
+      { "labelLines": ["Autenticação", "segura"] },
+      { "labelLines": ["Envio", "externo"] },
+      { "labelLines": ["Alertas", "inteligentes"] },
+      { "labelLines": ["Acompanhamento", "em tempo real"] },
+      { "labelLines": ["Assinatura", "via mobile"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Mais controle e eficiência para o ciclo de vida dos ",
+    "headingHighlight": "seus documentos",
+    "cards": [
+      { "title": "Integração com Documents", "description": "Assine documentos armazenados com segurança e orientação." },
+      { "title": "Integração com Process", "description": "Inclua a assinatura digital em seus processos automatizados ponta a ponta." },
+      { "title": "Envio para usuários externos", "description": "Envie documentos para pessoas fora da plataforma com total segurança." },
+      { "title": "Fluxos de aprovação", "description": "Defina etapas, responsáveis e regras para aprovar com agilidade." },
+      { "title": "Alertas e rastreabilidade", "description": "Receba notificações e tenha total visibilidade de cada etapa." },
+      { "title": "Tudo registrado com segurança", "description": "Rastreabilidade completa com trilha de auditoria e conformidade garantida." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Como funciona o ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Envie o documento ou escolha um template pronto." },
+      { "description": "Defina signatários e a ordem de assinatura." },
+      { "description": "Envie para assinatura com autenticação segura." },
+      { "description": "Signatários assinam de onde estiverem, até pelo celular." },
+      { "description": "Acompanhe o status em tempo real e receba alertas." },
+      { "description": "Documento concluído e armazenado com segurança." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Recursos completos para ",
+    "headingHighlight": "todo tipo de negócio",
+    "cards": [
+      { "title": "Templates prontos", "description": "Use modelos prontos ou crie seus próprios templates personalizados." },
+      { "title": "Múltiplos signatários", "description": "Assine com uma ou várias pessoas em sequência ou em paralelo." },
+      { "title": "Autenticação segura", "description": "Múltiplas camadas de verificação para garantir identidade e segurança." },
+      { "title": "Trilha de auditoria", "description": "Acompanhe cada ação com detalhes completos e imutáveis." },
+      { "title": "Integração com Documents", "description": "Assine documentos diretamente dos seus repositórios." },
+      { "title": "Integração com Process", "description": "Inclua assinatura digital em seus processos automatizados de ponta a ponta." },
+      { "title": "Acompanhamento em tempo real", "description": "Veja quem assinou, quem ainda não assinou e o status atual de cada etapa." },
+      { "title": "Assinatura no mobile", "description": "Assine de qualquer lugar pelo app com poucos toques." },
+      { "title": "Envio externo", "description": "Envie documentos para pessoas externas com total segurança." }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para transformar a forma como sua empresa assina e aprova documentos?",
+    "description": "Comece agora mesmo com o Interfy Sign e leve mais agilidade, segurança e controle para o seu negócio.",
+    "ctaPrimary": "Test Drive Grátis por 7 dias",
+    "ctaSecondary": "Agendar Demonstração",
+    "statsLabel": "Escala da plataforma Interfy",
+    "sectionLabel": "Comece a usar o Interfy Sign"
+  }
+}

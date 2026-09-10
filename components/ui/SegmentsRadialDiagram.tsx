@@ -4,8 +4,7 @@ import Image from "next/image";
 import { Fragment, useEffect, useId, useState, type CSSProperties } from "react";
 import { segmentCatalog } from "@/config/segments";
 
-const ITEMS = segmentCatalog.slice(0, 12);
-const COUNT = ITEMS.length;
+const COUNT = 12;
 
 // Concentric rings expanding from the center hexagon out to the layout's own
 // edges. The cards sit one ring in from the outermost one; only the two
@@ -107,14 +106,16 @@ function CenterHex({ className, animate = false }: { className?: string; animate
   );
 }
 
-export default function SegmentsRadialDiagram() {
+export default function SegmentsRadialDiagram({ titles }: { titles: string[] }) {
   const [offset, setOffset] = useState(0);
   // Separate from `offset`: counts how many swaps have happened, purely to
   // key the card content so it remounts (and replays the entrance's own
   // pop-in animation) on every swap — and to skip that animation on the
   // very first render, which already gets it from the entrance sequence.
   const [swapCount, setSwapCount] = useState(0);
-  const total = segmentCatalog.length;
+  const items = segmentCatalog.map((item, i) => ({ ...item, title: titles[i] }));
+  const ITEMS = items.slice(0, 12);
+  const total = items.length;
 
   useEffect(() => {
     let intervalId: ReturnType<typeof setInterval> | null = null;
@@ -166,7 +167,7 @@ export default function SegmentsRadialDiagram() {
         ))}
 
         {ITEMS.map((_, i) => {
-          const segment = segmentCatalog[(i + offset) % total];
+          const segment = items[(i + offset) % total];
           const angle = (360 / COUNT) * i - 90;
           const rad = (angle * Math.PI) / 180;
           const cos = Math.cos(rad);

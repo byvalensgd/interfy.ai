@@ -2,16 +2,25 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { pricingFaq } from "@/config/pricing";
 
-export default function PricingFaq() {
+type FaqItem = { question: string; answer: string };
+
+export default function PricingFaq({
+  faq,
+  heading,
+  ariaExpand,
+}: {
+  faq: FaqItem[];
+  heading: string;
+  ariaExpand: string;
+}) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <div className="flex h-full flex-col gap-5 rounded-[14px] bg-bg-base p-5">
-      <h3 className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2] text-texto">Perguntas frequentes</h3>
+      <h3 className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2] text-texto">{heading}</h3>
       <ul className="grid flex-1 grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
-        {pricingFaq.map((item, index) => {
+        {faq.map((item, index) => {
           const isOpen = openIndex === index;
           return (
             <li key={item.question} className="rounded-xl border border-contorno-base bg-branco">
@@ -19,6 +28,7 @@ export default function PricingFaq() {
                 type="button"
                 onClick={() => setOpenIndex(isOpen ? null : index)}
                 aria-expanded={isOpen}
+                aria-label={ariaExpand}
                 className="flex min-h-[40px] w-full items-center gap-2.5 p-2.5 text-left"
               >
                 <span className="flex-1 text-sm font-bold leading-[1.2] text-texto">{item.question}</span>

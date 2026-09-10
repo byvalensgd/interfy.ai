@@ -3,14 +3,20 @@ import Link from "next/link";
 import { mainNav, siteConfig } from "@/config/site";
 import Button from "@/components/ui/Button";
 import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 import MobileNav from "@/components/layout/MobileNav";
 import ProductsMenu from "@/components/layout/ProductsMenu";
 
-export default function Header() {
+export default async function Header() {
+  const locale = await getLocale();
+  const { header, common } = await getDictionary();
+  const navLabels = Object.values(header.nav) as string[];
+
   return (
     <header className="fixed inset-x-0 top-0 z-50 flex w-full justify-center border-b border-contorno-base bg-branco px-5">
       <div className="flex h-20 w-full max-w-[1400px] items-center justify-between gap-10 py-5">
-        <Link href="/" className="flex shrink-0 items-center gap-2.5" aria-label={siteConfig.name}>
+        <Link href={withLocale("/", locale)} className="flex shrink-0 items-center gap-2.5" aria-label={siteConfig.name}>
           <Image
             src="/logo/interfy-logo.svg"
             alt={siteConfig.name}
@@ -21,29 +27,26 @@ export default function Header() {
           />
         </Link>
 
-        <nav
-          aria-label="Menu principal"
-          className="hidden min-w-0 flex-1 items-center justify-center lg:flex"
-        >
+        <nav aria-label={header.mainNavAria} className="hidden min-w-0 flex-1 items-center justify-center lg:flex">
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 xl:gap-x-10">
             <li>
               <Link
-                href={mainNav[0].href}
+                href={withLocale(mainNav[0].href, locale)}
                 className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
               >
-                {mainNav[0].label}
+                {navLabels[0]}
               </Link>
             </li>
             <li>
-              <ProductsMenu />
+              <ProductsMenu items={header.productsMenu} locale={locale} />
             </li>
-            {mainNav.slice(1).map((item) => (
+            {mainNav.slice(1).map((item, i) => (
               <li key={item.href}>
                 <Link
-                  href={item.href}
+                  href={withLocale(item.href, locale)}
                   className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
                 >
-                  {item.label}
+                  {navLabels[i + 1]}
                 </Link>
               </li>
             ))}
@@ -51,16 +54,25 @@ export default function Header() {
         </nav>
 
         <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
-          <LanguageSelectorCompact />
-          <Button href="/comece-gratis" variant="primary" size="sm" className="!px-3 xl:!px-5">
-            Comece Grátis
+          <LanguageSelectorCompact locale={locale} ariaLabel={header.languageSelectorAria} />
+          <Button href={withLocale("/comece-gratis", locale)} variant="primary" size="sm" className="!px-3 xl:!px-5">
+            {common.ctaPrimary}
           </Button>
-          <Button href="/demo" variant="secondary" size="sm" className="!px-3 xl:!px-5">
-            Agende uma Demo
+          <Button href={withLocale("/demo", locale)} variant="secondary" size="sm" className="!px-3 xl:!px-5">
+            {common.ctaSecondary}
           </Button>
         </div>
 
-        <MobileNav items={mainNav} />
+        <MobileNav
+          items={mainNav}
+          labels={navLabels}
+          locale={locale}
+          ariaLabel={header.mobileNavAria}
+          openLabel={header.openMenu}
+          closeLabel={header.closeMenu}
+          ctaPrimary={common.ctaPrimary}
+          ctaSecondary={common.ctaSecondary}
+        />
       </div>
     </header>
   );

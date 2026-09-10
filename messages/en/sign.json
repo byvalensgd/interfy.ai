@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign is free digital signature for every user on the platform. Sign and track documents with speed, security, and full integration with your operation.",
+    "keywords": ["digital signature", "electronic signature", "legal validity", "Interfy Sign"],
+    "freeTrialNote": "Free digital signature for every user on the platform."
+  },
+  "hero": {
+    "heading": "Free",
+    "headingGradient": "digital signature",
+    "subheading": "for every user on the platform.",
+    "descriptionPrefix": "Sign and track documents with ",
+    "descriptionHighlight": "speed, security, and full integration",
+    "descriptionSuffix": " across your operation.",
+    "noCreditCard": "No credit card required",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "mockupAlt": "Interfy Sign platform shown on tablet and smartphone, with a document ready for signature",
+    "featureChips": [
+      { "labelLines": ["Digital", "signature"] },
+      { "labelLines": ["Electronic", "signature"] },
+      { "labelLines": ["Workflow", "signature"] },
+      { "labelLines": ["Multiple", "signers"] },
+      { "labelLines": ["Ready-made", "templates"] },
+      { "labelLines": ["Audit", "trail"] },
+      { "labelLines": ["Secure", "authentication"] },
+      { "labelLines": ["External", "sending"] },
+      { "labelLines": ["Smart", "alerts"] },
+      { "labelLines": ["Real-time", "tracking"] },
+      { "labelLines": ["Mobile", "signing"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "More control and efficiency for your ",
+    "headingHighlight": "document lifecycle",
+    "cards": [
+      { "title": "Integration with Documents", "description": "Sign documents stored securely, right where they live." },
+      { "title": "Integration with Process", "description": "Add digital signature to your end-to-end automated processes." },
+      { "title": "Send to external users", "description": "Send documents to people outside the platform with full security." },
+      { "title": "Approval workflows", "description": "Define steps, owners, and rules to approve with agility." },
+      { "title": "Alerts and traceability", "description": "Get notified and have full visibility into every step." },
+      { "title": "Everything logged securely", "description": "Complete traceability with audit trail and guaranteed compliance." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "How ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Upload a document or choose a ready-made template." },
+      { "description": "Set the signers and the signing order." },
+      { "description": "Send it for signature with secure authentication." },
+      { "description": "Signers sign from anywhere, even from their phone." },
+      { "description": "Track status in real time and get alerts." },
+      { "description": "The document is completed and stored securely." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Complete features for ",
+    "headingHighlight": "every kind of business",
+    "cards": [
+      { "title": "Ready-made templates", "description": "Use ready-made templates or create your own custom ones." },
+      { "title": "Multiple signers", "description": "Sign with one or several people, in sequence or in parallel." },
+      { "title": "Secure authentication", "description": "Multiple layers of verification to guarantee identity and security." },
+      { "title": "Audit trail", "description": "Track every action with complete, immutable detail." },
+      { "title": "Integration with Documents", "description": "Sign documents straight from your repositories." },
+      { "title": "Integration with Process", "description": "Add digital signature to your end-to-end automated processes." },
+      { "title": "Real-time tracking", "description": "See who has signed, who hasn't, and the current status of each step." },
+      { "title": "Mobile signing", "description": "Sign from anywhere via the app in just a few taps." },
+      { "title": "External sending", "description": "Send documents to people outside your organization with full security." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform how your company signs and approves documents?",
+    "description": "Get started now with Interfy Sign and bring more agility, security, and control to your business.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a Demo",
+    "statsLabel": "Scale of the Interfy platform",
+    "sectionLabel": "Start using Interfy Sign"
+  }
+}

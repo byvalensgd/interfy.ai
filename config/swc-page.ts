@@ -1,94 +1,78 @@
-import type { HeroStat } from "@/config/hero";
-
-export type IconLabel = {
-  icon: string;
-  text: string;
-};
-
-export const swcHeroTrust: IconLabel[] = [
-  { icon: "/icons/swc/confiabilidade.svg", text: "99,9% de confiabilidade na extração" },
-  { icon: "/icons/swc/lgpd.svg", text: "100% seguro e conforme com a LGPD" },
-  { icon: "/icons/swc/ai-native.svg", text: "AI-native em toda a plataforma" },
-  { icon: "/icons/swc/escalavel.svg", text: "Escalável para qualquer volume de documentos" },
+/** Icons only — matching text lives in messages/<locale>/capture.json's `hero.trust` (same index). */
+export const swcHeroTrust: string[] = [
+  "/icons/swc/confiabilidade.svg",
+  "/icons/swc/lgpd.svg",
+  "/icons/swc/ai-native.svg",
+  "/icons/swc/escalavel.svg",
 ];
 
-export const swcHeroFlow: IconLabel[] = [
-  { icon: "/icons/swc/flow-ai-reconhece.svg", text: "AI reconhece e extrai" },
-  { icon: "/icons/swc/flow-classifica.svg", text: "Classifica e organiza" },
-  { icon: "/icons/swc/flow-documents.svg", text: "Armazena no Interfy Documents" },
-  { icon: "/icons/swc/flow-process.svg", text: "Envia para Interfy Process" },
+/** Icons only — matching text lives in messages/<locale>/capture.json's `hero.flow` (same index). */
+export const swcHeroFlow: string[] = [
+  "/icons/swc/flow-ai-reconhece.svg",
+  "/icons/swc/flow-classifica.svg",
+  "/icons/swc/flow-documents.svg",
+  "/icons/swc/flow-process.svg",
 ];
 
-export type HowItWorksStep = {
-  icon: string;
-  title: string;
-  description: string;
-};
-
-export const swcHowItWorksSteps: HowItWorksStep[] = [
-  { icon: "/icons/swc/step-captura.svg", title: "Captura", description: "Captura de qualquer origem: navegador, scanners ou celular." },
-  { icon: "/icons/swc/step-reconhecimento.svg", title: "Reconhecimento por AI", description: "A Interfy AI reconhece e extrai automaticamente o conteúdo." },
-  { icon: "/icons/swc/step-leitura.svg", title: "Leitura e compreensão", description: "Entende o contexto, campos e relações entre as informações." },
-  { icon: "/icons/swc/step-extracao.svg", title: "Extração de dados", description: "Extrai automaticamente os dados estruturados e não estruturados." },
-  { icon: "/icons/swc/step-classificacao.svg", title: "Classificação", description: "Classifica e organiza os documentos com AI." },
-  { icon: "/icons/swc/step-indexacao.svg", title: "Indexação e metadados", description: "Atribui metadados e prepara para busca e rastreabilidade." },
-  { icon: "/icons/swc/step-validacao.svg", title: "Validação e encaminhamento", description: "Valida e encaminha para Interfy Documentos ou Processos." },
+/** Icons only — matching title/description live in messages/<locale>/capture.json's `howItWorks.steps` (same index). */
+export const swcHowItWorksSteps: string[] = [
+  "/icons/swc/step-captura.svg",
+  "/icons/swc/step-reconhecimento.svg",
+  "/icons/swc/step-leitura.svg",
+  "/icons/swc/step-extracao.svg",
+  "/icons/swc/step-classificacao.svg",
+  "/icons/swc/step-indexacao.svg",
+  "/icons/swc/step-validacao.svg",
 ];
 
-export type FeatureCard = {
-  icon: string;
-  title: string;
-  description: string;
-};
-
-export const swcFeatures: FeatureCard[] = [
-  { icon: "/icons/swc/feature-browser.svg", title: "Captura pelo navegador", description: "Capture arquivos diretamente do seu computador. Simples, rápido e seguro." },
-  { icon: "/icons/swc/feature-scanner.svg", title: "Scanners profissionais", description: "Integração nativa com scanners de alta performance para máxima qualidade." },
-  { icon: "/icons/swc/feature-lote.svg", title: "Captura em lote", description: "Digitalize e processe grandes volumes de documentos de uma só vez." },
-  { icon: "/icons/swc/feature-ai-creditos.svg", title: "AI Créditos incluídos", description: "Créditos de AI incluídos em todos os planos." },
-  { icon: "/icons/swc/feature-mobile.svg", title: "Mobile Capture", description: "Capture documentos pelo smartphone de qualquer lugar, a qualquer hora." },
-  { icon: "/icons/swc/feature-reconhecimento.svg", title: "Reconhecimento por AI", description: "AI reconhece e extrai o conteúdo com alta precisão." },
-  { icon: "/icons/swc/feature-extracao.svg", title: "Extração automática", description: "Extração automática de dados estruturados e não estruturados." },
-  { icon: "/icons/swc/feature-documents.svg", title: "Interfy Documents", description: "Armazena com segurança, busca inteligente e rastreabilidade." },
-  { icon: "/icons/swc/feature-process.svg", title: "Interfy Process", description: "Envio automático para fluxos e automações da sua operação." },
-  { icon: "/icons/swc/feature-creditos-adicionais.svg", title: "Compra de créditos adicionais", description: "Mais créditos sempre que sua operação precisar." },
+/** Icons only — matching title/description live in messages/<locale>/capture.json's `features.items` (same index). */
+export const swcFeatures: string[] = [
+  "/icons/swc/feature-browser.svg",
+  "/icons/swc/feature-scanner.svg",
+  "/icons/swc/feature-lote.svg",
+  "/icons/swc/feature-ai-creditos.svg",
+  "/icons/swc/feature-mobile.svg",
+  "/icons/swc/feature-reconhecimento.svg",
+  "/icons/swc/feature-extracao.svg",
+  "/icons/swc/feature-documents.svg",
+  "/icons/swc/feature-process.svg",
+  "/icons/swc/feature-creditos-adicionais.svg",
 ];
 
-export const swcLegalValidity = {
-  icon: "/icons/swc/legal-validade.svg",
-  title: "Digitalização com Validade Legal",
-  badge: "Recurso opcional",
-  description: "Recurso opcional para empresas que precisam de validade jurídica em seus documentos digitais. Não incluso no plano padrão.",
-  checklist: [
-    { icon: "/icons/swc/legal-certificacao.svg", text: "Certificação digital e carimbo do tempo" },
-    { icon: "/icons/swc/legal-armazenamento.svg", text: "Armazenamento seguro com validade legal" },
-    { icon: "/icons/swc/legal-rastreabilidade.svg", text: "Rastreabilidade de ponta a ponta" },
-    { icon: "/icons/swc/legal-evidencias.svg", text: "Evidências e trilhas de auditorias" },
-    { icon: "/icons/swc/legal-carimbo.svg", textParts: ["Aplicação de carimbo e trilha conforme o ", "Decreto 10.278"] },
-    { icon: "/icons/swc/legal-trilha.svg", text: "Trilha de auditoria" },
-    { icon: "/icons/swc/legal-validacao-juridica.svg", text: "Validação jurídica" },
-    { icon: "/icons/swc/legal-conformidade.svg", text: "Conformidade e segurança" },
-  ] as { icon: string; text?: string; textParts?: [string, string] }[],
-};
+/** Icon for the section header badge; title/badge/description live in messages/<locale>/capture.json's `legalValidity`. */
+export const swcLegalValidityIcon = "/icons/swc/legal-validade.svg";
 
-export type ResultStat = {
+/** Icons only — matching text/textParts live in messages/<locale>/capture.json's `legalValidity.checklist` (same index). */
+export const swcLegalValidityChecklistIcons: string[] = [
+  "/icons/swc/legal-certificacao.svg",
+  "/icons/swc/legal-armazenamento.svg",
+  "/icons/swc/legal-rastreabilidade.svg",
+  "/icons/swc/legal-evidencias.svg",
+  "/icons/swc/legal-carimbo.svg",
+  "/icons/swc/legal-trilha.svg",
+  "/icons/swc/legal-validacao-juridica.svg",
+  "/icons/swc/legal-conformidade.svg",
+];
+
+export type ResultStatVisual = {
   icon: string;
-  accent: string;
   accentColor: string;
-  label: string;
-  description: string;
 };
 
-export const swcResultStats: ResultStat[] = [
-  { icon: "/icons/swc/results-erros.svg", accent: "ATÉ 85%", accentColor: "#dae9ff", label: "MENOS ERROS", description: "na indexação e classificação." },
-  { icon: "/icons/swc/results-produtividade.svg", accent: "MAIS", accentColor: "#e9e5fd", label: "PRODUTIVIDADE", description: "Seu time foca no que realmente importa." },
-  { icon: "/icons/swc/results-seguranca.svg", accent: "SEGURANÇA &", accentColor: "#fef3e3", label: "CONFORMIDADE", description: "Total com LGPD, GDPR e padrões globais." },
+/** Visuals only — matching accent/label/description live in messages/<locale>/capture.json's `results.stats` (same index). */
+export const swcResultStats: ResultStatVisual[] = [
+  { icon: "/icons/swc/results-erros.svg", accentColor: "#dae9ff" },
+  { icon: "/icons/swc/results-produtividade.svg", accentColor: "#e9e5fd" },
+  { icon: "/icons/swc/results-seguranca.svg", accentColor: "#fef3e3" },
 ];
 
-export const swcResultsCta = {
-  title: "PRONTO PARA TRANSFORMAR SUA OPERAÇÃO DE DOCUMENTOS?",
-  description: "Agende uma demonstração e descubra como o Interfy CAPTURA pode gerar resultados reais para a sua empresa.",
-};
+/** Icons only — matching label/sublabel live in messages/<locale>/capture.json's `cta.highlights` (same index). */
+export const swcCtaHighlights: string[] = [
+  "/icons/swc/cta-web.svg",
+  "/icons/swc/cta-seguranca.svg",
+  "/icons/swc/cta-escalavel.svg",
+  "/icons/swc/cta-suporte.svg",
+];
 
 export type PricingTier = {
   key: string;
@@ -104,6 +88,9 @@ export type PricingTier = {
   features: string[];
 };
 
+// SwcPricing is currently unused on the Capture page (temporarily hidden — see
+// app/[lang]/platform/capture/page.tsx). Left in Portuguese until it's wired
+// back in and gets its own i18n pass.
 export const swcPricingTiers: PricingTier[] = [
   {
     key: "essential",
@@ -243,11 +230,4 @@ export const swcSystemResources: SystemResourceCard[] = [
   { icon: "/icons/swc/icon-treinamento.svg", label: "Treinamento Interfy Capture", value: "R$ 3.500,00", description: "cobrança única de implantação e treinamento." },
   { icon: "/icons/swc/icon-parceria.svg", label: "Desconto para parceiros", value: "20%", description: "aplicável aos planos mensais e aos pacotes de créditos." },
   { icon: "/icons/swc/icon-observacao.svg", label: "Observação", value: "", description: "O desconto de parceiro não se aplica ao treinamento do módulo CAPTURA." },
-];
-
-export const swcCtaHighlights: HeroStat[] = [
-  { icon: "/icons/swc/cta-web.svg", label: "100% Web", sublabel: "Acesse de qualquer lugar" },
-  { icon: "/icons/swc/cta-seguranca.svg", label: "Segurança de ponta", sublabel: "Dados protegidos e conformes" },
-  { icon: "/icons/swc/cta-escalavel.svg", label: "Escalável", sublabel: "Do pequeno ao grande negócio" },
-  { icon: "/icons/swc/cta-suporte.svg", label: "Suporte 24/7", sublabel: "Sempre que precisar" },
 ];

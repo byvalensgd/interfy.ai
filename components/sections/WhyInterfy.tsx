@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { whyInterfyFeatures } from "@/config/features";
 
-export default function WhyInterfy() {
+export default async function WhyInterfy() {
+  const { home } = await getDictionary();
+  const { whyInterfy } = home;
+  const features = whyInterfyFeatures.map((feature, i) => ({ ...feature, ...whyInterfy.items[i] }));
+
   return (
     <section
       aria-labelledby="why-interfy-heading"
@@ -13,15 +18,15 @@ export default function WhyInterfy() {
           id="why-interfy-heading"
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2] text-texto"
         >
-          Porque escolher a{" "}
+          {whyInterfy.headline}{" "}
           <span className="inline-block bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-            Interfy AI?
+            {whyInterfy.headlineHighlight}
           </span>
         </h2>
 
         <Reveal className="w-full">
           <ul className="grid w-full grid-cols-1 gap-x-0 gap-y-8 rounded-[12px] border border-contorno-base py-5 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-            {whyInterfyFeatures.map((feature, index) => (
+            {features.map((feature, index) => (
               <li
                 key={feature.title}
                 className={`flex flex-col gap-5 border-contorno-base px-5 ${

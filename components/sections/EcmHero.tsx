@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import { ecmHeroStats } from "@/config/ecm-page";
+import { ecmHeroStatIcons } from "@/config/ecm-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
 const aiGradient = "linear-gradient(93.5deg, #184aee 22.863%, #bf18f6 96.412%)";
 
-export default function EcmHero() {
+export default async function EcmHero() {
+  const locale = await getLocale();
+  const { documents } = await getDictionary();
+  const stats = ecmHeroStatIcons.map((icon, i) => ({ icon, ...documents.hero.stats[i] }));
+
   return (
     <section
       aria-labelledby="ecm-hero-heading"
@@ -28,29 +34,28 @@ export default function EcmHero() {
                 id="ecm-hero-heading"
                 className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
-                Seus documentos deixam de ser arquivos. Tornam-se{" "}
+                {documents.hero.headingLine1}{" "}
                 <span className="inline-block bg-[linear-gradient(100.03deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
-                  informação inteligente.
+                  {documents.hero.headingHighlight}
                 </span>
               </h1>
               <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                <span className="font-bold text-azul-base">Interfy DOCUMENTS</span> é a nova geração
-                de gestão documental. Organize, encontre, proteja e compartilhe documentos com
-                inteligência artificial em cada etapa.
+                <span className="font-bold text-azul-base">{documents.hero.descriptionBrand}</span>{" "}
+                {documents.hero.description}
               </p>
             </div>
 
             <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-              <Button href="/comece-gratis" variant="primary" className="grow whitespace-nowrap lg:grow-0">
-                Teste Drive Grátis por 7 dias
+              <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+                {documents.hero.ctaPrimary}
               </Button>
-              <Button href="/demo" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                Agende uma demonstração
+              <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                {documents.hero.ctaSecondary}
               </Button>
             </div>
 
             <ul className="flex w-full flex-wrap items-start gap-5">
-              {ecmHeroStats.map((stat, index) => {
+              {stats.map((stat, index) => {
                 const grows = index < 2;
                 return (
                   <li
@@ -78,7 +83,7 @@ export default function EcmHero() {
             <div className="relative z-0 mb-5 aspect-[2625/1793] w-full lg:mb-[-56px]">
               <Image
                 src="/ecm/hero-mockup.webp"
-                alt="Plataforma Interfy Documents exibida em tablet e smartphone, mostrando a lista de documentos e pastas"
+                alt={documents.hero.mockupAlt}
                 fill
                 priority
                 sizes="(min-width: 1024px) 50vw, 100vw"
@@ -95,10 +100,10 @@ export default function EcmHero() {
               </span>
               <div className="flex min-w-0 flex-1 flex-col items-start gap-2.5 text-left">
                 <p className="w-full text-lg leading-[1.2] font-extrabold text-texto">
-                  Encontrar contratos assinados
+                  {documents.hero.chatCard.line1}
                 </p>
                 <p className="w-full text-sm leading-[1.2] font-medium text-texto">
-                  com a empresa Acme em 2024
+                  {documents.hero.chatCard.line2}
                 </p>
               </div>
               <span className="flex size-[34px] shrink-0 items-center justify-center rounded-full bg-azul-base p-2">

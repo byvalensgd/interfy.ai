@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Test Drive Grátis",
+    "description": "Experimente a Interfy.AI na prática. Crie sua Workspace e teste todos os produtos da plataforma por 7 dias, sem cartão de crédito.",
+    "keywords": ["teste grátis Interfy", "test drive plataforma AI-native", "workspace grátis", "trial gestão de documentos"],
+    "freeTrialNote": "7 dias grátis para testar toda a plataforma, sem cartão de crédito."
+  },
+  "hero": {
+    "ariaLabel": "Diferenciais do Test Drive",
+    "headingPrefix": "Experimente a ",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " na prática",
+    "subheading": "7 dias para transformar a forma como sua empresa trabalha.",
+    "descriptionPrefix": "Crie sua Workspace, explore a plataforma e descubra como ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents & Voice",
+    "descriptionSuffix": " podem transformar sua operação com AI.",
+    "ctaButton": "Veja como funciona o Test Drive",
+    "differentiators": [
+      { "title": "7 dias grátis", "subtitle": "para testar tudo" },
+      { "title": "Sem cartão", "subtitle": "Sem compromisso" },
+      { "title": "Workspace em minutos", "subtitle": "Crie agora mesmo" },
+      { "title": "100% Web + Mobile", "subtitle": "Acesse de onde estiver" },
+      { "title": "AI Native", "subtitle": "Inteligência em tudo" },
+      { "title": "Dados preservados", "subtitle": "Após o teste" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "Como funciona o ",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "Crie sua Workspace", "description": "Cadastro simples e rápido. Sem cartão de crédito." },
+      { "title": "Conheça a plataforma", "description": "Explore todos os produtos e recursos disponíveis." },
+      { "title": "Teste com sua operação", "description": "Carregue documentos, crie processos, use AI e experimente os recursos." },
+      { "title": "Escolha seu plano", "description": "Ao final dos 7 dias, continue exatamente de onde parou." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "O que você pode testar durante os ",
+    "headingHighlight": "7 dias",
+    "items": [
+      { "title": "Documents", "description": "Gestão inteligente de documentos e informações" },
+      { "title": "Process", "description": "Automação inteligente de processos e Tarefas" },
+      { "title": "Capture", "description": "Captura inteligente de documentos com IA" },
+      { "title": "Sign", "description": "Assinatura digital gratuita para todos os usuários" },
+      { "title": "Connect", "description": "Colaboração e comunicação conectadas à operação" },
+      { "title": "Mobile", "description": "Sua operação completa na palma da mão" },
+      { "title": "Agents", "description": "Agentes de IA que analisam, decidem e executam" },
+      { "title": "Voice", "description": "Interação por voz com linguagem natural e IA" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "Seu ",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": " já começa pronto.",
+      "paragraph": "Para você aproveitar cada minuto, preparamos exemplos reais para testar imediatamente.",
+      "checklist": [
+        { "text": "Documentos de exemplo" },
+        { "text": "Processo pronto" },
+        { "text": "Formulário inteligente" },
+        { "text": "Tarefa pendente" },
+        { "text": "Documento para assinatura" },
+        { "text": "Exemplo de ", "highlight": "Capture" },
+        { "text": "Agente configurado" },
+        { "text": "Comandos para ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "Sugerimos uma ",
+      "paragraphHighlight": "jornada de 7 dias",
+      "paragraphNote": " (mas tudo está disponível desde o primeiro dia)",
+      "dayLabel": "Dia {number}",
+      "days": [
+        { "line1": "Conheça sua", "line2": "Workspace" },
+        { "line1": "Explore", "line2": "Documents" },
+        { "line1": "Automatize", "line2": "Processos" },
+        { "line1": "Teste fazer", "line2": "Capture" },
+        { "line1": "Experimente", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "Escolha seu", "line2": "Plano" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Segurança de dados e continuidade após o Test Drive",
+    "preservedHeading": "Seus dados continuam seus.",
+    "preservedList": [
+      "Workspace exclusiva",
+      "Ambiente protegido",
+      "Criptografia avançada",
+      "Controle de acesso",
+      "Isolamento de dados",
+      "Nenhuma cobrança automática",
+      "Sem cartão de crédito"
+    ],
+    "endHeading": "E se o Test Drive terminar?",
+    "endParagraph": "Você escolhe o plano ideal e continua exatamente de onde parou. Sua Workspace e todos os seus dados ficam preservados.",
+    "endFeatures": [
+      { "label": "Seus dados preservados" },
+      { "label": "Transição sem perda" },
+      { "label": "Nada é apagado sem sua autorização" },
+      { "label": "Continue quando quiser" }
+    ],
+    "endButton": "Escolher meu plano"
+  },
+  "cta": {
+    "ariaLabel": "Comece seu Test Drive",
+    "title": "O futuro da sua operação começa com um Test Drive.",
+    "description": "Experimente a Interfy.ai por 7 dias. Sem cartão. Sem compromisso.",
+    "ctaPrimary": "Começar Test Drive Grátis",
+    "ctaSecondary": "Ver Planos",
+    "statsLabel": "Números da plataforma Interfy"
+  },
+  "form": {
+    "heading": "Crie sua Workspace grátis",
+    "subheading": "Leva menos de 2 minutos.",
+    "nameLabel": "Nome completo",
+    "emailLabel": "E-mail corporativo",
+    "companyLabel": "Empresa",
+    "phoneLabel": "Telefone (WhatsApp)",
+    "optionalLabel": "(opcional)",
+    "errors": {
+      "name": "Informe seu nome completo.",
+      "email": "Informe um e-mail válido.",
+      "company": "Informe o nome da sua empresa.",
+      "consent": "É necessário aceitar os termos para continuar."
+    },
+    "consentPrefix": "Li e concordo com os ",
+    "consentTerms": "Termos de Uso",
+    "consentMiddle": " e a ",
+    "consentPrivacy": "Política de Privacidade",
+    "consentSuffix": ".",
+    "submitButton": "Criar minha Workspace grátis",
+    "submittingButton": "Enviando...",
+    "successHeading": "Recebemos seu cadastro!",
+    "successMessagePrefix": "Nossa equipe está preparando sua Workspace. Em instantes você recebe o acesso no e-mail ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Falar com um especialista"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – Document Management, Process Automation and Digital Signature with AI",
+    "description": "AI-native enterprise platform that connects documents, processes, people, data, and communication in a single intelligent environment.",
+    "keywords": ["document management", "process automation", "digital signature", "AI-native platform", "Interfy"]
+  },
+  "hero": {
+    "headline": "Transform your operation with",
+    "headlineHighlight": "AI.",
+    "subheadline": "Document Management, Process Automation, Intelligent Capture, Digital Signature, Collaboration, and Mobile in a single platform.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "offers free digital signature for every user on the platform."
+    },
+    "ctaPrimary": "Try it free for 7 days",
+    "ctaSecondary": "Schedule a demo",
+    "slideshowAlt": "Interfy platform shown on laptop and smartphone, displaying the AI-powered management dashboard",
+    "availableVia": "Available via:",
+    "badges": [
+      { "alt": "Available as a Web App" },
+      { "alt": "Available on Google Play" },
+      { "alt": "Available on the App Store" }
+    ],
+    "statsAriaLabel": "Platform highlights",
+    "stats": [
+      { "label": "25,000 +", "sublabel": "customers" },
+      { "label": "180+ countries" },
+      { "label": "16 languages" },
+      { "label": "Enterprise-grade security" },
+      { "label": "AI Native" },
+      { "label": "High availability" },
+      { "label": "Global compliance" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "An enterprise platform native to",
+    "headlineHighlight": "AI",
+    "description": "Centralize documents, processes, people, data, and communication in a single intelligent environment.",
+    "descriptionBold": "Everything connected. Everything integrated.",
+    "statsAriaLabel": "Scale of the Interfy platform",
+    "stats": [
+      { "label": "2.5M +", "sublabel": "users" },
+      { "label": "12B +", "sublabel": "documents" },
+      { "label": "6M +", "sublabel": "processes" },
+      { "label": "1000TB +", "sublabel": "stored" },
+      { "label": "20M +", "sublabel": "signatures" },
+      { "label": "99.99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "support" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["Organize and find", "with intelligence"] },
+        { "descriptionLines": ["Build flows, approvals", "and tasks"] },
+        { "descriptionLines": ["Talk to the platform", "naturally"] },
+        { "descriptionLines": ["Scan, recognize", "and extract data"] },
+        { "descriptionLines": ["AI that understands and", "supports users"] },
+        { "descriptionLines": ["Sign documents", "with legal validity"] },
+        { "descriptionLines": ["Collaborate and communicate", "with your team"] },
+        { "descriptionLines": ["Your operation in the", "palm of your hand"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "A complete ecosystem",
+    "headlineSuffix": "for your operation",
+    "items": [
+      { "description": "Intelligent management of documents and information" },
+      { "description": "Intelligent automation of processes and tasks" },
+      { "description": "Intelligent document capture with AI" },
+      { "description": "Free digital signature for every user" },
+      { "description": "Collaboration and communication connected to your operation" },
+      { "description": "Your entire operation in the palm of your hand" },
+      { "description": "AI agents that analyze, decide, and execute" },
+      { "description": "Voice interaction with natural language and AI" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "Why choose",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI-native", "description": "intelligence at the core of everything" },
+      { "title": "100% web", "description": "access from anywhere, on any device" },
+      { "title": "Dedicated workspace per customer", "description": "isolated data with full privacy" },
+      { "title": "White Label", "description": "your brand, your experience" },
+      { "title": "API integrations", "description": "connect with your existing systems" },
+      { "title": "Audit and traceability", "description": "complete, secure history" },
+      { "title": "Global scalability", "description": "grow without limits, in any country" },
+      { "title": "AWS cloud security", "description": "robust, reliable infrastructure" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "Intelligent capture and AI agents",
+    "capture": {
+      "eyebrow": "Capture everything, from anywhere, with AI.",
+      "headingSuffix": "that understands and delivers",
+      "description": "Interfy can operate under your own brand for special operations, business units, or regions.",
+      "checklist": [
+        "Professional or mobile scanner.",
+        "AI-powered text and data recognition.",
+        "Automatic document classification.",
+        "Intelligent indexing and enrichment.",
+        "Direct delivery to documents and processes."
+      ],
+      "imageAlt": "Document capture via scanner and mobile with AI-powered data recognition"
+    },
+    "agents": {
+      "eyebrow": "AI that understands, executes, and responds.",
+      "headingPrefix": "Interact",
+      "headingSuffix": "with the platform like never before",
+      "description": "Use intelligent agents and voice commands to create, search, summarize, approve, and much more.",
+      "videoAriaLabel": "Interfy AI assistant",
+      "chatDemo": {
+        "message1": "Show me contracts pending signature",
+        "message2Line1": "15 contracts pending signature found.",
+        "message2Line2": "Would you like to view them?",
+        "voiceAlt": "Voice command"
+      }
+    }
+  },
+  "segments": {
+    "headline": "Solutions for different",
+    "headlineHighlight": "segments",
+    "items": [
+      { "label": "Finance" },
+      { "label": "Healthcare" },
+      { "label": "Legal" },
+      { "label": "Industry" },
+      { "label": "Government" },
+      { "label": "Education" },
+      { "label": "Logistics" },
+      { "label": "View all..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "Your brand, global presence, and security",
+    "whiteLabel": {
+      "eyebrow": "YOUR BRAND. YOUR EXPERIENCE.",
+      "title": "White Label & Workspace",
+      "titleHighlight": "Exclusive",
+      "description": "Customize the platform with your brand, colors, login screen, and your own domain.",
+      "imageAlt": "Platform customized with the customer's brand (White Label)"
+    },
+    "global": {
+      "eyebrow": "GLOBAL PRESENCE.",
+      "title": "Ready",
+      "titleHighlight": "for the world",
+      "description": "Interfy is ready to serve companies in more than 180 countries, with support in 16 languages.",
+      "imageAlt": "World map illustrating Interfy's global presence"
+    },
+    "security": {
+      "eyebrow": "SECURITY AND TRUST FIRST.",
+      "title": "Secure, reliable infrastructure",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "Access control" },
+        { "label": "Complete audit trail" },
+        { "label": "24/7 availability" },
+        { "label": "Workspace isolation" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "Secure, scalable, and",
+    "headlineHighlight": "ready to grow.",
+    "featuresAriaLabel": "Security and governance",
+    "features": [
+      { "label": "Per-user permissions" },
+      { "label": "Protected data" },
+      { "label": "Isolated environment" },
+      { "label": "Audit and traceability" },
+      { "label": "Cloud infrastructure" },
+      { "label": "High availability" },
+      { "label": "Privacy and governance" }
+    ],
+    "trustAriaLabel": "Trust and compliance",
+    "trustBadges": [
+      { "label": "Global company" },
+      { "label": "LGPD, GDPR, and ISO" },
+      { "label": "Encrypted, protected data" },
+      { "label": "Highly available global infrastructure" },
+      { "label": "International certifications" },
+      { "label": "Continuous updates" }
+    ],
+    "cta": {
+      "title": "Get started with Interfy now.",
+      "description": "Create your account, try the platform, and discover how Interfy can transform your company's operation.",
+      "ctaPrimary": "Start for Free",
+      "ctaSecondary": "Schedule a Demo"
+    }
+  }
+}

@@ -3,11 +3,20 @@ import Button from "@/components/ui/Button";
 import StatsBar from "@/components/ui/StatsBar";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 import { heroBadges, heroStats } from "@/config/hero";
 
 const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
-export default function Hero() {
+export default async function Hero() {
+  const locale = await getLocale();
+  const { home, common } = await getDictionary();
+  const { hero } = home;
+
+  const stats = heroStats.map((stat, i) => ({ icon: stat.icon, ...hero.stats[i] }));
+  const badges = heroBadges.map((badge, i) => ({ ...badge, ...hero.badges[i] }));
+
   return (
     <section
       aria-labelledby="hero-heading"
@@ -31,15 +40,13 @@ export default function Hero() {
                   id="hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Transforme sua operação com{" "}
+                  {hero.headline}{" "}
                   <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    AI.
+                    {hero.headlineHighlight}
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  Gestão de Documentos, Automação de Processos, Captura
-                  Inteligente, Assinatura Digital, Colaboração e Mobile em uma
-                  única plataforma.
+                  {hero.subheadline}
                 </p>
               </div>
 
@@ -53,26 +60,25 @@ export default function Hero() {
                   className="hidden shrink-0 lg:block"
                 />
                 <p className="text-center text-[clamp(1rem,0.4167vw+0.9167rem,1.25rem)] leading-[1.2] text-azul-base lg:flex-1 lg:text-left">
-                  <span className="font-bold">A Interfy</span> oferece
-                  assinatura digital grátis para todos os usuários da
-                  plataforma.
+                  <span className="font-bold">{hero.signBadge.brand}</span>{" "}
+                  {hero.signBadge.text}
                 </p>
               </div>
 
               <div className="flex w-full flex-wrap items-center gap-5">
                 <Button
-                  href="/comece-gratis"
+                  href={withLocale("/comece-gratis", locale)}
                   variant="primary"
                   className="grow whitespace-nowrap"
                 >
-                  Teste grátis por 7 dias
+                  {hero.ctaPrimary}
                 </Button>
                 <Button
-                  href="/demo"
+                  href={withLocale("/demo", locale)}
                   variant="secondary"
                   className="grow whitespace-nowrap"
                 >
-                  Agende uma demonstração
+                  {hero.ctaSecondary}
                 </Button>
               </div>
             </Reveal>
@@ -80,20 +86,19 @@ export default function Hero() {
             <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
               <HeroSlideshow
                 images={heroSlides}
-                alt="Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA"
+                alt={hero.slideshowAlt}
+                prevLabel={common.prevSlide}
+                nextLabel={common.nextSlide}
                 className="aspect-[2625/1793] w-full"
               />
 
               <div className="flex w-full flex-col items-center gap-4 px-0 lg:flex-row lg:flex-wrap lg:px-12">
                 <p className="whitespace-nowrap text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold text-texto">
-                  Disponível via:
+                  {hero.availableVia}
                 </p>
                 <div className="flex w-full flex-wrap items-center justify-center gap-4 lg:w-auto lg:flex-1 lg:justify-end">
-                  {heroBadges.map((badge) => (
-                    <div
-                      key={badge.src}
-                      className="flex h-[60px] flex-1 min-w-[100px] items-center justify-center rounded-xl border border-contorno-base bg-branco px-5 py-[15px]"
-                    >
+                  {badges.map((badge) => {
+                    const content = (
                       <div
                         className="relative h-full max-h-10 w-full"
                         style={{ aspectRatio: badge.aspectRatio }}
@@ -106,8 +111,20 @@ export default function Hero() {
                           className="object-contain"
                         />
                       </div>
-                    </div>
-                  ))}
+                    );
+                    const className =
+                      "flex h-[60px] flex-1 min-w-[100px] items-center justify-center rounded-xl border border-contorno-base bg-branco px-5 py-[15px]";
+
+                    return badge.href ? (
+                      <a key={badge.src} href={badge.href} target="_blank" rel="noreferrer" className={className}>
+                        {content}
+                      </a>
+                    ) : (
+                      <div key={badge.src} className={className}>
+                        {content}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </Reveal>
@@ -115,7 +132,7 @@ export default function Hero() {
         </div>
 
         <Reveal immediate delayMs={200}>
-          <StatsBar stats={heroStats} label="Diferenciais da plataforma" />
+          <StatsBar stats={stats} label={hero.statsAriaLabel} />
         </Reveal>
       </div>
     </section>

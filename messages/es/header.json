@@ -1,0 +1,28 @@
+{
+  "mainNavAria": "Menú principal",
+  "mobileNavAria": "Menú principal (móvil)",
+  "openMenu": "Abrir menú",
+  "closeMenu": "Cerrar menú",
+  "nav": {
+    "platform": "Plataforma",
+    "segments": "Sectores",
+    "plans": "Planes",
+    "blog": "Blog",
+    "partnership": "Alianzas"
+  },
+  "productsMenu": {
+    "trigger": "Productos",
+    "eyebrow": "Más productos",
+    "items": [
+      { "label": "Documents", "description": "Organiza, encuentra y protege documentos con IA" },
+      { "label": "Process", "description": "Crea procesos visuales y automatizaciones con IA" },
+      { "label": "Capture", "description": "Digitaliza, reconoce y extrae datos" },
+      { "label": "Sign", "description": "Firma documentos con validez jurídica" },
+      { "label": "Connect", "description": "Colabora y comunícate con tu equipo" },
+      { "label": "Agents", "description": "IA que entiende y apoya a los usuarios" },
+      { "label": "Mobile", "description": "Tu operación en la palma de tu mano" },
+      { "label": "Voice", "description": "Habla con la plataforma de forma natural" }
+    ]
+  },
+  "languageSelectorAria": "Seleccionar idioma"
+}

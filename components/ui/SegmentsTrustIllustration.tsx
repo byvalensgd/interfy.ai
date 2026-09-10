@@ -59,9 +59,9 @@ const DONUT_PATHS = DONUT_SLICES.reduce<
   { cursor: -Math.PI / 2, slices: [] }
 ).slices;
 
-export default function SegmentsTrustIllustration() {
+export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: string }) {
   return (
-    <svg viewBox={`0 0 ${VIEW_W} ${VIEW_H}`} className="size-full" role="img" aria-label="Painel com gráficos representando dados de diferentes empresas">
+    <svg viewBox={`0 0 ${VIEW_W} ${VIEW_H}`} className="size-full" role="img" aria-label={ariaLabel}>
       <defs>
         <linearGradient id="trust-illu-badge" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#184aee" />

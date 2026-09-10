@@ -1,9 +1,15 @@
 import StatsBar from "@/components/ui/StatsBar";
 import EcosystemDiagram from "@/components/ui/EcosystemDiagram";
 import Reveal from "@/components/ui/Reveal";
-import { platformStats } from "@/config/platform";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { platformStatIcons } from "@/config/platform";
 
-export default function PlatformIntro() {
+export default async function PlatformIntro() {
+  const { home } = await getDictionary();
+  const { platformIntro } = home;
+
+  const stats = platformStatIcons.map((stat, i) => ({ icon: stat.icon, ...platformIntro.stats[i] }));
+
   return (
     <section
       aria-labelledby="platform-intro-heading"
@@ -16,15 +22,14 @@ export default function PlatformIntro() {
               id="platform-intro-heading"
               className="text-[clamp(1.75rem,1.25vw+1.5rem,2.5rem)] font-bold leading-[1.2] text-texto"
             >
-              Uma plataforma empresarial nativa em{" "}
+              {platformIntro.headline}{" "}
               <span className="inline-block bg-[linear-gradient(112.76deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                AI
+                {platformIntro.headlineHighlight}
               </span>
             </h2>
             <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-              Centralize documentos, processos, pessoas, dados e comunicação
-              em um único ambiente inteligente.{" "}
-              <span className="font-bold">Tudo conectado. Tudo integrado.</span>
+              {platformIntro.description}{" "}
+              <span className="font-bold">{platformIntro.descriptionBold}</span>
             </p>
           </Reveal>
 
@@ -34,7 +39,7 @@ export default function PlatformIntro() {
         </div>
 
         <Reveal delayMs={200}>
-          <StatsBar stats={platformStats} label="Escala da plataforma Interfy" size="lg" />
+          <StatsBar stats={stats} label={platformIntro.statsAriaLabel} size="lg" />
         </Reveal>
       </div>
     </section>

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Content",
+    "description": "Articles, guides and news on document management, process automation, electronic signature and AI applied to business operations.",
+    "keywords": ["Interfy blog", "document management content", "process automation", "AI for business"]
+  },
+  "hero": {
+    "ariaLabel": "Blog introduction",
+    "eyebrow": "Blog & Content",
+    "titleLine1": "Content for those",
+    "titleHighlight": "transforming operations",
+    "description": "Practical guides, product news and trends on documents, processes, data and AI for businesses."
+  },
+  "grid": {
+    "ariaLabel": "Blog articles",
+    "categoriesLabel": "Filter by category",
+    "allLabel": "All",
+    "categories": ["Document Management", "Automation (BPM)", "Electronic Signature", "AI & Agents", "Security & Compliance"],
+    "comingSoonLabel": "New articles every week. Coming soon right here.",
+    "posts": [
+      {
+        "category": "Document Management",
+        "title": "How to structure a document repository that scales with your company",
+        "excerpt": "Best practices for organization, versioning and access control for fast-growing teams.",
+        "date": "Aug 2026",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "Automation (BPM)",
+        "title": "5 processes every company should automate first",
+        "excerpt": "A practical roadmap for prioritizing the automations with the biggest impact on cost and cycle time.",
+        "date": "Aug 2026",
+        "readTime": "7 min read"
+      },
+      {
+        "category": "Electronic Signature",
+        "title": "Is electronic signature legally valid?",
+        "excerpt": "What the law says, which evidence matters, and how to pick the right signature level.",
+        "date": "Jul 2026",
+        "readTime": "5 min read"
+      },
+      {
+        "category": "AI & Agents",
+        "title": "AI agents in internal processes: where to start",
+        "excerpt": "Real-world use cases to reduce manual work in triage, classification and data extraction.",
+        "date": "Jul 2026",
+        "readTime": "8 min read"
+      },
+      {
+        "category": "Security & Compliance",
+        "title": "Data protection in practice: what changes in document and process management",
+        "excerpt": "A straightforward guide to legal bases, data retention and controller responsibilities.",
+        "date": "Jun 2026",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "Document Management",
+        "title": "OCR and smart capture: the end of manual data entry",
+        "excerpt": "How automated capture reduces errors and speeds up document intake into the workflow.",
+        "date": "Jun 2026",
+        "readTime": "5 min read"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy",
+    "heading": "Want to see these ideas in action?",
+    "subheading": "Start for free and explore the Interfy platform with your own documents and processes.",
+    "primaryButton": "Start for free",
+    "secondaryButton": "Schedule a demo"
+  }
+}

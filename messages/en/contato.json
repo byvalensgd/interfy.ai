@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Contact",
+    "description": "Get in touch with Interfy: email, phone, address, and business hours for sales, support, and partnership questions.",
+    "keywords": ["contact Interfy", "talk to Interfy", "Interfy email", "Interfy phone"]
+  },
+  "hero": {
+    "ariaLabel": "Introduction to the contact page",
+    "eyebrow": "Get in touch",
+    "titleLine1": "Let's talk about",
+    "titleHighlight": "your operation",
+    "description": "Our sales and support team is ready to understand your scenario and show you how Interfy fits into it.",
+    "primaryLabel": "Schedule a demo",
+    "secondaryLabel": "Start for free"
+  },
+  "channels": {
+    "ariaLabel": "Contact channels",
+    "heading": "Choose the best channel",
+    "items": [
+      {
+        "title": "Sales email",
+        "description": "contato@interfy.ai — for sales, plans, and partnership questions.",
+        "actionLabel": "Send an email",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Phone",
+        "description": "+55 11 4020-1000 — Monday to Friday, 8am to 8pm (Brasília time).",
+        "actionLabel": "Call now",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Address",
+        "description": "Interfy Corporation — Orlando, Florida, United States, with dedicated commercial service for Brazil.",
+        "actionLabel": "See all regions",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Business hours",
+        "description": "Monday to Friday, 8am to 8pm. Enterprise accounts can add extended 24/7 support.",
+        "actionLabel": "See support",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy",
+    "heading": "Prefer to see the platform in action?",
+    "subheading": "Schedule a demo with our team and see Interfy applied to your process in just a few minutes.",
+    "primaryButton": "Start for free",
+    "secondaryButton": "Schedule a demo"
+  }
+}

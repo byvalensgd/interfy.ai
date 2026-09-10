@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Contato",
+    "description": "Fale com a Interfy: e-mail, telefone, endereço e horário de atendimento para dúvidas comerciais, suporte e parcerias.",
+    "keywords": ["contato Interfy", "falar com a Interfy", "e-mail Interfy", "telefone Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introdução à página de contato",
+    "eyebrow": "Fale conosco",
+    "titleLine1": "Vamos conversar sobre",
+    "titleHighlight": "sua operação",
+    "description": "Nossa equipe comercial e de suporte está pronta para entender seu cenário e mostrar como a Interfy se encaixa nele.",
+    "primaryLabel": "Agende uma demo",
+    "secondaryLabel": "Comece grátis"
+  },
+  "channels": {
+    "ariaLabel": "Canais de contato",
+    "heading": "Escolha o melhor canal",
+    "items": [
+      {
+        "title": "E-mail comercial",
+        "description": "contato@interfy.ai — para dúvidas comerciais, planos e parcerias.",
+        "actionLabel": "Enviar e-mail",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Telefone",
+        "description": "+55 11 4020-1000 — segunda a sexta, das 8h às 20h (horário de Brasília).",
+        "actionLabel": "Ligar agora",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Endereço",
+        "description": "Interfy Corporation — Orlando, Flórida, Estados Unidos, com atendimento comercial dedicado ao Brasil.",
+        "actionLabel": "Ver todas as regiões",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Horário de atendimento",
+        "description": "Segunda a sexta, das 8h às 20h. Contas Enterprise podem contratar suporte estendido 24/7.",
+        "actionLabel": "Ver suporte",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar a Interfy",
+    "heading": "Prefere ver a plataforma funcionando?",
+    "subheading": "Agende uma demonstração com nosso time e veja a Interfy aplicada ao seu processo em poucos minutos.",
+    "primaryButton": "Comece grátis",
+    "secondaryButton": "Agende uma demo"
+  }
+}

@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import StatsBar from "@/components/ui/StatsBar";
-import { ecmCapabilities } from "@/config/ecm-page";
-import { platformStats } from "@/config/platform";
+import { ecmCapabilityIcons } from "@/config/ecm-page";
+import { platformStatIcons } from "@/config/platform";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
-export default function EcmCapabilities() {
+export default async function EcmCapabilities() {
+  const { documents, common } = await getDictionary();
+  const platformStats = platformStatIcons.map((s, i) => ({ icon: s.icon, ...common.platformStats[i] }));
+  const capabilities = ecmCapabilityIcons.map((icon, i) => ({ icon, ...documents.capabilities.items[i] }));
+
   return (
     <section
       aria-labelledby="ecm-capabilities-heading"
@@ -15,13 +20,13 @@ export default function EcmCapabilities() {
           id="ecm-capabilities-heading"
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto"
         >
-          Gestão documental completa com{" "}
-          <span className="text-azul-base">Inteligência Artificial</span>
+          {documents.capabilities.heading}{" "}
+          <span className="text-azul-base">{documents.capabilities.headingHighlight}</span>
         </h2>
 
         <Reveal className="w-full">
           <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {ecmCapabilities.map((item) => (
+            {capabilities.map((item) => (
               <li
                 key={item.title}
                 className="flex flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco px-4 py-5"
@@ -37,7 +42,7 @@ export default function EcmCapabilities() {
         </Reveal>
 
         <Reveal className="w-full" delayMs={120}>
-          <StatsBar stats={platformStats} label="Escala da plataforma Interfy" size="lg" />
+          <StatsBar stats={platformStats} label={documents.capabilities.statsLabel} size="lg" />
         </Reveal>
       </div>
     </section>

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Suporte",
+    "description": "Central de suporte Interfy: fale com nosso time por chat, e-mail ou telefone, ou encontre respostas nas perguntas frequentes.",
+    "keywords": ["suporte Interfy", "central de ajuda Interfy", "atendimento Interfy", "SLA de suporte"]
+  },
+  "hero": {
+    "ariaLabel": "Introdução ao suporte Interfy",
+    "eyebrow": "Suporte Interfy",
+    "titleLine1": "Como podemos",
+    "titleHighlight": "ajudar você?",
+    "description": "Nosso time de suporte técnico acompanha sua operação todos os dias úteis, com SLA definido por plano e uma central de ajuda sempre disponível.",
+    "primaryLabel": "Ver perguntas frequentes",
+    "secondaryLabel": "Falar com um especialista"
+  },
+  "channels": {
+    "ariaLabel": "Canais de atendimento",
+    "heading": "Canais de atendimento",
+    "items": [
+      {
+        "title": "Chat ao vivo",
+        "description": "Fale em tempo real com nosso time de suporte, de segunda a sexta, das 8h às 20h.",
+        "actionLabel": "Iniciar conversa",
+        "href": "/contato"
+      },
+      {
+        "title": "E-mail",
+        "description": "Envie sua dúvida ou solicitação para suporte@interfy.ai e receba retorno dentro do SLA do seu plano.",
+        "actionLabel": "Enviar e-mail",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Telefone",
+        "description": "Ligue para nossa central de atendimento em horário comercial para casos urgentes.",
+        "actionLabel": "Ligar agora",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Central de ajuda",
+        "description": "Consulte artigos, tutoriais e guias passo a passo sobre todos os produtos Interfy.",
+        "actionLabel": "Ver perguntas frequentes",
+        "href": "#faq"
+      }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Perguntas frequentes sobre suporte",
+    "ariaExpand": "Expandir resposta",
+    "heading": "Perguntas frequentes",
+    "items": [
+      {
+        "question": "Como abro um chamado de suporte?",
+        "answer": "Você pode abrir um chamado pelo chat, por e-mail (suporte@interfy.ai) ou diretamente pelo painel da Interfy, na seção de suporte. Todo chamado recebe um número de protocolo para acompanhamento."
+      },
+      {
+        "question": "Qual o tempo de resposta do suporte?",
+        "answer": "O SLA varia por plano: contas Starter recebem retorno em até 24h úteis, enquanto planos Business, Corporate e Enterprise têm prioridade e SLAs reduzidos, detalhados no contrato."
+      },
+      {
+        "question": "O suporte está incluso em todos os planos?",
+        "answer": "Sim. Suporte por chat e e-mail está incluso em todos os planos pagos. Planos Corporate e Enterprise contam ainda com um gerente de conta dedicado."
+      },
+      {
+        "question": "Qual o horário de atendimento?",
+        "answer": "Nosso atendimento funciona de segunda a sexta, das 8h às 20h (horário de Brasília). Contas Enterprise podem contratar suporte estendido 24/7."
+      },
+      {
+        "question": "Como acompanho a disponibilidade da plataforma?",
+        "answer": "A disponibilidade e o histórico de incidentes de cada produto ficam publicados em tempo real na nossa página de status da plataforma."
+      },
+      {
+        "question": "Como escalo um chamado urgente?",
+        "answer": "Chamados marcados como críticos são automaticamente priorizados. Se precisar reforçar a urgência, responda ao e-mail do protocolo ou ligue para a central de atendimento."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar a Interfy",
+    "heading": "Ainda com dúvidas?",
+    "subheading": "Fale com um de nossos especialistas e descubra como a Interfy pode se adaptar à sua operação.",
+    "primaryButton": "Comece grátis",
+    "secondaryButton": "Agende uma demo"
+  }
+}

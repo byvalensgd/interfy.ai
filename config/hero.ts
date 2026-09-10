@@ -1,27 +1,29 @@
+import { mobileAppStoreUrl, mobileGooglePlayUrl } from "@/config/mobile-page";
+
 export type HeroStat = {
   icon: string;
-  label: string;
-  sublabel?: string;
 };
 
+/** Order matches messages/<locale>/home.json's `hero.stats` array. */
 export const heroStats: HeroStat[] = [
-  { icon: "/icons/stats/clientes.svg", label: "25.000 +", sublabel: "clientes" },
-  { icon: "/icons/stats/paises.svg", label: "180+ países" },
-  { icon: "/icons/stats/idiomas.svg", label: "16 idiomas" },
-  { icon: "/icons/stats/seguranca.svg", label: "Segurança de ponta" },
-  { icon: "/icons/stats/ai-native.svg", label: "AI Native" },
-  { icon: "/icons/stats/disponibilidade.svg", label: "Alta disponibilidade" },
-  { icon: "/icons/stats/conformidade.svg", label: "Conformidade Global" },
+  { icon: "/icons/stats/clientes.svg" },
+  { icon: "/icons/stats/paises.svg" },
+  { icon: "/icons/stats/idiomas.svg" },
+  { icon: "/icons/stats/seguranca.svg" },
+  { icon: "/icons/stats/ai-native.svg" },
+  { icon: "/icons/stats/disponibilidade.svg" },
+  { icon: "/icons/stats/conformidade.svg" },
 ];
 
 export type HeroBadge = {
   src: string;
-  alt: string;
   aspectRatio: number;
+  href?: string;
 };
 
+/** Order matches messages/<locale>/home.json's `hero.badges` array. */
 export const heroBadges: HeroBadge[] = [
-  { src: "/hero/badge-webapp.svg", alt: "Disponível como Web App", aspectRatio: 120.11 / 32 },
-  { src: "/hero/badge-googleplay.svg", alt: "Disponível no Google Play", aspectRatio: 172.62 / 40.41 },
-  { src: "/hero/badge-appstore.svg", alt: "Disponível na App Store", aspectRatio: 295 / 78.8 },
+  { src: "/hero/badge-webapp.svg", aspectRatio: 120.11 / 32 },
+  { src: "/hero/badge-googleplay.svg", aspectRatio: 172.62 / 40.41, href: mobileGooglePlayUrl },
+  { src: "/hero/badge-appstore.svg", aspectRatio: 295 / 78.8, href: mobileAppStoreUrl },
 ];

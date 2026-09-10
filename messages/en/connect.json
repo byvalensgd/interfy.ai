@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect goes far beyond chat: real-time collaboration built into your documents, processes, and automations, with internal and external people in the same conversation.",
+    "keywords": ["team collaboration", "integrated chat", "corporate communication", "Interfy Connect"],
+    "freeTrialNote": "Free 7-day Test Drive, no credit card required."
+  },
+  "hero": {
+    "heading": "Connect people, documents, and processes in one",
+    "headingHighlight": "single conversation.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "goes far beyond chat. It's real collaboration, built into your documents, processes, and automations so nothing gets lost and everything moves forward.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "imageAlt": "Interfy Connect shown on laptop and smartphone, displaying the conversation hub",
+    "highlights": [
+      { "label": "Real-time collaboration" },
+      { "label": "Everything connected and traceable" },
+      { "label": "Secure and reliable" },
+      { "label": "Internal and external people in the same conversation" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Complete collaboration",
+    "headingHighlight": "built into your operation",
+    "items": [
+      {
+        "title": "Internal communication",
+        "description": "Chat in channels, groups, or direct messages with your team."
+      },
+      {
+        "title": "Smart sharing",
+        "description": "Share files, links, and information with security and ease."
+      },
+      {
+        "title": "Real-time notifications",
+        "description": "Get alerts and reminders for messages, mentions, tasks, and important updates."
+      },
+      {
+        "title": "Internal and external users",
+        "description": "Bring clients, partners, and suppliers into conversations securely."
+      },
+      {
+        "title": "Complete history",
+        "description": "The full history of conversations, files, and actions, always available and searchable."
+      },
+      {
+        "title": "Total traceability",
+        "description": "Every message, analysis, and decision logged with time and owner."
+      },
+      {
+        "title": "Cross-team collaboration",
+        "description": "Work seamlessly across areas and departments without losing context."
+      },
+      {
+        "title": "AI to summarize conversations",
+        "description": "Interfy AI generates smart summaries of conversations and highlights what matters most."
+      },
+      {
+        "title": "AI to find information",
+        "description": "Ask in natural language and quickly find what you need across conversations."
+      },
+      {
+        "title": "Complete mobile experience",
+        "description": "Access your conversations, files, and notifications from anywhere with the Interfy Mobile app."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Fully integrated with the",
+    "headingHighlight": "Interfy ecosystem",
+    "items": [
+      { "description": "Access and comment on documents without leaving the conversation." },
+      { "description": "Kick off actions and move processes straight from the conversation." },
+      { "description": "Connect people and centralize every communication." },
+      { "description": "Capture documents and share them in the conversation." },
+      { "description": "Send documents for signature and track everything right here." },
+      { "description": "AI agents support, analyze, and execute every interaction." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Digital signature and productivity with Interfy Connect",
+    "signCard": {
+      "titleHighlight": "Free digital signature",
+      "titleSuffix": "for every user.",
+      "description": "Send documents for signature straight from your conversations. Simple, fast, and 100% included in every plan on the platform."
+    },
+    "headingHighlight": "Productivity",
+    "headingSuffix": "you can see every day",
+    "items": [
+      {
+        "title": "More agility",
+        "description": "Faster decisions with everything in the right context."
+      },
+      {
+        "title": "Less rework",
+        "description": "Centralized information accessible to everyone involved."
+      },
+      {
+        "title": "More visibility",
+        "description": "Track conversations and activities as they happen."
+      },
+      {
+        "title": "More security",
+        "description": "Governance, permissions, and compliance in every interaction."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy Connect",
+    "heading": "Connect your team and turn collaboration into results.",
+    "subheading": "Everything connected. Everything traceable. Everything in one conversation.",
+    "primaryButton": "Free 7-Day Test Drive",
+    "secondaryButton": "Schedule a Demo",
+    "statsLabel": "Interfy platform numbers",
+    "stats": [
+      { "label": "25,000 +", "sublabel": "customers" },
+      { "label": "180+ countries" },
+      { "label": "16 languages" },
+      { "label": "Enterprise-grade security" },
+      { "label": "AI Native" },
+      { "label": "High availability" },
+      { "label": "Global compliance" }
+    ]
+  }
+}

@@ -1,9 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import Reveal from "@/components/ui/Reveal";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 import { segments } from "@/config/segments";
 
-export default function Segments() {
+export default async function Segments() {
+  const locale = await getLocale();
+  const { home } = await getDictionary();
+  const { segments: segmentsDict } = home;
+  const items = segments.map((segment, i) => ({ ...segment, ...segmentsDict.items[i] }));
+
   return (
     <section
       aria-labelledby="segments-heading"
@@ -14,17 +21,18 @@ export default function Segments() {
           id="segments-heading"
           className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto"
         >
-          Soluções para diferentes <span className="text-azul-base">segmentos</span>
+          {segmentsDict.headline}{" "}
+          <span className="text-azul-base">{segmentsDict.headlineHighlight}</span>
         </h2>
 
         <Reveal className="w-full">
           <ul className="segments-list grid w-full grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-8">
-            {segments.map((segment, index) => {
-              const isViewAll = index === segments.length - 1;
+            {items.map((segment, index) => {
+              const isViewAll = index === items.length - 1;
               return (
                 <li key={segment.label} className="flex flex-1">
                   <Link
-                    href={segment.href}
+                    href={withLocale(segment.href, locale)}
                     className={`flex w-full flex-col items-center gap-4 rounded-[12px] border border-contorno-base px-4 py-5 ${
                       isViewAll
                         ? "segments-cta transition-[transform,box-shadow] duration-200 hover:scale-105 hover:shadow-[0_10px_24px_-8px_rgba(0,0,0,0.2)]"

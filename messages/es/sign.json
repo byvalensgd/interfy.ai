@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign es la firma digital gratuita para todos los usuarios de la plataforma. Firma y da seguimiento a documentos con velocidad, seguridad e integración total con tu operación.",
+    "keywords": ["firma digital", "firma electrónica", "validez jurídica", "Interfy Sign"],
+    "freeTrialNote": "Firma digital gratuita para todos los usuarios de la plataforma."
+  },
+  "hero": {
+    "heading": "Firma",
+    "headingGradient": "digital gratuita",
+    "subheading": "para todos los usuarios de la plataforma.",
+    "descriptionPrefix": "Firma y da seguimiento a documentos con ",
+    "descriptionHighlight": "velocidad, seguridad e integración total",
+    "descriptionSuffix": " con tu operación.",
+    "noCreditCard": "Sin tarjeta de crédito",
+    "ctaPrimary": "Prueba Gratis por 7 días",
+    "ctaSecondary": "Agenda una demostración",
+    "mockupAlt": "Plataforma Interfy Sign en tablet y smartphone, mostrando un documento listo para firmar",
+    "featureChips": [
+      { "labelLines": ["Firma", "digital"] },
+      { "labelLines": ["Firma", "electrónica"] },
+      { "labelLines": ["Firma", "por flujo"] },
+      { "labelLines": ["Múltiples", "firmantes"] },
+      { "labelLines": ["Plantillas", "listas"] },
+      { "labelLines": ["Registro de", "auditoría"] },
+      { "labelLines": ["Autenticación", "segura"] },
+      { "labelLines": ["Envío", "externo"] },
+      { "labelLines": ["Alertas", "inteligentes"] },
+      { "labelLines": ["Seguimiento", "en tiempo real"] },
+      { "labelLines": ["Firma", "vía móvil"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Más control y eficiencia para el ciclo de vida de tus ",
+    "headingHighlight": "documentos",
+    "cards": [
+      { "title": "Integración con Documents", "description": "Firma documentos almacenados con seguridad y trazabilidad." },
+      { "title": "Integración con Process", "description": "Incluye la firma digital en tus procesos automatizados de principio a fin." },
+      { "title": "Envío a usuarios externos", "description": "Envía documentos a personas fuera de la plataforma con total seguridad." },
+      { "title": "Flujos de aprobación", "description": "Define etapas, responsables y reglas para aprobar con agilidad." },
+      { "title": "Alertas y trazabilidad", "description": "Recibe notificaciones y ten visibilidad total de cada etapa." },
+      { "title": "Todo registrado con seguridad", "description": "Trazabilidad completa con registro de auditoría y cumplimiento garantizado." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Cómo funciona ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Sube el documento o elige una plantilla lista." },
+      { "description": "Define a los firmantes y el orden de firma." },
+      { "description": "Envíalo a firmar con autenticación segura." },
+      { "description": "Los firmantes firman desde donde estén, incluso desde el celular." },
+      { "description": "Da seguimiento al estado en tiempo real y recibe alertas." },
+      { "description": "Documento concluido y almacenado con seguridad." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funciones completas para ",
+    "headingHighlight": "todo tipo de negocio",
+    "cards": [
+      { "title": "Plantillas listas", "description": "Usa plantillas listas o crea tus propios modelos personalizados." },
+      { "title": "Múltiples firmantes", "description": "Firma con una o varias personas, en secuencia o en paralelo." },
+      { "title": "Autenticación segura", "description": "Múltiples capas de verificación para garantizar identidad y seguridad." },
+      { "title": "Registro de auditoría", "description": "Da seguimiento a cada acción con detalles completos e inmutables." },
+      { "title": "Integración con Documents", "description": "Firma documentos directamente desde tus repositorios." },
+      { "title": "Integración con Process", "description": "Incluye la firma digital en tus procesos automatizados de principio a fin." },
+      { "title": "Seguimiento en tiempo real", "description": "Ve quién firmó, quién falta y el estado actual de cada etapa." },
+      { "title": "Firma en el móvil", "description": "Firma desde cualquier lugar con la app en pocos toques." },
+      { "title": "Envío externo", "description": "Envía documentos a personas externas con total seguridad." }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para transformar la forma en que tu empresa firma y aprueba documentos?",
+    "description": "Empieza ahora con Interfy Sign y lleva más agilidad, seguridad y control a tu negocio.",
+    "ctaPrimary": "Prueba Gratis por 7 días",
+    "ctaSecondary": "Agendar Demostración",
+    "statsLabel": "Escala de la plataforma Interfy",
+    "sectionLabel": "Empieza a usar Interfy Sign"
+  }
+}

@@ -1,17 +1,23 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
-import { dataPreservedList, endOfTrialFeatures } from "@/config/test-drive";
+import { endOfTrialFeatures } from "@/config/test-drive";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
-export default function TestDriveSecurity() {
+export default async function TestDriveSecurity() {
+  const locale = await getLocale();
+  const { testDrive } = await getDictionary();
+  const security = testDrive.security;
+
   return (
-    <section aria-label="Segurança de dados e continuidade após o Test Drive" className="flex justify-center px-5 py-10 sm:py-16">
+    <section aria-label={security.ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-2">
         <Reveal className="flex flex-col gap-[30px] rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] p-5 sm:flex-row sm:p-[30px]">
           <div className="flex flex-1 flex-col items-start gap-[30px] text-left">
-            <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-branco">Seus dados continuam seus.</h2>
+            <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-branco">{security.preservedHeading}</h2>
             <ul className="grid w-full grid-cols-1 gap-x-6 gap-y-[15px] sm:grid-cols-2">
-              {dataPreservedList.map((item) => (
+              {(security.preservedList as string[]).map((item) => (
                 <li key={item} className="flex items-center gap-2.5">
                   <Image
                     src="/icons/test-drive/checklist-check-white.svg"
@@ -48,26 +54,26 @@ export default function TestDriveSecurity() {
           delayMs={120}
         >
           <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
-            <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">E se o Test Drive terminar?</h2>
-            <p className="text-sm leading-[1.2] font-medium text-texto">
-              Você escolhe o plano ideal e continua exatamente de onde parou. Sua Workspace e todos os
-              seus dados ficam preservados.
-            </p>
+            <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">{security.endHeading}</h2>
+            <p className="text-sm leading-[1.2] font-medium text-texto">{security.endParagraph}</p>
           </div>
 
           <ul className="flex flex-wrap justify-center gap-[15px]">
-            {endOfTrialFeatures.map((item) => (
-              <li key={item.label} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
-                <div className="flex size-[55px] items-center justify-center rounded-xl border border-contorno-base bg-branco">
-                  <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} />
-                </div>
-                <p className="text-sm leading-[1.2] font-medium text-texto">{item.label}</p>
-              </li>
-            ))}
+            {endOfTrialFeatures.map((item, index) => {
+              const text = security.endFeatures[index];
+              return (
+                <li key={text.label} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
+                  <div className="flex size-[55px] items-center justify-center rounded-xl border border-contorno-base bg-branco">
+                    <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} />
+                  </div>
+                  <p className="text-sm leading-[1.2] font-medium text-texto">{text.label}</p>
+                </li>
+              );
+            })}
           </ul>
 
-          <Button href="/planos" variant="secondary" size="sm" showArrow className="uppercase">
-            Escolher meu plano
+          <Button href={withLocale("/planos", locale)} variant="secondary" size="sm" showArrow className="uppercase">
+            {security.endButton}
           </Button>
         </Reveal>
       </div>

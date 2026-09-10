@@ -3,8 +3,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import Reveal from "@/components/ui/Reveal";
 import ResourcesAccordion from "@/components/sections/ResourcesAccordion";
+import type { Locale } from "@/lib/i18n/config";
+import { withLocale } from "@/lib/i18n/paths";
 import {
   pricingFeatureRows,
   pricingNotIncluded,
@@ -13,9 +16,49 @@ import {
   smallPlans,
   type PlanKey,
   type ProductIconKey,
-  type SmallFeatureItem,
+  type SmallFeatureMark,
   type SmallPlanKey,
 } from "@/config/pricing";
+
+type PlansSectionDict = {
+  heading: string;
+  segmentSmallTitle: string;
+  segmentSmallDesc: string;
+  segmentLargeTitle: string;
+  segmentLargeDesc: string;
+  billingAriaLabel: string;
+  billingMonthly: string;
+  billingAnnual: string;
+  billingSaveBadge: string;
+  billingAnnualLabel: string;
+  billingMonthlyLabel: string;
+  perUserMonth: string;
+  productsIncludedLabel: string;
+  allProductsLabel: string;
+  enterprisePriceLabel: string;
+  enterprisePriceSub: string;
+  popularBadge: string;
+};
+
+type SmallPlanDict = {
+  name: string;
+  ctaLabel: string;
+  trialLabel?: string;
+  productsLabel: string;
+  features: string[];
+};
+
+type LargePlanDict = {
+  name: string;
+  ctaLabel: string;
+  trialLabel?: string;
+  badge?: string;
+};
+
+type FeatureRowDict = Record<PlanKey, string>;
+
+type ResourceSectionDict = { label: string; features: string[] };
+type ResourcesDict = { toggleLabel: string; sections: ResourceSectionDict[] };
 
 const formatPrice = (value: number) =>
   value.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -33,9 +76,11 @@ const negativeIcon = "/icons/pricing/negative.svg";
 function SegmentSwitch({
   segment,
   onChange,
+  dict,
 }: {
   segment: "small" | "large";
   onChange: (segment: "small" | "large") => void;
+  dict: PlansSectionDict;
 }) {
   return (
     <div className="relative flex w-full max-w-[898px] items-center gap-2.5 rounded-full bg-bg-base shadow-[inset_0px_0px_3px_0px_rgba(0,0,0,0.15)]">
@@ -49,10 +94,8 @@ function SegmentSwitch({
             : "text-texto"
         }`}
       >
-        <span className="text-sm leading-[1.2] font-bold sm:text-base">Pequenos Negócios</span>
-        <span className="text-xs leading-[1.2] font-medium sm:text-sm">
-          Para profissionais, equipes e empresas em crescimento.
-        </span>
+        <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentSmallTitle}</span>
+        <span className="text-xs leading-[1.2] font-medium sm:text-sm">{dict.segmentSmallDesc}</span>
       </button>
       <button
         type="button"
@@ -64,10 +107,8 @@ function SegmentSwitch({
             : "text-texto"
         }`}
       >
-        <span className="text-sm leading-[1.2] font-bold sm:text-base">Médias &amp; Grandes Empresas</span>
-        <span className="text-xs leading-[1.2] font-medium sm:text-sm">
-          Para operações complexas, governança e escala global.
-        </span>
+        <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentLargeTitle}</span>
+        <span className="text-xs leading-[1.2] font-medium sm:text-sm">{dict.segmentLargeDesc}</span>
       </button>
     </div>
   );
@@ -76,19 +117,21 @@ function SegmentSwitch({
 function BillingSwitch({
   annual,
   onChange,
+  dict,
 }: {
   annual: boolean;
   onChange: (annual: boolean) => void;
+  dict: PlansSectionDict;
 }) {
   return (
     <button
       type="button"
       onClick={() => onChange(!annual)}
       className="relative flex items-center gap-5"
-      aria-label="Alternar entre cobrança mensal e anual"
+      aria-label={dict.billingAriaLabel}
     >
       <span className={`text-lg font-bold leading-[1.2] ${!annual ? "text-azul-base" : "text-texto-sem-destaque"}`}>
-        Mensal
+        {dict.billingMonthly}
       </span>
       <span className="relative flex h-[25px] w-[50px] shrink-0 items-center rounded-full border-2 border-azul-base bg-azul-base p-px">
         <span
@@ -100,11 +143,11 @@ function BillingSwitch({
         />
       </span>
       <span className={`text-lg font-bold leading-[1.2] ${annual ? "text-azul-base" : "text-texto-sem-destaque"}`}>
-        Anual
+        {dict.billingAnnual}
       </span>
       {annual && (
         <span className="absolute top-full right-0 mt-1 whitespace-nowrap rounded border border-ecm bg-[#fefffe] p-[6px] text-xs font-bold leading-[1.2] text-ecm">
-          Economize 30%
+          {dict.billingSaveBadge}
         </span>
       )}
     </button>
@@ -123,34 +166,47 @@ function ProductIconRow({ icons }: { icons: ProductIconKey[] }) {
   );
 }
 
-function FeatureMark({ item, planKey }: { item: SmallFeatureItem; planKey: SmallPlanKey }) {
-  if (item.mark === "product") {
+function FeatureMark({ mark, text, planKey }: { mark: SmallFeatureMark; text: string; planKey: SmallPlanKey }) {
+  if (mark === "product") {
     return (
       <li className="flex items-start gap-[5px]">
         <Image src="/icons/products/capture.svg" alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-        <span className="text-sm font-medium leading-[1.2] text-swc">{item.text}</span>
+        <span className="text-sm font-medium leading-[1.2] text-swc">{text}</span>
       </li>
     );
   }
-  if (item.mark === "cross") {
+  if (mark === "cross") {
     return (
       <li className="flex items-start gap-[5px]">
         <Image src={negativeIcon} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-        <span className="text-sm font-medium leading-[1.2] text-[#ff383c]">{item.text}</span>
+        <span className="text-sm font-medium leading-[1.2] text-[#ff383c]">{text}</span>
       </li>
     );
   }
   return (
     <li className="flex items-start gap-[5px]">
       <Image src={smallCheckIcons[planKey]} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-      <span className="text-sm font-medium leading-[1.2] text-texto">{item.text}</span>
+      <span className="text-sm font-medium leading-[1.2] text-texto">{text}</span>
     </li>
   );
 }
 
-function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[number]["key"]; annual: boolean }) {
+function SmallPlanCard({
+  planKey,
+  annual,
+  dict,
+  sectionDict,
+  locale,
+}: {
+  planKey: (typeof smallPlans)[number]["key"];
+  annual: boolean;
+  dict: SmallPlanDict;
+  sectionDict: PlansSectionDict;
+  locale: Locale;
+}) {
   const plan = smallPlans.find((p) => p.key === planKey)!;
   const variant = annual ? plan.anual : plan.mensal;
+  const billingLabel = annual ? sectionDict.billingAnnualLabel : sectionDict.billingMonthlyLabel;
 
   return (
     <div
@@ -163,17 +219,17 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
           className="-translate-x-1/2 absolute left-1/2 top-[-12px] whitespace-nowrap rounded-2xl px-5 py-1.5 text-sm font-bold text-branco"
           style={{ backgroundImage: "linear-gradient(112deg,#184aee 22.86%,#bf18f6 96.41%)" }}
         >
-          MAIS POPULAR
+          {sectionDict.popularBadge}
         </span>
       )}
       <div className="flex w-full flex-col items-center gap-5 border-b border-contorno-base pb-5 text-center">
         <p className="text-[32px] font-extrabold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
           {plan.gradient ? (
             <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-              {plan.name}
+              {dict.name}
             </span>
           ) : (
-            plan.name
+            dict.name
           )}
         </p>
 
@@ -184,21 +240,21 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
             </p>
           )}
           <p className="text-[32px] font-extrabold leading-[1.2] text-texto">R${formatPrice(variant.price)}</p>
-          <p className="text-sm font-bold leading-[1.2] text-texto">Por usuário/Mês</p>
-          <p className="text-sm font-bold leading-[1.2] text-texto">{variant.billingLabel}</p>
+          <p className="text-sm font-bold leading-[1.2] text-texto">{sectionDict.perUserMonth}</p>
+          <p className="text-sm font-bold leading-[1.2] text-texto">{billingLabel}</p>
         </div>
 
         <div className="flex w-full flex-col items-center gap-5">
           <Link
-            href="/comece-gratis"
+            href={withLocale("/comece-gratis", locale)}
             className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
             style={plan.gradient ? { backgroundImage: "linear-gradient(114deg,#184aee 22.86%,#bf18f6 96.41%)" } : { backgroundColor: plan.colorVar }}
           >
-            {plan.ctaLabel}
+            {dict.ctaLabel}
           </Link>
-          {plan.trialLabel ? (
-            <Link href="/comece-gratis" className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
-              {plan.trialLabel}
+          {dict.trialLabel ? (
+            <Link href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+              {dict.trialLabel}
             </Link>
           ) : (
             <span aria-hidden="true" className="invisible text-sm font-bold leading-[1.2]">
@@ -208,14 +264,14 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
         </div>
 
         <div className="flex w-full flex-col gap-2.5">
-          <p className="text-sm font-medium leading-[1.2] text-texto">Produtos inclusos no plano</p>
+          <p className="text-sm font-medium leading-[1.2] text-texto">{sectionDict.productsIncludedLabel}</p>
           <p className="text-sm font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
             {plan.gradient ? (
               <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                {plan.productsLabel}
+                {dict.productsLabel}
               </span>
             ) : (
-              plan.productsLabel
+              dict.productsLabel
             )}
           </p>
           <ProductIconRow icons={plan.productIcons} />
@@ -223,45 +279,59 @@ function SmallPlanCard({ planKey, annual }: { planKey: (typeof smallPlans)[numbe
       </div>
 
       <ul className="flex w-full flex-1 flex-col gap-[15px]">
-        {plan.features.map((item, index) => (
-          <FeatureMark key={index} item={item} planKey={plan.key} />
+        {plan.featureMarks.map((mark, index) => (
+          <FeatureMark key={index} mark={mark} text={dict.features[index]} planKey={plan.key} />
         ))}
       </ul>
     </div>
   );
 }
 
-function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean }) {
+function LargePlanCard({
+  planKey,
+  annual,
+  dict,
+  sectionDict,
+  featureRows,
+  locale,
+}: {
+  planKey: PlanKey;
+  annual: boolean;
+  dict: LargePlanDict;
+  sectionDict: PlansSectionDict;
+  featureRows: FeatureRowDict[];
+  locale: Locale;
+}) {
   const plan = pricingPlans.find((p) => p.key === planKey)!;
   const isEnterprise = plan.monthlyPrice === null;
   const notIncluded = pricingNotIncluded[planKey] ?? [];
 
   return (
     <div className="relative flex h-full flex-col items-center gap-5 rounded-2xl border border-contorno-base bg-branco px-[15px] pb-5 pt-10">
-      {plan.badge && (
+      {plan.hasBadge && dict.badge && (
         <span
           className="-translate-x-1/2 absolute left-1/2 top-[-12px] whitespace-nowrap rounded-2xl px-5 py-1.5 text-sm font-bold text-branco"
           style={{ backgroundImage: "linear-gradient(112deg,#184aee 22.86%,#bf18f6 96.41%)" }}
         >
-          {plan.badge}
+          {dict.badge}
         </span>
       )}
       <div className="flex w-full flex-col items-center gap-5 border-b border-contorno-base pb-5 text-center">
         <p className="text-[32px] font-extrabold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
           {plan.gradient ? (
             <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-              {plan.name}
+              {dict.name}
             </span>
           ) : (
-            plan.name
+            dict.name
           )}
         </p>
 
         <div className="flex min-h-[100px] flex-col items-center justify-center gap-3">
           {isEnterprise ? (
             <>
-              <p className="text-[32px] font-extrabold leading-[1.2] text-texto">Consulte</p>
-              <p className="text-sm font-bold leading-[1.2] text-texto">Preço personalizado</p>
+              <p className="text-[32px] font-extrabold leading-[1.2] text-texto">{sectionDict.enterprisePriceLabel}</p>
+              <p className="text-sm font-bold leading-[1.2] text-texto">{sectionDict.enterprisePriceSub}</p>
             </>
           ) : (
             <>
@@ -275,9 +345,9 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
                   R${formatPrice(annual ? plan.annualPrice! : plan.monthlyPrice!)}
                 </p>
               </div>
-              <p className="text-sm font-bold leading-[1.2] text-texto">Por usuário/Mês</p>
+              <p className="text-sm font-bold leading-[1.2] text-texto">{sectionDict.perUserMonth}</p>
               <p className="text-sm font-bold leading-[1.2] text-texto">
-                {annual ? "Cobrança anual" : "Cobrança mensal"}
+                {annual ? sectionDict.billingAnnualLabel : sectionDict.billingMonthlyLabel}
               </p>
             </>
           )}
@@ -286,42 +356,42 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
         <div className="flex w-full flex-col items-center gap-5">
           {isEnterprise ? (
             <Link
-              href="/demo"
+              href={withLocale("/demo", locale)}
               className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
               style={{ backgroundImage: "linear-gradient(114deg,#184aee 22.86%,#bf18f6 96.41%)" }}
             >
-              {plan.ctaLabel}
+              {dict.ctaLabel}
             </Link>
           ) : (
             <Link
-              href="/comece-gratis"
+              href={withLocale("/comece-gratis", locale)}
               className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
               style={{ backgroundColor: plan.colorVar }}
             >
-              {plan.ctaLabel}
+              {dict.ctaLabel}
             </Link>
           )}
-          {plan.trialLabel &&
+          {dict.trialLabel &&
             (plan.trialLabelPlain ? (
               <span className="text-sm font-bold leading-[1.2]" style={{ color: plan.colorVar }}>
-                {plan.trialLabel}
+                {dict.trialLabel}
               </span>
             ) : (
-              <Link href="/comece-gratis" className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
-                {plan.trialLabel}
+              <Link href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+                {dict.trialLabel}
               </Link>
             ))}
         </div>
 
         <div className="flex w-full flex-col gap-2.5">
-          <p className="text-sm font-medium leading-[1.2] text-texto">Produtos inclusos no plano</p>
+          <p className="text-sm font-medium leading-[1.2] text-texto">{sectionDict.productsIncludedLabel}</p>
           <p className="text-base font-bold leading-[1.2]" style={plan.gradient ? undefined : { color: plan.colorVar }}>
             {plan.gradient ? (
               <span className="inline-block bg-[linear-gradient(130deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                TODOS OS 8 PRODUTOS
+                {sectionDict.allProductsLabel}
               </span>
             ) : (
-              "TODOS OS 8 PRODUTOS"
+              sectionDict.allProductsLabel
             )}
           </p>
           <ProductIconRow icons={plan.productIcons} />
@@ -332,7 +402,7 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
         {pricingFeatureRows.map((row, index) => {
           if (notIncluded.includes(index)) return null;
 
-          const text = row.values[planKey];
+          const text = featureRows[index][planKey];
 
           if (row.mark === "product") {
             return (
@@ -355,40 +425,83 @@ function LargePlanCard({ planKey, annual }: { planKey: PlanKey; annual: boolean 
   );
 }
 
-export default function PricingPlans() {
+export default function PricingPlans({
+  pricing,
+  smallPlans: smallPlanDicts,
+  largePlans: largePlanDicts,
+  featureRows,
+  resources,
+  locale,
+}: {
+  pricing: PlansSectionDict;
+  smallPlans: SmallPlanDict[];
+  largePlans: LargePlanDict[];
+  featureRows: FeatureRowDict[];
+  resources: ResourcesDict;
+  locale: Locale;
+}) {
   const [segment, setSegment] = useState<"small" | "large">("small");
   const [annual, setAnnual] = useState(true);
+
+  // The hero's "Mensal"/"Anual" buttons link here with a `billing` query
+  // param so they switch this section's toggle to match, instead of only
+  // scrolling to it. Adjusting state during render (rather than in an
+  // effect) avoids an extra render pass when the param changes.
+  const billingParam = useSearchParams().get("billing");
+  const [syncedBilling, setSyncedBilling] = useState(billingParam);
+  if (billingParam !== syncedBilling) {
+    setSyncedBilling(billingParam);
+    if (billingParam === "mensal") setAnnual(false);
+    else if (billingParam === "anual") setAnnual(true);
+  }
 
   return (
     <section id="planos" aria-labelledby="pricing-plans-heading" className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <h2 id="pricing-plans-heading" className="sr-only">
-          Planos Interfy
+          {pricing.heading}
         </h2>
 
         <Reveal className="flex w-full flex-col items-center justify-between gap-6 lg:flex-row">
-          <SegmentSwitch segment={segment} onChange={setSegment} />
-          <BillingSwitch annual={annual} onChange={setAnnual} />
+          <SegmentSwitch segment={segment} onChange={setSegment} dict={pricing} />
+          <BillingSwitch annual={annual} onChange={setAnnual} dict={pricing} />
         </Reveal>
 
         {segment === "small" ? (
           <Reveal className="w-full" delayMs={120}>
-            <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-              {smallPlans.map((plan) => (
-                <SmallPlanCard key={plan.key} planKey={plan.key} annual={annual} />
+            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 sm:grid sm:snap-none sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+              {smallPlans.map((plan, index) => (
+                <div key={plan.key} className="w-[85vw] max-w-[320px] shrink-0 snap-center sm:w-auto sm:max-w-none sm:shrink">
+                  <SmallPlanCard
+                    planKey={plan.key}
+                    annual={annual}
+                    dict={smallPlanDicts[index]}
+                    sectionDict={pricing}
+                    locale={locale}
+                  />
+                </div>
               ))}
             </div>
           </Reveal>
         ) : (
           <>
             <Reveal className="w-full" delayMs={120}>
-              <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                {pricingPlans.map((plan) => (
-                  <LargePlanCard key={plan.key} planKey={plan.key} annual={annual} />
+              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 sm:grid sm:snap-none sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+                {pricingPlans.map((plan, index) => (
+                  <div key={plan.key} className="w-[85vw] max-w-[320px] shrink-0 snap-center sm:w-auto sm:max-w-none sm:shrink">
+                    <LargePlanCard
+                      planKey={plan.key}
+                      annual={annual}
+                      dict={largePlanDicts[index]}
+                      sectionDict={pricing}
+                      featureRows={featureRows}
+                      locale={locale}
+                    />
+                  </div>
                 ))}
               </div>
             </Reveal>
-            <ResourcesAccordion />
+            <ResourcesAccordion resources={resources} />
           </>
         )}
       </div>

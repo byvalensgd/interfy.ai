@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile brings the entire Interfy platform to your phone. Access, manage, approve, and make decisions from wherever you are, with full security.",
+    "keywords": ["corporate app", "mobile app", "manage on the go", "Interfy Mobile"],
+    "freeTrialNote": "Included in every plan on the platform, at no extra cost."
+  },
+  "hero": {
+    "heading": "Your operation,",
+    "headingHighlight": "in the palm of your hand.",
+    "description": "Take the entire Interfy platform with you. Access, manage, decide, and move forward from wherever you are.",
+    "googlePlayAlt": "Get it on Google Play",
+    "appStoreAlt": "Available on the App Store",
+    "mockupAlt": "Interfy Mobile app shown on a smartphone",
+    "highlights": [
+      { "label": "Secure and reliable" },
+      { "label": "100% integrated with the platform" },
+      { "label": "Everything real-time and synced" },
+      { "label": "Your data protected" }
+    ],
+    "floatingCards": [
+      { "title": "Productivity anywhere", "description": "Access every Interfy feature from your phone." },
+      { "title": "Agility that transforms", "description": "Reply, approve, and move processes forward in seconds." },
+      { "title": "Simple, intuitive experience", "description": "Everything you need, organized intelligently." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "The entire Interfy Platform,",
+    "headingHighlight": "on your Mobile",
+    "items": [
+      { "description": "Access, view, search, and share documents with full security." },
+      { "description": "Track processes, tasks, deadlines, and SLAs. Approve and decide from anywhere." },
+      { "description": "Capture documents with your phone's camera and send them straight to the platform." },
+      { "description": "Sign documents digitally or send them out for signature in a few taps." },
+      { "description": "Chat, share files, and comment on documents and processes in real time." },
+      { "description": "AI agents that help, respond, and take action right from the app." },
+      { "description": "Use your voice to search, look up information, and create tasks faster." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Complete collaboration,",
+    "headingHighlight": "built into your operation",
+    "items": [
+      { "title": "Approvals", "description": "Approve documents, contracts, and requests in seconds." },
+      { "title": "Tasks", "description": "View, run, and track your tasks with ease." },
+      { "title": "Notifications", "description": "Get real-time alerts about what actually matters." },
+      { "title": "Dashboards", "description": "Track indicators and results for your operation, in the palm of your hand." },
+      { "title": "Camera capture", "description": "Scan documents, notes, and receipts and send them instantly." },
+      { "title": "Lookups", "description": "Look up information, processes, and documents in seconds." },
+      { "title": "Smart search", "description": "Find what you need with AI. Ask in plain language and get answers." },
+      { "title": "Full history", "description": "Access the history of actions, documents, and conversations with full traceability." },
+      { "title": "Full sync", "description": "Everything synced with the platform in real time, with no data loss." },
+      { "title": "Offline mode", "description": "Access documents and information even without internet." },
+      { "title": "Multi-company", "description": "Manage all your companies and offices in a single app." },
+      { "title": "Intuitive interface", "description": "Modern design, easy to use. Productivity without the hassle." }
+    ]
+  },
+  "security": {
+    "heading": "Governance and security,",
+    "headingHighlight": "first",
+    "description": "Your operation protected everywhere. End-to-end encryption, multi-factor authentication, and compliance with the market's leading security standards.",
+    "items": [
+      { "label": "End-to-end encryption" },
+      { "label": "Multi-factor authentication (MFA)" },
+      { "label": "Compliance with GDPR, ISO 27001, and SOC 2" },
+      { "label": "Advanced access control and permissions" },
+      { "label": "Cloud backup and high availability" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Download Interfy Mobile",
+    "title": "Interfy Mobile. Your operation, in the palm of your hand.",
+    "subtitle": "More agility, more control, and more results wherever you are.",
+    "downloadPrompt": "Download it now and take the whole platform with you.",
+    "googlePlayAlt": "Get it on Google Play",
+    "appStoreAlt": "Available on the App Store",
+    "qrCodeAlt": "QR code to download the Interfy Mobile app",
+    "statsLabel": "Interfy platform numbers"
+  }
+}

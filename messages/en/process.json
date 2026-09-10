@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process lets you build visual processes, smart forms, and powerful automations with AI. More agility, control, and efficiency at every step.",
+    "keywords": ["process automation", "BPM", "business workflow", "smart forms", "Interfy Process"],
+    "freeTrialNote": "Free 7-day trial, no credit card required"
+  },
+  "hero": {
+    "titlePrefix": "Build, automate, and transform processes ",
+    "titleHighlight": "with AI.",
+    "descriptionBrand": "Interfy PROCESS",
+    "descriptionText": " lets you build visual processes, smart forms, and powerful automations with AI. More agility, control, and efficiency at every step.",
+    "ctaPrimary": "Free Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "mockupAlt": "Interfy Process platform shown on tablet and smartphone, displaying a visual process design and the task list",
+    "stats": [
+      { "label": "6 M +", "sublabel": "automated processes" },
+      { "label": "25,000 +", "sublabel": "customers" },
+      { "label": "2.5 M +", "sublabel": "active users" },
+      { "label": "100% Web", "sublabel": "Access from anywhere" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Complete automation for ",
+    "headingHighlight": "your operation",
+    "items": [
+      { "title": "Visual process creation", "description": "Build flows simply and intuitively with the drag-and-drop visual designer." },
+      { "title": "AI-powered process creation", "description": "Describe what you need and AI creates the ideal process for you in seconds." },
+      { "title": "Automatic form generation", "description": "AI generates complete forms from the process with smart fields." },
+      { "title": "Smart forms", "description": "Conditional fields, automatic validations, and calculations to reduce errors and rework." },
+      { "title": "Approvals", "description": "Flexible approval flows with multiple parallel or conditional levels." },
+      { "title": "Tasks", "description": "Assign, track, and manage tasks with deadlines, priorities, and owners." },
+      { "title": "Business rules", "description": "Automate decisions and actions with custom rules and advanced conditions." },
+      { "title": "SLAs", "description": "Set deadlines and service-level agreements with monitoring and automatic alerts." },
+      { "title": "Alerts and notifications", "description": "Email, push, or in-platform notifications to keep everyone aligned." },
+      { "title": "Real-time dashboards", "description": "Track operations with dynamic, up-to-date visual dashboards." },
+      { "title": "Indicators and metrics", "description": "Custom metrics to measure performance, bottlenecks, and productivity." },
+      { "title": "External participation", "description": "Include customers, suppliers, and partners in processes with security and control." },
+      { "title": "Processes on Mobile", "description": "Run, approve, and track processes from anywhere with the Interfy Mobile app." },
+      { "title": "Ready-made templates", "description": "A library of process templates ready to use across the most diverse industries." },
+      { "title": "Automations with Agents", "description": "AI Agents run automatic tasks, analyze data, and take intelligent actions." },
+      { "title": "Native integration", "description": "Full integration with Interfy Documents, Capture, and Sign for a 100% connected flow." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Native integration with the ",
+    "headingHighlight": "Interfy ecosystem",
+    "description": "Choose your segment and discover how Interfy AI turns challenges into real results.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Documents and information within reach of the process." },
+      { "description": "Smart capture and data extraction." },
+      { "description": "Intelligent processes and automations." },
+      { "description": "Digital signatures built into the flow." },
+      { "description": "Real-time collaboration and communication." },
+      { "description": "AI Agents that analyze, decide, and act." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Platform highlights",
+    "items": [
+      { "title": "A single platform", "description": "No need for sector-specific versions" },
+      { "title": "100% adaptable", "description": "Configure it to match your business" },
+      { "title": "Fast deployment", "description": "Get started in minutes with no complexity" },
+      { "title": "Enterprise security", "description": "Data protection and isolated environments" },
+      { "title": "AI across every sector", "description": "Intelligent agents that understand your context" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Results and process types supported",
+    "practiceTitlePrefix": "Results you see ",
+    "practiceTitleHighlight": "in practice",
+    "checklist": [
+      "Less rework and more standardization",
+      "Faster, more efficient processes",
+      "Lower operating costs",
+      "Full transparency and traceability",
+      "Better decisions backed by data and indicators",
+      "Happier customers, teams, and partners"
+    ],
+    "chartTitle": "Completed requests",
+    "chartAriaLabel": "Line chart showing growth in completed requests from January to June, up 32%",
+    "chartMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "typesTitlePrefix": "Built for every ",
+    "typesTitleHighlight": "type of process",
+    "processTypes": [
+      { "label": "Administrative" },
+      { "label": "Financial" },
+      { "label": "Procurement" },
+      { "label": "HR" },
+      { "label": "Legal" },
+      { "label": "Sales" },
+      { "label": "Operations" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Get started with Interfy Process",
+    "title": "Ready to transform your operation?",
+    "description": "Start now with a free 7-day trial and discover how Interfy Process can drive your business forward.",
+    "ctaPrimary": "7-Day Free Test Drive",
+    "ctaSecondary": "Schedule a Demo",
+    "statsLabel": "Interfy Process highlights",
+    "features": [
+      { "label": "100% Web", "sublabel": "Access from anywhere" },
+      { "label": "Top-tier security", "sublabel": "Protected, compliant data" },
+      { "label": "Scalable", "sublabel": "From small to large businesses" },
+      { "label": "24/7 Support", "sublabel": "Whenever you need it" }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "description": "Plataforma empresarial AI-native que conecta documentos, processos, pessoas, dados e comunicação em um único ambiente inteligente.",
+  "group": {
+    "prefix": "Uma plataforma da",
+    "brand": "Interfy Corporation",
+    "middle": "Conheça o grupo:",
+    "linkLabel": "www.interfycorp.com"
+  },
+  "location": "Orlando, Flórida - USA",
+  "columns": [
+    {
+      "title": "Produtos",
+      "links": [
+        { "label": "Documents" },
+        { "label": "Process" },
+        { "label": "Capture" },
+        { "label": "Sign" },
+        { "label": "Connect" },
+        { "label": "Agents" },
+        { "label": "Mobile" },
+        { "label": "Voice" }
+      ]
+    },
+    {
+      "title": "Recursos",
+      "links": [
+        { "label": "Segmentos" },
+        { "label": "AI Créditos" },
+        { "label": "Integrações & API" },
+        { "label": "Universidade Interfy" },
+        { "label": "Cases de Sucesso" },
+        { "label": "Status da Plataforma" }
+      ]
+    },
+    {
+      "title": "Empresa",
+      "links": [
+        { "label": "Sobre a Interfy" },
+        { "label": "Plataforma Interfy" },
+        { "label": "Test Drive" },
+        { "label": "Parceiros (Private Label)" },
+        { "label": "Blog / Conteúdo" }
+      ]
+    },
+    {
+      "title": "Legal & Suporte",
+      "links": [
+        { "label": "Termos de Uso" },
+        { "label": "Políticas de Privacidade" },
+        { "label": "LGPD / GDPR" },
+        { "label": "Segurança" },
+        { "label": "Suporte" },
+        { "label": "Contato" }
+      ]
+    }
+  ],
+  "globalLine": "Uma plataforma global, presente em mais de 180 países",
+  "regionsIntro": "Com páginas comerciais específicas para:",
+  "regions": ["Estados Unidos", "Europa", "LATAM", "Brasil", "Ásia", "África"],
+  "trustItems": [
+    { "title": "Segurança Enterprise", "description": "Criptografia AES-256 / TLS 1.3" },
+    { "title": "Infraestrutura AWS Global", "description": "Alta disponibilidade e escalabilidade" },
+    { "title": "Compliance Global", "description": "LGPD, GDPR e ISO 27001" },
+    { "title": "99,98% Uptime SLA", "description": "Monitoramento 24/7" }
+  ],
+  "copyright": {
+    "brand": "Interfy Corporation",
+    "suffix": "© {year}. Todos os direitos reservados."
+  }
+}

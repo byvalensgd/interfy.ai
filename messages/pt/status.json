@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "Status da Plataforma",
+    "description": "Acompanhe em tempo real a disponibilidade de cada produto Interfy e o histórico de incidentes da plataforma.",
+    "keywords": ["status Interfy", "disponibilidade Interfy", "uptime Interfy", "incidentes Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introdução ao status da plataforma",
+    "eyebrow": "Status da Plataforma",
+    "titleLine1": "Todos os sistemas",
+    "titleHighlight": "operacionais",
+    "description": "Disponibilidade em tempo real de cada produto Interfy, com histórico de incidentes e SLA de uptime."
+  },
+  "list": {
+    "ariaLabel": "Status por produto",
+    "heading": "Status por produto",
+    "operationalLabel": "Operacional",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Histórico de incidentes",
+    "incidentsEmpty": "Nenhum incidente registrado nos últimos 90 dias."
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar a Interfy",
+    "heading": "Confiabilidade de nível empresarial",
+    "subheading": "Infraestrutura AWS global, criptografia AES-256/TLS 1.3 e SLA de 99,98% de disponibilidade.",
+    "primaryButton": "Comece grátis",
+    "secondaryButton": "Agende uma demo",
+    "statsLabel": "Indicadores de confiabilidade",
+    "stats": [
+      { "label": "99,98%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.3", "sublabel": "Criptografia" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Compliance" }
+    ]
+  }
+}

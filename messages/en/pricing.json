@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Pricing and Plans",
+    "description": "Choose the right plan for your company's size: Free, Individual, Teams, Startup, or plans for mid-size and large enterprises.",
+    "keywords": ["Interfy pricing", "Interfy plans", "document management pricing", "AI-native enterprise plan"]
+  },
+  "hero": {
+    "headingPrefix": "The complete platform to transform",
+    "headingHighlight": "your operations with AI.",
+    "description": "Choose the right plan for your company's size and start turning documents, processes, and people into real results.",
+    "monthlyCta": "Monthly",
+    "annualCta": "Annual",
+    "saveBadge": "Save up to 30%",
+    "imageAlt": "Interfy platform shown on laptop and smartphone, displaying the AI-powered management dashboard",
+    "highlights": ["7-day free trial", "Free digital signature", "Web and Mobile access", "AI features included"]
+  },
+  "plansSection": {
+    "heading": "Interfy Plans",
+    "segmentSmallTitle": "Small Business",
+    "segmentSmallDesc": "For professionals, teams, and growing companies.",
+    "segmentLargeTitle": "Mid-Size & Large Enterprises",
+    "segmentLargeDesc": "For complex operations, governance, and global scale.",
+    "billingAriaLabel": "Toggle between monthly and annual billing",
+    "billingMonthly": "Monthly",
+    "billingAnnual": "Annual",
+    "billingSaveBadge": "Save 30%",
+    "billingAnnualLabel": "Billed annually",
+    "billingMonthlyLabel": "Billed monthly",
+    "perUserMonth": "Per user/month",
+    "productsIncludedLabel": "Products included in the plan",
+    "allProductsLabel": "ALL 8 PRODUCTS",
+    "enterprisePriceLabel": "Contact us",
+    "enterprisePriceSub": "Custom pricing",
+    "popularBadge": "MOST POPULAR"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Start for free",
+      "productsLabel": "3 PRODUCTS INCLUDED",
+      "features": [
+        "1 Full user",
+        "1 GB of storage",
+        "5 AI credits/month",
+        "3 digital signature document submissions/month (non-cumulative)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!",
+      "productsLabel": "4 PRODUCTS INCLUDED",
+      "features": [
+        "Unlimited users (billed per user)",
+        "Minimum of 1 Full user",
+        "2 Query users",
+        "5 GB of storage",
+        "10 AI credits/month (non-cumulative)",
+        "10 digital signature document submissions/month (non-cumulative)",
+        "10 Chat tickets/month (non-cumulative) for document interaction and sharing"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!",
+      "productsLabel": "5 PRODUCTS INCLUDED",
+      "features": [
+        "Unlimited users (billed per user)",
+        "Minimum of 5 Full users",
+        "5 Query users",
+        "Interfy Capture + Mobile",
+        "10 GB of storage",
+        "10 AI credits/month (non-cumulative)",
+        "10 digital signature document submissions/month (non-cumulative)",
+        "10 Chat tickets/month (non-cumulative) for document interaction and sharing",
+        "Full-text OCR search"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!",
+      "productsLabel": "8 PRODUCTS INCLUDED",
+      "features": [
+        "Unlimited users (billed per user)",
+        "Minimum of 5 Full users",
+        "5 Query users",
+        "Interfy Capture + Mobile",
+        "15 GB of storage",
+        "20 AI credits/month (non-cumulative)",
+        "10 digital signature document submissions/month (non-cumulative)",
+        "10 Chat tickets/month (non-cumulative) for document interaction and sharing",
+        "Unlimited processes",
+        "Full-text OCR search"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Get started now",
+      "trialLabel": "7-day free trial!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "CUSTOM SOLUTION",
+      "ctaLabel": "Talk to a specialist",
+      "trialLabel": "CONTACT US"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Unlimited users (billed per user)",
+      "business": "Unlimited users (billed per user)",
+      "corporate": "Unlimited users (billed per user)",
+      "enterprise": "Unlimited users (billed per user)"
+    },
+    {
+      "starter": "Minimum of 5 Full users",
+      "business": "Minimum of 10 Full users",
+      "corporate": "Minimum of 15 Full users",
+      "enterprise": "Full users (custom)"
+    },
+    {
+      "starter": "10 Query users",
+      "business": "15 Query users",
+      "corporate": "30 Query users",
+      "enterprise": "Unlimited Query users"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "25 GB of storage",
+      "business": "50 GB of storage",
+      "corporate": "100 GB of storage",
+      "enterprise": "Storage (custom)"
+    },
+    {
+      "starter": "100 AI credits/month (non-cumulative)",
+      "business": "250 AI credits/month (non-cumulative)",
+      "corporate": "500 AI credits/month (non-cumulative)",
+      "enterprise": "AI credits/month (non-cumulative) (custom)"
+    },
+    {
+      "starter": "10 digital signature document submissions/month (non-cumulative)",
+      "business": "20 digital signature document submissions/month (non-cumulative)",
+      "corporate": "30 digital signature document submissions/month (non-cumulative)",
+      "enterprise": "Unlimited digital signature document submissions"
+    },
+    {
+      "starter": "10 Chat tickets/month (non-cumulative) for document interaction and sharing",
+      "business": "15 Chat tickets/month (non-cumulative) for document interaction and sharing",
+      "corporate": "20 Chat tickets/month (non-cumulative) for document interaction and sharing",
+      "enterprise": "500 Chat tickets/month (non-cumulative) for document interaction and sharing"
+    },
+    {
+      "starter": "10 dynamic interactions for external users in processes/month (non-cumulative)",
+      "business": "15 dynamic interactions for external users in processes/month (non-cumulative)",
+      "corporate": "20 dynamic interactions for external users in processes/month (non-cumulative)",
+      "enterprise": "500 dynamic interactions for external users in processes/month (non-cumulative)"
+    },
+    {
+      "starter": "Unlimited processes",
+      "business": "Unlimited processes",
+      "corporate": "Unlimited processes",
+      "enterprise": "Unlimited processes"
+    },
+    {
+      "starter": "Access to the Interfy API",
+      "business": "Access to the Interfy API",
+      "corporate": "Access to the Interfy API",
+      "enterprise": "Access to the Interfy API"
+    },
+    {
+      "starter": "Custom branding (White Label)",
+      "business": "Custom branding (White Label)",
+      "corporate": "Custom branding (White Label)",
+      "enterprise": "Custom branding (White Label)"
+    },
+    {
+      "starter": "Dedicated URL with data isolation",
+      "business": "Dedicated URL with data isolation",
+      "corporate": "Dedicated URL with data isolation",
+      "enterprise": "Dedicated URL with data isolation"
+    },
+    {
+      "starter": "Database integration",
+      "business": "Database integration",
+      "corporate": "Database integration",
+      "enterprise": "Database integration"
+    },
+    {
+      "starter": "Workspace with administration and advanced security controls",
+      "business": "Workspace with administration and advanced security controls",
+      "corporate": "Workspace with administration and advanced security controls",
+      "enterprise": "Workspace with administration and advanced security controls"
+    },
+    {
+      "starter": "AD/LDAP authentication",
+      "business": "AD/LDAP authentication",
+      "corporate": "AD/LDAP authentication",
+      "enterprise": "AD/LDAP authentication"
+    },
+    {
+      "starter": "IP blocking",
+      "business": "IP blocking",
+      "corporate": "IP blocking",
+      "enterprise": "IP blocking"
+    },
+    {
+      "starter": "Multi-factor authentication",
+      "business": "Multi-factor authentication",
+      "corporate": "Multi-factor authentication",
+      "enterprise": "Multi-factor authentication"
+    },
+    {
+      "starter": "Full-text OCR search",
+      "business": "Full-text OCR search",
+      "corporate": "Full-text OCR search",
+      "enterprise": "Full-text OCR search"
+    },
+    {
+      "starter": "Physical file management module",
+      "business": "Physical file management module",
+      "corporate": "Physical file management module",
+      "enterprise": "Physical file management module"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Plan comparison",
+    "resourcesLabel": "Features",
+    "includedAlt": "Included",
+    "rows": [
+      { "label": "Users", "values": { "free": "Up to 3", "individual": "1", "teams": "Unlimited", "startup": "Unlimited" } },
+      { "label": "Workspaces", "values": { "free": "1", "individual": "1", "teams": "Unlimited", "startup": "Unlimited" } },
+      { "label": "Storage", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Unlimited" } },
+      { "label": "Digital Signature", "values": { "free": "Free", "individual": "Free", "teams": "Free", "startup": "Free" } },
+      { "label": "Mobile App", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Modules Included",
+        "values": {
+          "free": "Documents and Signature",
+          "individual": "Documents, Signature, and Collaboration",
+          "teams": "Documents, Signature, and Collaboration",
+          "startup": "All, except Process"
+        }
+      },
+      {
+        "label": "AI Features",
+        "values": { "free": "Basic", "individual": "Standard", "teams": "Advanced", "startup": "Unlimited · Credits included" }
+      },
+      { "label": "AI Credits / month", "values": { "free": "-", "individual": "1,000", "teams": "3,000", "startup": "10,000" } },
+      { "label": "Support", "values": { "free": "Email", "individual": "Email", "teams": "Priority", "startup": "Premium 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "See all features and compare plans",
+    "sections": [
+      {
+        "label": "Interfy Process Features",
+        "features": [
+          "Unlimited process creation",
+          "BPMN 2.0 designer",
+          "External link to start cases",
+          "Document capture directly within an ongoing process",
+          "Creation of public variables",
+          "Dynamic users",
+          "Parallel flows",
+          "Task inbox",
+          "Subprocesses",
+          "Process supervision",
+          "Case history view",
+          "Advanced process search",
+          "Graphical view of process progress",
+          "Time parametrization and control for each task",
+          "Notification control with alerts",
+          "Manual, cyclical, and self-service assignments: by variable, by value, and by organizational unit",
+          "Supervisor assignment for process management",
+          "Case reassignment by supervisor",
+          "Case cancellation based on user or supervisor profile",
+          "Business-day calendar",
+          "Task-entry notifications",
+          "Hierarchy notifications on the process based on SLA",
+          "Notifications for critical or expiring SLA",
+          "SLA linked to the business-day calendar",
+          "Interaction between Interfy Documents and Interfy Process",
+          "Web Services integration"
+        ]
+      },
+      {
+        "label": "Interfy Documents Features",
+        "features": [
+          "Content centralization",
+          "Advanced auditing",
+          "Document versioning",
+          "Document retention rules",
+          "Flexible folder structure",
+          "Content access profiles",
+          "External link for content sharing",
+          "Document creation with multiple file formats",
+          "Microsoft Office integration (drag and drop)",
+          "Advanced search",
+          "Creation of indexing forms (electronic forms)",
+          "Physical document location",
+          "Storage and user consumption control",
+          "Built-in viewer for major file formats",
+          "Document scanning and upload",
+          "100% web local and decentralized capture",
+          "Scanner-based capture",
+          "Multifunction printer-based capture",
+          "Smartphone capture",
+          "Webcam capture"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I change plans at any time?",
+      "answer": "Yes. You can upgrade or downgrade your plan at any time directly from the admin panel, with no penalties or red tape."
+    },
+    {
+      "question": "How do AI credits work?",
+      "answer": "Every plan includes a monthly quota of AI credits, used by features like smart extraction and agents. Credits are non-cumulative and renew every month."
+    },
+    {
+      "question": "What happens after the trial period?",
+      "answer": "At the end of the 7 free days, you can choose the ideal plan to keep using the platform. No credit card is required to start the trial."
+    },
+    {
+      "question": "What payment methods are accepted?",
+      "answer": "We accept credit card, bank slip (boleto), and invoice billing for annual contracts and Enterprise plans."
+    },
+    {
+      "question": "Do the plans include implementation?",
+      "answer": "The Starter, Business, and Corporate plans include guided onboarding. For the Enterprise plan, we offer dedicated implementation with our team of specialists."
+    },
+    {
+      "question": "Do you offer a discount for annual contracts?",
+      "answer": "Yes. By choosing annual billing, you save up to 30% compared to the monthly price, on any of the Starter, Business, or Corporate plans."
+    }
+  ],
+  "faqAriaExpand": "Toggle answer",
+  "base": {
+    "trialTitle": "Try every Interfy.ai feature free for 7 days.",
+    "trialSub": "No credit card required. No commitment.",
+    "trialCta": "Free Test Drive",
+    "demoCta": "Schedule a demo",
+    "statsLabel": "Interfy platform numbers",
+    "faqHeading": "Frequently asked questions",
+    "specialistTitle": "Talk to a specialist",
+    "specialistDesc": "Our team is ready to help you choose the ideal plan for your business.",
+    "specialistCta": "Talk to a specialist",
+    "ctaTitle": "Ready to transform your operations?",
+    "ctaDesc": "Join thousands of companies that already trust Interfy.ai.",
+    "ctaButton": "Get started now",
+    "srHeading": "Get started with Interfy"
+  }
+}

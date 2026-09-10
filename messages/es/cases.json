@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Casos de Éxito",
+    "description": "Resultados típicos que empresas de distintos sectores logran con la plataforma Interfy de documentos, procesos e IA.",
+    "keywords": ["casos de éxito Interfy", "resultados Interfy", "casos de éxito gestión documental", "ROI automatización de procesos"]
+  },
+  "hero": {
+    "ariaLabel": "Introducción a los casos de éxito",
+    "eyebrow": "Casos de Éxito",
+    "titleLine1": "Resultados reales en",
+    "titleHighlight": "distintos sectores",
+    "description": "Un vistazo a las ganancias que empresas como la tuya logran al unificar documentos, procesos e IA en una sola plataforma."
+  },
+  "grid": {
+    "ariaLabel": "Resultados por sector",
+    "heading": "Lo que logran nuestros clientes",
+    "illustrativeNote": "Resultados ilustrativos, basados en promedios observados en clientes Interfy de cada sector. Solicita un diagnóstico para estimar el impacto en tu propio escenario.",
+    "items": [
+      {
+        "segment": "Instituciones Financieras",
+        "description": "Digitalización de contratos y automatización de flujos de crédito con trazabilidad completa.",
+        "metricValue": "-45%",
+        "metricLabel": "tiempo promedio de análisis de crédito"
+      },
+      {
+        "segment": "Salud",
+        "description": "Historias clínicas e informes centralizados, con firma electrónica integrada al flujo de atención.",
+        "metricValue": "-60%",
+        "metricLabel": "tiempo de archivo de documentos"
+      },
+      {
+        "segment": "Jurídico",
+        "description": "Gestión de contratos y expedientes con control de plazos y firma electrónica de punta a punta.",
+        "metricValue": "3x",
+        "metricLabel": "más contratos cerrados por mes"
+      },
+      {
+        "segment": "Industria",
+        "description": "Automatización de órdenes de compra y aprobaciones multinivel integradas al ERP.",
+        "metricValue": "-35%",
+        "metricLabel": "tiempo de ciclo de aprobación"
+      },
+      {
+        "segment": "Logística",
+        "description": "Captura automática de comprobantes de entrega y facturas desde el teléfono del conductor.",
+        "metricValue": "+80%",
+        "metricLabel": "documentos capturados el mismo día"
+      },
+      {
+        "segment": "Retail",
+        "description": "Onboarding de proveedores y gestión de contratos estandarizados en un solo flujo.",
+        "metricValue": "-50%",
+        "metricLabel": "tiempo de onboarding de proveedores"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comienza a usar Interfy",
+    "heading": "¿Quieres resultados parecidos en tu empresa?",
+    "subheading": "Habla con nuestro equipo y recibe un diagnóstico gratuito de tu proceso actual.",
+    "primaryButton": "Comienza gratis",
+    "secondaryButton": "Agenda una demo"
+  }
+}

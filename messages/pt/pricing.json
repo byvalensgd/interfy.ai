@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Preços e Planos",
+    "description": "Escolha o plano ideal para o tamanho da sua empresa: Free, Individual, Teams, Startup ou planos para médias e grandes empresas.",
+    "keywords": ["preços Interfy", "planos Interfy", "quanto custa gestão de documentos", "plano empresarial AI-native"]
+  },
+  "hero": {
+    "headingPrefix": "A plataforma completa para transformar",
+    "headingHighlight": "sua operação com AI.",
+    "description": "Escolha o plano ideal para o tamanho da sua empresa e comece a transformar documentos, processos e pessoas em resultados reais.",
+    "monthlyCta": "Mensal",
+    "annualCta": "Anual",
+    "saveBadge": "Economize até 30%",
+    "imageAlt": "Plataforma Interfy exibida em laptop e smartphone, mostrando o painel de gestão com IA",
+    "highlights": ["Teste grátis por 7 dias", "Assinatura digital grátis", "Acesso via Web e Mobile", "Recurso de IA incluídos"]
+  },
+  "plansSection": {
+    "heading": "Planos Interfy",
+    "segmentSmallTitle": "Pequenos Negócios",
+    "segmentSmallDesc": "Para profissionais, equipes e empresas em crescimento.",
+    "segmentLargeTitle": "Médias & Grandes Empresas",
+    "segmentLargeDesc": "Para operações complexas, governança e escala global.",
+    "billingAriaLabel": "Alternar entre cobrança mensal e anual",
+    "billingMonthly": "Mensal",
+    "billingAnnual": "Anual",
+    "billingSaveBadge": "Economize 30%",
+    "billingAnnualLabel": "Cobrança anual",
+    "billingMonthlyLabel": "Cobrança mensal",
+    "perUserMonth": "Por usuário/Mês",
+    "productsIncludedLabel": "Produtos inclusos no plano",
+    "allProductsLabel": "TODOS OS 8 PRODUTOS",
+    "enterprisePriceLabel": "Consulte",
+    "enterprisePriceSub": "Preço personalizado",
+    "popularBadge": "MAIS POPULAR"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Começar grátis",
+      "productsLabel": "3 PRODUTOS INCLUSOS",
+      "features": [
+        "1 Usuário Full",
+        "1 GB de armazenamento",
+        "5 Créditos de AI/mês",
+        "3 Envios de Documentos para Assinatura Digital / mês (não cumulativo)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste Grátis por 7 dias!",
+      "productsLabel": "4 PRODUTOS INCLUSOS",
+      "features": [
+        "Usuários Ilimitados (cobrança por usuário)",
+        "Mínimo de 1 Usuário Full",
+        "2 Usuários de Consulta",
+        "5 GB de armazenamento",
+        "10 Créditos de AI/mês (não cumulativo)",
+        "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+        "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste Grátis por 7 dias!",
+      "productsLabel": "5 PRODUTOS INCLUSOS",
+      "features": [
+        "Usuários Ilimitados (cobrança por usuário)",
+        "Mínimo de 5 Usuários Full",
+        "5 Usuários de Consulta",
+        "Interfy Captura + Mobile",
+        "10 GB de armazenamento",
+        "10 Créditos de AI/mês (não cumulativo)",
+        "10 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+        "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
+        "Busca por OCR Full Text"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste Grátis por 7 dias!",
+      "productsLabel": "8 PRODUTOS INCLUSOS",
+      "features": [
+        "Usuários Ilimitados (cobrança por usuário)",
+        "Mínimo de 5 Usuários Full",
+        "5 Usuários de Consulta",
+        "Interfy Captura + Mobile",
+        "15 GB de armazenamento",
+        "20 Créditos de AI/mês (não cumulativo)",
+        "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)",
+        "10 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos",
+        "Processos Ilimitados",
+        "Busca por OCR Full Text"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste grátis por 7 dias!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste grátis por 7 dias!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Contratar agora",
+      "trialLabel": "Teste grátis por 7 dias!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "SOLUÇÃO PERSONALIZADA",
+      "ctaLabel": "Fale com um especialista",
+      "trialLabel": "CONSULTE"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Usuários Ilimitados (cobrança por usuário)",
+      "business": "Usuários Ilimitados (cobrança por usuário)",
+      "corporate": "Usuários Ilimitados (cobrança por usuário)",
+      "enterprise": "Usuários Ilimitados (cobrança por usuário)"
+    },
+    {
+      "starter": "Mínimo de 5 Usuários Full",
+      "business": "Mínimo de 10 Usuários Full",
+      "corporate": "Mínimo de 15 Usuários Full",
+      "enterprise": "Usuários Full (sob consulta)"
+    },
+    {
+      "starter": "10 Usuários de Consulta",
+      "business": "15 Usuários de Consulta",
+      "corporate": "30 Usuários de Consulta",
+      "enterprise": "Usuários de Consulta Ilimitados"
+    },
+    {
+      "starter": "Interfy Captura + Mobile",
+      "business": "Interfy Captura + Mobile",
+      "corporate": "Interfy Captura + Mobile",
+      "enterprise": "Interfy Captura + Mobile"
+    },
+    {
+      "starter": "25 GB de Storage",
+      "business": "50 GB de Storage",
+      "corporate": "100 GB de Storage",
+      "enterprise": "Storage (sob consulta)"
+    },
+    {
+      "starter": "100 Créditos de AI/mês (não cumulativo)",
+      "business": "250 Créditos de AI/mês (não cumulativo)",
+      "corporate": "500 Créditos de AI/mês (não cumulativo)",
+      "enterprise": "Créditos de AI/mês (não cumulativo) (sob consulta)"
+    },
+    {
+      "starter": "10 Envios de Documentos para Assinatura Digital/mês (não cumulativo)",
+      "business": "20 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+      "corporate": "30 Envios de Documentos para Assinatura Digital / mês (não cumulativo)",
+      "enterprise": "Envios de Documentos Ilimitados para Assinatura Digital"
+    },
+    {
+      "starter": "10 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      "business": "15 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      "corporate": "20 Tickets/mês (Não cumulativo) do Chat para interação e compartilhamento de documentos",
+      "enterprise": "500 Tickets/mês (não cumulativo) do Chat para interação e compartilhamento de documentos"
+    },
+    {
+      "starter": "10 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
+      "business": "15 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
+      "corporate": "20 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)",
+      "enterprise": "500 Interações Dinâmicas para usuários externos em Processos/mês (não cumulativo)"
+    },
+    {
+      "starter": "Processos Ilimitados",
+      "business": "Processos Ilimitados",
+      "corporate": "Processos Ilimitados",
+      "enterprise": "Processos Ilimitados"
+    },
+    {
+      "starter": "Acesso à API da Interfy",
+      "business": "Acesso à API da Interfy",
+      "corporate": "Acesso à API da Interfy",
+      "enterprise": "Acesso à API da Interfy"
+    },
+    {
+      "starter": "Identidade Visual Personalizada (White Label)",
+      "business": "Identidade Visual Personalizada (White Label)",
+      "corporate": "Identidade Visual Personalizada (White Label)",
+      "enterprise": "Identidade Visual Personalizada (White Label)"
+    },
+    {
+      "starter": "URL Exclusiva com Isolamento de Dados",
+      "business": "URL Exclusiva com Isolamento de Dados",
+      "corporate": "URL Exclusiva com Isolamento de Dados",
+      "enterprise": "URL Exclusiva com Isolamento de Dados"
+    },
+    {
+      "starter": "Integração com Banco de Dados",
+      "business": "Integração com Banco de Dados",
+      "corporate": "Integração com Banco de Dados",
+      "enterprise": "Integração com Banco de Dados"
+    },
+    {
+      "starter": "Workspace com Administração e Controles de Segurança Avançada",
+      "business": "Workspace com Administração e Controles de Segurança Avançada",
+      "corporate": "Workspace com Administração e Controles de Segurança Avançada",
+      "enterprise": "Workspace com Administração e Controles de Segurança Avançada"
+    },
+    {
+      "starter": "Autenticação com AD/LDAP",
+      "business": "Autenticação com AD/LDAP",
+      "corporate": "Autenticação com AD/LDAP",
+      "enterprise": "Autenticação com AD/LDAP"
+    },
+    {
+      "starter": "Bloqueio por IP",
+      "business": "Bloqueio por IP",
+      "corporate": "Bloqueio por IP",
+      "enterprise": "Bloqueio por IP"
+    },
+    {
+      "starter": "Autenticação Multifatorial",
+      "business": "Autenticação Multifatorial",
+      "corporate": "Autenticação Multifatorial",
+      "enterprise": "Autenticação Multifatorial"
+    },
+    {
+      "starter": "Busca por OCR Full Text",
+      "business": "Busca por OCR Full Text",
+      "corporate": "Busca por OCR Full Text",
+      "enterprise": "Busca por OCR Full Text"
+    },
+    {
+      "starter": "Módulo de Gestão de Arquivo Físico",
+      "business": "Módulo de Gestão de Arquivo Físico",
+      "corporate": "Módulo de Gestão de Arquivo Físico",
+      "enterprise": "Módulo de Gestão de Arquivo Físico"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Comparativo entre planos",
+    "resourcesLabel": "Recursos",
+    "includedAlt": "Incluído",
+    "rows": [
+      { "label": "Usuários", "values": { "free": "Até 3", "individual": "1", "teams": "Ilimitados", "startup": "Ilimitados" } },
+      { "label": "Workspaces", "values": { "free": "1", "individual": "1", "teams": "Ilimitados", "startup": "Ilimitados" } },
+      { "label": "Armazenamento", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Ilimitado" } },
+      { "label": "Assinatura Digital", "values": { "free": "Grátis", "individual": "Grátis", "teams": "Grátis", "startup": "Grátis" } },
+      { "label": "Aplicativo Mobile", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Módulos Inclusos",
+        "values": {
+          "free": "Documentos e Assinatura",
+          "individual": "Documentos, Assinatura e Colaboração",
+          "teams": "Documentos, Assinatura e Colaboração",
+          "startup": "Todos, menos Processos"
+        }
+      },
+      {
+        "label": "Recursos de AI",
+        "values": { "free": "Básicos", "individual": "Padrão", "teams": "Avançados", "startup": "Ilimitados · Créditos incluídos" }
+      },
+      { "label": "AI Créditos / mês", "values": { "free": "-", "individual": "1.000", "teams": "3.000", "startup": "10.000" } },
+      { "label": "Suporte", "values": { "free": "E-mail", "individual": "E-mail", "teams": "Prioritário", "startup": "Premium 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "Veja todos os recursos e compare os planos",
+    "sections": [
+      {
+        "label": "Recursos do Interfy Process",
+        "features": [
+          "Criação de Processos Ilimitados",
+          "Desenhador BPMN 2.0",
+          "Link externo para início de casos",
+          "Captura de documentos direto no processo em andamento",
+          "Criação de variáveis públicas",
+          "Usuários dinâmicos",
+          "Fluxos paralelos",
+          "Caixa de tarefa",
+          "Subprocessos",
+          "Supervisão de Processos",
+          "Visualização do histórico dos casos",
+          "Busca avançada de processos",
+          "Visualização gráfica do andamento dos processos",
+          "Parametrização e controle de tempos atribuídos a cada tarefa",
+          "Controle de notificações com alertas",
+          "Atribuições manuais, cíclicas, autoserviço: por variável, por valor e por unidade organizacional",
+          "Nomeação de supervisores para gestão dos processos",
+          "Reatribuição de casos pelo supervisor",
+          "Cancelamento de casos de acordo com o perfil do usuário ou supervisor",
+          "Calendário de dias úteis",
+          "Notificações de entrada de tarefas",
+          "Notificações por hierarquia no processo a partir do SLA",
+          "Notificações de SLA crítico ou de término",
+          "Vínculo do SLA com o calendário de dias úteis",
+          "Interação de Interfy Documents com Interfy Process",
+          "Integração com Web Services"
+        ]
+      },
+      {
+        "label": "Recursos do Interfy Documents",
+        "features": [
+          "Centralização de Conteúdo",
+          "Auditoria Avançada",
+          "Versionamento de Documentos",
+          "Temporalidade Documental",
+          "Estrutura de pastas flexível",
+          "Perfil de acesso ao conteúdo",
+          "Link externo para compartilhamento de conteúdo",
+          "Criação de documentos com vários formatos de arquivos",
+          "Integração com Microsoft Office (arrastar e soltar)",
+          "Busca avançada",
+          "Criação de Fichas de Indexação (Formulários Eletrônicos)",
+          "Localização Física dos Documentos",
+          "Controle de Consumo de Storage e Usuários",
+          "Visualizador próprio para os principais formatos de arquivos",
+          "Digitalização e Upload de documentos",
+          "Captura Local e Descentralizada 100% Web",
+          "Captura através de Scanners",
+          "Captura através de Multifuncionais",
+          "Captura via Smartphone",
+          "Captura via Webcam"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Posso mudar de plano a qualquer momento?",
+      "answer": "Sim. Você pode fazer upgrade ou downgrade do seu plano a qualquer momento diretamente pelo painel de administração, sem multas ou burocracia."
+    },
+    {
+      "question": "Como funcionam os créditos de AI?",
+      "answer": "Cada plano inclui uma cota mensal de créditos de AI, usada por recursos como extração inteligente e agentes. Os créditos não são cumulativos e são renovados todo mês."
+    },
+    {
+      "question": "O que acontece após o período de teste?",
+      "answer": "Ao final dos 7 dias grátis, você pode escolher o plano ideal para continuar usando a plataforma. Não é necessário cartão de crédito para iniciar o teste."
+    },
+    {
+      "question": "Quais formas de pagamento são aceitas?",
+      "answer": "Aceitamos cartão de crédito, boleto bancário e faturamento via nota fiscal para contratos anuais e planos Enterprise."
+    },
+    {
+      "question": "Os planos incluem implementação?",
+      "answer": "Os planos Starter, Business e Corporate incluem onboarding guiado. Para o plano Enterprise, oferecemos implementação dedicada com nosso time de especialistas."
+    },
+    {
+      "question": "Vocês oferecem contrato anual com desconto?",
+      "answer": "Sim. Ao optar pela cobrança anual, você economiza até 30% em relação ao valor mensal, em qualquer um dos planos Starter, Business ou Corporate."
+    }
+  ],
+  "faqAriaExpand": "Alternar resposta",
+  "base": {
+    "trialTitle": "Teste todos os recursos da Interfy.ai por 7 dias grátis.",
+    "trialSub": "Sem cartão de crédito. Sem compromisso.",
+    "trialCta": "Test Drive Grátis",
+    "demoCta": "Agendar uma demo",
+    "statsLabel": "Números da plataforma Interfy",
+    "faqHeading": "Perguntas frequentes",
+    "specialistTitle": "Fale com um especialista",
+    "specialistDesc": "Nossa equipe está pronta para ajudar você a escolher o plano ideal para o seu negócio.",
+    "specialistCta": "Falar com especialista",
+    "ctaTitle": "Pronto para transformar sua operação?",
+    "ctaDesc": "Junte-se a milhares de empresas que já confiam na Interfy.ai.",
+    "ctaButton": "Começar agora",
+    "srHeading": "Comece a usar a Interfy"
+  }
+}

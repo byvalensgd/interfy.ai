@@ -1,0 +1,139 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: talk to your operation with voice commands. Queries, processes, reports, and Agents triggered naturally, with security and governance in every interaction.",
+    "keywords": ["voice commands", "enterprise voice assistant", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Free 7-day Test Drive, no credit card required."
+  },
+  "hero": {
+    "heading": "Talk to",
+    "headingHighlight": "your operation.",
+    "description": "You ask. Interfy understands. The Agents execute.",
+    "ctaPrimary": "Free 7-Day Test Drive",
+    "ctaSecondary": "Schedule a demo",
+    "imageAlt": "Interfy Voice shown on tablet and smartphone, running voice commands on the platform",
+    "highlights": [
+      { "label": "Speak naturally" },
+      { "label": "AI that understands and executes" },
+      { "label": "Secure and reliable" },
+      { "label": "Available everywhere" }
+    ],
+    "platformCards": [
+      {
+        "title": "Use it on desktop",
+        "description": "Fully integrated with the web app. Activate by button, voice, or a keyboard shortcut, and start talking."
+      },
+      {
+        "title": "Use it on Mobile",
+        "description": "Available in the Interfy Mobile app. Talk, check, approve, and manage everything from the palm of your hand."
+      },
+      {
+        "title": "Security and permissions",
+        "description": "Access controlled by permissions. Your voice, your data, and your operations, always protected."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "What you can do with",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Voice interaction",
+        "description": "Speak naturally and interact with the entire platform using only your voice."
+      },
+      {
+        "title": "Natural language",
+        "description": "The AI understands what you say, even in full, spontaneous sentences."
+      },
+      {
+        "title": "Voice search",
+        "description": "Find documents, processes, information, and more with a simple question."
+      },
+      {
+        "title": "Process creation",
+        "description": "Build complete processes just by describing what you need."
+      },
+      {
+        "title": "Form creation",
+        "description": "Generate smart forms with fields, rules, and validations in seconds."
+      },
+      {
+        "title": "Document lookup",
+        "description": "Ask about documents and get fast, precise answers."
+      },
+      {
+        "title": "Report generation",
+        "description": "Request custom reports and get analysis and insights instantly."
+      },
+      {
+        "title": "Agent triggering",
+        "description": "Activate intelligent agents to run tasks and deliver results automatically."
+      },
+      {
+        "title": "Operational commands",
+        "description": "Run actions, updates, and operations on the platform with voice commands."
+      },
+      {
+        "title": "Confirmation for sensitive actions",
+        "description": "Critical actions always require voice confirmation to keep things secure."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Fully connected to the",
+    "headingHighlight": "Interfy ecosystem",
+    "items": [
+      { "description": "Look up and interact with documents" },
+      { "description": "Create and manage processes by voice" },
+      { "description": "Capture documents and extract information" },
+      { "description": "Send for signature and track status" },
+      { "description": "Chat and collaborate by voice" },
+      { "description": "Trigger Agents and get results" },
+      { "description": "The central voice interaction hub" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governance, security, and AI Credits for Interfy Voice",
+    "governance": {
+      "title": "Governance and security",
+      "titleAccent": "come first",
+      "items": [
+        "Data protected with end-to-end encryption",
+        "Granular permissions by agent and by user",
+        "Audit trail of every voice interaction",
+        "Compliance with LGPD, ISO 27001, SOC 2, and more",
+        "Data protected with the highest security standards"
+      ]
+    },
+    "credits": {
+      "title": "Transparent usage with",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice uses AI Credits to process commands, queries, analyses, and executions.",
+      "features": [
+        { "label": "Credits included in every plan" },
+        { "label": "Real-time tracking" },
+        { "label": "Buy additional credits whenever you need" }
+      ],
+      "cta": "See details",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "available"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy Voice",
+    "heading": "Talk to your operation.",
+    "subheading": "Simple, fast, and intelligent.",
+    "primaryButton": "Free 7-Day Test Drive",
+    "secondaryButton": "Schedule a Demo",
+    "statsLabel": "Interfy platform numbers",
+    "stats": [
+      { "label": "12Bi +", "sublabel": "documents" },
+      { "label": "20M +", "sublabel": "signatures" },
+      { "label": "2.5M +", "sublabel": "users" },
+      { "label": "6Mi +", "sublabel": "processes" },
+      { "label": "1000 TB +", "sublabel": "stored" },
+      { "label": "99.99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

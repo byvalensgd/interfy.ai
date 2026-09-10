@@ -3,10 +3,16 @@ import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { agentesHeroHighlights } from "@/config/agentes";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { withLocale } from "@/lib/i18n/paths";
 
 const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
-export default function AgentesHero() {
+export default async function AgentesHero() {
+  const locale = await getLocale();
+  const { agents, common } = await getDictionary();
+  const hero = agents.hero;
+
   return (
     <section
       aria-labelledby="agentes-hero-heading"
@@ -21,32 +27,32 @@ export default function AgentesHero() {
                   id="agentes-hero-heading"
                   className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  Agentes que{" "}
+                  {hero.titleLine1}{" "}
                   <span className="inline-block bg-[linear-gradient(112deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                    entendem, decidem e executam.
+                    {hero.titleGradient}
                   </span>
                 </h1>
                 <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
-                  Interfy Agentes é a camada de inteligência da plataforma. Crie agentes
-                  inteligentes para automatizar tarefas, analisar informações e impulsionar
-                  resultados em toda a sua operação.
+                  {hero.description}
                 </p>
               </div>
 
               <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href="/comece-gratis" variant="primary" className="grow whitespace-nowrap lg:grow-0">
-                  Test Drive Grátis por 7 dias
+                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaPrimary}
                 </Button>
-                <Button href="/demo" variant="secondary" className="grow whitespace-nowrap lg:grow-0">
-                  Agendar demonstração
+                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                  {hero.ctaSecondary}
                 </Button>
               </div>
 
               <ul className="flex w-full flex-wrap items-center gap-5">
-                {agentesHeroHighlights.map((item) => (
-                  <li key={item.label} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
+                {agentesHeroHighlights.map((item, i) => (
+                  <li key={item.icon} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
                     <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} />
-                    <span className="w-full text-base leading-[1.2] font-bold text-texto">{item.label}</span>
+                    <span className="w-full text-base leading-[1.2] font-bold text-texto">
+                      {hero.highlights[i].label}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -55,7 +61,9 @@ export default function AgentesHero() {
             <Reveal immediate className="flex min-w-0 flex-col items-start gap-5" delayMs={120}>
               <HeroSlideshow
                 images={heroSlides}
-                alt="Interfy Agentes exibido em laptop e smartphone, mostrando agentes de IA em ação"
+                alt={hero.slideshowAlt}
+                prevLabel={common.prevSlide}
+                nextLabel={common.nextSlide}
                 className="aspect-[2625/1793] w-full"
               />
             </Reveal>

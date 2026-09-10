@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { ecosystemGridItems } from "@/config/ecosystem-grid";
 
-export default function EcosystemGrid() {
+export default async function EcosystemGrid() {
+  const { home } = await getDictionary();
+  const { ecosystemGrid } = home;
+  const items = ecosystemGridItems.map((item, i) => ({ ...item, ...ecosystemGrid.items[i] }));
+
   return (
     <section
       aria-labelledby="ecosystem-grid-heading"
@@ -14,14 +19,14 @@ export default function EcosystemGrid() {
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto"
         >
           <span className="inline-block bg-[linear-gradient(168.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-            Ecossistema completo
+            {ecosystemGrid.headline}
           </span>{" "}
-          para sua operação
+          {ecosystemGrid.headlineSuffix}
         </h2>
 
         <Reveal className="w-full">
           <ul className="grid w-full grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-4 lg:grid-cols-8">
-            {ecosystemGridItems.map((item) => (
+            {items.map((item) => (
               <li key={item.product} className="flex flex-col items-center gap-5">
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />

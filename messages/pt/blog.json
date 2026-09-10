@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Conteúdo",
+    "description": "Artigos, guias e novidades sobre gestão de documentos, automação de processos, assinatura eletrônica e IA aplicada a operações empresariais.",
+    "keywords": ["blog Interfy", "conteúdo gestão documental", "automação de processos", "IA para empresas"]
+  },
+  "hero": {
+    "ariaLabel": "Introdução ao blog",
+    "eyebrow": "Blog & Conteúdo",
+    "titleLine1": "Conteúdo para quem",
+    "titleHighlight": "transforma operações",
+    "description": "Guias práticos, novidades de produto e tendências sobre documentos, processos, dados e IA para empresas."
+  },
+  "grid": {
+    "ariaLabel": "Artigos do blog",
+    "categoriesLabel": "Filtrar por categoria",
+    "allLabel": "Todos",
+    "categories": ["Gestão Documental", "Automação (BPM)", "Assinatura Eletrônica", "IA & Agentes", "Segurança & Compliance"],
+    "comingSoonLabel": "Novos artigos toda semana. Em breve, também por aqui.",
+    "posts": [
+      {
+        "category": "Gestão Documental",
+        "title": "Como estruturar um repositório de documentos que escala com a empresa",
+        "excerpt": "Boas práticas de organização, versionamento e controle de acesso para times que crescem rápido.",
+        "date": "Ago 2026",
+        "readTime": "6 min de leitura"
+      },
+      {
+        "category": "Automação (BPM)",
+        "title": "5 processos que toda empresa deveria automatizar primeiro",
+        "excerpt": "Um roteiro prático para priorizar automações com maior impacto em custo e tempo de ciclo.",
+        "date": "Ago 2026",
+        "readTime": "7 min de leitura"
+      },
+      {
+        "category": "Assinatura Eletrônica",
+        "title": "Assinatura eletrônica tem validade jurídica no Brasil?",
+        "excerpt": "O que diz a legislação, quais evidências importam e como escolher o nível de assinatura certo.",
+        "date": "Jul 2026",
+        "readTime": "5 min de leitura"
+      },
+      {
+        "category": "IA & Agentes",
+        "title": "Agentes de IA em processos internos: por onde começar",
+        "excerpt": "Casos de uso reais para reduzir trabalho manual em triagem, classificação e extração de dados.",
+        "date": "Jul 2026",
+        "readTime": "8 min de leitura"
+      },
+      {
+        "category": "Segurança & Compliance",
+        "title": "LGPD na prática: o que muda na gestão de documentos e processos",
+        "excerpt": "Um guia direto sobre bases legais, retenção de dados e responsabilidades do controlador.",
+        "date": "Jun 2026",
+        "readTime": "6 min de leitura"
+      },
+      {
+        "category": "Gestão Documental",
+        "title": "OCR e captura inteligente: o fim da digitação manual",
+        "excerpt": "Como a captura automatizada reduz erros e acelera a entrada de documentos no fluxo de trabalho.",
+        "date": "Jun 2026",
+        "readTime": "5 min de leitura"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar a Interfy",
+    "heading": "Quer ver esses conceitos aplicados na prática?",
+    "subheading": "Comece grátis e explore a plataforma Interfy com seus próprios documentos e processos.",
+    "primaryButton": "Comece grátis",
+    "secondaryButton": "Agende uma demo"
+  }
+}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ecosystemItems } from "@/config/platform";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
 // Design basis: the Figma frame is 840x410 (node 5041:19718). Every geometric
 // value below is expressed as cqw (% of that basis) so the whole diagram is
@@ -87,13 +88,17 @@ function EcosystemBadge({
   );
 }
 
-export default function EcosystemDiagram({
+export default async function EcosystemDiagram({
   className = "mx-auto w-full max-w-[840px]",
 }: {
   className?: string;
 }) {
-  const [documents, automation, voice, capture, agents, sign, connect, mobile] =
-    ecosystemItems;
+  const { home } = await getDictionary();
+  const items = ecosystemItems.map((item, i) => ({
+    ...item,
+    ...home.platformIntro.ecosystem.items[i],
+  }));
+  const [documents, automation, voice, capture, agents, sign, connect, mobile] = items;
 
   return (
     <div className={className} style={{ containerType: "inline-size" }}>

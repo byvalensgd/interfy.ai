@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Support",
+    "description": "Interfy support center: reach our team by chat, email, or phone, or find answers in our FAQ.",
+    "keywords": ["Interfy support", "Interfy help center", "Interfy customer service", "support SLA"]
+  },
+  "hero": {
+    "ariaLabel": "Introduction to Interfy support",
+    "eyebrow": "Interfy Support",
+    "titleLine1": "How can we",
+    "titleHighlight": "help you?",
+    "description": "Our technical support team follows your operation every business day, with an SLA defined per plan and a help center always available.",
+    "primaryLabel": "See frequently asked questions",
+    "secondaryLabel": "Talk to a specialist"
+  },
+  "channels": {
+    "ariaLabel": "Support channels",
+    "heading": "Support channels",
+    "items": [
+      {
+        "title": "Live chat",
+        "description": "Talk in real time with our support team, Monday to Friday, 8am to 8pm.",
+        "actionLabel": "Start a conversation",
+        "href": "/contato"
+      },
+      {
+        "title": "Email",
+        "description": "Send your question or request to suporte@interfy.ai and get a reply within your plan's SLA.",
+        "actionLabel": "Send an email",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Phone",
+        "description": "Call our support center during business hours for urgent cases.",
+        "actionLabel": "Call now",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Help center",
+        "description": "Browse articles, tutorials, and step-by-step guides for every Interfy product.",
+        "actionLabel": "See frequently asked questions",
+        "href": "#faq"
+      }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Frequently asked questions about support",
+    "ariaExpand": "Expand answer",
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How do I open a support ticket?",
+        "answer": "You can open a ticket via chat, email (suporte@interfy.ai), or directly from the Interfy dashboard's support section. Every ticket gets a tracking number."
+      },
+      {
+        "question": "What's the support response time?",
+        "answer": "The SLA varies by plan: Starter accounts get a reply within 24 business hours, while Business, Corporate, and Enterprise plans get priority with shorter SLAs, detailed in the contract."
+      },
+      {
+        "question": "Is support included in every plan?",
+        "answer": "Yes. Chat and email support is included in every paid plan. Corporate and Enterprise plans also get a dedicated account manager."
+      },
+      {
+        "question": "What are the support hours?",
+        "answer": "Our support runs Monday to Friday, 8am to 8pm (Brasília time). Enterprise accounts can add extended 24/7 support."
+      },
+      {
+        "question": "How do I track platform availability?",
+        "answer": "Availability and incident history for every product are published in real time on our platform status page."
+      },
+      {
+        "question": "How do I escalate an urgent ticket?",
+        "answer": "Tickets marked as critical are automatically prioritized. If you need to reinforce urgency, reply to the ticket email or call our support center."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Start using Interfy",
+    "heading": "Still have questions?",
+    "subheading": "Talk to one of our specialists and see how Interfy can adapt to your operation.",
+    "primaryButton": "Start for free",
+    "secondaryButton": "Schedule a demo"
+  }
+}

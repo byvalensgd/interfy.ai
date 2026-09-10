@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process te permite crear procesos visuales, formularios inteligentes y automatizaciones potentes con AI. Más agilidad, control y eficiencia en cada etapa.",
+    "keywords": ["automatización de procesos", "BPM", "workflow empresarial", "formularios inteligentes", "Interfy Process"],
+    "freeTrialNote": "Prueba gratis por 7 días, sin tarjeta de crédito"
+  },
+  "hero": {
+    "titlePrefix": "Crea, automatiza y transforma procesos ",
+    "titleHighlight": "con AI.",
+    "descriptionBrand": "Interfy PROCESS",
+    "descriptionText": " te permite crear procesos visuales, formularios inteligentes y automatizaciones potentes con AI. Más agilidad, control y eficiencia en cada etapa.",
+    "ctaPrimary": "Prueba Gratis",
+    "ctaSecondary": "Agenda una demostración",
+    "mockupAlt": "Plataforma Interfy Process mostrada en tablet y smartphone, con el diseño visual de un proceso y la lista de tareas",
+    "stats": [
+      { "label": "6 M +", "sublabel": "procesos automatizados" },
+      { "label": "25.000 +", "sublabel": "clientes" },
+      { "label": "2.5 M +", "sublabel": "usuarios activos" },
+      { "label": "100% Web", "sublabel": "Accede desde cualquier lugar" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Automatización completa para ",
+    "headingHighlight": "tu operación",
+    "items": [
+      { "title": "Creación visual de procesos", "description": "Diseña flujos de forma simple e intuitiva con el diseñador visual drag-and-drop." },
+      { "title": "Creación de procesos con AI", "description": "Describe lo que necesitas y la AI crea el proceso ideal para ti en segundos." },
+      { "title": "Generación automática de formularios", "description": "La AI genera formularios completos a partir del proceso con campos inteligentes." },
+      { "title": "Formularios inteligentes", "description": "Campos condicionales, validaciones automáticas y cálculos para reducir errores y retrabajo." },
+      { "title": "Aprobaciones", "description": "Flujos de aprobación flexibles con múltiples niveles paralelos o condicionales." },
+      { "title": "Tareas", "description": "Asigna, monitorea y gestiona tareas con plazos, prioridades y responsables." },
+      { "title": "Reglas de negocio", "description": "Automatiza decisiones y acciones con reglas personalizadas y condiciones avanzadas." },
+      { "title": "SLAs", "description": "Define plazos y acuerdos de nivel de servicio con monitoreo y alertas automáticas." },
+      { "title": "Alertas y notificaciones", "description": "Notificaciones por correo, push o dentro de la plataforma para mantener a todos alineados." },
+      { "title": "Dashboards en tiempo real", "description": "Monitorea la operación con dashboards dinámicos y visuales actualizados." },
+      { "title": "Indicadores y métricas", "description": "Métricas personalizadas para medir desempeño, cuellos de botella y productividad." },
+      { "title": "Participación externa", "description": "Incluye clientes, proveedores y socios en los procesos con seguridad y control." },
+      { "title": "Procesos en Mobile", "description": "Ejecuta, aprueba y monitorea procesos desde cualquier lugar con la app Interfy Mobile." },
+      { "title": "Plantillas listas para usar", "description": "Biblioteca de modelos de procesos listos para usar en los más diversos sectores." },
+      { "title": "Automatizaciones con Agentes", "description": "Los Agentes de AI ejecutan tareas automáticas, analizan datos y toman acciones inteligentes." },
+      { "title": "Integración nativa", "description": "Integración completa con Interfy Documents, Capture y Sign para un flujo 100% conectado." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Integración nativa con el ",
+    "headingHighlight": "ecosistema Interfy",
+    "description": "Elige tu segmento y descubre cómo la Interfy AI transforma desafíos en resultados reales.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Documentos e información al alcance del proceso." },
+      { "description": "Captura inteligente y extracción de datos." },
+      { "description": "Procesos y automatizaciones inteligentes." },
+      { "description": "Firmas digitales integradas al flujo." },
+      { "description": "Colaboración y comunicación en tiempo real." },
+      { "description": "Agentes de AI que analizan, deciden y ejecutan." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Diferenciales de la plataforma",
+    "items": [
+      { "title": "Una única plataforma", "description": "Sin necesidad de versiones por sector" },
+      { "title": "100% adaptable", "description": "Configúrala según tu negocio" },
+      { "title": "Implementación rápida", "description": "Empieza en minutos sin complejidad" },
+      { "title": "Seguridad enterprise", "description": "Protección de datos y entornos aislados" },
+      { "title": "IA en todos los sectores", "description": "Agentes inteligentes que entienden tu contexto" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Resultados y tipos de procesos atendidos",
+    "practiceTitlePrefix": "Resultados que ves ",
+    "practiceTitleHighlight": "en la práctica",
+    "checklist": [
+      "Menos retrabajo y más estandarización",
+      "Procesos más rápidos y eficientes",
+      "Reducción de costos operativos",
+      "Transparencia total y trazabilidad",
+      "Mejores decisiones con datos e indicadores",
+      "Satisfacción de clientes, equipos y socios"
+    ],
+    "chartTitle": "Solicitudes completadas",
+    "chartAriaLabel": "Gráfico de líneas que muestra el crecimiento de solicitudes completadas de enero a junio, con un alza del 32%",
+    "chartMonths": ["Ene", "Feb", "Mar", "Abr", "May", "Jun"],
+    "typesTitlePrefix": "Hecho para todos los ",
+    "typesTitleHighlight": "tipos de procesos",
+    "processTypes": [
+      { "label": "Administrativos" },
+      { "label": "Financieros" },
+      { "label": "Compras" },
+      { "label": "RR. HH." },
+      { "label": "Legales" },
+      { "label": "Comerciales" },
+      { "label": "Operativos" },
+      { "label": "TI" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comienza a usar Interfy Process",
+    "title": "¿Listo para transformar tu operación?",
+    "description": "Empieza ahora con 7 días gratis y descubre cómo Interfy Process puede impulsar tu empresa.",
+    "ctaPrimary": "Prueba Gratis por 7 días",
+    "ctaSecondary": "Agendar Demostración",
+    "statsLabel": "Diferenciales de Interfy Process",
+    "features": [
+      { "label": "100% Web", "sublabel": "Accede desde cualquier lugar" },
+      { "label": "Seguridad de punta", "sublabel": "Datos protegidos y conformes" },
+      { "label": "Escalable", "sublabel": "Desde pequeños hasta grandes negocios" },
+      { "label": "Soporte 24/7", "sublabel": "Siempre que lo necesites" }
+    ]
+  }
+}

@@ -2,9 +2,19 @@
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { ChevronDown } from "lucide-react";
-import { useLang, type Lang } from "@/context/LanguageContext";
-import { LANGUAGES, COMPACT_LABEL, FULL_INFO, type LanguageOption } from "@/config/languages";
+import { useRouter, usePathname } from "next/navigation";
+import { ChevronDown, ArrowLeftRight } from "lucide-react";
+import type { Locale } from "@/lib/i18n/config";
+import { withLocale } from "@/lib/i18n/paths";
+import { LANGUAGES, LANGUAGE_INFO, type LanguageOption } from "@/config/languages";
+
+const COOKIE = "interfy-lang";
+const MAX_AGE = 60 * 60 * 24 * 365;
+const DIR_STORAGE_KEY = "interfy-dir-override";
+
+function writeCookie(locale: Locale) {
+  document.cookie = `${COOKIE}=${locale}; path=/; max-age=${MAX_AGE}; SameSite=Lax`;
+}
 
 function FlagImg({ flag, aspectW, aspectH }: Pick<LanguageOption, "flag" | "aspectW" | "aspectH">) {
   return (
@@ -16,15 +26,72 @@ function FlagImg({ flag, aspectW, aspectH }: Pick<LanguageOption, "flag" | "aspe
   );
 }
 
+function useClickOutside(onClose: () => void) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    function handle(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    }
+    document.addEventListener("mousedown", handle);
+    return () => document.removeEventListener("mousedown", handle);
+  }, [onClose]);
+  return ref;
+}
+
+/** Switches the locale via a client-side transition (no full page reload). */
+function useLocaleSwitch() {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  return (locale: Locale) => {
+    writeCookie(locale);
+    router.push(withLocale(pathname, locale), { scroll: false });
+  };
+}
+
+/**
+ * Manual LTR/RTL override for right-to-left languages (e.g. Hebrew, Arabic),
+ * shown only when the active language's script is RTL.
+ */
+function RtlToggle() {
+  const [dir, setDir] = useState<"ltr" | "rtl">("rtl");
+
+  useEffect(() => {
+    const stored = localStorage.getItem(DIR_STORAGE_KEY) as "ltr" | "rtl" | null;
+    if (stored) {
+      setDir(stored);
+      document.documentElement.dir = stored;
+    }
+  }, []);
+
+  function toggle() {
+    const next = dir === "rtl" ? "ltr" : "rtl";
+    setDir(next);
+    document.documentElement.dir = next;
+    localStorage.setItem(DIR_STORAGE_KEY, next);
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={toggle}
+      aria-label={dir === "rtl" ? "Switch to left-to-right layout" : "Switch to right-to-left layout"}
+      className="flex size-9 shrink-0 items-center justify-center rounded-md border border-contorno-base text-texto transition-colors hover:bg-bg-base"
+    >
+      <ArrowLeftRight className="size-4" aria-hidden="true" />
+    </button>
+  );
+}
+
 function DropdownMenu({
   align,
-  lang,
-  setLang,
+  locale,
+  onSelect,
   onClose,
 }: {
   align: "up" | "down";
-  lang: Lang;
-  setLang: (l: Lang) => void;
+  locale: Locale;
+  onSelect: (l: Locale) => void;
   onClose: () => void;
 }) {
   return (
@@ -34,13 +101,13 @@ function DropdownMenu({
       }`}
     >
       {LANGUAGES.map((item) => {
-        const isActive = item.langCode === lang;
+        const isActive = item.locale === locale;
         return (
           <button
-            key={item.code}
+            key={item.locale}
             type="button"
             onClick={() => {
-              setLang(item.langCode);
+              onSelect(item.locale);
               onClose();
             }}
             className="flex w-full shrink-0 items-center gap-2.5 transition-opacity hover:opacity-70"
@@ -60,76 +127,76 @@ function DropdownMenu({
   );
 }
 
-function useClickOutside(onClose: () => void) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    function handle(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
-    }
-    document.addEventListener("mousedown", handle);
-    return () => document.removeEventListener("mousedown", handle);
-  }, [onClose]);
-  return ref;
-}
-
 /** Footer variant: full label + flag. */
-export function LanguageSelectorFull() {
+export function LanguageSelectorFull({ locale, ariaLabel }: { locale: Locale; ariaLabel: string }) {
   const [open, setOpen] = useState(false);
-  const { lang, setLang } = useLang();
   const ref = useClickOutside(() => setOpen(false));
-  const info = FULL_INFO[lang];
+  const switchLocale = useLocaleSwitch();
+  const info = LANGUAGE_INFO[locale];
 
   return (
-    <div ref={ref} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        className={`flex w-[220px] min-w-[200px] items-center gap-1.5 rounded-md border p-2.5 transition-colors ${
-          open ? "border-azul-base bg-bg-base" : "border-contorno-base"
-        }`}
-      >
-        <FlagImg flag={info.flag} aspectW={info.aspectW} aspectH={info.aspectH} />
-        <span className={`min-w-0 flex-1 text-left text-sm font-bold leading-[1.2] ${open ? "text-azul-base" : "text-texto"}`}>
-          {info.label}
-        </span>
-        <ChevronDown
-          className={`size-[18px] shrink-0 text-texto transition-transform ${open ? "rotate-180" : ""}`}
-          aria-hidden="true"
-        />
-      </button>
-      {open && <DropdownMenu align="up" lang={lang} setLang={setLang} onClose={() => setOpen(false)} />}
+    <div className="flex items-center gap-2.5">
+      <div ref={ref} className="relative">
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          aria-label={ariaLabel}
+          className={`flex w-[220px] min-w-[200px] items-center gap-1.5 rounded-md border p-2.5 transition-colors ${
+            open ? "border-azul-base bg-bg-base" : "border-contorno-base"
+          }`}
+        >
+          <FlagImg flag={info.flag} aspectW={info.aspectW} aspectH={info.aspectH} />
+          <span className={`min-w-0 flex-1 text-left text-sm font-bold leading-[1.2] ${open ? "text-azul-base" : "text-texto"}`}>
+            {info.label}
+          </span>
+          <ChevronDown
+            className={`size-[18px] shrink-0 text-texto transition-transform ${open ? "rotate-180" : ""}`}
+            aria-hidden="true"
+          />
+        </button>
+        {open && (
+          <DropdownMenu align="up" locale={locale} onSelect={switchLocale} onClose={() => setOpen(false)} />
+        )}
+      </div>
+      {info.dir === "rtl" && <RtlToggle />}
     </div>
   );
 }
 
 /** Header variant: compact code label + flag. */
-export function LanguageSelectorCompact() {
+export function LanguageSelectorCompact({ locale, ariaLabel }: { locale: Locale; ariaLabel: string }) {
   const [open, setOpen] = useState(false);
-  const { lang, setLang } = useLang();
   const ref = useClickOutside(() => setOpen(false));
+  const switchLocale = useLocaleSwitch();
+  const info = LANGUAGE_INFO[locale];
 
   return (
-    <div ref={ref} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        aria-label={`Selecionar idioma: ${FULL_INFO[lang].label}`}
-        className={`flex items-center gap-1.5 rounded-md border p-1.5 transition-colors ${
-          open ? "border-azul-base bg-bg-base" : "border-transparent hover:bg-bg-base"
-        }`}
-      >
-        <FlagImg flag={FULL_INFO[lang].flag} aspectW={FULL_INFO[lang].aspectW} aspectH={FULL_INFO[lang].aspectH} />
-        <span className={`shrink-0 text-sm font-bold leading-[1.2] whitespace-nowrap ${open ? "text-azul-base" : "text-texto"}`}>
-          {COMPACT_LABEL[lang]}
-        </span>
-        <ChevronDown
-          className={`size-[18px] shrink-0 text-texto transition-transform ${open ? "rotate-180" : ""}`}
-          aria-hidden="true"
-        />
-      </button>
-      {open && <DropdownMenu align="down" lang={lang} setLang={setLang} onClose={() => setOpen(false)} />}
+    <div className="flex items-center gap-1.5">
+      <div ref={ref} className="relative">
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          aria-label={`${ariaLabel}: ${info.label}`}
+          className={`flex items-center gap-1.5 rounded-md border p-1.5 transition-colors ${
+            open ? "border-azul-base bg-bg-base" : "border-transparent hover:bg-bg-base"
+          }`}
+        >
+          <FlagImg flag={info.flag} aspectW={info.aspectW} aspectH={info.aspectH} />
+          <span className={`shrink-0 text-sm font-bold leading-[1.2] whitespace-nowrap ${open ? "text-azul-base" : "text-texto"}`}>
+            {info.compactLabel}
+          </span>
+          <ChevronDown
+            className={`size-[18px] shrink-0 text-texto transition-transform ${open ? "rotate-180" : ""}`}
+            aria-hidden="true"
+          />
+        </button>
+        {open && (
+          <DropdownMenu align="down" locale={locale} onSelect={switchLocale} onClose={() => setOpen(false)} />
+        )}
+      </div>
+      {info.dir === "rtl" && <RtlToggle />}
     </div>
   );
 }

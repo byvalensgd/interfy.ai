@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect vai muito além do chat: colaboração em tempo real integrada aos seus documentos, processos e automações, com pessoas internas e externas na mesma conversa.",
+    "keywords": ["colaboração em equipe", "chat integrado", "comunicação corporativa", "Interfy Connect"],
+    "freeTrialNote": "Teste Drive gratuito por 7 dias, sem cartão de crédito."
+  },
+  "hero": {
+    "heading": "Conecte pessoas, documentos e processos em uma",
+    "headingHighlight": "única conversa.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "vai muito além do chat. É colaboração real, integrada aos seus documentos, processos e automações para que nada se perca e tudo aconteça.",
+    "ctaPrimary": "Teste Drive Grátis por 7 dias",
+    "ctaSecondary": "Agende uma demonstração",
+    "imageAlt": "Interfy Connect exibido em laptop e smartphone, mostrando a central de conversas",
+    "highlights": [
+      { "label": "Colaboração em tempo real" },
+      { "label": "Tudo conectado e rastreável" },
+      { "label": "Seguro e confiável" },
+      { "label": "Internos e externos na mesma conversa" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Colaboração completa",
+    "headingHighlight": "integrada a sua operação",
+    "items": [
+      {
+        "title": "Comunicação interna",
+        "description": "Converse em canais, grupos ou mensagens diretas com sua equipe."
+      },
+      {
+        "title": "Compartilhamento inteligente",
+        "description": "Compartilhe arquivos, links e informações com segurança e praticidade."
+      },
+      {
+        "title": "Notificação em tempo real",
+        "description": "Receba alertas e lembretes sobre mensagens, menções, tarefas e atualizações importantes."
+      },
+      {
+        "title": "Usuários internos e externos",
+        "description": "Inclua clientes, parceiros e fornecedores nas conversas de forma segura."
+      },
+      {
+        "title": "Histórico completo",
+        "description": "Todo o histórico de conversas, arquivos e ações sempre disponível e pesquisável."
+      },
+      {
+        "title": "Rastreabilidade total",
+        "description": "Cada mensagem, análise, decisão registrada com hora e responsável."
+      },
+      {
+        "title": "Colaboração entre equipes",
+        "description": "Trabalhe de forma integrada entre áreas e departamentos sem perder o contexto."
+      },
+      {
+        "title": "AI para resumir conversas",
+        "description": "A Interfy AI gera resumos inteligentes das conversas e destaca o que é mais importante."
+      },
+      {
+        "title": "AI para localizar informações",
+        "description": "Pergunte em linguagem natural e encontre rapidamente o que precisa nas conversas."
+      },
+      {
+        "title": "Mobile completo",
+        "description": "Acesse suas conversas, arquivos e notificações de qualquer lugar pelo app Interfy Mobile."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Totalmente integrado ao",
+    "headingHighlight": "ecossistema Interfy",
+    "items": [
+      { "description": "Acesse e comente documentos sem sair da conversa." },
+      { "description": "Inicie ações e mova processos direto da conversa." },
+      { "description": "Conecte pessoas e centralize todas as comunicações." },
+      { "description": "Capture documentos e compartilhe na conversa." },
+      { "description": "Envie documentos para assinatura e acompanhe tudo por aqui." },
+      { "description": "Agentes de AI apoiam, analisam e executam cada interação." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Assinatura digital e produtividade com o Interfy Connect",
+    "signCard": {
+      "titleHighlight": "Assinatura digital grátis",
+      "titleSuffix": "para todos os usuários.",
+      "description": "Envie documentos para assinatura diretamente das conversas. Simples, rápido e 100% incluso em todos os planos da plataforma."
+    },
+    "headingHighlight": "Produtividade",
+    "headingSuffix": "que se vê no dia a dia",
+    "items": [
+      {
+        "title": "Mais agilidade",
+        "description": "Decisões mais rápidas com tudo no contexto certo."
+      },
+      {
+        "title": "Menos retrabalho",
+        "description": "Informação centralizada e acessível para todos os envolvidos."
+      },
+      {
+        "title": "Mais visibilidade",
+        "description": "Acompanhe o andamento das conversas e atividades em tempo real."
+      },
+      {
+        "title": "Mais segurança",
+        "description": "Governança, permissões e conformidade em cada interação."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Comece a usar o Interfy Connect",
+    "heading": "Conecte sua equipe e transforme a colaboração em resultados.",
+    "subheading": "Tudo integrado. Tudo rastreável. Tudo em uma conversa.",
+    "primaryButton": "Test Drive Grátis por 7 dias",
+    "secondaryButton": "Agendar Demonstração",
+    "statsLabel": "Números da plataforma Interfy",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "clientes" },
+      { "label": "180+ países" },
+      { "label": "16 idiomas" },
+      { "label": "Segurança de ponta" },
+      { "label": "AI Native" },
+      { "label": "Alta disponibilidade" },
+      { "label": "Conformidade Global" }
+    ]
+  }
+}

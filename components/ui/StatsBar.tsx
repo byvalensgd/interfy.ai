@@ -1,5 +1,10 @@
 import Image from "next/image";
-import type { HeroStat } from "@/config/hero";
+
+export type StatItem = {
+  icon: string;
+  label: string;
+  sublabel?: string;
+};
 
 const sizeClasses = {
   sm: { number: "text-base", sublabel: "text-sm" },
@@ -15,7 +20,7 @@ export default function StatsBar({
   size = "sm",
   dense = false,
 }: {
-  stats: HeroStat[];
+  stats: StatItem[];
   label: string;
   size?: "sm" | "lg";
   dense?: boolean;

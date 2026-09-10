@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
-import { bpmCapabilities } from "@/config/bpm-page";
+import { bpmCapabilityIcons } from "@/config/bpm-page";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
-export default function BpmCapabilities() {
+export default async function BpmCapabilities() {
+  const { process } = await getDictionary();
+  const { capabilities } = process;
+  const items = bpmCapabilityIcons.map((icon, i) => ({ icon, ...capabilities.items[i] }));
+
   return (
     <section
       aria-labelledby="bpm-capabilities-heading"
@@ -13,17 +18,17 @@ export default function BpmCapabilities() {
           id="bpm-capabilities-heading"
           className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto"
         >
-          Automação completa para{" "}
+          {capabilities.headingPrefix}
           <span className="inline-block bg-[linear-gradient(168deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-            sua operação
+            {capabilities.headingHighlight}
           </span>
         </h2>
 
         <Reveal className="w-full">
           <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {bpmCapabilities.map((item) => (
+            {items.map((item) => (
               <li
-                key={item.title}
+                key={item.icon}
                 className="flex flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco px-4 py-5"
               >
                 <div className="flex w-full items-center gap-4">

@@ -41,7 +41,13 @@ function ProductResourceToggle({ label, features }: { label: string; features: s
   );
 }
 
-export default function ResourcesAccordion() {
+type ResourceSectionDict = { label: string; features: string[] };
+
+export default function ResourcesAccordion({
+  resources,
+}: {
+  resources: { toggleLabel: string; sections: ResourceSectionDict[] };
+}) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -53,9 +59,7 @@ export default function ResourcesAccordion() {
         className="flex h-[60px] w-full max-w-[494px] items-center justify-center gap-2.5 rounded-2xl px-5"
         style={{ backgroundImage: "linear-gradient(117deg,#184aee 22.86%,#bf18f6 96.41%)" }}
       >
-        <span className="text-lg font-bold leading-[1.2] text-branco">
-          Veja todos os recursos e compare os planos
-        </span>
+        <span className="text-lg font-bold leading-[1.2] text-branco">{resources.toggleLabel}</span>
         <Image
           src="/icons/pricing/chevron-white.svg"
           alt=""
@@ -68,8 +72,12 @@ export default function ResourcesAccordion() {
 
       {open && (
         <div className="flex w-full flex-col gap-2.5">
-          {resourceSections.map((section) => (
-            <ProductResourceToggle key={section.key} label={section.label} features={section.features} />
+          {resourceSections.map((section, index) => (
+            <ProductResourceToggle
+              key={section.key}
+              label={resources.sections[index].label}
+              features={resources.sections[index].features}
+            />
           ))}
         </div>
       )}
