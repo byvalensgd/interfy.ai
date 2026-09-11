@@ -9,3 +9,12 @@ export function withLocale(pathname: string, locale: Locale): string {
   if (locale === defaultLocale) return stripped;
   return stripped === "/" ? `/${locale}` : `/${locale}${stripped}`;
 }
+
+/**
+ * Same as `withLocale`, but safe for hrefs coming straight from dictionary
+ * content that mix internal paths with `mailto:`/`tel:`/`#anchor` links —
+ * only same-site paths (starting with "/") get the locale prefix.
+ */
+export function localizeHref(href: string, locale: Locale): string {
+  return href.startsWith("/") ? withLocale(href, locale) : href;
+}

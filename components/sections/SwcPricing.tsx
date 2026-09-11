@@ -13,7 +13,7 @@ function PlanCard({ plan }: { plan: PricingTier }) {
     >
       {plan.badge && (
         <span
-          className="-translate-x-1/2 absolute left-1/2 top-[-18px] whitespace-nowrap rounded-full bg-corporate px-4 py-3 text-sm font-bold text-branco"
+          className="-translate-x-1/2 absolute left-1/2 top-[-18px] whitespace-nowrap rounded-full bg-corporate px-4 py-3 text-sm leading-[1.2] font-bold text-branco"
         >
           {plan.badge}
         </span>

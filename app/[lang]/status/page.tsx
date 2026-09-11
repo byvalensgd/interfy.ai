@@ -1,9 +1,11 @@
 import SimpleHero from "@/components/sections/SimpleHero";
 import StatusList from "@/components/sections/StatusList";
+import StatusInfra from "@/components/sections/StatusInfra";
 import GenericCTA from "@/components/sections/GenericCTA";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { statusInfraIcons } from "@/config/status-page";
 
 export async function generateMetadata() {
   const locale = await getLocale();
@@ -24,6 +26,7 @@ export default async function StatusPage() {
   const locale = await getLocale();
   const { status } = await getDictionary();
   const ctaStats = ctaStatIcons.map((icon, i) => ({ icon, ...status.cta.stats[i] }));
+  const infraItems = statusInfraIcons.map((icon, i) => ({ icon, ...status.infra.items[i] }));
 
   return (
     <>
@@ -42,6 +45,14 @@ export default async function StatusPage() {
         services={status.list.services}
         incidentsHeading={status.list.incidentsHeading}
         incidentsEmpty={status.list.incidentsEmpty}
+      />
+      <StatusInfra
+        ariaLabel={status.infra.ariaLabel}
+        heading={status.infra.heading}
+        subheading={status.infra.subheading}
+        items={infraItems}
+        certifications={status.infra.certifications}
+        certificationsCtaHref={withLocale("/legal/seguranca", locale)}
       />
       <GenericCTA
         ariaLabel={status.cta.ariaLabel}

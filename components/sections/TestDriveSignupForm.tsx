@@ -137,7 +137,7 @@ export default function TestDriveSignupForm({ dict, locale }: { dict: FormDict; 
           </div>
           <Link
             href={withLocale("/demo", locale)}
-            className="inline-flex min-h-[40px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base px-5 py-2.5 text-sm font-bold text-azul-base transition-colors hover:bg-azul-bg-superior"
+            className="inline-flex min-h-[40px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base px-5 py-2.5 text-sm leading-[1.2] font-bold text-azul-base transition-colors hover:bg-azul-bg-superior"
           >
             {dict.specialistLink}
             <ArrowUpRight className="size-4" aria-hidden="true" />
@@ -213,7 +213,7 @@ export default function TestDriveSignupForm({ dict, locale }: { dict: FormDict; 
             <button
               type="submit"
               disabled={status === "submitting"}
-              className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg bg-azul-base px-5 text-base font-bold text-branco transition-colors hover:bg-azul-base/90 disabled:cursor-not-allowed disabled:opacity-70"
+              className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg bg-azul-base px-5 text-base leading-[1.2] font-bold text-branco transition-colors hover:bg-azul-base/90 disabled:cursor-not-allowed disabled:opacity-70"
             >
               {status === "submitting" ? (
                 <>

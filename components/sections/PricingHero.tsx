@@ -57,7 +57,7 @@ export default async function PricingHero() {
                   </Button>
                   <Link
                     href="?billing=anual#planos"
-                    className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 text-base font-bold text-texto transition-colors hover:border-azul-base"
+                    className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 text-base leading-[1.2] font-bold text-texto transition-colors hover:border-azul-base"
                   >
                     {hero.annualCta}
                     <span className="rounded-full bg-[#e8f7ec] p-2 text-base font-bold leading-[1.2] text-ecm">

@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "Seguridad",
+    "description": "Conoce la arquitectura de seguridad, privacidad y cumplimiento de Interfy: cifrado, control de accesos, alta disponibilidad Multi-AZ y certificaciones ISO, LGPD, GDPR y SOC 2.",
+    "keywords": ["seguridad Interfy", "cumplimiento LGPD GDPR", "cifrado de datos", "alta disponibilidad AWS", "arquitectura cloud-native segura"]
+  },
+  "hero": {
+    "headingPrefix": "Seguridad empresarial desde la ",
+    "headingHighlight": "arquitectura.",
+    "description": "Interfy fue construida con los más altos estándares de seguridad, privacidad y cumplimiento para proteger lo más importante: los datos de tu empresa.",
+    "ctaPrimary": "Hablar con un especialista",
+    "ctaSecondary": "Descargar políticas de seguridad",
+    "diagramAriaLabel": "Capas de seguridad de Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Seguridad desde la arquitectura" },
+        { "label": "Control total de accesos" },
+        { "label": "Alta disponibilidad" },
+        { "label": "Aislamiento por Workspace" },
+        { "label": "Datos siempre protegidos" },
+        { "label": "Privacidad por diseño" },
+        { "label": "Cumplimiento global" },
+        { "label": "Infraestructura confiable" }
+      ]
+    },
+    "stats": [
+      { "label": "99,99%", "description": "Disponibilidad SLA garantizada" },
+      { "label": "24/7", "description": "Monitoreo continuo" },
+      { "label": "Seguro y confiable", "description": "Protección en múltiples capas de seguridad" }
+    ],
+    "poweredByLabel": "Con tecnología de",
+    "awsChecklistAriaLabel": "Infraestructura AWS de Interfy",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "Cloud-native",
+      "Multi-AZ",
+      "Escalable bajo demanda",
+      "Alto rendimiento",
+      "Sostenible"
+    ]
+  },
+  "controls": {
+    "headline": "Seguridad y control",
+    "headlineHighlight": "en cada capa",
+    "items": [
+      {
+        "title": "Aislamiento por Workspace",
+        "description": "Cada cliente trabaja en un entorno aislado, garantizando privacidad y seguridad total."
+      },
+      {
+        "title": "Base de datos específica del cliente",
+        "description": "Datos almacenados en una base de datos dedicada por cliente, sin compartirse."
+      },
+      {
+        "title": "Cifrado avanzado",
+        "description": "Datos cifrados en tránsito (TLS 1.2+) y en reposo (AES-256)."
+      },
+      {
+        "title": "Control de acceso (RBAC)",
+        "description": "Permisos granulares por función, grupo, área y nivel de sensibilidad."
+      },
+      {
+        "title": "Autenticación corporativa",
+        "description": "SSO, SAML 2.0, OAuth 2.0, AD/LDAP y MFA para un acceso seguro y unificado."
+      },
+      {
+        "title": "IP Blocking",
+        "description": "Restricción de acceso por IP o rango de IP para proteger tu entorno."
+      },
+      {
+        "title": "Registros y auditoría",
+        "description": "Registro completo de todas las acciones con una pista de auditoría inmutable y consultable."
+      },
+      {
+        "title": "Monitoreo 24/7",
+        "description": "Monitoreo continuo de infraestructura, aplicaciones y seguridad."
+      },
+      {
+        "title": "Copia de seguridad automática",
+        "description": "Backups cifrados y automáticos con retención configurable."
+      },
+      {
+        "title": "Disaster Recovery",
+        "description": "Plan de recuperación ante desastres con replicación geográfica."
+      },
+      {
+        "title": "Private Storage",
+        "description": "Almacenamiento privado opcional para entornos on-premise o Dedicated."
+      },
+      {
+        "title": "Escalabilidad ilimitada",
+        "description": "Infraestructura elástica que crece con tu negocio sin comprometer el rendimiento."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "Certificaciones y cumplimiento",
+    "headlineHighlight": "reconocidos globalmente",
+    "ctaLabel": "Ver todas las certificaciones y documentos",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "Sistema de Gestión de Seguridad de la Información certificado según el estándar internacional."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "Arquitectura, controles y procesos preparados para soportar entornos que manejan información de salud (ePHI) en EE. UU.",
+        "badge": "BAA disponible"
+      },
+      {
+        "title": "LGPD",
+        "description": "Conforme a la Ley General de Protección de Datos Personales (Brasil)."
+      },
+      {
+        "title": "GDPR",
+        "description": "En conformidad con el Reglamento General de Protección de Datos (UE)."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "Controles rigurosos de seguridad, disponibilidad y confidencialidad.",
+        "badge": "En curso"
+      },
+      {
+        "title": "Otros estándares",
+        "description": "Políticas y controles alineados con los estándares de mercado más exigentes del sector."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "Arquitectura ",
+    "headlineHighlight": "cloud-native",
+    "headlineSuffix": " de alta disponibilidad",
+    "flow": [
+      { "label": "Usuarios" },
+      { "label": "CloudFront CDN" },
+      { "label": "Load Balancer" }
+    ],
+    "multiAzTitle": "Alta Disponibilidad - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "Aplicaciones" },
+    "az2": { "label": "AZ 2", "title": "Base de datos", "subtitle": "(Auto Failover)" },
+    "services": [
+      { "label": "S3 Storage" },
+      { "label": "Backup cifrado" },
+      { "label": "Monitoreo CloudWatch" },
+      { "label": "Registros CloudTrail" },
+      { "label": "Seguridad GuardDuty" }
+    ],
+    "featuresAriaLabel": "Ventajas de la arquitectura de alta disponibilidad",
+    "features": [
+      "Multi-AZ en todas las capas",
+      "Centros de datos en múltiples regiones",
+      "Escalabilidad horizontal ilimitada",
+      "Infraestructura 100% en AWS Global",
+      "Balanceo de carga automático",
+      "Actualizaciones continuas sin downtime",
+      "SLA de disponibilidad de 99,99%",
+      "Respuesta automática a incidentes",
+      "Informes y alertas en tiempo real",
+      "Detección y prevención de amenazas",
+      "Equipo de seguridad especializado",
+      "Entorno global con baja latencia"
+    ]
+  },
+  "cta": {
+    "sectionAria": "Empieza a usar Interfy con seguridad empresarial",
+    "headline": "Lista para",
+    "headlineHighlight": "empresas globales",
+    "title": "Protegemos tus datos. Potenciamos tus resultados.",
+    "description": "Confianza, cumplimiento y rendimiento para que tu empresa crezca con seguridad en la nube.",
+    "primaryButton": "Test Drive Gratis",
+    "secondaryButton": "Hablar con un especialista",
+    "featuresAriaLabel": "Pilares de seguridad y cumplimiento de Interfy",
+    "features": [
+      { "label": "Seguridad por diseño" },
+      { "label": "Privacidad predeterminada" },
+      { "label": "Transparencia total" },
+      { "label": "Cumplimiento Global" },
+      { "label": "Innovación con responsabilidad" }
+    ]
+  }
+}

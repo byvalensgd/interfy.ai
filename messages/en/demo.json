@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Schedule a Demo",
+    "description": "Schedule a personalized Interfy demo and see how documents, processes, electronic signature and AI can adapt to your operation.",
+    "keywords": ["schedule Interfy demo", "Interfy demonstration", "request AI-native platform demo"]
+  },
+  "hero": {
+    "ariaLabel": "Schedule an Interfy demo",
+    "eyebrow": "Personalized demonstration",
+    "headingPrefix": "See Interfy",
+    "headingHighlight": "in action.",
+    "description": "A specialist will understand your scenario and show you live how documents, processes, electronic signature, integrations and AI fit into your operation.",
+    "expectHeading": "What to expect from the demo",
+    "expectItems": [
+      { "title": "30 minutes", "description": "A focused conversation, no fluff." },
+      { "title": "Real scenario", "description": "Examples applied to your operation and industry." },
+      { "title": "No commitment", "description": "You decide the next step after the call." },
+      { "title": "Dedicated specialist", "description": "Someone who already knows your industry." }
+    ]
+  },
+  "form": {
+    "heading": "Schedule your demonstration",
+    "subheading": "Fill in the details below and we'll reach out to confirm the best time.",
+    "nameLabel": "Full name",
+    "emailLabel": "Work email",
+    "companyLabel": "Company",
+    "phoneLabel": "Phone (WhatsApp)",
+    "roleLabel": "Job title",
+    "companySizeLabel": "Company size",
+    "companySizePlaceholder": "Select",
+    "companySizeOptions": [
+      "1 to 10 employees",
+      "11 to 50 employees",
+      "51 to 200 employees",
+      "201 to 1,000 employees",
+      "More than 1,000 employees"
+    ],
+    "messageLabel": "Tell us a bit about what you need",
+    "optionalLabel": "(optional)",
+    "errors": {
+      "name": "Please enter your full name.",
+      "email": "Please enter a valid email.",
+      "company": "Please enter your company name.",
+      "consent": "You must accept the terms to continue."
+    },
+    "consentPrefix": "I have read and agree to the ",
+    "consentTerms": "Terms of Use",
+    "consentMiddle": " and ",
+    "consentPrivacy": "Privacy Policy",
+    "consentSuffix": ".",
+    "submitButton": "Schedule my demo",
+    "submittingButton": "Submitting...",
+    "successHeading": "We've received your request!",
+    "successMessagePrefix": "Our team will reach out to confirm the best time at ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Start for free in the meantime"
+  },
+  "trust": {
+    "ariaLabel": "Why schedule a demo with Interfy",
+    "heading": "A platform ready for global businesses",
+    "subheading": "Enterprise security, global compliance and specialized support in every demo.",
+    "statsLabel": "Interfy's global presence",
+    "stats": [
+      { "label": "180+ countries", "sublabel": "Growing global presence" },
+      { "label": "16 languages", "sublabel": "Full interface and experience" },
+      { "label": "99.99%", "sublabel": "Guaranteed uptime SLA" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Certified compliance" }
+    ]
+  }
+}

@@ -48,13 +48,13 @@ export default async function AgentesCTA() {
             <div className="flex w-full flex-col items-stretch gap-[10px] lg:w-auto lg:shrink-0">
               <Link
                 href={withLocale("/comece-gratis", locale)}
-                className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-branco px-[15px] text-sm font-bold text-azul-base transition-colors hover:bg-branco/90"
+                className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-branco px-[15px] text-sm leading-[1.2] font-bold text-azul-base transition-colors hover:bg-branco/90"
               >
                 {cta.ctaPrimary}
               </Link>
               <Link
                 href={withLocale("/demo", locale)}
-                className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] text-sm font-bold text-branco transition-colors hover:bg-black/50"
+                className="inline-flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] text-sm leading-[1.2] font-bold text-branco transition-colors hover:bg-black/50"
               >
                 {cta.ctaSecondary}
                 <Calendar className="size-5" aria-hidden="true" />

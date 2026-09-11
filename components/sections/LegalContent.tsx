@@ -1,22 +1,46 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
+import ComplianceBadges from "@/components/ui/ComplianceBadges";
+import { localizeHref } from "@/lib/i18n/paths";
+import type { Locale } from "@/lib/i18n/config";
 
 type LegalSection = {
   heading: string;
   paragraphs?: string[];
   items?: string[];
+  relatedLink?: { label: string; href: string };
+};
+
+type Certifications = {
+  heading: string;
+  ctaLabel?: string;
+  items: { label: string; description: string; badge?: string }[];
 };
 
 export type LegalContentData = {
   sidebarLabel: string;
   intro: string;
   sections: LegalSection[];
+  certifications?: Certifications;
 };
 
 /** Sticky in-page TOC + numbered sections, pattern adapted from acquafy-site's
  * legal page layout (Section/Subsection/UL primitives, contact-style card on
  * the last section), reskinned with Interfy's tokens and brand gradient. */
-export default function LegalContent({ ariaLabel, content }: { ariaLabel: string; content: LegalContentData }) {
-  const { sidebarLabel, intro, sections } = content;
+export default function LegalContent({
+  ariaLabel,
+  content,
+  certificationsCtaHref,
+  locale,
+}: {
+  ariaLabel: string;
+  content: LegalContentData;
+  /** Localized href for the certifications block's "see details" link (e.g. /legal/seguranca). */
+  certificationsCtaHref?: string;
+  locale: Locale;
+}) {
+  const { sidebarLabel, intro, sections, certifications } = content;
 
   return (
     <section aria-label={ariaLabel} className="flex justify-center bg-branco px-5 py-16 sm:py-20">
@@ -38,6 +62,17 @@ export default function LegalContent({ ariaLabel, content }: { ariaLabel: string
           <Reveal immediate className="rounded-2xl border border-contorno-base bg-bg-base p-6 sm:p-8">
             <p className="text-sm leading-[1.6] font-medium text-texto-medio">{intro}</p>
           </Reveal>
+
+          {certifications && (
+            <Reveal immediate delayMs={40}>
+              <ComplianceBadges
+                heading={certifications.heading}
+                ctaLabel={certifications.ctaLabel}
+                ctaHref={certificationsCtaHref}
+                items={certifications.items}
+              />
+            </Reveal>
+          )}
 
           {sections.map((section, i) => {
             const isLast = i === sections.length - 1;
@@ -78,6 +113,15 @@ export default function LegalContent({ ariaLabel, content }: { ariaLabel: string
                           </li>
                         ))}
                       </ul>
+                    )}
+                    {section.relatedLink && (
+                      <Link
+                        href={localizeHref(section.relatedLink.href, locale)}
+                        className="inline-flex w-fit items-center gap-1.5 text-sm leading-[1.2] font-bold text-azul-base hover:underline"
+                      >
+                        {section.relatedLink.label}
+                        <ArrowUpRight className="size-4" aria-hidden="true" />
+                      </Link>
                     )}
                   </div>
                 </div>

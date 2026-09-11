@@ -11,14 +11,14 @@ export type FooterColumn = {
 export const footerColumns: FooterColumn[] = [
   {
     links: [
-      { href: "/platform/documents", icon: "/icons/products/documents.svg" },
-      { href: "/platform/process", icon: "/icons/products/automation.svg" },
-      { href: "/platform/capture", icon: "/icons/products/capture.svg" },
-      { href: "/platform/sign", icon: "/icons/products/sign.svg" },
-      { href: "/platform/connect", icon: "/icons/products/connect.svg" },
-      { href: "/platform/agents", icon: "/icons/products/agents.svg" },
-      { href: "/platform/mobile", icon: "/icons/products/mobile.svg" },
-      { href: "/platform/voice", icon: "/icons/products/voice.svg" },
+      { href: "/documents", icon: "/icons/products/documents.svg" },
+      { href: "/process", icon: "/icons/products/automation.svg" },
+      { href: "/capture", icon: "/icons/products/capture.svg" },
+      { href: "/sign", icon: "/icons/products/sign.svg" },
+      { href: "/connect", icon: "/icons/products/connect.svg" },
+      { href: "/agents", icon: "/icons/products/agents.svg" },
+      { href: "/mobile", icon: "/icons/products/mobile.svg" },
+      { href: "/voice", icon: "/icons/products/voice.svg" },
     ],
   },
   {

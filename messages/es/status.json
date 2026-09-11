@@ -28,16 +28,40 @@
     "incidentsHeading": "Historial de incidentes",
     "incidentsEmpty": "No se registraron incidentes en los últimos 90 días."
   },
+  "infra": {
+    "ariaLabel": "Infraestructura detrás del estado de la plataforma",
+    "heading": "Infraestructura de alta disponibilidad",
+    "subheading": "Arquitectura cloud-native 100% en AWS, con redundancia en todas las capas.",
+    "items": [
+      { "label": "Multi-AZ en todas las capas (aplicación y base de datos)" },
+      { "label": "CDN global (CloudFront) con baja latencia" },
+      { "label": "Balanceo de carga automático" },
+      { "label": "Detección y prevención de amenazas (GuardDuty)" },
+      { "label": "Monitoreo continuo (CloudWatch)" },
+      { "label": "Registros y trazabilidad de auditoría (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Certificaciones y cumplimiento",
+      "ctaLabel": "Ver arquitectura de seguridad completa",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sistema de Gestión de Seguridad de la Información certificado." },
+        { "label": "SOC 2 Type II", "description": "Controles rigurosos de seguridad, disponibilidad y confidencialidad.", "badge": "En curso" },
+        { "label": "LGPD", "description": "Cumple con la Ley General de Protección de Datos (Brasil)." },
+        { "label": "GDPR", "description": "En conformidad con el Reglamento General de Protección de Datos (UE)." },
+        { "label": "HIPAA Ready", "description": "Preparada para entornos que manejan ePHI en EE. UU.", "badge": "BAA disponible" }
+      ]
+    }
+  },
   "cta": {
     "ariaLabel": "Comienza a usar Interfy",
     "heading": "Confiabilidad de nivel empresarial",
-    "subheading": "Infraestructura global en AWS, cifrado AES-256/TLS 1.3 y un SLA de 99,98% de disponibilidad.",
+    "subheading": "Infraestructura global en AWS, cifrado AES-256/TLS 1.2+ y un SLA de 99,99% de disponibilidad.",
     "primaryButton": "Comienza gratis",
     "secondaryButton": "Agenda una demo",
     "statsLabel": "Indicadores de confiabilidad",
     "stats": [
-      { "label": "99,98%", "sublabel": "Uptime SLA" },
-      { "label": "AES-256 / TLS 1.3", "sublabel": "Cifrado" },
+      { "label": "99,99%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Cifrado" },
       { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Compliance" }
     ]
   }

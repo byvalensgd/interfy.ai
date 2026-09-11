@@ -15,6 +15,7 @@
     "ariaLabel": "Resultados por sector",
     "heading": "Lo que logran nuestros clientes",
     "illustrativeNote": "Resultados ilustrativos, basados en promedios observados en clientes Interfy de cada sector. Solicita un diagnóstico para estimar el impacto en tu propio escenario.",
+    "complianceNote": "Resultados logrados sobre una infraestructura certificada ISO/IEC 27001:2022, con un SLA del 99,99% de disponibilidad y cumplimiento LGPD/GDPR.",
     "items": [
       {
         "segment": "Instituciones Financieras",

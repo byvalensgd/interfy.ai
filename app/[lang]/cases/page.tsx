@@ -36,6 +36,7 @@ export default async function CasesPage() {
         ariaLabel={cases.grid.ariaLabel}
         heading={cases.grid.heading}
         illustrativeNote={cases.grid.illustrativeNote}
+        complianceNote={cases.grid.complianceNote}
         items={cases.grid.items}
       />
       <GenericCTA

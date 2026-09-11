@@ -50,7 +50,7 @@ export default async function VoiceCTA() {
               </Button>
               <Link
                 href={withLocale("/demo", locale)}
-                className="inline-flex min-h-[50px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-[30px] py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30"
+                className="inline-flex min-h-[50px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-[30px] py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30"
               >
                 {cta.secondaryButton}
                 <Calendar className="size-5" aria-hidden="true" />

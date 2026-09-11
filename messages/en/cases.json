@@ -15,6 +15,7 @@
     "ariaLabel": "Results by industry",
     "heading": "What our customers achieve",
     "illustrativeNote": "Illustrative results, based on averages observed across Interfy customers in each industry. Ask for a diagnostic to estimate the impact on your own scenario.",
+    "complianceNote": "Results achieved on infrastructure certified ISO/IEC 27001:2022, with a 99.99% uptime SLA and LGPD/GDPR compliance.",
     "items": [
       {
         "segment": "Financial Institutions",

@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "Security",
+    "description": "Explore Interfy's security, privacy, and compliance architecture: encryption, access control, Multi-AZ high availability, and ISO, LGPD, GDPR, and SOC 2 certifications.",
+    "keywords": ["Interfy security", "LGPD GDPR compliance", "data encryption", "AWS high availability", "secure cloud-native architecture"]
+  },
+  "hero": {
+    "headingPrefix": "Enterprise security from the ",
+    "headingHighlight": "architecture up.",
+    "description": "Interfy was built with the highest standards of security, privacy, and compliance to protect what matters most: your company's data.",
+    "ctaPrimary": "Talk to a specialist",
+    "ctaSecondary": "Download security policies",
+    "diagramAriaLabel": "Interfy's security layers",
+    "diagram": {
+      "items": [
+        { "label": "Security from the architecture up" },
+        { "label": "Total access control" },
+        { "label": "High availability" },
+        { "label": "Workspace isolation" },
+        { "label": "Data always protected" },
+        { "label": "Privacy by design" },
+        { "label": "Global compliance" },
+        { "label": "Reliable infrastructure" }
+      ]
+    },
+    "stats": [
+      { "label": "99.99%", "description": "Guaranteed SLA availability" },
+      { "label": "24/7", "description": "Continuous monitoring" },
+      { "label": "Secure & Reliable", "description": "Protection across multiple security layers" }
+    ],
+    "poweredByLabel": "Powered by",
+    "awsChecklistAriaLabel": "Interfy's AWS infrastructure",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "Cloud-native",
+      "Multi-AZ",
+      "Scalable on demand",
+      "High performance",
+      "Sustainable"
+    ]
+  },
+  "controls": {
+    "headline": "Security and control",
+    "headlineHighlight": "at every layer",
+    "items": [
+      {
+        "title": "Workspace isolation",
+        "description": "Every customer works in an isolated environment, ensuring full privacy and security."
+      },
+      {
+        "title": "Customer-specific database",
+        "description": "Data stored in a dedicated database per customer, with no sharing."
+      },
+      {
+        "title": "Advanced encryption",
+        "description": "Data encrypted in transit (TLS 1.2+) and at rest (AES-256)."
+      },
+      {
+        "title": "Access control (RBAC)",
+        "description": "Granular permissions by role, group, area, and sensitivity level."
+      },
+      {
+        "title": "Corporate authentication",
+        "description": "SSO, SAML 2.0, OAuth 2.0, AD/LDAP, and MFA for secure, unified access."
+      },
+      {
+        "title": "IP Blocking",
+        "description": "Access restriction by IP or IP range to protect your environment."
+      },
+      {
+        "title": "Logs and audit trails",
+        "description": "Complete record of every action with an immutable, searchable audit trail."
+      },
+      {
+        "title": "24/7 Monitoring",
+        "description": "Continuous monitoring of infrastructure, applications, and security."
+      },
+      {
+        "title": "Automatic backup",
+        "description": "Encrypted, automatic backups with configurable retention."
+      },
+      {
+        "title": "Disaster Recovery",
+        "description": "Disaster recovery plan with geographic replication."
+      },
+      {
+        "title": "Private Storage",
+        "description": "Optional private storage for on-premise or Dedicated environments."
+      },
+      {
+        "title": "Unlimited scalability",
+        "description": "Elastic infrastructure that grows with your business without compromising performance."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "Certifications and compliance",
+    "headlineHighlight": "recognized worldwide",
+    "ctaLabel": "See all certifications and documents",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "Information Security Management System certified to the international standard."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "Architecture, controls, and processes ready to support environments handling health information (ePHI) in the US.",
+        "badge": "BAA available"
+      },
+      {
+        "title": "LGPD",
+        "description": "Compliant with Brazil's General Data Protection Law."
+      },
+      {
+        "title": "GDPR",
+        "description": "Compliant with the EU General Data Protection Regulation."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "Rigorous controls for security, availability, and confidentiality.",
+        "badge": "In progress"
+      },
+      {
+        "title": "Other standards",
+        "description": "Policies and controls aligned with the industry's most demanding market standards."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "",
+    "headlineHighlight": "Cloud-native",
+    "headlineSuffix": " high-availability architecture",
+    "flow": [
+      { "label": "Users" },
+      { "label": "CloudFront CDN" },
+      { "label": "Load Balancer" }
+    ],
+    "multiAzTitle": "High Availability - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "Applications" },
+    "az2": { "label": "AZ 2", "title": "Database", "subtitle": "(Auto Failover)" },
+    "services": [
+      { "label": "S3 Storage" },
+      { "label": "Encrypted Backup" },
+      { "label": "CloudWatch Monitoring" },
+      { "label": "CloudTrail Logs" },
+      { "label": "GuardDuty Security" }
+    ],
+    "featuresAriaLabel": "Highlights of the high-availability architecture",
+    "features": [
+      "Multi-AZ across every layer",
+      "Datacenters in multiple regions",
+      "Unlimited horizontal scalability",
+      "100% infrastructure on AWS Global",
+      "Automatic load balancing",
+      "Continuous updates with no downtime",
+      "99.99% availability SLA",
+      "Automatic incident response",
+      "Real-time reports and alerts",
+      "Threat detection and prevention",
+      "Dedicated security team",
+      "Global environment with low latency"
+    ]
+  },
+  "cta": {
+    "sectionAria": "Start using Interfy with enterprise security",
+    "headline": "Ready for",
+    "headlineHighlight": "global enterprises",
+    "title": "We protect your data. We power your results.",
+    "description": "Trust, compliance, and performance for your company to grow securely in the cloud.",
+    "primaryButton": "Free Test Drive",
+    "secondaryButton": "Talk to a specialist",
+    "featuresAriaLabel": "Interfy's security and compliance pillars",
+    "features": [
+      { "label": "Security by design" },
+      { "label": "Privacy by default" },
+      { "label": "Full transparency" },
+      { "label": "Global Compliance" },
+      { "label": "Responsible innovation" }
+    ]
+  }
+}

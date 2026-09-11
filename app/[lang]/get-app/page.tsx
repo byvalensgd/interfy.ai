@@ -18,5 +18,5 @@ export default async function GetAppPage() {
   if (/Android/i.test(userAgent)) {
     redirect(mobileGooglePlayUrl);
   }
-  redirect(withLocale("/platform/mobile", locale));
+  redirect(withLocale("/mobile", locale));
 }

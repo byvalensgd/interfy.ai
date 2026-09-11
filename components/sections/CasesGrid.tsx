@@ -13,11 +13,13 @@ export default function CasesGrid({
   ariaLabel,
   heading,
   illustrativeNote,
+  complianceNote,
   items,
 }: {
   ariaLabel: string;
   heading: string;
   illustrativeNote: string;
+  complianceNote?: string;
   items: CaseItem[];
 }) {
   const cases = casesSegmentIcons.map((icon, i) => ({ icon, ...items[i] }));
@@ -47,7 +49,12 @@ export default function CasesGrid({
             </Reveal>
           ))}
         </ul>
-        <p className="text-center text-xs font-medium leading-[1.4] text-texto-medio">{illustrativeNote}</p>
+        <div className="flex flex-col items-center gap-1.5">
+          <p className="text-center text-xs font-medium leading-[1.4] text-texto-medio">{illustrativeNote}</p>
+          {complianceNote && (
+            <p className="text-center text-xs font-bold leading-[1.4] text-texto-doc-ok">{complianceNote}</p>
+          )}
+        </div>
       </div>
     </section>
   );

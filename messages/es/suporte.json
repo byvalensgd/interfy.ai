@@ -43,6 +43,17 @@
       }
     ]
   },
+  "global": {
+    "ariaLabel": "Soporte especializado a escala global",
+    "heading": "Un soporte que acompaña tu expansión",
+    "statsLabel": "Alcance y confiabilidad del soporte Interfy",
+    "stats": [
+      { "label": "180+ países", "sublabel": "Presencia global en expansión" },
+      { "label": "16 idiomas", "sublabel": "Atención en el idioma de tu equipo" },
+      { "label": "99,99%", "sublabel": "Disponibilidad SLA garantizada" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Cumplimiento certificado" }
+    ]
+  },
   "faq": {
     "ariaLabel": "Preguntas frecuentes sobre soporte",
     "ariaExpand": "Expandir respuesta",
@@ -71,6 +82,10 @@
       {
         "question": "¿Cómo escalo un ticket urgente?",
         "answer": "Los tickets marcados como críticos se priorizan automáticamente. Si necesitas reforzar la urgencia, responde al correo del ticket o llama a la central de atención."
+      },
+      {
+        "question": "¿Interfy ofrece soporte en otros idiomas y regiones?",
+        "answer": "Sí. La plataforma está disponible en 16 idiomas y presente en más de 180 países, con atención comercial dedicada a Brasil y SLAs de soporte de nivel internacional."
       }
     ]
   },

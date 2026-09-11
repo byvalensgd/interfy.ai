@@ -54,7 +54,7 @@ export default async function SegmentsPlatform() {
 
         <Link
           href={withLocale("/platform", locale)}
-          className="inline-flex min-h-[50px] shrink-0 items-center justify-center gap-2.5 rounded-lg bg-[linear-gradient(104.3deg,#184aee_22.86%,#bf18f6_96.41%)] px-[30px] py-2.5 text-base font-extrabold whitespace-nowrap text-branco transition-opacity hover:opacity-90"
+          className="inline-flex min-h-[50px] shrink-0 items-center justify-center gap-2.5 rounded-lg bg-[linear-gradient(104.3deg,#184aee_22.86%,#bf18f6_96.41%)] px-[30px] py-2.5 text-base leading-[1.2] font-extrabold whitespace-nowrap text-branco transition-opacity hover:opacity-90"
         >
           {segments.platform.ctaLabel}
           <ArrowUpRight className="size-2.5" aria-hidden="true" />

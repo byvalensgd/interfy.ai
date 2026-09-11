@@ -39,7 +39,7 @@ export default async function TestDriveCTA() {
               </Button>
               <Link
                 href={withLocale("/planos", locale)}
-                className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-5 py-2.5 text-base font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/50 lg:grow-0"
+                className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-5 py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/50 lg:grow-0"
               >
                 {cta.ctaSecondary}
                 <Calendar className="size-5" aria-hidden="true" />

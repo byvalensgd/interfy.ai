@@ -89,7 +89,7 @@ export type PricingTier = {
 };
 
 // SwcPricing is currently unused on the Capture page (temporarily hidden — see
-// app/[lang]/platform/capture/page.tsx). Left in Portuguese until it's wired
+// app/[lang]/capture/page.tsx). Left in Portuguese until it's wired
 // back in and gets its own i18n pass.
 export const swcPricingTiers: PricingTier[] = [
   {

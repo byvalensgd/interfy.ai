@@ -16,7 +16,7 @@ export default async function DssHero() {
       className="relative flex min-h-[calc(100vh-var(--header-height))] items-stretch justify-center overflow-hidden px-5 py-12 sm:py-16 lg:py-[50px]"
     >
       <Image
-        src="/hero/hero-bg.webp"
+        src="/swc/hero-bg.webp"
         alt=""
         aria-hidden="true"
         fill

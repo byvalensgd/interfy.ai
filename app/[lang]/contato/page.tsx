@@ -3,7 +3,7 @@ import ContatoChannels from "@/components/sections/ContatoChannels";
 import GenericCTA from "@/components/sections/GenericCTA";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
-import { withLocale } from "@/lib/i18n/paths";
+import { withLocale, localizeHref } from "@/lib/i18n/paths";
 
 export async function generateMetadata() {
   const locale = await getLocale();
@@ -36,7 +36,14 @@ export default async function ContatoPage() {
         secondaryLabel={contato.hero.secondaryLabel}
         secondaryHref={withLocale("/comece-gratis", locale)}
       />
-      <ContatoChannels ariaLabel={contato.channels.ariaLabel} heading={contato.channels.heading} items={contato.channels.items} />
+      <ContatoChannels
+        ariaLabel={contato.channels.ariaLabel}
+        heading={contato.channels.heading}
+        items={contato.channels.items.map((item: { href?: string; [key: string]: unknown }) => ({
+          ...item,
+          href: item.href ? localizeHref(item.href, locale) : item.href,
+        }))}
+      />
       <GenericCTA
         ariaLabel={contato.cta.ariaLabel}
         heading={contato.cta.heading}

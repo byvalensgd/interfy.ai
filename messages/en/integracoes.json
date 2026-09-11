@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Integrations & API",
+    "description": "Connect Interfy to the tools your company already uses: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier and more, with full RESTful APIs and real-time webhooks.",
+    "keywords": ["Interfy integrations", "Interfy API", "enterprise connectors", "webhooks", "system automation"]
+  },
+  "hero": {
+    "headingPrefix": "Connect Interfy to what your ",
+    "headingHighlight": "company already uses.",
+    "description": "Integration unlocked. Connect systems, automate processes, and unlock results without limits.",
+    "ctaPrimary": "See integrations",
+    "ctaSecondary": "API documentation",
+    "diagramAriaLabel": "Systems integrated with Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "Integration without limits", "description": "Connect everything your company needs" },
+      { "title": "More productivity", "description": "Automate workflows and eliminate rework" },
+      { "title": "Smarter decisions", "description": "Integrated data for real-time insights." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "Connect with the leading systems on the market",
+    "ctaLabel": "See all"
+  },
+  "featuresGrid": {
+    "headingPrefix": "Features and benefits of the ",
+    "headingHighlight": "Interfy API",
+    "ariaLabel": "Interfy's integration features and benefits",
+    "items": [
+      { "title": "REST API", "description": "A complete, modern API to integrate with any system or application." },
+      { "title": "Webhooks", "description": "Receive real-time events and keep your systems always in sync." },
+      { "title": "Zapier", "description": "Connect Interfy to thousands of apps through Zapier, quickly and easily." },
+      { "title": "Databases", "description": "Connect to leading SQL and NoSQL databases securely." },
+      { "title": "ERP", "description": "Integrate with leading ERPs and unify data and processes across the organization." },
+      { "title": "CRM", "description": "Sync customers, contacts, and opportunities with your favorite CRM." },
+      { "title": "Microsoft", "description": "Native integration with Microsoft 365, Azure, SharePoint, Teams and more." },
+      { "title": "Google", "description": "Integration with Google Workspace, Drive, Gmail, Sheets and much more." },
+      { "title": "External authentication", "description": "SSO, SAML 2.0, and OAuth 2.0 for secure authentication and a unified experience." },
+      { "title": "AD / LDAP", "description": "Integration with Active Directory and LDAP for user and permission management." },
+      { "title": "Legacy systems", "description": "Connect old and legacy systems with flexible adapters and APIs." },
+      { "title": "Custom integrations", "description": "Build tailor-made connectors with our flexible API for specific needs." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "Agents that go further with ",
+    "headingHighlight": "intelligent integrations",
+    "description": "Use intelligent agents and voice commands to create, search, summarize, approve and much more.",
+    "diagramAriaLabel": "Interfy agents connected to the product ecosystem",
+    "checklistAriaLabel": "Benefits of integrated agents",
+    "checklist": [
+      { "label": "Search and analysis of data across external systems" },
+      { "label": "Action execution and record updates" },
+      { "label": "End-to-end automation with intelligence" },
+      { "label": "More complete, contextual responses" },
+      { "label": "Intelligent workflows across multiple platforms" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "Security at ",
+    "headingHighlight": "enterprise grade",
+    "description": "Your integrations and data protected with the highest security standards on the market.",
+    "itemsAriaLabel": "Security standards for integrations",
+    "items": [
+      { "label": "HTTPS / TLS 1.2+ on every connection" },
+      { "label": "OAuth 2.0 and secure tokens" },
+      { "label": "Rate limiting and access control" },
+      { "label": "Full logs and auditing" },
+      { "label": "Compliant with LGPD, ISO 27001 and SOC 2" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "Complete documentation for developers",
+      "description": "Tutorials, code samples, SDKs, and a testing environment so you can get started right away.",
+      "ctaLabel": "Access documentation",
+      "langsAriaLabel": "Languages supported by the SDK"
+    },
+    "codeCard": {
+      "heading": "API calls in seconds"
+    },
+    "ctaCard": {
+      "heading": "Integrate. Automate. Transform.",
+      "description": "Interfy connects to what you already use to take your operation to the next level.",
+      "primaryLabel": "Free Test Drive",
+      "secondaryLabel": "Talk to a specialist"
+    }
+  }
+}

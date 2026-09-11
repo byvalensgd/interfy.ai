@@ -54,7 +54,7 @@ const HEX_INNER_PATH =
   "M8.02392 81.4241C8.02649 70.7087 13.7441 60.8082 23.0239 55.4505L94.7891 14.0168C104.069 8.65912 115.502 8.65775 124.783 14.0132L196.503 55.3981C205.791 60.7574 211.512 70.6666 211.51 81.3897L211.49 164.194C211.487 174.909 205.77 184.81 196.49 190.167L124.725 231.601C115.445 236.959 104.012 236.96 94.7308 231.605L23.0103 190.22C13.7225 184.86 8.00151 174.951 8.00408 164.228L8.02392 81.4241Z";
 const HEX_ICON_BOX = { x: 43, y: 55, size: 134 };
 
-function CenterHex({ className, animate = false }: { className?: string; animate?: boolean }) {
+export function CenterHex({ className, animate = false }: { className?: string; animate?: boolean }) {
   // Two instances of this component render at once (the vertical layout and
   // the radial one, toggled by breakpoint) — hardcoded gradient ids would
   // collide in the DOM and leave url(#id) resolving unpredictably, which is

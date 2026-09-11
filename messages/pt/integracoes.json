@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Integrações & API",
+    "description": "Conecte a Interfy às ferramentas que sua empresa já usa: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier e muito mais, com APIs RESTful completas e webhooks em tempo real.",
+    "keywords": ["integrações Interfy", "API Interfy", "conectores empresariais", "webhooks", "automação de sistemas"]
+  },
+  "hero": {
+    "headingPrefix": "Conecte a Interfy ao que sua ",
+    "headingHighlight": "empresa já utiliza.",
+    "description": "Integração é liberado. Conecte sistemas, automatize processos e potencialize resultados sem limites.",
+    "ctaPrimary": "Ver integrações",
+    "ctaSecondary": "Documentação da API",
+    "diagramAriaLabel": "Sistemas integrados à Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "Integração sem limites", "description": "Conecte tudo o que sua empresa precisa" },
+      { "title": "Mais produtividade", "description": "Automatize fluxos e elimine retrabalho" },
+      { "title": "Decisões inteligentes", "description": "Dados integrados para insights em tempo real." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "Conecte-se com os principais sistemas do mercado",
+    "ctaLabel": "Ver todas"
+  },
+  "featuresGrid": {
+    "headingPrefix": "Recursos e benefícios da ",
+    "headingHighlight": "Interfy API",
+    "ariaLabel": "Recursos e benefícios de integração da Interfy",
+    "items": [
+      { "title": "REST API", "description": "API completa e moderna para integrar com qualquer sistema ou aplicação." },
+      { "title": "Webhooks", "description": "Receba eventos em tempo real e mantenha seus sistemas sempre sincronizados." },
+      { "title": "Zapier", "description": "Integre a Interfy com milhares de apps usando o Zapier de forma simples e rápida." },
+      { "title": "Bancos de dados", "description": "Conecte-se com os principais bancos de dados SQL e NoSQL de forma segura." },
+      { "title": "ERP", "description": "Integre com ERPs líderes e unifique dados e processos em toda a organização." },
+      { "title": "CRM", "description": "Sincronize clientes, contatos e oportunidades com seu CRM favorito." },
+      { "title": "Microsoft", "description": "Integração nativa com Microsoft 365, Azure, SharePoint, Teams e mais." },
+      { "title": "Google", "description": "Integração com Google Workspace, Drive, Gmail, Sheets e muito mais." },
+      { "title": "Autenticação externa", "description": "SSO, SAML 2.0 e OAuth 2.0 para autenticação segura e experiência unificada." },
+      { "title": "AD / LDAP", "description": "Integração com Active Directory e LDAP para gestão de usuários e permissões." },
+      { "title": "Sistemas legados", "description": "Conecte sistemas antigos e legados com adaptadores e APIs flexíveis." },
+      { "title": "Integrações customizadas", "description": "Construa conectores sob medida com nossa API flexível para necessidades específicas." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "Agents que vão além com ",
+    "headingHighlight": "integrações inteligentes",
+    "description": "Use agentes inteligentes e comandos de voz para criar, buscar, resumir, aprovar e muito mais.",
+    "diagramAriaLabel": "Agentes Interfy conectados ao ecossistema de produtos",
+    "checklistAriaLabel": "Benefícios dos agentes integrados",
+    "checklist": [
+      { "label": "Busca e análise de dados em sistemas externos" },
+      { "label": "Execução de ações e atualização de registros" },
+      { "label": "Automação ponta a ponta com inteligência" },
+      { "label": "Respostas mais completas e contextuais" },
+      { "label": "Workflows inteligentes entre múltiplas plataformas" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "Segurança de ",
+    "headingHighlight": "nível empresarial",
+    "description": "Suas integrações e dados protegidos com os mais altos padrões de segurança do mercado.",
+    "itemsAriaLabel": "Padrões de segurança das integrações",
+    "items": [
+      { "label": "HTTPS / TLS 1.2+ em todas as conexões" },
+      { "label": "OAuth 2.0 e tokens seguros" },
+      { "label": "Rate limiting e controle de acesso" },
+      { "label": "Logs e auditoria completa" },
+      { "label": "Conformidade com LGPD, ISO 27001 e SOC 2" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "Documentação completa para desenvolvedores",
+      "description": "Tutoriais, exemplos de código, SDKs e ambiente de testes para você começar agora mesmo.",
+      "ctaLabel": "Acessar documentação",
+      "langsAriaLabel": "Linguagens suportadas pelo SDK"
+    },
+    "codeCard": {
+      "heading": "Chamada de API em segundos"
+    },
+    "ctaCard": {
+      "heading": "Integre. Automatize. Transforme.",
+      "description": "A Interfy se conecta ao que você já usa para levar sua operação a outro nível.",
+      "primaryLabel": "Test Drive Grátis",
+      "secondaryLabel": "Falar com um especialista"
+    }
+  }
+}

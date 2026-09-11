@@ -43,6 +43,17 @@
       }
     ]
   },
+  "global": {
+    "ariaLabel": "Suporte especializado em escala global",
+    "heading": "Suporte que acompanha sua expansão",
+    "statsLabel": "Alcance e confiabilidade do suporte Interfy",
+    "stats": [
+      { "label": "180+ países", "sublabel": "Presença global em expansão" },
+      { "label": "16 idiomas", "sublabel": "Atendimento no idioma do seu time" },
+      { "label": "99,99%", "sublabel": "Disponibilidade SLA garantido" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Conformidade certificada" }
+    ]
+  },
   "faq": {
     "ariaLabel": "Perguntas frequentes sobre suporte",
     "ariaExpand": "Expandir resposta",
@@ -71,6 +82,10 @@
       {
         "question": "Como escalo um chamado urgente?",
         "answer": "Chamados marcados como críticos são automaticamente priorizados. Se precisar reforçar a urgência, responda ao e-mail do protocolo ou ligue para a central de atendimento."
+      },
+      {
+        "question": "A Interfy oferece suporte em outros idiomas e regiões?",
+        "answer": "Sim. A plataforma está disponível em 16 idiomas e presente em mais de 180 países, com atendimento comercial dedicado ao Brasil e SLAs de suporte de nível internacional."
       }
     ]
   },

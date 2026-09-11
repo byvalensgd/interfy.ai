@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Agenda una Demo",
+    "description": "Agenda una demostración personalizada de Interfy y descubre cómo documentos, procesos, firma electrónica e IA pueden adaptarse a tu operación.",
+    "keywords": ["agendar demo Interfy", "demostración Interfy", "solicitar demo plataforma AI-native"]
+  },
+  "hero": {
+    "ariaLabel": "Agenda una demostración de Interfy",
+    "eyebrow": "Demostración personalizada",
+    "headingPrefix": "Mira Interfy",
+    "headingHighlight": "en acción.",
+    "description": "Un especialista entenderá tu escenario y te mostrará, en vivo, cómo documentos, procesos, firma electrónica, integraciones e IA encajan en tu operación.",
+    "expectHeading": "Qué esperar de la demo",
+    "expectItems": [
+      { "title": "30 minutos", "description": "Una conversación directa, sin rodeos." },
+      { "title": "Escenario real", "description": "Ejemplos aplicados a tu operación y tu sector." },
+      { "title": "Sin compromiso", "description": "Tú decides el siguiente paso después de la llamada." },
+      { "title": "Especialista dedicado", "description": "Alguien que ya conoce tu sector." }
+    ]
+  },
+  "form": {
+    "heading": "Agenda tu demostración",
+    "subheading": "Completa los datos a continuación y te contactaremos para confirmar el mejor horario.",
+    "nameLabel": "Nombre completo",
+    "emailLabel": "Correo corporativo",
+    "companyLabel": "Empresa",
+    "phoneLabel": "Teléfono (WhatsApp)",
+    "roleLabel": "Cargo",
+    "companySizeLabel": "Tamaño de la empresa",
+    "companySizePlaceholder": "Selecciona",
+    "companySizeOptions": [
+      "1 a 10 colaboradores",
+      "11 a 50 colaboradores",
+      "51 a 200 colaboradores",
+      "201 a 1.000 colaboradores",
+      "Más de 1.000 colaboradores"
+    ],
+    "messageLabel": "Cuéntanos un poco sobre lo que necesitas",
+    "optionalLabel": "(opcional)",
+    "errors": {
+      "name": "Ingresa tu nombre completo.",
+      "email": "Ingresa un correo electrónico válido.",
+      "company": "Ingresa el nombre de tu empresa.",
+      "consent": "Debes aceptar los términos para continuar."
+    },
+    "consentPrefix": "He leído y acepto los ",
+    "consentTerms": "Términos de Uso",
+    "consentMiddle": " y la ",
+    "consentPrivacy": "Política de Privacidad",
+    "consentSuffix": ".",
+    "submitButton": "Agendar mi demo",
+    "submittingButton": "Enviando...",
+    "successHeading": "¡Recibimos tu solicitud!",
+    "successMessagePrefix": "Nuestro equipo se pondrá en contacto para confirmar el mejor horario en ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Comienza gratis mientras tanto"
+  },
+  "trust": {
+    "ariaLabel": "Por qué agendar una demo con Interfy",
+    "heading": "Una plataforma lista para empresas globales",
+    "subheading": "Seguridad empresarial, cumplimiento global y soporte especializado en cada demostración.",
+    "statsLabel": "Presencia global de Interfy",
+    "stats": [
+      { "label": "180+ países", "sublabel": "Presencia global en expansión" },
+      { "label": "16 idiomas", "sublabel": "Interfaz y experiencia completas" },
+      { "label": "99,99%", "sublabel": "Disponibilidad SLA garantizada" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Cumplimiento certificado" }
+    ]
+  }
+}

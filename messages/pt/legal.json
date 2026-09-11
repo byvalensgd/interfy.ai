@@ -63,7 +63,11 @@
       },
       {
         "heading": "8. Disponibilidade e suporte",
-        "paragraphs": ["A Interfy envida esforços comercialmente razoáveis para manter a plataforma disponível, com SLA de disponibilidade descrito na nossa página de Status da Plataforma. O suporte é prestado conforme os canais e prazos descritos na nossa página de Suporte."]
+        "paragraphs": [
+          "A Interfy opera com infraestrutura cloud-native Multi-AZ na AWS, com SLA de disponibilidade de 99,99%, monitoramento contínuo 24/7 e plano de recuperação de desastres com replicação geográfica.",
+          "O suporte é prestado conforme os canais e prazos descritos na nossa página de Suporte, e o histórico de disponibilidade e incidentes fica publicado em tempo real na página de Status da Plataforma."
+        ],
+        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
       },
       {
         "heading": "9. Limitação de responsabilidade",
@@ -94,6 +98,17 @@
     "title": "Política de Privacidade",
     "updatedLabel": "Última atualização: 1 de setembro de 2026",
     "intro": "Esta Política de Privacidade descreve como a Interfy Corporation coleta, usa, compartilha e protege dados pessoais no contexto da plataforma Interfy, em conformidade com a Lei Geral de Proteção de Dados (LGPD) e, quando aplicável, o Regulamento Geral de Proteção de Dados europeu (GDPR). Este documento é um rascunho padrão e deve ser revisado pelo time jurídico antes da publicação final.",
+    "certifications": {
+      "heading": "Certificações e conformidade",
+      "ctaLabel": "Ver detalhes completos",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sistema de Gestão de Segurança da Informação certificado." },
+        { "label": "SOC 2 Type II", "description": "Controles de segurança, disponibilidade e confidencialidade.", "badge": "Em andamento" },
+        { "label": "LGPD", "description": "Aderente à Lei Geral de Proteção de Dados (Brasil)." },
+        { "label": "GDPR", "description": "Em conformidade com o Regulamento Geral de Proteção de Dados (UE)." },
+        { "label": "HIPAA Ready", "description": "Preparada para ambientes que lidam com ePHI nos EUA.", "badge": "BAA disponível" }
+      ]
+    },
     "sections": [
       {
         "heading": "1. Quem somos",
@@ -131,7 +146,18 @@
       },
       {
         "heading": "7. Segurança da informação",
-        "paragraphs": ["Adotamos criptografia AES-256 em repouso e TLS 1.3 em trânsito, controles de acesso baseados em papéis e monitoramento contínuo de segurança, alinhados a boas práticas de mercado e certificações como ISO 27001."]
+        "paragraphs": ["Adotamos segurança em múltiplas camadas, desde a arquitetura até o dia a dia da operação:"],
+        "items": [
+          "Isolamento por Workspace e banco de dados dedicado por cliente, sem compartilhamento",
+          "Criptografia avançada: dados em trânsito (TLS 1.2+) e em repouso (AES-256)",
+          "Controle de acesso granular (RBAC) por função, grupo e nível de sensibilidade",
+          "Autenticação corporativa: SSO, SAML 2.0, OAuth 2.0, AD/LDAP e MFA",
+          "Restrição de acesso por IP (IP Blocking)",
+          "Logs e trilha de auditoria imutável e pesquisável",
+          "Monitoramento de segurança 24/7, backups automáticos criptografados e Disaster Recovery com replicação geográfica",
+          "Infraestrutura Multi-AZ na AWS, certificada ISO/IEC 27001:2022, com SOC 2 Type II em andamento"
+        ],
+        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
       },
       {
         "heading": "8. Seus direitos (LGPD/GDPR)",
@@ -164,6 +190,17 @@
     "title": "LGPD / GDPR",
     "updatedLabel": "Última atualização: 1 de setembro de 2026",
     "intro": "A Interfy trata a proteção de dados pessoais como parte central da sua arquitetura, tanto para atender à Lei Geral de Proteção de Dados (Lei nº 13.709/2018) quanto ao Regulamento Geral de Proteção de Dados europeu (GDPR). Este documento é um rascunho padrão e deve ser revisado pelo time jurídico antes da publicação final.",
+    "certifications": {
+      "heading": "Certificações e conformidade",
+      "ctaLabel": "Ver detalhes completos",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sistema de Gestão de Segurança da Informação certificado." },
+        { "label": "SOC 2 Type II", "description": "Controles de segurança, disponibilidade e confidencialidade.", "badge": "Em andamento" },
+        { "label": "LGPD", "description": "Aderente à Lei Geral de Proteção de Dados (Brasil)." },
+        { "label": "GDPR", "description": "Em conformidade com o Regulamento Geral de Proteção de Dados (UE)." },
+        { "label": "HIPAA Ready", "description": "Preparada para ambientes que lidam com ePHI nos EUA.", "badge": "BAA disponível" }
+      ]
+    },
     "sections": [
       {
         "heading": "1. Nosso compromisso",
@@ -193,11 +230,17 @@
       {
         "heading": "6. Medidas de segurança técnicas e organizacionais",
         "items": [
-          "Criptografia AES-256 em repouso e TLS 1.3 em trânsito",
-          "Infraestrutura em nuvem AWS com alta disponibilidade",
-          "Controle de acesso baseado em papéis e autenticação multifator",
-          "Monitoramento de segurança 24/7 e resposta a incidentes"
-        ]
+          "Isolamento por Workspace e banco de dados dedicado por cliente",
+          "Criptografia AES-256 em repouso e TLS 1.2+ em trânsito",
+          "Controle de acesso baseado em papéis (RBAC) e autenticação multifator (MFA)",
+          "Autenticação corporativa via SSO, SAML 2.0, OAuth 2.0 e AD/LDAP",
+          "Restrição de acesso por IP (IP Blocking)",
+          "Logs e trilha de auditoria imutável e pesquisável",
+          "Monitoramento de segurança 24/7, com resposta automática a incidentes",
+          "Backups automáticos criptografados e Disaster Recovery com replicação geográfica",
+          "Infraestrutura Multi-AZ na AWS, com SLA de disponibilidade de 99,99%"
+        ],
+        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
       },
       {
         "heading": "7. Transferência internacional de dados",
