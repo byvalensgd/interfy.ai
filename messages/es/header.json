@@ -4,24 +4,53 @@
   "openMenu": "Abrir menú",
   "closeMenu": "Cerrar menú",
   "nav": {
-    "platform": "Plataforma",
-    "segments": "Sectores",
-    "plans": "Planes",
-    "blog": "Blog",
-    "partnership": "Alianzas"
+    "plans": "Planes"
   },
   "productsMenu": {
     "trigger": "Productos",
-    "eyebrow": "Más productos",
+    "featuredEyebrow": "Productos principales",
+    "featuredCta": "Saber más",
+    "listEyebrow": "Más productos",
+    "featured": [
+      { "title": "Documents", "tagline": "Organiza, encuentra y protege documentos con IA en cada etapa." },
+      { "title": "Process", "tagline": "Crea procesos visuales, formularios y automatizaciones con IA." },
+      { "title": "Capture", "tagline": "Captura cualquier documento — la IA reconoce y organiza todo." },
+      { "title": "Sign", "tagline": "Firma digital gratuita, con validez jurídica e integración total." }
+    ],
     "items": [
-      { "label": "Documents", "description": "Organiza, encuentra y protege documentos con IA" },
-      { "label": "Process", "description": "Crea procesos visuales y automatizaciones con IA" },
-      { "label": "Capture", "description": "Digitaliza, reconoce y extrae datos" },
-      { "label": "Sign", "description": "Firma documentos con validez jurídica" },
       { "label": "Connect", "description": "Colabora y comunícate con tu equipo" },
       { "label": "Agents", "description": "IA que entiende y apoya a los usuarios" },
       { "label": "Mobile", "description": "Tu operación en la palma de tu mano" },
       { "label": "Voice", "description": "Habla con la plataforma de forma natural" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Recursos",
+    "recursosEyebrow": "Recursos",
+    "recursosItems": [
+      { "label": "Sectores" },
+      { "label": "Créditos de IA" },
+      { "label": "Integraciones y API" },
+      { "label": "Casos de Éxito" }
+    ],
+    "legalEyebrow": "Legal y Soporte",
+    "legalItems": [
+      { "label": "Términos de Uso" },
+      { "label": "Política de Privacidad" },
+      { "label": "RGPD / Protección de Datos" },
+      { "label": "Seguridad" },
+      { "label": "Soporte" },
+      { "label": "Contacto" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Empresa",
+    "eyebrow": "Empresa",
+    "items": [
+      { "label": "Sobre Interfy" },
+      { "label": "Plataforma Interfy" },
+      { "label": "Socios (Marca Blanca)" },
+      { "label": "Blog / Contenido" }
     ]
   },
   "languageSelectorAria": "Seleccionar idioma"

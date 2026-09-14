@@ -112,7 +112,9 @@ export default function SegurancaRadialDiagram({
                   style={{
                     left: `${50 + r * cos}%`,
                     top: `${50 + r * sin}%`,
-                    animation: `radial-fade-in 0.4s ease-out ${ringDelay(r)}s both`,
+                    animation: `radial-fade-in 0.4s ease-out ${ringDelay(r)}s both, radial-dot-pulse 2.6s ease-in-out ${
+                      ringDelay(r) + 0.4 + i * 0.12
+                    }s infinite`,
                   }}
                 />
               ))}

@@ -1,17 +1,86 @@
 import Image from "next/image";
 import Link from "next/link";
-import { mainNav, siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site";
+import { featuredProducts, productsMenu } from "@/config/products-menu";
+import { legalMenuItems, recursosMenuItems } from "@/config/recursos-menu";
+import { empresaMenuItems } from "@/config/empresa-menu";
 import Button from "@/components/ui/Button";
 import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
-import MobileNav from "@/components/layout/MobileNav";
+import MobileNav, { type MobileNavEntry } from "@/components/layout/MobileNav";
 import ProductsMenu from "@/components/layout/ProductsMenu";
+import RecursosMenu from "@/components/layout/RecursosMenu";
+import EmpresaMenu from "@/components/layout/EmpresaMenu";
 
 export default async function Header() {
   const locale = await getLocale();
   const { header, common } = await getDictionary();
-  const navLabels = Object.values(header.nav) as string[];
+
+  const mobileEntries: MobileNavEntry[] = [
+    {
+      type: "group",
+      group: {
+        trigger: header.productsMenu.trigger,
+        sections: [
+          {
+            items: [
+              ...featuredProducts.map((item, i) => ({
+                href: item.href,
+                label: header.productsMenu.featured[i].title,
+                icon: item.icon,
+              })),
+              ...productsMenu.map((item, i) => ({
+                href: item.href,
+                label: header.productsMenu.items[i].label,
+                icon: item.icon,
+              })),
+            ],
+          },
+        ],
+      },
+    },
+    {
+      type: "group",
+      group: {
+        trigger: header.recursosMenu.trigger,
+        sections: [
+          {
+            title: header.recursosMenu.recursosEyebrow,
+            items: recursosMenuItems.map((item, i) => ({
+              href: item.href,
+              label: header.recursosMenu.recursosItems[i].label,
+              icon: item.icon,
+            })),
+          },
+          {
+            title: header.recursosMenu.legalEyebrow,
+            items: legalMenuItems.map((item, i) => ({
+              href: item.href,
+              label: header.recursosMenu.legalItems[i].label,
+              icon: item.icon,
+            })),
+          },
+        ],
+      },
+    },
+    { type: "link", link: { href: "/planos", label: header.nav.plans } },
+    {
+      type: "group",
+      group: {
+        trigger: header.empresaMenu.trigger,
+        sections: [
+          {
+            items: empresaMenuItems.map((item, i) => ({
+              href: item.href,
+              label: header.empresaMenu.items[i].label,
+              icon: item.icon,
+            })),
+          },
+        ],
+      },
+    },
+  ];
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 flex w-full justify-center border-b border-contorno-base bg-branco px-5">
@@ -30,26 +99,22 @@ export default async function Header() {
         <nav aria-label={header.mainNavAria} className="hidden min-w-0 flex-1 items-center justify-center lg:flex">
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 xl:gap-x-10">
             <li>
+              <ProductsMenu items={header.productsMenu} locale={locale} />
+            </li>
+            <li>
+              <RecursosMenu items={header.recursosMenu} locale={locale} />
+            </li>
+            <li>
               <Link
-                href={withLocale(mainNav[0].href, locale)}
+                href={withLocale("/planos", locale)}
                 className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
               >
-                {navLabels[0]}
+                {header.nav.plans}
               </Link>
             </li>
             <li>
-              <ProductsMenu items={header.productsMenu} locale={locale} />
+              <EmpresaMenu items={header.empresaMenu} locale={locale} />
             </li>
-            {mainNav.slice(1).map((item, i) => (
-              <li key={item.href}>
-                <Link
-                  href={withLocale(item.href, locale)}
-                  className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
-                >
-                  {navLabels[i + 1]}
-                </Link>
-              </li>
-            ))}
           </ul>
         </nav>
 
@@ -64,8 +129,7 @@ export default async function Header() {
         </div>
 
         <MobileNav
-          items={mainNav}
-          labels={navLabels}
+          entries={mobileEntries}
           locale={locale}
           ariaLabel={header.mobileNavAria}
           openLabel={header.openMenu}

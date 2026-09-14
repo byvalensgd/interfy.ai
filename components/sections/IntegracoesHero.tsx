@@ -15,14 +15,14 @@ export default async function IntegracoesHero() {
   return (
     <section
       aria-labelledby="integracoes-hero-heading"
-      className="flex justify-center bg-gradient-to-b from-[#fafbff] to-[#e8f1f8] px-5 py-[50px]"
+      className="relative flex min-h-[calc(100vh-var(--header-height))] items-stretch justify-center bg-gradient-to-b from-[#fafbff] to-[#e8f1f8] px-5 py-12 sm:py-16 lg:py-[50px]"
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
-        <div className="flex w-full flex-wrap items-center justify-center gap-10">
+        <div className="flex w-full flex-1 flex-wrap items-center justify-center gap-10">
           <Reveal immediate className="flex w-full max-w-[600px] min-w-[280px] flex-1 flex-col items-start gap-10">
             <h1
               id="integracoes-hero-heading"
-              className="text-[clamp(2rem,2.5vw+1.5rem,3.5rem)] leading-[1.2] font-extrabold text-texto"
+              className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] leading-[1.2] font-extrabold text-texto"
             >
               {hero.headingPrefix}
               <span className="bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">

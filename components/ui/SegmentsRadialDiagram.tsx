@@ -100,6 +100,7 @@ export function CenterHex({ className, animate = false }: { className?: string; 
           top: `${(HEX_ICON_BOX.y / HEX_VIEWBOX_H) * 100}%`,
           width: `${(HEX_ICON_BOX.size / HEX_VIEWBOX_W) * 100}%`,
           height: `${(HEX_ICON_BOX.size / HEX_VIEWBOX_H) * 100}%`,
+          animation: `radial-icon-spin 22s linear ${animate ? HEX_POP_DURATION : 0}s infinite`,
         }}
       />
     </div>
@@ -192,7 +193,9 @@ export default function SegmentsRadialDiagram({ titles }: { titles: string[] }) 
                   style={{
                     left: `${50 + r * cos}%`,
                     top: `${50 + r * sin}%`,
-                    animation: `radial-fade-in 0.4s ease-out ${ringDelay(r)}s both`,
+                    animation: `radial-fade-in 0.4s ease-out ${ringDelay(r)}s both, radial-dot-pulse 2.6s ease-in-out ${
+                      ringDelay(r) + 0.4 + i * 0.12
+                    }s infinite`,
                   }}
                 />
               ))}

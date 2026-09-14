@@ -4,24 +4,53 @@
   "openMenu": "Open menu",
   "closeMenu": "Close menu",
   "nav": {
-    "platform": "Platform",
-    "segments": "Industries",
-    "plans": "Pricing",
-    "blog": "Blog",
-    "partnership": "Partnership"
+    "plans": "Pricing"
   },
   "productsMenu": {
     "trigger": "Products",
-    "eyebrow": "More products",
+    "featuredEyebrow": "Flagship products",
+    "featuredCta": "Learn more",
+    "listEyebrow": "More products",
+    "featured": [
+      { "title": "Documents", "tagline": "Organize, find, and protect documents with AI at every step." },
+      { "title": "Process", "tagline": "Build visual workflows, forms, and automations with AI." },
+      { "title": "Capture", "tagline": "Capture any document — AI recognizes and organizes it all." },
+      { "title": "Sign", "tagline": "Free digital signatures with full legal validity and integration." }
+    ],
     "items": [
-      { "label": "Documents", "description": "Organize, find, and protect documents with AI" },
-      { "label": "Process", "description": "Build visual workflows and AI-driven automations" },
-      { "label": "Capture", "description": "Scan, recognize, and extract data" },
-      { "label": "Sign", "description": "Sign documents with full legal validity" },
       { "label": "Connect", "description": "Collaborate and communicate with your team" },
       { "label": "Agents", "description": "AI that understands and supports your users" },
       { "label": "Mobile", "description": "Your operation in the palm of your hand" },
       { "label": "Voice", "description": "Talk to the platform naturally" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Resources",
+    "recursosEyebrow": "Resources",
+    "recursosItems": [
+      { "label": "Industries" },
+      { "label": "AI Credits" },
+      { "label": "Integrations & API" },
+      { "label": "Success Stories" }
+    ],
+    "legalEyebrow": "Legal & Support",
+    "legalItems": [
+      { "label": "Terms of Use" },
+      { "label": "Privacy Policy" },
+      { "label": "GDPR / Data Protection" },
+      { "label": "Security" },
+      { "label": "Support" },
+      { "label": "Contact" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Company",
+    "eyebrow": "Company",
+    "items": [
+      { "label": "About Interfy" },
+      { "label": "Interfy Platform" },
+      { "label": "Partners (Private Label)" },
+      { "label": "Blog / Content" }
     ]
   },
   "languageSelectorAria": "Select language"

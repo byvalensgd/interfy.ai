@@ -1,26 +1,16 @@
 export type FeaturedProduct = {
-  label: string;
-  title: string;
-  tagline: string;
   href: string;
-  bg: string;
+  /** Matches a `--color-*` token in globals.css — each product's own brand color, reused as the mega-menu card's soft background tint. */
+  tint: "ecm" | "bpm" | "swc" | "dss";
+  icon: string;
 };
 
+/** Order matches header.json's `productsMenu.featured` array. */
 export const featuredProducts: FeaturedProduct[] = [
-  {
-    label: "Documents",
-    title: "Interfy Documents",
-    tagline: "Organize, encontre e proteja documentos com AI em cada etapa.",
-    href: "/documents",
-    bg: "/ecm/cta-bg.webp",
-  },
-  {
-    label: "Process",
-    title: "Interfy Process",
-    tagline: "Crie processos visuais, formulários e automações com AI.",
-    href: "/process",
-    bg: "/bpm/cta-bg.webp",
-  },
+  { href: "/documents", tint: "ecm", icon: "/icons/products/documents.svg" },
+  { href: "/process", tint: "bpm", icon: "/icons/products/automation.svg" },
+  { href: "/capture", tint: "swc", icon: "/icons/products/capture.svg" },
+  { href: "/sign", tint: "dss", icon: "/icons/products/sign.svg" },
 ];
 
 export type ProductMenuItem = {
@@ -28,12 +18,8 @@ export type ProductMenuItem = {
   icon: string;
 };
 
-/** Order matches header.json's `productsMenu.items` array. */
+/** Order matches header.json's `productsMenu.items` array (Documents/Process/Capture/Sign render as the featured cards above instead). */
 export const productsMenu: ProductMenuItem[] = [
-  { href: "/documents", icon: "/icons/products/documents.svg" },
-  { href: "/process", icon: "/icons/products/automation.svg" },
-  { href: "/capture", icon: "/icons/products/capture.svg" },
-  { href: "/sign", icon: "/icons/products/sign.svg" },
   { href: "/connect", icon: "/icons/products/connect.svg" },
   { href: "/agents", icon: "/icons/products/agents.svg" },
   { href: "/mobile", icon: "/icons/products/mobile.svg" },
