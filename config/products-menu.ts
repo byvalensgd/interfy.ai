@@ -1,7 +1,9 @@
+/** Matches a `--color-*` token in globals.css — the site's 4 product brand colors, reused wherever a nav mega-menu needs a big colored card. */
+export type Tint = "ecm" | "bpm" | "swc" | "dss";
+
 export type FeaturedProduct = {
   href: string;
-  /** Matches a `--color-*` token in globals.css — each product's own brand color, reused as the mega-menu card's soft background tint. */
-  tint: "ecm" | "bpm" | "swc" | "dss";
+  tint: Tint;
   icon: string;
 };
 

@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "About Us",
+    "description": "Over 26 years simplifying corporate management. Discover the history, mission, and technology behind Interfy, headquartered in Orlando (USA) and present in more than 180 countries.",
+    "keywords": ["about Interfy", "Interfy history", "mission and vision", "Interfy brand ecosystem", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Simplifying the Complex, Transforming the Present, ",
+    "headingHighlight": "Innovating the Future.",
+    "description": "For more than two decades we've been transforming corporate management through innovative, accessible technology. Headquartered in Orlando (USA), we serve companies in more than 180 countries, empowering organizations to leave legacy systems behind and embrace operational agility.",
+    "slideshowAlt": "Interfy platform shown on laptop and smartphone, displaying the AI-powered management dashboard",
+    "ctaPrimary": "BECOME A PARTNER",
+    "ctaSecondary": "REFER CLIENTS",
+    "statsAriaLabel": "Interfy by the numbers",
+    "stats": [
+      { "label": "180+", "sublabel": "Countries served" },
+      { "label": "25K +", "sublabel": "Companies transformed" },
+      { "label": "26 +", "sublabel": "Years of experience" },
+      { "label": "Orlando, FL", "sublabel": "US headquarters" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Refined by Challenge, ",
+    "headingHighlight": "Scaled for Success",
+    "paragraph1": "Interfy isn't an early-stage startup — it's an established company with more than 26 years of experience developing corporate management technology. Headquartered in Orlando, Florida (USA), we build solutions that serve companies worldwide. Our technology is designed to operate across diverse regulatory and cultural environments, ensuring global flexibility and compliance.",
+    "paragraph2": "Our platform is tested in the world's most demanding corporate environments. From the US market to Latin America and Europe, we serve more than 180 countries with the same excellence and robustness that define our brand."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Interfy's mission, vision, and principles",
+    "vision": {
+      "title": "Our vision",
+      "description": "To be recognized for generating value for our clients around the world, delivering an online corporate management software platform that is accessible, mobile, and easy to use."
+    },
+    "mission": {
+      "title": "Our mission",
+      "description": "To provide an online Corporate Process Management software platform that is easy to implement and accessible for companies of every size and segment."
+    },
+    "principlesHeading": "Our principles",
+    "principlesAriaLabel": "Interfy's principles",
+    "principles": [
+      { "title": "Ethics as Our Core", "description": "Transparency and integrity are non-negotiable in everything we do." },
+      { "title": "Innovation Through Simplicity", "description": "True innovation doesn't add complexity — it simplifies." },
+      {
+        "title": "Technological Democratization",
+        "descriptionPrefix": "Making Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " accessible to companies of every size."
+      },
+      { "title": "Obsession with Usability", "description": "A corporate user experience on par with consumer apps." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "The Blue Ocean of Integration",
+    "descriptionPrefix": "While competitors like DocuSign, Box, and Pipefy specialize in single functional verticals (signatures, storage, or processes in isolation), Interfy adopts a ",
+    "descriptionHighlight": "Total Platform",
+    "descriptionSuffix": " strategy.",
+    "ariaLabel": "Interfy's competitive advantages",
+    "items": [
+      { "title": "All-in-One Platform", "description": "Documents + Process + Sign + Capture natively integrated." },
+      { "title": "Lower TCO", "description": "Eliminate subscription fatigue from dozens of vendors." },
+      { "title": "Cloud-Native Architecture", "description": "AWS, Kubernetes, microservices — not legacy software." },
+      { "title": "Low-Code/No-Code", "description": "Business users build solutions without writing code." },
+      { "title": "Security & Compliance", "description": "LGPD, GDPR, ISO 27001, end-to-end encryption." },
+      { "title": "Private Label Partnership", "description": "A disruptive business model that empowers partners." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Brand",
+    "headingSuffix": " Ecosystem",
+    "description": "Interfy operates as a technology holding, housing brands that enable penetration into specific niches.",
+    "ariaLabel": "Interfy's brand ecosystem",
+    "brands": [
+      { "name": "Ecofy", "description": "Sustainable solutions for a better planet." },
+      { "name": "Injectra", "description": "American injection molding technology." },
+      { "name": "Innovecar", "description": "Smart, accessible mobility." },
+      { "name": "NeoAI", "description": "AI-connected business platform." },
+      { "name": "Processdoc", "description": "Smart process and document management." },
+      { "name": "Acquafy", "description": "Advanced purified water solutions." },
+      { "name": "Interfy", "description": "Digital platform for business and services." },
+      { "name": "Visionfy", "description": "Data analytics and AI for better decisions." },
+      { "name": "Mediafy", "description": "Marketing and digital content production." },
+      { "name": "Docsystem", "description": "Complete corporate document solutions." }
+    ]
+  },
+  "technology": {
+    "heading": "World-Class Technology",
+    "ariaLabel": "Interfy's technology infrastructure",
+    "items": [
+      { "title": "Hosting", "description": "Amazon Web Services (AWS)." },
+      { "title": "Mobility", "description": "Responsive HTML5 web interface." },
+      { "title": "Kubernetes", "description": "Kubernetes orchestration for automatic scalability." },
+      { "title": "Multi-language", "description": "Support for 16 languages." },
+      { "title": "Security", "description": "SSL/TLS encryption, 2FA, SSO." },
+      { "title": "Compliance", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "We empower partners to build ",
+      "headingHighlight": "their own SaaS companies",
+      "ariaLabel": "White Label model benefits",
+      "items": [
+        { "title": "Fully White Label", "description": "Your brand, your logo, your URL." },
+        { "title": "Margins of up to 100% +", "description": "Set your own pricing." },
+        { "title": "Zero Capex", "description": "No need to invest millions in development." },
+        { "title": "Pay-as-you-go", "description": "Pay only for actual client consumption." },
+        { "title": "Dedicated Support", "description": "Training, materials, and technical support." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "From passive to active",
+    "description": "We're investing in Generative Artificial Intelligence to transform the platform from a passive management system into an active intelligence system.",
+    "ariaLabel": "Investments in Artificial Intelligence",
+    "items": [
+      { "title": "Smart suggestions for actions based on data patterns." },
+      { "title": "Proactive automation of repetitive tasks." },
+      { "title": "Predictive insights for decision-making." },
+      { "title": "AI-Assisted Creation", "description": "Automatic design of BPMN processes and forms." },
+      { "title": "Intelligent Document Analysis", "description": "AI that reads contracts and answers complex questions." },
+      { "title": "Autonomous Agents", "description": "AI agents that carry out tasks autonomously." }
+    ],
+    "statsLabel": "Interfy platform numbers",
+    "stats": [
+      { "label": "12B +", "sublabel": "documents" },
+      { "label": "20M +", "sublabel": "signatures" },
+      { "label": "2.5M +", "sublabel": "users" },
+      { "label": "6M +", "sublabel": "processes" },
+      { "label": "1000 TB +", "sublabel": "stored" },
+      { "label": "99.99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to transform your company?",
+    "subheading": "Join thousands of companies that have already simplified the complex with Interfy.",
+    "primaryLabel": "7-Day Test Drive",
+    "secondaryLabel": "Book a Demo"
+  }
+}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
+import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import { endOfTrialFeatures } from "@/config/test-drive";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
@@ -33,13 +34,8 @@ export default async function TestDriveSecurity() {
             </ul>
           </div>
           <div className="relative mx-auto aspect-[1214/1280] w-full max-w-[230px] shrink-0">
-            <video
+            <AutoplayVideo
               src="/test-drive/security-shield.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              aria-hidden="true"
               className="size-full object-contain mix-blend-lighten"
             />
           </div>

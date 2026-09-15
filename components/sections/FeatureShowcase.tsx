@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ChatDemo from "@/components/sections/ChatDemo";
 import Reveal from "@/components/ui/Reveal";
+import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
 const cardBackground =
@@ -65,7 +66,7 @@ export default async function FeatureShowcase() {
             </ul>
             <div className="relative h-[180px] w-full shrink-0 sm:h-[230px] sm:flex-1">
               <Image
-                src="/features/capture-preview.webp"
+                src="/swc/hero-mockup.webp"
                 alt={capture.imageAlt}
                 fill
                 sizes="(min-width: 1024px) 300px, 80vw"
@@ -106,13 +107,9 @@ export default async function FeatureShowcase() {
             <ChatDemo dict={agents.chatDemo} />
 
             <div className="relative hidden size-[180px] shrink-0 sm:block">
-              <video
+              <AutoplayVideo
                 src="/features/robot.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                aria-label={agents.videoAriaLabel}
+                ariaLabel={agents.videoAriaLabel}
                 className="size-full object-contain mix-blend-multiply"
               />
             </div>

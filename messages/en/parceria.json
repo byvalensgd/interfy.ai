@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Partner Program",
+    "description": "Become an Interfy.ai Commercial Partner or Affiliate and turn opportunities into recurring revenue with an AI-native platform, dedicated support, and an institutional workspace.",
+    "keywords": ["Interfy partner program", "commercial partner", "Interfy affiliate", "client referral", "recurring revenue"]
+  },
+  "hero": {
+    "headingPrefix": "Grow with ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Turn opportunities into recurring revenue.",
+    "description": "Join a global program for companies and professionals who want to prospect, refer, and develop new business with an AI-native platform.",
+    "slideshowAlt": "Interfy platform shown on laptop and smartphone, displaying the AI-powered management dashboard",
+    "bannerAriaLabel": "Partner program highlights",
+    "banner": [
+      { "title": "Global Program" },
+      { "title": "Interfy Support" },
+      { "title": "Recurring revenue" },
+      { "title": "Protected opportunities" }
+    ],
+    "ctaPrimary": "BECOME A PARTNER",
+    "ctaSecondary": "REFER CLIENTS"
+  },
+  "participation": {
+    "heading": "Choose how you want to participate",
+    "cards": [
+      {
+        "title": "COMMERCIAL PARTNER",
+        "subtitle": "For those who want to develop business with Interfy",
+        "checklistAriaLabel": "Commercial Partner benefits",
+        "checklist": [
+          { "label": "Prospecting new clients" },
+          { "label": "Platform presentation" },
+          { "label": "Opportunity development" },
+          { "label": "Commercial relationship follow-up" },
+          { "label": "Institutional workspace for demos" },
+          { "label": "Official training and materials" },
+          { "label": "Opportunity registration and protection" }
+        ],
+        "cta": "BECOME A PARTNER"
+      },
+      {
+        "title": "AFFILIATE OR REFERRER",
+        "subtitle": "For those who want to refer potential clients",
+        "checklistAriaLabel": "Affiliate or Referrer benefits",
+        "checklist": [
+          { "label": "Referral by link, code, or form" },
+          { "label": "No need to run demos" },
+          { "label": "No proposal drafting" },
+          { "label": "No involvement in negotiation" },
+          { "label": "Interfy handles the entire sales process" },
+          { "label": "Track your referrals" }
+        ],
+        "cta": "REFER CLIENTS"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Why centralize everything in a single ",
+    "headingHighlight": "Workspace?",
+    "steps": [
+      { "title": "Choose your role", "description": "Decide whether you'll be a Commercial Partner or an Affiliate/Referrer." },
+      { "title": "Sign up", "description": "Fill in your details and confirm your participation in the program." },
+      { "title": "Register your opportunities", "description": "Refer and track your potential clients right on the platform." },
+      { "title": "Track your results", "description": "Track your results and get paid according to the program's terms." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "A complete structure ",
+    "headingHighlight": "to help you grow",
+    "ariaLabel": "Partner support structure",
+    "items": [
+      { "title": "AI-native platform", "description": "The best technology to power your business." },
+      { "title": "Training", "description": "Commercial and technical enablement for your team." },
+      { "title": "Institutional workspace", "description": "A dedicated environment to manage opportunities." },
+      { "title": "Sales materials", "description": "Presentations, talking points, and up-to-date official content." },
+      { "title": "Opportunity registration", "description": "Track the status of every opportunity in real time." },
+      { "title": "Contracts through Interfy", "description": "Interfy handles negotiation and formalization with the client." },
+      { "title": "Billing through Interfy", "description": "Invoicing, collections, and payment management." },
+      { "title": "Official support", "description": "A dedicated team for partners, with specialized service." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "You grow the business",
+      "checklistAriaLabel": "Partner responsibilities",
+      "checklist": [
+        { "label": "Prospecting and relationship building" },
+        { "label": "Platform presentation" },
+        { "label": "Opportunity registration" },
+        { "label": "Commercial follow-up" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy handles the operation",
+      "checklistAriaLabel": "Interfy responsibilities",
+      "checklist": [
+        { "label": "Contract with the client" },
+        { "label": "Billing and collections" },
+        { "label": "Workspace creation" },
+        { "label": "Infrastructure, updates, and support" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Your client can start with the ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 days free, no card required, no commitment.",
+    "descriptionLine2": "Your client experiences the platform before choosing a plan.",
+    "cta": "EXPLORE THE TEST DRIVE"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "ariaExpand": "Show answer",
+    "items": [
+      {
+        "question": "Is there territorial exclusivity?",
+        "answer": "No. The program is global: partners and affiliates from any region can prospect and refer clients, with no geographic restriction."
+      },
+      {
+        "question": "How are opportunities protected?",
+        "answer": "Every opportunity registered on the platform is linked to the responsible partner or affiliate, avoiding overlap and ensuring credit for the referred business."
+      },
+      {
+        "question": "When is the commission paid?",
+        "answer": "The commission is released after the client's payment is confirmed, following the billing cycle set out in the program's terms."
+      },
+      {
+        "question": "Can the partner bill the client?",
+        "answer": "No. Interfy handles the contract, billing, and collections directly with the client, while the partner focuses on the commercial relationship."
+      },
+      {
+        "question": "How does the annual renewal work?",
+        "answer": "Renewal is automatic as long as the client stays active, and the partner or affiliate keeps earning according to the program's terms."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Join the global Interfy.ai ecosystem",
+    "heading": "Let's grow together?",
+    "subheading": "Choose your role and join the global Interfy.ai ecosystem.",
+    "primaryButton": "BECOME A PARTNER",
+    "secondaryButton": "BECOME AN AFFILIATE",
+    "statsLabel": "Interfy platform numbers",
+    "stats": [
+      { "label": "12Bn +", "sublabel": "documents" },
+      { "label": "20M +", "sublabel": "subscriptions" },
+      { "label": "2.5M +", "sublabel": "users" },
+      { "label": "6M +", "sublabel": "processes" },
+      { "label": "1000 TB +", "sublabel": "stored" },
+      { "label": "99.99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

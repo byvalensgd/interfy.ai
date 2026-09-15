@@ -4,15 +4,14 @@ import StatsBar from "@/components/ui/StatsBar";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
-import { withLocale } from "@/lib/i18n/paths";
+import { getHeroSlides, withLocale } from "@/lib/i18n/paths";
 import { heroBadges, heroStats } from "@/config/hero";
-
-const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
 
 export default async function Hero() {
   const locale = await getLocale();
   const { home, common } = await getDictionary();
   const { hero } = home;
+  const heroSlides = getHeroSlides(locale);
 
   const stats = heroStats.map((stat, i) => ({ icon: stat.icon, ...hero.stats[i] }));
   const badges = heroBadges.map((badge, i) => ({ ...badge, ...hero.badges[i] }));

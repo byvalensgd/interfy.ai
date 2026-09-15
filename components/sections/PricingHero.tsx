@@ -4,7 +4,8 @@ import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { pricingHighlights, pricingProductBadges } from "@/config/pricing";
-import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { getHeroSlides } from "@/lib/i18n/paths";
 
 const highlightIcons = {
   trial: "/icons/pricing/trial.svg",
@@ -13,11 +14,11 @@ const highlightIcons = {
   ai: "/icons/pricing/ai.svg",
 } as const;
 
-const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
-
 export default async function PricingHero() {
+  const locale = await getLocale();
   const { pricing, common } = await getDictionary();
   const { hero } = pricing;
+  const heroSlides = getHeroSlides(locale);
 
   return (
     <section

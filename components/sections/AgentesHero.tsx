@@ -4,14 +4,13 @@ import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { agentesHeroHighlights } from "@/config/agentes";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
-import { withLocale } from "@/lib/i18n/paths";
-
-const heroSlides = ["/hero/hero-slide-1.webp", "/hero/hero-slide-3.webp"];
+import { getHeroSlides, withLocale } from "@/lib/i18n/paths";
 
 export default async function AgentesHero() {
   const locale = await getLocale();
   const { agents, common } = await getDictionary();
   const hero = agents.hero;
+  const heroSlides = getHeroSlides(locale);
 
   return (
     <section

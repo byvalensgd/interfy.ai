@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Programa de Socios",
+    "description": "Conviértete en Socio Comercial o Afiliado de Interfy.ai y transforma oportunidades en ingresos recurrentes con una plataforma AI-native, soporte dedicado y workspace institucional.",
+    "keywords": ["programa de socios Interfy", "socio comercial", "afiliado Interfy", "referidos de clientes", "ingresos recurrentes"]
+  },
+  "hero": {
+    "headingPrefix": "Crece con ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Transforma oportunidades en ingresos recurrentes.",
+    "description": "Forma parte de un programa global para empresas y profesionales que desean prospectar, referir y desarrollar nuevos negocios con una plataforma AI-native.",
+    "slideshowAlt": "Plataforma Interfy mostrada en laptop y smartphone, con el panel de gestión con IA",
+    "bannerAriaLabel": "Diferenciales del programa de socios",
+    "banner": [
+      { "title": "Programa Global" },
+      { "title": "Soporte Interfy" },
+      { "title": "Ingresos recurrentes" },
+      { "title": "Oportunidades protegidas" }
+    ],
+    "ctaPrimary": "QUIERO SER SOCIO",
+    "ctaSecondary": "QUIERO REFERIR CLIENTES"
+  },
+  "participation": {
+    "heading": "Elige cómo quieres participar",
+    "cards": [
+      {
+        "title": "SOCIO COMERCIAL",
+        "subtitle": "Para quien quiere desarrollar negocios con Interfy",
+        "checklistAriaLabel": "Beneficios del Socio Comercial",
+        "checklist": [
+          { "label": "Prospección de nuevos clientes" },
+          { "label": "Presentación de la plataforma" },
+          { "label": "Desarrollo de oportunidades" },
+          { "label": "Seguimiento de la relación comercial" },
+          { "label": "Workspace institucional para demostraciones" },
+          { "label": "Capacitación y materiales oficiales" },
+          { "label": "Registro y protección de oportunidades" }
+        ],
+        "cta": "QUIERO SER SOCIO"
+      },
+      {
+        "title": "AFILIADO O REFERENTE",
+        "subtitle": "Para quien quiere referir clientes potenciales",
+        "checklistAriaLabel": "Beneficios del Afiliado o Referente",
+        "checklist": [
+          { "label": "Referido por enlace, código o formulario" },
+          { "label": "Sin necesidad de realizar demostraciones" },
+          { "label": "Sin elaboración de propuestas" },
+          { "label": "Sin participación en la negociación" },
+          { "label": "Interfy conduce todo el proceso comercial" },
+          { "label": "Seguimiento de las referencias realizadas" }
+        ],
+        "cta": "QUIERO REFERIR CLIENTES"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "¿Por qué centralizar todo en un único ",
+    "headingHighlight": "Workspace?",
+    "steps": [
+      { "title": "Elige tu modalidad", "description": "Define si serás Socio Comercial o Afiliado/Referente." },
+      { "title": "Haz tu registro", "description": "Completa tus datos y confirma tu participación en el programa." },
+      { "title": "Registra tus oportunidades", "description": "Refiere y da seguimiento a tus clientes potenciales en la plataforma." },
+      { "title": "Sigue tus resultados", "description": "Sigue tus resultados y recibe pagos según las condiciones del programa." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "Una estructura completa ",
+    "headingHighlight": "para que crezcas",
+    "ariaLabel": "Estructura de apoyo al socio",
+    "items": [
+      { "title": "Plataforma AI-native", "description": "La mejor tecnología para impulsar tu negocio." },
+      { "title": "Capacitación", "description": "Formación comercial y técnica para tu equipo." },
+      { "title": "Workspace institucional", "description": "Un entorno exclusivo para gestionar las oportunidades." },
+      { "title": "Materiales de venta", "description": "Presentaciones, argumentos de venta y contenidos oficiales actualizados." },
+      { "title": "Registro de oportunidades", "description": "Sigue el estado de cada oportunidad en tiempo real." },
+      { "title": "Contratos por Interfy", "description": "Interfy conduce la negociación y la formalización con el cliente." },
+      { "title": "Facturación por Interfy", "description": "Emisión de facturas, cobros y gestión de pagos." },
+      { "title": "Soporte oficial", "description": "Equipo dedicado a socios, con atención especializada." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Tú desarrollas el negocio",
+      "checklistAriaLabel": "Responsabilidades del socio",
+      "checklist": [
+        { "label": "Prospección y relación" },
+        { "label": "Presentación de la plataforma" },
+        { "label": "Registro de oportunidad" },
+        { "label": "Seguimiento comercial" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy se encarga de la operación",
+      "checklistAriaLabel": "Responsabilidades de Interfy",
+      "checklist": [
+        { "label": "Contrato con el cliente" },
+        { "label": "Facturación y cobros" },
+        { "label": "Creación del Workspace" },
+        { "label": "Infraestructura, actualizaciones y soporte" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Tu cliente puede empezar con el ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 días gratis, sin tarjeta y sin compromiso.",
+    "descriptionLine2": "El cliente conoce la plataforma antes de elegir el plan.",
+    "cta": "CONOCER EL TEST DRIVE"
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "ariaExpand": "Mostrar respuesta",
+    "items": [
+      {
+        "question": "¿Existe exclusividad territorial?",
+        "answer": "No. El programa es global: socios y afiliados de cualquier región pueden prospectar y referir clientes, sin restricción geográfica."
+      },
+      {
+        "question": "¿Cómo se protegen las oportunidades?",
+        "answer": "Cada oportunidad registrada en la plataforma queda vinculada al socio o afiliado responsable, evitando superposiciones y garantizando el reconocimiento por el negocio referido."
+      },
+      {
+        "question": "¿Cuándo se paga la comisión?",
+        "answer": "La comisión se libera tras la confirmación del pago del cliente, siguiendo el ciclo de facturación definido en las condiciones del programa."
+      },
+      {
+        "question": "¿El socio puede facturar al cliente?",
+        "answer": "No. Interfy gestiona el contrato, la facturación y el cobro directamente con el cliente, mientras el socio se enfoca en la relación comercial."
+      },
+      {
+        "question": "¿Cómo funciona la renovación anual?",
+        "answer": "La renovación es automática mientras el cliente permanezca activo, y el socio o afiliado continúa recibiendo pagos según las condiciones del programa."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Forma parte del ecosistema global Interfy.ai",
+    "heading": "¿Crecemos juntos?",
+    "subheading": "Elige tu modalidad y forma parte del ecosistema global Interfy.ai.",
+    "primaryButton": "QUIERO SER SOCIO",
+    "secondaryButton": "QUIERO SER AFILIADO",
+    "statsLabel": "Números de la plataforma Interfy",
+    "stats": [
+      { "label": "12Mil M +", "sublabel": "documentos" },
+      { "label": "20M +", "sublabel": "suscripciones" },
+      { "label": "2,5M +", "sublabel": "usuarios" },
+      { "label": "6M +", "sublabel": "procesos" },
+      { "label": "1000 TB +", "sublabel": "almacenados" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "soporte" }
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import { ecmHighlightBlocks } from "@/config/ecm-page";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
@@ -56,13 +57,8 @@ export default async function EcmHighlights() {
               </ul>
             </div>
             <div className="relative size-[255px] shrink-0 overflow-hidden @max-[380px]:size-[180px]">
-              <video
+              <AutoplayVideo
                 src={securityBlock.image.src}
-                autoPlay
-                loop
-                muted
-                playsInline
-                aria-hidden="true"
                 className="-m-px size-[calc(100%+2px)] max-w-none object-cover mix-blend-multiply"
               />
             </div>

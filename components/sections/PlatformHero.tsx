@@ -4,15 +4,15 @@ import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { platformHeroChipIcons } from "@/config/platform-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
-import { withLocale } from "@/lib/i18n/paths";
-
-const heroSlides = ["/hero/hero-slide-3.webp", "/hero/hero-slide-1.webp"];
+import { getHeroSlides, withLocale } from "@/lib/i18n/paths";
 
 export default async function PlatformHero() {
   const locale = await getLocale();
   const { platform, common } = await getDictionary();
   const { hero } = platform;
   const chips = platformHeroChipIcons.map((icon, i) => ({ icon, ...hero.chips[i] }));
+  const [homeSlide, loginSlide] = getHeroSlides(locale);
+  const heroSlides = [loginSlide, homeSlide];
 
   return (
     <section

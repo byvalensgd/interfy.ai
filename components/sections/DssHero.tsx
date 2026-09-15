@@ -64,9 +64,9 @@ export default async function DssHero() {
             </Reveal>
 
             <Reveal immediate className="flex min-w-0 flex-col items-center" delayMs={120}>
-              <div className="relative aspect-[2625/1793] w-full">
+              <div className="relative aspect-[2400/1756] w-full">
                 <Image
-                  src="/dss/hero-mockup.webp"
+                  src="/swc/hero-mockup.webp"
                   alt={hero.mockupAlt}
                   fill
                   priority

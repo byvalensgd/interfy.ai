@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI Credits",
+    "description": "One single AI Credits balance for all the intelligence in the Interfy.ai platform. Simple, transparent, and powerful — use it across Documents, Process, Capture, Agents, Voice, and more.",
+    "keywords": ["AI Credits", "artificial intelligence credits", "AI plans", "Interfy credit usage"]
+  },
+  "hero": {
+    "headingLine1": "One single balance of",
+    "headingHighlight": "AI Credits ",
+    "headingSuffix": "for all the intelligence in the platform.",
+    "description1": "AI Credits are Interfy.ai's intelligence currency.",
+    "description2": "Simple, transparent, and powerful.",
+    "ctaPrimary": "Get started",
+    "ctaSecondary": "Schedule a demo",
+    "bannerAriaLabel": "Why choose AI Credits",
+    "banner": [
+      { "title": "Simple", "description": "One single balance for the whole platform." },
+      { "title": "Transparent", "description": "You control, monitor, and receive alerts." },
+      { "title": "Powerful", "description": "Powers agents, automations, analytics, and more." }
+    ],
+    "strip": {
+      "heading": "One single balance. Every intelligence.",
+      "description": "No separate credits. No complexity.",
+      "ariaLabel": "Benefits of a single AI Credits balance",
+      "items": [
+        { "label": "More productivity" },
+        { "label": "Better decisions" },
+        { "label": "Less manual work" },
+        { "label": "More results" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "Where ",
+    "headingHighlight": "AI Credits ",
+    "headingSuffix": "can be used",
+    "ariaLabel": "Products that use AI Credits",
+    "items": [
+      { "title": "Documents", "description": "Smart reading, summaries, data extraction, Q&A, translation, and analysis." },
+      { "title": "Process", "description": "Intelligent decisions, automatic execution, classification, and routing." },
+      { "title": "Capture", "description": "Advanced OCR, structured extraction, validation, and intelligent indexing." },
+      { "title": "Agents", "description": "Task execution, analysis, recommendations, integrations, and actions." },
+      { "title": "Voice", "description": "Voice interaction, smart search, commands, and natural-language responses." },
+      { "title": "And much more", "description": "Insights, predictions, comparisons, reports, and other AI operations." }
+    ],
+    "notice": {
+      "title": "Consumption varies by the type, complexity, and volume of each operation.",
+      "description": "More complex processes use more AI Credits."
+    }
+  },
+  "structure": {
+    "headingPrefix": "A complete structure ",
+    "headingHighlight": "to help you grow",
+    "ariaLabel": "AI Credits management features",
+    "items": [
+      { "title": "Workspace control", "description": "Each Workspace has its own balance, limits, and permissions." },
+      { "title": "Limits and permissions", "description": "Set monthly limits and controls by role, team, or area." },
+      { "title": "Detailed reports", "description": "See consumption by module, user, operation, and period." },
+      { "title": "Smart alerts", "description": "Get alerts for usage, approaching limits, and low balance." },
+      { "title": "Additional purchase", "description": "Need more? Upgrade or buy additional AI Credits." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "AI Credits ",
+    "headingHighlight": "plans",
+    "headingSuffix": " - buy only what you need",
+    "table": {
+      "ariaLabel": "AI Credits plans table",
+      "colPlan": "Plan",
+      "colCredits": "AI Credits",
+      "colPrice": "Price",
+      "colPricePer1000": "Price per 1,000 credits",
+      "footnote": "Prices exclude taxes. Contact us for terms."
+    },
+    "consumption": {
+      "heading": "Usage examples",
+      "items": [
+        { "title": "Reading and summarizing a document (10 pages)", "credits": "5 AI Credits" },
+        { "title": "Extracting data from a document (1 page)", "credits": "3 AI Credits" },
+        { "title": "Smart document classification", "credits": "2 AI Credits" },
+        { "title": "Running an Agent (medium task)", "credits": "10 AI Credits" },
+        { "title": "Asking a question via Voice (medium)", "credits": "2 AI Credits" },
+        { "title": "Smart report (medium)", "credits": "15 AI Credits" },
+        { "title": "Translating a document (1 page)", "credits": "4 AI Credits" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "Frequently asked questions and next steps",
+    "faqHeading": "Frequently asked questions",
+    "faqAriaExpand": "Expand answer",
+    "faq": [
+      {
+        "question": "What are AI Credits?",
+        "answer": "AI Credits are Interfy.ai's single artificial intelligence currency. Every AI-powered operation — reading, extraction, classification, running agents, and more — consumes a number of credits based on the task's complexity."
+      },
+      {
+        "question": "Can I share AI Credits between Workspaces?",
+        "answer": "No. Each Workspace has its own AI Credits balance, with independent limits and permissions, giving you full control over consumption per area or team."
+      },
+      {
+        "question": "Can I buy additional credits at any time?",
+        "answer": "Yes. You can purchase additional AI Credits packages whenever you need, directly from the platform, without changing your plan."
+      },
+      {
+        "question": "Do AI Credits expire?",
+        "answer": "Credits included in your plan renew every billing cycle. Additional packages you purchase follow the agreed terms — contact our team for details."
+      },
+      {
+        "question": "How is consumption calculated?",
+        "answer": "Consumption varies by the type, complexity, and volume of each operation. Simple tasks, like classification, use fewer credits; more complex processes, like running agents, use more."
+      },
+      {
+        "question": "Are AI Credits included in the plans?",
+        "answer": "Yes. Every Interfy.ai plan includes an AI Credits balance for intelligent processing. If you need more, you can buy additional credits at any time."
+      }
+    ],
+    "specialistTitle": "Still have questions?",
+    "specialistDesc": "Talk to our team and see how AI Credits can accelerate your results.",
+    "specialistCta": "Talk to a specialist",
+    "ctaTitle": "Ready to transform your operation?",
+    "ctaDesc": "Join thousands of companies that already trust Interfy.ai.",
+    "ctaButton": "Get started",
+    "statsLabel": "Interfy platform numbers"
+  }
+}

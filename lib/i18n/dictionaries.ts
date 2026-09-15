@@ -31,6 +31,9 @@ const NAMESPACES = [
   "seguranca",
   "integracoes",
   "demo",
+  "parceria",
+  "empresa",
+  "aiCreditos",
 ] as const;
 
 type Namespace = (typeof NAMESPACES)[number];
@@ -63,6 +66,9 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     seguranca: () => import("@/messages/pt/seguranca.json"),
     integracoes: () => import("@/messages/pt/integracoes.json"),
     demo: () => import("@/messages/pt/demo.json"),
+    parceria: () => import("@/messages/pt/parceria.json"),
+    empresa: () => import("@/messages/pt/empresa.json"),
+    aiCreditos: () => import("@/messages/pt/ai-creditos.json"),
   },
   en: {
     common: () => import("@/messages/en/common.json"),
@@ -90,6 +96,9 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     seguranca: () => import("@/messages/en/seguranca.json"),
     integracoes: () => import("@/messages/en/integracoes.json"),
     demo: () => import("@/messages/en/demo.json"),
+    parceria: () => import("@/messages/en/parceria.json"),
+    empresa: () => import("@/messages/en/empresa.json"),
+    aiCreditos: () => import("@/messages/en/ai-creditos.json"),
   },
   es: {
     common: () => import("@/messages/es/common.json"),
@@ -117,6 +126,9 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     seguranca: () => import("@/messages/es/seguranca.json"),
     integracoes: () => import("@/messages/es/integracoes.json"),
     demo: () => import("@/messages/es/demo.json"),
+    parceria: () => import("@/messages/es/parceria.json"),
+    empresa: () => import("@/messages/es/empresa.json"),
+    aiCreditos: () => import("@/messages/es/ai-creditos.json"),
   },
 };
 

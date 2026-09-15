@@ -1,20 +1,16 @@
 import Image from "next/image";
 import ImageSlideshow from "@/components/ui/ImageSlideshow";
 import Reveal from "@/components/ui/Reveal";
-import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
+import { getWhiteLabelSlides } from "@/lib/i18n/paths";
 import { securityBadges } from "@/config/trust";
 
-const whiteLabelSlides = [
-  "/global/white-label-1.webp",
-  "/global/white-label-2.webp",
-  "/global/white-label-3.webp",
-  "/global/white-label-4.webp",
-];
-
 export default async function GlobalTrust() {
+  const locale = await getLocale();
   const { home } = await getDictionary();
   const { globalTrust } = home;
   const badges = securityBadges.map((badge, i) => ({ ...badge, ...globalTrust.security.badges[i] }));
+  const whiteLabelSlides = getWhiteLabelSlides(locale);
 
   return (
     <section

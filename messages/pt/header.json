@@ -27,6 +27,7 @@
   "recursosMenu": {
     "trigger": "Recursos",
     "recursosEyebrow": "Recursos",
+    "cardCta": "Saiba mais",
     "recursosItems": [
       { "label": "Segmentos" },
       { "label": "AI Créditos" },
@@ -46,6 +47,7 @@
   "empresaMenu": {
     "trigger": "Empresa",
     "eyebrow": "Empresa",
+    "cardCta": "Saiba mais",
     "items": [
       { "label": "Sobre a Interfy" },
       { "label": "Plataforma Interfy" },

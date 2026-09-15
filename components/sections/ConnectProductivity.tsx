@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { connectProductivityItems } from "@/config/connect-page";
 
@@ -11,13 +12,8 @@ export default async function ConnectProductivity() {
     <section aria-label={productivity.ariaLabel} className="flex justify-center bg-branco px-5 py-10 sm:py-16">
       <Reveal className="flex w-full max-w-[1400px] flex-wrap items-stretch gap-5">
         <div className="flex min-w-[320px] flex-1 items-center gap-[30px] rounded-[20px] border border-contorno-base bg-bg-base px-5 py-[30px]">
-          <video
+          <AutoplayVideo
             src="/connect/sign-promo-illustration.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            aria-hidden="true"
             className="mix-blend-multiply hidden size-[185px] shrink-0 object-cover sm:block"
           />
           <div className="flex min-w-0 flex-1 flex-col gap-10">
