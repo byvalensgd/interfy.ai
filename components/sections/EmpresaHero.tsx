@@ -25,7 +25,7 @@ export default async function EmpresaHero() {
           <div className="flex w-full max-w-[620px] min-w-[280px] flex-1 flex-col items-start gap-10">
             <h1
               id="empresa-hero-heading"
-              className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] leading-[1.2] font-extrabold text-texto"
+              className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
             >
               {hero.headingPrefix}
               <span className="text-azul-base">{hero.headingHighlight}</span>
@@ -33,11 +33,21 @@ export default async function EmpresaHero() {
 
             <p className="text-xl leading-[1.2] font-medium text-texto">{hero.description}</p>
 
-            <div className="flex w-full flex-wrap items-center gap-5">
-              <Button href={partnerHref} variant="primary" className="grow whitespace-nowrap sm:grow-0" showArrow>
+            <div className="flex w-full flex-nowrap items-center gap-2.5 sm:gap-5">
+              <Button
+                href={partnerHref}
+                variant="primary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                showArrow
+              >
                 {hero.ctaPrimary}
               </Button>
-              <Button href={partnerHref} variant="secondary" className="grow whitespace-nowrap sm:grow-0" showArrow>
+              <Button
+                href={partnerHref}
+                variant="secondary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                showArrow
+              >
                 {hero.ctaSecondary}
               </Button>
             </div>

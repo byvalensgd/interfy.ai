@@ -19,19 +19,38 @@ function FeatureStrip({
   dense?: boolean;
 }) {
   return (
-    <ul
-      aria-label={label}
-      className={`flex w-full flex-wrap items-stretch rounded-[12px] border border-contorno-base bg-branco ${
-        dense ? "gap-5 p-5" : "gap-x-10 gap-y-6 px-5 py-[30px]"
-      }`}
-    >
-      {items.map((item) => (
-        <li key={item.label} className="flex min-w-[140px] flex-1 flex-row items-center gap-2.5">
-          <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
-        </li>
-      ))}
-    </ul>
+    <>
+      {/* Below lg: each item becomes its own bordered card (icon over label,
+          centered), per the Figma mobile spec — instead of the desktop's
+          single shared strip with icon+label rows. */}
+      <ul aria-label={label} className="flex w-full flex-wrap gap-4 lg:hidden">
+        {items.map((item) => (
+          <li
+            key={item.label}
+            className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+          >
+            <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+            <span className="flex min-h-[30px] w-full items-center justify-center text-sm leading-[1.2] font-bold text-texto">
+              {item.label}
+            </span>
+          </li>
+        ))}
+      </ul>
+
+      <ul
+        aria-label={label}
+        className={`hidden w-full flex-wrap items-stretch rounded-[12px] border border-contorno-base bg-branco lg:flex ${
+          dense ? "gap-5 p-5" : "gap-x-10 gap-y-6 px-5 py-[30px]"
+        }`}
+      >
+        {items.map((item) => (
+          <li key={item.label} className="flex min-w-[140px] flex-1 flex-row items-center gap-2.5">
+            <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+            <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{item.label}</span>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 

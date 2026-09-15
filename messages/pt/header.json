@@ -9,7 +9,6 @@
   "productsMenu": {
     "trigger": "Produtos",
     "featuredEyebrow": "Principais produtos",
-    "featuredCta": "Saiba mais",
     "listEyebrow": "Mais produtos",
     "featured": [
       { "title": "Documents", "tagline": "Organize, encontre e proteja documentos com AI em cada etapa." },
@@ -27,7 +26,6 @@
   "recursosMenu": {
     "trigger": "Recursos",
     "recursosEyebrow": "Recursos",
-    "cardCta": "Saiba mais",
     "recursosItems": [
       { "label": "Segmentos" },
       { "label": "AI Créditos" },
@@ -47,7 +45,6 @@
   "empresaMenu": {
     "trigger": "Empresa",
     "eyebrow": "Empresa",
-    "cardCta": "Saiba mais",
     "items": [
       { "label": "Sobre a Interfy" },
       { "label": "Plataforma Interfy" },

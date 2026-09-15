@@ -39,9 +39,12 @@ export default async function VoiceCTA() {
               />
             </div>
 
-            <div className="flex min-w-[280px] flex-1 flex-col items-center gap-2 text-center text-branco lg:items-start lg:text-left">
-              <p className="text-[32px] leading-[1.2] font-bold">{cta.heading}</p>
-              <p className="text-[32px] leading-[1.2] font-bold">{cta.subheading}</p>
+            <div className="flex min-w-[280px] flex-1 flex-col items-center text-center text-branco lg:items-start lg:text-left">
+              <p className="text-[32px] leading-[1.2] font-bold">
+                {cta.heading}
+                <br />
+                {cta.subheading}
+              </p>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-[15px]">

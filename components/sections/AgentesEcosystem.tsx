@@ -24,7 +24,7 @@ export default async function AgentesEcosystem() {
         </h2>
 
         <Reveal className="w-full">
-          <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-10 sm:grid-cols-4 lg:flex lg:flex-nowrap lg:gap-x-5">
+          <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-10 sm:grid-cols-3 lg:flex lg:flex-nowrap lg:gap-x-5">
             {agentesEcosystemLinks.map((item, i) => (
               <div
                 key={item.product}

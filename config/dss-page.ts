@@ -3,7 +3,6 @@ export type HeroFeatureChip = {
 };
 
 export const dssHeroFeatureChips: HeroFeatureChip[] = [
-  { icon: "/icons/dss/assinatura-digital.svg" },
   { icon: "/icons/dss/assinatura-eletronica.svg" },
   { icon: "/icons/dss/assinatura-fluxo.svg" },
   { icon: "/icons/dss/multiplos-signatarios.svg" },

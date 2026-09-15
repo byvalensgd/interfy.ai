@@ -15,10 +15,10 @@ export default async function ParceriaTestDriveFaq() {
       <div className="flex w-full max-w-[1400px] flex-wrap items-stretch gap-5">
         <Reveal className="min-w-[600px] flex-1">
           <div
-            className="flex h-full items-center gap-5 overflow-hidden rounded-[20px] border border-contorno-base"
+            className="flex h-full items-center gap-5 overflow-hidden rounded-[20px] border border-contorno-base px-5 py-[30px]"
             style={{ backgroundImage: "linear-gradient(129deg, #ffffff 4.55%, #efefff 90.43%, #c8c8ff 126.82%)" }}
           >
-            <div className="flex flex-1 flex-col items-start gap-5 py-[30px] pl-5">
+            <div className="flex flex-1 flex-col items-start gap-5">
               <div className="flex flex-col items-start gap-5 text-texto">
                 <h2 className="text-2xl leading-[1.2] font-bold">
                   {testDrive.headingPrefix}
@@ -48,7 +48,7 @@ export default async function ParceriaTestDriveFaq() {
         </Reveal>
 
         <Reveal delayMs={120} className="min-w-[280px] flex-1">
-          <div className="h-full rounded-[14px] bg-bg-base p-5">
+          <div className="h-full rounded-[14px] border border-contorno-base bg-bg-base p-5">
             <ParceriaFaqList faq={faq.items} heading={faq.heading} ariaExpand={faq.ariaExpand} />
           </div>
         </Reveal>

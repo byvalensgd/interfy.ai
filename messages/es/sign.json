@@ -17,7 +17,6 @@
     "ctaSecondary": "Agenda una demostración",
     "mockupAlt": "Plataforma Interfy Sign en tablet y smartphone, mostrando un documento listo para firmar",
     "featureChips": [
-      { "labelLines": ["Firma", "digital"] },
       { "labelLines": ["Firma", "electrónica"] },
       { "labelLines": ["Firma", "por flujo"] },
       { "labelLines": ["Múltiples", "firmantes"] },

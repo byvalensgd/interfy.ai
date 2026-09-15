@@ -27,7 +27,7 @@ export default async function ParceriaParticipation() {
           {participation.heading}
         </h2>
 
-        <ul className="grid w-full grid-cols-1 items-stretch gap-5 lg:grid-cols-2">
+        <ul className="grid w-full grid-cols-1 items-stretch gap-5 md:grid-cols-2">
           {cards.map((card, i) => (
             <Reveal key={card.title} delayMs={i * 120}>
               <li className="flex h-full min-h-[265px] flex-col items-start gap-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">

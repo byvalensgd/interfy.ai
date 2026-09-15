@@ -97,7 +97,7 @@ export default async function Header() {
         </Link>
 
         <nav aria-label={header.mainNavAria} className="hidden min-w-0 flex-1 items-center justify-center lg:flex">
-          <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 xl:gap-x-10">
+          <ul className="flex flex-nowrap items-center justify-center gap-x-5 xl:gap-x-10">
             <li>
               <ProductsMenu items={header.productsMenu} locale={locale} />
             </li>
@@ -107,7 +107,7 @@ export default async function Header() {
             <li>
               <Link
                 href={withLocale("/planos", locale)}
-                className="whitespace-nowrap text-base text-texto transition-colors hover:text-azul-base"
+                className="flex min-h-[18px] items-center whitespace-nowrap text-[clamp(0.875rem,0.4808vw+0.5673rem,1rem)] leading-[1.5rem] text-texto transition-colors hover:text-azul-base"
               >
                 {header.nav.plans}
               </Link>
@@ -118,25 +118,27 @@ export default async function Header() {
           </ul>
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-2.5 lg:flex">
+        <div className="flex shrink-0 items-center gap-2.5">
           <LanguageSelectorCompact locale={locale} ariaLabel={header.languageSelectorAria} />
-          <Button href={withLocale("/comece-gratis", locale)} variant="primary" size="sm" className="!px-3 xl:!px-5">
-            {common.ctaPrimary}
-          </Button>
-          <Button href={withLocale("/demo", locale)} variant="secondary" size="sm" className="!px-3 xl:!px-5">
-            {common.ctaSecondary}
-          </Button>
-        </div>
+          <div className="hidden items-center gap-2.5 lg:flex">
+            <Button href={withLocale("/comece-gratis", locale)} variant="primary" size="sm" className="!px-3 xl:!px-5">
+              {common.ctaPrimary}
+            </Button>
+            <Button href={withLocale("/demo", locale)} variant="secondary" size="sm" className="!px-3 xl:!px-5">
+              {common.ctaSecondary}
+            </Button>
+          </div>
 
-        <MobileNav
-          entries={mobileEntries}
-          locale={locale}
-          ariaLabel={header.mobileNavAria}
-          openLabel={header.openMenu}
-          closeLabel={header.closeMenu}
-          ctaPrimary={common.ctaPrimary}
-          ctaSecondary={common.ctaSecondary}
-        />
+          <MobileNav
+            entries={mobileEntries}
+            locale={locale}
+            ariaLabel={header.mobileNavAria}
+            openLabel={header.openMenu}
+            closeLabel={header.closeMenu}
+            ctaPrimary={common.ctaPrimary}
+            ctaSecondary={common.ctaSecondary}
+          />
+        </div>
       </div>
     </header>
   );

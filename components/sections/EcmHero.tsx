@@ -7,10 +7,16 @@ import { withLocale } from "@/lib/i18n/paths";
 
 const aiGradient = "linear-gradient(93.5deg, #184aee 22.863%, #bf18f6 96.412%)";
 
+// Real product screenshot — the English asset covers every non-Portuguese
+// locale (en, es), the pt asset is pt-BR only.
+const heroMockupPt = "/ecm/hero-mockup.webp";
+const heroMockupEn = "/ecm/hero-mockup-en.webp";
+
 export default async function EcmHero() {
   const locale = await getLocale();
   const { documents } = await getDictionary();
   const stats = ecmHeroStatIcons.map((icon, i) => ({ icon, ...documents.hero.stats[i] }));
+  const heroMockup = locale === "pt" ? heroMockupPt : heroMockupEn;
 
   return (
     <section
@@ -26,13 +32,14 @@ export default async function EcmHero() {
         className="-z-10 object-cover"
       />
 
-      <div className="flex w-full max-w-[1400px] flex-1 items-center">
-        <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
+      <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
+        <div className="flex w-full flex-1 items-center">
+          <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
           <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
             <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
               <h1
                 id="ecm-hero-heading"
-                className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
                 {documents.hero.headingLine1}{" "}
                 <span className="inline-block bg-[linear-gradient(100.03deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
@@ -45,22 +52,30 @@ export default async function EcmHero() {
               </p>
             </div>
 
-            <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-              <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+            <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+              <Button
+                href={withLocale("/comece-gratis", locale)}
+                variant="primary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+              >
                 {documents.hero.ctaPrimary}
               </Button>
-              <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+              <Button
+                href={withLocale("/demo", locale)}
+                variant="secondary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+              >
                 {documents.hero.ctaSecondary}
               </Button>
             </div>
 
-            <ul className="flex w-full flex-wrap items-start gap-5">
+            <ul className="hidden w-full flex-wrap items-start gap-5 lg:flex">
               {stats.map((stat, index) => {
                 const grows = index < 2;
                 return (
                   <li
                     key={stat.icon}
-                    className={`flex min-w-[120px] flex-col items-start gap-2.5 rounded-[14px] text-left ${grows ? "flex-[1_0_0]" : "shrink-0"}`}
+                    className={`flex flex-col items-start gap-2.5 rounded-[14px] text-left ${grows ? "flex-[1_0_0]" : "shrink-0"}`}
                   >
                     <div className="flex items-center gap-2">
                       <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
@@ -80,9 +95,9 @@ export default async function EcmHero() {
           </Reveal>
 
           <Reveal immediate className="flex min-w-0 flex-col items-center" delayMs={120}>
-            <div className="relative z-0 mb-5 aspect-[2625/1793] w-full lg:mb-[-56px]">
+            <div className="relative z-0 mx-auto mb-[-56px] aspect-[2625/1769] w-full max-w-[750px] lg:max-w-none">
               <Image
-                src="/ecm/hero-mockup.webp"
+                src={heroMockup}
                 alt={documents.hero.mockupAlt}
                 fill
                 priority
@@ -112,6 +127,24 @@ export default async function EcmHero() {
             </div>
           </Reveal>
         </div>
+        </div>
+
+        {/* Below lg: hero stats become their own bordered-card block
+            (icon over centered text), matching the site's mobile blocks pattern. */}
+        <Reveal immediate delayMs={200} className="w-full lg:hidden">
+          <ul className="flex w-full flex-wrap gap-4">
+            {stats.map((stat) => (
+              <li
+                key={stat.icon}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <p className="w-full text-base leading-[1.2] font-bold text-texto-doc-ok">{stat.label}</p>
+                <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{stat.sublabel}</p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </div>
     </section>
   );

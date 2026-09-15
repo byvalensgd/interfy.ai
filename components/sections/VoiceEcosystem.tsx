@@ -23,10 +23,9 @@ export default async function VoiceEcosystem() {
               <div key={item.product} className="flex min-w-[120px] flex-1 flex-col items-center gap-5">
                 <span
                   className={`flex size-[70px] shrink-0 items-center justify-center rounded-full border bg-branco p-4 ${
-                    item.highlight
-                      ? "border-2 border-[rgba(9,161,234,0.3)] shadow-[0_0_15px_rgba(9,161,234,0.2),0_0_10px_rgba(9,161,234,0.4),0_0_7.5px_rgba(9,161,234,0.6)]"
-                      : "border-contorno-base"
+                    item.highlight ? "border-2 border-[rgba(9,161,234,0.3)]" : "border-contorno-base"
                   }`}
+                  style={item.highlight ? { animation: "voice-badge-glow 3s ease-in-out infinite" } : undefined}
                 >
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>

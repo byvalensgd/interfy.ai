@@ -239,3 +239,21 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
     transform: translateY(-8px);
   }
 }
+
+/* Voice's own badge in the ecosystem grid: the glow breathes slowly between
+   a faint and a brighter state, instead of sitting at one fixed intensity. */
+@keyframes voice-badge-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 15px rgba(9, 161, 234, 0.2),
+      0 0 10px rgba(9, 161, 234, 0.4),
+      0 0 7.5px rgba(9, 161, 234, 0.6);
+  }
+  50% {
+    box-shadow:
+      0 0 22px rgba(9, 161, 234, 0.35),
+      0 0 15px rgba(9, 161, 234, 0.55),
+      0 0 10px rgba(9, 161, 234, 0.75);
+  }
+}

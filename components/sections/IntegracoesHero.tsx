@@ -22,7 +22,7 @@ export default async function IntegracoesHero() {
           <Reveal immediate className="flex w-full max-w-[600px] min-w-[280px] flex-1 flex-col items-start gap-10">
             <h1
               id="integracoes-hero-heading"
-              className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] leading-[1.2] font-extrabold text-texto"
+              className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
             >
               {hero.headingPrefix}
               <span className="bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
@@ -33,11 +33,20 @@ export default async function IntegracoesHero() {
               {hero.description}
             </p>
 
-            <div className="flex w-full flex-wrap items-center gap-5">
-              <Button href="#sistemas" variant="primary" className="grow whitespace-nowrap sm:grow-0" showArrow>
+            <div className="flex w-full flex-nowrap items-center gap-2.5 sm:gap-5">
+              <Button
+                href="#sistemas"
+                variant="primary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                showArrow
+              >
                 {hero.ctaPrimary}
               </Button>
-              <Button href="/suporte" variant="secondary" className="grow whitespace-nowrap sm:grow-0">
+              <Button
+                href="/suporte"
+                variant="secondary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+              >
                 {hero.ctaSecondary}
                 <Code2 className="size-[18px]" aria-hidden="true" />
               </Button>

@@ -28,13 +28,12 @@ export default function StatsBar({
   const { number, sublabel } = sizeClasses[size];
 
   // Fixed grid columns (instead of flex-wrap) so every row's items start at
-  // the same x position, regardless of how many land in the last row.
-  // Three tiers so items never get cramped: sm settles for a safe 2-up,
-  // lg packs a "nice" count based on divisibility, and xl widens out to fit
+  // the same x position, regardless of how many land in the last row. Two
+  // tiers, both lg+ only (below that, the card grid above takes over): lg
+  // packs a "nice" count based on divisibility, and xl widens out to fit
   // every stat in a single row (up to 8) once there's genuinely room, per
   // the site's "stay wide as long as possible" breakpoint rule.
   const n = stats.length;
-  const smCols = n >= 2 ? "sm:grid-cols-2" : "";
   const packedCount = n % 4 === 0 || n % 4 === 3 ? 4 : n % 3 === 0 || n % 3 === 2 ? 3 : 2;
   const lgColsByCount = ["", "lg:grid-cols-1", "lg:grid-cols-2", "lg:grid-cols-3", "lg:grid-cols-4"];
   const lgCols = lgColsByCount[Math.min(packedCount, n)];
@@ -52,23 +51,47 @@ export default function StatsBar({
   const xlCols = xlColsByCount[Math.min(n, 8)];
 
   return (
-    <ul
-      aria-label={label}
-      className={`grid w-full grid-cols-1 rounded-[20px] border border-contorno-base bg-branco ${
-        dense ? "gap-5 p-5" : "gap-x-10 gap-y-5 px-5 py-[30px]"
-      } ${smCols} ${lgCols} ${xlCols}`}
-    >
-      {stats.map((stat) => (
-        <li key={stat.icon} className="flex min-w-0 items-center gap-2.5">
-          <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-          <div className="flex min-w-0 flex-1 flex-col items-start gap-2">
-            <p className={`w-full leading-[1.2] font-bold text-texto-doc-ok ${number}`}>{stat.label}</p>
-            {stat.sublabel && (
-              <p className={`w-full leading-[1.2] font-medium text-texto ${sublabel}`}>{stat.sublabel}</p>
-            )}
-          </div>
-        </li>
-      ))}
-    </ul>
+    <>
+      {/* Below lg: each stat becomes its own bordered card (icon over
+          number, centered), per the Figma mobile spec — instead of the
+          desktop's single shared strip with icon+number rows. */}
+      <ul aria-label={label} className="flex w-full flex-wrap gap-4 lg:hidden">
+        {stats.map((stat) => (
+          <li
+            key={stat.icon}
+            className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+          >
+            <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+            <div className="flex w-full flex-col items-center gap-2">
+              <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                {stat.label}
+              </p>
+              {stat.sublabel && (
+                <p className="w-full text-sm leading-[1.2] font-medium text-texto">{stat.sublabel}</p>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+
+      <ul
+        aria-label={label}
+        className={`hidden w-full grid-cols-1 rounded-[20px] border border-contorno-base bg-branco lg:grid ${
+          dense ? "gap-5 p-5" : "gap-x-10 gap-y-5 px-5 py-[30px]"
+        } ${lgCols} ${xlCols}`}
+      >
+        {stats.map((stat) => (
+          <li key={stat.icon} className="flex min-w-0 items-center gap-2.5">
+            <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+            <div className="flex min-w-0 flex-1 flex-col items-start gap-2">
+              <p className={`w-full leading-[1.2] font-bold text-texto-doc-ok ${number}`}>{stat.label}</p>
+              {stat.sublabel && (
+                <p className={`w-full leading-[1.2] font-medium text-texto ${sublabel}`}>{stat.sublabel}</p>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }

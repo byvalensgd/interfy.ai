@@ -70,7 +70,7 @@ export default async function FeatureShowcase() {
                 alt={capture.imageAlt}
                 fill
                 sizes="(min-width: 1024px) 300px, 80vw"
-                className="object-contain object-right"
+                className="object-contain"
               />
             </div>
           </div>

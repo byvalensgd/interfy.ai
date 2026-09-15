@@ -31,32 +31,37 @@ export default async function SwcHero() {
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="swc-hero-heading"
-                  className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                  className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
-                  {hero.titleLine1}
+                  {hero.titleLine1}{" "}
+                  <span className="bg-[linear-gradient(104deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                    {hero.titleLine2}
+                  </span>
                 </h1>
-                <p className="inline-block bg-[linear-gradient(104deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-transparent">
-                  {hero.titleLine2}
-                </p>
-                <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
+                <p className="text-pretty text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
                   <span className="font-bold text-azul-base">{hero.descriptionBrand} </span>
                   {hero.description}
                 </p>
-                <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-bold leading-[1.2] text-azul-base">
-                  {hero.descriptionNote}
-                </p>
               </div>
 
-              <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+                <Button
+                  href={withLocale("/comece-gratis", locale)}
+                  variant="primary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaPrimary}
                 </Button>
-                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                <Button
+                  href={withLocale("/demo", locale)}
+                  variant="secondary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaSecondary}
                 </Button>
               </div>
 
-              <ul className="flex w-full flex-col items-start gap-[15px]">
+              <ul className="hidden w-full flex-col items-start gap-[15px] lg:flex">
                 {swcHeroTrust.map((icon, index) => (
                   <li key={icon} className="flex w-full min-w-[240px] items-start gap-5">
                     <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
@@ -69,22 +74,53 @@ export default async function SwcHero() {
             </Reveal>
 
             <Reveal immediate className="flex min-w-0 flex-col items-start" delayMs={120}>
-              <div className="relative aspect-[2400/1756] w-full">
+              <div className="relative mx-auto aspect-[2400/1756] w-full max-w-[750px] lg:max-w-none">
                 <Image src="/swc/hero-mockup.webp" alt={hero.mockupAlt} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-contain" />
               </div>
             </Reveal>
           </div>
         </div>
 
-        <Reveal immediate className="grid w-full grid-cols-[repeat(auto-fit,minmax(min(260px,100%),1fr))] gap-[15px] rounded-[20px] bg-branco px-5 py-[30px]" delayMs={120}>
-          {swcHeroFlow.map((icon, index) => (
-            <div key={icon} className="flex min-w-0 items-center gap-2.5">
-              <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-              <span className="w-full min-w-0 text-lg leading-[1.2] font-extrabold text-texto">
-                {hero.flow[index].text}
-              </span>
-            </div>
-          ))}
+        {/* Below lg: trust + flow items merge into one bordered-card block
+            (icon over centered text), matching StatsBar's mobile pattern. */}
+        <Reveal immediate className="w-full lg:hidden">
+          <ul className="flex w-full flex-wrap gap-4">
+            {swcHeroTrust.map((icon, index) => (
+              <li
+                key={icon}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                  {hero.trust[index].text}
+                </p>
+              </li>
+            ))}
+            {swcHeroFlow.map((icon, index) => (
+              <li
+                key={icon}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                  {hero.flow[index].text}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal immediate className="w-full" delayMs={120}>
+          <div className="hidden w-full grid-cols-[repeat(auto-fit,minmax(min(260px,100%),1fr))] gap-[15px] rounded-[20px] bg-branco px-5 py-[30px] lg:grid">
+            {swcHeroFlow.map((icon, index) => (
+              <div key={icon} className="flex min-w-0 items-center gap-2.5">
+                <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <span className="w-full min-w-0 text-lg leading-[1.2] font-extrabold text-texto">
+                  {hero.flow[index].text}
+                </span>
+              </div>
+            ))}
+          </div>
         </Reveal>
       </div>
     </section>

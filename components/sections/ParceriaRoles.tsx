@@ -24,10 +24,10 @@ export default async function ParceriaRoles() {
                 ))}
               </ul>
             </div>
-            <div className="hidden min-w-px flex-1 items-center justify-end sm:flex">
+            <div className="hidden min-w-0 flex-1 items-center justify-end sm:flex">
               <AutoplayVideo
                 src="/parceria/voce-desenvolve-negocio.mp4"
-                className="aspect-[1284/716] w-full -ml-5 object-cover mix-blend-screen"
+                className="-ml-5 size-full object-cover mix-blend-screen"
               />
             </div>
           </div>
@@ -49,10 +49,11 @@ export default async function ParceriaRoles() {
                 ))}
               </ul>
             </div>
-            <div className="hidden max-w-[230px] min-w-[200px] flex-1 items-center justify-end sm:flex">
+            <div className="hidden min-w-0 flex-1 items-center justify-end sm:flex">
               <AutoplayVideo
-                src="/parceria/interfy-cuida-operacao.mp4"
-                className="aspect-[1598/1038] w-full object-cover mix-blend-multiply"
+                src="/parceria/interfy-cuida-operacao-shield.mp4"
+                loopImmediately
+                className="size-full object-cover mix-blend-multiply"
               />
             </div>
           </div>

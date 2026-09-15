@@ -41,7 +41,7 @@ export default async function PricingHero() {
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="pricing-hero-heading"
-                  className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                  className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   {hero.headingPrefix}{" "}
                   <span className="inline-block bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
@@ -84,7 +84,7 @@ export default async function PricingHero() {
                 alt={hero.imageAlt}
                 prevLabel={common.prevSlide}
                 nextLabel={common.nextSlide}
-                className="aspect-[2625/1793] w-full"
+                className="mx-auto aspect-[2625/1793] w-full max-w-[750px] lg:max-w-none"
               />
             </Reveal>
           </div>

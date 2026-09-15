@@ -37,7 +37,7 @@ export default async function Hero() {
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="hero-heading"
-                  className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                  className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   {hero.headline}{" "}
                   <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
@@ -64,18 +64,18 @@ export default async function Hero() {
                 </p>
               </div>
 
-              <div className="flex w-full flex-wrap items-center gap-5">
+              <div className="flex w-full flex-nowrap items-center gap-2.5 sm:gap-5">
                 <Button
                   href={withLocale("/comece-gratis", locale)}
                   variant="primary"
-                  className="grow whitespace-nowrap"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:!px-5 sm:!py-2.5 sm:!text-base"
                 >
                   {hero.ctaPrimary}
                 </Button>
                 <Button
                   href={withLocale("/demo", locale)}
                   variant="secondary"
-                  className="grow whitespace-nowrap"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:!px-5 sm:!py-2.5 sm:!text-base"
                 >
                   {hero.ctaSecondary}
                 </Button>
@@ -88,7 +88,7 @@ export default async function Hero() {
                 alt={hero.slideshowAlt}
                 prevLabel={common.prevSlide}
                 nextLabel={common.nextSlide}
-                className="aspect-[2625/1793] w-full"
+                className="mx-auto aspect-[2625/1793] w-full max-w-[750px] lg:max-w-none"
               />
 
               <div className="flex w-full flex-col items-center gap-4 px-0 lg:flex-row lg:flex-wrap lg:px-12">

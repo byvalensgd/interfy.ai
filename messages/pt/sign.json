@@ -17,7 +17,6 @@
     "ctaSecondary": "Agende uma demonstração",
     "mockupAlt": "Plataforma Interfy Sign exibida em tablet e smartphone, mostrando um documento pronto para assinatura",
     "featureChips": [
-      { "labelLines": ["Assinatura", "digital"] },
       { "labelLines": ["Assinatura", "eletrônica"] },
       { "labelLines": ["Assinatura", "por fluxo"] },
       { "labelLines": ["Múltiplos", "signatários"] },

@@ -22,20 +22,18 @@ export default async function MobileCTA() {
             sizes="100vw"
             className="-z-10 rounded-2xl object-cover"
           />
-          <div className="flex w-full flex-wrap items-center justify-between gap-10">
-            <div className="flex min-w-[280px] flex-1 items-center gap-5">
-              <div className="flex min-w-0 flex-1 flex-col gap-5 text-branco">
-                <p className="w-full text-2xl leading-[1.2] font-bold">{cta.title}</p>
-                <p className="w-full text-lg leading-[1.2] font-semibold">{cta.subtitle}</p>
-              </div>
+          <div className="flex w-full flex-col items-center gap-10 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex w-full flex-col items-center gap-5 text-center text-branco lg:w-auto lg:flex-1 lg:items-start lg:text-left">
+              <p className="w-full text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">{cta.title}</p>
+              <p className="w-full text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium">{cta.subtitle}</p>
             </div>
 
-            <div className="flex min-w-[280px] flex-1 flex-col items-center gap-5 text-center lg:flex-row lg:text-left">
+            <div className="flex w-full min-w-[280px] flex-col items-center gap-5 text-center lg:w-auto lg:min-w-[660px] lg:flex-1 lg:flex-row lg:text-left">
               {/* Scans to /get-app, which redirects to the App Store or Google Play based on device. */}
               <div className="hidden size-[100px] shrink-0 items-center justify-center rounded-[20px] bg-branco p-2.5 lg:flex">
                 <Image src="/mobile/qr-code.svg" alt={cta.qrCodeAlt} width={80} height={80} />
               </div>
-              <p className="min-w-0 flex-1 text-lg leading-[1.2] font-semibold text-branco">{cta.downloadPrompt}</p>
+              <p className="min-w-[180px] flex-1 text-lg leading-[1.2] font-semibold text-branco">{cta.downloadPrompt}</p>
               <div className="flex shrink-0 items-center gap-[15px]">
                 <a href={mobileGooglePlayUrl} target="_blank" rel="noreferrer">
                   <Image

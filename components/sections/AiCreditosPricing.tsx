@@ -17,21 +17,21 @@ export default async function AiCreditosPricing() {
           {pricing.headingSuffix}
         </h2>
 
-        <div className="flex w-full flex-col items-start gap-5 lg:flex-row">
-          <div className="w-full flex-1 overflow-x-auto rounded-[20px] border border-contorno-base">
+        <div className="flex w-full flex-col items-stretch gap-5 lg:flex-row">
+          <div className="w-full flex-1 overflow-hidden rounded-[20px] border border-contorno-base">
             <table aria-label={pricing.table.ariaLabel} className="w-full min-w-[640px] border-collapse text-center">
               <thead>
                 <tr>
-                  <th scope="col" className="border-2 border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
+                  <th scope="col" className="border border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
                     {pricing.table.colPlan}
                   </th>
-                  <th scope="col" className="border-2 border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
+                  <th scope="col" className="border border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
                     {pricing.table.colCredits}
                   </th>
-                  <th scope="col" className="border-2 border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
+                  <th scope="col" className="border border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
                     {pricing.table.colPrice}
                   </th>
-                  <th scope="col" className="border-2 border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
+                  <th scope="col" className="border border-contorno-base bg-bg-base p-5 text-xl leading-[1.2] font-bold text-texto">
                     {pricing.table.colPricePer1000}
                   </th>
                 </tr>
@@ -58,7 +58,7 @@ export default async function AiCreditosPricing() {
 
           <div className="flex w-full flex-col gap-[30px] rounded-[20px] border border-contorno-base bg-bg-base p-[15px] lg:w-[500px] lg:shrink-0">
             <p className="w-full px-2.5 pt-1.5 text-2xl leading-[1.2] font-bold text-texto">{pricing.consumption.heading}</p>
-            <ul className="flex w-full flex-col gap-2.5 rounded-xl bg-branco p-2.5">
+            <ul className="flex w-full flex-1 flex-col justify-between gap-2.5 rounded-xl bg-branco p-2.5">
               {consumptionItems.map((item, index) => (
                 <li
                   key={item.title}

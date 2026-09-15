@@ -56,7 +56,7 @@ export const ecmHighlightBlocks: HighlightBlockMedia[] = [
   },
   {
     variant: "light",
-    image: { src: "/ecm/security-shield.mp4", alt: "" },
+    image: { src: "/ecm/security-shield.webp", alt: "" },
   },
 ];
 

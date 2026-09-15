@@ -34,7 +34,7 @@ export default async function PlatformHero() {
             <Reveal immediate className="flex flex-col items-center gap-8 text-center lg:max-w-[520px] lg:items-start lg:text-left">
               <h1
                 id="platform-hero-heading"
-                className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
                 {hero.headingLine1}
                 <br />
@@ -51,11 +51,19 @@ export default async function PlatformHero() {
                 {hero.description2}
               </p>
 
-              <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+                <Button
+                  href={withLocale("/comece-gratis", locale)}
+                  variant="primary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaPrimary}
                 </Button>
-                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                <Button
+                  href={withLocale("/demo", locale)}
+                  variant="secondary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaSecondary}
                 </Button>
               </div>
@@ -67,7 +75,7 @@ export default async function PlatformHero() {
                 alt={hero.mockupAlt}
                 prevLabel={common.prevSlide}
                 nextLabel={common.nextSlide}
-                className="aspect-[2625/1793] w-full"
+                className="mx-auto aspect-[2625/1793] w-full max-w-[750px] lg:max-w-none"
               />
             </Reveal>
           </div>

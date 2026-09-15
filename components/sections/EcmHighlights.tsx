@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
-import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import { ecmHighlightBlocks } from "@/config/ecm-page";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
@@ -14,14 +13,14 @@ export default async function EcmHighlights() {
   return (
     <section aria-label={documents.highlights.sectionAria} className="flex justify-center bg-branco px-5 py-10 sm:py-16">
       <div className="grid w-full max-w-[1400px] items-stretch gap-5 grid-cols-[repeat(auto-fit,minmax(min(420px,100%),1fr))]">
-        <Reveal className="@container flex w-full flex-col justify-center overflow-hidden rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] p-5 sm:p-[30px]">
-          <div className="flex w-full flex-col items-center gap-6 text-center @min-[500px]:flex-row @min-[500px]:items-center @min-[500px]:justify-between @min-[500px]:text-left">
-            <div className="flex w-full flex-col items-center gap-6 @min-[500px]:flex-1 @min-[500px]:items-start">
-              <div className="flex flex-col items-center gap-5 @min-[500px]:items-start">
+        <Reveal className="@container flex w-full flex-col justify-start overflow-hidden rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] p-5 sm:p-[30px]">
+          <div className="flex w-full flex-1 flex-col items-center gap-6 text-left @min-[500px]:flex-row @min-[500px]:items-start @min-[500px]:justify-between">
+            <div className="flex w-full flex-col items-start gap-6 @min-[500px]:flex-1">
+              <div className="flex flex-col items-start gap-5">
                 <p className="text-[24px] leading-[1.2] font-bold text-branco">{mobileBlock.title}</p>
                 <p className="text-sm leading-[1.2] font-medium text-branco">{mobileBlock.description}</p>
               </div>
-              <ul className="flex flex-col items-center gap-[15px] @min-[500px]:items-start">
+              <ul className="flex flex-col items-start gap-[15px]">
                 {mobileBlock.checklist.map((item: string) => (
                   <li key={item} className="flex items-center gap-2.5">
                     <Image src="/icons/ecm/checkin-white.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
@@ -30,24 +29,24 @@ export default async function EcmHighlights() {
                 ))}
               </ul>
             </div>
-            <div className="relative h-[230px] w-[140px] shrink-0">
-              <Image src={mobileBlock.image.src} alt={mobileBlock.imageAlt} fill sizes="140px" className="object-contain object-bottom" />
+            <div className="relative aspect-[1142/1904] w-auto min-h-[233px] max-h-[400px] flex-1 @min-[500px]:min-h-0 @min-[500px]:grow-0 @min-[500px]:self-stretch">
+              <Image src={mobileBlock.image.src} alt={mobileBlock.imageAlt} fill sizes="200px" className="object-contain object-bottom" />
             </div>
           </div>
         </Reveal>
 
         <Reveal
-          className="@container flex w-full flex-col justify-center overflow-hidden rounded-[20px] border border-contorno-base p-5 sm:p-[30px]"
+          className="@container flex w-full flex-col justify-start overflow-hidden rounded-[20px] border border-contorno-base p-5 sm:p-[30px]"
           delayMs={120}
           style={{ backgroundImage: "linear-gradient(125.44deg, #ffffff 4.5532%, #efefff 90.434%, #c8c8ff 126.82%)" }}
         >
-          <div className="flex w-full flex-col items-center gap-6 text-center @min-[500px]:flex-row @min-[500px]:items-center @min-[500px]:justify-between @min-[500px]:text-left">
-            <div className="flex w-full flex-col items-center gap-6 @min-[500px]:flex-1 @min-[500px]:items-start">
-              <div className="flex flex-col items-center gap-5 @min-[500px]:items-start">
+          <div className="flex w-full flex-col items-center gap-6 text-left @min-[500px]:flex-row @min-[500px]:items-start @min-[500px]:justify-between">
+            <div className="flex w-full flex-1 flex-col items-start gap-6">
+              <div className="flex flex-col items-start gap-5">
                 <p className="text-[24px] leading-[1.2] font-bold text-texto">{securityBlock.title}</p>
                 <p className="text-sm leading-[1.2] font-medium text-texto">{securityBlock.description}</p>
               </div>
-              <ul className="flex flex-col items-center gap-[15px] @min-[500px]:items-start">
+              <ul className="flex flex-col items-start gap-[15px]">
                 {securityBlock.checklist.map((item: string) => (
                   <li key={item} className="flex items-center gap-2.5">
                     <Image src="/icons/ecm/checkin-blue.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
@@ -56,10 +55,13 @@ export default async function EcmHighlights() {
                 ))}
               </ul>
             </div>
-            <div className="relative size-[255px] shrink-0 overflow-hidden @max-[380px]:size-[180px]">
-              <AutoplayVideo
+            <div className="relative aspect-[745/874] w-[220px] shrink-0 @max-[380px]:w-[155px]">
+              <Image
                 src={securityBlock.image.src}
-                className="-m-px size-[calc(100%+2px)] max-w-none object-cover mix-blend-multiply"
+                alt={securityBlock.imageAlt}
+                fill
+                sizes="220px"
+                className="object-contain mix-blend-multiply"
               />
             </div>
           </div>

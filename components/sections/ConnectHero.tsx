@@ -29,7 +29,7 @@ export default async function ConnectHero() {
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="connect-hero-heading"
-                  className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                  className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   {hero.heading}{" "}
                   <span className="inline-block bg-[linear-gradient(104deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
@@ -42,16 +42,24 @@ export default async function ConnectHero() {
                 </p>
               </div>
 
-              <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+                <Button
+                  href={withLocale("/comece-gratis", locale)}
+                  variant="primary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaPrimary}
                 </Button>
-                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                <Button
+                  href={withLocale("/demo", locale)}
+                  variant="secondary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaSecondary}
                 </Button>
               </div>
 
-              <ul className="flex w-full flex-col gap-[15px]">
+              <ul className="hidden w-full flex-col gap-[15px] lg:flex">
                 {connectHeroHighlights.map((item, i) => (
                   <li key={item.icon} className="flex w-full items-start gap-5">
                     <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
@@ -69,11 +77,30 @@ export default async function ConnectHero() {
                 alt={hero.imageAlt}
                 prevLabel={common.prevSlide}
                 nextLabel={common.nextSlide}
-                className="aspect-[2625/1769] w-full"
+                className="mx-auto aspect-[2625/1769] w-full max-w-[750px] lg:max-w-none"
               />
             </Reveal>
           </div>
         </div>
+
+        {/* Below lg: each highlight becomes its own bordered card (icon over
+            centered text), matching the site's "Blocos Mobile" pattern —
+            placed after the slideshow image, not beside/above it. */}
+        <Reveal immediate delayMs={200} className="w-full lg:hidden">
+          <ul className="flex w-full flex-wrap gap-4">
+            {connectHeroHighlights.map((item, i) => (
+              <li
+                key={item.icon}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                  {hero.highlights[i].label}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </div>
     </section>
   );

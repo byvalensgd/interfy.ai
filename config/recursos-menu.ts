@@ -1,16 +1,14 @@
-import type { Tint } from "@/config/products-menu";
-
 export type NavMenuItem = {
   href: string;
   icon: string;
 };
 
-/** Order matches header.json's `recursosMenu.recursosItems` array. `tint` drives the desktop mega-menu's big cards (mobile still uses `icon` in the plain accordion list). */
-export const recursosMenuItems: (NavMenuItem & { tint: Tint })[] = [
-  { href: "/segmentos", icon: "/icons/footer/segmentos.svg", tint: "ecm" },
-  { href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg", tint: "bpm" },
-  { href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg", tint: "swc" },
-  { href: "/cases", icon: "/icons/footer/certificado.svg", tint: "dss" },
+/** Order matches header.json's `recursosMenu.recursosItems` array. */
+export const recursosMenuItems: NavMenuItem[] = [
+  { href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
+  { href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
+  { href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg" },
+  { href: "/cases", icon: "/icons/footer/certificado.svg" },
 ];
 
 /** Order matches header.json's `recursosMenu.legalItems` array. */

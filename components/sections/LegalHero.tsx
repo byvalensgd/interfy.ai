@@ -31,7 +31,7 @@ export default function LegalHero({
           {content.eyebrow}
         </span>
 
-        <h1 className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto">
+        <h1 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto">
           {firstWord}
           {restText && (
             <>

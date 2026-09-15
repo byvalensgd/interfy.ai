@@ -36,17 +36,19 @@ export default async function ConnectCTA() {
             className="-z-10 object-cover"
           />
           <div className="flex w-full flex-wrap items-center justify-center gap-10">
-            <div className="flex min-w-[320px] flex-1 flex-col items-center gap-5 text-center text-branco lg:items-start lg:text-left">
-              <p className="text-[32px] leading-[1.2] font-bold">{cta.heading}</p>
-              <p className="min-h-[14px] text-[20px] leading-[1.2] font-medium">{cta.subheading}</p>
+            <div className="flex min-w-0 flex-1 flex-col items-center gap-5 text-center text-branco sm:items-start sm:text-left">
+              <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">{cta.heading}</p>
+              <p className="min-h-[14px] text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-medium">
+                {cta.subheading}
+              </p>
             </div>
-            <div className="flex w-full max-w-[320px] flex-col items-start gap-5">
+            <div className="flex w-full flex-col items-stretch gap-5 sm:w-auto sm:shrink-0">
               <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="w-full whitespace-nowrap">
                 {cta.primaryButton}
               </Button>
               <Link
                 href={withLocale("/demo", locale)}
-                className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-[30px] py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30"
+                className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30"
               >
                 {cta.secondaryButton}
                 <Calendar className="size-5" aria-hidden="true" />

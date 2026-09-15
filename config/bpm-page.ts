@@ -53,7 +53,7 @@ export const bpmProcessTypeIcons: string[] = [
 
 export const bpmCtaFeatureIcons: string[] = [
   "/icons/segments/cta-web-mobile.svg",
-  "/icons/agentes/shield-check.svg",
-  "/icons/features/escalabilidade.svg",
+  "/icons/bpm/cta-seguranca.svg",
+  "/icons/bpm/cta-escalavel.svg",
   "/global/fast-support.svg",
 ];

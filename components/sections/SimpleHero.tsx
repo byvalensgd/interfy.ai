@@ -47,7 +47,7 @@ export default function SimpleHero({
           )}
           <h1
             id={headingId}
-            className="max-w-3xl text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+            className="max-w-3xl text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
           >
             {titleLine1}{" "}
             {titleHighlight && (
@@ -61,14 +61,22 @@ export default function SimpleHero({
           </p>
 
           {(primaryLabel || secondaryLabel) && (
-            <div className="flex w-full flex-wrap items-center justify-center gap-5">
+            <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5">
               {primaryHref && primaryLabel && (
-                <Button href={primaryHref} variant="primary" className="grow whitespace-nowrap sm:grow-0">
+                <Button
+                  href={primaryHref}
+                  variant="primary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {primaryLabel}
                 </Button>
               )}
               {secondaryHref && secondaryLabel && (
-                <Button href={secondaryHref} variant="secondary" className="grow whitespace-nowrap sm:grow-0">
+                <Button
+                  href={secondaryHref}
+                  variant="secondary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {secondaryLabel}
                 </Button>
               )}

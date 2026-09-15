@@ -17,7 +17,6 @@
     "ctaSecondary": "Schedule a demo",
     "mockupAlt": "Interfy Sign platform shown on tablet and smartphone, with a document ready for signature",
     "featureChips": [
-      { "labelLines": ["Digital", "signature"] },
       { "labelLines": ["Electronic", "signature"] },
       { "labelLines": ["Workflow", "signature"] },
       { "labelLines": ["Multiple", "signers"] },

@@ -9,6 +9,13 @@ export default async function Footer() {
   const locale = await getLocale();
   const { footer, header } = await getDictionary();
   const year = new Date().getFullYear();
+  const trustIcons = [
+    "/footer/trust-security.svg",
+    "/footer/trust-cloud.svg",
+    "/footer/trust-lgpd.svg",
+    "/footer/trust-uptime.svg",
+  ];
+  const trustItems = footer.trustItems as { title: string; description: string }[];
 
   return (
     <footer className="flex flex-col items-center gap-10 bg-bg-base pt-[50px]">
@@ -83,25 +90,39 @@ export default async function Footer() {
       </div>
 
       <div className="flex w-full justify-center px-5">
-        <ul className="flex w-full max-w-[1400px] flex-wrap items-center justify-around gap-x-10 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5">
-          {(footer.trustItems as { title: string; description: string }[]).map((item, i) => {
-            const icons = [
-              "/footer/trust-security.svg",
-              "/footer/trust-cloud.svg",
-              "/footer/trust-lgpd.svg",
-              "/footer/trust-uptime.svg",
-            ];
-            return (
+        <div className="flex w-full max-w-[1400px] flex-col">
+          {/* Below lg: each trust item becomes its own bordered card (icon
+              over title, centered), same Figma mobile card used across the
+              site's stat/feature strips. */}
+          <ul className="flex w-full flex-wrap gap-4 lg:hidden">
+            {trustItems.map((item, i) => (
+              <li
+                key={item.title}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={trustIcons[i]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
+                <div className="flex w-full flex-col items-center gap-2">
+                  <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-extrabold text-texto">
+                    {item.title}
+                  </p>
+                  <p className="w-full text-sm leading-[1.2] font-normal text-texto">{item.description}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          <ul className="hidden w-full flex-wrap items-center justify-around gap-x-10 gap-y-5 rounded-[12px] border border-contorno-base bg-branco px-2.5 py-2.5 lg:flex">
+            {trustItems.map((item, i) => (
               <li key={item.title} className="flex flex-col items-center gap-5 py-4 text-center sm:flex-row sm:text-left">
-                <Image src={icons[i]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
+                <Image src={trustIcons[i]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
                 <div className="flex flex-col items-center gap-2.5 sm:items-start">
                   <p className="text-[18px] leading-[1.2] font-extrabold whitespace-nowrap text-texto">{item.title}</p>
                   <p className="text-base leading-[1.2] font-normal text-texto">{item.description}</p>
                 </div>
               </li>
-            );
-          })}
-        </ul>
+            ))}
+          </ul>
+        </div>
       </div>
 
       <div className="flex w-full justify-center bg-branco px-5 py-5">

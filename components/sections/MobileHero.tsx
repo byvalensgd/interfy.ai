@@ -30,7 +30,7 @@ export default async function MobileHero() {
             <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
               <h1
                 id="mobile-hero-heading"
-                className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
                 {hero.heading}{" "}
                 <span className="inline-block bg-[linear-gradient(112deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
@@ -62,7 +62,23 @@ export default async function MobileHero() {
                 </a>
               </div>
 
-              <ul className="flex w-full flex-wrap items-start gap-[10px]">
+              {/* Below lg: each highlight becomes its own bordered card ("Blocos Mobile"),
+                  the site's standing icon+text mobile treatment (see StatsBar.tsx). */}
+              <ul className="flex w-full flex-wrap gap-4 lg:hidden">
+                {mobileHeroHighlights.map((item, i) => (
+                  <li
+                    key={item.icon}
+                    className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                  >
+                    <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                    <span className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                      {hero.highlights[i].label}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <ul className="hidden w-full flex-wrap items-start gap-[10px] lg:flex">
                 {mobileHeroHighlights.map((item, i) => (
                   <li key={item.icon} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
                     <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} />
@@ -76,7 +92,7 @@ export default async function MobileHero() {
 
             <Reveal
               immediate
-              className="flex min-w-0 flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-center"
+              className="flex min-w-0 flex-col items-center gap-6 sm:flex-row sm:items-center sm:justify-center"
               delayMs={120}
             >
               <div className="relative z-0 flex w-full flex-1 items-center justify-center lg:mr-[-110px]">
@@ -85,11 +101,12 @@ export default async function MobileHero() {
                   alt={hero.mockupAlt}
                   prevLabel={common.prevSlide}
                   nextLabel={common.nextSlide}
+                  introVideo={{ src: "/mobile/hero-slide-transition.webm", delayMs: 2000 }}
                   className="aspect-[1142/1904] w-full max-w-[300px] shrink-0 lg:max-w-[420px] lg:max-h-[700px]"
                 />
               </div>
 
-              <div className="relative z-10 flex w-full max-w-[320px] shrink-0 flex-col items-start gap-[15px] sm:gap-[30px]">
+              <div className="relative z-10 flex w-full flex-col items-start gap-[15px] sm:flex-1 sm:w-auto sm:gap-[30px]">
                 {mobileHeroFloatingCards.map((item, i) => (
                   <div
                     key={item.icon}
@@ -99,7 +116,7 @@ export default async function MobileHero() {
                       <span className={`flex size-[50px] shrink-0 items-center justify-center rounded-full p-3 ${item.bgClass}`}>
                         <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} />
                       </span>
-                      <p className="flex min-h-[50px] min-w-0 flex-1 flex-col justify-center text-xl leading-[1.2] font-bold text-texto-doc-ok">
+                      <p className="flex min-h-[50px] min-w-0 flex-1 flex-col justify-center text-lg leading-[1.2] font-bold text-texto-doc-ok">
                         {hero.floatingCards[i].title}
                       </p>
                     </div>

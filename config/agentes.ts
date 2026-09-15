@@ -2,7 +2,7 @@ import type { TrustBadge } from "@/config/trust";
 
 /** Icon order/length matches `hero.highlights` in messages/<locale>/agents.json. */
 export const agentesHeroHighlights: { icon: string }[] = [
-  { icon: "/icons/products/agents.svg" },
+  { icon: "/icons/agentes/agents-gradient.svg" },
   { icon: "/icons/agentes/raio.svg" },
   { icon: "/icons/agentes/shield-check.svg" },
   { icon: "/icons/agentes/integrado-plataforma.svg" },

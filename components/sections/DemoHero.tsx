@@ -19,7 +19,7 @@ export default async function DemoHero() {
               {hero.eyebrow}
             </span>
 
-            <h1 className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto">
+            <h1 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto">
               {hero.headingPrefix}{" "}
               <span className="inline-block bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 {hero.headingHighlight}

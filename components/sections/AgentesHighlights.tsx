@@ -6,10 +6,8 @@ import { agentesCreditFeatures, agentesCreditsBalance } from "@/config/agentes";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 
-const governanceCardBackground =
-  "linear-gradient(121deg, #ffffff 4.5532%, #eff7ff 90.434%, #c8e0ff 126.82%)";
-const creditsCardBackground =
-  "linear-gradient(126deg, #ffffff 4.5532%, #efefff 90.434%, #c8c8ff 126.82%)";
+const governanceCardBackground = "linear-gradient(121deg, #ffffff 4.5532%, #eff7ff 90.434%, #c8e0ff 126.82%)";
+const creditsCardBackground = "linear-gradient(126deg, #ffffff 4.5532%, #efefff 90.434%, #c8c8ff 126.82%)";
 
 export default async function AgentesHighlights() {
   const locale = await getLocale();
@@ -18,23 +16,28 @@ export default async function AgentesHighlights() {
 
   return (
     <section aria-label={highlights.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
-      <div className="flex w-full max-w-[1400px] flex-wrap items-stretch justify-center gap-5">
+      {/* Grid + auto-fit/minmax (not flex-wrap) so the cards actually shrink
+          toward their 320px floor before dropping to a second row, and
+          items-stretch so both cards always share the row's tallest height. */}
+      <div className="grid w-full max-w-[1400px] items-stretch gap-5 grid-cols-[repeat(auto-fit,minmax(320px,1fr))]">
         <Reveal
-          className="flex min-w-[320px] flex-1 basis-[620px] flex-col items-start gap-8 overflow-hidden rounded-[20px] border border-contorno-base p-5 sm:flex-row sm:p-[30px]"
+          className="@container flex h-full flex-col overflow-hidden rounded-[20px] border border-contorno-base px-5 py-[30px]"
           style={{ backgroundImage: governanceCardBackground }}
         >
-          <div className="relative h-[220px] w-full shrink-0 sm:h-auto sm:w-[210px] sm:self-stretch">
-            <Image
-              src="/agentes/shield-governance.png"
-              alt=""
-              aria-hidden="true"
-              fill
-              sizes="(min-width: 640px) 210px, 60vw"
-              className="object-contain object-top"
-            />
-          </div>
-          <div className="flex flex-1 flex-col items-center justify-between gap-[30px] sm:self-stretch">
-            <div className="flex w-full flex-col gap-[30px]">
+          {/* Below 570px of the card's own width, the shield can't sit beside
+              the text without cramping it — stack instead, text on top
+              (col-reverse keeps the image, first in the DOM so it stays on
+              the left once side by side, at the bottom when stacked). */}
+          <div className="flex h-full w-full flex-col-reverse gap-10 @min-[570px]:flex-row @min-[570px]:items-start @min-[570px]:justify-center @min-[570px]:gap-[40px]">
+            <div className="flex w-[210px] shrink-0 flex-col items-center gap-[10px] self-center @min-[570px]:self-auto">
+              <div className="relative h-[210px] w-[179px] shrink-0">
+                <Image src="/agentes/shield-governance.png" alt="" aria-hidden="true" fill sizes="179px" className="object-cover" />
+              </div>
+              <Button href={withLocale("/legal/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
+                {highlights.governance.cta}
+              </Button>
+            </div>
+            <div className="flex min-h-[220px] min-w-[280px] flex-1 flex-col gap-[30px]">
               <h3 className="text-xl leading-[1.2] font-bold text-texto">
                 {highlights.governance.title} <span className="text-azul-base">{highlights.governance.titleAccent}</span>
               </h3>
@@ -42,7 +45,7 @@ export default async function AgentesHighlights() {
                 {highlights.governance.items.map((item: string) => (
                   <li key={item} className="flex items-center gap-2.5">
                     <Image
-                      src="/icons/features/check-blue.svg"
+                      src="/icons/voice/check-azul.svg"
                       alt=""
                       aria-hidden="true"
                       width={16}
@@ -54,47 +57,46 @@ export default async function AgentesHighlights() {
                 ))}
               </ul>
             </div>
-            <Button href={withLocale("/legal/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
-              {highlights.governance.cta}
-            </Button>
           </div>
         </Reveal>
 
         <Reveal
-          className="flex min-w-[320px] flex-1 basis-[620px] flex-wrap items-start gap-8 overflow-hidden rounded-[20px] border border-contorno-base p-5 sm:p-[30px]"
+          className="@container flex h-full flex-col overflow-hidden rounded-[20px] border border-contorno-base px-5 py-[30px]"
           style={{ backgroundImage: creditsCardBackground }}
           delayMs={120}
         >
-          <div className="flex min-w-[280px] flex-1 flex-col gap-[30px]">
-            <div className="flex flex-col gap-5">
-              <h3 className="inline-block bg-[linear-gradient(122deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-xl leading-[1.2] font-bold text-transparent">
-                {highlights.credits.title}
-              </h3>
-              <p className="text-sm leading-[1.2] font-medium text-texto">
-                {highlights.credits.description}
-              </p>
+          <div className="flex h-full w-full flex-col items-center gap-[40px] @min-[570px]:flex-row @min-[570px]:items-start @min-[570px]:justify-center">
+            <div className="flex min-h-[220px] min-w-[280px] flex-1 flex-col gap-[30px]">
+              <div className="flex flex-col gap-5">
+                <h3 className="inline-block bg-[linear-gradient(122deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-xl leading-[1.2] font-bold text-transparent">
+                  {highlights.credits.title}
+                </h3>
+                <p className="text-sm leading-[1.2] font-medium text-texto">{highlights.credits.description}</p>
+              </div>
+              <div className="flex w-full flex-col items-center gap-5">
+                {agentesCreditFeatures.map((item, i) => (
+                  <div key={item.icon} className="flex w-full items-center gap-[15px]">
+                    <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                    <span className="min-w-0 flex-1 text-base leading-[1.2] font-bold text-texto">
+                      {highlights.credits.features[i].label}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
-            <ul className="flex flex-col gap-[15px]">
-              {agentesCreditFeatures.map((item, i) => (
-                <li key={item.icon} className="flex items-center gap-[15px]">
-                  <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} className="shrink-0" />
-                  <span className="min-w-0 flex-1 text-xs leading-[1.2] font-bold text-texto">
-                    {highlights.credits.features[i].label}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="flex w-full max-w-[200px] flex-col items-center justify-between gap-[10px] sm:w-auto sm:self-stretch">
-            <CreditsGauge
-              percent={agentesCreditsBalance.used}
-              label={highlights.credits.gaugeLabel}
-              value={agentesCreditsBalance.value}
-              sublabel={highlights.credits.gaugeSublabel}
-            />
-            <Button href={withLocale("/platform/ai-creditos", locale)} variant="secondary" size="sm" className="!rounded-md">
-              {highlights.credits.cta}
-            </Button>
+            <div className="flex w-[210px] shrink-0 flex-col items-center gap-[10px]">
+              <div className="[&>div]:max-w-[210px]">
+                <CreditsGauge
+                  percent={agentesCreditsBalance.used}
+                  label={highlights.credits.gaugeLabel}
+                  value={agentesCreditsBalance.value}
+                  sublabel={highlights.credits.gaugeSublabel}
+                />
+              </div>
+              <Button href={withLocale("/platform/ai-creditos", locale)} variant="secondary" size="sm" className="!rounded-md">
+                {highlights.credits.cta}
+              </Button>
+            </div>
           </div>
         </Reveal>
       </div>

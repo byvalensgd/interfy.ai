@@ -38,7 +38,7 @@ export default async function BpmHero() {
             <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
               <h1
                 id="bpm-hero-heading"
-                className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
                 {hero.titlePrefix}
                 <span className="text-azul-base">{hero.titleHighlight}</span>
@@ -49,16 +49,44 @@ export default async function BpmHero() {
               </p>
             </div>
 
-            <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-              <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+            <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+              <Button
+                href={withLocale("/comece-gratis", locale)}
+                variant="primary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+              >
                 {hero.ctaPrimary}
               </Button>
-              <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+              <Button
+                href={withLocale("/demo", locale)}
+                variant="secondary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+              >
                 {hero.ctaSecondary}
               </Button>
             </div>
 
-            <ul className="flex w-full flex-wrap items-start gap-5">
+            {/* Below lg: each stat becomes its own bordered card (icon over
+                label, centered), same mobile card pattern used across the
+                site's stat/feature strips. */}
+            <ul className="flex w-full flex-wrap gap-4 lg:hidden">
+              {stats.map((stat) => (
+                <li
+                  key={stat.icon}
+                  className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <div className="flex w-full flex-col items-center gap-2">
+                    <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-extrabold text-texto">
+                      {stat.label}
+                    </p>
+                    <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{stat.sublabel}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+
+            <ul className="hidden w-full flex-wrap items-start gap-5 lg:flex">
               {stats.map((stat) => (
                 <li key={stat.icon} className="flex min-w-[120px] flex-1 flex-col items-start gap-2.5 text-left">
                   <div className="flex items-center gap-2">
@@ -81,7 +109,7 @@ export default async function BpmHero() {
               alt={hero.mockupAlt}
               prevLabel={common.prevSlide}
               nextLabel={common.nextSlide}
-              className="aspect-[2625/1769] w-full"
+              className="mx-auto aspect-[2625/1769] w-full max-w-[750px] lg:max-w-none"
             />
           </Reveal>
         </div>

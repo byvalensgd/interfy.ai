@@ -31,7 +31,7 @@ export default async function DssHero() {
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="dss-hero-heading"
-                  className="text-[clamp(2rem,1.6667vw+1.6667rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                  className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
                 >
                   {hero.heading}{" "}
                   <span className="inline-block bg-[linear-gradient(117.12deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
@@ -53,18 +53,26 @@ export default async function DssHero() {
                 <span className="text-lg leading-[1.2] font-extrabold text-texto">{hero.noCreditCard}</span>
               </div>
 
-              <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
-                <Button href={withLocale("/comece-gratis", locale)} variant="primary" className="grow whitespace-nowrap lg:grow-0">
+              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+                <Button
+                  href={withLocale("/comece-gratis", locale)}
+                  variant="primary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaPrimary}
                 </Button>
-                <Button href={withLocale("/demo", locale)} variant="secondary" className="grow whitespace-nowrap lg:grow-0">
+                <Button
+                  href={withLocale("/demo", locale)}
+                  variant="secondary"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                >
                   {hero.ctaSecondary}
                 </Button>
               </div>
             </Reveal>
 
             <Reveal immediate className="flex min-w-0 flex-col items-center" delayMs={120}>
-              <div className="relative aspect-[2400/1756] w-full">
+              <div className="relative mx-auto aspect-[2400/1756] w-full max-w-[750px] lg:max-w-none">
                 <Image
                   src="/swc/hero-mockup.webp"
                   alt={hero.mockupAlt}
@@ -78,12 +86,30 @@ export default async function DssHero() {
           </div>
         </div>
 
-        <Reveal immediate delayMs={200} className="w-full">
-          <ul className="flex w-full flex-wrap items-start justify-between gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">
+        {/* Below lg: each chip becomes its own bordered card (icon over
+            centered text), matching StatsBar/SwcHero's mobile pattern. */}
+        <Reveal immediate delayMs={200} className="w-full lg:hidden">
+          <ul className="flex w-full flex-wrap gap-4">
             {dssHeroFeatureChips.map((item, index) => (
-              <li key={item.icon} className="flex flex-col items-center gap-2.5 text-center">
+              <li
+                key={item.icon}
+                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                  {hero.featureChips[index].labelLines.join(" ")}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal immediate delayMs={200} className="hidden w-full lg:block">
+          <ul className="grid w-full grid-cols-5 gap-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]">
+            {dssHeroFeatureChips.map((item, index) => (
+              <li key={item.icon} className="flex items-center gap-2.5">
                 <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} className="shrink-0" />
-                <div className="flex flex-col items-center gap-1.5 text-sm leading-[1.2] font-bold whitespace-nowrap text-texto">
+                <div className="flex min-w-0 flex-col gap-1.5 text-sm leading-[1.2] font-bold whitespace-nowrap text-texto">
                   <span>{hero.featureChips[index].labelLines[0]}</span>
                   <span>{hero.featureChips[index].labelLines[1]}</span>
                 </div>

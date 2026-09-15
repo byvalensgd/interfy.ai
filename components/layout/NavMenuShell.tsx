@@ -37,11 +37,11 @@ export default function NavMenuShell({
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className={`flex items-center gap-1.5 whitespace-nowrap text-base transition-colors ${
+        className={`flex items-center gap-1.5 whitespace-nowrap text-[clamp(0.875rem,0.4808vw+0.5673rem,1rem)] transition-colors ${
           open ? "text-azul-base" : "text-texto hover:text-azul-base"
         }`}
       >
-        {trigger}
+        <span className="flex min-h-[18px] items-center leading-[1.5rem]">{trigger}</span>
         <ChevronDown
           className={`size-[18px] shrink-0 transition-transform ${open ? "rotate-180" : ""}`}
           aria-hidden="true"
