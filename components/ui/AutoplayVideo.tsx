@@ -23,7 +23,9 @@ export default function AutoplayVideo({
     if (timerRef.current) clearTimeout(timerRef.current);
     timerRef.current = setTimeout(() => {
       video.currentTime = 0;
-      void video.play();
+      // Playback can be legitimately interrupted (tab backgrounded, element
+      // unmounted, power-saving throttling) — that's not an error to surface.
+      video.play().catch(() => {});
     }, REPLAY_DELAY_MS);
   };
 
