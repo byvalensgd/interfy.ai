@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "合作伙伴计划",
+    "description": "成为 Interfy.ai 的商业合作伙伴或联盟推荐人,借助 AI 原生平台、专属支持与专属工作空间,将商机转化为持续性收入。",
+    "keywords": ["Interfy 合作伙伴计划", "商业合作伙伴", "Interfy 联盟推荐", "客户推荐", "持续性收入"]
+  },
+  "hero": {
+    "headingPrefix": "与",
+    "headingHighlight": "Interfy.ai 一起成长",
+    "subheading": "将商机转化为持续性收入。",
+    "description": "加入一个面向企业与专业人士的全球计划,借助 AI 原生平台开拓、推荐并发展新业务。",
+    "slideshowAlt": "Interfy 平台在笔记本电脑与智能手机上展示,呈现 AI 管理面板",
+    "bannerAriaLabel": "合作伙伴计划的核心优势",
+    "banner": [
+      { "title": "全球计划" },
+      { "title": "Interfy 专属支持" },
+      { "title": "持续性收入" },
+      { "title": "商机受到保护" }
+    ],
+    "ctaPrimary": "我要成为合作伙伴",
+    "ctaSecondary": "我要推荐客户"
+  },
+  "participation": {
+    "heading": "选择您想要参与的方式",
+    "cards": [
+      {
+        "title": "商业合作伙伴",
+        "subtitle": "适合希望与 Interfy 共同开发业务的伙伴",
+        "checklistAriaLabel": "商业合作伙伴的权益",
+        "checklist": [
+          { "label": "开拓新客户" },
+          { "label": "平台演示" },
+          { "label": "商机开发" },
+          { "label": "商业关系跟进" },
+          { "label": "用于演示的专属工作空间" },
+          { "label": "官方培训与资料" },
+          { "label": "商机登记与保护" }
+        ],
+        "cta": "我要成为合作伙伴"
+      },
+      {
+        "title": "联盟推荐人",
+        "subtitle": "适合希望推荐潜在客户的伙伴",
+        "checklistAriaLabel": "联盟推荐人的权益",
+        "checklist": [
+          { "label": "通过链接、代码或表单推荐" },
+          { "label": "无需进行产品演示" },
+          { "label": "无需制作方案提案" },
+          { "label": "无需参与商务谈判" },
+          { "label": "整个商务流程由 Interfy 全程负责" },
+          { "label": "可跟踪已提交的推荐进展" }
+        ],
+        "cta": "我要推荐客户"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "为什么要将一切集中在一个",
+    "headingHighlight": "工作空间?",
+    "steps": [
+      { "title": "选择您的合作方式", "description": "确定您是商业合作伙伴,还是联盟推荐人。" },
+      { "title": "完成注册", "description": "填写您的资料,确认加入计划。" },
+      { "title": "登记您的商机", "description": "在平台上推荐并跟踪您的潜在客户。" },
+      { "title": "跟踪您的成果", "description": "查看业绩表现,并按计划条款获得相应回报。" }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "一套完整的体系,",
+    "headingHighlight": "助您成长",
+    "ariaLabel": "合作伙伴支持体系",
+    "items": [
+      { "title": "AI 原生平台", "description": "以最优技术助力您的业务发展。" },
+      { "title": "培训", "description": "为您的团队提供商务与技术能力培养。" },
+      { "title": "专属工作空间", "description": "用于商机管理的专属环境。" },
+      { "title": "销售资料", "description": "持续更新的官方演示文稿、话术与内容。" },
+      { "title": "商机登记", "description": "实时跟踪每个商机的状态。" },
+      { "title": "由 Interfy 签订合同", "description": "Interfy 负责与客户的谈判与合同签署。" },
+      { "title": "由 Interfy 开票", "description": "负责开票、收款与付款管理。" },
+      { "title": "官方支持", "description": "专属团队为合作伙伴提供专业服务。" }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "您负责开发业务",
+      "checklistAriaLabel": "合作伙伴的职责",
+      "checklist": [
+        { "label": "客户开拓与关系维护" },
+        { "label": "平台演示" },
+        { "label": "商机登记" },
+        { "label": "商务跟进" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy 负责运营",
+      "checklistAriaLabel": "Interfy 的职责",
+      "checklist": [
+        { "label": "与客户签订合同" },
+        { "label": "开票与收款" },
+        { "label": "创建工作空间" },
+        { "label": "基础设施、更新与支持" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "您的客户可以从",
+    "headingHighlight": "免费试用开始",
+    "descriptionLine1": "7 天免费试用,无需信用卡,无任何承诺。",
+    "descriptionLine2": "客户可以在选择套餐之前先了解平台。",
+    "cta": "了解免费试用"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "ariaExpand": "显示答案",
+    "items": [
+      {
+        "question": "是否存在区域独家限制?",
+        "answer": "没有。该计划面向全球:任何地区的合作伙伴和联盟推荐人都可以开拓和推荐客户,不受地理限制。"
+      },
+      {
+        "question": "商机如何得到保护?",
+        "answer": "在平台上登记的每个商机都会与负责的合作伙伴或推荐人绑定,避免重复冲突,并确保对所推荐业务的归属得到认可。"
+      },
+      {
+        "question": "佣金何时支付?",
+        "answer": "佣金将在确认客户付款后发放,并遵循计划条款中规定的结算周期。"
+      },
+      {
+        "question": "合作伙伴可以向客户开票吗?",
+        "answer": "不可以。合同签订、开票与收款均由 Interfy 直接与客户对接,合作伙伴则专注于商务关系维护。"
+      },
+      {
+        "question": "年度续约如何运作?",
+        "answer": "只要客户保持活跃状态,续约即自动进行,合作伙伴或推荐人将持续按计划条款获得相应回报。"
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "加入 Interfy.ai 全球生态系统",
+    "heading": "一起成长吧?",
+    "subheading": "选择您的合作方式,加入 Interfy.ai 全球生态系统。",
+    "primaryButton": "我要成为合作伙伴",
+    "secondaryButton": "我要成为推荐人",
+    "statsLabel": "Interfy 平台数据",
+    "stats": [
+      { "label": "120 亿 +", "sublabel": "份文档" },
+      { "label": "2000 万 +", "sublabel": "份签署" },
+      { "label": "250 万 +", "sublabel": "用户" },
+      { "label": "600 万 +", "sublabel": "个流程" },
+      { "label": "1000 TB +", "sublabel": "存储容量" },
+      { "label": "99.99%", "sublabel": "正常运行时间" },
+      { "label": "24/7", "sublabel": "支持服务" }
+    ]
+  }
+}

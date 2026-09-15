@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect on paljon enemmän kuin chat: reaaliaikaista yhteistyötä integroituna dokumentteihinne, prosesseihinne ja automaatioihinne, sisäiset ja ulkoiset osapuolet samassa keskustelussa.",
+    "keywords": ["tiimin yhteistyö", "integroitu chat", "yritysviestintä", "Interfy Connect"],
+    "freeTrialNote": "Ilmainen 7 päivän kokeilu, ei luottokorttia."
+  },
+  "hero": {
+    "heading": "Yhdistä ihmiset, dokumentit ja prosessit",
+    "headingHighlight": "yhteen keskusteluun.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "on paljon enemmän kuin chat. Se on todellista yhteistyötä, integroituna dokumentteihinne, prosesseihinne ja automaatioihinne, jotta mikään ei jää huomaamatta ja kaikki etenee.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "imageAlt": "Interfy Connect näytettynä läppärissä ja älypuhelimessa, keskustelukeskus näkyvissä",
+    "highlights": [
+      { "label": "Yhteistyötä reaaliajassa" },
+      { "label": "Kaikki yhdistettynä ja jäljitettävissä" },
+      { "label": "Turvallinen ja luotettava" },
+      { "label": "Sisäiset ja ulkoiset samassa keskustelussa" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Täydellinen yhteistyö",
+    "headingHighlight": "integroituna toimintaanne",
+    "items": [
+      {
+        "title": "Sisäinen viestintä",
+        "description": "Keskustele kanavilla, ryhmissä tai suorilla viesteillä tiimisi kanssa."
+      },
+      {
+        "title": "Älykäs jakaminen",
+        "description": "Jaa tiedostoja, linkkejä ja tietoa turvallisesti ja vaivattomasti."
+      },
+      {
+        "title": "Ilmoitukset reaaliajassa",
+        "description": "Saa hälytyksiä ja muistutuksia viesteistä, maininnoista, tehtävistä ja tärkeistä päivityksistä."
+      },
+      {
+        "title": "Sisäiset ja ulkoiset käyttäjät",
+        "description": "Sisällytä asiakkaat, kumppanit ja toimittajat keskusteluihin turvallisesti."
+      },
+      {
+        "title": "Täysi historia",
+        "description": "Kaikki keskustelujen, tiedostojen ja toimintojen historia aina saatavilla ja haettavissa."
+      },
+      {
+        "title": "Täysi jäljitettävyys",
+        "description": "Jokainen viesti, analyysi ja päätös kirjattuna ajankohtineen ja vastuuhenkilöineen."
+      },
+      {
+        "title": "Yhteistyö tiimien välillä",
+        "description": "Työskentele yhtenäisesti osastojen ja tiimien välillä kontekstia menettämättä."
+      },
+      {
+        "title": "AI keskustelujen yhteenvetoon",
+        "description": "Interfy AI luo älykkäitä yhteenvetoja keskusteluista ja korostaa tärkeimmät asiat."
+      },
+      {
+        "title": "AI tiedon löytämiseen",
+        "description": "Kysy luonnollisella kielellä ja löydä tarvitsemasi nopeasti keskusteluista."
+      },
+      {
+        "title": "Täysi Mobile-tuki",
+        "description": "Käytä keskustelujasi, tiedostojasi ja ilmoituksiasi missä tahansa Interfy Mobile -sovelluksella."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Täysin integroitu",
+    "headingHighlight": "Interfy-ekosysteemiin",
+    "items": [
+      { "description": "Käytä ja kommentoi dokumenttia poistumatta keskustelusta." },
+      { "description": "Käynnistä toimintoja ja etene prosesseissa suoraan keskustelusta." },
+      { "description": "Yhdistä ihmiset ja keskitä kaikki viestintä." },
+      { "description": "Kaappaa dokumentit ja jaa ne keskustelussa." },
+      { "description": "Lähetä dokumentit allekirjoitettavaksi ja seuraa kaikkea tässä." },
+      { "description": "AI-agentit tukevat, analysoivat ja suorittavat jokaisen vuorovaikutuksen." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Digitaalinen allekirjoitus ja tuottavuus Interfy Connectin kanssa",
+    "signCard": {
+      "titleHighlight": "Ilmainen digitaalinen allekirjoitus",
+      "titleSuffix": "kaikille käyttäjille.",
+      "description": "Lähetä dokumentit allekirjoitettavaksi suoraan keskusteluista. Yksinkertaista, nopeaa ja 100 % mukana kaikissa alustan paketeissa."
+    },
+    "headingHighlight": "Tuottavuutta",
+    "headingSuffix": "joka näkyy arjessa",
+    "items": [
+      {
+        "title": "Enemmän ketteryyttä",
+        "description": "Nopeampia päätöksiä, kun kaikki on oikeassa kontekstissa."
+      },
+      {
+        "title": "Vähemmän uudelleentyötä",
+        "description": "Keskitetty ja saatavilla oleva tieto kaikille osallisille."
+      },
+      {
+        "title": "Enemmän näkyvyyttä",
+        "description": "Seuraa keskustelujen ja toimintojen etenemistä reaaliajassa."
+      },
+      {
+        "title": "Enemmän turvallisuutta",
+        "description": "Hallinta, käyttöoikeudet ja vaatimustenmukaisuus joka vuorovaikutuksessa."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfy Connectin käyttö",
+    "heading": "Yhdistä tiimisi ja muunna yhteistyö tuloksiksi.",
+    "subheading": "Kaikki integroituna. Kaikki jäljitettävissä. Kaikki yhdessä keskustelussa.",
+    "primaryButton": "Ilmainen 7 päivän kokeilu",
+    "secondaryButton": "Varaa esittely",
+    "statsLabel": "Interfy-alustan lukuja",
+    "stats": [
+      { "label": "25 000 +", "sublabel": "asiakasta" },
+      { "label": "180+ maata" },
+      { "label": "16 kieltä" },
+      { "label": "Huippuluokan turvallisuus" },
+      { "label": "AI Native" },
+      { "label": "Korkea käytettävyys" },
+      { "label": "Globaali vaatimustenmukaisuus" }
+    ]
+  }
+}

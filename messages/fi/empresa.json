@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Tietoa meistä",
+    "description": "Yli 26 vuotta yrityshallinnon yksinkertaistamista. Tutustu Interfyn historiaan, missioon ja teknologiaan — pääkonttori Orlandossa (USA), toimintaa yli 180 maassa.",
+    "keywords": ["tietoa Interfystä", "Interfyn historia", "missio ja visio", "Interfyn brändiekosysteemi", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Yksinkertaistamme monimutkaisen, uudistamme nykyisyyden, ",
+    "headingHighlight": "innovoimme tulevaisuuden.",
+    "description": "Olemme yli kaksi vuosikymmentä muuttaneet yrityshallintaa innovatiivisen ja saavutettavan teknologian avulla. Pääkonttorimme on Orlandossa (USA), ja palvelemme yrityksiä yli 180 maassa, mahdollistaen organisaatioiden luopumisen vanhentuneista järjestelmistä ja toiminnan ketteryyden omaksumisen.",
+    "slideshowAlt": "Interfy-alusta näytettynä läppärissä ja älypuhelimessa, AI-pohjainen hallintapaneeli näkyvissä",
+    "ctaPrimary": "HALUAN OLLA KUMPPANI",
+    "ctaSecondary": "HALUAN SUOSITELLA ASIAKKAITA",
+    "statsAriaLabel": "Interfyn lukuja",
+    "stats": [
+      { "label": "180+", "sublabel": "Palveltua maata" },
+      { "label": "25 000 +", "sublabel": "Uudistettua yritystä" },
+      { "label": "26 +", "sublabel": "Vuoden kokemus" },
+      { "label": "Orlando, FL", "sublabel": "Pääkonttori USA:ssa" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Kehittynyt haasteiden kautta, ",
+    "headingHighlight": "skaalattu menestykseen",
+    "paragraph1": "Interfy ei ole alkuvaiheen startup, vaan vakiintunut yritys, jolla on yli 26 vuoden kokemus yrityshallinnan teknologioiden kehittämisestä. Pääkonttorimme sijaitsee Orlandossa, Floridassa (USA), ja kehitämme ratkaisuja, jotka palvelevat yrityksiä ympäri maailman. Teknologiamme on suunniteltu toimimaan eri sääntely- ja kulttuuriympäristöissä, mikä takaa joustavuuden ja globaalin vaatimustenmukaisuuden.",
+    "paragraph2": "Alustaamme testataan maailman vaativimmissa yritysympäristöissä. Yhdysvaltain markkinoista Latinalaiseen Amerikkaan ja Eurooppaan, palvelemme yli 180 maata samalla laadulla ja luotettavuudella, joka määrittää brändimme."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Interfyn missio, visio ja periaatteet",
+    "vision": {
+      "title": "Visiomme",
+      "description": "Tulla tunnetuksi arvon tuottamisesta asiakkaillemme ympäri maailman, tarjoamalla verkkopohjaisen, saavutettavan, liikkuvan ja helppokäyttöisen yrityshallinnan ohjelmistoalustan."
+    },
+    "mission": {
+      "title": "Missiomme",
+      "description": "Tarjota verkkopohjainen yritysprosessien hallinnan ohjelmistoalusta, joka on helppo ottaa käyttöön ja saavutettava kaiken kokoisille ja kaikkien toimialojen yrityksille."
+    },
+    "principlesHeading": "Periaatteemme",
+    "principlesAriaLabel": "Interfyn periaatteet",
+    "principles": [
+      { "title": "Etiikka sielunamme", "description": "Läpinäkyvyys ja rehellisyys ovat neuvottelemattomia kaikessa, mitä tehemme." },
+      { "title": "Innovaatio yksinkertaistamisen kautta", "description": "Todellinen innovaatio ei lisää monimutkaisuutta, se yksinkertaistaa." },
+      {
+        "title": "Teknologian demokratisointi",
+        "descriptionPrefix": "Tehdä Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " saavutettavaksi kaiken kokoisille yrityksille."
+      },
+      { "title": "Käytettävyyden pakkomielle", "description": "Yrityskäyttäjän kokemus verrattavissa kuluttajasovelluksiin." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "Integraation sininen valtameri",
+    "descriptionPrefix": "Kilpailijat kuten DocuSign, Box ja Pipefy erikoistuvat yksittäisiin osa-alueisiin (allekirjoituksiin, tallennukseen tai prosesseihin erikseen), kun Interfy omaksuu ",
+    "descriptionHighlight": "täysalustastrategian",
+    "descriptionSuffix": ".",
+    "ariaLabel": "Interfyn kilpailuedut",
+    "items": [
+      { "title": "All-in-One-alusta", "description": "Documents + Process + Sign + Capture natiivisti integroituna." },
+      { "title": "TCO:n alentaminen", "description": "Poista väsymys kymmenien toimittajien tilauksista." },
+      { "title": "Cloud-native-arkkitehtuuri", "description": "AWS, Kubernetes, mikropalvelut — ei vanhentunut järjestelmä." },
+      { "title": "Low-Code/No-Code", "description": "Liiketoimintakäyttäjät luovat ratkaisuja kirjoittamatta koodia." },
+      { "title": "Turvallisuus ja vaatimustenmukaisuus", "description": "LGPD, GDPR, ISO 27001, päästä päähän -salaus." },
+      { "title": "Private Label -kumppanuus", "description": "Häiritsevä liiketoimintamalli, joka vahvistaa kumppaneita." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Brändi-",
+    "headingSuffix": "ekosysteemi",
+    "description": "Interfy toimii teknologiakonsernina, joka isännöi brändejä, jotka mahdollistavat pääsyn erityisille markkinasegmenteille.",
+    "ariaLabel": "Interfy-ekosysteemin brändit",
+    "brands": [
+      { "name": "Ecofy", "description": "Kestäviä ratkaisuja parempaa planeettaa varten." },
+      { "name": "Injectra", "description": "Amerikkalaista ruiskuvalutekniikkaa." },
+      { "name": "Innovecar", "description": "Älykästä ja saavutettavaa liikkuvuutta." },
+      { "name": "NeoAI", "description": "AI-yhdistetty liiketoiminta-alusta." },
+      { "name": "Processdoc", "description": "Älykästä prosessien ja dokumenttien hallintaa." },
+      { "name": "Acquafy", "description": "Kehittyneitä puhdistetun veden ratkaisuja." },
+      { "name": "Interfy", "description": "Digitaalinen alusta liiketoiminnalle ja palveluille." },
+      { "name": "Visionfy", "description": "Tiedon analyysia ja AI:ta parempiin päätöksiin." },
+      { "name": "Mediafy", "description": "Markkinointia ja digitaalisen sisällön tuotantoa." },
+      { "name": "Docsystem", "description": "Täydellisiä yritysten dokumenttiratkaisuja." }
+    ]
+  },
+  "technology": {
+    "heading": "Maailmanluokan teknologia",
+    "ariaLabel": "Interfyn teknologinen infrastruktuuri",
+    "items": [
+      { "title": "Hosting", "description": "Amazon Web Services (AWS)." },
+      { "title": "Liikkuvuus", "description": "Responsiivinen HTML5-verkkokäyttöliittymä." },
+      { "title": "Kubernetes", "description": "Kubernetes-orkestrointi automaattiseen skaalautuvuuteen." },
+      { "title": "Monikielisyys", "description": "Tuki 16 kielelle." },
+      { "title": "Turvallisuus", "description": "SSL/TLS-salaus, 2FA, SSO." },
+      { "title": "Vaatimustenmukaisuus", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "Annamme kumppaneille voimaa rakentaa ",
+      "headingHighlight": "omat SaaS-yrityksensä",
+      "ariaLabel": "White Label -mallin edut",
+      "items": [
+        { "title": "Täysi White Label", "description": "Oma brändisi, oma logosi, oma URL-osoitteesi." },
+        { "title": "Jopa 100 %+ katteet", "description": "Määritä oma hintasi." },
+        { "title": "Nolla pääomasijoitusta", "description": "Ei tarvetta sijoittaa miljoonia kehitykseen." },
+        { "title": "Pay-as-you-go", "description": "Maksa vain asiakkaiden todellisesta käytöstä." },
+        { "title": "Asiantunteva tuki", "description": "Koulutusta, materiaaleja ja teknistä tukea." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "Passiivisesta aktiiviseen",
+    "description": "Investoimme generatiiviseen tekoälyyn muuttaaksemme alustan passiivisesta hallintajärjestelmästä aktiiviseksi älykkyysjärjestelmäksi.",
+    "ariaLabel": "Investoinnit tekoälyyn",
+    "items": [
+      { "title": "Älykkäät toimintaehdotukset datamallien perusteella." },
+      { "title": "Toistuvien tehtävien ennakoiva automaatio." },
+      { "title": "Ennakoivia oivalluksia päätöksenteon tueksi." },
+      { "title": "AI-avusteinen luonti", "description": "BPMN-prosessien ja lomakkeiden automaattinen suunnittelu." },
+      { "title": "Älykäs dokumenttianalyysi", "description": "AI, joka lukee sopimuksia ja vastaa monimutkaisiin kysymyksiin." },
+      { "title": "Itsenäiset agentit", "description": "AI-agentit, jotka suorittavat tehtäviä itsenäisesti." }
+    ],
+    "statsLabel": "Interfy-alustan lukuja",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "dokumenttia" },
+      { "label": "20M +", "sublabel": "allekirjoitusta" },
+      { "label": "2,5M +", "sublabel": "käyttäjää" },
+      { "label": "6M +", "sublabel": "prosessia" },
+      { "label": "1000 TB +", "sublabel": "tallennettuna" },
+      { "label": "99,99%", "sublabel": "käytettävyys" },
+      { "label": "24/7", "sublabel": "tuki" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Valmiina uudistamaan yrityksenne?",
+    "subheading": "Liity tuhansien yritysten joukkoon, jotka ovat jo yksinkertaistaneet monimutkaisen Interfyn avulla.",
+    "primaryLabel": "7 päivän ilmainen kokeilu",
+    "secondaryLabel": "Varaa demo"
+  }
+}

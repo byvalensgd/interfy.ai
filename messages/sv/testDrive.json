@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Kostnadsfri Test Drive",
+    "description": "Upplev Interfy.AI i praktiken. Skapa din Workspace och testa alla produkter på plattformen i 7 dagar, utan kreditkort.",
+    "keywords": ["kostnadsfritt test Interfy", "test drive AI-native plattform", "gratis workspace", "trial dokumenthantering"],
+    "freeTrialNote": "7 dagar kostnadsfritt för att testa hela plattformen, utan kreditkort."
+  },
+  "hero": {
+    "ariaLabel": "Fördelar med Test Drive",
+    "headingPrefix": "Upplev ",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " i praktiken",
+    "subheading": "7 dagar som förändrar hur ditt företag arbetar.",
+    "descriptionPrefix": "Skapa din Workspace, utforska plattformen och upptäck hur ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents & Voice",
+    "descriptionSuffix": " kan förändra din verksamhet med AI.",
+    "ctaButton": "Se hur Test Drive fungerar",
+    "differentiators": [
+      { "title": "7 dagar gratis", "subtitle": "för att testa allt" },
+      { "title": "Inget kreditkort", "subtitle": "Ingen bindningstid" },
+      { "title": "Workspace på minuter", "subtitle": "Kom igång direkt" },
+      { "title": "100% webb + mobil", "subtitle": "Tillgänglig var du är" },
+      { "title": "AI Native", "subtitle": "Intelligens i allt" },
+      { "title": "Data bevaras", "subtitle": "Efter testperioden" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "Så fungerar ",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "Skapa din Workspace", "description": "Enkel och snabb registrering. Inget kreditkort krävs." },
+      { "title": "Lär känna plattformen", "description": "Utforska alla produkter och funktioner som finns tillgängliga." },
+      { "title": "Testa med din verksamhet", "description": "Ladda upp dokument, skapa processer, använd AI och testa funktionerna." },
+      { "title": "Välj din plan", "description": "Efter 7 dagar fortsätter du precis där du slutade." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Det här kan du testa under ",
+    "headingHighlight": "7 dagarna",
+    "items": [
+      { "title": "Documents", "description": "Smart hantering av dokument och information" },
+      { "title": "Process", "description": "Smart automatisering av processer och uppgifter" },
+      { "title": "Capture", "description": "Smart dokumentinsamling med AI" },
+      { "title": "Sign", "description": "Kostnadsfri digital signering för alla användare" },
+      { "title": "Connect", "description": "Samarbete och kommunikation kopplat till verksamheten" },
+      { "title": "Mobile", "description": "Hela din verksamhet i fickan" },
+      { "title": "Agents", "description": "AI-agenter som analyserar, beslutar och agerar" },
+      { "title": "Voice", "description": "Röststyrning med naturligt språk och AI" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "Din ",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": " är redo från start.",
+      "paragraph": "För att du ska få ut mesta möjliga har vi förberett verkliga exempel som du kan testa direkt.",
+      "checklist": [
+        { "text": "Exempeldokument" },
+        { "text": "Färdig process" },
+        { "text": "Smart formulär" },
+        { "text": "Väntande uppgift" },
+        { "text": "Dokument för signering" },
+        { "text": "Exempel på ", "highlight": "Capture" },
+        { "text": "Konfigurerad agent" },
+        { "text": "Kommandon för ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "Vi föreslår en ",
+      "paragraphHighlight": "7-dagars resa",
+      "paragraphNote": " (men allt finns tillgängligt redan från dag ett)",
+      "dayLabel": "Dag {number}",
+      "days": [
+        { "line1": "Lär känna din", "line2": "Workspace" },
+        { "line1": "Utforska", "line2": "Documents" },
+        { "line1": "Automatisera", "line2": "processer" },
+        { "line1": "Testa", "line2": "Capture" },
+        { "line1": "Prova", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "Välj din", "line2": "plan" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Datasäkerhet och kontinuitet efter Test Drive",
+    "preservedHeading": "Din data förblir din.",
+    "preservedList": [
+      "Exklusiv Workspace",
+      "Skyddad miljö",
+      "Avancerad kryptering",
+      "Åtkomstkontroll",
+      "Dataisolering",
+      "Ingen automatisk debitering",
+      "Inget kreditkort krävs"
+    ],
+    "endHeading": "Vad händer när Test Drive tar slut?",
+    "endParagraph": "Du väljer den plan som passar dig och fortsätter precis där du slutade. Din Workspace och all din data bevaras.",
+    "endFeatures": [
+      { "label": "Din data bevaras" },
+      { "label": "Övergång utan förlust" },
+      { "label": "Ingenting raderas utan ditt godkännande" },
+      { "label": "Fortsätt när du vill" }
+    ],
+    "endButton": "Välj min plan"
+  },
+  "cta": {
+    "ariaLabel": "Starta din Test Drive",
+    "title": "Framtiden för din verksamhet börjar med en Test Drive.",
+    "description": "Testa Interfy.ai i 7 dagar. Inget kreditkort. Ingen bindningstid.",
+    "ctaPrimary": "Starta kostnadsfri Test Drive",
+    "ctaSecondary": "Se planer",
+    "statsLabel": "Siffror för Interfy-plattformen"
+  },
+  "form": {
+    "heading": "Skapa din kostnadsfria Workspace",
+    "subheading": "Tar mindre än 2 minuter.",
+    "nameLabel": "Fullständigt namn",
+    "emailLabel": "Företags-e-post",
+    "companyLabel": "Företag",
+    "phoneLabel": "Telefon (WhatsApp)",
+    "optionalLabel": "(valfritt)",
+    "errors": {
+      "name": "Ange ditt fullständiga namn.",
+      "email": "Ange en giltig e-postadress.",
+      "company": "Ange ditt företagsnamn.",
+      "consent": "Du måste godkänna villkoren för att fortsätta."
+    },
+    "consentPrefix": "Jag har läst och godkänner ",
+    "consentTerms": "användarvillkoren",
+    "consentMiddle": " och ",
+    "consentPrivacy": "integritetspolicyn",
+    "consentSuffix": ".",
+    "submitButton": "Skapa min kostnadsfria Workspace",
+    "submittingButton": "Skickar...",
+    "successHeading": "Vi har tagit emot din registrering!",
+    "successMessagePrefix": "Vårt team förbereder din Workspace. Inom kort får du åtkomst via e-post till ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Prata med en specialist"
+  }
+}

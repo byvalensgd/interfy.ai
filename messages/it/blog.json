@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Contenuti",
+    "description": "Articoli, guide e novità su gestione documentale, automazione dei processi, firma elettronica e AI applicata alle operazioni aziendali.",
+    "keywords": ["blog Interfy", "contenuti gestione documentale", "automazione dei processi", "AI per le aziende"]
+  },
+  "hero": {
+    "ariaLabel": "Introduzione al blog",
+    "eyebrow": "Blog & Contenuti",
+    "titleLine1": "Contenuti per chi",
+    "titleHighlight": "trasforma le operazioni",
+    "description": "Guide pratiche, novità di prodotto e tendenze su documenti, processi, dati e AI per le aziende."
+  },
+  "grid": {
+    "ariaLabel": "Articoli del blog",
+    "categoriesLabel": "Filtra per categoria",
+    "allLabel": "Tutti",
+    "categories": ["Gestione Documentale", "Automazione (BPM)", "Firma Elettronica", "AI & Agenti", "Sicurezza & Compliance"],
+    "comingSoonLabel": "Nuovi articoli ogni settimana. Presto anche qui.",
+    "posts": [
+      {
+        "category": "Gestione Documentale",
+        "title": "Come strutturare un repository documentale che scala con l'azienda",
+        "excerpt": "Best practice di organizzazione, versionamento e controllo degli accessi per team in rapida crescita.",
+        "date": "Ago 2026",
+        "readTime": "6 min di lettura"
+      },
+      {
+        "category": "Automazione (BPM)",
+        "title": "5 processi che ogni azienda dovrebbe automatizzare per primi",
+        "excerpt": "Una guida pratica per dare priorità alle automazioni con maggiore impatto su costi e tempi di ciclo.",
+        "date": "Ago 2026",
+        "readTime": "7 min di lettura"
+      },
+      {
+        "category": "Firma Elettronica",
+        "title": "La firma elettronica ha valore legale in Brasile?",
+        "excerpt": "Cosa dice la normativa, quali prove contano e come scegliere il livello di firma giusto.",
+        "date": "Lug 2026",
+        "readTime": "5 min di lettura"
+      },
+      {
+        "category": "AI & Agenti",
+        "title": "Agenti AI nei processi interni: da dove iniziare",
+        "excerpt": "Casi d'uso reali per ridurre il lavoro manuale in smistamento, classificazione ed estrazione dei dati.",
+        "date": "Lug 2026",
+        "readTime": "8 min di lettura"
+      },
+      {
+        "category": "Sicurezza & Compliance",
+        "title": "LGPD in pratica: cosa cambia nella gestione di documenti e processi",
+        "excerpt": "Una guida diretta su basi giuridiche, conservazione dei dati e responsabilità del titolare del trattamento.",
+        "date": "Giu 2026",
+        "readTime": "6 min di lettura"
+      },
+      {
+        "category": "Gestione Documentale",
+        "title": "OCR e acquisizione intelligente: la fine dell'inserimento manuale",
+        "excerpt": "Come l'acquisizione automatizzata riduce gli errori e accelera l'ingresso dei documenti nel flusso di lavoro.",
+        "date": "Giu 2026",
+        "readTime": "5 min di lettura"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy",
+    "heading": "Vuoi vedere questi concetti applicati nella pratica?",
+    "subheading": "Inizia gratis ed esplora la piattaforma Interfy con i tuoi documenti e processi.",
+    "primaryButton": "Inizia gratis",
+    "secondaryButton": "Prenota una demo"
+  }
+}

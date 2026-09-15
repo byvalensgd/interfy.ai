@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "主菜单",
+  "mobileNavAria": "主菜单（移动端）",
+  "openMenu": "打开菜单",
+  "closeMenu": "关闭菜单",
+  "nav": {
+    "plans": "套餐"
+  },
+  "productsMenu": {
+    "trigger": "产品",
+    "featuredEyebrow": "核心产品",
+    "listEyebrow": "更多产品",
+    "featured": [
+      { "title": "Documents", "tagline": "借助 AI，在每个环节整理、查找并保护文档。" },
+      { "title": "Process", "tagline": "使用 AI 创建可视化流程、表单与自动化。" },
+      { "title": "Capture", "tagline": "采集任意文档——AI 自动识别并归档整理。" },
+      { "title": "Sign", "tagline": "免费电子签名，具备法律效力并全面集成。" }
+    ],
+    "items": [
+      { "label": "Connect", "description": "与团队协作和沟通" },
+      { "label": "Agents", "description": "理解并支持用户的 AI" },
+      { "label": "Mobile", "description": "掌上运营，随时随地" },
+      { "label": "Voice", "description": "用自然语言与平台对话" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "资源",
+    "recursosEyebrow": "资源",
+    "recursosItems": [
+      { "label": "行业方案" },
+      { "label": "AI 额度" },
+      { "label": "集成与 API" },
+      { "label": "成功案例" }
+    ],
+    "legalEyebrow": "法律与支持",
+    "legalItems": [
+      { "label": "使用条款" },
+      { "label": "隐私政策" },
+      { "label": "LGPD / GDPR" },
+      { "label": "安全" },
+      { "label": "支持" },
+      { "label": "联系我们" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "公司",
+    "eyebrow": "公司",
+    "items": [
+      { "label": "关于 Interfy" },
+      { "label": "Interfy 平台" },
+      { "label": "合作伙伴" },
+      { "label": "博客 / 内容" }
+    ]
+  },
+  "languageSelectorAria": "选择语言"
+}

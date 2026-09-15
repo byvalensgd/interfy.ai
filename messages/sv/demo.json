@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Boka en demo",
+    "description": "Boka en personlig demonstration av Interfy och se hur dokument, processer, e-signering och AI kan anpassas till din verksamhet.",
+    "keywords": ["boka demo Interfy", "demonstration Interfy", "begär demo AI-native plattform"]
+  },
+  "hero": {
+    "ariaLabel": "Boka en demonstration av Interfy",
+    "eyebrow": "Personlig demonstration",
+    "headingPrefix": "Se Interfy",
+    "headingHighlight": "i praktiken.",
+    "description": "En specialist går igenom ditt scenario och visar, live, hur dokument, processer, e-signering, integrationer och AI kan passa in i din verksamhet.",
+    "expectHeading": "Vad du kan förvänta dig av demon",
+    "expectItems": [
+      { "title": "30 minuter", "description": "Ett rakt på sak-samtal, utan krusiduller." },
+      { "title": "Verkligt scenario", "description": "Exempel anpassade till din verksamhet och din bransch." },
+      { "title": "Inga förpliktelser", "description": "Du bestämmer nästa steg efter samtalet." },
+      { "title": "Dedikerad specialist", "description": "Någon som redan känner till din bransch." }
+    ]
+  },
+  "form": {
+    "heading": "Boka din demonstration",
+    "subheading": "Fyll i uppgifterna nedan och vi kontaktar dig för att bekräfta en lämplig tid.",
+    "nameLabel": "Fullständigt namn",
+    "emailLabel": "Företags-e-post",
+    "companyLabel": "Företag",
+    "phoneLabel": "Telefon (WhatsApp)",
+    "roleLabel": "Befattning",
+    "companySizeLabel": "Företagets storlek",
+    "companySizePlaceholder": "Välj",
+    "companySizeOptions": [
+      "1–10 anställda",
+      "11–50 anställda",
+      "51–200 anställda",
+      "201–1 000 anställda",
+      "Fler än 1 000 anställda"
+    ],
+    "messageLabel": "Berätta lite om vad du behöver",
+    "optionalLabel": "(valfritt)",
+    "errors": {
+      "name": "Ange ditt fullständiga namn.",
+      "email": "Ange en giltig e-postadress.",
+      "company": "Ange namnet på ditt företag.",
+      "consent": "Du måste godkänna villkoren för att fortsätta."
+    },
+    "consentPrefix": "Jag har läst och godkänner ",
+    "consentTerms": "användarvillkoren",
+    "consentMiddle": " och ",
+    "consentPrivacy": "integritetspolicyn",
+    "consentSuffix": ".",
+    "submitButton": "Boka min demo",
+    "submittingButton": "Skickar...",
+    "successHeading": "Vi har tagit emot din förfrågan!",
+    "successMessagePrefix": "Vårt team kontaktar dig för att bekräfta en lämplig tid via e-post på ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Kom igång gratis medan du väntar"
+  },
+  "trust": {
+    "ariaLabel": "Varför boka en demo med Interfy",
+    "heading": "En plattform redo för globala företag",
+    "subheading": "Säkerhet i företagsklass, global efterlevnad och specialiserad support i varje demonstration.",
+    "statsLabel": "Interfys globala närvaro",
+    "stats": [
+      { "label": "180+ länder", "sublabel": "Växande global närvaro" },
+      { "label": "16 språk", "sublabel": "Fullständigt gränssnitt och upplevelse" },
+      { "label": "99,99%", "sublabel": "Garanterad tillgänglighet (SLA)" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Certifierad efterlevnad" }
+    ]
+  }
+}

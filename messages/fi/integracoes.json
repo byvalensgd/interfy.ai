@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Integraatiot & API",
+    "description": "Yhdistä Interfy työkaluihin, joita yrityksesi käyttää jo: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier ja paljon muuta, täysin toimivilla RESTful-API:lla ja reaaliaikaisilla webhookeilla.",
+    "keywords": ["Interfyn integraatiot", "Interfyn API", "yritysten liittimet", "webhookit", "järjestelmien automaatio"]
+  },
+  "hero": {
+    "headingPrefix": "Yhdistä Interfy siihen, mitä ",
+    "headingHighlight": "yrityksesi käyttää jo.",
+    "description": "Integraatiot ovat vapaassa käytössä. Yhdistä järjestelmät, automatisoi prosessit ja vahvista tuloksia rajattomasti.",
+    "ctaPrimary": "Katso integraatiot",
+    "ctaSecondary": "API-dokumentaatio",
+    "diagramAriaLabel": "Interfyyn integroidut järjestelmät",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "Rajaton integraatio", "description": "Yhdistä kaikki, mitä yrityksesi tarvitsee" },
+      { "title": "Enemmän tuottavuutta", "description": "Automatisoi työnkulut ja poista uudelleentyö" },
+      { "title": "Älykkäät päätökset", "description": "Integroitu data reaaliaikaisia oivalluksia varten." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "Yhdisty markkinoiden tärkeimpiin järjestelmiin",
+    "ctaLabel": "Katso kaikki"
+  },
+  "featuresGrid": {
+    "headingPrefix": "Interfy APIn ",
+    "headingHighlight": "ominaisuudet ja edut",
+    "ariaLabel": "Interfyn integraatioiden ominaisuudet ja edut",
+    "items": [
+      { "title": "REST API", "description": "Täysi ja moderni API integroitavaksi mihin tahansa järjestelmään tai sovellukseen." },
+      { "title": "Webhookit", "description": "Vastaanota tapahtumia reaaliajassa ja pidä järjestelmäsi aina synkronoituna." },
+      { "title": "Zapier", "description": "Integroi Interfy tuhansiin sovelluksiin Zapierin avulla nopeasti ja helposti." },
+      { "title": "Tietokannat", "description": "Yhdisty markkinoiden tärkeimpiin SQL- ja NoSQL-tietokantoihin turvallisesti." },
+      { "title": "ERP", "description": "Integroi johtavien ERP-järjestelmien kanssa ja yhtenäistä data ja prosessit koko organisaatiossa." },
+      { "title": "CRM", "description": "Synkronoi asiakkaat, yhteystiedot ja mahdollisuudet suosikki-CRM:äsi kanssa." },
+      { "title": "Microsoft", "description": "Natiivi integraatio Microsoft 365:n, Azuren, SharePointin, Teamsin ja muiden kanssa." },
+      { "title": "Google", "description": "Integraatio Google Workspacen, Driven, Gmailin, Sheetsin ja paljon muun kanssa." },
+      { "title": "Ulkoinen tunnistautuminen", "description": "SSO, SAML 2.0 ja OAuth 2.0 turvalliseen tunnistautumiseen ja yhtenäiseen kokemukseen." },
+      { "title": "AD / LDAP", "description": "Integraatio Active Directoryn ja LDAP:n kanssa käyttäjien ja käyttöoikeuksien hallintaan." },
+      { "title": "Vanhat järjestelmät", "description": "Yhdistä vanhat ja perinnejärjestelmät joustavien sovittimien ja API:en avulla." },
+      { "title": "Räätälöidyt integraatiot", "description": "Rakenna räätälöityjä liittimiä joustavan API:mme avulla erityistarpeisiin." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "Agents, jotka menevät pidemmälle ",
+    "headingHighlight": "älykkäillä integraatioilla",
+    "description": "Käytä älykkäitä agentteja ja äänikomentoja luomiseen, hakuun, yhteenvetoihin, hyväksyntään ja paljon muuhun.",
+    "diagramAriaLabel": "Interfy-agentit yhdistettynä tuoteekosysteemiin",
+    "checklistAriaLabel": "Integroitujen agenttien edut",
+    "checklist": [
+      { "label": "Tiedon hakua ja analysointia ulkoisissa järjestelmissä" },
+      { "label": "Toimintojen suoritus ja tietueiden päivitys" },
+      { "label": "Päästä päähän -automaatio älykkyydellä" },
+      { "label": "Täydellisemmät ja kontekstuaalisemmat vastaukset" },
+      { "label": "Älykkäät työnkulut usean alustan välillä" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "Yritystason ",
+    "headingHighlight": "tietoturva",
+    "description": "Integraatiosi ja tietosi suojattuna markkinoiden korkeimmilla turvastandardeilla.",
+    "itemsAriaLabel": "Integraatioiden turvastandardit",
+    "items": [
+      { "label": "HTTPS / TLS 1.2+ kaikissa yhteyksissä" },
+      { "label": "OAuth 2.0 ja turvalliset tokenit" },
+      { "label": "Rate limiting ja käyttöoikeuksien hallinta" },
+      { "label": "Täydelliset lokit ja auditointi" },
+      { "label": "LGPD-, ISO 27001- ja SOC 2 -vaatimustenmukaisuus" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "Täysi dokumentaatio kehittäjille",
+      "description": "Tutoriaaleja, koodiesimerkkejä, SDK:ita ja testiympäristö, jotta pääset alkuun juuri nyt.",
+      "ctaLabel": "Siirry dokumentaatioon",
+      "langsAriaLabel": "SDK:n tukemat kielet"
+    },
+    "codeCard": {
+      "heading": "API-kutsu sekunneissa"
+    },
+    "ctaCard": {
+      "heading": "Integroi. Automatisoi. Uudista.",
+      "description": "Interfy yhdistyy siihen, mitä käytät jo, viedäksesi toimintasi uudelle tasolle.",
+      "primaryLabel": "Ilmainen kokeilu",
+      "secondaryLabel": "Keskustele asiantuntijan kanssa"
+    }
+  }
+}

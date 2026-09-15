@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect 远不止于聊天工具：实时协作与您的文件、流程和自动化深度集成，让内部与外部人员都能在同一个对话中协同工作。",
+    "keywords": ["团队协作", "集成聊天", "企业沟通", "Interfy Connect"],
+    "freeTrialNote": "免费试用 7 天，无需信用卡。"
+  },
+  "hero": {
+    "heading": "在同一场对话中连接",
+    "headingHighlight": "人员、文件与流程。",
+    "descriptionBrand": "Interfy Connect",
+    "description": "远不止于聊天工具。这是真正的协作，与您的文件、流程和自动化深度集成，确保信息不遗漏、事事有进展。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "imageAlt": "Interfy Connect 在笔记本电脑和智能手机上展示对话中心",
+    "highlights": [
+      { "label": "实时协作" },
+      { "label": "一切互联，全程可追溯" },
+      { "label": "安全可靠" },
+      { "label": "内外部人员同处一个对话" }
+    ]
+  },
+  "capabilities": {
+    "heading": "全面协作",
+    "headingHighlight": "与您的业务深度集成",
+    "items": [
+      {
+        "title": "内部沟通",
+        "description": "在频道、群组或私信中与团队交流。"
+      },
+      {
+        "title": "智能共享",
+        "description": "安全、便捷地共享文件、链接和信息。"
+      },
+      {
+        "title": "实时通知",
+        "description": "接收消息、提及、任务和重要更新的提醒。"
+      },
+      {
+        "title": "内外部用户",
+        "description": "安全地将客户、合作伙伴和供应商纳入对话。"
+      },
+      {
+        "title": "完整历史记录",
+        "description": "所有对话、文件和操作的历史记录始终可用且可检索。"
+      },
+      {
+        "title": "全程可追溯",
+        "description": "每条消息、每次分析和决策都记录时间与责任人。"
+      },
+      {
+        "title": "跨团队协作",
+        "description": "在不同部门和团队之间协同工作，不丢失上下文。"
+      },
+      {
+        "title": "AI 对话摘要",
+        "description": "Interfy AI 生成智能摘要，突出最重要的信息。"
+      },
+      {
+        "title": "AI 信息检索",
+        "description": "用自然语言提问，快速在对话中找到所需内容。"
+      },
+      {
+        "title": "完整移动端体验",
+        "description": "通过 Interfy Mobile 应用随时随地访问对话、文件和通知。"
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "与",
+    "headingHighlight": "Interfy 生态系统完全集成",
+    "items": [
+      { "description": "无需离开对话即可访问和评论文件。" },
+      { "description": "直接在对话中发起操作并推进流程。" },
+      { "description": "连接人员，集中管理所有沟通。" },
+      { "description": "采集文件并在对话中分享。" },
+      { "description": "发送文件以供签署并在此全程跟踪。" },
+      { "description": "AI 代理协助、分析并执行每一次互动。" }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Interfy Connect 的电子签名与生产力",
+    "signCard": {
+      "titleHighlight": "免费电子签名",
+      "titleSuffix": "面向所有用户开放。",
+      "description": "直接从对话中发送文件以供签署。简单、快速，并 100% 包含在平台所有套餐中。"
+    },
+    "headingHighlight": "生产力",
+    "headingSuffix": "在日常工作中清晰可见",
+    "items": [
+      {
+        "title": "更高效率",
+        "description": "在正确的上下文中做出更快的决策。"
+      },
+      {
+        "title": "更少重复劳动",
+        "description": "信息集中管理，所有相关人员均可访问。"
+      },
+      {
+        "title": "更高透明度",
+        "description": "实时跟踪对话和活动的进展。"
+      },
+      {
+        "title": "更强安全性",
+        "description": "每一次互动都具备治理、权限管理和合规保障。"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy Connect",
+    "heading": "连接您的团队，将协作转化为成果。",
+    "subheading": "一切集成。一切可追溯。一切在同一场对话中完成。",
+    "primaryButton": "免费试用 7 天",
+    "secondaryButton": "预约演示",
+    "statsLabel": "Interfy 平台数据",
+    "stats": [
+      { "label": "25,000+", "sublabel": "客户" },
+      { "label": "180+ 个国家" },
+      { "label": "16 种语言" },
+      { "label": "顶级安全保障" },
+      { "label": "AI 原生" },
+      { "label": "高可用性" },
+      { "label": "全球合规" }
+    ]
+  }
+}

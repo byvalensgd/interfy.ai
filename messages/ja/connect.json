@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connectは単なるチャットではありません。文書、プロセス、自動化と統合されたリアルタイムのコラボレーションで、社内外のメンバーが同じ会話に参加できます。",
+    "keywords": ["チームコラボレーション", "統合チャット", "企業コミュニケーション", "Interfy Connect"],
+    "freeTrialNote": "クレジットカード登録不要で7日間無料のTest Drive。"
+  },
+  "hero": {
+    "heading": "人、文書、プロセスを",
+    "headingHighlight": "一つの会話でつなぐ。",
+    "descriptionBrand": "Interfy Connect",
+    "description": "は単なるチャットではありません。文書、プロセス、自動化と統合された本物のコラボレーションで、何も取り残さず、すべてが実行されます。",
+    "ctaPrimary": "7日間無料でTest Drive",
+    "ctaSecondary": "デモを予約する",
+    "imageAlt": "ノートPCとスマートフォンに表示されたInterfy Connect。会話センターを表示",
+    "highlights": [
+      { "label": "リアルタイムのコラボレーション" },
+      { "label": "すべてが連携し、追跡可能" },
+      { "label": "安全で信頼できる" },
+      { "label": "社内外のメンバーが同じ会話に参加" }
+    ]
+  },
+  "capabilities": {
+    "heading": "業務に統合された",
+    "headingHighlight": "完全なコラボレーション",
+    "items": [
+      {
+        "title": "社内コミュニケーション",
+        "description": "チーム内でチャンネル、グループ、ダイレクトメッセージを使って会話できます。"
+      },
+      {
+        "title": "インテリジェントな共有",
+        "description": "安全かつ手軽にファイル、リンク、情報を共有できます。"
+      },
+      {
+        "title": "リアルタイム通知",
+        "description": "メッセージ、メンション、タスク、重要な更新についてアラートやリマインダーを受け取れます。"
+      },
+      {
+        "title": "社内外のユーザー",
+        "description": "顧客、パートナー、サプライヤーを安全に会話へ参加させることができます。"
+      },
+      {
+        "title": "完全な履歴",
+        "description": "すべての会話、ファイル、操作の履歴が常に利用可能で検索できます。"
+      },
+      {
+        "title": "完全な追跡可能性",
+        "description": "すべてのメッセージ、分析、意思決定が、時刻と担当者とともに記録されます。"
+      },
+      {
+        "title": "チーム間のコラボレーション",
+        "description": "部門や部署をまたいで、文脈を失うことなく統合的に業務を進められます。"
+      },
+      {
+        "title": "会話を要約するAI",
+        "description": "Interfy AIが会話のインテリジェントな要約を生成し、最も重要な点を強調します。"
+      },
+      {
+        "title": "情報を検索するAI",
+        "description": "自然言語で質問するだけで、会話の中から必要な情報を素早く見つけられます。"
+      },
+      {
+        "title": "完全なモバイル対応",
+        "description": "Interfy Mobileアプリから、どこでも会話、ファイル、通知にアクセスできます。"
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Interfyエコシステムと",
+    "headingHighlight": "完全に統合",
+    "items": [
+      { "description": "会話から離れずに文書にアクセスし、コメントできます。" },
+      { "description": "会話から直接アクションを開始し、プロセスを進められます。" },
+      { "description": "人をつなぎ、すべてのコミュニケーションを集約します。" },
+      { "description": "文書を取り込み、会話内で共有できます。" },
+      { "description": "署名依頼の文書を送信し、進捗をここで確認できます。" },
+      { "description": "AIエージェントが各やり取りを支援、分析、実行します。" }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Interfy Connectによる電子署名と生産性",
+    "signCard": {
+      "titleHighlight": "全ユーザー無料の電子署名",
+      "titleSuffix": "を提供します。",
+      "description": "会話から直接、文書を署名依頼として送信できます。シンプルで速く、プラットフォームの全プランに100%含まれています。"
+    },
+    "headingHighlight": "日常業務で実感できる",
+    "headingSuffix": "生産性",
+    "items": [
+      {
+        "title": "より高いスピード",
+        "description": "適切な文脈がすべて整っているため、意思決定が速くなります。"
+      },
+      {
+        "title": "手戻りの削減",
+        "description": "情報が一元化され、関係者全員がアクセスできます。"
+      },
+      {
+        "title": "より高い可視性",
+        "description": "会話や活動の進捗をリアルタイムで追跡できます。"
+      },
+      {
+        "title": "より高い安全性",
+        "description": "すべてのやり取りにガバナンス、権限管理、コンプライアンスが適用されます。"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy Connectを使い始める",
+    "heading": "チームをつなぎ、コラボレーションを成果へと変える。",
+    "subheading": "すべてが統合され、すべてが追跡可能。すべてが一つの会話の中に。",
+    "primaryButton": "7日間無料でTest Drive",
+    "secondaryButton": "デモを予約する",
+    "statsLabel": "Interfyプラットフォームの実績",
+    "stats": [
+      { "label": "25,000 +", "sublabel": "顧客数" },
+      { "label": "180+ 国" },
+      { "label": "16言語" },
+      { "label": "最先端のセキュリティ" },
+      { "label": "AI Native" },
+      { "label": "高可用性" },
+      { "label": "グローバルなコンプライアンス" }
+    ]
+  }
+}

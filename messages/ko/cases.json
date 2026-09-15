@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "성공 사례",
+    "description": "Interfy의 문서, 프로세스, AI 통합 플랫폼을 통해 다양한 산업의 기업들이 달성한 대표적인 성과입니다.",
+    "keywords": ["Interfy 성공 사례", "Interfy 성과", "문서 관리 성공 사례", "프로세스 자동화 ROI"]
+  },
+  "hero": {
+    "ariaLabel": "성공 사례 소개",
+    "eyebrow": "성공 사례",
+    "titleLine1": "다양한 산업에서 확인된",
+    "titleHighlight": "실질적인 성과",
+    "description": "문서, 프로세스, AI를 하나의 플랫폼으로 통합함으로써 귀사와 같은 기업들이 얻고 있는 성과를 소개합니다."
+  },
+  "grid": {
+    "ariaLabel": "산업별 성과",
+    "heading": "고객들이 달성한 성과",
+    "illustrativeNote": "본 수치는 각 산업의 Interfy 고객 평균을 기반으로 한 예시입니다. 귀사의 상황에 맞는 예상 효과를 확인하려면 진단을 요청하세요.",
+    "complianceNote": "본 성과는 ISO/IEC 27001:2022 인증 인프라, 99.99% 가동률 SLA, LGPD/GDPR 규제 준수 환경에서 달성되었습니다.",
+    "items": [
+      {
+        "segment": "금융기관",
+        "description": "계약서 디지털화와 신용 심사 프로세스 자동화로 전체 이력을 완벽하게 추적할 수 있습니다.",
+        "metricValue": "-45%",
+        "metricLabel": "평균 신용 심사 소요 시간"
+      },
+      {
+        "segment": "헬스케어",
+        "description": "진료 기록과 검사 결과를 통합 관리하고, 전자서명을 진료 흐름에 직접 연결했습니다.",
+        "metricValue": "-60%",
+        "metricLabel": "문서 보관 소요 시간"
+      },
+      {
+        "segment": "법률",
+        "description": "기한 관리와 종단 간 전자서명을 갖춘 계약 및 사건 관리 체계를 구축했습니다.",
+        "metricValue": "3배",
+        "metricLabel": "월간 계약 체결 건수 증가"
+      },
+      {
+        "segment": "제조",
+        "description": "ERP와 연동된 다단계 승인 및 발주 프로세스를 자동화했습니다.",
+        "metricValue": "-35%",
+        "metricLabel": "승인 주기 소요 시간"
+      },
+      {
+        "segment": "물류",
+        "description": "운전기사의 모바일 기기에서 인수증과 세금계산서를 바로 자동 캡처합니다.",
+        "metricValue": "+80%",
+        "metricLabel": "당일 처리되는 문서 캡처 비율"
+      },
+      {
+        "segment": "리테일",
+        "description": "공급업체 온보딩과 표준화된 계약 관리를 단일 프로세스로 통합했습니다.",
+        "metricValue": "-50%",
+        "metricLabel": "공급업체 온보딩 소요 시간"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy 시작하기",
+    "heading": "귀사에서도 비슷한 성과를 원하시나요?",
+    "subheading": "저희 팀과 상담하고 현재 프로세스에 대한 무료 진단을 받아보세요.",
+    "primaryButton": "무료로 시작하기",
+    "secondaryButton": "데모 신청하기"
+  }
+}

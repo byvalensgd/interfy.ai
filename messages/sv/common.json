@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — AI-native plattform för dokument och processer",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "Dokumenthantering, processautomation, intelligent inskanning och digital signering i en enda AI-native plattform. Testa gratis i 7 dagar, inget kreditkort krävs.",
+  "keywords": [
+    "Interfy",
+    "AI-native plattform",
+    "dokumenthantering",
+    "elektronisk dokumenthantering",
+    "processautomation",
+    "BPM",
+    "ECM",
+    "intelligent dokumentinskanning",
+    "digital signering",
+    "samarbete i företag",
+    "AI-agenter",
+    "programvara för verksamhetsstyrning"
+  ],
+  "ctaPrimary": "Kom igång gratis",
+  "ctaSecondary": "Boka en demo",
+  "ogHeadlineLine1": "AI-native plattform för",
+  "ogHeadlineLine2": "dokument och processer",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "Föregående bild",
+  "nextSlide": "Nästa bild",
+  "platformStats": [
+    {
+      "label": "2,5M +",
+      "sublabel": "användare"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "dokument"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "processer"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "lagrat"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "signaturer"
+    },
+    {
+      "label": "99,99%",
+      "sublabel": "drifttid"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "support"
+    }
+  ]
+}

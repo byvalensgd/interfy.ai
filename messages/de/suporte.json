@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Support",
+    "description": "Interfy-Support-Center: Erreichen Sie unser Team per Chat, E-Mail oder Telefon oder finden Sie Antworten in den häufig gestellten Fragen.",
+    "keywords": ["Interfy Support", "Interfy Hilfe-Center", "Interfy Kundenservice", "Support-SLA"]
+  },
+  "hero": {
+    "ariaLabel": "Einführung in den Interfy-Support",
+    "eyebrow": "Interfy Support",
+    "titleLine1": "Wie können wir",
+    "titleHighlight": "Ihnen helfen?",
+    "description": "Unser technisches Support-Team begleitet Ihren Betrieb an jedem Werktag, mit planabhängigem SLA und einem stets verfügbaren Hilfe-Center.",
+    "primaryLabel": "Häufig gestellte Fragen ansehen",
+    "secondaryLabel": "Mit einem Experten sprechen"
+  },
+  "channels": {
+    "ariaLabel": "Support-Kanäle",
+    "heading": "Support-Kanäle",
+    "items": [
+      {
+        "title": "Live-Chat",
+        "description": "Sprechen Sie in Echtzeit mit unserem Support-Team, montags bis freitags von 8 bis 20 Uhr.",
+        "actionLabel": "Chat starten",
+        "href": "/contato"
+      },
+      {
+        "title": "E-Mail",
+        "description": "Senden Sie Ihre Frage oder Anfrage an suporte@interfy.ai und erhalten Sie eine Antwort innerhalb des SLA Ihres Plans.",
+        "actionLabel": "E-Mail senden",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "Rufen Sie unser Service-Center für dringende Fälle während der Geschäftszeiten an.",
+        "actionLabel": "Jetzt anrufen",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Hilfe-Center",
+        "description": "Durchsuchen Sie Artikel, Tutorials und Schritt-für-Schritt-Anleitungen zu allen Interfy-Produkten.",
+        "actionLabel": "Häufig gestellte Fragen ansehen",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "Spezialisierter Support im globalen Maßstab",
+    "heading": "Support, der mit Ihrem Wachstum mithält",
+    "statsLabel": "Reichweite und Zuverlässigkeit des Interfy-Supports",
+    "stats": [
+      { "label": "180+ Länder", "sublabel": "Wachsende globale Präsenz" },
+      { "label": "16 Sprachen", "sublabel": "Betreuung in der Sprache Ihres Teams" },
+      { "label": "99,99 %", "sublabel": "Garantierte SLA-Verfügbarkeit" },
+      { "label": "LGPD, DSGVO, ISO 27001", "sublabel": "Zertifizierte Konformität" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Häufig gestellte Fragen zum Support",
+    "ariaExpand": "Antwort erweitern",
+    "heading": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Wie eröffne ich ein Support-Ticket?",
+        "answer": "Sie können ein Ticket per Chat, E-Mail (suporte@interfy.ai) oder direkt im Interfy-Dashboard im Support-Bereich eröffnen. Jedes Ticket erhält eine Vorgangsnummer zur Nachverfolgung."
+      },
+      {
+        "question": "Wie schnell antwortet der Support?",
+        "answer": "Das SLA variiert je nach Plan: Starter-Konten erhalten eine Antwort innerhalb von 24 Werkstunden, während Business-, Corporate- und Enterprise-Pläne priorisiert werden und kürzere, im Vertrag festgelegte SLAs haben."
+      },
+      {
+        "question": "Ist der Support in allen Plänen enthalten?",
+        "answer": "Ja. Support per Chat und E-Mail ist in allen kostenpflichtigen Plänen enthalten. Corporate- und Enterprise-Pläne verfügen zusätzlich über einen dedizierten Account Manager."
+      },
+      {
+        "question": "Welche Servicezeiten gelten?",
+        "answer": "Unser Support ist montags bis freitags von 8 bis 20 Uhr (brasilianische Zeit) verfügbar. Enterprise-Konten können erweiterten 24/7-Support buchen."
+      },
+      {
+        "question": "Wie verfolge ich die Verfügbarkeit der Plattform?",
+        "answer": "Verfügbarkeit und Vorfallhistorie jedes Produkts werden in Echtzeit auf unserer Plattform-Statusseite veröffentlicht."
+      },
+      {
+        "question": "Wie eskaliere ich ein dringendes Ticket?",
+        "answer": "Als kritisch markierte Tickets werden automatisch priorisiert. Wenn Sie die Dringlichkeit verstärken möchten, antworten Sie auf die Vorgangs-E-Mail oder rufen Sie das Service-Center an."
+      },
+      {
+        "question": "Bietet Interfy Support in anderen Sprachen und Regionen an?",
+        "answer": "Ja. Die Plattform ist in 16 Sprachen verfügbar und in mehr als 180 Ländern präsent, mit dediziertem Vertriebssupport für Brasilien und Support-SLAs auf internationalem Niveau."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "heading": "Noch Fragen?",
+    "subheading": "Sprechen Sie mit einem unserer Experten und entdecken Sie, wie sich Interfy an Ihren Betrieb anpassen kann.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryButton": "Demo vereinbaren"
+  }
+}

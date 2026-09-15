@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: Sprechen Sie mit Ihrem Betrieb per Sprachbefehl. Abfragen, Prozesse, Berichte und Agents natürlich ausgelöst, mit Sicherheit und Governance bei jeder Interaktion.",
+    "keywords": ["Sprachbefehle", "Unternehmens-Sprachassistent", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "7 Tage kostenloser Test Drive, keine Kreditkarte erforderlich."
+  },
+  "hero": {
+    "heading": "Sprechen Sie mit",
+    "headingHighlight": "Ihrem Betrieb.",
+    "description": "Sie fragen. Interfy versteht. Die Agents führen aus.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "imageAlt": "Interfy Voice auf Tablet und Smartphone, mit ausgeführten Sprachbefehlen auf der Plattform",
+    "highlights": [
+      { "label": "Sprechen Sie natürlich" },
+      { "label": "KI, die versteht und ausführt" },
+      { "label": "Sicher und verlässlich" },
+      { "label": "Überall verfügbar" }
+    ],
+    "platformCards": [
+      {
+        "title": "Am Desktop nutzen",
+        "description": "Vollständige Integration mit der Web-App. Aktivieren Sie per Schaltfläche oder Tastenkombination und beginnen Sie zu sprechen."
+      },
+      {
+        "title": "Auf Mobile nutzen",
+        "description": "Verfügbar in der Interfy-Mobile-App. Sprechen, abfragen, genehmigen und alles in der Handfläche verwalten."
+      },
+      {
+        "title": "Sicherheit und Berechtigungen",
+        "description": "Zugriff kontrolliert durch Berechtigungen. Ihre Stimme, Ihre Daten und Ihre Vorgänge stets geschützt."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Was Sie mit",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Sprachinteraktion",
+        "description": "Sprechen Sie natürlich und interagieren Sie mit der gesamten Plattform nur mit Ihrer Stimme."
+      },
+      {
+        "title": "Natürliche Sprache",
+        "description": "Die KI versteht, was Sie sagen, auch in vollständigen und spontanen Sätzen."
+      },
+      {
+        "title": "Sprachsuche",
+        "description": "Finden Sie Dokumente, Prozesse, Informationen und mehr mit einer einfachen Frage."
+      },
+      {
+        "title": "Prozesserstellung",
+        "description": "Erstellen Sie vollständige Prozesse, indem Sie einfach beschreiben, was Sie brauchen."
+      },
+      {
+        "title": "Formularerstellung",
+        "description": "Erstellen Sie intelligente Formulare mit Feldern, Regeln und Validierungen in Sekunden."
+      },
+      {
+        "title": "Dokumentenabfrage",
+        "description": "Fragen Sie zu Dokumenten und erhalten Sie schnelle und präzise Antworten."
+      },
+      {
+        "title": "Berichterstellung",
+        "description": "Fordern Sie individuelle Berichte an und erhalten Sie sofort Analysen und Insights."
+      },
+      {
+        "title": "Auslösen von Agents",
+        "description": "Aktivieren Sie intelligente Agenten, um Aufgaben auszuführen und automatisch Ergebnisse zu liefern."
+      },
+      {
+        "title": "Operative Befehle",
+        "description": "Führen Sie Aktionen, Aktualisierungen und Vorgänge auf der Plattform per Sprachbefehl aus."
+      },
+      {
+        "title": "Bestätigung für sensible Aktionen",
+        "description": "Kritische Aktionen erfordern immer eine Sprachbestätigung, um Sicherheit zu gewährleisten."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Vollständig verbunden mit dem",
+    "headingHighlight": "Interfy-Ökosystem",
+    "items": [
+      { "description": "Dokumente abfragen und damit interagieren" },
+      { "description": "Prozesse per Sprache erstellen und verwalten" },
+      { "description": "Dokumente erfassen und Informationen extrahieren" },
+      { "description": "Zur Unterschrift senden und den Status verfolgen" },
+      { "description": "Per Sprache kommunizieren und zusammenarbeiten" },
+      { "description": "Agents aktivieren und Ergebnisse erhalten" },
+      { "description": "Zentrale Sprachinteraktion" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governance, Sicherheit und AI Credits von Interfy Voice",
+    "governance": {
+      "title": "Governance und Sicherheit",
+      "titleAccent": "an erster Stelle",
+      "items": [
+        "Daten geschützt durch Ende-zu-Ende-Verschlüsselung",
+        "Granulare Berechtigungen nach Agent und Nutzer",
+        "Audit-Trail aller Sprachinteraktionen",
+        "Konformität mit LGPD, ISO 27001, SOC 2 und weiteren",
+        "Daten geschützt durch höchste Sicherheitsstandards"
+      ],
+      "cta": "Details ansehen"
+    },
+    "credits": {
+      "title": "Transparenter Verbrauch mit",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice nutzt AI Credits, um Befehle, Abfragen, Analysen und Ausführungen zu verarbeiten.",
+      "features": [
+        { "label": "Credits in allen Tarifen enthalten" },
+        { "label": "Echtzeit-Überwachung" },
+        { "label": "Kaufen Sie zusätzliche Credits, wenn Sie sie brauchen" }
+      ],
+      "cta": "Details ansehen",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "verfügbar"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Starten Sie mit Interfy Voice",
+    "heading": "Sprechen Sie mit Ihrem Betrieb.",
+    "subheading": "Einfach, schnell und intelligent.",
+    "primaryButton": "7 Tage kostenlos testen",
+    "secondaryButton": "Demo vereinbaren",
+    "statsLabel": "Zahlen der Interfy-Plattform",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "Dokumente" },
+      { "label": "20M +", "sublabel": "Signaturen" },
+      { "label": "2,5M +", "sublabel": "Nutzer" },
+      { "label": "6M +", "sublabel": "Prozesse" },
+      { "label": "1000 TB +", "sublabel": "gespeichert" },
+      { "label": "99,99 %", "sublabel": "Uptime" },
+      { "label": "24/7", "sublabel": "Support" }
+    ]
+  }
+}

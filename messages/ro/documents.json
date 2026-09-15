@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Documents",
+    "description": "Interfy Documents este noua generație de gestiune documentară. Organizează, găsește, protejează și distribuie documente cu inteligență artificială în fiecare etapă.",
+    "keywords": ["gestiune documentară", "GED", "ECM", "gestiune electronică a documentelor", "Interfy Documents"],
+    "freeTrialNote": "Testează gratuit timp de 7 zile, fără card de credit."
+  },
+  "hero": {
+    "headingLine1": "Documentele tale nu mai sunt doar fișiere. Devin",
+    "headingHighlight": "informație inteligentă.",
+    "descriptionBrand": "Interfy Documents",
+    "description": "este noua generație de gestiune documentară. Organizează, găsește, protejează și distribuie documente cu inteligență artificială în fiecare etapă.",
+    "ctaPrimary": "Test Drive Gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "stats": [
+      { "label": "100% Web", "sublabel": "Accesează de oriunde" },
+      { "label": "AI-Native", "sublabel": "Inteligență la fiecare pas" },
+      { "label": "Sigur și de încredere", "sublabel": "Guvernanță și conformitate" }
+    ],
+    "mockupAlt": "Platforma Interfy Documents afișată pe tabletă și smartphone, arătând lista de documente și foldere",
+    "chatCard": {
+      "line1": "Găsește contractele semnate",
+      "line2": "cu compania Acme în 2024"
+    }
+  },
+  "capabilities": {
+    "heading": "Gestiune documentară completă cu",
+    "headingHighlight": "Inteligență Artificială",
+    "items": [
+      {
+        "title": "Stocare securizată",
+        "description": "Stochează orice tip de document în siguranță, cu disponibilitate ridicată și protecție de nivel enterprise."
+      },
+      {
+        "title": "Organizare inteligentă",
+        "description": "Structurează foldere, subfoldere și categorii după cum dorești, cu modele flexibile și etichete."
+      },
+      {
+        "title": "Căutare inteligentă",
+        "description": "Găsește documente în câteva secunde cu filtre avansate, AI și căutare semantică."
+      },
+      {
+        "title": "Căutare în limbaj natural",
+        "description": "Întreabă cum vrei tu. AI-ul înțelege și găsește ceea ce ai nevoie."
+      },
+      {
+        "title": "Clasificare automată cu AI",
+        "description": "AI-ul clasifică și categorizează documentele automat, reducând munca manuală și erorile."
+      },
+      {
+        "title": "Extragere de informații",
+        "description": "Extrage date și informații automat din contracte, facturi, formulare și multe altele."
+      },
+      {
+        "title": "Metadate și indexare",
+        "description": "Creează metadate personalizate și indexuri inteligente pentru a regăsi informațiile cu precizie."
+      },
+      {
+        "title": "Control al versiunilor",
+        "description": "Istoric complet al versiunilor, comparare de documente și restaurare în orice moment."
+      },
+      {
+        "title": "Records Management",
+        "description": "Politici de retenție, termene legale și eliminare automată, cu conformitate totală."
+      },
+      {
+        "title": "Distribuire securizată",
+        "description": "Distribuie documente și foldere către utilizatori interni și externi, în siguranță și controlat."
+      },
+      {
+        "title": "Permisiuni avansate",
+        "description": "Controlează cine poate vizualiza, edita, descărca, comenta sau distribui fiecare document."
+      },
+      {
+        "title": "Audit și trasabilitate",
+        "description": "Jurnale complete ale tuturor acțiunilor, cu pistă de audit și rapoarte detaliate."
+      },
+      {
+        "title": "Guvernanță și conformitate",
+        "description": "Politici, roluri, reguli și controale pentru a garanta securitate, confidențialitate și conformitate."
+      },
+      {
+        "title": "Documents pe mobil",
+        "description": "Accesează, vizualizează, distribuie și aprobă de oriunde, prin aplicația Interfy Mobile."
+      },
+      {
+        "title": "Integrare totală",
+        "description": "Integrare nativă cu Capture, Process, Sign, Connect și Agents pentru o operațiune continuă."
+      },
+      {
+        "title": "Agenți AI",
+        "description": "Agenți inteligenți care analizează, rezumă, clasifică și sugerează acțiuni automat."
+      }
+    ],
+    "statsLabel": "Amploarea platformei Interfy"
+  },
+  "ecosystem": {
+    "heading": "Integrare nativă cu întregul",
+    "headingHighlight": "ecosistem Interfy",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Captură inteligentă a documentelor." },
+      { "description": "Automatizare de procese." },
+      { "description": "Semnătură digitală integrată." },
+      { "description": "Colaborare și comunicare." },
+      { "description": "Agenți AI care înțeleg și acționează." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Avantajele Interfy Documents",
+    "blocks": [
+      {
+        "title": "Productivitate în palma mâinii",
+        "description": "Aplicația Interfy Mobile îți duce gestiunea documentară oriunde te afli.",
+        "checklist": [
+          "Accesează și vizualizează documente",
+          "Aprobă cereri și sarcini",
+          "Distribuie în siguranță",
+          "Caută cu AI",
+          "Lucrează offline și sincronizează ulterior"
+        ],
+        "imageAlt": "Aplicația Interfy Mobile afișând lista de documente"
+      },
+      {
+        "title": "Securitate și guvernanță pe primul loc",
+        "description": "Interfy Documents a fost proiectată pentru a-ți proteja informațiile și pentru a asigura conformitatea la toate nivelurile.",
+        "checklist": [
+          "Criptare în repaus și în tranzit",
+          "Control al accesului bazat pe roluri",
+          "LGPD, ISO 27001, SOC 2 și GDPR",
+          "Jurnale și audit complete",
+          "Backup automat și recuperare în caz de dezastru"
+        ],
+        "imageAlt": "Ilustrație a unui scut de securitate protejând documentele"
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Începe să folosești Interfy Documents",
+    "title": "Transformă-ți documentele în informație strategică",
+    "description": "Începe acum cu 7 zile gratuite și descoperă cum Interfy Documents poate revoluționa gestiunea ta documentară.",
+    "primaryButton": "Test Drive Gratuit timp de 7 zile",
+    "secondaryButton": "Programează o Demonstrație",
+    "statsLabel": "Avantajele Interfy Documents",
+    "features": [
+      { "label": "100% Web", "sublabel": "Accesează de oriunde" },
+      { "label": "Securitate de vârf", "sublabel": "Date protejate și conforme" },
+      { "label": "Scalabil", "sublabel": "De la afaceri mici la mari" },
+      { "label": "Suport 24/7", "sublabel": "Oricând ai nevoie" }
+    ]
+  }
+}

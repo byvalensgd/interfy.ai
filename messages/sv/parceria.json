@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Partnerprogram",
+    "description": "Bli Kommersiell Partner eller Affiliate hos Interfy.ai och omvandla möjligheter till återkommande intäkter med en AI-native plattform, dedikerad support och egen workspace.",
+    "keywords": ["Interfy partnerprogram", "kommersiell partner", "Interfy affiliate", "kundrekommendationer", "återkommande intäkter"]
+  },
+  "hero": {
+    "headingPrefix": "Väx tillsammans med ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Förvandla möjligheter till återkommande intäkter.",
+    "description": "Bli del av ett globalt program för företag och yrkesverksamma som vill prospektera, rekommendera och utveckla nya affärer med en AI-native plattform.",
+    "slideshowAlt": "Interfy-plattformen visad på laptop och smartphone, med AI-drivet hanteringspanel",
+    "bannerAriaLabel": "Partnerprogrammets fördelar",
+    "banner": [
+      { "title": "Globalt program" },
+      { "title": "Support från Interfy" },
+      { "title": "Återkommande intäkter" },
+      { "title": "Skyddade möjligheter" }
+    ],
+    "ctaPrimary": "JAG VILL BLI PARTNER",
+    "ctaSecondary": "JAG VILL REKOMMENDERA KUNDER"
+  },
+  "participation": {
+    "heading": "Välj hur du vill delta",
+    "cards": [
+      {
+        "title": "KOMMERSIELL PARTNER",
+        "subtitle": "För dig som vill utveckla affärer med Interfy",
+        "checklistAriaLabel": "Fördelar för Kommersiell Partner",
+        "checklist": [
+          { "label": "Prospektering av nya kunder" },
+          { "label": "Presentation av plattformen" },
+          { "label": "Utveckling av affärsmöjligheter" },
+          { "label": "Uppföljning av kundrelationen" },
+          { "label": "Egen workspace för demonstrationer" },
+          { "label": "Utbildning och officiellt material" },
+          { "label": "Registrering och skydd av möjligheter" }
+        ],
+        "cta": "JAG VILL BLI PARTNER"
+      },
+      {
+        "title": "AFFILIATE ELLER REKOMMENDATÖR",
+        "subtitle": "För dig som vill rekommendera potentiella kunder",
+        "checklistAriaLabel": "Fördelar för Affiliate eller Rekommendatör",
+        "checklist": [
+          { "label": "Rekommendation via länk, kod eller formulär" },
+          { "label": "Inga demonstrationer krävs" },
+          { "label": "Inga offerter att utforma" },
+          { "label": "Inget deltagande i förhandlingen" },
+          { "label": "Interfy sköter hela försäljningsprocessen" },
+          { "label": "Uppföljning av dina rekommendationer" }
+        ],
+        "cta": "JAG VILL REKOMMENDERA KUNDER"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Varför samla allt i en enda ",
+    "headingHighlight": "Workspace?",
+    "steps": [
+      { "title": "Välj din modell", "description": "Bestäm om du blir Kommersiell Partner eller Affiliate/Rekommendatör." },
+      { "title": "Registrera dig", "description": "Fyll i dina uppgifter och bekräfta ditt deltagande i programmet." },
+      { "title": "Registrera dina möjligheter", "description": "Rekommendera och följ upp potentiella kunder via plattformen." },
+      { "title": "Följ dina resultat", "description": "Följ dina resultat och få betalt enligt programmets villkor." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "En komplett struktur ",
+    "headingHighlight": "för din tillväxt",
+    "ariaLabel": "Stödstruktur för partners",
+    "items": [
+      { "title": "AI-native plattform", "description": "Den bästa tekniken för att driva dina affärer framåt." },
+      { "title": "Utbildning", "description": "Kommersiell och teknisk kompetensutveckling för ditt team." },
+      { "title": "Egen workspace", "description": "Exklusiv miljö för hantering av dina möjligheter." },
+      { "title": "Säljmaterial", "description": "Presentationer, argumentationsunderlag och uppdaterat officiellt innehåll." },
+      { "title": "Registrering av möjligheter", "description": "Följ statusen för varje möjlighet i realtid." },
+      { "title": "Avtal via Interfy", "description": "Interfy sköter förhandling och formalisering med kunden." },
+      { "title": "Fakturering via Interfy", "description": "Fakturering, betalningshantering och uppföljning." },
+      { "title": "Officiell support", "description": "Dedikerat team för partners med specialiserad service." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Du utvecklar affären",
+      "checklistAriaLabel": "Partnerns ansvar",
+      "checklist": [
+        { "label": "Prospektering och relationsbyggande" },
+        { "label": "Presentation av plattformen" },
+        { "label": "Registrering av möjlighet" },
+        { "label": "Kommersiell uppföljning" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy sköter driften",
+      "checklistAriaLabel": "Interfys ansvar",
+      "checklist": [
+        { "label": "Avtal med kunden" },
+        { "label": "Fakturering och betalningshantering" },
+        { "label": "Skapande av workspace" },
+        { "label": "Infrastruktur, uppdateringar och support" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Din kund kan börja med ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 dagar gratis, utan kort och utan förpliktelser.",
+    "descriptionLine2": "Kunden lär känna plattformen innan de väljer plan.",
+    "cta": "UPPTÄCK TEST DRIVE"
+  },
+  "faq": {
+    "heading": "Vanliga frågor",
+    "ariaExpand": "Visa svar",
+    "items": [
+      {
+        "question": "Finns det territoriell exklusivitet?",
+        "answer": "Nej. Programmet är globalt: partners och affiliates från alla regioner kan prospektera och rekommendera kunder, utan geografiska begränsningar."
+      },
+      {
+        "question": "Hur skyddas mina möjligheter?",
+        "answer": "Varje möjlighet som registreras i plattformen kopplas till den ansvariga partnern eller affiliaten, vilket förhindrar överlappning och säkerställer erkännande för den affär som rekommenderats."
+      },
+      {
+        "question": "När betalas provisionen ut?",
+        "answer": "Provisionen frisläpps efter att kundens betalning bekräftats, enligt den faktureringscykel som anges i programmets villkor."
+      },
+      {
+        "question": "Kan partnern fakturera kunden?",
+        "answer": "Nej. Interfy sköter avtal, fakturering och betalning direkt med kunden, medan partnern fokuserar på kundrelationen."
+      },
+      {
+        "question": "Hur fungerar den årliga förnyelsen?",
+        "answer": "Förnyelsen sker automatiskt så länge kunden är aktiv, och partnern eller affiliaten fortsätter att få ersättning enligt programmets villkor."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Bli del av Interfy.ais globala ekosystem",
+    "heading": "Ska vi växa tillsammans?",
+    "subheading": "Välj din modell och bli del av Interfy.ais globala ekosystem.",
+    "primaryButton": "JAG VILL BLI PARTNER",
+    "secondaryButton": "JAG VILL BLI AFFILIATE",
+    "statsLabel": "Siffror från Interfy-plattformen",
+    "stats": [
+      { "label": "12Md +", "sublabel": "dokument" },
+      { "label": "20M +", "sublabel": "signaturer" },
+      { "label": "2,5M +", "sublabel": "användare" },
+      { "label": "6M +", "sublabel": "processer" },
+      { "label": "1000 TB +", "sublabel": "lagrat" },
+      { "label": "99,99%", "sublabel": "drifttid" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

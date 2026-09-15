@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI-krediitit",
+    "description": "Yksi AI-krediittisaldo koko Interfy.ai-alustan älykkyydelle. Yksinkertaista, läpinäkyvää ja tehokasta — käytä Documentsissa, Processissa, Capturessa, Agentsissa, Voicessa ja paljon muualla.",
+    "keywords": ["AI-krediitit", "tekoälykrediitit", "AI-paketit", "Interfyn krediittien kulutus"]
+  },
+  "hero": {
+    "headingLine1": "Yksi saldo",
+    "headingHighlight": "AI-krediiteille ",
+    "headingSuffix": "koko alustan älykkyydelle.",
+    "description1": "AI-krediitit ovat Interfy.ai:n älykkyyden valuutta.",
+    "description2": "Yksinkertaisia, läpinäkyviä ja tehokkaita.",
+    "ctaPrimary": "Aloita nyt",
+    "ctaSecondary": "Varaa esittely",
+    "bannerAriaLabel": "Miksi valita AI-krediitit",
+    "banner": [
+      { "title": "Yksinkertaista", "description": "Yksi saldo koko alustalle." },
+      { "title": "Läpinäkyvää", "description": "Hallitset, seuraat ja saat hälytyksiä." },
+      { "title": "Tehokasta", "description": "Voimistaa agentteja, automaatioita, analyyseja ja paljon muuta." }
+    ],
+    "strip": {
+      "heading": "Yksi saldo. Kaikki älykkyys.",
+      "description": "Ei erillisiä krediittejä. Ei mutkia matkassa.",
+      "ariaLabel": "AI-krediittien yhden saldon edut",
+      "items": [
+        { "label": "Enemmän tuottavuutta" },
+        { "label": "Parempia päätöksiä" },
+        { "label": "Vähemmän manuaalista työtä" },
+        { "label": "Enemmän tuloksia" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "Missä ",
+    "headingHighlight": "AI-krediittejä ",
+    "headingSuffix": "voi käyttää",
+    "ariaLabel": "AI-krediittejä käyttävät tuotteet",
+    "items": [
+      { "title": "Documents", "description": "Älykäs luku, yhteenveto, tiedon poiminta, kysymys-vastaus, käännös ja analyysi." },
+      { "title": "Process", "description": "Älykkäät päätökset, automaattinen suoritus, luokittelu ja reititys." },
+      { "title": "Capture", "description": "Kehittynyt OCR, strukturoitu poiminta, validointi ja älykäs indeksointi." },
+      { "title": "Agents", "description": "Tehtävien suoritus, analyysi, suositukset, integraatiot ja toiminnot." },
+      { "title": "Voice", "description": "Äänivuorovaikutus, älykäs haku, komennot ja vastaukset luonnollisella kielellä." },
+      { "title": "Ja paljon muuta", "description": "Oivalluksia, ennusteita, vertailuja, raportteja ja muita AI-toimintoja." }
+    ],
+    "notice": {
+      "title": "Kulutus vaihtelee toiminnon tyypin, monimutkaisuuden ja määrän mukaan.",
+      "description": "Monimutkaisemmat prosessit kuluttavat enemmän AI-krediittejä."
+    }
+  },
+  "structure": {
+    "headingPrefix": "Täysi rakenne ",
+    "headingHighlight": "kasvuunne",
+    "ariaLabel": "AI-krediittien hallintaominaisuudet",
+    "items": [
+      { "title": "Hallinta workspacea kohti", "description": "Jokaisella workspacella on oma saldo, rajat ja käyttöoikeudet." },
+      { "title": "Rajat ja käyttöoikeudet", "description": "Määritä kuukausittaiset rajat ja hallinta profiilin, tiimin tai osaston mukaan." },
+      { "title": "Yksityiskohtaiset raportit", "description": "Näe kulutus moduulin, käyttäjän, toiminnon ja ajanjakson mukaan." },
+      { "title": "Älykkäät hälytykset", "description": "Saa hälytyksiä kulutuksesta, rajan lähestymisestä ja matalasta saldosta." },
+      { "title": "Lisäostot", "description": "Tarvitsetko lisää? Päivitä pakettia tai osta lisää AI-krediittejä." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "AI-krediittien ",
+    "headingHighlight": "paketit",
+    "headingSuffix": " - ostat vain sen, mitä tarvitset",
+    "table": {
+      "ariaLabel": "AI-krediittien pakettitaulukko",
+      "colPlan": "Paketti",
+      "colCredits": "AI-krediitit",
+      "colPrice": "Hinta",
+      "colPricePer1000": "Hinta per 1 000 krediittiä",
+      "footnote": "Hinnat eivät sisällä veroja. Katso ehdot."
+    },
+    "consumption": {
+      "heading": "Kulutusesimerkkejä",
+      "items": [
+        { "title": "Dokumentin luku ja yhteenveto (10 sivua)", "credits": "5 AI-krediittiä" },
+        { "title": "Dokumentin tiedon poiminta (1 sivu)", "credits": "3 AI-krediittiä" },
+        { "title": "Dokumentin älykäs luokittelu", "credits": "2 AI-krediittiä" },
+        { "title": "Agentin suoritus (keskikokoinen tehtävä)", "credits": "10 AI-krediittiä" },
+        { "title": "Kysymys Voicen kautta (keskikokoinen)", "credits": "2 AI-krediittiä" },
+        { "title": "Älykäs raportti (keskikokoinen)", "credits": "15 AI-krediittiä" },
+        { "title": "Dokumentin käännös (1 sivu)", "credits": "4 AI-krediittiä" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "Usein kysytyt kysymykset ja seuraavat askeleet",
+    "faqHeading": "Usein kysytyt kysymykset",
+    "faqAriaExpand": "Laajenna vastaus",
+    "faq": [
+      {
+        "question": "Mitä AI-krediitit ovat?",
+        "answer": "AI-krediitit ovat Interfy.ai:n yksi tekoälyn valuutta. Jokainen AI:ta käyttävä toiminto — luku, poiminta, luokittelu, agenttien suoritus ja paljon muuta — kuluttaa krediittejä tehtävän monimutkaisuuden mukaan."
+      },
+      {
+        "question": "Voinko jakaa AI-krediittejä workspacejen välillä?",
+        "answer": "Ei. Jokaisella workspacella on oma AI-krediittisaldo, itsenäisillä rajoilla ja käyttöoikeuksilla, mikä takaa täyden hallinnan kunkin osaston tai tiimin kulutukseen."
+      },
+      {
+        "question": "Voinko ostaa lisäkrediittejä milloin tahansa?",
+        "answer": "Kyllä. Voit hankkia lisäkrediittipaketteja milloin tahansa suoraan alustalta, tarvitsematta vaihtaa pakettia."
+      },
+      {
+        "question": "Vanhenevatko AI-krediitit?",
+        "answer": "Pakettiin sisältyvät krediitit uusiutuvat joka laskutusjaksossa. Hankitut lisäpaketit noudattavat sopimusehtoja — ota yhteyttä tiimiimme lisätietoja varten."
+      },
+      {
+        "question": "Miten kulutus lasketaan?",
+        "answer": "Kulutus vaihtelee toiminnon tyypin, monimutkaisuuden ja määrän mukaan. Yksinkertaiset tehtävät, kuten luokittelu, kuluttavat vähemmän krediittejä; monimutkaisemmat prosessit, kuten agenttien suoritus, kuluttavat enemmän."
+      },
+      {
+        "question": "Sisältyvätkö AI-krediitit paketteihin?",
+        "answer": "Kyllä. Kaikki Interfy.ai-paketit sisältävät AI-krediittisaldon älykästä käsittelyä varten. Jos tarvitset enemmän, voit ostaa lisäkrediittejä milloin tahansa."
+      }
+    ],
+    "specialistTitle": "Onko sinulla kysyttävää?",
+    "specialistDesc": "Keskustele tiimimme kanssa ja selvitä, miten AI-krediitit voivat nopeuttaa tuloksiasi.",
+    "specialistCta": "Keskustele asiantuntijan kanssa",
+    "ctaTitle": "Valmiina uudistamaan toimintasi?",
+    "ctaDesc": "Liity tuhansien yritysten joukkoon, jotka luottavat Interfy.ai:hin.",
+    "ctaButton": "Aloita nyt",
+    "statsLabel": "Interfy-alustan lukuja"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — AI-native Plattform für Dokumente und Prozesse",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "Dokumentenmanagement, Prozessautomatisierung, intelligente Erfassung und digitale Signatur in einer einzigen AI-native Plattform. 7 Tage kostenlos testen, keine Kreditkarte erforderlich.",
+  "keywords": [
+    "Interfy",
+    "AI-native Plattform",
+    "Dokumentenmanagement",
+    "elektronische Dokumentenverwaltung",
+    "Prozessautomatisierung",
+    "BPM",
+    "ECM",
+    "intelligente Dokumentenerfassung",
+    "digitale Signatur",
+    "Unternehmenskollaboration",
+    "KI-Agenten",
+    "Unternehmensverwaltungssoftware"
+  ],
+  "ctaPrimary": "Kostenlos starten",
+  "ctaSecondary": "Demo vereinbaren",
+  "ogHeadlineLine1": "AI-native Plattform für",
+  "ogHeadlineLine2": "Dokumente und Prozesse",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "Vorheriger Slide",
+  "nextSlide": "Nächster Slide",
+  "platformStats": [
+    {
+      "label": "2,5 Mio. +",
+      "sublabel": "Nutzer"
+    },
+    {
+      "label": "12 Mrd. +",
+      "sublabel": "Dokumente"
+    },
+    {
+      "label": "6 Mio. +",
+      "sublabel": "Prozesse"
+    },
+    {
+      "label": "1000 TB +",
+      "sublabel": "gespeichert"
+    },
+    {
+      "label": "20 Mio. +",
+      "sublabel": "Signaturen"
+    },
+    {
+      "label": "99,99 %",
+      "sublabel": "Uptime"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "Support"
+    }
+  ]
+}

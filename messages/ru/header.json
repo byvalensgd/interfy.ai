@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Главное меню",
+  "mobileNavAria": "Главное меню (мобильное)",
+  "openMenu": "Открыть меню",
+  "closeMenu": "Закрыть меню",
+  "nav": {
+    "plans": "Тарифы"
+  },
+  "productsMenu": {
+    "trigger": "Продукты",
+    "featuredEyebrow": "Основные продукты",
+    "listEyebrow": "Другие продукты",
+    "featured": [
+      { "title": "Documents", "tagline": "Организуйте, находите и защищайте документы с ИИ на каждом этапе." },
+      { "title": "Process", "tagline": "Создавайте визуальные процессы, формы и автоматизации с ИИ." },
+      { "title": "Capture", "tagline": "Захватывайте любой документ — ИИ распознаёт и организует всё." },
+      { "title": "Sign", "tagline": "Бесплатная электронная подпись с юридической силой и полной интеграцией." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Сотрудничайте и общайтесь со своей командой" },
+      { "label": "Agents", "description": "ИИ, который понимает и поддерживает пользователей" },
+      { "label": "Mobile", "description": "Ваша компания на ладони" },
+      { "label": "Voice", "description": "Общайтесь с платформой естественным голосом" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Ресурсы",
+    "recursosEyebrow": "Ресурсы",
+    "recursosItems": [
+      { "label": "Сегменты" },
+      { "label": "AI-кредиты" },
+      { "label": "Интеграции и API" },
+      { "label": "Истории успеха" }
+    ],
+    "legalEyebrow": "Юридическая информация и поддержка",
+    "legalItems": [
+      { "label": "Условия использования" },
+      { "label": "Политика конфиденциальности" },
+      { "label": "LGPD / GDPR" },
+      { "label": "Безопасность" },
+      { "label": "Поддержка" },
+      { "label": "Контакты" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Компания",
+    "eyebrow": "Компания",
+    "items": [
+      { "label": "О компании Interfy" },
+      { "label": "Платформа Interfy" },
+      { "label": "Партнёрство" },
+      { "label": "Блог / Контент" }
+    ]
+  },
+  "languageSelectorAria": "Выбрать язык"
+}

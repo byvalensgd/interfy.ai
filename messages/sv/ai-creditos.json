@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI Credits",
+    "description": "Ett enda saldo av AI Credits för all intelligens på Interfy.ai-plattformen. Enkelt, transparent och kraftfullt — använd i Documents, Process, Capture, Agents, Voice och mycket mer.",
+    "keywords": ["AI Credits", "krediter för artificiell intelligens", "AI-planer", "kreditförbrukning Interfy"]
+  },
+  "hero": {
+    "headingLine1": "Ett enda saldo av",
+    "headingHighlight": "AI Credits ",
+    "headingSuffix": "för all intelligens på plattformen.",
+    "description1": "AI Credits är Interfy.ais intelligensvaluta.",
+    "description2": "Enkelt, transparent och kraftfullt.",
+    "ctaPrimary": "Kom igång nu",
+    "ctaSecondary": "Boka en demo",
+    "bannerAriaLabel": "Varför välja AI Credits",
+    "banner": [
+      { "title": "Enkelt", "description": "Ett enda saldo för hela plattformen." },
+      { "title": "Transparent", "description": "Du kontrollerar, övervakar och får aviseringar." },
+      { "title": "Kraftfullt", "description": "Driver agenter, automationer, analyser och mycket mer." }
+    ],
+    "strip": {
+      "heading": "Ett enda saldo. All intelligens.",
+      "description": "Inga separata krediter. Ingen krångel.",
+      "ariaLabel": "Fördelar med ett enda AI Credits-saldo",
+      "items": [
+        { "label": "Högre produktivitet" },
+        { "label": "Bättre beslut" },
+        { "label": "Mindre manuellt arbete" },
+        { "label": "Bättre resultat" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "Var ",
+    "headingHighlight": "AI Credits ",
+    "headingSuffix": "kan användas",
+    "ariaLabel": "Produkter som använder AI Credits",
+    "items": [
+      { "title": "Documents", "description": "Intelligent läsning, sammanfattning, dataextraktion, frågor och svar, översättning och analys." },
+      { "title": "Process", "description": "Intelligenta beslut, automatisk exekvering, klassificering och styrning." },
+      { "title": "Capture", "description": "Avancerad OCR, strukturerad extraktion, validering och intelligent indexering." },
+      { "title": "Agents", "description": "Exekvering av uppgifter, analys, rekommendationer, integrationer och åtgärder." },
+      { "title": "Voice", "description": "Röstinteraktion, intelligent sökning, kommandon och svar på naturligt språk." },
+      { "title": "Och mycket mer", "description": "Insikter, prognoser, jämförelser, rapporter och andra AI-funktioner." }
+    ],
+    "notice": {
+      "title": "Förbrukningen varierar beroende på typ, komplexitet och volym för varje operation.",
+      "description": "Mer komplexa processer förbrukar fler AI Credits."
+    }
+  },
+  "structure": {
+    "headingPrefix": "En komplett struktur ",
+    "headingHighlight": "för din tillväxt",
+    "ariaLabel": "Funktioner för hantering av AI Credits",
+    "items": [
+      { "title": "Kontroll per Workspace", "description": "Varje Workspace har sitt eget saldo, sina egna gränser och behörigheter." },
+      { "title": "Gränser och behörigheter", "description": "Ställ in månatliga gränser och kontroller per profil, team eller avdelning." },
+      { "title": "Detaljerade rapporter", "description": "Se förbrukningen per modul, användare, operation och period." },
+      { "title": "Intelligenta aviseringar", "description": "Få aviseringar om förbrukning, gränser som närmar sig och lågt saldo." },
+      { "title": "Tilläggsköp", "description": "Behöver du mer? Uppgradera eller köp extra AI Credits." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "Planer för ",
+    "headingHighlight": "AI Credits",
+    "headingSuffix": " – köp bara det du behöver",
+    "table": {
+      "ariaLabel": "Tabell över AI Credits-planer",
+      "colPlan": "Plan",
+      "colCredits": "AI Credits",
+      "colPrice": "Pris",
+      "colPricePer1000": "Pris per 1 000 krediter",
+      "footnote": "Priser exklusive skatt. Se villkor för mer information."
+    },
+    "consumption": {
+      "heading": "Exempel på förbrukning",
+      "items": [
+        { "title": "Läsning och sammanfattning av dokument (10 sidor)", "credits": "5 AI Credits" },
+        { "title": "Dataextraktion från dokument (1 sida)", "credits": "3 AI Credits" },
+        { "title": "Intelligent klassificering av dokument", "credits": "2 AI Credits" },
+        { "title": "Exekvering av Agent (medelstor uppgift)", "credits": "10 AI Credits" },
+        { "title": "Fråga via Voice (medel)", "credits": "2 AI Credits" },
+        { "title": "Intelligent rapport (medel)", "credits": "15 AI Credits" },
+        { "title": "Översättning av dokument (1 sida)", "credits": "4 AI Credits" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "Vanliga frågor och nästa steg",
+    "faqHeading": "Vanliga frågor",
+    "faqAriaExpand": "Expandera svar",
+    "faq": [
+      {
+        "question": "Vad är AI Credits?",
+        "answer": "AI Credits är Interfy.ais enda valuta för artificiell intelligens. Varje AI-driven operation — läsning, extraktion, klassificering, exekvering av agenter och mycket mer — förbrukar en mängd krediter beroende på uppgiftens komplexitet."
+      },
+      {
+        "question": "Kan jag dela AI Credits mellan Workspaces?",
+        "answer": "Nej. Varje Workspace har sitt eget saldo av AI Credits, med oberoende gränser och behörigheter, vilket ger full kontroll över förbrukningen för varje avdelning eller team."
+      },
+      {
+        "question": "Kan jag köpa extra krediter när jag vill?",
+        "answer": "Ja. Du kan köpa paket med extra AI Credits när du vill, direkt via plattformen, utan att behöva byta plan."
+      },
+      {
+        "question": "Går AI Credits ut?",
+        "answer": "Krediterna som ingår i din plan förnyas varje faktureringscykel. Extra paket som köps till följer de avtalade villkoren — kontakta vårt team för mer information."
+      },
+      {
+        "question": "Hur beräknas förbrukningen?",
+        "answer": "Förbrukningen varierar beroende på typ, komplexitet och volym för varje operation. Enkla uppgifter, som klassificering, förbrukar färre krediter; mer komplexa processer, som exekvering av agenter, förbrukar fler."
+      },
+      {
+        "question": "Ingår AI Credits i planerna?",
+        "answer": "Ja. Alla Interfy.ai-planer inkluderar ett saldo av AI Credits för intelligent bearbetning. Om du behöver mer går det att köpa extra krediter när du vill."
+      }
+    ],
+    "specialistTitle": "Har du fler frågor?",
+    "specialistDesc": "Prata med vårt team och ta reda på hur AI Credits kan skynda på dina resultat.",
+    "specialistCta": "Prata med en specialist",
+    "ctaTitle": "Redo att förvandla din verksamhet?",
+    "ctaDesc": "Gå med bland tusentals företag som redan litar på Interfy.ai.",
+    "ctaButton": "Kom igång nu",
+    "statsLabel": "Siffror från Interfy-plattformen"
+  }
+}

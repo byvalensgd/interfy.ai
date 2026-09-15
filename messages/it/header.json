@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Menu principale",
+  "mobileNavAria": "Menu principale (mobile)",
+  "openMenu": "Apri il menu",
+  "closeMenu": "Chiudi il menu",
+  "nav": {
+    "plans": "Piani"
+  },
+  "productsMenu": {
+    "trigger": "Prodotti",
+    "featuredEyebrow": "Prodotti principali",
+    "listEyebrow": "Altri prodotti",
+    "featured": [
+      { "title": "Documents", "tagline": "Organizza, trova e proteggi i documenti con l'AI in ogni fase." },
+      { "title": "Process", "tagline": "Crea processi visuali, form e automazioni con l'AI." },
+      { "title": "Capture", "tagline": "Acquisisci qualsiasi documento: l'AI lo riconosce e lo organizza." },
+      { "title": "Sign", "tagline": "Firma digitale gratuita, con valore legale e integrazione totale." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Collabora e comunica con il tuo team" },
+      { "label": "Agents", "description": "AI che comprende e supporta gli utenti" },
+      { "label": "Mobile", "description": "La tua operatività sempre a portata di mano" },
+      { "label": "Voice", "description": "Parla con la piattaforma in modo naturale" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Risorse",
+    "recursosEyebrow": "Risorse",
+    "recursosItems": [
+      { "label": "Settori" },
+      { "label": "AI Crediti" },
+      { "label": "Integrazioni & API" },
+      { "label": "Casi di Successo" }
+    ],
+    "legalEyebrow": "Legale & Supporto",
+    "legalItems": [
+      { "label": "Termini di Utilizzo" },
+      { "label": "Informativa sulla Privacy" },
+      { "label": "LGPD / GDPR" },
+      { "label": "Sicurezza" },
+      { "label": "Supporto" },
+      { "label": "Contatti" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Azienda",
+    "eyebrow": "Azienda",
+    "items": [
+      { "label": "Chi è Interfy" },
+      { "label": "Piattaforma Interfy" },
+      { "label": "Partnership" },
+      { "label": "Blog / Contenuti" }
+    ]
+  },
+  "languageSelectorAria": "Seleziona la lingua"
+}

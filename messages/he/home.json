@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – ניהול מסמכים, תהליכים וחתימה דיגיטלית עם AI",
+    "description": "פלטפורמה עסקית מבוססת AI-native המחברת מסמכים, תהליכים, אנשים, נתונים ותקשורת בסביבה חכמה אחת.",
+    "keywords": ["ניהול מסמכים", "אוטומציה של תהליכים", "חתימה דיגיטלית", "פלטפורמת AI-native", "Interfy"]
+  },
+  "hero": {
+    "headline": "הפכו את התפעול שלכם עם",
+    "headlineHighlight": "AI.",
+    "subheadline": "ניהול מסמכים, אוטומציה של תהליכים, סריקה חכמה, חתימה דיגיטלית, שיתוף פעולה ומובייל בפלטפורמה אחת.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "מציעה חתימה דיגיטלית חינמית לכל המשתמשים בפלטפורמה."
+    },
+    "ctaPrimary": "התנסות חינם ל-7 ימים",
+    "ctaSecondary": "קבעו הדגמה",
+    "slideshowAlt": "פלטפורמת Interfy מוצגת על מחשב נייד וסמארטפון, עם לוח ניהול מבוסס AI",
+    "availableVia": "זמין באמצעות:",
+    "badges": [
+      { "alt": "זמין כאפליקציית Web" },
+      { "alt": "זמין ב-Google Play" },
+      { "alt": "זמין ב-App Store" }
+    ],
+    "statsAriaLabel": "יתרונות הפלטפורמה",
+    "stats": [
+      { "label": "25,000 +", "sublabel": "לקוחות" },
+      { "label": "180+ מדינות" },
+      { "label": "16 שפות" },
+      { "label": "אבטחה מתקדמת" },
+      { "label": "AI Native" },
+      { "label": "זמינות גבוהה" },
+      { "label": "תאימות גלובלית" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "פלטפורמה עסקית מבוססת",
+    "headlineHighlight": "AI",
+    "description": "רכזו מסמכים, תהליכים, אנשים, נתונים ותקשורת בסביבה חכמה אחת.",
+    "descriptionBold": "הכול מחובר. הכול משתלב.",
+    "statsAriaLabel": "היקף הפלטפורמה של Interfy",
+    "stats": [
+      { "label": "2.5M +", "sublabel": "משתמשים" },
+      { "label": "12B +", "sublabel": "מסמכים" },
+      { "label": "6M +", "sublabel": "תהליכים" },
+      { "label": "1000TB +", "sublabel": "מאוחסן" },
+      { "label": "20M +", "sublabel": "חתימות" },
+      { "label": "99.99%", "sublabel": "זמן פעילות" },
+      { "label": "24/7", "sublabel": "תמיכה" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["ארגנו ומצאו", "בצורה חכמה"] },
+        { "descriptionLines": ["צרו תהליכים, אישורים", "ומשימות"] },
+        { "descriptionLines": ["דברו עם הפלטפורמה", "בצורה טבעית"] },
+        { "descriptionLines": ["סרקו, זהו", "וחלצו נתונים"] },
+        { "descriptionLines": ["AI שמבין ו", "תומך במשתמשים"] },
+        { "descriptionLines": ["חתמו על מסמכים", "עם תוקף משפטי"] },
+        { "descriptionLines": ["שתפו פעולה ותקשרו", "עם הצוות שלכם"] },
+        { "descriptionLines": ["התפעול שלכם", "בכף היד"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "מערכת אקולוגית שלמה",
+    "headlineSuffix": "לתפעול שלכם",
+    "items": [
+      { "description": "ניהול חכם של מסמכים ומידע" },
+      { "description": "אוטומציה חכמה של תהליכים ומשימות" },
+      { "description": "סריקה חכמה של מסמכים עם AI" },
+      { "description": "חתימה דיגיטלית חינמית לכל המשתמשים" },
+      { "description": "שיתוף פעולה ותקשורת מחוברים לתפעול" },
+      { "description": "התפעול המלא שלכם בכף היד" },
+      { "description": "סוכני AI שמנתחים, מחליטים ומבצעים" },
+      { "description": "אינטראקציה קולית בשפה טבעית עם AI" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "למה לבחור ב-",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI-native", "description": "אינטליגנציה בלב כל דבר" },
+      { "title": "100% מבוססת web", "description": "גישה מכל מקום ומכל מכשיר" },
+      { "title": "סביבת עבודה ייחודית לכל לקוח", "description": "נתונים מבודדים עם פרטיות מלאה" },
+      { "title": "White Label", "description": "המותג שלכם, החוויה שלכם" },
+      { "title": "אינטגרציות באמצעות API", "description": "התחברו למערכות שלכם" },
+      { "title": "ביקורת ועקיבות", "description": "היסטוריה מלאה ומאובטחת" },
+      { "title": "קנה מידה גלובלי", "description": "צמחו בלי הגבלות, בכל מדינה" },
+      { "title": "אבטחה בענן AWS", "description": "תשתית חזקה ואמינה" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "סריקה חכמה וסוכני AI",
+    "capture": {
+      "eyebrow": "סריקה מכל מקום עם AI.",
+      "headingSuffix": "חכמה שמבינה ומעבירה",
+      "description": "Interfy יכולה לפעול עם המותג שלכם עבור פעילויות מיוחדות, יחידות או אזורים.",
+      "checklist": [
+        "סקנר מקצועי או מובייל.",
+        "זיהוי טקסט ונתונים עם AI.",
+        "סיווג אוטומטי של מסמכים.",
+        "אינדקס והעשרה חכמים.",
+        "שליחה ישירה למסמכים ותהליכים."
+      ],
+      "imageAlt": "סריקת מסמכים בסקנר ובמובייל עם זיהוי נתונים באמצעות AI"
+    },
+    "agents": {
+      "eyebrow": "AI שמבין, מבצע ומגיב.",
+      "headingPrefix": "תקשרו",
+      "headingSuffix": "עם הפלטפורמה כמו לא פעם",
+      "description": "השתמשו בסוכנים חכמים ובפקודות קוליות כדי ליצור, לחפש, לסכם, לאשר ועוד.",
+      "videoAriaLabel": "עוזר ה-AI של Interfy",
+      "chatDemo": {
+        "message1": "הצג את החוזים שמחכים לחתימה",
+        "message2Line1": "נמצאו 15 חוזים שמחכים לחתימה.",
+        "message2Line2": "רוצה לראות אותם?",
+        "voiceAlt": "פקודה קולית"
+      }
+    }
+  },
+  "segments": {
+    "headline": "פתרונות לתחומי פעילות",
+    "headlineHighlight": "שונים",
+    "items": [
+      { "label": "פיננסים" },
+      { "label": "בריאות" },
+      { "label": "משפטים" },
+      { "label": "תעשייה" },
+      { "label": "ממשלה" },
+      { "label": "חינוך" },
+      { "label": "לוגיסטיקה" },
+      { "label": "צפייה בהכול..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "המותג שלכם, נוכחות גלובלית ואבטחה",
+    "whiteLabel": {
+      "eyebrow": "המותג שלכם. החוויה שלכם.",
+      "title": "White Label וסביבת עבודה",
+      "titleHighlight": "ייחודית",
+      "description": "התאימו את הפלטפורמה למותג שלכם, לצבעים, למסך הכניסה ולדומיין משלכם.",
+      "imageAlt": "פלטפורמה מותאמת אישית למותג הלקוח (White Label)"
+    },
+    "global": {
+      "eyebrow": "נוכחות גלובלית.",
+      "title": "מוכנים",
+      "titleHighlight": "לעולם",
+      "description": "Interfy מוכנה לשרת חברות ביותר מ-180 מדינות, עם תמיכה ב-16 שפות.",
+      "imageAlt": "מפת עולם המדגימה את הנוכחות הגלובלית של Interfy"
+    },
+    "security": {
+      "eyebrow": "אבטחה ואמון במקום הראשון.",
+      "title": "תשתית מאובטחת ואמינה",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "בקרת גישה" },
+        { "label": "ביקורת מלאה" },
+        { "label": "זמינות 24/7" },
+        { "label": "בידוד לפי סביבת עבודה" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "מאובטחת, גמישה ו",
+    "headlineHighlight": "מוכנה לצמיחה.",
+    "featuresAriaLabel": "אבטחה וממשל",
+    "features": [
+      { "label": "הרשאות לפי משתמש" },
+      { "label": "נתונים מוגנים" },
+      { "label": "סביבה מבודדת" },
+      { "label": "ביקורת ועקיבות" },
+      { "label": "תשתית בענן" },
+      { "label": "זמינות גבוהה" },
+      { "label": "פרטיות וממשל" }
+    ],
+    "trustAriaLabel": "אמון ותאימות",
+    "trustBadges": [
+      { "label": "חברה גלובלית" },
+      { "label": "LGPD, GDPR ו-ISO" },
+      { "label": "נתונים מוצפנים ומוגנים" },
+      { "label": "תשתית גלובלית בזמינות גבוהה" },
+      { "label": "הסמכות בין-לאומיות" },
+      { "label": "עדכונים שוטפים" }
+    ],
+    "cta": {
+      "title": "התחילו עוד היום עם Interfy.",
+      "description": "פתחו חשבון, נסו את הפלטפורמה וגלו כיצד Interfy יכולה לשנות את התפעול של החברה שלכם.",
+      "ctaPrimary": "התחילו בחינם",
+      "ctaSecondary": "קביעת הדגמה"
+    }
+  }
+}

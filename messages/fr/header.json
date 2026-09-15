@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Menu principal",
+  "mobileNavAria": "Menu principal (mobile)",
+  "openMenu": "Ouvrir le menu",
+  "closeMenu": "Fermer le menu",
+  "nav": {
+    "plans": "Tarifs"
+  },
+  "productsMenu": {
+    "trigger": "Produits",
+    "featuredEyebrow": "Produits phares",
+    "listEyebrow": "Plus de produits",
+    "featured": [
+      { "title": "Documents", "tagline": "Organisez, retrouvez et protégez vos documents grâce à l'IA à chaque étape." },
+      { "title": "Process", "tagline": "Créez des processus visuels, des formulaires et des automatisations avec l'IA." },
+      { "title": "Capture", "tagline": "Capturez n'importe quel document — l'IA reconnaît et organise tout." },
+      { "title": "Sign", "tagline": "Signature électronique gratuite, avec valeur juridique et intégration totale." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Collaborez et communiquez avec votre équipe" },
+      { "label": "Agents", "description": "Une IA qui comprend et accompagne les utilisateurs" },
+      { "label": "Mobile", "description": "Votre activité au creux de la main" },
+      { "label": "Voice", "description": "Dialoguez avec la plateforme en toute simplicité" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Ressources",
+    "recursosEyebrow": "Ressources",
+    "recursosItems": [
+      { "label": "Secteurs" },
+      { "label": "Crédits IA" },
+      { "label": "Intégrations & API" },
+      { "label": "Études de Cas" }
+    ],
+    "legalEyebrow": "Mentions Légales & Support",
+    "legalItems": [
+      { "label": "Conditions d'Utilisation" },
+      { "label": "Politique de Confidentialité" },
+      { "label": "RGPD / LGPD" },
+      { "label": "Sécurité" },
+      { "label": "Support" },
+      { "label": "Contact" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Entreprise",
+    "eyebrow": "Entreprise",
+    "items": [
+      { "label": "À propos d'Interfy" },
+      { "label": "Plateforme Interfy" },
+      { "label": "Partenariat" },
+      { "label": "Blog / Contenus" }
+    ]
+  },
+  "languageSelectorAria": "Sélectionner la langue"
+}

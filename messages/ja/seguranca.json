@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "セキュリティ",
+    "description": "Interfyのセキュリティ、プライバシー、コンプライアンスのアーキテクチャをご紹介します。暗号化、アクセス制御、マルチAZ高可用性、そしてISO、LGPD、GDPR、SOC 2の各認証について。",
+    "keywords": ["Interfy セキュリティ", "LGPD GDPR コンプライアンス", "データ暗号化", "AWS 高可用性", "セキュアなクラウドネイティブアーキテクチャ"]
+  },
+  "hero": {
+    "headingPrefix": "アーキテクチャから始まる",
+    "headingHighlight": "エンタープライズセキュリティ。",
+    "description": "Interfyは、貴社にとって最も重要なもの、つまりデータを守るために、最高水準のセキュリティ、プライバシー、コンプライアンス基準で構築されています。",
+    "ctaPrimary": "専門スタッフに相談する",
+    "ctaSecondary": "セキュリティポリシーをダウンロード",
+    "diagramAriaLabel": "Interfyのセキュリティレイヤー",
+    "diagram": {
+      "items": [
+        { "label": "アーキテクチャから始まるセキュリティ" },
+        { "label": "アクセスの完全な制御" },
+        { "label": "高可用性" },
+        { "label": "ワークスペースによる分離" },
+        { "label": "常に保護されたデータ" },
+        { "label": "デフォルトでのプライバシー保護" },
+        { "label": "グローバルコンプライアンス" },
+        { "label": "信頼できるインフラ" }
+      ]
+    },
+    "stats": [
+      { "label": "99,99%", "description": "保証された稼働率SLA" },
+      { "label": "24/7", "description": "継続的なモニタリング" },
+      { "label": "安全 & 信頼できる", "description": "多層的なセキュリティによる保護" }
+    ],
+    "poweredByLabel": "Powered by",
+    "awsChecklistAriaLabel": "InterfyのAWSインフラ",
+    "awsChecklist": [
+      "AWSグローバルインフラ",
+      "クラウドネイティブ",
+      "マルチAZ",
+      "オンデマンドで拡張可能",
+      "高パフォーマンス",
+      "持続可能"
+    ]
+  },
+  "controls": {
+    "headline": "すべてのレイヤーでの",
+    "headlineHighlight": "セキュリティと管理",
+    "items": [
+      {
+        "title": "ワークスペースによる分離",
+        "description": "各顧客は分離された環境で作業し、完全なプライバシーとセキュリティを確保します。"
+      },
+      {
+        "title": "顧客専用データベース",
+        "description": "顧客ごとに専用データベースにデータを保存し、共有はしません。"
+      },
+      {
+        "title": "高度な暗号化",
+        "description": "転送中（TLS 1.2+）および保管中（AES-256）のデータを暗号化。"
+      },
+      {
+        "title": "アクセス制御（RBAC）",
+        "description": "役割、グループ、領域、機密レベルに応じた詳細な権限設定。"
+      },
+      {
+        "title": "企業向け認証",
+        "description": "SSO、SAML 2.0、OAuth 2.0、AD/LDAP、MFAによる安全で統一されたアクセス。"
+      },
+      {
+        "title": "IPブロッキング",
+        "description": "IPアドレスまたはIP範囲によるアクセス制限で環境を保護。"
+      },
+      {
+        "title": "ログと監査",
+        "description": "改ざん不可かつ検索可能な監査証跡による、すべての操作の完全な記録。"
+      },
+      {
+        "title": "24時間365日モニタリング",
+        "description": "インフラ、アプリケーション、セキュリティの継続的な監視。"
+      },
+      {
+        "title": "自動バックアップ",
+        "description": "設定可能な保持期間を持つ、暗号化された自動バックアップ。"
+      },
+      {
+        "title": "災害復旧",
+        "description": "地理的レプリケーションによる災害復旧計画。"
+      },
+      {
+        "title": "プライベートストレージ",
+        "description": "オンプレミスまたはDedicated環境向けのオプションのプライベートストレージ。"
+      },
+      {
+        "title": "無制限のスケーラビリティ",
+        "description": "パフォーマンスを損なわずに事業の成長に合わせて拡張する、弾力性のあるインフラ。"
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "グローバルに認められた",
+    "headlineHighlight": "認証と法令遵守",
+    "ctaLabel": "すべての認証と文書を見る",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "国際規格に基づいて認証された情報セキュリティマネジメントシステム。"
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "米国で医療情報（ePHI）を扱う環境をサポートするために準備されたアーキテクチャ、管理体制、プロセス。",
+        "badge": "BAA提供可能"
+      },
+      {
+        "title": "LGPD",
+        "description": "ブラジル一般データ保護法（LGPD）に準拠。"
+      },
+      {
+        "title": "GDPR",
+        "description": "EU一般データ保護規則（GDPR）に準拠。"
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "セキュリティ、可用性、機密性に関する厳格な管理体制。",
+        "badge": "取得中"
+      },
+      {
+        "title": "その他の基準",
+        "description": "業界で最も厳格な市場基準に準拠したポリシーと管理体制。"
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "高可用性の",
+    "headlineHighlight": "クラウドネイティブ",
+    "headlineSuffix": "アーキテクチャ",
+    "flow": [
+      { "label": "ユーザー" },
+      { "label": "CloudFront CDN" },
+      { "label": "ロードバランサー" }
+    ],
+    "multiAzTitle": "高可用性 - マルチAZ",
+    "az1": { "label": "AZ 1", "title": "アプリケーション" },
+    "az2": { "label": "AZ 2", "title": "データベース", "subtitle": "（自動フェイルオーバー）" },
+    "services": [
+      { "label": "S3ストレージ" },
+      { "label": "暗号化バックアップ" },
+      { "label": "CloudWatchモニタリング" },
+      { "label": "CloudTrailログ" },
+      { "label": "GuardDutyセキュリティ" }
+    ],
+    "featuresAriaLabel": "高可用性アーキテクチャの強み",
+    "features": [
+      "すべてのレイヤーでマルチAZ構成",
+      "複数リージョンのデータセンター",
+      "無制限の水平スケーラビリティ",
+      "100% AWSグローバル上のインフラ",
+      "自動ロードバランシング",
+      "ダウンタイムなしの継続的なアップデート",
+      "稼働率99.99%のSLA",
+      "インシデントへの自動対応",
+      "リアルタイムのレポートとアラート",
+      "脅威の検知と防御",
+      "専門のセキュリティチーム",
+      "低レイテンシーのグローバル環境"
+    ]
+  },
+  "cta": {
+    "sectionAria": "エンタープライズセキュリティでInterfyを利用開始する",
+    "headline": "グローバル企業に",
+    "headlineHighlight": "対応可能",
+    "title": "貴社のデータを守り、成果を最大化します。",
+    "description": "クラウド上で安全に成長するための信頼性、コンプライアンス、パフォーマンス。",
+    "primaryButton": "無料テストドライブ",
+    "secondaryButton": "専門スタッフに相談する",
+    "featuresAriaLabel": "Interfyのセキュリティとコンプライアンスの柱",
+    "features": [
+      { "label": "設計によるセキュリティ" },
+      { "label": "デフォルトでのプライバシー保護" },
+      { "label": "完全な透明性" },
+      { "label": "グローバルコンプライアンス" },
+      { "label": "責任ある革新" }
+    ]
+  }
+}

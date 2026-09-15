@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Inhalte",
+    "description": "Artikel, Leitfäden und Neuigkeiten zu Dokumentenmanagement, Prozessautomatisierung, elektronischer Signatur und KI für Unternehmensabläufe.",
+    "keywords": ["Interfy Blog", "Inhalte Dokumentenmanagement", "Prozessautomatisierung", "KI für Unternehmen"]
+  },
+  "hero": {
+    "ariaLabel": "Einführung zum Blog",
+    "eyebrow": "Blog & Inhalte",
+    "titleLine1": "Inhalte für alle, die",
+    "titleHighlight": "Abläufe transformieren",
+    "description": "Praktische Leitfäden, Produktneuigkeiten und Trends zu Dokumenten, Prozessen, Daten und KI für Unternehmen."
+  },
+  "grid": {
+    "ariaLabel": "Blogartikel",
+    "categoriesLabel": "Nach Kategorie filtern",
+    "allLabel": "Alle",
+    "categories": ["Dokumentenmanagement", "Automatisierung (BPM)", "Elektronische Signatur", "KI & Agenten", "Sicherheit & Compliance"],
+    "comingSoonLabel": "Jede Woche neue Artikel. Bald auch hier verfügbar.",
+    "posts": [
+      {
+        "category": "Dokumentenmanagement",
+        "title": "So strukturieren Sie ein Dokumentenrepository, das mit dem Unternehmen mitwächst",
+        "excerpt": "Best Practices für Organisation, Versionierung und Zugriffskontrolle für schnell wachsende Teams.",
+        "date": "Aug 2026",
+        "readTime": "6 Min. Lesezeit"
+      },
+      {
+        "category": "Automatisierung (BPM)",
+        "title": "5 Prozesse, die jedes Unternehmen zuerst automatisieren sollte",
+        "excerpt": "Ein praktischer Leitfaden zur Priorisierung der Automatisierungen mit der größten Wirkung auf Kosten und Zykluszeit.",
+        "date": "Aug 2026",
+        "readTime": "7 Min. Lesezeit"
+      },
+      {
+        "category": "Elektronische Signatur",
+        "title": "Ist die elektronische Signatur in Brasilien rechtsgültig?",
+        "excerpt": "Was das Gesetz vorschreibt, welche Nachweise zählen und wie Sie die richtige Signaturstufe wählen.",
+        "date": "Jul 2026",
+        "readTime": "5 Min. Lesezeit"
+      },
+      {
+        "category": "KI & Agenten",
+        "title": "KI-Agenten in internen Prozessen: Wo Sie anfangen sollten",
+        "excerpt": "Reale Anwendungsfälle zur Reduzierung manueller Arbeit bei Triage, Klassifizierung und Datenextraktion.",
+        "date": "Jul 2026",
+        "readTime": "8 Min. Lesezeit"
+      },
+      {
+        "category": "Sicherheit & Compliance",
+        "title": "LGPD in der Praxis: Was sich im Dokumenten- und Prozessmanagement ändert",
+        "excerpt": "Ein direkter Leitfaden zu Rechtsgrundlagen, Datenspeicherung und den Pflichten des Verantwortlichen.",
+        "date": "Jun 2026",
+        "readTime": "6 Min. Lesezeit"
+      },
+      {
+        "category": "Dokumentenmanagement",
+        "title": "OCR und intelligente Erfassung: das Ende der manuellen Dateneingabe",
+        "excerpt": "Wie automatisierte Erfassung Fehler reduziert und die Dokumentenaufnahme in den Workflow beschleunigt.",
+        "date": "Jun 2026",
+        "readTime": "5 Min. Lesezeit"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "heading": "Möchten Sie diese Konzepte in der Praxis sehen?",
+    "subheading": "Starten Sie kostenlos und erkunden Sie die Interfy-Plattform mit Ihren eigenen Dokumenten und Prozessen.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryButton": "Demo vereinbaren"
+  }
+}

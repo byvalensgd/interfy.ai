@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "עלינו",
+    "description": "יותר מ-26 שנים של פישוט הניהול העסקי. הכירו את הסיפור, המשימה והטכנולוגיה שמאחורי Interfy, שמושבה באורלנדו (ארה\"ב) ונוכחת ביותר מ-180 מדינות.",
+    "keywords": ["על Interfy", "ההיסטוריה של Interfy", "משימה וחזון", "מערכת אקולוגית של מותגי Interfy", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "מפשטים את המורכב, משנים את ההווה, ",
+    "headingHighlight": "מחדשים את העתיד.",
+    "description": "יותר משני עשורים של שינוי הניהול העסקי באמצעות טכנולוגיה חדשנית ונגישה. עם מושב באורלנדו (ארה\"ב), אנו משרתים חברות ביותר מ-180 מדינות, ומעניקים לארגונים את הכוח לנטוש מערכות מיושנות ולאמץ גמישות תפעולית.",
+    "slideshowAlt": "פלטפורמת Interfy מוצגת על מחשב נייד וסמארטפון, המציגה את לוח הניהול עם AI",
+    "ctaPrimary": "אני רוצה להיות שותף",
+    "ctaSecondary": "אני רוצה להפנות לקוחות",
+    "statsAriaLabel": "המספרים של Interfy",
+    "stats": [
+      { "label": "180+", "sublabel": "מדינות מטופלות" },
+      { "label": "25 אלף +", "sublabel": "חברות שהשתנו" },
+      { "label": "26 +", "sublabel": "שנות ניסיון" },
+      { "label": "אורלנדו, פלורידה", "sublabel": "מושב בארה\"ב" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "השתלמנו באתגר, ",
+    "headingHighlight": "התרחבנו להצלחה",
+    "paragraph1": "Interfy אינה סטארטאפ בשלב מוקדם, אלא חברה מבוססת עם יותר מ-26 שנות ניסיון בפיתוח טכנולוגיות לניהול עסקי. עם מושב באורלנדו, פלורידה (ארה\"ב), אנו מפתחים פתרונות שמשרתים חברות בכל העולם. הטכנולוגיה שלנו מיועדת לפעול בסביבות רגולטוריות ותרבותיות מגוונות, ומבטיחה גמישות ותאימות גלובלית.",
+    "paragraph2": "הפלטפורמה שלנו נבחנת בסביבות העסקיות הדורשניות בעולם. משוק ארצות הברית ועד אמריקה הלטינית ואירופה, אנו משרתים יותר מ-180 מדינות באותה מידה של יוקרה ועוצמה שמגדירות את המותג שלנו."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "משימה, חזון ועקרונות של Interfy",
+    "vision": {
+      "title": "החזון שלנו",
+      "description": "להיות מוכרים כמי שמייצרים ערך לקהל הלקוחות שלנו ברחבי העולם, ומעניקים פלטפורמת תוכנה לניהול עסקי, מקוונת, נגישה, בעלת ניידות ופשוטה לשימוש."
+    },
+    "mission": {
+      "title": "המשימה שלנו",
+      "description": "לספק פלטפורמת תוכנה מקוונת לניהול תהליכים עסקיים, שקלה ליישום ונגישה לחברות בכל הגדלים והמגזרים."
+    },
+    "principlesHeading": "העקרונות שלנו",
+    "principlesAriaLabel": "העקרונות של Interfy",
+    "principles": [
+      { "title": "אתיקה כנשמה", "description": "שקיפות ויושרה אינן ניתנות למשא ומתן בכל מה שאנחנו עושים." },
+      { "title": "חדשנות באמצעות פישוט", "description": "חדשנות אמיתית אינה מוסיפה מורכבות, היא מפשטת." },
+      {
+        "title": "דמוקרטיזציה טכנולוגית",
+        "descriptionPrefix": "להפוך את ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " ו-",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " של Interfy לנגישים לחברות בכל הגדלים."
+      },
+      { "title": "אובססיה לשימושיות", "description": "חוויית משתמש עסקית הדומה לאפליקציות צרכניות." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "האוקיינוס הכחול של האינטגרציה",
+    "descriptionPrefix": "בעוד מתחרים כמו DocuSign, Box ו-Pipefy מתמחים בתחומים פונקציונליים (חתימות, אחסון או תהליכים בנפרד), Interfy מאמצת אסטרטגיית ",
+    "descriptionHighlight": "פלטפורמה כוללת",
+    "descriptionSuffix": ".",
+    "ariaLabel": "היתרונות התחרותיים של Interfy",
+    "items": [
+      { "title": "פלטפורמת All-in-One", "description": "Documents + Process + Sign + Capture משולבים באופן טבעי." },
+      { "title": "הפחתת TCO", "description": "בטלו את התשלום המצטבר של עשרות ספקים." },
+      { "title": "אדריכלות Cloud-Native", "description": "AWS, Kubernetes, מיקרו-שירותים — לא מערכת מיושנת." },
+      { "title": "Low-Code/No-Code", "description": "משתמשי עסקים יוצרים פתרונות בלי לכתוב קוד." },
+      { "title": "אבטחה ותאימות", "description": "LGPD, GDPR, ISO 27001, הצפנה מקצה לקצה." },
+      { "title": "שותפות Private Label", "description": "מודל עסקי פורץ דרך המעצים שותפים." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "מערכת אקולוגית",
+    "headingSuffix": " של מותגים",
+    "description": "Interfy פועלת כהחזקת טכנולוגיה (holding), המחזיקה במותגים המאפשרים חדירה לנישות ספציפיות.",
+    "ariaLabel": "המותגים של המערכת האקולוגית של Interfy",
+    "brands": [
+      { "name": "Ecofy", "description": "פתרונות בר-קיימא לכדור הארץ טוב יותר." },
+      { "name": "Injectra", "description": "טכנולוגיה אמריקאית להזרקת פלסטיק בעיצוב." },
+      { "name": "Innovecar", "description": "ניידות חכמה ונגישה." },
+      { "name": "NeoAI", "description": "פלטפורמת עסקים מקושרים עם AI." },
+      { "name": "Processdoc", "description": "ניהול חכם של תהליכים ומסמכים." },
+      { "name": "Acquafy", "description": "פתרונות מתקדמים למים מטוהרים." },
+      { "name": "Interfy", "description": "פלטפורמה דיגיטלית לעסקים ושירותים." },
+      { "name": "Visionfy", "description": "ניתוח נתונים ו-AI להחלטות טובות יותר." },
+      { "name": "Mediafy", "description": "שיווק והפקת תוכן דיגיטלי." },
+      { "name": "Docsystem", "description": "פתרונות מסמכים עסקיים מלאים." }
+    ]
+  },
+  "technology": {
+    "heading": "טכנולוגיה ברמה עולמית",
+    "ariaLabel": "התשתית הטכנולוגית של Interfy",
+    "items": [
+      { "title": "אחסון", "description": "Amazon Web Services (AWS)." },
+      { "title": "ניידות", "description": "ממשק אינטרנט רספונסיבי HTML5." },
+      { "title": "Kubernetes", "description": "תיאום Kubernetes להתרחבות אוטומטית." },
+      { "title": "מרובת שפות", "description": "תמיכה ב-16 שפות." },
+      { "title": "אבטחה", "description": "הצפנת SSL/TLS, 2FA, SSO." },
+      { "title": "תאימות", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "אנו מעצימים שותפים לבנות ",
+      "headingHighlight": "חברות SaaS משלהם",
+      "ariaLabel": "היתרונות של מודל White Label",
+      "items": [
+        { "title": "White Label מלא", "description": "המותג שלכם, הלוגו שלכם, כתובת ה-URL שלכם." },
+        { "title": "רווחיות של עד 100% +", "description": "קבעו את המחיר שלכם בעצמכם." },
+        { "title": "אפס Capex", "description": "אין צורך להשקיע מיליונים בפיתוח." },
+        { "title": "Pay-as-you-go", "description": "שלמו רק על הצריכה האמיתית של הלקוחות." },
+        { "title": "תמיכה מקצועית", "description": "הכשרה, חומרים ותמיכה טכנית." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "מפאסיבי לאקטיבי",
+    "description": "אנו משקיעים ב-AI גנרטיבי כדי להפוך את הפלטפורמה ממערכת ניהול פאסיבית למערכת אינטליגנציה אקטיבית.",
+    "ariaLabel": "השקעות בבינה מלאכותית",
+    "items": [
+      { "title": "הצעות חכמות לפעולות המבוססות על דפוסי נתונים." },
+      { "title": "אוטומציה פרואקטיבית של משימות חזרתיות." },
+      { "title": "תובנות חזויות לתמיכה בקבלת החלטות." },
+      { "title": "יצירה בסיוע AI", "description": "עיצוב אוטומטי של תהליכי BPMN וטפסים." },
+      { "title": "ניתוח מסמכים חכם", "description": "AI שקורא חוזים ועונה על שאלות מורכבות." },
+      { "title": "סוכנים אוטונומיים", "description": "סוכני AI המבצעים משימות באופן אוטונומי." }
+    ],
+    "statsLabel": "המספרים של פלטפורמת Interfy",
+    "stats": [
+      { "label": "12 מיליארד +", "sublabel": "מסמכים" },
+      { "label": "20 מיליון +", "sublabel": "חתימות" },
+      { "label": "2.5 מיליון +", "sublabel": "משתמשים" },
+      { "label": "6 מיליון +", "sublabel": "תהליכים" },
+      { "label": "1000 TB +", "sublabel": "אחסון" },
+      { "label": "99.99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "תמיכה" }
+    ]
+  },
+  "finalCta": {
+    "heading": "מוכנים לשנות את החברה שלכם?",
+    "subheading": "הצטרפו לאלפי חברות שכבר פישטו את המורכב עם Interfy.",
+    "primaryLabel": "Test Drive למשך 7 ימים",
+    "secondaryLabel": "קבעו דמו"
+  }
+}

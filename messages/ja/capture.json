@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Captureは、紙とデジタルの文書を数秒でインテリジェントな情報へ変換します。ブラウザ、業務用スキャナー、スマートフォンからキャプチャすれば、AIが自動で認識・抽出・分類・振り分けを行います。",
+    "keywords": ["インテリジェント文書キャプチャ", "AIによるデジタル化", "OCR", "文書認識", "Interfy Capture"],
+    "freeTrialNote": "7日間無料トライアル、クレジットカード不要"
+  },
+  "hero": {
+    "titleLine1": "どんな文書もキャプチャ。",
+    "titleLine2": "あとはAIにお任せ。",
+    "descriptionBrand": "Interfy Capture",
+    "description": "は、紙とデジタルの文書を数秒でインテリジェントな情報へ変換します。ブラウザ、業務用スキャナー、スマートフォンからキャプチャできます。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "mockupAlt": "ノートPCとスマートフォンに表示されたInterfy Capture。インテリジェントな文書キャプチャを表示",
+    "trust": [
+      { "text": "抽出精度99.9%の信頼性" },
+      { "text": "100%安全でLGPDに準拠" },
+      { "text": "プラットフォーム全体でAIネイティブ" },
+      { "text": "どんな文書量にも対応するスケーラビリティ" }
+    ],
+    "flow": [
+      { "text": "AIが認識・抽出" },
+      { "text": "分類、インデックス化、整理を行う" },
+      { "text": "Interfy Documentsに保存" },
+      { "text": "Interfy Processへ送信" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Interfy Captureの",
+    "headingHighlight": "仕組み",
+    "steps": [
+      { "title": "キャプチャ", "description": "ブラウザ、スキャナー、スマートフォンなど、あらゆる方法でキャプチャします。" },
+      { "title": "AIによる認識", "description": "Interfy AIがコンテンツを自動で認識・抽出します。" },
+      { "title": "読み取りと理解", "description": "文脈、項目、情報間の関係性を理解します。" },
+      { "title": "データ抽出", "description": "構造化・非構造化データを自動で抽出します。" },
+      { "title": "分類", "description": "AIによって文書を分類・整理します。" },
+      { "title": "インデックスとメタデータ", "description": "メタデータを付与し、検索とトレーサビリティに備えます。" },
+      { "title": "検証と振り分け", "description": "検証を行い、Interfy DocumentsまたはProcessへ振り分けます。" }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Interfy Captureの",
+    "headingHighlight": "機能とメリット",
+    "statsLabel": "Interfyプラットフォームの規模",
+    "items": [
+      { "title": "ブラウザからのキャプチャ", "description": "パソコンから直接ファイルをキャプチャ。シンプルで、速く、安全です。" },
+      { "title": "業務用スキャナー", "description": "高性能スキャナーとのネイティブ連携で最高の品質を実現します。" },
+      { "title": "一括キャプチャ", "description": "大量の文書を一度にデジタル化・処理できます。" },
+      { "title": "AI クレジット込み", "description": "プラットフォームの全プランにAIクレジットが含まれています。別途モジュールを契約する必要はありません。" },
+      { "title": "Mobile Capture", "description": "スマートフォンから、いつでもどこでも文書をキャプチャできます。" },
+      { "title": "AIによる認識", "description": "AIが高い精度でコンテンツを認識・抽出します。" },
+      { "title": "自動抽出", "description": "構造化・非構造化データを自動で抽出します。" },
+      { "title": "Interfy Documents", "description": "安全に保存し、インテリジェントな検索とトレーサビリティを実現します。" },
+      { "title": "Interfy Process", "description": "業務のフローと自動化へ自動的に送信します。" },
+      { "title": "追加クレジットの購入", "description": "業務に必要な分だけ、いつでも追加のクレジットを購入できます。" }
+    ]
+  },
+  "legalValidity": {
+    "title": "法的有効性を備えたデジタル化",
+    "badge": "オプション機能",
+    "description": "デジタル文書に法的な有効性が必要な企業向けのオプション機能です。標準プランには含まれません。",
+    "checklist": [
+      { "text": "電子証明書とタイムスタンプ" },
+      { "text": "法的有効性を伴う安全な保管" },
+      { "text": "エンドツーエンドのトレーサビリティ" },
+      { "text": "監査のための証跡と記録" },
+      { "textParts": ["タイムスタンプと証跡の適用は、", "Decreto 10.278"] },
+      { "text": "監査証跡" },
+      { "text": "法的検証" },
+      { "text": "コンプライアンスとセキュリティ" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "貴社の事業にもたらす実際の成果",
+    "heading": "貴社の事業にもたらす実際の成果",
+    "stats": [
+      { "accent": "最大85%", "label": "エラー削減", "description": "インデックス化と分類において。" },
+      { "accent": "向上する", "label": "生産性", "description": "チームは本当に重要な業務に集中できます。" },
+      { "accent": "セキュリティと", "label": "コンプライアンス", "description": "LGPD、GDPR、国際基準に完全準拠。" }
+    ],
+    "ctaTitle": "文書業務を変革する準備はできていますか？",
+    "ctaDescription": "デモを予約して、Interfy Captureが貴社にどのような実際の成果をもたらすかご確認ください。",
+    "mascotAlt": "InterfyのAIアシスタント"
+  },
+  "cta": {
+    "ariaLabel": "Interfy Captureを使い始める",
+    "title": "AIで文書キャプチャを変革する準備はできていますか？",
+    "description": "Interfy Captureを7日間試して、AIが業務を後押しする様子をご覧ください。単体契約も、プランに含まれたクレジットの活用も可能です。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "statsLabel": "Interfy Captureの強み",
+    "highlights": [
+      { "label": "100% Web", "sublabel": "どこからでもアクセス可能" },
+      { "label": "最高水準のセキュリティ", "sublabel": "保護され、法令に準拠したデータ" },
+      { "label": "スケーラブル", "sublabel": "小規模から大企業まで対応" },
+      { "label": "24時間365日サポート", "sublabel": "いつでも対応します" }
+    ]
+  }
+}

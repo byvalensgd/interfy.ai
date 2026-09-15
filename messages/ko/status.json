@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "플랫폼 상태",
+    "description": "각 Interfy 제품의 가용성과 플랫폼 장애 이력을 실시간으로 확인하세요.",
+    "keywords": ["Interfy 상태", "Interfy 가용성", "Interfy 가동률", "Interfy 장애"]
+  },
+  "hero": {
+    "ariaLabel": "플랫폼 상태 소개",
+    "eyebrow": "플랫폼 상태",
+    "titleLine1": "모든 시스템이",
+    "titleHighlight": "정상 작동 중입니다",
+    "description": "각 Interfy 제품의 실시간 가용성과 장애 이력, 가동률 SLA를 확인하세요."
+  },
+  "list": {
+    "ariaLabel": "제품별 상태",
+    "heading": "제품별 상태",
+    "operationalLabel": "정상 작동",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "장애 이력",
+    "incidentsEmpty": "최근 90일 동안 등록된 장애가 없습니다."
+  },
+  "infra": {
+    "ariaLabel": "플랫폼 상태를 지원하는 인프라",
+    "heading": "고가용성 인프라",
+    "subheading": "모든 계층에 이중화를 갖춘 100% AWS 기반 클라우드 네이티브 아키텍처.",
+    "items": [
+      { "label": "모든 계층(애플리케이션 및 데이터베이스)에 걸친 Multi-AZ 구성" },
+      { "label": "낮은 지연 시간을 제공하는 글로벌 CDN(CloudFront)" },
+      { "label": "자동 부하 분산" },
+      { "label": "위협 탐지 및 차단(GuardDuty)" },
+      { "label": "지속적인 모니터링(CloudWatch)" },
+      { "label": "로그 및 감사 추적(CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "인증 및 규제 준수",
+      "ctaLabel": "전체 보안 아키텍처 보기",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "인증된 정보보안 관리체계(ISMS)." },
+        { "label": "SOC 2 Type II", "description": "보안, 가용성, 기밀성에 대한 통제 체계.", "badge": "진행 중" },
+        { "label": "LGPD", "description": "브라질 일반 데이터 보호법을 준수합니다." },
+        { "label": "GDPR", "description": "EU 일반 개인정보 보호 규정을 준수합니다." },
+        { "label": "HIPAA Ready", "description": "미국 내 ePHI를 다루는 환경에 대응할 수 있도록 준비되어 있습니다.", "badge": "BAA 제공 가능" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Interfy 시작하기",
+    "heading": "엔터프라이즈급 신뢰성",
+    "subheading": "글로벌 AWS 인프라, AES-256/TLS 1.2+ 암호화, 99.99% 가동률 SLA.",
+    "primaryButton": "무료로 시작하기",
+    "secondaryButton": "데모 신청하기",
+    "statsLabel": "신뢰성 지표",
+    "stats": [
+      { "label": "99.99%", "sublabel": "가동률 SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "암호화" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "컴플라이언스" }
+    ]
+  }
+}

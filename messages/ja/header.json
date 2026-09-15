@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "メインメニュー",
+  "mobileNavAria": "メインメニュー（モバイル）",
+  "openMenu": "メニューを開く",
+  "closeMenu": "メニューを閉じる",
+  "nav": {
+    "plans": "料金プラン"
+  },
+  "productsMenu": {
+    "trigger": "プロダクト",
+    "featuredEyebrow": "主要プロダクト",
+    "listEyebrow": "その他のプロダクト",
+    "featured": [
+      { "title": "Documents", "tagline": "AIがすべての工程で文書を整理・検索・保護します。" },
+      { "title": "Process", "tagline": "AIでビジュアルなプロセス、フォーム、自動化を構築。" },
+      { "title": "Capture", "tagline": "どんな文書もキャプチャ — AIが認識してすべて整理します。" },
+      { "title": "Sign", "tagline": "法的効力を持つ電子署名を無料で、完全統合。" }
+    ],
+    "items": [
+      { "label": "Connect", "description": "チームとコラボレーション・コミュニケーション" },
+      { "label": "Agents", "description": "ユーザーを理解しサポートするAI" },
+      { "label": "Mobile", "description": "手のひらの中に、あなたの業務" },
+      { "label": "Voice", "description": "自然な会話でプラットフォームを操作" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "リソース",
+    "recursosEyebrow": "リソース",
+    "recursosItems": [
+      { "label": "セグメント" },
+      { "label": "AIクレジット" },
+      { "label": "インテグレーション & API" },
+      { "label": "導入事例" }
+    ],
+    "legalEyebrow": "法務 & サポート",
+    "legalItems": [
+      { "label": "利用規約" },
+      { "label": "プライバシーポリシー" },
+      { "label": "LGPD / GDPR" },
+      { "label": "セキュリティ" },
+      { "label": "サポート" },
+      { "label": "お問い合わせ" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "会社情報",
+    "eyebrow": "会社情報",
+    "items": [
+      { "label": "Interfyについて" },
+      { "label": "Interfyプラットフォーム" },
+      { "label": "パートナーシップ" },
+      { "label": "ブログ / コンテンツ" }
+    ]
+  },
+  "languageSelectorAria": "言語を選択"
+}

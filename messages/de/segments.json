@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "Branchen",
+    "description": "Interfy unterstützt Unternehmen jeder Branche und Größe mit einer einzigen AI-nativen Plattform: Finanzwesen, Gesundheit, Recht, Industrie, Behörden und mehr als 20 weitere Branchen.",
+    "keywords": [
+      "Interfy nach Branche",
+      "Dokumentenmanagement nach Branche",
+      "Software für Finanzwesen, Gesundheit, Recht, Industrie, Behörden"
+    ]
+  },
+  "hero": {
+    "statsLabel": "Plattformvorteile für Branchen",
+    "titleLine1": "Eine Plattform für",
+    "titleHighlight": "jede Branche.",
+    "description": "Interfy unterstützt Unternehmen jeder Branche und Größe mit einer einzigen AI-nativen Plattform – ohne separate Versionen oder komplexe Einführungsprojekte.",
+    "sparkleText": "Wo es Daten, Prozesse, Dokumente, Kunden und Entscheidungen gibt, hat",
+    "sparkleBrand": "Interfy",
+    "ctaPrimary": "Branchen ansehen",
+    "ctaSecondary": "Demo vereinbaren",
+    "statsItems": [
+      {
+        "label": "180+ Länder"
+      },
+      {
+        "label": "16 Sprachen"
+      },
+      {
+        "label": "Höchste Sicherheit"
+      },
+      {
+        "label": "AI Native"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "Jahre an Erfahrung"
+      },
+      {
+        "label": "Hohe Verfügbarkeit"
+      },
+      {
+        "label": "Globale Konformität"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "Ein Ökosystem.",
+    "titleHighlight": "Unendliche Möglichkeiten.",
+    "description": "Wählen Sie Ihre Branche und entdecken Sie, wie Interfy AI Herausforderungen in echte Ergebnisse verwandelt.",
+    "items": [
+      {
+        "title": "Finanzwesen",
+        "bullets": [
+          "Compliance und Regulierung",
+          "Kreditanalyse",
+          "Vertragsmanagement"
+        ]
+      },
+      {
+        "title": "Gesundheitswesen",
+        "bullets": [
+          "Patientenakten und Dokumente",
+          "Genehmigungen und Kostenträger",
+          "Behandlungsmanagement"
+        ]
+      },
+      {
+        "title": "Recht",
+        "bullets": [
+          "Aktenverwaltung",
+          "Verträge und Schriftsätze",
+          "Compliance und Fristen"
+        ]
+      },
+      {
+        "title": "Industrie",
+        "bullets": [
+          "Qualität und Prozesse",
+          "Handbücher und Dokumente",
+          "Wartungsaufträge"
+        ]
+      },
+      {
+        "title": "Öffentlicher Sektor",
+        "bullets": [
+          "Prozesse und Ausschreibungen",
+          "Amtliche Dokumente",
+          "Bürgerservice"
+        ]
+      },
+      {
+        "title": "Bildung",
+        "bullets": [
+          "Einschreibungen und Zeugnisse",
+          "Akademische Abläufe",
+          "Kommunikation und Ankündigungen"
+        ]
+      },
+      {
+        "title": "Logistik",
+        "bullets": [
+          "Frachtbriefe und Dokumente",
+          "Tracking und Lieferungen",
+          "Vorfallmanagement"
+        ]
+      },
+      {
+        "title": "Versicherungen",
+        "bullets": [
+          "Policen und Schadensfälle",
+          "Risikoanalyse",
+          "Service und SLA"
+        ]
+      },
+      {
+        "title": "Immobilien",
+        "bullets": [
+          "Verträge und Angebote",
+          "Vermietung und Besichtigungen",
+          "Immobiliendokumente"
+        ]
+      },
+      {
+        "title": "Einzelhandel",
+        "bullets": [
+          "Lagerbestand und Bestellungen",
+          "Rechnungen und Lieferanten",
+          "Omnichannel-Service"
+        ]
+      },
+      {
+        "title": "Personalwesen",
+        "bullets": [
+          "Einstellung und Unterlagen",
+          "Leistungsbeurteilungen",
+          "Verwaltung von Zusatzleistungen"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "bullets": [
+          "Rechnungen und Pflichten",
+          "Erklärungen und Berichte",
+          "Mandanten und Verträge"
+        ]
+      },
+      {
+        "title": "Apotheken & Laboratorien",
+        "bullets": [
+          "Rezepte und Betreuung",
+          "Qualitätskontrolle",
+          "Regulatorische Dokumente"
+        ]
+      },
+      {
+        "title": "Franchise",
+        "bullets": [
+          "Standardisierung und Handbücher",
+          "Verträge und Rundschreiben",
+          "Netzwerkleistung"
+        ]
+      },
+      {
+        "title": "Dienstleistungen",
+        "bullets": [
+          "Angebote und Verträge",
+          "Tickets und Projekte",
+          "Lieferung und Abrechnung"
+        ]
+      },
+      {
+        "title": "Agrarwirtschaft",
+        "bullets": [
+          "Verträge und Ernten",
+          "Belege und Dokumente",
+          "Rückverfolgbarkeit"
+        ]
+      },
+      {
+        "title": "Verbände & Interessenvertretungen",
+        "bullets": [
+          "Mitglieder und Dokumente",
+          "Versammlungen und Protokolle",
+          "Kommunikation und Ankündigungen"
+        ]
+      },
+      {
+        "title": "Technologie",
+        "bullets": [
+          "Projekte und Backlog",
+          "Verträge und NDAs",
+          "Dateiproduktion"
+        ]
+      },
+      {
+        "title": "Tourismus",
+        "bullets": [
+          "Inhalte und Reisepakete",
+          "Verträge und Medien",
+          "Produktion und Archivierung"
+        ]
+      },
+      {
+        "title": "Weitere",
+        "bullets": [
+          "Individuelle Lösungen",
+          "Maßgeschneiderte Prozesse",
+          "Digitale Transformation"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Plattformvorteile",
+    "items": [
+      {
+        "title": "Eine einzige Plattform",
+        "description": "Keine separaten Versionen je Branche nötig"
+      },
+      {
+        "title": "100 % anpassbar",
+        "description": "Konfigurieren Sie sie nach Ihrem Geschäft"
+      },
+      {
+        "title": "Schnelle Einführung",
+        "description": "Starten Sie in Minuten, ohne Komplexität"
+      },
+      {
+        "title": "Enterprise-Sicherheit",
+        "description": "Datenschutz und isolierte Umgebungen"
+      },
+      {
+        "title": "KI in jeder Branche",
+        "description": "Intelligente Agenten, die Ihren Kontext verstehen"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "Vertrauen und Anpassungsfähigkeit der Plattform",
+    "cardTitle": "Gemacht für die Realität",
+    "cardTitleHighlight": "unterschiedlicher Unternehmen.",
+    "cardDescription": "Vom Kleinunternehmen bis zum globalen Konzern – Interfy passt sich Ihrer Größe, Branche und Ihren Zielen an.",
+    "casesLink": "Anwendungsfälle ansehen",
+    "statsTitle": "Unternehmen, die Interfy vertrauen",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "bediente Branchen"
+      },
+      {
+        "value": "2,5 Mio.+",
+        "label": "betreute Nutzer"
+      },
+      {
+        "value": "6",
+        "label": "Vertriebsregionen"
+      },
+      {
+        "value": "7 Milliarden +",
+        "label": "verwaltete Dokumente"
+      },
+      {
+        "value": "6 Millionen +",
+        "label": "automatisierte Prozesse"
+      },
+      {
+        "value": "99,99 %",
+        "label": "Plattform-Uptime"
+      }
+    ],
+    "illustrationAlt": "Dashboard mit Diagrammen zu Daten unterschiedlicher Unternehmen"
+  },
+  "platform": {
+    "titleHighlight": "Die komplette Plattform",
+    "titleSuffix": "für jede Branche",
+    "ctaLabel": "Plattform ansehen",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "Intelligentes Management von Dokumenten und Informationen"
+      },
+      {
+        "product": "Process",
+        "description": "Intelligente Automatisierung von Prozessen und Aufgaben"
+      },
+      {
+        "product": "Capture",
+        "description": "Intelligente Dokumentenerfassung mit KI"
+      },
+      {
+        "product": "Sign",
+        "description": "Kostenlose digitale Signatur für alle Nutzer"
+      },
+      {
+        "product": "Connect",
+        "description": "Zusammenarbeit und Kommunikation, direkt mit dem Betrieb verbunden"
+      },
+      {
+        "product": "Mobile",
+        "description": "Ihr gesamter Betrieb in der Handfläche"
+      },
+      {
+        "product": "Agents",
+        "description": "KI-Agenten, die analysieren, entscheiden und handeln"
+      },
+      {
+        "product": "Voice",
+        "description": "Sprachinteraktion mit natürlicher Sprache und KI"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "title": "Egal welche Branche, welche Unternehmensgröße oder welche Herausforderung – wir sind die richtige Plattform.",
+    "description": "Interfy transformiert Ihren Betrieb mit KI, Automatisierung und Intelligenz.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Demo vereinbaren",
+    "features": [
+      {
+        "title": "AI-native",
+        "description": "Intelligenz in jedem Modul"
+      },
+      {
+        "title": "Cloud-native",
+        "description": "Skalierbare Infrastruktur"
+      },
+      {
+        "title": "Web + Mobile",
+        "description": "Voller Zugriff, egal wo Sie sind"
+      },
+      {
+        "title": "APIs und Integrationen",
+        "description": "Verbinden Sie alles, was Ihr Unternehmen bereits nutzt"
+      },
+      {
+        "title": "Sicherheit und Compliance",
+        "description": "Globale Standards für Schutz und Konformität"
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Kontinuierliche Unterstützung für Ihren Betrieb"
+      }
+    ]
+  }
+}

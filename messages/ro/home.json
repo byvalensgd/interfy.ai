@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – Gestionare de Documente, Procese și Semnătură Digitală cu AI",
+    "description": "Platformă enterprise AI-native care conectează documente, procese, oameni, date și comunicare într-un singur mediu inteligent.",
+    "keywords": ["gestionare de documente", "automatizare de procese", "semnătură digitală", "platformă AI-native", "Interfy"]
+  },
+  "hero": {
+    "headline": "Transformă-ți operațiunea cu",
+    "headlineHighlight": "AI.",
+    "subheadline": "Gestiune Documentară, Automatizare de Procese, Captură Inteligentă, Semnătură Digitală, Colaborare și Mobile într-o singură platformă.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "oferă semnătură digitală gratuită pentru toți utilizatorii platformei."
+    },
+    "ctaPrimary": "Testează gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "slideshowAlt": "Platforma Interfy afișată pe laptop și smartphone, arătând panoul de gestionare cu AI",
+    "availableVia": "Disponibil prin:",
+    "badges": [
+      { "alt": "Disponibil ca Web App" },
+      { "alt": "Disponibil pe Google Play" },
+      { "alt": "Disponibil pe App Store" }
+    ],
+    "statsAriaLabel": "Avantajele platformei",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "clienți" },
+      { "label": "180+ țări" },
+      { "label": "16 limbi" },
+      { "label": "Securitate de vârf" },
+      { "label": "AI Native" },
+      { "label": "Disponibilitate ridicată" },
+      { "label": "Conformitate globală" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "O platformă enterprise nativă în",
+    "headlineHighlight": "AI",
+    "description": "Centralizează documente, procese, oameni, date și comunicare într-un singur mediu inteligent.",
+    "descriptionBold": "Totul conectat. Totul integrat.",
+    "statsAriaLabel": "Amploarea platformei Interfy",
+    "stats": [
+      { "label": "2,5M +", "sublabel": "utilizatori" },
+      { "label": "12B +", "sublabel": "documente" },
+      { "label": "6M +", "sublabel": "procese" },
+      { "label": "1000TB +", "sublabel": "stocate" },
+      { "label": "20M +", "sublabel": "semnături" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "suport" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["Organizează și găsește", "cu inteligență"] },
+        { "descriptionLines": ["Creează fluxuri, aprobări", "și sarcini"] },
+        { "descriptionLines": ["Vorbește cu platforma", "în mod natural"] },
+        { "descriptionLines": ["Digitalizează, recunoaște", "și extrage date"] },
+        { "descriptionLines": ["AI care înțelege și", "sprijină utilizatorii"] },
+        { "descriptionLines": ["Semnează documente", "cu valoare juridică"] },
+        { "descriptionLines": ["Colaborează și comunică", "cu echipa ta"] },
+        { "descriptionLines": ["Operațiunea ta în", "palma mâinii"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "Ecosistem complet",
+    "headlineSuffix": "pentru operațiunea ta",
+    "items": [
+      { "description": "Gestionare inteligentă a documentelor și informațiilor" },
+      { "description": "Automatizare inteligentă a proceselor și sarcinilor" },
+      { "description": "Captură inteligentă a documentelor cu AI" },
+      { "description": "Semnătură digitală gratuită pentru toți utilizatorii" },
+      { "description": "Colaborare și comunicare conectate la operațiune" },
+      { "description": "Operațiunea ta completă în palma mâinii" },
+      { "description": "Agenți AI care analizează, decid și execută" },
+      { "description": "Interacțiune vocală cu limbaj natural și AI" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "De ce să alegi",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI-native", "description": "inteligență în centrul a tot" },
+      { "title": "100% web", "description": "accesează de oriunde și de pe orice dispozitiv" },
+      { "title": "Workspace exclusiv per client", "description": "date izolate, cu confidențialitate totală" },
+      { "title": "White Label", "description": "marca ta, experiența ta" },
+      { "title": "Integrări prin API", "description": "conectează-te cu sistemele tale" },
+      { "title": "Audit și trasabilitate", "description": "istoric complet și sigur" },
+      { "title": "Scalabilitate globală", "description": "crește fără limite, în orice țară" },
+      { "title": "Securitate în cloud AWS", "description": "infrastructură robustă și de încredere" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "Captură inteligentă și agenți AI",
+    "capture": {
+      "eyebrow": "Capturează totul, de oriunde, cu AI.",
+      "headingSuffix": "inteligentă care înțelege și livrează",
+      "description": "Interfy poate opera cu marca ta pentru operațiuni speciale, unități sau regiuni.",
+      "checklist": [
+        "Scanner profesional sau mobil.",
+        "Recunoaștere de text și date cu AI.",
+        "Clasificare automată a documentelor.",
+        "Indexare și îmbogățire inteligentă.",
+        "Trimitere directă către documente și procese."
+      ],
+      "imageAlt": "Captură de documente prin scanner și mobil cu recunoaștere de date prin AI"
+    },
+    "agents": {
+      "eyebrow": "AI care înțelege, execută și răspunde.",
+      "headingPrefix": "Interacționează",
+      "headingSuffix": "cu platforma ca niciodată",
+      "description": "Folosește agenți inteligenți și comenzi vocale pentru a crea, căuta, rezuma, aproba și multe altele.",
+      "videoAriaLabel": "Asistentul AI al Interfy",
+      "chatDemo": {
+        "message1": "Arată-mi contractele în așteptare pentru semnătură",
+        "message2Line1": "Au fost găsite 15 contracte în așteptare pentru semnătură.",
+        "message2Line2": "Dorești să le vizualizezi?",
+        "voiceAlt": "Comandă vocală"
+      }
+    }
+  },
+  "segments": {
+    "headline": "Soluții pentru diferite",
+    "headlineHighlight": "segmente",
+    "items": [
+      { "label": "Financiar" },
+      { "label": "Sănătate" },
+      { "label": "Juridic" },
+      { "label": "Industrie" },
+      { "label": "Guvern" },
+      { "label": "Educație" },
+      { "label": "Logistică" },
+      { "label": "Vezi toate..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "Marca ta, prezență globală și securitate",
+    "whiteLabel": {
+      "eyebrow": "MARCA TA. EXPERIENȚA TA.",
+      "title": "White Label & Workspace",
+      "titleHighlight": "Exclusiv",
+      "description": "Personalizează platforma cu marca ta, culorile tale, ecranul de autentificare și domeniul propriu.",
+      "imageAlt": "Platformă personalizată cu marca clientului (White Label)"
+    },
+    "global": {
+      "eyebrow": "PREZENȚĂ GLOBALĂ.",
+      "title": "Pregătită",
+      "titleHighlight": "pentru întreaga lume",
+      "description": "Interfy este pregătită să deservească companii în peste 180 de țări, cu suport în 16 limbi.",
+      "imageAlt": "Hartă a lumii ilustrând prezența globală a Interfy"
+    },
+    "security": {
+      "eyebrow": "SECURITATE ȘI ÎNCREDERE PE PRIMUL LOC.",
+      "title": "Infrastructură sigură și de încredere",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "Control acces" },
+        { "label": "Audit complet" },
+        { "label": "Disponibilitate 24/7" },
+        { "label": "Izolare pe workspace" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "Sigură, scalabilă și",
+    "headlineHighlight": "pregătită să crească.",
+    "featuresAriaLabel": "Securitate și guvernanță",
+    "features": [
+      { "label": "Permisiuni pe utilizator" },
+      { "label": "Date protejate" },
+      { "label": "Mediu izolat" },
+      { "label": "Audit și trasabilitate" },
+      { "label": "Infrastructură în cloud" },
+      { "label": "Disponibilitate ridicată" },
+      { "label": "Confidențialitate și guvernanță" }
+    ],
+    "trustAriaLabel": "Încredere și conformitate",
+    "trustBadges": [
+      { "label": "Companie globală" },
+      { "label": "LGPD, GDPR și ISO" },
+      { "label": "Date criptate și protejate" },
+      { "label": "Infrastructură globală de disponibilitate ridicată" },
+      { "label": "Certificări internaționale" },
+      { "label": "Actualizări continue" }
+    ],
+    "cta": {
+      "title": "Începe acum cu Interfy.",
+      "description": "Creează-ți contul, testează platforma și descoperă cum Interfy poate transforma operațiunea companiei tale.",
+      "ctaPrimary": "Începe Gratuit",
+      "ctaSecondary": "Programează o Demonstrație"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect merge mult dincolo de chat: colaborare în timp real integrată cu documentele, procesele și automatizările tale, cu persoane interne și externe în aceeași conversație.",
+    "keywords": ["colaborare în echipă", "chat integrat", "comunicare corporativă", "Interfy Connect"],
+    "freeTrialNote": "Test Drive gratuit timp de 7 zile, fără card de credit."
+  },
+  "hero": {
+    "heading": "Conectează oameni, documente și procese într-o",
+    "headingHighlight": "singură conversație.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "merge mult dincolo de chat. Este colaborare reală, integrată cu documentele, procesele și automatizările tale, astfel încât nimic să nu se piardă și totul să se întâmple.",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "imageAlt": "Interfy Connect afișat pe laptop și smartphone, arătând centrul de conversații",
+    "highlights": [
+      { "label": "Colaborare în timp real" },
+      { "label": "Totul conectat și trasabil" },
+      { "label": "Sigur și de încredere" },
+      { "label": "Persoane interne și externe în aceeași conversație" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Colaborare completă",
+    "headingHighlight": "integrată cu operațiunea ta",
+    "items": [
+      {
+        "title": "Comunicare internă",
+        "description": "Discută pe canale, în grupuri sau mesaje directe cu echipa ta."
+      },
+      {
+        "title": "Partajare inteligentă",
+        "description": "Distribuie fișiere, linkuri și informații în siguranță și cu ușurință."
+      },
+      {
+        "title": "Notificări în timp real",
+        "description": "Primește alerte și mementouri despre mesaje, mențiuni, sarcini și actualizări importante."
+      },
+      {
+        "title": "Utilizatori interni și externi",
+        "description": "Include clienți, parteneri și furnizori în conversații în siguranță."
+      },
+      {
+        "title": "Istoric complet",
+        "description": "Întregul istoric de conversații, fișiere și acțiuni, mereu disponibil și căutabil."
+      },
+      {
+        "title": "Trasabilitate totală",
+        "description": "Fiecare mesaj, analiză, decizie înregistrată cu oră și responsabil."
+      },
+      {
+        "title": "Colaborare între echipe",
+        "description": "Lucrează integrat între departamente fără a pierde contextul."
+      },
+      {
+        "title": "AI pentru rezumarea conversațiilor",
+        "description": "Interfy AI generează rezumate inteligente ale conversațiilor și evidențiază ce este mai important."
+      },
+      {
+        "title": "AI pentru localizarea informațiilor",
+        "description": "Întreabă în limbaj natural și găsește rapid ce ai nevoie în conversații."
+      },
+      {
+        "title": "Mobile complet",
+        "description": "Accesează conversațiile, fișierele și notificările de oriunde, prin aplicația Interfy Mobile."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Complet integrat cu",
+    "headingHighlight": "ecosistemul Interfy",
+    "items": [
+      { "description": "Accesează și comentează documente fără a părăsi conversația." },
+      { "description": "Inițiază acțiuni și mută procese direct din conversație." },
+      { "description": "Conectează oameni și centralizează toate comunicările." },
+      { "description": "Capturează documente și distribuie-le în conversație." },
+      { "description": "Trimite documente spre semnare și urmărește totul de aici." },
+      { "description": "Agenții de AI susțin, analizează și execută fiecare interacțiune." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Semnătură digitală și productivitate cu Interfy Connect",
+    "signCard": {
+      "titleHighlight": "Semnătură digitală gratuită",
+      "titleSuffix": "pentru toți utilizatorii.",
+      "description": "Trimite documente spre semnare direct din conversații. Simplu, rapid și 100% inclus în toate planurile platformei."
+    },
+    "headingHighlight": "Productivitate",
+    "headingSuffix": "vizibilă în activitatea de zi cu zi",
+    "items": [
+      {
+        "title": "Mai multă agilitate",
+        "description": "Decizii mai rapide, cu totul aflat în contextul potrivit."
+      },
+      {
+        "title": "Mai puțină muncă repetată",
+        "description": "Informație centralizată și accesibilă tuturor celor implicați."
+      },
+      {
+        "title": "Mai multă vizibilitate",
+        "description": "Urmărește progresul conversațiilor și activităților în timp real."
+      },
+      {
+        "title": "Mai multă securitate",
+        "description": "Guvernanță, permisiuni și conformitate la fiecare interacțiune."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy Connect",
+    "heading": "Conectează-ți echipa și transformă colaborarea în rezultate.",
+    "subheading": "Totul integrat. Totul trasabil. Totul într-o singură conversație.",
+    "primaryButton": "Test Drive gratuit timp de 7 zile",
+    "secondaryButton": "Programează o demonstrație",
+    "statsLabel": "Cifrele platformei Interfy",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "clienți" },
+      { "label": "180+ țări" },
+      { "label": "16 limbi" },
+      { "label": "Securitate de vârf" },
+      { "label": "AI Native" },
+      { "label": "Disponibilitate ridicată" },
+      { "label": "Conformitate globală" }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI Crédits",
+    "description": "Un solde unique d'AI Crédits pour toute l'intelligence de la plateforme Interfy.ai. Simple, transparent et puissant — utilisez-le dans Documents, Process, Capture, Agents, Voice et bien plus.",
+    "keywords": ["AI Crédits", "crédits d'intelligence artificielle", "forfaits AI", "consommation de crédits Interfy"]
+  },
+  "hero": {
+    "headingLine1": "Un solde unique d'",
+    "headingHighlight": "AI Crédits ",
+    "headingSuffix": "pour toute l'intelligence de la plateforme.",
+    "description1": "Les AI Crédits sont la monnaie d'intelligence d'Interfy.ai.",
+    "description2": "Simple, transparente et puissante.",
+    "ctaPrimary": "Commencer maintenant",
+    "ctaSecondary": "Planifier une démonstration",
+    "bannerAriaLabel": "Pourquoi choisir les AI Crédits",
+    "banner": [
+      { "title": "Simple", "description": "Un solde unique pour toute la plateforme." },
+      { "title": "Transparent", "description": "Vous contrôlez, surveillez et recevez des alertes." },
+      { "title": "Puissant", "description": "Alimente agents, automatisations, analyses et bien plus." }
+    ],
+    "strip": {
+      "heading": "Un solde unique. Toutes les intelligences.",
+      "description": "Pas de crédits séparés. Pas de complications.",
+      "ariaLabel": "Avantages du solde unique d'AI Crédits",
+      "items": [
+        { "label": "Plus de productivité" },
+        { "label": "De meilleures décisions" },
+        { "label": "Moins de travail manuel" },
+        { "label": "Plus de résultats" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "Où les ",
+    "headingHighlight": "AI Crédits ",
+    "headingSuffix": "peuvent être utilisés",
+    "ariaLabel": "Produits qui utilisent des AI Crédits",
+    "items": [
+      { "title": "Documents", "description": "Lecture intelligente, résumé, extraction de données, questions-réponses, traduction et analyse." },
+      { "title": "Process", "description": "Décisions intelligentes, exécution automatique, classification et routage." },
+      { "title": "Capture", "description": "OCR avancé, extraction structurée, validation et indexation intelligente." },
+      { "title": "Agents", "description": "Exécution de tâches, analyse, recommandations, intégrations et actions." },
+      { "title": "Voice", "description": "Interaction vocale, recherche intelligente, commandes et réponses en langage naturel." },
+      { "title": "Et bien plus", "description": "Insights, prédictions, comparaisons, rapports et autres opérations d'IA." }
+    ],
+    "notice": {
+      "title": "La consommation varie selon le type, la complexité et le volume de chaque opération.",
+      "description": "Les processus plus complexes consomment plus d'AI Crédits."
+    }
+  },
+  "structure": {
+    "headingPrefix": "Une structure complète ",
+    "headingHighlight": "pour grandir",
+    "ariaLabel": "Fonctionnalités de gestion des AI Crédits",
+    "items": [
+      { "title": "Contrôle par espace de travail", "description": "Chaque espace de travail dispose de son propre solde, de ses limites et de ses permissions." },
+      { "title": "Limites et permissions", "description": "Définissez des limites mensuelles et des contrôles par profil, équipe ou service." },
+      { "title": "Rapports détaillés", "description": "Consultez la consommation par module, utilisateur, opération et période." },
+      { "title": "Alertes intelligentes", "description": "Recevez des alertes de consommation, d'approche de limite et de solde faible." },
+      { "title": "Achat complémentaire", "description": "Besoin de plus ? Passez à un forfait supérieur ou achetez des AI Crédits supplémentaires." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "Forfaits d'",
+    "headingHighlight": "AI Crédits",
+    "headingSuffix" : " - achetez seulement ce dont vous avez besoin",
+    "table": {
+      "ariaLabel": "Tableau des forfaits d'AI Crédits",
+      "colPlan": "Forfait",
+      "colCredits": "AI Crédits",
+      "colPrice": "Prix",
+      "colPricePer1000": "Prix pour 1 000 crédits",
+      "footnote": "Montants hors taxes. Consultez les conditions."
+    },
+    "consumption": {
+      "heading": "Exemples de consommation",
+      "items": [
+        { "title": "Lecture et résumé de document (10 pages)", "credits": "5 AI Crédits" },
+        { "title": "Extraction de données d'un document (1 page)", "credits": "3 AI Crédits" },
+        { "title": "Classification intelligente de document", "credits": "2 AI Crédits" },
+        { "title": "Exécution d'un Agent (tâche moyenne)", "credits": "10 AI Crédits" },
+        { "title": "Question via Voice (moyenne)", "credits": "2 AI Crédits" },
+        { "title": "Rapport intelligent (moyen)", "credits": "15 AI Crédits" },
+        { "title": "Traduction de document (1 page)", "credits": "4 AI Crédits" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "Questions fréquentes et prochaines étapes",
+    "faqHeading": "Questions fréquentes",
+    "faqAriaExpand": "Développer la réponse",
+    "faq": [
+      {
+        "question": "Que sont les AI Crédits ?",
+        "answer": "Les AI Crédits sont la monnaie unique d'intelligence artificielle d'Interfy.ai. Chaque opération utilisant l'IA — lecture, extraction, classification, exécution d'agents et bien plus — consomme une quantité de crédits selon la complexité de la tâche."
+      },
+      {
+        "question": "Puis-je partager les AI Crédits entre espaces de travail ?",
+        "answer": "Non. Chaque espace de travail dispose de son propre solde d'AI Crédits, avec des limites et des permissions indépendantes, garantissant un contrôle total sur la consommation de chaque service ou équipe."
+      },
+      {
+        "question": "Puis-je acheter des crédits supplémentaires à tout moment ?",
+        "answer": "Oui. Vous pouvez acquérir des packs d'AI Crédits supplémentaires quand vous le souhaitez, directement depuis la plateforme, sans avoir à changer de forfait."
+      },
+      {
+        "question": "Les AI Crédits expirent-ils ?",
+        "answer": "Les crédits inclus dans votre forfait sont renouvelés à chaque cycle de facturation. Les packs supplémentaires acquis suivent les conditions contractées — consultez notre équipe pour plus de détails."
+      },
+      {
+        "question": "Comment la consommation est-elle calculée ?",
+        "answer": "La consommation varie selon le type, la complexité et le volume de chaque opération. Les tâches simples, comme la classification, consomment moins de crédits ; les processus plus complexes, comme l'exécution d'agents, en consomment davantage."
+      },
+      {
+        "question": "Les AI Crédits sont-ils inclus dans les forfaits ?",
+        "answer": "Oui. Tous les forfaits d'Interfy.ai incluent un solde d'AI Crédits pour le traitement intelligent. Si vous en avez besoin de plus, vous pouvez acheter des crédits supplémentaires à tout moment."
+      }
+    ],
+    "specialistTitle": "Encore des questions ?",
+    "specialistDesc": "Parlez à notre équipe et découvrez comment les AI Crédits peuvent accélérer vos résultats.",
+    "specialistCta": "Parler à un spécialiste",
+    "ctaTitle": "Prêt à transformer votre activité ?",
+    "ctaDesc": "Rejoignez des milliers d'entreprises qui font déjà confiance à Interfy.ai.",
+    "ctaButton": "Commencer maintenant",
+    "statsLabel": "Chiffres de la plateforme Interfy"
+  }
+}

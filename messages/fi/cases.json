@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Asiakastarinat",
+    "description": "Tyypillisiä tuloksia, joita eri toimialojen yritykset saavuttavat Interfyn dokumentti-, prosessi- ja AI-alustalla.",
+    "keywords": ["Interfyn asiakastarinat", "Interfyn tulokset", "dokumentinhallinnan onnistumistarinat", "prosessiautomaation ROI"]
+  },
+  "hero": {
+    "ariaLabel": "Johdanto asiakastarinoihin",
+    "eyebrow": "Asiakastarinat",
+    "titleLine1": "Todellisia tuloksia",
+    "titleHighlight": "eri toimialoilla",
+    "description": "Katsaus hyötyihin, joita kaltaisesi yritykset saavuttavat yhdistämällä dokumentit, prosessit ja AI:n yhdelle alustalle."
+  },
+  "grid": {
+    "ariaLabel": "Tulokset toimialoittain",
+    "heading": "Mitä asiakkaamme saavuttavat",
+    "illustrativeNote": "Havainnollistavia tuloksia, jotka perustuvat kunkin toimialan Interfy-asiakkaiden havaittuihin keskiarvoihin. Pyydä diagnoosi arvioidaksesi vaikutuksen omaan tilanteeseesi.",
+    "complianceNote": "Tulokset on saavutettu ISO/IEC 27001:2022 -sertifioidulla infrastruktuurilla, 99,99 %:n käytettävyys-SLA:lla ja LGPD/GDPR-vaatimustenmukaisuudella.",
+    "items": [
+      {
+        "segment": "Rahoituslaitokset",
+        "description": "Sopimusten digitalisointi ja luottoprosessien automatisointi täydellisellä auditointijäljellä.",
+        "metricValue": "-45%",
+        "metricLabel": "keskimääräinen luottoanalyysin kesto"
+      },
+      {
+        "segment": "Terveydenhuolto",
+        "description": "Keskitetyt potilastiedot ja lausunnot, sähköinen allekirjoitus integroituna hoitoprosessiin.",
+        "metricValue": "-60%",
+        "metricLabel": "dokumenttien arkistointiaika"
+      },
+      {
+        "segment": "Lakiala",
+        "description": "Sopimusten ja prosessien hallinta määräaikojen seurannalla ja päästä päähän -sähköisellä allekirjoituksella.",
+        "metricValue": "3x",
+        "metricLabel": "enemmän sopimuksia suljettuna kuukaudessa"
+      },
+      {
+        "segment": "Teollisuus",
+        "description": "Ostotilausten automatisointi ja monitasoiset hyväksynnät integroituna ERP-järjestelmään.",
+        "metricValue": "-35%",
+        "metricLabel": "hyväksyntäprosessin kesto"
+      },
+      {
+        "segment": "Logistiikka",
+        "description": "Rahtikirjojen ja laskujen automaattinen kaappaus suoraan kuljettajan puhelimesta.",
+        "metricValue": "+80%",
+        "metricLabel": "samana päivänä kaapatut dokumentit"
+      },
+      {
+        "segment": "Vähittäiskauppa",
+        "description": "Toimittajien käyttöönotto ja standardoitujen sopimusten hallinta yhdellä prosessilla.",
+        "metricValue": "-50%",
+        "metricLabel": "toimittajien käyttöönottoaika"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "heading": "Haluatko samanlaisia tuloksia yrityksellesi?",
+    "subheading": "Keskustele tiimimme kanssa ja saat ilmaisen diagnoosin nykyisestä prosessistasi.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa demo"
+  }
+}

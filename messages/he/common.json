@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — פלטפורמת AI-native למסמכים ותהליכים",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "ניהול מסמכים, אוטומציה של תהליכים, סריקה חכמה וחתימה דיגיטלית בפלטפורמה אחת מבוססת AI. התנסות חינם ל-7 ימים, ללא כרטיס אשראי.",
+  "keywords": [
+    "Interfy",
+    "פלטפורמת AI-native",
+    "ניהול מסמכים",
+    "ניהול מסמכים אלקטרוני",
+    "אוטומציה של תהליכים",
+    "BPM",
+    "ECM",
+    "סריקה חכמה של מסמכים",
+    "חתימה דיגיטלית",
+    "שיתוף פעולה עסקי",
+    "סוכני AI",
+    "תוכנת ניהול עסקי"
+  ],
+  "ctaPrimary": "התחילו בחינם",
+  "ctaSecondary": "קבעו הדגמה",
+  "ogHeadlineLine1": "פלטפורמת AI-native ל-",
+  "ogHeadlineLine2": "מסמכים ותהליכים",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "השקופית הקודמת",
+  "nextSlide": "השקופית הבאה",
+  "platformStats": [
+    {
+      "label": "2.5M +",
+      "sublabel": "משתמשים"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "מסמכים"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "תהליכים"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "מאוחסן"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "חתימות"
+    },
+    {
+      "label": "99.99%",
+      "sublabel": "זמן פעילות"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "תמיכה"
+    }
+  ]
+}

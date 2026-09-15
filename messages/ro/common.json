@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — Platformă AI-native pentru Documente și Procese",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "Managementul documentelor, automatizarea proceselor, captură inteligentă și semnătură digitală într-o singură platformă AI-native. Testează gratuit timp de 7 zile, fără card de credit.",
+  "keywords": [
+    "Interfy",
+    "platformă AI-native",
+    "managementul documentelor",
+    "gestionare electronică a documentelor",
+    "automatizarea proceselor",
+    "BPM",
+    "ECM",
+    "captură inteligentă de documente",
+    "semnătură digitală",
+    "colaborare la nivel de companie",
+    "agenți AI",
+    "software de management al afacerii"
+  ],
+  "ctaPrimary": "Începe Gratuit",
+  "ctaSecondary": "Programează o Demonstrație",
+  "ogHeadlineLine1": "Platformă AI-native pentru",
+  "ogHeadlineLine2": "Documente și Procese",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "Slide-ul anterior",
+  "nextSlide": "Slide-ul următor",
+  "platformStats": [
+    {
+      "label": "2,5M +",
+      "sublabel": "utilizatori"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "documente"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "procese"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "stocate"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "semnături"
+    },
+    {
+      "label": "99,99%",
+      "sublabel": "uptime"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "suport"
+    }
+  ]
+}

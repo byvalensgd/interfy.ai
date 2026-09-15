@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "パートナープログラム",
+    "description": "Interfy.aiのコマーシャルパートナーまたはアフィリエイトになり、AI-nativeなプラットフォーム、専任サポート、法人向けWorkspaceを活用して、チャンスを継続的な収益へと変えましょう。",
+    "keywords": ["Interfyパートナープログラム", "コマーシャルパートナー", "Interfyアフィリエイト", "顧客紹介", "継続的な収益"]
+  },
+  "hero": {
+    "headingPrefix": "",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "と共に成長し、チャンスを継続的な収益へと変える。",
+    "description": "AI-nativeなプラットフォームを活用して、新規事業を開拓・紹介・育成したい企業や個人のための、グローバルなプログラムに参加しましょう。",
+    "slideshowAlt": "ノートPCとスマートフォンに表示されたInterfyプラットフォーム。AIを活用した管理画面を表示",
+    "bannerAriaLabel": "パートナープログラムの特長",
+    "banner": [
+      { "title": "グローバルプログラム" },
+      { "title": "Interfyのサポート" },
+      { "title": "継続的な収益" },
+      { "title": "保護されたチャンス" }
+    ],
+    "ctaPrimary": "パートナーになる",
+    "ctaSecondary": "顧客を紹介する"
+  },
+  "participation": {
+    "heading": "参加方法を選択してください",
+    "cards": [
+      {
+        "title": "コマーシャルパートナー",
+        "subtitle": "Interfyと共に事業を展開したい方向け",
+        "checklistAriaLabel": "コマーシャルパートナーの特典",
+        "checklist": [
+          { "label": "新規顧客の開拓" },
+          { "label": "プラットフォームのプレゼンテーション" },
+          { "label": "商談機会の育成" },
+          { "label": "商談関係のフォローアップ" },
+          { "label": "デモ用の法人向けWorkspace" },
+          { "label": "公式トレーニングと資料の提供" },
+          { "label": "商談機会の登録と保護" }
+        ],
+        "cta": "パートナーになる"
+      },
+      {
+        "title": "アフィリエイト・紹介者",
+        "subtitle": "見込み顧客を紹介したい方向け",
+        "checklistAriaLabel": "アフィリエイト・紹介者の特典",
+        "checklist": [
+          { "label": "リンク、コード、フォームによる紹介" },
+          { "label": "デモ実施の必要なし" },
+          { "label": "提案書作成の必要なし" },
+          { "label": "商談への参加不要" },
+          { "label": "商談プロセスはすべてInterfyが担当" },
+          { "label": "紹介した案件の進捗を確認できる" }
+        ],
+        "cta": "顧客を紹介する"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "なぜすべてを一つの",
+    "headingHighlight": "Workspaceに集約するのか?",
+    "steps": [
+      { "title": "参加形態を選ぶ", "description": "コマーシャルパートナーか、アフィリエイト・紹介者かを決めます。" },
+      { "title": "登録する", "description": "情報を入力し、プログラムへの参加を確定します。" },
+      { "title": "商談機会を登録する", "description": "プラットフォーム上で見込み顧客を紹介し、進捗を確認します。" },
+      { "title": "成果をフォローする", "description": "成果を追跡し、プログラムの条件に応じて報酬を受け取ります。" }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "成長を支える、",
+    "headingHighlight": "万全の体制",
+    "ariaLabel": "パートナー支援体制",
+    "items": [
+      { "title": "AI-nativeなプラットフォーム", "description": "事業を後押しする最高のテクノロジー。" },
+      { "title": "トレーニング", "description": "チームのための営業・技術研修。" },
+      { "title": "法人向けWorkspace", "description": "商談機会を管理するための専用環境。" },
+      { "title": "営業資料", "description": "最新の公式プレゼンテーション、トークスクリプト、コンテンツ。" },
+      { "title": "商談機会の登録", "description": "各商談機会の進捗状況をリアルタイムで確認できます。" },
+      { "title": "Interfyによる契約", "description": "Interfyが顧客との商談・契約締結を担当します。" },
+      { "title": "Interfyによる請求", "description": "請求書発行、集金、支払い管理を担当します。" },
+      { "title": "公式サポート", "description": "パートナー専任チームによる専門的な対応。" }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "あなたが事業を開拓する",
+      "checklistAriaLabel": "パートナーの役割",
+      "checklist": [
+        { "label": "新規開拓と関係構築" },
+        { "label": "プラットフォームのプレゼンテーション" },
+        { "label": "商談機会の登録" },
+        { "label": "商談のフォローアップ" }
+      ]
+    },
+    "interfy": {
+      "title": "運用はInterfyが担当する",
+      "checklistAriaLabel": "Interfyの役割",
+      "checklist": [
+        { "label": "顧客との契約" },
+        { "label": "請求と集金" },
+        { "label": "Workspaceの作成" },
+        { "label": "インフラ、更新、サポート" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "顧客は",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "から始められます。7日間無料、カード登録不要、契約義務もありません。",
+    "descriptionLine2": "顧客はプランを選ぶ前に、プラットフォームを実際に体験できます。",
+    "cta": "TEST DRIVEを詳しく見る"
+  },
+  "faq": {
+    "heading": "よくある質問",
+    "ariaExpand": "回答を表示",
+    "items": [
+      {
+        "question": "地域の独占権はありますか?",
+        "answer": "ありません。本プログラムはグローバル展開しており、地域を問わずどのパートナー・アフィリエイトも新規開拓と紹介を行えます。"
+      },
+      {
+        "question": "商談機会はどのように保護されますか?",
+        "answer": "プラットフォームに登録された商談機会は、担当のパートナーまたはアフィリエイトに紐づけられ、重複を防ぎ、紹介した案件が正しく認識されるようになっています。"
+      },
+      {
+        "question": "報酬はいつ支払われますか?",
+        "answer": "報酬は顧客の支払いが確認された後、プログラム条件で定められた請求サイクルに従って支払われます。"
+      },
+      {
+        "question": "パートナーが顧客に直接請求することはできますか?",
+        "answer": "できません。契約、請求、集金はすべてInterfyが顧客と直接行い、パートナーは商談関係の構築に専念できます。"
+      },
+      {
+        "question": "年間更新はどのように行われますか?",
+        "answer": "顧客が契約を継続している限り自動的に更新され、パートナーやアフィリエイトはプログラムの条件に応じて報酬を受け取り続けます。"
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Interfy.aiのグローバルエコシステムに参加する",
+    "heading": "一緒に成長しませんか?",
+    "subheading": "参加形態を選んで、Interfy.aiのグローバルエコシステムに参加しましょう。",
+    "primaryButton": "パートナーになる",
+    "secondaryButton": "アフィリエイトになる",
+    "statsLabel": "Interfyプラットフォームの実績",
+    "stats": [
+      { "label": "12Bi +", "sublabel": "文書数" },
+      { "label": "20M +", "sublabel": "署名数" },
+      { "label": "2.5M +", "sublabel": "ユーザー数" },
+      { "label": "6Mi +", "sublabel": "プロセス数" },
+      { "label": "1000 TB +", "sublabel": "保存容量" },
+      { "label": "99.99%", "sublabel": "稼働率" },
+      { "label": "24/7", "sublabel": "サポート" }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI 크레딧",
+    "description": "Interfy.ai 플랫폼의 모든 지능을 위한 단일 AI 크레딧 잔액. 간단하고 투명하며 강력합니다 — Documents, Process, Capture, Agents, Voice 등 모든 곳에서 사용하세요.",
+    "keywords": ["AI 크레딧", "인공지능 크레딧", "AI 요금제", "Interfy 크레딧 소비"]
+  },
+  "hero": {
+    "headingLine1": "플랫폼의 모든 지능을 위한",
+    "headingHighlight": "단일 AI 크레딧 ",
+    "headingSuffix": "잔액.",
+    "description1": "AI 크레딧은 Interfy.ai의 지능 화폐입니다.",
+    "description2": "간단하고, 투명하고, 강력합니다.",
+    "ctaPrimary": "지금 시작하기",
+    "ctaSecondary": "데모 예약하기",
+    "bannerAriaLabel": "AI 크레딧을 선택해야 하는 이유",
+    "banner": [
+      { "title": "간단함", "description": "플랫폼 전체를 위한 단일 잔액." },
+      { "title": "투명함", "description": "직접 통제하고, 모니터링하고, 알림을 받으세요." },
+      { "title": "강력함", "description": "에이전트, 자동화, 분석 등 다양한 기능을 구동합니다." }
+    ],
+    "strip": {
+      "heading": "단일 잔액. 모든 지능.",
+      "description": "별도의 크레딧도, 복잡함도 없습니다.",
+      "ariaLabel": "단일 AI 크레딧 잔액의 이점",
+      "items": [
+        { "label": "더 높은 생산성" },
+        { "label": "더 나은 의사결정" },
+        { "label": "더 적은 수작업" },
+        { "label": "더 나은 성과" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "AI 크레딧을 ",
+    "headingHighlight": "사용할 수 있는 ",
+    "headingSuffix": "곳",
+    "ariaLabel": "AI 크레딧을 사용하는 제품",
+    "items": [
+      { "title": "Documents", "description": "스마트 읽기, 요약, 데이터 추출, Q&A, 번역 및 분석." },
+      { "title": "Process", "description": "지능적인 의사결정, 자동 실행, 분류 및 라우팅." },
+      { "title": "Capture", "description": "고급 OCR, 구조화된 데이터 추출, 검증 및 스마트 인덱싱." },
+      { "title": "Agents", "description": "작업 실행, 분석, 추천, 통합 및 액션." },
+      { "title": "Voice", "description": "음성 상호작용, 스마트 검색, 자연어 명령 및 응답." },
+      { "title": "그리고 더 많은 기능", "description": "인사이트, 예측, 비교, 리포트 및 기타 AI 작업." }
+    ],
+    "notice": {
+      "title": "소비량은 작업의 유형, 복잡도, 규모에 따라 달라집니다.",
+      "description": "더 복잡한 프로세스일수록 더 많은 AI 크레딧을 소비합니다."
+    }
+  },
+  "structure": {
+    "headingPrefix": "성장을 위한 ",
+    "headingHighlight": "완전한 구조",
+    "ariaLabel": "AI 크레딧 관리 기능",
+    "items": [
+      { "title": "워크스페이스별 통제", "description": "각 워크스페이스는 자체 잔액, 한도, 권한을 가집니다." },
+      { "title": "한도와 권한", "description": "프로필, 팀, 부서별로 월별 한도와 통제를 설정하세요." },
+      { "title": "상세 리포트", "description": "모듈, 사용자, 작업, 기간별 소비 현황을 확인하세요." },
+      { "title": "지능형 알림", "description": "소비량, 한도 근접, 낮은 잔액에 대한 알림을 받으세요." },
+      { "title": "추가 구매", "description": "더 필요하신가요? 플랜을 업그레이드하거나 AI 크레딧을 추가로 구매하세요." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "필요한 만큼만 구매하는 ",
+    "headingHighlight": "AI 크레딧",
+    "headingSuffix": " 요금제",
+    "table": {
+      "ariaLabel": "AI 크레딧 요금제 표",
+      "colPlan": "플랜",
+      "colCredits": "AI 크레딧",
+      "colPrice": "가격",
+      "colPricePer1000": "크레딧 1,000개당 가격",
+      "footnote": "세금 미포함 금액입니다. 자세한 조건은 문의해 주세요."
+    },
+    "consumption": {
+      "heading": "소비 예시",
+      "items": [
+        { "title": "문서 읽기 및 요약 (10페이지)", "credits": "5 AI 크레딧" },
+        { "title": "문서 데이터 추출 (1페이지)", "credits": "3 AI 크레딧" },
+        { "title": "문서 스마트 분류", "credits": "2 AI 크레딧" },
+        { "title": "Agent 실행 (일반 작업)", "credits": "10 AI 크레딧" },
+        { "title": "Voice 질의 (일반)", "credits": "2 AI 크레딧" },
+        { "title": "스마트 리포트 (일반)", "credits": "15 AI 크레딧" },
+        { "title": "문서 번역 (1페이지)", "credits": "4 AI 크레딧" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "자주 묻는 질문 및 다음 단계",
+    "faqHeading": "자주 묻는 질문",
+    "faqAriaExpand": "답변 펼치기",
+    "faq": [
+      {
+        "question": "AI 크레딧이란 무엇인가요?",
+        "answer": "AI 크레딧은 Interfy.ai의 단일 인공지능 화폐입니다. 읽기, 추출, 분류, 에이전트 실행 등 AI를 사용하는 모든 작업은 작업의 복잡도에 따라 일정량의 크레딧을 소비합니다."
+      },
+      {
+        "question": "워크스페이스 간에 AI 크레딧을 공유할 수 있나요?",
+        "answer": "아니요. 각 워크스페이스는 독립적인 한도와 권한을 가진 자체 AI 크레딧 잔액을 보유하여, 각 부서나 팀의 소비를 완전히 통제할 수 있습니다."
+      },
+      {
+        "question": "언제든지 추가 크레딧을 구매할 수 있나요?",
+        "answer": "네. 플랜을 변경하지 않고도 플랫폼에서 바로 언제든지 추가 AI 크레딧 패키지를 구매할 수 있습니다."
+      },
+      {
+        "question": "AI 크레딧은 만료되나요?",
+        "answer": "플랜에 포함된 크레딧은 매 결제 주기마다 갱신됩니다. 추가로 구매한 패키지는 계약된 조건에 따르며, 자세한 사항은 저희 팀에 문의해 주세요."
+      },
+      {
+        "question": "소비량은 어떻게 계산되나요?",
+        "answer": "소비량은 작업의 유형, 복잡도, 규모에 따라 달라집니다. 분류와 같은 간단한 작업은 더 적은 크레딧을 소비하고, 에이전트 실행과 같은 복잡한 프로세스는 더 많은 크레딧을 소비합니다."
+      },
+      {
+        "question": "AI 크레딧은 요금제에 포함되어 있나요?",
+        "answer": "네. Interfy.ai의 모든 요금제에는 지능형 처리를 위한 AI 크레딧 잔액이 포함되어 있습니다. 더 필요하다면 언제든지 추가 크레딧을 구매할 수 있습니다."
+      }
+    ],
+    "specialistTitle": "궁금한 점이 있으신가요?",
+    "specialistDesc": "저희 팀과 상담하고 AI 크레딧이 어떻게 성과를 가속화할 수 있는지 알아보세요.",
+    "specialistCta": "전문가와 상담하기",
+    "ctaTitle": "업무 방식을 혁신할 준비가 되셨나요?",
+    "ctaDesc": "이미 Interfy.ai를 신뢰하는 수천 개의 기업과 함께하세요.",
+    "ctaButton": "지금 시작하기",
+    "statsLabel": "Interfy 플랫폼의 숫자"
+  }
+}

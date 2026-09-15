@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Partnerprogramm",
+    "description": "Werden Sie Vertriebspartner oder Affiliate von Interfy.ai und verwandeln Sie Chancen in wiederkehrende Einnahmen mit einer AI-native Plattform, dediziertem Support und institutionellem Workspace.",
+    "keywords": ["Interfy Partnerprogramm", "Vertriebspartner", "Interfy Affiliate", "Kundenempfehlung", "wiederkehrende Einnahmen"]
+  },
+  "hero": {
+    "headingPrefix": "Wachsen Sie mit ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Verwandeln Sie Chancen in wiederkehrende Einnahmen.",
+    "description": "Werden Sie Teil eines globalen Programms für Unternehmen und Fachleute, die mit einer AI-native Plattform Neukunden akquirieren, empfehlen und neue Geschäfte entwickeln möchten.",
+    "slideshowAlt": "Interfy-Plattform auf Laptop und Smartphone, mit dem KI-Management-Dashboard",
+    "bannerAriaLabel": "Vorteile des Partnerprogramms",
+    "banner": [
+      { "title": "Globales Programm" },
+      { "title": "Interfy-Support" },
+      { "title": "Wiederkehrende Einnahmen" },
+      { "title": "Geschützte Opportunities" }
+    ],
+    "ctaPrimary": "PARTNER WERDEN",
+    "ctaSecondary": "KUNDEN EMPFEHLEN"
+  },
+  "participation": {
+    "heading": "Wählen Sie, wie Sie teilnehmen möchten",
+    "cards": [
+      {
+        "title": "VERTRIEBSPARTNER",
+        "subtitle": "Für alle, die mit Interfy Geschäfte entwickeln möchten",
+        "checklistAriaLabel": "Vorteile des Vertriebspartners",
+        "checklist": [
+          { "label": "Akquise neuer Kunden" },
+          { "label": "Präsentation der Plattform" },
+          { "label": "Entwicklung der Opportunities" },
+          { "label": "Betreuung der Geschäftsbeziehung" },
+          { "label": "Institutioneller Workspace für Demonstrationen" },
+          { "label": "Offizielle Schulungen und Materialien" },
+          { "label": "Registrierung und Schutz von Opportunities" }
+        ],
+        "cta": "PARTNER WERDEN"
+      },
+      {
+        "title": "AFFILIATE ODER EMPFEHLER",
+        "subtitle": "Für alle, die potenzielle Kunden empfehlen möchten",
+        "checklistAriaLabel": "Vorteile des Affiliate oder Empfehlers",
+        "checklist": [
+          { "label": "Empfehlung per Link, Code oder Formular" },
+          { "label": "Keine Demonstrationen erforderlich" },
+          { "label": "Keine Angebotserstellung" },
+          { "label": "Keine Beteiligung an Verhandlungen" },
+          { "label": "Interfy führt den gesamten Vertriebsprozess" },
+          { "label": "Nachverfolgung der abgegebenen Empfehlungen" }
+        ],
+        "cta": "KUNDEN EMPFEHLEN"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Warum alles in einem einzigen ",
+    "headingHighlight": "Workspace zentralisieren?",
+    "steps": [
+      { "title": "Wählen Sie Ihre Rolle", "description": "Entscheiden Sie, ob Sie Vertriebspartner oder Affiliate/Empfehler werden." },
+      { "title": "Registrieren Sie sich", "description": "Geben Sie Ihre Daten ein und bestätigen Sie Ihre Teilnahme am Programm." },
+      { "title": "Registrieren Sie Ihre Opportunities", "description": "Empfehlen und verfolgen Sie Ihre potenziellen Kunden über die Plattform." },
+      { "title": "Verfolgen Sie Ihre Ergebnisse", "description": "Verfolgen Sie Ihre Ergebnisse und erhalten Sie Vergütung gemäß den Programmbedingungen." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "Eine vollständige Struktur ",
+    "headingHighlight": "für Ihr Wachstum",
+    "ariaLabel": "Unterstützungsstruktur für Partner",
+    "items": [
+      { "title": "AI-native Plattform", "description": "Die beste Technologie, um Ihr Geschäft voranzubringen." },
+      { "title": "Schulung", "description": "Vertriebliche und technische Befähigung für Ihr Team." },
+      { "title": "Institutioneller Workspace", "description": "Exklusive Umgebung für die Verwaltung von Opportunities." },
+      { "title": "Vertriebsmaterialien", "description": "Präsentationen, Argumentationshilfen und aktuelle offizielle Inhalte." },
+      { "title": "Erfassung von Opportunities", "description": "Verfolgen Sie den Status jeder Opportunity in Echtzeit." },
+      { "title": "Verträge über Interfy", "description": "Interfy führt die Verhandlung und den Vertragsabschluss mit dem Kunden." },
+      { "title": "Abrechnung über Interfy", "description": "Rechnungsstellung, Inkasso und Zahlungsverwaltung." },
+      { "title": "Offizieller Support", "description": "Dediziertes Team für Partner mit spezialisierter Betreuung." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Sie entwickeln das Geschäft",
+      "checklistAriaLabel": "Verantwortlichkeiten des Partners",
+      "checklist": [
+        { "label": "Akquise und Beziehungsmanagement" },
+        { "label": "Präsentation der Plattform" },
+        { "label": "Erfassung der Opportunity" },
+        { "label": "Vertriebsbetreuung" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy übernimmt den Betrieb",
+      "checklistAriaLabel": "Verantwortlichkeiten von Interfy",
+      "checklist": [
+        { "label": "Vertrag mit dem Kunden" },
+        { "label": "Rechnungsstellung und Inkasso" },
+        { "label": "Erstellung des Workspace" },
+        { "label": "Infrastruktur, Updates und Support" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Ihr Kunde kann mit dem ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 Tage kostenlos starten, ohne Kreditkarte und ohne Verpflichtung.",
+    "descriptionLine2": "Der Kunde lernt die Plattform kennen, bevor er sich für einen Tarif entscheidet.",
+    "cta": "TEST DRIVE ENTDECKEN"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "ariaExpand": "Antwort anzeigen",
+    "items": [
+      {
+        "question": "Gibt es Gebietsexklusivität?",
+        "answer": "Nein. Das Programm ist global: Partner und Affiliates aus jeder Region können ohne geografische Einschränkung Kunden akquirieren und empfehlen."
+      },
+      {
+        "question": "Wie werden Opportunities geschützt?",
+        "answer": "Jede auf der Plattform registrierte Opportunity wird dem zuständigen Partner oder Affiliate zugeordnet, wodurch Überlappungen vermieden und die Anerkennung für das empfohlene Geschäft gewährleistet wird."
+      },
+      {
+        "question": "Wann wird die Provision ausgezahlt?",
+        "answer": "Die Provision wird nach Bestätigung der Zahlung durch den Kunden freigegeben, gemäß dem in den Programmbedingungen festgelegten Abrechnungszyklus."
+      },
+      {
+        "question": "Kann der Partner den Kunden abrechnen?",
+        "answer": "Nein. Interfy führt den Vertrag, die Rechnungsstellung und das Inkasso direkt mit dem Kunden, während sich der Partner auf die Geschäftsbeziehung konzentriert."
+      },
+      {
+        "question": "Wie funktioniert die jährliche Verlängerung?",
+        "answer": "Die Verlängerung erfolgt automatisch, solange der Kunde aktiv bleibt, und der Partner oder Affiliate erhält weiterhin Vergütung gemäß den Programmbedingungen."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Werden Sie Teil des globalen Interfy.ai-Ökosystems",
+    "heading": "Wollen wir gemeinsam wachsen?",
+    "subheading": "Wählen Sie Ihre Rolle und werden Sie Teil des globalen Interfy.ai-Ökosystems.",
+    "primaryButton": "PARTNER WERDEN",
+    "secondaryButton": "AFFILIATE WERDEN",
+    "statsLabel": "Zahlen der Interfy-Plattform",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "Dokumente" },
+      { "label": "20M +", "sublabel": "Signaturen" },
+      { "label": "2,5M +", "sublabel": "Nutzer" },
+      { "label": "6M +", "sublabel": "Prozesse" },
+      { "label": "1000 TB +", "sublabel": "gespeichert" },
+      { "label": "99,99 %", "sublabel": "Uptime" },
+      { "label": "24/7", "sublabel": "Support" }
+    ]
+  }
+}

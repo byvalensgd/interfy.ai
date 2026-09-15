@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Integrări & API",
+    "description": "Conectează Interfy la instrumentele pe care compania ta le folosește deja: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier și multe altele, cu API-uri RESTful complete și webhooks în timp real.",
+    "keywords": ["integrări Interfy", "API Interfy", "conectori enterprise", "webhooks", "automatizarea sistemelor"]
+  },
+  "hero": {
+    "headingPrefix": "Conectează Interfy la ceea ce ",
+    "headingHighlight": "compania ta deja folosește.",
+    "description": "Integrarea este deblocată. Conectează sisteme, automatizează procese și potențează rezultatele fără limite.",
+    "ctaPrimary": "Vezi integrările",
+    "ctaSecondary": "Documentația API",
+    "diagramAriaLabel": "Sisteme integrate cu Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "Integrare fără limite", "description": "Conectează tot ce compania ta are nevoie" },
+      { "title": "Mai multă productivitate", "description": "Automatizează fluxuri și elimină munca repetată" },
+      { "title": "Decizii inteligente", "description": "Date integrate pentru informații în timp real." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "Conectează-te cu principalele sisteme de pe piață",
+    "ctaLabel": "Vezi toate"
+  },
+  "featuresGrid": {
+    "headingPrefix": "Funcționalități și beneficii ale ",
+    "headingHighlight": "Interfy API",
+    "ariaLabel": "Funcționalități și beneficii de integrare Interfy",
+    "items": [
+      { "title": "REST API", "description": "API completă și modernă pentru a integra cu orice sistem sau aplicație." },
+      { "title": "Webhooks", "description": "Primește evenimente în timp real și menține-ți sistemele mereu sincronizate." },
+      { "title": "Zapier", "description": "Integrează Interfy cu mii de aplicații folosind Zapier, simplu și rapid." },
+      { "title": "Baze de date", "description": "Conectează-te în siguranță cu principalele baze de date SQL și NoSQL." },
+      { "title": "ERP", "description": "Integrează cu ERP-uri de top și unifică datele și procesele în toată organizația." },
+      { "title": "CRM", "description": "Sincronizează clienți, contacte și oportunități cu CRM-ul tău preferat." },
+      { "title": "Microsoft", "description": "Integrare nativă cu Microsoft 365, Azure, SharePoint, Teams și altele." },
+      { "title": "Google", "description": "Integrare cu Google Workspace, Drive, Gmail, Sheets și multe altele." },
+      { "title": "Autentificare externă", "description": "SSO, SAML 2.0 și OAuth 2.0 pentru autentificare sigură și experiență unificată." },
+      { "title": "AD / LDAP", "description": "Integrare cu Active Directory și LDAP pentru gestionarea utilizatorilor și permisiunilor." },
+      { "title": "Sisteme legacy", "description": "Conectează sisteme vechi și legacy cu adaptoare și API-uri flexibile." },
+      { "title": "Integrări personalizate", "description": "Construiește conectori la comandă cu API-ul nostru flexibil pentru nevoi specifice." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "Agents care merg mai departe cu ",
+    "headingHighlight": "integrări inteligente",
+    "description": "Folosește agenți inteligenți și comenzi vocale pentru a crea, căuta, rezuma, aproba și multe altele.",
+    "diagramAriaLabel": "Agenții Interfy conectați la ecosistemul de produse",
+    "checklistAriaLabel": "Beneficiile agenților integrați",
+    "checklist": [
+      { "label": "Căutare și analiză de date în sisteme externe" },
+      { "label": "Execuția acțiunilor și actualizarea înregistrărilor" },
+      { "label": "Automatizare completă și inteligentă" },
+      { "label": "Răspunsuri mai complete și contextuale" },
+      { "label": "Fluxuri de lucru inteligente între mai multe platforme" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "Securitate de ",
+    "headingHighlight": "nivel enterprise",
+    "description": "Integrările și datele tale protejate cu cele mai înalte standarde de securitate de pe piață.",
+    "itemsAriaLabel": "Standarde de securitate ale integrărilor",
+    "items": [
+      { "label": "HTTPS / TLS 1.2+ pe toate conexiunile" },
+      { "label": "OAuth 2.0 și token-uri securizate" },
+      { "label": "Rate limiting și control al accesului" },
+      { "label": "Jurnale și audit complet" },
+      { "label": "Conformitate cu LGPD, ISO 27001 și SOC 2" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "Documentație completă pentru dezvoltatori",
+      "description": "Tutoriale, exemple de cod, SDK-uri și mediu de testare ca să începi chiar acum.",
+      "ctaLabel": "Accesează documentația",
+      "langsAriaLabel": "Limbaje suportate de SDK"
+    },
+    "codeCard": {
+      "heading": "Apel API în câteva secunde"
+    },
+    "ctaCard": {
+      "heading": "Integrează. Automatizează. Transformă.",
+      "description": "Interfy se conectează la ceea ce deja folosești pentru a duce operațiunea ta la un alt nivel.",
+      "primaryLabel": "Test Drive Gratuit",
+      "secondaryLabel": "Vorbește cu un specialist"
+    }
+  }
+}

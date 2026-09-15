@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "AIエージェント",
+    "description": "Interfy Agentsは、プラットフォームのインテリジェンス層です。インテリジェントなエージェントを作成し、タスクを自動化し、情報を分析し、業務全体の成果を高めます。",
+    "keywords": ["AIエージェント", "インテリジェント自動化", "企業向けAIエージェント", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "理解し、判断し、",
+    "titleGradient": "実行するエージェント。",
+    "description": "Interfy Agentsは、プラットフォームのインテリジェンス層です。インテリジェントなエージェントを作成し、タスクを自動化し、情報を分析し、業務全体の成果を高めます。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "slideshowAlt": "ノートPCとスマートフォンに表示されたInterfy Agents。実際に動作するAIエージェントを表示",
+    "highlights": [
+      { "label": "価値を生み出すインテリジェンス" },
+      { "label": "限界のない自動化" },
+      { "label": "安全でガバナンスされた運用" },
+      { "label": "プラットフォーム全体と統合" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "できることは",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "があなたのために実現します",
+    "items": [
+      { "title": "インテリジェントエージェント", "description": "文脈を理解し、自律的にアクションを実行するAIエージェントです。" },
+      { "title": "エージェントの作成", "description": "コードの有無を問わず、数分でカスタムエージェントを作成できます。" },
+      { "title": "部門別エージェント", "description": "財務、人事、法務など、各部門専用のエージェントを用意できます。" },
+      { "title": "タスクの自動実行", "description": "繰り返し作業を実行し、ミスを減らして業務を加速します。" },
+      { "title": "文書の読み取り", "description": "文書を読み取り、理解し、数秒で情報を抽出します。" },
+      { "title": "プロセスの起動", "description": "イベントに基づいてプラットフォーム上のプロセスを自動的に開始・進行します。" },
+      { "title": "モニタリング", "description": "活動、期限、指標を追跡し、リアルタイムで更新を通知します。" },
+      { "title": "情報の分析", "description": "大量のデータを分析し、インテリジェントなインサイトを提供します。" },
+      { "title": "インテリジェントアラート", "description": "リスク、チャンス、期限、例外について事前に通知します。" },
+      { "title": "レコメンデーション", "description": "データと履歴に基づき、アクション、判断、次のステップを提案します。" },
+      { "title": "システム連携", "description": "APIを通じて外部システムと接続し、安全に情報をやり取りします。" },
+      { "title": "ルールベースの実行", "description": "企業のポリシーと業務ルールに従ってアクションを実行します。" }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Interfyエコシステムと",
+    "headingGradient": "完全に統合",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "エージェントが文書をインテリジェントに読み取り、分析し、更新します。" },
+      { "description": "エージェントがプロセスを起動し、データを入力し、フローを自動的に進めます。" },
+      { "description": "エージェントが情報を抽出、分類し、適切なフローへ文書を送信します。" },
+      { "description": "エージェントが会話に参加し、応答し、情報を共有し、共同作業を行います。" },
+      { "description": "エージェントが音声を使って応答、記録、問い合わせ、実行を行います。" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "ガバナンス、セキュリティおよびAI Credits",
+    "governance": {
+      "title": "ガバナンスとセキュリティを",
+      "titleAccent": "最優先に",
+      "items": [
+        "エージェントおよびユーザー単位の細かな権限管理",
+        "すべての階層で記録・追跡されるアクション",
+        "企業が定めるアクセスおよび実行ポリシー",
+        "LGPD、ISO 27001、SOC 2などへの準拠",
+        "エンドツーエンド暗号化によるデータ保護"
+      ],
+      "cta": "詳細を見る"
+    },
+    "credits": {
+      "title": "AI Creditsによるシンプルで透明性の高い消費管理",
+      "description": "Interfy Agentsは、実行されたアクションに応じてAIクレジットを消費します。貴社の事業に、より高い予測性とスケーラビリティをもたらします。",
+      "features": [
+        { "label": "すべてのプランにクレジットが含まれます" },
+        { "label": "リアルタイムでの利用状況確認" },
+        { "label": "必要なときに追加クレジットを購入" }
+      ],
+      "cta": "詳細を見る",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "利用可能"
+    }
+  },
+  "cta": {
+    "sectionAria": "Interfy Agentsを使い始める",
+    "benefitsAria": "Interfy Agentsのメリット",
+    "title": "あなたの代わりに働くインテリジェンス。",
+    "description": "エージェントを作成し、タスクを自動化して、AIで業務を変革しましょう。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "benefits": [
+      { "label": "運用コストを削減" },
+      { "label": "生産性と効率を向上" },
+      { "label": "ミスと手戻りを削減" },
+      { "label": "より速くインテリジェントな意思決定" },
+      { "label": "限界のないスケーラビリティ" }
+    ]
+  }
+}

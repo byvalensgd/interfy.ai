@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "요금제 및 플랜",
+    "description": "기업 규모에 맞는 최적의 플랜을 선택하세요: Free, Individual, Teams, Startup 또는 중대형 기업을 위한 플랜.",
+    "keywords": ["Interfy 요금", "Interfy 플랜", "문서 관리 비용", "AI 네이티브 엔터프라이즈 플랜"]
+  },
+  "hero": {
+    "headingPrefix": "AI로 업무를 혁신하는",
+    "headingHighlight": "완전한 플랫폼.",
+    "description": "기업 규모에 맞는 최적의 플랜을 선택하고 문서, 프로세스, 인력을 실질적인 성과로 전환해 보세요.",
+    "monthlyCta": "월간",
+    "annualCta": "연간",
+    "saveBadge": "최대 30% 할인",
+    "imageAlt": "노트북과 스마트폰에서 실행되는 Interfy 플랫폼, AI 관리 대시보드 화면",
+    "highlights": ["7일 무료 체험", "무료 전자서명", "웹 및 모바일 이용 가능", "AI 기능 포함"]
+  },
+  "plansSection": {
+    "heading": "Interfy 플랜",
+    "segmentSmallTitle": "소규모 비즈니스",
+    "segmentSmallDesc": "전문가, 팀, 성장하는 기업을 위한 플랜입니다.",
+    "segmentLargeTitle": "중대형 기업",
+    "segmentLargeDesc": "복잡한 운영, 거버넌스, 글로벌 확장을 위한 플랜입니다.",
+    "billingAriaLabel": "월간 및 연간 결제 전환",
+    "billingMonthly": "월간",
+    "billingAnnual": "연간",
+    "billingSaveBadge": "30% 할인",
+    "billingAnnualLabel": "연간 결제",
+    "billingMonthlyLabel": "월간 결제",
+    "perUserMonth": "사용자당/월",
+    "productsIncludedLabel": "플랜에 포함된 제품",
+    "allProductsLabel": "8개 제품 전체 포함",
+    "enterprisePriceLabel": "문의하기",
+    "enterprisePriceSub": "맞춤 가격",
+    "popularBadge": "가장 인기"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "무료로 시작하기",
+      "productsLabel": "3개 제품 포함",
+      "features": [
+        "정회원 사용자 1명",
+        "저장 공간 1GB",
+        "AI 크레딧 5개/월",
+        "전자서명 문서 발송 3건/월 (누적 불가)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!",
+      "productsLabel": "4개 제품 포함",
+      "features": [
+        "무제한 사용자 (사용자별 과금)",
+        "정회원 사용자 최소 1명",
+        "조회 전용 사용자 2명",
+        "저장 공간 5GB",
+        "AI 크레딧 10개/월 (누적 불가)",
+        "전자서명 문서 발송 10건/월 (누적 불가)",
+        "문서 공유 및 소통을 위한 채팅 티켓 10건/월 (누적 불가)"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!",
+      "productsLabel": "5개 제품 포함",
+      "features": [
+        "무제한 사용자 (사용자별 과금)",
+        "정회원 사용자 최소 5명",
+        "조회 전용 사용자 5명",
+        "Interfy Capture + Mobile",
+        "저장 공간 10GB",
+        "AI 크레딧 10개/월 (누적 불가)",
+        "전자서명 문서 발송 10건/월 (누적 불가)",
+        "문서 공유 및 소통을 위한 채팅 티켓 10건/월 (누적 불가)",
+        "OCR 전문(全文) 검색"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!",
+      "productsLabel": "8개 제품 포함",
+      "features": [
+        "무제한 사용자 (사용자별 과금)",
+        "정회원 사용자 최소 5명",
+        "조회 전용 사용자 5명",
+        "Interfy Capture + Mobile",
+        "저장 공간 15GB",
+        "AI 크레딧 20개/월 (누적 불가)",
+        "전자서명 문서 발송 10건/월 (누적 불가)",
+        "문서 공유 및 소통을 위한 채팅 티켓 10건/월 (누적 불가)",
+        "무제한 프로세스",
+        "OCR 전문(全文) 검색"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "지금 신청하기",
+      "trialLabel": "7일 무료 체험!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "맞춤형 솔루션",
+      "ctaLabel": "전문가와 상담하기",
+      "trialLabel": "문의하기"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "무제한 사용자 (사용자별 과금)",
+      "business": "무제한 사용자 (사용자별 과금)",
+      "corporate": "무제한 사용자 (사용자별 과금)",
+      "enterprise": "무제한 사용자 (사용자별 과금)"
+    },
+    {
+      "starter": "정회원 사용자 최소 5명",
+      "business": "정회원 사용자 최소 10명",
+      "corporate": "정회원 사용자 최소 15명",
+      "enterprise": "정회원 사용자 (별도 문의)"
+    },
+    {
+      "starter": "조회 전용 사용자 10명",
+      "business": "조회 전용 사용자 15명",
+      "corporate": "조회 전용 사용자 30명",
+      "enterprise": "조회 전용 사용자 무제한"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "저장 공간 25GB",
+      "business": "저장 공간 50GB",
+      "corporate": "저장 공간 100GB",
+      "enterprise": "저장 공간 (별도 문의)"
+    },
+    {
+      "starter": "AI 크레딧 100개/월 (누적 불가)",
+      "business": "AI 크레딧 250개/월 (누적 불가)",
+      "corporate": "AI 크레딧 500개/월 (누적 불가)",
+      "enterprise": "AI 크레딧/월 (누적 불가) (별도 문의)"
+    },
+    {
+      "starter": "전자서명 문서 발송 10건/월 (누적 불가)",
+      "business": "전자서명 문서 발송 20건/월 (누적 불가)",
+      "corporate": "전자서명 문서 발송 30건/월 (누적 불가)",
+      "enterprise": "전자서명 문서 발송 무제한"
+    },
+    {
+      "starter": "문서 공유 및 소통을 위한 채팅 티켓 10건/월 (누적 불가)",
+      "business": "문서 공유 및 소통을 위한 채팅 티켓 15건/월 (누적 불가)",
+      "corporate": "문서 공유 및 소통을 위한 채팅 티켓 20건/월 (누적 불가)",
+      "enterprise": "문서 공유 및 소통을 위한 채팅 티켓 500건/월 (누적 불가)"
+    },
+    {
+      "starter": "프로세스 내 외부 사용자용 다이내믹 인터랙션 10건/월 (누적 불가)",
+      "business": "프로세스 내 외부 사용자용 다이내믹 인터랙션 15건/월 (누적 불가)",
+      "corporate": "프로세스 내 외부 사용자용 다이내믹 인터랙션 20건/월 (누적 불가)",
+      "enterprise": "프로세스 내 외부 사용자용 다이내믹 인터랙션 500건/월 (누적 불가)"
+    },
+    {
+      "starter": "무제한 프로세스",
+      "business": "무제한 프로세스",
+      "corporate": "무제한 프로세스",
+      "enterprise": "무제한 프로세스"
+    },
+    {
+      "starter": "Interfy API 이용",
+      "business": "Interfy API 이용",
+      "corporate": "Interfy API 이용",
+      "enterprise": "Interfy API 이용"
+    },
+    {
+      "starter": "맞춤형 브랜딩 (화이트 라벨)",
+      "business": "맞춤형 브랜딩 (화이트 라벨)",
+      "corporate": "맞춤형 브랜딩 (화이트 라벨)",
+      "enterprise": "맞춤형 브랜딩 (화이트 라벨)"
+    },
+    {
+      "starter": "데이터 격리를 적용한 전용 URL",
+      "business": "데이터 격리를 적용한 전용 URL",
+      "corporate": "데이터 격리를 적용한 전용 URL",
+      "enterprise": "데이터 격리를 적용한 전용 URL"
+    },
+    {
+      "starter": "데이터베이스 연동",
+      "business": "데이터베이스 연동",
+      "corporate": "데이터베이스 연동",
+      "enterprise": "데이터베이스 연동"
+    },
+    {
+      "starter": "관리 기능 및 고급 보안 제어를 갖춘 워크스페이스",
+      "business": "관리 기능 및 고급 보안 제어를 갖춘 워크스페이스",
+      "corporate": "관리 기능 및 고급 보안 제어를 갖춘 워크스페이스",
+      "enterprise": "관리 기능 및 고급 보안 제어를 갖춘 워크스페이스"
+    },
+    {
+      "starter": "AD/LDAP 인증",
+      "business": "AD/LDAP 인증",
+      "corporate": "AD/LDAP 인증",
+      "enterprise": "AD/LDAP 인증"
+    },
+    {
+      "starter": "IP 차단",
+      "business": "IP 차단",
+      "corporate": "IP 차단",
+      "enterprise": "IP 차단"
+    },
+    {
+      "starter": "다단계 인증",
+      "business": "다단계 인증",
+      "corporate": "다단계 인증",
+      "enterprise": "다단계 인증"
+    },
+    {
+      "starter": "OCR 전문(全文) 검색",
+      "business": "OCR 전문(全文) 검색",
+      "corporate": "OCR 전문(全文) 검색",
+      "enterprise": "OCR 전문(全文) 검색"
+    },
+    {
+      "starter": "실물 문서 관리 모듈",
+      "business": "실물 문서 관리 모듈",
+      "corporate": "실물 문서 관리 모듈",
+      "enterprise": "실물 문서 관리 모듈"
+    }
+  ],
+  "comparison": {
+    "srHeading": "플랜 비교",
+    "resourcesLabel": "기능",
+    "includedAlt": "포함됨",
+    "rows": [
+      { "label": "사용자", "values": { "free": "최대 3명", "individual": "1명", "teams": "무제한", "startup": "무제한" } },
+      { "label": "워크스페이스", "values": { "free": "1개", "individual": "1개", "teams": "무제한", "startup": "무제한" } },
+      { "label": "저장 공간", "values": { "free": "5GB", "individual": "50GB", "teams": "100GB", "startup": "무제한" } },
+      { "label": "전자서명", "values": { "free": "무료", "individual": "무료", "teams": "무료", "startup": "무료" } },
+      { "label": "모바일 앱", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "포함된 모듈",
+        "values": {
+          "free": "Documents와 Sign",
+          "individual": "Documents, Sign, Connect",
+          "teams": "Documents, Sign, Connect",
+          "startup": "Process를 제외한 전체"
+        }
+      },
+      {
+        "label": "AI 기능",
+        "values": { "free": "기본", "individual": "표준", "teams": "고급", "startup": "무제한 · 크레딧 포함" }
+      },
+      { "label": "AI 크레딧 / 월", "values": { "free": "-", "individual": "1.000", "teams": "3.000", "startup": "10.000" } },
+      { "label": "고객지원", "values": { "free": "이메일", "individual": "이메일", "teams": "우선 지원", "startup": "프리미엄 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "모든 기능을 확인하고 플랜을 비교해 보세요",
+    "sections": [
+      {
+        "label": "Interfy Process 기능",
+        "features": [
+          "무제한 프로세스 생성",
+          "BPMN 2.0 디자이너",
+          "케이스 시작을 위한 외부 링크",
+          "진행 중인 프로세스 내 즉시 문서 캡처",
+          "공개 변수 생성",
+          "다이내믹 사용자",
+          "병렬 흐름",
+          "작업 대기함",
+          "하위 프로세스",
+          "프로세스 모니터링",
+          "케이스 이력 조회",
+          "고급 프로세스 검색",
+          "프로세스 진행 상황 그래픽 시각화",
+          "각 작업에 대한 시간 설정 및 통제",
+          "알림 통제 기능",
+          "변수, 값, 조직 단위별 수동/순환/자율 배정 방식",
+          "프로세스 관리를 위한 감독자 지정",
+          "감독자에 의한 케이스 재배정",
+          "사용자 또는 감독자 권한에 따른 케이스 취소",
+          "영업일 캘린더",
+          "작업 진입 알림",
+          "SLA 기준 계층별 알림",
+          "긴급 또는 마감 SLA 알림",
+          "영업일 캘린더와 연동된 SLA",
+          "Interfy Documents와 Interfy Process 연동",
+          "웹 서비스 연동"
+        ]
+      },
+      {
+        "label": "Interfy Documents 기능",
+        "features": [
+          "콘텐츠 중앙화",
+          "고급 감사 로그",
+          "문서 버전 관리",
+          "문서 보존 기간 관리",
+          "유연한 폴더 구조",
+          "콘텐츠 접근 권한 프로필",
+          "콘텐츠 공유를 위한 외부 링크",
+          "다양한 파일 형식으로 문서 생성",
+          "Microsoft Office 연동 (드래그 앤 드롭)",
+          "고급 검색",
+          "인덱싱 카드 생성 (전자 양식)",
+          "문서의 실물 위치 관리",
+          "저장 공간 및 사용자 사용량 관리",
+          "주요 파일 형식을 위한 자체 뷰어",
+          "문서 스캔 및 업로드",
+          "100% 웹 기반 로컬 및 분산 캡처",
+          "스캐너를 통한 캡처",
+          "복합기를 통한 캡처",
+          "스마트폰을 통한 캡처",
+          "웹캠을 통한 캡처"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "언제든지 플랜을 변경할 수 있나요?",
+      "answer": "네. 관리자 패널에서 언제든지 직접 플랜을 업그레이드하거나 다운그레이드할 수 있으며, 별도의 위약금이나 복잡한 절차가 없습니다."
+    },
+    {
+      "question": "AI 크레딧은 어떻게 작동하나요?",
+      "answer": "모든 플랜에는 지능형 추출, AI 에이전트 등의 기능에 사용되는 월별 AI 크레딧 할당량이 포함되어 있습니다. 크레딧은 누적되지 않으며 매월 갱신됩니다."
+    },
+    {
+      "question": "무료 체험 기간이 끝나면 어떻게 되나요?",
+      "answer": "7일 무료 체험이 끝나면 계속 이용하고자 하는 플랫폼에 맞는 플랜을 선택할 수 있습니다. 체험을 시작할 때 신용카드는 필요하지 않습니다."
+    },
+    {
+      "question": "어떤 결제 방법을 이용할 수 있나요?",
+      "answer": "신용카드, 지로 결제(boleto), 그리고 연간 계약 및 Enterprise 플랜의 경우 세금계산서를 통한 청구를 지원합니다."
+    },
+    {
+      "question": "플랜에 도입 지원이 포함되나요?",
+      "answer": "Starter, Business, Corporate 플랜에는 가이드 온보딩이 포함됩니다. Enterprise 플랜의 경우 전담 전문가 팀의 맞춤형 도입 지원을 제공합니다."
+    },
+    {
+      "question": "할인이 적용되는 연간 계약이 있나요?",
+      "answer": "네. 연간 결제를 선택하면 Starter, Business, Corporate 플랜 모두에서 월 결제 대비 최대 30%까지 절약할 수 있습니다."
+    }
+  ],
+  "faqAriaExpand": "답변 펼치기/접기",
+  "base": {
+    "trialTitle": "7일 동안 무료로 Interfy.ai의 모든 기능을 체험해 보세요.",
+    "trialSub": "신용카드 필요 없음. 약정 없음.",
+    "trialCta": "무료로 체험하기",
+    "demoCta": "데모 예약하기",
+    "statsLabel": "Interfy 플랫폼 주요 지표",
+    "faqHeading": "자주 묻는 질문",
+    "specialistTitle": "전문가와 상담하기",
+    "specialistDesc": "저희 팀이 귀사에 맞는 최적의 플랜 선택을 도와드릴 준비가 되어 있습니다.",
+    "specialistCta": "전문가와 상담하기",
+    "ctaTitle": "업무 혁신을 시작할 준비가 되셨나요?",
+    "ctaDesc": "이미 Interfy.ai를 신뢰하는 수천 개 기업과 함께하세요.",
+    "ctaButton": "지금 시작하기",
+    "srHeading": "Interfy 시작하기"
+  }
+}

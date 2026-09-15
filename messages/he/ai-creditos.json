@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI Créditos",
+    "description": "יתרה אחת של AI Créditos לכל האינטליגנציה של פלטפורמת Interfy.ai. פשוט, שקוף ועוצמתי — השתמשו בו ב-Documents, Process, Capture, Agents, Voice ועוד רבים.",
+    "keywords": ["AI Créditos", "קרדיטים של בינה מלאכותית", "תוכניות AI", "צריכת קרדיטים ב-Interfy"]
+  },
+  "hero": {
+    "headingLine1": "יתרה אחת של",
+    "headingHighlight": "AI Créditos ",
+    "headingSuffix": "לכל האינטליגנציה של הפלטפורמה.",
+    "description1": "AI Créditos הם המטבע של האינטליגנציה של Interfy.ai.",
+    "description2": "פשוט, שקוף ועוצמתי.",
+    "ctaPrimary": "התחילו עכשיו",
+    "ctaSecondary": "קבעו הדגמה",
+    "bannerAriaLabel": "מדוע לבחור ב-AI Créditos",
+    "banner": [
+      { "title": "פשוט", "description": "יתרה אחת לכל הפלטפורמה." },
+      { "title": "שקוף", "description": "אתם שולטים, מנטרים ומקבלים התראות." },
+      { "title": "עוצמתי", "description": "מפעיל סוכנים, אוטומציות, ניתוחים ועוד רבים." }
+    ],
+    "strip": {
+      "heading": "יתרה אחת. כל האינטליגנציות.",
+      "description": "בלי קרדיטים נפרדים. בלי סיבוכים.",
+      "ariaLabel": "היתרונות של היתרה המשולבת של AI Créditos",
+      "items": [
+        { "label": "יותר פרודוקטיביות" },
+        { "label": "החלטות טובות יותר" },
+        { "label": "פחות עבודה ידנית" },
+        { "label": "יותר תוצאות" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "היכן ",
+    "headingHighlight": "AI Créditos ",
+    "headingSuffix": "יכולים להיות מנוצלים",
+    "ariaLabel": "מוצרים המשתמשים ב-AI Créditos",
+    "items": [
+      { "title": "Documents", "description": "קריאה חכמה, סיכום, חילוץ נתונים, שאלות ותשובות, תרגום וניתוח." },
+      { "title": "Process", "description": "החלטות חכמות, ביצוע אוטומטי, סיווג וניתוב." },
+      { "title": "Capture", "description": "OCR מתקדם, חילוץ מבני, אימות ואינדקס חכם." },
+      { "title": "Agents", "description": "ביצוע משימות, ניתוח, המלצות, אינטגרציות ופעולות." },
+      { "title": "Voice", "description": "אינטראקציה קולית, חיפוש חכם, פקודות ותשובות בשפה טבעית." },
+      { "title": "ועוד רבים", "description": "תובנות, חזיות, השוואות, דוחות ופעולות AI נוספות." }
+    ],
+    "notice": {
+      "title": "הצריכה משתנה בהתאם לסוג, למורכבות ולנפח של כל פעולה.",
+      "description": "תהליכים מורכבים יותר צורכים יותר AI Créditos."
+    }
+  },
+  "structure": {
+    "headingPrefix": "מבנה מלא ",
+    "headingHighlight": "כדי שתצמחו",
+    "ariaLabel": "כלי ניהול AI Créditos",
+    "items": [
+      { "title": "בקרה לפי Workspace", "description": "לכל Workspace יש יתרה, מגבלות והרשאות משלו." },
+      { "title": "מגבלות והרשאות", "description": "הגדירו מגבלות חודשיות ובקרות לפי פרופיל, צוות או תחום." },
+      { "title": "דוחות מפורטים", "description": "צפו בצריכה לפי מודול, משתמש, פעולה ותקופה." },
+      { "title": "התראות חכמות", "description": "קבלו התראות על צריכה, התקרבות למגבלה ויתרה נמוכה." },
+      { "title": "רכישה נוספת", "description": "צריכים יותר? עדכנו תוכנית או רכשו AI Créditos נוספים." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "תוכניות ",
+    "headingHighlight": "AI Créditos",
+    "headingSuffix": " - רכשו רק את מה שאתם צריכים",
+    "table": {
+      "ariaLabel": "טבלת תוכניות AI Créditos",
+      "colPlan": "תוכנית",
+      "colCredits": "AI Créditos",
+      "colPrice": "מחיר",
+      "colPricePer1000": "מחיר ל-1,000 קרדיטים",
+      "footnote": "המחירים ללא מע\"מ. בדקו תנאים נוספים."
+    },
+    "consumption": {
+      "heading": "דוגמאות צריכה",
+      "items": [
+        { "title": "קריאה וסיכום מסמך (10 עמודים)", "credits": "5 AI Créditos" },
+        { "title": "חילוץ נתונים ממסמך (עמוד אחד)", "credits": "3 AI Créditos" },
+        { "title": "סיווג חכם של מסמך", "credits": "2 AI Créditos" },
+        { "title": "ביצוע Agent (משימה בינונית)", "credits": "10 AI Créditos" },
+        { "title": "שאלה באמצעות Voice (בינונית)", "credits": "2 AI Créditos" },
+        { "title": "דוח חכם (בינוני)", "credits": "15 AI Créditos" },
+        { "title": "תרגום מסמך (עמוד אחד)", "credits": "4 AI Créditos" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "שאלות נפוצות והשלבים הבאים",
+    "faqHeading": "שאלות נפוצות",
+    "faqAriaExpand": "הרחיבו את התשובה",
+    "faq": [
+      {
+        "question": "מה הם AI Créditos?",
+        "answer": "AI Créditos הם המטבע היחיד של הבינה המלאכותית של Interfy.ai. כל פעולה המשתמשת ב-AI — קריאה, חילוץ, סיווג, ביצוע סוכנים ועוד — צורכת כמות קרדיטים בהתאם למורכבות המשימה."
+      },
+      {
+        "question": "אפשר לחלוק AI Créditos בין Workspaces?",
+        "answer": "לא. לכל Workspace יש יתרת AI Créditos משלו, עם מגבלות והרשאות עצמאיות, המבטיחות בקרה מלאה על הצריכה בכל תחום או צוות."
+      },
+      {
+        "question": "אפשר לרכוש קרדיטים נוספים בכל עת?",
+        "answer": "כן. ניתן לרכוש חבילות של AI Créditos נוספים בכל עת שתרצו, ישירות מהפלטפורמה, בלי צורך להחליף תוכנית."
+      },
+      {
+        "question": "האם AI Créditos פגים?",
+        "answer": "הקרדיטים הכלולים בתוכנית שלכם מתחדשים בכל מחזור חיוב. חבילות נוספות שנרכשו פועלות בהתאם לתנאים המוסכמים — צרו קשר עם הצוות שלנו למידע נוסף."
+      },
+      {
+        "question": "כיצד הצריכה מחושבת?",
+        "answer": "הצריכה משתנה בהתאם לסוג, למורכבות ולנפח של כל פעולה. משימות פשוטות, כמו סיווג, צורכות פחות קרדיטים; תהליכים מורכבים יותר, כמו ביצוע סוכנים, צורכים יותר."
+      },
+      {
+        "question": "האם AI Créditos כלולים בתוכניות?",
+        "answer": "כן. כל התוכניות של Interfy.ai כוללות יתרת AI Créditos לעיבוד חכם. אם תצטרכו יותר, תוכלו לרכוש קרדיטים נוספים בכל עת."
+      }
+    ],
+    "specialistTitle": "יש לכם שאלות?",
+    "specialistDesc": "דברו עם הצוות שלנו והבינו כיצד AI Créditos יכולים להאיץ את התוצאות שלכם.",
+    "specialistCta": "לדבר עם מומחה",
+    "ctaTitle": "מוכנים לשנות את התפעול שלכם?",
+    "ctaDesc": "הצטרפו לאלפי חברות שכבר בוטחות ב-Interfy.ai.",
+    "ctaButton": "התחילו עכשיו",
+    "statsLabel": "המספרים של פלטפורמת Interfy"
+  }
+}

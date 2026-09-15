@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – Dokumenttien, prosessien ja digitaalisen allekirjoituksen hallinta AI:n avulla",
+    "description": "AI-pohjainen yritysalusta, joka yhdistää dokumentit, prosessit, ihmiset, datan ja viestinnän yhdeksi älykkääksi kokonaisuudeksi.",
+    "keywords": ["dokumenttienhallinta", "prosessiautomaatio", "digitaalinen allekirjoitus", "AI-pohjainen alusta", "Interfy"]
+  },
+  "hero": {
+    "headline": "Uudista toimintasi",
+    "headlineHighlight": "AI:n avulla.",
+    "subheadline": "Dokumenttienhallinta, prosessiautomaatio, älykäs kaappaus, digitaalinen allekirjoitus, yhteistyö ja mobiili samassa alustassa.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "tarjoaa ilmaisen digitaalisen allekirjoituksen kaikille alustan käyttäjille."
+    },
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "slideshowAlt": "Interfy-alusta näytettynä läppärissä ja älypuhelimessa, AI-pohjainen hallintapaneeli näkyvissä",
+    "availableVia": "Saatavilla:",
+    "badges": [
+      { "alt": "Saatavilla verkkosovelluksena" },
+      { "alt": "Saatavilla Google Playssa" },
+      { "alt": "Saatavilla App Storessa" }
+    ],
+    "statsAriaLabel": "Alustan edut",
+    "stats": [
+      { "label": "25 000 +", "sublabel": "asiakasta" },
+      { "label": "180+ maata" },
+      { "label": "16 kieltä" },
+      { "label": "Huippuluokan turvallisuus" },
+      { "label": "AI Native" },
+      { "label": "Korkea käytettävyys" },
+      { "label": "Globaali vaatimustenmukaisuus" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "Yritysalusta, joka on natiivisti",
+    "headlineHighlight": "AI-pohjainen",
+    "description": "Keskitä dokumentit, prosessit, ihmiset, data ja viestintä yhteen älykkääseen ympäristöön.",
+    "descriptionBold": "Kaikki yhdistettynä. Kaikki integroituna.",
+    "statsAriaLabel": "Interfy-alustan mittakaava",
+    "stats": [
+      { "label": "2,5M +", "sublabel": "käyttäjää" },
+      { "label": "12B +", "sublabel": "dokumenttia" },
+      { "label": "6M +", "sublabel": "prosessia" },
+      { "label": "1000TB +", "sublabel": "tallennettuna" },
+      { "label": "20M +", "sublabel": "allekirjoitusta" },
+      { "label": "99,99%", "sublabel": "käytettävyys" },
+      { "label": "24/7", "sublabel": "tuki" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["Järjestä ja löydä", "älykkäästi"] },
+        { "descriptionLines": ["Luo työnkulkuja, hyväksyntöjä", "ja tehtäviä"] },
+        { "descriptionLines": ["Keskustele alustan kanssa", "luonnollisesti"] },
+        { "descriptionLines": ["Digitalisoi, tunnista", "ja poimi tietoa"] },
+        { "descriptionLines": ["AI, joka ymmärtää ja", "tukee käyttäjiä"] },
+        { "descriptionLines": ["Allekirjoita dokumentit", "oikeudellisella pätevyydellä"] },
+        { "descriptionLines": ["Tee yhteistyötä ja viesti", "tiimisi kanssa"] },
+        { "descriptionLines": ["Toimintasi", "kämmenelläsi"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "Täydellinen ekosysteemi",
+    "headlineSuffix": "toimintaanne",
+    "items": [
+      { "description": "Älykäs dokumenttien ja tiedon hallinta" },
+      { "description": "Älykäs prosessien ja tehtävien automaatio" },
+      { "description": "Älykäs dokumenttien kaappaus AI:lla" },
+      { "description": "Ilmainen digitaalinen allekirjoitus kaikille käyttäjille" },
+      { "description": "Yhteistyö ja viestintä yhdistettynä toimintaan" },
+      { "description": "Koko toimintasi kämmenelläsi" },
+      { "description": "AI-agentit, jotka analysoivat, päättävät ja toimivat" },
+      { "description": "Äänivuorovaikutus luonnollisella kielellä ja AI:lla" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "Miksi valita",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI-native", "description": "älykkyys kaiken keskiössä" },
+      { "title": "100 % web", "description": "käytä missä tahansa ja millä tahansa laitteella" },
+      { "title": "Oma workspace asiakasta kohti", "description": "eristetty data täydellä yksityisyydellä" },
+      { "title": "White Label", "description": "oma brändisi, oma kokemuksesi" },
+      { "title": "Integraatiot API:n kautta", "description": "yhdisty järjestelmiisi" },
+      { "title": "Auditointi ja jäljitettävyys", "description": "täydellinen ja turvallinen historia" },
+      { "title": "Globaali skaalautuvuus", "description": "kasva rajattomasti missä tahansa maassa" },
+      { "title": "Turvallisuus AWS-pilvessä", "description": "vahva ja luotettava infrastruktuuri" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "Älykäs kaappaus ja AI-agentit",
+    "capture": {
+      "eyebrow": "Kaappaa kaiken, missä tahansa AI:n avulla.",
+      "headingSuffix": "älykästä, joka ymmärtää ja toimittaa",
+      "description": "Interfy voi toimia brändilläsi erityistoimintoihin, yksiköihin tai alueisiin.",
+      "checklist": [
+        "Ammattiskanneri tai mobiili.",
+        "Tekstin ja tiedon tunnistus AI:lla.",
+        "Automaattinen dokumenttien luokittelu.",
+        "Älykäs indeksointi ja rikastaminen.",
+        "Suora lähetys dokumentteihin ja prosesseihin."
+      ],
+      "imageAlt": "Dokumenttien kaappaus skannerilla ja mobiililla AI-tunnistuksella"
+    },
+    "agents": {
+      "eyebrow": "AI, joka ymmärtää, toimii ja vastaa.",
+      "headingPrefix": "Käytä",
+      "headingSuffix": "alustaa kuin ei koskaan ennen",
+      "description": "Käytä älykkäitä agentteja ja äänikomentoja luomiseen, hakuun, yhteenvetoihin, hyväksyntään ja paljon muuhun.",
+      "videoAriaLabel": "Interfyn AI-avustaja",
+      "chatDemo": {
+        "message1": "Näytä allekirjoitusta odottavat sopimukset",
+        "message2Line1": "15 allekirjoitusta odottavaa sopimusta löydetty.",
+        "message2Line2": "Haluatko katsoa niitä?",
+        "voiceAlt": "Äänikomento"
+      }
+    }
+  },
+  "segments": {
+    "headline": "Ratkaisuja eri",
+    "headlineHighlight": "toimialoille",
+    "items": [
+      { "label": "Talous" },
+      { "label": "Terveydenhuolto" },
+      { "label": "Lakiala" },
+      { "label": "Teollisuus" },
+      { "label": "Julkishallinto" },
+      { "label": "Koulutus" },
+      { "label": "Logistiikka" },
+      { "label": "Katso kaikki..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "Brändisi, globaali läsnäolo ja turvallisuus",
+    "whiteLabel": {
+      "eyebrow": "OMA BRÄNDISI. OMA KOKEMUKSESI.",
+      "title": "White Label & Oma",
+      "titleHighlight": "workspace",
+      "description": "Räätälöi alusta brändilläsi, väreillä, kirjautumisnäytöllä ja omalla verkkotunnuksella.",
+      "imageAlt": "Räätälöity alusta asiakkaan brändillä (White Label)"
+    },
+    "global": {
+      "eyebrow": "GLOBAALI LÄSNÄOLO.",
+      "title": "Valmis",
+      "titleHighlight": "koko maailmaan",
+      "description": "Interfy on valmis palvelemaan yrityksiä yli 180 maassa, tuella 16 kielellä.",
+      "imageAlt": "Maailmankartta, joka kuvaa Interfyn globaalia läsnäoloa"
+    },
+    "security": {
+      "eyebrow": "TURVALLISUUS JA LUOTTAMUS ETUSIJALLA.",
+      "title": "Turvallinen ja luotettava infrastruktuuri",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "Pääsynhallinta" },
+        { "label": "Täysi auditointi" },
+        { "label": "Käytettävyys 24/7" },
+        { "label": "Eristys workspacekohtaisesti" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "Turvallinen, skaalautuva ja",
+    "headlineHighlight": "valmis kasvamaan.",
+    "featuresAriaLabel": "Turvallisuus ja hallinta",
+    "features": [
+      { "label": "Käyttäjäkohtaiset käyttöoikeudet" },
+      { "label": "Suojatut tiedot" },
+      { "label": "Eristetty ympäristö" },
+      { "label": "Auditointi ja jäljitettävyys" },
+      { "label": "Pilvi-infrastruktuuri" },
+      { "label": "Korkea käytettävyys" },
+      { "label": "Tietosuoja ja hallinta" }
+    ],
+    "trustAriaLabel": "Luottamus ja vaatimustenmukaisuus",
+    "trustBadges": [
+      { "label": "Globaali yritys" },
+      { "label": "LGPD, GDPR ja ISO" },
+      { "label": "Salatut ja suojatut tiedot" },
+      { "label": "Globaali korkean käytettävyyden infrastruktuuri" },
+      { "label": "Kansainväliset sertifikaatit" },
+      { "label": "Jatkuvat päivitykset" }
+    ],
+    "cta": {
+      "title": "Aloita nyt Interfyn kanssa.",
+      "description": "Luo tilisi, kokeile alustaa ja selvitä, miten Interfy voi uudistaa yrityksesi toiminnan.",
+      "ctaPrimary": "Aloita ilmaiseksi",
+      "ctaSecondary": "Varaa esittely"
+    }
+  }
+}

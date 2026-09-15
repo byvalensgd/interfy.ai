@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Huvudmeny",
+  "mobileNavAria": "Huvudmeny (mobil)",
+  "openMenu": "Öppna meny",
+  "closeMenu": "Stäng meny",
+  "nav": {
+    "plans": "Priser"
+  },
+  "productsMenu": {
+    "trigger": "Produkter",
+    "featuredEyebrow": "Huvudprodukter",
+    "listEyebrow": "Fler produkter",
+    "featured": [
+      { "title": "Documents", "tagline": "Organisera, hitta och skydda dokument med AI i varje steg." },
+      { "title": "Process", "tagline": "Bygg visuella processer, formulär och automationer med AI." },
+      { "title": "Capture", "tagline": "Skanna in vilket dokument som helst — AI känner igen och organiserar allt." },
+      { "title": "Sign", "tagline": "Digital signering gratis, med juridisk giltighet och fullständig integration." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Samarbeta och kommunicera med ditt team" },
+      { "label": "Agents", "description": "AI som förstår och stödjer användare" },
+      { "label": "Mobile", "description": "Din verksamhet i fickan" },
+      { "label": "Voice", "description": "Tala med plattformen på ett naturligt sätt" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Resurser",
+    "recursosEyebrow": "Resurser",
+    "recursosItems": [
+      { "label": "Segment" },
+      { "label": "AI-krediter" },
+      { "label": "Integrationer & API" },
+      { "label": "Kundcase" }
+    ],
+    "legalEyebrow": "Juridik & Support",
+    "legalItems": [
+      { "label": "Användarvillkor" },
+      { "label": "Integritetspolicy" },
+      { "label": "LGPD / GDPR" },
+      { "label": "Säkerhet" },
+      { "label": "Support" },
+      { "label": "Kontakt" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Företaget",
+    "eyebrow": "Företaget",
+    "items": [
+      { "label": "Om Interfy" },
+      { "label": "Interfy-plattformen" },
+      { "label": "Partnerskap" },
+      { "label": "Blogg / Innehåll" }
+    ]
+  },
+  "languageSelectorAria": "Välj språk"
+}

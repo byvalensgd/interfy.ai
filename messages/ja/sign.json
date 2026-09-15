@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Signは、プラットフォームの全ユーザーが無料で使える電子署名サービスです。スピード、セキュリティ、業務との完全な連携でドキュメントの署名と追跡を実現します。",
+    "keywords": ["電子署名", "デジタル署名", "法的効力", "Interfy Sign"],
+    "freeTrialNote": "プラットフォームの全ユーザーが無料で使える電子署名。"
+  },
+  "hero": {
+    "heading": "無料の",
+    "headingGradient": "電子署名",
+    "subheading": "プラットフォームの全ユーザーが利用できます。",
+    "descriptionPrefix": "業務との",
+    "descriptionHighlight": "スピード、セキュリティ、完全な連携",
+    "descriptionSuffix": "でドキュメントの署名と追跡を実現します。",
+    "noCreditCard": "クレジットカード不要",
+    "ctaPrimary": "7日間無料トライアル",
+    "ctaSecondary": "デモを予約する",
+    "mockupAlt": "タブレットとスマートフォンに表示されたInterfy Signプラットフォーム。署名待ちのドキュメントを表示",
+    "featureChips": [
+      { "labelLines": ["電子", "署名"] },
+      { "labelLines": ["フロー", "署名"] },
+      { "labelLines": ["複数", "署名者"] },
+      { "labelLines": ["用意された", "テンプレート"] },
+      { "labelLines": ["監査", "トレイル"] },
+      { "labelLines": ["安全な", "認証"] },
+      { "labelLines": ["外部への", "送信"] },
+      { "labelLines": ["インテリジェント", "な通知"] },
+      { "labelLines": ["リアルタイム", "での追跡"] },
+      { "labelLines": ["モバイルでの", "署名"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "ドキュメントのライフサイクル全体を",
+    "headingHighlight": "より効率的かつ確実に管理",
+    "cards": [
+      { "title": "Documentsとの連携", "description": "セキュリティとガイダンスを備えて保管されたドキュメントに署名できます。" },
+      { "title": "Processとの連携", "description": "エンドツーエンドの自動化プロセスに電子署名を組み込めます。" },
+      { "title": "外部ユーザーへの送信", "description": "プラットフォーム外の相手にも、セキュリティを保ったままドキュメントを送信できます。" },
+      { "title": "承認フロー", "description": "ステップ、担当者、ルールを定義して迅速に承認できます。" },
+      { "title": "通知と追跡性", "description": "各ステップの通知を受け取り、全プロセスの可視性を確保できます。" },
+      { "title": "すべてを安全に記録", "description": "監査トレイルによる完全な追跡性とコンプライアンスを保証します。" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "",
+    "headingProduct": "Interfy Signの仕組み",
+    "steps": [
+      { "description": "ドキュメントを送信するか、用意されたテンプレートを選択します。" },
+      { "description": "署名者と署名の順序を設定します。" },
+      { "description": "安全な認証で署名依頼を送信します。" },
+      { "description": "署名者はどこからでも、スマートフォンからでも署名できます。" },
+      { "description": "リアルタイムで状況を確認し、通知を受け取ります。" },
+      { "description": "ドキュメントが完了し、安全に保管されます。" }
+    ]
+  },
+  "features": {
+    "headingPrefix": "あらゆる業種に対応する",
+    "headingHighlight": "充実の機能",
+    "cards": [
+      { "title": "用意されたテンプレート", "description": "既存のテンプレートを使うか、独自のカスタムテンプレートを作成できます。" },
+      { "title": "複数署名者", "description": "1人でも複数人でも、順番または並行して署名できます。" },
+      { "title": "安全な認証", "description": "本人確認とセキュリティを保証する複数の認証レイヤー。" },
+      { "title": "監査トレイル", "description": "改ざん不可能な詳細情報で、すべての操作を追跡できます。" },
+      { "title": "Documentsとの連携", "description": "保管中のドキュメントに直接署名できます。" },
+      { "title": "Processとの連携", "description": "エンドツーエンドの自動化プロセスに電子署名を組み込めます。" },
+      { "title": "リアルタイムでの追跡", "description": "誰が署名済みで誰が未署名か、各ステップの状況を確認できます。" },
+      { "title": "モバイルでの署名", "description": "アプリから数タップで、どこにいても署名できます。" },
+      { "title": "外部への送信", "description": "セキュリティを保ったまま、外部の相手にもドキュメントを送信できます。" }
+    ]
+  },
+  "cta": {
+    "title": "貴社の署名・承認プロセスを変革する準備はできていますか?",
+    "description": "今すぐInterfy Signを導入し、業務にさらなる機動力、セキュリティ、コントロールを。",
+    "ctaPrimary": "7日間無料トライアル",
+    "ctaSecondary": "デモを予約する",
+    "statsLabel": "Interfyプラットフォームの規模",
+    "sectionLabel": "Interfy Signを使い始める"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign är den kostnadsfria digitala signeringen för alla användare på plattformen. Signera och följ upp dokument med hastighet, säkerhet och total integration med din verksamhet.",
+    "keywords": ["digital signering", "elektronisk signatur", "rättslig giltighet", "Interfy Sign"],
+    "freeTrialNote": "Kostnadsfri digital signering för alla användare på plattformen."
+  },
+  "hero": {
+    "heading": "Digital signering,",
+    "headingGradient": "kostnadsfritt",
+    "subheading": "för alla användare på plattformen.",
+    "descriptionPrefix": "Signera och följ upp dokument med ",
+    "descriptionHighlight": "hastighet, säkerhet och total integration",
+    "descriptionSuffix": " med din verksamhet.",
+    "noCreditCard": "Inget kreditkort krävs",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "mockupAlt": "Interfy Sign-plattformen visad på surfplatta och smartphone, med ett dokument redo för signering",
+    "featureChips": [
+      { "labelLines": ["Elektronisk", "signatur"] },
+      { "labelLines": ["Signering", "via flöde"] },
+      { "labelLines": ["Flera", "signatärer"] },
+      { "labelLines": ["Färdiga", "mallar"] },
+      { "labelLines": ["Gransknings-", "spår"] },
+      { "labelLines": ["Säker", "autentisering"] },
+      { "labelLines": ["Extern", "utskick"] },
+      { "labelLines": ["Smarta", "varningar"] },
+      { "labelLines": ["Uppföljning", "i realtid"] },
+      { "labelLines": ["Signering", "via mobil"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Mer kontroll och effektivitet för livscykeln hos ",
+    "headingHighlight": "dina dokument",
+    "cards": [
+      { "title": "Integration med Documents", "description": "Signera säkert lagrade dokument med tydlig vägledning." },
+      { "title": "Integration med Process", "description": "Inkludera digital signering i dina automatiserade processer, från start till slut." },
+      { "title": "Utskick till externa användare", "description": "Skicka dokument till personer utanför plattformen med full säkerhet." },
+      { "title": "Godkännandeflöden", "description": "Definiera steg, ansvariga och regler för snabba godkännanden." },
+      { "title": "Varningar och spårbarhet", "description": "Få notiser och full insyn i varje steg." },
+      { "title": "Allt registrerat säkert", "description": "Fullständig spårbarhet med granskningsspår och garanterad regelefterlevnad." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Så fungerar ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Skicka dokumentet eller välj en färdig mall." },
+      { "description": "Ange signatärer och signeringsordning." },
+      { "description": "Skicka för signering med säker autentisering." },
+      { "description": "Signatärer signerar var de befinner sig, även via mobilen." },
+      { "description": "Följ status i realtid och få varningar." },
+      { "description": "Dokumentet slutförs och lagras säkert." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Kompletta funktioner för ",
+    "headingHighlight": "alla typer av verksamheter",
+    "cards": [
+      { "title": "Färdiga mallar", "description": "Använd färdiga mallar eller skapa dina egna anpassade mallar." },
+      { "title": "Flera signatärer", "description": "Signera med en eller flera personer, i sekvens eller parallellt." },
+      { "title": "Säker autentisering", "description": "Flera verifieringslager för att garantera identitet och säkerhet." },
+      { "title": "Granskningsspår", "description": "Följ varje åtgärd med fullständiga och oföränderliga detaljer." },
+      { "title": "Integration med Documents", "description": "Signera dokument direkt från dina register." },
+      { "title": "Integration med Process", "description": "Inkludera digital signering i dina automatiserade processer, från start till slut." },
+      { "title": "Uppföljning i realtid", "description": "Se vem som har signerat, vem som inte har det och aktuell status för varje steg." },
+      { "title": "Signering i mobilen", "description": "Signera var du än är via appen, med bara några klick." },
+      { "title": "Externt utskick", "description": "Skicka dokument till externa personer med full säkerhet." }
+    ]
+  },
+  "cta": {
+    "title": "Redo att förvandla hur ditt företag signerar och godkänner dokument?",
+    "description": "Kom igång direkt med Interfy Sign och ge din verksamhet mer smidighet, säkerhet och kontroll.",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka demo",
+    "statsLabel": "Interfy-plattformens skala",
+    "sectionLabel": "Börja använda Interfy Sign"
+  }
+}

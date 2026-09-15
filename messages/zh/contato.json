@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "联系我们",
+    "description": "联系 Interfy：商务咨询、支持与合作事宜的电子邮箱、电话、地址与服务时间。",
+    "keywords": ["联系 Interfy", "联系方式", "Interfy 邮箱", "Interfy 电话"]
+  },
+  "hero": {
+    "ariaLabel": "联系我们页面简介",
+    "eyebrow": "联系我们",
+    "titleLine1": "一起聊聊",
+    "titleHighlight": "您的业务场景",
+    "description": "我们的商务与支持团队随时准备了解您的场景，并展示 Interfy 如何契合您的需求。",
+    "primaryLabel": "预约演示",
+    "secondaryLabel": "免费开始"
+  },
+  "channels": {
+    "ariaLabel": "联系渠道",
+    "heading": "选择最合适的渠道",
+    "items": [
+      {
+        "title": "商务邮箱",
+        "description": "contato@interfy.ai —— 用于商务咨询、套餐与合作事宜。",
+        "actionLabel": "发送邮件",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "电话",
+        "description": "+55 11 4020-1000 —— 周一至周五，8:00 至 20:00（巴西利亚时间）。",
+        "actionLabel": "立即致电",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "地址",
+        "description": "Interfy Corporation —— 总部位于美国佛罗里达州奥兰多，商务网络覆盖 180 多个国家和地区，并为巴西提供专属服务。",
+        "actionLabel": "查看所有地区",
+        "href": "/segmentos"
+      },
+      {
+        "title": "服务时间",
+        "description": "周一至周五，8:00 至 20:00。Enterprise 客户可选购 24/7 全天候支持服务。",
+        "actionLabel": "查看支持",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "heading": "想直接看看平台实际运作？",
+    "subheading": "预约一次演示，几分钟内了解 Interfy 如何应用到您的实际流程中。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile aduce întreaga platformă Interfy pe telefonul tău. Accesează, gestionează, aprobă și ia decizii de oriunde te-ai afla, cu securitate totală.",
+    "keywords": ["aplicație corporativă", "aplicație mobilă", "gestiune de pe telefon", "Interfy Mobile"],
+    "freeTrialNote": "Inclus în toate planurile platformei, fără costuri suplimentare."
+  },
+  "hero": {
+    "heading": "Operațiunea ta",
+    "headingHighlight": "în palma mâinii.",
+    "description": "Ia întreaga platformă Interfy cu tine. Accesează, gestionează, ia decizii și avansează de oriunde te-ai afla.",
+    "googlePlayAlt": "Disponibil pe Google Play",
+    "appStoreAlt": "Disponibil pe App Store",
+    "mockupAlt": "Aplicația Interfy Mobile afișată pe un smartphone",
+    "highlights": [
+      { "label": "Sigur și de încredere" },
+      { "label": "100% integrat cu platforma" },
+      { "label": "Totul în timp real și sincronizat" },
+      { "label": "Datele tale protejate" }
+    ],
+    "floatingCards": [
+      { "title": "Productivitate oriunde", "description": "Accesează toate funcționalitățile Interfy de pe telefonul tău." },
+      { "title": "Agilitate care transformă", "description": "Răspunde, aprobă și avansează procese în câteva secunde." },
+      { "title": "Experiență simplă și intuitivă", "description": "Tot ce ai nevoie, organizat în mod inteligent." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Întreaga Platformă Interfy",
+    "headingHighlight": "pe Mobile-ul tău",
+    "items": [
+      { "description": "Accesează, vizualizează, caută și distribuie documente cu securitate totală." },
+      { "description": "Urmărește procese, sarcini, termene și SLA-uri. Aprobă și ia decizii de oriunde te-ai afla." },
+      { "description": "Capturează documente cu camera telefonului și trimite-le direct în platformă." },
+      { "description": "Semnează documente digital sau trimite-le spre semnare din câteva atingeri." },
+      { "description": "Discută, distribuie fișiere și comentează documente și procese în timp real." },
+      { "description": "Agenți AI care ajută, răspund și execută acțiuni direct din aplicație." },
+      { "description": "Folosește vocea pentru a căuta, consulta informații și crea sarcini cu mai multă agilitate." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Colaborare completă",
+    "headingHighlight": "integrată cu operațiunea ta",
+    "items": [
+      { "title": "Aprobări", "description": "Aprobă documente, contracte și cereri în câteva secunde." },
+      { "title": "Sarcini", "description": "Vizualizează, execută și urmărește sarcinile tale cu ușurință." },
+      { "title": "Notificări", "description": "Primește alerte în timp real despre ce contează cu adevărat." },
+      { "title": "Dashboard-uri", "description": "Urmărește indicatorii și rezultatele operațiunii în palma mâinii." },
+      { "title": "Captură prin cameră", "description": "Digitalizează documente, note, chitanțe și trimite-le instantaneu." },
+      { "title": "Consultări", "description": "Consultă informații, procese și documente rapid." },
+      { "title": "Căutare inteligentă", "description": "Găsește ce ai nevoie cu AI. Întreabă în limbaj natural și obține răspunsuri." },
+      { "title": "Istoric complet", "description": "Accesează istoricul acțiunilor, documentelor și conversațiilor cu trasabilitate totală." },
+      { "title": "Sincronizare totală", "description": "Totul sincronizat cu platforma în timp real, fără pierdere de date." },
+      { "title": "Mod offline", "description": "Accesează documente și informații chiar și fără internet." },
+      { "title": "Multi-companii", "description": "Gestionează toate companiile și birourile tale dintr-o singură aplicație." },
+      { "title": "Interfață intuitivă", "description": "Design modern, ușor de utilizat. Productivitate fără complicații." }
+    ]
+  },
+  "security": {
+    "heading": "Guvernanță și securitate",
+    "headingHighlight": "pe primul loc",
+    "description": "Operațiunea ta protejată oriunde. Criptare de la un capăt la altul, autentificare multifactor și conformitate cu principalele standarde de securitate din piață.",
+    "items": [
+      { "label": "Criptare de la un capăt la altul" },
+      { "label": "Autentificare multifactor (MFA)" },
+      { "label": "Conformitate cu LGPD, ISO 27001 și SOC 2" },
+      { "label": "Control al accesului și permisiuni avansate" },
+      { "label": "Backup și disponibilitate ridicată în cloud" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Descarcă Interfy Mobile",
+    "title": "Interfy Mobile. Operațiunea ta în palma mâinii.",
+    "subtitle": "Mai multă agilitate, mai mult control și mai multe rezultate oriunde te-ai afla.",
+    "downloadPrompt": "Descarcă acum și ia întreaga platformă cu tine.",
+    "googlePlayAlt": "Disponibil pe Google Play",
+    "appStoreAlt": "Disponibil pe App Store",
+    "qrCodeAlt": "Cod QR pentru a descărca aplicația Interfy Mobile",
+    "statsLabel": "Cifrele platformei Interfy"
+  }
+}

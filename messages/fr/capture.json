@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture transforme vos documents physiques et numériques en information intelligente en quelques secondes. Capturez depuis votre navigateur, des scanners professionnels ou votre smartphone, pendant que l'IA reconnaît, extrait, classe et achemine tout automatiquement.",
+    "keywords": ["capture intelligente de documents", "numérisation par IA", "OCR", "reconnaissance de documents", "Interfy Capture"],
+    "freeTrialNote": "Essai gratuit de 7 jours, sans carte bancaire"
+  },
+  "hero": {
+    "titleLine1": "Capturez n'importe quel document.",
+    "titleLine2": "L'IA fait le reste.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "transforme vos documents physiques et numériques en information intelligente en quelques secondes. Capturez depuis votre navigateur, des scanners professionnels ou votre smartphone.",
+    "ctaPrimary": "Test Drive gratuit pendant 7 jours",
+    "ctaSecondary": "Planifiez une démonstration",
+    "mockupAlt": "Interfy Capture affiché sur ordinateur portable et smartphone, montrant la capture intelligente de documents",
+    "trust": [
+      { "text": "99,9 % de fiabilité d'extraction" },
+      { "text": "100 % sécurisé et conforme au RGPD" },
+      { "text": "IA native sur toute la plateforme" },
+      { "text": "Évolutif pour tout volume de documents" }
+    ],
+    "flow": [
+      { "text": "L'IA reconnaît et extrait" },
+      { "text": "Classe, indexe et organise." },
+      { "text": "Stocke dans Interfy Documents" },
+      { "text": "Envoie vers Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Comment fonctionne ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Capture", "description": "Capture depuis n'importe quelle source : navigateur, scanners ou mobile." },
+      { "title": "Reconnaissance par IA", "description": "L'IA Interfy reconnaît et extrait automatiquement le contenu." },
+      { "title": "Lecture et compréhension", "description": "Elle comprend le contexte, les champs et les relations entre les informations." },
+      { "title": "Extraction des données", "description": "Elle extrait automatiquement les données structurées et non structurées." },
+      { "title": "Classification", "description": "Elle classe et organise les documents grâce à l'IA." },
+      { "title": "Indexation et métadonnées", "description": "Elle attribue des métadonnées et prépare la recherche et la traçabilité." },
+      { "title": "Validation et acheminement", "description": "Elle valide et achemine vers Interfy Documents ou Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Fonctionnalités et avantages d'",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "L'échelle de la plateforme Interfy",
+    "items": [
+      { "title": "Capture depuis le navigateur", "description": "Capturez des fichiers directement depuis votre ordinateur. Simple, rapide et sécurisé." },
+      { "title": "Scanners professionnels", "description": "Intégration native avec des scanners hautes performances pour une qualité maximale." },
+      { "title": "Capture en lot", "description": "Numérisez et traitez de gros volumes de documents en une seule fois." },
+      { "title": "AI Credits inclus", "description": "Des crédits d'IA inclus dans tous les forfaits de la plateforme, sans avoir à souscrire un module séparé." },
+      { "title": "Mobile Capture", "description": "Capturez des documents depuis votre smartphone, où que vous soyez, à tout moment." },
+      { "title": "Reconnaissance par IA", "description": "L'IA reconnaît et extrait le contenu avec une grande précision." },
+      { "title": "Extraction automatique", "description": "Extraction automatique de données structurées et non structurées." },
+      { "title": "Interfy Documents", "description": "Stockage sécurisé, recherche intelligente et traçabilité." },
+      { "title": "Interfy Process", "description": "Envoi automatique vers les flux et automatisations de votre activité." },
+      { "title": "Achat de crédits supplémentaires", "description": "Plus de crédits dès que votre activité en a besoin." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Numérisation à valeur légale",
+    "badge": "Fonctionnalité optionnelle",
+    "description": "Une fonctionnalité optionnelle pour les entreprises qui ont besoin d'une valeur juridique pour leurs documents numériques. Non incluse dans le forfait standard.",
+    "checklist": [
+      { "text": "Certification numérique et horodatage" },
+      { "text": "Stockage sécurisé à valeur légale" },
+      { "text": "Traçabilité de bout en bout" },
+      { "text": "Preuves et pistes d'audit" },
+      { "textParts": ["Application de l'horodatage et de la traçabilité conformément au ", "Décret 10.278"] },
+      { "text": "Piste d'audit" },
+      { "text": "Validation juridique" },
+      { "text": "Conformité et sécurité" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Des résultats concrets pour votre entreprise",
+    "heading": "DES RÉSULTATS CONCRETS POUR VOTRE ENTREPRISE",
+    "stats": [
+      { "accent": "JUSQU'À 85 %", "label": "D'ERREURS EN MOINS", "description": "sur l'indexation et la classification." },
+      { "accent": "PLUS DE", "label": "PRODUCTIVITÉ", "description": "Votre équipe se concentre sur l'essentiel." },
+      { "accent": "SÉCURITÉ &", "label": "CONFORMITÉ", "description": "Totale avec le RGPD et les standards mondiaux." }
+    ],
+    "ctaTitle": "PRÊT À TRANSFORMER VOTRE GESTION DOCUMENTAIRE ?",
+    "ctaDescription": "Planifiez une démonstration et découvrez comment Interfy Capture peut générer des résultats concrets pour votre entreprise.",
+    "mascotAlt": "Assistant IA d'Interfy"
+  },
+  "cta": {
+    "ariaLabel": "Commencez à utiliser Interfy Capture",
+    "title": "Prêt à transformer votre capture documentaire avec l'IA ?",
+    "description": "Testez Interfy Capture pendant 7 jours et voyez l'IA travailler pour booster votre activité. Souscrivez-le seul ou profitez des crédits déjà inclus dans les forfaits de la plateforme.",
+    "ctaPrimary": "Test Drive gratuit pendant 7 jours",
+    "ctaSecondary": "Planifier une démonstration",
+    "statsLabel": "Les atouts d'Interfy Capture",
+    "highlights": [
+      { "label": "100 % Web", "sublabel": "Accessible de partout" },
+      { "label": "Sécurité de pointe", "sublabel": "Données protégées et conformes" },
+      { "label": "Évolutif", "sublabel": "De la petite à la grande entreprise" },
+      { "label": "Support 24/7", "sublabel": "Toujours disponible" }
+    ]
+  }
+}

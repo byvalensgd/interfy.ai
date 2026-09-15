@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "보안",
+    "description": "Interfy의 보안, 개인정보 보호, 컴플라이언스 아키텍처를 확인하세요. 암호화, 접근 제어, 멀티 AZ 고가용성, 그리고 ISO, LGPD, GDPR, SOC 2 인증까지.",
+    "keywords": ["Interfy 보안", "LGPD GDPR 컴플라이언스", "데이터 암호화", "AWS 고가용성", "안전한 클라우드 네이티브 아키텍처"]
+  },
+  "hero": {
+    "headingPrefix": "아키텍처 단계부터 시작되는 ",
+    "headingHighlight": "엔터프라이즈급 보안.",
+    "description": "Interfy는 귀사에게 가장 중요한 자산인 데이터를 보호하기 위해 최고 수준의 보안, 개인정보 보호, 컴플라이언스 기준으로 설계되었습니다.",
+    "ctaPrimary": "전문가와 상담하기",
+    "ctaSecondary": "보안 정책 다운로드",
+    "diagramAriaLabel": "Interfy의 보안 계층",
+    "diagram": {
+      "items": [
+        { "label": "아키텍처부터 시작되는 보안" },
+        { "label": "완벽한 접근 제어" },
+        { "label": "고가용성" },
+        { "label": "워크스페이스별 격리" },
+        { "label": "항상 보호되는 데이터" },
+        { "label": "기본값으로 설정된 개인정보 보호" },
+        { "label": "글로벌 컴플라이언스" },
+        { "label": "신뢰할 수 있는 인프라" }
+      ]
+    },
+    "stats": [
+      { "label": "99.99%", "description": "보장된 SLA 가용성" },
+      { "label": "24/7", "description": "지속적인 모니터링" },
+      { "label": "안전하고 신뢰할 수 있는", "description": "다층 보안 체계로 보호" }
+    ],
+    "poweredByLabel": "Powered by",
+    "awsChecklistAriaLabel": "Interfy의 AWS 인프라",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "클라우드 네이티브",
+      "Multi-AZ",
+      "수요에 따른 확장",
+      "고성능",
+      "지속 가능성"
+    ]
+  },
+  "controls": {
+    "headline": "모든 계층에서의",
+    "headlineHighlight": "보안과 통제",
+    "items": [
+      {
+        "title": "워크스페이스별 격리",
+        "description": "모든 고객은 격리된 환경에서 작업하며, 완전한 개인정보 보호와 보안을 보장받습니다."
+      },
+      {
+        "title": "고객 전용 데이터베이스",
+        "description": "고객별로 전용 데이터베이스에 데이터를 저장하며, 공유되지 않습니다."
+      },
+      {
+        "title": "고급 암호화",
+        "description": "전송 중(TLS 1.2+)과 저장 시(AES-256) 모두 데이터를 암호화합니다."
+      },
+      {
+        "title": "접근 제어(RBAC)",
+        "description": "역할, 그룹, 부서, 민감도 수준별로 세분화된 권한을 설정합니다."
+      },
+      {
+        "title": "기업용 인증",
+        "description": "안전하고 통합된 접근을 위한 SSO, SAML 2.0, OAuth 2.0, AD/LDAP, MFA를 지원합니다."
+      },
+      {
+        "title": "IP 차단",
+        "description": "특정 IP 또는 IP 대역으로 접근을 제한하여 환경을 보호합니다."
+      },
+      {
+        "title": "로그 및 감사",
+        "description": "변경 불가능하고 검색 가능한 감사 추적으로 모든 작업 내역을 완벽하게 기록합니다."
+      },
+      {
+        "title": "24/7 모니터링",
+        "description": "인프라, 애플리케이션, 보안을 지속적으로 모니터링합니다."
+      },
+      {
+        "title": "자동 백업",
+        "description": "보관 기간을 설정할 수 있는 암호화된 자동 백업을 제공합니다."
+      },
+      {
+        "title": "재해 복구",
+        "description": "지리적 복제를 통한 재해 복구 계획을 갖추고 있습니다."
+      },
+      {
+        "title": "프라이빗 스토리지",
+        "description": "온프레미스 또는 Dedicated 환경을 위한 선택적 프라이빗 스토리지를 제공합니다."
+      },
+      {
+        "title": "무제한 확장성",
+        "description": "성능 저하 없이 비즈니스와 함께 성장하는 탄력적인 인프라입니다."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "글로벌 표준으로",
+    "headlineHighlight": "인정받는 인증과 컴플라이언스",
+    "ctaLabel": "모든 인증서 및 문서 보기",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "국제 표준에 따라 인증된 정보보안 관리체계(ISMS)를 운영합니다."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "미국의 보호대상 건강정보(ePHI)를 다루는 환경을 지원할 수 있도록 아키텍처, 통제, 프로세스를 갖추고 있습니다.",
+        "badge": "BAA 제공 가능"
+      },
+      {
+        "title": "LGPD",
+        "description": "브라질 일반 개인정보 보호법(LGPD)을 준수합니다."
+      },
+      {
+        "title": "GDPR",
+        "description": "EU 일반 개인정보 보호법(GDPR)을 준수합니다."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "보안, 가용성, 기밀성에 대한 엄격한 통제를 적용합니다.",
+        "badge": "진행 중"
+      },
+      {
+        "title": "기타 표준",
+        "description": "업계에서 요구하는 가장 까다로운 시장 표준에 맞춘 정책과 통제를 운영합니다."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "고가용성을 갖춘 ",
+    "headlineHighlight": "클라우드 네이티브",
+    "headlineSuffix": " 아키텍처",
+    "flow": [
+      { "label": "사용자" },
+      { "label": "CloudFront CDN" },
+      { "label": "로드 밸런서" }
+    ],
+    "multiAzTitle": "고가용성 - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "애플리케이션" },
+    "az2": { "label": "AZ 2", "title": "데이터베이스", "subtitle": "(자동 페일오버)" },
+    "services": [
+      { "label": "S3 스토리지" },
+      { "label": "암호화된 백업" },
+      { "label": "CloudWatch 모니터링" },
+      { "label": "CloudTrail 로그" },
+      { "label": "GuardDuty 보안" }
+    ],
+    "featuresAriaLabel": "고가용성 아키텍처의 차별점",
+    "features": [
+      "모든 계층에서의 Multi-AZ",
+      "여러 리전에 분산된 데이터센터",
+      "무제한 수평 확장성",
+      "100% AWS Global 기반 인프라",
+      "자동 부하 분산",
+      "다운타임 없는 지속적인 업데이트",
+      "99.99% 가용성 SLA",
+      "자동화된 장애 대응",
+      "실시간 리포트 및 알림",
+      "위협 탐지 및 예방",
+      "전문 보안팀 운영",
+      "낮은 지연시간의 글로벌 환경"
+    ]
+  },
+  "cta": {
+    "sectionAria": "엔터프라이즈급 보안과 함께 Interfy를 시작하세요",
+    "headline": "글로벌 기업을 위한",
+    "headlineHighlight": "준비된 플랫폼",
+    "title": "데이터를 지키고, 성과를 높입니다.",
+    "description": "신뢰, 컴플라이언스, 성능을 갖춘 클라우드 환경에서 안전하게 성장하세요.",
+    "primaryButton": "무료 체험 시작하기",
+    "secondaryButton": "전문가와 상담하기",
+    "featuresAriaLabel": "Interfy의 보안과 컴플라이언스 원칙",
+    "features": [
+      { "label": "설계 단계부터 보안" },
+      { "label": "기본값으로 보장되는 개인정보 보호" },
+      { "label": "완전한 투명성" },
+      { "label": "글로벌 컴플라이언스" },
+      { "label": "책임감 있는 혁신" }
+    ]
+  }
+}

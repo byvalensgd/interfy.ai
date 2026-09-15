@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Prenota una Demo",
+    "description": "Prenota una demo personalizzata di Interfy e scopri come documenti, processi, firma elettronica e AI possono adattarsi alla tua operatività.",
+    "keywords": ["prenotare demo Interfy", "demo Interfy", "richiedere demo piattaforma AI-native"]
+  },
+  "hero": {
+    "ariaLabel": "Prenota una demo di Interfy",
+    "eyebrow": "Demo personalizzata",
+    "headingPrefix": "Scopri Interfy",
+    "headingHighlight": "in azione.",
+    "description": "Un nostro specialista analizzerà il tuo contesto e ti mostrerà, in diretta, come documenti, processi, firma elettronica, integrazioni e AI si integrano nella tua operatività.",
+    "expectHeading": "Cosa aspettarsi dalla demo",
+    "expectItems": [
+      { "title": "30 minuti", "description": "Una conversazione diretta, senza fronzoli." },
+      { "title": "Scenario reale", "description": "Esempi applicati alla tua operatività e al tuo settore." },
+      { "title": "Nessun impegno", "description": "Decidi tu il passo successivo dopo la conversazione." },
+      { "title": "Specialista dedicato", "description": "Qualcuno che conosce già il tuo settore." }
+    ]
+  },
+  "form": {
+    "heading": "Prenota la tua demo",
+    "subheading": "Compila i dati qui sotto e ti contatteremo per confermare l'orario più comodo.",
+    "nameLabel": "Nome completo",
+    "emailLabel": "Email aziendale",
+    "companyLabel": "Azienda",
+    "phoneLabel": "Telefono (WhatsApp)",
+    "roleLabel": "Ruolo",
+    "companySizeLabel": "Dimensione dell'azienda",
+    "companySizePlaceholder": "Seleziona",
+    "companySizeOptions": [
+      "Da 1 a 10 dipendenti",
+      "Da 11 a 50 dipendenti",
+      "Da 51 a 200 dipendenti",
+      "Da 201 a 1.000 dipendenti",
+      "Più di 1.000 dipendenti"
+    ],
+    "messageLabel": "Raccontaci brevemente di cosa hai bisogno",
+    "optionalLabel": "(opzionale)",
+    "errors": {
+      "name": "Inserisci il tuo nome completo.",
+      "email": "Inserisci un'email valida.",
+      "company": "Inserisci il nome della tua azienda.",
+      "consent": "Devi accettare i termini per continuare."
+    },
+    "consentPrefix": "Ho letto e accetto i ",
+    "consentTerms": "Termini di Utilizzo",
+    "consentMiddle": " e la ",
+    "consentPrivacy": "Informativa sulla Privacy",
+    "consentSuffix": ".",
+    "submitButton": "Prenota la mia demo",
+    "submittingButton": "Invio in corso...",
+    "successHeading": "Abbiamo ricevuto la tua richiesta!",
+    "successMessagePrefix": "Il nostro team ti contatterà per confermare l'orario più comodo all'indirizzo email ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Inizia gratis nel frattempo"
+  },
+  "trust": {
+    "ariaLabel": "Perché prenotare una demo con Interfy",
+    "heading": "Una piattaforma pronta per le aziende globali",
+    "subheading": "Sicurezza enterprise, conformità globale e supporto specializzato in ogni demo.",
+    "statsLabel": "Presenza globale di Interfy",
+    "stats": [
+      { "label": "180+ paesi", "sublabel": "Presenza globale in espansione" },
+      { "label": "16 lingue", "sublabel": "Interfaccia ed esperienza complete" },
+      { "label": "99,99%", "sublabel": "Disponibilità SLA garantita" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Conformità certificata" }
+    ]
+  }
+}

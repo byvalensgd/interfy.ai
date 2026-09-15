@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Kontakt",
+    "description": "Kontakta Interfy: e-post, telefon, adress och öppettider för försäljningsfrågor, support och partnerskap.",
+    "keywords": ["kontakta Interfy", "prata med Interfy", "Interfy e-post", "Interfy telefon"]
+  },
+  "hero": {
+    "ariaLabel": "Introduktion till kontaktsidan",
+    "eyebrow": "Kontakta oss",
+    "titleLine1": "Låt oss prata om",
+    "titleHighlight": "din verksamhet",
+    "description": "Vårt sälj- och supportteam är redo att förstå din situation och visa hur Interfy passar in i den.",
+    "primaryLabel": "Boka en demo",
+    "secondaryLabel": "Kom igång gratis"
+  },
+  "channels": {
+    "ariaLabel": "Kontaktvägar",
+    "heading": "Välj den kanal som passar dig",
+    "items": [
+      {
+        "title": "Försäljningsepost",
+        "description": "contato@interfy.ai — för frågor om försäljning, planer och partnerskap.",
+        "actionLabel": "Skicka e-post",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "+55 11 4020-1000 — måndag till fredag, 08.00–20.00 (Brasiliatid).",
+        "actionLabel": "Ring nu",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Adress",
+        "description": "Interfy Corporation — Orlando, Florida, USA, med kommersiell närvaro i över 180 länder och dedikerad service för Brasilien.",
+        "actionLabel": "Se alla regioner",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Öppettider",
+        "description": "Måndag till fredag, 08.00–20.00. Enterprise-konton kan teckna utökad support dygnet runt.",
+        "actionLabel": "Se support",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "heading": "Vill du hellre se plattformen i action?",
+    "subheading": "Boka en demonstration med vårt team och se hur Interfy fungerar med din process på bara några minuter.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka en demo"
+  }
+}

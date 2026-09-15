@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — AI-pohjainen alusta dokumenteille ja prosesseille",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "Dokumenttienhallinta, prosessiautomaatio, älykäs tiedon kaappaus ja digitaalinen allekirjoitus samassa AI-pohjaisessa alustassa. Kokeile ilmaiseksi 7 päivää, ei luottokorttia.",
+  "keywords": [
+    "Interfy",
+    "AI-pohjainen alusta",
+    "dokumenttienhallinta",
+    "sähköinen dokumenttienhallinta",
+    "prosessiautomaatio",
+    "BPM",
+    "ECM",
+    "älykäs dokumenttien kaappaus",
+    "digitaalinen allekirjoitus",
+    "yrityksen yhteistyö",
+    "AI-agentit",
+    "yrityksen hallintaohjelmisto"
+  ],
+  "ctaPrimary": "Aloita ilmaiseksi",
+  "ctaSecondary": "Varaa demo",
+  "ogHeadlineLine1": "AI-pohjainen alusta",
+  "ogHeadlineLine2": "dokumenteille ja prosesseille",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "Edellinen dia",
+  "nextSlide": "Seuraava dia",
+  "platformStats": [
+    {
+      "label": "2,5M +",
+      "sublabel": "käyttäjää"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "dokumenttia"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "prosessia"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "tallennettuna"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "allekirjoitusta"
+    },
+    {
+      "label": "99,99%",
+      "sublabel": "käytettävyys"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "tuki"
+    }
+  ]
+}

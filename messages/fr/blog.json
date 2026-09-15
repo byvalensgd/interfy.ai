@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Contenus",
+    "description": "Articles, guides et actualités sur la gestion de documents, l'automatisation des processus, la signature électronique et l'IA appliquée aux opérations d'entreprise.",
+    "keywords": ["blog Interfy", "contenu gestion documentaire", "automatisation des processus", "IA pour les entreprises"]
+  },
+  "hero": {
+    "ariaLabel": "Introduction au blog",
+    "eyebrow": "Blog & Contenus",
+    "titleLine1": "Du contenu pour ceux qui",
+    "titleHighlight": "transforment leur activité",
+    "description": "Guides pratiques, actualités produit et tendances sur les documents, les processus, les données et l'IA pour les entreprises."
+  },
+  "grid": {
+    "ariaLabel": "Articles du blog",
+    "categoriesLabel": "Filtrer par catégorie",
+    "allLabel": "Tous",
+    "categories": ["Gestion Documentaire", "Automatisation (BPM)", "Signature Électronique", "IA & Agents", "Sécurité & Conformité"],
+    "comingSoonLabel": "Nouveaux articles chaque semaine. Bientôt disponibles ici aussi.",
+    "posts": [
+      {
+        "category": "Gestion Documentaire",
+        "title": "Comment structurer un référentiel de documents qui évolue avec l'entreprise",
+        "excerpt": "Bonnes pratiques d'organisation, de gestion des versions et de contrôle d'accès pour les équipes en forte croissance.",
+        "date": "Août 2026",
+        "readTime": "6 min de lecture"
+      },
+      {
+        "category": "Automatisation (BPM)",
+        "title": "5 processus que chaque entreprise devrait automatiser en premier",
+        "excerpt": "Une feuille de route pratique pour prioriser les automatisations à fort impact sur les coûts et les délais.",
+        "date": "Août 2026",
+        "readTime": "7 min de lecture"
+      },
+      {
+        "category": "Signature Électronique",
+        "title": "La signature électronique a-t-elle une valeur juridique en France ?",
+        "excerpt": "Ce que dit la réglementation, quelles preuves comptent et comment choisir le bon niveau de signature.",
+        "date": "Juil. 2026",
+        "readTime": "5 min de lecture"
+      },
+      {
+        "category": "IA & Agents",
+        "title": "Agents IA dans les processus internes : par où commencer",
+        "excerpt": "Des cas d'usage concrets pour réduire le travail manuel dans le tri, la classification et l'extraction de données.",
+        "date": "Juil. 2026",
+        "readTime": "8 min de lecture"
+      },
+      {
+        "category": "Sécurité & Conformité",
+        "title": "RGPD en pratique : ce qui change dans la gestion des documents et des processus",
+        "excerpt": "Un guide direct sur les bases légales, la conservation des données et les responsabilités du responsable de traitement.",
+        "date": "Juin 2026",
+        "readTime": "6 min de lecture"
+      },
+      {
+        "category": "Gestion Documentaire",
+        "title": "OCR et capture intelligente : la fin de la saisie manuelle",
+        "excerpt": "Comment la capture automatisée réduit les erreurs et accélère l'entrée des documents dans le flux de travail.",
+        "date": "Juin 2026",
+        "readTime": "5 min de lecture"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Commencez à utiliser Interfy",
+    "heading": "Envie de voir ces concepts appliqués en pratique ?",
+    "subheading": "Commencez gratuitement et explorez la plateforme Interfy avec vos propres documents et processus.",
+    "primaryButton": "Commencer gratuitement",
+    "secondaryButton": "Planifier une démo"
+  }
+}

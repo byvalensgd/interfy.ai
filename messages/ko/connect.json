@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect는 단순한 채팅을 넘어섭니다. 문서, 프로세스, 자동화와 통합된 실시간 협업으로 내부 및 외부 구성원이 하나의 대화에서 소통할 수 있습니다.",
+    "keywords": ["팀 협업", "통합 채팅", "기업 커뮤니케이션", "Interfy Connect"],
+    "freeTrialNote": "신용카드 등록 없이 7일 무료 Test Drive."
+  },
+  "hero": {
+    "heading": "사람, 문서, 프로세스를 하나의",
+    "headingHighlight": "대화로 연결하세요.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "는 단순한 채팅을 훨씬 뛰어넘습니다. 문서, 프로세스, 자동화와 통합된 진정한 협업으로 아무것도 놓치지 않고 모든 일이 진행됩니다.",
+    "ctaPrimary": "7일 무료 Test Drive",
+    "ctaSecondary": "데모 신청하기",
+    "imageAlt": "노트북과 스마트폰에 표시된 Interfy Connect, 대화 센터 화면",
+    "highlights": [
+      { "label": "실시간 협업" },
+      { "label": "모든 것이 연결되고 추적됨" },
+      { "label": "안전하고 신뢰할 수 있음" },
+      { "label": "내부 및 외부 구성원이 하나의 대화에서 소통" }
+    ]
+  },
+  "capabilities": {
+    "heading": "업무 전반에 통합된",
+    "headingHighlight": "완벽한 협업",
+    "items": [
+      {
+        "title": "내부 커뮤니케이션",
+        "description": "채널, 그룹 또는 다이렉트 메시지로 팀과 소통하세요."
+      },
+      {
+        "title": "지능형 공유",
+        "description": "파일, 링크, 정보를 안전하고 간편하게 공유하세요."
+      },
+      {
+        "title": "실시간 알림",
+        "description": "메시지, 멘션, 작업, 중요 업데이트에 대한 알림을 실시간으로 받아보세요."
+      },
+      {
+        "title": "내부 및 외부 사용자",
+        "description": "고객, 파트너, 협력사를 안전하게 대화에 초대하세요."
+      },
+      {
+        "title": "완전한 이력 관리",
+        "description": "모든 대화, 파일, 활동 이력을 언제든지 검색하고 확인할 수 있습니다."
+      },
+      {
+        "title": "완전한 추적성",
+        "description": "모든 메시지, 분석, 결정 사항이 시간과 담당자와 함께 기록됩니다."
+      },
+      {
+        "title": "팀 간 협업",
+        "description": "맥락을 잃지 않고 부서와 팀 간에 통합된 방식으로 협업하세요."
+      },
+      {
+        "title": "대화 요약 AI",
+        "description": "Interfy AI가 대화 내용을 지능적으로 요약하고 핵심 사항을 강조합니다."
+      },
+      {
+        "title": "정보 검색 AI",
+        "description": "자연어로 질문하여 대화 속 필요한 정보를 빠르게 찾으세요."
+      },
+      {
+        "title": "완벽한 모바일 지원",
+        "description": "Interfy Mobile 앱으로 언제 어디서나 대화, 파일, 알림에 접속하세요."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "완벽하게 통합된",
+    "headingHighlight": "Interfy 생태계",
+    "items": [
+      { "description": "대화를 벗어나지 않고 문서에 접속하고 댓글을 남기세요." },
+      { "description": "대화 안에서 바로 작업을 시작하고 프로세스를 진행하세요." },
+      { "description": "사람들을 연결하고 모든 커뮤니케이션을 한곳에 모으세요." },
+      { "description": "문서를 캡처하고 대화에서 바로 공유하세요." },
+      { "description": "서명을 위해 문서를 전송하고 진행 상황을 여기서 확인하세요." },
+      { "description": "AI 에이전트가 모든 상호작용을 지원, 분석, 실행합니다." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Interfy Connect의 전자서명 및 생산성",
+    "signCard": {
+      "titleHighlight": "무료 전자서명",
+      "titleSuffix": "모든 사용자에게 제공.",
+      "description": "대화에서 바로 서명 요청 문서를 전송하세요. 간편하고 빠르며, 모든 플랫폼 플랜에 100% 포함되어 있습니다."
+    },
+    "headingHighlight": "생산성",
+    "headingSuffix": "일상 업무에서 체감하는 변화",
+    "items": [
+      {
+        "title": "더 빠른 업무 처리",
+        "description": "필요한 맥락이 모두 갖춰져 더 빠른 의사결정이 가능합니다."
+      },
+      {
+        "title": "재작업 감소",
+        "description": "정보가 한곳에 모여 관련된 모든 사람이 쉽게 접근할 수 있습니다."
+      },
+      {
+        "title": "높은 가시성",
+        "description": "대화와 활동의 진행 상황을 실시간으로 확인하세요."
+      },
+      {
+        "title": "강화된 보안",
+        "description": "모든 상호작용에 거버넌스, 권한 관리, 컴플라이언스가 적용됩니다."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy Connect 시작하기",
+    "heading": "팀을 연결하고 협업을 성과로 전환하세요.",
+    "subheading": "모두 통합됩니다. 모두 추적됩니다. 모두 하나의 대화 안에서.",
+    "primaryButton": "7일 무료 Test Drive",
+    "secondaryButton": "데모 신청하기",
+    "statsLabel": "Interfy 플랫폼 현황",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "고객" },
+      { "label": "180+ 개국" },
+      { "label": "16개 언어" },
+      { "label": "최고 수준의 보안" },
+      { "label": "AI 네이티브" },
+      { "label": "높은 가용성" },
+      { "label": "글로벌 컴플라이언스" }
+    ]
+  }
+}

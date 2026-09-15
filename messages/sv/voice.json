@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: tala med din verksamhet genom röstkommandon. Uppslag, processer, rapporter och Agents aktiveras naturligt, med säkerhet och styrning i varje interaktion.",
+    "keywords": ["röstkommandon", "röstassistent för företag", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Gratis provperiod i 7 dagar, inget kreditkort krävs."
+  },
+  "hero": {
+    "heading": "Tala med",
+    "headingHighlight": "din verksamhet.",
+    "description": "Du frågar. Interfy förstår. Agents utför.",
+    "ctaPrimary": "Gratis provperiod i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "imageAlt": "Interfy Voice visad på surfplatta och smartphone, med röstkommandon som utförs på plattformen",
+    "highlights": [
+      { "label": "Tala naturligt" },
+      { "label": "AI som förstår och utför" },
+      { "label": "Säkert och pålitligt" },
+      { "label": "Tillgängligt överallt" }
+    ],
+    "platformCards": [
+      {
+        "title": "Använd via datorn",
+        "description": "Fullständig integration med webbappen. Aktivera med knappen eller ett kortkommando och börja tala."
+      },
+      {
+        "title": "Använd via Mobile",
+        "description": "Tillgängligt i appen Interfy Mobile. Tala, fråga, godkänn och hantera allt i handen."
+      },
+      {
+        "title": "Säkerhet och behörigheter",
+        "description": "Åtkomst kontrolleras av behörigheter. Din röst, din data och din verksamhet alltid skyddade."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Vad kan du göra med",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Röstinteraktion",
+        "description": "Tala naturligt och interagera med hela plattformen med bara din röst."
+      },
+      {
+        "title": "Naturligt språk",
+        "description": "AI förstår vad du säger, även i fullständiga och spontana meningar."
+      },
+      {
+        "title": "Röstsökning",
+        "description": "Hitta dokument, processer, information och mycket mer med en enkel fråga."
+      },
+      {
+        "title": "Skapande av processer",
+        "description": "Skapa kompletta processer bara genom att beskriva vad du behöver."
+      },
+      {
+        "title": "Skapande av formulär",
+        "description": "Generera smarta formulär med fält, regler och valideringar på sekunder."
+      },
+      {
+        "title": "Dokumentuppslag",
+        "description": "Fråga om dokument och få snabba och precisa svar."
+      },
+      {
+        "title": "Rapportgenerering",
+        "description": "Begär skräddarsydda rapporter och få analyser och insikter omedelbart."
+      },
+      {
+        "title": "Aktivering av Agents",
+        "description": "Aktivera smarta agenter för att utföra uppgifter och leverera resultat automatiskt."
+      },
+      {
+        "title": "Operativa kommandon",
+        "description": "Utför åtgärder, uppdateringar och operationer på plattformen genom röstkommandon."
+      },
+      {
+        "title": "Bekräftelse för känsliga åtgärder",
+        "description": "Kritiska åtgärder kräver alltid röstbekräftelse för att säkerställa säkerheten."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Fullt uppkopplat mot",
+    "headingHighlight": "Interfy-ekosystemet",
+    "items": [
+      { "description": "Fråga om och interagera med dokument" },
+      { "description": "Skapa och hantera processer via röst" },
+      { "description": "Fånga dokument och extrahera information" },
+      { "description": "Skicka för signering och följ status" },
+      { "description": "Chatta och samarbeta via röst" },
+      { "description": "Aktivera Agents och få resultat" },
+      { "description": "Central röstinteraktion" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Styrning, säkerhet och AI Credits för Interfy Voice",
+    "governance": {
+      "title": "Styrning och säkerhet",
+      "titleAccent": "först och främst",
+      "items": [
+        "Data skyddade med kryptering från början till slut",
+        "Granulära behörigheter per agent och per användare",
+        "Granskningsspår för alla röstinteraktioner",
+        "Efterlevnad av LGPD, ISO 27001, SOC 2 och fler",
+        "Data skyddade med marknadens högsta säkerhetsstandarder"
+      ],
+      "cta": "Se detaljer"
+    },
+    "credits": {
+      "title": "Transparent förbrukning med",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice använder AI Credits för att bearbeta kommandon, uppslag, analyser och exekveringar.",
+      "features": [
+        { "label": "Krediter ingår i alla planer" },
+        { "label": "Uppföljning i realtid" },
+        { "label": "Köp fler krediter vid behov" }
+      ],
+      "cta": "Se detaljer",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "tillgängliga"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Börja använda Interfy Voice",
+    "heading": "Tala med din verksamhet.",
+    "subheading": "Enkelt, snabbt och smart.",
+    "primaryButton": "Gratis provperiod i 7 dagar",
+    "secondaryButton": "Boka demo",
+    "statsLabel": "Siffror från Interfy-plattformen",
+    "stats": [
+      { "label": "12 Md +", "sublabel": "dokument" },
+      { "label": "20 M +", "sublabel": "signaturer" },
+      { "label": "2,5 M +", "sublabel": "användare" },
+      { "label": "6 M +", "sublabel": "processer" },
+      { "label": "1000 TB +", "sublabel": "lagrat" },
+      { "label": "99,99 %", "sublabel": "drifttid" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

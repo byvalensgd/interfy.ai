@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "平台",
+    "description": "一个端到端集成的平台:文档、流程、采集、签名、协作、移动办公、代理与语音,在每个环节都由AI驱动协同运作。",
+    "keywords": ["Interfy平台", "AI原生企业平台", "文档与流程管理", "Interfy生态系统"]
+  },
+  "hero": {
+    "headingLine1": "一个平台。",
+    "headingLine2": "覆盖您的全部业务。",
+    "headingHighlight": "AI贯穿每个环节。",
+    "description1": "文档、自动化、智能采集、电子签名、协作、移动办公、代理与语音,协同运作于同一个工作空间。",
+    "description2": "以一个100%网页端、云原生的平台取代多个软件系统,具备安全、可扩展的全球化运营能力与智能化水平。",
+    "ctaPrimary": "免费试用14天",
+    "ctaSecondary": "预约演示",
+    "mockupAlt": "Interfy平台在平板电脑和智能手机上的展示,显示工作空间、当日任务与AI助手",
+    "chipsAriaLabel": "平台核心特性",
+    "chips": [
+      { "label": "AI原生" },
+      { "label": "云原生" },
+      { "label": "100%网页端" },
+      { "label": "网页+移动端" },
+      { "label": "支持16种语言" },
+      { "label": "覆盖180+国家" }
+    ]
+  },
+  "overview": {
+    "headline": "一个端到端",
+    "headlineHighlight": "集成的平台",
+    "description": "强大的功能模块协同运作,带来完整、智能且无孤岛的体验。"
+  },
+  "aiGrid": {
+    "headline": "AI贯穿",
+    "headlineHighlight": "整个Interfy平台",
+    "items": [
+      { "title": "智能搜索", "description": "用自然语言查找任何内容" },
+      { "title": "流程创建", "description": "智能化地建模工作流程" },
+      { "title": "数据提取", "description": "通过AI从文档中提取数据" },
+      { "title": "自主代理", "description": "执行、决策与系统集成" },
+      { "title": "自动分类", "description": "轻松组织和分类" },
+      { "title": "表单生成", "description": "AI创建即用型表单" },
+      { "title": "智能辅助审批", "description": "智能建议与验证" },
+      { "title": "语音指令", "description": "执行操作、查询与创建" }
+    ]
+  },
+  "workspace": {
+    "headline": "为什么要将一切集中在一个",
+    "headlineHighlight": "工作空间中?",
+    "items": [
+      {
+        "title": "统一运营",
+        "description": "数据、文档、任务与流程集于一处。完整视图,无信息孤岛。"
+      },
+      {
+        "title": "专属工作空间",
+        "description": "专用URL、品牌视觉标识、精细化权限与专属于您企业的环境。"
+      },
+      {
+        "title": "产品间自动化联动",
+        "description": "文档触发流程,审批生成签名,采集数据填充资料库与仪表盘。"
+      },
+      {
+        "title": "更少的软件,更强的掌控力",
+        "description": "减少重复工作、成本、脆弱的系统集成与信息孤岛。"
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Interfy平台的安全、集成与基础设施",
+    "cards": [
+      {
+        "title": "安全与治理",
+        "checklist": [
+          "传输中与静态数据加密",
+          "精细化权限与角色管理",
+          "完整的审计轨迹",
+          "全球合规(LGPD、GDPR、ISO)",
+          "数据保留与销毁策略"
+        ]
+      },
+      {
+        "title": "API与集成",
+        "checklist": [
+          "完整的RESTful API",
+          "实时Webhook",
+          "面向主流系统的预置连接器",
+          "数据、文档与流程之间的集成"
+        ]
+      },
+      {
+        "title": "云原生基础设施",
+        "checklist": [
+          "可扩展且具韧性的架构",
+          "24/7高可用性",
+          "自动备份与地理冗余",
+          "智能监控",
+          "低延迟的全球化运营"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "开始使用Interfy平台",
+    "headline": "为全球企业",
+    "headlineHighlight": "而生",
+    "title": "用Interfy.ai重塑您的业务运营",
+    "description": "创建账户,亲自体验,看看一个AI原生平台如何为您的企业简化流程、实现自动化并加速增长。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示",
+    "statsLabel": "Interfy的全球布局",
+    "features": [
+      { "label": "覆盖180+国家", "sublabel": "持续扩张的全球布局" },
+      { "label": "支持16种语言", "sublabel": "16种语言的界面与体验" },
+      { "label": "6个商业区域", "sublabel": "本地化与专业化服务" },
+      { "label": "网页+移动端", "sublabel": "随时随地、任意设备访问" },
+      { "label": "美国与巴西", "sublabel": "本地化架构与区域合规" },
+      { "label": "全球支持", "sublabel": "具备国际级SLA的专业支持" }
+    ]
+  }
+}

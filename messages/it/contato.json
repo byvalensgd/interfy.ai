@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Contatti",
+    "description": "Contatta Interfy: email, telefono, sede e orari di assistenza per domande commerciali, supporto e partnership.",
+    "keywords": ["contatti Interfy", "parlare con Interfy", "email Interfy", "telefono Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introduzione alla pagina contatti",
+    "eyebrow": "Parliamone",
+    "titleLine1": "Parliamo della",
+    "titleHighlight": "tua operatività",
+    "description": "Il nostro team commerciale e di supporto è pronto ad ascoltare le tue esigenze e a mostrarti come Interfy si adatta al tuo contesto.",
+    "primaryLabel": "Prenota una demo",
+    "secondaryLabel": "Inizia gratis"
+  },
+  "channels": {
+    "ariaLabel": "Canali di contatto",
+    "heading": "Scegli il canale più adatto",
+    "items": [
+      {
+        "title": "Email commerciale",
+        "description": "contato@interfy.ai — per domande commerciali, piani e partnership.",
+        "actionLabel": "Invia un'email",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Telefono",
+        "description": "+55 11 4020-1000 — dal lunedì al venerdì, dalle 8:00 alle 20:00 (orario di Brasilia).",
+        "actionLabel": "Chiama ora",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Sede",
+        "description": "Interfy Corporation — Orlando, Florida, Stati Uniti, con presenza commerciale in oltre 180 paesi e assistenza dedicata per il Brasile.",
+        "actionLabel": "Vedi tutte le regioni",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Orari di assistenza",
+        "description": "Dal lunedì al venerdì, dalle 8:00 alle 20:00. I clienti Enterprise possono attivare un supporto estteso 24/7.",
+        "actionLabel": "Vai al supporto",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy",
+    "heading": "Preferisci vedere la piattaforma in azione?",
+    "subheading": "Prenota una demo con il nostro team e scopri come Interfy si adatta al tuo processo in pochi minuti.",
+    "primaryButton": "Inizia gratis",
+    "secondaryButton": "Prenota una demo"
+  }
+}

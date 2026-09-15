@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile tuo koko Interfy-alustan puhelimeesi. Käytä, hallitse, hyväksy ja tee päätöksiä missä tahansa, täysin turvallisesti.",
+    "keywords": ["yrityssovellus", "mobiilisovellus", "hallinta puhelimella", "Interfy Mobile"],
+    "freeTrialNote": "Sisältyy kaikkiin alustan paketteihin, ei lisäkustannuksia."
+  },
+  "hero": {
+    "heading": "Toimintasi",
+    "headingHighlight": "kämmenelläsi.",
+    "description": "Ota koko Interfy-alusta mukaasi. Käytä, hallitse, tee päätöksiä ja etene missä tahansa oletkin.",
+    "googlePlayAlt": "Saatavilla Google Playssa",
+    "appStoreAlt": "Saatavilla App Storessa",
+    "mockupAlt": "Interfy Mobile -sovellus näytettynä älypuhelimessa",
+    "highlights": [
+      { "label": "Turvallinen ja luotettava" },
+      { "label": "100 % integroitu alustaan" },
+      { "label": "Kaikki reaaliajassa ja synkronoituna" },
+      { "label": "Tietosi suojattuina" }
+    ],
+    "floatingCards": [
+      { "title": "Tuottavuutta missä tahansa", "description": "Käytä kaikkia Interfyn ominaisuuksia puhelimessasi." },
+      { "title": "Ketteryyttä, joka muuttaa toimintaa", "description": "Vastaa, hyväksy ja etene prosesseissa sekunneissa." },
+      { "title": "Yksinkertainen ja intuitiivinen kokemus", "description": "Kaikki tarvitsemasi, älykkäästi järjestettynä." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Koko Interfy-alusta",
+    "headingHighlight": "Mobile-sovelluksessasi",
+    "items": [
+      { "description": "Käytä, katsele, etsi ja jaa dokumentteja täysin turvallisesti." },
+      { "description": "Seuraa prosesseja, tehtäviä, määräaikoja ja SLA:ita. Hyväksy ja tee päätöksiä missä tahansa oletkin." },
+      { "description": "Kaappaa dokumentit puhelimen kameralla ja lähetä suoraan alustalle." },
+      { "description": "Allekirjoita dokumentit digitaalisesti tai lähetä allekirjoitettavaksi parilla napautuksella." },
+      { "description": "Keskustele, jaa tiedostoja ja kommentoi dokumentteja ja prosesseja reaaliajassa." },
+      { "description": "AI-agentit, jotka auttavat, vastaavat ja suorittavat toimintoja suoraan sovelluksesta." },
+      { "description": "Käytä äänta hakuun, tietojen tarkistamiseen ja tehtävien luomiseen nopeammin." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Täydellinen yhteistyö",
+    "headingHighlight": "integroituna toimintaanne",
+    "items": [
+      { "title": "Hyväksynnät", "description": "Hyväksy dokumentit, sopimukset ja pyynnöt sekunneissa." },
+      { "title": "Tehtävät", "description": "Katsele, suorita ja seuraa tehtäviäsi käytännöllisesti." },
+      { "title": "Ilmoitukset", "description": "Saa hälytyksiä reaaliajassa siitä, mikä oikeasti on tärkeää." },
+      { "title": "Dashboardit", "description": "Seuraa toiminnan mittareita ja tuloksia kämmenelläsi." },
+      { "title": "Kaappaus kameralla", "description": "Digitalisoi dokumentit, muistiot, kuitit ja lähetä välittömästi." },
+      { "title": "Tiedustelut", "description": "Tarkista tiedot, prosessit ja dokumentit nopeasti." },
+      { "title": "Älykäs haku", "description": "Löydä tarvitsemasi AI:n avulla. Kysy luonnollisella kielellä ja saa vastaukset." },
+      { "title": "Täysi historia", "description": "Käytä toimintojen, dokumenttien ja keskustelujen historiaa täydellä jäljitettävyydellä." },
+      { "title": "Täysi synkronointi", "description": "Kaikki synkronoituna alustan kanssa reaaliajassa, tietoja menettämättä." },
+      { "title": "Offline-tila", "description": "Käytä dokumentteja ja tietoja myös ilman internetyhteyttä." },
+      { "title": "Useat yritykset", "description": "Hallitse kaikkia yrityksiäsi ja toimipisteitäsi yhdessä sovelluksessa." },
+      { "title": "Intuitiivinen käyttöliittymä", "description": "Moderni, helppokäyttöinen muotoilu. Tuottavuutta mutkattomasti." }
+    ]
+  },
+  "security": {
+    "heading": "Hallinta ja turvallisuus",
+    "headingHighlight": "etusijalla",
+    "description": "Toimintasi suojattuna missä tahansa. Päästä päähän -salaus, monivaiheinen tunnistautuminen ja vaatimustenmukaisuus alan tärkeimpien turvastandardien kanssa.",
+    "items": [
+      { "label": "Päästä päähän -salaus" },
+      { "label": "Monivaiheinen tunnistautuminen (MFA)" },
+      { "label": "LGPD-, ISO 27001- ja SOC 2 -vaatimustenmukaisuus" },
+      { "label": "Kehittynyt pääsynhallinta ja käyttöoikeudet" },
+      { "label": "Varmuuskopiointi ja korkea käytettävyys pilvessä" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Lataa Interfy Mobile",
+    "title": "Interfy Mobile. Toimintasi kämmenelläsi.",
+    "subtitle": "Enemmän ketteryyttä, enemmän hallintaa ja enemmän tuloksia missä tahansa oletkin.",
+    "downloadPrompt": "Lataa nyt ja ota koko alusta mukaasi.",
+    "googlePlayAlt": "Saatavilla Google Playssa",
+    "appStoreAlt": "Saatavilla App Storessa",
+    "qrCodeAlt": "QR-koodi Interfy Mobile -sovelluksen lataamiseen",
+    "statsLabel": "Interfy-alustan lukuja"
+  }
+}

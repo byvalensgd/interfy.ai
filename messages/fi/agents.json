@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "AI-agentit",
+    "description": "Interfy Agents on alustan älykerros. Luo älykkäitä agentteja automatisoimaan tehtäviä, analysoimaan tietoa ja vahvistamaan tuloksia koko toiminnassasi.",
+    "keywords": ["AI-agentit", "älykäs automaatio", "yritysten AI-agentit", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agentit, jotka",
+    "titleGradient": "ymmärtävät, päättävät ja toimivat.",
+    "description": "Interfy Agents on alustan älykerros. Luo älykkäitä agentteja automatisoimaan tehtäviä, analysoimaan tietoa ja vahvistamaan tuloksia koko toiminnassasi.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "slideshowAlt": "Interfy Agents näytettynä läppärissä ja älypuhelimessa, AI-agentit toiminnassa",
+    "highlights": [
+      { "label": "Älykkyyttä, joka tuottaa arvoa" },
+      { "label": "Automaatiota rajattomasti" },
+      { "label": "Turvallista ja hallittua" },
+      { "label": "Integroitu koko alustaan" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Mitä",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "voi tehdä puolestasi",
+    "items": [
+      { "title": "Älykkäät agentit", "description": "AI-agentit, jotka ymmärtävät kontekstin ja toimivat itsenäisesti." },
+      { "title": "Agenttien luonti", "description": "Luo räätälöityjä agentteja koodilla tai ilman muutamassa minuutissa." },
+      { "title": "Agentit osastoittain", "description": "Hanki omistetut agentit joka osastolle: talous, HR, lakiasiat ja muut." },
+      { "title": "Tehtävien automaattinen suoritus", "description": "Suorittavat toistuvia tehtäviä, vähentävät virheitä ja nopeuttavat toimintaasi." },
+      { "title": "Dokumenttien luku", "description": "Lukevat, ymmärtävät ja poimivat tietoa dokumenteista sekunneissa." },
+      { "title": "Prosessien käynnistys", "description": "Käynnistävät ja ohjaavat prosesseja alustalla automaattisesti tapahtumien perusteella." },
+      { "title": "Seuranta", "description": "Seuraavat toimintoja, määräaikoja, mittareita ja lähettävät päivityksiä reaaliajassa." },
+      { "title": "Tiedon analyysi", "description": "Analysoivat suuria datamääriä ja tuottavat älykkäitä oivalluksia." },
+      { "title": "Älykkäät hälytykset", "description": "Lähettävät ennakoivia hälytyksiä riskeistä, mahdollisuuksista, määräajoista ja poikkeuksista." },
+      { "title": "Suositukset", "description": "Ehdottavat toimia, päätöksiä ja seuraavia askelia datan ja historian perusteella." },
+      { "title": "Integraatio järjestelmiin", "description": "Yhdistyvät ulkoisiin järjestelmiin API:en kautta ja vaihtavat tietoa turvallisesti." },
+      { "title": "Sääntöpohjainen suoritus", "description": "Suorittavat toimintoja yrityksesi liiketoimintasääntöjen ja käytäntöjen mukaisesti." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Täysin integroitu",
+    "headingGradient": "Interfy-ekosysteemiin",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agentit lukevat, analysoivat ja päivittävät dokumentteja älykkäästi." },
+      { "description": "Agentit käynnistävät prosesseja, täyttävät tietoja ja ohjaavat työnkulkuja automaattisesti." },
+      { "description": "Agentit poimivat tietoa, luokittelevat ja lähettävät dokumentteja oikeisiin työnkulkuihin." },
+      { "description": "Agentit osallistuvat keskusteluihin, vastaavat, jakavat tietoa ja tekevät yhteistyötä." },
+      { "description": "Agentit käyttävät äänta vastaamiseen, kirjaamiseen, tarkistamiseen ja toimintojen suorittamiseen." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Hallinta, turvallisuus ja AI-krediitit",
+    "governance": {
+      "title": "Hallinta ja turvallisuus",
+      "titleAccent": "etusijalla",
+      "items": [
+        "Tarkat käyttöoikeudet agentti- ja käyttäjäkohtaisesti",
+        "Auditoidut ja jäljitettävät toimet kaikilla tasoilla",
+        "Yrityksen määrittämät käyttöoikeus- ja suorituskäytännöt",
+        "LGPD-, ISO 27001-, SOC 2- ja muu vaatimustenmukaisuus",
+        "Tiedot suojattuna päästä päähän -salauksella"
+      ],
+      "cta": "Katso tiedot"
+    },
+    "credits": {
+      "title": "Yksinkertainen ja läpinäkyvä kulutus AI-krediiteillä",
+      "description": "Interfy Agents kuluttaa AI-krediittejä suoritettujen toimien mukaan. Enemmän hallintaa, ennustettavuutta ja skaalautuvuutta liiketoiminnallesi.",
+      "features": [
+        { "label": "Krediitit sisältyvät kaikkiin paketteihin" },
+        { "label": "Seuranta reaaliajassa" },
+        { "label": "Ostat lisää krediittejä tarpeen mukaan" }
+      ],
+      "cta": "Katso tiedot",
+      "gaugeLabel": "AI-krediitit",
+      "gaugeSublabel": "käytettävissä"
+    }
+  },
+  "cta": {
+    "sectionAria": "Aloita Interfy Agentsin käyttö",
+    "benefitsAria": "Interfy Agentsin edut",
+    "title": "Älykkyyttä, joka työskentelee puolestasi.",
+    "description": "Luo agentteja, automatisoi tehtäviä ja muunna toimintaasi AI:n avulla.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "benefits": [
+      { "label": "Vähennä toimintakustannuksia" },
+      { "label": "Enemmän tuottavuutta ja tehokkuutta" },
+      { "label": "Vähemmän virheitä ja uudelleentyötä" },
+      { "label": "Nopeampia ja älykkäämpiä päätöksiä" },
+      { "label": "Rajattomasti skaalautuvuutta" }
+    ]
+  }
+}

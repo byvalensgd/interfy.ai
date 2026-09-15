@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "연동 및 API",
+    "description": "Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier 등 이미 사용 중인 도구와 Interfy를 연결하세요. 완전한 RESTful API와 실시간 웹훅을 제공합니다.",
+    "keywords": ["Interfy 연동", "Interfy API", "엔터프라이즈 커넥터", "웹훅", "시스템 자동화"]
+  },
+  "hero": {
+    "headingPrefix": "이미 사용 중인 시스템과 ",
+    "headingHighlight": "Interfy를 연결하세요.",
+    "description": "연동은 제한 없이 열려 있습니다. 시스템을 연결하고, 프로세스를 자동화하고, 한계 없는 성과를 이끌어내세요.",
+    "ctaPrimary": "연동 살펴보기",
+    "ctaSecondary": "API 문서 보기",
+    "diagramAriaLabel": "Interfy와 연동된 시스템",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "제한 없는 연동", "description": "비즈니스에 필요한 모든 것을 연결하세요" },
+      { "title": "더 높은 생산성", "description": "흐름을 자동화하고 중복 작업을 없애세요" },
+      { "title": "지능형 의사결정", "description": "통합된 데이터로 실시간 인사이트를 얻으세요." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "시장을 대표하는 주요 시스템과 연결하세요",
+    "ctaLabel": "전체 보기"
+  },
+  "featuresGrid": {
+    "headingPrefix": "",
+    "headingHighlight": "Interfy API의 기능과 이점",
+    "ariaLabel": "Interfy 연동 기능 및 이점",
+    "items": [
+      { "title": "REST API", "description": "어떤 시스템이나 애플리케이션과도 연동할 수 있는 완전한 최신 API." },
+      { "title": "웹훅", "description": "실시간 이벤트를 받아 시스템을 항상 동기화된 상태로 유지하세요." },
+      { "title": "Zapier", "description": "Zapier로 수천 개의 앱과 Interfy를 손쉽고 빠르게 연동하세요." },
+      { "title": "데이터베이스", "description": "주요 SQL 및 NoSQL 데이터베이스와 안전하게 연결하세요." },
+      { "title": "ERP", "description": "선도적인 ERP와 연동하여 조직 전체의 데이터와 프로세스를 통합하세요." },
+      { "title": "CRM", "description": "원하는 CRM과 고객, 연락처, 기회 정보를 동기화하세요." },
+      { "title": "Microsoft", "description": "Microsoft 365, Azure, SharePoint, Teams 등과의 네이티브 연동." },
+      { "title": "Google", "description": "Google Workspace, Drive, Gmail, Sheets 등과의 연동." },
+      { "title": "외부 인증", "description": "안전한 인증과 통합된 경험을 위한 SSO, SAML 2.0, OAuth 2.0." },
+      { "title": "AD / LDAP", "description": "사용자 및 권한 관리를 위한 Active Directory 및 LDAP 연동." },
+      { "title": "레거시 시스템", "description": "유연한 어댑터와 API로 오래된 레거시 시스템도 연결하세요." },
+      { "title": "맞춤형 연동", "description": "특정 요구에 맞춰 유연한 API로 맞춤 커넥터를 구축하세요." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "지능형 연동으로 한계를 넘어서는 ",
+    "headingHighlight": "Agents",
+    "description": "지능형 에이전트와 음성 명령으로 생성, 검색, 요약, 승인 등 모든 것을 처리하세요.",
+    "diagramAriaLabel": "Interfy 제품 생태계와 연결된 에이전트",
+    "checklistAriaLabel": "통합 에이전트의 이점",
+    "checklist": [
+      { "label": "외부 시스템 데이터 검색 및 분석" },
+      { "label": "액션 실행 및 레코드 업데이트" },
+      { "label": "지능형 종단 간 자동화" },
+      { "label": "더 완전하고 맥락에 맞는 응답" },
+      { "label": "여러 플랫폼을 넘나드는 지능형 워크플로우" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "엔터프라이즈급 ",
+    "headingHighlight": "보안",
+    "description": "업계 최고 수준의 보안 표준으로 연동과 데이터를 보호합니다.",
+    "itemsAriaLabel": "연동 보안 표준",
+    "items": [
+      { "label": "모든 연결에 HTTPS / TLS 1.2 이상 적용" },
+      { "label": "OAuth 2.0과 안전한 토큰" },
+      { "label": "속도 제한 및 접근 제어" },
+      { "label": "완전한 로그 및 감사 기록" },
+      { "label": "LGPD, ISO 27001, SOC 2 준수" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "개발자를 위한 완전한 문서",
+      "description": "지금 바로 시작할 수 있는 튜토리얼, 코드 예제, SDK, 테스트 환경을 제공합니다.",
+      "ctaLabel": "문서 보기",
+      "langsAriaLabel": "SDK에서 지원하는 언어"
+    },
+    "codeCard": {
+      "heading": "몇 초 만에 완료되는 API 호출"
+    },
+    "ctaCard": {
+      "heading": "연동하세요. 자동화하세요. 혁신하세요.",
+      "description": "Interfy는 이미 사용 중인 시스템과 연결되어 비즈니스를 다음 단계로 이끌어갑니다.",
+      "primaryLabel": "무료로 체험하기",
+      "secondaryLabel": "전문가와 상담하기"
+    }
+  }
+}

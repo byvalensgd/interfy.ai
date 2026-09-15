@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Tuki",
+    "description": "Interfyn tukikeskus: keskustele tiimimme kanssa chatin, sähköpostin tai puhelimen välityksellä, tai löydä vastauksia usein kysytyistä kysymyksistä.",
+    "keywords": ["Interfyn tuki", "Interfyn ohjekeskus", "Interfyn asiakaspalvelu", "tuen SLA"]
+  },
+  "hero": {
+    "ariaLabel": "Johdanto Interfyn tukeen",
+    "eyebrow": "Interfy-tuki",
+    "titleLine1": "Miten voimme",
+    "titleHighlight": "auttaa sinua?",
+    "description": "Tekninen tukitiimimme seuraa toimintaanne joka arkipäivä, paketin mukaisella SLA:lla ja aina saatavilla olevalla ohjekeskuksella.",
+    "primaryLabel": "Katso usein kysytyt kysymykset",
+    "secondaryLabel": "Keskustele asiantuntijan kanssa"
+  },
+  "channels": {
+    "ariaLabel": "Asiakaspalvelukanavat",
+    "heading": "Asiakaspalvelukanavat",
+    "items": [
+      {
+        "title": "Live-chat",
+        "description": "Keskustele reaaliajassa tukitiimimme kanssa maanantaista perjantaihin klo 8–20.",
+        "actionLabel": "Aloita keskustelu",
+        "href": "/contato"
+      },
+      {
+        "title": "Sähköposti",
+        "description": "Lähetä kysymyksesi tai pyyntösi osoitteeseen suporte@interfy.ai ja saat vastauksen pakettisi SLA:n mukaisesti.",
+        "actionLabel": "Lähetä sähköposti",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Puhelin",
+        "description": "Soita asiakaspalvelukeskukseemme aukioloaikana kiireellisissä tapauksissa.",
+        "actionLabel": "Soita nyt",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Ohjekeskus",
+        "description": "Selaa artikkeleita, tutoriaaleja ja vaiheittaisia oppaita kaikista Interfy-tuotteista.",
+        "actionLabel": "Katso usein kysytyt kysymykset",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "Asiantunteva tuki globaalissa mittakaavassa",
+    "heading": "Tuki, joka kasvaa toimintanne mukana",
+    "statsLabel": "Interfyn tuen kattavuus ja luotettavuus",
+    "stats": [
+      { "label": "180+ maata", "sublabel": "Kasvava globaali läsnäolo" },
+      { "label": "16 kieltä", "sublabel": "Palvelua tiimisi kielellä" },
+      { "label": "99,99%", "sublabel": "Taattu SLA-käytettävyys" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Sertifioitu vaatimustenmukaisuus" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Usein kysytyt kysymykset tuesta",
+    "ariaExpand": "Laajenna vastaus",
+    "heading": "Usein kysytyt kysymykset",
+    "items": [
+      {
+        "question": "Miten avaan tukipyynnön?",
+        "answer": "Voit avata tukipyynnön chatin, sähköpostin (suporte@interfy.ai) tai suoraan Interfyn hallintapaneelin tuki-osion kautta. Jokainen pyyntö saa seurantanumeron."
+      },
+      {
+        "question": "Mikä on tuen vastausaika?",
+        "answer": "SLA vaihtelee paketin mukaan: Starter-tilit saavat vastauksen 24 arkituntia, kun Business-, Corporate- ja Enterprise-paketeilla on etusija ja lyhyemmät SLA:t, jotka on määritelty sopimuksessa."
+      },
+      {
+        "question": "Sisältyykö tuki kaikkiin paketteihin?",
+        "answer": "Kyllä. Chat- ja sähköpostituki sisältyy kaikkiin maksullisiin paketteihin. Corporate- ja Enterprise-paketeissa on lisäksi omistettu asiakaspäällikkö."
+      },
+      {
+        "question": "Mitkä ovat palveluajat?",
+        "answer": "Palvelemme maanantaista perjantaihin klo 8–20 (Brasilian aikaa). Enterprise-tilit voivat hankkia laajennetun 24/7-tuen."
+      },
+      {
+        "question": "Miten seuraan alustan käytettävyyttä?",
+        "answer": "Kunkin tuotteen käytettävyys ja häiriöhistoria julkaistaan reaaliajassa alustan tilasivulla."
+      },
+      {
+        "question": "Miten eskaloin kiireellisen tukipyynnön?",
+        "answer": "Kriittisiksi merkityt pyynnöt priorisoidaan automaattisesti. Jos haluat korostaa kiireellisyyttä, vastaa seurantasähköpostiin tai soita asiakaspalvelukeskukseen."
+      },
+      {
+        "question": "Tarjoaako Interfy tukea muilla kielillä ja alueilla?",
+        "answer": "Kyllä. Alusta on saatavilla 16 kielellä ja käytössä yli 180 maassa, erillisellä myyntipalvelulla Brasilialle ja kansainvälisen tason tuen SLA:illa."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "heading": "Onko sinulla vielä kysyttävää?",
+    "subheading": "Keskustele asiantuntijoidemme kanssa ja selvitä, miten Interfy voi mukautua toimintaanne.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa demo"
+  }
+}

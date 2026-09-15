@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "AI-agenter",
+    "description": "Interfy Agents är plattformens intelligenslager. Skapa smarta agenter för att automatisera uppgifter, analysera information och driva resultat i hela din verksamhet.",
+    "keywords": ["AI-agenter", "intelligent automation", "AI agents för företag", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agenter som",
+    "titleGradient": "förstår, beslutar och utför.",
+    "description": "Interfy Agents är plattformens intelligenslager. Skapa smarta agenter för att automatisera uppgifter, analysera information och driva resultat i hela din verksamhet.",
+    "ctaPrimary": "Gratis provperiod i 7 dagar",
+    "ctaSecondary": "Boka demo",
+    "slideshowAlt": "Interfy Agents visad på laptop och smartphone, med AI-agenter i aktion",
+    "highlights": [
+      { "label": "Intelligens som skapar värde" },
+      { "label": "Automation utan gränser" },
+      { "label": "Säkert och styrt" },
+      { "label": "Integrerat i hela plattformen" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Vad kan",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "göra för dig",
+    "items": [
+      { "title": "Intelligenta agenter", "description": "AI-agenter som förstår sammanhanget och utför åtgärder autonomt." },
+      { "title": "Skapande av agenter", "description": "Skapa skräddarsydda agenter med eller utan kod på bara några minuter." },
+      { "title": "Agenter per avdelning", "description": "Ha dedikerade agenter för varje del av verksamheten: ekonomi, HR, juridik och mer." },
+      { "title": "Automatisk uppgiftsexekvering", "description": "Utför repetitiva uppgifter, minskar fel och skyndar på verksamheten." },
+      { "title": "Dokumentläsning", "description": "Läser, förstår och extraherar information från dokument på sekunder." },
+      { "title": "Processutlösning", "description": "Startar och driver processer automatiskt på plattformen baserat på händelser." },
+      { "title": "Övervakning", "description": "Följer aktiviteter, deadlines, nyckeltal och skickar uppdateringar i realtid." },
+      { "title": "Informationsanalys", "description": "Analyserar stora datamängder och levererar smarta insikter." },
+      { "title": "Smarta varningar", "description": "Skickar proaktiva varningar om risker, möjligheter, deadlines och avvikelser." },
+      { "title": "Rekommendationer", "description": "Föreslår åtgärder, beslut och nästa steg baserat på data och historik." },
+      { "title": "Systemintegration", "description": "Ansluter till externa system via API:er och utbyter information säkert." },
+      { "title": "Regelbaserad exekvering", "description": "Utför åtgärder enligt affärsregler och företagets policyer." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Fullt integrerat med",
+    "headingGradient": "Interfy-ekosystemet",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agenter läser, analyserar och uppdaterar dokument intelligent." },
+      { "description": "Agenter startar processer, fyller i data och driver flöden automatiskt." },
+      { "description": "Agenter extraherar information, klassificerar och skickar dokument till rätt flöden." },
+      { "description": "Agenter deltar i konversationer, svarar, delar information och samarbetar." },
+      { "description": "Agenter använder röst för att svara, registrera, fråga och utföra åtgärder." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Styrning, säkerhet och AI Credits",
+    "governance": {
+      "title": "Styrning och säkerhet",
+      "titleAccent": "först och främst",
+      "items": [
+        "Granulära behörigheter per agent och per användare",
+        "Granskade och spårbara åtgärder på alla nivåer",
+        "Åtkomst- och exekveringspolicyer definierade av företaget",
+        "Efterlevnad av LGPD, ISO 27001, SOC 2 och fler",
+        "Data skyddade med kryptering från början till slut"
+      ],
+      "cta": "Se detaljer"
+    },
+    "credits": {
+      "title": "Enkel och transparent förbrukning med AI Credits",
+      "description": "Interfy Agents förbrukar AI Credits baserat på åtgärderna som utförs. Mer kontroll, förutsägbarhet och skalbarhet för din verksamhet.",
+      "features": [
+        { "label": "Krediter ingår i alla planer" },
+        { "label": "Uppföljning i realtid" },
+        { "label": "Köp fler krediter vid behov" }
+      ],
+      "cta": "Se detaljer",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "tillgängliga"
+    }
+  },
+  "cta": {
+    "sectionAria": "Börja använda Interfy Agents",
+    "benefitsAria": "Fördelar med Interfy Agents",
+    "title": "Intelligens som arbetar för dig.",
+    "description": "Skapa agenter, automatisera uppgifter och förvandla din verksamhet med AI.",
+    "ctaPrimary": "Gratis provperiod i 7 dagar",
+    "ctaSecondary": "Boka demo",
+    "benefits": [
+      { "label": "Minska driftskostnaderna" },
+      { "label": "Högre produktivitet och effektivitet" },
+      { "label": "Färre fel och mindre dubbelarbete" },
+      { "label": "Snabbare och smartare beslut" },
+      { "label": "Skalbarhet utan gränser" }
+    ]
+  }
+}

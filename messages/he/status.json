@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "סטטוס הפלטפורמה",
+    "description": "עקבו בזמן אמת אחר הזמינות של כל מוצר Interfy ואחר היסטוריית התקלות של הפלטפורמה.",
+    "keywords": ["סטטוס Interfy", "זמינות Interfy", "uptime Interfy", "תקלות Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "מבוא לסטטוס הפלטפורמה",
+    "eyebrow": "סטטוס הפלטפורמה",
+    "titleLine1": "כל המערכות",
+    "titleHighlight": "פעילות",
+    "description": "זמינות בזמן אמת של כל מוצר Interfy, עם היסטוריית תקלות ו-SLA של uptime."
+  },
+  "list": {
+    "ariaLabel": "סטטוס לפי מוצר",
+    "heading": "סטטוס לפי מוצר",
+    "operationalLabel": "פעיל",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "היסטוריית תקלות",
+    "incidentsEmpty": "לא נרשמו תקלות ב-90 הימים האחרונים."
+  },
+  "infra": {
+    "ariaLabel": "התשתית מאחורי סטטוס הפלטפורמה",
+    "heading": "תשתית בזמינות גבוהה",
+    "subheading": "ארכיטקטורה cloud-native, 100% AWS, עם רדונדנטיות בכל השכבות.",
+    "items": [
+      { "label": "Multi-AZ בכל השכבות (אפליקציה ומסד נתונים)" },
+      { "label": "CDN גלובלי (CloudFront) עם latency נמוך" },
+      { "label": "איזון עומסים אוטומטי" },
+      { "label": "איתור ומניעת איומים (GuardDuty)" },
+      { "label": "מעקב רציף (CloudWatch)" },
+      { "label": "לוגים ומסלול בדיקה (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "הסמכות ותאימות",
+      "ctaLabel": "לצפייה בארכיטקטורת האבטחה המלאה",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "מערכת ניהול אבטחת מידע מוסמכת." },
+        { "label": "SOC 2 Type II", "description": "בקרות אבטחה, זמינות וסודיות.", "badge": "בתהליך" },
+        { "label": "LGPD", "description": "עומדת בחוק הגנת המידע הכללי של ברזיל." },
+        { "label": "GDPR", "description": "בהתאם לתקנה הכללית להגנת מידע של האיחוד האירופי." },
+        { "label": "HIPAA Ready", "description": "מוכנה לסביבות שמטפלות ב-ePHI בארצות הברית.", "badge": "BAA זמין" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "התחילו להשתמש ב-Interfy",
+    "heading": "אמינות בסטנדרט עסקי",
+    "subheading": "תשתית AWS גלובלית, הצפנת AES-256/TLS 1.2+ ו-SLA של 99.99% זמינות.",
+    "primaryButton": "התחילו בחינם",
+    "secondaryButton": "קבעו הדגמה",
+    "statsLabel": "מדדי אמינות",
+    "stats": [
+      { "label": "99.99%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "הצפנה" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "תאימות" }
+    ]
+  }
+}

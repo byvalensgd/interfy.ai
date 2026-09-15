@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "免费试用",
+    "description": "亲身体验 Interfy.AI。创建您的工作空间,7 天内免费试用平台上的所有产品,无需信用卡。",
+    "keywords": ["Interfy 免费试用", "AI 原生平台试用", "免费工作空间", "文档管理试用"],
+    "freeTrialNote": "7 天免费体验整个平台,无需信用卡。"
+  },
+  "hero": {
+    "ariaLabel": "免费试用核心优势",
+    "headingPrefix": "亲身体验 ",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " 的实战体验",
+    "subheading": "用 7 天改变您企业的工作方式。",
+    "descriptionPrefix": "创建您的工作空间,探索平台,发现 ",
+    "descriptionHighlight": "Interfy Documents、Process、Capture、Sign、Connect、Mobile、Agents 与 Voice",
+    "descriptionSuffix": " 如何用 AI 改变您的业务运营。",
+    "ctaButton": "了解免费试用如何运作",
+    "differentiators": [
+      { "title": "7 天免费", "subtitle": "畅享全部功能" },
+      { "title": "无需信用卡", "subtitle": "无任何承诺" },
+      { "title": "几分钟创建工作空间", "subtitle": "立即开始" },
+      { "title": "100% Web + Mobile", "subtitle": "随时随地访问" },
+      { "title": "AI 原生", "subtitle": "智能贯穿始终" },
+      { "title": "数据保留", "subtitle": "试用结束后依然保留" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "免费试用 ",
+    "headingHighlight": "如何运作",
+    "items": [
+      { "title": "创建您的工作空间", "description": "注册简单快捷,无需信用卡。" },
+      { "title": "了解平台", "description": "探索所有可用的产品和功能。" },
+      { "title": "用您的业务真实测试", "description": "上传文档、创建流程、使用 AI,体验各项功能。" },
+      { "title": "选择您的方案", "description": "7 天结束后,从您停下的地方无缝继续。" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "在这 ",
+    "headingHighlight": "7 天",
+    "items": [
+      { "title": "Documents", "description": "智能文档与信息管理" },
+      { "title": "Process", "description": "流程与任务智能自动化" },
+      { "title": "Capture", "description": "由 AI 驱动的智能文档采集" },
+      { "title": "Sign", "description": "面向所有用户的免费电子签名" },
+      { "title": "Connect", "description": "与业务运营连接的协作与沟通" },
+      { "title": "Mobile", "description": "把完整业务掌握在手中" },
+      { "title": "Agents", "description": "能分析、决策并执行的 AI 智能体" },
+      { "title": "Voice", "description": "以自然语言和 AI 进行语音交互" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "您的 ",
+      "headingHighlight": "免费试用",
+      "headingSuffix": "已经为您准备就绪。",
+      "paragraph": "为了让您充分利用每一分钟,我们准备了可以立即测试的真实示例。",
+      "checklist": [
+        { "text": "示例文档" },
+        { "text": "现成的流程" },
+        { "text": "智能表单" },
+        { "text": "待处理任务" },
+        { "text": "待签署文档" },
+        { "text": "体验 ", "highlight": "Capture" },
+        { "text": "已配置的智能体" },
+        { "text": "使用 ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "我们建议按 ",
+      "paragraphHighlight": "7 天旅程",
+      "paragraphNote": "循序体验(不过从第一天起所有功能都已开放)",
+      "dayLabel": "第 {number} 天",
+      "days": [
+        { "line1": "了解您的", "line2": "工作空间" },
+        { "line1": "探索", "line2": "Documents" },
+        { "line1": "自动化", "line2": "流程" },
+        { "line1": "试用", "line2": "Capture" },
+        { "line1": "体验", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "选择您的", "line2": "方案" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "数据安全与免费试用后的延续性",
+    "preservedHeading": "您的数据始终归您所有。",
+    "preservedList": [
+      "专属工作空间",
+      "受保护的环境",
+      "高级加密",
+      "访问权限控制",
+      "数据隔离",
+      "不会自动扣费",
+      "无需信用卡"
+    ],
+    "endHeading": "免费试用结束后会怎样?",
+    "endParagraph": "您可以选择合适的方案,从停下的地方继续。您的工作空间和全部数据都会被保留。",
+    "endFeatures": [
+      { "label": "您的数据得以保留" },
+      { "label": "无损平滑过渡" },
+      { "label": "未经您授权,任何内容都不会被删除" },
+      { "label": "随时继续使用" }
+    ],
+    "endButton": "选择我的方案"
+  },
+  "cta": {
+    "ariaLabel": "开始您的免费试用",
+    "title": "您业务的未来,从一次免费试用开始。",
+    "description": "免费体验 Interfy.ai 7 天。无需信用卡,无任何承诺。",
+    "ctaPrimary": "开始免费试用",
+    "ctaSecondary": "查看方案",
+    "statsLabel": "Interfy 平台数据"
+  },
+  "form": {
+    "heading": "创建您的免费工作空间",
+    "subheading": "只需不到 2 分钟。",
+    "nameLabel": "姓名",
+    "emailLabel": "企业邮箱",
+    "companyLabel": "公司名称",
+    "phoneLabel": "电话(WhatsApp)",
+    "optionalLabel": "(选填)",
+    "errors": {
+      "name": "请填写您的姓名。",
+      "email": "请填写有效的电子邮箱。",
+      "company": "请填写您的公司名称。",
+      "consent": "请先同意条款才能继续。"
+    },
+    "consentPrefix": "我已阅读并同意 ",
+    "consentTerms": "使用条款",
+    "consentMiddle": " 及 ",
+    "consentPrivacy": "隐私政策",
+    "consentSuffix": "。",
+    "submitButton": "创建我的免费工作空间",
+    "submittingButton": "提交中...",
+    "successHeading": "我们已收到您的申请!",
+    "successMessagePrefix": "我们的团队正在为您准备工作空间。您将很快在以下邮箱收到访问信息: ",
+    "successMessageSuffix": "。",
+    "specialistLink": "咨询专家顾问"
+  }
+}

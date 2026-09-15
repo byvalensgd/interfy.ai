@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process ermöglicht es Ihnen, visuelle Prozesse, intelligente Formulare und leistungsstarke Automatisierungen mit KI zu erstellen. Mehr Agilität, Kontrolle und Effizienz in jedem Schritt.",
+    "keywords": ["Prozessautomatisierung", "BPM", "Unternehmens-Workflow", "intelligente Formulare", "Interfy Process"],
+    "freeTrialNote": "7 Tage kostenlos testen, keine Kreditkarte erforderlich"
+  },
+  "hero": {
+    "titlePrefix": "Erstellen, automatisieren und transformieren Sie Prozesse ",
+    "titleHighlight": "mit KI.",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": " ermöglicht es Ihnen, visuelle Prozesse, intelligente Formulare und leistungsstarke Automatisierungen mit KI zu erstellen. Mehr Agilität, Kontrolle und Effizienz in jedem Schritt.",
+    "ctaPrimary": "Kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "mockupAlt": "Interfy-Process-Plattform auf Tablet und Smartphone dargestellt, mit visueller Prozessgestaltung und Aufgabenliste",
+    "stats": [
+      { "label": "6 Mio. +", "sublabel": "automatisierte Prozesse" },
+      { "label": "25.000 +", "sublabel": "Kunden" },
+      { "label": "2,5 Mio. +", "sublabel": "aktive Nutzer" },
+      { "label": "100 % Web", "sublabel": "Zugriff von überall" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Vollständige Automatisierung für ",
+    "headingHighlight": "Ihren Betrieb",
+    "items": [
+      { "title": "Visuelle Prozesserstellung", "description": "Erstellen Sie Abläufe einfach und intuitiv mit dem visuellen Drag-and-Drop-Designer." },
+      { "title": "Prozesserstellung mit KI", "description": "Beschreiben Sie, was Sie brauchen, und die KI erstellt in Sekunden den idealen Prozess für Sie." },
+      { "title": "Automatische Formulargenerierung", "description": "Die KI generiert vollständige Formulare aus dem Prozess mit intelligenten Feldern." },
+      { "title": "Intelligente Formulare", "description": "Bedingte Felder, automatische Validierungen und Berechnungen zur Reduzierung von Fehlern und Nacharbeit." },
+      { "title": "Genehmigungen", "description": "Flexible Genehmigungsabläufe mit mehreren parallelen oder bedingten Ebenen." },
+      { "title": "Aufgaben", "description": "Weisen Sie Aufgaben zu, verfolgen und verwalten Sie sie mit Fristen, Prioritäten und Zuständigen." },
+      { "title": "Geschäftsregeln", "description": "Automatisieren Sie Entscheidungen und Aktionen mit individuellen Regeln und erweiterten Bedingungen." },
+      { "title": "SLAs", "description": "Definieren Sie Fristen und Service-Level-Vereinbarungen mit automatischer Überwachung und Alerts." },
+      { "title": "Alerts und Benachrichtigungen", "description": "Benachrichtigungen per E-Mail, Push oder innerhalb der Plattform, damit alle auf dem gleichen Stand sind." },
+      { "title": "Echtzeit-Dashboards", "description": "Verfolgen Sie den Betrieb mit dynamischen, aktuellen visuellen Dashboards." },
+      { "title": "Kennzahlen und Metriken", "description": "Individuelle Metriken zur Messung von Leistung, Engpässen und Produktivität." },
+      { "title": "Externe Teilnahme", "description": "Binden Sie Kunden, Lieferanten und Partner sicher und kontrolliert in Prozesse ein." },
+      { "title": "Prozesse auf Mobile", "description": "Führen, genehmigen und verfolgen Sie Prozesse von überall über die Interfy-Mobile-App." },
+      { "title": "Fertige Vorlagen", "description": "Bibliothek fertiger Prozessvorlagen für die unterschiedlichsten Branchen." },
+      { "title": "Automatisierungen mit Agenten", "description": "KI-Agenten führen automatische Aufgaben aus, analysieren Daten und treffen intelligente Entscheidungen." },
+      { "title": "Native Integration", "description": "Vollständige Integration mit Interfy Documents, Capture und Sign für einen 100 % vernetzten Ablauf." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Native Integration mit dem ",
+    "headingHighlight": "Interfy-Ökosystem",
+    "description": "Wählen Sie Ihre Branche und entdecken Sie, wie Interfy AI Herausforderungen in echte Ergebnisse verwandelt.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Dokumente und Informationen im Zugriff des Prozesses." },
+      { "description": "Intelligente Erfassung und Datenextraktion." },
+      { "description": "Intelligente Prozesse und Automatisierungen." },
+      { "description": "Digitale Signaturen, in den Ablauf integriert." },
+      { "description": "Zusammenarbeit und Kommunikation in Echtzeit." },
+      { "description": "KI-Agenten, die analysieren, entscheiden und handeln." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Plattformvorteile",
+    "items": [
+      { "title": "Eine einzige Plattform", "description": "Keine separaten Versionen je Branche nötig" },
+      { "title": "100 % anpassbar", "description": "Konfigurieren Sie sie nach Ihrem Geschäft" },
+      { "title": "Schnelle Einführung", "description": "Starten Sie in Minuten, ohne Komplexität" },
+      { "title": "Enterprise-Sicherheit", "description": "Datenschutz und isolierte Umgebungen" },
+      { "title": "KI in jeder Branche", "description": "Intelligente Agenten, die Ihren Kontext verstehen" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Ergebnisse und bediente Prozessarten",
+    "practiceTitlePrefix": "Ergebnisse, die Sie ",
+    "practiceTitleHighlight": "in der Praxis sehen",
+    "checklist": [
+      "Weniger Nacharbeit und mehr Standardisierung",
+      "Schnellere und effizientere Prozesse",
+      "Reduzierung der Betriebskosten",
+      "Volle Transparenz und Rückverfolgbarkeit",
+      "Bessere Entscheidungen durch Daten und Kennzahlen",
+      "Zufriedenheit von Kunden, Teams und Partnern"
+    ],
+    "chartTitle": "Abgeschlossene Anfragen",
+    "chartAriaLabel": "Liniendiagramm zum Wachstum abgeschlossener Anfragen von Januar bis Juni, mit einem Anstieg von 32 %",
+    "chartMonths": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun"],
+    "typesTitlePrefix": "Gemacht für alle ",
+    "typesTitleHighlight": "Prozessarten",
+    "processTypes": [
+      { "label": "Verwaltung" },
+      { "label": "Finanzen" },
+      { "label": "Einkauf" },
+      { "label": "HR" },
+      { "label": "Recht" },
+      { "label": "Vertrieb" },
+      { "label": "Betrieb" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy Process starten",
+    "title": "Bereit, Ihren Betrieb zu transformieren?",
+    "description": "Starten Sie jetzt mit 7 Tagen kostenlos und entdecken Sie, wie Interfy Process Ihr Unternehmen voranbringen kann.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "statsLabel": "Vorteile von Interfy Process",
+    "features": [
+      { "label": "100 % Web", "sublabel": "Zugriff von überall" },
+      { "label": "Höchste Sicherheit", "sublabel": "Geschützte und konforme Daten" },
+      { "label": "Skalierbar", "sublabel": "Vom kleinen bis zum großen Unternehmen" },
+      { "label": "Support 24/7", "sublabel": "Immer wenn Sie ihn brauchen" }
+    ]
+  }
+}

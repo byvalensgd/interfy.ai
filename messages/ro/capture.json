@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture transformă documentele fizice și digitale în informație inteligentă în câteva secunde. Capturează din browser, scanere profesionale sau smartphone, cu AI care recunoaște, extrage, clasifică și direcționează totul automat.",
+    "keywords": ["capturare inteligentă a documentelor", "digitalizare cu AI", "OCR", "recunoașterea documentelor", "Interfy Capture"],
+    "freeTrialNote": "Test gratuit timp de 7 zile, fără card de credit"
+  },
+  "hero": {
+    "titleLine1": "Capturează orice document.",
+    "titleLine2": "AI face restul.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "transformă documentele fizice și digitale în informație inteligentă în câteva secunde. Capturează din browser, scanere profesionale sau smartphone.",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "mockupAlt": "Interfy Capture afișat pe laptop și smartphone, arătând capturarea inteligentă a documentelor",
+    "trust": [
+      { "text": "99,9% fiabilitate în extragere" },
+      { "text": "100% sigur și conform cu LGPD" },
+      { "text": "AI-native în întreaga platformă" },
+      { "text": "Scalabil pentru orice volum de documente" }
+    ],
+    "flow": [
+      { "text": "AI recunoaște și extrage" },
+      { "text": "Clasifică, indexează și organizează." },
+      { "text": "Stochează în Interfy Documents" },
+      { "text": "Trimite către Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Cum funcționează ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Capturare", "description": "Capturare din orice sursă: browser, scanere sau telefon mobil." },
+      { "title": "Recunoaștere prin AI", "description": "Interfy AI recunoaște și extrage automat conținutul." },
+      { "title": "Citire și înțelegere", "description": "Înțelege contextul, câmpurile și relațiile dintre informații." },
+      { "title": "Extragere de date", "description": "Extrage automat datele structurate și nestructurate." },
+      { "title": "Clasificare", "description": "Clasifică și organizează documentele cu AI." },
+      { "title": "Indexare și metadate", "description": "Atribuie metadate și pregătește pentru căutare și trasabilitate." },
+      { "title": "Validare și direcționare", "description": "Validează și direcționează către Interfy Documents sau Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funcționalități și beneficii ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Scara platformei Interfy",
+    "items": [
+      { "title": "Capturare din browser", "description": "Capturează fișiere direct de pe computerul tău. Simplu, rapid și sigur." },
+      { "title": "Scanere profesionale", "description": "Integrare nativă cu scanere de înaltă performanță pentru calitate maximă." },
+      { "title": "Capturare în lot", "description": "Digitalizează și procesează volume mari de documente dintr-o singură dată." },
+      { "title": "AI Credite incluse", "description": "Credite de AI incluse în toate planurile platformei — fără a fi nevoie să contractezi modulul separat." },
+      { "title": "Mobile Capture", "description": "Capturează documente prin smartphone, de oriunde, oricând." },
+      { "title": "Recunoaștere prin AI", "description": "AI recunoaște și extrage conținutul cu precizie ridicată." },
+      { "title": "Extragere automată", "description": "Extragere automată a datelor structurate și nestructurate." },
+      { "title": "Interfy Documents", "description": "Stochează în siguranță, cu căutare inteligentă și trasabilitate." },
+      { "title": "Interfy Process", "description": "Trimitere automată către fluxurile și automatizările operațiunii tale." },
+      { "title": "Achiziție de credite suplimentare", "description": "Mai multe credite oricând operațiunea ta are nevoie." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitalizare cu valabilitate legală",
+    "badge": "Funcționalitate opțională",
+    "description": "Funcționalitate opțională pentru companiile care au nevoie de valabilitate juridică pentru documentele lor digitale. Nu este inclusă în planul standard.",
+    "checklist": [
+      { "text": "Certificare digitală și marcă temporală" },
+      { "text": "Stocare securizată cu valabilitate legală" },
+      { "text": "Trasabilitate de la un capăt la altul" },
+      { "text": "Dovezi și piste de audit" },
+      { "textParts": ["Aplicarea marcajului și a pistei conform ", "Decretului 10.278"] },
+      { "text": "Pistă de audit" },
+      { "text": "Validare juridică" },
+      { "text": "Conformitate și securitate" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Rezultate reale pentru afacerea ta",
+    "heading": "REZULTATE REALE PENTRU AFACEREA TA",
+    "stats": [
+      { "accent": "PÂNĂ LA 85%", "label": "MAI PUȚINE ERORI", "description": "în indexare și clasificare." },
+      { "accent": "MAI MULTĂ", "label": "PRODUCTIVITATE", "description": "Echipa ta se concentrează pe ce contează cu adevărat." },
+      { "accent": "SECURITATE &", "label": "CONFORMITATE", "description": "Totală cu LGPD, GDPR și standardele globale." }
+    ],
+    "ctaTitle": "GATA SĂ ÎȚI TRANSFORMI OPERAȚIUNEA DE DOCUMENTE?",
+    "ctaDescription": "Programează o demonstrație și descoperă cum Interfy Capture poate genera rezultate reale pentru compania ta.",
+    "mascotAlt": "Asistentul de AI al Interfy"
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy Capture",
+    "title": "Gata să îți transformi capturarea documentelor cu AI?",
+    "description": "Testează Interfy Capture timp de 7 zile și vezi AI lucrând pentru a-ți impulsiona operațiunea. Contractează separat sau folosește creditele deja incluse în planurile platformei.",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "statsLabel": "Diferențialele Interfy Capture",
+    "highlights": [
+      { "label": "100% Web", "sublabel": "Accesează de oriunde" },
+      { "label": "Securitate de vârf", "sublabel": "Date protejate și conforme" },
+      { "label": "Scalabil", "sublabel": "De la afaceri mici la mari" },
+      { "label": "Suport 24/7", "sublabel": "Oricând ai nevoie" }
+    ]
+  }
+}

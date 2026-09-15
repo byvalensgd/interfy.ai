@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "צור קשר",
+    "description": "דברו עם Interfy: אימייל, טלפון, כתובת ושעות פעילות לשאלות מסחריות, תמיכה ושותפויות.",
+    "keywords": ["צור קשר Interfy", "לדבר עם Interfy", "אימייל Interfy", "טלפון Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "מבוא לעמוד צור קשר",
+    "eyebrow": "דברו איתנו",
+    "titleLine1": "בואו נדבר על",
+    "titleHighlight": "התפעול שלכם",
+    "description": "צוות המכירות והתמיכה שלנו מוכן להבין את התמונה המלאה שלכם ולהראות לכם איך Interfy משתלבת בה.",
+    "primaryLabel": "קבעו הדגמה",
+    "secondaryLabel": "התחילו בחינם"
+  },
+  "channels": {
+    "ariaLabel": "ערוצי יצירת קשר",
+    "heading": "בחרו את הערוץ המתאים",
+    "items": [
+      {
+        "title": "אימייל מסחרי",
+        "description": "contato@interfy.ai — לשאלות מסחריות, תוכניות ושותפויות.",
+        "actionLabel": "לשלוח אימייל",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "טלפון",
+        "description": "+55 11 4020-1000 — בימים א'-ה', בין השעות 8:00-20:00 (לפי שעון סאו פאולו).",
+        "actionLabel": "להתקשר עכשיו",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "כתובת",
+        "description": "Interfy Corporation — אורלנדו, פלורידה, ארצות הברית, עם נוכחות מסחרית ביותר מ-180 מדינות ושירות ייעודי לברזיל.",
+        "actionLabel": "לצפייה בכל האזורים",
+        "href": "/segmentos"
+      },
+      {
+        "title": "שעות פעילות",
+        "description": "בימים א'-ה', בין השעות 8:00-20:00. חשבונות Enterprise יכולים לרכוש תמיכה מורחבת 24/7.",
+        "actionLabel": "לתמיכה",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "התחילו להשתמש ב-Interfy",
+    "heading": "מעדיפים לראות את הפלטפורמה בפעולה?",
+    "subheading": "קבעו הדגמה עם הצוות שלנו וראו את Interfy מיושמת על התהליך שלכם בתוך דקות.",
+    "primaryButton": "התחילו בחינם",
+    "secondaryButton": "קבעו הדגמה"
+  }
+}

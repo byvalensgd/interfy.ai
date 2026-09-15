@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile bringt die gesamte Interfy-Plattform auf Ihr Smartphone. Greifen Sie zu, verwalten Sie, genehmigen Sie und treffen Sie Entscheidungen – von überall, mit voller Sicherheit.",
+    "keywords": ["Unternehmens-App", "Mobile App", "Verwaltung per Smartphone", "Interfy Mobile"],
+    "freeTrialNote": "In allen Plänen der Plattform enthalten, ohne Zusatzkosten."
+  },
+  "hero": {
+    "heading": "Ihr Betrieb",
+    "headingHighlight": "in der Handfläche.",
+    "description": "Nehmen Sie die gesamte Interfy-Plattform mit. Greifen Sie zu, verwalten Sie, entscheiden Sie und kommen Sie voran – egal wo Sie sind.",
+    "googlePlayAlt": "Verfügbar bei Google Play",
+    "appStoreAlt": "Verfügbar im App Store",
+    "mockupAlt": "Interfy Mobile App auf einem Smartphone dargestellt",
+    "highlights": [
+      { "label": "Sicher und zuverlässig" },
+      { "label": "100 % in die Plattform integriert" },
+      { "label": "Alles in Echtzeit synchronisiert" },
+      { "label": "Ihre Daten geschützt" }
+    ],
+    "floatingCards": [
+      { "title": "Produktivität, wo auch immer", "description": "Greifen Sie auf alle Interfy-Funktionen auf Ihrem Smartphone zu." },
+      { "title": "Agilität, die alles verändert", "description": "Antworten, genehmigen und Prozesse in Sekunden voranbringen." },
+      { "title": "Einfache, intuitive Erfahrung", "description": "Alles, was Sie brauchen, intelligent organisiert." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Die gesamte Interfy-Plattform",
+    "headingHighlight": "auf Ihrem Mobile",
+    "items": [
+      { "description": "Greifen Sie sicher auf Dokumente zu, sehen Sie sie an, suchen und teilen Sie sie." },
+      { "description": "Verfolgen Sie Prozesse, Aufgaben, Fristen und SLAs. Genehmigen und entscheiden Sie, egal wo Sie sind." },
+      { "description": "Erfassen Sie Dokumente mit der Kamera Ihres Smartphones und senden Sie sie direkt an die Plattform." },
+      { "description": "Unterschreiben Sie Dokumente digital oder senden Sie sie mit wenigen Tipps zur Signatur." },
+      { "description": "Chatten Sie, teilen Sie Dateien und kommentieren Sie Dokumente und Prozesse in Echtzeit." },
+      { "description": "KI-Agenten, die direkt in der App helfen, antworten und Aktionen ausführen." },
+      { "description": "Nutzen Sie Sprache, um zu suchen, Informationen abzurufen und schneller Aufgaben zu erstellen." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Vollständige Zusammenarbeit",
+    "headingHighlight": "direkt in Ihrem Betrieb integriert",
+    "items": [
+      { "title": "Genehmigungen", "description": "Genehmigen Sie Dokumente, Verträge und Anfragen in Sekunden." },
+      { "title": "Aufgaben", "description": "Sehen, erledigen und verfolgen Sie Ihre Aufgaben ganz praktisch." },
+      { "title": "Benachrichtigungen", "description": "Erhalten Sie Echtzeit-Alerts zu dem, was wirklich zählt." },
+      { "title": "Dashboards", "description": "Verfolgen Sie Kennzahlen und Ergebnisse Ihres Betriebs direkt in der Hand." },
+      { "title": "Erfassung per Kamera", "description": "Scannen Sie Dokumente, Notizen, Belege und senden Sie sie sofort ab." },
+      { "title": "Abfragen", "description": "Rufen Sie Informationen, Prozesse und Dokumente schnell ab." },
+      { "title": "Intelligente Suche", "description": "Finden Sie mit KI, was Sie brauchen. Fragen Sie in natürlicher Sprache und erhalten Sie Antworten." },
+      { "title": "Vollständiger Verlauf", "description": "Greifen Sie mit vollständiger Rückverfolgbarkeit auf den Verlauf von Aktionen, Dokumenten und Chats zu." },
+      { "title": "Vollständige Synchronisierung", "description": "Alles in Echtzeit mit der Plattform synchronisiert, ohne Datenverlust." },
+      { "title": "Offline-Modus", "description": "Greifen Sie auch ohne Internet auf Dokumente und Informationen zu." },
+      { "title": "Mehrere Unternehmen", "description": "Verwalten Sie alle Ihre Unternehmen und Niederlassungen in einer einzigen App." },
+      { "title": "Intuitive Oberfläche", "description": "Modernes, einfach zu bedienendes Design. Produktivität ohne Umstände." }
+    ]
+  },
+  "security": {
+    "heading": "Governance und Sicherheit",
+    "headingHighlight": "an erster Stelle",
+    "description": "Ihr Betrieb geschützt, überall. Ende-zu-Ende-Verschlüsselung, Multi-Faktor-Authentifizierung und Konformität mit den wichtigsten Sicherheitsstandards des Marktes.",
+    "items": [
+      { "label": "Ende-zu-Ende-Verschlüsselung" },
+      { "label": "Multi-Faktor-Authentifizierung (MFA)" },
+      { "label": "Konformität mit LGPD, ISO 27001 und SOC 2" },
+      { "label": "Erweiterte Zugriffskontrolle und Berechtigungen" },
+      { "label": "Backup und hohe Verfügbarkeit in der Cloud" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Interfy Mobile herunterladen",
+    "title": "Interfy Mobile. Ihr Betrieb in der Handfläche.",
+    "subtitle": "Mehr Agilität, mehr Kontrolle und mehr Ergebnisse, wo immer Sie sind.",
+    "downloadPrompt": "Jetzt herunterladen und die gesamte Plattform mitnehmen.",
+    "googlePlayAlt": "Verfügbar bei Google Play",
+    "appStoreAlt": "Verfügbar im App Store",
+    "qrCodeAlt": "QR-Code zum Herunterladen der Interfy Mobile App",
+    "statsLabel": "Zahlen der Interfy-Plattform"
+  }
+}

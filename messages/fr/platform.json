@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Plateforme",
+    "description": "Une plateforme intégrée de bout en bout : documents, processus, capture, signature, collaboration, mobile, agents et voix qui fonctionnent ensemble avec l'IA à chaque étape.",
+    "keywords": ["plateforme Interfy", "plateforme d'entreprise native IA", "gestion documentaire et de processus", "écosystème Interfy"]
+  },
+  "hero": {
+    "headingLine1": "Une plateforme.",
+    "headingLine2": "Toute votre activité.",
+    "headingHighlight": "L'IA à chaque étape.",
+    "description1": "Documents, automatisations, capture intelligente, signature électronique, collaboration, mobile, agents et voix, tous réunis dans un seul Workspace.",
+    "description2": "Remplacez de multiples logiciels par une plateforme 100 % web, cloud-native, prête à opérer partout dans le monde avec sécurité, échelle et intelligence.",
+    "ctaPrimary": "Essai gratuit de 14 jours",
+    "ctaSecondary": "Planifier une démonstration",
+    "mockupAlt": "Plateforme Interfy affichée sur tablette et smartphone, montrant le workspace, les tâches du jour et l'assistant IA",
+    "chipsAriaLabel": "Principales caractéristiques de la plateforme",
+    "chips": [
+      { "label": "IA native" },
+      { "label": "Cloud-native" },
+      { "label": "100 % web" },
+      { "label": "Web + Mobile" },
+      { "label": "16 langues" },
+      { "label": "180+ pays" }
+    ]
+  },
+  "overview": {
+    "headline": "Une plateforme intégrée",
+    "headlineHighlight": "de bout en bout",
+    "description": "Des modules puissants qui fonctionnent ensemble pour offrir une expérience complète, intelligente et sans silos."
+  },
+  "aiGrid": {
+    "headline": "L'IA dans toute la",
+    "headlineHighlight": "plateforme Interfy",
+    "items": [
+      { "title": "Recherche intelligente", "description": "Trouvez tout en langage naturel" },
+      { "title": "Création de processus", "description": "Modélisez des flux de façon intelligente" },
+      { "title": "Extraction de données", "description": "Capturez des données de documents par IA" },
+      { "title": "Agents autonomes", "description": "Exécution, décisions et intégrations" },
+      { "title": "Classification automatique", "description": "Organisez et catégorisez sans effort" },
+      { "title": "Génération de formulaires", "description": "L'IA crée des formulaires prêts à l'emploi" },
+      { "title": "Approbations assistées", "description": "Recommandations et validations intelligentes" },
+      { "title": "Commande vocale", "description": "Exécutez des actions, consultez et créez" }
+    ]
+  },
+  "workspace": {
+    "headline": "Pourquoi tout centraliser dans un seul",
+    "headlineHighlight": "Workspace ?",
+    "items": [
+      {
+        "title": "Une activité unifiée",
+        "description": "Données, documents, tâches et processus au même endroit. Une vue complète, sans silos."
+      },
+      {
+        "title": "Un Workspace qui vous est propre",
+        "description": "URL dédiée, identité visuelle, permissions granulaires et environnement propre à votre entreprise."
+      },
+      {
+        "title": "Des automatisations entre produits",
+        "description": "Les documents déclenchent des processus, les approbations génèrent des signatures, les captures alimentent le référentiel et les tableaux de bord."
+      },
+      {
+        "title": "Moins de logiciels, plus de contrôle",
+        "description": "Réduisez les retouches, les coûts, les intégrations fragiles et les silos d'information."
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Sécurité, intégrations et infrastructure de la plateforme Interfy",
+    "cards": [
+      {
+        "title": "Sécurité et gouvernance",
+        "checklist": [
+          "Chiffrement en transit et au repos",
+          "Permissions granulaires et rôles",
+          "Pistes d'audit complètes",
+          "Conformité mondiale (RGPD, ISO)",
+          "Politiques de rétention et de suppression"
+        ]
+      },
+      {
+        "title": "API et intégrations",
+        "checklist": [
+          "API RESTful complètes",
+          "Webhooks en temps réel",
+          "Connecteurs prêts à l'emploi pour les systèmes populaires",
+          "Intégration entre données, documents et processus"
+        ]
+      },
+      {
+        "title": "Infrastructure cloud-native",
+        "checklist": [
+          "Architecture évolutive et résiliente",
+          "Haute disponibilité 24/7",
+          "Sauvegardes automatiques et géo-redondance",
+          "Supervision intelligente",
+          "Activité mondiale à faible latence"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Commencez à utiliser la plateforme Interfy",
+    "headline": "Prête pour",
+    "headlineHighlight": "les entreprises mondiales",
+    "title": "Transformez votre activité avec Interfy.ai",
+    "description": "Créez votre compte, faites un test drive et découvrez comment une plateforme native IA peut simplifier, automatiser et accélérer votre entreprise.",
+    "primaryButton": "Commencer gratuitement",
+    "secondaryButton": "Planifier une démonstration",
+    "statsLabel": "La présence mondiale d'Interfy",
+    "features": [
+      { "label": "180+ pays", "sublabel": "Une présence mondiale en expansion" },
+      { "label": "16 langues", "sublabel": "Interface et expérience en 16 langues" },
+      { "label": "6 régions commerciales", "sublabel": "Un accompagnement local et spécialisé" },
+      { "label": "Web + Mobile", "sublabel": "Accessible de partout, sur tout appareil" },
+      { "label": "États-Unis et Brésil", "sublabel": "Des structures locales et une conformité régionale" },
+      { "label": "Support mondial", "sublabel": "Un support spécialisé avec des SLA de niveau international" }
+    ]
+  }
+}

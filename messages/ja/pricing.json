@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "料金プラン",
+    "description": "貴社の規模に最適なプランをお選びください: Free、Individual、Teams、Startup、または中小企業・大企業向けプラン。",
+    "keywords": ["Interfy 料金", "Interfy プラン", "ドキュメント管理 費用", "AIネイティブ エンタープライズプラン"]
+  },
+  "hero": {
+    "headingPrefix": "AIで業務を変革する",
+    "headingHighlight": "オールインワンプラットフォーム。",
+    "description": "貴社の規模に最適なプランを選び、ドキュメント、プロセス、人材を実際の成果へと変えていきましょう。",
+    "monthlyCta": "月払い",
+    "annualCta": "年払い",
+    "saveBadge": "最大30%お得",
+    "imageAlt": "ノートパソコンとスマートフォンに表示されたInterfyプラットフォーム。AIによる管理画面を表示",
+    "highlights": ["7日間無料トライアル", "無料の電子署名", "WebとMobileでアクセス可能", "AI機能を標準搭載"]
+  },
+  "plansSection": {
+    "heading": "Interfyのプラン",
+    "segmentSmallTitle": "スモールビジネス",
+    "segmentSmallDesc": "プロフェッショナル、チーム、成長中の企業向け。",
+    "segmentLargeTitle": "中小企業・大企業",
+    "segmentLargeDesc": "複雑な業務、ガバナンス、グローバルなスケールに対応。",
+    "billingAriaLabel": "月払いと年払いを切り替える",
+    "billingMonthly": "月払い",
+    "billingAnnual": "年払い",
+    "billingSaveBadge": "30%お得",
+    "billingAnnualLabel": "年払い契約",
+    "billingMonthlyLabel": "月払い契約",
+    "perUserMonth": "ユーザー / 月あたり",
+    "productsIncludedLabel": "プランに含まれるプロダクト",
+    "allProductsLabel": "全8プロダクト対応",
+    "enterprisePriceLabel": "お問い合わせください",
+    "enterprisePriceSub": "個別見積り",
+    "popularBadge": "人気プラン"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "無料で始める",
+      "productsLabel": "3プロダクト対応",
+      "features": [
+        "フルアクセスユーザー1名",
+        "1GBのストレージ",
+        "AIクレジット5クレジット/月",
+        "電子署名への送信3件/月(非累積)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!",
+      "productsLabel": "4プロダクト対応",
+      "features": [
+        "ユーザー数無制限(ユーザー課金制)",
+        "フルアクセスユーザー最低1名",
+        "参照専用ユーザー2名",
+        "5GBのストレージ",
+        "AIクレジット10クレジット/月(非累積)",
+        "電子署名への送信10件/月(非累積)",
+        "チャットによるドキュメントのやり取り・共有10チケット/月(非累積)"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!",
+      "productsLabel": "5プロダクト対応",
+      "features": [
+        "ユーザー数無制限(ユーザー課金制)",
+        "フルアクセスユーザー最低5名",
+        "参照専用ユーザー5名",
+        "Interfy Capture + Mobile",
+        "10GBのストレージ",
+        "AIクレジット10クレジット/月(非累積)",
+        "電子署名への送信10件/月(非累積)",
+        "チャットによるドキュメントのやり取り・共有10チケット/月(非累積)",
+        "OCRフルテキスト検索"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!",
+      "productsLabel": "8プロダクト対応",
+      "features": [
+        "ユーザー数無制限(ユーザー課金制)",
+        "フルアクセスユーザー最低5名",
+        "参照専用ユーザー5名",
+        "Interfy Capture + Mobile",
+        "15GBのストレージ",
+        "AIクレジット20クレジット/月(非累積)",
+        "電子署名への送信10件/月(非累積)",
+        "チャットによるドキュメントのやり取り・共有10チケット/月(非累積)",
+        "プロセス数無制限",
+        "OCRフルテキスト検索"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "今すぐ契約する",
+      "trialLabel": "7日間無料トライアル!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "カスタムソリューション",
+      "ctaLabel": "専門スタッフに相談する",
+      "trialLabel": "お問い合わせください"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "ユーザー数無制限(ユーザー課金制)",
+      "business": "ユーザー数無制限(ユーザー課金制)",
+      "corporate": "ユーザー数無制限(ユーザー課金制)",
+      "enterprise": "ユーザー数無制限(ユーザー課金制)"
+    },
+    {
+      "starter": "フルアクセスユーザー最低5名",
+      "business": "フルアクセスユーザー最低10名",
+      "corporate": "フルアクセスユーザー最低15名",
+      "enterprise": "フルアクセスユーザー(お問い合わせにより決定)"
+    },
+    {
+      "starter": "参照専用ユーザー10名",
+      "business": "参照専用ユーザー15名",
+      "corporate": "参照専用ユーザー30名",
+      "enterprise": "参照専用ユーザー数無制限"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "ストレージ25GB",
+      "business": "ストレージ50GB",
+      "corporate": "ストレージ100GB",
+      "enterprise": "ストレージ(お問い合わせにより決定)"
+    },
+    {
+      "starter": "AIクレジット100クレジット/月(非累積)",
+      "business": "AIクレジット250クレジット/月(非累積)",
+      "corporate": "AIクレジット500クレジット/月(非累積)",
+      "enterprise": "AIクレジット/月(非累積)(お問い合わせにより決定)"
+    },
+    {
+      "starter": "電子署名への送信10件/月(非累積)",
+      "business": "電子署名への送信20件/月(非累積)",
+      "corporate": "電子署名への送信30件/月(非累積)",
+      "enterprise": "電子署名への送信数無制限"
+    },
+    {
+      "starter": "チャットによるドキュメントのやり取り・共有10チケット/月(非累積)",
+      "business": "チャットによるドキュメントのやり取り・共有15チケット/月(非累積)",
+      "corporate": "チャットによるドキュメントのやり取り・共有20チケット/月(非累積)",
+      "enterprise": "チャットによるドキュメントのやり取り・共有500チケット/月(非累積)"
+    },
+    {
+      "starter": "プロセスにおける外部ユーザー向けダイナミックインタラクション10件/月(非累積)",
+      "business": "プロセスにおける外部ユーザー向けダイナミックインタラクション15件/月(非累積)",
+      "corporate": "プロセスにおける外部ユーザー向けダイナミックインタラクション20件/月(非累積)",
+      "enterprise": "プロセスにおける外部ユーザー向けダイナミックインタラクション500件/月(非累積)"
+    },
+    {
+      "starter": "プロセス数無制限",
+      "business": "プロセス数無制限",
+      "corporate": "プロセス数無制限",
+      "enterprise": "プロセス数無制限"
+    },
+    {
+      "starter": "Interfy APIへのアクセス",
+      "business": "Interfy APIへのアクセス",
+      "corporate": "Interfy APIへのアクセス",
+      "enterprise": "Interfy APIへのアクセス"
+    },
+    {
+      "starter": "カスタムビジュアルアイデンティティ(White Label)",
+      "business": "カスタムビジュアルアイデンティティ(White Label)",
+      "corporate": "カスタムビジュアルアイデンティティ(White Label)",
+      "enterprise": "カスタムビジュアルアイデンティティ(White Label)"
+    },
+    {
+      "starter": "データ分離された専用URL",
+      "business": "データ分離された専用URL",
+      "corporate": "データ分離された専用URL",
+      "enterprise": "データ分離された専用URL"
+    },
+    {
+      "starter": "データベース連携",
+      "business": "データベース連携",
+      "corporate": "データベース連携",
+      "enterprise": "データベース連携"
+    },
+    {
+      "starter": "管理機能と高度なセキュリティ制御を備えたワークスペース",
+      "business": "管理機能と高度なセキュリティ制御を備えたワークスペース",
+      "corporate": "管理機能と高度なセキュリティ制御を備えたワークスペース",
+      "enterprise": "管理機能と高度なセキュリティ制御を備えたワークスペース"
+    },
+    {
+      "starter": "AD/LDAP認証",
+      "business": "AD/LDAP認証",
+      "corporate": "AD/LDAP認証",
+      "enterprise": "AD/LDAP認証"
+    },
+    {
+      "starter": "IPアドレスによるブロック",
+      "business": "IPアドレスによるブロック",
+      "corporate": "IPアドレスによるブロック",
+      "enterprise": "IPアドレスによるブロック"
+    },
+    {
+      "starter": "多要素認証",
+      "business": "多要素認証",
+      "corporate": "多要素認証",
+      "enterprise": "多要素認証"
+    },
+    {
+      "starter": "OCRフルテキスト検索",
+      "business": "OCRフルテキスト検索",
+      "corporate": "OCRフルテキスト検索",
+      "enterprise": "OCRフルテキスト検索"
+    },
+    {
+      "starter": "物理文書管理モジュール",
+      "business": "物理文書管理モジュール",
+      "corporate": "物理文書管理モジュール",
+      "enterprise": "物理文書管理モジュール"
+    }
+  ],
+  "comparison": {
+    "srHeading": "プラン比較",
+    "resourcesLabel": "機能",
+    "includedAlt": "対応",
+    "rows": [
+      { "label": "ユーザー", "values": { "free": "最大3名", "individual": "1名", "teams": "無制限", "startup": "無制限" } },
+      { "label": "ワークスペース", "values": { "free": "1", "individual": "1", "teams": "無制限", "startup": "無制限" } },
+      { "label": "ストレージ", "values": { "free": "5GB", "individual": "50GB", "teams": "100GB", "startup": "無制限" } },
+      { "label": "電子署名", "values": { "free": "無料", "individual": "無料", "teams": "無料", "startup": "無料" } },
+      { "label": "モバイルアプリ", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "含まれるモジュール",
+        "values": {
+          "free": "DocumentsとSign",
+          "individual": "Documents、Sign、Connect",
+          "teams": "Documents、Sign、Connect",
+          "startup": "Processを除く全モジュール"
+        }
+      },
+      {
+        "label": "AI機能",
+        "values": { "free": "基本機能", "individual": "標準", "teams": "高度な機能", "startup": "無制限・クレジット込み" }
+      },
+      { "label": "AIクレジット/月", "values": { "free": "-", "individual": "1,000", "teams": "3,000", "startup": "10,000" } },
+      { "label": "サポート", "values": { "free": "メール", "individual": "メール", "teams": "優先対応", "startup": "プレミアム24時間365日" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "全機能を見てプランを比較する",
+    "sections": [
+      {
+        "label": "Interfy Processの機能",
+        "features": [
+          "プロセス作成数無制限",
+          "BPMN 2.0デザイナー",
+          "案件開始用の外部リンク",
+          "進行中のプロセスで直接ドキュメントをキャプチャ",
+          "パブリック変数の作成",
+          "ダイナミックユーザー",
+          "並行フロー",
+          "タスクボックス",
+          "サブプロセス",
+          "プロセスの監督",
+          "案件履歴の表示",
+          "プロセスの高度な検索",
+          "プロセス進行状況のグラフィカル表示",
+          "各タスクに割り当てる時間のパラメータ設定と管理",
+          "アラート付き通知の管理",
+          "手動・循環・セルフサービスによる割り当て(変数別、値別、組織単位別)",
+          "プロセス管理のためのスーパーバイザー任命",
+          "スーパーバイザーによる案件の再割り当て",
+          "ユーザーまたはスーパーバイザーの権限に応じた案件のキャンセル",
+          "営業日カレンダー",
+          "タスク受信の通知",
+          "SLAに基づく階層別の通知",
+          "SLAの危機的状況または終了時の通知",
+          "SLAと営業日カレンダーの連携",
+          "Interfy DocumentsとInterfy Processの連携",
+          "Webサービスとの連携"
+        ]
+      },
+      {
+        "label": "Interfy Documentsの機能",
+        "features": [
+          "コンテンツの一元管理",
+          "高度な監査機能",
+          "ドキュメントのバージョン管理",
+          "文書の保存期間管理",
+          "柔軟なフォルダ構成",
+          "コンテンツへのアクセスプロファイル設定",
+          "コンテンツ共有用の外部リンク",
+          "さまざまなファイル形式でのドキュメント作成",
+          "Microsoft Officeとの連携(ドラッグ&ドロップ)",
+          "高度な検索",
+          "インデックスシートの作成(電子フォーム)",
+          "ドキュメントの物理的な保管場所管理",
+          "ストレージ消費量とユーザー数の管理",
+          "主要なファイル形式に対応した専用ビューア",
+          "ドキュメントのスキャンとアップロード",
+          "100% Webによるローカル・分散キャプチャ",
+          "スキャナーによるキャプチャ",
+          "複合機によるキャプチャ",
+          "スマートフォンによるキャプチャ",
+          "ウェブカメラによるキャプチャ"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "いつでもプランを変更できますか?",
+      "answer": "はい。管理パネルからいつでも直接プランのアップグレードやダウングレードが可能で、違約金や手続きの手間はありません。"
+    },
+    {
+      "question": "AIクレジットはどのように利用しますか?",
+      "answer": "各プランには月間のAIクレジット枠が含まれており、インテリジェント抽出やエージェントなどの機能で使用されます。クレジットは非累積で、毎月更新されます。"
+    },
+    {
+      "question": "無料トライアル期間終了後はどうなりますか?",
+      "answer": "7日間の無料期間終了後、プラットフォームの利用を継続するための最適なプランをお選びいただけます。トライアル開始にクレジットカードは不要です。"
+    },
+    {
+      "question": "利用できる支払い方法は何ですか?",
+      "answer": "クレジットカード、銀行振込に加え、年間契約およびEnterpriseプランでは請求書による支払いにも対応しています。"
+    },
+    {
+      "question": "プランに導入支援は含まれますか?",
+      "answer": "Starter、Business、Corporateプランにはガイド付きオンボーディングが含まれます。Enterpriseプランでは、専門チームによる専任の導入支援を提供します。"
+    },
+    {
+      "question": "年間契約による割引はありますか?",
+      "answer": "はい。年払いを選択すると、Starter、Business、Corporateいずれのプランでも月払い料金に比べて最大30%お得になります。"
+    }
+  ],
+  "faqAriaExpand": "回答を切り替える",
+  "base": {
+    "trialTitle": "Interfy.aiの全機能を7日間無料でお試しください。",
+    "trialSub": "クレジットカード不要。契約の強制もありません。",
+    "trialCta": "無料トライアルを試す",
+    "demoCta": "デモを予約する",
+    "statsLabel": "Interfyプラットフォームの数字",
+    "faqHeading": "よくあるご質問",
+    "specialistTitle": "専門スタッフに相談する",
+    "specialistDesc": "私たちのチームが、貴社に最適なプランをお選びするお手伝いをいたします。",
+    "specialistCta": "専門スタッフに相談する",
+    "ctaTitle": "業務の変革を始める準備はできていますか?",
+    "ctaDesc": "すでにInterfy.aiを信頼している数千社の企業に加わりましょう。",
+    "ctaButton": "今すぐ始める",
+    "srHeading": "Interfyを使い始める"
+  }
+}

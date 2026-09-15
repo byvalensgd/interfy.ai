@@ -3,6 +3,7 @@ import { siteConfig } from "@/config/site";
 import { articulat } from "@/app/fonts";
 import { locales, HTML_LANG, OG_LOCALE } from "@/lib/i18n/config";
 import { getLocale, getDictionary } from "@/lib/i18n/dictionaries";
+import { LANGUAGE_INFO } from "@/config/languages";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "../globals.css";
@@ -97,7 +98,11 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   };
 
   return (
-    <html lang={HTML_LANG[locale]} className={`${articulat.variable} h-full antialiased`}>
+    <html
+      lang={HTML_LANG[locale]}
+      dir={LANGUAGE_INFO[locale].dir}
+      className={`${articulat.variable} h-full antialiased`}
+    >
       <body className="flex min-h-full flex-col">
         <script
           type="application/ld+json"

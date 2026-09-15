@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Processなら、ビジュアルなプロセス設計、スマートフォーム、AIによる強力な自動化を実現できます。すべてのステップで、より高いスピード、コントロール、効率を。",
+    "keywords": ["プロセス自動化", "BPM", "業務ワークフロー", "スマートフォーム", "Interfy Process"],
+    "freeTrialNote": "7日間無料トライアル、クレジットカード不要"
+  },
+  "hero": {
+    "titlePrefix": "AIでプロセスを構築、自動化、変革",
+    "titleHighlight": "しましょう。",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": "なら、ビジュアルなプロセス設計、スマートフォーム、AIによる強力な自動化を実現できます。すべてのステップで、より高いスピード、コントロール、効率を。",
+    "ctaPrimary": "無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "mockupAlt": "タブレットとスマートフォンに表示されたInterfy Processのプラットフォーム画面。プロセスのビジュアル設計とタスク一覧を表示",
+    "stats": [
+      { "label": "600万+", "sublabel": "件の自動化されたプロセス" },
+      { "label": "25,000+", "sublabel": "社の導入企業" },
+      { "label": "250万+", "sublabel": "人のアクティブユーザー" },
+      { "label": "100% Web", "sublabel": "どこからでもアクセス可能" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "業務全体を支える",
+    "headingHighlight": "完全な自動化",
+    "items": [
+      { "title": "ビジュアルなプロセス作成", "description": "ドラッグ&ドロップのビジュアルデザイナーで、シンプルかつ直感的にフローを構築できます。" },
+      { "title": "AIによるプロセス作成", "description": "やりたいことを説明するだけで、AIが数秒で最適なプロセスを作成します。" },
+      { "title": "フォームの自動生成", "description": "AIがプロセスからスマートな入力項目を備えた完全なフォームを生成します。" },
+      { "title": "スマートフォーム", "description": "条件付き項目、自動検証、計算機能でミスや手戻りを削減します。" },
+      { "title": "承認フロー", "description": "並列または条件付きの複数階層に対応した柔軟な承認フローです。" },
+      { "title": "タスク管理", "description": "期限、優先度、担当者を設定してタスクを割り当て、追跡、管理できます。" },
+      { "title": "業務ルール", "description": "カスタムルールと高度な条件で、判断とアクションを自動化します。" },
+      { "title": "SLA管理", "description": "サービスレベル契約の期限を設定し、自動で監視・アラートを行います。" },
+      { "title": "アラートと通知", "description": "メール、プッシュ、プラットフォーム内通知で全員の連携を保ちます。" },
+      { "title": "リアルタイムダッシュボード", "description": "動的でビジュアルなダッシュボードで業務の状況を常に把握できます。" },
+      { "title": "指標とメトリクス", "description": "パフォーマンス、ボトルネック、生産性を測るカスタム指標を用意します。" },
+      { "title": "外部関係者の参加", "description": "顧客、サプライヤー、パートナーを安全かつ管理された形でプロセスに参加させます。" },
+      { "title": "Mobileでのプロセス実行", "description": "Interfy Mobileアプリから、いつでもどこでもプロセスの実行、承認、確認ができます。" },
+      { "title": "テンプレート集", "description": "さまざまな業種向けにすぐ使えるプロセステンプレートのライブラリです。" },
+      { "title": "Agentsによる自動化", "description": "AIエージェントがタスクを自動実行し、データを分析し、賢明なアクションを取ります。" },
+      { "title": "ネイティブ連携", "description": "Interfy Documents、Capture、Signと完全に連携し、100%つながったフローを実現します。" }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Interfyエコシステムと",
+    "headingHighlight": "ネイティブに連携",
+    "description": "業種を選んで、Interfy AIが課題をどのように実際の成果へ変えるかご覧ください。",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "プロセスに必要な文書と情報をすぐに活用できます。" },
+      { "description": "スマートなキャプチャとデータ抽出を行います。" },
+      { "description": "プロセスとインテリジェントな自動化を実現します。" },
+      { "description": "デジタル署名をフローに統合します。" },
+      { "description": "リアルタイムのコラボレーションとコミュニケーションを行います。" },
+      { "description": "分析し、判断し、実行するAIエージェントです。" }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "プラットフォームの特徴",
+    "items": [
+      { "title": "単一のプラットフォーム", "description": "業種別のバージョンは不要です" },
+      { "title": "100%カスタマイズ可能", "description": "自社の業務に合わせて設定できます" },
+      { "title": "迅速な導入", "description": "複雑な設定なしで数分で開始できます" },
+      { "title": "エンタープライズ級のセキュリティ", "description": "データ保護と独立した環境を提供します" },
+      { "title": "全業種に対応するAI", "description": "文脈を理解するインテリジェントなエージェント" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "実績と対応するプロセスの種類",
+    "practiceTitlePrefix": "実際に見える",
+    "practiceTitleHighlight": "成果",
+    "checklist": [
+      "手戻りの削減と標準化の向上",
+      "より速く効率的なプロセス",
+      "運用コストの削減",
+      "完全な透明性とトレーサビリティ",
+      "データと指標に基づく質の高い意思決定",
+      "顧客、チーム、パートナーの満足度向上"
+    ],
+    "chartTitle": "完了したリクエスト件数",
+    "chartAriaLabel": "1月から6月にかけての完了リクエスト件数の増加を示す折れ線グラフ。32%の増加",
+    "chartMonths": ["1月", "2月", "3月", "4月", "5月", "6月"],
+    "typesTitlePrefix": "あらゆる",
+    "typesTitleHighlight": "プロセスに対応",
+    "processTypes": [
+      { "label": "総務" },
+      { "label": "財務" },
+      { "label": "購買" },
+      { "label": "人事" },
+      { "label": "法務" },
+      { "label": "営業" },
+      { "label": "オペレーション" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy Processを使い始める",
+    "title": "業務を変革する準備はできていますか？",
+    "description": "今すぐ7日間無料で始めて、Interfy Processがどのように企業の成長を後押しするか体験してください。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "statsLabel": "Interfy Processの強み",
+    "features": [
+      { "label": "100% Web", "sublabel": "どこからでもアクセス可能" },
+      { "label": "最高水準のセキュリティ", "sublabel": "保護され、法令に準拠したデータ" },
+      { "label": "スケーラブル", "sublabel": "小規模から大企業まで対応" },
+      { "label": "24時間365日サポート", "sublabel": "いつでも対応します" }
+    ]
+  }
+}

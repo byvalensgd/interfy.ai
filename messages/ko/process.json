@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process를 통해 시각적 프로세스, 스마트 양식, 강력한 AI 자동화를 만들어보세요. 모든 단계에서 더 빠른 속도와 더 나은 통제, 효율성을 경험하세요.",
+    "keywords": ["프로세스 자동화", "BPM", "기업 워크플로우", "스마트 양식", "Interfy Process"],
+    "freeTrialNote": "신용카드 없이 7일 무료 체험"
+  },
+  "hero": {
+    "titlePrefix": "AI로 프로세스를 만들고, 자동화하고, ",
+    "titleHighlight": "혁신하세요.",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": "를 통해 시각적 프로세스, 스마트 양식, 강력한 AI 자동화를 만들어보세요. 모든 단계에서 더 빠른 속도와 더 나은 통제, 효율성을 경험하세요.",
+    "ctaPrimary": "무료 체험 시작하기",
+    "ctaSecondary": "데모 예약하기",
+    "mockupAlt": "태블릿과 스마트폰에서 실행되는 Interfy Process 플랫폼, 시각적 프로세스 설계 화면과 작업 목록을 보여줌",
+    "stats": [
+      { "label": "600만 +", "sublabel": "자동화된 프로세스" },
+      { "label": "25,000 +", "sublabel": "고객사" },
+      { "label": "250만 +", "sublabel": "활성 사용자" },
+      { "label": "100% 웹 기반", "sublabel": "어디서나 접속 가능" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "업무 전반을 위한 ",
+    "headingHighlight": "완전한 자동화",
+    "items": [
+      { "title": "시각적 프로세스 설계", "description": "드래그 앤 드롭 방식의 비주얼 디자이너로 간단하고 직관적으로 흐름을 구성하세요." },
+      { "title": "AI 기반 프로세스 생성", "description": "필요한 내용을 설명하면 AI가 몇 초 만에 최적의 프로세스를 만들어 드립니다." },
+      { "title": "자동 양식 생성", "description": "AI가 프로세스를 기반으로 스마트한 필드가 포함된 완전한 양식을 자동 생성합니다." },
+      { "title": "스마트 양식", "description": "조건부 필드, 자동 유효성 검사, 계산 기능으로 오류와 재작업을 줄여줍니다." },
+      { "title": "승인 관리", "description": "여러 단계의 병렬 또는 조건부 승인 흐름을 유연하게 구성할 수 있습니다." },
+      { "title": "작업 관리", "description": "마감일, 우선순위, 담당자를 지정해 작업을 할당하고 추적, 관리하세요." },
+      { "title": "비즈니스 규칙", "description": "맞춤형 규칙과 고급 조건으로 의사결정과 액션을 자동화합니다." },
+      { "title": "SLA 관리", "description": "모니터링과 자동 알림 기능으로 처리 기한과 서비스 수준 계약을 설정합니다." },
+      { "title": "알림 및 공지", "description": "이메일, 푸시, 플랫폼 내 알림으로 모든 팀원이 최신 정보를 유지하도록 합니다." },
+      { "title": "실시간 대시보드", "description": "동적이고 최신 상태로 업데이트되는 대시보드로 업무 현황을 파악하세요." },
+      { "title": "지표 및 성과 측정", "description": "성과, 병목 구간, 생산성을 측정하는 맞춤형 지표를 제공합니다." },
+      { "title": "외부 참여자 연동", "description": "고객, 공급업체, 파트너를 안전하고 통제된 방식으로 프로세스에 참여시키세요." },
+      { "title": "모바일 프로세스", "description": "Interfy Mobile 앱으로 언제 어디서나 프로세스를 실행, 승인, 추적하세요." },
+      { "title": "즉시 사용 가능한 템플릿", "description": "다양한 산업 분야에 바로 적용할 수 있는 프로세스 템플릿 라이브러리를 제공합니다." },
+      { "title": "에이전트 기반 자동화", "description": "AI 에이전트가 자동으로 작업을 수행하고 데이터를 분석하여 지능적인 액션을 실행합니다." },
+      { "title": "네이티브 통합", "description": "Interfy Documents, Capture, Sign과 완벽하게 통합되어 100% 연결된 흐름을 제공합니다." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Interfy 생태계와의 ",
+    "headingHighlight": "네이티브 통합",
+    "description": "산업 분야를 선택하고 Interfy AI가 어떻게 문제를 실질적인 성과로 전환하는지 확인해보세요.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "프로세스가 필요할 때 바로 접근할 수 있는 문서와 정보." },
+      { "description": "스마트한 캡처와 데이터 추출." },
+      { "description": "지능적인 프로세스와 자동화." },
+      { "description": "흐름에 통합된 디지털 서명." },
+      { "description": "실시간 협업과 커뮤니케이션." },
+      { "description": "분석하고, 결정하고, 실행하는 AI 에이전트." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "플랫폼의 차별점",
+    "items": [
+      { "title": "하나의 통합 플랫폼", "description": "산업별 별도 버전이 필요 없습니다" },
+      { "title": "100% 맞춤 설정 가능", "description": "귀사의 비즈니스에 맞게 설정하세요" },
+      { "title": "빠른 도입", "description": "복잡한 과정 없이 몇 분 만에 시작하세요" },
+      { "title": "엔터프라이즈급 보안", "description": "데이터 보호와 격리된 환경" },
+      { "title": "모든 부서를 위한 AI", "description": "업무 맥락을 이해하는 지능형 에이전트" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "성과와 지원하는 프로세스 유형",
+    "practiceTitlePrefix": "실제로 확인할 수 있는 ",
+    "practiceTitleHighlight": "결과",
+    "checklist": [
+      "재작업 감소와 더 높은 표준화",
+      "더 빠르고 효율적인 프로세스",
+      "운영 비용 절감",
+      "완전한 투명성과 추적 가능성",
+      "데이터와 지표 기반의 더 나은 의사결정",
+      "고객, 팀, 파트너 만족도 향상"
+    ],
+    "chartTitle": "완료된 요청 건수",
+    "chartAriaLabel": "1월부터 6월까지 완료된 요청 건수가 32% 증가한 것을 보여주는 선 그래프",
+    "chartMonths": ["1월", "2월", "3월", "4월", "5월", "6월"],
+    "typesTitlePrefix": "모든 ",
+    "typesTitleHighlight": "프로세스 유형에 최적화",
+    "processTypes": [
+      { "label": "행정" },
+      { "label": "재무" },
+      { "label": "구매" },
+      { "label": "인사" },
+      { "label": "법무" },
+      { "label": "영업" },
+      { "label": "운영" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy Process 시작하기",
+    "title": "업무 방식을 혁신할 준비가 되셨나요?",
+    "description": "지금 7일 무료 체험을 시작하고 Interfy Process가 귀사에 어떤 변화를 가져올 수 있는지 확인해보세요.",
+    "ctaPrimary": "7일 무료 체험 시작하기",
+    "ctaSecondary": "데모 예약하기",
+    "statsLabel": "Interfy Process의 차별점",
+    "features": [
+      { "label": "100% 웹 기반", "sublabel": "어디서나 접속 가능" },
+      { "label": "최상급 보안", "sublabel": "보호되고 규정을 준수하는 데이터" },
+      { "label": "확장 가능", "sublabel": "소규모부터 대규모 기업까지" },
+      { "label": "24/7 지원", "sublabel": "언제든 필요할 때" }
+    ]
+  }
+}

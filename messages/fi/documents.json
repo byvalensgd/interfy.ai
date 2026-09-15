@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Documents",
+    "description": "Interfy Documents on dokumenttienhallinnan uusi sukupolvi. Järjestä, löydä, suojaa ja jaa dokumentteja tekoälyn avulla joka vaiheessa.",
+    "keywords": ["dokumenttienhallinta", "sähköinen arkistointi", "ECM", "sähköinen dokumenttienhallinta", "Interfy Documents"],
+    "freeTrialNote": "Ilmainen 7 päivän kokeilu, ei luottokorttia."
+  },
+  "hero": {
+    "headingLine1": "Dokumenttisi eivät ole enää tiedostoja. Niistä tulee",
+    "headingHighlight": "älykästä tietoa.",
+    "descriptionBrand": "Interfy Documents",
+    "description": "on dokumenttienhallinnan uusi sukupolvi. Järjestä, löydä, suojaa ja jaa dokumentteja tekoälyn avulla joka vaiheessa.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "stats": [
+      { "label": "100 % Web", "sublabel": "Käytä missä tahansa" },
+      { "label": "AI-Native", "sublabel": "Älykkyyttä joka askeleessa" },
+      { "label": "Turvallinen ja luotettava", "sublabel": "Hallinta ja vaatimustenmukaisuus" }
+    ],
+    "mockupAlt": "Interfy Documents -alusta näytettynä tabletilla ja älypuhelimessa, dokumenttien ja kansioiden lista näkyvissä",
+    "chatCard": {
+      "line1": "Löydä allekirjoitetut sopimukset",
+      "line2": "Acme-yrityksen kanssa vuonna 2024"
+    }
+  },
+  "capabilities": {
+    "heading": "Täydellinen dokumenttienhallinta",
+    "headingHighlight": "tekoälyn avulla",
+    "items": [
+      {
+        "title": "Turvallinen tallennus",
+        "description": "Tallenna minkä tahansa tyyppisiä dokumentteja turvallisesti, korkealla käytettävyydellä ja yritystason suojauksella."
+      },
+      {
+        "title": "Älykäs järjestäminen",
+        "description": "Rakenna kansioita, alikansioita ja kategorioita omalla tavallasi, joustavilla malleilla ja tageilla."
+      },
+      {
+        "title": "Älykäs haku",
+        "description": "Löydä dokumentit sekunneissa kehittyneillä suodattimilla, AI:lla ja semanttisella hauella."
+      },
+      {
+        "title": "Haku luonnollisella kielellä",
+        "description": "Kysy omalla tavallasi. AI ymmärtää ja löytää tarvitsemasi."
+      },
+      {
+        "title": "Automaattinen luokittelu AI:lla",
+        "description": "AI luokittelee ja kategorisoi dokumentit automaattisesti, vähentäen manuaalista työtä ja virheitä."
+      },
+      {
+        "title": "Tiedon poiminta",
+        "description": "Poimi tietoa automaattisesti sopimuksista, laskuista, lomakkeista ja paljon muusta."
+      },
+      {
+        "title": "Metatiedot ja indeksointi",
+        "description": "Luo räätälöityjä metatietoja ja älykkäitä indeksejä tiedon tarkkaan hakuun."
+      },
+      {
+        "title": "Versionhallinta",
+        "description": "Täysi versiohistoria, dokumenttien vertailu ja palautus milloin tahansa."
+      },
+      {
+        "title": "Records Management",
+        "description": "Säilytyskäytännöt, laissa määrätyt määräajat ja automaattinen hävittäminen täydellä vaatimustenmukaisuudella."
+      },
+      {
+        "title": "Turvallinen jakaminen",
+        "description": "Jaa dokumentteja ja kansioita sisäisille ja ulkoisille käyttäjille turvallisesti ja hallitusti."
+      },
+      {
+        "title": "Kehittyneet käyttöoikeudet",
+        "description": "Hallitse, kuka voi katsella, muokata, latata, kommentoida tai jakaa kutakin dokumenttia."
+      },
+      {
+        "title": "Auditointi ja jäljitettävyys",
+        "description": "Täydelliset lokit kaikista toiminnoista, auditointijälki ja yksityiskohtaiset raportit."
+      },
+      {
+        "title": "Hallinta ja vaatimustenmukaisuus",
+        "description": "Käytännöt, roolit, säännöt ja hallintakeinot turvallisuuden, yksityisyyden ja vaatimustenmukaisuuden takaamiseksi."
+      },
+      {
+        "title": "Documents mobiilissa",
+        "description": "Käytä, katsele, jaa ja hyväksy missä tahansa Interfy Mobile -sovelluksella."
+      },
+      {
+        "title": "Täysi integraatio",
+        "description": "Natiivi integraatio Capturen, Processin, Signin, Connectin ja Agentsin kanssa jatkuvaa toimintaa varten."
+      },
+      {
+        "title": "AI-agentit",
+        "description": "Älykkäät agentit, jotka analysoivat, tekevät yhteenvetoja, luokittelevat ja ehdottavat toimia automaattisesti."
+      }
+    ],
+    "statsLabel": "Interfy-alustan mittakaava"
+  },
+  "ecosystem": {
+    "heading": "Natiivi integraatio koko",
+    "headingHighlight": "Interfy-ekosysteemiin",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Älykäs dokumenttien kaappaus." },
+      { "description": "Prosessien automaatio." },
+      { "description": "Integroitu digitaalinen allekirjoitus." },
+      { "description": "Yhteistyö ja viestintä." },
+      { "description": "AI-agentit, jotka ymmärtävät ja toimivat." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Interfy Documentsin edut",
+    "blocks": [
+      {
+        "title": "Tuottavuutta kämmenelläsi",
+        "description": "Interfy Mobile -sovellus tuo dokumenttienhallintasi mukaasi minne tahansa.",
+        "checklist": [
+          "Käytä ja katsele dokumentteja",
+          "Hyväksy pyynnöt ja tehtävät",
+          "Jaa turvallisesti",
+          "Hae AI:lla",
+          "Työskentele offline ja synkronoi myöhemmin"
+        ],
+        "imageAlt": "Interfy Mobile -sovellus näyttämässä dokumenttien listaa"
+      },
+      {
+        "title": "Turvallisuus ja hallinta etusijalla",
+        "description": "Interfy Documents on suunniteltu suojaamaan tietosi ja takaamaan vaatimustenmukaisuuden kaikilla tasoilla.",
+        "checklist": [
+          "Salaus levossa ja siirrossa",
+          "Roolipohjainen käyttöoikeuksien hallinta",
+          "LGPD, ISO 27001, SOC 2 ja GDPR",
+          "Täydelliset lokit ja auditointi",
+          "Automaattinen varmuuskopiointi ja katastrofipalautus"
+        ],
+        "imageAlt": "Kuvitus turvakilvestä, joka suojaa dokumentteja"
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Aloita Interfy Documentsin käyttö",
+    "title": "Muunna dokumenttisi strategiseksi tiedoksi",
+    "description": "Aloita nyt 7 ilmaisella päivällä ja katso, miten Interfy Documents voi mullistaa dokumenttienhallintasi.",
+    "primaryButton": "Ilmainen 7 päivän kokeilu",
+    "secondaryButton": "Varaa esittely",
+    "statsLabel": "Interfy Documentsin edut",
+    "features": [
+      { "label": "100 % Web", "sublabel": "Käytä missä tahansa" },
+      { "label": "Huippuluokan turvallisuus", "sublabel": "Tiedot suojattuna ja vaatimustenmukaisina" },
+      { "label": "Skaalautuva", "sublabel": "Pienestä suureen liiketoimintaan" },
+      { "label": "Tuki 24/7", "sublabel": "Aina kun tarvitset" }
+    ]
+  }
+}

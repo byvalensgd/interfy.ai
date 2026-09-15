@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Om oss",
+    "description": "Mer än 26 år av förenklad företagsstyrning. Lär känna historien, uppdraget och tekniken bakom Interfy, med huvudkontor i Orlando (USA) och närvaro i mer än 180 länder.",
+    "keywords": ["om Interfy", "Interfys historia", "uppdrag och vision", "Interfys varumärkesekosystem", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Förenklar det komplexa, förvandlar nuet, ",
+    "headingHighlight": "formar framtiden.",
+    "description": "I mer än två decennier har vi förvandlat företagsstyrning genom innovativ och tillgänglig teknik. Med huvudkontor i Orlando (USA) betjänar vi företag i mer än 180 länder och hjälper organisationer att lämna föråldrade system bakom sig för att nå operativ smidighet.",
+    "slideshowAlt": "Interfy-plattformen visad på laptop och smartphone, med kontrollpanelen för AI-driven hantering",
+    "ctaPrimary": "JAG VILL BLI PARTNER",
+    "ctaSecondary": "JAG VILL REKOMMENDERA KUNDER",
+    "statsAriaLabel": "Interfy i siffror",
+    "stats": [
+      { "label": "180+", "sublabel": "Länder vi betjänar" },
+      { "label": "25 tusen +", "sublabel": "Företag vi har förvandlat" },
+      { "label": "26 +", "sublabel": "Års erfarenhet" },
+      { "label": "Orlando, FL", "sublabel": "Huvudkontor i USA" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Skärpta av utmaningen, ",
+    "headingHighlight": "skalade för framgång",
+    "paragraph1": "Interfy är ingen nystartad startup, utan ett etablerat företag med mer än 26 års erfarenhet av att utveckla teknik för företagsstyrning. Med huvudkontor i Orlando, Florida (USA), utvecklar vi lösningar som betjänar företag runt om i världen. Vår teknik är byggd för att fungera i olika regulatoriska och kulturella miljöer, vilket garanterar flexibilitet och global efterlevnad.",
+    "paragraph2": "Vår plattform testas i några av världens mest krävande företagsmiljöer. Från den amerikanska marknaden till Latinamerika och Europa betjänar vi mer än 180 länder med samma excellens och robusthet som kännetecknar vårt varumärke."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Interfys uppdrag, vision och principer",
+    "vision": {
+      "title": "Vår vision",
+      "description": "Att bli erkända för att skapa värde för våra kunder runt om i världen genom en molnbaserad plattform för företagsstyrning som är tillgänglig, mobil och enkel att använda."
+    },
+    "mission": {
+      "title": "Vårt uppdrag",
+      "description": "Att erbjuda en molnbaserad plattform för hantering av företagsprocesser som är enkel att implementera och tillgänglig för företag av alla storlekar och branscher."
+    },
+    "principlesHeading": "Våra principer",
+    "principlesAriaLabel": "Interfys principer",
+    "principles": [
+      { "title": "Etik som grundpelare", "description": "Transparens och integritet är förhandlingsbara i allt vi gör." },
+      { "title": "Innovation genom förenkling", "description": "Sann innovation lägger inte till komplexitet — den förenklar." },
+      {
+        "title": "Teknisk demokratisering",
+        "descriptionPrefix": "Göra Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " tillgängliga för företag av alla storlekar."
+      },
+      { "title": "Besatta av användarvänlighet", "description": "En användarupplevelse för företag som kan mäta sig med konsumentappar." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "Integrationens blåa ocean",
+    "descriptionPrefix": "Medan konkurrenter som DocuSign, Box och Pipefy specialiserar sig på funktionella nischer (signaturer, lagring eller processer var för sig), satsar Interfy på en strategi för en ",
+    "descriptionHighlight": "komplett plattform",
+    "descriptionSuffix": ".",
+    "ariaLabel": "Interfys konkurrensfördelar",
+    "items": [
+      { "title": "Allt-i-ett-plattform", "description": "Documents + Process + Sign + Capture, nativt integrerade." },
+      { "title": "Lägre total ägandekostnad", "description": "Eliminera trötthet från prenumerationer hos dussintals leverantörer." },
+      { "title": "Molnbaserad arkitektur", "description": "AWS, Kubernetes, mikrotjänster — inget föråldrat system." },
+      { "title": "Low-code/no-code", "description": "Affärsanvändare bygger lösningar utan att skriva kod." },
+      { "title": "Säkerhet och efterlevnad", "description": "LGPD, GDPR, ISO 27001, kryptering från punkt till punkt." },
+      { "title": "Private label-partnerskap", "description": "En disruptiv affärsmodell som stärker partners." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Ekosystem",
+    "headingSuffix": " av varumärken",
+    "description": "Interfy verkar som ett teknikbolag (holding) som samlar varumärken som möjliggör djup förankring i specifika nischer.",
+    "ariaLabel": "Varumärken i Interfys ekosystem",
+    "brands": [
+      { "name": "Ecofy", "description": "Hållbara lösningar för en bättre planet." },
+      { "name": "Injectra", "description": "Amerikansk teknik för formsprutning." },
+      { "name": "Innovecar", "description": "Smart och tillgänglig mobilitet." },
+      { "name": "NeoAI", "description": "AI-driven plattform för uppkopplade affärer." },
+      { "name": "Processdoc", "description": "Smart hantering av processer och dokument." },
+      { "name": "Acquafy", "description": "Avancerade lösningar för renat vatten." },
+      { "name": "Interfy", "description": "Digital plattform för affärer och tjänster." },
+      { "name": "Visionfy", "description": "Dataanalys och AI för bättre beslut." },
+      { "name": "Mediafy", "description": "Marknadsföring och digital innehållsproduktion." },
+      { "name": "Docsystem", "description": "Kompletta dokumentlösningar för företag." }
+    ]
+  },
+  "technology": {
+    "heading": "Teknik i världsklass",
+    "ariaLabel": "Interfys tekniska infrastruktur",
+    "items": [
+      { "title": "Hosting", "description": "Amazon Web Services (AWS)." },
+      { "title": "Mobilitet", "description": "Responsivt webbgränssnitt i HTML5." },
+      { "title": "Kubernetes", "description": "Kubernetes-orkestrering för automatisk skalbarhet." },
+      { "title": "Flerspråkigt", "description": "Stöd för 16 språk." },
+      { "title": "Säkerhet", "description": "SSL/TLS-kryptering, 2FA, SSO." },
+      { "title": "Efterlevnad", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "Vi hjälper partners att bygga ",
+      "headingHighlight": "sina egna SaaS-bolag",
+      "ariaLabel": "Fördelar med White Label-modellen",
+      "items": [
+        { "title": "Fullständig White Label", "description": "Ditt varumärke, din logotyp, din URL." },
+        { "title": "Marginaler upp till 100 % +", "description": "Sätt ditt eget pris." },
+        { "title": "Noll investeringskostnad", "description": "Ingen miljoninvestering i utveckling behövs." },
+        { "title": "Betala per användning", "description": "Betala bara för kundernas verkliga förbrukning." },
+        { "title": "Specialiserat stöd", "description": "Utbildning, material och tekniskt stöd." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "Från passiv till aktiv",
+    "description": "Vi investerar i generativ artificiell intelligens för att förvandla plattformen från ett passivt hanteringssystem till ett system med aktiv intelligens.",
+    "ariaLabel": "Investeringar i artificiell intelligens",
+    "items": [
+      { "title": "Smarta förslag på åtgärder baserade på datamönster." },
+      { "title": "Proaktiv automatisering av repetitiva uppgifter." },
+      { "title": "Prediktiva insikter för beslutsfattande." },
+      { "title": "AI-assisterad skapelse", "description": "Automatisk utformning av BPMN-processer och formulär." },
+      { "title": "Smart dokumentanalys", "description": "AI som läser avtal och besvarar komplexa frågor." },
+      { "title": "Autonoma agenter", "description": "AI-agenter som utför uppgifter helt autonomt." }
+    ],
+    "statsLabel": "Interfy-plattformen i siffror",
+    "stats": [
+      { "label": "12 mdr +", "sublabel": "dokument" },
+      { "label": "20M +", "sublabel": "signaturer" },
+      { "label": "2,5M +", "sublabel": "användare" },
+      { "label": "6M +", "sublabel": "processer" },
+      { "label": "1000 TB +", "sublabel": "lagrat" },
+      { "label": "99,99%", "sublabel": "drifttid" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Redo att förvandla ditt företag?",
+    "subheading": "Gå med tusentals företag som redan har förenklat det komplexa med Interfy.",
+    "primaryLabel": "7 dagars testkörning",
+    "secondaryLabel": "Boka en demo"
+  }
+}

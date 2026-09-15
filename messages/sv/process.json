@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process låter dig skapa visuella processer, smarta formulär och kraftfulla automationer med AI. Mer smidighet, kontroll och effektivitet i varje steg.",
+    "keywords": ["processautomation", "BPM", "affärsarbetsflöden", "smarta formulär", "Interfy Process"],
+    "freeTrialNote": "Testa gratis i 7 dagar, inget kreditkort krävs"
+  },
+  "hero": {
+    "titlePrefix": "Skapa, automatisera och förvandla processer ",
+    "titleHighlight": "med AI.",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": " låter dig skapa visuella processer, smarta formulär och kraftfulla automationer med AI. Mer smidighet, kontroll och effektivitet i varje steg.",
+    "ctaPrimary": "Testa gratis",
+    "ctaSecondary": "Boka en demo",
+    "mockupAlt": "Interfy Process-plattformen visad på surfplatta och smartphone, med visuell processdesign och uppgiftslista",
+    "stats": [
+      { "label": "6 milj. +", "sublabel": "automatiserade processer" },
+      { "label": "25 000 +", "sublabel": "kunder" },
+      { "label": "2,5 milj. +", "sublabel": "aktiva användare" },
+      { "label": "100% webbaserat", "sublabel": "Kom åt allt varifrån du vill" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Komplett automation för ",
+    "headingHighlight": "din verksamhet",
+    "items": [
+      { "title": "Visuell processdesign", "description": "Bygg flöden enkelt och intuitivt med drag-and-drop-designern." },
+      { "title": "Processkapande med AI", "description": "Beskriv vad du behöver och AI:n skapar den perfekta processen på sekunder." },
+      { "title": "Automatisk formulärgenerering", "description": "AI:n genererar kompletta formulär utifrån processen med smarta fält." },
+      { "title": "Smarta formulär", "description": "Villkorliga fält, automatisk validering och beräkningar för färre fel och omarbete." },
+      { "title": "Godkännanden", "description": "Flexibla godkännandeflöden med flera parallella eller villkorsstyrda nivåer." },
+      { "title": "Uppgifter", "description": "Tilldela, följ upp och hantera uppgifter med deadlines, prioriteringar och ansvariga." },
+      { "title": "Affärsregler", "description": "Automatisera beslut och åtgärder med anpassade regler och avancerade villkor." },
+      { "title": "SLA:er", "description": "Definiera tidsfrister och servicenivåavtal med automatisk övervakning och varningar." },
+      { "title": "Varningar och notiser", "description": "Notiser via e-post, push eller direkt i plattformen så att alla hålls informerade." },
+      { "title": "Realtidsdashboards", "description": "Följ verksamheten med dynamiska och uppdaterade visuella dashboards." },
+      { "title": "Indikatorer och mätvärden", "description": "Anpassade mätvärden för att mäta prestanda, flaskhalsar och produktivitet." },
+      { "title": "Extern medverkan", "description": "Inkludera kunder, leverantörer och partner i processerna säkert och kontrollerat." },
+      { "title": "Process i mobilen", "description": "Utför, godkänn och följ processer var du än är via appen Interfy Mobile." },
+      { "title": "Färdiga mallar", "description": "Bibliotek med färdiga processmallar redo att använda inom en mängd olika branscher." },
+      { "title": "Automation med agenter", "description": "AI-agenter utför uppgifter automatiskt, analyserar data och vidtar smarta åtgärder." },
+      { "title": "Native integration", "description": "Fullständig integration med Interfy Documents, Capture och Sign för ett 100 % sammankopplat flöde." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Native integration med ",
+    "headingHighlight": "Interfy-ekosystemet",
+    "description": "Välj din bransch och upptäck hur Interfy AI förvandlar utmaningar till konkreta resultat.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Dokument och information direkt i processen." },
+      { "description": "Intelligent insamling och dataextraktion." },
+      { "description": "Smarta processer och automationer." },
+      { "description": "Digitala signaturer integrerade i flödet." },
+      { "description": "Samarbete och kommunikation i realtid." },
+      { "description": "AI-agenter som analyserar, beslutar och agerar." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Fördelar med plattformen",
+    "items": [
+      { "title": "En enda plattform", "description": "Inget behov av branschspecifika versioner" },
+      { "title": "100% anpassningsbar", "description": "Konfigurera efter din verksamhet" },
+      { "title": "Snabb implementering", "description": "Kom igång på minuter, utan komplexitet" },
+      { "title": "Säkerhet i företagsklass", "description": "Dataskydd och isolerade miljöer" },
+      { "title": "AI inom alla branscher", "description": "Intelligenta agenter som förstår ditt sammanhang" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Resultat och processtyper som stöds",
+    "practiceTitlePrefix": "Resultat du ser ",
+    "practiceTitleHighlight": "i praktiken",
+    "checklist": [
+      "Mindre omarbete och mer standardisering",
+      "Snabbare och effektivare processer",
+      "Minskade driftskostnader",
+      "Full transparens och spårbarhet",
+      "Bättre beslut baserade på data och indikatorer",
+      "Nöjdare kunder, team och partner"
+    ],
+    "chartTitle": "Avslutade förfrågningar",
+    "chartAriaLabel": "Linjediagram som visar tillväxten av avslutade förfrågningar från januari till juni, med en ökning på 32%",
+    "chartMonths": ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun"],
+    "typesTitlePrefix": "Byggt för alla ",
+    "typesTitleHighlight": "typer av processer",
+    "processTypes": [
+      { "label": "Administrativa" },
+      { "label": "Ekonomi" },
+      { "label": "Inköp" },
+      { "label": "HR" },
+      { "label": "Juridiska" },
+      { "label": "Kommersiella" },
+      { "label": "Operativa" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Börja använda Interfy Process",
+    "title": "Redo att förvandla din verksamhet?",
+    "description": "Kom igång nu med 7 dagar gratis och upptäck hur Interfy Process kan driva ditt företag framåt.",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka demo",
+    "statsLabel": "Fördelar med Interfy Process",
+    "features": [
+      { "label": "100% webbaserat", "sublabel": "Kom åt allt varifrån du vill" },
+      { "label": "Toppsäkerhet", "sublabel": "Skyddad och regelefterlevande data" },
+      { "label": "Skalbart", "sublabel": "Från små till stora verksamheter" },
+      { "label": "Support dygnet runt", "sublabel": "När du behöver det" }
+    ]
+  }
+}

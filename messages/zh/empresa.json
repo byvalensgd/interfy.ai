@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "关于我们",
+    "description": "26 年以来始终致力于简化企业管理。了解 Interfy 的历史、使命与背后的技术,总部位于美国奥兰多,业务覆盖 180 多个国家。",
+    "keywords": ["关于 Interfy", "Interfy 历史", "使命与愿景", "Interfy 品牌生态", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "化繁为简,革新当下,",
+    "headingHighlight": "引领未来。",
+    "description": "二十多年来,我们持续以创新且易于获取的技术改变企业管理方式。总部位于美国奥兰多,我们服务全球 180 多个国家的企业,助力各类组织摆脱陈旧系统,拥抱运营敏捷性。",
+    "slideshowAlt": "Interfy 平台在笔记本电脑与智能手机上展示,呈现 AI 管理面板",
+    "ctaPrimary": "我要成为合作伙伴",
+    "ctaSecondary": "我要推荐客户",
+    "statsAriaLabel": "Interfy 的数据",
+    "stats": [
+      { "label": "180+", "sublabel": "服务国家数" },
+      { "label": "2.5 万 +", "sublabel": "已转型企业" },
+      { "label": "26 +", "sublabel": "年从业经验" },
+      { "label": "Orlando, FL", "sublabel": "美国总部" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "在挑战中精进,",
+    "headingHighlight": "在成功中扩展",
+    "paragraph1": "Interfy 并非处于早期阶段的初创公司,而是一家在企业管理技术领域拥有超过 26 年经验的成熟企业。公司总部位于美国佛罗里达州奥兰多,我们开发的解决方案服务于全球各地的企业。我们的技术设计用于适配不同的监管与文化环境,确保灵活性与全球合规性。",
+    "paragraph2": "我们的平台在全球最严苛的企业环境中经受过考验。从美国市场到拉丁美洲和欧洲,我们以同样卓越且稳健的品质服务超过 180 个国家。"
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Interfy 的使命、愿景与原则",
+    "vision": {
+      "title": "我们的愿景",
+      "description": "为全球客户创造价值,提供一个在线、易于获取、支持移动办公且使用简便的企业管理软件平台,并因此获得业界认可。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "提供一个易于部署、面向各类规模与行业企业均可负担的在线企业流程管理软件平台。"
+    },
+    "principlesHeading": "我们的原则",
+    "principlesAriaLabel": "Interfy 的原则",
+    "principles": [
+      { "title": "以道德为灵魂", "description": "透明与诚信是我们一切行动中不可妥协的原则。" },
+      { "title": "以简化驱动创新", "description": "真正的创新不是增加复杂性,而是化繁为简。" },
+      {
+        "title": "技术民主化",
+        "descriptionPrefix": "让 Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " 与 ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " 面向各类规模的企业开放。"
+      },
+      { "title": "对易用性的极致追求", "description": "为企业用户提供堪比消费级应用的使用体验。" }
+    ]
+  },
+  "blueOcean": {
+    "heading": "整合领域的蓝海战略",
+    "descriptionPrefix": "DocuSign、Box、Pipefy 等竞争对手专注于各自的垂直功能领域(如电子签署、存储或流程管理),而 Interfy 采取的是",
+    "descriptionHighlight": "全能平台",
+    "descriptionSuffix": "战略。",
+    "ariaLabel": "Interfy 的核心竞争优势",
+    "items": [
+      { "title": "一体化平台", "description": "Documents、Process、Sign 与 Capture 原生集成。" },
+      { "title": "降低总拥有成本(TCO)", "description": "摆脱同时订阅数十家供应商带来的负担。" },
+      { "title": "云原生架构", "description": "基于 AWS、Kubernetes 与微服务构建,而非陈旧系统。" },
+      { "title": "低代码/无代码", "description": "业务人员无需编写代码即可构建解决方案。" },
+      { "title": "安全与合规", "description": "符合 LGPD、GDPR、ISO 27001,并采用端到端加密。" },
+      { "title": "私有品牌合作模式", "description": "赋能合作伙伴的颠覆性商业模式。" }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "品牌",
+    "headingSuffix": "生态系统",
+    "description": "Interfy 作为一家科技控股公司运营,旗下品牌帮助我们深入渗透各个细分市场。",
+    "ariaLabel": "Interfy 生态系统旗下品牌",
+    "brands": [
+      { "name": "Ecofy", "description": "为更美好的地球提供可持续解决方案。" },
+      { "name": "Injectra", "description": "美国注塑成型技术。" },
+      { "name": "Innovecar", "description": "智能且易于获取的出行方案。" },
+      { "name": "NeoAI", "description": "由 AI 驱动的互联商务平台。" },
+      { "name": "Processdoc", "description": "智能化的流程与文档管理。" },
+      { "name": "Acquafy", "description": "先进的纯净水解决方案。" },
+      { "name": "Interfy", "description": "面向商业与服务的数字化平台。" },
+      { "name": "Visionfy", "description": "数据分析与 AI,助力更优决策。" },
+      { "name": "Mediafy", "description": "数字内容营销与制作。" },
+      { "name": "Docsystem", "description": "全面的企业文档解决方案。" }
+    ]
+  },
+  "technology": {
+    "heading": "世界级技术",
+    "ariaLabel": "Interfy 的技术基础设施",
+    "items": [
+      { "title": "托管服务", "description": "亚马逊云服务(AWS)。" },
+      { "title": "移动性", "description": "响应式 HTML5 网页界面。" },
+      { "title": "Kubernetes", "description": "通过 Kubernetes 编排实现自动扩展。" },
+      { "title": "多语言支持", "description": "支持 16 种语言。" },
+      { "title": "安全性", "description": "SSL/TLS 加密、双因素认证(2FA)与单点登录(SSO)。" },
+      { "title": "合规性", "description": "LGPD、GDPR、ISO 27001。" }
+    ],
+    "saas": {
+      "headingPrefix": "赋能合作伙伴打造",
+      "headingHighlight": "属于自己的 SaaS 公司",
+      "ariaLabel": "白标模式的优势",
+      "items": [
+        { "title": "完整白标方案", "description": "您的品牌,您的标志,您的域名。" },
+        { "title": "利润率最高可达 100% +", "description": "自主定价。" },
+        { "title": "零资本支出", "description": "无需投入数百万进行开发。" },
+        { "title": "按使用量付费", "description": "仅按客户实际使用量付费。" },
+        { "title": "专业支持", "description": "培训、资料与技术支持。" }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "从被动到主动",
+    "description": "我们正在投资生成式人工智能,致力于将平台从被动式管理系统转变为主动式智能系统。",
+    "ariaLabel": "人工智能领域的投资",
+    "items": [
+      { "title": "基于数据模式的智能行动建议。" },
+      { "title": "重复性任务的主动自动化处理。" },
+      { "title": "为决策提供预测性洞察。" },
+      { "title": "AI 辅助创建", "description": "自动生成 BPMN 流程图与表单设计。" },
+      { "title": "智能文档分析", "description": "AI 可阅读合同并回答复杂问题。" },
+      { "title": "自主智能体", "description": "自主执行任务的 AI 智能体。" }
+    ],
+    "statsLabel": "Interfy 平台数据",
+    "stats": [
+      { "label": "120 亿 +", "sublabel": "份文档" },
+      { "label": "2000 万 +", "sublabel": "份签署" },
+      { "label": "250 万 +", "sublabel": "用户" },
+      { "label": "600 万 +", "sublabel": "个流程" },
+      { "label": "1000 TB +", "sublabel": "存储容量" },
+      { "label": "99.99%", "sublabel": "正常运行时间" },
+      { "label": "24/7", "sublabel": "支持服务" }
+    ]
+  },
+  "finalCta": {
+    "heading": "准备好改变您的企业了吗?",
+    "subheading": "加入已通过 Interfy 化繁为简的数千家企业。",
+    "primaryLabel": "7 天免费试用",
+    "secondaryLabel": "预约演示"
+  }
+}

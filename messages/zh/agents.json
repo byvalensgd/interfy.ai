@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "AI 代理",
+    "description": "Interfy Agents 是平台的智能层。创建智能代理，自动化任务、分析信息，并在整个业务运营中提升成果。",
+    "keywords": ["AI 代理", "智能自动化", "企业级 AI 代理", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "能够",
+    "titleGradient": "理解、决策并执行的代理。",
+    "description": "Interfy Agents 是平台的智能层。创建智能代理，自动化任务、分析信息，并在整个业务运营中提升成果。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "slideshowAlt": "Interfy Agents 在笔记本电脑和智能手机上展示 AI 代理的实际运作",
+    "highlights": [
+      { "label": "创造价值的智能" },
+      { "label": "无限的自动化能力" },
+      { "label": "安全且受治理" },
+      { "label": "与整个平台集成" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "能为您做什么",
+    "items": [
+      { "title": "智能代理", "description": "具备 AI 能力的代理，理解上下文并自主执行操作。" },
+      { "title": "创建代理", "description": "几分钟内创建个性化代理，可选择使用或不使用代码。" },
+      { "title": "按部门配置代理", "description": "为企业每个部门配置专属代理：财务、人力资源、法务等。" },
+      { "title": "任务自动执行", "description": "执行重复性任务，减少错误并加速业务运营。" },
+      { "title": "文件读取", "description": "在几秒钟内读取、理解并提取文件中的信息。" },
+      { "title": "流程触发", "description": "基于事件在平台上自动发起和推进流程。" },
+      { "title": "监控", "description": "跟踪活动、期限、指标，并实时发送更新。" },
+      { "title": "信息分析", "description": "分析海量数据并提供智能洞察。" },
+      { "title": "智能提醒", "description": "主动发送关于风险、机会、期限和异常的提醒。" },
+      { "title": "智能推荐", "description": "基于数据和历史记录建议行动、决策和后续步骤。" },
+      { "title": "系统集成", "description": "通过 API 连接外部系统，安全地交换信息。" },
+      { "title": "基于规则的执行", "description": "遵循企业业务规则和政策执行操作。" }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "与",
+    "headingGradient": "Interfy 生态系统完全集成",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "代理智能地读取、分析并更新文件。" },
+      { "description": "代理自动发起流程、填写数据并推进工作流。" },
+      { "description": "代理提取信息、分类并将文件发送到正确的流程中。" },
+      { "description": "代理参与对话、回复、分享信息并协同工作。" },
+      { "description": "代理使用语音进行回复、记录、查询和执行操作。" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "治理、安全与 AI Credits",
+    "governance": {
+      "title": "治理与安全",
+      "titleAccent": "始终优先",
+      "items": [
+        "按代理和用户设置精细化权限",
+        "各层级操作均经过审计并可追溯",
+        "由企业自主定义访问和执行策略",
+        "符合 LGPD、ISO 27001、SOC 2 等合规标准",
+        "数据采用端到端加密保护"
+      ],
+      "cta": "查看详情"
+    },
+    "credits": {
+      "title": "使用 AI Credits 实现简单透明的消耗管理",
+      "description": "Interfy Agents 根据执行的操作消耗 AI Credits，为您的业务带来更高的可控性、可预测性和可扩展性。",
+      "features": [
+        { "label": "所有套餐均包含额度" },
+        { "label": "实时跟踪使用情况" },
+        { "label": "需要时可购买额外额度" }
+      ],
+      "cta": "查看详情",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "可用额度"
+    }
+  },
+  "cta": {
+    "sectionAria": "开始使用 Interfy Agents",
+    "benefitsAria": "Interfy Agents 的优势",
+    "title": "为您工作的智能。",
+    "description": "创建代理，自动化任务，用 AI 转变您的业务运营。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "benefits": [
+      { "label": "降低运营成本" },
+      { "label": "提升生产力与效率" },
+      { "label": "减少错误和重复劳动" },
+      { "label": "更快、更智能的决策" },
+      { "label": "无限扩展能力" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — 面向文档与流程的 AI 原生平台",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "在一个 AI 原生平台上集成文档管理、流程自动化、智能采集与电子签名。免费试用 7 天，无需信用卡。",
+  "keywords": [
+    "Interfy",
+    "AI 原生平台",
+    "文档管理",
+    "电子文档管理",
+    "流程自动化",
+    "BPM",
+    "ECM",
+    "智能文档采集",
+    "电子签名",
+    "企业协作",
+    "AI 智能体",
+    "企业管理软件"
+  ],
+  "ctaPrimary": "免费开始",
+  "ctaSecondary": "预约演示",
+  "ogHeadlineLine1": "面向文档与流程的",
+  "ogHeadlineLine2": "AI 原生平台",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "上一张",
+  "nextSlide": "下一张",
+  "platformStats": [
+    {
+      "label": "2.5M +",
+      "sublabel": "用户"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "文档"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "流程"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "存储量"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "签名"
+    },
+    {
+      "label": "99.99%",
+      "sublabel": "在线率"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "支持"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobile tar med hela Interfy-plattformen till din mobil. Kom åt, hantera, godkänn och fatta beslut var du än är, med full säkerhet.",
+    "keywords": ["företagsapp", "mobilapplikation", "hantering via mobilen", "Interfy Mobile"],
+    "freeTrialNote": "Ingår i alla planer på plattformen, utan extra kostnad."
+  },
+  "hero": {
+    "heading": "Din verksamhet",
+    "headingHighlight": "i handen.",
+    "description": "Ta med hela Interfy-plattformen vart du går. Kom åt, hantera, fatta beslut och gå vidare var du än är.",
+    "googlePlayAlt": "Finns på Google Play",
+    "appStoreAlt": "Finns på App Store",
+    "mockupAlt": "Appen Interfy Mobile visad på en smartphone",
+    "highlights": [
+      { "label": "Säkert och pålitligt" },
+      { "label": "100 % integrerat med plattformen" },
+      { "label": "Allt i realtid och synkroniserat" },
+      { "label": "Din data skyddad" }
+    ],
+    "floatingCards": [
+      { "title": "Produktivitet var du än är", "description": "Kom åt alla Interfys funktioner i din mobil." },
+      { "title": "Smidighet som förändrar allt", "description": "Svara, godkänn och driv processer vidare på sekunder." },
+      { "title": "Enkel och intuitiv upplevelse", "description": "Allt du behöver, organiserat på ett smart sätt." }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Hela Interfy-plattformen",
+    "headingHighlight": "i din mobil",
+    "items": [
+      { "description": "Kom åt, visa, sök och dela dokument med full säkerhet." },
+      { "description": "Följ processer, uppgifter, deadlines och SLA:er. Godkänn och fatta beslut var du än är." },
+      { "description": "Fånga dokument med mobilens kamera och skicka dem direkt till plattformen." },
+      { "description": "Signera dokument digitalt eller skicka för signering med bara några tryck." },
+      { "description": "Chatta, dela filer och kommentera dokument och processer i realtid." },
+      { "description": "AI-agenter som hjälper, svarar och utför åtgärder direkt i appen." },
+      { "description": "Använd rösten för att söka, hämta information och skapa uppgifter snabbare." }
+    ]
+  },
+  "capabilities": {
+    "heading": "Komplett samarbete",
+    "headingHighlight": "integrerat i din verksamhet",
+    "items": [
+      { "title": "Godkännanden", "description": "Godkänn dokument, kontrakt och förfrågningar på sekunder." },
+      { "title": "Uppgifter", "description": "Visa, utför och följ dina uppgifter enkelt." },
+      { "title": "Notiser", "description": "Få varningar i realtid om det som verkligen är viktigt." },
+      { "title": "Dashboards", "description": "Följ nyckeltal och resultat från verksamheten i handen." },
+      { "title": "Fånga med kameran", "description": "Skanna dokument, anteckningar, kvitton och skicka dem direkt." },
+      { "title": "Uppslag", "description": "Slå upp information, processer och dokument snabbt." },
+      { "title": "Smart sökning", "description": "Hitta det du behöver med AI. Fråga med naturligt språk och få svar." },
+      { "title": "Komplett historik", "description": "Kom åt historiken över åtgärder, dokument och konversationer med full spårbarhet." },
+      { "title": "Total synkronisering", "description": "Allt synkroniserat med plattformen i realtid, utan dataförlust." },
+      { "title": "Offlineläge", "description": "Kom åt dokument och information även utan internetanslutning." },
+      { "title": "Flera företag", "description": "Hantera alla dina företag och kontor i en enda app." },
+      { "title": "Intuitivt gränssnitt", "description": "Modern design, enkel att använda. Produktivitet utan krångel." }
+    ]
+  },
+  "security": {
+    "heading": "Styrning och säkerhet",
+    "headingHighlight": "först och främst",
+    "description": "Din verksamhet skyddad var du än är. Kryptering från början till slut, multifaktorautentisering och efterlevnad av marknadens främsta säkerhetsstandarder.",
+    "items": [
+      { "label": "Kryptering från början till slut" },
+      { "label": "Multifaktorautentisering (MFA)" },
+      { "label": "Efterlevnad av LGPD, ISO 27001 och SOC 2" },
+      { "label": "Avancerad åtkomstkontroll och behörigheter" },
+      { "label": "Säkerhetskopiering och hög tillgänglighet i molnet" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Ladda ner Interfy Mobile",
+    "title": "Interfy Mobile. Din verksamhet i handen.",
+    "subtitle": "Mer smidighet, mer kontroll och bättre resultat var du än är.",
+    "downloadPrompt": "Ladda ner nu och ta med hela plattformen vart du går.",
+    "googlePlayAlt": "Finns på Google Play",
+    "appStoreAlt": "Finns på App Store",
+    "qrCodeAlt": "QR-kod för att ladda ner appen Interfy Mobile",
+    "statsLabel": "Siffror från Interfy-plattformen"
+  }
+}

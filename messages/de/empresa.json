@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Über uns",
+    "description": "Seit über 26 Jahren vereinfachen wir das Unternehmensmanagement. Erfahren Sie mehr über die Geschichte, die Mission und die Technologie hinter Interfy, mit Sitz in Orlando (USA) und Präsenz in mehr als 180 Ländern.",
+    "keywords": ["über Interfy", "Geschichte von Interfy", "Mission und Vision", "Interfy Markenökosystem", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Das Komplexe vereinfachen, die Gegenwart transformieren, ",
+    "headingHighlight": "die Zukunft gestalten.",
+    "description": "Seit mehr als zwei Jahrzehnten transformieren wir das Unternehmensmanagement durch innovative und zugängliche Technologie. Mit Sitz in Orlando (USA) betreuen wir Unternehmen in mehr als 180 Ländern und ermöglichen es Organisationen, sich von Altsystemen zu lösen und operative Agilität zu erreichen.",
+    "slideshowAlt": "Interfy-Plattform auf Laptop und Smartphone, mit dem KI-Management-Dashboard",
+    "ctaPrimary": "PARTNER WERDEN",
+    "ctaSecondary": "KUNDEN EMPFEHLEN",
+    "statsAriaLabel": "Zahlen zu Interfy",
+    "stats": [
+      { "label": "180+", "sublabel": "Betreute Länder" },
+      { "label": "25.000 +", "sublabel": "Transformierte Unternehmen" },
+      { "label": "26 +", "sublabel": "Jahre Erfahrung" },
+      { "label": "Orlando, FL", "sublabel": "Hauptsitz in den USA" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Bewährt in der Herausforderung, ",
+    "headingHighlight": "skaliert für den Erfolg",
+    "paragraph1": "Interfy ist kein Start-up in der Anfangsphase, sondern ein etabliertes Unternehmen mit mehr als 26 Jahren Erfahrung in der Entwicklung von Technologien für das Unternehmensmanagement. Mit Sitz in Orlando, Florida (USA), entwickeln wir Lösungen, die Unternehmen weltweit betreuen. Unsere Technologie ist so konzipiert, dass sie in unterschiedlichen regulatorischen und kulturellen Umgebungen funktioniert und globale Flexibilität und Konformität gewährleistet.",
+    "paragraph2": "Unsere Plattform wird in den anspruchsvollsten Unternehmensumgebungen der Welt getestet. Vom amerikanischen Markt über Lateinamerika bis Europa betreuen wir mehr als 180 Länder mit derselben Exzellenz und Robustheit, die unsere Marke ausmachen."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Mission, Vision und Grundsätze von Interfy",
+    "vision": {
+      "title": "Unsere Vision",
+      "description": "Als Unternehmen anerkannt werden, das für Kunden weltweit Mehrwert schafft, mit einer Plattform für Unternehmensmanagement-Software, online, zugänglich, mobil und einfach zu nutzen."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Eine Online-Plattform für Unternehmensprozessmanagement bereitstellen, die einfach zu implementieren und für Unternehmen jeder Größe und Branche zugänglich ist."
+    },
+    "principlesHeading": "Unsere Grundsätze",
+    "principlesAriaLabel": "Grundsätze von Interfy",
+    "principles": [
+      { "title": "Ethik als Seele", "description": "Transparenz und Integrität sind in allem, was wir tun, nicht verhandelbar." },
+      { "title": "Innovation durch Vereinfachung", "description": "Echte Innovation fügt keine Komplexität hinzu, sie vereinfacht." },
+      {
+        "title": "Technologische Demokratisierung",
+        "descriptionPrefix": "Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " für Unternehmen jeder Größe zugänglich machen."
+      },
+      { "title": "Obsession für Usability", "description": "Nutzererfahrung im Unternehmenskontext, vergleichbar mit Consumer-Apps." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "Der Blaue Ozean der Integration",
+    "descriptionPrefix": "Während Wettbewerber wie DocuSign, Box und Pipefy sich auf funktionale Nischen spezialisieren (Signaturen, Speicherung oder Prozesse isoliert), verfolgt Interfy eine ",
+    "descriptionHighlight": "Total-Plattform-Strategie",
+    "descriptionSuffix": ".",
+    "ariaLabel": "Wettbewerbsvorteile von Interfy",
+    "items": [
+      { "title": "All-in-One-Plattform", "description": "Documents + Process + Sign + Capture nativ integriert." },
+      { "title": "TCO-Reduzierung", "description": "Beenden Sie die Abonnement-Erschöpfung durch Dutzende von Anbietern." },
+      { "title": "Cloud-native Architektur", "description": "AWS, Kubernetes, Microservices — kein Altsystem." },
+      { "title": "Low-Code/No-Code", "description": "Fachanwender erstellen Lösungen ohne Programmierung." },
+      { "title": "Sicherheit und Compliance", "description": "LGPD, DSGVO, ISO 27001, End-to-End-Verschlüsselung." },
+      { "title": "Private-Label-Partnerschaft", "description": "Disruptives Geschäftsmodell, das Partner stärkt." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Ökosystem",
+    "headingSuffix": " an Marken",
+    "description": "Interfy agiert als Technologie-Holding und beherbergt Marken, die die Erschließung spezifischer Nischen ermöglichen.",
+    "ariaLabel": "Marken des Interfy-Ökosystems",
+    "brands": [
+      { "name": "Ecofy", "description": "Nachhaltige Lösungen für einen besseren Planeten." },
+      { "name": "Injectra", "description": "Amerikanische Spritzguss-Technologie." },
+      { "name": "Innovecar", "description": "Intelligente und zugängliche Mobilität." },
+      { "name": "NeoAI", "description": "Plattform für vernetztes Business mit KI." },
+      { "name": "Processdoc", "description": "Intelligentes Management von Prozessen und Dokumenten." },
+      { "name": "Acquafy", "description": "Fortschrittliche Lösungen für reines Wasser." },
+      { "name": "Interfy", "description": "Digitale Plattform für Unternehmen und Dienstleistungen." },
+      { "name": "Visionfy", "description": "Datenanalyse und KI für bessere Entscheidungen." },
+      { "name": "Mediafy", "description": "Marketing und digitale Content-Produktion." },
+      { "name": "Docsystem", "description": "Vollständige Lösungen für Unternehmensdokumente." }
+    ]
+  },
+  "technology": {
+    "heading": "Technologie auf Weltklasseniveau",
+    "ariaLabel": "Technologische Infrastruktur von Interfy",
+    "items": [
+      { "title": "Hosting", "description": "Amazon Web Services (AWS)." },
+      { "title": "Mobilität", "description": "Responsive HTML5-Weboberfläche." },
+      { "title": "Kubernetes", "description": "Kubernetes-Orchestrierung für automatische Skalierbarkeit." },
+      { "title": "Mehrsprachig", "description": "Unterstützung für 16 Sprachen." },
+      { "title": "Sicherheit", "description": "SSL/TLS-Verschlüsselung, 2FA, SSO." },
+      { "title": "Compliance", "description": "LGPD, DSGVO, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "Wir befähigen Partner, ",
+      "headingHighlight": "ihre eigenen SaaS-Unternehmen aufzubauen",
+      "ariaLabel": "Vorteile des White-Label-Modells",
+      "items": [
+        { "title": "Vollständiges White Label", "description": "Ihre Marke, Ihr Logo, Ihre URL." },
+        { "title": "Margen von bis zu 100 % +", "description": "Legen Sie Ihren eigenen Preis fest." },
+        { "title": "Null Capex", "description": "Investieren Sie keine Millionen in die Entwicklung." },
+        { "title": "Pay-as-you-go", "description": "Zahlen Sie nur für den tatsächlichen Kundenverbrauch." },
+        { "title": "Spezialisierter Support", "description": "Schulung, Materialien und technischer Support." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "Vom Passiven zum Aktiven",
+    "description": "Wir investieren in generative künstliche Intelligenz, um die Plattform von einem passiven Managementsystem in ein aktives Intelligenzsystem zu verwandeln.",
+    "ariaLabel": "Investitionen in künstliche Intelligenz",
+    "items": [
+      { "title": "Intelligente Handlungsvorschläge basierend auf Datenmustern." },
+      { "title": "Proaktive Automatisierung sich wiederholender Aufgaben." },
+      { "title": "Prädiktive Insights für Entscheidungsfindung." },
+      { "title": "KI-unterstützte Erstellung", "description": "Automatisches Design von BPMN-Prozessen und Formularen." },
+      { "title": "Intelligente Dokumentenanalyse", "description": "KI, die Verträge liest und komplexe Fragen beantwortet." },
+      { "title": "Autonome Agenten", "description": "KI-Agenten, die Aufgaben eigenständig ausführen." }
+    ],
+    "statsLabel": "Zahlen der Interfy-Plattform",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "Dokumente" },
+      { "label": "20M +", "sublabel": "Signaturen" },
+      { "label": "2,5M +", "sublabel": "Nutzer" },
+      { "label": "6M +", "sublabel": "Prozesse" },
+      { "label": "1000 TB +", "sublabel": "gespeichert" },
+      { "label": "99,99 %", "sublabel": "Uptime" },
+      { "label": "24/7", "sublabel": "Support" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Bereit, Ihr Unternehmen zu transformieren?",
+    "subheading": "Schließen Sie sich Tausenden von Unternehmen an, die das Komplexe mit Interfy bereits vereinfacht haben.",
+    "primaryLabel": "7 Tage Test Drive",
+    "secondaryLabel": "Demo vereinbaren"
+  }
+}

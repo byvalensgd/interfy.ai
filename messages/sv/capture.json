@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture förvandlar fysiska och digitala dokument till intelligent information på sekunder. Fånga via webbläsaren, professionella skannrar eller smartphone, medan AI:n automatiskt känner igen, extraherar, klassificerar och vidarebefordrar allt.",
+    "keywords": ["intelligent dokumentinsamling", "AI-skanning", "OCR", "dokumentigenkänning", "Interfy Capture"],
+    "freeTrialNote": "Testa gratis i 7 dagar, inget kreditkort krävs"
+  },
+  "hero": {
+    "titleLine1": "Fånga vilket dokument som helst.",
+    "titleLine2": "AI:n gör resten.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "förvandlar fysiska och digitala dokument till intelligent information på sekunder. Fånga via webbläsaren, professionella skannrar eller smartphone.",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "mockupAlt": "Interfy Capture visad på laptop och smartphone, med intelligent dokumentinsamling",
+    "trust": [
+      { "text": "99,9% tillförlitlighet vid extraktion" },
+      { "text": "100% säkert och GDPR-anpassat" },
+      { "text": "AI-native i hela plattformen" },
+      { "text": "Skalbart för alla dokumentvolymer" }
+    ],
+    "flow": [
+      { "text": "AI känner igen och extraherar" },
+      { "text": "Klassificerar, indexerar och organiserar." },
+      { "text": "Lagrar i Interfy Documents" },
+      { "text": "Skickar till Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Så fungerar ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Insamling", "description": "Insamling från vilken källa som helst: webbläsare, skannrar eller mobil." },
+      { "title": "AI-igenkänning", "description": "Interfy AI känner igen och extraherar innehållet automatiskt." },
+      { "title": "Läsning och förståelse", "description": "Förstår sammanhang, fält och relationer mellan informationen." },
+      { "title": "Dataextraktion", "description": "Extraherar automatiskt strukturerad och ostrukturerad data." },
+      { "title": "Klassificering", "description": "Klassificerar och organiserar dokumenten med AI." },
+      { "title": "Indexering och metadata", "description": "Tilldelar metadata och förbereder för sökning och spårbarhet." },
+      { "title": "Validering och vidarebefordran", "description": "Validerar och skickar vidare till Interfy Documents eller Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funktioner och fördelar med ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Interfy-plattformens skala",
+    "items": [
+      { "title": "Insamling via webbläsaren", "description": "Fånga filer direkt från din dator. Enkelt, snabbt och säkert." },
+      { "title": "Professionella skannrar", "description": "Native integration med högpresterande skannrar för maximal kvalitet." },
+      { "title": "Batchinsamling", "description": "Skanna och bearbeta stora volymer dokument på en gång." },
+      { "title": "AI-krediter ingår", "description": "AI-krediter ingår i alla plattformens paket — inget behov av att teckna modulen separat." },
+      { "title": "Mobile Capture", "description": "Fånga dokument via smartphone var och när du vill." },
+      { "title": "AI-igenkänning", "description": "AI:n känner igen och extraherar innehållet med hög precision." },
+      { "title": "Automatisk extraktion", "description": "Automatisk extraktion av strukturerad och ostrukturerad data." },
+      { "title": "Interfy Documents", "description": "Lagrar säkert med smart sökning och spårbarhet." },
+      { "title": "Interfy Process", "description": "Automatisk vidarebefordran till din verksamhets flöden och automationer." },
+      { "title": "Köp av fler krediter", "description": "Fler krediter när din verksamhet behöver det." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Skanning med rättslig giltighet",
+    "badge": "Valfri funktion",
+    "description": "Valfri funktion för företag som behöver rättslig giltighet för sina digitala dokument. Ingår inte i standardpaketet.",
+    "checklist": [
+      { "text": "Digital certifiering och tidsstämpling" },
+      { "text": "Säker lagring med rättslig giltighet" },
+      { "text": "Fullständig spårbarhet från start till slut" },
+      { "text": "Bevis och granskningsspår" },
+      { "textParts": ["Stämpling och spårning enligt ", "Decreto 10.278"] },
+      { "text": "Granskningsspår" },
+      { "text": "Rättslig validering" },
+      { "text": "Regelefterlevnad och säkerhet" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Verkliga resultat för din verksamhet",
+    "heading": "VERKLIGA RESULTAT FÖR DIN VERKSAMHET",
+    "stats": [
+      { "accent": "UPP TILL 85%", "label": "FÄRRE FEL", "description": "vid indexering och klassificering." },
+      { "accent": "MER", "label": "PRODUKTIVITET", "description": "Ditt team fokuserar på det som verkligen betyder något." },
+      { "accent": "SÄKERHET &", "label": "REGELEFTERLEVNAD", "description": "Fullständig efterlevnad av LGPD, GDPR och globala standarder." }
+    ],
+    "ctaTitle": "REDO ATT FÖRVANDLA DIN DOKUMENTHANTERING?",
+    "ctaDescription": "Boka en demo och upptäck hur Interfy Capture kan skapa verkliga resultat för ditt företag.",
+    "mascotAlt": "Interfys AI-assistent"
+  },
+  "cta": {
+    "ariaLabel": "Börja använda Interfy Capture",
+    "title": "Redo att förvandla din dokumentinsamling med AI?",
+    "description": "Testa Interfy Capture i 7 dagar och se AI:n arbeta för att driva din verksamhet framåt. Teckna det separat eller använd krediterna som redan ingår i plattformens paket.",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka demo",
+    "statsLabel": "Fördelar med Interfy Capture",
+    "highlights": [
+      { "label": "100% webbaserat", "sublabel": "Kom åt allt varifrån du vill" },
+      { "label": "Toppsäkerhet", "sublabel": "Skyddad och regelefterlevande data" },
+      { "label": "Skalbart", "sublabel": "Från små till stora verksamheter" },
+      { "label": "Support dygnet runt", "sublabel": "När du behöver det" }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Yhteystiedot",
+    "description": "Ota yhteyttä Interfyyn: sähköposti, puhelin, osoite ja palveluajat myynti-, tuki- ja kumppanuusasioissa.",
+    "keywords": ["ota yhteyttä Interfy", "keskustele Interfyn kanssa", "Interfyn sähköposti", "Interfyn puhelinnumero"]
+  },
+  "hero": {
+    "ariaLabel": "Johdanto yhteystietosivulle",
+    "eyebrow": "Ota yhteyttä",
+    "titleLine1": "Keskustellaan",
+    "titleHighlight": "toiminnastasi",
+    "description": "Myynti- ja tukitiiminmme on valmiina ymmärtämään tilanteesi ja näyttämään, miten Interfy sopii siihen.",
+    "primaryLabel": "Varaa demo",
+    "secondaryLabel": "Aloita ilmaiseksi"
+  },
+  "channels": {
+    "ariaLabel": "Yhteydenottokanavat",
+    "heading": "Valitse parhaiten sopiva kanava",
+    "items": [
+      {
+        "title": "Myyntisähköposti",
+        "description": "contato@interfy.ai — myyntikysymyksiin, hinnoitteluun ja kumppanuuksiin.",
+        "actionLabel": "Lähetä sähköposti",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Puhelin",
+        "description": "+55 11 4020-1000 — maanantaista perjantaihin klo 8–20 (Brasilian aikaa).",
+        "actionLabel": "Soita nyt",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Osoite",
+        "description": "Interfy Corporation — Orlando, Florida, Yhdysvallat, liiketoimintaa yli 180 maassa ja erillinen palvelu Brasilialle.",
+        "actionLabel": "Katso kaikki alueet",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Palveluajat",
+        "description": "Maanantaista perjantaihin klo 8–20. Enterprise-asiakkaat voivat hankkia laajennetun 24/7-tuen.",
+        "actionLabel": "Katso tuki",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "heading": "Haluaisitko nähdä alustan toiminnassa?",
+    "subheading": "Varaa esittely tiimimme kanssa ja näe Interfy sovellettuna omaan prosessiisi muutamassa minuutissa.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa demo"
+  }
+}

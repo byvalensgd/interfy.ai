@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "平台状态",
+    "description": "实时查看 Interfy 各产品的可用性以及平台的历史事件记录。",
+    "keywords": ["Interfy 状态", "Interfy 可用性", "Interfy 正常运行时间", "Interfy 事件"]
+  },
+  "hero": {
+    "ariaLabel": "平台状态介绍",
+    "eyebrow": "平台状态",
+    "titleLine1": "所有系统",
+    "titleHighlight": "正常运行",
+    "description": "实时查看 Interfy 各产品的可用性,包含历史事件记录和正常运行时间 SLA。"
+  },
+  "list": {
+    "ariaLabel": "各产品状态",
+    "heading": "各产品状态",
+    "operationalLabel": "运行正常",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "历史事件记录",
+    "incidentsEmpty": "过去 90 天内未记录任何事件。"
+  },
+  "infra": {
+    "ariaLabel": "平台状态背后的基础设施",
+    "heading": "高可用性基础设施",
+    "subheading": "100% 基于 AWS 的云原生架构,各层均具备冗余保障。",
+    "items": [
+      { "label": "所有层级(应用与数据库)均实现多可用区部署" },
+      { "label": "全球 CDN(CloudFront),低延迟访问" },
+      { "label": "自动负载均衡" },
+      { "label": "威胁检测与防护(GuardDuty)" },
+      { "label": "持续监控(CloudWatch)" },
+      { "label": "日志与审计追踪(CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "认证与合规",
+      "ctaLabel": "查看完整安全架构",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "已认证的信息安全管理体系。" },
+        { "label": "SOC 2 Type II", "description": "安全性、可用性与保密性控制。", "badge": "进行中" },
+        { "label": "LGPD", "description": "符合巴西通用数据保护法(LGPD)。" },
+        { "label": "GDPR", "description": "符合欧盟通用数据保护条例(GDPR)。" },
+        { "label": "HIPAA Ready", "description": "已针对处理美国 ePHI 的环境做好准备。", "badge": "可提供 BAA" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "heading": "企业级可靠性",
+    "subheading": "全球 AWS 基础设施、AES-256/TLS 1.2+ 加密,以及 99.99% 可用性 SLA。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示",
+    "statsLabel": "可靠性指标",
+    "stats": [
+      { "label": "99.99%", "sublabel": "正常运行时间 SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "加密" },
+      { "label": "LGPD、GDPR、ISO 27001", "sublabel": "合规" }
+    ]
+  }
+}

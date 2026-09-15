@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Studii de Caz",
+    "description": "Rezultate tipice pe care companii din diverse sectoare le obțin cu platforma Interfy de documente, procese și IA.",
+    "keywords": ["studii de caz Interfy", "rezultate Interfy", "studii de caz gestiune documentară", "ROI automatizare procese"]
+  },
+  "hero": {
+    "ariaLabel": "Introducere în studiile de caz",
+    "eyebrow": "Studii de Caz",
+    "titleLine1": "Rezultate reale în",
+    "titleHighlight": "diverse sectoare",
+    "description": "O imagine a beneficiilor pe care companii ca a dumneavoastră le obțin prin unificarea documentelor, proceselor și IA într-o singură platformă."
+  },
+  "grid": {
+    "ariaLabel": "Rezultate pe sector",
+    "heading": "Ce obțin clienții noștri",
+    "illustrativeNote": "Rezultate ilustrative, bazate pe medii observate la clienții Interfy din fiecare sector. Solicitați un diagnostic pentru a estima impactul în cazul dumneavoastră.",
+    "complianceNote": "Rezultate obținute pe o infrastructură certificată ISO/IEC 27001:2022, cu SLA de disponibilitate de 99,99% și conformitate LGPD/GDPR.",
+    "items": [
+      {
+        "segment": "Instituții Financiare",
+        "description": "Digitalizarea contractelor și automatizarea fluxurilor de creditare, cu traseu de audit complet.",
+        "metricValue": "-45%",
+        "metricLabel": "timp mediu de analiză a creditului"
+      },
+      {
+        "segment": "Sănătate",
+        "description": "Fișe medicale și rapoarte centralizate, cu semnătură electronică integrată în fluxul de îngrijire a pacientului.",
+        "metricValue": "-60%",
+        "metricLabel": "timp de arhivare a documentelor"
+      },
+      {
+        "segment": "Juridic",
+        "description": "Gestiunea contractelor și proceselor cu control al termenelor și semnătură electronică de la un capăt la altul.",
+        "metricValue": "3x",
+        "metricLabel": "mai multe contracte încheiate pe lună"
+      },
+      {
+        "segment": "Industrie",
+        "description": "Automatizarea comenzilor de achiziție și a aprobărilor pe mai multe niveluri, integrate cu ERP-ul.",
+        "metricValue": "-35%",
+        "metricLabel": "timp de ciclu al aprobării"
+      },
+      {
+        "segment": "Logistică",
+        "description": "Captarea automată a confirmărilor de livrare și facturilor direct de pe telefonul șoferului.",
+        "metricValue": "+80%",
+        "metricLabel": "documente captate în aceeași zi"
+      },
+      {
+        "segment": "Retail",
+        "description": "Onboarding-ul furnizorilor și gestiunea contractelor standardizate într-un singur flux.",
+        "metricValue": "-50%",
+        "metricLabel": "timp de onboarding al furnizorilor"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începeți să utilizați Interfy",
+    "heading": "Vreți rezultate similare în compania dumneavoastră?",
+    "subheading": "Discutați cu echipa noastră și primiți un diagnostic gratuit al procesului actual.",
+    "primaryButton": "Începeți gratuit",
+    "secondaryButton": "Programați o demonstrație"
+  }
+}

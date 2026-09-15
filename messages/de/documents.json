@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Documents",
+    "description": "Interfy Documents ist die neue Generation des Dokumentenmanagements. Organisieren, finden, schützen und teilen Sie Dokumente mit künstlicher Intelligenz in jedem Schritt.",
+    "keywords": ["Dokumentenmanagement", "DMS", "ECM", "elektronisches Dokumentenmanagement", "Interfy Documents"],
+    "freeTrialNote": "7 Tage kostenlos testen, keine Kreditkarte erforderlich."
+  },
+  "hero": {
+    "headingLine1": "Ihre Dokumente sind keine Akten mehr. Sie werden zu",
+    "headingHighlight": "intelligenter Information.",
+    "descriptionBrand": "Interfy Documents",
+    "description": "ist die neue Generation des Dokumentenmanagements. Organisieren, finden, schützen und teilen Sie Dokumente mit künstlicher Intelligenz in jedem Schritt.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "stats": [
+      { "label": "100 % Web", "sublabel": "Zugriff von überall" },
+      { "label": "AI-Native", "sublabel": "Intelligenz in jedem Schritt" },
+      { "label": "Sicher & Verlässlich", "sublabel": "Governance und Konformität" }
+    ],
+    "mockupAlt": "Interfy-Documents-Plattform auf Tablet und Smartphone, mit der Liste von Dokumenten und Ordnern",
+    "chatCard": {
+      "line1": "Unterschriebene Verträge finden",
+      "line2": "mit dem Unternehmen Acme aus 2024"
+    }
+  },
+  "capabilities": {
+    "heading": "Vollständiges Dokumentenmanagement mit",
+    "headingHighlight": "künstlicher Intelligenz",
+    "items": [
+      {
+        "title": "Sichere Speicherung",
+        "description": "Speichern Sie jede Art von Dokument sicher, mit hoher Verfügbarkeit und Schutz auf Enterprise-Niveau."
+      },
+      {
+        "title": "Intelligente Organisation",
+        "description": "Strukturieren Sie Ordner, Unterordner und Kategorien nach Ihren Wünschen, mit flexiblen Vorlagen und Tags."
+      },
+      {
+        "title": "Intelligente Suche",
+        "description": "Finden Sie Dokumente in Sekunden mit erweiterten Filtern, KI und semantischer Suche."
+      },
+      {
+        "title": "Suche in natürlicher Sprache",
+        "description": "Fragen Sie auf Ihre Art. Die KI versteht und findet, was Sie brauchen."
+      },
+      {
+        "title": "Automatische Klassifizierung mit KI",
+        "description": "Die KI klassifiziert und kategorisiert Dokumente automatisch und reduziert manuelle Arbeit und Fehler."
+      },
+      {
+        "title": "Informationsextraktion",
+        "description": "Extrahieren Sie automatisch Daten und Informationen aus Verträgen, Rechnungen, Formularen und mehr."
+      },
+      {
+        "title": "Metadaten und Indexierung",
+        "description": "Erstellen Sie individuelle Metadaten und intelligente Indizes, um Informationen präzise wiederzufinden."
+      },
+      {
+        "title": "Versionskontrolle",
+        "description": "Vollständige Versionshistorie, Dokumentenvergleich und Wiederherstellung zu jedem Zeitpunkt."
+      },
+      {
+        "title": "Records Management",
+        "description": "Aufbewahrungsrichtlinien, gesetzliche Fristen und automatische Löschung mit vollständiger Konformität."
+      },
+      {
+        "title": "Sicheres Teilen",
+        "description": "Teilen Sie Dokumente und Ordner sicher und kontrolliert mit internen und externen Nutzern."
+      },
+      {
+        "title": "Erweiterte Berechtigungen",
+        "description": "Kontrollieren Sie, wer jedes Dokument ansehen, bearbeiten, herunterladen, kommentieren oder teilen darf."
+      },
+      {
+        "title": "Audit und Nachvollziehbarkeit",
+        "description": "Vollständige Protokolle aller Aktionen mit Audit-Trail und detaillierten Berichten."
+      },
+      {
+        "title": "Governance und Konformität",
+        "description": "Richtlinien, Rollen, Regeln und Kontrollen zur Gewährleistung von Sicherheit, Datenschutz und Konformität."
+      },
+      {
+        "title": "Documents auf Mobile",
+        "description": "Zugreifen, ansehen, teilen und genehmigen Sie von überall über die Interfy-Mobile-App."
+      },
+      {
+        "title": "Vollständige Integration",
+        "description": "Native Integration mit Capture, Process, Sign, Connect und Agents für einen durchgängigen Betrieb."
+      },
+      {
+        "title": "KI-Agenten",
+        "description": "Intelligente Agenten, die automatisch analysieren, zusammenfassen, klassifizieren und Aktionen vorschlagen."
+      }
+    ],
+    "statsLabel": "Größenordnung der Interfy-Plattform"
+  },
+  "ecosystem": {
+    "heading": "Native Integration mit dem gesamten",
+    "headingHighlight": "Interfy-Ökosystem",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Intelligente Dokumentenerfassung." },
+      { "description": "Prozessautomatisierung." },
+      { "description": "Integrierte digitale Signatur." },
+      { "description": "Zusammenarbeit und Kommunikation." },
+      { "description": "KI-Agenten, die verstehen und handeln." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Vorteile von Interfy Documents",
+    "blocks": [
+      {
+        "title": "Produktivität in der Handfläche",
+        "description": "Die Interfy-Mobile-App bringt Ihr Dokumentenmanagement überall hin, wo Sie sind.",
+        "checklist": [
+          "Dokumente aufrufen und ansehen",
+          "Anfragen und Aufgaben genehmigen",
+          "Sicher teilen",
+          "Mit KI suchen",
+          "Offline arbeiten und später synchronisieren"
+        ],
+        "imageAlt": "Interfy-Mobile-App mit der Liste von Dokumenten"
+      },
+      {
+        "title": "Sicherheit und Governance an erster Stelle",
+        "description": "Interfy Documents wurde entwickelt, um Ihre Informationen zu schützen und Konformität auf allen Ebenen zu gewährleisten.",
+        "checklist": [
+          "Verschlüsselung im Ruhezustand und während der Übertragung",
+          "Rollenbasierte Zugriffskontrolle",
+          "LGPD, ISO 27001, SOC 2 und DSGVO",
+          "Vollständige Protokolle und Audits",
+          "Automatisches Backup und Disaster Recovery"
+        ],
+        "imageAlt": "Illustration eines Sicherheitsschilds, der Dokumente schützt"
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Starten Sie mit Interfy Documents",
+    "title": "Verwandeln Sie Ihre Dokumente in strategische Information",
+    "description": "Starten Sie jetzt mit 7 kostenlosen Tagen und erleben Sie, wie Interfy Documents Ihr Dokumentenmanagement revolutionieren kann.",
+    "primaryButton": "7 Tage kostenlos testen",
+    "secondaryButton": "Demo vereinbaren",
+    "statsLabel": "Vorteile von Interfy Documents",
+    "features": [
+      { "label": "100 % Web", "sublabel": "Zugriff von überall" },
+      { "label": "Erstklassige Sicherheit", "sublabel": "Geschützte und konforme Daten" },
+      { "label": "Skalierbar", "sublabel": "Vom kleinen bis zum großen Unternehmen" },
+      { "label": "24/7-Support", "sublabel": "Immer, wenn Sie ihn brauchen" }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Support",
+    "description": "Interfys supportcenter: kontakta vårt team via chatt, e-post eller telefon, eller hitta svar bland vanliga frågor.",
+    "keywords": ["Interfy support", "Interfy hjälpcenter", "Interfy kundservice", "SLA för support"]
+  },
+  "hero": {
+    "ariaLabel": "Introduktion till Interfy-support",
+    "eyebrow": "Interfy Support",
+    "titleLine1": "Hur kan vi",
+    "titleHighlight": "hjälpa dig?",
+    "description": "Vårt tekniska supportteam följer din verksamhet varje arbetsdag, med SLA anpassad efter ditt abonnemang och ett hjälpcenter som alltid finns tillgängligt.",
+    "primaryLabel": "Se vanliga frågor",
+    "secondaryLabel": "Prata med en specialist"
+  },
+  "channels": {
+    "ariaLabel": "Supportkanaler",
+    "heading": "Supportkanaler",
+    "items": [
+      {
+        "title": "Livechatt",
+        "description": "Prata i realtid med vårt supportteam, måndag till fredag, 08.00–20.00.",
+        "actionLabel": "Starta konversation",
+        "href": "/contato"
+      },
+      {
+        "title": "E-post",
+        "description": "Skicka din fråga eller förfrågan till suporte@interfy.ai och få svar inom ditt abonnements SLA.",
+        "actionLabel": "Skicka e-post",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "Ring vår kundtjänst under kontorstid för brådskande ärenden.",
+        "actionLabel": "Ring nu",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Hjälpcenter",
+        "description": "Läs artiklar, handledningar och steg-för-steg-guider om alla Interfy-produkter.",
+        "actionLabel": "Se vanliga frågor",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "Specialiserad support i global skala",
+    "heading": "Support som växer med din expansion",
+    "statsLabel": "Interfy-supportens räckvidd och tillförlitlighet",
+    "stats": [
+      { "label": "180+ länder", "sublabel": "Global närvaro under expansion" },
+      { "label": "16 språk", "sublabel": "Service på ditt teams språk" },
+      { "label": "99,99%", "sublabel": "Garanterad SLA-tillgänglighet" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Certifierad efterlevnad" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Vanliga frågor om support",
+    "ariaExpand": "Expandera svar",
+    "heading": "Vanliga frågor",
+    "items": [
+      {
+        "question": "Hur öppnar jag ett supportärende?",
+        "answer": "Du kan öppna ett ärende via chatt, e-post (suporte@interfy.ai) eller direkt i Interfy-panelen, under supportsektionen. Varje ärende får ett ärendenummer för uppföljning."
+      },
+      {
+        "question": "Vad är supportens svarstid?",
+        "answer": "SLA:n varierar per abonnemang: Starter-konton får svar inom 24 arbetstimmar, medan Business-, Corporate- och Enterprise-planer har prioritet och kortare SLA:er enligt avtal."
+      },
+      {
+        "question": "Ingår support i alla abonnemang?",
+        "answer": "Ja. Support via chatt och e-post ingår i alla betalda abonnemang. Corporate- och Enterprise-planer får dessutom en dedikerad kontoansvarig."
+      },
+      {
+        "question": "Vilka är öppettiderna för support?",
+        "answer": "Vår support är öppen måndag till fredag, 08.00–20.00 (Brasiliens tidszon). Enterprise-konton kan teckna utökad support dygnet runt."
+      },
+      {
+        "question": "Hur följer jag plattformens tillgänglighet?",
+        "answer": "Tillgängligheten och incidenthistoriken för varje produkt publiceras i realtid på vår driftstatussida."
+      },
+      {
+        "question": "Hur eskalerar jag ett brådskande ärende?",
+        "answer": "Ärenden markerade som kritiska prioriteras automatiskt. Om du behöver understryka brådskan kan du svara på ärendets e-post eller ringa vår kundtjänst."
+      },
+      {
+        "question": "Erbjuder Interfy support på andra språk och i andra regioner?",
+        "answer": "Ja. Plattformen finns tillgänglig på 16 språk och i mer än 180 länder, med dedikerad kommersiell service för Brasilien och support-SLA:er på internationell nivå."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "heading": "Fortfarande frågor?",
+    "subheading": "Prata med en av våra specialister och upptäck hur Interfy kan anpassas till din verksamhet.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka en demo"
+  }
+}

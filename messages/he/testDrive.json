@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Test Drive חינם",
+    "description": "התנסו ב-Interfy.AI בפועל. הקימו Workspace ובדקו את כל מוצרי הפלטפורמה למשך 7 ימים, בלי כרטיס אשראי.",
+    "keywords": ["ניסיון חינם Interfy", "test drive פלטפורמת AI-native", "workspace חינם", "trial ניהול מסמכים"],
+    "freeTrialNote": "7 ימים חינם לבדיקת כל הפלטפורמה, בלי כרטיס אשראי."
+  },
+  "hero": {
+    "ariaLabel": "היתרונות של Test Drive",
+    "headingPrefix": "התנסו ב-",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " בפועל",
+    "subheading": "7 ימים שישנו את הדרך שבה החברה שלכם עובדת.",
+    "descriptionPrefix": "הקימו Workspace, חקרו את הפלטפורמה וגלו איך ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents & Voice",
+    "descriptionSuffix": " יכולים לשנות את התפעול שלכם עם AI.",
+    "ctaButton": "כך עובד ה-Test Drive",
+    "differentiators": [
+      { "title": "7 ימים חינם", "subtitle": "לבדיקת הכול" },
+      { "title": "בלי כרטיס", "subtitle": "בלי התחייבות" },
+      { "title": "Workspace בדקות", "subtitle": "הקימו עוד היום" },
+      { "title": "100% Web + Mobile", "subtitle": "גישה מכל מקום" },
+      { "title": "AI Native", "subtitle": "אינטליגנציה בכל מקום" },
+      { "title": "הנתונים נשמרים", "subtitle": "אחרי הניסיון" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "איך עובד ה-",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "הקימו Workspace", "description": "הרשמה פשוטה ומהירה. בלי כרטיס אשראי." },
+      { "title": "הכירו את הפלטפורמה", "description": "חקרו את כל המוצרים והכלים הזמינים." },
+      { "title": "בדקו עם התפעול שלכם", "description": "העלו מסמכים, בנו תהליכים, השתמשו ב-AI והתנסו בכלים." },
+      { "title": "בחרו את התוכנית שלכם", "description": "בסוף 7 הימים, המשיכו בדיוק מהנקודה שעצרתם." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "מה אפשר לבדוק במהלך ",
+    "headingHighlight": "7 הימים",
+    "items": [
+      { "title": "Documents", "description": "ניהול חכם של מסמכים ומידע" },
+      { "title": "Process", "description": "אוטומציה חכמה של תהליכים ומשימות" },
+      { "title": "Capture", "description": "לכידת מסמכים חכמה עם AI" },
+      { "title": "Sign", "description": "חתימה דיגיטלית חינמית לכל המשתמשים" },
+      { "title": "Connect", "description": "שיתוף פעולה ותקשורת המחוברים לתפעול" },
+      { "title": "Mobile", "description": "התפעול השלם שלכם בכף היד" },
+      { "title": "Agents", "description": "סוכני AI שמנתחים, מחליטים ומבצעים" },
+      { "title": "Voice", "description": "אינטראקציה קולית בשפה טבעית עם AI" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "ה-",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": " שלכם מוכן מהתחלה.",
+      "paragraph": "כדי שתפיקו את המרב מכל דקה, הכנו דוגמאות אמיתיות לבדיקה מיידית.",
+      "checklist": [
+        { "text": "מסמכי דוגמה" },
+        { "text": "תהליך מוכן מראש" },
+        { "text": "טופס חכם" },
+        { "text": "משימה פתוחה" },
+        { "text": "מסמך לחתימה" },
+        { "text": "דוגמה של ", "highlight": "Capture" },
+        { "text": "סוכן מוגדר" },
+        { "text": "פקודות עבור ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "אנחנו מציעים ",
+      "paragraphHighlight": "מסע של 7 ימים",
+      "paragraphNote": " (אבל הכול זמין מהיום הראשון)",
+      "dayLabel": "יום {number}",
+      "days": [
+        { "line1": "הכירו את", "line2": "Workspace" },
+        { "line1": "חקרו את", "line2": "Documents" },
+        { "line1": "הפכו לאוטומטי", "line2": "תהליכים" },
+        { "line1": "נסו לבצע", "line2": "Capture" },
+        { "line1": "התנסו ב-", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "בחרו את", "line2": "התוכנית" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "אבטחת מידע והמשכיות אחרי ה-Test Drive",
+    "preservedHeading": "הנתונים שלכם נשארים שלכם.",
+    "preservedList": [
+      "Workspace ייחודי",
+      "סביבה מוגנת",
+      "הצפנה מתקדמת",
+      "בקרת גישה",
+      "בידוד נתונים",
+      "בלי חיוב אוטומטי",
+      "בלי כרטיס אשראי"
+    ],
+    "endHeading": "ומה קורה כשה-Test Drive מסתיים?",
+    "endParagraph": "בוחרים את התוכנית המתאימה וממשיכים בדיוק מהנקודה שעצרתם. ה-Workspace שלכם וכל הנתונים נשארים שמורים.",
+    "endFeatures": [
+      { "label": "הנתונים שלכם נשמרים" },
+      { "label": "מעבר בלי אובדן מידע" },
+      { "label": "שום דבר לא נמחק בלי אישורכם" },
+      { "label": "המשיכו כשתרצו" }
+    ],
+    "endButton": "לבחור את התוכנית שלי"
+  },
+  "cta": {
+    "ariaLabel": "התחילו את ה-Test Drive שלכם",
+    "title": "העתיד של התפעול שלכם מתחיל עם Test Drive.",
+    "description": "התנסו ב-Interfy.ai למשך 7 ימים. בלי כרטיס. בלי התחייבות.",
+    "ctaPrimary": "להתחיל Test Drive חינם",
+    "ctaSecondary": "לראות תוכניות",
+    "statsLabel": "המספרים של פלטפורמת Interfy"
+  },
+  "form": {
+    "heading": "הקימו Workspace חינם",
+    "subheading": "לוקח פחות מ-2 דקות.",
+    "nameLabel": "שם מלא",
+    "emailLabel": "אימייל עסקי",
+    "companyLabel": "חברה",
+    "phoneLabel": "טלפון (WhatsApp)",
+    "optionalLabel": "(אופציונלי)",
+    "errors": {
+      "name": "יש להזין שם מלא.",
+      "email": "יש להזין אימייל תקין.",
+      "company": "יש להזין את שם החברה שלכם.",
+      "consent": "יש לאשר את התנאים כדי להמשיך."
+    },
+    "consentPrefix": "קראתי ואני מאשר/ת את ",
+    "consentTerms": "תנאי השימוש",
+    "consentMiddle": " ואת ",
+    "consentPrivacy": "מדיניות הפרטיות",
+    "consentSuffix": ".",
+    "submitButton": "להקים את ה-Workspace שלי בחינם",
+    "submittingButton": "שולח...",
+    "successHeading": "קיבלנו את ההרשמה שלכם!",
+    "successMessagePrefix": "הצוות שלנו מכין את ה-Workspace שלכם. בעוד רגע תקבלו את הגישה באימייל ",
+    "successMessageSuffix": ".",
+    "specialistLink": "לדבר עם מומחה"
+  }
+}

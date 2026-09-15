@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Alustan tila",
+    "description": "Seuraa reaaliajassa kunkin Interfy-tuotteen käytettävyyttä ja alustan häiriöhistoriaa.",
+    "keywords": ["Interfyn tila", "Interfyn käytettävyys", "Interfyn uptime", "Interfyn häiriöt"]
+  },
+  "hero": {
+    "ariaLabel": "Johdanto alustan tilaan",
+    "eyebrow": "Alustan tila",
+    "titleLine1": "Kaikki järjestelmät",
+    "titleHighlight": "toiminnassa",
+    "description": "Kunkin Interfy-tuotteen käytettävyys reaaliajassa, häiriöhistoria ja uptime-SLA."
+  },
+  "list": {
+    "ariaLabel": "Tila tuotteittain",
+    "heading": "Tila tuotteittain",
+    "operationalLabel": "Toiminnassa",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Häiriöhistoria",
+    "incidentsEmpty": "Ei häiriöitä viimeisen 90 päivän aikana."
+  },
+  "infra": {
+    "ariaLabel": "Alustan tilan taustalla oleva infrastruktuuri",
+    "heading": "Korkean käytettävyyden infrastruktuuri",
+    "subheading": "100 %:sti AWS-pohjainen, cloud-native-arkkitehtuuri redundanssilla kaikilla kerroksilla.",
+    "items": [
+      { "label": "Multi-AZ kaikilla kerroksilla (sovellus ja tietokanta)" },
+      { "label": "Globaali CDN (CloudFront) matalalla latenssilla" },
+      { "label": "Automaattinen kuormantasaus" },
+      { "label": "Uhkien havainnointi ja torjunta (GuardDuty)" },
+      { "label": "Jatkuva valvonta (CloudWatch)" },
+      { "label": "Lokit ja auditointijälki (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Sertifikaatit ja vaatimustenmukaisuus",
+      "ctaLabel": "Katso koko tietoturva-arkkitehtuuri",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sertifioitu tietoturvan hallintajärjestelmä." },
+        { "label": "SOC 2 Type II", "description": "Tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.", "badge": "Käynnissä" },
+        { "label": "LGPD", "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen." },
+        { "label": "GDPR", "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen." },
+        { "label": "HIPAA Ready", "description": "Valmis ympäristöihin, joissa käsitellään ePHI-tietoja Yhdysvalloissa.", "badge": "BAA saatavilla" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "heading": "Yritystason luotettavuus",
+    "subheading": "Globaali AWS-infrastruktuuri, AES-256/TLS 1.2+ -salaus ja 99,99 %:n käytettävyys-SLA.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa demo",
+    "statsLabel": "Luotettavuusmittarit",
+    "stats": [
+      { "label": "99,99%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Salaus" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Vaatimustenmukaisuus" }
+    ]
+  }
+}

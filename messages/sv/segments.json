@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "Branscher",
+    "description": "Interfy betjänar företag inom olika branscher och storlekar med en enda AI-native plattform: Finans, Sjukvård, Juridik, Industri, Offentlig sektor och mer än 20 branscher.",
+    "keywords": [
+      "Interfy per bransch",
+      "dokumenthantering per bransch",
+      "programvara för finans sjukvård juridik industri offentlig sektor"
+    ]
+  },
+  "hero": {
+    "statsLabel": "Plattformens fördelar per bransch",
+    "titleLine1": "En plattform för",
+    "titleHighlight": "alla branscher.",
+    "description": "Interfy betjänar företag inom olika branscher och storlekar med en enda AI-native plattform, utan behov av separata versioner eller komplexa installationer.",
+    "sparkleText": "Där det finns data, processer, dokument, kunder och beslut, finns det plats för",
+    "sparkleBrand": "Interfy.",
+    "ctaPrimary": "Se branscher",
+    "ctaSecondary": "Boka en demo",
+    "statsItems": [
+      {
+        "label": "180+ länder"
+      },
+      {
+        "label": "16 språk"
+      },
+      {
+        "label": "Toppsäkerhet"
+      },
+      {
+        "label": "AI Native"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "Års erfarenhet"
+      },
+      {
+        "label": "Hög tillgänglighet"
+      },
+      {
+        "label": "Global efterlevnad"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "Ett enda ekosystem.",
+    "titleHighlight": "Oändliga möjligheter.",
+    "description": "Välj din bransch och upptäck hur Interfy AI förvandlar utmaningar till konkreta resultat.",
+    "items": [
+      {
+        "title": "Finans",
+        "bullets": [
+          "Efterlevnad och reglering",
+          "Kreditanalys",
+          "Avtalshantering"
+        ]
+      },
+      {
+        "title": "Sjukvård",
+        "bullets": [
+          "Journaler och dokument",
+          "Godkännanden och försäkringar",
+          "Hantering av vårdmöten"
+        ]
+      },
+      {
+        "title": "Juridik",
+        "bullets": [
+          "Ärendehantering",
+          "Avtal och inlagor",
+          "Efterlevnad och tidsfrister"
+        ]
+      },
+      {
+        "title": "Industri",
+        "bullets": [
+          "Kvalitet och processer",
+          "Manualer och dokument",
+          "Underhållsorder"
+        ]
+      },
+      {
+        "title": "Offentlig sektor",
+        "bullets": [
+          "Processer och upphandlingar",
+          "Officiella dokument",
+          "Medborgarservice"
+        ]
+      },
+      {
+        "title": "Utbildning",
+        "bullets": [
+          "Antagning och studieregister",
+          "Akademiska processer",
+          "Kommunikation och meddelanden"
+        ]
+      },
+      {
+        "title": "Logistik",
+        "bullets": [
+          "Fraktdokument",
+          "Spårning och leveranser",
+          "Ärendehantering"
+        ]
+      },
+      {
+        "title": "Försäkring",
+        "bullets": [
+          "Försäkringar och skadeärenden",
+          "Riskanalys",
+          "Service och SLA"
+        ]
+      },
+      {
+        "title": "Fastigheter",
+        "bullets": [
+          "Avtal och erbjudanden",
+          "Uthyrning och besiktningar",
+          "Fastighetsdokument"
+        ]
+      },
+      {
+        "title": "Handel",
+        "bullets": [
+          "Lager och beställningar",
+          "Fakturor och leverantörer",
+          "Omnikanalservice"
+        ]
+      },
+      {
+        "title": "HR",
+        "bullets": [
+          "Anställning och dokument",
+          "Prestationsutvärderingar",
+          "Förmånshantering"
+        ]
+      },
+      {
+        "title": "Redovisning",
+        "bullets": [
+          "Fakturor och skyldigheter",
+          "Deklarationer och rapporter",
+          "Kunder och avtal"
+        ]
+      },
+      {
+        "title": "Apotek & laboratorier",
+        "bullets": [
+          "Recept och vårdmöten",
+          "Kvalitetskontroll",
+          "Regulatoriska dokument"
+        ]
+      },
+      {
+        "title": "Franchise",
+        "bullets": [
+          "Standardisering och manualer",
+          "Avtal och cirkulär",
+          "Kedjans prestanda"
+        ]
+      },
+      {
+        "title": "Tjänster",
+        "bullets": [
+          "Offerter och avtal",
+          "Ärenden och projekt",
+          "Leveranser och fakturering"
+        ]
+      },
+      {
+        "title": "Lantbruk",
+        "bullets": [
+          "Avtal och skördar",
+          "Fakturor och dokument",
+          "Spårbarhet"
+        ]
+      },
+      {
+        "title": "Fackförbund & föreningar",
+        "bullets": [
+          "Medlemmar och dokument",
+          "Möten och protokoll",
+          "Kommunikation och meddelanden"
+        ]
+      },
+      {
+        "title": "Teknik",
+        "bullets": [
+          "Projekt och backlogg",
+          "Avtal och sekretessavtal",
+          "Filproduktion"
+        ]
+      },
+      {
+        "title": "Turism",
+        "bullets": [
+          "Innehåll och pauser",
+          "Avtal och media",
+          "Produktion och arkiv"
+        ]
+      },
+      {
+        "title": "Övrigt",
+        "bullets": [
+          "Skräddarsydda lösningar",
+          "Processer efter behov",
+          "Digital transformation"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Plattformens fördelar",
+    "items": [
+      {
+        "title": "En enda plattform",
+        "description": "Ingen anledning till branschspecifika versioner"
+      },
+      {
+        "title": "100 % anpassningsbar",
+        "description": "Konfigurera efter ditt företags behov"
+      },
+      {
+        "title": "Snabb driftsättning",
+        "description": "Kom igång på minuter utan krångel"
+      },
+      {
+        "title": "Säkerhet i företagsklass",
+        "description": "Dataskydd och isolerade miljöer"
+      },
+      {
+        "title": "AI inom alla branscher",
+        "description": "Intelligenta agenter som förstår din verksamhet"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "Plattformens tillförlitlighet och anpassningsförmåga",
+    "cardTitle": "Byggd för verkligheten hos",
+    "cardTitleHighlight": "olika typer av företag.",
+    "cardDescription": "Från det lilla företaget till den globala verksamheten — Interfy anpassar sig till din storlek, bransch och mål.",
+    "casesLink": "Se användningsfall",
+    "statsTitle": "Företag som litar på Interfy",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "branscher vi betjänar"
+      },
+      {
+        "value": "2,5M+",
+        "label": "användare vi betjänar"
+      },
+      {
+        "value": "6",
+        "label": "kommersiella regioner"
+      },
+      {
+        "value": "7 miljarder +",
+        "label": "hanterade dokument"
+      },
+      {
+        "value": "6 miljoner +",
+        "label": "automatiserade processer"
+      },
+      {
+        "value": "99,99%",
+        "label": "drifttid för plattformen"
+      }
+    ],
+    "illustrationAlt": "Panel med diagram som representerar data från olika företag"
+  },
+  "platform": {
+    "titleHighlight": "En komplett plattform",
+    "titleSuffix": "för alla branscher",
+    "ctaLabel": "Se plattformen",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "Smart hantering av dokument och information"
+      },
+      {
+        "product": "Process",
+        "description": "Smart automatisering av processer och uppgifter"
+      },
+      {
+        "product": "Capture",
+        "description": "AI-driven dokumentfångst"
+      },
+      {
+        "product": "Sign",
+        "description": "Kostnadsfri digital signatur för alla användare"
+      },
+      {
+        "product": "Connect",
+        "description": "Samarbete och kommunikation kopplat till verksamheten"
+      },
+      {
+        "product": "Mobile",
+        "description": "Hela din verksamhet i handen"
+      },
+      {
+        "product": "Agents",
+        "description": "AI-agenter som analyserar, beslutar och agerar"
+      },
+      {
+        "product": "Voice",
+        "description": "Röstinteraktion med naturligt språk och AI"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "title": "Oavsett din bransch, storlek på ditt företag eller utmaning — vi är rätt plattform.",
+    "description": "Interfy förvandlar din verksamhet med AI, automatisering och intelligens.",
+    "ctaPrimary": "Kom igång gratis",
+    "ctaSecondary": "Boka en demo",
+    "features": [
+      {
+        "title": "AI-native",
+        "description": "intelligens i varje modul"
+      },
+      {
+        "title": "Molnbaserad",
+        "description": "skalbar infrastruktur"
+      },
+      {
+        "title": "Webb + Mobile",
+        "description": "Full åtkomst var du än är"
+      },
+      {
+        "title": "API:er och integrationer",
+        "description": "Koppla ihop allt ditt företag redan använder"
+      },
+      {
+        "title": "Säkerhet och efterlevnad",
+        "description": "Globala standarder för skydd och regelefterlevnad"
+      },
+      {
+        "title": "Support dygnet runt",
+        "description": "Kontinuerligt stöd för din verksamhet"
+      }
+    ]
+  }
+}

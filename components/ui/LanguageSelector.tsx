@@ -96,7 +96,7 @@ function DropdownMenu({
 }) {
   return (
     <div
-      className={`absolute right-[-1px] z-50 flex w-[290px] flex-col gap-3 rounded-md border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] ${
+      className={`absolute right-[-1px] z-50 flex max-h-[min(360px,70vh)] w-[290px] flex-col gap-3 overflow-y-auto rounded-md border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] ${
         align === "up" ? "bottom-[calc(100%+4px)]" : "top-[calc(100%+4px)]"
       }`}
     >

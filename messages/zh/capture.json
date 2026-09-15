@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture 能在几秒内将纸质和电子文档转化为智能信息。无论通过浏览器、专业扫描仪还是智能手机采集,AI 都会自动识别、提取、分类并转发所有内容。",
+    "keywords": [
+      "智能文档采集",
+      "AI 数字化",
+      "OCR",
+      "文档识别",
+      "Interfy Capture"
+    ],
+    "freeTrialNote": "免费试用 7 天,无需信用卡"
+  },
+  "hero": {
+    "titleLine1": "采集任意文档。",
+    "titleLine2": "剩下的交给 AI。",
+    "descriptionBrand": "Interfy Capture",
+    "description": "能在几秒内将纸质和电子文档转化为智能信息。支持浏览器、专业扫描仪或智能手机采集。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "mockupAlt": "笔记本电脑和智能手机上展示的 Interfy Capture,显示智能文档采集功能",
+    "trust": [
+      {
+        "text": "99.9% 的提取可靠性"
+      },
+      {
+        "text": "100% 安全,符合 LGPD 规定"
+      },
+      {
+        "text": "AI 原生贯穿整个平台"
+      },
+      {
+        "text": "可应对任意文档量级的扩展能力"
+      }
+    ],
+    "flow": [
+      {
+        "text": "AI 识别并提取"
+      },
+      {
+        "text": "分类、索引并整理。"
+      },
+      {
+        "text": "存储至 Interfy Documents"
+      },
+      {
+        "text": "发送至 Interfy Process"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "了解 ",
+    "headingHighlight": "Interfy Capture 的运作方式",
+    "steps": [
+      {
+        "title": "采集",
+        "description": "支持任意来源采集:浏览器、扫描仪或手机。"
+      },
+      {
+        "title": "AI 识别",
+        "description": "Interfy AI 自动识别并提取内容。"
+      },
+      {
+        "title": "阅读与理解",
+        "description": "理解上下文、字段以及信息之间的关联。"
+      },
+      {
+        "title": "数据提取",
+        "description": "自动提取结构化和非结构化数据。"
+      },
+      {
+        "title": "分类",
+        "description": "通过 AI 对文档进行分类和整理。"
+      },
+      {
+        "title": "索引与元数据",
+        "description": "分配元数据,便于搜索和追溯。"
+      },
+      {
+        "title": "验证与转发",
+        "description": "验证并转发至 Interfy Documents 或 Process。"
+      }
+    ]
+  },
+  "features": {
+    "headingPrefix": "了解 ",
+    "headingHighlight": "Interfy Capture 的功能与优势",
+    "statsLabel": "Interfy 平台规模",
+    "items": [
+      {
+        "title": "浏览器采集",
+        "description": "直接从您的电脑采集文件,简单、快速、安全。"
+      },
+      {
+        "title": "专业扫描仪",
+        "description": "与高性能扫描仪原生集成,确保最佳质量。"
+      },
+      {
+        "title": "批量采集",
+        "description": "一次性数字化并处理大量文档。"
+      },
+      {
+        "title": "内含 AI 额度",
+        "description": "所有平台套餐均包含 AI 额度——无需单独购买模块。"
+      },
+      {
+        "title": "移动端采集",
+        "description": "随时随地通过智能手机采集文档。"
+      },
+      {
+        "title": "AI 识别",
+        "description": "AI 以高精度识别并提取内容。"
+      },
+      {
+        "title": "自动提取",
+        "description": "自动提取结构化和非结构化数据。"
+      },
+      {
+        "title": "Interfy Documents",
+        "description": "安全存储,智能搜索,全程可追溯。"
+      },
+      {
+        "title": "Interfy Process",
+        "description": "自动发送至您业务的流程与自动化环节。"
+      },
+      {
+        "title": "购买额外额度",
+        "description": "业务需要时随时补充更多额度。"
+      }
+    ]
+  },
+  "legalValidity": {
+    "title": "具有法律效力的数字化",
+    "badge": "可选功能",
+    "description": "面向需要为电子文档赋予法律效力的企业的可选功能。不包含在标准套餐中。",
+    "checklist": [
+      {
+        "text": "数字证书与时间戳"
+      },
+      {
+        "text": "具有法律效力的安全存储"
+      },
+      {
+        "text": "端到端可追溯性"
+      },
+      {
+        "text": "审计证据与追踪记录"
+      },
+      {
+        "textParts": [
+          "按照 ",
+          "第 10.278 号法令加盖时间戳并保留追踪记录"
+        ]
+      },
+      {
+        "text": "审计追踪"
+      },
+      {
+        "text": "法律验证"
+      },
+      {
+        "text": "合规与安全"
+      }
+    ]
+  },
+  "results": {
+    "ariaLabel": "为您的业务带来的真实成果",
+    "heading": "为您的业务带来真实成果",
+    "stats": [
+      {
+        "accent": "最高 85%",
+        "label": "错误减少",
+        "description": "在索引和分类环节。"
+      },
+      {
+        "accent": "更高",
+        "label": "生产力",
+        "description": "让您的团队专注于真正重要的事。"
+      },
+      {
+        "accent": "安全与",
+        "label": "合规",
+        "description": "全面符合 LGPD、GDPR 及全球标准。"
+      }
+    ],
+    "ctaTitle": "准备好重塑您的文档运营了吗?",
+    "ctaDescription": "预约演示,了解 Interfy Capture 如何为您的企业带来真实成果。",
+    "mascotAlt": "Interfy AI 助手"
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy Capture",
+    "title": "准备好用 AI 重塑您的文档采集流程了吗?",
+    "description": "免费试用 Interfy Capture 7 天,亲眼见证 AI 如何为您的业务赋能。可单独购买,也可使用平台套餐中已包含的额度。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "statsLabel": "Interfy Capture 的优势",
+    "highlights": [
+      {
+        "label": "100% 网页端",
+        "sublabel": "随时随地访问"
+      },
+      {
+        "label": "顶级安全",
+        "sublabel": "数据受保护且合规"
+      },
+      {
+        "label": "可扩展",
+        "sublabel": "从小型到大型企业均适用"
+      },
+      {
+        "label": "24/7 支持",
+        "sublabel": "随时为您服务"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Varaa demo",
+    "description": "Varaa henkilökohtainen Interfy-esittely ja katso, miten dokumentit, prosessit, sähköinen allekirjoitus ja AI voivat mukautua toimintaanne.",
+    "keywords": ["varaa Interfy-demo", "Interfy-esittely", "pyydä demo AI-alustasta"]
+  },
+  "hero": {
+    "ariaLabel": "Varaa Interfy-esittely",
+    "eyebrow": "Henkilökohtainen esittely",
+    "headingPrefix": "Näe Interfy",
+    "headingHighlight": "toiminnassa.",
+    "description": "Asiantuntija tutustuu tilanteeseenne ja näyttää livenä, miten dokumentit, prosessit, sähköinen allekirjoitus, integraatiot ja AI sopivat toimintaanne.",
+    "expectHeading": "Mitä demolta odottaa",
+    "expectItems": [
+      { "title": "30 minuuttia", "description": "Suoraviivainen keskustelu, ei jaarittelua." },
+      { "title": "Todellinen tilanne", "description": "Esimerkkejä sovellettuna toimintaanne ja toimialaanne." },
+      { "title": "Ei sitoumuksia", "description": "Päätät itse seuraavasta askeleesta keskustelun jälkeen." },
+      { "title": "Omistautunut asiantuntija", "description": "Henkilö, joka tuntee alanne ennalta." }
+    ]
+  },
+  "form": {
+    "heading": "Varaa esittelysi",
+    "subheading": "Täytä tiedot alla, ja otamme yhteyttä sopivimman ajan vahvistamiseksi.",
+    "nameLabel": "Koko nimi",
+    "emailLabel": "Yrityssähköposti",
+    "companyLabel": "Yritys",
+    "phoneLabel": "Puhelin (WhatsApp)",
+    "roleLabel": "Titteli",
+    "companySizeLabel": "Yrityksen koko",
+    "companySizePlaceholder": "Valitse",
+    "companySizeOptions": [
+      "1–10 työntekijää",
+      "11–50 työntekijää",
+      "51–200 työntekijää",
+      "201–1 000 työntekijää",
+      "Yli 1 000 työntekijää"
+    ],
+    "messageLabel": "Kerro lyhyesti, mitä tarvitsette",
+    "optionalLabel": "(vapaaehtoinen)",
+    "errors": {
+      "name": "Anna koko nimesi.",
+      "email": "Anna kelvollinen sähköpostiosoite.",
+      "company": "Anna yrityksesi nimi.",
+      "consent": "Ehdot on hyväksyttävä jatkaaksesi."
+    },
+    "consentPrefix": "Olen lukenut ja hyväksyn ",
+    "consentTerms": "käyttöehdot",
+    "consentMiddle": " ja ",
+    "consentPrivacy": "tietosuojakäytännön",
+    "consentSuffix": ".",
+    "submitButton": "Varaa demoni",
+    "submittingButton": "Lähetetään...",
+    "successHeading": "Pyyntösi vastaanotettu!",
+    "successMessagePrefix": "Tiimimme ottaa yhteyttä sopivimman ajan vahvistamiseksi osoitteeseen ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Aloita ilmaiseksi sillä välin"
+  },
+  "trust": {
+    "ariaLabel": "Miksi varata demo Interfyn kanssa",
+    "heading": "Alusta, joka on valmis globaaleille yrityksille",
+    "subheading": "Yritystason tietoturva, globaali vaatimustenmukaisuus ja asiantunteva tuki jokaisessa esittelyssä.",
+    "statsLabel": "Interfyn globaali läsnäolo",
+    "stats": [
+      { "label": "180+ maata", "sublabel": "Kasvava globaali läsnäolo" },
+      { "label": "16 kieltä", "sublabel": "Täysi käyttöliittymä ja kokemus" },
+      { "label": "99,99%", "sublabel": "Taattu SLA-käytettävyys" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Sertifioitu vaatimustenmukaisuus" }
+    ]
+  }
+}

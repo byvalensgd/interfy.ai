@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Programme Partenaires",
+    "description": "Devenez Partenaire Commercial ou Affilié d'Interfy.ai et transformez des opportunités en revenus récurrents grâce à une plateforme AI-native, un support dédié et un workspace institutionnel.",
+    "keywords": ["programme partenaires Interfy", "partenaire commercial", "affilié Interfy", "apport d'affaires", "revenus récurrents"]
+  },
+  "hero": {
+    "headingPrefix": "Développez-vous avec ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Transformez des opportunités en revenus récurrents.",
+    "description": "Rejoignez un programme mondial pour les entreprises et les professionnels qui souhaitent prospecter, recommander et développer de nouvelles affaires avec une plateforme AI-native.",
+    "slideshowAlt": "Plateforme Interfy affichée sur un ordinateur portable et un smartphone, montrant le tableau de bord de gestion avec IA",
+    "bannerAriaLabel": "Avantages du programme partenaires",
+    "banner": [
+      { "title": "Programme mondial" },
+      { "title": "Support Interfy" },
+      { "title": "Revenus récurrents" },
+      { "title": "Opportunités protégées" }
+    ],
+    "ctaPrimary": "JE VEUX DEVENIR PARTENAIRE",
+    "ctaSecondary": "JE VEUX RECOMMANDER DES CLIENTS"
+  },
+  "participation": {
+    "heading": "Choisissez comment vous souhaitez participer",
+    "cards": [
+      {
+        "title": "PARTENAIRE COMMERCIAL",
+        "subtitle": "Pour ceux qui veulent développer des affaires avec Interfy",
+        "checklistAriaLabel": "Avantages du Partenaire Commercial",
+        "checklist": [
+          { "label": "Prospection de nouveaux clients" },
+          { "label": "Présentation de la plateforme" },
+          { "label": "Développement des opportunités" },
+          { "label": "Suivi de la relation commerciale" },
+          { "label": "Workspace institutionnel pour les démonstrations" },
+          { "label": "Formation et supports officiels" },
+          { "label": "Enregistrement et protection des opportunités" }
+        ],
+        "cta": "JE VEUX DEVENIR PARTENAIRE"
+      },
+      {
+        "title": "AFFILIÉ OU APPORTEUR D'AFFAIRES",
+        "subtitle": "Pour ceux qui veulent recommander des clients potentiels",
+        "checklistAriaLabel": "Avantages de l'Affilié ou Apporteur d'Affaires",
+        "checklist": [
+          { "label": "Recommandation par lien, code ou formulaire" },
+          { "label": "Aucune démonstration à réaliser" },
+          { "label": "Aucune proposition à élaborer" },
+          { "label": "Aucune participation à la négociation" },
+          { "label": "Interfy gère l'ensemble du processus commercial" },
+          { "label": "Suivi des recommandations effectuées" }
+        ],
+        "cta": "JE VEUX RECOMMANDER DES CLIENTS"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Pourquoi tout centraliser dans un seul ",
+    "headingHighlight": "Workspace ?",
+    "steps": [
+      { "title": "Choisissez votre modalité", "description": "Décidez si vous serez Partenaire Commercial ou Affilié/Apporteur d'affaires." },
+      { "title": "Inscrivez-vous", "description": "Renseignez vos informations et confirmez votre participation au programme." },
+      { "title": "Enregistrez vos opportunités", "description": "Recommandez et suivez vos clients potentiels via la plateforme." },
+      { "title": "Suivez vos résultats", "description": "Suivez vos résultats et percevez vos revenus selon les conditions du programme." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "Une structure complète ",
+    "headingHighlight": "pour vous faire grandir",
+    "ariaLabel": "Structure d'accompagnement du partenaire",
+    "items": [
+      { "title": "Plateforme AI-native", "description": "La meilleure technologie pour dynamiser vos affaires." },
+      { "title": "Formation", "description": "Renforcement commercial et technique pour votre équipe." },
+      { "title": "Workspace institutionnel", "description": "Environnement exclusif pour la gestion des opportunités." },
+      { "title": "Supports commerciaux", "description": "Présentations, argumentaires et contenus officiels mis à jour." },
+      { "title": "Enregistrement des opportunités", "description": "Suivez le statut de chaque opportunité en temps réel." },
+      { "title": "Contrats gérés par Interfy", "description": "Interfy pilote la négociation et la formalisation avec le client." },
+      { "title": "Facturation gérée par Interfy", "description": "Émission des factures, recouvrement et gestion des paiements." },
+      { "title": "Support officiel", "description": "Équipe dédiée aux partenaires, avec un accompagnement spécialisé." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Vous développez l'affaire",
+      "checklistAriaLabel": "Responsabilités du partenaire",
+      "checklist": [
+        { "label": "Prospection et relation client" },
+        { "label": "Présentation de la plateforme" },
+        { "label": "Enregistrement de l'opportunité" },
+        { "label": "Suivi commercial" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy gère l'opération",
+      "checklistAriaLabel": "Responsabilités d'Interfy",
+      "checklist": [
+        { "label": "Contrat avec le client" },
+        { "label": "Facturation et recouvrement" },
+        { "label": "Création du Workspace" },
+        { "label": "Infrastructure, mises à jour et support" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Votre client peut commencer avec le ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 jours gratuits, sans carte bancaire et sans engagement.",
+    "descriptionLine2": "Le client découvre la plateforme avant de choisir son plan.",
+    "cta": "DÉCOUVRIR LE TEST DRIVE"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "ariaExpand": "Afficher la réponse",
+    "items": [
+      {
+        "question": "Existe-t-il une exclusivité territoriale ?",
+        "answer": "Non. Le programme est mondial : les partenaires et affiliés de toute région peuvent prospecter et recommander des clients, sans restriction géographique."
+      },
+      {
+        "question": "Comment les opportunités sont-elles protégées ?",
+        "answer": "Chaque opportunité enregistrée sur la plateforme est rattachée au partenaire ou affilié responsable, ce qui évite les chevauchements et garantit la reconnaissance de l'affaire apportée."
+      },
+      {
+        "question": "Quand la commission est-elle versée ?",
+        "answer": "La commission est débloquée après confirmation du paiement du client, selon le cycle de facturation défini dans les conditions du programme."
+      },
+      {
+        "question": "Le partenaire peut-il facturer le client ?",
+        "answer": "Non. Interfy gère directement le contrat, la facturation et le recouvrement auprès du client, tandis que le partenaire se concentre sur la relation commerciale."
+      },
+      {
+        "question": "Comment fonctionne le renouvellement annuel ?",
+        "answer": "Le renouvellement est automatique tant que le client reste actif, et le partenaire ou affilié continue de percevoir ses revenus selon les conditions du programme."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Rejoignez l'écosystème mondial Interfy.ai",
+    "heading": "On grandit ensemble ?",
+    "subheading": "Choisissez votre modalité et rejoignez l'écosystème mondial Interfy.ai.",
+    "primaryButton": "JE VEUX DEVENIR PARTENAIRE",
+    "secondaryButton": "JE VEUX DEVENIR AFFILIÉ",
+    "statsLabel": "Chiffres de la plateforme Interfy",
+    "stats": [
+      { "label": "12Md +", "sublabel": "documents" },
+      { "label": "20M +", "sublabel": "signatures" },
+      { "label": "2,5M +", "sublabel": "utilisateurs" },
+      { "label": "6M +", "sublabel": "processus" },
+      { "label": "1000 To +", "sublabel": "stockés" },
+      { "label": "99,99 %", "sublabel": "disponibilité" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

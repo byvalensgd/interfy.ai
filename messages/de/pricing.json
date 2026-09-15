@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Preise und Pläne",
+    "description": "Wählen Sie den passenden Plan für die Größe Ihres Unternehmens: Free, Individual, Teams, Startup oder Pläne für mittlere und große Unternehmen.",
+    "keywords": ["Interfy Preise", "Interfy Pläne", "Kosten Dokumentenmanagement", "AI-native Unternehmensplan"]
+  },
+  "hero": {
+    "headingPrefix": "Die Komplettplattform, um",
+    "headingHighlight": "Ihren Betrieb mit KI zu transformieren.",
+    "description": "Wählen Sie den passenden Plan für die Größe Ihres Unternehmens und verwandeln Sie Dokumente, Prozesse und Teams in echte Ergebnisse.",
+    "monthlyCta": "Monatlich",
+    "annualCta": "Jährlich",
+    "saveBadge": "Bis zu 30 % sparen",
+    "imageAlt": "Interfy-Plattform auf Laptop und Smartphone, mit dem KI-gestützten Verwaltungs-Dashboard",
+    "highlights": ["7 Tage kostenlos testen", "Digitale Signatur kostenlos", "Zugriff über Web und Mobile", "KI-Funktionen inklusive"]
+  },
+  "plansSection": {
+    "heading": "Interfy-Pläne",
+    "segmentSmallTitle": "Kleine Unternehmen",
+    "segmentSmallDesc": "Für Fachkräfte, Teams und wachsende Unternehmen.",
+    "segmentLargeTitle": "Mittlere & große Unternehmen",
+    "segmentLargeDesc": "Für komplexe Abläufe, Governance und globale Skalierung.",
+    "billingAriaLabel": "Zwischen monatlicher und jährlicher Abrechnung wechseln",
+    "billingMonthly": "Monatlich",
+    "billingAnnual": "Jährlich",
+    "billingSaveBadge": "30 % sparen",
+    "billingAnnualLabel": "Jährliche Abrechnung",
+    "billingMonthlyLabel": "Monatliche Abrechnung",
+    "perUserMonth": "Pro Nutzer/Monat",
+    "productsIncludedLabel": "Im Plan enthaltene Produkte",
+    "allProductsLabel": "ALLE 8 PRODUKTE",
+    "enterprisePriceLabel": "Anfragen",
+    "enterprisePriceSub": "Individueller Preis",
+    "popularBadge": "AM BELIEBTESTEN"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Kostenlos starten",
+      "productsLabel": "3 PRODUKTE ENTHALTEN",
+      "features": [
+        "1 vollwertiger Nutzer",
+        "1 GB Speicherplatz",
+        "5 KI-Credits/Monat",
+        "3 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!",
+      "productsLabel": "4 PRODUKTE ENTHALTEN",
+      "features": [
+        "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+        "Mindestens 1 vollwertiger Nutzer",
+        "2 Leseberechtigte Nutzer",
+        "5 GB Speicherplatz",
+        "10 KI-Credits/Monat (nicht kumulativ)",
+        "10 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+        "10 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!",
+      "productsLabel": "5 PRODUKTE ENTHALTEN",
+      "features": [
+        "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+        "Mindestens 5 vollwertige Nutzer",
+        "5 Leseberechtigte Nutzer",
+        "Interfy Capture + Mobile",
+        "10 GB Speicherplatz",
+        "10 KI-Credits/Monat (nicht kumulativ)",
+        "10 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+        "10 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch",
+        "Volltext-OCR-Suche"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!",
+      "productsLabel": "8 PRODUKTE ENTHALTEN",
+      "features": [
+        "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+        "Mindestens 5 vollwertige Nutzer",
+        "5 Leseberechtigte Nutzer",
+        "Interfy Capture + Mobile",
+        "15 GB Speicherplatz",
+        "20 KI-Credits/Monat (nicht kumulativ)",
+        "10 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+        "10 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch",
+        "Unbegrenzte Prozesse",
+        "Volltext-OCR-Suche"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Jetzt abschließen",
+      "trialLabel": "7 Tage kostenlos testen!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "MASSGESCHNEIDERTE LÖSUNG",
+      "ctaLabel": "Mit einem Experten sprechen",
+      "trialLabel": "ANFRAGEN"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+      "business": "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+      "corporate": "Unbegrenzte Nutzer (Abrechnung pro Nutzer)",
+      "enterprise": "Unbegrenzte Nutzer (Abrechnung pro Nutzer)"
+    },
+    {
+      "starter": "Mindestens 5 vollwertige Nutzer",
+      "business": "Mindestens 10 vollwertige Nutzer",
+      "corporate": "Mindestens 15 vollwertige Nutzer",
+      "enterprise": "Vollwertige Nutzer (auf Anfrage)"
+    },
+    {
+      "starter": "10 Leseberechtigte Nutzer",
+      "business": "15 Leseberechtigte Nutzer",
+      "corporate": "30 Leseberechtigte Nutzer",
+      "enterprise": "Unbegrenzte Leseberechtigte Nutzer"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "25 GB Speicherplatz",
+      "business": "50 GB Speicherplatz",
+      "corporate": "100 GB Speicherplatz",
+      "enterprise": "Speicherplatz (auf Anfrage)"
+    },
+    {
+      "starter": "100 KI-Credits/Monat (nicht kumulativ)",
+      "business": "250 KI-Credits/Monat (nicht kumulativ)",
+      "corporate": "500 KI-Credits/Monat (nicht kumulativ)",
+      "enterprise": "KI-Credits/Monat (nicht kumulativ) (auf Anfrage)"
+    },
+    {
+      "starter": "10 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+      "business": "20 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+      "corporate": "30 Versendungen von Dokumenten zur digitalen Signatur/Monat (nicht kumulativ)",
+      "enterprise": "Unbegrenzte Versendungen von Dokumenten zur digitalen Signatur"
+    },
+    {
+      "starter": "10 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch",
+      "business": "15 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch",
+      "corporate": "20 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch",
+      "enterprise": "500 Tickets/Monat (nicht kumulativ) im Chat für Interaktion und Dokumentenaustausch"
+    },
+    {
+      "starter": "10 dynamische Interaktionen für externe Nutzer in Prozessen/Monat (nicht kumulativ)",
+      "business": "15 dynamische Interaktionen für externe Nutzer in Prozessen/Monat (nicht kumulativ)",
+      "corporate": "20 dynamische Interaktionen für externe Nutzer in Prozessen/Monat (nicht kumulativ)",
+      "enterprise": "500 dynamische Interaktionen für externe Nutzer in Prozessen/Monat (nicht kumulativ)"
+    },
+    {
+      "starter": "Unbegrenzte Prozesse",
+      "business": "Unbegrenzte Prozesse",
+      "corporate": "Unbegrenzte Prozesse",
+      "enterprise": "Unbegrenzte Prozesse"
+    },
+    {
+      "starter": "Zugriff auf die Interfy-API",
+      "business": "Zugriff auf die Interfy-API",
+      "corporate": "Zugriff auf die Interfy-API",
+      "enterprise": "Zugriff auf die Interfy-API"
+    },
+    {
+      "starter": "Individuelles Branding (White Label)",
+      "business": "Individuelles Branding (White Label)",
+      "corporate": "Individuelles Branding (White Label)",
+      "enterprise": "Individuelles Branding (White Label)"
+    },
+    {
+      "starter": "Exklusive URL mit Datenisolierung",
+      "business": "Exklusive URL mit Datenisolierung",
+      "corporate": "Exklusive URL mit Datenisolierung",
+      "enterprise": "Exklusive URL mit Datenisolierung"
+    },
+    {
+      "starter": "Datenbankintegration",
+      "business": "Datenbankintegration",
+      "corporate": "Datenbankintegration",
+      "enterprise": "Datenbankintegration"
+    },
+    {
+      "starter": "Workspace mit Administration und erweiterten Sicherheitskontrollen",
+      "business": "Workspace mit Administration und erweiterten Sicherheitskontrollen",
+      "corporate": "Workspace mit Administration und erweiterten Sicherheitskontrollen",
+      "enterprise": "Workspace mit Administration und erweiterten Sicherheitskontrollen"
+    },
+    {
+      "starter": "Authentifizierung über AD/LDAP",
+      "business": "Authentifizierung über AD/LDAP",
+      "corporate": "Authentifizierung über AD/LDAP",
+      "enterprise": "Authentifizierung über AD/LDAP"
+    },
+    {
+      "starter": "IP-Sperre",
+      "business": "IP-Sperre",
+      "corporate": "IP-Sperre",
+      "enterprise": "IP-Sperre"
+    },
+    {
+      "starter": "Multi-Faktor-Authentifizierung",
+      "business": "Multi-Faktor-Authentifizierung",
+      "corporate": "Multi-Faktor-Authentifizierung",
+      "enterprise": "Multi-Faktor-Authentifizierung"
+    },
+    {
+      "starter": "Volltext-OCR-Suche",
+      "business": "Volltext-OCR-Suche",
+      "corporate": "Volltext-OCR-Suche",
+      "enterprise": "Volltext-OCR-Suche"
+    },
+    {
+      "starter": "Modul für die Verwaltung physischer Archive",
+      "business": "Modul für die Verwaltung physischer Archive",
+      "corporate": "Modul für die Verwaltung physischer Archive",
+      "enterprise": "Modul für die Verwaltung physischer Archive"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Planvergleich",
+    "resourcesLabel": "Funktionen",
+    "includedAlt": "Enthalten",
+    "rows": [
+      { "label": "Nutzer", "values": { "free": "Bis zu 3", "individual": "1", "teams": "Unbegrenzt", "startup": "Unbegrenzt" } },
+      { "label": "Workspaces", "values": { "free": "1", "individual": "1", "teams": "Unbegrenzt", "startup": "Unbegrenzt" } },
+      { "label": "Speicherplatz", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Unbegrenzt" } },
+      { "label": "Digitale Signatur", "values": { "free": "Kostenlos", "individual": "Kostenlos", "teams": "Kostenlos", "startup": "Kostenlos" } },
+      { "label": "Mobile App", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Enthaltene Module",
+        "values": {
+          "free": "Documents und Sign",
+          "individual": "Documents, Sign und Connect",
+          "teams": "Documents, Sign und Connect",
+          "startup": "Alle außer Process"
+        }
+      },
+      {
+        "label": "KI-Funktionen",
+        "values": { "free": "Basis", "individual": "Standard", "teams": "Erweitert", "startup": "Unbegrenzt · Credits inklusive" }
+      },
+      { "label": "KI-Credits/Monat", "values": { "free": "-", "individual": "1.000", "teams": "3.000", "startup": "10.000" } },
+      { "label": "Support", "values": { "free": "E-Mail", "individual": "E-Mail", "teams": "Priorisiert", "startup": "Premium 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "Alle Funktionen ansehen und Pläne vergleichen",
+    "sections": [
+      {
+        "label": "Funktionen von Interfy Process",
+        "features": [
+          "Unbegrenzte Prozesserstellung",
+          "BPMN-2.0-Designer",
+          "Externer Link zum Starten von Fällen",
+          "Dokumentenerfassung direkt im laufenden Prozess",
+          "Erstellung öffentlicher Variablen",
+          "Dynamische Nutzer",
+          "Parallele Abläufe",
+          "Aufgabenpostfach",
+          "Unterprozesse",
+          "Prozessüberwachung",
+          "Ansicht des Fallverlaufs",
+          "Erweiterte Prozesssuche",
+          "Grafische Ansicht des Prozessfortschritts",
+          "Parametrisierung und Steuerung der pro Aufgabe zugewiesenen Zeiten",
+          "Benachrichtigungssteuerung mit Alarmen",
+          "Manuelle, zyklische und Self-Service-Zuweisungen: nach Variable, Wert und Organisationseinheit",
+          "Ernennung von Supervisoren für die Prozessverwaltung",
+          "Neuzuweisung von Fällen durch den Supervisor",
+          "Stornierung von Fällen je nach Nutzer- oder Supervisorprofil",
+          "Kalender für Arbeitstage",
+          "Benachrichtigungen bei Eingang neuer Aufgaben",
+          "Hierarchische Benachrichtigungen im Prozess ab SLA-Schwelle",
+          "Benachrichtigungen bei kritischem oder abgelaufenem SLA",
+          "Verknüpfung des SLA mit dem Arbeitstagekalender",
+          "Zusammenspiel von Interfy Documents mit Interfy Process",
+          "Integration mit Web Services"
+        ]
+      },
+      {
+        "label": "Funktionen von Interfy Documents",
+        "features": [
+          "Zentralisierung von Inhalten",
+          "Erweiterte Auditierung",
+          "Dokumentenversionierung",
+          "Dokumentbefristung",
+          "Flexible Ordnerstruktur",
+          "Zugriffsprofile für Inhalte",
+          "Externer Link zum Teilen von Inhalten",
+          "Dokumentenerstellung in verschiedenen Dateiformaten",
+          "Integration mit Microsoft Office (Drag & Drop)",
+          "Erweiterte Suche",
+          "Erstellung von Indexkarten (elektronische Formulare)",
+          "Physischer Standort der Dokumente",
+          "Kontrolle von Speicherplatz- und Nutzerverbrauch",
+          "Eigener Viewer für die wichtigsten Dateiformate",
+          "Scannen und Hochladen von Dokumenten",
+          "Lokale und dezentrale Erfassung, 100 % webbasiert",
+          "Erfassung über Scanner",
+          "Erfassung über Multifunktionsgeräte",
+          "Erfassung per Smartphone",
+          "Erfassung per Webcam"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Kann ich jederzeit den Plan wechseln?",
+      "answer": "Ja. Sie können Ihren Plan jederzeit direkt im Verwaltungsbereich upgraden oder downgraden, ohne Vertragsstrafen oder Aufwand."
+    },
+    {
+      "question": "Wie funktionieren die KI-Credits?",
+      "answer": "Jeder Plan enthält ein monatliches Kontingent an KI-Credits, das für Funktionen wie intelligente Extraktion und Agents genutzt wird. Die Credits sind nicht kumulativ und werden jeden Monat erneuert."
+    },
+    {
+      "question": "Was passiert nach der Testphase?",
+      "answer": "Nach Ablauf der kostenlosen 7 Tage wählen Sie den passenden Plan, um die Plattform weiter zu nutzen. Für den Test ist keine Kreditkarte erforderlich."
+    },
+    {
+      "question": "Welche Zahlungsmethoden werden akzeptiert?",
+      "answer": "Wir akzeptieren Kreditkarte, Banküberweisung und Rechnung für Jahresverträge und Enterprise-Pläne."
+    },
+    {
+      "question": "Ist die Implementierung in den Plänen enthalten?",
+      "answer": "Die Pläne Starter, Business und Corporate beinhalten ein geführtes Onboarding. Für den Enterprise-Plan bieten wir eine dedizierte Implementierung mit unserem Expertenteam."
+    },
+    {
+      "question": "Gibt es einen Rabatt bei jährlicher Vertragslaufzeit?",
+      "answer": "Ja. Bei jährlicher Abrechnung sparen Sie bis zu 30 % gegenüber dem monatlichen Preis, in jedem der Pläne Starter, Business oder Corporate."
+    }
+  ],
+  "faqAriaExpand": "Antwort ein-/ausblenden",
+  "base": {
+    "trialTitle": "Testen Sie alle Funktionen von Interfy.ai 7 Tage lang kostenlos.",
+    "trialSub": "Keine Kreditkarte. Keine Verpflichtung.",
+    "trialCta": "Kostenlose Test Drive",
+    "demoCta": "Demo vereinbaren",
+    "statsLabel": "Kennzahlen der Interfy-Plattform",
+    "faqHeading": "Häufig gestellte Fragen",
+    "specialistTitle": "Mit einem Experten sprechen",
+    "specialistDesc": "Unser Team hilft Ihnen gerne, den passenden Plan für Ihr Unternehmen zu finden.",
+    "specialistCta": "Mit Experten sprechen",
+    "ctaTitle": "Bereit, Ihren Betrieb zu transformieren?",
+    "ctaDesc": "Schließen Sie sich Tausenden von Unternehmen an, die bereits auf Interfy.ai vertrauen.",
+    "ctaButton": "Jetzt starten",
+    "srHeading": "Jetzt mit Interfy starten"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "安全",
+    "description": "了解 Interfy 的安全、隐私与合规架构：加密、访问控制、跨可用区高可用性,以及 ISO、LGPD、GDPR 和 SOC 2 认证。",
+    "keywords": ["Interfy 安全", "LGPD GDPR 合规", "数据加密", "AWS 高可用性", "安全云原生架构"]
+  },
+  "hero": {
+    "headingPrefix": "企业级安全,从",
+    "headingHighlight": "架构开始。",
+    "description": "Interfy 依照最高的安全、隐私与合规标准构建,只为保护对您最重要的资产:企业的数据。",
+    "ctaPrimary": "联系专家",
+    "ctaSecondary": "下载安全政策",
+    "diagramAriaLabel": "Interfy 的安全层级",
+    "diagram": {
+      "items": [
+        { "label": "安全始于架构" },
+        { "label": "全面的访问控制" },
+        { "label": "高可用性" },
+        { "label": "按工作空间隔离" },
+        { "label": "数据始终受到保护" },
+        { "label": "默认隐私保护" },
+        { "label": "全球合规" },
+        { "label": "可靠的基础设施" }
+      ]
+    },
+    "stats": [
+      { "label": "99.99%", "description": "SLA 保证可用性" },
+      { "label": "24/7", "description": "持续监控" },
+      { "label": "安全可靠", "description": "多层安全防护" }
+    ],
+    "poweredByLabel": "技术支持",
+    "awsChecklistAriaLabel": "Interfy 的 AWS 基础设施",
+    "awsChecklist": [
+      "AWS 全球基础设施",
+      "云原生",
+      "跨可用区(Multi-AZ)",
+      "按需弹性扩展",
+      "高性能",
+      "可持续发展"
+    ]
+  },
+  "controls": {
+    "headline": "每一层都有",
+    "headlineHighlight": "安全与控制",
+    "items": [
+      {
+        "title": "按工作空间隔离",
+        "description": "每位客户在独立隔离的环境中运行,确保完全的隐私与安全。"
+      },
+      {
+        "title": "客户专属数据库",
+        "description": "数据存储于每位客户专属的数据库中,不与其他客户共享。"
+      },
+      {
+        "title": "先进加密技术",
+        "description": "传输中数据(TLS 1.2+)与静态数据(AES-256)均经过加密。"
+      },
+      {
+        "title": "访问控制(RBAC)",
+        "description": "按角色、群组、部门与敏感级别设置精细化权限。"
+      },
+      {
+        "title": "企业级身份认证",
+        "description": "支持 SSO、SAML 2.0、OAuth 2.0、AD/LDAP 与 MFA,实现统一安全访问。"
+      },
+      {
+        "title": "IP 访问限制",
+        "description": "按 IP 或 IP 段限制访问,保护您的运行环境。"
+      },
+      {
+        "title": "日志与审计",
+        "description": "完整记录所有操作,提供不可篡改且可检索的审计轨迹。"
+      },
+      {
+        "title": "24/7 监控",
+        "description": "对基础设施、应用与安全进行持续监控。"
+      },
+      {
+        "title": "自动备份",
+        "description": "自动化加密备份,保留期限可自定义配置。"
+      },
+      {
+        "title": "灾难恢复",
+        "description": "配备异地复制的灾难恢复方案。"
+      },
+      {
+        "title": "私有存储",
+        "description": "可选的私有存储方案,适用于本地部署或专属(Dedicated)环境。"
+      },
+      {
+        "title": "无限扩展能力",
+        "description": "弹性基础设施随业务增长而扩展,性能不受影响。"
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "全球认可的",
+    "headlineHighlight": "认证与合规",
+    "ctaLabel": "查看全部认证与文档",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "依据国际标准认证的信息安全管理体系。"
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "架构、控制措施与流程均已就位,可支持在美国处理健康信息(ePHI)的运行环境。",
+        "badge": "可提供 BAA"
+      },
+      {
+        "title": "LGPD",
+        "description": "符合巴西《通用个人数据保护法》(LGPD)。"
+      },
+      {
+        "title": "GDPR",
+        "description": "符合欧盟《通用数据保护条例》(GDPR)。"
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "在安全性、可用性与保密性方面执行严格的控制措施。",
+        "badge": "进行中"
+      },
+      {
+        "title": "其他标准",
+        "description": "各项政策与控制措施均对标行业内最严格的市场标准。"
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "高可用的",
+    "headlineHighlight": "云原生",
+    "headlineSuffix": "架构",
+    "flow": [
+      { "label": "用户" },
+      { "label": "CloudFront CDN" },
+      { "label": "负载均衡器" }
+    ],
+    "multiAzTitle": "高可用性 - 跨可用区(Multi-AZ)",
+    "az1": { "label": "可用区 1", "title": "应用层" },
+    "az2": { "label": "可用区 2", "title": "数据库", "subtitle": "(自动故障切换)" },
+    "services": [
+      { "label": "S3 存储" },
+      { "label": "加密备份" },
+      { "label": "CloudWatch 监控" },
+      { "label": "CloudTrail 日志" },
+      { "label": "GuardDuty 安全防护" }
+    ],
+    "featuresAriaLabel": "高可用架构的核心优势",
+    "features": [
+      "所有层级均采用 Multi-AZ",
+      "多区域数据中心分布",
+      "无限水平扩展能力",
+      "100% 基于 AWS 全球基础设施",
+      "自动负载均衡",
+      "持续更新,无停机时间",
+      "99.99% 可用性 SLA",
+      "自动化事件响应",
+      "实时报告与告警",
+      "威胁检测与预防",
+      "专业安全团队",
+      "低延迟的全球运行环境"
+    ]
+  },
+  "cta": {
+    "sectionAria": "以企业级安全开始使用 Interfy",
+    "headline": "为",
+    "headlineHighlight": "全球企业",
+    "title": "我们保护您的数据,助力您的成果。",
+    "description": "值得信赖、合规且高性能,助力您的企业在云端安全成长。",
+    "primaryButton": "免费试用",
+    "secondaryButton": "联系专家",
+    "featuresAriaLabel": "Interfy 的安全与合规支柱",
+    "features": [
+      { "label": "设计即安全" },
+      { "label": "默认隐私保护" },
+      { "label": "完全透明" },
+      { "label": "全球合规" },
+      { "label": "负责任的创新" }
+    ]
+  }
+}

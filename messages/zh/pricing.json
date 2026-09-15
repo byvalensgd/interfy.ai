@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "价格与套餐方案",
+    "description": "选择最适合您企业规模的套餐:Free、Individual、Teams、Startup,或面向中大型企业的定制方案。",
+    "keywords": ["Interfy 价格", "Interfy 套餐", "文档管理多少钱", "AI 原生企业方案"]
+  },
+  "hero": {
+    "headingPrefix": "用 AI 全面升级",
+    "headingHighlight": "您的业务运营。",
+    "description": "选择最适合您企业规模的套餐,立即开始将文档、流程和团队转化为真正的业务成果。",
+    "monthlyCta": "按月付费",
+    "annualCta": "按年付费",
+    "saveBadge": "最高节省 30%",
+    "imageAlt": "Interfy 平台在笔记本电脑和智能手机上的展示,呈现 AI 管理面板",
+    "highlights": ["7 天免费试用", "免费数字签名", "网页端与移动端均可访问", "已包含 AI 功能"]
+  },
+  "plansSection": {
+    "heading": "Interfy 套餐方案",
+    "segmentSmallTitle": "小型企业",
+    "segmentSmallDesc": "适合专业人士、团队及成长型企业。",
+    "segmentLargeTitle": "中大型企业",
+    "segmentLargeDesc": "适合复杂业务、合规治理与全球化扩展需求。",
+    "billingAriaLabel": "切换月付与年付计费方式",
+    "billingMonthly": "按月付费",
+    "billingAnnual": "按年付费",
+    "billingSaveBadge": "节省 30%",
+    "billingAnnualLabel": "年度计费",
+    "billingMonthlyLabel": "月度计费",
+    "perUserMonth": "每用户/月",
+    "productsIncludedLabel": "套餐包含的产品",
+    "allProductsLabel": "全部 8 款产品",
+    "enterprisePriceLabel": "咨询报价",
+    "enterprisePriceSub": "个性化定价",
+    "popularBadge": "最受欢迎"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "免费开始",
+      "productsLabel": "含 3 款产品",
+      "features": [
+        "1 个完整用户",
+        "1 GB 存储空间",
+        "每月 5 个 AI 额度",
+        "每月 3 次数字签名文档发送(不可累积)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!",
+      "productsLabel": "含 4 款产品",
+      "features": [
+        "用户数量不限(按用户计费)",
+        "至少 1 个完整用户",
+        "2 个查询用户",
+        "5 GB 存储空间",
+        "每月 10 个 AI 额度(不可累积)",
+        "每月 10 次数字签名文档发送(不可累积)",
+        "每月 10 张 Chat 工单(不可累积),用于文档互动与共享"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!",
+      "productsLabel": "含 5 款产品",
+      "features": [
+        "用户数量不限(按用户计费)",
+        "至少 5 个完整用户",
+        "5 个查询用户",
+        "Interfy Capture + Mobile",
+        "10 GB 存储空间",
+        "每月 10 个 AI 额度(不可累积)",
+        "每月 10 次数字签名文档发送(不可累积)",
+        "每月 10 张 Chat 工单(不可累积),用于文档互动与共享",
+        "OCR 全文检索"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!",
+      "productsLabel": "含 8 款产品",
+      "features": [
+        "用户数量不限(按用户计费)",
+        "至少 5 个完整用户",
+        "5 个查询用户",
+        "Interfy Capture + Mobile",
+        "15 GB 存储空间",
+        "每月 20 个 AI 额度(不可累积)",
+        "每月 10 次数字签名文档发送(不可累积)",
+        "每月 10 张 Chat 工单(不可累积),用于文档互动与共享",
+        "流程数量不限",
+        "OCR 全文检索"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "立即购买",
+      "trialLabel": "7 天免费试用!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "定制解决方案",
+      "ctaLabel": "联系专家咨询",
+      "trialLabel": "咨询报价"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "用户数量不限(按用户计费)",
+      "business": "用户数量不限(按用户计费)",
+      "corporate": "用户数量不限(按用户计费)",
+      "enterprise": "用户数量不限(按用户计费)"
+    },
+    {
+      "starter": "至少 5 个完整用户",
+      "business": "至少 10 个完整用户",
+      "corporate": "至少 15 个完整用户",
+      "enterprise": "完整用户数量(按需咨询)"
+    },
+    {
+      "starter": "10 个查询用户",
+      "business": "15 个查询用户",
+      "corporate": "30 个查询用户",
+      "enterprise": "查询用户数量不限"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "25 GB 存储空间",
+      "business": "50 GB 存储空间",
+      "corporate": "100 GB 存储空间",
+      "enterprise": "存储空间(按需咨询)"
+    },
+    {
+      "starter": "每月 100 个 AI 额度(不可累积)",
+      "business": "每月 250 个 AI 额度(不可累积)",
+      "corporate": "每月 500 个 AI 额度(不可累积)",
+      "enterprise": "每月 AI 额度(不可累积)(按需咨询)"
+    },
+    {
+      "starter": "每月 10 次数字签名文档发送(不可累积)",
+      "business": "每月 20 次数字签名文档发送(不可累积)",
+      "corporate": "每月 30 次数字签名文档发送(不可累积)",
+      "enterprise": "数字签名文档发送次数不限"
+    },
+    {
+      "starter": "每月 10 张 Chat 工单(不可累积),用于文档互动与共享",
+      "business": "每月 15 张 Chat 工单(不可累积),用于文档互动与共享",
+      "corporate": "每月 20 张 Chat 工单(不可累积),用于文档互动与共享",
+      "enterprise": "每月 500 张 Chat 工单(不可累积),用于文档互动与共享"
+    },
+    {
+      "starter": "每月 10 次流程外部用户动态互动(不可累积)",
+      "business": "每月 15 次流程外部用户动态互动(不可累积)",
+      "corporate": "每月 20 次流程外部用户动态互动(不可累积)",
+      "enterprise": "每月 500 次流程外部用户动态互动(不可累积)"
+    },
+    {
+      "starter": "流程数量不限",
+      "business": "流程数量不限",
+      "corporate": "流程数量不限",
+      "enterprise": "流程数量不限"
+    },
+    {
+      "starter": "接入 Interfy API",
+      "business": "接入 Interfy API",
+      "corporate": "接入 Interfy API",
+      "enterprise": "接入 Interfy API"
+    },
+    {
+      "starter": "自定义品牌形象(白标)",
+      "business": "自定义品牌形象(白标)",
+      "corporate": "自定义品牌形象(白标)",
+      "enterprise": "自定义品牌形象(白标)"
+    },
+    {
+      "starter": "独立 URL 与数据隔离",
+      "business": "独立 URL 与数据隔离",
+      "corporate": "独立 URL 与数据隔离",
+      "enterprise": "独立 URL 与数据隔离"
+    },
+    {
+      "starter": "数据库集成",
+      "business": "数据库集成",
+      "corporate": "数据库集成",
+      "enterprise": "数据库集成"
+    },
+    {
+      "starter": "具备管理与高级安全控制的 Workspace",
+      "business": "具备管理与高级安全控制的 Workspace",
+      "corporate": "具备管理与高级安全控制的 Workspace",
+      "enterprise": "具备管理与高级安全控制的 Workspace"
+    },
+    {
+      "starter": "AD/LDAP 身份认证",
+      "business": "AD/LDAP 身份认证",
+      "corporate": "AD/LDAP 身份认证",
+      "enterprise": "AD/LDAP 身份认证"
+    },
+    {
+      "starter": "IP 访问限制",
+      "business": "IP 访问限制",
+      "corporate": "IP 访问限制",
+      "enterprise": "IP 访问限制"
+    },
+    {
+      "starter": "多因素身份认证",
+      "business": "多因素身份认证",
+      "corporate": "多因素身份认证",
+      "enterprise": "多因素身份认证"
+    },
+    {
+      "starter": "OCR 全文检索",
+      "business": "OCR 全文检索",
+      "corporate": "OCR 全文检索",
+      "enterprise": "OCR 全文检索"
+    },
+    {
+      "starter": "实体档案管理模块",
+      "business": "实体档案管理模块",
+      "corporate": "实体档案管理模块",
+      "enterprise": "实体档案管理模块"
+    }
+  ],
+  "comparison": {
+    "srHeading": "套餐方案对比",
+    "resourcesLabel": "功能资源",
+    "includedAlt": "已包含",
+    "rows": [
+      { "label": "用户数", "values": { "free": "最多 3 个", "individual": "1 个", "teams": "不限", "startup": "不限" } },
+      { "label": "工作空间", "values": { "free": "1 个", "individual": "1 个", "teams": "不限", "startup": "不限" } },
+      { "label": "存储空间", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "不限" } },
+      { "label": "数字签名", "values": { "free": "免费", "individual": "免费", "teams": "免费", "startup": "免费" } },
+      { "label": "移动应用", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "包含模块",
+        "values": {
+          "free": "Documents 与 Sign",
+          "individual": "Documents、Sign 与协作功能",
+          "teams": "Documents、Sign 与协作功能",
+          "startup": "除 Process 外的全部模块"
+        }
+      },
+      {
+        "label": "AI 功能",
+        "values": { "free": "基础版", "individual": "标准版", "teams": "高级版", "startup": "无限使用 · 含额度" }
+      },
+      { "label": "AI 额度/月", "values": { "free": "-", "individual": "1,000", "teams": "3,000", "startup": "10,000" } },
+      { "label": "支持服务", "values": { "free": "邮件支持", "individual": "邮件支持", "teams": "优先支持", "startup": "全天候高级支持" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "查看全部功能并对比套餐",
+    "sections": [
+      {
+        "label": "Interfy Process 功能",
+        "features": [
+          "流程创建数量不限",
+          "BPMN 2.0 流程设计器",
+          "外部链接发起案例",
+          "在进行中的流程内直接捕获文档",
+          "创建公共变量",
+          "动态用户",
+          "并行流程",
+          "任务收件箱",
+          "子流程",
+          "流程监督管理",
+          "案例历史记录查看",
+          "流程高级搜索",
+          "流程进度图形化展示",
+          "为每个任务设定并管控时限",
+          "带提醒的通知控制",
+          "手动、循环、自助分配方式:按变量、按数值、按组织单位分配",
+          "指定主管进行流程管理",
+          "主管重新分配案例",
+          "根据用户或主管权限取消案例",
+          "工作日日历",
+          "任务到达通知",
+          "基于 SLA 的层级通知",
+          "SLA 紧急或超时通知",
+          "SLA 与工作日日历关联",
+          "Interfy Documents 与 Interfy Process 联动",
+          "Web Services 集成"
+        ]
+      },
+      {
+        "label": "Interfy Documents 功能",
+        "features": [
+          "内容集中管理",
+          "高级审计追踪",
+          "文档版本控制",
+          "文档时效性管理",
+          "灵活的文件夹结构",
+          "内容访问权限配置",
+          "外部链接共享内容",
+          "支持多种文件格式创建文档",
+          "与 Microsoft Office 集成(拖放操作)",
+          "高级搜索",
+          "创建索引卡(电子表单)",
+          "文档实体位置定位",
+          "存储与用户用量管控",
+          "主流文件格式专属预览器",
+          "文档扫描与上传",
+          "本地化、去中心化的 100% Web 捕获",
+          "通过扫描仪捕获",
+          "通过一体机捕获",
+          "通过智能手机捕获",
+          "通过网络摄像头捕获"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "我可以随时更换套餐吗?",
+      "answer": "可以。您可以随时在管理后台直接升级或降级套餐,无需支付罚金或繁琐手续。"
+    },
+    {
+      "question": "AI 额度如何计算?",
+      "answer": "每个套餐都包含每月的 AI 额度配额,用于智能提取、智能代理等功能。额度不可累积,每月自动刷新。"
+    },
+    {
+      "question": "免费试用期结束后会发生什么?",
+      "answer": "7 天免费试用结束后,您可以选择最适合的套餐继续使用平台。开始试用无需提供信用卡信息。"
+    },
+    {
+      "question": "支持哪些付款方式?",
+      "answer": "我们支持信用卡、银行转账,以及针对年度合同和 Enterprise 套餐的发票开具付款。"
+    },
+    {
+      "question": "套餐是否包含实施服务?",
+      "answer": "Starter、Business 和 Corporate 套餐均包含引导式上线支持。对于 Enterprise 套餐,我们提供由专家团队主导的专属实施服务。"
+    },
+    {
+      "question": "是否提供年度合同折扣?",
+      "answer": "是的。选择年度计费,在 Starter、Business 或 Corporate 任一套餐中,相比月付价格最高可节省 30%。"
+    }
+  ],
+  "faqAriaExpand": "展开/收起答案",
+  "base": {
+    "trialTitle": "免费试用 Interfy.ai 全部功能,时长 7 天。",
+    "trialSub": "无需信用卡,无任何绑定承诺。",
+    "trialCta": "免费体验",
+    "demoCta": "预约演示",
+    "statsLabel": "Interfy 平台数据",
+    "faqHeading": "常见问题",
+    "specialistTitle": "联系专家咨询",
+    "specialistDesc": "我们的团队随时为您提供帮助,协助您选择最适合业务的套餐方案。",
+    "specialistCta": "联系专家",
+    "ctaTitle": "准备好升级您的业务运营了吗?",
+    "ctaDesc": "加入数千家已经信赖 Interfy.ai 的企业。",
+    "ctaButton": "立即开始",
+    "srHeading": "开始使用 Interfy"
+  }
+}

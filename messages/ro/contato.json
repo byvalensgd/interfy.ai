@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Contact",
+    "description": "Contactează Interfy: e-mail, telefon, adresă și program de lucru pentru întrebări comerciale, suport și parteneriate.",
+    "keywords": ["contact Interfy", "vorbește cu Interfy", "e-mail Interfy", "telefon Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introducere la pagina de contact",
+    "eyebrow": "Contactează-ne",
+    "titleLine1": "Hai să discutăm despre",
+    "titleHighlight": "operațiunea ta",
+    "description": "Echipa noastră comercială și de suport este pregătită să înțeleagă situația ta și să-ți arate cum se potrivește Interfy în ea.",
+    "primaryLabel": "Programează o demo",
+    "secondaryLabel": "Începe gratuit"
+  },
+  "channels": {
+    "ariaLabel": "Canale de contact",
+    "heading": "Alege cel mai bun canal",
+    "items": [
+      {
+        "title": "E-mail comercial",
+        "description": "contato@interfy.ai — pentru întrebări comerciale, planuri și parteneriate.",
+        "actionLabel": "Trimite e-mail",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "+55 11 4020-1000 — luni până vineri, între orele 8:00 și 20:00 (ora Brasília).",
+        "actionLabel": "Sună acum",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Adresă",
+        "description": "Interfy Corporation — Orlando, Florida, Statele Unite, cu prezență comercială în peste 180 de țări și servicii dedicate pentru Brazilia.",
+        "actionLabel": "Vezi toate regiunile",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Program de lucru",
+        "description": "Luni până vineri, între orele 8:00 și 20:00. Conturile Enterprise pot contracta suport extins 24/7.",
+        "actionLabel": "Vezi suportul",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy",
+    "heading": "Preferi să vezi platforma în acțiune?",
+    "subheading": "Programează o demonstrație cu echipa noastră și vezi cum se aplică Interfy la procesul tău, în doar câteva minute.",
+    "primaryButton": "Începe gratuit",
+    "secondaryButton": "Programează o demo"
+  }
+}

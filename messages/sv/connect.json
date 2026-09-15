@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect är mycket mer än chatt: samarbete i realtid integrerat med dina dokument, processer och automationer, med interna och externa personer i samma konversation.",
+    "keywords": ["teamsamarbete", "integrerad chatt", "företagskommunikation", "Interfy Connect"],
+    "freeTrialNote": "Gratis provperiod i 7 dagar, inget kreditkort krävs."
+  },
+  "hero": {
+    "heading": "Koppla samman människor, dokument och processer i en",
+    "headingHighlight": "enda konversation.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "är mycket mer än chatt. Det är verkligt samarbete, integrerat med dina dokument, processer och automationer, så att ingenting går förlorat och allt sker i rätt tid.",
+    "ctaPrimary": "Gratis provperiod i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "imageAlt": "Interfy Connect visad på laptop och smartphone, med konversationscentret",
+    "highlights": [
+      { "label": "Samarbete i realtid" },
+      { "label": "Allt kopplat och spårbart" },
+      { "label": "Säkert och pålitligt" },
+      { "label": "Interna och externa i samma konversation" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Komplett samarbete",
+    "headingHighlight": "integrerat i din verksamhet",
+    "items": [
+      {
+        "title": "Intern kommunikation",
+        "description": "Kommunicera i kanaler, grupper eller direktmeddelanden med ditt team."
+      },
+      {
+        "title": "Smart delning",
+        "description": "Dela filer, länkar och information säkert och enkelt."
+      },
+      {
+        "title": "Notiser i realtid",
+        "description": "Få varningar och påminnelser om meddelanden, omnämnanden, uppgifter och viktiga uppdateringar."
+      },
+      {
+        "title": "Interna och externa användare",
+        "description": "Bjud in kunder, partner och leverantörer till konversationerna på ett säkert sätt."
+      },
+      {
+        "title": "Komplett historik",
+        "description": "Hela historiken över konversationer, filer och åtgärder alltid tillgänglig och sökbar."
+      },
+      {
+        "title": "Fullständig spårbarhet",
+        "description": "Varje meddelande, analys och beslut registreras med tidpunkt och ansvarig."
+      },
+      {
+        "title": "Samarbete mellan team",
+        "description": "Arbeta integrerat mellan avdelningar och funktioner utan att förlora sammanhanget."
+      },
+      {
+        "title": "AI för att sammanfatta konversationer",
+        "description": "Interfy AI skapar smarta sammanfattningar av konversationerna och lyfter fram det som är viktigast."
+      },
+      {
+        "title": "AI för att hitta information",
+        "description": "Fråga med naturligt språk och hitta snabbt det du behöver i konversationerna."
+      },
+      {
+        "title": "Komplett mobilupplevelse",
+        "description": "Kom åt dina konversationer, filer och notiser var du än är via appen Interfy Mobile."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Fullt integrerat med",
+    "headingHighlight": "Interfy-ekosystemet",
+    "items": [
+      { "description": "Kom åt och kommentera dokument utan att lämna konversationen." },
+      { "description": "Starta åtgärder och flytta processer direkt från konversationen." },
+      { "description": "Koppla samman människor och centralisera all kommunikation." },
+      { "description": "Fånga dokument och dela dem i konversationen." },
+      { "description": "Skicka dokument för signering och följ allt härifrån." },
+      { "description": "AI-agenter som stödjer, analyserar och utför varje interaktion." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Digital signering och produktivitet med Interfy Connect",
+    "signCard": {
+      "titleHighlight": "Gratis digital signering",
+      "titleSuffix": "för alla användare.",
+      "description": "Skicka dokument för signering direkt från konversationerna. Enkelt, snabbt och 100 % ingår i alla planer på plattformen."
+    },
+    "headingHighlight": "Produktivitet",
+    "headingSuffix": "som märks i vardagen",
+    "items": [
+      {
+        "title": "Mer smidighet",
+        "description": "Snabbare beslut när allt finns i rätt sammanhang."
+      },
+      {
+        "title": "Mindre dubbelarbete",
+        "description": "Centraliserad och tillgänglig information för alla inblandade."
+      },
+      {
+        "title": "Bättre överblick",
+        "description": "Följ konversationer och aktiviteter i realtid."
+      },
+      {
+        "title": "Högre säkerhet",
+        "description": "Styrning, behörigheter och efterlevnad i varje interaktion."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Börja använda Interfy Connect",
+    "heading": "Koppla samman ditt team och förvandla samarbete till resultat.",
+    "subheading": "Allt integrerat. Allt spårbart. Allt i en konversation.",
+    "primaryButton": "Gratis provperiod i 7 dagar",
+    "secondaryButton": "Boka demo",
+    "statsLabel": "Siffror från Interfy-plattformen",
+    "stats": [
+      { "label": "25 000 +", "sublabel": "kunder" },
+      { "label": "180+ länder" },
+      { "label": "16 språk" },
+      { "label": "Säkerhet i toppklass" },
+      { "label": "AI Native" },
+      { "label": "Hög tillgänglighet" },
+      { "label": "Global efterlevnad" }
+    ]
+  }
+}

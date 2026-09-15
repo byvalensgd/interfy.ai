@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Stato della Piattaforma",
+    "description": "Monitora in tempo reale la disponibilità di ogni prodotto Interfy e la cronologia degli incidenti della piattaforma.",
+    "keywords": ["stato Interfy", "disponibilità Interfy", "uptime Interfy", "incidenti Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introduzione allo stato della piattaforma",
+    "eyebrow": "Stato della Piattaforma",
+    "titleLine1": "Tutti i sistemi",
+    "titleHighlight": "operativi",
+    "description": "Disponibilità in tempo reale di ogni prodotto Interfy, con cronologia degli incidenti e SLA di uptime."
+  },
+  "list": {
+    "ariaLabel": "Stato per prodotto",
+    "heading": "Stato per prodotto",
+    "operationalLabel": "Operativo",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Cronologia degli incidenti",
+    "incidentsEmpty": "Nessun incidente registrato negli ultimi 90 giorni."
+  },
+  "infra": {
+    "ariaLabel": "Infrastruttura dietro lo stato della piattaforma",
+    "heading": "Infrastruttura ad alta disponibilità",
+    "subheading": "Architettura cloud-native 100% AWS, con ridondanza su tutti i livelli.",
+    "items": [
+      { "label": "Multi-AZ su tutti i livelli (applicazione e database)" },
+      { "label": "CDN globale (CloudFront) con bassa latenza" },
+      { "label": "Bilanciamento del carico automatico" },
+      { "label": "Rilevamento e prevenzione delle minacce (GuardDuty)" },
+      { "label": "Monitoraggio continuo (CloudWatch)" },
+      { "label": "Log e audit trail (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Certificazioni e conformità",
+      "ctaLabel": "Vedi l'architettura di sicurezza completa",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sistema di Gestione della Sicurezza delle Informazioni certificato." },
+        { "label": "SOC 2 Type II", "description": "Controlli di sicurezza, disponibilità e riservatezza.", "badge": "In corso" },
+        { "label": "LGPD", "description": "Conforme alla Legge Generale sulla Protezione dei Dati (Brasile)." },
+        { "label": "GDPR", "description": "Conforme al Regolamento Generale sulla Protezione dei Dati (UE)." },
+        { "label": "HIPAA Ready", "description": "Pronta per ambienti che gestiscono ePHI negli USA.", "badge": "BAA disponibile" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy",
+    "heading": "Affidabilità di livello enterprise",
+    "subheading": "Infrastruttura AWS globale, crittografia AES-256/TLS 1.2+ e SLA di disponibilità del 99,99%.",
+    "primaryButton": "Inizia gratis",
+    "secondaryButton": "Prenota una demo",
+    "statsLabel": "Indicatori di affidabilità",
+    "stats": [
+      { "label": "99,99%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Crittografia" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Compliance" }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "Connect",
+    "description": "Interfy Connect geht weit über Chat hinaus: Echtzeit-Zusammenarbeit, integriert in Ihre Dokumente, Prozesse und Automatisierungen, mit internen und externen Personen in derselben Unterhaltung.",
+    "keywords": ["Teamzusammenarbeit", "integrierter Chat", "Unternehmenskommunikation", "Interfy Connect"],
+    "freeTrialNote": "7 Tage kostenloser Test Drive, keine Kreditkarte erforderlich."
+  },
+  "hero": {
+    "heading": "Verbinden Sie Menschen, Dokumente und Prozesse in einer",
+    "headingHighlight": "einzigen Unterhaltung.",
+    "descriptionBrand": "Interfy Connect",
+    "description": "geht weit über Chat hinaus. Es ist echte Zusammenarbeit, integriert in Ihre Dokumente, Prozesse und Automatisierungen, damit nichts verloren geht und alles geschieht.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "imageAlt": "Interfy Connect auf Laptop und Smartphone, mit der Kommunikationszentrale",
+    "highlights": [
+      { "label": "Zusammenarbeit in Echtzeit" },
+      { "label": "Alles verbunden und nachvollziehbar" },
+      { "label": "Sicher und verlässlich" },
+      { "label": "Interne und externe Personen in derselben Unterhaltung" }
+    ]
+  },
+  "capabilities": {
+    "heading": "Vollständige Zusammenarbeit,",
+    "headingHighlight": "integriert in Ihren Betrieb",
+    "items": [
+      {
+        "title": "Interne Kommunikation",
+        "description": "Kommunizieren Sie in Kanälen, Gruppen oder Direktnachrichten mit Ihrem Team."
+      },
+      {
+        "title": "Intelligentes Teilen",
+        "description": "Teilen Sie Dateien, Links und Informationen sicher und komfortabel."
+      },
+      {
+        "title": "Echtzeit-Benachrichtigungen",
+        "description": "Erhalten Sie Warnungen und Erinnerungen zu Nachrichten, Erwähnungen, Aufgaben und wichtigen Updates."
+      },
+      {
+        "title": "Interne und externe Nutzer",
+        "description": "Binden Sie Kunden, Partner und Lieferanten sicher in Unterhaltungen ein."
+      },
+      {
+        "title": "Vollständige Historie",
+        "description": "Der gesamte Verlauf von Unterhaltungen, Dateien und Aktionen ist stets verfügbar und durchsuchbar."
+      },
+      {
+        "title": "Vollständige Nachvollziehbarkeit",
+        "description": "Jede Nachricht, Analyse und Entscheidung wird mit Zeitstempel und Verantwortlichem erfasst."
+      },
+      {
+        "title": "Zusammenarbeit zwischen Teams",
+        "description": "Arbeiten Sie bereichs- und abteilungsübergreifend zusammen, ohne den Kontext zu verlieren."
+      },
+      {
+        "title": "KI für Gesprächszusammenfassungen",
+        "description": "Die Interfy AI erstellt intelligente Zusammenfassungen von Gesprächen und hebt das Wichtigste hervor."
+      },
+      {
+        "title": "KI zum Auffinden von Informationen",
+        "description": "Fragen Sie in natürlicher Sprache und finden Sie schnell, was Sie in den Unterhaltungen benötigen."
+      },
+      {
+        "title": "Vollständig mobil",
+        "description": "Greifen Sie von überall über die Interfy-Mobile-App auf Unterhaltungen, Dateien und Benachrichtigungen zu."
+      }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Vollständig integriert in das",
+    "headingHighlight": "Interfy-Ökosystem",
+    "items": [
+      { "description": "Greifen Sie auf Dokumente zu und kommentieren Sie sie, ohne die Unterhaltung zu verlassen." },
+      { "description": "Starten Sie Aktionen und bewegen Sie Prozesse direkt aus der Unterhaltung." },
+      { "description": "Verbinden Sie Menschen und zentralisieren Sie alle Kommunikationen." },
+      { "description": "Erfassen Sie Dokumente und teilen Sie sie in der Unterhaltung." },
+      { "description": "Senden Sie Dokumente zur Signatur und behalten Sie hier alles im Blick." },
+      { "description": "KI-Agenten unterstützen, analysieren und führen jede Interaktion aus." }
+    ]
+  },
+  "productivity": {
+    "ariaLabel": "Digitale Signatur und Produktivität mit Interfy Connect",
+    "signCard": {
+      "titleHighlight": "Kostenlose digitale Signatur",
+      "titleSuffix": "für alle Nutzer.",
+      "description": "Senden Sie Dokumente direkt aus den Unterhaltungen zur Signatur. Einfach, schnell und zu 100 % in allen Plattform-Tarifen enthalten."
+    },
+    "headingHighlight": "Produktivität,",
+    "headingSuffix": "die sich im Alltag zeigt",
+    "items": [
+      {
+        "title": "Mehr Agilität",
+        "description": "Schnellere Entscheidungen mit allem im richtigen Kontext."
+      },
+      {
+        "title": "Weniger Mehrarbeit",
+        "description": "Zentralisierte und für alle Beteiligten zugängliche Informationen."
+      },
+      {
+        "title": "Mehr Transparenz",
+        "description": "Verfolgen Sie den Fortschritt von Unterhaltungen und Aktivitäten in Echtzeit."
+      },
+      {
+        "title": "Mehr Sicherheit",
+        "description": "Governance, Berechtigungen und Konformität bei jeder Interaktion."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Starten Sie mit Interfy Connect",
+    "heading": "Verbinden Sie Ihr Team und verwandeln Sie Zusammenarbeit in Ergebnisse.",
+    "subheading": "Alles integriert. Alles nachvollziehbar. Alles in einer Unterhaltung.",
+    "primaryButton": "7 Tage kostenlos testen",
+    "secondaryButton": "Demo vereinbaren",
+    "statsLabel": "Zahlen der Interfy-Plattform",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "Kunden" },
+      { "label": "180+ Länder" },
+      { "label": "16 Sprachen" },
+      { "label": "Erstklassige Sicherheit" },
+      { "label": "AI Native" },
+      { "label": "Hohe Verfügbarkeit" },
+      { "label": "Globale Konformität" }
+    ]
+  }
+}

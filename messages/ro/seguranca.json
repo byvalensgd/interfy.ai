@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "Securitate",
+    "description": "Descoperiți arhitectura de securitate, confidențialitate și conformitate a Interfy: criptare, control al accesului, disponibilitate ridicată Multi-AZ și certificări ISO, LGPD, GDPR și SOC 2.",
+    "keywords": ["securitate Interfy", "conformitate LGPD GDPR", "criptarea datelor", "disponibilitate ridicată AWS", "arhitectură cloud-native sigură"]
+  },
+  "hero": {
+    "headingPrefix": "Securitate enterprise încă din ",
+    "headingHighlight": "arhitectură.",
+    "description": "Interfy a fost construită cu cele mai înalte standarde de securitate, confidențialitate și conformitate pentru a proteja ceea ce contează cel mai mult: datele companiei dumneavoastră.",
+    "ctaPrimary": "Vorbește cu un specialist",
+    "ctaSecondary": "Descarcă politicile de securitate",
+    "diagramAriaLabel": "Straturile de securitate ale Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Securitate încă din arhitectură" },
+        { "label": "Control total al accesului" },
+        { "label": "Disponibilitate ridicată" },
+        { "label": "Izolare pe Workspace" },
+        { "label": "Date mereu protejate" },
+        { "label": "Confidențialitate implicită" },
+        { "label": "Conformitate globală" },
+        { "label": "Infrastructură de încredere" }
+      ]
+    },
+    "stats": [
+      { "label": "99,99%", "description": "Disponibilitate SLA garantată" },
+      { "label": "24/7", "description": "Monitorizare continuă" },
+      { "label": "Sigur și de încredere", "description": "Protecție pe mai multe straturi de securitate" }
+    ],
+    "poweredByLabel": "Powered by",
+    "awsChecklistAriaLabel": "Infrastructura AWS a Interfy",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "Cloud-native",
+      "Multi-AZ",
+      "Scalabil la cerere",
+      "Performanță ridicată",
+      "Sustenabil"
+    ]
+  },
+  "controls": {
+    "headline": "Securitate și control",
+    "headlineHighlight": "la fiecare nivel",
+    "items": [
+      {
+        "title": "Izolare pe Workspace",
+        "description": "Fiecare client lucrează într-un mediu izolat, care garantează confidențialitate și securitate totală."
+      },
+      {
+        "title": "Bază de date dedicată clientului",
+        "description": "Date stocate într-o bază de date dedicată fiecărui client, fără partajare."
+      },
+      {
+        "title": "Criptare avansată",
+        "description": "Date criptate în tranzit (TLS 1.2+) și în repaus (AES-256)."
+      },
+      {
+        "title": "Control al accesului (RBAC)",
+        "description": "Permisiuni granulare pe funcție, grup, departament și nivel de sensibilitate."
+      },
+      {
+        "title": "Autentificare corporativă",
+        "description": "SSO, SAML 2.0, OAuth 2.0, AD/LDAP și MFA pentru un acces sigur și unificat."
+      },
+      {
+        "title": "IP Blocking",
+        "description": "Restricționarea accesului pe IP sau interval de IP-uri pentru a vă proteja mediul."
+      },
+      {
+        "title": "Jurnale și audit",
+        "description": "Înregistrare completă a tuturor acțiunilor, cu o pistă de audit imuabilă și căutabilă."
+      },
+      {
+        "title": "Monitorizare 24/7",
+        "description": "Monitorizare continuă a infrastructurii, aplicațiilor și securității."
+      },
+      {
+        "title": "Backup automat",
+        "description": "Backup-uri criptate și automate, cu perioadă de retenție configurabilă."
+      },
+      {
+        "title": "Disaster Recovery",
+        "description": "Plan de recuperare în caz de dezastru, cu replicare geografică."
+      },
+      {
+        "title": "Private Storage",
+        "description": "Stocare privată opțională pentru medii on-premise sau Dedicated."
+      },
+      {
+        "title": "Scalabilitate nelimitată",
+        "description": "Infrastructură elastică ce crește odată cu afacerea dumneavoastră fără a compromite performanța."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "Certificări și conformitate",
+    "headlineHighlight": "recunoscute la nivel global",
+    "ctaLabel": "Vezi toate certificările și documentele",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "Sistem de Management al Securității Informației certificat conform standardului internațional."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "Arhitectură, controale și procese pregătite pentru a susține medii care gestionează informații de sănătate (ePHI) în SUA.",
+        "badge": "BAA disponibil"
+      },
+      {
+        "title": "LGPD",
+        "description": "Conformă cu Legea Generală de Protecție a Datelor Personale (Brazilia)."
+      },
+      {
+        "title": "GDPR",
+        "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "Controale riguroase de securitate, disponibilitate și confidențialitate.",
+        "badge": "În desfășurare"
+      },
+      {
+        "title": "Alte standarde",
+        "description": "Politici și controale aliniate la cele mai exigente standarde din domeniu."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "Arhitectură ",
+    "headlineHighlight": "cloud-native",
+    "headlineSuffix": " cu disponibilitate ridicată",
+    "flow": [
+      { "label": "Utilizatori" },
+      { "label": "CloudFront CDN" },
+      { "label": "Load Balancer" }
+    ],
+    "multiAzTitle": "Disponibilitate Ridicată - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "Aplicații" },
+    "az2": { "label": "AZ 2", "title": "Bază de date", "subtitle": "(Auto Fallover)" },
+    "services": [
+      { "label": "S3 Storage" },
+      { "label": "Backup Criptat" },
+      { "label": "Monitorizare CloudWatch" },
+      { "label": "Jurnale CloudTrail" },
+      { "label": "Securitate GuardDuty" }
+    ],
+    "featuresAriaLabel": "Avantajele arhitecturii de disponibilitate ridicată",
+    "features": [
+      "Multi-AZ la toate nivelurile",
+      "Centre de date în mai multe regiuni",
+      "Scalabilitate orizontală nelimitată",
+      "Infrastructură 100% pe AWS Global",
+      "Echilibrare automată a sarcinii",
+      "Actualizări continue fără downtime",
+      "SLA de disponibilitate de 99,99%",
+      "Răspuns automat la incidente",
+      "Rapoarte și alerte în timp real",
+      "Detectarea și prevenirea amenințărilor",
+      "Echipă de securitate specializată",
+      "Mediu global cu latență redusă"
+    ]
+  },
+  "cta": {
+    "sectionAria": "Începeți să folosiți Interfy cu securitate de nivel enterprise",
+    "headline": "Pregătită pentru",
+    "headlineHighlight": "companii globale",
+    "title": "Vă protejăm datele. Vă potențăm rezultatele.",
+    "description": "Încredere, conformitate și performanță pentru ca afacerea dumneavoastră să crească în siguranță în cloud.",
+    "primaryButton": "Test Drive Gratuit",
+    "secondaryButton": "Vorbește cu un specialist",
+    "featuresAriaLabel": "Pilonii de securitate și conformitate ai Interfy",
+    "features": [
+      { "label": "Securitate prin design" },
+      { "label": "Confidențialitate implicită" },
+      { "label": "Transparență totală" },
+      { "label": "Conformitate globală" },
+      { "label": "Inovație responsabilă" }
+    ]
+  }
+}

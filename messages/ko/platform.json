@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "플랫폼",
+    "description": "문서, 프로세스, 캡처, 서명, 협업, 모바일, 에이전트, 음성까지 모든 단계에서 AI가 함께하는 하나의 통합 엔드투엔드 플랫폼.",
+    "keywords": ["Interfy 플랫폼", "AI 네이티브 기업 플랫폼", "문서 및 프로세스 관리", "Interfy 생태계"]
+  },
+  "hero": {
+    "headingLine1": "하나의 플랫폼.",
+    "headingLine2": "귀사의 모든 업무.",
+    "headingHighlight": "모든 단계에 스며든 AI.",
+    "description1": "문서, 자동화, 스마트 캡처, 디지털 서명, 협업, 모바일, 에이전트, 음성까지 하나의 워크스페이스에서 함께 작동합니다.",
+    "description2": "여러 개의 소프트웨어를 100% 웹 기반의 클라우드 네이티브 플랫폼으로 대체하고, 보안과 확장성, 지능을 갖춘 글로벌 운영을 시작하세요.",
+    "ctaPrimary": "14일 무료 체험",
+    "ctaSecondary": "데모 예약하기",
+    "mockupAlt": "태블릿과 스마트폰에서 실행되는 Interfy 플랫폼, 워크스페이스와 오늘의 업무, AI 어시스턴트를 보여줌",
+    "chipsAriaLabel": "플랫폼의 주요 특징",
+    "chips": [
+      { "label": "AI 네이티브" },
+      { "label": "클라우드 네이티브" },
+      { "label": "100% 웹" },
+      { "label": "웹 + 모바일" },
+      { "label": "16개 언어" },
+      { "label": "180개+ 국가" }
+    ]
+  },
+  "overview": {
+    "headline": "하나로 통합된",
+    "headlineHighlight": "엔드투엔드 플랫폼",
+    "description": "사일로 없이 완전하고 지능적인 경험을 제공하기 위해 함께 작동하는 강력한 모듈들입니다."
+  },
+  "aiGrid": {
+    "headline": "Interfy 플랫폼 전체에",
+    "headlineHighlight": "스며든 AI",
+    "items": [
+      { "title": "스마트 검색", "description": "자연어로 모든 것을 찾아보세요" },
+      { "title": "프로세스 생성", "description": "지능적으로 흐름을 모델링하세요" },
+      { "title": "데이터 추출", "description": "AI로 문서에서 데이터를 캡처하세요" },
+      { "title": "자율 에이전트", "description": "실행, 의사결정, 통합까지" },
+      { "title": "자동 분류", "description": "노력 없이 정리하고 분류하세요" },
+      { "title": "양식 생성", "description": "AI가 바로 사용 가능한 양식을 만듭니다" },
+      { "title": "AI 지원 승인", "description": "지능적인 추천과 검증" },
+      { "title": "음성 명령", "description": "실행하고, 조회하고, 생성하세요" }
+    ]
+  },
+  "workspace": {
+    "headline": "하나의 워크스페이스에 모든 것을",
+    "headlineHighlight": "통합해야 하는 이유",
+    "items": [
+      {
+        "title": "통합된 운영",
+        "description": "데이터, 문서, 작업, 프로세스가 한곳에 모입니다. 사일로 없는 완전한 시야를 확보하세요."
+      },
+      {
+        "title": "전용 워크스페이스",
+        "description": "전용 URL, 브랜드 아이덴티티, 세분화된 권한, 귀사만의 고유한 환경을 제공합니다."
+      },
+      {
+        "title": "제품 간 자동화",
+        "description": "문서가 프로세스를 실행시키고, 승인이 서명을 생성하며, 캡처된 데이터가 저장소와 대시보드에 반영됩니다."
+      },
+      {
+        "title": "더 적은 소프트웨어, 더 많은 통제",
+        "description": "재작업, 비용, 불안정한 통합, 정보 사일로를 줄이세요."
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Interfy 플랫폼의 보안, 통합, 인프라",
+    "cards": [
+      {
+        "title": "보안과 거버넌스",
+        "checklist": [
+          "전송 중 및 저장 시 암호화",
+          "세분화된 권한과 역할",
+          "완전한 감사 추적",
+          "글로벌 컴플라이언스(LGPD, GDPR, ISO)",
+          "보관 및 폐기 정책"
+        ]
+      },
+      {
+        "title": "API와 통합",
+        "checklist": [
+          "완전한 RESTful API",
+          "실시간 웹훅",
+          "인기 시스템을 위한 즉시 사용 가능한 커넥터",
+          "데이터, 문서, 프로세스 간 통합"
+        ]
+      },
+      {
+        "title": "클라우드 네이티브 인프라",
+        "checklist": [
+          "확장 가능하고 견고한 아키텍처",
+          "24/7 고가용성",
+          "자동 백업과 지리적 이중화",
+          "지능형 모니터링",
+          "낮은 지연시간의 글로벌 운영"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Interfy 플랫폼 시작하기",
+    "headline": "글로벌 기업을 위한",
+    "headlineHighlight": "준비된 플랫폼",
+    "title": "Interfy.ai로 업무 방식을 혁신하세요",
+    "description": "계정을 만들고 무료 체험을 통해 AI 네이티브 플랫폼이 귀사의 업무를 어떻게 단순화하고, 자동화하고, 가속화하는지 확인해보세요.",
+    "primaryButton": "무료로 시작하기",
+    "secondaryButton": "데모 예약하기",
+    "statsLabel": "Interfy의 글로벌 입지",
+    "features": [
+      { "label": "180개+ 국가", "sublabel": "확장 중인 글로벌 입지" },
+      { "label": "16개 언어", "sublabel": "16개 언어로 제공되는 인터페이스와 경험" },
+      { "label": "6개 상업 지역", "sublabel": "지역 맞춤형 전문 지원" },
+      { "label": "웹 + 모바일", "sublabel": "어떤 기기에서든, 어디서나 접속하세요" },
+      { "label": "미국과 브라질", "sublabel": "현지 거점과 지역별 규정 준수" },
+      { "label": "글로벌 지원", "sublabel": "국제적 수준의 SLA를 갖춘 전문 지원" }
+    ]
+  }
+}

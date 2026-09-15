@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "Tietoturva",
+    "description": "Tutustu Interfyn tietoturva-, tietosuoja- ja vaatimustenmukaisuusarkkitehtuuriin: salaus, käyttöoikeuksien hallinta, korkea Multi-AZ-käytettävyys ja ISO-, LGPD-, GDPR- ja SOC 2 -sertifikaatit.",
+    "keywords": ["Interfyn tietoturva", "LGPD GDPR -vaatimustenmukaisuus", "tietojen salaus", "korkea AWS-käytettävyys", "turvallinen cloud-native-arkkitehtuuri"]
+  },
+  "hero": {
+    "headingPrefix": "Yritystason tietoturva ",
+    "headingHighlight": "arkkitehtuurista lähtien.",
+    "description": "Interfy on rakennettu korkeimpien turvallisuus-, tietosuoja- ja vaatimustenmukaisuusstandardien mukaisesti suojaamaan sitä, mikä on tärkeintä: yrityksesi tietoja.",
+    "ctaPrimary": "Keskustele asiantuntijan kanssa",
+    "ctaSecondary": "Lataa tietoturvakäytännöt",
+    "diagramAriaLabel": "Interfyn tietoturvakerrokset",
+    "diagram": {
+      "items": [
+        { "label": "Tietoturva arkkitehtuurista lähtien" },
+        { "label": "Täysi pääsynhallinta" },
+        { "label": "Korkea käytettävyys" },
+        { "label": "Eristys workspacekohtaisesti" },
+        { "label": "Tiedot aina suojattuna" },
+        { "label": "Tietosuoja oletuksena" },
+        { "label": "Globaali vaatimustenmukaisuus" },
+        { "label": "Luotettava infrastruktuuri" }
+      ]
+    },
+    "stats": [
+      { "label": "99,99%", "description": "Taattu SLA-käytettävyys" },
+      { "label": "24/7", "description": "Jatkuva valvonta" },
+      { "label": "Turvallinen ja luotettava", "description": "Suojaus useilla turvakerroksilla" }
+    ],
+    "poweredByLabel": "Powered by",
+    "awsChecklistAriaLabel": "Interfyn AWS-infrastruktuuri",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "Cloud-native",
+      "Multi-AZ",
+      "Skaalautuu tarpeen mukaan",
+      "Korkea suorituskyky",
+      "Kestävä"
+    ]
+  },
+  "controls": {
+    "headline": "Turvallisuus ja hallinta",
+    "headlineHighlight": "joka kerroksessa",
+    "items": [
+      {
+        "title": "Eristys workspacekohtaisesti",
+        "description": "Jokainen asiakas työskentelee eristetyssä ympäristössä, mikä takaa täyden yksityisyyden ja turvallisuuden."
+      },
+      {
+        "title": "Asiakaskohtainen tietokanta",
+        "description": "Tiedot tallennettu omistetussa tietokannassa asiakasta kohti, ei jaettuna."
+      },
+      {
+        "title": "Kehittynyt salaus",
+        "description": "Tiedot salattuna siirrossa (TLS 1.2+) ja levossa (AES-256)."
+      },
+      {
+        "title": "Käyttöoikeuksien hallinta (RBAC)",
+        "description": "Tarkat käyttöoikeudet roolin, ryhmän, osaston ja arkaluontoisuustason mukaan."
+      },
+      {
+        "title": "Yritystason tunnistautuminen",
+        "description": "SSO, SAML 2.0, OAuth 2.0, AD/LDAP ja MFA turvalliseen ja yhtenäiseen pääsyyn."
+      },
+      {
+        "title": "IP-esto",
+        "description": "Pääsyn rajoittaminen IP-osoitteen tai IP-alueen mukaan ympäristösi suojaamiseksi."
+      },
+      {
+        "title": "Lokit ja auditointi",
+        "description": "Täydellinen kirjaus kaikista toiminnoista muuttumattomalla ja haettavalla auditointijäljellä."
+      },
+      {
+        "title": "Valvonta 24/7",
+        "description": "Jatkuva infrastruktuurin, sovellusten ja tietoturvan valvonta."
+      },
+      {
+        "title": "Automaattinen varmuuskopiointi",
+        "description": "Salatut ja automaattiset varmuuskopiot säädettävällä säilytysajalla."
+      },
+      {
+        "title": "Katastrofipalautus",
+        "description": "Katastrofipalautussuunnitelma maantieteellisellä replikoinnilla."
+      },
+      {
+        "title": "Private Storage",
+        "description": "Valinnainen yksityinen tallennus on-premise- tai Dedicated-ympäristöihin."
+      },
+      {
+        "title": "Rajaton skaalautuvuus",
+        "description": "Joustava infrastruktuuri, joka kasvaa liiketoimintasi mukana suorituskykyä vaarantamatta."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "Kansainvälisesti tunnustetut",
+    "headlineHighlight": "sertifikaatit ja vaatimustenmukaisuus",
+    "ctaLabel": "Katso kaikki sertifikaatit ja dokumentit",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "Sertifioitu tietoturvan hallintajärjestelmä kansainvälisen standardin mukaisesti."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "Arkkitehtuuri, hallintakeinot ja prosessit valmiina tukemaan ympäristöjä, joissa käsitellään terveystietoja (ePHI) Yhdysvalloissa.",
+        "badge": "BAA saatavilla"
+      },
+      {
+        "title": "LGPD",
+        "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen."
+      },
+      {
+        "title": "GDPR",
+        "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "Tarkat tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.",
+        "badge": "Käynnissä"
+      },
+      {
+        "title": "Muut standardit",
+        "description": "Käytännöt ja hallintakeinot linjassa alan vaativimpien markkinastandardien kanssa."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "Korkean käytettävyyden ",
+    "headlineHighlight": "cloud-native",
+    "headlineSuffix": " -arkkitehtuuri",
+    "flow": [
+      { "label": "Käyttäjät" },
+      { "label": "CloudFront CDN" },
+      { "label": "Load Balancer" }
+    ],
+    "multiAzTitle": "Korkea käytettävyys - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "Sovellukset" },
+    "az2": { "label": "AZ 2", "title": "Tietokanta", "subtitle": "(Automaattinen vaihto)" },
+    "services": [
+      { "label": "S3 Storage" },
+      { "label": "Salattu varmuuskopio" },
+      { "label": "CloudWatch-valvonta" },
+      { "label": "CloudTrail-lokit" },
+      { "label": "GuardDuty-turvallisuus" }
+    ],
+    "featuresAriaLabel": "Korkean käytettävyyden arkkitehtuurin edut",
+    "features": [
+      "Multi-AZ kaikilla kerroksilla",
+      "Datakeskukset useilla alueilla",
+      "Rajaton horisontaalinen skaalautuvuus",
+      "100 %:sti AWS Global -infrastruktuuri",
+      "Automaattinen kuormantasaus",
+      "Jatkuvat päivitykset ilman käyttökatkoja",
+      "99,99 %:n käytettävyys-SLA",
+      "Automaattinen häiriövaste",
+      "Raportit ja hälytykset reaaliajassa",
+      "Uhkien havainnointi ja torjunta",
+      "Erikoistunut tietoturvatiimi",
+      "Globaali ympäristö matalalla latenssilla"
+    ]
+  },
+  "cta": {
+    "sectionAria": "Aloita Interfyn käyttö yritystason tietoturvalla",
+    "headline": "Valmiina",
+    "headlineHighlight": "globaaleille yrityksille",
+    "title": "Suojaamme tietosi. Vahvistamme tuloksiasi.",
+    "description": "Luottamusta, vaatimustenmukaisuutta ja suorituskykyä yrityksesi turvalliseen kasvuun pilvessä.",
+    "primaryButton": "Ilmainen kokeilu",
+    "secondaryButton": "Keskustele asiantuntijan kanssa",
+    "featuresAriaLabel": "Interfyn tietoturvan ja vaatimustenmukaisuuden peruspilarit",
+    "features": [
+      { "label": "Turvallisuus suunnittelusta lähtien" },
+      { "label": "Tietosuoja oletuksena" },
+      { "label": "Täysi läpinäkyvyys" },
+      { "label": "Globaali vaatimustenmukaisuus" },
+      { "label": "Innovaatiota vastuullisesti" }
+    ]
+  }
+}

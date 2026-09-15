@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign est la signature électronique gratuite pour tous les utilisateurs de la plateforme. Signez et suivez vos documents avec rapidité, sécurité et une intégration totale à votre activité.",
+    "keywords": ["signature électronique", "signature numérique", "valeur juridique", "Interfy Sign"],
+    "freeTrialNote": "Signature électronique gratuite pour tous les utilisateurs de la plateforme."
+  },
+  "hero": {
+    "heading": "Signature",
+    "headingGradient": "électronique gratuite",
+    "subheading": "pour tous les utilisateurs de la plateforme.",
+    "descriptionPrefix": "Signez et suivez vos documents avec ",
+    "descriptionHighlight": "rapidité, sécurité et une intégration totale",
+    "descriptionSuffix": " à votre activité.",
+    "noCreditCard": "Sans carte bancaire",
+    "ctaPrimary": "Test Drive Gratuit pendant 7 jours",
+    "ctaSecondary": "Planifier une démonstration",
+    "mockupAlt": "Plateforme Interfy Sign affichée sur tablette et smartphone, montrant un document prêt à signer",
+    "featureChips": [
+      { "labelLines": ["Signature", "électronique"] },
+      { "labelLines": ["Signature", "par flux"] },
+      { "labelLines": ["Plusieurs", "signataires"] },
+      { "labelLines": ["Modèles", "prêts à l'emploi"] },
+      { "labelLines": ["Piste", "d'audit"] },
+      { "labelLines": ["Authentification", "sécurisée"] },
+      { "labelLines": ["Envoi", "externe"] },
+      { "labelLines": ["Alertes", "intelligentes"] },
+      { "labelLines": ["Suivi", "en temps réel"] },
+      { "labelLines": ["Signature", "sur mobile"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Plus de contrôle et d'efficacité pour le cycle de vie de ",
+    "headingHighlight": "vos documents",
+    "cards": [
+      { "title": "Intégration avec Documents", "description": "Signez des documents stockés en toute sécurité et avec un accompagnement complet." },
+      { "title": "Intégration avec Process", "description": "Intégrez la signature électronique à vos processus automatisés de bout en bout." },
+      { "title": "Envoi à des utilisateurs externes", "description": "Envoyez des documents à des personnes hors de la plateforme en toute sécurité." },
+      { "title": "Flux d'approbation", "description": "Définissez étapes, responsables et règles pour approuver rapidement." },
+      { "title": "Alertes et traçabilité", "description": "Recevez des notifications et gardez une visibilité totale sur chaque étape." },
+      { "title": "Tout enregistré en toute sécurité", "description": "Une traçabilité complète grâce à la piste d'audit et une conformité garantie." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Comment fonctionne ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Envoyez le document ou choisissez un modèle prêt à l'emploi." },
+      { "description": "Définissez les signataires et l'ordre de signature." },
+      { "description": "Envoyez à la signature avec une authentification sécurisée." },
+      { "description": "Les signataires signent où qu'ils se trouvent, même depuis leur téléphone." },
+      { "description": "Suivez le statut en temps réel et recevez des alertes." },
+      { "description": "Le document est finalisé et stocké en toute sécurité." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Des fonctionnalités complètes pour ",
+    "headingHighlight": "tout type d'entreprise",
+    "cards": [
+      { "title": "Modèles prêts à l'emploi", "description": "Utilisez des modèles prêts à l'emploi ou créez vos propres modèles personnalisés." },
+      { "title": "Plusieurs signataires", "description": "Faites signer une ou plusieurs personnes, en séquence ou en parallèle." },
+      { "title": "Authentification sécurisée", "description": "Plusieurs niveaux de vérification pour garantir l'identité et la sécurité." },
+      { "title": "Piste d'audit", "description": "Suivez chaque action avec des détails complets et immuables." },
+      { "title": "Intégration avec Documents", "description": "Signez des documents directement depuis vos référentiels." },
+      { "title": "Intégration avec Process", "description": "Intégrez la signature électronique à vos processus automatisés de bout en bout." },
+      { "title": "Suivi en temps réel", "description": "Voyez qui a signé, qui n'a pas encore signé et le statut actuel de chaque étape." },
+      { "title": "Signature sur mobile", "description": "Signez depuis n'importe où grâce à l'app, en quelques gestes." },
+      { "title": "Envoi externe", "description": "Envoyez des documents à des personnes externes en toute sécurité." }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à transformer la façon dont votre entreprise signe et approuve ses documents ?",
+    "description": "Commencez dès maintenant avec Interfy Sign et apportez plus de rapidité, de sécurité et de contrôle à votre activité.",
+    "ctaPrimary": "Test Drive Gratuit pendant 7 jours",
+    "ctaSecondary": "Planifier une Démonstration",
+    "statsLabel": "L'envergure de la plateforme Interfy",
+    "sectionLabel": "Commencez à utiliser Interfy Sign"
+  }
+}

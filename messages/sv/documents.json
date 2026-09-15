@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Documents",
+    "description": "Interfy Documents är nästa generation av dokumenthantering. Organisera, hitta, skydda och dela dokument med artificiell intelligens i varje steg.",
+    "keywords": ["dokumenthantering", "GED", "ECM", "elektronisk dokumenthantering", "Interfy Documents"],
+    "freeTrialNote": "Testa gratis i 7 dagar, inget kreditkort krävs."
+  },
+  "hero": {
+    "headingLine1": "Dina dokument slutar vara filer. De blir",
+    "headingHighlight": "intelligent information.",
+    "descriptionBrand": "Interfy Documents",
+    "description": "är nästa generation av dokumenthantering. Organisera, hitta, skydda och dela dokument med artificiell intelligens i varje steg.",
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "stats": [
+      { "label": "100% webbaserat", "sublabel": "Kom åt allt varifrån du vill" },
+      { "label": "AI-native", "sublabel": "Intelligens i varje steg" },
+      { "label": "Säkert & pålitligt", "sublabel": "Styrning och regelefterlevnad" }
+    ],
+    "mockupAlt": "Interfy Documents-plattformen visad på surfplatta och smartphone, med lista över dokument och mappar",
+    "chatCard": {
+      "line1": "Hitta signerade avtal",
+      "line2": "med företaget Acme från 2024"
+    }
+  },
+  "capabilities": {
+    "heading": "Komplett dokumenthantering med",
+    "headingHighlight": "artificiell intelligens",
+    "items": [
+      {
+        "title": "Säker lagring",
+        "description": "Lagra alla typer av dokument säkert, med hög tillgänglighet och skydd i företagsklass."
+      },
+      {
+        "title": "Intelligent organisation",
+        "description": "Strukturera mappar, undermappar och kategorier på ditt sätt, med flexibla mallar och etiketter."
+      },
+      {
+        "title": "Smart sökning",
+        "description": "Hitta dokument på sekunder med avancerade filter, AI och semantisk sökning."
+      },
+      {
+        "title": "Sökning med naturligt språk",
+        "description": "Fråga på ditt eget sätt. AI:n förstår och hittar det du behöver."
+      },
+      {
+        "title": "Automatisk klassificering med AI",
+        "description": "AI:n klassificerar och kategoriserar dokument automatiskt, vilket minskar manuellt arbete och fel."
+      },
+      {
+        "title": "Extraktion av information",
+        "description": "Extrahera data och information automatiskt från avtal, fakturor, formulär och mycket mer."
+      },
+      {
+        "title": "Metadata och indexering",
+        "description": "Skapa anpassade metadata och smarta index för att hämta information med precision."
+      },
+      {
+        "title": "Versionskontroll",
+        "description": "Fullständig versionshistorik, dokumentjämförelse och återställning när du behöver."
+      },
+      {
+        "title": "Records Management",
+        "description": "Gallringspolicyer, lagstadgade frister och automatisk gallring med full regelefterlevnad."
+      },
+      {
+        "title": "Säker delning",
+        "description": "Dela dokument och mappar med interna och externa användare på ett säkert och kontrollerat sätt."
+      },
+      {
+        "title": "Avancerade behörigheter",
+        "description": "Styr vem som kan visa, redigera, ladda ned, kommentera eller dela varje dokument."
+      },
+      {
+        "title": "Granskning och spårbarhet",
+        "description": "Fullständiga loggar över alla åtgärder med granskningsspår och detaljerade rapporter."
+      },
+      {
+        "title": "Styrning och regelefterlevnad",
+        "description": "Policyer, roller, regler och kontroller för att säkerställa säkerhet, integritet och regelefterlevnad."
+      },
+      {
+        "title": "Documents i mobilen",
+        "description": "Kom åt, visa, dela och godkänn var du än är via appen Interfy Mobile."
+      },
+      {
+        "title": "Total integration",
+        "description": "Native integration med Capture, Process, Sign, Connect och Agents för ett sömlöst arbetsflöde."
+      },
+      {
+        "title": "AI-agenter",
+        "description": "Intelligenta agenter som analyserar, sammanfattar, klassificerar och föreslår åtgärder automatiskt."
+      }
+    ],
+    "statsLabel": "Interfy-plattformens skala"
+  },
+  "ecosystem": {
+    "heading": "Native integration med hela",
+    "headingHighlight": "Interfy-ekosystemet",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Intelligent dokumentinsamling." },
+      { "description": "Processautomation." },
+      { "description": "Integrerad digital signering." },
+      { "description": "Samarbete och kommunikation." },
+      { "description": "AI-agenter som förstår och agerar." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Fördelar med Interfy Documents",
+    "blocks": [
+      {
+        "title": "Produktivitet i handen",
+        "description": "Appen Interfy Mobile tar din dokumenthantering med dig vart du än är.",
+        "checklist": [
+          "Kom åt och visa dokument",
+          "Godkänn förfrågningar och uppgifter",
+          "Dela säkert",
+          "Sök med AI",
+          "Arbeta offline och synkronisera senare"
+        ],
+        "imageAlt": "Appen Interfy Mobile som visar listan över dokument"
+      },
+      {
+        "title": "Säkerhet och styrning i första hand",
+        "description": "Interfy Documents är byggt för att skydda din information och säkerställa regelefterlevnad på alla nivåer.",
+        "checklist": [
+          "Kryptering i vila och under överföring",
+          "Rollbaserad åtkomstkontroll",
+          "LGPD, ISO 27001, SOC 2 och GDPR",
+          "Fullständiga loggar och granskning",
+          "Automatisk säkerhetskopiering och katastrofåterställning"
+        ],
+        "imageAlt": "Illustration av en säkerhetssköld som skyddar dokumenten"
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Börja använda Interfy Documents",
+    "title": "Förvandla dina dokument till strategisk information",
+    "description": "Kom igång nu med 7 dagar gratis och se hur Interfy Documents kan revolutionera din dokumenthantering.",
+    "primaryButton": "Testa gratis i 7 dagar",
+    "secondaryButton": "Boka demo",
+    "statsLabel": "Fördelar med Interfy Documents",
+    "features": [
+      { "label": "100% webbaserat", "sublabel": "Kom åt allt varifrån du vill" },
+      { "label": "Toppsäkerhet", "sublabel": "Skyddad och regelefterlevande data" },
+      { "label": "Skalbart", "sublabel": "Från små till stora verksamheter" },
+      { "label": "Support dygnet runt", "sublabel": "När du behöver det" }
+    ]
+  }
+}

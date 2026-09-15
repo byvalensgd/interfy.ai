@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Agenți AI",
+    "description": "Interfy Agents este stratul de inteligență al platformei. Creează agenți inteligenți pentru a automatiza sarcini, a analiza informații și a impulsiona rezultate în toată operațiunea ta.",
+    "keywords": ["agenți AI", "automatizare inteligentă", "AI agents enterprise", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agenți care",
+    "titleGradient": "înțeleg, decid și execută.",
+    "description": "Interfy Agents este stratul de inteligență al platformei. Creează agenți inteligenți pentru a automatiza sarcini, a analiza informații și a impulsiona rezultate în toată operațiunea ta.",
+    "ctaPrimary": "Test Drive Gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "slideshowAlt": "Interfy Agents afișat pe laptop și smartphone, arătând agenți AI în acțiune",
+    "highlights": [
+      { "label": "Inteligență care generează valoare" },
+      { "label": "Automatizare fără limite" },
+      { "label": "Sigur și guvernat" },
+      { "label": "Integrat în toată platforma" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Ce pot face",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "pentru tine",
+    "items": [
+      { "title": "Agenți Inteligenți", "description": "Agenți cu AI care înțeleg contextul și execută acțiuni în mod autonom." },
+      { "title": "Crearea agenților", "description": "Creează agenți personalizați cu sau fără cod în câteva minute." },
+      { "title": "Agenți pe domenii", "description": "Ai agenți dedicați pentru fiecare domeniu al companiei tale: Financiar, HR, Juridic și altele." },
+      { "title": "Execuție automată a sarcinilor", "description": "Execută sarcini repetitive, reduc erorile și accelerează operațiunea ta." },
+      { "title": "Citirea documentelor", "description": "Citesc, înțeleg și extrag informații din documente în câteva secunde." },
+      { "title": "Declanșarea proceselor", "description": "Inițiază și conduc procese automat în platformă pe baza evenimentelor." },
+      { "title": "Monitorizare", "description": "Urmăresc activități, termene, indicatori și trimit actualizări în timp real." },
+      { "title": "Analiza informațiilor", "description": "Analizează volume mari de date și oferă informații inteligente." },
+      { "title": "Alerte inteligente", "description": "Trimit alerte proactive despre riscuri, oportunități, termene și excepții." },
+      { "title": "Recomandări", "description": "Sugerează acțiuni, decizii și pași următori pe baza datelor și istoricului." },
+      { "title": "Integrare cu sisteme", "description": "Se conectează la sisteme externe prin API-uri și schimbă informații în siguranță." },
+      { "title": "Execuție bazată pe reguli", "description": "Execută acțiuni respectând regulile de business și politicile companiei tale." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Complet integrat cu",
+    "headingGradient": "ecosistemul Interfy",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agenții citesc, analizează și actualizează documente în mod inteligent." },
+      { "description": "Agenții inițiază procese, completează date și conduc fluxuri automat." },
+      { "description": "Agenții extrag informații, clasifică și trimit documente către fluxurile corecte." },
+      { "description": "Agenții interacționează în conversații, răspund, partajează informații și colaborează." },
+      { "description": "Agenții folosesc vocea pentru a răspunde, înregistra, consulta și executa acțiuni." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Guvernanță, securitate și AI Credits",
+    "governance": {
+      "title": "Guvernanță și securitate",
+      "titleAccent": "pe primul loc",
+      "items": [
+        "Permisiuni granulare pe agent și pe utilizator",
+        "Acțiuni auditate și trasabile la toate nivelurile",
+        "Politici de acces și execuție definite de companie",
+        "Conformitate cu LGPD, ISO 27001, SOC 2 și altele",
+        "Date protejate cu criptare de la un capăt la altul"
+      ],
+      "cta": "Vezi detalii"
+    },
+    "credits": {
+      "title": "Consum simplu și transparent cu AI Credits",
+      "description": "Interfy Agents consumă AI Credits în funcție de acțiunile executate. Mai mult control, previzibilitate și scalabilitate pentru afacerea ta.",
+      "features": [
+        { "label": "Credite incluse în toate planurile" },
+        { "label": "Urmărire în timp real" },
+        { "label": "Cumpără credite suplimentare când ai nevoie" }
+      ],
+      "cta": "Vezi detalii",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "disponibile"
+    }
+  },
+  "cta": {
+    "sectionAria": "Începe să folosești Interfy Agents",
+    "benefitsAria": "Beneficiile Interfy Agents",
+    "title": "Inteligență care lucrează pentru tine.",
+    "description": "Creează agenți, automatizează sarcini și transformă-ți operațiunea cu AI.",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o Demonstrație",
+    "benefits": [
+      { "label": "Redu costurile operaționale" },
+      { "label": "Mai multă productivitate și eficiență" },
+      { "label": "Mai puține erori și muncă repetată" },
+      { "label": "Decizii mai rapide și mai inteligente" },
+      { "label": "Scalabilitate fără limite" }
+    ]
+  }
+}

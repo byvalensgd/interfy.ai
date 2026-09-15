@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture trasforma documenti fisici e digitali in informazioni intelligenti in pochi secondi. Acquisisci dal browser, da scanner professionali o dallo smartphone, con l'AI che riconosce, estrae, classifica e instrada tutto automaticamente.",
+    "keywords": ["acquisizione intelligente di documenti", "digitalizzazione con AI", "OCR", "riconoscimento documenti", "Interfy Capture"],
+    "freeTrialNote": "Prova gratuita per 7 giorni, senza carta di credito"
+  },
+  "hero": {
+    "titleLine1": "Acquisisci qualsiasi documento.",
+    "titleLine2": "L'AI fa il resto.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "trasforma documenti fisici e digitali in informazioni intelligenti in pochi secondi. Acquisisci dal browser, da scanner professionali o dallo smartphone.",
+    "ctaPrimary": "Test Drive Gratuito per 7 giorni",
+    "ctaSecondary": "Prenota una demo",
+    "mockupAlt": "Interfy Capture visualizzato su laptop e smartphone, con l'acquisizione intelligente di documenti",
+    "trust": [
+      { "text": "99,9% di affidabilità nell'estrazione" },
+      { "text": "100% sicuro e conforme al GDPR" },
+      { "text": "AI-native in tutta la piattaforma" },
+      { "text": "Scalabile per qualsiasi volume di documenti" }
+    ],
+    "flow": [
+      { "text": "L'AI riconosce ed estrae" },
+      { "text": "Classifica, indicizza e organizza." },
+      { "text": "Archivia in Interfy Documents" },
+      { "text": "Invia a Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Come funziona ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Acquisizione", "description": "Acquisizione da qualsiasi fonte: browser, scanner o cellulare." },
+      { "title": "Riconoscimento con AI", "description": "L'AI di Interfy riconosce ed estrae automaticamente il contenuto." },
+      { "title": "Lettura e comprensione", "description": "Comprende il contesto, i campi e le relazioni tra le informazioni." },
+      { "title": "Estrazione dei dati", "description": "Estrae automaticamente dati strutturati e non strutturati." },
+      { "title": "Classificazione", "description": "Classifica e organizza i documenti con l'AI." },
+      { "title": "Indicizzazione e metadati", "description": "Assegna metadati e prepara per ricerca e tracciabilità." },
+      { "title": "Validazione e instradamento", "description": "Valida e instrada verso Interfy Documents o Process." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funzionalità e vantaggi di ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Scala della piattaforma Interfy",
+    "items": [
+      { "title": "Acquisizione dal browser", "description": "Acquisisci file direttamente dal tuo computer. Semplice, veloce e sicuro." },
+      { "title": "Scanner professionali", "description": "Integrazione nativa con scanner ad alte prestazioni per la massima qualità." },
+      { "title": "Acquisizione in batch", "description": "Digitalizza ed elabora grandi volumi di documenti in una sola volta." },
+      { "title": "AI Credits inclusi", "description": "Credits AI inclusi in tutti i piani della piattaforma — senza bisogno di attivare il modulo separatamente." },
+      { "title": "Mobile Capture", "description": "Acquisisci documenti dallo smartphone, ovunque e in qualsiasi momento." },
+      { "title": "Riconoscimento con AI", "description": "L'AI riconosce ed estrae il contenuto con alta precisione." },
+      { "title": "Estrazione automatica", "description": "Estrazione automatica di dati strutturati e non strutturati." },
+      { "title": "Interfy Documents", "description": "Archiviazione sicura, ricerca intelligente e tracciabilità." },
+      { "title": "Interfy Process", "description": "Invio automatico a flussi e automazioni della tua attività." },
+      { "title": "Acquisto di credits aggiuntivi", "description": "Più credits ogni volta che la tua attività ne ha bisogno." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitalizzazione con validità legale",
+    "badge": "Funzionalità opzionale",
+    "description": "Funzionalità opzionale per le aziende che necessitano di validità giuridica per i propri documenti digitali. Non incluso nel piano standard.",
+    "checklist": [
+      { "text": "Certificazione digitale e marca temporale" },
+      { "text": "Archiviazione sicura con validità legale" },
+      { "text": "Tracciabilità end-to-end" },
+      { "text": "Evidenze e audit trail" },
+      { "textParts": ["Applicazione di marca temporale e traccia conforme al ", "Decreto 10.278"] },
+      { "text": "Audit trail" },
+      { "text": "Validazione giuridica" },
+      { "text": "Conformità e sicurezza" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Risultati reali per il tuo business",
+    "heading": "RISULTATI REALI PER IL TUO BUSINESS",
+    "stats": [
+      { "accent": "FINO AL 85%", "label": "MENO ERRORI", "description": "nell'indicizzazione e nella classificazione." },
+      { "accent": "PIÙ", "label": "PRODUTTIVITÀ", "description": "Il tuo team si concentra su ciò che conta davvero." },
+      { "accent": "SICUREZZA &", "label": "CONFORMITÀ", "description": "Totale con GDPR e standard globali." }
+    ],
+    "ctaTitle": "PRONTO A TRASFORMARE LA GESTIONE DEI TUOI DOCUMENTI?",
+    "ctaDescription": "Prenota una demo e scopri come Interfy Capture può generare risultati reali per la tua azienda.",
+    "mascotAlt": "Assistente AI di Interfy"
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy Capture",
+    "title": "Pronto a trasformare l'acquisizione dei tuoi documenti con l'AI?",
+    "description": "Prova Interfy Capture per 7 giorni e scopri l'AI al lavoro per potenziare la tua attività. Attivalo separatamente o approfitta dei credits già inclusi nei piani della piattaforma.",
+    "ctaPrimary": "Test Drive Gratuito per 7 giorni",
+    "ctaSecondary": "Prenota una demo",
+    "statsLabel": "Punti di forza di Interfy Capture",
+    "highlights": [
+      { "label": "100% Web", "sublabel": "Accedi da qualsiasi luogo" },
+      { "label": "Sicurezza all'avanguardia", "sublabel": "Dati protetti e conformi" },
+      { "label": "Scalabile", "sublabel": "Dalla piccola alla grande impresa" },
+      { "label": "Assistenza 24/7", "sublabel": "Sempre quando ne hai bisogno" }
+    ]
+  }
+}

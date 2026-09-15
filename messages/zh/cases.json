@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "成功案例",
+    "description": "不同行业的企业在 Interfy 文档、流程与 AI 平台上取得的典型成果。",
+    "keywords": ["Interfy 案例", "Interfy 成效", "文档管理成功案例", "流程自动化 ROI"]
+  },
+  "hero": {
+    "ariaLabel": "成功案例简介",
+    "eyebrow": "成功案例",
+    "titleLine1": "不同行业中的",
+    "titleHighlight": "真实成效",
+    "description": "展示像您一样的企业在统一文档、流程与 AI 到同一平台后所获得的收益。"
+  },
+  "grid": {
+    "ariaLabel": "各行业成效",
+    "heading": "我们的客户实现了什么",
+    "illustrativeNote": "以下为示意性结果，基于各行业 Interfy 客户的平均观察数据。请申请诊断评估，以估算对您场景的实际影响。",
+    "complianceNote": "所有成效均建立在通过 ISO/IEC 27001:2022 认证的基础设施之上，具备 99.99% 可用性 SLA，并符合 LGPD/GDPR 合规要求。",
+    "items": [
+      {
+        "segment": "金融机构",
+        "description": "合同数字化与信贷审批流程自动化，具备完整的审计轨迹。",
+        "metricValue": "-45%",
+        "metricLabel": "信贷审批平均耗时"
+      },
+      {
+        "segment": "医疗健康",
+        "description": "病历与检验报告集中管理，电子签名与诊疗流程无缝集成。",
+        "metricValue": "-60%",
+        "metricLabel": "文档归档耗时"
+      },
+      {
+        "segment": "法律",
+        "description": "合同与流程管理具备期限控制，并实现端到端电子签名。",
+        "metricValue": "3x",
+        "metricLabel": "每月成交合同数量"
+      },
+      {
+        "segment": "工业制造",
+        "description": "采购订单与多级审批自动化，与 ERP 系统集成。",
+        "metricValue": "-35%",
+        "metricLabel": "审批周期时间"
+      },
+      {
+        "segment": "物流",
+        "description": "直接通过司机手机自动采集签收单与发票。",
+        "metricValue": "+80%",
+        "metricLabel": "当日采集完成的文档量"
+      },
+      {
+        "segment": "零售",
+        "description": "供应商入驻与标准化合同管理整合在同一条流程中。",
+        "metricValue": "-50%",
+        "metricLabel": "供应商入驻耗时"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "heading": "想在您的企业中获得类似成效？",
+    "subheading": "联系我们的团队，获取针对您当前流程的免费诊断评估。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示"
+  }
+}

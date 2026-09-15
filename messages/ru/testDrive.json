@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Бесплатный Test Drive",
+    "description": "Испытайте Interfy.AI на практике. Создайте свой Workspace и протестируйте все продукты платформы в течение 7 дней без банковской карты.",
+    "keywords": ["бесплатный тест Interfy", "test drive AI-native платформы", "бесплатный workspace", "пробный период управления документами"],
+    "freeTrialNote": "7 дней бесплатно, чтобы протестировать всю платформу, без банковской карты."
+  },
+  "hero": {
+    "ariaLabel": "Преимущества Test Drive",
+    "headingPrefix": "Испытайте ",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " на практике",
+    "subheading": "7 дней, чтобы изменить то, как работает ваша компания.",
+    "descriptionPrefix": "Создайте свой Workspace, изучите платформу и узнайте, как ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents и Voice",
+    "descriptionSuffix": " могут трансформировать вашу работу с помощью AI.",
+    "ctaButton": "Узнайте, как работает Test Drive",
+    "differentiators": [
+      { "title": "7 дней бесплатно", "subtitle": "чтобы протестировать всё" },
+      { "title": "Без карты", "subtitle": "Без обязательств" },
+      { "title": "Workspace за минуты", "subtitle": "Создайте прямо сейчас" },
+      { "title": "100% веб + Mobile", "subtitle": "Доступ откуда угодно" },
+      { "title": "AI Native", "subtitle": "Интеллект во всём" },
+      { "title": "Данные сохраняются", "subtitle": "После теста" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "Как работает ",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "Создайте свой Workspace", "description": "Простая и быстрая регистрация. Без банковской карты." },
+      { "title": "Изучите платформу", "description": "Исследуйте все доступные продукты и возможности." },
+      { "title": "Протестируйте на своей работе", "description": "Загружайте документы, создавайте процессы, используйте AI и пробуйте возможности." },
+      { "title": "Выберите свой тариф", "description": "По окончании 7 дней продолжайте точно с того места, где остановились." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Что можно протестировать за ",
+    "headingHighlight": "7 дней",
+    "items": [
+      { "title": "Documents", "description": "Умное управление документами и информацией" },
+      { "title": "Process", "description": "Умная автоматизация процессов и задач" },
+      { "title": "Capture", "description": "Умное распознавание документов с AI" },
+      { "title": "Sign", "description": "Бесплатная электронная подпись для всех пользователей" },
+      { "title": "Connect", "description": "Совместная работа и общение, связанные с процессом" },
+      { "title": "Mobile", "description": "Вся ваша работа на ладони" },
+      { "title": "Agents", "description": "AI-агенты, которые анализируют, решают и выполняют" },
+      { "title": "Voice", "description": "Голосовое взаимодействие на естественном языке с AI" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "Ваш ",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": " уже готов к запуску.",
+      "paragraph": "Чтобы вы использовали каждую минуту с пользой, мы подготовили реальные примеры для немедленного тестирования.",
+      "checklist": [
+        { "text": "Примеры документов" },
+        { "text": "Готовый процесс" },
+        { "text": "Умная форма" },
+        { "text": "Ожидающая задача" },
+        { "text": "Документ на подпись" },
+        { "text": "Пример ", "highlight": "Capture" },
+        { "text": "Настроенный агент" },
+        { "text": "Команды для ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "Мы предлагаем ",
+      "paragraphHighlight": "7-дневный маршрут",
+      "paragraphNote": " (но всё доступно с первого дня)",
+      "dayLabel": "День {number}",
+      "days": [
+        { "line1": "Изучите свой", "line2": "Workspace" },
+        { "line1": "Исследуйте", "line2": "Documents" },
+        { "line1": "Автоматизируйте", "line2": "процессы" },
+        { "line1": "Попробуйте", "line2": "Capture" },
+        { "line1": "Испытайте", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "Выберите свой", "line2": "тариф" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Безопасность данных и продолжение после Test Drive",
+    "preservedHeading": "Ваши данные остаются вашими.",
+    "preservedList": [
+      "Собственный Workspace",
+      "Защищённая среда",
+      "Передовое шифрование",
+      "Контроль доступа",
+      "Изоляция данных",
+      "Никаких автоматических списаний",
+      "Без банковской карты"
+    ],
+    "endHeading": "А что, если Test Drive закончится?",
+    "endParagraph": "Вы выбираете подходящий тариф и продолжаете точно с того места, где остановились. Ваш Workspace и все данные сохраняются.",
+    "endFeatures": [
+      { "label": "Ваши данные сохранены" },
+      { "label": "Переход без потерь" },
+      { "label": "Ничего не удаляется без вашего разрешения" },
+      { "label": "Продолжайте, когда захотите" }
+    ],
+    "endButton": "Выбрать мой тариф"
+  },
+  "cta": {
+    "ariaLabel": "Начните свой Test Drive",
+    "title": "Будущее вашей работы начинается с Test Drive.",
+    "description": "Испытайте Interfy.ai в течение 7 дней. Без карты. Без обязательств.",
+    "ctaPrimary": "Начать бесплатный Test Drive",
+    "ctaSecondary": "Смотреть тарифы",
+    "statsLabel": "Показатели платформы Interfy"
+  },
+  "form": {
+    "heading": "Создайте свой бесплатный Workspace",
+    "subheading": "Это займёт меньше 2 минут.",
+    "nameLabel": "Полное имя",
+    "emailLabel": "Корпоративный e-mail",
+    "companyLabel": "Компания",
+    "phoneLabel": "Телефон (WhatsApp)",
+    "optionalLabel": "(необязательно)",
+    "errors": {
+      "name": "Укажите своё полное имя.",
+      "email": "Укажите действительный e-mail.",
+      "company": "Укажите название своей компании.",
+      "consent": "Для продолжения необходимо принять условия."
+    },
+    "consentPrefix": "Я прочитал(а) и согласен(на) с ",
+    "consentTerms": "Условиями использования",
+    "consentMiddle": " и ",
+    "consentPrivacy": "Политикой конфиденциальности",
+    "consentSuffix": ".",
+    "submitButton": "Создать мой бесплатный Workspace",
+    "submittingButton": "Отправка...",
+    "successHeading": "Мы получили вашу заявку!",
+    "successMessagePrefix": "Наша команда готовит ваш Workspace. Через несколько минут вы получите доступ на e-mail ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Поговорить со специалистом"
+  }
+}

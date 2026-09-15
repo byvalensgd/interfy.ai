@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "博客与内容",
+    "description": "关于文档管理、流程自动化、电子签名以及企业运营中 AI 应用的文章、指南与最新资讯。",
+    "keywords": ["Interfy 博客", "文档管理内容", "流程自动化", "企业 AI"]
+  },
+  "hero": {
+    "ariaLabel": "博客简介",
+    "eyebrow": "博客与内容",
+    "titleLine1": "为运营变革者",
+    "titleHighlight": "提供的内容",
+    "description": "关于文档、流程、数据与企业 AI 的实用指南、产品动态与趋势解读。"
+  },
+  "grid": {
+    "ariaLabel": "博客文章",
+    "categoriesLabel": "按分类筛选",
+    "allLabel": "全部",
+    "categories": ["文档管理", "流程自动化（BPM）", "电子签名", "AI 与智能体", "安全与合规"],
+    "comingSoonLabel": "每周更新新文章，敬请期待。",
+    "posts": [
+      {
+        "category": "文档管理",
+        "title": "如何搭建一个能随企业规模扩展的文档库",
+        "excerpt": "面向快速成长团队的组织架构、版本管理与访问控制最佳实践。",
+        "date": "2026年8月",
+        "readTime": "6 分钟阅读"
+      },
+      {
+        "category": "流程自动化（BPM）",
+        "title": "每家企业最应该优先自动化的 5 个流程",
+        "excerpt": "一份实用指南，帮助您优先自动化对成本和周期时间影响最大的环节。",
+        "date": "2026年8月",
+        "readTime": "7 分钟阅读"
+      },
+      {
+        "category": "电子签名",
+        "title": "电子签名在巴西是否具有法律效力？",
+        "excerpt": "法规如何规定，哪些证据至关重要，以及如何选择合适的签名级别。",
+        "date": "2026年7月",
+        "readTime": "5 分钟阅读"
+      },
+      {
+        "category": "AI 与智能体",
+        "title": "AI 智能体在内部流程中的应用：从何入手",
+        "excerpt": "真实使用案例，帮助减少分类、审核与数据提取中的人工操作。",
+        "date": "2026年7月",
+        "readTime": "8 分钟阅读"
+      },
+      {
+        "category": "安全与合规",
+        "title": "LGPD 实务解读：文档与流程管理将发生哪些变化",
+        "excerpt": "一份直观的指南，讲解合法性基础、数据留存与数据控制者的责任。",
+        "date": "2026年6月",
+        "readTime": "6 分钟阅读"
+      },
+      {
+        "category": "文档管理",
+        "title": "OCR 与智能采集：告别人工录入",
+        "excerpt": "自动化采集如何减少错误，加快文档进入工作流程的速度。",
+        "date": "2026年6月",
+        "readTime": "5 分钟阅读"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "heading": "想在实践中体验这些理念？",
+    "subheading": "免费开始，用您自己的文档和流程探索 Interfy 平台。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Program de Parteneri",
+    "description": "Devino Partener Comercial sau Afiliat Interfy.ai și transformă oportunitățile în venituri recurente cu o platformă AI-native, suport dedicat și un workspace instituțional.",
+    "keywords": ["program de parteneri Interfy", "partener comercial", "afiliat Interfy", "recomandare de clienți", "venituri recurente"]
+  },
+  "hero": {
+    "headingPrefix": "Crește alături de ",
+    "headingHighlight": "Interfy.ai",
+    "subheading": "Transformă oportunitățile în venituri recurente.",
+    "description": "Fă parte dintr-un program global pentru companii și profesioniști care doresc să prospecteze, să recomande și să dezvolte noi afaceri cu o platformă AI-native.",
+    "slideshowAlt": "Platforma Interfy afișată pe laptop și smartphone, arătând panoul de gestiune cu IA",
+    "bannerAriaLabel": "Avantajele programului de parteneri",
+    "banner": [
+      { "title": "Program Global" },
+      { "title": "Suport Interfy" },
+      { "title": "Venituri recurente" },
+      { "title": "Oportunități protejate" }
+    ],
+    "ctaPrimary": "VREAU SĂ FIU PARTENER",
+    "ctaSecondary": "VREAU SĂ RECOMAND CLIENȚI"
+  },
+  "participation": {
+    "heading": "Alege cum vrei să participi",
+    "cards": [
+      {
+        "title": "PARTENER COMERCIAL",
+        "subtitle": "Pentru cei care vor să dezvolte afaceri alături de Interfy",
+        "checklistAriaLabel": "Beneficiile Partenerului Comercial",
+        "checklist": [
+          { "label": "Prospectarea de clienți noi" },
+          { "label": "Prezentarea platformei" },
+          { "label": "Dezvoltarea oportunităților" },
+          { "label": "Monitorizarea relației comerciale" },
+          { "label": "Workspace instituțional pentru demonstrații" },
+          { "label": "Training și materiale oficiale" },
+          { "label": "Înregistrarea și protejarea oportunităților" }
+        ],
+        "cta": "VREAU SĂ FIU PARTENER"
+      },
+      {
+        "title": "AFILIAT SAU RECOMANDATOR",
+        "subtitle": "Pentru cei care vor să recomande potențiali clienți",
+        "checklistAriaLabel": "Beneficiile Afiliatului sau Recomandatorului",
+        "checklist": [
+          { "label": "Recomandare prin link, cod sau formular" },
+          { "label": "Fără nevoia de a face demonstrații" },
+          { "label": "Fără elaborare de oferte" },
+          { "label": "Fără implicare în negociere" },
+          { "label": "Interfy conduce întregul proces comercial" },
+          { "label": "Monitorizarea recomandărilor realizate" }
+        ],
+        "cta": "VREAU SĂ RECOMAND CLIENȚI"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "De ce să centralizezi totul într-un singur ",
+    "headingHighlight": "Workspace?",
+    "steps": [
+      { "title": "Alege-ți modalitatea", "description": "Stabilește dacă vei fi Partener Comercial sau Afiliat/Recomandator." },
+      { "title": "Fă-ți înregistrarea", "description": "Completează-ți datele și confirmă-ți participarea în program." },
+      { "title": "Înregistrează-ți oportunitățile", "description": "Recomandă și monitorizează potențialii clienți direct din platformă." },
+      { "title": "Urmărește-ți rezultatele", "description": "Urmărește-ți rezultatele și primești plata conform condițiilor programului." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "O structură completă ",
+    "headingHighlight": "pentru creșterea ta",
+    "ariaLabel": "Structură de sprijin pentru parteneri",
+    "items": [
+      { "title": "Platformă AI-native", "description": "Cea mai bună tehnologie pentru a-ți impulsiona afacerea." },
+      { "title": "Training", "description": "Pregătire comercială și tehnică pentru echipa ta." },
+      { "title": "Workspace instituțional", "description": "Mediu exclusiv pentru gestionarea oportunităților." },
+      { "title": "Materiale de vânzări", "description": "Prezentări, argumentații și conținuturi oficiale actualizate." },
+      { "title": "Înregistrarea oportunităților", "description": "Urmărește statusul fiecărei oportunități în timp real." },
+      { "title": "Contracte prin Interfy", "description": "Interfy conduce negocierea și formalizarea cu clientul." },
+      { "title": "Facturare prin Interfy", "description": "Emiterea facturilor, colectarea și gestionarea plăților." },
+      { "title": "Suport oficial", "description": "Echipă dedicată partenerilor, cu asistență specializată." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Tu dezvolți afacerea",
+      "checklistAriaLabel": "Responsabilitățile partenerului",
+      "checklist": [
+        { "label": "Prospectare și relaționare" },
+        { "label": "Prezentarea platformei" },
+        { "label": "Înregistrarea oportunității" },
+        { "label": "Monitorizare comercială" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy se ocupă de operațiune",
+      "checklistAriaLabel": "Responsabilitățile Interfy",
+      "checklist": [
+        { "label": "Contract cu clientul" },
+        { "label": "Facturare și colectare" },
+        { "label": "Crearea Workspace-ului" },
+        { "label": "Infrastructură, actualizări și suport" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Clientul tău poate începe cu ",
+    "headingHighlight": "Test Drive",
+    "descriptionLine1": "7 zile gratuite, fără card și fără obligații.",
+    "descriptionLine2": "Clientul cunoaște platforma înainte de a alege planul.",
+    "cta": "DESCOPERĂ TEST DRIVE"
+  },
+  "faq": {
+    "heading": "Întrebări frecvente",
+    "ariaExpand": "Afișează răspunsul",
+    "items": [
+      {
+        "question": "Există exclusivitate teritorială?",
+        "answer": "Nu. Programul este global: parteneri și afiliați din orice regiune pot prospecta și recomanda clienți, fără restricții geografice."
+      },
+      {
+        "question": "Cum sunt protejate oportunitățile?",
+        "answer": "Fiecare oportunitate înregistrată în platformă rămâne asociată partenerului sau afiliatului responsabil, evitând suprapunerile și garantând recunoașterea afacerii recomandate."
+      },
+      {
+        "question": "Când este plătit comisionul?",
+        "answer": "Comisionul este eliberat după confirmarea plății clientului, conform ciclului de facturare definit în condițiile programului."
+      },
+      {
+        "question": "Partenerul poate factura clientul?",
+        "answer": "Nu. Interfy gestionează contractul, facturarea și colectarea direct cu clientul, în timp ce partenerul se concentrează pe relația comercială."
+      },
+      {
+        "question": "Cum funcționează reînnoirea anuală?",
+        "answer": "Reînnoirea este automată atât timp cât clientul rămâne activ, iar partenerul sau afiliatul continuă să primească plata conform condițiilor programului."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Fă parte din ecosistemul global Interfy.ai",
+    "heading": "Creștem împreună?",
+    "subheading": "Alege-ți modalitatea și fă parte din ecosistemul global Interfy.ai.",
+    "primaryButton": "VREAU SĂ FIU PARTENER",
+    "secondaryButton": "VREAU SĂ FIU AFILIAT",
+    "statsLabel": "Cifrele platformei Interfy",
+    "stats": [
+      { "label": "12Mld +", "sublabel": "documente" },
+      { "label": "20M +", "sublabel": "semnături" },
+      { "label": "2,5M +", "sublabel": "utilizatori" },
+      { "label": "6M +", "sublabel": "procese" },
+      { "label": "1000 TB +", "sublabel": "stocați" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "suport" }
+    ]
+  }
+}

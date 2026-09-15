@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Kontakt",
+    "description": "Kontaktieren Sie Interfy: E-Mail, Telefon, Adresse und Servicezeiten für Vertriebsfragen, Support und Partnerschaften.",
+    "keywords": ["Interfy Kontakt", "Interfy erreichen", "Interfy E-Mail", "Interfy Telefon"]
+  },
+  "hero": {
+    "ariaLabel": "Einführung zur Kontaktseite",
+    "eyebrow": "Kontaktieren Sie uns",
+    "titleLine1": "Lassen Sie uns über",
+    "titleHighlight": "Ihren Betrieb sprechen",
+    "description": "Unser Vertriebs- und Support-Team steht bereit, Ihre Situation zu verstehen und Ihnen zu zeigen, wie Interfy dazu passt.",
+    "primaryLabel": "Demo vereinbaren",
+    "secondaryLabel": "Kostenlos starten"
+  },
+  "channels": {
+    "ariaLabel": "Kontaktkanäle",
+    "heading": "Wählen Sie den passenden Kanal",
+    "items": [
+      {
+        "title": "Geschäftliche E-Mail",
+        "description": "contato@interfy.ai — für Vertriebsfragen, Pläne und Partnerschaften.",
+        "actionLabel": "E-Mail senden",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "+55 11 4020-1000 — Montag bis Freitag, 8 bis 20 Uhr (Brasília-Zeit).",
+        "actionLabel": "Jetzt anrufen",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Adresse",
+        "description": "Interfy Corporation — Orlando, Florida, USA, mit geschäftlicher Präsenz in über 180 Ländern und dediziertem Service für Brasilien.",
+        "actionLabel": "Alle Regionen ansehen",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Servicezeiten",
+        "description": "Montag bis Freitag, 8 bis 20 Uhr. Enterprise-Konten können erweiterten 24/7-Support buchen.",
+        "actionLabel": "Support ansehen",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "heading": "Möchten Sie die Plattform lieber live sehen?",
+    "subheading": "Vereinbaren Sie eine Demonstration mit unserem Team und erleben Sie Interfy in Ihrem Prozess in wenigen Minuten.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryButton": "Demo vereinbaren"
+  }
+}

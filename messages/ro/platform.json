@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Platformă",
+    "description": "O platformă integrată de la un capăt la altul: documente, procese, capturare, semnătură, colaborare, mobil, agenți și voce lucrând împreună cu AI la fiecare pas.",
+    "keywords": ["platformă Interfy", "platformă enterprise AI-native", "gestionarea documentelor și proceselor", "ecosistem Interfy"]
+  },
+  "hero": {
+    "headingLine1": "O singură platformă.",
+    "headingLine2": "Toată operațiunea ta.",
+    "headingHighlight": "AI la fiecare pas.",
+    "description1": "Documente, automatizări, capturare inteligentă, semnătură digitală, colaborare, mobil, agenți și voce lucrând împreună într-un singur Workspace.",
+    "description2": "Înlocuiește mai multe programe cu o platformă 100% web, cloud-native și pregătită să opereze global cu securitate, scalabilitate și inteligență.",
+    "ctaPrimary": "Testează gratuit timp de 14 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "mockupAlt": "Platforma Interfy afișată pe tabletă și smartphone, arătând workspace-ul, sarcinile zilei și asistentul AI",
+    "chipsAriaLabel": "Principalele caracteristici ale platformei",
+    "chips": [
+      { "label": "AI Native" },
+      { "label": "Cloud-nativă" },
+      { "label": "100% web" },
+      { "label": "Web + Mobil" },
+      { "label": "16 limbi" },
+      { "label": "180+ țări" }
+    ]
+  },
+  "overview": {
+    "headline": "O platformă integrată",
+    "headlineHighlight": "de la un capăt la altul",
+    "description": "Module puternice care lucrează împreună pentru a oferi o experiență completă, inteligentă și fără silozuri."
+  },
+  "aiGrid": {
+    "headline": "AI pe toată",
+    "headlineHighlight": "Platforma Interfy",
+    "items": [
+      { "title": "Căutare inteligentă", "description": "Găsește orice folosind limbaj natural" },
+      { "title": "Crearea proceselor", "description": "Modelează fluxuri într-un mod inteligent" },
+      { "title": "Extragere de date", "description": "Capturează date din documente cu AI" },
+      { "title": "Agenți autonomi", "description": "Execuție, decizii și integrări" },
+      { "title": "Clasificare automată", "description": "Organizează și clasifică fără efort" },
+      { "title": "Generare de formulare", "description": "AI creează formulare gata de utilizat" },
+      { "title": "Aprobări asistate", "description": "Recomandări și validări inteligente" },
+      { "title": "Comandă vocală", "description": "Execută acțiuni, consultă și creează" }
+    ]
+  },
+  "workspace": {
+    "headline": "De ce să centralizezi totul într-un singur",
+    "headlineHighlight": "Workspace?",
+    "items": [
+      {
+        "title": "Operațiune unificată",
+        "description": "Date, documente, sarcini și procese într-un singur loc. Vizibilitate completă, fără silozuri."
+      },
+      {
+        "title": "Workspace exclusiv",
+        "description": "URL dedicat, identitate vizuală, permisiuni granulare și mediu propriu pentru compania ta."
+      },
+      {
+        "title": "Automatizări între produse",
+        "description": "Documentele declanșează procese, aprobările generează semnături, capturile alimentează repository-ul și dashboard-urile."
+      },
+      {
+        "title": "Mai puține programe, mai mult control",
+        "description": "Reduce munca repetată, costurile, integrările fragile și silozurile de informații."
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Securitate, integrări și infrastructură ale Platformei Interfy",
+    "cards": [
+      {
+        "title": "Securitate și guvernanță",
+        "checklist": [
+          "Criptare în tranzit și în repaus",
+          "Permisiuni granulare și roluri",
+          "Piste de audit complete",
+          "Conformitate globală (LGPD, GDPR, ISO)",
+          "Politici de retenție și eliminare"
+        ]
+      },
+      {
+        "title": "API-uri și integrări",
+        "checklist": [
+          "API-uri RESTful complete",
+          "Webhooks în timp real",
+          "Conectori gata de utilizat pentru sisteme populare",
+          "Integrare între date, documente și procese"
+        ]
+      },
+      {
+        "title": "Infrastructură cloud-native",
+        "checklist": [
+          "Arhitectură scalabilă și rezilientă",
+          "Disponibilitate ridicată 24/7",
+          "Backup-uri automate și geo-redundanță",
+          "Monitorizare inteligentă",
+          "Operare globală cu latență redusă"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Începe să folosești Platforma Interfy",
+    "headline": "Pregătită pentru",
+    "headlineHighlight": "companii globale",
+    "title": "Transformă-ți operațiunea cu Interfy.ai",
+    "description": "Creează-ți contul, testează platforma și descoperă cum o platformă AI-native poate simplifica, automatiza și accelera compania ta.",
+    "primaryButton": "Începe Gratuit",
+    "secondaryButton": "Programează o Demonstrație",
+    "statsLabel": "Prezența globală a Interfy",
+    "features": [
+      { "label": "180+ țări", "sublabel": "Prezență globală în expansiune" },
+      { "label": "16 limbi", "sublabel": "Interfață și experiență în 16 limbi" },
+      { "label": "6 regiuni comerciale", "sublabel": "Suport local și specializat" },
+      { "label": "Web + Mobil", "sublabel": "Acces de oriunde, de pe orice dispozitiv" },
+      { "label": "Statele Unite și Brazilia", "sublabel": "Structuri locale și conformitate regională" },
+      { "label": "Suport global", "sublabel": "Suport specializat cu SLA-uri la nivel internațional" }
+    ]
+  }
+}

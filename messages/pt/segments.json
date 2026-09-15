@@ -276,23 +276,23 @@
     "brandName": "Interfy",
     "items": [
       {
-        "product": "Documentos",
+        "product": "Documents",
         "description": "Gestão inteligente de documentos e informações"
       },
       {
-        "product": "Processos",
+        "product": "Process",
         "description": "Automação inteligente de processos e tarefas"
       },
       {
-        "product": "Captura",
+        "product": "Capture",
         "description": "Captura inteligente de documentos com IA"
       },
       {
-        "product": "Assinatura",
+        "product": "Sign",
         "description": "Assinatura digital gratuita para todos os usuários"
       },
       {
-        "product": "Colaboração",
+        "product": "Connect",
         "description": "Colaboração e comunicação conectadas à operação"
       },
       {
@@ -300,11 +300,11 @@
         "description": "Sua operação completa na palma da mão"
       },
       {
-        "product": "Agentes",
+        "product": "Agents",
         "description": "Agentes de IA que analisam, decidem e executam"
       },
       {
-        "product": "Voz",
+        "product": "Voice",
         "description": "Interação por voz com linguagem natural e IA"
       }
     ]

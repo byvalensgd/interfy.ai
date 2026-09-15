@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "회사 소개",
+    "description": "26년 넘게 기업 관리 업무를 단순화해온 Interfy. 미국 올랜도에 본사를 두고 180개 이상의 국가에서 서비스를 제공하는 Interfy의 역사, 미션, 그리고 기술을 소개합니다.",
+    "keywords": ["Interfy 소개", "Interfy 역사", "미션과 비전", "Interfy 브랜드 생태계", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "복잡함을 단순하게, 현재를 혁신하고, ",
+    "headingHighlight": "미래를 앞서갑니다.",
+    "description": "20여 년간 혁신적이고 합리적인 기술로 기업 관리 방식을 바꿔왔습니다. 미국 올랜도에 본사를 둔 Interfy는 180개 이상의 국가에서 기업들이 레거시 시스템을 벗어나 운영 민첩성을 확보하도록 돕고 있습니다.",
+    "slideshowAlt": "노트북과 스마트폰에서 AI 관리 대시보드를 보여주는 Interfy 플랫폼",
+    "ctaPrimary": "파트너 신청하기",
+    "ctaSecondary": "고객 추천하기",
+    "statsAriaLabel": "Interfy의 수치",
+    "stats": [
+      { "label": "180+", "sublabel": "서비스 국가" },
+      { "label": "25 mil +", "sublabel": "변화한 기업" },
+      { "label": "26 +", "sublabel": "년의 경험" },
+      { "label": "Orlando, FL", "sublabel": "미국 본사" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "도전 속에서 다듬어지고, ",
+    "headingHighlight": "성공을 향해 확장하다",
+    "paragraph1": "Interfy는 이제 막 시작한 스타트업이 아니라, 기업 관리 기술 개발 분야에서 26년 이상의 경험을 쌓아온 안정적인 기업입니다. 미국 플로리다주 올랜도에 본사를 두고, 전 세계 기업을 위한 솔루션을 개발합니다. 저희 기술은 다양한 규제 및 문화 환경에서 작동하도록 설계되어 유연성과 글로벌 컴플라이언스를 보장합니다.",
+    "paragraph2": "저희 플랫폼은 전 세계에서 가장 까다로운 기업 환경에서 검증되었습니다. 미국 시장부터 라틴 아메리카, 유럽까지, 180개 이상의 국가에서 동일한 수준의 우수성과 안정성을 제공합니다."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Interfy의 미션, 비전, 그리고 원칙",
+    "vision": {
+      "title": "비전",
+      "description": "전 세계 고객에게 가치를 제공하는 기업으로 인정받는 것, 온라인 기반이며 접근성이 뛰어나고 이동성과 사용 편의성을 갖춘 기업 관리 소프트웨어 플랫폼을 통해서입니다."
+    },
+    "mission": {
+      "title": "미션",
+      "description": "모든 규모와 업종의 기업이 쉽게 도입하고 합리적인 비용으로 이용할 수 있는 온라인 기업 프로세스 관리 소프트웨어 플랫폼을 제공하는 것입니다."
+    },
+    "principlesHeading": "핵심 원칙",
+    "principlesAriaLabel": "Interfy의 원칙",
+    "principles": [
+      { "title": "윤리는 우리의 근본", "description": "투명성과 진정성은 저희가 하는 모든 일에서 타협할 수 없는 가치입니다." },
+      { "title": "단순화를 통한 혁신", "description": "진정한 혁신은 복잡함을 더하지 않습니다. 오히려 단순하게 만듭니다." },
+      {
+        "title": "기술의 대중화",
+        "descriptionPrefix": "Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": "를 모든 규모의 기업이 이용할 수 있도록 만듭니다."
+      },
+      { "title": "사용성에 대한 집착", "description": "소비자 앱에 견줄 만한 기업용 사용자 경험을 제공합니다." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "통합의 블루오션",
+    "descriptionPrefix": "DocuSign, Box, Pipefy 같은 경쟁사들이 서명, 저장, 프로세스 등 개별 영역에 특화되어 있는 동안, Interfy는 ",
+    "descriptionHighlight": "토탈 플랫폼",
+    "descriptionSuffix": " 전략을 채택합니다.",
+    "ariaLabel": "Interfy의 경쟁 차별화 요소",
+    "items": [
+      { "title": "올인원 플랫폼", "description": "Documents + Process + Sign + Capture가 네이티브로 통합되어 있습니다." },
+      { "title": "TCO 절감", "description": "수십 개 공급업체를 구독하는 피로감을 없애줍니다." },
+      { "title": "클라우드 네이티브 아키텍처", "description": "AWS, Kubernetes, 마이크로서비스 — 레거시 시스템이 아닙니다." },
+      { "title": "로우코드/노코드", "description": "현업 사용자가 코드 없이 직접 솔루션을 만들 수 있습니다." },
+      { "title": "보안과 컴플라이언스", "description": "LGPD, GDPR, ISO 27001, 종단 간 암호화를 준수합니다." },
+      { "title": "프라이빗 레이블 파트너십", "description": "파트너에게 힘을 실어주는 혁신적인 비즈니스 모델입니다." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "브랜드",
+    "headingSuffix": " 생태계",
+    "description": "Interfy는 기술 지주회사로서, 특정 틈새시장 공략이 가능한 여러 브랜드를 운영합니다.",
+    "ariaLabel": "Interfy 생태계 브랜드",
+    "brands": [
+      { "name": "Ecofy", "description": "더 나은 지구를 위한 지속가능한 솔루션." },
+      { "name": "Injectra", "description": "미국의 사출 성형 기술." },
+      { "name": "Innovecar", "description": "스마트하고 합리적인 모빌리티." },
+      { "name": "NeoAI", "description": "AI로 연결된 비즈니스 플랫폼." },
+      { "name": "Processdoc", "description": "프로세스와 문서의 스마트한 관리." },
+      { "name": "Acquafy", "description": "고급 정수 솔루션." },
+      { "name": "Interfy", "description": "비즈니스와 서비스를 위한 디지털 플랫폼." },
+      { "name": "Visionfy", "description": "더 나은 의사결정을 위한 데이터 분석과 AI." },
+      { "name": "Mediafy", "description": "디지털 콘텐츠 마케팅 및 제작." },
+      { "name": "Docsystem", "description": "완벽한 기업 문서 관리 솔루션." }
+    ]
+  },
+  "technology": {
+    "heading": "세계적 수준의 기술력",
+    "ariaLabel": "Interfy의 기술 인프라",
+    "items": [
+      { "title": "호스팅", "description": "Amazon Web Services(AWS)." },
+      { "title": "모바일", "description": "반응형 HTML5 웹 인터페이스." },
+      { "title": "Kubernetes", "description": "자동 확장을 위한 Kubernetes 오케스트레이션." },
+      { "title": "다국어 지원", "description": "16개 언어를 지원합니다." },
+      { "title": "보안", "description": "SSL/TLS 암호화, 2FA, SSO." },
+      { "title": "컴플라이언스", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "파트너가 ",
+      "headingHighlight": "자신만의 SaaS 기업을 만들 수 있도록 지원합니다",
+      "ariaLabel": "화이트라벨 모델의 이점",
+      "items": [
+        { "title": "완전한 화이트라벨", "description": "당신의 브랜드, 당신의 로고, 당신의 URL." },
+        { "title": "최대 100% 이상의 마진", "description": "직접 가격을 결정하세요." },
+        { "title": "제로 캐펙스", "description": "개발에 수백만 달러를 투자할 필요가 없습니다." },
+        { "title": "종량제 요금", "description": "고객의 실제 사용량만큼만 지불하세요." },
+        { "title": "전문 지원", "description": "교육, 자료, 기술 지원을 제공합니다." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "수동에서 능동으로",
+    "description": "저희는 생성형 인공지능에 투자하여 플랫폼을 수동적인 관리 시스템에서 능동적인 지능형 시스템으로 전환하고 있습니다.",
+    "ariaLabel": "인공지능 투자",
+    "items": [
+      { "title": "데이터 패턴 기반의 스마트한 액션 제안." },
+      { "title": "반복 업무의 능동적인 자동화." },
+      { "title": "의사결정을 위한 예측 인사이트." },
+      { "title": "AI 지원 생성", "description": "BPMN 프로세스와 양식의 자동 설계." },
+      { "title": "지능형 문서 분석", "description": "계약서를 읽고 복잡한 질문에 답하는 AI." },
+      { "title": "자율 에이전트", "description": "작업을 자율적으로 실행하는 AI 에이전트." }
+    ],
+    "statsLabel": "Interfy 플랫폼 수치",
+    "stats": [
+      { "label": "12Bi +", "sublabel": "문서" },
+      { "label": "20M +", "sublabel": "서명" },
+      { "label": "2,5M +", "sublabel": "사용자" },
+      { "label": "6Mi +", "sublabel": "프로세스" },
+      { "label": "1000 TB +", "sublabel": "저장 용량" },
+      { "label": "99,99%", "sublabel": "가동률" },
+      { "label": "24/7", "sublabel": "지원" }
+    ]
+  },
+  "finalCta": {
+    "heading": "지금 바로 기업을 혁신할 준비가 되셨나요?",
+    "subheading": "Interfy와 함께 복잡함을 단순화한 수천 개 기업에 합류하세요.",
+    "primaryLabel": "7일 무료 체험",
+    "secondaryLabel": "데모 예약하기"
+  }
+}

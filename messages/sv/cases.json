@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Kundcase",
+    "description": "Typiska resultat som företag inom olika branscher uppnår med Interfys plattform för dokument, processer och AI.",
+    "keywords": ["Interfy kundcase", "Interfy resultat", "framgångsrika case dokumenthantering", "ROI processautomation"]
+  },
+  "hero": {
+    "ariaLabel": "Introduktion till kundcase",
+    "eyebrow": "Kundcase",
+    "titleLine1": "Verkliga resultat inom",
+    "titleHighlight": "olika branscher",
+    "description": "En bild av de vinster företag som ditt uppnår genom att förena dokument, processer och AI i en enda plattform."
+  },
+  "grid": {
+    "ariaLabel": "Resultat per bransch",
+    "heading": "Vad våra kunder uppnår",
+    "illustrativeNote": "Resultaten är illustrativa och baserade på observerade genomsnitt hos Interfy-kunder inom varje bransch. Begär en analys för att uppskatta effekten i ditt eget scenario.",
+    "complianceNote": "Resultaten uppnås på en infrastruktur certifierad enligt ISO/IEC 27001:2022, med en SLA på 99,99 % drifttid och efterlevnad av LGPD/GDPR.",
+    "items": [
+      {
+        "segment": "Finansinstitut",
+        "description": "Digitalisering av avtal och automatiserade kreditflöden med fullständigt granskningsspår.",
+        "metricValue": "-45%",
+        "metricLabel": "genomsnittlig tid för kreditbedömning"
+      },
+      {
+        "segment": "Vård och hälsa",
+        "description": "Centraliserade patientjournaler och rapporter, med e-signering integrerad i vårdflödet.",
+        "metricValue": "-60%",
+        "metricLabel": "tid för dokumentarkivering"
+      },
+      {
+        "segment": "Juridik",
+        "description": "Hantering av avtal och ärenden med tidsfristkontroll och e-signering end-to-end.",
+        "metricValue": "3x",
+        "metricLabel": "fler avtal slutförda per månad"
+      },
+      {
+        "segment": "Industri",
+        "description": "Automatisering av inköpsorder och flernivågodkännanden integrerade med affärssystemet (ERP).",
+        "metricValue": "-35%",
+        "metricLabel": "cykeltid för godkännanden"
+      },
+      {
+        "segment": "Logistik",
+        "description": "Automatisk inskanning av kvitton och fakturor direkt från förarens mobiltelefon.",
+        "metricValue": "+80%",
+        "metricLabel": "dokument inskannade samma dag"
+      },
+      {
+        "segment": "Handel",
+        "description": "Onboarding av leverantörer och hantering av standardiserade avtal i ett enda flöde.",
+        "metricValue": "-50%",
+        "metricLabel": "tid för leverantörsonboarding"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "heading": "Vill du uppnå liknande resultat i ditt företag?",
+    "subheading": "Prata med vårt team och få en kostnadsfri analys av din nuvarande process.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka en demo"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blog & Conținut",
+    "description": "Articole, ghiduri și noutăți despre gestiunea documentelor, automatizarea proceselor, semnătura electronică și IA aplicată operațiunilor de business.",
+    "keywords": ["blog Interfy", "conținut gestiune documentară", "automatizare procese", "IA pentru companii"]
+  },
+  "hero": {
+    "ariaLabel": "Introducere în blog",
+    "eyebrow": "Blog & Conținut",
+    "titleLine1": "Conținut pentru cei care",
+    "titleHighlight": "transformă operațiunile",
+    "description": "Ghiduri practice, noutăți despre produs și tendințe legate de documente, procese, date și IA pentru companii."
+  },
+  "grid": {
+    "ariaLabel": "Articole de blog",
+    "categoriesLabel": "Filtrați după categorie",
+    "allLabel": "Toate",
+    "categories": ["Gestiune Documentară", "Automatizare (BPM)", "Semnătură Electronică", "IA & Agenți", "Securitate & Conformitate"],
+    "comingSoonLabel": "Articole noi în fiecare săptămână. În curând, și aici.",
+    "posts": [
+      {
+        "category": "Gestiune Documentară",
+        "title": "Cum să structurați un depozit de documente care crește odată cu compania",
+        "excerpt": "Bune practici de organizare, versionare și control al accesului pentru echipe aflate în creștere rapidă.",
+        "date": "Aug 2026",
+        "readTime": "6 min de citit"
+      },
+      {
+        "category": "Automatizare (BPM)",
+        "title": "5 procese pe care orice companie ar trebui să le automatizeze primele",
+        "excerpt": "Un ghid practic pentru prioritizarea automatizărilor cu cel mai mare impact asupra costurilor și timpului de ciclu.",
+        "date": "Aug 2026",
+        "readTime": "7 min de citit"
+      },
+      {
+        "category": "Semnătură Electronică",
+        "title": "Are semnătura electronică valoare juridică în Brazilia?",
+        "excerpt": "Ce spune legislația, ce dovezi contează și cum să alegeți nivelul corect de semnătură.",
+        "date": "Iul 2026",
+        "readTime": "5 min de citit"
+      },
+      {
+        "category": "IA & Agenți",
+        "title": "Agenți de IA în procesele interne: de unde să începeți",
+        "excerpt": "Cazuri de utilizare reale pentru reducerea muncii manuale în triaj, clasificare și extragere de date.",
+        "date": "Iul 2026",
+        "readTime": "8 min de citit"
+      },
+      {
+        "category": "Securitate & Conformitate",
+        "title": "LGPD în practică: ce se schimbă în gestiunea documentelor și proceselor",
+        "excerpt": "Un ghid direct despre temeiuri legale, păstrarea datelor și responsabilitățile operatorului de date.",
+        "date": "Iun 2026",
+        "readTime": "6 min de citit"
+      },
+      {
+        "category": "Gestiune Documentară",
+        "title": "OCR și captare inteligentă: sfârșitul introducerii manuale de date",
+        "excerpt": "Cum captarea automatizată reduce erorile și accelerează introducerea documentelor în fluxul de lucru.",
+        "date": "Iun 2026",
+        "readTime": "5 min de citit"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începeți să utilizați Interfy",
+    "heading": "Vreți să vedeți aceste concepte aplicate în practică?",
+    "subheading": "Începeți gratuit și explorați platforma Interfy cu propriile documente și procese.",
+    "primaryButton": "Începeți gratuit",
+    "secondaryButton": "Programați o demonstrație"
+  }
+}

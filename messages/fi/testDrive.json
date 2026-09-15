@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Ilmainen kokeilu",
+    "description": "Kokeile Interfy.AI:ta käytännössä. Luo workspacesi ja testaa kaikkia alustan tuotteita 7 päivän ajan, ei luottokorttia.",
+    "keywords": ["Interfyn ilmainen kokeilu", "AI-alustan testaus", "ilmainen workspace", "dokumenttienhallinnan kokeilu"],
+    "freeTrialNote": "7 ilmaista päivää testataksesi koko alustaa, ei luottokorttia."
+  },
+  "hero": {
+    "ariaLabel": "Ilmaisen kokeilun edut",
+    "headingPrefix": "Kokeile ",
+    "headingBrand": "Interfy.AI:ta",
+    "headingSuffix": " käytännössä",
+    "subheading": "7 päivää muuttaaksesi tavan, jolla yrityksesi toimii.",
+    "descriptionPrefix": "Luo workspacesi, tutustu alustaan ja selvitä, miten ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents & Voice",
+    "descriptionSuffix": " voivat muuttaa toimintaanne AI:n avulla.",
+    "ctaButton": "Katso, miten ilmainen kokeilu toimii",
+    "differentiators": [
+      { "title": "7 ilmaista päivää", "subtitle": "testataksesi kaikkea" },
+      { "title": "Ei luottokorttia", "subtitle": "Ei sitoumuksia" },
+      { "title": "Workspace minuuteissa", "subtitle": "Luo se juuri nyt" },
+      { "title": "100 % Web + Mobiili", "subtitle": "Käytä missä tahansa oletkin" },
+      { "title": "AI Native", "subtitle": "Älykkyyttä kaikessa" },
+      { "title": "Tiedot säilytetty", "subtitle": "Kokeilun jälkeen" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "Miten ",
+    "headingHighlight": "ilmainen kokeilu",
+    "items": [
+      { "title": "Luo workspacesi", "description": "Yksinkertainen ja nopea rekisteröinti. Ei luottokorttia." },
+      { "title": "Tutustu alustaan", "description": "Tutki kaikkia saatavilla olevia tuotteita ja ominaisuuksia." },
+      { "title": "Testaa omalla toiminnallasi", "description": "Lataa dokumentteja, luo prosesseja, käytä AI:ta ja kokeile ominaisuuksia." },
+      { "title": "Valitse pakettisi", "description": "7 päivän jälkeen jatka juuri siitä, mihin jäit." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Mitä voit testata ",
+    "headingHighlight": "7 päivän aikana",
+    "items": [
+      { "title": "Documents", "description": "Älykäs dokumenttien ja tiedon hallinta" },
+      { "title": "Process", "description": "Älykäs prosessien ja tehtävien automaatio" },
+      { "title": "Capture", "description": "Älykäs dokumenttien kaappaus AI:lla" },
+      { "title": "Sign", "description": "Ilmainen digitaalinen allekirjoitus kaikille käyttäjille" },
+      { "title": "Connect", "description": "Yhteistyö ja viestintä yhdistettynä toimintaan" },
+      { "title": "Mobile", "description": "Koko toimintasi kämmenelläsi" },
+      { "title": "Agents", "description": "AI-agentit, jotka analysoivat, päättävät ja toimivat" },
+      { "title": "Voice", "description": "Äänivuorovaikutus luonnollisella kielellä ja AI:lla" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "Sinun ",
+      "headingHighlight": "ilmainen kokeilu",
+      "headingSuffix": " on valmis alusta alkaen.",
+      "paragraph": "Jotta voit hyödyntää jokaisen minuutin, olemme valmistelleet todellisia esimerkkejä testattavaksi välittömästi.",
+      "checklist": [
+        { "text": "Esimerkkidokumentit" },
+        { "text": "Valmis prosessi" },
+        { "text": "Älykäs lomake" },
+        { "text": "Odottava tehtävä" },
+        { "text": "Allekirjoitettava dokumentti" },
+        { "text": "Esimerkki ", "highlight": "Capturesta" },
+        { "text": "Määritetty agentti" },
+        { "text": "Komentoja ", "highlight": "Voicelle" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "Ehdotamme ",
+      "paragraphHighlight": "7 päivän matkaa",
+      "paragraphNote": " (mutta kaikki on käytettävissä ensimmäisestä päivästä alkaen)",
+      "dayLabel": "Päivä {number}",
+      "days": [
+        { "line1": "Tutustu", "line2": "Workspaceen" },
+        { "line1": "Tutki", "line2": "Documentsia" },
+        { "line1": "Automatisoi", "line2": "prosessit" },
+        { "line1": "Kokeile", "line2": "Capturea" },
+        { "line1": "Kokeile", "line2": "Signia" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "Valitse", "line2": "pakettisi" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Tietoturva ja jatkuvuus ilmaisen kokeilun jälkeen",
+    "preservedHeading": "Tietosi pysyvät sinun.",
+    "preservedList": [
+      "Oma workspace",
+      "Suojattu ympäristö",
+      "Kehittynyt salaus",
+      "Käyttöoikeuksien hallinta",
+      "Tietojen eristys",
+      "Ei automaattista laskutusta",
+      "Ei luottokorttia"
+    ],
+    "endHeading": "Entä jos ilmainen kokeilu päättyy?",
+    "endParagraph": "Valitset ihanteellisen paketin ja jatkat juuri siitä, mihin jäit. Workspacesi ja kaikki tietosi säilyvät.",
+    "endFeatures": [
+      { "label": "Tietosi säilytettynä" },
+      { "label": "Siirtymä ilman menetyksiä" },
+      { "label": "Mitään ei poisteta ilman lupaasi" },
+      { "label": "Jatka milloin haluat" }
+    ],
+    "endButton": "Valitse pakettini"
+  },
+  "cta": {
+    "ariaLabel": "Aloita ilmainen kokeilusi",
+    "title": "Toimintasi tulevaisuus alkaa ilmaisesta kokeilusta.",
+    "description": "Kokeile Interfy.ai:ta 7 päivää. Ei luottokorttia. Ei sitoumuksia.",
+    "ctaPrimary": "Aloita ilmainen kokeilu",
+    "ctaSecondary": "Katso paketit",
+    "statsLabel": "Interfy-alustan lukuja"
+  },
+  "form": {
+    "heading": "Luo ilmainen workspacesi",
+    "subheading": "Kestää alle 2 minuuttia.",
+    "nameLabel": "Koko nimi",
+    "emailLabel": "Yrityssähköposti",
+    "companyLabel": "Yritys",
+    "phoneLabel": "Puhelin (WhatsApp)",
+    "optionalLabel": "(vapaaehtoinen)",
+    "errors": {
+      "name": "Anna koko nimesi.",
+      "email": "Anna kelvollinen sähköpostiosoite.",
+      "company": "Anna yrityksesi nimi.",
+      "consent": "Ehdot on hyväksyttävä jatkaaksesi."
+    },
+    "consentPrefix": "Olen lukenut ja hyväksyn ",
+    "consentTerms": "käyttöehdot",
+    "consentMiddle": " ja ",
+    "consentPrivacy": "tietosuojakäytännön",
+    "consentSuffix": ".",
+    "submitButton": "Luo ilmainen workspaceni",
+    "submittingButton": "Lähetetään...",
+    "successHeading": "Rekisteröintisi vastaanotettu!",
+    "successMessagePrefix": "Tiimimme valmistelee workspacesi. Saat pian pääsyn sähköpostiosoitteeseen ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Keskustele asiantuntijan kanssa"
+  }
+}

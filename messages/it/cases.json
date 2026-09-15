@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Casi di Successo",
+    "description": "Risultati tipici raggiunti da aziende di diversi settori con la piattaforma Interfy per documenti, processi e AI.",
+    "keywords": ["casi Interfy", "risultati Interfy", "casi di successo gestione documentale", "ROI automazione dei processi"]
+  },
+  "hero": {
+    "ariaLabel": "Introduzione ai casi di successo",
+    "eyebrow": "Casi di Successo",
+    "titleLine1": "Risultati concreti in",
+    "titleHighlight": "settori diversi",
+    "description": "Uno spaccato dei vantaggi che aziende come la tua ottengono unificando documenti, processi e AI in un'unica piattaforma."
+  },
+  "grid": {
+    "ariaLabel": "Risultati per settore",
+    "heading": "Cosa ottengono i nostri clienti",
+    "illustrativeNote": "Risultati illustrativi, basati su medie osservate tra i clienti Interfy di ciascun settore. Richiedi una diagnosi per stimare l'impatto sul tuo contesto.",
+    "complianceNote": "Risultati ottenuti su un'infrastruttura certificata ISO/IEC 27001:2022, con SLA di disponibilità del 99,99% e conformità LGPD/GDPR.",
+    "items": [
+      {
+        "segment": "Istituzioni Finanziarie",
+        "description": "Digitalizzazione dei contratti e automazione delle pratiche di credito con audit trail completo.",
+        "metricValue": "-45%",
+        "metricLabel": "tempo medio di analisi del credito"
+      },
+      {
+        "segment": "Sanità",
+        "description": "Cartelle cliniche e referti centralizzati, con firma elettronica integrata nel flusso di assistenza.",
+        "metricValue": "-60%",
+        "metricLabel": "tempo di archiviazione dei documenti"
+      },
+      {
+        "segment": "Legale",
+        "description": "Gestione di contratti e pratiche con controllo delle scadenze e firma elettronica end-to-end.",
+        "metricValue": "3x",
+        "metricLabel": "più contratti chiusi al mese"
+      },
+      {
+        "segment": "Industria",
+        "description": "Automazione degli ordini di acquisto e delle approvazioni multilivello integrate con l'ERP.",
+        "metricValue": "-35%",
+        "metricLabel": "tempo di ciclo di approvazione"
+      },
+      {
+        "segment": "Logistica",
+        "description": "Acquisizione automatica di ricevute e documenti di trasporto direttamente dallo smartphone del driver.",
+        "metricValue": "+80%",
+        "metricLabel": "documenti acquisiti nella stessa giornata"
+      },
+      {
+        "segment": "Retail",
+        "description": "Onboarding dei fornitori e gestione dei contratti standardizzati in un unico flusso.",
+        "metricValue": "-50%",
+        "metricLabel": "tempo di onboarding dei fornitori"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy",
+    "heading": "Vuoi ottenere risultati simili nella tua azienda?",
+    "subheading": "Parla con il nostro team e ricevi una diagnosi gratuita del tuo processo attuale.",
+    "primaryButton": "Inizia gratis",
+    "secondaryButton": "Prenota una demo"
+  }
+}

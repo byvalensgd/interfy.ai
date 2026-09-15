@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Despre Noi",
+    "description": "De peste 26 de ani simplificăm gestiunea corporativă. Descoperiți istoria, misiunea și tehnologia din spatele Interfy, cu sediul în Orlando (SUA) și prezență în peste 180 de țări.",
+    "keywords": ["despre Interfy", "istoria Interfy", "misiune și viziune", "ecosistemul de branduri Interfy", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Simplificăm Complexul, Transformăm Prezentul, ",
+    "headingHighlight": "Inovăm Viitorul.",
+    "description": "De peste două decenii transformăm gestiunea corporativă prin tehnologie inovatoare și accesibilă. Cu sediul în Orlando (SUA), deservim companii din peste 180 de țări, ajutând organizațiile să renunțe la sistemele învechite și să adopte agilitatea operațională.",
+    "slideshowAlt": "Platforma Interfy afișată pe laptop și smartphone, cu panoul de gestiune cu AI",
+    "ctaPrimary": "VREAU SĂ DEVIN PARTENER",
+    "ctaSecondary": "VREAU SĂ RECOMAND CLIENȚI",
+    "statsAriaLabel": "Cifrele Interfy",
+    "stats": [
+      { "label": "180+", "sublabel": "Țări deservite" },
+      { "label": "25 mii +", "sublabel": "Companii transformate" },
+      { "label": "26 +", "sublabel": "Ani de experiență" },
+      { "label": "Orlando, FL", "sublabel": "Sediu în SUA" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Perfecționați prin Provocare, ",
+    "headingHighlight": "Extinși spre Succes",
+    "paragraph1": "Interfy nu este un startup la început de drum, ci o companie consolidată cu peste 26 de ani de experiență în dezvoltarea tehnologiilor pentru gestiunea corporativă. Cu sediul în Orlando, Florida (SUA), dezvoltăm soluții care deservesc companii din întreaga lume. Tehnologia noastră este concepută pentru a funcționa în diverse medii regulatorii și culturale, garantând flexibilitate și conformitate globală.",
+    "paragraph2": "Platforma noastră este testată în cele mai exigente medii corporative din lume. De pe piața americană până în America Latină și Europa, deservim peste 180 de țări cu aceeași excelență și robustețe care ne definesc brandul."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Misiunea, viziunea și principiile Interfy",
+    "vision": {
+      "title": "Viziunea noastră",
+      "description": "Să fim recunoscuți pentru valoarea generată clienților noștri din întreaga lume, oferind o platformă software de gestiune corporativă, online, accesibilă, mobilă și ușor de utilizat."
+    },
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Să oferim o platformă software online de Gestiune a Proceselor Corporative, ușor de implementat și accesibilă companiilor de toate dimensiunile și din toate domeniile."
+    },
+    "principlesHeading": "Principiile noastre",
+    "principlesAriaLabel": "Principiile Interfy",
+    "principles": [
+      { "title": "Etica ca Suflet", "description": "Transparența și integritatea sunt nenegociabile în tot ceea ce facem." },
+      { "title": "Inovație prin Simplificare", "description": "Inovația adevărată nu adaugă complexitate, ea simplifică." },
+      {
+        "title": "Democratizare Tehnologică",
+        "descriptionPrefix": "Facem ca Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " și ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " să fie accesibile companiilor de toate dimensiunile."
+      },
+      { "title": "Obsesie pentru Usability", "description": "Experiență pentru utilizatorul corporativ comparabilă cu cea a aplicațiilor de consum." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "Oceanul Albastru al Integrării",
+    "descriptionPrefix": "În timp ce competitori precum DocuSign, Box și Pipefy se specializează pe verticale funcționale (semnături, stocare sau procese, izolat), Interfy adoptă o strategie de ",
+    "descriptionHighlight": "Platformă Totală",
+    "descriptionSuffix": ".",
+    "ariaLabel": "Diferențiatorii competitivi ai Interfy",
+    "items": [
+      { "title": "Platformă All-in-One", "description": "Documents + Process + Sign + Capture integrate nativ." },
+      { "title": "Reducerea TCO", "description": "Eliminați oboseala abonamentelor la zeci de furnizori." },
+      { "title": "Arhitectură Cloud-Native", "description": "AWS, Kubernetes, microservicii — nu este un sistem învechit." },
+      { "title": "Low-Code/No-Code", "description": "Utilizatorii de business creează soluții fără să scrie cod." },
+      { "title": "Securitate și Compliance", "description": "LGPD, GDPR, ISO 27001, criptare end-to-end." },
+      { "title": "Parteneriat Private Label", "description": "Model de afaceri disruptiv care le oferă putere partenerilor." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Ecosistem",
+    "headingSuffix": " de Branduri",
+    "description": "Interfy funcționează ca un holding tehnologic, găzduind branduri care permit pătrunderea în nișe specifice.",
+    "ariaLabel": "Brandurile ecosistemului Interfy",
+    "brands": [
+      { "name": "Ecofy", "description": "Soluții sustenabile pentru o planetă mai bună." },
+      { "name": "Injectra", "description": "Tehnologie Americană de Turnare prin Injecție." },
+      { "name": "Innovecar", "description": "Mobilitate inteligentă și accesibilă." },
+      { "name": "NeoAI", "description": "Platformă de afaceri conectate prin AI." },
+      { "name": "Processdoc", "description": "Gestiune inteligentă a proceselor și documentelor." },
+      { "name": "Acquafy", "description": "Soluții avansate de apă purificată." },
+      { "name": "Interfy", "description": "Platformă digitală pentru afaceri și servicii." },
+      { "name": "Visionfy", "description": "Analiză de date și AI pentru decizii mai bune." },
+      { "name": "Mediafy", "description": "Marketing și producție de conținut digital." },
+      { "name": "Docsystem", "description": "Soluții documentare corporative complete." }
+    ]
+  },
+  "technology": {
+    "heading": "Tehnologie de Nivel Mondial",
+    "ariaLabel": "Infrastructura tehnologică a Interfy",
+    "items": [
+      { "title": "Găzduire", "description": "Amazon Web Services (AWS)." },
+      { "title": "Mobilitate", "description": "Interfață web responsivă HTML5." },
+      { "title": "Kubernetes", "description": "Orchestrare Kubernetes pentru scalabilitate automată." },
+      { "title": "Multi-limbă", "description": "Suport pentru 16 limbi." },
+      { "title": "Securitate", "description": "Criptare SSL/TLS, 2FA, SSO." },
+      { "title": "Compliance", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "Le oferim partenerilor puterea de a-și construi ",
+      "headingHighlight": "propriile SaaS Companies",
+      "ariaLabel": "Beneficiile modelului White Label",
+      "items": [
+        { "title": "White Label Completă", "description": "Brandul tău, logo-ul tău, URL-ul tău." },
+        { "title": "Marje de până la 100% +", "description": "Stabilește-ți propriul preț." },
+        { "title": "Zero Capex", "description": "Nu investești milioane în dezvoltare." },
+        { "title": "Pay-as-you-go", "description": "Plătești doar pentru consumul real al clienților." },
+        { "title": "Suport Specializat", "description": "Training, materiale și suport tehnic." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "De la pasiv la activ",
+    "description": "Investim în Inteligența Artificială Generativă pentru a transforma platforma dintr-un sistem de gestiune pasivă într-un sistem de inteligență activă.",
+    "ariaLabel": "Investiții în Inteligența Artificială",
+    "items": [
+      { "title": "Sugestii inteligente de acțiuni bazate pe tipare de date." },
+      { "title": "Automatizare proactivă a sarcinilor repetitive." },
+      { "title": "Insight-uri predictive pentru luarea deciziilor." },
+      { "title": "Creare Asistată de AI", "description": "Desenarea automată a proceselor BPMN și a formularelor." },
+      { "title": "Analiză Documentară Inteligentă", "description": "AI care citește contracte și răspunde la întrebări complexe." },
+      { "title": "Agenți Autonomi", "description": "Agenți AI care execută sarcini în mod autonom." }
+    ],
+    "statsLabel": "Cifrele platformei Interfy",
+    "stats": [
+      { "label": "12Mld +", "sublabel": "documente" },
+      { "label": "20M +", "sublabel": "semnături" },
+      { "label": "2,5M +", "sublabel": "utilizatori" },
+      { "label": "6M +", "sublabel": "procese" },
+      { "label": "1000 TB +", "sublabel": "stocați" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "suport" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Gata să vă transformați compania?",
+    "subheading": "Alăturați-vă miilor de companii care au simplificat deja complexul alături de Interfy.",
+    "primaryLabel": "Test Drive 7 zile",
+    "secondaryLabel": "Programează Demo"
+  }
+}

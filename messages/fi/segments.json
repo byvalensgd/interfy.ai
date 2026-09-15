@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "Toimialat",
+    "description": "Interfy palvelee eri toimialojen ja kokoluokkien yrityksiä yhdellä AI-pohjaisella alustalla: talous, terveydenhuolto, lakiala, teollisuus, julkishallinto ja yli 20 muuta toimialaa.",
+    "keywords": [
+      "Interfy toimialoittain",
+      "dokumenttienhallinta toimialoittain",
+      "ohjelmisto talous terveydenhuolto lakiala teollisuus julkishallinto"
+    ]
+  },
+  "hero": {
+    "statsLabel": "Alustan edut toimialoille",
+    "titleLine1": "Yksi alusta",
+    "titleHighlight": "kaikille toimialoille.",
+    "description": "Interfy palvelee eri toimialojen ja kokoluokkien yrityksiä yhdellä AI-pohjaisella alustalla, ilman tarvetta erillisiin versioihin tai monimutkaisiin käyttöönottoihin.",
+    "sparkleText": "Missä on dataa, prosesseja, dokumentteja, asiakkaita ja päätöksiä, siellä on tilaa",
+    "sparkleBrand": "Interfylle.",
+    "ctaPrimary": "Katso toimialat",
+    "ctaSecondary": "Varaa esittely",
+    "statsItems": [
+      {
+        "label": "180+ maata"
+      },
+      {
+        "label": "16 kieltä"
+      },
+      {
+        "label": "Huippuluokan turvallisuus"
+      },
+      {
+        "label": "AI Native"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "Vuosien kokemus"
+      },
+      {
+        "label": "Korkea käytettävyys"
+      },
+      {
+        "label": "Globaali vaatimustenmukaisuus"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "Yksi ekosysteemi.",
+    "titleHighlight": "Loputtomasti mahdollisuuksia.",
+    "description": "Valitse toimialasi ja katso, miten Interfy AI muuttaa haasteet todellisiksi tuloksiksi.",
+    "items": [
+      {
+        "title": "Talous",
+        "bullets": [
+          "Vaatimustenmukaisuus ja sääntely",
+          "Luottoanalyysi",
+          "Sopimusten hallinta"
+        ]
+      },
+      {
+        "title": "Terveydenhuolto",
+        "bullets": [
+          "Potilastiedot ja dokumentit",
+          "Valtuutukset ja vakuutukset",
+          "Hoitotapahtumien hallinta"
+        ]
+      },
+      {
+        "title": "Lakiala",
+        "bullets": [
+          "Asiaprosessien hallinta",
+          "Sopimukset ja haastehakemukset",
+          "Vaatimustenmukaisuus ja määräajat"
+        ]
+      },
+      {
+        "title": "Teollisuus",
+        "bullets": [
+          "Laatu ja prosessit",
+          "Käsikirjat ja dokumentit",
+          "Kunnossapitotilaukset"
+        ]
+      },
+      {
+        "title": "Julkishallinto",
+        "bullets": [
+          "Prosessit ja kilpailutukset",
+          "Viralliset asiakirjat",
+          "Kansalaispalvelu"
+        ]
+      },
+      {
+        "title": "Koulutus",
+        "bullets": [
+          "Ilmoittautumiset ja opintorekisterit",
+          "Akateemiset prosessit",
+          "Viestintä ja tiedotteet"
+        ]
+      },
+      {
+        "title": "Logistiikka",
+        "bullets": [
+          "Rahtikirjat ja dokumentit",
+          "Seuranta ja toimitukset",
+          "Poikkeamien hallinta"
+        ]
+      },
+      {
+        "title": "Vakuutus",
+        "bullets": [
+          "Vakuutuskirjat ja korvaukset",
+          "Riskianalyysi",
+          "Asiakaspalvelu ja SLA"
+        ]
+      },
+      {
+        "title": "Kiinteistöala",
+        "bullets": [
+          "Sopimukset ja tarjoukset",
+          "Vuokraukset ja katselmukset",
+          "Kiinteistöasiakirjat"
+        ]
+      },
+      {
+        "title": "Vähittäiskauppa",
+        "bullets": [
+          "Varastot ja tilaukset",
+          "Laskut ja toimittajat",
+          "Monikanavainen asiakaspalvelu"
+        ]
+      },
+      {
+        "title": "Henkilöstöhallinto",
+        "bullets": [
+          "Rekrytointi ja dokumentit",
+          "Suoritusarvioinnit",
+          "Etuuksien hallinta"
+        ]
+      },
+      {
+        "title": "Kirjanpito",
+        "bullets": [
+          "Laskut ja velvoitteet",
+          "Ilmoitukset ja raportit",
+          "Asiakkaat ja sopimukset"
+        ]
+      },
+      {
+        "title": "Apteekit & Laboratoriot",
+        "bullets": [
+          "Reseptit ja käynnit",
+          "Laadunvalvonta",
+          "Sääntelydokumentit"
+        ]
+      },
+      {
+        "title": "Franchising",
+        "bullets": [
+          "Standardointi ja käsikirjat",
+          "Sopimukset ja kiertokirjeet",
+          "Ketjun suorituskyky"
+        ]
+      },
+      {
+        "title": "Palvelut",
+        "bullets": [
+          "Tarjoukset ja sopimukset",
+          "Tukipyynnöt ja projektit",
+          "Toimitukset ja laskutus"
+        ]
+      },
+      {
+        "title": "Maatalous",
+        "bullets": [
+          "Sopimukset ja sadot",
+          "Laskut ja dokumentit",
+          "Jäljitettävyys"
+        ]
+      },
+      {
+        "title": "Ammattiliitot & Yhdistykset",
+        "bullets": [
+          "Jäsenet ja dokumentit",
+          "Kokoukset ja pöytäkirjat",
+          "Viestintä ja tiedotteet"
+        ]
+      },
+      {
+        "title": "Teknologia",
+        "bullets": [
+          "Projektit ja backlog",
+          "Sopimukset ja salassapitosopimukset",
+          "Tiedostojen tuotanto"
+        ]
+      },
+      {
+        "title": "Matkailu",
+        "bullets": [
+          "Sisältö ja tauot",
+          "Sopimukset ja media",
+          "Tuotanto ja arkistot"
+        ]
+      },
+      {
+        "title": "Muut",
+        "bullets": [
+          "Räätälöidyt ratkaisut",
+          "Mittatilausprosessit",
+          "Digitaalinen muutos"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Alustan erot kilpailijoihin",
+    "items": [
+      {
+        "title": "Yksi ainoa alusta",
+        "description": "Ei tarvetta toimialakohtaisiin versioihin"
+      },
+      {
+        "title": "100 % mukautuva",
+        "description": "Määritä yrityksesi tarpeiden mukaan"
+      },
+      {
+        "title": "Nopea käyttöönotto",
+        "description": "Aloita minuuteissa ilman monimutkaisuutta"
+      },
+      {
+        "title": "Yritystason turvallisuus",
+        "description": "Tietosuoja ja eristetyt ympäristöt"
+      },
+      {
+        "title": "AI kaikilla toimialoilla",
+        "description": "Älykkäät agentit, jotka ymmärtävät kontekstisi"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "Alustan luotettavuus ja mukautuvuus",
+    "cardTitle": "Rakennettu",
+    "cardTitleHighlight": "erilaisten yritysten todellisuuteen.",
+    "cardDescription": "Pienestä yrityksestä globaaliin toimintaan, Interfy mukautuu kokoosi, toimialaasi ja tavoitteisiisi.",
+    "casesLink": "Katso käyttötapaukset",
+    "statsTitle": "Yritykset, jotka luottavat Interfyyn",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "palveltua toimialaa"
+      },
+      {
+        "value": "2,5M+",
+        "label": "palveltua käyttäjää"
+      },
+      {
+        "value": "6",
+        "label": "markkina-aluetta"
+      },
+      {
+        "value": "7 miljardia +",
+        "label": "hallittua dokumenttia"
+      },
+      {
+        "value": "6 miljoonaa +",
+        "label": "automatisoitua prosessia"
+      },
+      {
+        "value": "99,99%",
+        "label": "alustan käytettävyys"
+      }
+    ],
+    "illustrationAlt": "Paneeli, jossa on kaavioita eri yritysten tiedoista"
+  },
+  "platform": {
+    "titleHighlight": "Täydellinen alusta",
+    "titleSuffix": "mille tahansa toimialalle",
+    "ctaLabel": "Katso alusta",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "Älykäs dokumenttien ja tiedon hallinta"
+      },
+      {
+        "product": "Process",
+        "description": "Älykäs prosessien ja tehtävien automaatio"
+      },
+      {
+        "product": "Capture",
+        "description": "Älykäs dokumenttien kaappaus AI:lla"
+      },
+      {
+        "product": "Sign",
+        "description": "Ilmainen digitaalinen allekirjoitus kaikille käyttäjille"
+      },
+      {
+        "product": "Connect",
+        "description": "Yhteistyö ja viestintä yhdistettynä toimintaan"
+      },
+      {
+        "product": "Mobile",
+        "description": "Koko toimintasi kämmenelläsi"
+      },
+      {
+        "product": "Agents",
+        "description": "AI-agentit, jotka analysoivat, päättävät ja toimivat"
+      },
+      {
+        "product": "Voice",
+        "description": "Äänivuorovaikutus luonnollisella kielellä ja AI:lla"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "title": "Olipa toimialasi, yrityksesi koko tai haasteesi mikä tahansa, olemme oikea alusta.",
+    "description": "Interfy uudistaa toimintasi AI:n, automaation ja älykkyyden avulla.",
+    "ctaPrimary": "Aloita ilmaiseksi",
+    "ctaSecondary": "Varaa esittely",
+    "features": [
+      {
+        "title": "AI-native",
+        "description": "älykkyyttä jokaisessa moduulissa"
+      },
+      {
+        "title": "Cloud-native",
+        "description": "skaalautuva infrastruktuuri"
+      },
+      {
+        "title": "Web + Mobiili",
+        "description": "Täysi pääsy missä tahansa oletkin"
+      },
+      {
+        "title": "API:t ja integraatiot",
+        "description": "Yhdistä kaikki, mitä yrityksesi käyttää jo"
+      },
+      {
+        "title": "Turvallisuus ja vaatimustenmukaisuus",
+        "description": "Globaalit suojaus- ja vaatimustenmukaisuusstandardit"
+      },
+      {
+        "title": "Tuki 24/7",
+        "description": "Jatkuvaa tukea toiminnallesi"
+      }
+    ]
+  }
+}

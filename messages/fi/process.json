@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process antaa sinun luoda visuaalisia prosesseja, älykkäitä lomakkeita ja tehokkaita automaatioita AI:n avulla. Enemmän ketteryyttä, hallintaa ja tehokkuutta joka vaiheessa.",
+    "keywords": ["prosessiautomaatio", "BPM", "yrityksen työnkulku", "älykkäät lomakkeet", "Interfy Process"],
+    "freeTrialNote": "Ilmainen 7 päivän kokeilu, ei luottokorttia"
+  },
+  "hero": {
+    "titlePrefix": "Luo, automatisoi ja uudista prosessit ",
+    "titleHighlight": "AI:n avulla.",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": " antaa sinun luoda visuaalisia prosesseja, älykkäitä lomakkeita ja tehokkaita automaatioita AI:n avulla. Enemmän ketteryyttä, hallintaa ja tehokkuutta joka vaiheessa.",
+    "ctaPrimary": "Ilmainen kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "mockupAlt": "Interfy Process -alusta näytettynä tabletilla ja älypuhelimessa, prosessin visuaalinen suunnittelu ja tehtävälista",
+    "stats": [
+      { "label": "6M +", "sublabel": "automatisoitua prosessia" },
+      { "label": "25 000 +", "sublabel": "asiakasta" },
+      { "label": "2,5M +", "sublabel": "aktiivista käyttäjää" },
+      { "label": "100 % Web", "sublabel": "Käytä missä tahansa" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Täysi automaatio ",
+    "headingHighlight": "toimintaanne",
+    "items": [
+      { "title": "Visuaalinen prosessien luonti", "description": "Rakenna työnkulkuja yksinkertaisesti ja intuitiivisesti vedä-ja-pudota-suunnittelijalla." },
+      { "title": "Prosessien luonti AI:lla", "description": "Kuvaile tarpeesi ja AI luo sinulle ihanteellisen prosessin sekunneissa." },
+      { "title": "Automaattinen lomakkeiden luonti", "description": "AI luo täydelliset lomakkeet prosessista älykkäillä kentillä." },
+      { "title": "Älykkäät lomakkeet", "description": "Ehdolliset kentät, automaattiset validoinnit ja laskelmat virheiden ja uudelleentyön vähentämiseksi." },
+      { "title": "Hyväksynnät", "description": "Joustavat hyväksyntätyönkulut usealla rinnakkaisella tai ehdollisella tasolla." },
+      { "title": "Tehtävät", "description": "Määritä, seuraa ja hallitse tehtäviä määräaikoineen, prioriteetteineen ja vastuuhenkilöineen." },
+      { "title": "Liiketoimintasäännöt", "description": "Automatisoi päätökset ja toimet räätälöidyillä säännöillä ja kehittyneillä ehdoilla." },
+      { "title": "SLA:t", "description": "Määritä määräajat ja palvelutasosopimukset automaattisella valvonnalla ja hälytyksillä." },
+      { "title": "Hälytykset ja ilmoitukset", "description": "Ilmoitukset sähköpostitse, push-viesteinä tai alustan sisällä pitävät kaikki ajan tasalla." },
+      { "title": "Dashboardit reaaliajassa", "description": "Seuraa toimintaa dynaamisilla ja päivittyvillä visuaalisilla dashboardeilla." },
+      { "title": "Mittarit ja indikaattorit", "description": "Räätälöityjä mittareita suorituskyvyn, pullonkaulojen ja tuottavuuden seurantaan." },
+      { "title": "Ulkoinen osallistuminen", "description": "Sisällytä asiakkaat, toimittajat ja kumppanit prosesseihin turvallisesti ja hallitusti." },
+      { "title": "Prosessit Mobiilissa", "description": "Suorita, hyväksy ja seuraa prosesseja missä tahansa Interfy Mobile -sovelluksella." },
+      { "title": "Valmiit mallipohjat", "description": "Kirjasto valmiita prosessimalleja käytettäväksi useilla eri toimialoilla." },
+      { "title": "Automaatiot agenteilla", "description": "AI-agentit suorittavat automaattisia tehtäviä, analysoivat dataa ja tekevät älykkäitä toimia." },
+      { "title": "Natiivi integraatio", "description": "Täysi integraatio Interfy Documentsin, Capturen ja Signin kanssa 100 % yhdistettyä työnkulkua varten." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Natiivi integraatio ",
+    "headingHighlight": "Interfy-ekosysteemiin",
+    "description": "Valitse toimialasi ja katso, miten Interfy AI muuttaa haasteet todellisiksi tuloksiksi.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Dokumentit ja tieto prosessin ulottuvilla." },
+      { "description": "Älykäs kaappaus ja tiedon poiminta." },
+      { "description": "Älykkäät prosessit ja automaatiot." },
+      { "description": "Digitaaliset allekirjoitukset integroituna työnkulkuun." },
+      { "description": "Yhteistyö ja viestintä reaaliajassa." },
+      { "description": "AI-agentit, jotka analysoivat, päättävät ja toimivat." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Alustan erot kilpailijoihin",
+    "items": [
+      { "title": "Yksi ainoa alusta", "description": "Ei tarvetta toimialakohtaisiin versioihin" },
+      { "title": "100 % mukautuva", "description": "Määritä yrityksesi tarpeiden mukaan" },
+      { "title": "Nopea käyttöönotto", "description": "Aloita minuuteissa ilman monimutkaisuutta" },
+      { "title": "Yritystason turvallisuus", "description": "Tietosuoja ja eristetyt ympäristöt" },
+      { "title": "AI kaikilla toimialoilla", "description": "Älykkäät agentit, jotka ymmärtävät kontekstisi" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Tulokset ja tuetut prosessityypit",
+    "practiceTitlePrefix": "Tuloksia, jotka näet ",
+    "practiceTitleHighlight": "käytännössä",
+    "checklist": [
+      "Vähemmän uudelleentyötä ja enemmän standardointia",
+      "Nopeampia ja tehokkaampia prosesseja",
+      "Alemmat toimintakustannukset",
+      "Täysi läpinäkyvyys ja jäljitettävyys",
+      "Parempia päätöksiä datan ja mittareiden avulla",
+      "Asiakkaiden, tiimien ja kumppaneiden tyytyväisyys"
+    ],
+    "chartTitle": "Valmiiksi käsitellyt pyynnöt",
+    "chartAriaLabel": "Viivakaavio, jossa valmiiksi käsiteltyjen pyyntöjen kasvu tammikuusta kesäkuuhun, nousu 32 %",
+    "chartMonths": ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä"],
+    "typesTitlePrefix": "Sopii kaikkiin ",
+    "typesTitleHighlight": "prosessityyppeihin",
+    "processTypes": [
+      { "label": "Hallinnolliset" },
+      { "label": "Taloudelliset" },
+      { "label": "Hankinta" },
+      { "label": "HR" },
+      { "label": "Lakiasiat" },
+      { "label": "Myynti" },
+      { "label": "Operatiiviset" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfy Processin käyttö",
+    "title": "Valmiina uudistamaan toimintasi?",
+    "description": "Aloita nyt 7 ilmaisella päivällä ja selvitä, miten Interfy Process voi vahvistaa yritystäsi.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "statsLabel": "Interfy Processin edut",
+    "features": [
+      { "label": "100 % Web", "sublabel": "Käytä missä tahansa" },
+      { "label": "Huippuluokan turvallisuus", "sublabel": "Tiedot suojattuna ja vaatimustenmukaisina" },
+      { "label": "Skaalautuva", "sublabel": "Pienestä suureen liiketoimintaan" },
+      { "label": "Tuki 24/7", "sublabel": "Aina kun tarvitset" }
+    ]
+  }
+}

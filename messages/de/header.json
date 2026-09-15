@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Hauptmenü",
+  "mobileNavAria": "Hauptmenü (mobil)",
+  "openMenu": "Menü öffnen",
+  "closeMenu": "Menü schließen",
+  "nav": {
+    "plans": "Pläne"
+  },
+  "productsMenu": {
+    "trigger": "Produkte",
+    "featuredEyebrow": "Top-Produkte",
+    "listEyebrow": "Weitere Produkte",
+    "featured": [
+      { "title": "Documents", "tagline": "Dokumente mit KI in jedem Schritt organisieren, finden und schützen." },
+      { "title": "Process", "tagline": "Visuelle Prozesse, Formulare und Automatisierungen mit KI erstellen." },
+      { "title": "Capture", "tagline": "Jedes Dokument erfassen — die KI erkennt und organisiert alles." },
+      { "title": "Sign", "tagline": "Digitale Signatur kostenlos, rechtsgültig und vollständig integriert." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Zusammenarbeit und Kommunikation mit Ihrem Team" },
+      { "label": "Agents", "description": "KI, die Nutzer versteht und unterstützt" },
+      { "label": "Mobile", "description": "Ihr Betrieb in der Handfläche" },
+      { "label": "Voice", "description": "Sprechen Sie natürlich mit der Plattform" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Ressourcen",
+    "recursosEyebrow": "Ressourcen",
+    "recursosItems": [
+      { "label": "Branchen" },
+      { "label": "AI Créditos" },
+      { "label": "Integrationen & API" },
+      { "label": "Erfolgsgeschichten" }
+    ],
+    "legalEyebrow": "Recht & Support",
+    "legalItems": [
+      { "label": "Nutzungsbedingungen" },
+      { "label": "Datenschutzrichtlinie" },
+      { "label": "LGPD / DSGVO" },
+      { "label": "Sicherheit" },
+      { "label": "Support" },
+      { "label": "Kontakt" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Unternehmen",
+    "eyebrow": "Unternehmen",
+    "items": [
+      { "label": "Über Interfy" },
+      { "label": "Interfy-Plattform" },
+      { "label": "Partnerschaft" },
+      { "label": "Blog / Inhalte" }
+    ]
+  },
+  "languageSelectorAria": "Sprache auswählen"
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Plattformsstatus",
+    "description": "Följ tillgängligheten för varje Interfy-produkt i realtid och se plattformens historik över incidenter.",
+    "keywords": ["Interfy status", "Interfy tillgänglighet", "Interfy drifttid", "Interfy incidenter"]
+  },
+  "hero": {
+    "ariaLabel": "Introduktion till plattformsstatus",
+    "eyebrow": "Plattformsstatus",
+    "titleLine1": "Alla system är",
+    "titleHighlight": "i drift",
+    "description": "Tillgänglighet i realtid för varje Interfy-produkt, med incidenthistorik och drifttids-SLA."
+  },
+  "list": {
+    "ariaLabel": "Status per produkt",
+    "heading": "Status per produkt",
+    "operationalLabel": "I drift",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Incidenthistorik",
+    "incidentsEmpty": "Inga registrerade incidenter under de senaste 90 dagarna."
+  },
+  "infra": {
+    "ariaLabel": "Infrastrukturen bakom plattformsstatus",
+    "heading": "Infrastruktur med hög tillgänglighet",
+    "subheading": "Molnbaserad arkitektur, 100 % AWS, med redundans i alla lager.",
+    "items": [
+      { "label": "Multi-AZ i alla lager (applikation och databas)" },
+      { "label": "Globalt CDN (CloudFront) med låg latens" },
+      { "label": "Automatisk lastbalansering" },
+      { "label": "Hotdetektering och -förebyggande (GuardDuty)" },
+      { "label": "Kontinuerlig övervakning (CloudWatch)" },
+      { "label": "Loggar och granskningsspår (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Certifieringar och efterlevnad",
+      "ctaLabel": "Se hela säkerhetsarkitekturen",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Certifierat ledningssystem för informationssäkerhet." },
+        { "label": "SOC 2 Type II", "description": "Kontroller för säkerhet, tillgänglighet och konfidentialitet.", "badge": "Pågående" },
+        { "label": "LGPD", "description": "Följer den brasilianska dataskyddslagen (LGPD)." },
+        { "label": "GDPR", "description": "I enlighet med EU:s allmänna dataskyddsförordning." },
+        { "label": "HIPAA Ready", "description": "Förberedd för miljöer som hanterar ePHI i USA.", "badge": "BAA tillgängligt" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "heading": "Tillförlitlighet i företagsklass",
+    "subheading": "Global AWS-infrastruktur, AES-256-/TLS 1.2+-kryptering och en SLA på 99,99 % drifttid.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka en demo",
+    "statsLabel": "Tillförlitlighetsindikatorer",
+    "stats": [
+      { "label": "99,99%", "sublabel": "Drifttid (SLA)" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Kryptering" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Efterlevnad" }
+    ]
+  }
+}

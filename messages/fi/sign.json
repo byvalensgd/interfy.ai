@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign on ilmainen digitaalinen allekirjoitus kaikille alustan käyttäjille. Allekirjoita ja seuraa dokumentteja nopeasti, turvallisesti ja täysin integroituna toimintaanne.",
+    "keywords": ["digitaalinen allekirjoitus", "sähköinen allekirjoitus", "oikeudellinen pätevyys", "Interfy Sign"],
+    "freeTrialNote": "Ilmainen digitaalinen allekirjoitus kaikille alustan käyttäjille."
+  },
+  "hero": {
+    "heading": "Ilmainen",
+    "headingGradient": "digitaalinen allekirjoitus",
+    "subheading": "kaikille alustan käyttäjille.",
+    "descriptionPrefix": "Allekirjoita ja seuraa dokumentteja ",
+    "descriptionHighlight": "nopeasti, turvallisesti ja täysin integroituna",
+    "descriptionSuffix": " toimintaanne.",
+    "noCreditCard": "Ei luottokorttia",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "mockupAlt": "Interfy Sign -alusta näytettynä tabletilla ja älypuhelimessa, dokumentti valmiina allekirjoitukseen",
+    "featureChips": [
+      { "labelLines": ["Sähköinen", "allekirjoitus"] },
+      { "labelLines": ["Allekirjoitus", "työnkulussa"] },
+      { "labelLines": ["Useita", "allekirjoittajia"] },
+      { "labelLines": ["Valmiit", "mallipohjat"] },
+      { "labelLines": ["Auditointi-", "jälki"] },
+      { "labelLines": ["Turvallinen", "tunnistautuminen"] },
+      { "labelLines": ["Lähetys", "ulkoisille"] },
+      { "labelLines": ["Älykkäät", "hälytykset"] },
+      { "labelLines": ["Seuranta", "reaaliajassa"] },
+      { "labelLines": ["Allekirjoitus", "mobiilissa"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Enemmän kontrollia ja tehokkuutta ",
+    "headingHighlight": "dokumenttienne elinkaareen",
+    "cards": [
+      { "title": "Integraatio Documentsin kanssa", "description": "Allekirjoita turvallisesti ja ohjatusti tallennettuja dokumenttia." },
+      { "title": "Integraatio Processin kanssa", "description": "Sisällytä digitaalinen allekirjoitus automatisoituihin, päästä päähän -prosesseihinne." },
+      { "title": "Lähetys ulkoisille käyttäjille", "description": "Lähetä dokumenttit alustan ulkopuolisille henkilöille täysin turvallisesti." },
+      { "title": "Hyväksyntätyönkulut", "description": "Määritä vaiheet, vastuuhenkilöt ja säännöt nopeaa hyväksyntää varten." },
+      { "title": "Hälytykset ja jäljitettävyys", "description": "Saat ilmoitukset ja täyden näkyvyyden joka vaiheeseen." },
+      { "title": "Kaikki turvallisesti kirjattuna", "description": "Täysi jäljitettävyys auditointijäljellä ja taattu vaatimustenmukaisuus." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Miten ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Lähetä dokumentti tai valitse valmis mallipohja." },
+      { "description": "Määritä allekirjoittajat ja allekirjoitusjärjestys." },
+      { "description": "Lähetä allekirjoitettavaksi turvallisella tunnistautumisella." },
+      { "description": "Allekirjoittajat allekirjoittavat missä tahansa, vaikka puhelimella." },
+      { "description": "Seuraa tilaa reaaliajassa ja saa hälytyksiä." },
+      { "description": "Dokumentti valmis ja tallennettuna turvallisesti." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Täydet ominaisuudet ",
+    "headingHighlight": "kaikenlaiseen liiketoimintaan",
+    "cards": [
+      { "title": "Valmiit mallipohjat", "description": "Käytä valmiita malleja tai luo omat räätälöidyt mallipohjasi." },
+      { "title": "Useita allekirjoittajia", "description": "Allekirjoita yhden tai useamman henkilön kanssa peräkkäin tai rinnakkain." },
+      { "title": "Turvallinen tunnistautuminen", "description": "Useita varmistuskerroksia identiteetin ja turvallisuuden varmistamiseksi." },
+      { "title": "Auditointijälki", "description": "Seuraa jokaista toimintoa täydellisin ja muuttumattomin tiedoin." },
+      { "title": "Integraatio Documentsin kanssa", "description": "Allekirjoita dokumentteja suoraan arkistoistasi." },
+      { "title": "Integraatio Processin kanssa", "description": "Sisällytä digitaalinen allekirjoitus automatisoituihin, päästä päähän -prosesseihinsi." },
+      { "title": "Seuranta reaaliajassa", "description": "Näe, kuka on allekirjoittanut, kuka ei, ja mikä on jokaisen vaiheen tila." },
+      { "title": "Allekirjoitus mobiilissa", "description": "Allekirjoita missä tahansa sovelluksella parilla napautuksella." },
+      { "title": "Lähetys ulkoisille", "description": "Lähetä dokumenttit ulkopuolisille henkilöille täysin turvallisesti." }
+    ]
+  },
+  "cta": {
+    "title": "Valmiina muuttamaan tavan, jolla yrityksesi allekirjoittaa ja hyväksyy dokumenttit?",
+    "description": "Aloita jo tänään Interfy Signin kanssa ja tuo lisää ketteryyttä, turvallisuutta ja hallintaa liiketoimintaanne.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "statsLabel": "Interfy-alustan mittakaava",
+    "sectionLabel": "Aloita Interfy Signin käyttö"
+  }
+}

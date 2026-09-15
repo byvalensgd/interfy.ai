@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "אינטגרציות ו-API",
+    "description": "חברו את Interfy לכלים שהחברה שלכם כבר משתמשת בהם: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier ועוד רבים, עם API-ים RESTful מלאים ו-webhooks בזמן אמת.",
+    "keywords": ["אינטגרציות Interfy", "API של Interfy", "מחברים עסקיים", "webhooks", "אוטומציה של מערכות"]
+  },
+  "hero": {
+    "headingPrefix": "חברו את Interfy למה שה",
+    "headingHighlight": "חברה שלכם כבר משתמשת בו.",
+    "description": "האינטגרציה משוחררת. חברו מערכות, הפכו תהליכים לאוטומטיים והעצימו תוצאות בלי הגבלות.",
+    "ctaPrimary": "צפייה באינטגרציות",
+    "ctaSecondary": "תיעוד ה-API",
+    "diagramAriaLabel": "מערכות המשולבות עם Interfy",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "אינטגרציה בלי הגבלות", "description": "חברו את כל מה שהחברה שלכם צריכה" },
+      { "title": "יותר פרודוקטיביות", "description": "הפכו תהליכים לאוטומטיים וחסכו עבודה כפולה" },
+      { "title": "החלטות חכמות", "description": "נתונים משולבים לתובנות בזמן אמת." }
+    ]
+  },
+  "logosStrip": {
+    "heading": "התחברו למערכות המובילות בשוק",
+    "ctaLabel": "לצפייה בכולן"
+  },
+  "featuresGrid": {
+    "headingPrefix": "יתרונות ותכונות של ",
+    "headingHighlight": "Interfy API",
+    "ariaLabel": "יתרונות ותכונות האינטגרציה של Interfy",
+    "items": [
+      { "title": "REST API", "description": "API מלא ומודרני לאינטגרציה עם כל מערכת או אפליקציה." },
+      { "title": "Webhooks", "description": "קבלו אירועים בזמן אמת ושמרו על המערכות שלכם מסונכרנות תמיד." },
+      { "title": "Zapier", "description": "שלבו את Interfy עם אלפי אפליקציות באמצעות Zapier בפשטות ובמהירות." },
+      { "title": "מסדי נתונים", "description": "התחברו למסדי הנתונים SQL ו-NoSQL המובילים באופן מאובטח." },
+      { "title": "ERP", "description": "שלבו עם מערכות ERP מובילות ואחדו נתונים ותהליכים בכל הארגון." },
+      { "title": "CRM", "description": "סנכרנו לקוחות, אנשי קשר והזדמנויות עם ה-CRM המועדף עליכם." },
+      { "title": "Microsoft", "description": "אינטגרציה מובנית עם Microsoft 365, Azure, SharePoint, Teams ועוד." },
+      { "title": "Google", "description": "אינטגרציה עם Google Workspace, Drive, Gmail, Sheets ועוד רבים." },
+      { "title": "אימות חיצוני", "description": "SSO, SAML 2.0 ו-OAuth 2.0 לאימות מאובטח וחוויה מאוחדת." },
+      { "title": "AD / LDAP", "description": "אינטגרציה עם Active Directory ו-LDAP לניהול משתמשים והרשאות." },
+      { "title": "מערכות legacy", "description": "חברו מערכות ישנות ומיושנות באמצעות מתאמים ו-API-ים גמישים." },
+      { "title": "אינטגרציות מותאמות אישית", "description": "בנו מחברים בהתאמה אישית עם ה-API הגמיש שלנו לצרכים ספציפיים." }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "Agents שהולכים רחוק יותר עם ",
+    "headingHighlight": "אינטגרציות חכמות",
+    "description": "השתמשו בסוכנים חכמים ובפקודות קוליות ליצירה, חיפוש, סיכום, אישור ועוד.",
+    "diagramAriaLabel": "סוכני Interfy המחוברים למערכת האקולוגית של המוצרים",
+    "checklistAriaLabel": "היתרונות של הסוכנים המשולבים",
+    "checklist": [
+      { "label": "חיפוש וניתוח נתונים במערכות חיצוניות" },
+      { "label": "ביצוע פעולות ועדכון רשומות" },
+      { "label": "אוטומציה מקצה לקצה עם אינטליגנציה" },
+      { "label": "תשובות מלאות ומותאמות הקשר יותר" },
+      { "label": "תהליכי עבודה חכמים בין מספר פלטפורמות" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "אבטחה ב",
+    "headingHighlight": "רמה עסקית",
+    "description": "האינטגרציות והנתונים שלכם מוגנים בסטנדרטי האבטחה הגבוהים ביותר בשוק.",
+    "itemsAriaLabel": "סטנדרטי האבטחה של האינטגרציות",
+    "items": [
+      { "label": "HTTPS / TLS 1.2+ בכל החיבורים" },
+      { "label": "OAuth 2.0 וטוקנים מאובטחים" },
+      { "label": "Rate limiting ובקרת גישה" },
+      { "label": "יומנים וביקורת מלאה" },
+      { "label": "תאימות ל-LGPD, ISO 27001 ו-SOC 2" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "תיעוד מלא למפתחים",
+      "description": "מדריכים, דוגמאות קוד, SDK-ים וסביבת בדיקות כדי להתחיל עוד היום.",
+      "ctaLabel": "לגישה לתיעוד",
+      "langsAriaLabel": "השפות הנתמכות על ידי ה-SDK"
+    },
+    "codeCard": {
+      "heading": "קריאת API בשניות"
+    },
+    "ctaCard": {
+      "heading": "שלבו. הפכו לאוטומטי. שנו.",
+      "description": "Interfy מתחברת למה שאתם כבר משתמשים בו כדי להעלות את התפעול שלכם לרמה הבאה.",
+      "primaryLabel": "Test Drive חינם",
+      "secondaryLabel": "לדבר עם מומחה"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Assistenza",
+    "description": "Centro assistenza Interfy: contatta il nostro team via chat, e-mail o telefono, oppure trova le risposte nelle domande frequenti.",
+    "keywords": ["assistenza Interfy", "centro assistenza Interfy", "supporto Interfy", "SLA di assistenza"]
+  },
+  "hero": {
+    "ariaLabel": "Introduzione all'assistenza Interfy",
+    "eyebrow": "Assistenza Interfy",
+    "titleLine1": "Come possiamo",
+    "titleHighlight": "aiutarti?",
+    "description": "Il nostro team di assistenza tecnica segue la tua attività ogni giorno lavorativo, con SLA definiti per piano e un centro assistenza sempre disponibile.",
+    "primaryLabel": "Vedi le domande frequenti",
+    "secondaryLabel": "Parla con un esperto"
+  },
+  "channels": {
+    "ariaLabel": "Canali di assistenza",
+    "heading": "Canali di assistenza",
+    "items": [
+      {
+        "title": "Chat dal vivo",
+        "description": "Parla in tempo reale con il nostro team di assistenza, dal lunedì al venerdì, dalle 8 alle 20.",
+        "actionLabel": "Avvia una conversazione",
+        "href": "/contato"
+      },
+      {
+        "title": "E-mail",
+        "description": "Invia la tua domanda o richiesta a suporte@interfy.ai e ricevi una risposta entro lo SLA del tuo piano.",
+        "actionLabel": "Invia e-mail",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Telefono",
+        "description": "Chiama il nostro centro assistenza in orario lavorativo per i casi urgenti.",
+        "actionLabel": "Chiama ora",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Centro assistenza",
+        "description": "Consulta articoli, tutorial e guide passo dopo passo su tutti i prodotti Interfy.",
+        "actionLabel": "Vedi le domande frequenti",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "Assistenza specializzata su scala globale",
+    "heading": "Un'assistenza che segue la tua crescita",
+    "statsLabel": "Portata e affidabilità dell'assistenza Interfy",
+    "stats": [
+      { "label": "180+ paesi", "sublabel": "Presenza globale in espansione" },
+      { "label": "16 lingue", "sublabel": "Assistenza nella lingua del tuo team" },
+      { "label": "99,99%", "sublabel": "Disponibilità SLA garantita" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Conformità certificata" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Domande frequenti sull'assistenza",
+    "ariaExpand": "Espandi risposta",
+    "heading": "Domande frequenti",
+    "items": [
+      {
+        "question": "Come apro una richiesta di assistenza?",
+        "answer": "Puoi aprire una richiesta tramite chat, e-mail (suporte@interfy.ai) o direttamente dal pannello Interfy, nella sezione assistenza. Ogni richiesta riceve un numero di protocollo per il monitoraggio."
+      },
+      {
+        "question": "Qual è il tempo di risposta dell'assistenza?",
+        "answer": "Lo SLA varia in base al piano: gli account Starter ricevono una risposta entro 24 ore lavorative, mentre i piani Business, Corporate ed Enterprise hanno priorità e SLA più rapidi, dettagliati nel contratto."
+      },
+      {
+        "question": "L'assistenza è inclusa in tutti i piani?",
+        "answer": "Sì. L'assistenza via chat ed e-mail è inclusa in tutti i piani a pagamento. I piani Corporate ed Enterprise dispongono inoltre di un account manager dedicato."
+      },
+      {
+        "question": "Qual è l'orario di assistenza?",
+        "answer": "Il nostro servizio è attivo dal lunedì al venerdì, dalle 8 alle 20 (orario di Brasilia). Gli account Enterprise possono attivare un'assistenza estesa 24/7."
+      },
+      {
+        "question": "Come monitoro la disponibilità della piattaforma?",
+        "answer": "La disponibilità e lo storico degli incidenti di ogni prodotto sono pubblicati in tempo reale nella nostra pagina di stato della piattaforma."
+      },
+      {
+        "question": "Come faccio a segnalare una richiesta urgente?",
+        "answer": "Le richieste contrassegnate come critiche vengono automaticamente prioritizzate. Se hai bisogno di sottolineare l'urgenza, rispondi all'e-mail del protocollo o chiama il centro assistenza."
+      },
+      {
+        "question": "Interfy offre assistenza in altre lingue e regioni?",
+        "answer": "Sì. La piattaforma è disponibile in 16 lingue ed è presente in oltre 180 paesi, con assistenza commerciale dedicata e SLA di supporto di livello internazionale."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Inizia a usare Interfy",
+    "heading": "Hai ancora dubbi?",
+    "subheading": "Parla con uno dei nostri esperti e scopri come Interfy può adattarsi alla tua attività.",
+    "primaryButton": "Inizia gratis",
+    "secondaryButton": "Prenota una demo"
+  }
+}

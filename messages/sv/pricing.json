@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Priser och paket",
+    "description": "Välj det paket som passar ditt företags storlek: Free, Individual, Teams, Startup eller paket för medelstora och stora företag.",
+    "keywords": ["Interfy priser", "Interfy paket", "vad kostar dokumenthantering", "AI-native företagspaket"]
+  },
+  "hero": {
+    "headingPrefix": "Den kompletta plattformen för att förvandla",
+    "headingHighlight": "din verksamhet med AI.",
+    "description": "Välj det paket som passar ditt företags storlek och börja omvandla dokument, processer och medarbetare till konkreta resultat.",
+    "monthlyCta": "Månadsvis",
+    "annualCta": "Årsvis",
+    "saveBadge": "Spara upp till 30 %",
+    "imageAlt": "Interfy-plattformen visad på laptop och smartphone, med AI-drivet hanteringspanel",
+    "highlights": ["Testa gratis i 7 dagar", "Digital signering gratis", "Åtkomst via webb och mobil", "AI-funktioner ingår"]
+  },
+  "plansSection": {
+    "heading": "Interfy-paket",
+    "segmentSmallTitle": "Småföretag",
+    "segmentSmallDesc": "För yrkesverksamma, team och företag i tillväxt.",
+    "segmentLargeTitle": "Medelstora & stora företag",
+    "segmentLargeDesc": "För komplexa verksamheter, styrning och global skalning.",
+    "billingAriaLabel": "Växla mellan månads- och årsfakturering",
+    "billingMonthly": "Månadsvis",
+    "billingAnnual": "Årsvis",
+    "billingSaveBadge": "Spara 30 %",
+    "billingAnnualLabel": "Årlig fakturering",
+    "billingMonthlyLabel": "Månatlig fakturering",
+    "perUserMonth": "Per användare/månad",
+    "productsIncludedLabel": "Produkter som ingår i paketet",
+    "allProductsLabel": "ALLA 8 PRODUKTER",
+    "enterprisePriceLabel": "Kontakta oss",
+    "enterprisePriceSub": "Anpassat pris",
+    "popularBadge": "MEST POPULÄR"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Kom igång gratis",
+      "productsLabel": "3 PRODUKTER INGÅR",
+      "features": [
+        "1 fullständig användare",
+        "1 GB lagring",
+        "5 AI-krediter/månad",
+        "3 utskick av dokument för digital signering/månad (ackumuleras inte)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!",
+      "productsLabel": "4 PRODUKTER INGÅR",
+      "features": [
+        "Obegränsat antal användare (fakturering per användare)",
+        "Minst 1 fullständig användare",
+        "2 läsanvändare",
+        "5 GB lagring",
+        "10 AI-krediter/månad (ackumuleras inte)",
+        "10 utskick av dokument för digital signering/månad (ackumuleras inte)",
+        "10 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!",
+      "productsLabel": "5 PRODUKTER INGÅR",
+      "features": [
+        "Obegränsat antal användare (fakturering per användare)",
+        "Minst 5 fullständiga användare",
+        "5 läsanvändare",
+        "Interfy Capture + Mobile",
+        "10 GB lagring",
+        "10 AI-krediter/månad (ackumuleras inte)",
+        "10 utskick av dokument för digital signering/månad (ackumuleras inte)",
+        "10 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument",
+        "Fulltextsökning med OCR"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!",
+      "productsLabel": "8 PRODUKTER INGÅR",
+      "features": [
+        "Obegränsat antal användare (fakturering per användare)",
+        "Minst 5 fullständiga användare",
+        "5 läsanvändare",
+        "Interfy Capture + Mobile",
+        "15 GB lagring",
+        "20 AI-krediter/månad (ackumuleras inte)",
+        "10 utskick av dokument för digital signering/månad (ackumuleras inte)",
+        "10 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument",
+        "Obegränsade processer",
+        "Fulltextsökning med OCR"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Kom igång nu",
+      "trialLabel": "Testa gratis i 7 dagar!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "SKRÄDDARSYDD LÖSNING",
+      "ctaLabel": "Prata med en specialist",
+      "trialLabel": "KONTAKTA OSS"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Obegränsat antal användare (fakturering per användare)",
+      "business": "Obegränsat antal användare (fakturering per användare)",
+      "corporate": "Obegränsat antal användare (fakturering per användare)",
+      "enterprise": "Obegränsat antal användare (fakturering per användare)"
+    },
+    {
+      "starter": "Minst 5 fullständiga användare",
+      "business": "Minst 10 fullständiga användare",
+      "corporate": "Minst 15 fullständiga användare",
+      "enterprise": "Fullständiga användare (på förfrågan)"
+    },
+    {
+      "starter": "10 läsanvändare",
+      "business": "15 läsanvändare",
+      "corporate": "30 läsanvändare",
+      "enterprise": "Obegränsat antal läsanvändare"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "25 GB lagring",
+      "business": "50 GB lagring",
+      "corporate": "100 GB lagring",
+      "enterprise": "Lagring (på förfrågan)"
+    },
+    {
+      "starter": "100 AI-krediter/månad (ackumuleras inte)",
+      "business": "250 AI-krediter/månad (ackumuleras inte)",
+      "corporate": "500 AI-krediter/månad (ackumuleras inte)",
+      "enterprise": "AI-krediter/månad (ackumuleras inte) (på förfrågan)"
+    },
+    {
+      "starter": "10 utskick av dokument för digital signering/månad (ackumuleras inte)",
+      "business": "20 utskick av dokument för digital signering/månad (ackumuleras inte)",
+      "corporate": "30 utskick av dokument för digital signering/månad (ackumuleras inte)",
+      "enterprise": "Obegränsade utskick av dokument för digital signering"
+    },
+    {
+      "starter": "10 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument",
+      "business": "15 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument",
+      "corporate": "20 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument",
+      "enterprise": "500 ärenden/månad (ackumuleras inte) i chatten för interaktion och delning av dokument"
+    },
+    {
+      "starter": "10 dynamiska interaktioner för externa användare i Process/månad (ackumuleras inte)",
+      "business": "15 dynamiska interaktioner för externa användare i Process/månad (ackumuleras inte)",
+      "corporate": "20 dynamiska interaktioner för externa användare i Process/månad (ackumuleras inte)",
+      "enterprise": "500 dynamiska interaktioner för externa användare i Process/månad (ackumuleras inte)"
+    },
+    {
+      "starter": "Obegränsade processer",
+      "business": "Obegränsade processer",
+      "corporate": "Obegränsade processer",
+      "enterprise": "Obegränsade processer"
+    },
+    {
+      "starter": "Åtkomst till Interfys API",
+      "business": "Åtkomst till Interfys API",
+      "corporate": "Åtkomst till Interfys API",
+      "enterprise": "Åtkomst till Interfys API"
+    },
+    {
+      "starter": "Anpassad visuell identitet (White Label)",
+      "business": "Anpassad visuell identitet (White Label)",
+      "corporate": "Anpassad visuell identitet (White Label)",
+      "enterprise": "Anpassad visuell identitet (White Label)"
+    },
+    {
+      "starter": "Exklusiv URL med dataisolering",
+      "business": "Exklusiv URL med dataisolering",
+      "corporate": "Exklusiv URL med dataisolering",
+      "enterprise": "Exklusiv URL med dataisolering"
+    },
+    {
+      "starter": "Databasintegration",
+      "business": "Databasintegration",
+      "corporate": "Databasintegration",
+      "enterprise": "Databasintegration"
+    },
+    {
+      "starter": "Arbetsyta med administration och avancerade säkerhetskontroller",
+      "business": "Arbetsyta med administration och avancerade säkerhetskontroller",
+      "corporate": "Arbetsyta med administration och avancerade säkerhetskontroller",
+      "enterprise": "Arbetsyta med administration och avancerade säkerhetskontroller"
+    },
+    {
+      "starter": "Autentisering med AD/LDAP",
+      "business": "Autentisering med AD/LDAP",
+      "corporate": "Autentisering med AD/LDAP",
+      "enterprise": "Autentisering med AD/LDAP"
+    },
+    {
+      "starter": "IP-blockering",
+      "business": "IP-blockering",
+      "corporate": "IP-blockering",
+      "enterprise": "IP-blockering"
+    },
+    {
+      "starter": "Multifaktorautentisering",
+      "business": "Multifaktorautentisering",
+      "corporate": "Multifaktorautentisering",
+      "enterprise": "Multifaktorautentisering"
+    },
+    {
+      "starter": "Fulltextsökning med OCR",
+      "business": "Fulltextsökning med OCR",
+      "corporate": "Fulltextsökning med OCR",
+      "enterprise": "Fulltextsökning med OCR"
+    },
+    {
+      "starter": "Modul för fysisk arkivhantering",
+      "business": "Modul för fysisk arkivhantering",
+      "corporate": "Modul för fysisk arkivhantering",
+      "enterprise": "Modul för fysisk arkivhantering"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Jämförelse mellan paket",
+    "resourcesLabel": "Funktioner",
+    "includedAlt": "Ingår",
+    "rows": [
+      { "label": "Användare", "values": { "free": "Upp till 3", "individual": "1", "teams": "Obegränsat", "startup": "Obegränsat" } },
+      { "label": "Arbetsytor", "values": { "free": "1", "individual": "1", "teams": "Obegränsat", "startup": "Obegränsat" } },
+      { "label": "Lagring", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Obegränsat" } },
+      { "label": "Digital signering", "values": { "free": "Gratis", "individual": "Gratis", "teams": "Gratis", "startup": "Gratis" } },
+      { "label": "Mobilapp", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Ingående moduler",
+        "values": {
+          "free": "Dokument och signering",
+          "individual": "Dokument, signering och samarbete",
+          "teams": "Dokument, signering och samarbete",
+          "startup": "Alla, utom Process"
+        }
+      },
+      {
+        "label": "AI-funktioner",
+        "values": { "free": "Grundläggande", "individual": "Standard", "teams": "Avancerade", "startup": "Obegränsade · Krediter ingår" }
+      },
+      { "label": "AI-krediter / månad", "values": { "free": "-", "individual": "1 000", "teams": "3 000", "startup": "10 000" } },
+      { "label": "Support", "values": { "free": "E-post", "individual": "E-post", "teams": "Prioriterad", "startup": "Premium dygnet runt" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "Se alla funktioner och jämför paketen",
+    "sections": [
+      {
+        "label": "Funktioner i Interfy Process",
+        "features": [
+          "Obegränsad skapande av processer",
+          "BPMN 2.0-designer",
+          "Extern länk för att starta ärenden",
+          "Dokumentinskanning direkt i pågående process",
+          "Skapande av publika variabler",
+          "Dynamiska användare",
+          "Parallella flöden",
+          "Uppgiftskorg",
+          "Delprocesser",
+          "Processövervakning",
+          "Visning av ärendehistorik",
+          "Avancerad processökning",
+          "Grafisk visning av processernas förlopp",
+          "Parametrisering och tidskontroll för varje tilldelad uppgift",
+          "Notiskontroll med varningar",
+          "Manuella, cykliska och självbetjänande tilldelningar: per variabel, per värde och per organisationsenhet",
+          "Utnämning av handledare för processstyrning",
+          "Omtilldelning av ärenden av handledaren",
+          "Avbrytning av ärenden beroende på användarens eller handledarens behörighet",
+          "Arbetsdagskalender",
+          "Notiser vid inkommande uppgifter",
+          "Hierarkiska notiser i processen baserat på SLA",
+          "Notiser för kritisk eller avslutad SLA",
+          "Koppling av SLA till arbetsdagskalendern",
+          "Interaktion mellan Interfy Documents och Interfy Process",
+          "Integration med webbtjänster"
+        ]
+      },
+      {
+        "label": "Funktioner i Interfy Documents",
+        "features": [
+          "Centraliserat innehåll",
+          "Avancerad granskning",
+          "Dokumentversionering",
+          "Dokumentens livscykelhantering",
+          "Flexibel mappstruktur",
+          "Åtkomstprofiler för innehåll",
+          "Extern länk för att dela innehåll",
+          "Skapande av dokument i flera filformat",
+          "Integration med Microsoft Office (dra och släpp)",
+          "Avancerad sökning",
+          "Skapande av indexeringskort (elektroniska formulär)",
+          "Fysisk lokalisering av dokument",
+          "Kontroll av lagringsanvändning och användare",
+          "Egen visningsfunktion för de vanligaste filformaten",
+          "Skanning och uppladdning av dokument",
+          "Lokal och decentraliserad inskanning, 100 % webbaserad",
+          "Inskanning via skannrar",
+          "Inskanning via multifunktionsskrivare",
+          "Inskanning via smartphone",
+          "Inskanning via webbkamera"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Kan jag byta paket när jag vill?",
+      "answer": "Ja. Du kan uppgradera eller nedgradera ditt paket när som helst direkt i administrationspanelen, utan avgifter eller krångel."
+    },
+    {
+      "question": "Hur fungerar AI-krediterna?",
+      "answer": "Varje paket inkluderar en månatlig kvot av AI-krediter som används av funktioner som intelligent extraktion och agenter. Krediterna ackumuleras inte och förnyas varje månad."
+    },
+    {
+      "question": "Vad händer efter provperioden?",
+      "answer": "Efter de 7 gratis dagarna kan du välja det paket som passar dig bäst för att fortsätta använda plattformen. Inget kreditkort krävs för att starta testet."
+    },
+    {
+      "question": "Vilka betalningsmetoder accepteras?",
+      "answer": "Vi accepterar kreditkort, bankgiro och fakturering för årsavtal och Enterprise-paket."
+    },
+    {
+      "question": "Ingår implementering i paketen?",
+      "answer": "Paketen Starter, Business och Corporate inkluderar guidad onboarding. För Enterprise-paketet erbjuder vi dedikerad implementering med vårt specialistteam."
+    },
+    {
+      "question": "Erbjuder ni årsavtal med rabatt?",
+      "answer": "Ja. Genom att välja årlig fakturering sparar du upp till 30 % jämfört med det månatliga priset, i alla paket Starter, Business eller Corporate."
+    }
+  ],
+  "faqAriaExpand": "Växla svar",
+  "base": {
+    "trialTitle": "Testa alla funktioner i Interfy.ai i 7 dagar gratis.",
+    "trialSub": "Inget kreditkort krävs. Inga förpliktelser.",
+    "trialCta": "Testköra gratis",
+    "demoCta": "Boka en demo",
+    "statsLabel": "Interfy-plattformens siffror",
+    "faqHeading": "Vanliga frågor",
+    "specialistTitle": "Prata med en specialist",
+    "specialistDesc": "Vårt team står redo att hjälpa dig välja det paket som passar ditt företag bäst.",
+    "specialistCta": "Prata med en specialist",
+    "ctaTitle": "Redo att förvandla din verksamhet?",
+    "ctaDesc": "Gå med tusentals företag som redan litar på Interfy.ai.",
+    "ctaButton": "Kom igång nu",
+    "srHeading": "Kom igång med Interfy"
+  }
+}

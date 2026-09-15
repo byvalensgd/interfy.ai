@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Plattform",
+    "description": "En integrerad plattform från början till slut: Documents, Process, Capture, Sign, samarbete, mobil, agenter och röst som arbetar tillsammans med AI i varje steg.",
+    "keywords": ["Interfy-plattform", "AI-native företagsplattform", "dokument- och processhantering", "Interfy-ekosystem"]
+  },
+  "hero": {
+    "headingLine1": "En plattform.",
+    "headingLine2": "Hela din verksamhet.",
+    "headingHighlight": "AI i varje steg.",
+    "description1": "Documents, automationer, intelligent Capture, digital signering, samarbete, mobil, agenter och röst som arbetar tillsammans i en enda Workspace.",
+    "description2": "Ersätt flera olika system med en plattform som är 100 % webbaserad, molnbyggd och redo att drivas globalt med säkerhet, skalbarhet och intelligens.",
+    "ctaPrimary": "Testa gratis i 14 dagar",
+    "ctaSecondary": "Boka en demo",
+    "mockupAlt": "Interfy-plattformen visad på surfplatta och smartphone, med workspace, dagens uppgifter och AI-assistenten",
+    "chipsAriaLabel": "Plattformens viktigaste egenskaper",
+    "chips": [
+      { "label": "AI Native" },
+      { "label": "Molnbyggd" },
+      { "label": "100 % webbaserad" },
+      { "label": "Webb + mobil" },
+      { "label": "16 språk" },
+      { "label": "180+ länder" }
+    ]
+  },
+  "overview": {
+    "headline": "En integrerad plattform",
+    "headlineHighlight": "från början till slut",
+    "description": "Kraftfulla moduler som samverkar för att leverera en komplett, intelligent upplevelse utan silor."
+  },
+  "aiGrid": {
+    "headline": "AI genomsyrar hela",
+    "headlineHighlight": "Interfy-plattformen",
+    "items": [
+      { "title": "Intelligent sökning", "description": "Hitta allt med naturligt språk" },
+      { "title": "Skapande av processer", "description": "Modellera flöden på ett smart sätt" },
+      { "title": "Datautvinning", "description": "Fånga data från dokument med AI" },
+      { "title": "Autonoma agenter", "description": "Utförande, beslut och integrationer" },
+      { "title": "Automatisk klassificering", "description": "Organisera och kategorisera utan ansträngning" },
+      { "title": "Formulärgenerering", "description": "AI skapar formulär redo att användas" },
+      { "title": "AI-stödda godkännanden", "description": "Smarta rekommendationer och valideringar" },
+      { "title": "Röststyrning", "description": "Utför åtgärder, fråga och skapa" }
+    ]
+  },
+  "workspace": {
+    "headline": "Varför centralisera allt i en enda",
+    "headlineHighlight": "Workspace?",
+    "items": [
+      {
+        "title": "Enhetlig verksamhet",
+        "description": "Data, dokument, uppgifter och processer på ett och samma ställe. Fullständig överblick, utan silor."
+      },
+      {
+        "title": "Egen Workspace",
+        "description": "Egen URL, visuell identitet, granulära behörigheter och en dedikerad miljö för ditt företag."
+      },
+      {
+        "title": "Automationer mellan produkter",
+        "description": "Documents utlöser processer, godkännanden genererar signaturer, Capture matar arkivet och dashboards."
+      },
+      {
+        "title": "Färre system, mer kontroll",
+        "description": "Minska dubbelarbete, kostnader, sköra integrationer och informationssilor."
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Säkerhet, integrationer och infrastruktur för Interfy-plattformen",
+    "cards": [
+      {
+        "title": "Säkerhet och styrning",
+        "checklist": [
+          "Kryptering under överföring och lagring",
+          "Granulära behörigheter och roller",
+          "Fullständiga granskningsspår",
+          "Global efterlevnad (LGPD, GDPR, ISO)",
+          "Policyer för lagring och gallring"
+        ]
+      },
+      {
+        "title": "API:er och integrationer",
+        "checklist": [
+          "Fullständiga RESTful-API:er",
+          "Webhooks i realtid",
+          "Färdiga anslutningar till populära system",
+          "Integration mellan data, dokument och processer"
+        ]
+      },
+      {
+        "title": "Molnbyggd infrastruktur",
+        "checklist": [
+          "Skalbar och motståndskraftig arkitektur",
+          "Hög tillgänglighet dygnet runt",
+          "Automatiska säkerhetskopior och geo-redundans",
+          "Intelligent övervakning",
+          "Global drift med låg latens"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Börja använda Interfy-plattformen",
+    "headline": "Redo för",
+    "headlineHighlight": "globala företag",
+    "title": "Förvandla din verksamhet med Interfy.ai",
+    "description": "Skapa ditt konto, provköra plattformen och se hur en AI-native plattform kan förenkla, automatisera och skynda på din verksamhet.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka demo",
+    "statsLabel": "Interfys globala närvaro",
+    "features": [
+      { "label": "180+ länder", "sublabel": "Global närvaro under expansion" },
+      { "label": "16 språk", "sublabel": "Gränssnitt och upplevelse på 16 språk" },
+      { "label": "6 kommersiella regioner", "sublabel": "Lokal och specialiserad service" },
+      { "label": "Webb + mobil", "sublabel": "Kom åt plattformen var du vill, på alla enheter" },
+      { "label": "USA och Brasilien", "sublabel": "Lokal struktur och regional efterlevnad" },
+      { "label": "Global support", "sublabel": "Specialiserad support med SLA:er i internationell klass" }
+    ]
+  }
+}

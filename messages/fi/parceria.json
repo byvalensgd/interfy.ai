@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Kumppaniohjelma",
+    "description": "Ryhdy Interfy.ai:n myyntikumppaniksi tai affiliaatiksi ja muunna mahdollisuudet toistuvaksi tuloksi AI-pohjaisella alustalla, omistetulla tuella ja institutionaalisella workspacella.",
+    "keywords": ["Interfyn kumppaniohjelma", "myyntikumppani", "Interfy-affiliaatti", "asiakassuositukset", "toistuva tulo"]
+  },
+  "hero": {
+    "headingPrefix": "Kasva ",
+    "headingHighlight": "Interfy.ai:n kanssa",
+    "subheading": "Muunna mahdollisuudet toistuvaksi tuloksi.",
+    "description": "Liity globaaliin ohjelmaan yrityksille ja ammattilaisille, jotka haluavat etsiä, suositella ja kehittää uutta liiketoimintaa AI-pohjaisella alustalla.",
+    "slideshowAlt": "Interfy-alusta näytettynä läppärissä ja älypuhelimessa, AI-pohjainen hallintapaneeli näkyvissä",
+    "bannerAriaLabel": "Kumppaniohjelman edut",
+    "banner": [
+      { "title": "Globaali ohjelma" },
+      { "title": "Interfyn tuki" },
+      { "title": "Toistuva tulo" },
+      { "title": "Suojatut mahdollisuudet" }
+    ],
+    "ctaPrimary": "HALUAN OLLA KUMPPANI",
+    "ctaSecondary": "HALUAN SUOSITELLA ASIAKKAITA"
+  },
+  "participation": {
+    "heading": "Valitse, miten haluat osallistua",
+    "cards": [
+      {
+        "title": "MYYNTIKUMPPANI",
+        "subtitle": "Niille, jotka haluavat kehittää liiketoimintaa Interfyn kanssa",
+        "checklistAriaLabel": "Myyntikumppanin edut",
+        "checklist": [
+          { "label": "Uusien asiakkaiden etsintä" },
+          { "label": "Alustan esittely" },
+          { "label": "Mahdollisuuksien kehittäminen" },
+          { "label": "Asiakassuhteen seuranta" },
+          { "label": "Institutionaalinen workspace esittelyihin" },
+          { "label": "Koulutus ja viralliset materiaalit" },
+          { "label": "Mahdollisuuksien rekisteröinti ja suoja" }
+        ],
+        "cta": "HALUAN OLLA KUMPPANI"
+      },
+      {
+        "title": "AFFILIAATTI TAI SUOSITTELIJA",
+        "subtitle": "Niille, jotka haluavat suositella potentiaalisia asiakkaita",
+        "checklistAriaLabel": "Affiliaatin tai suosittelijan edut",
+        "checklist": [
+          { "label": "Suositus linkillä, koodilla tai lomakkeella" },
+          { "label": "Ei tarvetta pitää esittelyjä" },
+          { "label": "Ei tarjousten laadintaa" },
+          { "label": "Ei osallistumista neuvotteluihin" },
+          { "label": "Interfy hoitaa koko myyntiprosessin" },
+          { "label": "Tehtyjen suositusten seuranta" }
+        ],
+        "cta": "HALUAN SUOSITELLA ASIAKKAITA"
+      }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Miksi keskittää kaikki yhteen ",
+    "headingHighlight": "Workspaceen?",
+    "steps": [
+      { "title": "Valitse mallisi", "description": "Päätä, oletko myyntikumppani vai affiliaatti/suosittelija." },
+      { "title": "Rekisteröidy", "description": "Täytä tietosi ja vahvista osallistumisesi ohjelmaan." },
+      { "title": "Rekisteröi mahdollisuutesi", "description": "Suosittele ja seuraa potentiaalisia asiakkaitasi alustan kautta." },
+      { "title": "Seuraa tuloksiasi", "description": "Seuraa tuloksiasi ja saa korvaus ohjelman ehtojen mukaisesti." }
+    ]
+  },
+  "structure": {
+    "headingPrefix": "Täysi rakenne ",
+    "headingHighlight": "kasvuunne",
+    "ariaLabel": "Kumppanin tukirakenne",
+    "items": [
+      { "title": "AI-pohjainen alusta", "description": "Parhaat teknologiat liiketoimintasi vahvistamiseksi." },
+      { "title": "Koulutus", "description": "Myynnillinen ja tekninen valmennus tiimillesi." },
+      { "title": "Institutionaalinen workspace", "description": "Oma ympäristö mahdollisuuksien hallintaan." },
+      { "title": "Myyntimateriaalit", "description": "Esityksia, argumentteja ja päivitettyä virallista sisältöä." },
+      { "title": "Mahdollisuuksien rekisteröinti", "description": "Seuraa jokaisen mahdollisuuden tilaa reaaliajassa." },
+      { "title": "Sopimukset Interfyn kautta", "description": "Interfy hoitaa neuvottelun ja muodollisuudet asiakkaan kanssa." },
+      { "title": "Laskutus Interfyn kautta", "description": "Laskujen laadinta, perintä ja maksujen hallinta." },
+      { "title": "Virallinen tuki", "description": "Omistettu tiimi kumppaneille, asiantuntevalla palvelulla." }
+    ]
+  },
+  "roles": {
+    "partner": {
+      "title": "Sinä kehität liiketoimintaa",
+      "checklistAriaLabel": "Kumppanin vastuut",
+      "checklist": [
+        { "label": "Etsintä ja suhteet" },
+        { "label": "Alustan esittely" },
+        { "label": "Mahdollisuuden rekisteröinti" },
+        { "label": "Myyntiseuranta" }
+      ]
+    },
+    "interfy": {
+      "title": "Interfy hoitaa toiminnan",
+      "checklistAriaLabel": "Interfyn vastuut",
+      "checklist": [
+        { "label": "Sopimus asiakkaan kanssa" },
+        { "label": "Laskutus ja perintä" },
+        { "label": "Workspacen luonti" },
+        { "label": "Infrastruktuuri, päivitykset ja tuki" }
+      ]
+    }
+  },
+  "testDrive": {
+    "headingPrefix": "Asiakkaasi voi aloittaa ",
+    "headingHighlight": "ilmaisella kokeilulla",
+    "descriptionLine1": "7 ilmaista päivää, ei luottokorttia, ei sitoumuksia.",
+    "descriptionLine2": "Asiakas tutustuu alustaan ennen paketin valintaa.",
+    "cta": "TUTUSTU ILMAISEEN KOKEILUUN"
+  },
+  "faq": {
+    "heading": "Usein kysytyt kysymykset",
+    "ariaExpand": "Näytä vastaus",
+    "items": [
+      {
+        "question": "Onko olemassa alueellista yksinoikeutta?",
+        "answer": "Ei. Ohjelma on globaali: kumppanit ja affiliaatit missä tahansa alueella voivat etsiä ja suositella asiakkaita, ei maantieteellisiä rajoituksia."
+      },
+      {
+        "question": "Miten mahdollisuudet suojataan?",
+        "answer": "Jokainen alustalle rekisteröity mahdollisuus liitetään vastuulliseen kumppaniin tai affiliaattiin, mikä estää päällekkäisyydet ja takaa tunnustuksen suositellusta liiketoiminnasta."
+      },
+      {
+        "question": "Milloin komissio maksetaan?",
+        "answer": "Komissio maksetaan asiakkaan maksun vahvistuksen jälkeen, ohjelman ehdoissa määritellyn laskutusjakson mukaisesti."
+      },
+      {
+        "question": "Voiko kumppani laskuttaa asiakasta?",
+        "answer": "Ei. Interfy hoitaa sopimuksen, laskutuksen ja perinnän suoraan asiakkaan kanssa, kun kumppani keskittyy asiakassuhteeseen."
+      },
+      {
+        "question": "Miten vuosittainen uusiminen toimii?",
+        "answer": "Uusiminen tapahtuu automaattisesti niin kauan kuin asiakas pysyy aktiivisena, ja kumppani tai affiliaatti jatkaa korvausten saamista ohjelman ehtojen mukaisesti."
+      }
+    ]
+  },
+  "growthCta": {
+    "sectionAria": "Liity Interfy.ai:n globaaliin ekosysteemiin",
+    "heading": "Kasvammeko yhdessä?",
+    "subheading": "Valitse mallisi ja liity Interfy.ai:n globaaliin ekosysteemiin.",
+    "primaryButton": "HALUAN OLLA KUMPPANI",
+    "secondaryButton": "HALUAN OLLA AFFILIAATTI",
+    "statsLabel": "Interfy-alustan lukuja",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "dokumenttia" },
+      { "label": "20M +", "sublabel": "allekirjoitusta" },
+      { "label": "2,5M +", "sublabel": "käyttäjää" },
+      { "label": "6M +", "sublabel": "prosessia" },
+      { "label": "1000 TB +", "sublabel": "tallennettuna" },
+      { "label": "99,99%", "sublabel": "käytettävyys" },
+      { "label": "24/7", "sublabel": "tuki" }
+    ]
+  }
+}

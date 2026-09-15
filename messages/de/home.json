@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – Dokumentenmanagement, Prozesse und digitale Signatur mit KI",
+    "description": "AI-native Unternehmensplattform, die Dokumente, Prozesse, Menschen, Daten und Kommunikation in einer einzigen intelligenten Umgebung verbindet.",
+    "keywords": ["Dokumentenmanagement", "Prozessautomatisierung", "digitale Signatur", "AI-native Plattform", "Interfy"]
+  },
+  "hero": {
+    "headline": "Transformieren Sie Ihren Betrieb mit",
+    "headlineHighlight": "KI.",
+    "subheadline": "Dokumentenmanagement, Prozessautomatisierung, intelligente Erfassung, digitale Signatur, Zusammenarbeit und Mobile in einer einzigen Plattform.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "bietet kostenlose digitale Signatur für alle Nutzer der Plattform."
+    },
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "slideshowAlt": "Interfy-Plattform auf Laptop und Smartphone, mit dem KI-Management-Dashboard",
+    "availableVia": "Verfügbar über:",
+    "badges": [
+      { "alt": "Verfügbar als Web App" },
+      { "alt": "Verfügbar bei Google Play" },
+      { "alt": "Verfügbar im App Store" }
+    ],
+    "statsAriaLabel": "Vorteile der Plattform",
+    "stats": [
+      { "label": "25.000 +", "sublabel": "Kunden" },
+      { "label": "180+ Länder" },
+      { "label": "16 Sprachen" },
+      { "label": "Erstklassige Sicherheit" },
+      { "label": "AI Native" },
+      { "label": "Hohe Verfügbarkeit" },
+      { "label": "Globale Konformität" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "Eine Unternehmensplattform, nativ mit",
+    "headlineHighlight": "KI",
+    "description": "Zentralisieren Sie Dokumente, Prozesse, Menschen, Daten und Kommunikation in einer einzigen intelligenten Umgebung.",
+    "descriptionBold": "Alles verbunden. Alles integriert.",
+    "statsAriaLabel": "Größenordnung der Interfy-Plattform",
+    "stats": [
+      { "label": "2,5M +", "sublabel": "Nutzer" },
+      { "label": "12Mrd +", "sublabel": "Dokumente" },
+      { "label": "6M +", "sublabel": "Prozesse" },
+      { "label": "1000TB +", "sublabel": "gespeichert" },
+      { "label": "20M +", "sublabel": "Signaturen" },
+      { "label": "99,99 %", "sublabel": "Uptime" },
+      { "label": "24/7", "sublabel": "Support" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["Organisieren und finden", "mit Intelligenz"] },
+        { "descriptionLines": ["Workflows, Genehmigungen", "und Aufgaben erstellen"] },
+        { "descriptionLines": ["Mit der Plattform sprechen,", "ganz natürlich"] },
+        { "descriptionLines": ["Digitalisieren, erkennen", "und Daten extrahieren"] },
+        { "descriptionLines": ["KI, die Nutzer versteht", "und unterstützt"] },
+        { "descriptionLines": ["Dokumente signieren", "mit Rechtsgültigkeit"] },
+        { "descriptionLines": ["Mit Ihrem Team", "zusammenarbeiten und kommunizieren"] },
+        { "descriptionLines": ["Ihr Betrieb in der", "Handfläche"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "Vollständiges Ökosystem",
+    "headlineSuffix": "für Ihren Betrieb",
+    "items": [
+      { "description": "Intelligentes Management von Dokumenten und Informationen" },
+      { "description": "Intelligente Automatisierung von Prozessen und Aufgaben" },
+      { "description": "Intelligente Dokumentenerfassung mit KI" },
+      { "description": "Kostenlose digitale Signatur für alle Nutzer" },
+      { "description": "Zusammenarbeit und Kommunikation, verbunden mit dem Betrieb" },
+      { "description": "Ihr gesamter Betrieb in der Handfläche" },
+      { "description": "KI-Agenten, die analysieren, entscheiden und ausführen" },
+      { "description": "Sprachinteraktion mit natürlicher Sprache und KI" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "Warum sich für",
+    "headlineHighlight": "Interfy AI entscheiden?",
+    "items": [
+      { "title": "AI-native", "description": "Intelligenz im Mittelpunkt von allem" },
+      { "title": "100 % web", "description": "Zugriff von überall und auf jedem Gerät" },
+      { "title": "Exklusiver Workspace pro Kunde", "description": "isolierte Daten mit vollständiger Privatsphäre" },
+      { "title": "White Label", "description": "Ihre Marke, Ihr Erlebnis" },
+      { "title": "API-Integrationen", "description": "verbinden Sie sich mit Ihren Systemen" },
+      { "title": "Audit und Nachvollziehbarkeit", "description": "vollständige und sichere Historie" },
+      { "title": "Globale Skalierbarkeit", "description": "wachsen Sie grenzenlos, in jedem Land" },
+      { "title": "Sicherheit in der AWS-Cloud", "description": "robuste und zuverlässige Infrastruktur" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "Intelligente Erfassung und KI-Agenten",
+    "capture": {
+      "eyebrow": "Erfassen Sie alles, von überall mit KI.",
+      "headingSuffix": "intelligent, die versteht und liefert",
+      "description": "Interfy kann mit Ihrer Marke für besondere Betriebsformen, Einheiten oder Regionen arbeiten.",
+      "checklist": [
+        "Professioneller Scanner oder Mobile.",
+        "Text- und Datenerkennung mit KI.",
+        "Automatische Klassifizierung von Dokumenten.",
+        "Intelligente Indexierung und Anreicherung.",
+        "Direkter Versand an Dokumente und Prozesse."
+      ],
+      "imageAlt": "Dokumentenerfassung per Scanner und Mobile mit Datenerkennung durch KI"
+    },
+    "agents": {
+      "eyebrow": "KI, die versteht, ausführt und antwortet.",
+      "headingPrefix": "Interagieren Sie",
+      "headingSuffix": "mit der Plattform wie nie zuvor",
+      "description": "Nutzen Sie intelligente Agenten und Sprachbefehle, um zu erstellen, zu suchen, zusammenzufassen, zu genehmigen und vieles mehr.",
+      "videoAriaLabel": "KI-Assistent von Interfy",
+      "chatDemo": {
+        "message1": "Zeige die zur Unterschrift ausstehenden Verträge",
+        "message2Line1": "15 ausstehende Verträge zur Unterschrift gefunden.",
+        "message2Line2": "Möchten Sie sie anzeigen?",
+        "voiceAlt": "Sprachbefehl"
+      }
+    }
+  },
+  "segments": {
+    "headline": "Lösungen für verschiedene",
+    "headlineHighlight": "Branchen",
+    "items": [
+      { "label": "Finanzwesen" },
+      { "label": "Gesundheitswesen" },
+      { "label": "Rechtswesen" },
+      { "label": "Industrie" },
+      { "label": "Öffentlicher Sektor" },
+      { "label": "Bildung" },
+      { "label": "Logistik" },
+      { "label": "Alle ansehen..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "Ihre Marke, globale Präsenz und Sicherheit",
+    "whiteLabel": {
+      "eyebrow": "IHRE MARKE. IHR ERLEBNIS.",
+      "title": "White Label & Workspace",
+      "titleHighlight": "Exklusiv",
+      "description": "Personalisieren Sie die Plattform mit Ihrer Marke, Ihren Farben, Login-Bildschirm und eigener Domain.",
+      "imageAlt": "Personalisierte Plattform mit der Marke des Kunden (White Label)"
+    },
+    "global": {
+      "eyebrow": "GLOBALE PRÄSENZ.",
+      "title": "Bereit",
+      "titleHighlight": "für die Welt",
+      "description": "Interfy ist bereit, Unternehmen in mehr als 180 Ländern zu betreuen, mit Support in 16 Sprachen.",
+      "imageAlt": "Weltkarte, die die globale Präsenz von Interfy veranschaulicht"
+    },
+    "security": {
+      "eyebrow": "SICHERHEIT UND VERTRAUEN AN ERSTER STELLE.",
+      "title": "Sichere und zuverlässige Infrastruktur",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "Zugriffskontrolle" },
+        { "label": "Vollständiges Audit" },
+        { "label": "24/7-Verfügbarkeit" },
+        { "label": "Isolierung nach Workspace" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "Sicher, skalierbar und",
+    "headlineHighlight": "bereit zu wachsen.",
+    "featuresAriaLabel": "Sicherheit und Governance",
+    "features": [
+      { "label": "Berechtigungen pro Nutzer" },
+      { "label": "Geschützte Daten" },
+      { "label": "Isolierte Umgebung" },
+      { "label": "Audit und Nachvollziehbarkeit" },
+      { "label": "Cloud-Infrastruktur" },
+      { "label": "Hohe Verfügbarkeit" },
+      { "label": "Datenschutz und Governance" }
+    ],
+    "trustAriaLabel": "Vertrauen und Konformität",
+    "trustBadges": [
+      { "label": "Globales Unternehmen" },
+      { "label": "LGPD, DSGVO und ISO" },
+      { "label": "Verschlüsselte und geschützte Daten" },
+      { "label": "Globale Infrastruktur mit hoher Verfügbarkeit" },
+      { "label": "Internationale Zertifizierungen" },
+      { "label": "Kontinuierliche Updates" }
+    ],
+    "cta": {
+      "title": "Starten Sie jetzt mit Interfy.",
+      "description": "Erstellen Sie Ihr Konto, testen Sie die Plattform und erfahren Sie, wie Interfy den Betrieb Ihres Unternehmens transformieren kann.",
+      "ctaPrimary": "Kostenlos starten",
+      "ctaSecondary": "Demo vereinbaren"
+    }
+  }
+}

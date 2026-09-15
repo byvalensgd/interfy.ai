@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – AIによるドキュメント管理・プロセス管理・電子署名",
+    "description": "ドキュメント、プロセス、人、データ、コミュニケーションを1つのインテリジェントな環境でつなぐ、AIネイティブなエンタープライズプラットフォーム。",
+    "keywords": ["ドキュメント管理", "プロセス自動化", "電子署名", "AIネイティブプラットフォーム", "Interfy"]
+  },
+  "hero": {
+    "headline": "AIで業務を変革",
+    "headlineHighlight": "しましょう。",
+    "subheadline": "ドキュメント管理、プロセス自動化、インテリジェントキャプチャ、電子署名、コラボレーション、Mobileを1つのプラットフォームに。",
+    "signBadge": {
+      "brand": "Interfyは",
+      "text": "プラットフォームの全ユーザーに無料の電子署名を提供しています。"
+    },
+    "ctaPrimary": "7日間無料トライアル",
+    "ctaSecondary": "デモを予約する",
+    "slideshowAlt": "ノートパソコンとスマートフォンに表示されたInterfyプラットフォーム。AIによる管理画面を表示",
+    "availableVia": "ご利用可能な環境:",
+    "badges": [
+      { "alt": "Web Appでご利用可能" },
+      { "alt": "Google Playで手に入れよう" },
+      { "alt": "App Storeで手に入れよう" }
+    ],
+    "statsAriaLabel": "プラットフォームの強み",
+    "stats": [
+      { "label": "25,000+", "sublabel": "顧客" },
+      { "label": "180ヵ国以上" },
+      { "label": "16言語" },
+      { "label": "最高水準のセキュリティ" },
+      { "label": "AIネイティブ" },
+      { "label": "高可用性" },
+      { "label": "グローバルなコンプライアンス" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "AIをネイティブに搭載した",
+    "headlineHighlight": "エンタープライズプラットフォーム",
+    "description": "ドキュメント、プロセス、人、データ、コミュニケーションを1つのインテリジェントな環境に集約します。",
+    "descriptionBold": "すべてがつながり、すべてが統合されています。",
+    "statsAriaLabel": "Interfyプラットフォームの規模",
+    "stats": [
+      { "label": "2.5M+", "sublabel": "ユーザー" },
+      { "label": "12B+", "sublabel": "ドキュメント" },
+      { "label": "6M+", "sublabel": "プロセス" },
+      { "label": "1000TB+", "sublabel": "保存データ" },
+      { "label": "20M+", "sublabel": "署名件数" },
+      { "label": "99.99%", "sublabel": "稼働率" },
+      { "label": "24/7", "sublabel": "サポート" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["インテリジェントに整理", "して見つける"] },
+        { "descriptionLines": ["フロー、承認、", "タスクを作成"] },
+        { "descriptionLines": ["自然な言葉で", "プラットフォームと対話"] },
+        { "descriptionLines": ["デジタル化、認識、", "データ抽出"] },
+        { "descriptionLines": ["ユーザーを理解し", "サポートするAI"] },
+        { "descriptionLines": ["法的効力のある", "ドキュメント署名"] },
+        { "descriptionLines": ["チームとコラボレーション", "し、対話する"] },
+        { "descriptionLines": ["業務を", "手のひらの上に"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "業務のための",
+    "headlineSuffix": "完全なエコシステム",
+    "items": [
+      { "description": "ドキュメントと情報のインテリジェントな管理" },
+      { "description": "プロセスとタスクのインテリジェントな自動化" },
+      { "description": "AIによるドキュメントのインテリジェントなキャプチャ" },
+      { "description": "全ユーザー向けの無料の電子署名" },
+      { "description": "業務と連携したコラボレーションとコミュニケーション" },
+      { "description": "業務全体を手のひらの上に" },
+      { "description": "分析、判断、実行を行うAIエージェント" },
+      { "description": "自然言語とAIによる音声インタラクション" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "なぜ",
+    "headlineHighlight": "Interfy AIを選ぶのか?",
+    "items": [
+      { "title": "AIネイティブ", "description": "すべての中心にインテリジェンスがある" },
+      { "title": "100% Web", "description": "どこからでも、どのデバイスからでもアクセス" },
+      { "title": "顧客専用のワークスペース", "description": "完全なプライバシーを保った独立したデータ" },
+      { "title": "White Label", "description": "貴社のブランド、貴社の体験" },
+      { "title": "API連携", "description": "既存システムとつながる" },
+      { "title": "監査と追跡性", "description": "完全かつ安全な履歴管理" },
+      { "title": "グローバルなスケーラビリティ", "description": "どの国でも、限界なく成長" },
+      { "title": "AWSクラウド上のセキュリティ", "description": "堅牢で信頼性の高いインフラ" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "インテリジェントキャプチャとAIエージェント",
+    "capture": {
+      "eyebrow": "AIで、どこからでもすべてをキャプチャ。",
+      "headingSuffix": "を理解し、届けるインテリジェントな仕組み",
+      "description": "Interfyは特別な業務、拠点、地域に合わせて貴社のブランドで運用することもできます。",
+      "checklist": [
+        "業務用スキャナーまたはモバイルで対応。",
+        "AIによるテキスト・データの認識。",
+        "ドキュメントの自動分類。",
+        "インテリジェントなインデックス化とデータ拡張。",
+        "ドキュメントとプロセスへの直接送信。"
+      ],
+      "imageAlt": "スキャナーとモバイルによるドキュメントキャプチャ。AIによるデータ認識を実施"
+    },
+    "agents": {
+      "eyebrow": "理解し、実行し、応答するAI。",
+      "headingPrefix": "これまでにない",
+      "headingSuffix": "方法でプラットフォームと対話",
+      "description": "インテリジェントエージェントと音声コマンドを使って、作成、検索、要約、承認などを行えます。",
+      "videoAriaLabel": "InterfyのAIアシスタント",
+      "chatDemo": {
+        "message1": "署名待ちの契約書を表示して",
+        "message2Line1": "署名待ちの契約書が15件見つかりました。",
+        "message2Line2": "表示しますか?",
+        "voiceAlt": "音声コマンド"
+      }
+    }
+  },
+  "segments": {
+    "headline": "さまざまな業種に対応する",
+    "headlineHighlight": "ソリューション",
+    "items": [
+      { "label": "金融" },
+      { "label": "ヘルスケア" },
+      { "label": "法務" },
+      { "label": "製造業" },
+      { "label": "行政" },
+      { "label": "教育" },
+      { "label": "物流" },
+      { "label": "すべて見る..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "貴社のブランド、グローバルな展開、セキュリティ",
+    "whiteLabel": {
+      "eyebrow": "貴社のブランド。貴社の体験。",
+      "title": "White Label & 専用",
+      "titleHighlight": "ワークスペース",
+      "description": "ブランド、カラー、ログイン画面、独自ドメインでプラットフォームをカスタマイズできます。",
+      "imageAlt": "顧客ブランドでカスタマイズされたプラットフォーム(White Label)"
+    },
+    "global": {
+      "eyebrow": "グローバルな展開。",
+      "title": "世界に対応する",
+      "titleHighlight": "準備は万全",
+      "description": "Interfyは180ヵ国以上の企業に対応し、16言語をサポートしています。",
+      "imageAlt": "Interfyのグローバル展開を示す世界地図"
+    },
+    "security": {
+      "eyebrow": "セキュリティと信頼を最優先に。",
+      "title": "安全で信頼できるインフラ",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "アクセス制御" },
+        { "label": "完全な監査" },
+        { "label": "24時間365日の可用性" },
+        { "label": "ワークスペースごとの分離" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "安全でスケーラブル、",
+    "headlineHighlight": "成長に対応する基盤。",
+    "featuresAriaLabel": "セキュリティとガバナンス",
+    "features": [
+      { "label": "ユーザーごとの権限管理" },
+      { "label": "保護されたデータ" },
+      { "label": "分離された環境" },
+      { "label": "監査と追跡性" },
+      { "label": "クラウドインフラ" },
+      { "label": "高可用性" },
+      { "label": "プライバシーとガバナンス" }
+    ],
+    "trustAriaLabel": "信頼とコンプライアンス",
+    "trustBadges": [
+      { "label": "グローバル企業" },
+      { "label": "LGPD、GDPR、ISO" },
+      { "label": "暗号化・保護されたデータ" },
+      { "label": "高可用性のグローバルインフラ" },
+      { "label": "国際的な認証" },
+      { "label": "継続的なアップデート" }
+    ],
+    "cta": {
+      "title": "今すぐInterfyを始めましょう。",
+      "description": "アカウントを作成し、プラットフォームを試して、Interfyが貴社の業務をどのように変革できるかをご確認ください。",
+      "ctaPrimary": "無料で始める",
+      "ctaSecondary": "デモを予約する"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – 由AI驱动的文档管理、流程自动化与电子签名",
+    "description": "AI原生的企业级平台,将文档、流程、人员、数据与沟通整合于同一智能环境中。",
+    "keywords": ["文档管理", "流程自动化", "电子签名", "AI原生平台", "Interfy"]
+  },
+  "hero": {
+    "headline": "用AI重塑您的业务运营",
+    "headlineHighlight": "AI.",
+    "subheadline": "文档管理、流程自动化、智能采集、电子签名、协作与移动办公,尽在一个平台。",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "为所有平台用户提供免费电子签名服务。"
+    },
+    "ctaPrimary": "免费试用7天",
+    "ctaSecondary": "预约演示",
+    "slideshowAlt": "Interfy平台在笔记本电脑和智能手机上的展示,显示AI管理面板",
+    "availableVia": "可通过以下方式使用:",
+    "badges": [
+      { "alt": "支持Web应用" },
+      { "alt": "支持Google Play下载" },
+      { "alt": "支持App Store下载" }
+    ],
+    "statsAriaLabel": "平台优势",
+    "stats": [
+      { "label": "25,000 +", "sublabel": "客户" },
+      { "label": "覆盖180+国家" },
+      { "label": "支持16种语言" },
+      { "label": "领先的安全保障" },
+      { "label": "AI原生" },
+      { "label": "高可用性" },
+      { "label": "全球合规" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "一个AI原生的",
+    "headlineHighlight": "企业级平台",
+    "description": "将文档、流程、人员、数据与沟通整合于同一智能环境中。",
+    "descriptionBold": "一切互联,一切集成。",
+    "statsAriaLabel": "Interfy平台的规模",
+    "stats": [
+      { "label": "2.5M +", "sublabel": "用户" },
+      { "label": "12B +", "sublabel": "文档" },
+      { "label": "6M +", "sublabel": "流程" },
+      { "label": "1000TB +", "sublabel": "存储容量" },
+      { "label": "20M +", "sublabel": "签名" },
+      { "label": "99.99%", "sublabel": "正常运行时间" },
+      { "label": "24/7", "sublabel": "支持服务" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["智能组织", "轻松查找"] },
+        { "descriptionLines": ["创建流程、审批", "与任务"] },
+        { "descriptionLines": ["以自然方式", "与平台对话"] },
+        { "descriptionLines": ["扫描、识别", "并提取数据"] },
+        { "descriptionLines": ["AI理解并", "支持用户"] },
+        { "descriptionLines": ["签署具有", "法律效力的文档"] },
+        { "descriptionLines": ["与团队协作", "并保持沟通"] },
+        { "descriptionLines": ["业务运营", "尽在掌中"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "完整的生态系统",
+    "headlineSuffix": "赋能您的业务",
+    "items": [
+      { "description": "智能化的文档与信息管理" },
+      { "description": "流程与任务的智能自动化" },
+      { "description": "由AI驱动的智能文档采集" },
+      { "description": "为所有用户提供免费电子签名" },
+      { "description": "与业务无缝连接的协作与沟通" },
+      { "description": "完整业务运营,尽在掌中" },
+      { "description": "分析、决策并执行的AI代理" },
+      { "description": "基于自然语言与AI的语音交互" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "为什么选择",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI原生", "description": "智能贯穿始终" },
+      { "title": "100%网页端", "description": "随时随地、任意设备访问" },
+      { "title": "客户专属工作空间", "description": "数据隔离,完全私密" },
+      { "title": "白标定制", "description": "您的品牌,您的体验" },
+      { "title": "API集成", "description": "连接您现有的系统" },
+      { "title": "审计与可追溯性", "description": "完整且安全的历史记录" },
+      { "title": "全球可扩展性", "description": "在任何国家不受限地发展" },
+      { "title": "AWS云端安全", "description": "稳健可靠的基础设施" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "智能采集与AI代理",
+    "capture": {
+      "eyebrow": "由AI驱动,随时随地采集一切。",
+      "headingSuffix": "智能采集,理解并交付",
+      "description": "Interfy可根据特殊业务、部门或地区,以您的品牌运营。",
+      "checklist": [
+        "专业扫描仪或移动端采集。",
+        "AI驱动的文本与数据识别。",
+        "文档自动分类。",
+        "智能索引与信息增强。",
+        "直接推送至文档与流程系统。"
+      ],
+      "imageAlt": "通过扫描仪和移动设备采集文档,并通过AI识别数据"
+    },
+    "agents": {
+      "eyebrow": "AI理解、执行并回应。",
+      "headingPrefix": "以前所未有的方式",
+      "headingSuffix": "与平台互动",
+      "description": "使用智能代理与语音指令,轻松创建、查找、汇总、审批,以及更多操作。",
+      "videoAriaLabel": "Interfy AI助手",
+      "chatDemo": {
+        "message1": "显示待签署的合同",
+        "message2Line1": "找到15份待签署的合同。",
+        "message2Line2": "需要查看吗?",
+        "voiceAlt": "语音指令"
+      }
+    }
+  },
+  "segments": {
+    "headline": "为不同行业提供",
+    "headlineHighlight": "定制解决方案",
+    "items": [
+      { "label": "金融" },
+      { "label": "医疗" },
+      { "label": "法律" },
+      { "label": "工业" },
+      { "label": "政府" },
+      { "label": "教育" },
+      { "label": "物流" },
+      { "label": "查看全部..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "您的品牌、全球布局与安全保障",
+    "whiteLabel": {
+      "eyebrow": "您的品牌。您的体验。",
+      "title": "白标与专属",
+      "titleHighlight": "工作空间",
+      "description": "通过您的品牌、色彩、登录页面与专属域名定制平台。",
+      "imageAlt": "以客户品牌定制的平台(白标)"
+    },
+    "global": {
+      "eyebrow": "全球布局。",
+      "title": "准备好",
+      "titleHighlight": "服务全球",
+      "description": "Interfy已准备好为180多个国家的企业提供服务,支持16种语言。",
+      "imageAlt": "展示Interfy全球布局的世界地图"
+    },
+    "security": {
+      "eyebrow": "安全与信任始终优先。",
+      "title": "安全可靠的基础设施",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "访问控制" },
+        { "label": "完整审计" },
+        { "label": "24/7可用性" },
+        { "label": "工作空间隔离" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "安全、可扩展",
+    "headlineHighlight": "为增长而生。",
+    "featuresAriaLabel": "安全与治理",
+    "features": [
+      { "label": "用户级权限管理" },
+      { "label": "数据保护" },
+      { "label": "隔离环境" },
+      { "label": "审计与可追溯性" },
+      { "label": "云基础设施" },
+      { "label": "高可用性" },
+      { "label": "隐私与治理" }
+    ],
+    "trustAriaLabel": "信任与合规",
+    "trustBadges": [
+      { "label": "全球化企业" },
+      { "label": "LGPD、GDPR与ISO认证" },
+      { "label": "数据加密与保护" },
+      { "label": "高可用的全球基础设施" },
+      { "label": "国际认证" },
+      { "label": "持续更新" }
+    ],
+    "cta": {
+      "title": "立即开启您的Interfy之旅。",
+      "description": "创建账户,体验平台,发现Interfy如何变革您企业的业务运营。",
+      "ctaPrimary": "免费开始",
+      "ctaSecondary": "预约演示"
+    }
+  }
+}

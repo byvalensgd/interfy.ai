@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Status Platformă",
+    "description": "Urmăriți în timp real disponibilitatea fiecărui produs Interfy și istoricul incidentelor platformei.",
+    "keywords": ["status Interfy", "disponibilitate Interfy", "uptime Interfy", "incidente Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introducere în statusul platformei",
+    "eyebrow": "Status Platformă",
+    "titleLine1": "Toate sistemele sunt",
+    "titleHighlight": "operaționale",
+    "description": "Disponibilitate în timp real pentru fiecare produs Interfy, cu istoric de incidente și SLA de uptime."
+  },
+  "list": {
+    "ariaLabel": "Status pe produs",
+    "heading": "Status pe produs",
+    "operationalLabel": "Operațional",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Istoric de incidente",
+    "incidentsEmpty": "Niciun incident înregistrat în ultimele 90 de zile."
+  },
+  "infra": {
+    "ariaLabel": "Infrastructura din spatele statusului platformei",
+    "heading": "Infrastructură de înaltă disponibilitate",
+    "subheading": "Arhitectură cloud-native 100% AWS, cu redundanță pe toate nivelurile.",
+    "items": [
+      { "label": "Multi-AZ pe toate nivelurile (aplicație și bază de date)" },
+      { "label": "CDN global (CloudFront) cu latență redusă" },
+      { "label": "Echilibrare automată a sarcinii" },
+      { "label": "Detectarea și prevenirea amenințărilor (GuardDuty)" },
+      { "label": "Monitorizare continuă (CloudWatch)" },
+      { "label": "Jurnale și traseu de audit (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Certificări și conformitate",
+      "ctaLabel": "Vedeți arhitectura completă de securitate",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Sistem de Management al Securității Informației certificat." },
+        { "label": "SOC 2 Type II", "description": "Controale de securitate, disponibilitate și confidențialitate.", "badge": "În desfășurare" },
+        { "label": "LGPD", "description": "Conformă cu Legea Generală de Protecție a Datelor (Brazilia)." },
+        { "label": "GDPR", "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)." },
+        { "label": "HIPAA Ready", "description": "Pregătită pentru medii care gestionează ePHI în SUA.", "badge": "BAA disponibil" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Începeți să utilizați Interfy",
+    "heading": "Fiabilitate de nivel enterprise",
+    "subheading": "Infrastructură AWS globală, criptare AES-256/TLS 1.2+ și SLA de disponibilitate de 99,99%.",
+    "primaryButton": "Începeți gratuit",
+    "secondaryButton": "Programați o demonstrație",
+    "statsLabel": "Indicatori de fiabilitate",
+    "stats": [
+      { "label": "99,99%", "sublabel": "Uptime SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Criptare" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Compliance" }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: vorbește cu operațiunea ta prin comenzi vocale. Interogări, procese, rapoarte și Agents activate în mod natural, cu securitate și guvernanță la fiecare interacțiune.",
+    "keywords": ["comenzi vocale", "asistent vocal corporativ", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Test Drive gratuit timp de 7 zile, fără card de credit."
+  },
+  "hero": {
+    "heading": "Vorbește cu",
+    "headingHighlight": "operațiunea ta.",
+    "description": "Tu ceri. Interfy înțelege. Agents execută.",
+    "ctaPrimary": "Test Drive Gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "imageAlt": "Interfy Voice afișat pe tabletă și smartphone, arătând comenzi vocale executate în platformă",
+    "highlights": [
+      { "label": "Vorbește natural" },
+      { "label": "AI care înțelege și execută" },
+      { "label": "Sigur și de încredere" },
+      { "label": "Disponibil oriunde" }
+    ],
+    "platformCards": [
+      {
+        "title": "Folosește-l pe desktop",
+        "description": "Integrare completă cu aplicația web. Activează-l prin butonul de voce sau scurtătura de tastatură și începe să vorbești."
+      },
+      {
+        "title": "Folosește-l pe Mobile",
+        "description": "Disponibil în aplicația Interfy Mobile. Vorbește, interoghează, aprobă și gestionează totul din palma mâinii."
+      },
+      {
+        "title": "Securitate și permisiuni",
+        "description": "Acces controlat prin permisiuni. Vocea, datele și operațiunile tale sunt mereu protejate."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Ce poți face cu",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Interacțiune prin voce",
+        "description": "Vorbește natural și interacționează cu întreaga platformă folosind doar vocea ta."
+      },
+      {
+        "title": "Limbaj natural",
+        "description": "AI înțelege ce spui, chiar și în fraze complete și spontane."
+      },
+      {
+        "title": "Căutare prin voce",
+        "description": "Găsește documente, procese, informații și multe altele cu o simplă întrebare."
+      },
+      {
+        "title": "Crearea de procese",
+        "description": "Creează procese complete doar descriind ce ai nevoie."
+      },
+      {
+        "title": "Crearea de formulare",
+        "description": "Generează formulare inteligente cu câmpuri, reguli și validări în câteva secunde."
+      },
+      {
+        "title": "Interogarea documentelor",
+        "description": "Întreabă despre documente și primește răspunsuri rapide și precise."
+      },
+      {
+        "title": "Generarea de rapoarte",
+        "description": "Solicită rapoarte personalizate și primești analize și insights instantaneu."
+      },
+      {
+        "title": "Activarea Agents",
+        "description": "Activează agenți inteligenți pentru a executa sarcini și a aduce rezultate automat."
+      },
+      {
+        "title": "Comenzi operaționale",
+        "description": "Execută acțiuni, actualizări și operațiuni în platformă prin comenzi vocale."
+      },
+      {
+        "title": "Confirmare pentru acțiuni sensibile",
+        "description": "Acțiunile critice cer întotdeauna confirmare vocală pentru a garanta securitatea."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Complet conectat la",
+    "headingHighlight": "ecosistemul Interfy",
+    "items": [
+      { "description": "Interoghează și interacționează cu documente" },
+      { "description": "Creează și gestionează procese prin voce" },
+      { "description": "Capturează documente și extrage informații" },
+      { "description": "Trimite spre semnare și urmărește statusul" },
+      { "description": "Conversează și colaborează prin voce" },
+      { "description": "Activează Agents și primește rezultate" },
+      { "description": "Interacțiune centrală prin voce" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Guvernanță, securitate și AI Credits ale Interfy Voice",
+    "governance": {
+      "title": "Guvernanță și securitate",
+      "titleAccent": "pe primul loc",
+      "items": [
+        "Date protejate prin criptare de la un capăt la altul",
+        "Permisiuni granulare pe agent și pe utilizator",
+        "Jurnal de audit al tuturor interacțiunilor vocale",
+        "Conformitate cu LGPD, ISO 27001, SOC 2 și altele",
+        "Date protejate la cele mai înalte standarde de securitate"
+      ],
+      "cta": "Vezi detalii"
+    },
+    "credits": {
+      "title": "Consum transparent cu",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice folosește AI Credits pentru a procesa comenzi, interogări, analize și execuții.",
+      "features": [
+        { "label": "Credite incluse în toate planurile" },
+        { "label": "Monitorizare în timp real" },
+        { "label": "Cumpără credite suplimentare când ai nevoie" }
+      ],
+      "cta": "Vezi detalii",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "disponibile"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy Voice",
+    "heading": "Vorbește cu operațiunea ta.",
+    "subheading": "Simplu, rapid și inteligent.",
+    "primaryButton": "Test Drive Gratuit timp de 7 zile",
+    "secondaryButton": "Programează Demonstrație",
+    "statsLabel": "Cifrele platformei Interfy",
+    "stats": [
+      { "label": "12Mld +", "sublabel": "documente" },
+      { "label": "20M +", "sublabel": "semnături" },
+      { "label": "2,5M +", "sublabel": "utilizatori" },
+      { "label": "6M +", "sublabel": "procese" },
+      { "label": "1000 TB +", "sublabel": "stocați" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "suport" }
+    ]
+  }
+}

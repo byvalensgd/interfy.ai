@@ -1,0 +1,69 @@
+{
+  "description": "Platformă enterprise AI-native care conectează documente, procese, oameni, date și comunicare într-un singur mediu inteligent.",
+  "group": {
+    "prefix": "O platformă a",
+    "brand": "Interfy Corporation",
+    "middle": "Descoperă grupul:",
+    "linkLabel": "www.interfycorp.com"
+  },
+  "location": "Orlando, Florida - USA",
+  "columns": [
+    {
+      "title": "Produse",
+      "links": [
+        { "label": "Documents" },
+        { "label": "Process" },
+        { "label": "Capture" },
+        { "label": "Sign" },
+        { "label": "Connect" },
+        { "label": "Agents" },
+        { "label": "Mobile" },
+        { "label": "Voice" }
+      ]
+    },
+    {
+      "title": "Resurse",
+      "links": [
+        { "label": "Segmente" },
+        { "label": "AI Credite" },
+        { "label": "Integrări & API" },
+        { "label": "Studii de Caz" },
+        { "label": "Status Platformă" }
+      ]
+    },
+    {
+      "title": "Companie",
+      "links": [
+        { "label": "Despre Interfy" },
+        { "label": "Platforma Interfy" },
+        { "label": "Test Drive" },
+        { "label": "Parteneri (Private Label)" },
+        { "label": "Blog / Conținut" }
+      ]
+    },
+    {
+      "title": "Legal & Suport",
+      "links": [
+        { "label": "Termeni și Condiții" },
+        { "label": "Politica de Confidențialitate" },
+        { "label": "LGPD / GDPR" },
+        { "label": "Securitate" },
+        { "label": "Suport" },
+        { "label": "Contact" }
+      ]
+    }
+  ],
+  "globalLine": "O platformă globală, prezentă în peste 180 de țări",
+  "regionsIntro": "Cu pagini comerciale specifice pentru:",
+  "regions": ["Statele Unite", "Europa", "America Latină", "Brazilia", "Asia", "Africa"],
+  "trustItems": [
+    { "title": "Securitate Enterprise", "description": "Criptare AES-256 / TLS 1.3" },
+    { "title": "Infrastructură AWS Global", "description": "Disponibilitate ridicată și scalabilitate" },
+    { "title": "Compliance Global", "description": "LGPD, GDPR și ISO 27001" },
+    { "title": "99,98% Uptime SLA", "description": "Monitorizare 24/7" }
+  ],
+  "copyright": {
+    "brand": "Interfy Corporation",
+    "suffix": "© {year}. Toate drepturile rezervate."
+  }
+}

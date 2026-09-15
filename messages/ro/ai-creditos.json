@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI Credite",
+    "description": "Un singur sold de AI Credite pentru toată inteligența platformei Interfy.ai. Simplu, transparent și puternic — folosește-l în Documents, Process, Capture, Agents, Voice și multe altele.",
+    "keywords": ["AI Credite", "credite de inteligență artificială", "planuri de AI", "consum de credite Interfy"]
+  },
+  "hero": {
+    "headingLine1": "Un singur sold de",
+    "headingHighlight": "AI Credite ",
+    "headingSuffix": "pentru toată inteligența platformei.",
+    "description1": "AI Creditele sunt moneda de inteligență a Interfy.ai.",
+    "description2": "Simplă, transparentă și puternică.",
+    "ctaPrimary": "Începe acum",
+    "ctaSecondary": "Programează o demonstrație",
+    "bannerAriaLabel": "De ce să alegi AI Creditele",
+    "banner": [
+      { "title": "Simplu", "description": "Un singur sold pentru întreaga platformă." },
+      { "title": "Transparent", "description": "Controlezi, monitorizezi și primești alerte." },
+      { "title": "Puternic", "description": "Alimentează agenți, automatizări, analize și multe altele." }
+    ],
+    "strip": {
+      "heading": "Un singur sold. Toate inteligențele.",
+      "description": "Fără credite separate. Fără complicații.",
+      "ariaLabel": "Beneficiile soldului unic de AI Credite",
+      "items": [
+        { "label": "Mai multă productivitate" },
+        { "label": "Decizii mai bune" },
+        { "label": "Mai puțină muncă manuală" },
+        { "label": "Mai multe rezultate" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "Unde pot fi folosite ",
+    "headingHighlight": "AI Creditele ",
+    "headingSuffix": "",
+    "ariaLabel": "Produse care folosesc AI Credite",
+    "items": [
+      { "title": "Documents", "description": "Citire inteligentă, rezumat, extragere de date, Q&A, traducere și analiză." },
+      { "title": "Process", "description": "Decizii inteligente, execuție automată, clasificare și direcționare." },
+      { "title": "Capture", "description": "OCR avansat, extragere structurată, validare și indexare inteligentă." },
+      { "title": "Agents", "description": "Execuție de sarcini, analiză, recomandări, integrări și acțiuni." },
+      { "title": "Voice", "description": "Interacțiune prin voce, căutare inteligentă, comenzi și răspunsuri în limbaj natural." },
+      { "title": "Și multe altele", "description": "Perspective, predicții, comparații, rapoarte și alte operațiuni AI." }
+    ],
+    "notice": {
+      "title": "Consumul variază în funcție de tipul, complexitatea și volumul fiecărei operațiuni.",
+      "description": "Procesele mai complexe consumă mai multe AI Credite."
+    }
+  },
+  "structure": {
+    "headingPrefix": "O structură completă ",
+    "headingHighlight": "ca să crești",
+    "ariaLabel": "Funcționalități de gestionare a AI Creditelor",
+    "items": [
+      { "title": "Control per Workspace", "description": "Fiecare Workspace are propriul sold, propriile limite și permisiuni." },
+      { "title": "Limite și permisiuni", "description": "Setează limite lunare și controale pe profil, echipă sau departament." },
+      { "title": "Rapoarte detaliate", "description": "Vezi consumul pe modul, utilizator, operațiune și perioadă." },
+      { "title": "Alerte inteligente", "description": "Primește alerte de consum, apropiere de limită și sold scăzut." },
+      { "title": "Achiziție suplimentară", "description": "Ai nevoie de mai mult? Fă upgrade sau cumpără AI Credite suplimentare." }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "Planuri de ",
+    "headingHighlight": "AI Credite",
+    "headingSuffix": " - cumpără doar ce ai nevoie",
+    "table": {
+      "ariaLabel": "Tabel cu planurile de AI Credite",
+      "colPlan": "Plan",
+      "colCredits": "AI Credite",
+      "colPrice": "Preț",
+      "colPricePer1000": "Preț per 1.000 de credite",
+      "footnote": "Valori fără taxe. Consultă condițiile."
+    },
+    "consumption": {
+      "heading": "Exemple de consum",
+      "items": [
+        { "title": "Citire și rezumat de document (10 pagini)", "credits": "5 AI Credite" },
+        { "title": "Extragere de date din document (1 pagină)", "credits": "3 AI Credite" },
+        { "title": "Clasificare inteligentă de document", "credits": "2 AI Credite" },
+        { "title": "Execuție Agent (sarcină medie)", "credits": "10 AI Credite" },
+        { "title": "Întrebare prin Voice (medie)", "credits": "2 AI Credite" },
+        { "title": "Raport inteligent (mediu)", "credits": "15 AI Credite" },
+        { "title": "Traducere de document (1 pagină)", "credits": "4 AI Credite" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "Întrebări frecvente și pași următori",
+    "faqHeading": "Întrebări frecvente",
+    "faqAriaExpand": "Extinde răspunsul",
+    "faq": [
+      {
+        "question": "Ce sunt AI Creditele?",
+        "answer": "AI Creditele sunt moneda unică de inteligență artificială a Interfy.ai. Fiecare operațiune care folosește AI — citire, extragere, clasificare, execuție de agenți și multe altele — consumă o cantitate de credite în funcție de complexitatea sarcinii."
+      },
+      {
+        "question": "Pot partaja AI Credite între Workspace-uri?",
+        "answer": "Nu. Fiecare Workspace are propriul sold de AI Credite, cu limite și permisiuni independente, asigurând control total asupra consumului fiecărui departament sau echipă."
+      },
+      {
+        "question": "Pot cumpăra credite suplimentare oricând?",
+        "answer": "Da. Poți achiziționa pachete de AI Credite suplimentare oricând dorești, direct din platformă, fără să fie nevoie să schimbi planul."
+      },
+      {
+        "question": "AI Creditele expiră?",
+        "answer": "Creditele incluse în planul tău se reînnoiesc la fiecare ciclu de facturare. Pachetele suplimentare achiziționate respectă condițiile contractate — consultă echipa noastră pentru mai multe detalii."
+      },
+      {
+        "question": "Cum se calculează consumul?",
+        "answer": "Consumul variază în funcție de tipul, complexitatea și volumul fiecărei operațiuni. Sarcinile simple, precum clasificarea, consumă mai puține credite; procesele mai complexe, precum execuția de agenți, consumă mai multe."
+      },
+      {
+        "question": "AI Creditele sunt incluse în planuri?",
+        "answer": "Da. Toate planurile Interfy.ai includ un sold de AI Credite pentru procesare inteligentă. Dacă ai nevoie de mai mult, poți cumpăra credite suplimentare oricând."
+      }
+    ],
+    "specialistTitle": "Ai rămas cu întrebări?",
+    "specialistDesc": "Discută cu echipa noastră și află cum AI Creditele pot accelera rezultatele tale.",
+    "specialistCta": "Vorbește cu un specialist",
+    "ctaTitle": "Gata să îți transformi operațiunea?",
+    "ctaDesc": "Alătură-te miilor de companii care au deja încredere în Interfy.ai.",
+    "ctaButton": "Începe acum",
+    "statsLabel": "Cifrele platformei Interfy"
+  }
+}

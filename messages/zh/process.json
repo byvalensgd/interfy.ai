@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process 让您借助 AI 创建可视化流程、智能表单和强大的自动化功能,让每个环节都更敏捷、更可控、更高效。",
+    "keywords": ["流程自动化", "BPM", "企业工作流", "智能表单", "Interfy Process"],
+    "freeTrialNote": "免费试用 7 天,无需信用卡"
+  },
+  "hero": {
+    "titlePrefix": "创建、自动化并重塑流程,",
+    "titleHighlight": "借助 AI。",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": " 让您创建可视化流程、智能表单和强大的 AI 自动化功能,让每个环节都更敏捷、更可控、更高效。",
+    "ctaPrimary": "免费试用",
+    "ctaSecondary": "预约演示",
+    "mockupAlt": "平板电脑和智能手机上展示的 Interfy Process 平台,显示流程可视化设计和任务列表",
+    "stats": [
+      { "label": "600 万+", "sublabel": "已自动化流程" },
+      { "label": "25,000+", "sublabel": "客户" },
+      { "label": "250 万+", "sublabel": "活跃用户" },
+      { "label": "100% 网页端", "sublabel": "随时随地访问" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "为您的业务打造",
+    "headingHighlight": "全面自动化",
+    "items": [
+      { "title": "可视化流程创建", "description": "通过拖拽式可视化设计工具,简单直观地搭建流程。" },
+      { "title": "AI 创建流程", "description": "描述您的需求,AI 会在几秒内为您创建理想的流程。" },
+      { "title": "自动生成表单", "description": "AI 根据流程自动生成带有智能字段的完整表单。" },
+      { "title": "智能表单", "description": "条件字段、自动验证和计算功能,减少错误和返工。" },
+      { "title": "审批", "description": "灵活的审批流程,支持多级并行或条件审批。" },
+      { "title": "任务", "description": "分配、跟踪和管理任务,设定期限、优先级和负责人。" },
+      { "title": "业务规则", "description": "通过自定义规则和高级条件,自动化决策与操作。" },
+      { "title": "SLA", "description": "设定服务期限与协议,配合自动监控和提醒。" },
+      { "title": "提醒与通知", "description": "通过邮件、推送或平台内通知,让所有人保持同步。" },
+      { "title": "实时仪表盘", "description": "通过动态、实时更新的可视化仪表盘跟踪运营情况。" },
+      { "title": "指标与度量", "description": "自定义指标,衡量绩效、瓶颈和生产力。" },
+      { "title": "外部参与", "description": "安全可控地让客户、供应商和合作伙伴参与流程。" },
+      { "title": "移动端流程", "description": "通过 Interfy Mobile 应用,随时随地执行、审批和跟踪流程。" },
+      { "title": "现成模板", "description": "涵盖各行业的流程模板库,即用即取。" },
+      { "title": "智能体自动化", "description": "AI 智能体自动执行任务、分析数据并采取智能行动。" },
+      { "title": "原生集成", "description": "与 Interfy Documents、Capture 和 Sign 完全集成,实现 100% 连续的工作流。" }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "与",
+    "headingHighlight": "Interfy 生态系统原生集成",
+    "description": "选择您的行业,了解 Interfy AI 如何将挑战转化为真实成果。",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "让流程随手可及文档与信息。" },
+      { "description": "智能采集与数据提取。" },
+      { "description": "智能流程与自动化。" },
+      { "description": "与流程无缝集成的电子签名。" },
+      { "description": "实时协作与沟通。" },
+      { "description": "能分析、决策并执行的 AI 智能体。" }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "平台优势",
+    "items": [
+      { "title": "统一平台", "description": "无需按行业配置不同版本" },
+      { "title": "100% 可定制", "description": "根据您的业务灵活配置" },
+      { "title": "快速部署", "description": "几分钟内即可上手,无需复杂配置" },
+      { "title": "企业级安全", "description": "数据保护与隔离环境" },
+      { "title": "全行业 AI 赋能", "description": "理解业务场景的智能体" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "成果与适用的流程类型",
+    "practiceTitlePrefix": "看得见的",
+    "practiceTitleHighlight": "实际成果",
+    "checklist": [
+      "减少返工,提升标准化程度",
+      "流程更快、更高效",
+      "降低运营成本",
+      "全面透明,可追溯",
+      "借助数据和指标做出更好的决策",
+      "提升客户、团队与合作伙伴的满意度"
+    ],
+    "chartTitle": "已完成请求数",
+    "chartAriaLabel": "折线图显示 1 月至 6 月已完成请求数量的增长,增幅达 32%",
+    "chartMonths": ["1月", "2月", "3月", "4月", "5月", "6月"],
+    "typesTitlePrefix": "适用于所有",
+    "typesTitleHighlight": "类型的流程",
+    "processTypes": [
+      { "label": "行政管理" },
+      { "label": "财务" },
+      { "label": "采购" },
+      { "label": "人力资源" },
+      { "label": "法务" },
+      { "label": "商务" },
+      { "label": "运营" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy Process",
+    "title": "准备好重塑您的运营了吗?",
+    "description": "立即开始 7 天免费试用,了解 Interfy Process 如何推动您的企业发展。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "statsLabel": "Interfy Process 的优势",
+    "features": [
+      { "label": "100% 网页端", "sublabel": "随时随地访问" },
+      { "label": "顶级安全", "sublabel": "数据受保护且合规" },
+      { "label": "可扩展", "sublabel": "从小型到大型企业均适用" },
+      { "label": "24/7 支持", "sublabel": "随时为您服务" }
+    ]
+  }
+}

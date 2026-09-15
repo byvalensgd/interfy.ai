@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: 声で業務に指示を出せます。問い合わせ、プロセス、レポート、Agentsの起動を自然な会話で実行しながら、すべてのやり取りにセキュリティとガバナンスを確保します。",
+    "keywords": ["音声コマンド", "業務用音声アシスタント", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "7日間無料トライアル、クレジットカード不要。"
+  },
+  "hero": {
+    "heading": "声で話しかける、",
+    "headingHighlight": "あなたの業務に。",
+    "description": "あなたが伝えれば、Interfyが理解し、Agentsが実行します。",
+    "ctaPrimary": "7日間無料トライアルを試す",
+    "ctaSecondary": "デモを予約する",
+    "imageAlt": "タブレットとスマートフォンに表示されたInterfy Voice。プラットフォーム上で音声コマンドが実行される様子を表示",
+    "highlights": [
+      { "label": "自然に話しかけるだけ" },
+      { "label": "理解して実行するAI" },
+      { "label": "安全で信頼できる" },
+      { "label": "どこでも利用可能" }
+    ],
+    "platformCards": [
+      {
+        "title": "デスクトップで利用",
+        "description": "Webアプリと完全に連携。ボタンや音声、またはショートカットキーで起動し、話しかけるだけです。"
+      },
+      {
+        "title": "Mobileで利用",
+        "description": "Interfy Mobileアプリでも利用可能。話しかけるだけで、確認、承認、管理までできます。"
+      },
+      {
+        "title": "セキュリティと権限管理",
+        "description": "権限によってアクセスを制御。あなたの声、データ、業務は常に保護されます。"
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "できることは",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "音声による操作",
+        "description": "声だけで、プラットフォーム全体に自然に話しかけて操作できます。"
+      },
+      {
+        "title": "自然言語での対応",
+        "description": "自然な会話や自由な言い回しでも、AIが内容を理解します。"
+      },
+      {
+        "title": "音声による検索",
+        "description": "簡単な質問だけで、文書、プロセス、情報などを見つけられます。"
+      },
+      {
+        "title": "プロセスの作成",
+        "description": "必要な内容を説明するだけで、完全なプロセスを作成できます。"
+      },
+      {
+        "title": "フォームの作成",
+        "description": "項目、ルール、検証を備えたスマートフォームを数秒で生成します。"
+      },
+      {
+        "title": "文書への問い合わせ",
+        "description": "文書について質問すれば、迅速かつ正確な回答が得られます。"
+      },
+      {
+        "title": "レポートの生成",
+        "description": "カスタムレポートを依頼すれば、分析とインサイトを即座に受け取れます。"
+      },
+      {
+        "title": "Agentsの起動",
+        "description": "インテリジェントなエージェントを起動し、タスクを実行して結果を自動で得ます。"
+      },
+      {
+        "title": "業務コマンド",
+        "description": "音声コマンドでプラットフォーム上のアクション、更新、操作を実行します。"
+      },
+      {
+        "title": "重要操作の確認",
+        "description": "重要なアクションには常に音声での確認を求め、安全性を確保します。"
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Interfyエコシステムと",
+    "headingHighlight": "完全に連携",
+    "items": [
+      { "description": "文書を確認し、対話できます" },
+      { "description": "音声でプロセスを作成・管理できます" },
+      { "description": "文書をキャプチャし、情報を抽出できます" },
+      { "description": "署名を依頼し、状況を確認できます" },
+      { "description": "音声で会話し、共同作業ができます" },
+      { "description": "Agentsを起動し、結果を受け取れます" },
+      { "description": "音声を中心とした一元的な操作" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Interfy Voiceのガバナンス、セキュリティおよびAI Credits",
+    "governance": {
+      "title": "ガバナンスとセキュリティを",
+      "titleAccent": "最優先に",
+      "items": [
+        "エンドツーエンド暗号化によるデータ保護",
+        "エージェントおよびユーザー単位の細かな権限管理",
+        "すべての音声操作を記録する監査証跡",
+        "LGPD、ISO 27001、SOC 2などへの準拠",
+        "最高水準のセキュリティ基準によるデータ保護"
+      ],
+      "cta": "詳細を見る"
+    },
+    "credits": {
+      "title": "透明性の高い消費管理、",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voiceは、コマンド、問い合わせ、分析、実行の処理にAI Creditsを使用します。",
+      "features": [
+        { "label": "すべてのプランにクレジットが含まれます" },
+        { "label": "リアルタイムでの利用状況確認" },
+        { "label": "必要なときに追加クレジットを購入" }
+      ],
+      "cta": "詳細を見る",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "利用可能"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Interfy Voiceを使い始める",
+    "heading": "声で業務に話しかけましょう。",
+    "subheading": "シンプルで、速く、インテリジェント。",
+    "primaryButton": "7日間無料トライアルを試す",
+    "secondaryButton": "デモを予約する",
+    "statsLabel": "Interfyプラットフォームの実績",
+    "stats": [
+      { "label": "120億+", "sublabel": "件の文書" },
+      { "label": "2,000万+", "sublabel": "件の署名" },
+      { "label": "250万+", "sublabel": "人のユーザー" },
+      { "label": "600万+", "sublabel": "件のプロセス" },
+      { "label": "1,000TB+", "sublabel": "の保存容量" },
+      { "label": "99.99%", "sublabel": "の稼働率" },
+      { "label": "24時間365日", "sublabel": "のサポート" }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Erfolgsgeschichten",
+    "description": "Typische Ergebnisse, die Unternehmen aus verschiedenen Branchen mit der Interfy-Plattform für Dokumente, Prozesse und KI erzielen.",
+    "keywords": ["Interfy Erfolgsgeschichten", "Interfy Ergebnisse", "Erfolgsgeschichten Dokumentenmanagement", "ROI Prozessautomatisierung"]
+  },
+  "hero": {
+    "ariaLabel": "Einführung zu den Erfolgsgeschichten",
+    "eyebrow": "Erfolgsgeschichten",
+    "titleLine1": "Echte Ergebnisse in",
+    "titleHighlight": "verschiedenen Branchen",
+    "description": "Ein Überblick über die Erfolge, die Unternehmen wie Ihres erzielen, wenn sie Dokumente, Prozesse und KI in einer einzigen Plattform vereinen."
+  },
+  "grid": {
+    "ariaLabel": "Ergebnisse nach Branche",
+    "heading": "Was unsere Kunden erreichen",
+    "illustrativeNote": "Beispielhafte Ergebnisse auf Basis von Durchschnittswerten der Interfy-Kunden in jeder Branche. Fordern Sie eine Analyse an, um die Auswirkung auf Ihr Szenario zu schätzen.",
+    "complianceNote": "Ergebnisse erzielt auf einer nach ISO/IEC 27001:2022 zertifizierten Infrastruktur mit einem SLA von 99,99 % Verfügbarkeit und LGPD/DSGVO-Konformität.",
+    "items": [
+      {
+        "segment": "Finanzinstitute",
+        "description": "Digitalisierung von Verträgen und Automatisierung von Kreditlinien mit vollständiger Audit-Trail.",
+        "metricValue": "-45 %",
+        "metricLabel": "durchschnittliche Kreditprüfungszeit"
+      },
+      {
+        "segment": "Gesundheitswesen",
+        "description": "Zentralisierte Patientenakten und Befunde mit elektronischer Signatur, integriert in den Behandlungsablauf.",
+        "metricValue": "-60 %",
+        "metricLabel": "Zeit für die Dokumentenablage"
+      },
+      {
+        "segment": "Recht",
+        "description": "Vertrags- und Prozessmanagement mit Fristenkontrolle und durchgängiger elektronischer Signatur.",
+        "metricValue": "3x",
+        "metricLabel": "mehr abgeschlossene Verträge pro Monat"
+      },
+      {
+        "segment": "Industrie",
+        "description": "Automatisierung von Bestellungen und mehrstufigen Freigaben, integriert in das ERP.",
+        "metricValue": "-35 %",
+        "metricLabel": "Zykluszeit bei Freigaben"
+      },
+      {
+        "segment": "Logistik",
+        "description": "Automatische Erfassung von Lieferbelegen und Rechnungen direkt vom Smartphone des Fahrers.",
+        "metricValue": "+80 %",
+        "metricLabel": "am selben Tag erfasste Dokumente"
+      },
+      {
+        "segment": "Einzelhandel",
+        "description": "Lieferanten-Onboarding und Verwaltung standardisierter Verträge in einem einzigen Workflow.",
+        "metricValue": "-50 %",
+        "metricLabel": "Zeit für Lieferanten-Onboarding"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "heading": "Möchten Sie ähnliche Ergebnisse in Ihrem Unternehmen erzielen?",
+    "subheading": "Sprechen Sie mit unserem Team und erhalten Sie eine kostenlose Analyse Ihres aktuellen Prozesses.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryButton": "Demo vereinbaren"
+  }
+}

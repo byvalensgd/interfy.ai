@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Test Drive Gratuit",
+    "description": "Încearcă Interfy.AI în practică. Creează-ți Workspace-ul și testează toate produsele platformei timp de 7 zile, fără card de credit.",
+    "keywords": ["test gratuit Interfy", "test drive platformă AI-native", "workspace gratuit", "trial gestiune documente"],
+    "freeTrialNote": "7 zile gratuite pentru a testa întreaga platformă, fără card de credit."
+  },
+  "hero": {
+    "ariaLabel": "Avantajele Test Drive",
+    "headingPrefix": "Încearcă ",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": " în practică",
+    "subheading": "7 zile pentru a transforma modul în care lucrează compania ta.",
+    "descriptionPrefix": "Creează-ți Workspace-ul, explorează platforma și descoperă cum ",
+    "descriptionHighlight": "Interfy Documents, Process, Capture, Sign, Connect, Mobile, Agents & Voice",
+    "descriptionSuffix": " pot transforma operațiunea ta cu AI.",
+    "ctaButton": "Vezi cum funcționează Test Drive",
+    "differentiators": [
+      { "title": "7 zile gratuite", "subtitle": "pentru a testa tot" },
+      { "title": "Fără card", "subtitle": "Fără obligații" },
+      { "title": "Workspace în câteva minute", "subtitle": "Creează-l chiar acum" },
+      { "title": "100% Web + Mobile", "subtitle": "Accesează de oriunde te-ai afla" },
+      { "title": "AI Native", "subtitle": "Inteligență în tot" },
+      { "title": "Date păstrate", "subtitle": "După test" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "Cum funcționează ",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "Creează-ți Workspace-ul", "description": "Înregistrare simplă și rapidă. Fără card de credit." },
+      { "title": "Descoperă platforma", "description": "Explorează toate produsele și resursele disponibile." },
+      { "title": "Testează-o cu operațiunea ta", "description": "Încarcă documente, creează procese, folosește AI și încearcă resursele." },
+      { "title": "Alege-ți planul", "description": "La finalul celor 7 zile, continui exact de unde ai rămas." }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Ce poți testa în cele ",
+    "headingHighlight": "7 zile",
+    "items": [
+      { "title": "Documents", "description": "Gestiune inteligentă a documentelor și informațiilor" },
+      { "title": "Process", "description": "Automatizare inteligentă a proceselor și sarcinilor" },
+      { "title": "Capture", "description": "Captură inteligentă de documente cu IA" },
+      { "title": "Sign", "description": "Semnătură digitală gratuită pentru toți utilizatorii" },
+      { "title": "Connect", "description": "Colaborare și comunicare conectate la operațiune" },
+      { "title": "Mobile", "description": "Întreaga ta operațiune în palma mâinii" },
+      { "title": "Agents", "description": "Agenți de IA care analizează, decid și execută" },
+      { "title": "Voice", "description": "Interacțiune prin voce cu limbaj natural și IA" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "Al tău ",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": " începe deja pregătit.",
+      "paragraph": "Ca să te bucuri de fiecare minut, am pregătit exemple reale pe care le poți testa imediat.",
+      "checklist": [
+        { "text": "Documente exemplu" },
+        { "text": "Proces gata configurat" },
+        { "text": "Formular inteligent" },
+        { "text": "Sarcină în așteptare" },
+        { "text": "Document pentru semnare" },
+        { "text": "Exemplu de ", "highlight": "Capture" },
+        { "text": "Agent configurat" },
+        { "text": "Comenzi pentru ", "highlight": "Voice" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "Îți sugerăm o ",
+      "paragraphHighlight": "călătorie de 7 zile",
+      "paragraphNote": " (dar totul este disponibil încă din prima zi)",
+      "dayLabel": "Ziua {number}",
+      "days": [
+        { "line1": "Descoperă-ți", "line2": "Workspace-ul" },
+        { "line1": "Explorează", "line2": "Documents" },
+        { "line1": "Automatizează", "line2": "Procese" },
+        { "line1": "Testează", "line2": "Capture" },
+        { "line1": "Încearcă", "line2": "Sign" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "Alege-ți", "line2": "Planul" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Securitatea datelor și continuitatea după Test Drive",
+    "preservedHeading": "Datele tale rămân ale tale.",
+    "preservedList": [
+      "Workspace exclusiv",
+      "Mediu protejat",
+      "Criptare avansată",
+      "Control al accesului",
+      "Izolarea datelor",
+      "Nicio taxare automată",
+      "Fără card de credit"
+    ],
+    "endHeading": "Ce se întâmplă când se termină Test Drive?",
+    "endParagraph": "Alegi planul ideal și continui exact de unde ai rămas. Workspace-ul tău și toate datele tale rămân păstrate.",
+    "endFeatures": [
+      { "label": "Datele tale sunt păstrate" },
+      { "label": "Tranziție fără pierderi" },
+      { "label": "Nimic nu este șters fără autorizarea ta" },
+      { "label": "Continuă oricând dorești" }
+    ],
+    "endButton": "Alege-mi planul"
+  },
+  "cta": {
+    "ariaLabel": "Începe-ți Test Drive-ul",
+    "title": "Viitorul operațiunii tale începe cu un Test Drive.",
+    "description": "Încearcă Interfy.ai timp de 7 zile. Fără card. Fără obligații.",
+    "ctaPrimary": "Începe Test Drive Gratuit",
+    "ctaSecondary": "Vezi Planurile",
+    "statsLabel": "Cifrele platformei Interfy"
+  },
+  "form": {
+    "heading": "Creează-ți Workspace-ul gratuit",
+    "subheading": "Durează mai puțin de 2 minute.",
+    "nameLabel": "Nume complet",
+    "emailLabel": "E-mail corporativ",
+    "companyLabel": "Companie",
+    "phoneLabel": "Telefon (WhatsApp)",
+    "optionalLabel": "(opțional)",
+    "errors": {
+      "name": "Introdu numele tău complet.",
+      "email": "Introdu o adresă de e-mail validă.",
+      "company": "Introdu numele companiei tale.",
+      "consent": "Este necesar să accepți termenii pentru a continua."
+    },
+    "consentPrefix": "Am citit și sunt de acord cu ",
+    "consentTerms": "Termenii de Utilizare",
+    "consentMiddle": " și ",
+    "consentPrivacy": "Politica de Confidențialitate",
+    "consentSuffix": ".",
+    "submitButton": "Creează-mi Workspace-ul gratuit",
+    "submittingButton": "Se trimite...",
+    "successHeading": "Am primit înregistrarea ta!",
+    "successMessagePrefix": "Echipa noastră îți pregătește Workspace-ul. În câteva momente vei primi accesul pe e-mailul ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Vorbește cu un specialist"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "预约演示",
+    "description": "预约 Interfy 的个性化演示,了解文档、流程、电子签名和 AI 如何契合您的业务运营。",
+    "keywords": ["预约 Interfy 演示", "Interfy 演示", "申请 AI 原生平台演示"]
+  },
+  "hero": {
+    "ariaLabel": "预约 Interfy 演示",
+    "eyebrow": "个性化演示",
+    "headingPrefix": "见证 Interfy",
+    "headingHighlight": "真实运作。",
+    "description": "专家将了解您的业务场景,并现场演示文档、流程、电子签名、集成和 AI 如何融入您的运营。",
+    "expectHeading": "演示中您可以期待什么",
+    "expectItems": [
+      { "title": "30 分钟", "description": "简明高效,不拖泥带水。" },
+      { "title": "真实场景", "description": "针对您的业务和所属行业的实际案例。" },
+      { "title": "无需承诺", "description": "沟通结束后,由您决定下一步。" },
+      { "title": "专属专家", "description": "熟悉您所在行业的专业人士。" }
+    ]
+  },
+  "form": {
+    "heading": "预约您的演示",
+    "subheading": "填写以下信息,我们将与您联系确认最合适的时间。",
+    "nameLabel": "全名",
+    "emailLabel": "企业邮箱",
+    "companyLabel": "公司",
+    "phoneLabel": "电话(WhatsApp)",
+    "roleLabel": "职位",
+    "companySizeLabel": "公司规模",
+    "companySizePlaceholder": "请选择",
+    "companySizeOptions": [
+      "1 至 10 人",
+      "11 至 50 人",
+      "51 至 200 人",
+      "201 至 1,000 人",
+      "1,000 人以上"
+    ],
+    "messageLabel": "简单描述一下您的需求",
+    "optionalLabel": "(选填)",
+    "errors": {
+      "name": "请填写您的全名。",
+      "email": "请填写有效的邮箱地址。",
+      "company": "请填写公司名称。",
+      "consent": "必须接受条款才能继续。"
+    },
+    "consentPrefix": "我已阅读并同意 ",
+    "consentTerms": "使用条款",
+    "consentMiddle": " 及 ",
+    "consentPrivacy": "隐私政策",
+    "consentSuffix": "。",
+    "submitButton": "预约我的演示",
+    "submittingButton": "提交中...",
+    "successHeading": "我们已收到您的申请!",
+    "successMessagePrefix": "我们的团队将通过以下邮箱与您联系,确认最合适的时间:",
+    "successMessageSuffix": "。",
+    "specialistLink": "在此期间免费开始使用"
+  },
+  "trust": {
+    "ariaLabel": "为什么要预约 Interfy 演示",
+    "heading": "为全球企业量身打造的平台",
+    "subheading": "每一次演示都提供企业级安全、全球合规和专业支持。",
+    "statsLabel": "Interfy 全球覆盖情况",
+    "stats": [
+      { "label": "180+ 个国家", "sublabel": "全球覆盖持续扩展" },
+      { "label": "16 种语言", "sublabel": "完整的界面与使用体验" },
+      { "label": "99.99%", "sublabel": "SLA 保证可用性" },
+      { "label": "ISO 27001、LGPD、GDPR", "sublabel": "认证合规" }
+    ]
+  }
+}

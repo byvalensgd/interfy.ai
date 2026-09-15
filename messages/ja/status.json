@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "プラットフォームステータス",
+    "description": "各Interfyプロダクトの可用性とインシデント履歴をリアルタイムで確認できます。",
+    "keywords": ["Interfyステータス", "Interfy可用性", "Interfy稼働率", "Interfyインシデント"]
+  },
+  "hero": {
+    "ariaLabel": "プラットフォームステータスの概要",
+    "eyebrow": "プラットフォームステータス",
+    "titleLine1": "すべてのシステムが",
+    "titleHighlight": "正常稼働中",
+    "description": "各Interfyプロダクトのリアルタイム可用性、インシデント履歴、稼働率SLAをご確認いただけます。"
+  },
+  "list": {
+    "ariaLabel": "プロダクト別ステータス",
+    "heading": "プロダクト別ステータス",
+    "operationalLabel": "正常稼働",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "インシデント履歴",
+    "incidentsEmpty": "過去90日間にインシデントの記録はありません。"
+  },
+  "infra": {
+    "ariaLabel": "ステータスを支えるインフラストラクチャ",
+    "heading": "高可用性インフラストラクチャ",
+    "subheading": "すべての層で冗長性を確保した、100% AWSのクラウドネイティブアーキテクチャ。",
+    "items": [
+      { "label": "すべての層（アプリケーションおよびデータベース）でマルチAZ構成" },
+      { "label": "低レイテンシーのグローバルCDN（CloudFront）" },
+      { "label": "自動ロードバランシング" },
+      { "label": "脅威の検知と防御（GuardDuty）" },
+      { "label": "継続的なモニタリング（CloudWatch）" },
+      { "label": "ログと監査証跡（CloudTrail）" }
+    ],
+    "certifications": {
+      "heading": "認証と法令遵守",
+      "ctaLabel": "セキュリティアーキテクチャの詳細を見る",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "情報セキュリティマネジメントシステム（ISMS）認証を取得。" },
+        { "label": "SOC 2 Type II", "description": "セキュリティ、可用性、機密性に関する管理体制。", "badge": "取得中" },
+        { "label": "LGPD", "description": "ブラジル一般データ保護法（LGPD）に準拠。" },
+        { "label": "GDPR", "description": "EU一般データ保護規則（GDPR）に準拠。" },
+        { "label": "HIPAA Ready", "description": "米国でePHIを扱う環境向けに対応可能。", "badge": "BAA提供可能" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Interfyを利用開始する",
+    "heading": "エンタープライズレベルの信頼性",
+    "subheading": "グローバルAWSインフラ、AES-256/TLS 1.2+暗号化、稼働率99.99%のSLA。",
+    "primaryButton": "無料で始める",
+    "secondaryButton": "デモを予約する",
+    "statsLabel": "信頼性の指標",
+    "stats": [
+      { "label": "99,99%", "sublabel": "稼働率SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "暗号化" },
+      { "label": "LGPD、GDPR、ISO 27001", "sublabel": "コンプライアンス" }
+    ]
+  }
+}

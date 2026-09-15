@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "termos": {
+      "title": "Conditions d'Utilisation",
+      "description": "Conditions d'Utilisation de la plateforme Interfy : conditions d'accès, inscription, forfaits, propriété intellectuelle et responsabilités.",
+      "keywords": ["conditions d'utilisation Interfy", "contrat d'utilisation Interfy"]
+    },
+    "privacidade": {
+      "title": "Politique de Confidentialité",
+      "description": "Politique de Confidentialité d'Interfy : quelles données nous collectons, comment nous les utilisons, avec qui nous les partageons et quels sont vos droits.",
+      "keywords": ["politique de confidentialité Interfy", "confidentialité des données Interfy"]
+    },
+    "lgpd": {
+      "title": "RGPD / LGPD",
+      "description": "Comment Interfy traite les données personnelles en conformité avec le RGPD et la LGPD, et comment exercer vos droits en tant que personne concernée.",
+      "keywords": ["RGPD Interfy", "LGPD Interfy", "protection des données Interfy"]
+    }
+  },
+  "termos": {
+    "ariaLabel": "Conditions d'Utilisation d'Interfy",
+    "eyebrow": "Informations Légales",
+    "sidebarLabel": "Sur cette page",
+    "title": "Conditions d'Utilisation",
+    "updatedLabel": "Dernière mise à jour : 1er septembre 2026",
+    "intro": "Les présentes Conditions d'Utilisation régissent l'accès et l'utilisation de la plateforme Interfy, incluant les produits Documents, Process, Capture, Sign, Connect, Agents, Mobile et Voice, mis à disposition par Interfy Corporation. En créant un compte ou en utilisant nos services, vous acceptez les conditions décrites ci-dessous. Ce document est un modèle standard et doit être révisé par l'équipe juridique avant sa publication définitive.",
+    "sections": [
+      {
+        "heading": "1. Acceptation des conditions",
+        "paragraphs": [
+          "En accédant à la plateforme Interfy ou en l'utilisant, vous déclarez avoir lu, compris et intégralement accepté les présentes Conditions d'Utilisation ainsi que notre Politique de Confidentialité. Si vous n'acceptez pas l'une de ces dispositions, vous ne devez pas utiliser nos services."
+        ]
+      },
+      {
+        "heading": "2. Description du service",
+        "paragraphs": [
+          "Interfy propose une plateforme d'entreprise réunissant la gestion documentaire, l'automatisation des processus (BPM), la capture intelligente, la signature électronique, les intégrations, les agents IA et les applications mobiles, disponible en mode abonnement (SaaS)."
+        ]
+      },
+      {
+        "heading": "3. Inscription et compte",
+        "paragraphs": ["Pour utiliser la plateforme, vous devez créer un compte avec des informations véridiques, complètes et à jour. Vous êtes responsable de la confidentialité de vos identifiants d'accès ainsi que de toutes les activités réalisées depuis votre compte."],
+        "items": [
+          "Ne pas partager vos mots de passe ou identifiants d'accès avec des tiers non autorisés",
+          "Informer Interfy immédiatement en cas de suspicion d'utilisation non autorisée du compte",
+          "Maintenir vos données de compte à jour"
+        ]
+      },
+      {
+        "heading": "4. Usage acceptable",
+        "paragraphs": ["Vous vous engagez à ne pas utiliser la plateforme à des fins illicites, pour porter atteinte aux droits de tiers, pour diffuser des logiciels malveillants, ou pour tenter d'accéder à des zones ou des données sans autorisation."]
+      },
+      {
+        "heading": "5. Propriété intellectuelle",
+        "paragraphs": ["La plateforme Interfy, incluant les logiciels, marques, mises en page et contenus, est la propriété d'Interfy Corporation ou de ses concédants, protégée par les lois relatives à la propriété intellectuelle. Aucune disposition des présentes Conditions ne transfère de droits de propriété intellectuelle au client, à l'exception de la licence d'utilisation de la plateforme pendant la durée de l'abonnement."]
+      },
+      {
+        "heading": "6. Forfaits, paiement et annulation",
+        "paragraphs": ["L'accès à la plateforme est accordé selon le forfait souscrit. Les tarifs, moyens de paiement et conditions de renouvellement sont communiqués au moment de la souscription. L'annulation peut être demandée à tout moment, sous réserve des conditions propres à chaque forfait."]
+      },
+      {
+        "heading": "7. Données et contenus du client",
+        "paragraphs": ["Tout contenu envoyé, stocké ou traité par le client sur la plateforme (« Contenu du Client ») reste la propriété du client. Interfy agit en tant que sous-traitant de ces données, en les traitant conformément aux instructions du client et à notre Politique de Confidentialité."]
+      },
+      {
+        "heading": "8. Disponibilité et support",
+        "paragraphs": [
+          "Interfy fonctionne avec une infrastructure cloud-native Multi-AZ sur AWS, avec un SLA de disponibilité de 99,99 %, une surveillance continue 24/7 et un plan de reprise après sinistre avec réplication géographique.",
+          "Le support est assuré selon les canaux et délais décrits sur notre page Support, et l'historique de disponibilité et des incidents est publié en temps réel sur la page Statut de la Plateforme."
+        ],
+        "relatedLink": { "label": "Voir l'architecture de sécurité complète", "href": "/legal/seguranca" }
+      },
+      {
+        "heading": "9. Limitation de responsabilité",
+        "paragraphs": ["Dans la mesure permise par la loi applicable, Interfy ne pourra être tenue responsable des dommages indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser la plateforme."]
+      },
+      {
+        "heading": "10. Résiliation",
+        "paragraphs": ["Interfy peut suspendre ou résilier l'accès à la plateforme en cas de violation des présentes Conditions, moyennant notification préalable, sauf en cas de risque imminent pour la sécurité de la plateforme ou de tiers."]
+      },
+      {
+        "heading": "11. Modifications des conditions",
+        "paragraphs": ["Les présentes Conditions peuvent être mises à jour périodiquement. Les modifications importantes seront communiquées par e-mail ou par un avis sur la plateforme, avec un préavis raisonnable avant leur entrée en vigueur."]
+      },
+      {
+        "heading": "12. Droit applicable et juridiction",
+        "paragraphs": ["Les présentes Conditions sont régies par les lois de la République Fédérative du Brésil, sans préjudice de dispositions contractuelles spécifiques pour les clients d'autres juridictions."]
+      },
+      {
+        "heading": "13. Contact",
+        "paragraphs": ["Toute question relative aux présentes Conditions peut être adressée à contato@interfy.ai."]
+      }
+    ]
+  },
+  "privacidade": {
+    "ariaLabel": "Politique de Confidentialité d'Interfy",
+    "eyebrow": "Confidentialité & Transparence",
+    "sidebarLabel": "Sur cette page",
+    "title": "Politique de Confidentialité",
+    "updatedLabel": "Dernière mise à jour : 1er septembre 2026",
+    "intro": "Cette Politique de Confidentialité décrit comment Interfy Corporation collecte, utilise, partage et protège les données personnelles dans le cadre de la plateforme Interfy, en conformité avec la Loi Générale sur la Protection des Données (LGPD) brésilienne et, le cas échéant, le Règlement Général sur la Protection des Données européen (RGPD). Ce document est un modèle standard et doit être révisé par l'équipe juridique avant sa publication définitive.",
+    "certifications": {
+      "heading": "Certifications et conformité",
+      "ctaLabel": "Voir tous les détails",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Système de Management de la Sécurité de l'Information certifié." },
+        { "label": "SOC 2 Type II", "description": "Contrôles de sécurité, de disponibilité et de confidentialité.", "badge": "En cours" },
+        { "label": "LGPD", "description": "Conforme à la Loi Générale sur la Protection des Données (Brésil)." },
+        { "label": "RGPD", "description": "Conforme au Règlement Général sur la Protection des Données (UE)." },
+        { "label": "HIPAA Ready", "description": "Prête pour les environnements traitant des ePHI aux États-Unis.", "badge": "BAA disponible" }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1. Qui sommes-nous",
+        "paragraphs": ["Interfy Corporation, dont le siège social est situé à Orlando, en Floride, aux États-Unis, est le responsable du traitement des données personnelles traitées via la plateforme Interfy, sauf lorsqu'elle agit en tant que sous-traitant sur instruction d'un client."]
+      },
+      {
+        "heading": "2. Quelles données nous collectons",
+        "items": [
+          "Données d'inscription : nom, e-mail, téléphone, entreprise et fonction",
+          "Données d'utilisation de la plateforme : journaux d'accès, actions réalisées et préférences de configuration",
+          "Contenu du Client : documents, processus et autres informations saisies sur la plateforme par le client lui-même",
+          "Données techniques : adresse IP, type d'appareil et navigateur"
+        ]
+      },
+      {
+        "heading": "3. Comment nous utilisons les données",
+        "items": [
+          "Fournir et maintenir les services souscrits",
+          "Authentifier les utilisateurs et protéger les comptes contre les accès non autorisés",
+          "Envoyer des communications opérationnelles, de support et, avec votre consentement, des communications commerciales",
+          "Respecter les obligations légales et réglementaires"
+        ]
+      },
+      {
+        "heading": "4. Partage des données",
+        "paragraphs": ["Les données personnelles peuvent être partagées avec des prestataires d'infrastructure (tels que les services cloud AWS), des prestataires de paiement et d'autres sous-traitants strictement nécessaires à la fourniture du service, toujours dans le cadre d'obligations contractuelles de confidentialité et de sécurité. Nous ne vendons pas de données personnelles à des tiers."]
+      },
+      {
+        "heading": "5. Cookies et technologies similaires",
+        "paragraphs": ["Nous utilisons des cookies essentiels au fonctionnement du site et, avec votre consentement, des cookies analytiques pour comprendre l'utilisation de la plateforme et améliorer l'expérience utilisateur."]
+      },
+      {
+        "heading": "6. Conservation des données",
+        "paragraphs": ["Les données personnelles sont conservées pendant la durée nécessaire pour répondre aux finalités décrites dans cette Politique, ou selon les exigences légales, avant d'être supprimées ou anonymisées."]
+      },
+      {
+        "heading": "7. Sécurité de l'information",
+        "paragraphs": ["Nous adoptons une sécurité multicouche, depuis l'architecture jusqu'au fonctionnement quotidien :"],
+        "items": [
+          "Isolation par Workspace et base de données dédiée par client, sans partage",
+          "Chiffrement avancé : données en transit (TLS 1.2+) et au repos (AES-256)",
+          "Contrôle d'accès granulaire (RBAC) par fonction, groupe et niveau de sensibilité",
+          "Authentification d'entreprise : SSO, SAML 2.0, OAuth 2.0, AD/LDAP et MFA",
+          "Restriction d'accès par IP (blocage d'IP)",
+          "Journaux et piste d'audit immuable et consultable",
+          "Surveillance de sécurité 24/7, sauvegardes automatiques chiffrées et reprise après sinistre avec réplication géographique",
+          "Infrastructure Multi-AZ sur AWS, certifiée ISO/IEC 27001:2022, avec certification SOC 2 Type II en cours"
+        ],
+        "relatedLink": { "label": "Voir l'architecture de sécurité complète", "href": "/legal/seguranca" }
+      },
+      {
+        "heading": "8. Vos droits (LGPD/RGPD)",
+        "items": [
+          "Confirmation de l'existence d'un traitement et accès aux données",
+          "Correction des données incomplètes, inexactes ou obsolètes",
+          "Anonymisation, blocage ou suppression des données inutiles",
+          "Portabilité des données vers un autre fournisseur de services",
+          "Retrait du consentement, le cas échéant"
+        ]
+      },
+      {
+        "heading": "9. Transfert international de données",
+        "paragraphs": ["En raison de notre infrastructure mondiale, les données personnelles peuvent être transférées entre pays, toujours avec des garanties contractuelles et techniques conformes à la LGPD et au RGPD."]
+      },
+      {
+        "heading": "10. Modifications de cette politique",
+        "paragraphs": ["Cette Politique peut être mise à jour périodiquement. Les modifications importantes seront communiquées par e-mail ou par un avis sur la plateforme."]
+      },
+      {
+        "heading": "11. Contact du délégué à la protection des données (DPO)",
+        "paragraphs": ["Pour exercer vos droits ou pour toute question relative à cette Politique, contactez notre Délégué à la Protection des Données à l'adresse privacidade@interfy.ai."]
+      }
+    ]
+  },
+  "lgpd": {
+    "ariaLabel": "Conformité d'Interfy avec la LGPD et le RGPD",
+    "eyebrow": "Protection des Données",
+    "sidebarLabel": "Sur cette page",
+    "title": "RGPD / LGPD",
+    "updatedLabel": "Dernière mise à jour : 1er septembre 2026",
+    "intro": "Interfy considère la protection des données personnelles comme un élément central de son architecture, pour se conformer à la fois à la Loi Générale sur la Protection des Données brésilienne (Loi n° 13.709/2018) et au Règlement Général sur la Protection des Données européen (RGPD). Ce document est un modèle standard et doit être révisé par l'équipe juridique avant sa publication définitive.",
+    "certifications": {
+      "heading": "Certifications et conformité",
+      "ctaLabel": "Voir tous les détails",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Système de Management de la Sécurité de l'Information certifié." },
+        { "label": "SOC 2 Type II", "description": "Contrôles de sécurité, de disponibilité et de confidentialité.", "badge": "En cours" },
+        { "label": "LGPD", "description": "Conforme à la Loi Générale sur la Protection des Données (Brésil)." },
+        { "label": "RGPD", "description": "Conforme au Règlement Général sur la Protection des Données (UE)." },
+        { "label": "HIPAA Ready", "description": "Prête pour les environnements traitant des ePHI aux États-Unis.", "badge": "BAA disponible" }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "1. Notre engagement",
+        "paragraphs": ["Nous adoptons la protection des données dès la conception (« privacy by design ») dans tous les produits de la plateforme, avec des contrôles techniques et organisationnels garantissant une conformité continue à la LGPD et au RGPD."]
+      },
+      {
+        "heading": "2. Rôles : responsable et sous-traitant",
+        "paragraphs": ["Pour les données d'inscription et d'utilisation de la plateforme, Interfy agit en tant que responsable du traitement. Pour le Contenu du Client stocké sur la plateforme, Interfy agit en tant que sous-traitant, traitant les données strictement selon les instructions du client responsable."]
+      },
+      {
+        "heading": "3. Bases légales du traitement",
+        "items": [
+          "Exécution du contrat, pour la fourniture des services souscrits",
+          "Respect d'une obligation légale ou réglementaire",
+          "Intérêt légitime, pour la sécurité et l'amélioration de la plateforme",
+          "Consentement, pour les communications commerciales et les cookies non essentiels"
+        ]
+      },
+      {
+        "heading": "4. Droits de la personne concernée",
+        "paragraphs": ["Les personnes concernées peuvent demander l'accès, la correction, l'anonymisation, la suppression, la portabilité ou des informations sur le partage de leurs données personnelles, conformément à la LGPD et, le cas échéant, au RGPD."]
+      },
+      {
+        "heading": "5. Comment exercer vos droits",
+        "paragraphs": ["Les demandes peuvent être envoyées à privacidade@interfy.ai. Nous répondrons dans les délais légaux applicables, et pourrons demander des informations supplémentaires pour confirmer l'identité du demandeur."]
+      },
+      {
+        "heading": "6. Mesures de sécurité techniques et organisationnelles",
+        "items": [
+          "Isolation par Workspace et base de données dédiée par client",
+          "Chiffrement AES-256 au repos et TLS 1.2+ en transit",
+          "Contrôle d'accès basé sur les rôles (RBAC) et authentification multifacteur (MFA)",
+          "Authentification d'entreprise via SSO, SAML 2.0, OAuth 2.0 et AD/LDAP",
+          "Restriction d'accès par IP (blocage d'IP)",
+          "Journaux et piste d'audit immuable et consultable",
+          "Surveillance de sécurité 24/7, avec réponse automatique aux incidents",
+          "Sauvegardes automatiques chiffrées et reprise après sinistre avec réplication géographique",
+          "Infrastructure Multi-AZ sur AWS, avec un SLA de disponibilité de 99,99 %"
+        ],
+        "relatedLink": { "label": "Voir l'architecture de sécurité complète", "href": "/legal/seguranca" }
+      },
+      {
+        "heading": "7. Transfert international de données",
+        "paragraphs": ["Lorsque des données personnelles sont transférées entre pays, Interfy adopte des clauses contractuelles et des garanties techniques conformes aux exigences de la LGPD et du RGPD en matière de transfert international."]
+      },
+      {
+        "heading": "8. Délégué à la Protection des Données (DPO)",
+        "paragraphs": ["Notre Délégué à la Protection des Données peut être contacté à l'adresse privacidade@interfy.ai pour toute question relative au traitement des données personnelles."]
+      },
+      {
+        "heading": "9. Mises à jour",
+        "paragraphs": ["Ce document peut être mis à jour pour refléter des changements législatifs, réglementaires ou propres à la plateforme. La date de dernière mise à jour figure toujours en haut de la page."]
+      }
+    ]
+  }
+}

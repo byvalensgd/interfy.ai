@@ -1,0 +1,69 @@
+{
+  "description": "פלטפורמה עסקית מבוססת AI-native המחברת מסמכים, תהליכים, אנשים, נתונים ותקשורת בסביבה חכמה אחת.",
+  "group": {
+    "prefix": "פלטפורמה של",
+    "brand": "Interfy Corporation",
+    "middle": "הכירו את הקבוצה:",
+    "linkLabel": "www.interfycorp.com"
+  },
+  "location": "אורלנדו, פלורידה - ארה\"ב",
+  "columns": [
+    {
+      "title": "מוצרים",
+      "links": [
+        { "label": "Documents" },
+        { "label": "Process" },
+        { "label": "Capture" },
+        { "label": "Sign" },
+        { "label": "Connect" },
+        { "label": "Agents" },
+        { "label": "Mobile" },
+        { "label": "Voice" }
+      ]
+    },
+    {
+      "title": "משאבים",
+      "links": [
+        { "label": "תחומי פעילות" },
+        { "label": "AI קרדיטים" },
+        { "label": "אינטגרציות ו-API" },
+        { "label": "סיפורי הצלחה" },
+        { "label": "סטטוס הפלטפורמה" }
+      ]
+    },
+    {
+      "title": "החברה",
+      "links": [
+        { "label": "על Interfy" },
+        { "label": "פלטפורמת Interfy" },
+        { "label": "התנסות מודרכת" },
+        { "label": "שותפים (Private Label)" },
+        { "label": "בלוג / תוכן" }
+      ]
+    },
+    {
+      "title": "משפטי ותמיכה",
+      "links": [
+        { "label": "תנאי שימוש" },
+        { "label": "מדיניות פרטיות" },
+        { "label": "LGPD / GDPR" },
+        { "label": "אבטחה" },
+        { "label": "תמיכה" },
+        { "label": "צור קשר" }
+      ]
+    }
+  ],
+  "globalLine": "פלטפורמה גלובלית, פעילה ביותר מ-180 מדינות",
+  "regionsIntro": "עם דפים מסחריים ייעודיים ל:",
+  "regions": ["ארצות הברית", "אירופה", "אמריקה הלטינית", "ברזיל", "אסיה", "אפריקה"],
+  "trustItems": [
+    { "title": "אבטחה בסטנדרט Enterprise", "description": "הצפנת AES-256 / TLS 1.3" },
+    { "title": "תשתית AWS גלובלית", "description": "זמינות גבוהה וגמישות" },
+    { "title": "תאימות גלובלית", "description": "LGPD, GDPR ו-ISO 27001" },
+    { "title": "99.98% זמן פעילות (SLA)", "description": "מעקב 24/7" }
+  ],
+  "copyright": {
+    "brand": "Interfy Corporation",
+    "suffix": "© {year}. כל הזכויות שמורות."
+  }
+}

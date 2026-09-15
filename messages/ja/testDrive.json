@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "無料Test Drive",
+    "description": "Interfy.AIを実際に体験してください。Workspaceを作成し、7日間、クレジットカード登録なしでプラットフォームの全プロダクトを試せます。",
+    "keywords": ["Interfy無料トライアル", "AI-nativeプラットフォームTest Drive", "無料Workspace", "文書管理トライアル"],
+    "freeTrialNote": "プラットフォーム全体を試せる7日間無料、クレジットカード登録不要。"
+  },
+  "hero": {
+    "ariaLabel": "Test Driveの特長",
+    "headingPrefix": "",
+    "headingBrand": "Interfy.AI",
+    "headingSuffix": "を実際に体験する",
+    "subheading": "7日間で、会社の働き方を変える。",
+    "descriptionPrefix": "Workspaceを作成し、プラットフォームを探索して、",
+    "descriptionHighlight": "Interfy Documents、Process、Capture、Sign、Connect、Mobile、Agents & Voice",
+    "descriptionSuffix": "がAIで業務をどう変革できるかを発見してください。",
+    "ctaButton": "Test Driveの仕組みを見る",
+    "differentiators": [
+      { "title": "7日間無料", "subtitle": "すべてを試せる" },
+      { "title": "カード登録不要", "subtitle": "契約義務なし" },
+      { "title": "数分でWorkspace作成", "subtitle": "今すぐ始められる" },
+      { "title": "100% Web + Mobile", "subtitle": "どこからでもアクセス" },
+      { "title": "AI Native", "subtitle": "あらゆる場面にインテリジェンス" },
+      { "title": "データは保持されます", "subtitle": "トライアル終了後も" }
+    ]
+  },
+  "steps": {
+    "headingPrefix": "",
+    "headingHighlight": "Test Drive",
+    "items": [
+      { "title": "Workspaceを作成する", "description": "シンプルで簡単な登録。クレジットカードは不要です。" },
+      { "title": "プラットフォームを知る", "description": "利用可能なすべてのプロダクトと機能を探索します。" },
+      { "title": "実際の業務で試す", "description": "文書をアップロードし、プロセスを作成し、AIを使って機能を体験します。" },
+      { "title": "プランを選ぶ", "description": "7日間が終わったら、そのまま続きから始められます。" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "",
+    "headingHighlight": "7日間で試せること",
+    "items": [
+      { "title": "Documents", "description": "文書と情報のインテリジェントな管理" },
+      { "title": "Process", "description": "業務プロセスとタスクのインテリジェントな自動化" },
+      { "title": "Capture", "description": "AIによる文書のインテリジェントな取り込み" },
+      { "title": "Sign", "description": "全ユーザー無料の電子署名" },
+      { "title": "Connect", "description": "業務に直結したコラボレーションとコミュニケーション" },
+      { "title": "Mobile", "description": "手のひらの上で完結する業務全体" },
+      { "title": "Agents", "description": "分析、判断、実行を行うAIエージェント" },
+      { "title": "Voice", "description": "自然言語とAIによる音声操作" }
+    ]
+  },
+  "journey": {
+    "readyCard": {
+      "headingPrefix": "あなたの",
+      "headingHighlight": "Test Drive",
+      "headingSuffix": "は最初から準備万端です。",
+      "paragraph": "一分一秒を有効に使っていただくために、すぐに試せる実際のサンプルを用意しました。",
+      "checklist": [
+        { "text": "サンプル文書" },
+        { "text": "準備済みのプロセス" },
+        { "text": "インテリジェントなフォーム" },
+        { "text": "未対応のタスク" },
+        { "text": "署名待ちの文書" },
+        { "text": "", "highlight": "Captureのサンプル" },
+        { "text": "設定済みのエージェント" },
+        { "text": "", "highlight": "Voice向けコマンド" }
+      ]
+    },
+    "timelineCard": {
+      "paragraphPrefix": "",
+      "paragraphHighlight": "7日間のジャーニー",
+      "paragraphNote": "をおすすめします(初日からすべての機能をご利用いただけます)",
+      "dayLabel": "{number}日目",
+      "days": [
+        { "line1": "Workspaceを", "line2": "知る" },
+        { "line1": "Documentsを", "line2": "探索する" },
+        { "line1": "プロセスを", "line2": "自動化する" },
+        { "line1": "Captureを", "line2": "試す" },
+        { "line1": "Signを", "line2": "体験する" },
+        { "line1": "Agents", "line2": "+ Voice" },
+        { "line1": "あなたの", "line2": "プランを選ぶ" }
+      ]
+    }
+  },
+  "security": {
+    "ariaLabel": "Test Drive終了後のデータ保護と継続性",
+    "preservedHeading": "あなたのデータは、あなたのものです。",
+    "preservedList": [
+      "専用のWorkspace",
+      "保護された環境",
+      "高度な暗号化",
+      "アクセス制御",
+      "データの分離",
+      "自動課金は一切なし",
+      "クレジットカード登録不要"
+    ],
+    "endHeading": "Test Driveが終了したら?",
+    "endParagraph": "最適なプランを選んで、そのまま続きから始められます。あなたのWorkspaceとすべてのデータはそのまま保持されます。",
+    "endFeatures": [
+      { "label": "データはそのまま保持されます" },
+      { "label": "データ損失のない移行" },
+      { "label": "許可なくデータが削除されることはありません" },
+      { "label": "いつでも好きな時に継続できます" }
+    ],
+    "endButton": "プランを選ぶ"
+  },
+  "cta": {
+    "ariaLabel": "Test Driveを始める",
+    "title": "あなたの業務の未来は、Test Driveから始まります。",
+    "description": "Interfy.aiを7日間お試しください。カード登録不要。契約義務もありません。",
+    "ctaPrimary": "無料Test Driveを始める",
+    "ctaSecondary": "プランを見る",
+    "statsLabel": "Interfyプラットフォームの実績"
+  },
+  "form": {
+    "heading": "無料Workspaceを作成する",
+    "subheading": "所要時間は2分未満です。",
+    "nameLabel": "氏名",
+    "emailLabel": "会社の電子メールアドレス",
+    "companyLabel": "会社名",
+    "phoneLabel": "電話番号(WhatsApp)",
+    "optionalLabel": "(任意)",
+    "errors": {
+      "name": "氏名を入力してください。",
+      "email": "有効な電子メールアドレスを入力してください。",
+      "company": "会社名を入力してください。",
+      "consent": "続けるには利用規約への同意が必要です。"
+    },
+    "consentPrefix": "",
+    "consentTerms": "利用規約",
+    "consentMiddle": "および",
+    "consentPrivacy": "プライバシーポリシー",
+    "consentSuffix": "を読み、同意します。",
+    "submitButton": "無料Workspaceを作成する",
+    "submittingButton": "送信中...",
+    "successHeading": "お申し込みを受け付けました!",
+    "successMessagePrefix": "私たちのチームがあなたのWorkspaceを準備しています。すぐにアクセス情報がこちらのメールアドレスに届きます: ",
+    "successMessageSuffix": "。",
+    "specialistLink": "専門家に相談する"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture muuttaa fyysiset ja digitaaliset dokumentit älykkääksi tiedoksi sekunneissa. Kaappaa selaimella, ammattiskannereilla tai älypuhelimella, kun AI tunnistaa, poimii, luokittelee ja ohjaa kaiken automaattisesti.",
+    "keywords": ["älykäs dokumenttien kaappaus", "AI-digitalisointi", "OCR", "dokumenttien tunnistus", "Interfy Capture"],
+    "freeTrialNote": "Ilmainen 7 päivän kokeilu, ei luottokorttia"
+  },
+  "hero": {
+    "titleLine1": "Kaappaa mikä tahansa dokumentti.",
+    "titleLine2": "AI hoitaa lopun.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "muuttaa fyysiset ja digitaaliset dokumentit älykkääksi tiedoksi sekunneissa. Kaappaa selaimella, ammattiskannereilla tai älypuhelimella.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "mockupAlt": "Interfy Capture näytettynä läppärissä ja älypuhelimessa, älykäs dokumenttien kaappaus toiminnassa",
+    "trust": [
+      { "text": "99,9 %:n luotettavuus poiminnassa" },
+      { "text": "100 % turvallinen ja GDPR:n mukainen" },
+      { "text": "AI-pohjainen koko alustalla" },
+      { "text": "Skaalautuu mille tahansa dokumenttimäärälle" }
+    ],
+    "flow": [
+      { "text": "AI tunnistaa ja poimii" },
+      { "text": "Luokittelee, indeksoi ja järjestää." },
+      { "text": "Tallentaa Interfy Documentsiin" },
+      { "text": "Lähettää Interfy Processiin" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Miten ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Kaappaus", "description": "Kaappaus mistä tahansa lähteestä: selaimesta, skannereista tai puhelimesta." },
+      { "title": "AI-tunnistus", "description": "Interfy AI tunnistaa ja poimii sisällön automaattisesti." },
+      { "title": "Luku ja ymmärtäminen", "description": "Ymmärtää kontekstin, kentät ja tietojen väliset suhteet." },
+      { "title": "Tiedon poiminta", "description": "Poimii automaattisesti strukturoidun ja strukturoimattoman datan." },
+      { "title": "Luokittelu", "description": "Luokittelee ja järjestää dokumentit AI:n avulla." },
+      { "title": "Indeksointi ja metatiedot", "description": "Määrittää metatiedot ja valmistaa hakua ja jäljitettävyyttä varten." },
+      { "title": "Validointi ja ohjaus", "description": "Validoi ja ohjaa Interfy Documentsiin tai Processiin." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Interfy Capturen ",
+    "headingHighlight": "ominaisuudet ja edut",
+    "statsLabel": "Interfy-alustan mittakaava",
+    "items": [
+      { "title": "Kaappaus selaimella", "description": "Kaappaa tiedostot suoraan tietokoneeltasi. Yksinkertaista, nopeaa ja turvallista." },
+      { "title": "Ammattiskannerit", "description": "Natiivi integraatio suorituskykyisten skannerien kanssa parhaan laadun takaamiseksi." },
+      { "title": "Erä-kaappaus", "description": "Digitalisoi ja käsittele suuria dokumenttimääriä kerralla." },
+      { "title": "AI-krediitit mukana", "description": "AI-krediitit sisältyvät kaikkiin alustan paketteihin — ei tarvetta hankkia moduulia erikseen." },
+      { "title": "Mobile Capture", "description": "Kaappaa dokumentit älypuhelimella missä ja milloin tahansa." },
+      { "title": "AI-tunnistus", "description": "AI tunnistaa ja poimii sisällön suurella tarkkuudella." },
+      { "title": "Automaattinen poiminta", "description": "Automaattinen strukturoidun ja strukturoimattoman datan poiminta." },
+      { "title": "Interfy Documents", "description": "Turvallinen tallennus, älykäs haku ja jäljitettävyys." },
+      { "title": "Interfy Process", "description": "Automaattinen lähetys toimintanne työnkulkuihin ja automaatioihin." },
+      { "title": "Lisäkrediittien ostaminen", "description": "Lisää krediittejä aina kun toimintasi tarvitsee niitä." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitalisointi oikeudellisella pätevyydellä",
+    "badge": "Valinnainen ominaisuus",
+    "description": "Valinnainen ominaisuus yrityksille, jotka tarvitsevat oikeudellista pätevyyttä digitaalisiin dokumenttehiinsa. Ei sisälly perusversioon.",
+    "checklist": [
+      { "text": "Digitaalinen sertifikaatti ja aikaleima" },
+      { "text": "Turvallinen tallennus oikeudellisella pätevyydellä" },
+      { "text": "Päästä päähän -jäljitettävyys" },
+      { "text": "Todisteet ja auditointijäljet" },
+      { "textParts": ["Aikaleiman ja jäljen soveltaminen asetuksen ", "Decreto 10.278"] },
+      { "text": "Auditointijälki" },
+      { "text": "Oikeudellinen validointi" },
+      { "text": "Vaatimustenmukaisuus ja turvallisuus" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Todellisia tuloksia liiketoiminnallesi",
+    "heading": "TODELLISIA TULOKSIA LIIKETOIMINNALLESI",
+    "stats": [
+      { "accent": "JOPA 85%", "label": "VÄHEMMÄN VIRHEITÄ", "description": "indeksoinnissa ja luokittelussa." },
+      { "accent": "ENEMMÄN", "label": "TUOTTAVUUTTA", "description": "Tiimisi keskittyy siihen, mikä oikeasti on tärkeää." },
+      { "accent": "TURVALLISUUS &", "label": "VAATIMUSTENMUKAISUUS", "description": "Täysin LGPD-, GDPR- ja globaalien standardien mukainen." }
+    ],
+    "ctaTitle": "VALMIINA UUDISTAMAAN DOKUMENTTITOIMINTASI?",
+    "ctaDescription": "Varaa esittely ja selvitä, miten Interfy Capture voi tuottaa todellisia tuloksia yrityksellesi.",
+    "mascotAlt": "Interfyn AI-avustaja"
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfy Capturen käyttö",
+    "title": "Valmiina uudistamaan dokumenttien kaappauksen AI:n avulla?",
+    "description": "Kokeile Interfy Capturea 7 päivää ja katso AI:n työskentelevän toimintanne eteen. Hanki erikseen tai hyödynnä alustan paketteihin sisältyviä krediittejä.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "statsLabel": "Interfy Capturen edut",
+    "highlights": [
+      { "label": "100 % Web", "sublabel": "Käytä missä tahansa" },
+      { "label": "Huippuluokan turvallisuus", "sublabel": "Tiedot suojattuna ja vaatimustenmukaisina" },
+      { "label": "Skaalautuva", "sublabel": "Pienestä suureen liiketoimintaan" },
+      { "label": "Tuki 24/7", "sublabel": "Aina kun tarvitset" }
+    ]
+  }
+}

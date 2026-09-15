@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Programează o Demo",
+    "description": "Programează o demonstrație personalizată Interfy și vezi cum documentele, procesele, semnătura electronică și AI se pot adapta operațiunilor tale.",
+    "keywords": ["programează demo Interfy", "demonstrație Interfy", "solicită demo platformă AI-native"]
+  },
+  "hero": {
+    "ariaLabel": "Programează o demonstrație Interfy",
+    "eyebrow": "Demonstrație personalizată",
+    "headingPrefix": "Vezi Interfy",
+    "headingHighlight": "în acțiune.",
+    "description": "Un specialist va înțelege scenariul tău și îți va arăta, în direct, cum se potrivesc documentele, procesele, semnătura electronică, integrările și AI cu operațiunile tale.",
+    "expectHeading": "La ce să te aștepți de la demo",
+    "expectItems": [
+      { "title": "30 de minute", "description": "Discuție la obiect, fără ocolișuri." },
+      { "title": "Scenariu real", "description": "Exemple aplicate operațiunilor și domeniului tău." },
+      { "title": "Fără obligații", "description": "Tu decizi următorul pas după discuție." },
+      { "title": "Specialist dedicat", "description": "Cineva care îți cunoaște deja domeniul." }
+    ]
+  },
+  "form": {
+    "heading": "Programează-ți demonstrația",
+    "subheading": "Completează datele de mai jos și te vom contacta pentru a confirma cel mai potrivit interval orar.",
+    "nameLabel": "Nume complet",
+    "emailLabel": "E-mail corporativ",
+    "companyLabel": "Companie",
+    "phoneLabel": "Telefon (WhatsApp)",
+    "roleLabel": "Funcție",
+    "companySizeLabel": "Mărimea companiei",
+    "companySizePlaceholder": "Selectează",
+    "companySizeOptions": [
+      "1 - 10 angajați",
+      "11 - 50 de angajați",
+      "51 - 200 de angajați",
+      "201 - 1.000 de angajați",
+      "Peste 1.000 de angajați"
+    ],
+    "messageLabel": "Spune-ne pe scurt de ce ai nevoie",
+    "optionalLabel": "(opțional)",
+    "errors": {
+      "name": "Introdu numele tău complet.",
+      "email": "Introdu o adresă de e-mail validă.",
+      "company": "Introdu numele companiei tale.",
+      "consent": "Este necesar să accepți termenii pentru a continua."
+    },
+    "consentPrefix": "Am citit și sunt de acord cu ",
+    "consentTerms": "Termenii și Condițiile",
+    "consentMiddle": " și cu ",
+    "consentPrivacy": "Politica de Confidențialitate",
+    "consentSuffix": ".",
+    "submitButton": "Programează-mi demo",
+    "submittingButton": "Se trimite...",
+    "successHeading": "Am primit solicitarea ta!",
+    "successMessagePrefix": "Echipa noastră te va contacta pentru a confirma cel mai potrivit interval orar la adresa de e-mail ",
+    "successMessageSuffix": ".",
+    "specialistLink": "Începe gratuit între timp"
+  },
+  "trust": {
+    "ariaLabel": "De ce să programezi o demo cu Interfy",
+    "heading": "O platformă pregătită pentru companii globale",
+    "subheading": "Securitate enterprise, conformitate globală și suport specializat la fiecare demonstrație.",
+    "statsLabel": "Prezența globală a Interfy",
+    "stats": [
+      { "label": "180+ țări", "sublabel": "Prezență globală în expansiune" },
+      { "label": "16 limbi", "sublabel": "Interfață și experiență complete" },
+      { "label": "99,99%", "sublabel": "Disponibilitate SLA garantată" },
+      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Conformitate certificată" }
+    ]
+  }
+}

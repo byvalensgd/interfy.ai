@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "集成与 API",
+    "description": "将 Interfy 与企业已在使用的工具连接:Microsoft、Google、SAP、Salesforce、Oracle、HubSpot、MySQL、Zapier 等,提供完整的 RESTful API 和实时 Webhook。",
+    "keywords": ["Interfy 集成", "Interfy API", "企业连接器", "Webhook", "系统自动化"]
+  },
+  "hero": {
+    "headingPrefix": "将 Interfy 与您 ",
+    "headingHighlight": "企业已使用的系统连接。",
+    "description": "集成不设限。连接系统、自动化流程,释放无限的业务潜力。",
+    "ctaPrimary": "查看集成",
+    "ctaSecondary": "API 文档",
+    "diagramAriaLabel": "与 Interfy 集成的系统",
+    "diagram": {
+      "items": [
+        { "label": "Microsoft" },
+        { "label": "Google" },
+        { "label": "SAP" },
+        { "label": "Salesforce" },
+        { "label": "Oracle" },
+        { "label": "HubSpot" },
+        { "label": "MySQL" },
+        { "label": "Zapier" }
+      ]
+    },
+    "banner": [
+      { "title": "无限集成", "description": "连接企业所需的一切系统" },
+      { "title": "更高生产力", "description": "自动化流程,消除重复劳动" },
+      { "title": "智能决策", "description": "整合数据,实时获取洞察。" }
+    ]
+  },
+  "logosStrip": {
+    "heading": "与市场主流系统连接",
+    "ctaLabel": "查看全部"
+  },
+  "featuresGrid": {
+    "headingPrefix": "Interfy API 的 ",
+    "headingHighlight": "功能与优势",
+    "ariaLabel": "Interfy 的集成功能与优势",
+    "items": [
+      { "title": "REST API", "description": "功能完善且现代化的 API,可与任何系统或应用集成。" },
+      { "title": "Webhook", "description": "实时接收事件通知,让您的系统始终保持同步。" },
+      { "title": "Zapier", "description": "通过 Zapier 轻松快速地将 Interfy 与数千个应用集成。" },
+      { "title": "数据库", "description": "安全连接主流的 SQL 和 NoSQL 数据库。" },
+      { "title": "ERP", "description": "与领先的 ERP 系统集成,统一整个组织的数据与流程。" },
+      { "title": "CRM", "description": "与您喜爱的 CRM 同步客户、联系人和商机信息。" },
+      { "title": "Microsoft", "description": "与 Microsoft 365、Azure、SharePoint、Teams 等原生集成。" },
+      { "title": "Google", "description": "与 Google Workspace、Drive、Gmail、Sheets 等集成。" },
+      { "title": "外部身份验证", "description": "支持 SSO、SAML 2.0 和 OAuth 2.0,实现安全认证和统一体验。" },
+      { "title": "AD / LDAP", "description": "与 Active Directory 和 LDAP 集成,便于用户与权限管理。" },
+      { "title": "遗留系统", "description": "通过灵活的适配器和 API 连接老旧的遗留系统。" },
+      { "title": "定制集成", "description": "利用我们灵活的 API 构建满足特定需求的专属连接器。" }
+    ]
+  },
+  "agentsHighlight": {
+    "headingPrefix": "借助 ",
+    "headingHighlight": "智能集成更进一步的 Agents",
+    "description": "使用智能代理和语音指令来创建、搜索、汇总、审批等等。",
+    "diagramAriaLabel": "与产品生态系统连接的 Interfy Agents",
+    "checklistAriaLabel": "集成代理的优势",
+    "checklist": [
+      { "label": "在外部系统中搜索和分析数据" },
+      { "label": "执行操作并更新记录" },
+      { "label": "端到端的智能自动化" },
+      { "label": "更完整、更贴合场景的回答" },
+      { "label": "跨多平台的智能工作流" }
+    ]
+  },
+  "securityHighlight": {
+    "headingPrefix": "企业级 ",
+    "headingHighlight": "安全保障",
+    "description": "以市场最高标准的安全措施保护您的集成与数据。",
+    "itemsAriaLabel": "集成安全标准",
+    "items": [
+      { "label": "所有连接均采用 HTTPS / TLS 1.2+" },
+      { "label": "OAuth 2.0 与安全令牌" },
+      { "label": "速率限制与访问控制" },
+      { "label": "完整的日志与审计记录" },
+      { "label": "符合 LGPD、ISO 27001 和 SOC 2 合规要求" }
+    ]
+  },
+  "developerDocs": {
+    "docsCard": {
+      "heading": "完善的开发者文档",
+      "description": "教程、代码示例、SDK 和测试环境,助您即刻上手。",
+      "ctaLabel": "查看文档",
+      "langsAriaLabel": "SDK 支持的编程语言"
+    },
+    "codeCard": {
+      "heading": "几秒钟内完成 API 调用"
+    },
+    "ctaCard": {
+      "heading": "集成。自动化。转型升级。",
+      "description": "Interfy 与您已在使用的系统连接,让您的业务运营更上一层楼。",
+      "primaryLabel": "免费试用",
+      "secondaryLabel": "咨询专家"
+    }
+  }
+}

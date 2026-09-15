@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blogi & Sisältö",
+    "description": "Artikkeleita, oppaita ja uutisia dokumenttienhallinnasta, prosessiautomaatiosta, sähköisestä allekirjoituksesta ja yritystoimintaan sovelletusta AI:sta.",
+    "keywords": ["Interfyn blogi", "dokumentinhallinnan sisältö", "prosessiautomaatio", "AI yrityksille"]
+  },
+  "hero": {
+    "ariaLabel": "Johdanto blogiin",
+    "eyebrow": "Blogi & Sisältö",
+    "titleLine1": "Sisältöä niille, jotka",
+    "titleHighlight": "uudistavat toimintaa",
+    "description": "Käytännön oppaita, tuotepäivityksiä ja trendejä dokumenteista, prosesseista, datasta ja AI:sta yrityksille."
+  },
+  "grid": {
+    "ariaLabel": "Blogiartikkelit",
+    "categoriesLabel": "Suodata kategorian mukaan",
+    "allLabel": "Kaikki",
+    "categories": ["Dokumenttienhallinta", "Automaatio (BPM)", "Sähköinen allekirjoitus", "AI & Agentit", "Tietoturva & Vaatimustenmukaisuus"],
+    "comingSoonLabel": "Uusia artikkeleita jokaiselle viikolle. Pian lisää myös tässä.",
+    "posts": [
+      {
+        "category": "Dokumenttienhallinta",
+        "title": "Miten rakentaa dokumenttiarkisto, joka kasvaa yrityksen mukana",
+        "excerpt": "Parhaat käytännöt organisointiin, versiohallintaan ja käyttöoikeuksiin nopeasti kasvaville tiimeille.",
+        "date": "Elo 2026",
+        "readTime": "6 min lukuaika"
+      },
+      {
+        "category": "Automaatio (BPM)",
+        "title": "5 prosessia, jotka jokaisen yrityksen kannattaisi automatisoida ensin",
+        "excerpt": "Käytännön opas priorisoida automaatiot, joilla on suurin vaikutus kustannuksiin ja läpimenoaikaan.",
+        "date": "Elo 2026",
+        "readTime": "7 min lukuaika"
+      },
+      {
+        "category": "Sähköinen allekirjoitus",
+        "title": "Onko sähköisellä allekirjoituksella oikeudellinen pätevyys?",
+        "excerpt": "Mitä lainsäädäntö sanoo, mitkä todisteet ovat tärkeitä ja miten valita oikea allekirjoitustaso.",
+        "date": "Hei 2026",
+        "readTime": "5 min lukuaika"
+      },
+      {
+        "category": "AI & Agentit",
+        "title": "AI-agentit sisäisissä prosesseissa: mistä aloittaa",
+        "excerpt": "Todellisia käyttötapauksia manuaalisen työn vähentämiseksi seulonnassa, luokittelussa ja tiedon poiminnassa.",
+        "date": "Hei 2026",
+        "readTime": "8 min lukuaika"
+      },
+      {
+        "category": "Tietoturva & Vaatimustenmukaisuus",
+        "title": "GDPR käytännössä: mikä muuttuu dokumenttien ja prosessien hallinnassa",
+        "excerpt": "Suora opas oikeusperusteista, tietojen säilytyksestä ja rekisterinpitäjän vastuista.",
+        "date": "Kesä 2026",
+        "readTime": "6 min lukuaika"
+      },
+      {
+        "category": "Dokumenttienhallinta",
+        "title": "OCR ja älykäs kaappaus: manuaalisen kirjaamisen loppu",
+        "excerpt": "Miten automatisoitu kaappaus vähentää virheitä ja nopeuttaa dokumenttien siirtämistä työnkulkuun.",
+        "date": "Kesä 2026",
+        "readTime": "5 min lukuaika"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfyn käyttö",
+    "heading": "Haluatko nähdä nämä ideat käytännössä?",
+    "subheading": "Aloita ilmaiseksi ja tutustu Interfy-alustaan omilla dokumenteillasi ja prosesseillasi.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa demo"
+  }
+}

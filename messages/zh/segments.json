@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "行业解决方案",
+    "description": "Interfy 用同一个 AI 原生平台服务各行各业、各种规模的企业:金融、医疗、法务、制造、政府等 20 多个行业。",
+    "keywords": [
+      "Interfy 行业解决方案",
+      "行业化文档管理",
+      "金融医疗法务制造政府软件"
+    ]
+  },
+  "hero": {
+    "statsLabel": "行业平台核心优势",
+    "titleLine1": "一个平台,",
+    "titleHighlight": "覆盖所有行业。",
+    "description": "Interfy 用同一个 AI 原生平台服务各行各业、各种规模的企业,无需独立版本或复杂部署。",
+    "sparkleText": "只要存在数据、流程、文档、客户和决策,就有",
+    "sparkleBrand": "Interfy",
+    "ctaPrimary": "查看行业方案",
+    "ctaSecondary": "预约演示",
+    "statsItems": [
+      {
+        "label": "180+ 个国家"
+      },
+      {
+        "label": "16 种语言"
+      },
+      {
+        "label": "顶级安全防护"
+      },
+      {
+        "label": "AI 原生"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "多年行业经验"
+      },
+      {
+        "label": "高可用性"
+      },
+      {
+        "label": "全球合规"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "一个生态系统,",
+    "titleHighlight": "无限可能。",
+    "description": "选择您的行业,了解 Interfy AI 如何把挑战变成实际成果。",
+    "items": [
+      {
+        "title": "金融",
+        "bullets": [
+          "合规与监管",
+          "信用分析",
+          "合同管理"
+        ]
+      },
+      {
+        "title": "医疗",
+        "bullets": [
+          "病历与文档",
+          "授权与保险",
+          "诊疗管理"
+        ]
+      },
+      {
+        "title": "法务",
+        "bullets": [
+          "案件管理",
+          "合同与诉状",
+          "合规与时效"
+        ]
+      },
+      {
+        "title": "制造",
+        "bullets": [
+          "质量与流程",
+          "手册与文档",
+          "工单维护"
+        ]
+      },
+      {
+        "title": "政府",
+        "bullets": [
+          "流程与招标",
+          "官方文件",
+          "公民服务"
+        ]
+      },
+      {
+        "title": "教育",
+        "bullets": [
+          "招生与档案",
+          "学术流程",
+          "沟通与通知"
+        ]
+      },
+      {
+        "title": "物流",
+        "bullets": [
+          "运单与文档",
+          "跟踪与配送",
+          "异常事件管理"
+        ]
+      },
+      {
+        "title": "保险",
+        "bullets": [
+          "保单与理赔",
+          "风险分析",
+          "服务与 SLA"
+        ]
+      },
+      {
+        "title": "房地产",
+        "bullets": [
+          "合同与提案",
+          "租赁与查验",
+          "物业文档"
+        ]
+      },
+      {
+        "title": "零售",
+        "bullets": [
+          "库存与订单",
+          "票据与供应商",
+          "全渠道服务"
+        ]
+      },
+      {
+        "title": "人力资源",
+        "bullets": [
+          "入职与文档",
+          "绩效评估",
+          "福利管理"
+        ]
+      },
+      {
+        "title": "会计",
+        "bullets": [
+          "票据与申报义务",
+          "报表与报告",
+          "客户与合同"
+        ]
+      },
+      {
+        "title": "药店与实验室",
+        "bullets": [
+          "处方与诊疗",
+          "质量控制",
+          "监管文件"
+        ]
+      },
+      {
+        "title": "连锁加盟",
+        "bullets": [
+          "标准化与手册",
+          "合同与通函",
+          "网络绩效"
+        ]
+      },
+      {
+        "title": "服务业",
+        "bullets": [
+          "提案与合同",
+          "工单与项目",
+          "交付与开票"
+        ]
+      },
+      {
+        "title": "农业",
+        "bullets": [
+          "合同与收成",
+          "票据与文档",
+          "可追溯性"
+        ]
+      },
+      {
+        "title": "工会与协会",
+        "bullets": [
+          "会员与文档",
+          "会议与纪要",
+          "沟通与通知"
+        ]
+      },
+      {
+        "title": "科技",
+        "bullets": [
+          "项目与待办事项",
+          "合同与保密协议",
+          "文件生产"
+        ]
+      },
+      {
+        "title": "旅游",
+        "bullets": [
+          "内容与行程",
+          "合同与媒体",
+          "生产与档案"
+        ]
+      },
+      {
+        "title": "其他",
+        "bullets": [
+          "定制化方案",
+          "量身定制的流程",
+          "数字化转型"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "平台核心优势",
+    "items": [
+      {
+        "title": "一个统一平台",
+        "description": "无需按行业分版本"
+      },
+      {
+        "title": "100% 可配置",
+        "description": "按您的业务需求设置"
+      },
+      {
+        "title": "快速部署",
+        "description": "几分钟即可上线,无需复杂配置"
+      },
+      {
+        "title": "企业级安全",
+        "description": "数据保护与隔离环境"
+      },
+      {
+        "title": "AI 贯穿每个行业",
+        "description": "理解您业务场景的智能体"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "平台的信任与适应能力",
+    "cardTitle": "为不同企业的",
+    "cardTitleHighlight": "真实需求而生。",
+    "cardDescription": "从小型企业到全球化运营,Interfy 都能适应您的规模、行业和目标。",
+    "casesLink": "查看应用案例",
+    "statsTitle": "信赖 Interfy 的企业",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "服务的行业数量"
+      },
+      {
+        "value": "2,5M+",
+        "label": "服务的用户数量"
+      },
+      {
+        "value": "6",
+        "label": "商业区域"
+      },
+      {
+        "value": "70 亿+",
+        "label": "管理的文档数量"
+      },
+      {
+        "value": "600 万+",
+        "label": "自动化的流程数量"
+      },
+      {
+        "value": "99,99%",
+        "label": "平台正常运行时间"
+      }
+    ],
+    "illustrationAlt": "展示不同企业数据图表的面板"
+  },
+  "platform": {
+    "titleHighlight": "完整平台,",
+    "titleSuffix": "适用于任何行业",
+    "ctaLabel": "查看平台",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "智能文档与信息管理"
+      },
+      {
+        "product": "Process",
+        "description": "流程与任务智能自动化"
+      },
+      {
+        "product": "Capture",
+        "description": "由 AI 驱动的智能文档采集"
+      },
+      {
+        "product": "Sign",
+        "description": "面向所有用户的免费电子签名"
+      },
+      {
+        "product": "Connect",
+        "description": "与业务运营连接的协作与沟通"
+      },
+      {
+        "product": "Mobile",
+        "description": "把完整业务掌握在手中"
+      },
+      {
+        "product": "Agents",
+        "description": "能分析、决策并执行的 AI 智能体"
+      },
+      {
+        "product": "Voice",
+        "description": "以自然语言和 AI 进行语音交互"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "title": "无论您的行业、企业规模或挑战是什么,我们都是您的最佳平台。",
+    "description": "Interfy 用 AI、自动化和智能技术改变您的业务运营。",
+    "ctaPrimary": "免费开始",
+    "ctaSecondary": "预约演示",
+    "features": [
+      {
+        "title": "AI 原生",
+        "description": "智能贯穿每一个模块"
+      },
+      {
+        "title": "云原生",
+        "description": "可扩展的基础架构"
+      },
+      {
+        "title": "Web + Mobile",
+        "description": "随时随地完整访问"
+      },
+      {
+        "title": "API 与集成",
+        "description": "连接企业已有的一切系统"
+      },
+      {
+        "title": "安全与合规",
+        "description": "全球级的保护与合规标准"
+      },
+      {
+        "title": "7x24 支持",
+        "description": "持续护航您的业务运营"
+      }
+    ]
+  }
+}

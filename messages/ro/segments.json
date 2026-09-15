@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "Segmente",
+    "description": "Interfy deservește companii din diverse industrii și dimensiuni printr-o singură platformă AI-native: Financiar, Sănătate, Juridic, Industrie, Guvern și peste 20 de segmente.",
+    "keywords": [
+      "Interfy pe segmente",
+      "managementul documentelor pe industrii",
+      "software pentru financiar sănătate juridic industrie guvern"
+    ]
+  },
+  "hero": {
+    "statsLabel": "Avantajele platformei pentru segmente",
+    "titleLine1": "O platformă pentru",
+    "titleHighlight": "toate segmentele.",
+    "description": "Interfy deservește companii din diverse industrii și dimensiuni printr-o singură platformă AI-native, fără nevoia de versiuni separate sau implementări complexe.",
+    "sparkleText": "Oriunde există date, procese, documente, clienți și decizii, există loc pentru",
+    "sparkleBrand": "Interfy.",
+    "ctaPrimary": "Vezi segmentele",
+    "ctaSecondary": "Programează o demonstrație",
+    "statsItems": [
+      {
+        "label": "180+ țări"
+      },
+      {
+        "label": "16 limbi"
+      },
+      {
+        "label": "Securitate de vârf"
+      },
+      {
+        "label": "AI Native"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "Ani de experiență"
+      },
+      {
+        "label": "Disponibilitate ridicată"
+      },
+      {
+        "label": "Conformitate globală"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "Un singur ecosistem.",
+    "titleHighlight": "Posibilități infinite.",
+    "description": "Alege-ți segmentul și descoperă cum Interfy AI transformă provocările în rezultate reale.",
+    "items": [
+      {
+        "title": "Financiar",
+        "bullets": [
+          "Conformitate și reglementare",
+          "Analiză de credit",
+          "Gestionarea contractelor"
+        ]
+      },
+      {
+        "title": "Sănătate",
+        "bullets": [
+          "Fișe medicale și documente",
+          "Autorizări și asigurări",
+          "Gestionarea îngrijirilor"
+        ]
+      },
+      {
+        "title": "Juridic",
+        "bullets": [
+          "Gestionarea proceselor",
+          "Contracte și acțiuni juridice",
+          "Conformitate și termene"
+        ]
+      },
+      {
+        "title": "Industrie",
+        "bullets": [
+          "Calitate și procese",
+          "Manuale și documente",
+          "Ordine de mentenanță"
+        ]
+      },
+      {
+        "title": "Guvern",
+        "bullets": [
+          "Procese și licitații",
+          "Documente oficiale",
+          "Servicii pentru cetățeni"
+        ]
+      },
+      {
+        "title": "Educație",
+        "bullets": [
+          "Înmatriculări și istorice",
+          "Procese academice",
+          "Comunicare și anunțuri"
+        ]
+      },
+      {
+        "title": "Logistică",
+        "bullets": [
+          "CT-e și documente",
+          "Urmărire și livrări",
+          "Gestionarea incidentelor"
+        ]
+      },
+      {
+        "title": "Asigurări",
+        "bullets": [
+          "Polițe și daune",
+          "Analiza riscurilor",
+          "Servicii clienți și SLA"
+        ]
+      },
+      {
+        "title": "Imobiliare",
+        "bullets": [
+          "Contracte și oferte",
+          "Închirieri și inspecții",
+          "Documente ale proprietăților"
+        ]
+      },
+      {
+        "title": "Comerț cu amănuntul",
+        "bullets": [
+          "Stocuri și comenzi",
+          "Facturi și furnizori",
+          "Servicii omnichannel"
+        ]
+      },
+      {
+        "title": "Resurse Umane",
+        "bullets": [
+          "Angajare și documente",
+          "Evaluări de performanță",
+          "Gestionarea beneficiilor"
+        ]
+      },
+      {
+        "title": "Contabilitate",
+        "bullets": [
+          "Facturi și obligații",
+          "Declarații și rapoarte",
+          "Clienți și contracte"
+        ]
+      },
+      {
+        "title": "Farmacii & Laboratoare",
+        "bullets": [
+          "Rețete și consultații",
+          "Controlul calității",
+          "Documente de reglementare"
+        ]
+      },
+      {
+        "title": "Francize",
+        "bullets": [
+          "Standardizare și manuale",
+          "Contracte și circulare",
+          "Performanța rețelei"
+        ]
+      },
+      {
+        "title": "Servicii",
+        "bullets": [
+          "Oferte și contracte",
+          "Solicitări și proiecte",
+          "Livrări și facturare"
+        ]
+      },
+      {
+        "title": "Agribusiness",
+        "bullets": [
+          "Contracte și recolte",
+          "Facturi și documente",
+          "Trasabilitate"
+        ]
+      },
+      {
+        "title": "Sindicate & Asociații",
+        "bullets": [
+          "Membri și documente",
+          "Adunări și procese-verbale",
+          "Comunicare și anunțuri"
+        ]
+      },
+      {
+        "title": "Tehnologie",
+        "bullets": [
+          "Proiecte și backlog",
+          "Contracte și NDA-uri",
+          "Producție de fișiere"
+        ]
+      },
+      {
+        "title": "Turism",
+        "bullets": [
+          "Conținut și pachete",
+          "Contracte și media",
+          "Producție și arhivare"
+        ]
+      },
+      {
+        "title": "Altele",
+        "bullets": [
+          "Soluții personalizate",
+          "Procese la comandă",
+          "Transformare digitală"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Avantajele platformei",
+    "items": [
+      {
+        "title": "O singură platformă",
+        "description": "Fără nevoia de versiuni pe industrie"
+      },
+      {
+        "title": "100% adaptabilă",
+        "description": "Configurează în funcție de afacerea ta"
+      },
+      {
+        "title": "Implementare rapidă",
+        "description": "Începe în câteva minute, fără complicații"
+      },
+      {
+        "title": "Securitate enterprise",
+        "description": "Protecția datelor și medii izolate"
+      },
+      {
+        "title": "AI în toate industriile",
+        "description": "Agenți inteligenți care înțeleg contextul tău"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "Încredere și adaptabilitate ale platformei",
+    "cardTitle": "Creată pentru realitatea",
+    "cardTitleHighlight": "companiilor diferite.",
+    "cardDescription": "De la companii mici la operațiuni globale, Interfy se adaptează la dimensiunea, segmentul și obiectivele tale.",
+    "casesLink": "Vezi cazurile de utilizare",
+    "statsTitle": "Companii care au încredere în Interfy",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "segmente deservite"
+      },
+      {
+        "value": "2,5M+",
+        "label": "utilizatori deserviți"
+      },
+      {
+        "value": "6",
+        "label": "regiuni comerciale"
+      },
+      {
+        "value": "7 Miliarde +",
+        "label": "documente gestionate"
+      },
+      {
+        "value": "6 Milioane +",
+        "label": "procese automatizate"
+      },
+      {
+        "value": "99,99%",
+        "label": "uptime al platformei"
+      }
+    ],
+    "illustrationAlt": "Panou cu grafice care reprezintă date din companii diferite"
+  },
+  "platform": {
+    "titleHighlight": "Platformă completă",
+    "titleSuffix": "pentru orice segment",
+    "ctaLabel": "Vezi Platforma",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "Gestionare inteligentă a documentelor și informațiilor"
+      },
+      {
+        "product": "Process",
+        "description": "Automatizare inteligentă a proceselor și sarcinilor"
+      },
+      {
+        "product": "Capture",
+        "description": "Captură inteligentă de documente cu AI"
+      },
+      {
+        "product": "Sign",
+        "description": "Semnătură digitală gratuită pentru toți utilizatorii"
+      },
+      {
+        "product": "Connect",
+        "description": "Colaborare și comunicare conectate la operațiune"
+      },
+      {
+        "product": "Mobile",
+        "description": "Operațiunea ta completă în palma mâinii"
+      },
+      {
+        "product": "Agents",
+        "description": "Agenți AI care analizează, decid și execută"
+      },
+      {
+        "product": "Voice",
+        "description": "Interacțiune vocală cu limbaj natural și AI"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy",
+    "title": "Indiferent de segmentul tău, dimensiunea companiei sau provocarea ta, suntem platforma potrivită.",
+    "description": "Interfy îți transformă operațiunea cu AI, automatizare și inteligență.",
+    "ctaPrimary": "Începe Gratuit",
+    "ctaSecondary": "Programează o Demonstrație",
+    "features": [
+      {
+        "title": "AI-native",
+        "description": "inteligență în fiecare modul"
+      },
+      {
+        "title": "Cloud-native",
+        "description": "infrastructură scalabilă"
+      },
+      {
+        "title": "Web + Mobile",
+        "description": "Acces complet de oriunde te-ai afla"
+      },
+      {
+        "title": "API-uri și integrări",
+        "description": "Conectează tot ce compania ta folosește deja"
+      },
+      {
+        "title": "Securitate și conformitate",
+        "description": "Standarde globale de protecție și conformitate"
+      },
+      {
+        "title": "Suport 24/7",
+        "description": "Sprijin continuu pentru operațiunea ta"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign este semnătura digitală gratuită pentru toți utilizatorii platformei. Semnează și urmărește documente cu viteză, securitate și integrare totală cu operațiunea ta.",
+    "keywords": ["semnătură digitală", "semnătură electronică", "valabilitate juridică", "Interfy Sign"],
+    "freeTrialNote": "Semnătură digitală gratuită pentru toți utilizatorii platformei."
+  },
+  "hero": {
+    "heading": "Semnătură",
+    "headingGradient": "digitală gratuită",
+    "subheading": "pentru toți utilizatorii platformei.",
+    "descriptionPrefix": "Semnează și urmărește documente cu ",
+    "descriptionHighlight": "viteză, securitate și integrare totală",
+    "descriptionSuffix": " cu operațiunea ta.",
+    "noCreditCard": "Fără card de credit",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "mockupAlt": "Platforma Interfy Sign afișată pe tabletă și smartphone, arătând un document gata de semnare",
+    "featureChips": [
+      { "labelLines": ["Semnătură", "electronică"] },
+      { "labelLines": ["Semnătură", "pe flux"] },
+      { "labelLines": ["Semnatari", "multipli"] },
+      { "labelLines": ["Șabloane", "gata făcute"] },
+      { "labelLines": ["Pistă de", "audit"] },
+      { "labelLines": ["Autentificare", "securizată"] },
+      { "labelLines": ["Trimitere", "externă"] },
+      { "labelLines": ["Alerte", "inteligente"] },
+      { "labelLines": ["Urmărire", "în timp real"] },
+      { "labelLines": ["Semnătură", "prin mobil"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "Mai mult control și eficiență pentru ciclul de viață al ",
+    "headingHighlight": "documentelor tale",
+    "cards": [
+      { "title": "Integrare cu Documents", "description": "Semnează documente stocate în siguranță și cu orientare corectă." },
+      { "title": "Integrare cu Process", "description": "Include semnătura digitală în procesele tale automatizate de la un capăt la altul." },
+      { "title": "Trimitere către utilizatori externi", "description": "Trimite documente către persoane din afara platformei cu securitate totală." },
+      { "title": "Fluxuri de aprobare", "description": "Definește etape, responsabili și reguli pentru aprobare rapidă." },
+      { "title": "Alerte și trasabilitate", "description": "Primește notificări și ai vizibilitate totală asupra fiecărei etape." },
+      { "title": "Totul înregistrat în siguranță", "description": "Trasabilitate completă cu pistă de audit și conformitate garantată." }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "Cum funcționează ",
+    "headingProduct": "Interfy Sign",
+    "steps": [
+      { "description": "Trimite documentul sau alege un șablon gata făcut." },
+      { "description": "Definește semnatarii și ordinea semnării." },
+      { "description": "Trimite spre semnare cu autentificare securizată." },
+      { "description": "Semnatarii semnează de oriunde s-ar afla, chiar și de pe telefonul mobil." },
+      { "description": "Urmărește statusul în timp real și primește alerte." },
+      { "description": "Documentul este finalizat și stocat în siguranță." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funcționalități complete pentru ",
+    "headingHighlight": "orice tip de afacere",
+    "cards": [
+      { "title": "Șabloane gata făcute", "description": "Folosește modele gata făcute sau creează-ți propriile șabloane personalizate." },
+      { "title": "Semnatari multipli", "description": "Semnează cu una sau mai multe persoane, secvențial sau în paralel." },
+      { "title": "Autentificare securizată", "description": "Mai multe niveluri de verificare pentru a garanta identitatea și securitatea." },
+      { "title": "Pistă de audit", "description": "Urmărește fiecare acțiune cu detalii complete și imutabile." },
+      { "title": "Integrare cu Documents", "description": "Semnează documente direct din repozitoriile tale." },
+      { "title": "Integrare cu Process", "description": "Include semnătura digitală în procesele tale automatizate de la un capăt la altul." },
+      { "title": "Urmărire în timp real", "description": "Vezi cine a semnat, cine nu a semnat încă și statusul actual al fiecărei etape." },
+      { "title": "Semnătură pe mobil", "description": "Semnează de oriunde prin aplicație, din câteva atingeri." },
+      { "title": "Trimitere externă", "description": "Trimite documente către persoane externe cu securitate totală." }
+    ]
+  },
+  "cta": {
+    "title": "Gata să transformi modul în care compania ta semnează și aprobă documente?",
+    "description": "Începe chiar acum cu Interfy Sign și adu mai multă agilitate, securitate și control afacerii tale.",
+    "ctaPrimary": "Test Drive gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o demonstrație",
+    "statsLabel": "Scara platformei Interfy",
+    "sectionLabel": "Începe să folosești Interfy Sign"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "Plattformstatus",
+    "description": "Verfolgen Sie in Echtzeit die Verfügbarkeit jedes Interfy-Produkts und die Vorfallhistorie der Plattform.",
+    "keywords": ["Interfy Status", "Interfy Verfügbarkeit", "Interfy Uptime", "Interfy Vorfälle"]
+  },
+  "hero": {
+    "ariaLabel": "Einführung zum Plattformstatus",
+    "eyebrow": "Plattformstatus",
+    "titleLine1": "Alle Systeme",
+    "titleHighlight": "betriebsbereit",
+    "description": "Echtzeit-Verfügbarkeit jedes Interfy-Produkts, mit Vorfallhistorie und Uptime-SLA."
+  },
+  "list": {
+    "ariaLabel": "Status je Produkt",
+    "heading": "Status je Produkt",
+    "operationalLabel": "Betriebsbereit",
+    "services": [
+      { "name": "Documents" },
+      { "name": "Process" },
+      { "name": "Capture" },
+      { "name": "Sign" },
+      { "name": "Connect" },
+      { "name": "Agents" },
+      { "name": "Mobile" },
+      { "name": "Voice" }
+    ],
+    "incidentsHeading": "Vorfallhistorie",
+    "incidentsEmpty": "In den letzten 90 Tagen wurden keine Vorfälle verzeichnet."
+  },
+  "infra": {
+    "ariaLabel": "Infrastruktur hinter dem Plattformstatus",
+    "heading": "Hochverfügbare Infrastruktur",
+    "subheading": "100 % AWS-basierte Cloud-native Architektur mit Redundanz auf allen Ebenen.",
+    "items": [
+      { "label": "Multi-AZ auf allen Ebenen (Anwendung und Datenbank)" },
+      { "label": "Globales CDN (CloudFront) mit niedriger Latenz" },
+      { "label": "Automatische Lastverteilung" },
+      { "label": "Bedrohungserkennung und -abwehr (GuardDuty)" },
+      { "label": "Kontinuierliches Monitoring (CloudWatch)" },
+      { "label": "Protokolle und Audit-Trail (CloudTrail)" }
+    ],
+    "certifications": {
+      "heading": "Zertifizierungen und Compliance",
+      "ctaLabel": "Vollständige Sicherheitsarchitektur ansehen",
+      "items": [
+        { "label": "ISO/IEC 27001:2022", "description": "Zertifiziertes Informationssicherheits-Managementsystem." },
+        { "label": "SOC 2 Type II", "description": "Kontrollen für Sicherheit, Verfügbarkeit und Vertraulichkeit.", "badge": "In Bearbeitung" },
+        { "label": "LGPD", "description": "Konform mit dem brasilianischen Datenschutzgesetz (LGPD)." },
+        { "label": "DSGVO", "description": "Konform mit der EU-Datenschutz-Grundverordnung." },
+        { "label": "HIPAA Ready", "description": "Vorbereitet für Umgebungen mit ePHI in den USA.", "badge": "BAA verfügbar" }
+      ]
+    }
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy starten",
+    "heading": "Zuverlässigkeit auf Enterprise-Niveau",
+    "subheading": "Globale AWS-Infrastruktur, AES-256/TLS-1.2+-Verschlüsselung und ein SLA von 99,99 % Verfügbarkeit.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryButton": "Demo vereinbaren",
+    "statsLabel": "Zuverlässigkeitskennzahlen",
+    "stats": [
+      { "label": "99,99 %", "sublabel": "Uptime-SLA" },
+      { "label": "AES-256 / TLS 1.2+", "sublabel": "Verschlüsselung" },
+      { "label": "LGPD, DSGVO, ISO 27001", "sublabel": "Compliance" }
+    ]
+  }
+}

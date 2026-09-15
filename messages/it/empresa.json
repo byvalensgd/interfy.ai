@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Chi Siamo",
+    "description": "Da oltre 26 anni semplifichiamo la gestione aziendale. Scopri la storia, la missione e la tecnologia dietro Interfy, con sede a Orlando (USA) e presenza in oltre 180 paesi.",
+    "keywords": ["chi è Interfy", "storia di Interfy", "missione e visione", "ecosistema di marchi Interfy", "Interfy Corporation"]
+  },
+  "hero": {
+    "headingPrefix": "Semplifichiamo il Complesso, Trasformiamo il Presente, ",
+    "headingHighlight": "Innoviamo il Futuro.",
+    "description": "Da oltre due decenni trasformiamo la gestione aziendale attraverso una tecnologia innovativa e accessibile. Con sede a Orlando (USA), serviamo aziende in oltre 180 paesi, aiutando le organizzazioni ad abbandonare i sistemi legacy e ad abbracciare l'agilità operativa.",
+    "slideshowAlt": "Piattaforma Interfy visualizzata su laptop e smartphone, con il pannello di gestione basato su AI",
+    "ctaPrimary": "VOGLIO DIVENTARE PARTNER",
+    "ctaSecondary": "VOGLIO SEGNALARE CLIENTI",
+    "statsAriaLabel": "I numeri di Interfy",
+    "stats": [
+      { "label": "180+", "sublabel": "Paesi serviti" },
+      { "label": "25 mila +", "sublabel": "Aziende trasformate" },
+      { "label": "26 +", "sublabel": "Anni di esperienza" },
+      { "label": "Orlando, FL", "sublabel": "Sede negli USA" }
+    ]
+  },
+  "history": {
+    "headingPrefix": "Perfezionati dalla Sfida, ",
+    "headingHighlight": "Scalati verso il Successo",
+    "paragraph1": "Interfy non è una startup in fase iniziale, ma un'azienda consolidata con oltre 26 anni di esperienza nello sviluppo di tecnologie per la gestione aziendale. Con sede a Orlando, in Florida (USA), sviluppiamo soluzioni che servono aziende in tutto il mondo. La nostra tecnologia è progettata per operare in diversi contesti normativi e culturali, garantendo flessibilità e conformità a livello globale.",
+    "paragraph2": "La nostra piattaforma viene testata negli ambienti aziendali più esigenti al mondo. Dal mercato statunitense all'America Latina e all'Europa, serviamo oltre 180 paesi con la stessa eccellenza e solidità che definiscono il nostro marchio."
+  },
+  "missionVision": {
+    "sectionAriaLabel": "Missione, visione e principi di Interfy",
+    "vision": {
+      "title": "La nostra visione",
+      "description": "Essere riconosciuti per generare valore per i nostri clienti in tutto il mondo, offrendo una piattaforma software di gestione aziendale online, accessibile, con mobilità e facile da usare."
+    },
+    "mission": {
+      "title": "La nostra missione",
+      "description": "Fornire una piattaforma software online per la Gestione dei Processi Aziendali facile da implementare e accessibile per aziende di ogni dimensione e settore."
+    },
+    "principlesHeading": "I nostri principi",
+    "principlesAriaLabel": "Principi di Interfy",
+    "principles": [
+      { "title": "L'Etica come Anima", "description": "Trasparenza e integrità sono irrinunciabili in tutto ciò che facciamo." },
+      { "title": "Innovazione attraverso la Semplificazione", "description": "La vera innovazione non aggiunge complessità, la semplifica." },
+      {
+        "title": "Democratizzazione Tecnologica",
+        "descriptionPrefix": "Rendere Interfy ",
+        "descriptionProduct1": "Documents",
+        "descriptionMiddle": " & ",
+        "descriptionProduct2": "Process",
+        "descriptionSuffix": " accessibili ad aziende di ogni dimensione."
+      },
+      { "title": "Ossessione per l'Usabilità", "description": "Esperienza utente aziendale paragonabile a quella delle app consumer." }
+    ]
+  },
+  "blueOcean": {
+    "heading": "L'Oceano Blu dell'Integrazione",
+    "descriptionPrefix": "Mentre concorrenti come DocuSign, Box e Pipefy si specializzano in verticali funzionali (firme, archiviazione o processi isolati), Interfy adotta una strategia di ",
+    "descriptionHighlight": "Piattaforma Totale",
+    "descriptionSuffix": ".",
+    "ariaLabel": "Vantaggi competitivi di Interfy",
+    "items": [
+      { "title": "Piattaforma All-in-One", "description": "Documents + Process + Sign + Capture integrati nativamente." },
+      { "title": "Riduzione del TCO", "description": "Elimina l'affaticamento da abbonamenti a decine di fornitori." },
+      { "title": "Architettura Cloud-Native", "description": "AWS, Kubernetes, microservizi — non è un sistema legacy." },
+      { "title": "Low-Code/No-Code", "description": "Gli utenti business creano soluzioni senza scrivere codice." },
+      { "title": "Sicurezza e Compliance", "description": "LGPD, GDPR, ISO 27001, crittografia end-to-end." },
+      { "title": "Private Label Partnership", "description": "Modello di business disruptive che potenzia i partner." }
+    ]
+  },
+  "brandsEcosystem": {
+    "headingHighlight": "Ecosistema",
+    "headingSuffix": " di Marchi",
+    "description": "Interfy opera come una holding tecnologica che ospita marchi capaci di penetrare nicchie specifiche.",
+    "ariaLabel": "Marchi dell'ecosistema Interfy",
+    "brands": [
+      { "name": "Ecofy", "description": "Soluzioni sostenibili per un pianeta migliore." },
+      { "name": "Injectra", "description": "Tecnologia Americana di Stampaggio a Iniezione." },
+      { "name": "Innovecar", "description": "Mobilità intelligente e accessibile." },
+      { "name": "NeoAI", "description": "Piattaforma di business connessi con l'AI." },
+      { "name": "Processdoc", "description": "Gestione intelligente di processi e documenti." },
+      { "name": "Acquafy", "description": "Soluzioni avanzate di acqua purificata." },
+      { "name": "Interfy", "description": "Piattaforma digitale per business e servizi." },
+      { "name": "Visionfy", "description": "Analisi dei dati e AI per decisioni migliori." },
+      { "name": "Mediafy", "description": "Marketing e produzione di contenuti digitali." },
+      { "name": "Docsystem", "description": "Soluzioni documentali aziendali complete." }
+    ]
+  },
+  "technology": {
+    "heading": "Tecnologia di Livello Mondiale",
+    "ariaLabel": "Infrastruttura tecnologica di Interfy",
+    "items": [
+      { "title": "Hosting", "description": "Amazon Web Services (AWS)." },
+      { "title": "Mobilità", "description": "Interfaccia web responsive HTML5." },
+      { "title": "Kubernetes", "description": "Orchestrazione Kubernetes per scalabilità automatica." },
+      { "title": "Multi-lingua", "description": "Supporto per 16 lingue." },
+      { "title": "Sicurezza", "description": "Crittografia SSL/TLS, 2FA, SSO." },
+      { "title": "Compliance", "description": "LGPD, GDPR, ISO 27001." }
+    ],
+    "saas": {
+      "headingPrefix": "Aiutiamo i partner a costruire ",
+      "headingHighlight": "le proprie SaaS Company",
+      "ariaLabel": "Vantaggi del modello White Label",
+      "items": [
+        { "title": "White Label Completo", "description": "Il tuo marchio, il tuo logo, il tuo URL." },
+        { "title": "Margini fino al 100% +", "description": "Definisci il tuo prezzo." },
+        { "title": "Zero Capex", "description": "Non investire milioni nello sviluppo." },
+        { "title": "Pay-as-you-go", "description": "Paghi solo per il consumo reale dei clienti." },
+        { "title": "Supporto Specializzato", "description": "Formazione, materiali e supporto tecnico." }
+      ]
+    }
+  },
+  "aiFuture": {
+    "heading": "Dal passivo all'attivo",
+    "description": "Stiamo investendo in Intelligenza Artificiale Generativa per trasformare la piattaforma da un sistema di gestione passiva a un sistema di intelligenza attiva.",
+    "ariaLabel": "Investimenti in Intelligenza Artificiale",
+    "items": [
+      { "title": "Suggerimenti intelligenti di azioni basati su pattern di dati." },
+      { "title": "Automazione proattiva delle attività ripetitive." },
+      { "title": "Insight predittivi per il processo decisionale." },
+      { "title": "Creazione Assistita dall'AI", "description": "Disegno automatico di processi BPMN e moduli." },
+      { "title": "Analisi Documentale Intelligente", "description": "AI che legge contratti e risponde a domande complesse." },
+      { "title": "Agenti Autonomi", "description": "Agenti AI che eseguono attività in modo autonomo." }
+    ],
+    "statsLabel": "I numeri della piattaforma Interfy",
+    "stats": [
+      { "label": "12Mld +", "sublabel": "documenti" },
+      { "label": "20M +", "sublabel": "firme" },
+      { "label": "2,5M +", "sublabel": "utenti" },
+      { "label": "6M +", "sublabel": "processi" },
+      { "label": "1000 TB +", "sublabel": "archiviati" },
+      { "label": "99,99%", "sublabel": "uptime" },
+      { "label": "24/7", "sublabel": "supporto" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Pronto a trasformare la tua azienda?",
+    "subheading": "Unisciti a migliaia di aziende che hanno già semplificato il complesso con Interfy.",
+    "primaryLabel": "Test Drive per 7 giorni",
+    "secondaryLabel": "Prenota una Demo"
+  }
+}

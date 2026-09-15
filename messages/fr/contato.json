@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Contact",
+    "description": "Contactez Interfy : e-mail, téléphone, adresse et horaires pour toute question commerciale, de support ou de partenariat.",
+    "keywords": ["contact Interfy", "contacter Interfy", "e-mail Interfy", "téléphone Interfy"]
+  },
+  "hero": {
+    "ariaLabel": "Introduction à la page de contact",
+    "eyebrow": "Contactez-nous",
+    "titleLine1": "Parlons de",
+    "titleHighlight": "votre activité",
+    "description": "Nos équipes commerciales et support sont prêtes à comprendre votre contexte et à vous montrer comment Interfy s'y intègre.",
+    "primaryLabel": "Planifier une démo",
+    "secondaryLabel": "Commencer gratuitement"
+  },
+  "channels": {
+    "ariaLabel": "Canaux de contact",
+    "heading": "Choisissez le meilleur canal",
+    "items": [
+      {
+        "title": "E-mail commercial",
+        "description": "contato@interfy.ai — pour toute question commerciale, sur les forfaits et les partenariats.",
+        "actionLabel": "Envoyer un e-mail",
+        "href": "mailto:contato@interfy.ai"
+      },
+      {
+        "title": "Téléphone",
+        "description": "+55 11 4020-1000 — du lundi au vendredi, de 8h à 20h (heure de Brasília).",
+        "actionLabel": "Appeler maintenant",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Adresse",
+        "description": "Interfy Corporation — Orlando, Floride, États-Unis, avec une présence commerciale dans plus de 180 pays et un accompagnement dédié au Brésil.",
+        "actionLabel": "Voir toutes les régions",
+        "href": "/segmentos"
+      },
+      {
+        "title": "Horaires d'ouverture",
+        "description": "Du lundi au vendredi, de 8h à 20h. Les comptes Enterprise peuvent souscrire un support étendu 24/7.",
+        "actionLabel": "Voir le support",
+        "href": "/suporte"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Commencez à utiliser Interfy",
+    "heading": "Vous préférez voir la plateforme en action ?",
+    "subheading": "Planifiez une démonstration avec notre équipe et découvrez Interfy appliquée à votre activité en quelques minutes.",
+    "primaryButton": "Commencer gratuitement",
+    "secondaryButton": "Planifier une démo"
+  }
+}

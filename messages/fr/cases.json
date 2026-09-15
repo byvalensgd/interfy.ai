@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Cas de réussite",
+    "description": "Résultats typiques obtenus par des entreprises de différents secteurs avec la plateforme Interfy de documents, processus et IA.",
+    "keywords": ["cas Interfy", "résultats Interfy", "cas de réussite gestion documentaire", "ROI automatisation des processus"]
+  },
+  "hero": {
+    "ariaLabel": "Introduction aux cas de réussite",
+    "eyebrow": "Cas de réussite",
+    "titleLine1": "Des résultats concrets dans",
+    "titleHighlight": "différents secteurs",
+    "description": "Un aperçu des gains que des entreprises comme la vôtre obtiennent en unifiant documents, processus et IA sur une seule plateforme."
+  },
+  "grid": {
+    "ariaLabel": "Résultats par secteur",
+    "heading": "Ce que nos clients obtiennent",
+    "illustrativeNote": "Résultats illustratifs, basés sur des moyennes observées chez les clients Interfy de chaque secteur. Demandez un diagnostic pour estimer l'impact sur votre situation.",
+    "complianceNote": "Résultats obtenus sur une infrastructure certifiée ISO/IEC 27001:2022, avec un SLA de 99,99 % de disponibilité et une conformité LGPD/RGPD.",
+    "items": [
+      {
+        "segment": "Institutions financières",
+        "description": "Numérisation des contrats et automatisation des chaînes de crédit avec une piste d'audit complète.",
+        "metricValue": "-45%",
+        "metricLabel": "temps moyen d'analyse de crédit"
+      },
+      {
+        "segment": "Santé",
+        "description": "Dossiers médicaux et comptes-rendus centralisés, avec signature électronique intégrée au parcours de soins.",
+        "metricValue": "-60%",
+        "metricLabel": "temps d'archivage des documents"
+      },
+      {
+        "segment": "Juridique",
+        "description": "Gestion des contrats et des dossiers avec suivi des délais et signature électronique de bout en bout.",
+        "metricValue": "3x",
+        "metricLabel": "plus de contrats conclus par mois"
+      },
+      {
+        "segment": "Industrie",
+        "description": "Automatisation des bons de commande et des validations multi-niveaux intégrées à l'ERP.",
+        "metricValue": "-35%",
+        "metricLabel": "temps de cycle de validation"
+      },
+      {
+        "segment": "Logistique",
+        "description": "Capture automatique des bons de livraison et des factures directement depuis le mobile du chauffeur.",
+        "metricValue": "+80%",
+        "metricLabel": "documents capturés le jour même"
+      },
+      {
+        "segment": "Commerce de détail",
+        "description": "Intégration des fournisseurs et gestion des contrats standardisés au sein d'une seule chaîne de traitement.",
+        "metricValue": "-50%",
+        "metricLabel": "temps d'intégration des fournisseurs"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Commencez à utiliser Interfy",
+    "heading": "Vous voulez des résultats similaires dans votre entreprise ?",
+    "subheading": "Parlez à notre équipe et recevez un diagnostic gratuit de votre processus actuel.",
+    "primaryButton": "Commencer gratuitement",
+    "secondaryButton": "Planifier une démo"
+  }
+}

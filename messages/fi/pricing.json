@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Hinnat ja paketit",
+    "description": "Valitse yrityksesi kokoon sopiva paketti: Free, Individual, Teams, Startup tai paketit keskisuurille ja suurille yrityksille.",
+    "keywords": ["Interfyn hinnat", "Interfyn paketit", "mitä dokumenttienhallinta maksaa", "AI-pohjainen yrityspaketti"]
+  },
+  "hero": {
+    "headingPrefix": "Täydellinen alusta toimintasi",
+    "headingHighlight": "uudistamiseen AI:n avulla.",
+    "description": "Valitse yrityksesi kokoon sopiva paketti ja ala muuttaa dokumentit, prosessit ja ihmiset todellisiksi tuloksiksi.",
+    "monthlyCta": "Kuukausittain",
+    "annualCta": "Vuosittain",
+    "saveBadge": "Säästä jopa 30 %",
+    "imageAlt": "Interfy-alusta näytettynä läppärissä ja älypuhelimessa, AI-pohjainen hallintapaneeli näkyvissä",
+    "highlights": ["Ilmainen 7 päivän kokeilu", "Ilmainen digitaalinen allekirjoitus", "Pääsy Webin ja Mobiilin kautta", "AI-ominaisuudet mukana"]
+  },
+  "plansSection": {
+    "heading": "Interfy-paketit",
+    "segmentSmallTitle": "Pienet yritykset",
+    "segmentSmallDesc": "Ammattilaisille, tiimeille ja kasvaville yrityksille.",
+    "segmentLargeTitle": "Keskisuuret & suuret yritykset",
+    "segmentLargeDesc": "Monimutkaisille toiminnoille, hallinnalle ja globaalille mittakaavalle.",
+    "billingAriaLabel": "Vaihda kuukausi- ja vuosilaskutuksen välillä",
+    "billingMonthly": "Kuukausittain",
+    "billingAnnual": "Vuosittain",
+    "billingSaveBadge": "Säästä 30 %",
+    "billingAnnualLabel": "Vuosilaskutus",
+    "billingMonthlyLabel": "Kuukausilaskutus",
+    "perUserMonth": "Per käyttäjä/kuukausi",
+    "productsIncludedLabel": "Pakettiin sisältyvät tuotteet",
+    "allProductsLabel": "KAIKKI 8 TUOTETTA",
+    "enterprisePriceLabel": "Kysy tarjous",
+    "enterprisePriceSub": "Räätälöity hinta",
+    "popularBadge": "SUOSITUIN"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Aloita ilmaiseksi",
+      "productsLabel": "3 TUOTETTA MUKANA",
+      "features": [
+        "1 täysi käyttäjä",
+        "1 GB tallennustilaa",
+        "5 AI-krediittiä/kk",
+        "3 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!",
+      "productsLabel": "4 TUOTETTA MUKANA",
+      "features": [
+        "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+        "Vähintään 1 täysi käyttäjä",
+        "2 tiedustelukäyttäjää",
+        "5 GB tallennustilaa",
+        "10 AI-krediittiä/kk (ei kumuloituva)",
+        "10 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+        "10 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!",
+      "productsLabel": "5 TUOTETTA MUKANA",
+      "features": [
+        "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+        "Vähintään 5 täyttä käyttäjää",
+        "5 tiedustelukäyttäjää",
+        "Interfy Capture + Mobile",
+        "10 GB tallennustilaa",
+        "10 AI-krediittiä/kk (ei kumuloituva)",
+        "10 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+        "10 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen",
+        "OCR-täystekstihaku"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!",
+      "productsLabel": "8 TUOTETTA MUKANA",
+      "features": [
+        "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+        "Vähintään 5 täyttä käyttäjää",
+        "5 tiedustelukäyttäjää",
+        "Interfy Capture + Mobile",
+        "15 GB tallennustilaa",
+        "20 AI-krediittiä/kk (ei kumuloituva)",
+        "10 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+        "10 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen",
+        "Rajattomasti prosesseja",
+        "OCR-täystekstihaku"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Tilaa nyt",
+      "trialLabel": "Ilmainen 7 päivän kokeilu!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "RÄÄTÄLÖITY RATKAISU",
+      "ctaLabel": "Keskustele asiantuntijan kanssa",
+      "trialLabel": "KYSY TARJOUS"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+      "business": "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+      "corporate": "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)",
+      "enterprise": "Rajattomasti käyttäjiä (laskutus käyttäjäkohtaisesti)"
+    },
+    {
+      "starter": "Vähintään 5 täyttä käyttäjää",
+      "business": "Vähintään 10 täyttä käyttäjää",
+      "corporate": "Vähintään 15 täyttä käyttäjää",
+      "enterprise": "Täydet käyttäjät (kysyttäessä)"
+    },
+    {
+      "starter": "10 tiedustelukäyttäjää",
+      "business": "15 tiedustelukäyttäjää",
+      "corporate": "30 tiedustelukäyttäjää",
+      "enterprise": "Rajattomasti tiedustelukäyttäjiä"
+    },
+    {
+      "starter": "Interfy Capture + Mobile",
+      "business": "Interfy Capture + Mobile",
+      "corporate": "Interfy Capture + Mobile",
+      "enterprise": "Interfy Capture + Mobile"
+    },
+    {
+      "starter": "25 GB tallennustilaa",
+      "business": "50 GB tallennustilaa",
+      "corporate": "100 GB tallennustilaa",
+      "enterprise": "Tallennustila (kysyttäessä)"
+    },
+    {
+      "starter": "100 AI-krediittiä/kk (ei kumuloituva)",
+      "business": "250 AI-krediittiä/kk (ei kumuloituva)",
+      "corporate": "500 AI-krediittiä/kk (ei kumuloituva)",
+      "enterprise": "AI-krediitit/kk (ei kumuloituva) (kysyttäessä)"
+    },
+    {
+      "starter": "10 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+      "business": "20 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+      "corporate": "30 dokumenttilähetystä digitaaliseen allekirjoitukseen/kk (ei kumuloituva)",
+      "enterprise": "Rajattomasti dokumenttilähetyksiä digitaaliseen allekirjoitukseen"
+    },
+    {
+      "starter": "10 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen",
+      "business": "15 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen",
+      "corporate": "20 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen",
+      "enterprise": "500 tikettiä/kk (ei kumuloituva) Chatista dokumenttien vuorovaikutukseen ja jakamiseen"
+    },
+    {
+      "starter": "10 dynaamista vuorovaikutusta ulkoisille käyttäjille prosesseissa/kk (ei kumuloituva)",
+      "business": "15 dynaamista vuorovaikutusta ulkoisille käyttäjille prosesseissa/kk (ei kumuloituva)",
+      "corporate": "20 dynaamista vuorovaikutusta ulkoisille käyttäjille prosesseissa/kk (ei kumuloituva)",
+      "enterprise": "500 dynaamista vuorovaikutusta ulkoisille käyttäjille prosesseissa/kk (ei kumuloituva)"
+    },
+    {
+      "starter": "Rajattomasti prosesseja",
+      "business": "Rajattomasti prosesseja",
+      "corporate": "Rajattomasti prosesseja",
+      "enterprise": "Rajattomasti prosesseja"
+    },
+    {
+      "starter": "Pääsy Interfyn API:in",
+      "business": "Pääsy Interfyn API:in",
+      "corporate": "Pääsy Interfyn API:in",
+      "enterprise": "Pääsy Interfyn API:in"
+    },
+    {
+      "starter": "Räätälöity visuaalinen ilme (White Label)",
+      "business": "Räätälöity visuaalinen ilme (White Label)",
+      "corporate": "Räätälöity visuaalinen ilme (White Label)",
+      "enterprise": "Räätälöity visuaalinen ilme (White Label)"
+    },
+    {
+      "starter": "Oma URL-osoite tietojen eristyksellä",
+      "business": "Oma URL-osoite tietojen eristyksellä",
+      "corporate": "Oma URL-osoite tietojen eristyksellä",
+      "enterprise": "Oma URL-osoite tietojen eristyksellä"
+    },
+    {
+      "starter": "Tietokantaintegraatio",
+      "business": "Tietokantaintegraatio",
+      "corporate": "Tietokantaintegraatio",
+      "enterprise": "Tietokantaintegraatio"
+    },
+    {
+      "starter": "Workspace kehittyneellä hallinnalla ja turvakontrolleilla",
+      "business": "Workspace kehittyneellä hallinnalla ja turvakontrolleilla",
+      "corporate": "Workspace kehittyneellä hallinnalla ja turvakontrolleilla",
+      "enterprise": "Workspace kehittyneellä hallinnalla ja turvakontrolleilla"
+    },
+    {
+      "starter": "AD/LDAP-tunnistautuminen",
+      "business": "AD/LDAP-tunnistautuminen",
+      "corporate": "AD/LDAP-tunnistautuminen",
+      "enterprise": "AD/LDAP-tunnistautuminen"
+    },
+    {
+      "starter": "IP-esto",
+      "business": "IP-esto",
+      "corporate": "IP-esto",
+      "enterprise": "IP-esto"
+    },
+    {
+      "starter": "Monivaiheinen tunnistautuminen",
+      "business": "Monivaiheinen tunnistautuminen",
+      "corporate": "Monivaiheinen tunnistautuminen",
+      "enterprise": "Monivaiheinen tunnistautuminen"
+    },
+    {
+      "starter": "OCR-täystekstihaku",
+      "business": "OCR-täystekstihaku",
+      "corporate": "OCR-täystekstihaku",
+      "enterprise": "OCR-täystekstihaku"
+    },
+    {
+      "starter": "Fyysisen arkiston hallintamoduuli",
+      "business": "Fyysisen arkiston hallintamoduuli",
+      "corporate": "Fyysisen arkiston hallintamoduuli",
+      "enterprise": "Fyysisen arkiston hallintamoduuli"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Pakettien vertailu",
+    "resourcesLabel": "Ominaisuudet",
+    "includedAlt": "Sisältyy",
+    "rows": [
+      { "label": "Käyttäjät", "values": { "free": "Enintään 3", "individual": "1", "teams": "Rajattomasti", "startup": "Rajattomasti" } },
+      { "label": "Workspacet", "values": { "free": "1", "individual": "1", "teams": "Rajattomasti", "startup": "Rajattomasti" } },
+      { "label": "Tallennustila", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Rajaton" } },
+      { "label": "Digitaalinen allekirjoitus", "values": { "free": "Ilmainen", "individual": "Ilmainen", "teams": "Ilmainen", "startup": "Ilmainen" } },
+      { "label": "Mobiilisovellus", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Sisältyvät moduulit",
+        "values": {
+          "free": "Documents ja Sign",
+          "individual": "Documents, Sign ja Connect",
+          "teams": "Documents, Sign ja Connect",
+          "startup": "Kaikki paitsi Process"
+        }
+      },
+      {
+        "label": "AI-ominaisuudet",
+        "values": { "free": "Peruspaketti", "individual": "Vakiopaketti", "teams": "Kehittynyt", "startup": "Rajaton · Krediitit mukana" }
+      },
+      { "label": "AI-krediitit / kk", "values": { "free": "-", "individual": "1 000", "teams": "3 000", "startup": "10 000" } },
+      { "label": "Tuki", "values": { "free": "Sähköposti", "individual": "Sähköposti", "teams": "Priorisoitu", "startup": "Premium 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "Katso kaikki ominaisuudet ja vertaile paketteja",
+    "sections": [
+      {
+        "label": "Interfy Processin ominaisuudet",
+        "features": [
+          "Rajattomasti prosessien luontia",
+          "BPMN 2.0 -suunnittelija",
+          "Ulkoinen linkki tapausten aloittamiseen",
+          "Dokumenttien kaappaus suoraan käynnissä olevaan prosessiin",
+          "Julkisten muuttujien luonti",
+          "Dynaamiset käyttäjät",
+          "Rinnakkaiset työnkulut",
+          "Tehtävälaatikko",
+          "Aliprosessit",
+          "Prosessien valvonta",
+          "Tapaushistorian katselu",
+          "Kehittynyt prosessihaku",
+          "Prosessien etenemisen graafinen näkymä",
+          "Kunkin tehtävän ajan parametrointi ja hallinta",
+          "Ilmoitusten hallinta hälytyksillä",
+          "Manuaaliset, kiertävät ja itsepalvelutehtävien osoitukset: muuttujan, arvon ja organisaatioyksikön mukaan",
+          "Valvojien nimeäminen prosessien hallintaan",
+          "Tapausten uudelleenosoitus valvojan toimesta",
+          "Tapausten peruutus käyttäjän tai valvojan profiilin mukaan",
+          "Työpäiväkalenteri",
+          "Ilmoitukset saapuvista tehtävistä",
+          "Hierarkiapohjaiset ilmoitukset prosessissa SLA:n perusteella",
+          "Ilmoitukset kriittisestä tai päättyvästä SLA:sta",
+          "SLA:n sitominen työpäiväkalenteriin",
+          "Interfy Documentsin vuorovaikutus Interfy Processin kanssa",
+          "Integraatio web-palveluihin"
+        ]
+      },
+      {
+        "label": "Interfy Documentsin ominaisuudet",
+        "features": [
+          "Sisällön keskittäminen",
+          "Kehittynyt auditointi",
+          "Dokumenttien versiohallinta",
+          "Dokumenttien ajallinen hallinta",
+          "Joustava kansiorakenne",
+          "Sisällön käyttöoikeusprofiilit",
+          "Ulkoinen linkki sisällön jakamiseen",
+          "Dokumenttien luonti useilla tiedostomuodoilla",
+          "Integraatio Microsoft Officeen (vedä ja pudota)",
+          "Kehittynyt haku",
+          "Indeksointikorttien luonti (sähköiset lomakkeet)",
+          "Dokumenttien fyysinen sijainti",
+          "Tallennustilan ja käyttäjien kulutuksen hallinta",
+          "Oma katseluohjelma tärkeimmille tiedostomuodoille",
+          "Dokumenttien skannaus ja lataus",
+          "Paikallinen ja hajautettu kaappaus 100 % Web",
+          "Kaappaus skannerien kautta",
+          "Kaappaus monitoimilaitteiden kautta",
+          "Kaappaus älypuhelimella",
+          "Kaappaus web-kameralla"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Voinko vaihtaa pakettia milloin tahansa?",
+      "answer": "Kyllä. Voit päivittää tai alentaa pakettiasi milloin tahansa suoraan hallintapaneelista, ilman sakkoja tai byrokratiaa."
+    },
+    {
+      "question": "Miten AI-krediitit toimivat?",
+      "answer": "Jokainen paketti sisältää kuukausittaisen AI-krediittikiintiön, jota käytetään ominaisuuksiin kuten älykäs poiminta ja agentit. Krediitit eivät kumuloidu ja uusiutuvat joka kuukausi."
+    },
+    {
+      "question": "Mitä tapahtuu kokeilujakson jälkeen?",
+      "answer": "7 ilmaisen päivän jälkeen voit valita ihanteellisen paketin jatkaaksesi alustan käyttöä. Kokeilun aloittamiseen ei tarvita luottokorttia."
+    },
+    {
+      "question": "Mitä maksutapoja hyväksytään?",
+      "answer": "Hyväksymme luottokortin, pankkisiirron ja laskutuksen vuosisopimuksille ja Enterprise-paketeille."
+    },
+    {
+      "question": "Sisältyykö paketteihin käyttöönotto?",
+      "answer": "Starter-, Business- ja Corporate-paketit sisältävät ohjatun käyttöönoton. Enterprise-paketille tarjoamme omistetun käyttöönoton asiantuntijatiimimme kanssa."
+    },
+    {
+      "question": "Tarjoatteko alennettua vuosisopimusta?",
+      "answer": "Kyllä. Valitsemalla vuosilaskutuksen säästät jopa 30 % kuukausihintaan verrattuna, missä tahansa Starter-, Business- tai Corporate-paketissa."
+    }
+  ],
+  "faqAriaExpand": "Vaihda vastausta",
+  "base": {
+    "trialTitle": "Kokeile kaikkia Interfy.ai:n ominaisuuksia 7 ilmaisen päivän ajan.",
+    "trialSub": "Ei luottokorttia. Ei sitoumuksia.",
+    "trialCta": "Ilmainen kokeilu",
+    "demoCta": "Varaa demo",
+    "statsLabel": "Interfy-alustan lukuja",
+    "faqHeading": "Usein kysytyt kysymykset",
+    "specialistTitle": "Keskustele asiantuntijan kanssa",
+    "specialistDesc": "Tiimimme on valmiina auttamaan sinua valitsemaan yrityksellesi ihanteellisen paketin.",
+    "specialistCta": "Keskustele asiantuntijan kanssa",
+    "ctaTitle": "Valmiina uudistamaan toimintasi?",
+    "ctaDesc": "Liity tuhansien yritysten joukkoon, jotka luottavat Interfy.ai:hin.",
+    "ctaButton": "Aloita nyt",
+    "srHeading": "Aloita Interfyn käyttö"
+  }
+}

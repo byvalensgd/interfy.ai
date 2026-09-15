@@ -1,0 +1,119 @@
+{
+  "seo": {
+    "title": "Alusta",
+    "description": "Päästä päähän -integroitu alusta: dokumentit, prosessit, kaappaus, allekirjoitus, yhteistyö, mobiili, agentit ja äänta toimivat yhdessä AI:n kanssa joka vaiheessa.",
+    "keywords": ["Interfy-alusta", "AI-pohjainen yritysalusta", "dokumenttien ja prosessien hallinta", "Interfy-ekosysteemi"]
+  },
+  "hero": {
+    "headingLine1": "Yksi alusta.",
+    "headingLine2": "Koko toimintasi.",
+    "headingHighlight": "AI joka vaiheessa.",
+    "description1": "Dokumentit, automaatiot, älykäs kaappaus, digitaalinen allekirjoitus, yhteistyö, mobiili, agentit ja äänta toimivat yhdessä yhdessä Workspacessa.",
+    "description2": "Korvaa useat ohjelmistot yhdellä 100 % web-pohjaisella, cloud-native-alustalla, joka on valmis toimimaan globaalisti turvallisesti, skaalautuvasti ja älykkäästi.",
+    "ctaPrimary": "Ilmainen 14 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "mockupAlt": "Interfy-alusta näytettynä tabletilla ja älypuhelimessa, workspace, päivän tehtävät ja AI-avustaja",
+    "chipsAriaLabel": "Alustan tärkeimmät ominaisuudet",
+    "chips": [
+      { "label": "AI Native" },
+      { "label": "Cloud-native" },
+      { "label": "100 % web" },
+      { "label": "Web + Mobiili" },
+      { "label": "16 kieltä" },
+      { "label": "180+ maata" }
+    ]
+  },
+  "overview": {
+    "headline": "Päästä päähän",
+    "headlineHighlight": "integroitu alusta",
+    "description": "Tehokkaita moduuleja, jotka toimivat yhdessä täydellisen, älykkään ja siilottoman kokemuksen tuottamiseksi."
+  },
+  "aiGrid": {
+    "headline": "AI koko",
+    "headlineHighlight": "Interfy-alustassa",
+    "items": [
+      { "title": "Älykäs haku", "description": "Löydä kaikki luonnollisella kielellä" },
+      { "title": "Prosessien luonti", "description": "Mallinna työnkulut älykkäästi" },
+      { "title": "Tiedon poiminta", "description": "Kaappaa dataa dokumenteista AI:lla" },
+      { "title": "Itsenäiset agentit", "description": "Toimintaa, päätöksiä ja integraatioita" },
+      { "title": "Automaattinen luokittelu", "description": "Järjestä ja luokittele vaivattomasti" },
+      { "title": "Lomakkeiden generointi", "description": "AI luo käyttövalmiit lomakkeet" },
+      { "title": "Avustetut hyväksynnät", "description": "Älykkäät suositukset ja validoinnit" },
+      { "title": "Äänikomennot", "description": "Suorita toimintoja, tarkista ja luo" }
+    ]
+  },
+  "workspace": {
+    "headline": "Miksi keskittää kaikki yhteen",
+    "headlineHighlight": "Workspaceen?",
+    "items": [
+      {
+        "title": "Yhtenäinen toiminta",
+        "description": "Data, dokumentit, tehtävät ja prosessit yhdessä paikassa. Täysi näkyvyys, ei siiloja."
+      },
+      {
+        "title": "Räätälöity workspace",
+        "description": "Omistettu URL, visuaalinen ilme, tarkat käyttöoikeudet ja omat ympäristönne yrityksellenne."
+      },
+      {
+        "title": "Automaatiot tuotteiden välillä",
+        "description": "Dokumentit käynnistävät prosesseja, hyväksynnät luovat allekirjoituksia, kaappaukset ruokkivat arkistoa ja dashboardeja."
+      },
+      {
+        "title": "Vähemmän ohjelmistoja, enemmän hallintaa",
+        "description": "Vähennä uudelleentyötä, kustannuksia, hauraita integraatioita ja tietosiiloja."
+      }
+    ]
+  },
+  "trust": {
+    "sectionAria": "Interfy-alustan turvallisuus, integraatiot ja infrastruktuuri",
+    "cards": [
+      {
+        "title": "Turvallisuus ja hallinta",
+        "checklist": [
+          "Salaus siirrossa ja levossa",
+          "Tarkat käyttöoikeudet ja roolit",
+          "Täydelliset auditointijäljet",
+          "Globaali vaatimustenmukaisuus (LGPD, GDPR, ISO)",
+          "Säilytys- ja hävittämiskäytännöt"
+        ]
+      },
+      {
+        "title": "API:t ja integraatiot",
+        "checklist": [
+          "Täydet RESTful API:t",
+          "Webhookit reaaliajassa",
+          "Valmiit liittimet suosituille järjestelmille",
+          "Integraatio datan, dokumenttien ja prosessien välillä"
+        ]
+      },
+      {
+        "title": "Cloud-native-infrastruktuuri",
+        "checklist": [
+          "Skaalautuva ja resilientti arkkitehtuuri",
+          "Korkea käytettävyys 24/7",
+          "Automaattiset varmuuskopiot ja geo-redundanssi",
+          "Älykäs valvonta",
+          "Globaali toiminta matalalla latenssilla"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Aloita Interfy-alustan käyttö",
+    "headline": "Valmiina",
+    "headlineHighlight": "globaaleille yrityksille",
+    "title": "Uudista toimintasi Interfy.ai:n avulla",
+    "description": "Luo tilisi, kokeile alustaa ja katso, miten AI-pohjainen alusta voi yksinkertaistaa, automatisoida ja nopeuttaa yritystäsi.",
+    "primaryButton": "Aloita ilmaiseksi",
+    "secondaryButton": "Varaa esittely",
+    "statsLabel": "Interfyn globaali läsnäolo",
+    "features": [
+      { "label": "180+ maata", "sublabel": "Kasvava globaali läsnäolo" },
+      { "label": "16 kieltä", "sublabel": "Käyttöliittymä ja kokemus 16 kielellä" },
+      { "label": "6 markkina-aluetta", "sublabel": "Paikallista ja asiantuntevaa palvelua" },
+      { "label": "Web + Mobiili", "sublabel": "Käytä missä tahansa, millä tahansa laitteella" },
+      { "label": "Yhdysvallat ja Brasilia", "sublabel": "Paikalliset rakenteet ja alueellinen vaatimustenmukaisuus" },
+      { "label": "Globaali tuki", "sublabel": "Asiantunteva tuki kansainvälisen tason SLA:illa" }
+    ]
+  }
+}

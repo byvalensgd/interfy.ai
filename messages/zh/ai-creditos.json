@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AI 积分",
+    "description": "一个统一的 AI 积分余额,驱动 Interfy.ai 平台的全部智能能力。简单、透明又强大——适用于 Documents、Process、Capture、Agents、Voice 等更多产品。",
+    "keywords": ["AI 积分", "人工智能积分", "AI 方案", "Interfy 积分消耗"]
+  },
+  "hero": {
+    "headingLine1": "一个统一的",
+    "headingHighlight": "AI 积分",
+    "headingSuffix": "余额,驱动平台的全部智能能力。",
+    "description1": "AI 积分是 Interfy.ai 的智能货币。",
+    "description2": "简单、透明又强大。",
+    "ctaPrimary": "立即开始",
+    "ctaSecondary": "预约演示",
+    "bannerAriaLabel": "为什么选择 AI 积分",
+    "banner": [
+      { "title": "简单", "description": "整个平台共用一个统一余额。" },
+      { "title": "透明", "description": "您可以随时掌控、监控并接收提醒。" },
+      { "title": "强大", "description": "为智能体、自动化、分析等能力提供动力。" }
+    ],
+    "strip": {
+      "heading": "一个余额,驾驭所有智能能力。",
+      "description": "没有分散的积分,没有复杂的规则。",
+      "ariaLabel": "AI 积分统一余额的优势",
+      "items": [
+        { "label": "更高生产力" },
+        { "label": "更优决策" },
+        { "label": "更少手动操作" },
+        { "label": "更多成果" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "",
+    "headingHighlight": "AI 积分",
+    "headingSuffix": "可以用在哪里",
+    "ariaLabel": "使用 AI 积分的产品",
+    "items": [
+      { "title": "Documents", "description": "智能阅读、摘要生成、数据提取、问答及翻译分析。" },
+      { "title": "Process", "description": "智能决策、自动执行、分类与路由。" },
+      { "title": "Capture", "description": "高级 OCR、结构化提取、验证与智能索引。" },
+      { "title": "Agents", "description": "任务执行、分析、建议、集成与操作。" },
+      { "title": "Voice", "description": "语音交互、智能搜索、指令与自然语言应答。" },
+      { "title": "还有更多", "description": "洞察、预测、比较、报告及其他 AI 操作。" }
+    ],
+    "notice": {
+      "title": "消耗量取决于每次操作的类型、复杂度和数据量。",
+      "description": "越复杂的流程,消耗的 AI 积分越多。"
+    }
+  },
+  "structure": {
+    "headingPrefix": "完整的管理体系,",
+    "headingHighlight": "助力您的成长",
+    "ariaLabel": "AI 积分管理功能",
+    "items": [
+      { "title": "按工作空间控制", "description": "每个工作空间拥有独立的余额、限额和权限。" },
+      { "title": "限额与权限", "description": "按角色、团队或部门设置月度限额和控制规则。" },
+      { "title": "详细报告", "description": "按模块、用户、操作和周期查看消耗情况。" },
+      { "title": "智能提醒", "description": "接收消耗提醒、限额预警及余额不足通知。" },
+      { "title": "追加购买", "description": "需要更多积分?升级方案或购买额外的 AI 积分。" }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "AI 积分",
+    "headingHighlight": "方案",
+    "headingSuffix": " —— 只为您需要的付费",
+    "table": {
+      "ariaLabel": "AI 积分方案表",
+      "colPlan": "方案",
+      "colCredits": "AI 积分",
+      "colPrice": "价格",
+      "colPricePer1000": "每 1,000 积分价格",
+      "footnote": "价格不含税。具体条件请咨询我们。"
+    },
+    "consumption": {
+      "heading": "消耗示例",
+      "items": [
+        { "title": "文档阅读与摘要(10 页)", "credits": "5 AI 积分" },
+        { "title": "文档数据提取(1 页)", "credits": "3 AI 积分" },
+        { "title": "文档智能分类", "credits": "2 AI 积分" },
+        { "title": "Agent 执行(中等任务)", "credits": "10 AI 积分" },
+        { "title": "Voice 提问(中等)", "credits": "2 AI 积分" },
+        { "title": "智能报告(中等)", "credits": "15 AI 积分" },
+        { "title": "文档翻译(1 页)", "credits": "4 AI 积分" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "常见问题与后续步骤",
+    "faqHeading": "常见问题",
+    "faqAriaExpand": "展开答案",
+    "faq": [
+      {
+        "question": "什么是 AI 积分?",
+        "answer": "AI 积分是 Interfy.ai 统一的人工智能货币。每一次使用 AI 的操作——阅读、提取、分类、智能体执行等等——都会根据任务复杂度消耗一定数量的积分。"
+      },
+      {
+        "question": "可以在不同工作空间之间共享 AI 积分吗?",
+        "answer": "不可以。每个工作空间都有独立的 AI 积分余额,拥有各自的限额和权限,确保对每个部门或团队的消耗都有完全的控制。"
+      },
+      {
+        "question": "可以随时购买额外积分吗?",
+        "answer": "可以。您可以随时通过平台直接购买额外的 AI 积分包,无需更换方案。"
+      },
+      {
+        "question": "AI 积分会过期吗?",
+        "answer": "方案内包含的积分会随每个计费周期更新。已购买的额外积分包遵循合同约定的条件——详情请咨询我们的团队。"
+      },
+      {
+        "question": "消耗量如何计算?",
+        "answer": "消耗量取决于每次操作的类型、复杂度和数据量。像分类这样的简单任务消耗较少积分;像智能体执行这样更复杂的流程会消耗更多积分。"
+      },
+      {
+        "question": "AI 积分是否包含在方案中?",
+        "answer": "是的。Interfy.ai 的所有方案都包含用于智能处理的 AI 积分余额。如果需要更多,您可以随时购买额外积分。"
+      }
+    ],
+    "specialistTitle": "还有疑问?",
+    "specialistDesc": "联系我们的团队,了解 AI 积分如何加速您的业务成果。",
+    "specialistCta": "联系专家顾问",
+    "ctaTitle": "准备好改变您的业务运营了吗?",
+    "ctaDesc": "加入已经信赖 Interfy.ai 的数千家企业。",
+    "ctaButton": "立即开始",
+    "statsLabel": "Interfy 平台数据"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Sign",
+    "description": "Interfy Sign 是面向平台所有用户的免费电子签名工具。快速、安全地签署和跟踪文件，与您的业务运营完全集成。",
+    "keywords": ["电子签名", "数字签名", "法律效力", "Interfy Sign"],
+    "freeTrialNote": "面向平台所有用户的免费电子签名。"
+  },
+  "hero": {
+    "heading": "免费的",
+    "headingGradient": "电子签名",
+    "subheading": "面向平台所有用户开放。",
+    "descriptionPrefix": "以",
+    "descriptionHighlight": "高速、安全且与业务完全集成",
+    "descriptionSuffix": "的方式签署和跟踪文件。",
+    "noCreditCard": "无需信用卡",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "mockupAlt": "Interfy Sign 平台在平板电脑和智能手机上展示，显示一份待签署的文件",
+    "featureChips": [
+      { "labelLines": ["电子", "签名"] },
+      { "labelLines": ["流程", "签署"] },
+      { "labelLines": ["多方", "签署人"] },
+      { "labelLines": ["现成的", "模板"] },
+      { "labelLines": ["审计", "追踪"] },
+      { "labelLines": ["安全", "身份验证"] },
+      { "labelLines": ["外部", "发送"] },
+      { "labelLines": ["智能", "提醒"] },
+      { "labelLines": ["实时", "跟踪"] },
+      { "labelLines": ["移动端", "签署"] }
+    ]
+  },
+  "lifecycle": {
+    "headingPrefix": "为您的",
+    "headingHighlight": "文件生命周期",
+    "cards": [
+      { "title": "与 Documents 集成", "description": "安全、有序地签署已存档的文件。" },
+      { "title": "与 Process 集成", "description": "将电子签名嵌入端到端的自动化流程中。" },
+      { "title": "发送给外部用户", "description": "以完全安全的方式将文件发送给平台外的人员。" },
+      { "title": "审批流程", "description": "定义步骤、责任人和规则，快速完成审批。" },
+      { "title": "提醒与可追溯性", "description": "接收通知，全程掌控每个环节。" },
+      { "title": "安全记录一切", "description": "完整的可追溯性，具备审计追踪并确保合规。" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "",
+    "headingProduct": "Interfy Sign 如何运作",
+    "steps": [
+      { "description": "上传文件或选择现成的模板。" },
+      { "description": "设置签署人和签署顺序。" },
+      { "description": "通过安全身份验证发送签署请求。" },
+      { "description": "签署人随时随地签署，甚至可用手机完成。" },
+      { "description": "实时跟踪状态并接收提醒。" },
+      { "description": "文件完成签署并安全存储。" }
+    ]
+  },
+  "features": {
+    "headingPrefix": "为",
+    "headingHighlight": "各类业务场景",
+    "cards": [
+      { "title": "现成的模板", "description": "使用现成模板，或创建您自己的个性化模板。" },
+      { "title": "多方签署人", "description": "支持一人或多人顺序或并行签署。" },
+      { "title": "安全身份验证", "description": "多层验证机制，确保身份与安全性。" },
+      { "title": "审计追踪", "description": "以完整、不可篡改的细节跟踪每一个操作。" },
+      { "title": "与 Documents 集成", "description": "直接在您的文件库中完成签署。" },
+      { "title": "与 Process 集成", "description": "将电子签名嵌入端到端的自动化流程中。" },
+      { "title": "实时跟踪", "description": "查看谁已签署、谁尚未签署以及每个环节的当前状态。" },
+      { "title": "移动端签署", "description": "通过应用随时随地轻松完成签署。" },
+      { "title": "外部发送", "description": "以完全安全的方式将文件发送给外部人员。" }
+    ]
+  },
+  "cta": {
+    "title": "准备好改变企业签署和审批文件的方式了吗？",
+    "description": "立即开始使用 Interfy Sign，为您的业务带来更高的敏捷性、安全性和掌控力。",
+    "ctaPrimary": "免费试用 7 天",
+    "ctaSecondary": "预约演示",
+    "statsLabel": "Interfy 平台的规模",
+    "sectionLabel": "开始使用 Interfy Sign"
+  }
+}

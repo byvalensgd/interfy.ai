@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "KI-Agenten",
+    "description": "Interfy Agents ist die Intelligenzschicht der Plattform. Erstellen Sie intelligente Agenten, um Aufgaben zu automatisieren, Informationen zu analysieren und Ergebnisse im gesamten Betrieb voranzutreiben.",
+    "keywords": ["KI-Agenten", "intelligente Automatisierung", "AI Agents für Unternehmen", "Interfy Agents"]
+  },
+  "hero": {
+    "titleLine1": "Agenten, die",
+    "titleGradient": "verstehen, entscheiden und handeln.",
+    "description": "Interfy Agents ist die Intelligenzschicht der Plattform. Erstellen Sie intelligente Agenten, um Aufgaben zu automatisieren, Informationen zu analysieren und Ergebnisse im gesamten Betrieb voranzutreiben.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "slideshowAlt": "Interfy Agents auf Laptop und Smartphone dargestellt, mit KI-Agenten in Aktion",
+    "highlights": [
+      { "label": "Intelligenz, die Werte schafft" },
+      { "label": "Automatisierung ohne Grenzen" },
+      { "label": "Sicher und kontrolliert" },
+      { "label": "In die gesamte Plattform integriert" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Was",
+    "headingBrand": "Interfy Agents",
+    "headingSuffix": "für Sie tun kann",
+    "items": [
+      { "title": "Intelligente Agenten", "description": "KI-Agenten, die den Kontext verstehen und Aktionen autonom ausführen." },
+      { "title": "Agenten erstellen", "description": "Erstellen Sie individuelle Agenten mit oder ohne Code in wenigen Minuten." },
+      { "title": "Agenten je Bereich", "description": "Setzen Sie dedizierte Agenten für jeden Unternehmensbereich ein: Finanzen, HR, Recht und mehr." },
+      { "title": "Automatische Aufgabenausführung", "description": "Führen wiederkehrende Aufgaben aus, reduzieren Fehler und beschleunigen Ihren Betrieb." },
+      { "title": "Dokumentenlektüre", "description": "Lesen, verstehen und extrahieren Informationen aus Dokumenten in Sekunden." },
+      { "title": "Prozessauslösung", "description": "Starten und steuern Prozesse in der Plattform automatisch basierend auf Ereignissen." },
+      { "title": "Monitoring", "description": "Verfolgen Aktivitäten, Fristen, Kennzahlen und senden Updates in Echtzeit." },
+      { "title": "Informationsanalyse", "description": "Analysieren große Datenmengen und liefern intelligente Erkenntnisse." },
+      { "title": "Intelligente Alerts", "description": "Senden proaktive Warnungen zu Risiken, Chancen, Fristen und Ausnahmen." },
+      { "title": "Empfehlungen", "description": "Schlagen Aktionen, Entscheidungen und nächste Schritte basierend auf Daten und Verlauf vor." },
+      { "title": "Systemintegration", "description": "Verbinden sich sicher per API mit externen Systemen und tauschen Informationen aus." },
+      { "title": "Regelbasierte Ausführung", "description": "Führen Aktionen gemäß Geschäftsregeln und Unternehmensrichtlinien aus." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Vollständig integriert in das",
+    "headingGradient": "Interfy-Ökosystem",
+    "agentsPlusLabel": "Agents +",
+    "items": [
+      { "description": "Agenten lesen, analysieren und aktualisieren Dokumente intelligent." },
+      { "description": "Agenten starten Prozesse, füllen Daten aus und steuern Abläufe automatisch." },
+      { "description": "Agenten extrahieren Informationen, klassifizieren und leiten Dokumente an die richtigen Abläufe weiter." },
+      { "description": "Agenten interagieren in Gesprächen, antworten, teilen Informationen und arbeiten zusammen." },
+      { "description": "Agenten nutzen Sprache, um zu antworten, zu erfassen, abzufragen und Aktionen auszuführen." }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Governance, Sicherheit und AI Credits",
+    "governance": {
+      "title": "Governance und Sicherheit",
+      "titleAccent": "an erster Stelle",
+      "items": [
+        "Granulare Berechtigungen je Agent und Nutzer",
+        "Auditierte und rückverfolgbare Aktionen auf allen Ebenen",
+        "Vom Unternehmen definierte Zugriffs- und Ausführungsrichtlinien",
+        "Konformität mit LGPD, ISO 27001, SOC 2 und weiteren Standards",
+        "Daten geschützt durch Ende-zu-Ende-Verschlüsselung"
+      ],
+      "cta": "Details ansehen"
+    },
+    "credits": {
+      "title": "Einfacher und transparenter Verbrauch mit AI Credits",
+      "description": "Interfy Agents verbrauchen AI Credits entsprechend den ausgeführten Aktionen. Mehr Kontrolle, Vorhersehbarkeit und Skalierbarkeit für Ihr Unternehmen.",
+      "features": [
+        { "label": "Credits in allen Plänen enthalten" },
+        { "label": "Verfolgung in Echtzeit" },
+        { "label": "Zusätzliche Credits kaufen, wenn Sie sie brauchen" }
+      ],
+      "cta": "Details ansehen",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "verfügbar"
+    }
+  },
+  "cta": {
+    "sectionAria": "Jetzt mit Interfy Agents starten",
+    "benefitsAria": "Vorteile von Interfy Agents",
+    "title": "Intelligenz, die für Sie arbeitet.",
+    "description": "Erstellen Sie Agenten, automatisieren Sie Aufgaben und transformieren Sie Ihren Betrieb mit KI.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "benefits": [
+      { "label": "Betriebskosten senken" },
+      { "label": "Mehr Produktivität und Effizienz" },
+      { "label": "Weniger Fehler und Nacharbeit" },
+      { "label": "Schnellere und intelligentere Entscheidungen" },
+      { "label": "Skalierbarkeit ohne Grenzen" }
+    ]
+  }
+}

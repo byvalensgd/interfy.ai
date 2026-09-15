@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Suport",
+    "description": "Centrul de suport Interfy: vorbește cu echipa noastră prin chat, e-mail sau telefon, sau găsește răspunsuri în întrebările frecvente.",
+    "keywords": ["suport Interfy", "centru de ajutor Interfy", "asistență Interfy", "SLA de suport"]
+  },
+  "hero": {
+    "ariaLabel": "Introducere în suportul Interfy",
+    "eyebrow": "Suport Interfy",
+    "titleLine1": "Cum te putem",
+    "titleHighlight": "ajuta?",
+    "description": "Echipa noastră de suport tehnic îți urmărește operațiunea în fiecare zi lucrătoare, cu SLA definit per plan și un centru de ajutor mereu disponibil.",
+    "primaryLabel": "Vezi întrebările frecvente",
+    "secondaryLabel": "Vorbește cu un specialist"
+  },
+  "channels": {
+    "ariaLabel": "Canale de asistență",
+    "heading": "Canale de asistență",
+    "items": [
+      {
+        "title": "Chat live",
+        "description": "Vorbește în timp real cu echipa noastră de suport, de luni până vineri, între 8:00 și 20:00.",
+        "actionLabel": "Începe conversația",
+        "href": "/contato"
+      },
+      {
+        "title": "E-mail",
+        "description": "Trimite întrebarea sau solicitarea ta la suporte@interfy.ai și primești răspuns în termenul SLA al planului tău.",
+        "actionLabel": "Trimite e-mail",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "Telefon",
+        "description": "Sună la centrul nostru de asistență în timpul orelor de program pentru cazuri urgente.",
+        "actionLabel": "Sună acum",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Centru de ajutor",
+        "description": "Consultă articole, tutoriale și ghiduri pas cu pas despre toate produsele Interfy.",
+        "actionLabel": "Vezi întrebările frecvente",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "Suport specializat la scară globală",
+    "heading": "Suport care ține pasul cu expansiunea ta",
+    "statsLabel": "Acoperirea și fiabilitatea suportului Interfy",
+    "stats": [
+      { "label": "180+ țări", "sublabel": "Prezență globală în expansiune" },
+      { "label": "16 limbi", "sublabel": "Asistență în limba echipei tale" },
+      { "label": "99,99%", "sublabel": "Disponibilitate SLA garantată" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "Conformitate certificată" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "Întrebări frecvente despre suport",
+    "ariaExpand": "Extinde răspunsul",
+    "heading": "Întrebări frecvente",
+    "items": [
+      {
+        "question": "Cum deschid un tichet de suport?",
+        "answer": "Poți deschide un tichet prin chat, prin e-mail (suporte@interfy.ai) sau direct din panoul Interfy, în secțiunea de suport. Fiecare tichet primește un număr de protocol pentru urmărire."
+      },
+      {
+        "question": "Care este timpul de răspuns al suportului?",
+        "answer": "SLA-ul variază în funcție de plan: conturile Starter primesc răspuns în maximum 24 de ore lucrătoare, în timp ce planurile Business, Corporate și Enterprise au prioritate și SLA-uri reduse, detaliate în contract."
+      },
+      {
+        "question": "Suportul este inclus în toate planurile?",
+        "answer": "Da. Suportul prin chat și e-mail este inclus în toate planurile plătite. Planurile Corporate și Enterprise beneficiază și de un manager de cont dedicat."
+      },
+      {
+        "question": "Care este programul de asistență?",
+        "answer": "Asistența noastră funcționează de luni până vineri, între 8:00 și 20:00 (ora Brasiliei). Conturile Enterprise pot contracta suport extins 24/7."
+      },
+      {
+        "question": "Cum urmăresc disponibilitatea platformei?",
+        "answer": "Disponibilitatea și istoricul incidentelor fiecărui produs sunt publicate în timp real pe pagina noastră de status a platformei."
+      },
+      {
+        "question": "Cum escaladez un tichet urgent?",
+        "answer": "Tichetele marcate ca fiind critice sunt prioritizate automat. Dacă trebuie să accentuezi urgența, răspunde la e-mailul protocolului sau sună la centrul de asistență."
+      },
+      {
+        "question": "Interfy oferă suport în alte limbi și regiuni?",
+        "answer": "Da. Platforma este disponibilă în 16 limbi și prezentă în peste 180 de țări, cu asistență comercială dedicată Braziliei și SLA-uri de suport la nivel internațional."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy",
+    "heading": "Mai ai întrebări?",
+    "subheading": "Vorbește cu unul dintre specialiștii noștri și descoperă cum Interfy se poate adapta operațiunii tale.",
+    "primaryButton": "Începe gratuit",
+    "secondaryButton": "Programează o demonstrație"
+  }
+}

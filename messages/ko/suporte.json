@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "고객지원",
+    "description": "Interfy 고객지원 센터: 채팅, 이메일, 전화로 상담팀과 연결하거나 자주 묻는 질문에서 답을 찾아보세요.",
+    "keywords": ["Interfy 고객지원", "Interfy 헬프 센터", "Interfy 고객 서비스", "지원 SLA"]
+  },
+  "hero": {
+    "ariaLabel": "Interfy 고객지원 소개",
+    "eyebrow": "Interfy 고객지원",
+    "titleLine1": "무엇을",
+    "titleHighlight": "도와드릴까요?",
+    "description": "기술지원팀이 영업일마다 비즈니스를 지원하며, 플랜별로 정의된 SLA와 상시 이용 가능한 헬프 센터를 제공합니다.",
+    "primaryLabel": "자주 묻는 질문 보기",
+    "secondaryLabel": "전문가와 상담하기"
+  },
+  "channels": {
+    "ariaLabel": "상담 채널",
+    "heading": "상담 채널",
+    "items": [
+      {
+        "title": "실시간 채팅",
+        "description": "월요일부터 금요일, 오전 8시부터 오후 8시까지 상담팀과 실시간으로 대화하세요.",
+        "actionLabel": "대화 시작하기",
+        "href": "/contato"
+      },
+      {
+        "title": "이메일",
+        "description": "suporte@interfy.ai로 문의 사항을 보내주시면 플랜의 SLA 내에 답변을 받으실 수 있습니다.",
+        "actionLabel": "이메일 보내기",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "전화",
+        "description": "긴급한 문의는 영업시간 내에 고객센터로 전화해 주세요.",
+        "actionLabel": "지금 전화하기",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "헬프 센터",
+        "description": "모든 Interfy 제품에 대한 아티클, 튜토리얼, 단계별 가이드를 확인하세요.",
+        "actionLabel": "자주 묻는 질문 보기",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "글로벌 규모의 전문 고객지원",
+    "heading": "비즈니스 확장에 발맞추는 고객지원",
+    "statsLabel": "Interfy 고객지원의 범위와 신뢰성",
+    "stats": [
+      { "label": "180개+ 국가", "sublabel": "지속적으로 확장되는 글로벌 진출" },
+      { "label": "16개 언어", "sublabel": "팀이 사용하는 언어로 지원" },
+      { "label": "99.99%", "sublabel": "SLA로 보장되는 가동률" },
+      { "label": "LGPD, GDPR, ISO 27001", "sublabel": "인증된 규정 준수" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "고객지원 관련 자주 묻는 질문",
+    "ariaExpand": "답변 펼치기",
+    "heading": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "고객지원 문의는 어떻게 접수하나요?",
+        "answer": "채팅, 이메일(suporte@interfy.ai) 또는 Interfy 대시보드의 지원 섹션에서 직접 문의를 접수할 수 있습니다. 모든 문의는 추적을 위한 접수 번호를 받습니다."
+      },
+      {
+        "question": "고객지원 응답 시간은 어느 정도인가요?",
+        "answer": "SLA는 플랜에 따라 다릅니다. Starter 플랜은 영업일 기준 24시간 이내에 답변을 받으며, Business, Corporate, Enterprise 플랜은 우선 처리와 단축된 SLA가 계약서에 명시되어 있습니다."
+      },
+      {
+        "question": "모든 플랜에 고객지원이 포함되나요?",
+        "answer": "네, 채팅과 이메일 지원은 모든 유료 플랜에 포함됩니다. Corporate와 Enterprise 플랜은 전담 계정 매니저도 함께 제공됩니다."
+      },
+      {
+        "question": "상담 운영 시간은 언제인가요?",
+        "answer": "상담은 월요일부터 금요일, 오전 8시부터 오후 8시까지(브라질리아 시간 기준) 운영됩니다. Enterprise 고객은 24/7 확장 지원을 추가로 계약할 수 있습니다."
+      },
+      {
+        "question": "플랫폼 가동 상태는 어떻게 확인하나요?",
+        "answer": "각 제품의 가동 상태와 장애 이력은 플랫폼 상태 페이지에서 실시간으로 확인할 수 있습니다."
+      },
+      {
+        "question": "긴급 문의는 어떻게 우선 처리를 요청하나요?",
+        "answer": "긴급으로 표시된 문의는 자동으로 우선 처리됩니다. 긴급도를 더 강조해야 한다면 접수 번호가 포함된 이메일에 답장하거나 고객센터로 전화해 주세요."
+      },
+      {
+        "question": "Interfy는 다른 언어와 지역에서도 지원을 제공하나요?",
+        "answer": "네, 플랫폼은 16개 언어로 제공되며 180개국 이상에 진출해 있습니다. 브라질 현지 상담팀과 국제 수준의 지원 SLA를 함께 제공합니다."
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy 시작하기",
+    "heading": "아직 궁금한 점이 있으신가요?",
+    "subheading": "전문가와 상담하고 Interfy가 당신의 비즈니스에 어떻게 맞춰질 수 있는지 확인해 보세요.",
+    "primaryButton": "무료로 시작하기",
+    "secondaryButton": "데모 신청하기"
+  }
+}

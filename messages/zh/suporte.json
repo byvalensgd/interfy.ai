@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "支持",
+    "description": "Interfy 支持中心:通过聊天、邮件或电话联系我们的团队,或在常见问题中查找答案。",
+    "keywords": ["Interfy 支持", "Interfy 帮助中心", "Interfy 客户服务", "支持 SLA"]
+  },
+  "hero": {
+    "ariaLabel": "Interfy 支持介绍",
+    "eyebrow": "Interfy 支持",
+    "titleLine1": "我们能",
+    "titleHighlight": "如何帮助您?",
+    "description": "我们的技术支持团队在每个工作日为您的业务提供保障,按方案提供既定 SLA,并配有随时可用的帮助中心。",
+    "primaryLabel": "查看常见问题",
+    "secondaryLabel": "咨询专家"
+  },
+  "channels": {
+    "ariaLabel": "服务渠道",
+    "heading": "服务渠道",
+    "items": [
+      {
+        "title": "在线聊天",
+        "description": "周一至周五 8:00 至 20:00,与我们的支持团队实时沟通。",
+        "actionLabel": "开始对话",
+        "href": "/contato"
+      },
+      {
+        "title": "邮件",
+        "description": "将您的问题或需求发送至 suporte@interfy.ai,我们将在您方案的 SLA 时间内回复。",
+        "actionLabel": "发送邮件",
+        "href": "mailto:suporte@interfy.ai"
+      },
+      {
+        "title": "电话",
+        "description": "紧急情况下,请在工作时间致电我们的客服中心。",
+        "actionLabel": "立即致电",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "帮助中心",
+        "description": "查阅所有 Interfy 产品的文章、教程和分步指南。",
+        "actionLabel": "查看常见问题",
+        "href": "#faq"
+      }
+    ]
+  },
+  "global": {
+    "ariaLabel": "全球规模的专业支持",
+    "heading": "支持随您的业务扩展而同步成长",
+    "statsLabel": "Interfy 支持的覆盖范围与可靠性",
+    "stats": [
+      { "label": "180+ 个国家", "sublabel": "全球覆盖持续扩展" },
+      { "label": "16 种语言", "sublabel": "以您团队的语言提供服务" },
+      { "label": "99.99%", "sublabel": "SLA 保证可用性" },
+      { "label": "LGPD、GDPR、ISO 27001", "sublabel": "认证合规" }
+    ]
+  },
+  "faq": {
+    "ariaLabel": "支持常见问题",
+    "ariaExpand": "展开答案",
+    "heading": "常见问题",
+    "items": [
+      {
+        "question": "如何提交支持工单?",
+        "answer": "您可以通过在线聊天、邮件(suporte@interfy.ai)或直接在 Interfy 控制台的支持板块提交工单。每个工单都会生成一个编号以便跟踪。"
+      },
+      {
+        "question": "支持团队的响应时间是多久?",
+        "answer": "SLA 因方案而异:Starter 账户在 24 个工作小时内获得回复,而 Business、Corporate 和 Enterprise 方案享有优先响应和更短的 SLA,具体详见合同条款。"
+      },
+      {
+        "question": "所有方案都包含支持服务吗?",
+        "answer": "是的。聊天和邮件支持包含在所有付费方案中。Corporate 和 Enterprise 方案还配有专属客户经理。"
+      },
+      {
+        "question": "服务时间是怎样的?",
+        "answer": "我们的服务时间为周一至周五 8:00 至 20:00(巴西利亚时间)。Enterprise 账户可选购 24/7 全天候延伸支持。"
+      },
+      {
+        "question": "如何查看平台的可用性状态?",
+        "answer": "各产品的可用性和历史事件记录会实时发布在我们的平台状态页面上。"
+      },
+      {
+        "question": "如何升级紧急工单?",
+        "answer": "标记为紧急的工单会自动获得优先处理。如需进一步强调紧急程度,可回复工单邮件或致电客服中心。"
+      },
+      {
+        "question": "Interfy 是否提供其他语言和地区的支持?",
+        "answer": "是的。该平台支持 16 种语言,业务覆盖超过 180 个国家,并为巴西提供专属商务服务及国际水准的支持 SLA。"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy",
+    "heading": "还有疑问吗?",
+    "subheading": "咨询我们的专家,了解 Interfy 如何契合您的业务运营。",
+    "primaryButton": "免费开始",
+    "secondaryButton": "预约演示"
+  }
+}

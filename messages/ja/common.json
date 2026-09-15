@@ -1,0 +1,57 @@
+{
+  "siteName": "Interfy",
+  "defaultTitle": "Interfy — ドキュメントとプロセスのためのAIネイティブプラットフォーム",
+  "titleTemplate": "%s | Interfy",
+  "defaultDescription": "文書管理、プロセス自動化、インテリジェントキャプチャ、電子署名を1つのAIネイティブプラットフォームで。7日間無料トライアル、クレジットカード登録不要。",
+  "keywords": [
+    "Interfy",
+    "AIネイティブプラットフォーム",
+    "文書管理",
+    "電子文書管理",
+    "プロセス自動化",
+    "BPM",
+    "ECM",
+    "インテリジェント文書キャプチャ",
+    "電子署名",
+    "企業向けコラボレーション",
+    "AIエージェント",
+    "企業管理ソフトウェア"
+  ],
+  "ctaPrimary": "無料で始める",
+  "ctaSecondary": "デモを予約する",
+  "ogHeadlineLine1": "ドキュメントとプロセスのための",
+  "ogHeadlineLine2": "AIネイティブプラットフォーム",
+  "ogProductsLine": "Documents · Process · Capture · Sign · Connect · Mobile · Agents · Voice",
+  "prevSlide": "前のスライド",
+  "nextSlide": "次のスライド",
+  "platformStats": [
+    {
+      "label": "2,5M +",
+      "sublabel": "ユーザー"
+    },
+    {
+      "label": "12B +",
+      "sublabel": "ドキュメント"
+    },
+    {
+      "label": "6M +",
+      "sublabel": "プロセス"
+    },
+    {
+      "label": "1000TB +",
+      "sublabel": "保存容量"
+    },
+    {
+      "label": "20M +",
+      "sublabel": "署名件数"
+    },
+    {
+      "label": "99,99%",
+      "sublabel": "稼働率"
+    },
+    {
+      "label": "24/7",
+      "sublabel": "サポート"
+    }
+  ]
+}

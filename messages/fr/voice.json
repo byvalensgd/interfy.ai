@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice : parlez à votre activité par commandes vocales. Consultations, processus, rapports et Agents déclenchés naturellement, avec sécurité et gouvernance à chaque interaction.",
+    "keywords": ["commandes vocales", "assistant vocal d'entreprise", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Test Drive gratuit pendant 7 jours, sans carte bancaire."
+  },
+  "hero": {
+    "heading": "Parlez à",
+    "headingHighlight": "votre activité.",
+    "description": "Vous demandez. Interfy comprend. Les Agents exécutent.",
+    "ctaPrimary": "Test Drive gratuit pendant 7 jours",
+    "ctaSecondary": "Planifiez une démonstration",
+    "imageAlt": "Interfy Voice affiché sur tablette et smartphone, montrant des commandes vocales exécutées sur la plateforme",
+    "highlights": [
+      { "label": "Parlez naturellement" },
+      { "label": "Une IA qui comprend et agit" },
+      { "label": "Sûr et fiable" },
+      { "label": "Disponible partout" }
+    ],
+    "platformCards": [
+      {
+        "title": "Utilisez-le sur ordinateur",
+        "description": "Une intégration complète avec l'application web. Activez-le par le bouton vocal ou un raccourci clavier, et commencez à parler."
+      },
+      {
+        "title": "Utilisez-le sur mobile",
+        "description": "Disponible dans l'appli Interfy Mobile. Parlez, consultez, approuvez et gérez tout au creux de la main."
+      },
+      {
+        "title": "Sécurité et permissions",
+        "description": "Un accès contrôlé par permissions. Votre voix, vos données et vos opérations toujours protégées."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Ce que vous pouvez faire avec",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "Interaction vocale",
+        "description": "Parlez naturellement et interagissez avec toute la plateforme rien qu'avec votre voix."
+      },
+      {
+        "title": "Langage naturel",
+        "description": "L'IA comprend ce que vous dites, même en phrases complètes et spontanées."
+      },
+      {
+        "title": "Recherche vocale",
+        "description": "Trouvez documents, processus, informations et bien plus avec une simple question."
+      },
+      {
+        "title": "Création de processus",
+        "description": "Créez des processus complets simplement en décrivant votre besoin."
+      },
+      {
+        "title": "Création de formulaires",
+        "description": "Générez des formulaires intelligents avec champs, règles et validations en quelques secondes."
+      },
+      {
+        "title": "Consultation de documents",
+        "description": "Posez des questions sur vos documents et obtenez des réponses rapides et précises."
+      },
+      {
+        "title": "Génération de rapports",
+        "description": "Demandez des rapports personnalisés et recevez analyses et insights immédiatement."
+      },
+      {
+        "title": "Déclenchement d'Agents",
+        "description": "Activez des agents intelligents pour exécuter des tâches et obtenir des résultats automatiquement."
+      },
+      {
+        "title": "Commandes opérationnelles",
+        "description": "Exécutez des actions, des mises à jour et des opérations sur la plateforme par commandes vocales."
+      },
+      {
+        "title": "Confirmation pour les actions sensibles",
+        "description": "Les actions critiques demandent toujours une confirmation vocale pour garantir la sécurité."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Totalement connecté à",
+    "headingHighlight": "l'écosystème Interfy",
+    "items": [
+      { "description": "Consultez et interagissez avec vos documents" },
+      { "description": "Créez et gérez des processus à la voix" },
+      { "description": "Capturez des documents et extrayez des informations" },
+      { "description": "Envoyez pour signature et suivez le statut" },
+      { "description": "Échangez et collaborez à la voix" },
+      { "description": "Activez des Agents et recevez les résultats" },
+      { "description": "Une interaction centrale par la voix" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Gouvernance, sécurité et AI Credits d'Interfy Voice",
+    "governance": {
+      "title": "Gouvernance et sécurité",
+      "titleAccent": "avant tout",
+      "items": [
+        "Données protégées par un chiffrement de bout en bout",
+        "Permissions granulaires par agent et par utilisateur",
+        "Piste d'audit de toutes les interactions vocales",
+        "Conformité avec le RGPD, l'ISO 27001, la SOC 2 et d'autres normes",
+        "Données protégées selon les normes de sécurité les plus élevées"
+      ],
+      "cta": "Voir les détails"
+    },
+    "credits": {
+      "title": "Une consommation transparente avec",
+      "titleBrand": "les AI Credits",
+      "description": "Interfy Voice utilise des AI Credits pour traiter les commandes, consultations, analyses et exécutions.",
+      "features": [
+        { "label": "Crédits inclus dans tous les forfaits" },
+        { "label": "Suivi en temps réel" },
+        { "label": "Achetez des crédits supplémentaires si besoin" }
+      ],
+      "cta": "Voir les détails",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "disponibles"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Commencez à utiliser Interfy Voice",
+    "heading": "Parlez à votre activité.",
+    "subheading": "Simple, rapide et intelligent.",
+    "primaryButton": "Test Drive gratuit pendant 7 jours",
+    "secondaryButton": "Planifier une démonstration",
+    "statsLabel": "Les chiffres de la plateforme Interfy",
+    "stats": [
+      { "label": "12 Mds +", "sublabel": "documents" },
+      { "label": "20 M +", "sublabel": "signatures" },
+      { "label": "2,5 M +", "sublabel": "utilisateurs" },
+      { "label": "6 M +", "sublabel": "processus" },
+      { "label": "1000 To +", "sublabel": "stockés" },
+      { "label": "99,99 %", "sublabel": "de disponibilité" },
+      { "label": "24/7", "sublabel": "support" }
+    ]
+  }
+}

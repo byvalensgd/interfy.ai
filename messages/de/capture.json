@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Capture",
+    "description": "Interfy Capture verwandelt physische und digitale Dokumente in Sekunden in intelligente Informationen. Erfassen Sie per Browser, professionellen Scannern oder Smartphone – die KI erkennt, extrahiert, klassifiziert und leitet alles automatisch weiter.",
+    "keywords": ["intelligente Dokumentenerfassung", "Digitalisierung mit KI", "OCR", "Dokumentenerkennung", "Interfy Capture"],
+    "freeTrialNote": "7 Tage kostenlos testen, keine Kreditkarte erforderlich"
+  },
+  "hero": {
+    "titleLine1": "Erfassen Sie jedes Dokument.",
+    "titleLine2": "Die KI übernimmt den Rest.",
+    "descriptionBrand": "Interfy Capture",
+    "description": "verwandelt physische und digitale Dokumente in Sekunden in intelligente Informationen. Erfassen Sie per Browser, professionellen Scannern oder Smartphone.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "mockupAlt": "Interfy Capture auf Laptop und Smartphone dargestellt, mit intelligenter Dokumentenerfassung",
+    "trust": [
+      { "text": "99,9 % Zuverlässigkeit bei der Extraktion" },
+      { "text": "100 % sicher und LGPD-konform" },
+      { "text": "AI-native in der gesamten Plattform" },
+      { "text": "Skalierbar für jedes Dokumentenvolumen" }
+    ],
+    "flow": [
+      { "text": "KI erkennt und extrahiert" },
+      { "text": "Klassifiziert, indiziert und organisiert." },
+      { "text": "Speichert in Interfy Documents" },
+      { "text": "Sendet an Interfy Process" }
+    ]
+  },
+  "howItWorks": {
+    "headingPrefix": "So funktioniert ",
+    "headingHighlight": "Interfy Capture",
+    "steps": [
+      { "title": "Erfassung", "description": "Erfassung aus jeder Quelle: Browser, Scanner oder Smartphone." },
+      { "title": "KI-Erkennung", "description": "Die Interfy-KI erkennt und extrahiert Inhalte automatisch." },
+      { "title": "Lesen und Verstehen", "description": "Versteht Kontext, Felder und Zusammenhänge zwischen Informationen." },
+      { "title": "Datenextraktion", "description": "Extrahiert automatisch strukturierte und unstrukturierte Daten." },
+      { "title": "Klassifizierung", "description": "Klassifiziert und organisiert Dokumente mit KI." },
+      { "title": "Indizierung und Metadaten", "description": "Weist Metadaten zu und bereitet Suche und Rückverfolgbarkeit vor." },
+      { "title": "Validierung und Weiterleitung", "description": "Validiert und leitet an Interfy Documents oder Process weiter." }
+    ]
+  },
+  "features": {
+    "headingPrefix": "Funktionen und Vorteile von ",
+    "headingHighlight": "Interfy Capture",
+    "statsLabel": "Skalierung der Interfy-Plattform",
+    "items": [
+      { "title": "Erfassung per Browser", "description": "Erfassen Sie Dateien direkt von Ihrem Computer. Einfach, schnell und sicher." },
+      { "title": "Professionelle Scanner", "description": "Native Integration mit Hochleistungsscannern für maximale Qualität." },
+      { "title": "Stapelerfassung", "description": "Digitalisieren und verarbeiten Sie große Dokumentenmengen auf einmal." },
+      { "title": "AI Credits inklusive", "description": "AI Credits sind in allen Plänen der Plattform enthalten — ohne dass das Modul separat gebucht werden muss." },
+      { "title": "Mobile Capture", "description": "Erfassen Sie Dokumente per Smartphone, jederzeit und überall." },
+      { "title": "KI-Erkennung", "description": "KI erkennt und extrahiert Inhalte mit hoher Präzision." },
+      { "title": "Automatische Extraktion", "description": "Automatische Extraktion strukturierter und unstrukturierter Daten." },
+      { "title": "Interfy Documents", "description": "Sichere Speicherung, intelligente Suche und Rückverfolgbarkeit." },
+      { "title": "Interfy Process", "description": "Automatische Weiterleitung an die Abläufe und Automatisierungen Ihres Betriebs." },
+      { "title": "Kauf zusätzlicher Credits", "description": "Mehr Credits, wann immer Ihr Betrieb sie braucht." }
+    ]
+  },
+  "legalValidity": {
+    "title": "Digitalisierung mit Rechtsgültigkeit",
+    "badge": "Optionale Funktion",
+    "description": "Optionale Funktion für Unternehmen, die für ihre digitalen Dokumente Rechtsgültigkeit benötigen. Nicht im Standardplan enthalten.",
+    "checklist": [
+      { "text": "Digitale Zertifizierung und Zeitstempel" },
+      { "text": "Sichere Speicherung mit Rechtsgültigkeit" },
+      { "text": "Ende-zu-Ende-Rückverfolgbarkeit" },
+      { "text": "Nachweise und Audit-Trails" },
+      { "textParts": ["Anwendung von Stempel und Trail gemäß ", "Decreto 10.278"] },
+      { "text": "Audit-Trail" },
+      { "text": "Rechtliche Validierung" },
+      { "text": "Konformität und Sicherheit" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Reale Ergebnisse für Ihr Unternehmen",
+    "heading": "REALE ERGEBNISSE FÜR IHR UNTERNEHMEN",
+    "stats": [
+      { "accent": "BIS ZU 85 %", "label": "WENIGER FEHLER", "description": "bei Indizierung und Klassifizierung." },
+      { "accent": "MEHR", "label": "PRODUKTIVITÄT", "description": "Ihr Team konzentriert sich auf das Wesentliche." },
+      { "accent": "SICHERHEIT &", "label": "KONFORMITÄT", "description": "Vollständig gemäß LGPD, DSGVO und globalen Standards." }
+    ],
+    "ctaTitle": "BEREIT, IHREN DOKUMENTENBETRIEB ZU TRANSFORMIEREN?",
+    "ctaDescription": "Vereinbaren Sie eine Demo und entdecken Sie, wie Interfy Capture echte Ergebnisse für Ihr Unternehmen erzielen kann.",
+    "mascotAlt": "Interfy KI-Assistent"
+  },
+  "cta": {
+    "ariaLabel": "Jetzt mit Interfy Capture starten",
+    "title": "Bereit, Ihre Dokumentenerfassung mit KI zu transformieren?",
+    "description": "Testen Sie Interfy Capture 7 Tage lang kostenlos und erleben Sie, wie die KI Ihren Betrieb voranbringt. Buchen Sie es separat oder nutzen Sie die bereits in den Plattformplänen enthaltenen Credits.",
+    "ctaPrimary": "7 Tage kostenlos testen",
+    "ctaSecondary": "Demo vereinbaren",
+    "statsLabel": "Vorteile von Interfy Capture",
+    "highlights": [
+      { "label": "100 % Web", "sublabel": "Zugriff von überall" },
+      { "label": "Höchste Sicherheit", "sublabel": "Geschützte und konforme Daten" },
+      { "label": "Skalierbar", "sublabel": "Vom kleinen bis zum großen Unternehmen" },
+      { "label": "Support 24/7", "sublabel": "Immer wenn Sie ihn brauchen" }
+    ]
+  }
+}

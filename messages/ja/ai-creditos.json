@@ -1,0 +1,126 @@
+{
+  "seo": {
+    "title": "AIクレジット",
+    "description": "Interfy.aiのすべてのAI機能を、たった一つの残高で。AIクレジットはシンプルで透明性が高く、パワフルです。Documents、Process、Capture、Agents、Voiceなど、全プロダクトで利用できます。",
+    "keywords": ["AIクレジット", "人工知能クレジット", "AIプラン", "Interfyクレジット消費"]
+  },
+  "hero": {
+    "headingLine1": "すべてのAI機能を支える、",
+    "headingHighlight": "AIクレジット ",
+    "headingSuffix": "たった一つの残高。",
+    "description1": "AIクレジットは、Interfy.aiのインテリジェンスを動かす共通の通貨です。",
+    "description2": "シンプルで、透明性が高く、パワフル。",
+    "ctaPrimary": "今すぐ始める",
+    "ctaSecondary": "デモを予約する",
+    "bannerAriaLabel": "AIクレジットを選ぶ理由",
+    "banner": [
+      { "title": "シンプル", "description": "プラットフォーム全体でたった一つの残高。" },
+      { "title": "透明性", "description": "使用状況を管理し、監視し、アラートを受け取れます。" },
+      { "title": "パワフル", "description": "エージェント、自動化、分析などを動かします。" }
+    ],
+    "strip": {
+      "heading": "残高は一つ。インテリジェンスはすべて。",
+      "description": "別々のクレジット管理は不要。複雑な仕組みもありません。",
+      "ariaLabel": "AIクレジット単一残高のメリット",
+      "items": [
+        { "label": "生産性の向上" },
+        { "label": "より良い意思決定" },
+        { "label": "手作業の削減" },
+        { "label": "より高い成果" }
+      ]
+    }
+  },
+  "usage": {
+    "headingPrefix": "",
+    "headingHighlight": "AIクレジット ",
+    "headingSuffix": "はどこで使えるのか",
+    "ariaLabel": "AIクレジットを利用するプロダクト",
+    "items": [
+      { "title": "Documents", "description": "インテリジェントな読み取り、要約、データ抽出、Q&A、翻訳、分析。" },
+      { "title": "Process", "description": "インテリジェントな意思決定、自動実行、分類、ルーティング。" },
+      { "title": "Capture", "description": "高度なOCR、構造化データ抽出、検証、インテリジェントなインデックス化。" },
+      { "title": "Agents", "description": "タスク実行、分析、レコメンデーション、連携、アクション。" },
+      { "title": "Voice", "description": "音声による対話、インテリジェント検索、自然言語でのコマンドと応答。" },
+      { "title": "その他多数", "description": "インサイト、予測、比較、レポートなど、その他のAI処理。" }
+    ],
+    "notice": {
+      "title": "消費量は、各処理の種類・複雑さ・量によって異なります。",
+      "description": "より複雑な処理は、より多くのAIクレジットを消費します。"
+    }
+  },
+  "structure": {
+    "headingPrefix": "成長を支える、",
+    "headingHighlight": "万全の体制",
+    "ariaLabel": "AIクレジット管理機能",
+    "items": [
+      { "title": "Workspace単位の管理", "description": "各Workspaceが独自の残高、上限、権限を持ちます。" },
+      { "title": "上限と権限の設定", "description": "プロファイル、チーム、部門ごとに月間上限とアクセス制御を設定できます。" },
+      { "title": "詳細なレポート", "description": "モジュール、ユーザー、処理、期間ごとの消費状況を確認できます。" },
+      { "title": "インテリジェントなアラート", "description": "消費状況、上限接近、残高不足のアラートを受け取れます。" },
+      { "title": "追加購入", "description": "もっと必要な場合は、プランのアップグレードや追加クレジットの購入が可能です。" }
+    ]
+  },
+  "pricing": {
+    "headingPrefix": "",
+    "headingHighlight": "AIクレジット",
+    "headingSuffix": "プラン — 必要な分だけ購入",
+    "table": {
+      "ariaLabel": "AIクレジットプラン一覧",
+      "colPlan": "プラン",
+      "colCredits": "AIクレジット",
+      "colPrice": "価格",
+      "colPricePer1000": "1,000クレジットあたりの価格",
+      "footnote": "表示価格は税抜きです。詳細な条件はお問い合わせください。"
+    },
+    "consumption": {
+      "heading": "消費量の例",
+      "items": [
+        { "title": "文書の読み取り・要約(10ページ)", "credits": "5 AIクレジット" },
+        { "title": "文書からのデータ抽出(1ページ)", "credits": "3 AIクレジット" },
+        { "title": "文書のインテリジェント分類", "credits": "2 AIクレジット" },
+        { "title": "Agentの実行(中規模タスク)", "credits": "10 AIクレジット" },
+        { "title": "Voiceによる質問(中規模)", "credits": "2 AIクレジット" },
+        { "title": "インテリジェントレポート(中規模)", "credits": "15 AIクレジット" },
+        { "title": "文書の翻訳(1ページ)", "credits": "4 AIクレジット" }
+      ]
+    }
+  },
+  "base": {
+    "srHeading": "よくある質問と次のステップ",
+    "faqHeading": "よくある質問",
+    "faqAriaExpand": "回答を開く",
+    "faq": [
+      {
+        "question": "AIクレジットとは何ですか?",
+        "answer": "AIクレジットは、Interfy.aiの人工知能機能を利用するための共通の通貨です。読み取り、抽出、分類、エージェントの実行など、AIを使用する処理はすべて、その複雑さに応じたクレジットを消費します。"
+      },
+      {
+        "question": "AIクレジットをWorkspace間で共有できますか?",
+        "answer": "できません。各Workspaceは独自のAIクレジット残高を持ち、上限や権限も独立して管理されるため、各部門・チームの消費状況を完全に管理できます。"
+      },
+      {
+        "question": "いつでも追加クレジットを購入できますか?",
+        "answer": "はい。プラットフォーム上からいつでも追加のAIクレジットパックを購入できます。プランを変更する必要はありません。"
+      },
+      {
+        "question": "AIクレジットに有効期限はありますか?",
+        "answer": "プランに含まれるクレジットは、課金サイクルごとに更新されます。追加購入したパックについては契約条件が適用されますので、詳細は担当チームにお問い合わせください。"
+      },
+      {
+        "question": "消費量はどのように計算されますか?",
+        "answer": "消費量は、各処理の種類・複雑さ・量によって異なります。分類のような簡単なタスクは消費量が少なく、エージェントの実行のような複雑な処理はより多くのクレジットを消費します。"
+      },
+      {
+        "question": "AIクレジットはプランに含まれていますか?",
+        "answer": "はい。Interfy.aiのすべてのプランには、インテリジェント処理のためのAIクレジット残高が含まれています。さらに必要な場合は、いつでも追加クレジットを購入できます。"
+      }
+    ],
+    "specialistTitle": "まだ疑問がありますか?",
+    "specialistDesc": "私たちのチームに相談して、AIクレジットがどのように成果を加速できるかを理解しましょう。",
+    "specialistCta": "専門家に相談する",
+    "ctaTitle": "業務を変革する準備はできていますか?",
+    "ctaDesc": "すでにInterfy.aiを信頼している数千社の企業に加わりましょう。",
+    "ctaButton": "今すぐ始める",
+    "statsLabel": "Interfyプラットフォームの実績"
+  }
+}

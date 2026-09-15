@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Blogg & Innehåll",
+    "description": "Artiklar, guider och nyheter om dokumenthantering, processautomation, elektronisk signatur och AI tillämpad på företagsverksamhet.",
+    "keywords": ["Interfy blogg", "innehåll dokumenthantering", "processautomation", "AI för företag"]
+  },
+  "hero": {
+    "ariaLabel": "Introduktion till bloggen",
+    "eyebrow": "Blogg & Innehåll",
+    "titleLine1": "Innehåll för dem som",
+    "titleHighlight": "transformerar verksamheter",
+    "description": "Praktiska guider, produktnyheter och trender om dokument, processer, data och AI för företag."
+  },
+  "grid": {
+    "ariaLabel": "Blogginlägg",
+    "categoriesLabel": "Filtrera efter kategori",
+    "allLabel": "Alla",
+    "categories": ["Dokumenthantering", "Automation (BPM)", "Elektronisk signatur", "AI & Agenter", "Säkerhet & Efterlevnad"],
+    "comingSoonLabel": "Nya artiklar varje vecka. Snart även här.",
+    "posts": [
+      {
+        "category": "Dokumenthantering",
+        "title": "Hur man bygger ett dokumentarkiv som växer med företaget",
+        "excerpt": "Bättre praxis för organisering, versionshantering och åtkomstkontroll för team som växer snabbt.",
+        "date": "Aug 2026",
+        "readTime": "6 min läsning"
+      },
+      {
+        "category": "Automation (BPM)",
+        "title": "5 processer varje företag borde automatisera först",
+        "excerpt": "En praktisk plan för att prioritera automationer med störst påverkan på kostnad och cykeltid.",
+        "date": "Aug 2026",
+        "readTime": "7 min läsning"
+      },
+      {
+        "category": "Elektronisk signatur",
+        "title": "Är elektronisk signatur juridiskt giltig i Brasilien?",
+        "excerpt": "Vad lagstiftningen säger, vilka bevis som spelar roll och hur man väljer rätt signaturnivå.",
+        "date": "Jul 2026",
+        "readTime": "5 min läsning"
+      },
+      {
+        "category": "AI & Agenter",
+        "title": "AI-agenter i interna processer: var man börjar",
+        "excerpt": "Verkliga användningsfall för att minska manuellt arbete vid granskning, klassificering och datautvinning.",
+        "date": "Jul 2026",
+        "readTime": "8 min läsning"
+      },
+      {
+        "category": "Säkerhet & Efterlevnad",
+        "title": "LGPD i praktiken: vad som förändras i dokument- och processhantering",
+        "excerpt": "En rak guide till rättslig grund, datalagring och den personuppgiftsansvariges skyldigheter.",
+        "date": "Jun 2026",
+        "readTime": "6 min läsning"
+      },
+      {
+        "category": "Dokumenthantering",
+        "title": "OCR och intelligent inskanning: slutet för manuell datainmatning",
+        "excerpt": "Hur automatiserad inskanning minskar fel och påskyndar dokumentflödet i arbetsprocessen.",
+        "date": "Jun 2026",
+        "readTime": "5 min läsning"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Kom igång med Interfy",
+    "heading": "Vill du se dessa koncept i praktiken?",
+    "subheading": "Kom igång gratis och utforska Interfy-plattformen med dina egna dokument och processer.",
+    "primaryButton": "Kom igång gratis",
+    "secondaryButton": "Boka en demo"
+  }
+}

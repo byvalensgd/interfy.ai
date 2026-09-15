@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice:用语音指令与您的业务对话。查询、流程、报告和 Agents,均可自然唤醒执行,每一次交互都兼具安全与治理保障。",
+    "keywords": ["语音指令", "企业语音助手", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "7 天免费试用,无需信用卡。"
+  },
+  "hero": {
+    "heading": "与",
+    "headingHighlight": "您的业务对话。",
+    "description": "您提出需求。Interfy 理解。Agents 执行。",
+    "ctaPrimary": "7 天免费试用",
+    "ctaSecondary": "预约演示",
+    "imageAlt": "Interfy Voice 在平板和智能手机上展示,呈现语音指令在平台上的执行过程",
+    "highlights": [
+      { "label": "自然对话" },
+      { "label": "AI 理解并执行" },
+      { "label": "安全可靠" },
+      { "label": "随时随地可用" }
+    ],
+    "platformCards": [
+      {
+        "title": "在桌面端使用",
+        "description": "与网页应用完全集成。点击语音按钮或使用快捷键,即可开始说话。"
+      },
+      {
+        "title": "在 Mobile 端使用",
+        "description": "可在 Interfy Mobile 应用中使用。随时随地用语音查询、审批和管理一切。"
+      },
+      {
+        "title": "安全与权限管理",
+        "description": "访问受权限严格控制。您的语音、数据和操作始终受到保护。"
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "使用",
+    "headingBrand": "Interfy Voice",
+    "items": [
+      {
+        "title": "语音交互",
+        "description": "自然对话,仅用您的声音即可与整个平台互动。"
+      },
+      {
+        "title": "自然语言",
+        "description": "AI 能够理解您所说的内容,即使是完整而随性的表达。"
+      },
+      {
+        "title": "语音搜索",
+        "description": "只需简单一问,即可找到文档、流程及更多信息。"
+      },
+      {
+        "title": "流程创建",
+        "description": "只需描述您的需求,即可创建完整的流程。"
+      },
+      {
+        "title": "表单创建",
+        "description": "几秒钟内生成带有字段、规则和验证的智能表单。"
+      },
+      {
+        "title": "文档查询",
+        "description": "询问文档相关问题,即可获得快速准确的答案。"
+      },
+      {
+        "title": "报告生成",
+        "description": "请求定制报告,立即获取分析和洞察。"
+      },
+      {
+        "title": "Agents 唤醒",
+        "description": "激活智能代理来执行任务,并自动获得结果。"
+      },
+      {
+        "title": "操作指令",
+        "description": "通过语音指令在平台上执行操作、更新和处理。"
+      },
+      {
+        "title": "敏感操作确认",
+        "description": "关键操作始终要求语音确认,以确保安全。"
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "与",
+    "headingHighlight": "Interfy 生态系统完全连接",
+    "items": [
+      { "description": "查询并与文档互动" },
+      { "description": "通过语音创建和管理流程" },
+      { "description": "采集文档并提取信息" },
+      { "description": "发送签署请求并跟踪状态" },
+      { "description": "通过语音沟通与协作" },
+      { "description": "唤醒 Agents 并获取结果" },
+      { "description": "以语音为核心的交互体验" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Interfy Voice 的治理、安全与 AI Credits",
+    "governance": {
+      "title": "治理与安全",
+      "titleAccent": "始终优先",
+      "items": [
+        "端到端加密保护数据",
+        "按代理和用户细分的精细权限管理",
+        "所有语音交互均有审计追踪",
+        "符合 LGPD、ISO 27001、SOC 2 等合规要求",
+        "以最高安全标准保护数据"
+      ],
+      "cta": "查看详情"
+    },
+    "credits": {
+      "title": "透明消耗,",
+      "titleBrand": "AI Credits",
+      "description": "Interfy Voice 使用 AI Credits 来处理指令、查询、分析和执行操作。",
+      "features": [
+        { "label": "所有方案均含额度" },
+        { "label": "实时用量跟踪" },
+        { "label": "需要时可购买额外额度" }
+      ],
+      "cta": "查看详情",
+      "gaugeLabel": "AI Credits",
+      "gaugeSublabel": "可用"
+    }
+  },
+  "cta": {
+    "ariaLabel": "开始使用 Interfy Voice",
+    "heading": "与您的业务对话。",
+    "subheading": "简单、快速、智能。",
+    "primaryButton": "7 天免费试用",
+    "secondaryButton": "预约演示",
+    "statsLabel": "Interfy 平台数据",
+    "stats": [
+      { "label": "12Bi +", "sublabel": "份文档" },
+      { "label": "20M +", "sublabel": "次签署" },
+      { "label": "2.5M +", "sublabel": "位用户" },
+      { "label": "6Mi +", "sublabel": "个流程" },
+      { "label": "1000 TB +", "sublabel": "存储容量" },
+      { "label": "99.99%", "sublabel": "正常运行时间" },
+      { "label": "24/7", "sublabel": "支持服务" }
+    ]
+  }
+}

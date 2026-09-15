@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mobile",
+    "description": "Interfy Mobileなら、Interfyプラットフォーム全体をスマートフォンで利用できます。いつでもどこでもアクセス、管理、承認、意思決定が可能で、セキュリティも万全です。",
+    "keywords": ["企業向けアプリ", "モバイルアプリ", "スマートフォンでの管理", "Interfy Mobile"],
+    "freeTrialNote": "すべてのプラットフォームプランに追加費用なしで含まれています。"
+  },
+  "hero": {
+    "heading": "あなたの業務を",
+    "headingHighlight": "手のひらの上に。",
+    "description": "Interfyプラットフォーム全体を持ち歩けます。どこにいても、アクセス、管理、意思決定、業務の推進が可能です。",
+    "googlePlayAlt": "Google Playで手に入れよう",
+    "appStoreAlt": "App Storeで手に入れよう",
+    "mockupAlt": "スマートフォンに表示されたInterfy Mobileアプリケーション",
+    "highlights": [
+      { "label": "安全で信頼できる" },
+      { "label": "プラットフォームと100%連携" },
+      { "label": "すべてリアルタイムで同期" },
+      { "label": "データを確実に保護" }
+    ],
+    "floatingCards": [
+      { "title": "どこにいても生産性を発揮", "description": "Interfyのすべての機能にスマートフォンからアクセスできます。" },
+      { "title": "業務を変える機動力", "description": "処理を数秒で回答、承認、前進させます。" },
+      { "title": "シンプルで直感的な体験", "description": "必要なものすべてを、わかりやすく整理して提供します。" }
+    ]
+  },
+  "ecosystem": {
+    "heading": "Interfyプラットフォーム全体を",
+    "headingHighlight": "Mobileで",
+    "items": [
+      { "description": "セキュリティを保ちながら、ドキュメントへのアクセス、閲覧、検索、共有ができます。" },
+      { "description": "プロセス、タスク、期限、SLAを追跡。どこにいても承認や意思決定が可能です。" },
+      { "description": "スマートフォンのカメラでドキュメントをキャプチャし、そのままプラットフォームに送信できます。" },
+      { "description": "ドキュメントを電子署名するか、数タップで署名依頼を送信できます。" },
+      { "description": "チャットでファイルを共有し、ドキュメントやプロセスについてリアルタイムでコメントできます。" },
+      { "description": "アプリから直接サポート・回答・アクションを実行するAIエージェント。" },
+      { "description": "音声を使って検索、情報の確認、タスクの作成をよりスピーディに行えます。" }
+    ]
+  },
+  "capabilities": {
+    "heading": "業務に統合された",
+    "headingHighlight": "完全なコラボレーション",
+    "items": [
+      { "title": "承認", "description": "ドキュメント、契約書、申請を数秒で承認できます。" },
+      { "title": "タスク", "description": "タスクを一覧表示し、実行し、手軽に進捗を追跡できます。" },
+      { "title": "通知", "description": "本当に重要な情報をリアルタイムで受け取れます。" },
+      { "title": "ダッシュボード", "description": "業務の指標と成果を手のひらの上で確認できます。" },
+      { "title": "カメラでキャプチャ", "description": "書類、メモ、レシートをスキャンして即時送信できます。" },
+      { "title": "情報照会", "description": "情報、プロセス、ドキュメントを素早く照会できます。" },
+      { "title": "インテリジェント検索", "description": "AIで必要なものを見つけられます。自然な言葉で質問し、回答を得られます。" },
+      { "title": "完全な履歴", "description": "アクション、ドキュメント、会話の履歴を完全な追跡性でアクセスできます。" },
+      { "title": "完全な同期", "description": "データの欠落なく、プラットフォームとリアルタイムで完全に同期します。" },
+      { "title": "オフラインモード", "description": "インターネット接続がなくてもドキュメントや情報にアクセスできます。" },
+      { "title": "マルチカンパニー対応", "description": "すべての会社・拠点を1つのアプリで管理できます。" },
+      { "title": "直感的なインターフェース", "description": "モダンで使いやすいデザイン。複雑さのない生産性を実現します。" }
+    ]
+  },
+  "security": {
+    "heading": "ガバナンスとセキュリティを",
+    "headingHighlight": "最優先に",
+    "description": "どこにいても業務を保護します。エンドツーエンドの暗号化、多要素認証、市場の主要なセキュリティ基準への準拠を実現しています。",
+    "items": [
+      { "label": "エンドツーエンドの暗号化" },
+      { "label": "多要素認証(MFA)" },
+      { "label": "LGPD、ISO 27001、SOC 2への準拠" },
+      { "label": "高度なアクセス制御と権限管理" },
+      { "label": "クラウドでのバックアップと高可用性" }
+    ]
+  },
+  "cta": {
+    "sectionAria": "Interfy Mobileをダウンロード",
+    "title": "Interfy Mobile。あなたの業務を手のひらの上に。",
+    "subtitle": "どこにいても、より高い機動力、コントロール、成果を。",
+    "downloadPrompt": "今すぐダウンロードして、プラットフォーム全体を持ち歩きましょう。",
+    "googlePlayAlt": "Google Playで手に入れよう",
+    "appStoreAlt": "App Storeで手に入れよう",
+    "qrCodeAlt": "Interfy MobileアプリをダウンロードするためのQRコード",
+    "statsLabel": "Interfyプラットフォームの数字"
+  }
+}

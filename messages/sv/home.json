@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Interfy – Dokumenthantering, Processer och Digital Signering med AI",
+    "description": "AI-native företagsplattform som samlar dokument, processer, människor, data och kommunikation i en enda intelligent miljö.",
+    "keywords": ["dokumenthantering", "processautomation", "digital signering", "AI-native plattform", "Interfy"]
+  },
+  "hero": {
+    "headline": "Förvandla din verksamhet med",
+    "headlineHighlight": "AI.",
+    "subheadline": "Dokumenthantering, Processautomation, Intelligent Fångst, Digital Signering, Samarbete och Mobil i en enda plattform.",
+    "signBadge": {
+      "brand": "Interfy",
+      "text": "erbjuder gratis digital signering till alla användare av plattformen."
+    },
+    "ctaPrimary": "Testa gratis i 7 dagar",
+    "ctaSecondary": "Boka en demo",
+    "slideshowAlt": "Interfy-plattformen visad på laptop och smartphone, med AI-drivet hanteringspanel",
+    "availableVia": "Tillgänglig via:",
+    "badges": [
+      { "alt": "Tillgänglig som webbapp" },
+      { "alt": "Tillgänglig på Google Play" },
+      { "alt": "Tillgänglig i App Store" }
+    ],
+    "statsAriaLabel": "Plattformens fördelar",
+    "stats": [
+      { "label": "25 000 +", "sublabel": "kunder" },
+      { "label": "180+ länder" },
+      { "label": "16 språk" },
+      { "label": "Säkerhet i framkant" },
+      { "label": "AI Native" },
+      { "label": "Hög tillgänglighet" },
+      { "label": "Global regelefterlevnad" }
+    ]
+  },
+  "platformIntro": {
+    "headline": "En AI-native företagsplattform, född i",
+    "headlineHighlight": "AI",
+    "description": "Samla dokument, processer, människor, data och kommunikation i en enda intelligent miljö.",
+    "descriptionBold": "Allt kopplat. Allt integrerat.",
+    "statsAriaLabel": "Interfy-plattformens omfattning",
+    "stats": [
+      { "label": "2,5M +", "sublabel": "användare" },
+      { "label": "12Md +", "sublabel": "dokument" },
+      { "label": "6M +", "sublabel": "processer" },
+      { "label": "1000TB +", "sublabel": "lagrat" },
+      { "label": "20M +", "sublabel": "signaturer" },
+      { "label": "99,99%", "sublabel": "drifttid" },
+      { "label": "24/7", "sublabel": "support" }
+    ],
+    "ecosystem": {
+      "items": [
+        { "descriptionLines": ["Organisera och hitta", "med intelligens"] },
+        { "descriptionLines": ["Skapa flöden, godkännanden", "och uppgifter"] },
+        { "descriptionLines": ["Prata med plattformen", "på ett naturligt sätt"] },
+        { "descriptionLines": ["Skanna, känn igen", "och extrahera data"] },
+        { "descriptionLines": ["AI som förstår och", "stödjer användare"] },
+        { "descriptionLines": ["Signera dokument", "med juridisk giltighet"] },
+        { "descriptionLines": ["Samarbeta och kommunicera", "med ditt team"] },
+        { "descriptionLines": ["Din verksamhet", "i handen"] }
+      ]
+    }
+  },
+  "ecosystemGrid": {
+    "headline": "Komplett ekosystem",
+    "headlineSuffix": "för din verksamhet",
+    "items": [
+      { "description": "Intelligent hantering av dokument och information" },
+      { "description": "Intelligent automation av processer och uppgifter" },
+      { "description": "Intelligent dokumentfångst med AI" },
+      { "description": "Gratis digital signering för alla användare" },
+      { "description": "Samarbete och kommunikation kopplat till verksamheten" },
+      { "description": "Hela din verksamhet i handen" },
+      { "description": "AI-agenter som analyserar, beslutar och agerar" },
+      { "description": "Röststyrd interaktion med naturligt språk och AI" }
+    ]
+  },
+  "whyInterfy": {
+    "headline": "Varför välja",
+    "headlineHighlight": "Interfy AI?",
+    "items": [
+      { "title": "AI-native", "description": "intelligens i centrum av allt" },
+      { "title": "100% webbaserat", "description": "kom åt från var som helst, på vilken enhet som helst" },
+      { "title": "Egen workspace per kund", "description": "isolerad data med full sekretess" },
+      { "title": "White Label", "description": "ditt varumärke, din upplevelse" },
+      { "title": "Integrationer via API", "description": "koppla till dina egna system" },
+      { "title": "Granskning och spårbarhet", "description": "komplett och säker historik" },
+      { "title": "Global skalbarhet", "description": "väx utan gränser, i vilket land som helst" },
+      { "title": "Säkerhet i AWS-molnet", "description": "robust och pålitlig infrastruktur" }
+    ]
+  },
+  "featureShowcase": {
+    "ariaLabel": "Intelligent fångst och AI-agenter",
+    "capture": {
+      "eyebrow": "Fångar allt, varifrån som helst, med AI.",
+      "headingSuffix": "intelligent som förstår och levererar",
+      "description": "Interfy kan drivas med ditt eget varumärke för särskilda verksamheter, enheter eller regioner.",
+      "checklist": [
+        "Professionell skanner eller mobil.",
+        "Textigenkänning och datauttag med AI.",
+        "Automatisk klassificering av dokument.",
+        "Intelligent indexering och berikning.",
+        "Direkt leverans till dokument och processer."
+      ],
+      "imageAlt": "Dokumentfångst via skanner och mobil med AI-driven dataigenkänning"
+    },
+    "agents": {
+      "eyebrow": "AI som förstår, agerar och svarar.",
+      "headingPrefix": "Interagera",
+      "headingSuffix": "med plattformen som aldrig förr",
+      "description": "Använd intelligenta agenter och röstkommandon för att skapa, söka, sammanfatta, godkänna och mycket mer.",
+      "videoAriaLabel": "Interfys AI-assistent",
+      "chatDemo": {
+        "message1": "Visa avtal som väntar på signering",
+        "message2Line1": "15 avtal som väntar på signering hittades.",
+        "message2Line2": "Vill du se dem?",
+        "voiceAlt": "Röstkommando"
+      }
+    }
+  },
+  "segments": {
+    "headline": "Lösningar för olika",
+    "headlineHighlight": "branscher",
+    "items": [
+      { "label": "Finans" },
+      { "label": "Sjukvård" },
+      { "label": "Juridik" },
+      { "label": "Industri" },
+      { "label": "Myndigheter" },
+      { "label": "Utbildning" },
+      { "label": "Logistik" },
+      { "label": "Se alla..." }
+    ]
+  },
+  "globalTrust": {
+    "srHeading": "Ditt varumärke, global närvaro och säkerhet",
+    "whiteLabel": {
+      "eyebrow": "DITT VARUMÄRKE. DIN UPPLEVELSE.",
+      "title": "White Label & Workspace",
+      "titleHighlight": "Exklusivt",
+      "description": "Anpassa plattformen med ditt eget varumärke, dina färger, inloggningssida och egen domän.",
+      "imageAlt": "Anpassad plattform med kundens varumärke (White Label)"
+    },
+    "global": {
+      "eyebrow": "GLOBAL NÄRVARO.",
+      "title": "Redo",
+      "titleHighlight": "för hela världen",
+      "description": "Interfy är redo att betjäna företag i mer än 180 länder, med support på 16 språk.",
+      "imageAlt": "Världskarta som illustrerar Interfys globala närvaro"
+    },
+    "security": {
+      "eyebrow": "SÄKERHET OCH FÖRTROENDE I FÖRSTA HAND.",
+      "title": "Säker och pålitlig infrastruktur",
+      "badges": [
+        { "label": "AWS" },
+        { "label": "Åtkomstkontroll" },
+        { "label": "Fullständig granskning" },
+        { "label": "Tillgänglighet dygnet runt" },
+        { "label": "Isolering per workspace" }
+      ]
+    }
+  },
+  "scaleSecurity": {
+    "headline": "Säker, skalbar och",
+    "headlineHighlight": "redo att växa.",
+    "featuresAriaLabel": "Säkerhet och styrning",
+    "features": [
+      { "label": "Användarbehörigheter" },
+      { "label": "Skyddad data" },
+      { "label": "Isolerad miljö" },
+      { "label": "Granskning och spårbarhet" },
+      { "label": "Molninfrastruktur" },
+      { "label": "Hög tillgänglighet" },
+      { "label": "Sekretess och styrning" }
+    ],
+    "trustAriaLabel": "Förtroende och regelefterlevnad",
+    "trustBadges": [
+      { "label": "Globalt företag" },
+      { "label": "GDPR, LGPD och ISO" },
+      { "label": "Krypterad och skyddad data" },
+      { "label": "Global infrastruktur med hög tillgänglighet" },
+      { "label": "Internationella certifieringar" },
+      { "label": "Löpande uppdateringar" }
+    ],
+    "cta": {
+      "title": "Kom igång med Interfy redan idag.",
+      "description": "Skapa ditt konto, testa plattformen och upptäck hur Interfy kan förvandla ditt företags verksamhet.",
+      "ctaPrimary": "Börja gratis",
+      "ctaSecondary": "Boka demo"
+    }
+  }
+}

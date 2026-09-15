@@ -1,0 +1,345 @@
+{
+  "seo": {
+    "title": "산업별 솔루션",
+    "description": "Interfy는 금융, 헬스케어, 법률, 제조, 공공기관을 비롯한 20개 이상의 산업 분야 기업에 단 하나의 AI 네이티브 플랫폼으로 대응합니다.",
+    "keywords": [
+      "산업별 Interfy",
+      "업종별 문서 관리",
+      "금융 헬스케어 법률 제조 공공기관 소프트웨어"
+    ]
+  },
+  "hero": {
+    "statsLabel": "산업별 플랫폼 차별점",
+    "titleLine1": "모든 산업을 위한",
+    "titleHighlight": "단 하나의 플랫폼.",
+    "description": "Interfy는 별도 버전이나 복잡한 구축 과정 없이, 단 하나의 AI 네이티브 플랫폼으로 다양한 업종과 규모의 기업에 대응합니다.",
+    "sparkleText": "데이터, 프로세스, 문서, 고객, 의사결정이 있는 곳이라면 어디든",
+    "sparkleBrand": "Interfy",
+    "ctaPrimary": "산업별 솔루션 보기",
+    "ctaSecondary": "데모 신청하기",
+    "statsItems": [
+      {
+        "label": "180개국 이상"
+      },
+      {
+        "label": "16개 언어"
+      },
+      {
+        "label": "최고 수준의 보안"
+      },
+      {
+        "label": "AI 네이티브"
+      },
+      {
+        "label": "Mobile",
+        "sublabel": "수년간의 경험"
+      },
+      {
+        "label": "높은 가용성"
+      },
+      {
+        "label": "글로벌 컴플라이언스"
+      }
+    ]
+  },
+  "catalog": {
+    "titleLine1": "하나의 생태계.",
+    "titleHighlight": "무한한 가능성.",
+    "description": "귀사의 산업을 선택하고 Interfy AI가 어떻게 과제를 실질적인 성과로 바꾸는지 확인해보세요.",
+    "items": [
+      {
+        "title": "금융",
+        "bullets": [
+          "컴플라이언스 및 규제 대응",
+          "신용 분석",
+          "계약 관리"
+        ]
+      },
+      {
+        "title": "헬스케어",
+        "bullets": [
+          "진료 기록 및 문서 관리",
+          "승인 및 보험 처리",
+          "진료 프로세스 관리"
+        ]
+      },
+      {
+        "title": "법률",
+        "bullets": [
+          "소송 및 사건 관리",
+          "계약 및 소장 관리",
+          "컴플라이언스 및 기한 관리"
+        ]
+      },
+      {
+        "title": "제조",
+        "bullets": [
+          "품질 및 공정 관리",
+          "매뉴얼 및 문서 관리",
+          "작업 지시 및 유지보수"
+        ]
+      },
+      {
+        "title": "공공기관",
+        "bullets": [
+          "행정 절차 및 입찰 관리",
+          "공문서 관리",
+          "민원 대응"
+        ]
+      },
+      {
+        "title": "교육",
+        "bullets": [
+          "입학 및 학적 관리",
+          "학사 행정 프로세스",
+          "공지 및 커뮤니케이션"
+        ]
+      },
+      {
+        "title": "물류",
+        "bullets": [
+          "운송 서류 관리",
+          "배송 추적 및 관리",
+          "이슈 및 클레임 관리"
+        ]
+      },
+      {
+        "title": "보험",
+        "bullets": [
+          "보험증권 및 보험금 청구",
+          "리스크 분석",
+          "고객 대응 및 SLA 관리"
+        ]
+      },
+      {
+        "title": "부동산",
+        "bullets": [
+          "계약 및 제안서 관리",
+          "임대 및 실사 관리",
+          "부동산 관련 문서 관리"
+        ]
+      },
+      {
+        "title": "리테일",
+        "bullets": [
+          "재고 및 주문 관리",
+          "전자 세금계산서 및 공급업체 관리",
+          "옴니채널 고객 대응"
+        ]
+      },
+      {
+        "title": "인사(HR)",
+        "bullets": [
+          "입사 및 서류 관리",
+          "성과 평가",
+          "복리후생 관리"
+        ]
+      },
+      {
+        "title": "회계",
+        "bullets": [
+          "세금계산서 및 세무 의무 관리",
+          "신고 및 보고서 관리",
+          "고객 및 계약 관리"
+        ]
+      },
+      {
+        "title": "약국 & 연구소",
+        "bullets": [
+          "처방 및 진료 관리",
+          "품질 관리",
+          "규제 문서 관리"
+        ]
+      },
+      {
+        "title": "프랜차이즈",
+        "bullets": [
+          "표준화 및 매뉴얼 관리",
+          "계약 및 공지 관리",
+          "가맹점 실적 관리"
+        ]
+      },
+      {
+        "title": "서비스업",
+        "bullets": [
+          "제안서 및 계약 관리",
+          "요청 및 프로젝트 관리",
+          "납품 및 청구 관리"
+        ]
+      },
+      {
+        "title": "농업",
+        "bullets": [
+          "계약 및 수확 관리",
+          "세금계산서 및 문서 관리",
+          "추적 관리"
+        ]
+      },
+      {
+        "title": "노동조합 & 협회",
+        "bullets": [
+          "회원 및 문서 관리",
+          "총회 및 회의록 관리",
+          "공지 및 커뮤니케이션"
+        ]
+      },
+      {
+        "title": "기술",
+        "bullets": [
+          "프로젝트 및 백로그 관리",
+          "계약 및 NDA 관리",
+          "파일 제작 관리"
+        ]
+      },
+      {
+        "title": "관광",
+        "bullets": [
+          "콘텐츠 및 일정 관리",
+          "계약 및 미디어 관리",
+          "제작 및 파일 관리"
+        ]
+      },
+      {
+        "title": "기타",
+        "bullets": [
+          "맞춤형 솔루션",
+          "맞춤형 프로세스",
+          "디지털 전환"
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "플랫폼 차별점",
+    "items": [
+      {
+        "title": "단 하나의 플랫폼",
+        "description": "업종별 별도 버전이 필요 없습니다"
+      },
+      {
+        "title": "100% 맞춤 설정",
+        "description": "귀사의 비즈니스에 맞게 구성하세요"
+      },
+      {
+        "title": "빠른 구축",
+        "description": "복잡한 절차 없이 몇 분 안에 시작하세요"
+      },
+      {
+        "title": "엔터프라이즈급 보안",
+        "description": "데이터 보호와 격리된 환경 제공"
+      },
+      {
+        "title": "모든 산업을 위한 AI",
+        "description": "귀사의 맥락을 이해하는 지능형 에이전트"
+      }
+    ]
+  },
+  "trust": {
+    "ariaLabel": "플랫폼의 신뢰성과 적응력",
+    "cardTitle": "다양한 기업의 현실에 맞춘",
+    "cardTitleHighlight": "맞춤형 플랫폼.",
+    "cardDescription": "소규모 기업부터 글로벌 운영까지, Interfy는 귀사의 규모, 산업, 목표에 맞게 유연하게 적응합니다.",
+    "casesLink": "성공 사례 보기",
+    "statsTitle": "Interfy를 신뢰하는 기업들",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "지원 산업 분야"
+      },
+      {
+        "value": "2.5M+",
+        "label": "이용 사용자 수"
+      },
+      {
+        "value": "6",
+        "label": "비즈니스 권역"
+      },
+      {
+        "value": "70억+",
+        "label": "관리 문서 수"
+      },
+      {
+        "value": "600만+",
+        "label": "자동화된 프로세스"
+      },
+      {
+        "value": "99.99%",
+        "label": "플랫폼 가동률"
+      }
+    ],
+    "illustrationAlt": "다양한 기업의 데이터를 나타내는 그래프가 있는 대시보드"
+  },
+  "platform": {
+    "titleHighlight": "완전한 플랫폼",
+    "titleSuffix": "모든 산업을 위한",
+    "ctaLabel": "플랫폼 보기",
+    "brandName": "Interfy",
+    "items": [
+      {
+        "product": "Documents",
+        "description": "문서와 정보를 위한 지능형 관리"
+      },
+      {
+        "product": "Process",
+        "description": "프로세스와 업무의 지능형 자동화"
+      },
+      {
+        "product": "Capture",
+        "description": "AI 기반 지능형 문서 캡처"
+      },
+      {
+        "product": "Sign",
+        "description": "모든 사용자를 위한 무료 전자서명"
+      },
+      {
+        "product": "Connect",
+        "description": "운영과 연결된 협업 및 커뮤니케이션"
+      },
+      {
+        "product": "Mobile",
+        "description": "손안에서 완성되는 업무 전체"
+      },
+      {
+        "product": "Agents",
+        "description": "분석하고 결정하고 실행하는 AI 에이전트"
+      },
+      {
+        "product": "Voice",
+        "description": "자연어와 AI를 활용한 음성 인터랙션"
+      }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Interfy 시작하기",
+    "title": "귀사의 산업, 규모, 과제가 무엇이든 Interfy가 최적의 플랫폼입니다.",
+    "description": "Interfy는 AI, 자동화, 인텔리전스로 귀사의 운영을 혁신합니다.",
+    "ctaPrimary": "무료로 시작하기",
+    "ctaSecondary": "데모 신청하기",
+    "features": [
+      {
+        "title": "AI 네이티브",
+        "description": "모든 모듈에 탑재된 인텔리전스"
+      },
+      {
+        "title": "클라우드 네이티브",
+        "description": "확장 가능한 인프라"
+      },
+      {
+        "title": "웹 + 모바일",
+        "description": "어디서든 완전한 접근"
+      },
+      {
+        "title": "API 및 통합",
+        "description": "이미 사용 중인 모든 시스템과 연결하세요"
+      },
+      {
+        "title": "보안 및 컴플라이언스",
+        "description": "글로벌 수준의 보호 및 규제 준수 기준"
+      },
+      {
+        "title": "24/7 지원",
+        "description": "귀사의 운영을 위한 지속적인 지원"
+      }
+    ]
+  }
+}

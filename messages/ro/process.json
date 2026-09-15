@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Process",
+    "description": "Interfy Process îți permite să creezi procese vizuale, formulare inteligente și automatizări puternice cu AI. Mai multă agilitate, control și eficiență la fiecare pas.",
+    "keywords": ["automatizarea proceselor", "BPM", "flux de lucru enterprise", "formulare inteligente", "Interfy Process"],
+    "freeTrialNote": "Testează gratuit timp de 7 zile, fără card de credit"
+  },
+  "hero": {
+    "titlePrefix": "Creează, automatizează și transformă procese ",
+    "titleHighlight": "cu AI.",
+    "descriptionBrand": "Interfy Process",
+    "descriptionText": " îți permite să creezi procese vizuale, formulare inteligente și automatizări puternice cu AI. Mai multă agilitate, control și eficiență la fiecare pas.",
+    "ctaPrimary": "Test Drive Gratuit",
+    "ctaSecondary": "Programează o demonstrație",
+    "mockupAlt": "Platforma Interfy Process afișată pe tabletă și smartphone, arătând desenul vizual al unui proces și lista de sarcini",
+    "stats": [
+      { "label": "6 MIL +", "sublabel": "procese automatizate" },
+      { "label": "25.000 +", "sublabel": "clienți" },
+      { "label": "2,5 MIL +", "sublabel": "utilizatori activi" },
+      { "label": "100% Web", "sublabel": "Acces de oriunde" }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Automatizare completă pentru ",
+    "headingHighlight": "operațiunea ta",
+    "items": [
+      { "title": "Crearea vizuală a proceselor", "description": "Construiește fluxuri simplu și intuitiv cu designerul vizual drag-and-drop." },
+      { "title": "Crearea proceselor cu AI", "description": "Descrie ce ai nevoie, iar AI creează procesul ideal pentru tine în câteva secunde." },
+      { "title": "Generarea automată a formularelor", "description": "AI generează formulare complete pe baza procesului, cu câmpuri inteligente." },
+      { "title": "Formulare inteligente", "description": "Câmpuri condiționale, validări automate și calcule pentru a reduce erorile și munca repetată." },
+      { "title": "Aprobări", "description": "Fluxuri de aprobare flexibile, cu mai multe niveluri paralele sau condiționale." },
+      { "title": "Sarcini", "description": "Atribuie, urmărește și gestionează sarcini cu termene, priorități și responsabili." },
+      { "title": "Reguli de business", "description": "Automatizează decizii și acțiuni cu reguli personalizate și condiții avansate." },
+      { "title": "SLA-uri", "description": "Definește termene și acorduri de nivel de servicii, cu monitorizare și alerte automate." },
+      { "title": "Alerte și notificări", "description": "Notificări prin e-mail, push sau în platformă pentru a menține pe toată lumea aliniată." },
+      { "title": "Dashboard-uri în timp real", "description": "Urmărește operațiunea cu dashboard-uri dinamice și vizuale actualizate." },
+      { "title": "Indicatori și metrici", "description": "Metrici personalizate pentru a măsura performanța, blocajele și productivitatea." },
+      { "title": "Participare externă", "description": "Include clienți, furnizori și parteneri în procese, cu securitate și control." },
+      { "title": "Procese pe Mobil", "description": "Execută, aprobă și urmărește procese de oriunde prin aplicația Interfy Mobile." },
+      { "title": "Șabloane gata de utilizat", "description": "Bibliotecă de șabloane de procese gata de utilizat pentru cele mai diverse domenii." },
+      { "title": "Automatizări cu Agents", "description": "Agenții AI execută sarcini automate, analizează date și iau decizii inteligente." },
+      { "title": "Integrare nativă", "description": "Integrare completă cu Interfy Documents, Capture și Sign pentru un flux 100% conectat." }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Integrare nativă cu ",
+    "headingHighlight": "ecosistemul Interfy",
+    "description": "Alege segmentul tău și descoperă cum Interfy AI transformă provocările în rezultate reale.",
+    "brandPrefix": "Interfy",
+    "items": [
+      { "description": "Documente și informații la îndemâna procesului." },
+      { "description": "Capturare inteligentă și extragere de date." },
+      { "description": "Procese și automatizări inteligente." },
+      { "description": "Semnături digitale integrate în flux." },
+      { "description": "Colaborare și comunicare în timp real." },
+      { "description": "Agenți AI care analizează, decid și execută." }
+    ]
+  },
+  "highlights": {
+    "ariaLabel": "Avantajele platformei",
+    "items": [
+      { "title": "O singură platformă", "description": "Fără nevoia de versiuni pe domenii" },
+      { "title": "100% adaptabilă", "description": "Configurează în funcție de afacerea ta" },
+      { "title": "Implementare rapidă", "description": "Începe în câteva minute, fără complexitate" },
+      { "title": "Securitate enterprise", "description": "Protecția datelor și medii izolate" },
+      { "title": "AI în toate domeniile", "description": "Agenți inteligenți care înțeleg contextul tău" }
+    ]
+  },
+  "results": {
+    "ariaLabel": "Rezultate și tipuri de procese acoperite",
+    "practiceTitlePrefix": "Rezultate pe care le vezi ",
+    "practiceTitleHighlight": "în practică",
+    "checklist": [
+      "Mai puțină muncă repetată și mai multă standardizare",
+      "Procese mai rapide și mai eficiente",
+      "Reducerea costurilor operaționale",
+      "Transparență totală și trasabilitate",
+      "Decizii mai bune cu date și indicatori",
+      "Satisfacția clienților, echipelor și partenerilor"
+    ],
+    "chartTitle": "Solicitări finalizate",
+    "chartAriaLabel": "Grafic liniar care arată creșterea solicitărilor finalizate din ianuarie până în iunie, cu o creștere de 32%",
+    "chartMonths": ["Ian", "Feb", "Mar", "Apr", "Mai", "Iun"],
+    "typesTitlePrefix": "Creat pentru toate ",
+    "typesTitleHighlight": "tipurile de procese",
+    "processTypes": [
+      { "label": "Administrative" },
+      { "label": "Financiare" },
+      { "label": "Achiziții" },
+      { "label": "HR" },
+      { "label": "Juridice" },
+      { "label": "Comerciale" },
+      { "label": "Operaționale" },
+      { "label": "IT" }
+    ]
+  },
+  "cta": {
+    "ariaLabel": "Începe să folosești Interfy Process",
+    "title": "Pregătit să îți transformi operațiunea?",
+    "description": "Începe acum cu 7 zile gratuite și descoperă cum Interfy Process îți poate impulsiona compania.",
+    "ctaPrimary": "Test Drive Gratuit timp de 7 zile",
+    "ctaSecondary": "Programează o Demonstrație",
+    "statsLabel": "Avantajele Interfy Process",
+    "features": [
+      { "label": "100% Web", "sublabel": "Acces de oriunde" },
+      { "label": "Securitate de vârf", "sublabel": "Date protejate și conforme" },
+      { "label": "Scalabil", "sublabel": "De la afaceri mici la mari" },
+      { "label": "Suport 24/7", "sublabel": "Oricând ai nevoie" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "mainNavAria": "Meniu principal",
+  "mobileNavAria": "Meniu principal (mobil)",
+  "openMenu": "Deschide meniul",
+  "closeMenu": "Închide meniul",
+  "nav": {
+    "plans": "Planuri"
+  },
+  "productsMenu": {
+    "trigger": "Produse",
+    "featuredEyebrow": "Produse principale",
+    "listEyebrow": "Mai multe produse",
+    "featured": [
+      { "title": "Documents", "tagline": "Organizează, găsește și protejează documente cu AI la fiecare pas." },
+      { "title": "Process", "tagline": "Creează procese vizuale, formulare și automatizări cu AI." },
+      { "title": "Capture", "tagline": "Captează orice document — AI recunoaște și organizează totul." },
+      { "title": "Sign", "tagline": "Semnătură digitală gratuită, cu valabilitate juridică și integrare completă." }
+    ],
+    "items": [
+      { "label": "Connect", "description": "Colaborează și comunică cu echipa ta" },
+      { "label": "Agents", "description": "AI care înțelege și sprijină utilizatorii" },
+      { "label": "Mobile", "description": "Operațiunea ta în palma mâinii" },
+      { "label": "Voice", "description": "Vorbește cu platforma în mod natural" }
+    ]
+  },
+  "recursosMenu": {
+    "trigger": "Resurse",
+    "recursosEyebrow": "Resurse",
+    "recursosItems": [
+      { "label": "Segmente" },
+      { "label": "AI Credite" },
+      { "label": "Integrări & API" },
+      { "label": "Studii de Caz" }
+    ],
+    "legalEyebrow": "Legal & Suport",
+    "legalItems": [
+      { "label": "Termeni și Condiții" },
+      { "label": "Politici de Confidențialitate" },
+      { "label": "LGPD / GDPR" },
+      { "label": "Securitate" },
+      { "label": "Suport" },
+      { "label": "Contact" }
+    ]
+  },
+  "empresaMenu": {
+    "trigger": "Companie",
+    "eyebrow": "Companie",
+    "items": [
+      { "label": "Despre Interfy" },
+      { "label": "Platforma Interfy" },
+      { "label": "Parteneriat" },
+      { "label": "Blog / Conținut" }
+    ]
+  },
+  "languageSelectorAria": "Selectează limba"
+}

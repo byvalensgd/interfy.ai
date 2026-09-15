@@ -1,0 +1,181 @@
+{
+  "seo": {
+    "title": "אבטחה",
+    "description": "הכירו את אדריכלות האבטחה, הפרטיות והתאימות של Interfy: הצפנה, בקרת גישה, זמינות גבוהה מסוג Multi-AZ והסמכות ISO, LGPD, GDPR ו-SOC 2.",
+    "keywords": ["אבטחת Interfy", "תאימות LGPD GDPR", "הצפנת נתונים", "זמינות גבוהה AWS", "אדריכלות cloud-native מאובטחת"]
+  },
+  "hero": {
+    "headingPrefix": "אבטחה בסטנדרט אנטרפרייז מעצם ה",
+    "headingHighlight": "אדריכלות.",
+    "description": "Interfy נבנתה עם הסטנדרטים הגבוהים ביותר של אבטחה, פרטיות ותאימות כדי להגן על מה שהחשוב מכול: הנתונים של החברה שלכם.",
+    "ctaPrimary": "לדבר עם מומחה",
+    "ctaSecondary": "הורדת מדיניות האבטחה",
+    "diagramAriaLabel": "שכבות האבטחה של Interfy",
+    "diagram": {
+      "items": [
+        { "label": "אבטחה מעצם האדריכלות" },
+        { "label": "שליטה מלאה בגישות" },
+        { "label": "זמינות גבוהה" },
+        { "label": "בידוד לפי Workspace" },
+        { "label": "נתונים מוגנים תמיד" },
+        { "label": "פרטיות מעצם ההגדרה" },
+        { "label": "תאימות גלובלית" },
+        { "label": "תשתית אמינה" }
+      ]
+    },
+    "stats": [
+      { "label": "99.99%", "description": "זמינות SLA מובטחת" },
+      { "label": "24/7", "description": "מעקב רציף" },
+      { "label": "בטוח ואמין", "description": "הגנה במספר שכבות אבטחה" }
+    ],
+    "poweredByLabel": "מופעל על ידי",
+    "awsChecklistAriaLabel": "תשתית ה-AWS של Interfy",
+    "awsChecklist": [
+      "AWS Global Infrastructure",
+      "Cloud-native",
+      "Multi-AZ",
+      "ניתן להרחבה לפי דרישה",
+      "ביצועים גבוהים",
+      "בר-קיימא"
+    ]
+  },
+  "controls": {
+    "headline": "אבטחה ושליטה",
+    "headlineHighlight": "בכל שכבה",
+    "items": [
+      {
+        "title": "בידוד לפי Workspace",
+        "description": "כל לקוח פועל בסביבה מבודדת, המבטיחה פרטיות ואבטחה מלאה."
+      },
+      {
+        "title": "מסד נתונים ייעודי לכל לקוח",
+        "description": "נתונים נשמרים במסד נתונים ייעודי לכל לקוח, ללא שיתוף."
+      },
+      {
+        "title": "הצפנה מתקדמת",
+        "description": "נתונים מוצפנים במעבר (TLS 1.2+) ובמנוחה (AES-256)."
+      },
+      {
+        "title": "בקרת גישה (RBAC)",
+        "description": "הרשאות גרנולריות לפי תפקיד, קבוצה, תחום ורמת רגישות."
+      },
+      {
+        "title": "אימות תאגידי",
+        "description": "SSO, SAML 2.0, OAuth 2.0, AD/LDAP ו-MFA לגישה מאובטחת ומאוחדת."
+      },
+      {
+        "title": "IP Blocking",
+        "description": "הגבלת גישה לפי כתובת IP או טווח כתובות להגנה על הסביבה שלכם."
+      },
+      {
+        "title": "יומנים וביקורת",
+        "description": "רישום מלא של כל הפעולות עם מסלול ביקורת בלתי ניתן לשינוי וניתן לחיפוש."
+      },
+      {
+        "title": "מעקב 24/7",
+        "description": "מעקב רציף אחר תשתית, אפליקציות ואבטחה."
+      },
+      {
+        "title": "גיבוי אוטומטי",
+        "description": "גיבויים מוצפנים ואוטומטיים עם תקופת שמירה הניתנת להתאמה."
+      },
+      {
+        "title": "Disaster Recovery",
+        "description": "תוכנית שחזור מאסון עם שכפול גיאוגרפי."
+      },
+      {
+        "title": "Private Storage",
+        "description": "אחסון פרטי אופציונלי לסביבות on-premise או Dedicated."
+      },
+      {
+        "title": "התרחבות בלתי מוגבלת",
+        "description": "תשתית אלסטית שגדלה עם העסק שלכם מבלי לפגוע בביצועים."
+      }
+    ]
+  },
+  "compliance": {
+    "headline": "הסמכות ותאימות",
+    "headlineHighlight": "מוכרות בעולם",
+    "ctaLabel": "צפייה בכל ההסמכות והמסמכים",
+    "items": [
+      {
+        "title": "ISO/IEC 27001:2022",
+        "description": "מערכת ניהול אבטחת מידע מוסמכת בהתאם לתקן הבין-לאומי."
+      },
+      {
+        "title": "HIPAA Ready",
+        "description": "אדריכלות, בקרות ותהליכים המוכנים לתמוך בסביבות המטפלות במידע רפואי (ePHI) בארה\"ב.",
+        "badge": "BAA זמין"
+      },
+      {
+        "title": "LGPD",
+        "description": "עומדת בחוק הגנת המידע האישי הכללי (ברזיל)."
+      },
+      {
+        "title": "GDPR",
+        "description": "בהתאם לתקנה הכללית להגנת מידע (האיחוד האירופי)."
+      },
+      {
+        "title": "SOC 2 Type II",
+        "description": "בקרות מחמירות של אבטחה, זמינות וסודיות.",
+        "badge": "בתהליך"
+      },
+      {
+        "title": "תקנים נוספים",
+        "description": "מדיניות ובקרות בהתאם לתקני השוק המחמירים ביותר בתחום."
+      }
+    ]
+  },
+  "architecture": {
+    "headlinePrefix": "אדריכלות ",
+    "headlineHighlight": "cloud-native",
+    "headlineSuffix": " בעלת זמינות גבוהה",
+    "flow": [
+      { "label": "משתמשים" },
+      { "label": "CloudFront CDN" },
+      { "label": "Load Balancer" }
+    ],
+    "multiAzTitle": "זמינות גבוהה - Multi AZ",
+    "az1": { "label": "AZ 1", "title": "אפליקציות" },
+    "az2": { "label": "AZ 2", "title": "מסד נתונים", "subtitle": "(Auto Fallover)" },
+    "services": [
+      { "label": "S3 Storage" },
+      { "label": "גיבוי מוצפן" },
+      { "label": "מעקב CloudWatch" },
+      { "label": "יומני CloudTrail" },
+      { "label": "אבטחת GuardDuty" }
+    ],
+    "featuresAriaLabel": "יתרונות אדריכלות הזמינות הגבוהה",
+    "features": [
+      "Multi-AZ בכל השכבות",
+      "מרכזי נתונים במספר אזורים",
+      "התרחבות אופקית בלתי מוגבלת",
+      "תשתית 100% ב-AWS Global",
+      "איזון עומסים אוטומטי",
+      "עדכונים רציפים ללא זמן השבתה",
+      "SLA זמינות 99.99%",
+      "תגובה אוטומטית לתקריות",
+      "דיווחים והתראות בזמן אמת",
+      "איתור ומניעת איומים",
+      "צוות אבטחה מומחה",
+      "סביבה גלובלית עם השהיה נמוכה"
+    ]
+  },
+  "cta": {
+    "sectionAria": "התחילו להשתמש ב-Interfy עם אבטחה בסטנדרט אנטרפרייז",
+    "headline": "מוכנה",
+    "headlineHighlight": "לחברות גלובליות",
+    "title": "אנחנו מגנים על הנתונים שלכם. אנחנו מעצימים את התוצאות שלכם.",
+    "description": "אמון, תאימות וביצועים כדי שהחברה שלכם תצמח בבטחה בענן.",
+    "primaryButton": "Test Drive חינם",
+    "secondaryButton": "לדבר עם מומחה",
+    "featuresAriaLabel": "עמודי התווך של אבטחה ותאימות ב-Interfy",
+    "features": [
+      { "label": "אבטחה מעצם התכנון" },
+      { "label": "פרטיות כברירת מחדל" },
+      { "label": "שקיפות מלאה" },
+      { "label": "תאימות גלובלית" },
+      { "label": "חדשנות עם אחריות" }
+    ]
+  }
+}

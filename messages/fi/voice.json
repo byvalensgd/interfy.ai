@@ -1,0 +1,140 @@
+{
+  "seo": {
+    "title": "Voice",
+    "description": "Interfy Voice: keskustele toimintasi kanssa äänikomennoilla. Tiedustelut, prosessit, raportit ja Agentit käynnistettynä luontevasti, turvallisesti ja hallitusti joka vuorovaikutuksessa.",
+    "keywords": ["äänikomennot", "yrityksen ääniavustaja", "AI Voice", "Interfy Voice"],
+    "freeTrialNote": "Ilmainen 7 päivän kokeilu, ei luottokorttia."
+  },
+  "hero": {
+    "heading": "Keskustele",
+    "headingHighlight": "toimintasi kanssa.",
+    "description": "Sinä pyydät. Interfy ymmärtää. Agentit toimivat.",
+    "ctaPrimary": "Ilmainen 7 päivän kokeilu",
+    "ctaSecondary": "Varaa esittely",
+    "imageAlt": "Interfy Voice näytettynä tabletilla ja älypuhelimessa, äänikomennot toiminnassa alustalla",
+    "highlights": [
+      { "label": "Puhu luonnollisesti" },
+      { "label": "AI, joka ymmärtää ja toimii" },
+      { "label": "Turvallinen ja luotettava" },
+      { "label": "Saatavilla kaikkialla" }
+    ],
+    "platformCards": [
+      {
+        "title": "Käytä pöytäkoneella",
+        "description": "Täysi integraatio verkkosovellukseen. Aktivoi painikkeella tai pikanäppäimellä ja aloita puhuminen."
+      },
+      {
+        "title": "Käytä Mobilessa",
+        "description": "Saatavilla Interfy Mobile -sovelluksessa. Puhu, tarkista, hyväksy ja hallitse kaikkea kämmenelläsi."
+      },
+      {
+        "title": "Turvallisuus ja käyttöoikeudet",
+        "description": "Käyttöoikeuksilla hallittu pääsy. Äänesi, tietosi ja toimintasi aina suojattuna."
+      }
+    ]
+  },
+  "capabilities": {
+    "headingPrefix": "Mitä voit tehdä",
+    "headingBrand": "Interfy Voicella",
+    "items": [
+      {
+        "title": "Äänivuorovaikutus",
+        "description": "Puhu luonnollisesti ja käytä koko alustaa vain äänelläsi."
+      },
+      {
+        "title": "Luonnollinen kieli",
+        "description": "AI ymmärtää sanomasi, myös täydellisin ja spontaanein lausein."
+      },
+      {
+        "title": "Äänihaku",
+        "description": "Löydä dokumentit, prosessit, tiedot ja paljon muuta yksinkertaisella kysymyksellä."
+      },
+      {
+        "title": "Prosessien luonti",
+        "description": "Luo täydellisiä prosesseja vain kuvailemalla tarpeesi."
+      },
+      {
+        "title": "Lomakkeiden luonti",
+        "description": "Luo älykkäitä lomakkeita kentillä, säännöillä ja validoinneilla sekunneissa."
+      },
+      {
+        "title": "Dokumenttien tiedustelu",
+        "description": "Kysy dokumenteista ja saa nopeita, tarkkoja vastauksia."
+      },
+      {
+        "title": "Raporttien luonti",
+        "description": "Pyydä räätälöityjä raportteja ja saa analyyseja ja oivalluksia välittömästi."
+      },
+      {
+        "title": "Agenttien käynnistys",
+        "description": "Aktivoi älykkäitä agenteja suorittamaan tehtäviä ja tuottamaan tuloksia automaattisesti."
+      },
+      {
+        "title": "Operatiiviset komennot",
+        "description": "Suorita toimintoja, päivityksia ja operaatioita alustalla äänikomennoilla."
+      },
+      {
+        "title": "Vahvistus arkaluontoisiin toimiin",
+        "description": "Kriittiset toimet pyytävät aina äänivahvistuksen turvallisuuden takaamiseksi."
+      }
+    ]
+  },
+  "ecosystem": {
+    "headingPrefix": "Täysin yhdistetty",
+    "headingHighlight": "Interfy-ekosysteemiin",
+    "items": [
+      { "description": "Tiedustele ja käytä dokumentteja" },
+      { "description": "Luo ja hallitse prosesseja äänellä" },
+      { "description": "Kaappaa dokumentit ja poimi tietoa" },
+      { "description": "Lähetä allekirjoitettavaksi ja seuraa tilaa" },
+      { "description": "Keskustele ja tee yhteistyötä äänellä" },
+      { "description": "Aktivoi Agentit ja saa tuloksia" },
+      { "description": "Keskitetty äänivuorovaikutus" }
+    ]
+  },
+  "highlights": {
+    "sectionAria": "Interfy Voicen hallinta, turvallisuus ja AI-krediitit",
+    "governance": {
+      "title": "Hallinta ja turvallisuus",
+      "titleAccent": "etusijalla",
+      "items": [
+        "Tiedot suojattuna päästä päähän -salauksella",
+        "Tarkat käyttöoikeudet agentti- ja käyttäjäkohtaisesti",
+        "Auditointijälki kaikista äänivuorovaikutuksista",
+        "LGPD-, ISO 27001-, SOC 2- ja muu vaatimustenmukaisuus",
+        "Tiedot suojattuna korkeimmilla turvastandardeilla"
+      ],
+      "cta": "Katso tiedot"
+    },
+    "credits": {
+      "title": "Läpinäkyvä kulutus",
+      "titleBrand": "AI-krediiteillä",
+      "description": "Interfy Voice käyttää AI-krediittejä komentojen, tiedustelujen, analyysien ja suoritusten käsittelyyn.",
+      "features": [
+        { "label": "Krediitit sisältyvät kaikkiin paketteihin" },
+        { "label": "Seuranta reaaliajassa" },
+        { "label": "Ostat lisää krediittejä tarpeen mukaan" }
+      ],
+      "cta": "Katso tiedot",
+      "gaugeLabel": "AI-krediitit",
+      "gaugeSublabel": "käytettävissä"
+    }
+  },
+  "cta": {
+    "ariaLabel": "Aloita Interfy Voicen käyttö",
+    "heading": "Keskustele toimintasi kanssa.",
+    "subheading": "Yksinkertaista, nopeaa ja älykästä.",
+    "primaryButton": "Ilmainen 7 päivän kokeilu",
+    "secondaryButton": "Varaa esittely",
+    "statsLabel": "Interfy-alustan lukuja",
+    "stats": [
+      { "label": "12Mrd +", "sublabel": "dokumenttia" },
+      { "label": "20M +", "sublabel": "allekirjoitusta" },
+      { "label": "2,5M +", "sublabel": "käyttäjää" },
+      { "label": "6M +", "sublabel": "prosessia" },
+      { "label": "1000 TB +", "sublabel": "tallennettuna" },
+      { "label": "99,99%", "sublabel": "käytettävyys" },
+      { "label": "24/7", "sublabel": "tuki" }
+    ]
+  }
+}

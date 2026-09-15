@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Prețuri și Planuri",
+    "description": "Alege planul ideal pentru dimensiunea companiei tale: Free, Individual, Teams, Startup sau planuri pentru companii medii și mari.",
+    "keywords": ["prețuri Interfy", "planuri Interfy", "cât costă gestiunea documentelor", "plan enterprise AI-native"]
+  },
+  "hero": {
+    "headingPrefix": "Platforma completă pentru a-ți transforma",
+    "headingHighlight": "operațiunea cu AI.",
+    "description": "Alege planul ideal pentru dimensiunea companiei tale și începe să transformi documente, procese și oameni în rezultate reale.",
+    "monthlyCta": "Lunar",
+    "annualCta": "Anual",
+    "saveBadge": "Economisește până la 30%",
+    "imageAlt": "Platforma Interfy afișată pe laptop și smartphone, arătând panoul de gestiune cu AI",
+    "highlights": ["Test gratuit timp de 7 zile", "Semnătură digitală gratuită", "Acces prin Web și Mobile", "Funcții de AI incluse"]
+  },
+  "plansSection": {
+    "heading": "Planuri Interfy",
+    "segmentSmallTitle": "Companii Mici",
+    "segmentSmallDesc": "Pentru profesioniști, echipe și companii în creștere.",
+    "segmentLargeTitle": "Companii Medii & Mari",
+    "segmentLargeDesc": "Pentru operațiuni complexe, guvernanță și scalare globală.",
+    "billingAriaLabel": "Comută între facturare lunară și anuală",
+    "billingMonthly": "Lunar",
+    "billingAnnual": "Anual",
+    "billingSaveBadge": "Economisește 30%",
+    "billingAnnualLabel": "Facturare anuală",
+    "billingMonthlyLabel": "Facturare lunară",
+    "perUserMonth": "Per utilizator/Lună",
+    "productsIncludedLabel": "Produse incluse în plan",
+    "allProductsLabel": "TOATE CELE 8 PRODUSE",
+    "enterprisePriceLabel": "Contactează-ne",
+    "enterprisePriceSub": "Preț personalizat",
+    "popularBadge": "CEL MAI POPULAR"
+  },
+  "smallPlans": [
+    {
+      "name": "Free",
+      "ctaLabel": "Începe gratuit",
+      "productsLabel": "3 PRODUSE INCLUSE",
+      "features": [
+        "1 Utilizator Full",
+        "1 GB de stocare",
+        "5 Credite de AI/lună",
+        "3 Trimiteri de Documente pentru Semnătură Digitală / lună (necumulativ)"
+      ]
+    },
+    {
+      "name": "Individual",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!",
+      "productsLabel": "4 PRODUSE INCLUSE",
+      "features": [
+        "Utilizatori Nelimitați (facturare per utilizator)",
+        "Minimum 1 Utilizator Full",
+        "2 Utilizatori de Consultare",
+        "5 GB de stocare",
+        "10 Credite de AI/lună (necumulativ)",
+        "10 Trimiteri de Documente pentru Semnătură Digitală / lună (necumulativ)",
+        "10 Tichete/lună (necumulativ) din Chat pentru interacțiune și partajare de documente"
+      ]
+    },
+    {
+      "name": "Teams",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!",
+      "productsLabel": "5 PRODUSE INCLUSE",
+      "features": [
+        "Utilizatori Nelimitați (facturare per utilizator)",
+        "Minimum 5 Utilizatori Full",
+        "5 Utilizatori de Consultare",
+        "Interfy Captura + Mobile",
+        "10 GB de stocare",
+        "10 Credite de AI/lună (necumulativ)",
+        "10 Trimiteri de Documente pentru Semnătură Digitală / lună (necumulativ)",
+        "10 Tichete/lună (necumulativ) din Chat pentru interacțiune și partajare de documente",
+        "Căutare prin OCR Full Text"
+      ]
+    },
+    {
+      "name": "Essential",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!",
+      "productsLabel": "8 PRODUSE INCLUSE",
+      "features": [
+        "Utilizatori Nelimitați (facturare per utilizator)",
+        "Minimum 5 Utilizatori Full",
+        "5 Utilizatori de Consultare",
+        "Interfy Captura + Mobile",
+        "15 GB de stocare",
+        "20 Credite de AI/lună (necumulativ)",
+        "10 Trimiteri de Documente pentru Semnătură Digitală/lună (necumulativ)",
+        "10 Tichete/lună (necumulativ) din Chat pentru interacțiune și partajare de documente",
+        "Procese Nelimitate",
+        "Căutare prin OCR Full Text"
+      ]
+    }
+  ],
+  "largePlans": [
+    {
+      "name": "Starter",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!"
+    },
+    {
+      "name": "Business",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!"
+    },
+    {
+      "name": "Corporate",
+      "ctaLabel": "Abonează-te acum",
+      "trialLabel": "Test gratuit timp de 7 zile!"
+    },
+    {
+      "name": "Enterprise",
+      "badge": "SOLUȚIE PERSONALIZATĂ",
+      "ctaLabel": "Vorbește cu un specialist",
+      "trialLabel": "CONTACTEAZĂ-NE"
+    }
+  ],
+  "featureRows": [
+    {
+      "starter": "Utilizatori Nelimitați (facturare per utilizator)",
+      "business": "Utilizatori Nelimitați (facturare per utilizator)",
+      "corporate": "Utilizatori Nelimitați (facturare per utilizator)",
+      "enterprise": "Utilizatori Nelimitați (facturare per utilizator)"
+    },
+    {
+      "starter": "Minimum 5 Utilizatori Full",
+      "business": "Minimum 10 Utilizatori Full",
+      "corporate": "Minimum 15 Utilizatori Full",
+      "enterprise": "Utilizatori Full (la cerere)"
+    },
+    {
+      "starter": "10 Utilizatori de Consultare",
+      "business": "15 Utilizatori de Consultare",
+      "corporate": "30 Utilizatori de Consultare",
+      "enterprise": "Utilizatori de Consultare Nelimitați"
+    },
+    {
+      "starter": "Interfy Captura + Mobile",
+      "business": "Interfy Captura + Mobile",
+      "corporate": "Interfy Captura + Mobile",
+      "enterprise": "Interfy Captura + Mobile"
+    },
+    {
+      "starter": "25 GB de Stocare",
+      "business": "50 GB de Stocare",
+      "corporate": "100 GB de Stocare",
+      "enterprise": "Stocare (la cerere)"
+    },
+    {
+      "starter": "100 Credite de AI/lună (necumulativ)",
+      "business": "250 Credite de AI/lună (necumulativ)",
+      "corporate": "500 Credite de AI/lună (necumulativ)",
+      "enterprise": "Credite de AI/lună (necumulativ) (la cerere)"
+    },
+    {
+      "starter": "10 Trimiteri de Documente pentru Semnătură Digitală/lună (necumulativ)",
+      "business": "20 Trimiteri de Documente pentru Semnătură Digitală / lună (necumulativ)",
+      "corporate": "30 Trimiteri de Documente pentru Semnătură Digitală / lună (necumulativ)",
+      "enterprise": "Trimiteri Nelimitate de Documente pentru Semnătură Digitală"
+    },
+    {
+      "starter": "10 Tichete/lună (Necumulativ) din Chat pentru interacțiune și partajare de documente",
+      "business": "15 Tichete/lună (Necumulativ) din Chat pentru interacțiune și partajare de documente",
+      "corporate": "20 Tichete/lună (Necumulativ) din Chat pentru interacțiune și partajare de documente",
+      "enterprise": "500 Tichete/lună (necumulativ) din Chat pentru interacțiune și partajare de documente"
+    },
+    {
+      "starter": "10 Interacțiuni Dinamice pentru utilizatori externi în Procese/lună (necumulativ)",
+      "business": "15 Interacțiuni Dinamice pentru utilizatori externi în Procese/lună (necumulativ)",
+      "corporate": "20 Interacțiuni Dinamice pentru utilizatori externi în Procese/lună (necumulativ)",
+      "enterprise": "500 Interacțiuni Dinamice pentru utilizatori externi în Procese/lună (necumulativ)"
+    },
+    {
+      "starter": "Procese Nelimitate",
+      "business": "Procese Nelimitate",
+      "corporate": "Procese Nelimitate",
+      "enterprise": "Procese Nelimitate"
+    },
+    {
+      "starter": "Acces la API-ul Interfy",
+      "business": "Acces la API-ul Interfy",
+      "corporate": "Acces la API-ul Interfy",
+      "enterprise": "Acces la API-ul Interfy"
+    },
+    {
+      "starter": "Identitate Vizuală Personalizată (White Label)",
+      "business": "Identitate Vizuală Personalizată (White Label)",
+      "corporate": "Identitate Vizuală Personalizată (White Label)",
+      "enterprise": "Identitate Vizuală Personalizată (White Label)"
+    },
+    {
+      "starter": "URL Exclusiv cu Izolare a Datelor",
+      "business": "URL Exclusiv cu Izolare a Datelor",
+      "corporate": "URL Exclusiv cu Izolare a Datelor",
+      "enterprise": "URL Exclusiv cu Izolare a Datelor"
+    },
+    {
+      "starter": "Integrare cu Bază de Date",
+      "business": "Integrare cu Bază de Date",
+      "corporate": "Integrare cu Bază de Date",
+      "enterprise": "Integrare cu Bază de Date"
+    },
+    {
+      "starter": "Workspace cu Administrare și Controale de Securitate Avansate",
+      "business": "Workspace cu Administrare și Controale de Securitate Avansate",
+      "corporate": "Workspace cu Administrare și Controale de Securitate Avansate",
+      "enterprise": "Workspace cu Administrare și Controale de Securitate Avansate"
+    },
+    {
+      "starter": "Autentificare cu AD/LDAP",
+      "business": "Autentificare cu AD/LDAP",
+      "corporate": "Autentificare cu AD/LDAP",
+      "enterprise": "Autentificare cu AD/LDAP"
+    },
+    {
+      "starter": "Blocare după IP",
+      "business": "Blocare după IP",
+      "corporate": "Blocare după IP",
+      "enterprise": "Blocare după IP"
+    },
+    {
+      "starter": "Autentificare Multifactor",
+      "business": "Autentificare Multifactor",
+      "corporate": "Autentificare Multifactor",
+      "enterprise": "Autentificare Multifactor"
+    },
+    {
+      "starter": "Căutare prin OCR Full Text",
+      "business": "Căutare prin OCR Full Text",
+      "corporate": "Căutare prin OCR Full Text",
+      "enterprise": "Căutare prin OCR Full Text"
+    },
+    {
+      "starter": "Modul de Gestiune a Arhivei Fizice",
+      "business": "Modul de Gestiune a Arhivei Fizice",
+      "corporate": "Modul de Gestiune a Arhivei Fizice",
+      "enterprise": "Modul de Gestiune a Arhivei Fizice"
+    }
+  ],
+  "comparison": {
+    "srHeading": "Comparație între planuri",
+    "resourcesLabel": "Funcționalități",
+    "includedAlt": "Inclus",
+    "rows": [
+      { "label": "Utilizatori", "values": { "free": "Până la 3", "individual": "1", "teams": "Nelimitați", "startup": "Nelimitați" } },
+      { "label": "Workspace-uri", "values": { "free": "1", "individual": "1", "teams": "Nelimitate", "startup": "Nelimitate" } },
+      { "label": "Stocare", "values": { "free": "5 GB", "individual": "50 GB", "teams": "100 GB", "startup": "Nelimitată" } },
+      { "label": "Semnătură Digitală", "values": { "free": "Gratuită", "individual": "Gratuită", "teams": "Gratuită", "startup": "Gratuită" } },
+      { "label": "Aplicație Mobile", "values": { "free": "check", "individual": "check", "teams": "check", "startup": "check" } },
+      {
+        "label": "Module Incluse",
+        "values": {
+          "free": "Documents și Semnătură",
+          "individual": "Documents, Semnătură și Colaborare",
+          "teams": "Documents, Semnătură și Colaborare",
+          "startup": "Toate, mai puțin Process"
+        }
+      },
+      {
+        "label": "Funcții de AI",
+        "values": { "free": "De bază", "individual": "Standard", "teams": "Avansate", "startup": "Nelimitate · Credite incluse" }
+      },
+      { "label": "Credite AI / lună", "values": { "free": "-", "individual": "1.000", "teams": "3.000", "startup": "10.000" } },
+      { "label": "Suport", "values": { "free": "E-mail", "individual": "E-mail", "teams": "Prioritar", "startup": "Premium 24/7" } }
+    ]
+  },
+  "resources": {
+    "toggleLabel": "Vezi toate funcționalitățile și compară planurile",
+    "sections": [
+      {
+        "label": "Funcționalități Interfy Process",
+        "features": [
+          "Creare Nelimitată de Procese",
+          "Designer BPMN 2.0",
+          "Link extern pentru inițierea cazurilor",
+          "Captură de documente direct în procesul aflat în desfășurare",
+          "Creare de variabile publice",
+          "Utilizatori dinamici",
+          "Fluxuri paralele",
+          "Casetă de sarcini",
+          "Subprocese",
+          "Supervizare a Proceselor",
+          "Vizualizare a istoricului cazurilor",
+          "Căutare avansată de procese",
+          "Vizualizare grafică a evoluției proceselor",
+          "Parametrizare și control al timpilor alocați fiecărei sarcini",
+          "Control al notificărilor cu alerte",
+          "Atribuiri manuale, ciclice, autoservire: după variabilă, după valoare și după unitate organizațională",
+          "Numire de supervizori pentru gestionarea proceselor",
+          "Realocare a cazurilor de către supervizor",
+          "Anulare a cazurilor în funcție de profilul utilizatorului sau al supervizorului",
+          "Calendar de zile lucrătoare",
+          "Notificări la intrarea sarcinilor",
+          "Notificări pe ierarhie în proces, în funcție de SLA",
+          "Notificări de SLA critic sau de finalizare",
+          "Asociere a SLA-ului cu calendarul de zile lucrătoare",
+          "Interacțiune între Interfy Documents și Interfy Process",
+          "Integrare cu Web Services"
+        ]
+      },
+      {
+        "label": "Funcționalități Interfy Documents",
+        "features": [
+          "Centralizare a Conținutului",
+          "Audit Avansat",
+          "Control al Versiunilor de Documente",
+          "Temporalitate Documentară",
+          "Structură de foldere flexibilă",
+          "Profil de acces la conținut",
+          "Link extern pentru partajarea conținutului",
+          "Creare de documente în mai multe formate de fișiere",
+          "Integrare cu Microsoft Office (drag and drop)",
+          "Căutare avansată",
+          "Creare de Fișe de Indexare (Formulare Electronice)",
+          "Localizare Fizică a Documentelor",
+          "Control al Consumului de Stocare și Utilizatori",
+          "Vizualizator propriu pentru principalele formate de fișiere",
+          "Digitalizare și Încărcare de documente",
+          "Captură Locală și Descentralizată 100% Web",
+          "Captură prin Scannere",
+          "Captură prin Multifuncționale",
+          "Captură prin Smartphone",
+          "Captură prin Webcam"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Pot schimba planul în orice moment?",
+      "answer": "Da. Poți face upgrade sau downgrade la planul tău în orice moment, direct din panoul de administrare, fără penalizări sau birocrație."
+    },
+    {
+      "question": "Cum funcționează creditele de AI?",
+      "answer": "Fiecare plan include o cotă lunară de credite de AI, folosită de funcții precum extragerea inteligentă și agenții. Creditele nu sunt cumulative și se reînnoiesc în fiecare lună."
+    },
+    {
+      "question": "Ce se întâmplă după perioada de test?",
+      "answer": "La finalul celor 7 zile gratuite, poți alege planul ideal pentru a continua să folosești platforma. Nu este necesar niciun card de credit pentru a începe testul."
+    },
+    {
+      "question": "Ce metode de plată sunt acceptate?",
+      "answer": "Acceptăm card de credit, transfer bancar și facturare pe bază de contract anual pentru planurile Enterprise."
+    },
+    {
+      "question": "Planurile includ implementarea?",
+      "answer": "Planurile Starter, Business și Corporate includ onboarding ghidat. Pentru planul Enterprise, oferim implementare dedicată, alături de echipa noastră de specialiști."
+    },
+    {
+      "question": "Oferiți contract anual cu discount?",
+      "answer": "Da. Optând pentru facturarea anuală, economisești până la 30% față de valoarea lunară, în oricare dintre planurile Starter, Business sau Corporate."
+    }
+  ],
+  "faqAriaExpand": "Comută răspunsul",
+  "base": {
+    "trialTitle": "Testează toate funcționalitățile Interfy.ai timp de 7 zile, gratuit.",
+    "trialSub": "Fără card de credit. Fără obligații.",
+    "trialCta": "Test Drive Gratuit",
+    "demoCta": "Programează o demo",
+    "statsLabel": "Cifrele platformei Interfy",
+    "faqHeading": "Întrebări frecvente",
+    "specialistTitle": "Vorbește cu un specialist",
+    "specialistDesc": "Echipa noastră este pregătită să te ajute să alegi planul ideal pentru afacerea ta.",
+    "specialistCta": "Vorbește cu un specialist",
+    "ctaTitle": "Ești pregătit să-ți transformi operațiunea?",
+    "ctaDesc": "Alătură-te miilor de companii care au deja încredere în Interfy.ai.",
+    "ctaButton": "Începe acum",
+    "srHeading": "Începe să folosești Interfy"
+  }
+}
