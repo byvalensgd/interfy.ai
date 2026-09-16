@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { FooterColumn } from "@/config/footer";
 import type { Locale } from "@/lib/i18n/config";
 import { withLocale } from "@/lib/i18n/paths";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 type FooterColumnDict = {
   title: string;
@@ -22,6 +23,7 @@ export default function FooterNavColumn({
   locale: Locale;
 }) {
   const [open, setOpen] = useState(false);
+  const cardBasis = getCompleteBoxBasis(column.links.length);
 
   return (
     <nav
@@ -46,11 +48,26 @@ export default function FooterNavColumn({
           className={`shrink-0 transition-transform sm:hidden ${open ? "rotate-180" : ""}`}
         />
       </button>
-      <ul
-        className={`w-full flex-1 flex-col items-start justify-between gap-2.5 sm:flex ${
-          open ? "flex" : "hidden"
-        }`}
-      >
+      {/* Below sm (accordion open): "Blocos Mobile" — each link becomes its
+          own bordered card via "Complete Box" (see lib/completeBox.ts),
+          with half the standard card padding. At sm+: the plain list below. */}
+      <ul className={`w-full flex-wrap gap-2.5 sm:hidden ${open ? "flex" : "hidden"}`}>
+        {column.links.map((link, i) => (
+          <li key={link.href} className={`flex min-w-[90px] grow ${cardBasis}`}>
+            <Link
+              href={withLocale(link.href, locale)}
+              className="flex min-h-[76px] w-full flex-col items-center justify-center gap-2 rounded-[14px] border border-contorno-base p-2.5 text-center text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
+            >
+              {link.icon && (
+                <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
+              )}
+              {dict.links[i].label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
+      <ul className="hidden w-full flex-1 flex-col items-start justify-between gap-2.5 sm:flex">
         {column.links.map((link, i) => (
           <li key={link.href}>
             <Link
