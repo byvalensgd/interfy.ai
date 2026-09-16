@@ -12,7 +12,7 @@ function BenefitsRow({ ariaLabel, benefits }: { ariaLabel: string; benefits: Ben
   return (
     <ul
       aria-label={ariaLabel}
-      className="grid w-full grid-cols-2 items-stretch gap-x-8 gap-y-6 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5"
+      className="grid w-full grid-cols-2 items-stretch gap-10 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5"
     >
       {agentesBenefits.map((item, i) => (
         <li key={item.icon} className="flex min-w-0 flex-row items-center gap-2.5">
@@ -37,12 +37,21 @@ export default async function AgentesCTA() {
             <Image src="/agentes/cta-bg.png" alt="" aria-hidden="true" fill sizes="100vw" className="object-cover" />
           </div>
 
-          <div className="flex w-full flex-wrap items-center gap-x-10 gap-y-8">
-            {/* flex-1 so this is the side that grows/shrinks; the buttons+robot
-                side (below) is flex-none, sized to its own content, so it
-                never fights the text for space and forces an overlap. */}
-            <div className="min-w-[160px] flex-1 basis-[280px] text-center text-branco @min-[620px]:text-left">
-              <div className="flex flex-col items-center gap-5 @min-[620px]:items-start">
+          <div className="flex w-full flex-col items-center gap-8 lg:flex-row lg:flex-nowrap lg:items-center lg:gap-10">
+            {/* Tablet and mobile both stay stacked (centered text, robot in
+                its own centered block below the buttons) — only real
+                desktop widths (lg: viewport, 1024px+) switch to the
+                side-by-side row. A plain viewport breakpoint here (not a
+                @container query against the card's content-box) means
+                "1024px" means exactly that, with no padding/border-box
+                arithmetic to get wrong. At that point both sides become
+                flex-1, sharing the row's width evenly instead of the text
+                side hoarding all the leftover space — the buttons+robot
+                side still caps its own column and keeps the robot anchored
+                to the right edge (justify-end + pr-5) as that shared half
+                grows. */}
+            <div className="w-full text-center text-branco @min-[340px]:min-w-[320px] lg:flex-1 lg:text-left">
+              <div className="flex flex-col items-center gap-5 lg:items-start">
                 <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">{cta.title}</p>
                 <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-semibold">
                   {cta.description}
@@ -50,26 +59,28 @@ export default async function AgentesCTA() {
               </div>
             </div>
 
-            <div className="flex shrink-0 flex-nowrap items-center justify-center gap-5 pr-5">
-              <div className="flex w-full min-w-[220px] max-w-[260px] flex-col items-center gap-[10px]">
+            <div className="flex w-full flex-row flex-wrap items-center justify-center gap-5 pr-5 @min-[340px]:min-w-[320px] lg:w-auto lg:flex-1 lg:flex-nowrap lg:justify-end">
+              <div className="@container flex min-w-[200px] flex-1 flex-row flex-wrap items-stretch gap-[10px]">
                 <Link
                   href={withLocale("/comece-gratis", locale)}
-                  className="inline-flex min-h-10 w-full shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-branco px-[15px] py-2 text-center text-sm leading-[1.2] font-bold text-azul-base transition-colors hover:bg-branco/90"
+                  className="inline-flex min-h-10 min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base bg-branco px-[15px] py-[10px] text-center !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] font-bold text-azul-base transition-colors hover:bg-branco/90"
                 >
                   {cta.ctaPrimary}
                 </Link>
                 <Link
                   href={withLocale("/demo", locale)}
-                  className="inline-flex min-h-10 w-full shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-2 text-center text-sm leading-[1.2] font-bold text-branco transition-colors hover:bg-black/50"
+                  className="inline-flex min-h-10 min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-[10px] text-center !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] font-bold text-branco transition-colors hover:bg-black/50"
                 >
                   {cta.ctaSecondary}
                   <Calendar className="size-5 shrink-0" aria-hidden="true" />
                 </Link>
               </div>
-              {/* The robot only shows up once the container is wide enough for
-                  it to sit beside the buttons with room to spare — below that
-                  it simply isn't rendered, instead of squeezing the text. */}
-              <div className="relative hidden h-[154px] w-[160px] shrink-0 @min-[620px]:block" aria-hidden="true">
+              {/* Robot sits beside the buttons at every width — the wrapper
+                  is flex-wrap so it only drops to its own line if the
+                  buttons genuinely can't share the row with it (narrow
+                  phones), never because of the 1024px text/row breakpoint
+                  above. */}
+              <div className="relative h-[154px] w-[160px] shrink-0" aria-hidden="true">
                 <Image src="/agentes/robot-mascot.png" alt="" fill sizes="160px" className="object-cover object-top" />
               </div>
             </div>

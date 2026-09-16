@@ -25,7 +25,7 @@ export default async function Footer() {
             <div className="relative h-[50px] w-full max-w-[200px]">
               <Image src="/footer/logo-land.svg" alt={siteConfig.name} fill sizes="200px" className="object-contain object-left" />
             </div>
-            <p className="text-base leading-[1.2] font-normal text-texto">{footer.description}</p>
+            <p className="max-w-[590px] text-base leading-[1.2] font-normal text-texto">{footer.description}</p>
             <div className="flex w-full items-center justify-center lg:justify-start">
               <div className="h-[2px] w-[30px] shrink-0 bg-[#fb403a]" />
               <div className="h-[2px] w-[30px] shrink-0 bg-[#feb21c]" />

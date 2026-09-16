@@ -20,10 +20,10 @@ export default async function AiCreditosBase() {
       </h2>
 
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
-        <Reveal className="grid w-full grid-cols-1 gap-2.5 lg:grid-cols-[1fr_303px]">
-          <PricingFaq faq={base.faq} heading={base.faqHeading} ariaExpand={base.faqAriaExpand} />
+        <Reveal className="grid w-full grid-cols-1 gap-5 lg:grid-cols-[1fr_303px]">
+          <PricingFaq faq={base.faq} heading={base.faqHeading} ariaExpand={base.faqAriaExpand} bordered />
 
-          <div className="flex flex-col gap-5 rounded-[14px] bg-bg-base p-5">
+          <div className="flex flex-col gap-5 rounded-[14px] border border-contorno-base bg-bg-base p-5">
             <h3 className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2] text-texto">
               {base.specialistTitle}
             </h3>

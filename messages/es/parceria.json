@@ -17,8 +17,8 @@
       { "title": "Ingresos recurrentes" },
       { "title": "Oportunidades protegidas" }
     ],
-    "ctaPrimary": "QUIERO SER SOCIO",
-    "ctaSecondary": "QUIERO REFERIR CLIENTES"
+    "ctaPrimary": "Quiero ser socio",
+    "ctaSecondary": "Quiero referir clientes"
   },
   "participation": {
     "heading": "Elige cómo quieres participar",
@@ -36,7 +36,7 @@
           { "label": "Capacitación y materiales oficiales" },
           { "label": "Registro y protección de oportunidades" }
         ],
-        "cta": "QUIERO SER SOCIO"
+        "cta": "Quiero ser socio"
       },
       {
         "title": "AFILIADO O REFERENTE",
@@ -50,7 +50,7 @@
           { "label": "Interfy conduce todo el proceso comercial" },
           { "label": "Seguimiento de las referencias realizadas" }
         ],
-        "cta": "QUIERO REFERIR CLIENTES"
+        "cta": "Quiero referir clientes"
       }
     ]
   },
@@ -106,7 +106,7 @@
     "headingHighlight": "Test Drive",
     "descriptionLine1": "7 días gratis, sin tarjeta y sin compromiso.",
     "descriptionLine2": "El cliente conoce la plataforma antes de elegir el plan.",
-    "cta": "CONOCER EL TEST DRIVE"
+    "cta": "Conocer el Test Drive"
   },
   "faq": {
     "heading": "Preguntas frecuentes",
@@ -138,8 +138,8 @@
     "sectionAria": "Forma parte del ecosistema global Interfy.ai",
     "heading": "¿Crecemos juntos?",
     "subheading": "Elige tu modalidad y forma parte del ecosistema global Interfy.ai.",
-    "primaryButton": "QUIERO SER SOCIO",
-    "secondaryButton": "QUIERO SER AFILIADO",
+    "primaryButton": "Quiero ser socio",
+    "secondaryButton": "Quiero ser afiliado",
     "statsLabel": "Números de la plataforma Interfy",
     "stats": [
       { "label": "12Mil M +", "sublabel": "documentos" },

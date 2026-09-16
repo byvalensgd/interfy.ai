@@ -36,35 +36,22 @@ export default async function AgentesHero() {
                 </p>
               </div>
 
-              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+              <div className="@container flex w-full flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5 lg:justify-start">
                 <Button
                   href={withLocale("/comece-gratis", locale)}
                   variant="primary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 >
                   {hero.ctaPrimary}
                 </Button>
                 <Button
                   href={withLocale("/demo", locale)}
                   variant="secondary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 >
                   {hero.ctaSecondary}
                 </Button>
               </div>
-
-              {/* Blocos Mobile: abaixo de lg essa lista some daqui e reaparece
-                  depois da imagem do banner (ver <ul order-3> abaixo). */}
-              <ul className="hidden w-full flex-wrap items-center gap-5 lg:flex">
-                {agentesHeroHighlights.map((item, i) => (
-                  <li key={item.icon} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
-                    <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} />
-                    <span className="w-full text-base leading-[1.2] font-bold text-texto">
-                      {hero.highlights[i].label}
-                    </span>
-                  </li>
-                ))}
-              </ul>
             </Reveal>
 
             <Reveal immediate className="order-2 flex min-w-0 flex-col items-start gap-5" delayMs={120}>
@@ -76,24 +63,22 @@ export default async function AgentesHero() {
                 className="mx-auto aspect-[2625/1793] w-full max-w-[750px] lg:max-w-none"
               />
             </Reveal>
-
-            {/* Blocos Mobile: versão em cards da lista acima, só abaixo de lg,
-                posicionada depois da imagem do banner. */}
-            <ul aria-label="Diferenciais da Interfy Agentes" className="order-3 flex w-full flex-wrap gap-4 lg:hidden">
-              {agentesHeroHighlights.map((item, i) => (
-                <li
-                  key={item.icon}
-                  className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
-                >
-                  <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                  <span className="w-full text-sm leading-[1.2] font-bold text-texto">
-                    {hero.highlights[i].label}
-                  </span>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
+
+        <Reveal immediate delayMs={240}>
+          <ul aria-label="Diferenciais da Interfy Agentes" className="grid w-full grid-cols-2 gap-5 lg:grid-cols-4">
+            {agentesHeroHighlights.map((item, i) => (
+              <li
+                key={item.icon}
+                className="flex flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco px-[15px] py-5 text-center"
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} />
+                <span className="w-full text-base leading-[1.2] font-bold text-texto">{hero.highlights[i].label}</span>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
       </div>
     </section>
   );

@@ -42,13 +42,17 @@ export default async function ConnectCTA() {
                 {cta.subheading}
               </p>
             </div>
-            <div className="flex w-full flex-col items-stretch gap-5 sm:w-auto sm:shrink-0">
-              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="w-full whitespace-nowrap">
+            <div className="@container flex w-full flex-col items-stretch gap-5 sm:w-auto sm:shrink-0">
+              <Button
+                href={withLocale("/comece-gratis", locale)}
+                variant="secondary"
+                className="w-full !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)]"
+              >
                 {cta.primaryButton}
               </Button>
               <Link
                 href={withLocale("/demo", locale)}
-                className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/30"
+                className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-branco transition-colors hover:bg-black/30"
               >
                 {cta.secondaryButton}
                 <Calendar className="size-5" aria-hidden="true" />

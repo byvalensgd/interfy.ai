@@ -56,13 +56,18 @@ export default async function PricingBase({
             </p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.trialSub}</p>
           </div>
-          <div className="flex flex-wrap items-center gap-5">
-            <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow>
+          <div className="@container flex flex-wrap items-stretch gap-5">
+            <Button
+              href={withLocale("/comece-gratis", locale)}
+              variant="secondary"
+              showArrow
+              className="!whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)]"
+            >
               {base.trialCta}
             </Button>
             <Link
               href={withLocale("/demo", locale)}
-              className="inline-flex items-center justify-center gap-2.5 rounded-xl border border-branco p-[15px] text-base font-bold text-branco transition-colors hover:bg-black/10"
+              className="inline-flex items-center justify-center gap-2.5 rounded-xl border border-branco p-[15px] !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] font-bold text-branco transition-colors hover:bg-black/10"
             >
               {base.demoCta}
               <Image src="/icons/pricing/arrow-right.svg" alt="" aria-hidden="true" width={10} height={10} />

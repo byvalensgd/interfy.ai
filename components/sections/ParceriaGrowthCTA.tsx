@@ -33,13 +33,13 @@ export default async function ParceriaGrowthCTA() {
               <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">{growthCta.heading}</p>
               <p className="text-lg leading-[1.2] font-semibold lg:max-w-2xl">{growthCta.subheading}</p>
             </div>
-            <div className="flex w-full flex-wrap items-center gap-5 lg:w-auto lg:shrink-0">
-              <Button href={href} variant="secondary" className="grow whitespace-nowrap lg:grow-0" showArrow>
+            <div className="@container flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
+              <Button href={href} variant="secondary" className="grow !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] lg:grow-0" showArrow>
                 {growthCta.primaryButton}
               </Button>
               <Link
                 href={href}
-                className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-2.5 text-base leading-[1.2] font-bold whitespace-nowrap text-branco transition-colors hover:bg-black/50 lg:grow-0"
+                className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-branco transition-colors hover:bg-black/50 lg:grow-0"
               >
                 {growthCta.secondaryButton}
                 <ArrowUpRight className="size-6 -mx-[7px]" aria-hidden="true" />

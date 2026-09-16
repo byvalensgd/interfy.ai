@@ -9,15 +9,19 @@ export default function PricingFaq({
   faq,
   heading,
   ariaExpand,
+  bordered = false,
 }: {
   faq: FaqItem[];
   heading: string;
   ariaExpand: string;
+  /** Opt-in 1px border in the standard contorno-base color — off by default so the
+   * existing /planos usage (paired with an also-unbordered specialist card) is unaffected. */
+  bordered?: boolean;
 }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="flex h-full flex-col gap-5 rounded-[14px] bg-bg-base p-5">
+    <div className={`flex h-full flex-col gap-5 rounded-[14px] bg-bg-base p-5 ${bordered ? "border border-contorno-base" : ""}`}>
       <h3 className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-bold leading-[1.2] text-texto">{heading}</h3>
       <ul className="grid flex-1 grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
         {faq.map((item, index) => {

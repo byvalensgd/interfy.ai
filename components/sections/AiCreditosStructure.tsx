@@ -20,7 +20,7 @@ export default async function AiCreditosStructure() {
           {items.map((item) => (
             <li
               key={item.title}
-              className="flex flex-1 flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center"
+              className="flex min-w-[200px] flex-1 flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center"
             >
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
               <div className="flex w-full flex-col gap-2.5 px-2.5">

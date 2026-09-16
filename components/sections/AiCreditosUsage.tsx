@@ -22,7 +22,7 @@ export default async function AiCreditosUsage() {
             {items.map((item) => (
               <li
                 key={item.title}
-                className="flex min-h-[235px] flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center"
+                className="flex flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center xl:min-h-[235px]"
               >
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />

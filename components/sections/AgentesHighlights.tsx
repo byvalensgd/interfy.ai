@@ -28,14 +28,9 @@ export default async function AgentesHighlights() {
               the text without cramping it — stack instead, text on top
               (col-reverse keeps the image, first in the DOM so it stays on
               the left once side by side, at the bottom when stacked). */}
-          <div className="flex h-full w-full flex-col-reverse gap-10 @min-[570px]:flex-row @min-[570px]:items-start @min-[570px]:justify-center @min-[570px]:gap-[40px]">
-            <div className="flex w-[210px] shrink-0 flex-col items-center gap-[10px] self-center @min-[570px]:self-auto">
-              <div className="relative h-[210px] w-[179px] shrink-0">
-                <Image src="/agentes/shield-governance.png" alt="" aria-hidden="true" fill sizes="179px" className="object-cover" />
-              </div>
-              <Button href={withLocale("/legal/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
-                {highlights.governance.cta}
-              </Button>
+          <div className="flex h-full w-full flex-col-reverse gap-10 @min-[570px]:flex-row @min-[570px]:items-stretch @min-[570px]:justify-center @min-[570px]:gap-[40px]">
+            <div className="relative h-[210px] w-[210px] shrink-0 self-center">
+              <Image src="/agentes/shield-governance.png" alt="" aria-hidden="true" fill sizes="179px" className="object-cover" />
             </div>
             <div className="flex min-h-[220px] min-w-[280px] flex-1 flex-col gap-[30px]">
               <h3 className="text-xl leading-[1.2] font-bold text-texto">
@@ -56,6 +51,14 @@ export default async function AgentesHighlights() {
                   </li>
                 ))}
               </ul>
+              <Button
+                href={withLocale("/legal/seguranca", locale)}
+                variant="secondary"
+                size="sm"
+                className="!mt-auto !w-fit !rounded-md"
+              >
+                {highlights.governance.cta}
+              </Button>
             </div>
           </div>
         </Reveal>
@@ -65,7 +68,7 @@ export default async function AgentesHighlights() {
           style={{ backgroundImage: creditsCardBackground }}
           delayMs={120}
         >
-          <div className="flex h-full w-full flex-col items-center gap-[40px] @min-[570px]:flex-row @min-[570px]:items-start @min-[570px]:justify-center">
+          <div className="flex h-full w-full flex-col items-center gap-[40px] @min-[570px]:flex-row @min-[570px]:items-stretch @min-[570px]:justify-center">
             <div className="flex min-h-[220px] min-w-[280px] flex-1 flex-col gap-[30px]">
               <div className="flex flex-col gap-5">
                 <h3 className="inline-block bg-[linear-gradient(122deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-xl leading-[1.2] font-bold text-transparent">
@@ -73,18 +76,26 @@ export default async function AgentesHighlights() {
                 </h3>
                 <p className="text-sm leading-[1.2] font-medium text-texto">{highlights.credits.description}</p>
               </div>
-              <div className="flex w-full flex-col items-center gap-5">
+              <ul className="flex flex-col gap-[15px]">
                 {agentesCreditFeatures.map((item, i) => (
-                  <div key={item.icon} className="flex w-full items-center gap-[15px]">
-                    <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                    <span className="min-w-0 flex-1 text-base leading-[1.2] font-bold text-texto">
+                  <li key={item.icon} className="flex items-center gap-2.5">
+                    <Image src={item.icon} alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
+                    <span className="min-w-0 flex-1 text-sm leading-[1.2] font-medium text-texto">
                       {highlights.credits.features[i].label}
                     </span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
+              <Button
+                href={withLocale("/platform/ai-creditos", locale)}
+                variant="secondary"
+                size="sm"
+                className="!mt-auto !w-fit !rounded-md"
+              >
+                {highlights.credits.cta}
+              </Button>
             </div>
-            <div className="flex w-[210px] shrink-0 flex-col items-center gap-[10px]">
+            <div className="flex w-[210px] shrink-0 items-center justify-center self-center">
               <div className="[&>div]:max-w-[210px]">
                 <CreditsGauge
                   percent={agentesCreditsBalance.used}
@@ -93,9 +104,6 @@ export default async function AgentesHighlights() {
                   sublabel={highlights.credits.gaugeSublabel}
                 />
               </div>
-              <Button href={withLocale("/platform/ai-creditos", locale)} variant="secondary" size="sm" className="!rounded-md">
-                {highlights.credits.cta}
-              </Button>
             </div>
           </div>
         </Reveal>

@@ -17,8 +17,8 @@
       { "title": "Receita recorrente" },
       { "title": "Oportunidades protegidas" }
     ],
-    "ctaPrimary": "QUERO SER PARCEIRO",
-    "ctaSecondary": "QUERO INDICAR CLIENTES"
+    "ctaPrimary": "Quero ser parceiro",
+    "ctaSecondary": "Quero indicar clientes"
   },
   "participation": {
     "heading": "Escolha como você quer participar",
@@ -36,7 +36,7 @@
           { "label": "Treinamento e materiais oficiais" },
           { "label": "Registro e proteção de oportunidades" }
         ],
-        "cta": "QUERO SER PARCEIRO"
+        "cta": "Quero ser parceiro"
       },
       {
         "title": "AFILIADO OU INDICADOR",
@@ -50,7 +50,7 @@
           { "label": "A Interfy conduz todo o processo comercial" },
           { "label": "Acompanhamento das indicações realizadas" }
         ],
-        "cta": "QUERO INDICAR CLIENTES"
+        "cta": "Quero indicar clientes"
       }
     ]
   },
@@ -106,7 +106,7 @@
     "headingHighlight": "Test Drive",
     "descriptionLine1": "7 dias grátis, sem cartão e sem compromisso.",
     "descriptionLine2": "O cliente conhece a plataforma antes de escolher o plano.",
-    "cta": "CONHECER O TEST DRIVE"
+    "cta": "Conhecer o Test Drive"
   },
   "faq": {
     "heading": "Perguntas frequentes",
@@ -138,8 +138,8 @@
     "sectionAria": "Faça parte do ecossistema global Interfy.ai",
     "heading": "Vamos crescer juntos?",
     "subheading": "Escolha sua modalidade e faça parte do ecossistema global Interfy.ai.",
-    "primaryButton": "QUERO SER PARCEIRO",
-    "secondaryButton": "QUERO SER AFILIADO",
+    "primaryButton": "Quero ser parceiro",
+    "secondaryButton": "Quero ser afiliado",
     "statsLabel": "Números da plataforma Interfy",
     "stats": [
       { "label": "12Bi +", "sublabel": "documentos" },

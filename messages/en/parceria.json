@@ -17,8 +17,8 @@
       { "title": "Recurring revenue" },
       { "title": "Protected opportunities" }
     ],
-    "ctaPrimary": "BECOME A PARTNER",
-    "ctaSecondary": "REFER CLIENTS"
+    "ctaPrimary": "Become a partner",
+    "ctaSecondary": "Refer clients"
   },
   "participation": {
     "heading": "Choose how you want to participate",
@@ -36,7 +36,7 @@
           { "label": "Official training and materials" },
           { "label": "Opportunity registration and protection" }
         ],
-        "cta": "BECOME A PARTNER"
+        "cta": "Become a partner"
       },
       {
         "title": "AFFILIATE OR REFERRER",
@@ -50,7 +50,7 @@
           { "label": "Interfy handles the entire sales process" },
           { "label": "Track your referrals" }
         ],
-        "cta": "REFER CLIENTS"
+        "cta": "Refer clients"
       }
     ]
   },
@@ -106,7 +106,7 @@
     "headingHighlight": "Test Drive",
     "descriptionLine1": "7 days free, no card required, no commitment.",
     "descriptionLine2": "Your client experiences the platform before choosing a plan.",
-    "cta": "EXPLORE THE TEST DRIVE"
+    "cta": "Explore the Test Drive"
   },
   "faq": {
     "heading": "Frequently asked questions",
@@ -138,8 +138,8 @@
     "sectionAria": "Join the global Interfy.ai ecosystem",
     "heading": "Let's grow together?",
     "subheading": "Choose your role and join the global Interfy.ai ecosystem.",
-    "primaryButton": "BECOME A PARTNER",
-    "secondaryButton": "BECOME AN AFFILIATE",
+    "primaryButton": "Become a partner",
+    "secondaryButton": "Become an affiliate",
     "statsLabel": "Interfy platform numbers",
     "stats": [
       { "label": "12Bn +", "sublabel": "documents" },

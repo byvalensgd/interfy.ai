@@ -53,18 +53,18 @@ export default async function DssHero() {
                 <span className="text-lg leading-[1.2] font-extrabold text-texto">{hero.noCreditCard}</span>
               </div>
 
-              <div className="flex w-full flex-nowrap items-center justify-center gap-2.5 sm:gap-5 lg:justify-start">
+              <div className="@container flex w-full flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5 lg:justify-start">
                 <Button
                   href={withLocale("/comece-gratis", locale)}
                   variant="primary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 >
                   {hero.ctaPrimary}
                 </Button>
                 <Button
                   href={withLocale("/demo", locale)}
                   variant="secondary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 >
                   {hero.ctaSecondary}
                 </Button>

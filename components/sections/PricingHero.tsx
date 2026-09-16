@@ -52,13 +52,18 @@ export default async function PricingHero() {
                   {hero.description}
                 </p>
 
-                <div className="flex flex-wrap items-center justify-center gap-5 lg:justify-start">
-                  <Button href="?billing=mensal#planos" variant="primary" size="md">
+                <div className="@container flex flex-wrap items-center justify-center gap-5 lg:justify-start">
+                  <Button
+                    href="?billing=mensal#planos"
+                    variant="primary"
+                    size="md"
+                    className="!whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)]"
+                  >
                     {hero.monthlyCta}
                   </Button>
                   <Link
                     href="?billing=anual#planos"
-                    className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 text-base leading-[1.2] font-bold text-texto transition-colors hover:border-azul-base"
+                    className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] leading-[1.2] font-bold text-texto transition-colors hover:border-azul-base"
                   >
                     {hero.annualCta}
                     <span className="rounded-full bg-[#e8f7ec] p-2 text-base font-bold leading-[1.2] text-ecm">

@@ -68,12 +68,12 @@ export default async function EmpresaAiFuture() {
             <p className="text-2xl leading-[1.2] font-bold text-azul-base">{finalCta.heading}</p>
             <p className="text-lg leading-[1.2] font-semibold text-texto">{finalCta.subheading}</p>
           </div>
-          <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:w-auto lg:shrink-0">
+          <div className="@container flex w-full flex-wrap items-stretch justify-center gap-5 lg:w-auto lg:shrink-0">
             <Button
               href={withLocale("/comece-gratis", locale)}
               variant="secondary"
               size="sm"
-              className="grow whitespace-nowrap sm:grow-0"
+              className="grow !whitespace-normal !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] sm:grow-0"
               showArrow
             >
               {finalCta.primaryLabel}
@@ -82,7 +82,7 @@ export default async function EmpresaAiFuture() {
               href={withLocale("/demo", locale)}
               variant="primary"
               size="sm"
-              className="grow whitespace-nowrap sm:grow-0"
+              className="grow !whitespace-normal !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] sm:grow-0"
               showArrow
             >
               {finalCta.secondaryLabel}

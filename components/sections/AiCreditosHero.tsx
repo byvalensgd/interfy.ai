@@ -19,8 +19,13 @@ export default async function AiCreditosHero() {
       className="relative flex min-h-[calc(100vh-var(--header-height))] items-stretch justify-center bg-gradient-to-b from-[#fafbff] to-[#e8f1f8] px-5 py-12 sm:py-16 lg:py-[50px]"
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
-        <div className="flex w-full flex-1 flex-wrap items-stretch justify-center gap-10">
-          <Reveal immediate className="flex w-full max-w-[620px] min-w-[280px] flex-1 flex-col items-start justify-center gap-10">
+        {/* Grid (not flex-wrap): same two-column hero pattern used sitewide (e.g. SegmentsHero's
+         * lg:grid-cols-[520fr_840fr]) — a single implicit column below lg (text first, then the
+         * video+cards block, exactly like every other hero's text-over-mockup stacking), and a
+         * precise, deliberate 1024px break into two columns instead of flex-wrap's fuzzy
+         * fits-or-it-doesn't threshold. */}
+        <div className="grid w-full items-stretch gap-10 lg:grid-cols-[620fr_740fr]">
+          <Reveal immediate className="flex w-full flex-col items-center justify-center gap-10 text-center lg:items-start lg:text-left">
             <h1
               id="ai-creditos-hero-heading"
               className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
@@ -36,11 +41,11 @@ export default async function AiCreditosHero() {
               {hero.description2}
             </p>
 
-            <div className="flex w-full flex-nowrap items-center gap-2.5 sm:gap-5">
+            <div className="@container flex w-full flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5 lg:justify-start">
               <Button
                 href={withLocale("/comece-gratis", locale)}
                 variant="primary"
-                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 showArrow
               >
                 {hero.ctaPrimary}
@@ -48,26 +53,33 @@ export default async function AiCreditosHero() {
               <Button
                 href={withLocale("/demo", locale)}
                 variant="secondary"
-                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !text-xs !leading-tight text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5 sm:!text-base"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
               >
                 {hero.ctaSecondary}
               </Button>
             </div>
           </Reveal>
 
-          <div className="flex min-w-[320px] flex-1 items-stretch gap-5">
+          {/* Below lg (its own grid row, full width): video stacks above the cards, gap-5 apart.
+           * At lg+ (side by side, matching the grid's own 2-column break): video first, fixed
+           * -width cards pinned to the end via justify-end, overlapping it by 100px — CSS `gap`
+           * can't go negative (invalid, silently ignored), so lg:gap-0 clears the row gap and the
+           * -100px comes from the cards column's own -ml. */}
+          <div className="flex flex-col items-stretch justify-end gap-5 lg:h-full lg:flex-row lg:gap-0">
             {/* Plain (non-Reveal) wrapper: Reveal keeps a permanent translate-* transform even
              * after revealing, which creates a stacking context and would trap mix-blend-multiply
              * inside it instead of blending with the section's actual gradient background.
-             * No explicit height/shrink-0: with items-stretch on the row, the flexbox "stretch +
-             * aspect-ratio" algorithm auto-fills the sibling cards column's height and derives
-             * width from the ratio, shrinking gracefully if space is tight — max-w caps it at
-             * the Figma-exact size (603.84px) instead of a hand-picked pixel value. */}
-            <div className="-mr-20 hidden aspect-[1440/1438] max-w-[604px] lg:block">
+             * relative + absolute video (instead of a plain size-full child): a <video> is a
+             * replaced element, so size-full alone lets its OWN intrinsic ratio (this file is
+             * 1440x1438, i.e. ~1:1) dictate the wrapper's auto height once width is free to grow
+             * — at 740px wide that produced a 739px-tall, mostly off-screen video. Taking it out
+             * of flow means the wrapper's height comes only from aspect-square (mobile) or the
+             * row's own stretch against the cards column (lg+, via lg:aspect-auto lg:h-full). */}
+            <div className="relative mx-auto min-w-[280px] max-w-[700px] flex-1 aspect-square lg:mx-0 lg:aspect-auto lg:h-full lg:max-w-none">
               <AutoplayVideo
                 src="/ai-creditos/hero-orb.mp4"
                 replayDelayMs={10000}
-                className="size-full object-contain mix-blend-multiply"
+                className="absolute inset-0 size-full object-contain mix-blend-multiply"
                 style={{
                   // 20px feathered edge: fade each side to transparent instead of a hard cut.
                   maskImage:
@@ -80,10 +92,13 @@ export default async function AiCreditosHero() {
               />
             </div>
             {/* lg:w-[260px] + lg:flex-none (not max-w/shrink-0): flex-1's grow-from-zero-basis
-             * was letting the video's ~604px preferred size starve this column down to ~196px —
+             * was letting the video's preferred size starve this column down well below 260px —
              * a hard fixed width sidesteps the grow/shrink math entirely and guarantees 260px. */}
-            <Reveal immediate delayMs={120} className="flex w-full min-w-0 flex-1 flex-col justify-center lg:w-[260px] lg:flex-none">
-              <ul aria-label={hero.bannerAriaLabel} className="flex flex-col gap-[30px]">
+            <Reveal immediate delayMs={120} className="flex w-full flex-col justify-center lg:w-[260px] lg:flex-none lg:-ml-[100px]">
+              <ul
+                aria-label={hero.bannerAriaLabel}
+                className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-col lg:gap-[30px]"
+              >
                 {banner.map((item) => (
                   <li
                     key={item.title}
