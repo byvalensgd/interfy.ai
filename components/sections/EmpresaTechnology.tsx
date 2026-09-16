@@ -41,8 +41,29 @@ export default async function EmpresaTechnology() {
             {saas.headingPrefix}
             <span className="text-azul-base">{saas.headingHighlight}</span>
           </h2>
-          <div className="flex w-full flex-col items-center gap-5 sm:flex-row">
-            <ul aria-label={saas.ariaLabel} className="flex flex-1 flex-col items-start gap-5">
+          <div className="flex w-full flex-col items-start gap-5 sm:flex-row">
+            {/* Below sm: each benefit becomes its own bordered card ("Blocos Mobile"),
+                same treatment as StatsBar.tsx's mobile card list — this is the point
+                where the list + image can no longer both hold their 220px minimum
+                side by side. From sm up, keep the plain desktop list beside the image. */}
+            <ul aria-label={saas.ariaLabel} className="flex w-full flex-wrap gap-4 sm:hidden">
+              {saasItems.map((item) => (
+                <li
+                  key={item.title}
+                  className="flex min-w-[220px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <div className="flex w-full flex-col items-center gap-2">
+                    <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto">
+                      {item.title}
+                    </p>
+                    <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{item.description}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+
+            <ul aria-label={saas.ariaLabel} className="hidden min-w-[220px] flex-1 flex-col items-start gap-5 sm:flex">
               {saasItems.map((item) => (
                 <li key={item.title} className="flex w-full flex-col items-start gap-[15px]">
                   <div className="flex w-full items-center gap-[15px]">
@@ -53,8 +74,8 @@ export default async function EmpresaTechnology() {
                 </li>
               ))}
             </ul>
-            <div className="relative aspect-square w-full max-w-[320px] flex-1 overflow-hidden rounded-2xl">
-              <Image src="/sobre-nos/saas-handshake.jpg" alt="" aria-hidden="true" fill sizes="320px" className="object-cover" />
+            <div className="relative aspect-[4/3] w-full min-w-[220px] flex-1 self-stretch overflow-hidden rounded-2xl sm:aspect-auto">
+              <Image src="/sobre-nos/saas-handshake.jpg" alt="" aria-hidden="true" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
             </div>
           </div>
         </div>

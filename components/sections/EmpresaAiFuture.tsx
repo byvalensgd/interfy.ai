@@ -31,11 +31,11 @@ export default async function EmpresaAiFuture() {
                 <p className="text-lg leading-[1.2] font-semibold text-branco">{aiFuture.description}</p>
               </div>
 
-              <ul aria-label={aiFuture.ariaLabel} className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              <ul aria-label={aiFuture.ariaLabel} className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
                 {items.map((item) => (
                   <li
                     key={item.title}
-                    className="flex min-h-20 min-w-[220px] flex-1 flex-col items-start justify-center gap-2.5 rounded-2xl border border-[#012c8a] px-2.5 py-[15px]"
+                    className="flex min-h-20 min-w-0 flex-col items-start justify-center gap-2.5 rounded-2xl border border-[#012c8a] px-2.5 py-[15px]"
                   >
                     <div className="flex w-full items-center gap-[15px]">
                       <span
@@ -54,7 +54,7 @@ export default async function EmpresaAiFuture() {
               </ul>
             </div>
 
-            <div className="relative aspect-square w-full max-w-[310px] flex-1 shrink-0 self-center overflow-hidden rounded-2xl">
+            <div className="relative aspect-square w-full flex-1 shrink-0 self-center overflow-hidden rounded-2xl lg:max-w-[310px]">
               <AutoplayVideo src="/empresa/cerebro.mp4" className="size-full object-cover" />
             </div>
           </div>
@@ -66,14 +66,16 @@ export default async function EmpresaAiFuture() {
           <Image src={empresaFinalCtaIcon} alt="" aria-hidden="true" width={50} height={50} className="shrink-0" />
           <div className="flex min-w-0 flex-1 flex-col items-center gap-2.5 text-center lg:items-start lg:text-left">
             <p className="text-2xl leading-[1.2] font-bold text-azul-base">{finalCta.heading}</p>
-            <p className="text-lg leading-[1.2] font-semibold text-texto">{finalCta.subheading}</p>
+            <p className="text-base leading-[1.2] font-medium text-texto sm:text-lg lg:text-[clamp(1.125rem,0.48077vw+0.81731rem,1.25rem)] lg:[font-weight:clamp(400,-24.03846vw+746.15385,500)]">
+              {finalCta.subheading}
+            </p>
           </div>
-          <div className="@container flex w-full flex-wrap items-stretch justify-center gap-5 lg:w-auto lg:shrink-0">
+          <div className="flex w-full flex-wrap items-stretch justify-center gap-5 lg:w-auto lg:shrink-0">
             <Button
               href={withLocale("/comece-gratis", locale)}
               variant="secondary"
               size="sm"
-              className="grow !whitespace-normal !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] sm:grow-0"
+              className="grow whitespace-nowrap sm:grow-0"
               showArrow
             >
               {finalCta.primaryLabel}
@@ -82,7 +84,7 @@ export default async function EmpresaAiFuture() {
               href={withLocale("/demo", locale)}
               variant="primary"
               size="sm"
-              className="grow !whitespace-normal !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] sm:grow-0"
+              className="grow whitespace-nowrap sm:grow-0"
               showArrow
             >
               {finalCta.secondaryLabel}
