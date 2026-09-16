@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Download } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
+import StatsBar from "@/components/ui/StatsBar";
 import SegurancaRadialDiagram from "@/components/ui/SegurancaRadialDiagram";
 import { segurancaHeroDiagramIcons, segurancaHeroStatIcons } from "@/config/seguranca-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
@@ -12,7 +13,14 @@ export default async function SegurancaHero() {
   const { seguranca } = await getDictionary();
   const { hero } = seguranca;
   const diagramItems = segurancaHeroDiagramIcons.map((icon, i) => ({ icon, ...hero.diagram.items[i] }));
-  const stats = segurancaHeroStatIcons.map((icon, i) => ({ icon, ...hero.stats[i] }));
+  const stats = segurancaHeroStatIcons.map((icon, i) => ({
+    icon,
+    label: hero.stats[i].label,
+    sublabel: hero.stats[i].description,
+    // "Seguro & Confiável" hugs its own (wider) content instead of being
+    // squeezed into an equal third — see StatsBar's fill/hug split, node 5389:25960.
+    fill: i !== segurancaHeroStatIcons.length - 1,
+  }));
 
   return (
     <section
@@ -22,49 +30,39 @@ export default async function SegurancaHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_800fr]">
-            <Reveal immediate className="flex flex-col items-start gap-10">
+            <Reveal immediate className="flex flex-col items-center gap-10 lg:items-start">
               <h1
                 id="seguranca-hero-heading"
-                className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
+                className="text-center text-[2rem] leading-[1.2] font-extrabold text-texto lg:text-left lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)]"
               >
                 {hero.headingPrefix}
                 <span className="inline-block bg-[linear-gradient(112deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
                   {hero.headingHighlight}
                 </span>
               </h1>
-              <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-medium leading-[1.2] text-texto">
+              <p className="text-center text-base sm:text-lg lg:text-[clamp(1.125rem,0.48077vw+0.81731rem,1.25rem)] font-medium lg:[font-weight:clamp(400,-24.03846vw+746.15385,500)] leading-[1.2] text-texto lg:text-left">
                 {hero.description}
               </p>
 
-              <div className="@container flex w-full flex-nowrap items-stretch gap-2.5 sm:gap-5">
+              <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
                 <Button
                   href={withLocale("/contato", locale)}
                   variant="primary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
+                  className="grow whitespace-nowrap sm:grow-0"
                 >
                   {hero.ctaPrimary}
                 </Button>
                 <Button
                   href={withLocale("/contato", locale)}
                   variant="secondary"
-                  className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
+                  className="grow whitespace-nowrap sm:grow-0"
                 >
                   {hero.ctaSecondary}
                   <Download className="size-[18px]" aria-hidden="true" />
                 </Button>
               </div>
 
-              <ul className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                {stats.map((stat) => (
-                  <li key={stat.icon + stat.label} className="flex flex-col items-start gap-2.5">
-                    <div className="flex items-center gap-2">
-                      <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                      <p className="whitespace-nowrap text-lg leading-[1.2] font-extrabold text-texto">{stat.label}</p>
-                    </div>
-                    <p className="text-sm leading-[1.2] font-medium text-texto-medio">{stat.description}</p>
-                  </li>
-                ))}
-              </ul>
+              <StatsBar stats={stats} label={hero.statsAriaLabel} />
             </Reveal>
 
             <Reveal immediate delayMs={120}>
@@ -74,14 +72,32 @@ export default async function SegurancaHero() {
         </div>
 
         <Reveal immediate delayMs={200} className="w-full">
-          <div className="flex w-full flex-wrap items-center gap-10 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:px-10">
+          <div className="flex w-full flex-col items-center gap-10 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:px-10 lg:flex-row">
             <div className="flex shrink-0 items-center gap-5">
               <p className="whitespace-nowrap text-base leading-[1.2] font-bold text-texto">{hero.poweredByLabel}</p>
-              <Image src="/icons/features/aws.svg" alt="AWS" width={30} height={18} />
+              <div className="relative h-[60px] w-[100px] shrink-0">
+                <Image src="/icons/features/aws.svg" alt="AWS" fill sizes="100px" className="object-contain" />
+              </div>
             </div>
+            {/* Below lg: each item becomes its own bordered card, per the
+                site's standing icon+text mobile treatment (see StatsBar.tsx) —
+                a fixed 6-column row doesn't leave room for these labels above
+                that breakpoint. */}
+            <ul aria-label={hero.awsChecklistAriaLabel} className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 lg:hidden">
+              {hero.awsChecklist.map((item: string) => (
+                <li
+                  key={item}
+                  className="flex flex-col items-center gap-2.5 rounded-xl border border-contorno-base bg-branco p-4 text-center"
+                >
+                  <Image src="/icons/features/check-blue.svg" alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
+                  <p className="text-sm leading-[1.2] font-medium text-texto">{item}</p>
+                </li>
+              ))}
+            </ul>
+
             <ul
               aria-label={hero.awsChecklistAriaLabel}
-              className="grid flex-1 grid-cols-1 gap-x-10 gap-y-[15px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
+              className="hidden w-full flex-1 grid-cols-3 gap-x-10 gap-y-[15px] lg:grid xl:grid-cols-6"
             >
               {hero.awsChecklist.map((item: string) => (
                 <li key={item} className="flex items-start gap-2.5">

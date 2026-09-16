@@ -29,8 +29,8 @@ export function localizeHref(href: string, locale: Locale): string {
  */
 export function getHeroSlides(locale: Locale): [string, string] {
   return locale === "pt"
-    ? ["/hero/hero-slide-home.png", "/hero/hero-slide-login.png"]
-    : ["/hero/hero-slide-home-eng.png", "/hero/hero-slide-login-eng.png"];
+    ? ["/hero/hero-slide-home.webp", "/hero/hero-slide-login.webp"]
+    : ["/hero/hero-slide-home-eng.webp", "/hero/hero-slide-login-eng.webp"];
 }
 
 /**
@@ -40,5 +40,5 @@ export function getHeroSlides(locale: Locale): [string, string] {
  */
 export function getWhiteLabelSlides(locale: Locale): string[] {
   const suffix = locale === "pt" ? "" : "-eng";
-  return [1, 2, 3, 4].map((n) => `/global/white-label-${n}${suffix}.png`);
+  return [1, 2, 3, 4].map((n) => `/global/white-label-${n}${suffix}.webp`);
 }

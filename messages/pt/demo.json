@@ -10,23 +10,31 @@
     "headingPrefix": "Veja a Interfy",
     "headingHighlight": "em ação.",
     "description": "Um especialista vai entender seu cenário e mostrar, ao vivo, como documentos, processos, assinatura eletrônica, integrações e IA se encaixam na sua operação.",
-    "expectHeading": "O que esperar da demo",
+    "expectHeading": "Por que agendar com a Interfy",
     "expectItems": [
-      { "title": "30 minutos", "description": "Conversa objetiva, sem enrolação." },
-      { "title": "Cenário real", "description": "Exemplos aplicados à sua operação e ao seu segmento." },
-      { "title": "Sem compromisso", "description": "Você decide o próximo passo depois da conversa." },
-      { "title": "Especialista dedicado", "description": "Alguém que já conhece o seu setor." }
+      { "title": "Demonstração personalizada ao vivo", "description": "" },
+      { "title": "Duração de 30 a 45 minutos", "description": "" },
+      { "title": "Com um especialista da Interfy", "description": "" },
+      { "title": "Tire todas as suas dúvidas", "description": "" }
+    ],
+    "previewHeading": "O que você verá na demo:",
+    "previewItems": [
+      "Visão geral da plataforma Interfy",
+      "Demonstração dos módulos Documents e Process",
+      "Criação de fluxos com IA",
+      "Assinatura digital e conformidade",
+      "Sessão de perguntas e respostas"
     ]
   },
   "form": {
-    "heading": "Agende sua demonstração",
+    "heading": "Agendar uma demonstração grátis!",
     "subheading": "Preencha os dados abaixo e entraremos em contato para confirmar o melhor horário.",
-    "nameLabel": "Nome completo",
+    "firstNameLabel": "Nome",
+    "lastNameLabel": "Sobrenome",
     "emailLabel": "E-mail corporativo",
-    "companyLabel": "Empresa",
-    "phoneLabel": "Telefone (WhatsApp)",
-    "roleLabel": "Cargo",
-    "companySizeLabel": "Tamanho da empresa",
+    "companyLabel": "Nome da empresa",
+    "phoneLabel": "Número de celular",
+    "companySizeLabel": "Nº de funcionários",
     "companySizePlaceholder": "Selecione",
     "companySizeOptions": [
       "1 a 10 colaboradores",
@@ -35,7 +43,11 @@
       "201 a 1.000 colaboradores",
       "Mais de 1.000 colaboradores"
     ],
-    "messageLabel": "Conte um pouco sobre o que você precisa",
+    "interestLabel": "Principal interesse",
+    "interestPlaceholder": "Selecione",
+    "interestOptions": ["Documents", "Process", "Capture", "Sign", "Connect", "Agents", "Mobile", "Voice", "Ainda não sei"],
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Conte-nos sobre suas necessidades...",
     "optionalLabel": "(opcional)",
     "errors": {
       "name": "Informe seu nome completo.",
@@ -48,23 +60,11 @@
     "consentMiddle": " e a ",
     "consentPrivacy": "Política de Privacidade",
     "consentSuffix": ".",
-    "submitButton": "Agendar minha demo",
+    "submitButton": "Solicitar uma demo gratuita",
     "submittingButton": "Enviando...",
     "successHeading": "Recebemos sua solicitação!",
     "successMessagePrefix": "Nosso time vai entrar em contato para confirmar o melhor horário no e-mail ",
     "successMessageSuffix": ".",
     "specialistLink": "Comece grátis enquanto isso"
-  },
-  "trust": {
-    "ariaLabel": "Por que agendar uma demo com a Interfy",
-    "heading": "Uma plataforma pronta para empresas globais",
-    "subheading": "Segurança enterprise, conformidade global e suporte especializado em cada demonstração.",
-    "statsLabel": "Presença global da Interfy",
-    "stats": [
-      { "label": "180+ países", "sublabel": "Presença global em expansão" },
-      { "label": "16 idiomas", "sublabel": "Interface e experiência completas" },
-      { "label": "99,99%", "sublabel": "Disponibilidade SLA garantido" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Conformidade certificada" }
-    ]
   }
 }

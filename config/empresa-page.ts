@@ -40,8 +40,8 @@ export type EmpresaBrandLogo = { icon: string; width: number; height: number };
 export const empresaBrandLogos: EmpresaBrandLogo[] = [
   { icon: "/icons/sobre-nos/brand-ecofy.svg", width: 138, height: 36 },
   { icon: "/icons/sobre-nos/brand-injectra.svg", width: 130, height: 36 },
-  { icon: "/icons/sobre-nos/brand-innovecar.png", width: 169, height: 36 },
-  { icon: "/icons/sobre-nos/brand-neoai.png", width: 169, height: 36 },
+  { icon: "/icons/sobre-nos/brand-innovecar.webp", width: 169, height: 36 },
+  { icon: "/icons/sobre-nos/brand-neoai.webp", width: 169, height: 36 },
   { icon: "/icons/sobre-nos/brand-prosardoc.svg", width: 181, height: 36 },
   { icon: "/icons/sobre-nos/brand-acquafy.svg", width: 213, height: 36 },
   { icon: "/icons/sobre-nos/brand-interfy.svg", width: 143, height: 36 },

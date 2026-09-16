@@ -5,8 +5,8 @@ import { CTA_DISABLED } from "@/config/feature-flags";
 
 // Reused with very different href/label combinations per caller (contato,
 // suporte, cases, blog, status) — the CTA-to-gate is whichever slot actually
-// points at /comece-gratis or /demo, not a fixed primary/secondary position.
-const isGatedCtaHref = (href: string) => /\/(comece-gratis|demo)$/.test(href);
+// points at /test-drive or /demo, not a fixed primary/secondary position.
+const isGatedCtaHref = (href: string) => /\/(test-drive|demo)$/.test(href);
 
 type SimpleHeroProps = {
   ariaLabel: string;

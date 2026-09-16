@@ -18,7 +18,7 @@ export default async function ConnectProductivity() {
       <Reveal className="flex w-full max-w-[1400px] flex-col items-stretch gap-5 xl:flex-row">
         <div className="flex items-center gap-[30px] rounded-[20px] border border-contorno-base bg-bg-base px-5 py-[30px] xl:flex-1">
           <AutoplayVideo
-            src="/connect/sign-promo-illustration.mp4"
+            src="/connect/sign-promo-illustration"
             className="mix-blend-multiply hidden size-[185px] shrink-0 object-cover sm:block"
           />
           <div className="flex min-w-0 flex-1 flex-col gap-10">

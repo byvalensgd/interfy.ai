@@ -16,6 +16,13 @@
       "keywords": ["Interfy LGPD", "Interfy GDPR", "Interfy data protection"]
     }
   },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
+  },
   "termos": {
     "ariaLabel": "Interfy Terms of Use",
     "eyebrow": "Legal Information",

@@ -7,12 +7,14 @@ import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
 import CtaLink from "@/components/ui/CtaLink";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function PlatformCTA() {
   const locale = await getLocale();
   const { platform } = await getDictionary();
   const { cta } = platform;
   const features = platformCtaFeatureIcons.map((icon, i) => ({ icon, ...cta.features[i] }));
+  const cardBasis = getCompleteBoxBasis(features.length);
 
   return (
     <section aria-label={cta.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
@@ -37,7 +39,7 @@ export default async function PlatformCTA() {
               <p className="text-lg leading-[1.2] font-semibold lg:max-w-2xl">{cta.description}</p>
             </div>
             <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
-              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={CTA_DISABLED}>
+              <Button href={withLocale("/test-drive", locale)} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={CTA_DISABLED}>
                 {cta.primaryButton}
               </Button>
               <CtaLink
@@ -50,9 +52,29 @@ export default async function PlatformCTA() {
             </div>
           </div>
 
+          {/* Below lg: "Blocos Mobile" — each stat becomes its own bordered
+              card via "Complete Box" (see lib/completeBox.ts). At lg+: the
+              original shared-container, left-aligned list. */}
+          <ul aria-label={cta.statsLabel} className="flex w-full flex-wrap gap-4 lg:hidden">
+            {features.map((feature) => (
+              <li
+                key={feature.icon}
+                className={`flex min-h-[170px] min-w-[160px] grow flex-col items-center justify-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
+              >
+                <Image src={feature.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <div className="flex w-full flex-col items-center gap-2">
+                  <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                    {feature.label}
+                  </p>
+                  <p className="w-full text-sm leading-[1.2] font-medium text-texto">{feature.sublabel}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+
           <ul
             aria-label={cta.statsLabel}
-            className="grid w-full grid-cols-1 gap-x-10 gap-y-8 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
+            className="hidden w-full grid-cols-3 gap-x-10 gap-y-8 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] lg:grid xl:grid-cols-6"
           >
             {features.map((feature) => (
               <li key={feature.icon} className="flex min-w-[180px] flex-col items-start gap-5 text-left">

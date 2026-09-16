@@ -23,6 +23,7 @@
         { "label": "Infraestructura confiable" }
       ]
     },
+    "statsAriaLabel": "Indicadores de seguridad y disponibilidad de Interfy",
     "stats": [
       { "label": "99,99%", "description": "Disponibilidad SLA garantizada" },
       { "label": "24/7", "description": "Monitoreo continuo" },

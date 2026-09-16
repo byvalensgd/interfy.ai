@@ -1,4 +1,3 @@
-import LegalHero from "@/components/sections/LegalHero";
 import LegalContent from "@/components/sections/LegalContent";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
@@ -23,14 +22,13 @@ export default async function LgpdPage() {
   const { lgpd } = legal;
 
   return (
-    <>
-      <LegalHero ariaLabel={lgpd.ariaLabel} subtitle={legal.meta.lgpd.description} content={lgpd} />
-      <LegalContent
-        ariaLabel={lgpd.ariaLabel}
-        content={lgpd}
-        certificationsCtaHref={withLocale("/legal/seguranca", locale)}
-        locale={locale}
-      />
-    </>
+    <LegalContent
+      ariaLabel={lgpd.ariaLabel}
+      subtitle={legal.meta.lgpd.description}
+      content={lgpd}
+      search={legal.search}
+      certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+      locale={locale}
+    />
   );
 }

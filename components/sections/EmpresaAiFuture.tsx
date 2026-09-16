@@ -10,6 +10,7 @@ import {
 } from "@/config/empresa-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function EmpresaAiFuture() {
   const locale = await getLocale();
@@ -55,7 +56,7 @@ export default async function EmpresaAiFuture() {
             </div>
 
             <div className="relative aspect-square w-full flex-1 shrink-0 self-center overflow-hidden rounded-2xl lg:max-w-[310px]">
-              <AutoplayVideo src="/empresa/cerebro.mp4" className="size-full object-cover" />
+              <AutoplayVideo src="/empresa/cerebro" className="size-full object-cover" />
             </div>
           </div>
 
@@ -72,11 +73,12 @@ export default async function EmpresaAiFuture() {
           </div>
           <div className="flex w-full flex-wrap items-stretch justify-center gap-5 lg:w-auto lg:shrink-0">
             <Button
-              href={withLocale("/comece-gratis", locale)}
+              href={withLocale("/test-drive", locale)}
               variant="secondary"
               size="sm"
               className="grow whitespace-nowrap sm:grow-0"
               showArrow
+              disabled={CTA_DISABLED}
             >
               {finalCta.primaryLabel}
             </Button>
@@ -86,6 +88,7 @@ export default async function EmpresaAiFuture() {
               size="sm"
               className="grow whitespace-nowrap sm:grow-0"
               showArrow
+              disabled={CTA_DISABLED}
             >
               {finalCta.secondaryLabel}
             </Button>

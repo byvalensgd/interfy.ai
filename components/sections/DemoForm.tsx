@@ -7,25 +7,27 @@ import { withLocale } from "@/lib/i18n/paths";
 import type { Locale } from "@/lib/i18n/config";
 
 type FormValues = {
-  name: string;
+  firstName: string;
+  lastName: string;
   email: string;
   company: string;
   phone: string;
-  role: string;
   companySize: string;
+  interest: string;
   message: string;
   consent: boolean;
 };
 
-type FormErrors = Partial<Record<"name" | "email" | "company" | "consent", string>>;
+type FormErrors = Partial<Record<"firstName" | "lastName" | "email" | "company" | "consent", string>>;
 
 const initialValues: FormValues = {
-  name: "",
+  firstName: "",
+  lastName: "",
   email: "",
   company: "",
   phone: "",
-  role: "",
   companySize: "",
+  interest: "",
   message: "",
   consent: false,
 };
@@ -33,15 +35,19 @@ const initialValues: FormValues = {
 type DemoFormDict = {
   heading: string;
   subheading: string;
-  nameLabel: string;
+  firstNameLabel: string;
+  lastNameLabel: string;
   emailLabel: string;
   companyLabel: string;
   phoneLabel: string;
-  roleLabel: string;
   companySizeLabel: string;
   companySizePlaceholder: string;
   companySizeOptions: string[];
+  interestLabel: string;
+  interestPlaceholder: string;
+  interestOptions: string[];
   messageLabel: string;
+  messagePlaceholder: string;
   optionalLabel: string;
   errors: { name: string; email: string; company: string; consent: string };
   consentPrefix: string;
@@ -59,7 +65,8 @@ type DemoFormDict = {
 
 function validate(values: FormValues, errorMessages: DemoFormDict["errors"]): FormErrors {
   const errors: FormErrors = {};
-  if (values.name.trim().length < 2) errors.name = errorMessages.name;
+  if (!values.firstName.trim()) errors.firstName = errorMessages.name;
+  if (!values.lastName.trim()) errors.lastName = errorMessages.name;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = errorMessages.email;
   if (!values.company.trim()) errors.company = errorMessages.company;
   if (!values.consent) errors.consent = errorMessages.consent;
@@ -111,7 +118,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
 
   function handleChange<K extends keyof FormValues>(key: K, value: FormValues[K]) {
     setValues((prev) => ({ ...prev, [key]: value }));
-    if (key === "name" || key === "email" || key === "company" || key === "consent") {
+    if (key === "firstName" || key === "lastName" || key === "email" || key === "company" || key === "consent") {
       setErrors((prev) => ({ ...prev, [key]: undefined }));
     }
   }
@@ -128,7 +135,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
   }
 
   return (
-    <div className="flex w-full flex-col gap-5 rounded-[20px] border border-contorno-base bg-branco p-5 sm:p-[30px]">
+    <div className="flex w-full flex-col gap-5 rounded-[20px] border border-contorno-base bg-gradient-to-br from-branco to-bg-base p-5 sm:p-[30px]">
       {status === "success" ? (
         <div className="flex flex-col items-center gap-5 py-5 text-center">
           <CheckCircle2 className="size-14 text-ecm" aria-hidden="true" strokeWidth={1.5} />
@@ -141,7 +148,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
             </p>
           </div>
           <Link
-            href={withLocale("/comece-gratis", locale)}
+            href={withLocale("/test-drive", locale)}
             className="inline-flex min-h-[40px] items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base px-5 py-2.5 text-sm leading-[1.2] font-bold text-azul-base transition-colors hover:bg-azul-bg-superior"
           >
             {dict.specialistLink}
@@ -150,30 +157,46 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
         </div>
       ) : (
         <>
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-extrabold leading-[1.2] text-texto">{dict.heading}</h3>
-            <p className="text-sm leading-[1.2] font-medium text-texto-medio">{dict.subheading}</p>
-          </div>
-
           <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               <FormField
-                label={dict.nameLabel}
-                id="demo-name"
-                autoComplete="name"
-                value={values.name}
-                error={errors.name}
-                onChange={(e) => handleChange("name", e.target.value)}
+                label={dict.firstNameLabel}
+                id="demo-first-name"
+                autoComplete="given-name"
+                value={values.firstName}
+                error={errors.firstName}
+                onChange={(e) => handleChange("firstName", e.target.value)}
               />
               <FormField
-                label={dict.emailLabel}
-                id="demo-email"
-                type="email"
-                autoComplete="email"
-                value={values.email}
-                error={errors.email}
-                onChange={(e) => handleChange("email", e.target.value)}
+                label={dict.lastNameLabel}
+                id="demo-last-name"
+                autoComplete="family-name"
+                value={values.lastName}
+                error={errors.lastName}
+                onChange={(e) => handleChange("lastName", e.target.value)}
               />
+            </div>
+
+            <FormField
+              label={dict.emailLabel}
+              id="demo-email"
+              type="email"
+              autoComplete="email"
+              value={values.email}
+              error={errors.email}
+              onChange={(e) => handleChange("email", e.target.value)}
+            />
+
+            <FormField
+              label={dict.phoneLabel}
+              id="demo-phone"
+              type="tel"
+              autoComplete="tel"
+              value={values.phone}
+              onChange={(e) => handleChange("phone", e.target.value)}
+            />
+
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               <FormField
                 label={dict.companyLabel}
                 id="demo-company"
@@ -182,29 +205,9 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
                 error={errors.company}
                 onChange={(e) => handleChange("company", e.target.value)}
               />
-              <FormField
-                label={dict.phoneLabel}
-                id="demo-phone"
-                type="tel"
-                optional
-                optionalLabel={dict.optionalLabel}
-                autoComplete="tel"
-                value={values.phone}
-                onChange={(e) => handleChange("phone", e.target.value)}
-              />
-              <FormField
-                label={dict.roleLabel}
-                id="demo-role"
-                optional
-                optionalLabel={dict.optionalLabel}
-                autoComplete="organization-title"
-                value={values.role}
-                onChange={(e) => handleChange("role", e.target.value)}
-              />
               <div className="flex flex-col gap-2">
                 <label htmlFor="demo-size" className="text-sm font-bold leading-[1.2] text-texto">
                   {dict.companySizeLabel}
-                  <span className="font-medium text-texto-medio"> {dict.optionalLabel}</span>
                 </label>
                 <select
                   id="demo-size"
@@ -223,6 +226,25 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
             </div>
 
             <div className="flex flex-col gap-2">
+              <label htmlFor="demo-interest" className="text-sm font-bold leading-[1.2] text-texto">
+                {dict.interestLabel}
+              </label>
+              <select
+                id="demo-interest"
+                value={values.interest}
+                onChange={(e) => handleChange("interest", e.target.value)}
+                className="h-[50px] w-full rounded-lg border border-contorno-base bg-branco px-4 text-base leading-[1.2] text-texto focus:border-azul-base focus:outline-none focus:ring-2 focus:ring-azul-base/20"
+              >
+                <option value="">{dict.interestPlaceholder}</option>
+                {dict.interestOptions.map((option) => (
+                  <option key={option} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="flex flex-col gap-2">
               <label htmlFor="demo-message" className="text-sm font-bold leading-[1.2] text-texto">
                 {dict.messageLabel}
                 <span className="font-medium text-texto-medio"> {dict.optionalLabel}</span>
@@ -230,6 +252,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
               <textarea
                 id="demo-message"
                 rows={3}
+                placeholder={dict.messagePlaceholder}
                 value={values.message}
                 onChange={(e) => handleChange("message", e.target.value)}
                 className="w-full resize-none rounded-lg border border-contorno-base bg-branco px-4 py-3 text-base leading-[1.4] text-texto placeholder:text-texto-medio focus:border-azul-base focus:outline-none focus:ring-2 focus:ring-azul-base/20"
@@ -262,7 +285,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
             <button
               type="submit"
               disabled={status === "submitting"}
-              className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-lg bg-azul-base px-5 text-base leading-[1.2] font-bold text-branco transition-colors hover:bg-azul-base/90 disabled:cursor-not-allowed disabled:opacity-70"
+              className="inline-flex min-h-[50px] w-full items-center justify-center gap-2.5 rounded-full bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] px-5 text-base leading-[1.2] font-bold text-branco transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-70"
             >
               {status === "submitting" ? (
                 <>

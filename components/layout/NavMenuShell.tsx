@@ -49,9 +49,9 @@ export default function NavMenuShell({
       </button>
 
       {open && (
-        <div className="fixed inset-x-0 top-[calc(var(--header-height)+12px)] z-50 flex justify-center px-5">
+        <div className="fixed inset-x-0 top-[calc(var(--header-height)+4px)] z-50 flex justify-center px-5">
           <div
-            className={`w-full rounded-2xl border border-contorno-base bg-branco p-6 shadow-[0_8px_30px_var(--color-shadow)] ${panelClassName}`}
+            className={`w-full rounded-[12px] border border-contorno-base bg-branco p-5 shadow-[0_8px_30px_var(--color-shadow)] ${panelClassName}`}
           >
             {children(close)}
           </div>

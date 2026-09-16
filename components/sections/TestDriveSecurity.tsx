@@ -14,10 +14,10 @@ export default async function TestDriveSecurity() {
   return (
     <section aria-label={security.ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-2">
-        <Reveal className="flex flex-col gap-[30px] rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] p-5 sm:flex-row sm:p-[30px]">
-          <div className="flex flex-1 flex-col items-start gap-[30px] text-left">
+        <Reveal className="flex flex-col gap-[30px] rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] p-5 sm:flex-row sm:items-center sm:p-[30px]">
+          <div className="flex min-w-0 flex-1 flex-col items-start gap-[30px] text-left">
             <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-branco">{security.preservedHeading}</h2>
-            <ul className="grid w-full grid-cols-1 gap-x-6 gap-y-[15px] sm:grid-cols-2">
+            <ul className="grid w-full grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-x-6 gap-y-[15px]">
               {(security.preservedList as string[]).map((item) => (
                 <li key={item} className="flex items-center gap-2.5">
                   <Image
@@ -35,7 +35,7 @@ export default async function TestDriveSecurity() {
           </div>
           <div className="relative mx-auto aspect-[1214/1280] w-full max-w-[230px] shrink-0">
             <AutoplayVideo
-              src="/test-drive/security-shield.mp4"
+              src="/test-drive/security-shield"
               className="size-full object-contain mix-blend-lighten"
             />
           </div>
@@ -54,11 +54,11 @@ export default async function TestDriveSecurity() {
             <p className="text-sm leading-[1.2] font-medium text-texto">{security.endParagraph}</p>
           </div>
 
-          <ul className="flex flex-wrap justify-center gap-[15px]">
+          <ul className="grid w-full grid-cols-2 gap-[15px] sm:grid-cols-4">
             {endOfTrialFeatures.map((item, index) => {
               const text = security.endFeatures[index];
               return (
-                <li key={text.label} className="flex flex-1 min-w-[100px] flex-col items-center gap-[15px] text-center">
+                <li key={text.label} className="flex flex-col items-center gap-[15px] text-center">
                   <div className="flex size-[55px] items-center justify-center rounded-xl border border-contorno-base bg-branco">
                     <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} />
                   </div>

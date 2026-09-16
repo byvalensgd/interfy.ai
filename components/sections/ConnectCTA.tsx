@@ -45,7 +45,7 @@ export default async function ConnectCTA() {
             </div>
             <div className="flex w-full flex-col items-stretch gap-5 sm:w-auto sm:shrink-0">
               <Button
-                href={withLocale("/comece-gratis", locale)}
+                href={withLocale("/test-drive", locale)}
                 variant="secondary"
                 className="w-full !whitespace-normal !text-base"
                 disabled={CTA_DISABLED}

@@ -34,7 +34,7 @@ export default async function VoiceHighlights() {
             <div className="flex w-[210px] shrink-0 flex-col items-center gap-[10px] self-center @min-[570px]:self-auto">
               <div className="relative h-[210px] w-[179px] shrink-0">
                 <Image
-                  src="/agentes/shield-governance.png"
+                  src="/agentes/shield-governance.webp"
                   alt=""
                   aria-hidden="true"
                   fill

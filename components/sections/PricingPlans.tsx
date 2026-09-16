@@ -100,7 +100,7 @@ function SegmentSwitch({
         }`}
       >
         <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentSmallTitle}</span>
-        <span className="hidden text-xs leading-[1.2] font-medium sm:block sm:text-sm">{dict.segmentSmallDesc}</span>
+        <span className="hidden min-h-[2.4em] text-xs leading-[1.2] font-medium sm:flex sm:items-center sm:text-sm">{dict.segmentSmallDesc}</span>
       </button>
       <button
         type="button"
@@ -113,7 +113,7 @@ function SegmentSwitch({
         }`}
       >
         <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentLargeTitle}</span>
-        <span className="hidden text-xs leading-[1.2] font-medium sm:block sm:text-sm">{dict.segmentLargeDesc}</span>
+        <span className="hidden min-h-[2.4em] text-xs leading-[1.2] font-medium sm:flex sm:items-center sm:text-sm">{dict.segmentLargeDesc}</span>
       </button>
     </div>
   );
@@ -176,7 +176,7 @@ function FeatureMark({ mark, text, planKey }: { mark: SmallFeatureMark; text: st
     return (
       <li className="flex items-start gap-[5px]">
         <Image src="/icons/products/capture.svg" alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-        <span className="text-sm font-medium leading-[1.2] text-swc">{text}</span>
+        <span className="flex min-h-[14px] items-center text-sm font-medium leading-[1.2] text-swc">{text}</span>
       </li>
     );
   }
@@ -184,14 +184,14 @@ function FeatureMark({ mark, text, planKey }: { mark: SmallFeatureMark; text: st
     return (
       <li className="flex items-start gap-[5px]">
         <Image src={negativeIcon} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-        <span className="text-sm font-medium leading-[1.2] text-[#ff383c]">{text}</span>
+        <span className="flex min-h-[14px] items-center text-sm font-medium leading-[1.2] text-[#ff383c]">{text}</span>
       </li>
     );
   }
   return (
     <li className="flex items-start gap-[5px]">
       <Image src={smallCheckIcons[planKey]} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-      <span className="text-sm font-medium leading-[1.2] text-texto">{text}</span>
+      <span className="flex min-h-[14px] items-center text-sm font-medium leading-[1.2] text-texto">{text}</span>
     </li>
   );
 }
@@ -251,14 +251,14 @@ function SmallPlanCard({
 
         <div className="flex w-full flex-col items-center gap-5">
           <CtaLink
-            href={withLocale("/comece-gratis", locale)}
+            href={withLocale("/test-drive", locale)}
             className="inline-flex shrink-0 items-center justify-center rounded-full px-5 py-2 text-base font-bold text-branco"
             style={plan.gradient ? { backgroundImage: "linear-gradient(114deg,#184aee 22.86%,#bf18f6 96.41%)" } : { backgroundColor: plan.colorVar }}
           >
             {dict.ctaLabel}
           </CtaLink>
           {dict.trialLabel ? (
-            <CtaLink href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+            <CtaLink href={withLocale("/test-drive", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
               {dict.trialLabel}
             </CtaLink>
           ) : (
@@ -369,7 +369,7 @@ function LargePlanCard({
             </CtaLink>
           ) : (
             <CtaLink
-              href={withLocale("/comece-gratis", locale)}
+              href={withLocale("/test-drive", locale)}
               className="inline-flex shrink-0 items-center justify-center rounded-full px-5 py-2 text-base font-bold text-branco"
               style={{ backgroundColor: plan.colorVar }}
             >
@@ -382,7 +382,7 @@ function LargePlanCard({
                 {dict.trialLabel}
               </span>
             ) : (
-              <CtaLink href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+              <CtaLink href={withLocale("/test-drive", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
                 {dict.trialLabel}
               </CtaLink>
             ))}
@@ -413,7 +413,7 @@ function LargePlanCard({
             return (
               <li key={index} className="flex items-start gap-[5px]">
                 <Image src="/icons/products/capture.svg" alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-                <span className="text-sm font-medium leading-[1.2] text-swc">{text}</span>
+                <span className="flex min-h-[14px] items-center text-sm font-medium leading-[1.2] text-swc">{text}</span>
               </li>
             );
           }
@@ -421,7 +421,7 @@ function LargePlanCard({
           return (
             <li key={index} className="flex items-start gap-[5px]">
               <Image src={largeCheckIcons[planKey]} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
-              <span className="text-sm font-medium leading-[1.2] text-texto">{text}</span>
+              <span className="flex min-h-[14px] items-center text-sm font-medium leading-[1.2] text-texto">{text}</span>
             </li>
           );
         })}
@@ -465,7 +465,7 @@ export default function PricingPlans({
     <section
       id="planos"
       aria-labelledby="pricing-plans-heading"
-      className="flex scroll-mt-[var(--header-height)] justify-center px-5 py-10 sm:py-16"
+      className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center px-5 py-10 sm:py-16"
     >
       {/* The hero's "Mensal"/"Anual" buttons link here with a `billing` query
           param so they switch this section's toggle to match, instead of
@@ -484,14 +484,28 @@ export default function PricingPlans({
           {pricing.heading}
         </h2>
 
-        <Reveal className="flex w-full flex-col items-center justify-between gap-6 lg:flex-row">
+        <Reveal className="relative flex w-full flex-col items-center justify-between gap-6 lg:flex-row">
           <SegmentSwitch segment={segment} onChange={setSegment} dict={pricing} />
           <BillingSwitch annual={annual} onChange={setAnnual} dict={pricing} />
+          {/* Tablet only: hints that the plan cards below (which scroll
+              horizontally up to lg) can be swiped. Absolutely positioned
+              against this whole row — not nested inside the billing switch —
+              so it pins to the row's right edge instead of sharing space
+              with (and being constrained by) that switch's own box. */}
+          <Image
+            src="/icons/pricing/swipe-hint.webp"
+            alt=""
+            aria-hidden="true"
+            width={40}
+            height={40}
+            unoptimized
+            className="absolute right-0 bottom-0 block shrink-0 lg:hidden"
+          />
         </Reveal>
 
         {segment === "small" ? (
           <Reveal className="w-full" delayMs={120}>
-            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0">
+            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
               {smallPlans.map((plan, index) => (
                 <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                   <SmallPlanCard
@@ -508,7 +522,7 @@ export default function PricingPlans({
         ) : (
           <>
             <Reveal className="w-full" delayMs={120}>
-              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0">
+              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
                 {pricingPlans.map((plan, index) => (
                   <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                     <LargePlanCard

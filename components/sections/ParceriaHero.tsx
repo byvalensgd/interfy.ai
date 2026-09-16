@@ -82,7 +82,7 @@ export default async function ParceriaHero() {
                 className="flex min-w-[240px] flex-1 flex-col items-center gap-2.5 rounded-2xl border border-contorno-base bg-branco p-5"
               >
                 <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
-                <p className="w-full text-center text-lg leading-[1.2] font-extrabold text-texto">{item.title}</p>
+                <p className="w-full text-center text-base leading-[1.2] font-bold text-texto">{item.title}</p>
               </li>
             ))}
           </ul>

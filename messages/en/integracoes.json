@@ -31,7 +31,7 @@
   },
   "logosStrip": {
     "heading": "Connect with the leading systems on the market",
-    "ctaLabel": "See all"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Features and benefits of the ",

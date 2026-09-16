@@ -6,6 +6,7 @@ import Reveal from "@/components/ui/Reveal";
 import { integracoesDevLangs } from "@/config/integracoes-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import CtaLink from "@/components/ui/CtaLink";
 
 function ApiCodeSample() {
   return (
@@ -77,12 +78,12 @@ export default async function IntegracoesDeveloperDocs() {
             <p className="text-lg leading-[1.2] font-semibold">{ctaCard.description}</p>
           </div>
           <div className="@container flex flex-col items-stretch gap-5">
-            <Link
-              href={withLocale("/comece-gratis", locale)}
+            <CtaLink
+              href={withLocale("/test-drive", locale)}
               className="inline-flex min-h-10 items-center justify-center rounded-lg border-[1.5px] border-azul-base bg-branco px-[15px] py-2.5 !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] leading-[1.2] font-bold !whitespace-normal text-azul-base transition-colors hover:bg-azul-bg-superior"
             >
               {ctaCard.primaryLabel}
-            </Link>
+            </CtaLink>
             <Link
               href={withLocale("/contato", locale)}
               className="inline-flex min-h-10 items-center justify-center rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-2.5 !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] leading-[1.2] font-bold !whitespace-normal text-branco transition-colors hover:bg-black/50"

@@ -133,7 +133,7 @@ export default function MobileNav({
           </ul>
           <div className="mt-4 flex flex-col gap-2.5 border-t border-contorno-base pt-4">
             <Button
-              href={withLocale("/comece-gratis", locale)}
+              href={withLocale("/test-drive", locale)}
               variant="primary"
               showArrow
               onClick={close}

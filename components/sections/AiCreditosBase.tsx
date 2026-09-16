@@ -6,6 +6,7 @@ import PricingFaq from "@/components/sections/PricingFaq";
 import { platformStatIcons } from "@/config/platform";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function AiCreditosBase() {
   const locale = await getLocale();
@@ -44,7 +45,7 @@ export default async function AiCreditosBase() {
             <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2]">{base.ctaTitle}</p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.ctaDesc}</p>
           </div>
-          <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow>
+          <Button href={withLocale("/test-drive", locale)} variant="secondary" showArrow disabled={CTA_DISABLED}>
             {base.ctaButton}
           </Button>
         </Reveal>

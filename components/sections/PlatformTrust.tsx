@@ -13,11 +13,11 @@ export default async function PlatformTrust() {
 
   return (
     <section aria-label={trust.sectionAria} className="flex justify-center px-5 py-10 sm:py-16">
-      <ul className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-3">
+      <ul className="flex w-full max-w-[1400px] flex-wrap gap-5">
         {cards.map((card, i) => (
           <Reveal
             key={card.title}
-            className="flex min-h-[265px] flex-col gap-[30px] rounded-[20px] border border-contorno-base px-5 py-[30px]"
+            className="flex min-h-[290px] min-w-[280px] flex-1 flex-col gap-[30px] rounded-[20px] border border-contorno-base px-5 py-[30px]"
             style={{ backgroundImage: cardBackground }}
             delayMs={i * 120}
           >
@@ -34,7 +34,7 @@ export default async function PlatformTrust() {
               {card.checklist.map((item: string) => (
                 <li key={item} className="flex items-start gap-2.5">
                   <Image
-                    src="/icons/features/check-blue.svg"
+                    src="/icons/parceria/list-check-blue.svg"
                     alt=""
                     aria-hidden="true"
                     width={16}

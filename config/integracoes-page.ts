@@ -34,31 +34,32 @@ export type LogosStripItem = {
   decorativeIcon?: boolean;
 };
 
-/** Exact set/sizes/order from Figma's finished "SUBSTITUIR" instances (node 5418:28800) — 7 logos,
- *  not the full 8-brand diagram set (MySQL isn't part of this particular strip). Heading/CTA text
- *  lives in messages/<locale>/integracoes.json's `logosStrip`. */
+/** Exact set/order from Figma's finished "SUBSTITUIR" instances (node 5418:28800) — 7 logos, not
+ *  the full 8-brand diagram set (MySQL isn't part of this particular strip). Sizes are the Figma
+ *  values scaled to 70% (30% smaller, per feedback) for the scrolling marquee treatment. Heading
+ *  text lives in messages/<locale>/integracoes.json's `logosStrip`. */
 export const integracoesLogosStripIcons: LogosStripItem[] = [
-  { icon: "/icons/integracoes/logos/sap.svg", iconWidth: 100, iconHeight: 49, label: "SAP" },
-  { icon: "/icons/integracoes/logos/oracle.svg", iconWidth: 120, iconHeight: 16, label: "Oracle" },
+  { icon: "/icons/integracoes/logos/sap.svg", iconWidth: 70, iconHeight: 34, label: "SAP" },
+  { icon: "/icons/integracoes/logos/oracle.svg", iconWidth: 84, iconHeight: 11, label: "Oracle" },
   {
     icon: "/icons/integracoes/logos/microsoft.svg",
-    iconWidth: 36,
-    iconHeight: 36,
+    iconWidth: 25,
+    iconHeight: 25,
     label: "Microsoft",
     afterText: "Microsoft",
     decorativeIcon: true,
   },
   {
     icon: "/icons/integracoes/logos/google-land.svg",
-    iconWidth: 77,
-    iconHeight: 25,
+    iconWidth: 54,
+    iconHeight: 18,
     label: "Google",
     afterText: "Workspace",
     afterTextTone: "muted",
   },
-  { icon: "/icons/integracoes/logos/salesforce.svg", iconWidth: 85, iconHeight: 60, label: "Salesforce" },
-  { icon: "/icons/integracoes/logos/zapier.svg", iconWidth: 120, iconHeight: 32, label: "Zapier" },
-  { icon: "/icons/integracoes/logos/hubspot.svg", iconWidth: 120, iconHeight: 35, label: "HubSpot" },
+  { icon: "/icons/integracoes/logos/salesforce.svg", iconWidth: 60, iconHeight: 42, label: "Salesforce" },
+  { icon: "/icons/integracoes/logos/zapier.svg", iconWidth: 84, iconHeight: 22, label: "Zapier" },
+  { icon: "/icons/integracoes/logos/hubspot.svg", iconWidth: 84, iconHeight: 25, label: "HubSpot" },
 ];
 
 /** Icon only — title/description text lives in messages/<locale>/integracoes.json's

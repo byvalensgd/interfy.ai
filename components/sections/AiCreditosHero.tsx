@@ -36,8 +36,7 @@ export default async function AiCreditosHero() {
               id="ai-creditos-hero-heading"
               className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
             >
-              {hero.headingLine1}
-              <br />
+              {hero.headingLine1}{" "}
               <span className="text-azul-base">{hero.headingHighlight}</span>
               {hero.headingSuffix}
             </h1>
@@ -49,7 +48,7 @@ export default async function AiCreditosHero() {
 
             <div className="@container flex w-full flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5 lg:justify-start">
               <Button
-                href={withLocale("/comece-gratis", locale)}
+                href={withLocale("/test-drive", locale)}
                 variant="primary"
                 className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 showArrow
@@ -72,8 +71,9 @@ export default async function AiCreditosHero() {
            * At lg+ (side by side, matching the grid's own 2-column break): video first, fixed
            * -width cards pinned to the end via justify-end, overlapping it by 100px — CSS `gap`
            * can't go negative (invalid, silently ignored), so lg:gap-0 clears the row gap and the
-           * -100px comes from the cards column's own -ml. */}
-          <div className="flex flex-col items-stretch justify-end gap-5 lg:h-full lg:flex-row lg:gap-0">
+           * -100px comes from the cards column's own -ml. lg:min-w-[650px]: floor for the row
+           * itself so it never gets squeezed under that. */}
+          <div className="flex flex-col items-stretch justify-end gap-5 lg:h-full lg:flex-row lg:gap-0 lg:min-w-[650px]">
             {/* Plain (non-Reveal) wrapper: Reveal keeps a permanent translate-* transform even
              * after revealing, which creates a stacking context and would trap mix-blend-multiply
              * inside it instead of blending with the section's actual gradient background.
@@ -83,9 +83,9 @@ export default async function AiCreditosHero() {
              * — at 740px wide that produced a 739px-tall, mostly off-screen video. Taking it out
              * of flow means the wrapper's height comes only from aspect-square (mobile) or the
              * row's own stretch against the cards column (lg+, via lg:aspect-auto lg:h-full). */}
-            <div className="relative mx-auto min-w-[280px] max-w-[700px] flex-1 aspect-square lg:mx-0 lg:aspect-auto lg:h-full lg:max-w-none">
+            <div className="relative mx-auto w-full max-w-[750px] flex-1 aspect-square lg:mx-0 lg:aspect-auto lg:max-w-none">
               <AutoplayVideo
-                src="/ai-creditos/hero-orb.mp4"
+                src="/ai-creditos/hero-orb"
                 replayDelayMs={10000}
                 className="absolute inset-0 size-full object-contain mix-blend-multiply"
                 style={{
@@ -105,20 +105,20 @@ export default async function AiCreditosHero() {
             <Reveal immediate delayMs={120} className="flex w-full flex-col justify-center lg:w-[260px] lg:flex-none lg:-ml-[100px]">
               <ul
                 aria-label={hero.bannerAriaLabel}
-                className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-col lg:gap-[30px]"
+                className="grid grid-cols-1 gap-5 sm:grid-cols-3 lg:flex lg:flex-col lg:gap-[30px]"
               >
                 {banner.map((item) => (
                   <li
                     key={item.title}
-                    className="flex w-full flex-col gap-5 rounded-[20px] border border-contorno-base bg-branco p-5"
+                    className="flex w-full flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco p-5 text-center"
                   >
-                    <div className="flex h-[50px] items-center gap-5">
-                      <span className={`flex size-[50px] shrink-0 items-center justify-center rounded-full p-3 ${item.bg}`}>
-                        <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} />
-                      </span>
-                      <p className="min-w-0 flex-1 text-xl leading-[1.2] font-bold text-texto-doc-ok">{item.title}</p>
+                    <span className={`flex size-[50px] shrink-0 items-center justify-center rounded-full p-3 ${item.bg}`}>
+                      <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} />
+                    </span>
+                    <div className="flex w-full flex-col gap-2.5">
+                      <p className="w-full text-xl leading-[1.2] font-bold text-texto-doc-ok">{item.title}</p>
+                      <p className="w-full text-base leading-[1.2] font-medium text-texto">{item.description}</p>
                     </div>
-                    <p className="w-full text-base leading-[1.2] font-medium text-texto">{item.description}</p>
                   </li>
                 ))}
               </ul>
@@ -127,19 +127,20 @@ export default async function AiCreditosHero() {
         </div>
 
         <Reveal immediate delayMs={200} className="w-full">
-          <div className="flex w-full flex-wrap items-center gap-10 rounded-[14px] border border-contorno-base bg-gradient-to-b from-[#001240] to-[#001149] p-[30px]">
+          <div className="flex w-full flex-wrap items-center justify-center gap-10 rounded-[14px] border border-contorno-base bg-gradient-to-b from-[#001240] to-[#001149] p-[30px]">
             <div className="flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left">
-              <Image src="/icons/ai-creditos/stacked-3d-layers.png" alt="" aria-hidden="true" width={52} height={55} className="shrink-0" />
+              <Image src="/icons/ai-creditos/stacked-3d-layers.webp" alt="" aria-hidden="true" width={52} height={55} className="shrink-0" />
               <div className="flex flex-col items-center gap-2.5 lg:items-start">
                 <p className="text-xl leading-[1.2] font-bold text-branco">{hero.strip.heading}</p>
                 <p className="text-base leading-[1.2] font-medium text-branco">{hero.strip.description}</p>
               </div>
             </div>
 
-            {/* "Blocos Mobile": below lg, each stat becomes its own bordered white card
-             * (StatsBar.tsx's established mobile-card pattern); at lg+, the flat in-row
-             * treatment that already fits fine directly on the dark navy background. */}
-            <ul aria-label={hero.strip.ariaLabel} className="flex w-full flex-wrap gap-4 lg:hidden">
+            {/* "Blocos Mobile": only below sm (phone breakpoint), each stat becomes its own
+             * bordered white card (StatsBar.tsx's established mobile-card pattern); from sm
+             * up (tablet + desktop), the flat in-row treatment that already fits fine
+             * directly on the dark navy background. */}
+            <ul aria-label={hero.strip.ariaLabel} className="flex w-full flex-wrap gap-4 sm:hidden">
               {stripItemsBlue.map((item) => (
                 <li
                   key={item.icon}
@@ -152,9 +153,9 @@ export default async function AiCreditosHero() {
                 </li>
               ))}
             </ul>
-            <ul aria-label={hero.strip.ariaLabel} className="hidden flex-1 flex-wrap items-center justify-between gap-5 lg:flex">
+            <ul aria-label={hero.strip.ariaLabel} className="hidden flex-1 grid-cols-2 items-center gap-5 sm:grid sm:min-w-[380px] lg:grid-cols-4">
               {stripItems.map((item) => (
-                <li key={item.icon} className="flex flex-1 flex-col items-center gap-2.5">
+                <li key={item.icon} className="flex flex-col items-center gap-2.5">
                   <Image src={item.icon} alt="" aria-hidden="true" width={32} height={32} className="shrink-0" />
                   <p className="w-full text-center text-base leading-[1.2] font-bold whitespace-nowrap text-branco">
                     {item.label}

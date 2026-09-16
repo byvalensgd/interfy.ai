@@ -34,7 +34,7 @@ export const footerColumns: FooterColumn[] = [
     links: [
       { href: "/empresa/sobre", icon: "/icons/footer/pessoas.svg" },
       { href: "/platform", icon: "/icons/footer/logo-interfy.svg" },
-      { href: "/comece-gratis", icon: "/icons/footer/free.svg" },
+      { href: "/test-drive", icon: "/icons/footer/free.svg" },
       { href: "/parceria", icon: "/icons/footer/parceria.svg" },
       { href: "/blog", icon: "/icons/footer/blog.svg" },
     ],

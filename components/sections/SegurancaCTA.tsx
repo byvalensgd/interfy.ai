@@ -36,7 +36,7 @@ export default async function SegurancaCTA() {
               <p className="text-lg leading-[1.2] font-semibold lg:max-w-2xl">{cta.description}</p>
             </div>
             <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
-              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={CTA_DISABLED}>
+              <Button href={withLocale("/test-drive", locale)} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={CTA_DISABLED}>
                 {cta.primaryButton}
               </Button>
               <Link
@@ -48,9 +48,39 @@ export default async function SegurancaCTA() {
             </div>
           </div>
 
+          {/* Below lg: each pillar becomes its own bordered card, per the
+              site's standing icon+text mobile treatment (see StatsBar.tsx).
+              Split into two grids (3 then 2) instead of one grid-cols-3 —
+              a single grid would strand the 5th item under an empty 3rd
+              column; a dedicated 2-up row fills the full width instead. */}
+          <div className="flex w-full flex-col gap-4 lg:hidden">
+            <ul aria-label={cta.featuresAriaLabel} className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              {features.slice(0, 3).map((feature) => (
+                <li
+                  key={feature.icon}
+                  className="flex flex-col items-center gap-2.5 rounded-xl border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={feature.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <p className="text-base leading-[1.2] font-bold text-texto">{feature.label}</p>
+                </li>
+              ))}
+            </ul>
+            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {features.slice(3).map((feature) => (
+                <li
+                  key={feature.icon}
+                  className="flex flex-col items-center gap-2.5 rounded-xl border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={feature.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <p className="text-base leading-[1.2] font-bold text-texto">{feature.label}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <ul
             aria-label={cta.featuresAriaLabel}
-            className="grid w-full grid-cols-1 gap-x-10 gap-y-8 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-2 lg:grid-cols-5"
+            className="hidden w-full grid-cols-5 gap-x-10 gap-y-8 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] lg:grid"
           >
             {features.map((feature) => (
               <li key={feature.icon} className="flex min-w-0 items-center gap-2.5">

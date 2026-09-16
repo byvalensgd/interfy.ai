@@ -55,10 +55,32 @@ export default async function TestDriveHero() {
           </div>
         </div>
 
-        <Reveal immediate delayMs={240}>
+        <Reveal immediate delayMs={240} className="w-full">
+          {/* Below lg: each differentiator becomes its own bordered card,
+              matching the StatsBar mobile-block pattern. */}
+          <ul aria-label={hero.ariaLabel} className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 lg:hidden">
+            {heroDifferentiators.map((item, index) => {
+              const text = hero.differentiators[index];
+              return (
+                <li
+                  key={text.title}
+                  className="flex flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <div className="flex w-full flex-col items-center gap-2">
+                    <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                      {text.title}
+                    </p>
+                    <p className="w-full text-sm leading-[1.2] font-medium text-texto">{text.subtitle}</p>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+
           <ul
             aria-label={hero.ariaLabel}
-            className="grid w-full grid-cols-1 items-center gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-3 lg:flex lg:flex-wrap lg:justify-around"
+            className="hidden w-full items-center gap-x-10 gap-y-5 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] lg:grid lg:grid-cols-3"
           >
             {heroDifferentiators.map((item, index) => {
               const text = hero.differentiators[index];

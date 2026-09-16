@@ -23,6 +23,7 @@
         { "label": "Reliable infrastructure" }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
       { "label": "99.99%", "description": "Guaranteed SLA availability" },
       { "label": "24/7", "description": "Continuous monitoring" },

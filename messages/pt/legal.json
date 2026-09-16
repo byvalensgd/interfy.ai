@@ -2,8 +2,8 @@
   "meta": {
     "termos": {
       "title": "Termos de Uso",
-      "description": "Termos de Uso da plataforma Interfy: condições de uso, cadastro, planos, propriedade intelectual e responsabilidades.",
-      "keywords": ["termos de uso Interfy", "contrato de uso Interfy"]
+      "description": "Termos de Uso da plataforma Interfy: condições de uso, cadastro, pagamento, propriedade intelectual e responsabilidades.",
+      "keywords": ["termos de uso Interfy", "contrato de assinatura Interfy"]
     },
     "privacidade": {
       "title": "Políticas de Privacidade",
@@ -16,78 +16,207 @@
       "keywords": ["LGPD Interfy", "GDPR Interfy", "proteção de dados Interfy"]
     }
   },
+  "search": {
+    "ariaLabel": "Pesquisar nesta página",
+    "placeholder": "Pesquise um assunto ou palavra-chave...",
+    "clearLabel": "Limpar busca",
+    "resultsCountLabel": "resultado(s) encontrado(s)",
+    "noResultsLabel": "Nenhum resultado encontrado para sua busca."
+  },
   "termos": {
     "ariaLabel": "Termos de Uso da Interfy",
     "eyebrow": "Informações Legais",
     "sidebarLabel": "Nesta página",
     "title": "Termos de Uso",
-    "updatedLabel": "Última atualização: 1 de setembro de 2026",
-    "intro": "Estes Termos de Uso regem o acesso e a utilização da plataforma Interfy, incluindo os produtos Documents, Process, Capture, Sign, Connect, Agents, Mobile e Voice, disponibilizados pela Interfy Corporation. Ao criar uma conta ou utilizar nossos serviços, você concorda com as condições descritas abaixo. Este documento é um rascunho padrão e deve ser revisado pelo time jurídico antes da publicação final.",
+    "updatedLabel": "Contrato Padrão de Assinatura — Versão 1/2021, atualizado em 18 de fevereiro de 2021",
+    "intro": "Este Contrato entrará em vigor na primeira data em que você concordar, acessar ou usar os Serviços Contratados da Interfy Corporation, com sede em Orlando, Flórida, Estados Unidos (\"Contratada\"), e Você (\"Contratante\"). Este é um acordo legal entre você (Contratante) e a Interfy Corporation (Contratada), que descreve os termos que regem o uso dos serviços online da Interfy, fornecidos a você através deste site, incluindo conteúdo, atualizações e novos lançamentos, identificado como \"Contrato\". Se você estiver celebrando este Contrato em nome de uma empresa ou outra entidade legal, você declara e garante que tem autoridade para vincular essa entidade e suas afiliadas a estes termos e condições como seu representante legal e autorizado, e que leu e entendeu este contrato. Nesse caso, os termos 'Você' ou 'Seu' se referem a tal entidade e suas afiliadas, assim como a você. Ao aceitar eletronicamente clicando em \"Concordo\", acessar ou usar os Serviços, você concorda irrevogavelmente com este Contrato e com a Política de Privacidade disponível neste site.",
     "sections": [
       {
-        "heading": "1. Aceitação dos termos",
-        "paragraphs": [
-          "Ao acessar ou utilizar a plataforma Interfy, você declara ter lido, compreendido e aceito integralmente estes Termos de Uso e a nossa Política de Privacidade. Caso não concorde com qualquer disposição, você não deve utilizar os serviços."
-        ]
-      },
-      {
-        "heading": "2. Descrição do serviço",
-        "paragraphs": [
-          "A Interfy oferece uma plataforma empresarial que reúne gestão de documentos, automação de processos (BPM), captura inteligente, assinatura eletrônica, integrações, agentes de IA e aplicativos móveis, disponibilizada por assinatura (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Cadastro e conta",
-        "paragraphs": ["Para utilizar a plataforma, é necessário criar uma conta com informações verdadeiras, completas e atualizadas. Você é responsável por manter a confidencialidade das suas credenciais de acesso e por todas as atividades realizadas na sua conta."],
-        "items": [
-          "Não compartilhar senhas ou credenciais de acesso com terceiros não autorizados",
-          "Notificar a Interfy imediatamente em caso de suspeita de uso não autorizado da conta",
-          "Manter os dados cadastrais atualizados"
-        ]
-      },
-      {
-        "heading": "4. Uso aceitável",
-        "paragraphs": ["Você concorda em não utilizar a plataforma para fins ilícitos, para violar direitos de terceiros, para distribuir malware, ou para tentar acessar áreas ou dados sem autorização."]
-      },
-      {
-        "heading": "5. Propriedade intelectual",
-        "paragraphs": ["A plataforma Interfy, incluindo software, marcas, layouts e conteúdos, é de propriedade da Interfy Corporation ou de seus licenciantes, protegida por leis de propriedade intelectual. Nenhuma disposição destes Termos transfere direitos de propriedade intelectual ao cliente, exceto a licença de uso da plataforma durante a vigência da assinatura."]
-      },
-      {
-        "heading": "6. Planos, pagamento e cancelamento",
-        "paragraphs": ["O acesso à plataforma é concedido conforme o plano contratado. Valores, formas de pagamento e condições de renovação são informados no momento da contratação. O cancelamento pode ser solicitado a qualquer momento, observadas as condições específicas de cada plano."]
-      },
-      {
-        "heading": "7. Dados e conteúdo do cliente",
-        "paragraphs": ["Todo conteúdo enviado, armazenado ou processado pelo cliente na plataforma (\"Conteúdo do Cliente\") permanece de propriedade do cliente. A Interfy atua como operadora desses dados, processando-os conforme as instruções do cliente e nossa Política de Privacidade."]
-      },
-      {
-        "heading": "8. Disponibilidade e suporte",
-        "paragraphs": [
-          "A Interfy opera com infraestrutura cloud-native Multi-AZ na AWS, com SLA de disponibilidade de 99,99%, monitoramento contínuo 24/7 e plano de recuperação de desastres com replicação geográfica.",
-          "O suporte é prestado conforme os canais e prazos descritos na nossa página de Suporte, e o histórico de disponibilidade e incidentes fica publicado em tempo real na página de Status da Plataforma."
+        "heading": "1. Definições",
+        "blocks": [
+          { "ul": [
+            "Usuários: são todos os indivíduos autorizados pela Contratante, através da liberação de login e senha, a acessar e utilizar os serviços da Plataforma. Os \"usuários\" podem ser empregados diretos, prestadores de serviços, terceirizados, consultores etc., com os quais a Contratante realize negócios.",
+            "Serviços: é o conjunto de ferramentas e funcionalidades fornecidas online pela Contratada através da conta de acesso criada por você ou por um de nossos parceiros de negócios credenciados, em um de nossos portais na web.",
+            "Dados: significa todo e qualquer dado ou documento coletado, processado e mantido pela/para Contratante, utilizando as soluções disponibilizadas na Plataforma pela Contratada.",
+            "Propriedade Intelectual: são todos os segredos comerciais, marcas registradas ou não registradas para produto ou serviço, patentes e pedidos de patentes, nomes comerciais, direitos autorais, morais, de invenções ou de propriedade intelectual e todos os outros direitos da Contratada em qualquer parte do mundo.",
+            "Política de Privacidade: significa as regras e práticas que regulam a maneira como a Contratada trata a privacidade das informações processadas na Plataforma de Serviços Online."
+          ] },
+          { "p": "A Política de Privacidade é vinculada a este termo de aceite de assinatura de serviços e contém informações sobre como coletamos e processamos dados pessoais através dos nossos sites e dos nossos serviços." },
+          { "ul": [
+            "Plataforma Online: significa o ambiente virtual, por meio do qual o usuário, após a criação da workspace, pode acessar e utilizar os serviços contratados.",
+            "Código Malicioso: são arquivos de dados, programas ou código-fonte cujo propósito é causar danos ao funcionamento da plataforma, como vírus, por exemplo.",
+            "Invoice: é o documento emitido para realização da cobrança dos serviços prestados mensalmente, também utilizado como documento fiscal.",
+            "Contrato: equivale a este termo de acordo de assinatura dos serviços fornecidos pela Contratada.",
+            "Documentação: significa os materiais de ajuda e treinamento fornecidos pela Contratada aos usuários da Contratante, atualizados periodicamente.",
+            "Conta Virtual: é a conta utilizada pela Contratante para ter acesso aos serviços fornecidos pela Contratada, realizado de forma online somente por usuários autorizados pela Contratante, através da qual são disponibilizadas todas as funcionalidades contratadas.",
+            "Serviços de Terceiros: significa outros serviços que podem ser utilizados em conjunto com as soluções disponibilizadas através da plataforma online, pelos quais a Contratada não será responsável pelo funcionamento ou por interferências nos serviços contratados de acordo com este termo."
+          ] }
         ],
-        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "Ver Política de Privacidade completa", "href": "/legal/privacidade" }
       },
       {
-        "heading": "9. Limitação de responsabilidade",
-        "paragraphs": ["Na máxima extensão permitida pela lei aplicável, a Interfy não será responsável por danos indiretos, incidentais ou consequenciais decorrentes do uso ou da impossibilidade de uso da plataforma."]
+        "heading": "2. Condições gerais",
+        "blocks": [
+          { "p": "A Contratada disponibilizará, mediante a formalização da adesão aos serviços através do aceite deste Termo de Acordo de Assinatura (Contrato) e da Política de Privacidade, conforme aplicável: a) a solução adquirida pela Contratante de acordo com o plano selecionado no ato da adesão online; b) suporte técnico padrão para atendimento às soluções adquiridas, sem custo adicional para a Contratante; c) manterá a solução adquirida disponível online 24 horas por dia, 7 dias por semana, exceto por períodos de inatividade previamente programados, ou qualquer indisponibilidade causada por circunstâncias além do controle razoável da Contratada, incluindo falhas ou problemas com o provedor de internet e/ou de infraestrutura, problemas com conexões externas à solução contratada, ou relacionados ao bloqueio dos serviços, seja qual for a causa." },
+          { "p": "Os Serviços podem incluir componentes, sistemas e outros serviços de terceiros, aos quais podem se aplicar termos adicionais, políticas ou exigências de outros fornecedores, inclusive exigências de idade." },
+          { "p": "A Política de Privacidade disponível neste site faz parte integral deste Contrato. A Contratada manterá proteções administrativas, físicas e técnicas para manter a segurança, a confidencialidade e a integridade do conteúdo armazenado, considerando um padrão de mercado razoável e aceitável. É preciso que você siga as políticas disponibilizadas dentro dos Serviços, e não faça uso indevido, não interfira no uso dos Serviços e nem tente acessá-los por um método diferente da interface e das instruções e métodos lícitos que fornecemos." },
+          { "p": "Você pode usar os serviços somente conforme permitido por lei. Podemos suspender ou deixar de fornecer os Serviços se você descumprir nossos Termos ou Políticas, ou quaisquer leis aplicáveis, ou se estivermos investigando casos de suspeita de má conduta." },
+          { "p": "Você deve concordar em não usar, nem permitir que terceiros usem os Serviços ou o conteúdo de uma maneira que viole qualquer lei, e as regras deste contrato e da Política de Privacidade. Você concorda que não irá:" },
+          { "ul": [
+            "Fornecer acesso ou fornecer qualquer parte dos Serviços a terceiros não vinculados ao seu negócio.",
+            "Reproduzir, modificar, copiar, desconstruir, vender, comercializar ou revender os Serviços, exceto se você for um revendedor credenciado pela Contratada e autorizado por escrito."
+          ] },
+          { "p": "Os Serviços são protegidos por direitos autorais, segredos comerciais e outras leis de propriedade intelectual que incluem, dentre outros, quaisquer marcas ou logotipos utilizados em sites. Você só tem o direito de usar os Serviços apenas para os fins descritos neste contrato de assinatura." },
+          { "p": "A Contratada reserva todos os outros direitos nos Serviços, seja de sua propriedade ou de propriedade de terceiros. Até a rescisão deste Contrato e desde que você cumpra todas as obrigações de pagamento aplicáveis e esteja em conformidade com este Contrato, a Contratada concede a você um direito pessoal, limitado, não exclusivo e intransferível, e uma licença para usar os Serviços." },
+          { "p": "Nós respondemos às notificações de alegação de violação de direitos autorais e encerramos contas de infratores reincidentes de acordo com os procedimentos estabelecidos nas leis americanas de direitos autorais. Fornecemos informações para ajudar os detentores de direitos autorais a gerenciar sua propriedade intelectual on-line." },
+          { "p": "Caso você entenda que alguém está violando seus direitos autorais e quiser nos notificar, você pode enviar sua notificação para contato@interfy.ai. Os Serviços permitem que você envie conteúdo, dados e documentos para armazenamento. Você mantém a propriedade de quaisquer direitos de propriedade intelectual que detenha sobre aquele conteúdo ou documento. Em resumo, aquilo que pertence a você permanece com você." }
+        ]
       },
       {
-        "heading": "10. Rescisão",
-        "paragraphs": ["A Interfy pode suspender ou encerrar o acesso à plataforma em caso de violação destes Termos, mediante notificação prévia, exceto em casos de risco iminente à segurança da plataforma ou de terceiros."]
+        "heading": "3. Sua conta",
+        "paragraphs": ["Você precisa criar uma conta para utilizar os Serviços. Você poderá criar sua própria conta no site ou ela poderá ser atribuída a você por um administrador Parceiro da Contratada. Se você estiver usando uma conta da Plataforma de Serviços Online atribuída a você por um administrador, termos diferentes ou adicionais podem ser aplicados, e seu administrador poderá ser capaz de bloquear ou desativar sua conta."]
       },
       {
-        "heading": "11. Alterações nos termos",
-        "paragraphs": ["Estes Termos podem ser atualizados periodicamente. Alterações relevantes serão comunicadas por e-mail ou aviso na plataforma, com antecedência razoável em relação à entrada em vigor."]
+        "heading": "4. Retenção e exclusão de seus dados",
+        "paragraphs": ["Os dados da Contratante serão armazenados no banco de dados da Contratada, desde que a conta tenha sido criada e este contrato esteja válido. De acordo com a Política de Privacidade, os dados serão eliminados (excluídos permanentemente) em até 90 dias após o encerramento do contrato."]
       },
       {
-        "heading": "12. Lei aplicável e foro",
-        "paragraphs": ["Estes Termos são regidos pelas leis da República Federativa do Brasil, sem prejuízo de disposições contratuais específicas para clientes de outras jurisdições."]
+        "heading": "5. Tratamento de dados pessoais, transferência e sigilo",
+        "paragraphs": [
+          "Você pode ver a Política de Privacidade da Contratada, fornecida a partir do nosso site. Você deve concordar com a Política de Privacidade e quaisquer alterações publicadas pela Contratada. Você concorda que a Contratada poderá usar e manter seus dados de acordo com a Política de Privacidade, como parte dos Serviços. Você concede à Contratada permissão para combinar informações identificáveis e não identificáveis que você insere ou carrega nos Serviços com as de outros usuários dos Serviços e/ou outros serviços da Contratada. Isso significa que a Contratada poderá usar dados agregados de seus usuários para melhorar os Serviços ou para projetar promoções e fornecer maneiras de comparar práticas de negócios com outros usuários. A Contratada é uma empresa global e pode acessar ou armazenar informações pessoais em vários países, conforme especificado em nossa Política de Privacidade.",
+          "Contratante e Contratada comprometem-se a tratar as informações classificadas legalmente como dados pessoais, em razão do presente contrato, observando a legislação aplicável, sob pena de responsabilização por descumprimento contratual, sem prejuízo de perdas e danos. O tratamento de dados pessoais se dará unicamente em observância à finalidade estabelecida neste contrato.",
+          "As partes se comprometem a não transferir e/ou compartilhar com terceiros os dados pessoais tratados, exceto se for requisito essencial para cumprimento do presente termo ou de obrigações legais/judiciais; contudo, ainda que uma das partes seja legalmente obrigada a transferir dados a terceiros, deve notificar a outra parte e assegurar a confidencialidade e a integridade dos dados sob pena de responsabilização. Informações sobre com quem compartilhamos dados para prover nossos serviços podem ser consultadas em nossa Política de Privacidade.",
+          "A Contratante será responsável pelo cumprimento deste contrato por seus usuários, pela exatidão, quantidade, qualidade e legalidade de seus dados e dos meios pelos quais os adquiriu, e pelos métodos e forma de processamento de suas informações armazenadas, fazendo seus melhores esforços para garantir a utilização da plataforma em acordo com os regulamentos aplicáveis, tanto no que diz respeito à legalidade, privacidade, integridade, confidencialidade e segurança dos dados processados, quanto para utilizar os serviços de acordo com a finalidade especificada neste termo de assinatura.",
+          "Se a Contratante conectar outras aplicações aos nossos serviços e utilizá-las em conjunto com as nossas soluções, a Contratante está ciente e concorda que o provedor dessa aplicação, independentemente da forma de conexão, poderá acessar e copiar dados da Contratante, conforme necessário para operar a aplicação. A Contratada não se responsabiliza por qualquer incidente, divulgação, modificação ou exclusão dos dados resultante do acesso por um terceiro autorizado pela Contratante.",
+          "Se a Contratada identificar que uma aplicação conectada não fornece condições razoáveis para a interoperação com a solução contratada, poderá deixar de fornecer o acesso ao terceiro, sem que haja qualquer penalização, reembolso ou compensação por parte da Contratada. A Contratada não é obrigada a avaliar as aplicações de terceiros, contudo, poderá fazê-lo se julgar pertinente."
+        ]
       },
       {
-        "heading": "13. Contato",
-        "paragraphs": ["Dúvidas sobre estes Termos podem ser enviadas para contato@interfy.ai."]
+        "heading": "6. Do pagamento",
+        "blocks": [
+          { "p": "A Contratante pagará em dólares norte-americanos todos os valores especificados na Conta Virtual relacionados à assinatura do plano inicial adquirido, mais os valores de consumo excedentes, quando houver. Ao fornecer as informações de pagamento, você autoriza a Contratada, ou terceiros por nós contratados para processamento de pagamentos, a cobrar em tal cartão de crédito/débito os valores correspondentes à solução contratada, de acordo com a Invoice disponibilizada em cada ciclo de fechamento. Você deve pagar com um dos seguintes métodos:" },
+          { "ul": [
+            "Um cartão de crédito válido e aceitável pela Contratada.",
+            "Um cartão de débito válido e aceitável pela Contratada.",
+            "Outra opção de pagamento que a Contratada fornecer a você por escrito ou disponibilizar nas configurações do seu plano de assinatura."
+          ] },
+          { "p": "A primeira opção é a mais usual e válida para cobranças de serviços fornecidos a qualquer país; para alguns países podemos disponibilizar as demais opções." },
+          { "p": "Se suas informações de pagamento e registro não forem precisas, atuais e completas, e você não as atualizar sempre que elas alterarem, poderemos suspender ou encerrar sua conta e recusar o uso dos Serviços." },
+          { "p": "Se você não nos notificar sobre atualizações do seu método de pagamento (por exemplo, data de vencimento do cartão de crédito), para evitar a interrupção do seu serviço poderemos participar de programas apoiados pelo seu provedor de cartões (por exemplo, serviços de atualização, programas de faturamento recorrente etc.) para tentar atualizar suas informações de pagamento, e você nos autoriza a continuar faturando sua conta com as informações atualizadas que obtemos, embora essa não seja uma obrigação da Contratada." },
+          { "p": "A Contratada renovará automaticamente seus Serviços mensais ou anuais às taxas vigentes na época, a menos que os Serviços sejam cancelados ou rescindidos sob este Contrato." },
+          { "p": "Se não for recebido qualquer montante faturado pela Contratada na data de vencimento, sem prejuízo de outras medidas aplicáveis: a) será cobrado juros de 1% do saldo pendente por mês, ou a taxa máxima permitida por lei, prevalecendo o que for menor; e/ou b) os serviços poderão ser suspensos quando o atraso superar 10 dias; c) em caso de atraso superior a 30 dias, a Contratada poderá utilizar serviços de empresas terceirizadas para cobrança do valor devido, incluindo os encargos legais previstos em lei; e/ou d) informar o inadimplemento aos órgãos e entidades de proteção de crédito; e/ou e) eliminar a conta da Contratante após 40 dias de inadimplência sem resolução." },
+          { "p": "Para casos de descumprimento material do Contrato, a suspensão será imediatamente efetiva, independentemente de notificação prévia." },
+          { "p": "Sem prejuízo do exposto acima, caso a Contratante esteja contestando as cobranças aplicáveis de forma clara, razoável e de boa-fé, e estiver cooperando diligentemente para resolver a divergência, a Contratada fará seus melhores esforços para resolver a questão da forma mais célere possível e evitar as medidas acima mencionadas." },
+          { "p": "A Contratante concorda que suas compras não são condicionadas a qualquer expectativa relacionada à entrega de funcionalidades futuras a serem desenvolvidas, ainda que a Contratada tenha feito algum comentário oral ou por escrito sobre funcionalidades previstas." },
+          { "p": "Sendo este Contrato rescindido, a Contratada fica desde já autorizada a eliminar a Conta Virtual da Contratante em definitivo, mediante notificação por e-mail à Contratante." }
+        ]
+      },
+      {
+        "heading": "7. Limites de uso",
+        "paragraphs": [
+          "Ao criar sua conta, você irá selecionar o plano inicial da solução, onde estarão definidos os recursos contemplados na sua contratação, as funcionalidades, a quantidade de espaço de armazenamento e a quantidade de usuários. Itens opcionais podem ser incluídos na contratação, ou posteriormente pelo usuário administrador da workspace.",
+          "Enquanto este contrato estiver ativo, a Contratada não irá limitar o consumo dos usuários da Contratante; portanto, embora exista um pacote de serviços inicial, você poderá cadastrar e manter ativos quantos usuários desejar, se estiver exercendo o papel de administrador da plataforma, sem limitação quanto ao volume de armazenamento. Mensalmente será contabilizado o consumo total, que inclui o valor do pacote inicial e todos os itens excedentes, seja em número de usuários ativos, volume de armazenamento ou itens adicionais, os quais, somados, compõem o total da fatura mensal. Havendo excedentes, independentemente de aprovação prévia da Contratante, a Contratada está autorizada a realizar a cobrança pro rata do pacote mensal incluindo as quantidades adicionais.",
+          "O administrador da workspace pode mudar seu plano de serviços para um plano maior que o seu consumo atual, ou um plano com características e ferramentas diferentes; contudo, deve estar ciente de que, ao migrar para um plano com menos funcionalidades, todas as funções não contempladas no novo plano deixarão de ser disponibilizadas aos usuários."
+        ]
+      },
+      {
+        "heading": "8. Modificar ou cancelar os serviços",
+        "paragraphs": [
+          "Estamos constantemente alterando e melhorando os Serviços. Podemos incluir ou remover funcionalidades ou recursos, e podemos também suspender ou encerrar um Serviço por completo. Você pode deixar de usar os Serviços a qualquer momento, embora lamentemos ver você partir.",
+          "A Contratada também poderá deixar de prestar os Serviços a você, ou incluir novos limites aos Serviços a qualquer momento. Acreditamos que você seja o proprietário dos seus dados e que é importante preservar seu acesso a eles. Se descontinuarmos um Serviço, quando razoavelmente possível, você será informado com antecedência e terá a chance de retirar as suas informações dos nossos Serviços."
+        ]
+      },
+      {
+        "heading": "9. Exclusão de garantias",
+        "paragraphs": [
+          "Fornecemos nossos Serviços usando um nível razoável de capacidade e cuidado e esperamos que você aproveite seu uso deles. Mas existem algumas coisas que não prometemos sobre os Serviços. Exceto quando expressamente previsto nestes termos ou em termos adicionais, nem a Contratada, nem seus fornecedores, parceiros ou distribuidores oferecem certas garantias sobre os Serviços. Por exemplo, não nos responsabilizamos pelos conteúdos nos Serviços, por funcionalidades específicas, disponibilidade ou capacidade de atender suas necessidades. Fornecemos os Serviços \"na forma em que estão\". Certas jurisdições preveem determinadas garantias, como a garantia de comerciabilidade implícita, adequação a uma finalidade específica e não violação. Na medida permitida por lei, excluímos todas as garantias.",
+          "Conforme previsto neste Contrato, nenhuma das partes faz qualquer garantia de qualquer tipo, expressas, implícitas, estatutárias ou de outra forma, e cada parte renuncia especificamente a todas as garantias implícitas, incluindo qualquer garantia implícita de comerciabilidade, adequação a um propósito particular ou não violação, na extensão máxima permitida pela lei aplicável. Cada uma das partes fica isenta de toda responsabilidade e obrigação de indenização por perdas ou danos causados por quaisquer terceiros provedores de hospedagem e aplicações."
+        ]
+      },
+      {
+        "heading": "10. Licença e direitos de propriedade",
+        "paragraphs": [
+          "A Contratada reserva todos os seus direitos, título e interesse relativos às Soluções, incluindo todos os seus direitos de Propriedade Intelectual relacionados.",
+          "O Serviço é disponibilizado com acesso limitado e nenhum direito de propriedade é transmitido à Contratante. A Contratada tem e mantém todos os direitos, títulos e interesses, incluindo todos os direitos de propriedade intelectual, no e para o serviço, incluindo todas as modificações, atualizações, upgrades, extensões, componentes e trabalhos derivados dos serviços.",
+          "A Contratante concede à Contratada e às suas Afiliadas ou Parceiros uma licença mundial, com prazo limitado pelo período de vigência deste termo de assinatura, para copiar, transmitir, hospedar e exibir seus Dados, inclusive código-fonte quando criados por ou para a Contratante, bem como para aplicações de terceiros, conforme necessário para a Contratada fornecer o acesso às Soluções em conformidade com este contrato.",
+          "A Contratada poderá utilizar esses Dados coletados para fins de levantamento de informações e métricas anonimizadas, para melhorar e aprimorar os Serviços e para outros fins de desenvolvimento, diagnóstico e correção do produto, sempre de forma anonimizada, sem identificação da Contratante.",
+          "A Contratante concede à Contratada uma licença mundial, definitiva, irrevogável e livre de royalties para incorporar e utilizar nas soluções novos recursos e funcionalidades desenvolvidos a pedido ou por sugestão da Contratante e/ou de seus usuários.",
+          "A Contratada, seus fornecedores, parceiros e distribuidores renunciam a quaisquer declarações ou garantias de que a sua utilização dos Serviços satisfaça ou garanta o cumprimento de quaisquer obrigações legais, leis ou regulamentos."
+        ]
+      },
+      {
+        "heading": "11. Responsabilidades sobre os serviços",
+        "paragraphs": [
+          "Quando permitido por lei, a Contratada e seus fornecedores, parceiros e distribuidores não serão responsáveis por perda de lucros, perda de receita, perda de dados, perdas financeiras ou danos indiretos, especiais, consequenciais, exemplares ou punitivos. Na medida permitida por lei, a responsabilidade total da Contratada e de seus fornecedores, parceiros e distribuidores, para qualquer reclamação sob estes termos, incluindo quaisquer garantias implícitas, limita-se ao valor que você pagou à Contratada nos últimos 12 meses pelo uso dos Serviços. Em todos os casos, a Contratada e seus fornecedores, parceiros e distribuidores não serão responsáveis por qualquer perda ou dano que não seja razoavelmente previsível.",
+          "Se você estiver usando nossos Serviços em nome de uma empresa, tal empresa deve aceitar estes termos. Ela isentará de responsabilidade e indenizará a Contratada e suas afiliadas, parceiros, distribuidores, executivos, agentes e trabalhadores de qualquer reivindicação, processo ou ação judicial proveniente ou relacionado ao uso dos Serviços ou à violação destes termos, incluindo qualquer responsabilidade ou despesa resultante de reivindicações, perdas, danos, processos, julgamentos, custos de litígio e honorários advocatícios.",
+          "Se a Contratante for vítima de um processo judicial alegando que o uso dos Serviços contratados viola ou é fruto de apropriação indevida de direitos de propriedade intelectual de terceiros, a Contratada defenderá a Contratante contra a reclamação, demanda ou ação judicial, e a indenizará por danos, despesas e custas atribuídas a uma decisão desfavorável, desde que a Contratante notifique por escrito a Contratada prontamente, em prazo viável para defesa, e dê o controle exclusivo e o suporte necessário à Contratada para promover a defesa, incluindo a opção de a Contratada modificar a solução ou encerrar este contrato com aviso prévio de 30 dias.",
+          "Se a Contratante for acionada judicialmente por violação de propriedade intelectual causada por aplicações de terceiros conectadas aos Serviços objeto deste Contrato, a Contratada ficará isenta de qualquer responsabilidade, e as obrigações de defesa e indenização à Contratante não serão aplicadas à Contratada.",
+          "Se a Contratada for vítima de reclamação, demanda, ação ou processo judicial apresentado por um terceiro sob a alegação de que os Dados armazenados e processados pela Contratante, ou a forma como utiliza os serviços e processa os dados, viola o presente acordo ou infringe algum regulamento ou lei aplicável, inclusive propriedade intelectual de terceiros, a Contratante indenizará a Contratada por danos, custas e despesas decorrentes da defesa ou de eventual condenação, desde que a Contratada dê aviso imediato e por escrito à Contratante e lhe dê controle exclusivo da defesa mediante requerimento em tempo hábil, ressalvando que a Contratante não pode fazer acordo em nome da Contratada sem sua prévia aprovação por escrito. A Contratada deve fornecer à Contratante assistência razoável, às suas expensas, para a defesa."
+        ]
+      },
+      {
+        "heading": "12. Conteúdo",
+        "paragraphs": [
+          "Você é responsável por todos os materiais, documentos, dados e informações pessoais (\"Conteúdo\") carregados, postados ou armazenados por meio do uso dos Serviços. Você concede à Contratada uma licença mundial, isenta de royalties e não exclusiva para hospedar e monitorar qualquer Conteúdo fornecido por meio do uso dos Serviços.",
+          "Você deve utilizar as melhores práticas para armazenar seu conteúdo, pois você é responsável por qualquer conteúdo perdido ou irrecuperável por imperícia ou mau uso do Serviço. A Contratada não é responsável pelo Conteúdo ou pelos dados enviados através da Plataforma. Você concorda em não usar, nem permitir que terceiros usem os Serviços para fazer upload, publicar, distribuir, vincular, reproduzir, envolver ou transmitir conteúdo ilegal, fraudulento, difamatório, obsceno, pornográfico, profano, ameaçador, abusivo, ofensivo ou censurável; que personifique outra pessoa; do tipo cartas em cadeia, esquemas de pirâmide ou spam; vírus, cavalos de Troia, worms ou outro código malicioso; ou qualquer informação, software ou conteúdo que não seja legalmente seu e sem a devida permissão do titular dos direitos.",
+          "A Contratada pode, mas não tem obrigação de, monitorar o conteúdo dos Serviços. Podemos divulgar qualquer informação necessária para satisfazer nossas obrigações legais, proteger a Contratada ou seus clientes, proteger a privacidade, promover a segurança e proteger a vida, ou operar os Serviços adequadamente.",
+          "Se a Contratada for obrigada por lei a enviar-lhe comunicações sobre os Serviços ou produtos de terceiros, você concorda que a Contratada pode enviá-las por e-mail ou publicá-las em nossos sites ou aplicações às quais você tiver acesso, respeitando a confidencialidade das informações.",
+          "A parte receptora de informações confidenciais poderá divulgá-las somente quando obrigada por lei, regulamento ou ordem judicial ou administrativa, sendo obrigada a notificar prontamente a outra parte antes da divulgação, para facilitar os esforços de proteção das informações confidenciais, divulgando apenas a porção estritamente exigida. Quando a divulgação for feita nesses termos, a parte divulgadora não será responsabilizada por ela."
+        ]
+      },
+      {
+        "heading": "13. Rescisão",
+        "blocks": [
+          { "p": "A Contratada pode imediatamente, a seu exclusivo critério e sem aviso prévio, rescindir este Contrato ou suspender os Serviços se você não cumprir os termos deste Contrato ou se não concordar mais em receber comunicações eletrônicas. Após o término, você deve parar imediatamente de usar os Serviços e quaisquer pagamentos pendentes serão devidos. Qualquer rescisão deste Contrato não afetará os direitos da Contratada a quaisquer pagamentos devidos a ela." },
+          { "p": "A Contratada pode suspender o uso dos Serviços, remover conteúdo ou desativar e até encerrar qualquer conta virtual se, de boa-fé, acreditar razoavelmente que a Contratante ou algum de seus usuários está infringindo os termos deste contrato e a Política de Privacidade. A Contratada notificará a Contratante antes de suspender ou desativar a conta, a menos que esteja legalmente impedida de fazê-lo, caso em que notificará a Contratante assim que o impedimento cessar." },
+          { "p": "A Contratante pode rescindir este contrato, sem necessidade de motivação, mediante aviso prévio de no mínimo 30 dias, sem incidência de multa rescisória. Qualquer das partes pode rescindir este contrato se identificada uma das seguintes hipóteses:" },
+          { "ul": [
+            "Uma das partes entrar em processo de falência ou concordata.",
+            "Não sanada violação material comprovada deste contrato.",
+            "Situações de força maior, desastres, pandemias ou eventos naturais que impeçam comprovadamente a continuidade da prestação dos serviços."
+          ] },
+          { "p": "Qualquer das hipóteses de rescisão acima especificadas requer aviso prévio mínimo de 30 dias, sem prejuízo do recebimento pela Contratada dos valores devidos pela Contratante até a data efetiva da rescisão. Nenhum reembolso será devido à Contratante." }
+        ]
+      },
+      {
+        "heading": "14. Modificações deste termo",
+        "blocks": [
+          { "p": "Podemos modificar estes termos ou quaisquer termos adicionais aplicáveis ao Serviço, por exemplo, para refletir alterações da lei ou mudanças em nossos Serviços. Você deve consultar os termos regularmente. Postaremos avisos sobre modificações nesta página, e um aviso de alteração dentro do Serviço aplicável quando pertinente. As alterações não serão aplicadas retroativamente e entrarão em vigor pelo menos 14 dias após sua publicação; alterações relativas a novas funcionalidades de um Serviço, ou feitas por razões legais, entrarão em vigor imediatamente. Se você não concordar com os termos alterados de um Serviço, deve descontinuar o uso desse Serviço." },
+          { "p": "Os valores cobrados pelos serviços podem ser alterados pela Contratada, que deverá informar a Contratante através do endereço eletrônico responsável pela conta virtual; as alterações passarão a incidir sobre o valor dos serviços a partir da próxima renovação da assinatura." },
+          { "p": "A Contratada poderá notificar a Contratante sobre informações gerais referentes ao uso dos Serviços, ou qualquer comunicação necessária, por meio do correio eletrônico registrado por você na Plataforma para o administrador da conta virtual e para o e-mail de faturamento, quando se tratar de informações de cobrança. É responsabilidade da Contratante manter os dados da conta virtual atualizados e configurar os e-mails enviados a partir do domínio da Plataforma como seguros, para que não sejam tratados como spam; toda informação enviada será considerada entregue a partir de 1 dia útil após o envio." },
+          { "p": "Avisos de manutenção dos serviços, intervenções programadas, assuntos técnicos de interesse dos usuários e disponibilização de novas funcionalidades podem ser enviados diretamente aos usuários, a critério opcional da Contratante. Para se comunicar com a Contratada, a Contratante pode se utilizar dos seguintes meios:" },
+          { "ul": [
+            "Chat da Plataforma: para atendimento direto aos usuários do serviço, esclarecimento de dúvidas, suporte técnico e orientação de uso.",
+            "E-mail suporte@interfy.ai: para abertura de chamados de suporte técnico, sugestões de melhorias e esclarecimento de dúvidas quanto a configurações e uso dos serviços.",
+            "Questões relacionadas a tratamento de dados: privacidade@interfy.ai.",
+            "E-mail legal@interfy.ai: para demais solicitações, inclusive rescisão deste termo de assinatura ou questões legais."
+          ] }
+        ]
+      },
+      {
+        "heading": "15. Lei aplicável",
+        "paragraphs": ["A Contratante concorda que a lei estadual da Flórida/EUA rege este Contrato, sem considerar conflitos de provisões legais nem a escolha de outra jurisdição, por mais benéfica que seja."]
+      },
+      {
+        "heading": "16. Disputas",
+        "paragraphs": [
+          "Qualquer disputa ou reivindicação relacionada com os Serviços ou com este Contrato será resolvida por arbitragem vinculativa, em vez de em tribunal, exceto quando você puder reivindicar no tribunal de pequenas causas, se suas reivindicações se qualificarem. O Federal Arbitration Act regula a interpretação e aplicação desta disposição; o árbitro aplicará a lei da Flórida/EUA aos demais assuntos. Qualquer parte na arbitragem pode, a qualquer momento, solicitar liminares ou outras formas de reparação equitativa de qualquer tribunal de jurisdição competente.",
+          "Este Contrato, incluindo a Política de Privacidade, é o acordo integral entre você e a Contratada e substitui todos os entendimentos, comunicações e acordos anteriores, orais ou escritos, sobre o assunto em questão. Se qualquer tribunal competente determinar que qualquer parte deste Contrato é inválida, essa seção será removida sem afetar o restante do Contrato, que permanecerá válido e aplicável.",
+          "A Convenção das Nações Unidas sobre Contratos para a Venda Internacional de Mercadorias não se aplica a este Contrato. Você não pode atribuir ou transferir a propriedade deste Contrato a ninguém sem a aprovação por escrito da Contratada. A Contratada, porém, pode cedê-lo ou transferi-lo sem o seu consentimento a um parceiro, a uma empresa através de venda de ativos, ou a um sucessor por meio de fusão. Qualquer atribuição que viole esta seção será anulada.",
+          "A Contratante renuncia a qualquer direito de formular pedido como representante ou advogado de uma determinada classe em base de massa ou agregada, ou de consolidar o processo de arbitragem sem o consentimento de todas as partes. Qualquer sentença proferida pelo árbitro será final, conclusiva e vinculativa para as partes; salvo determinação diversa do árbitro, cada parte arcará com seus próprios custos e despesas. Após a confirmação de uma sentença arbitral em tribunal federal ou estadual da Flórida, a condenação pode ser executada em qualquer tribunal de jurisdição competente, sem prejuízo de a Contratada buscar liminar ou outro recurso em equidade em qualquer tribunal competente.",
+          "Este contrato é feito por partes independentes e não cria uma parceria, associação, sociedade, franquia, joint venture ou relação de emprego. O eventual não exercício imediato de um direito em razão de descumprimento não implica renúncia a ele, nem a inexequibilidade de uma disposição específica prejudicará as demais."
+        ]
+      },
+      {
+        "heading": "17. Combate à corrupção e lavagem de dinheiro",
+        "paragraphs": ["Dentro dos limites da relação contratual estipulada por este Termo de Assinatura, as partes se obrigam, por si, por seus empregados, sócios, prepostos, diretores, associados, terceiros, afiliados e qualquer pessoa que venha a agir em seu nome, a conduzir suas práticas comerciais de forma ética e de acordo com os preceitos legais aplicáveis, não podendo realizar promessas de pagamento, pagamentos, doações ou qualquer benefício, direta ou indiretamente, a terceiros, representantes de governo ou de entidades públicas ou privadas, com a finalidade de influenciar uma decisão para assegurar vantagem indevida, ilícita, irregular ou injusta. Ambas as partes declaram estar cientes e se comprometem a cumprir fielmente as disposições legais relacionadas ao combate e à prevenção da lavagem e ocultação de bens."]
+      },
+      {
+        "heading": "18. Disposições finais",
+        "paragraphs": [
+          "As partes concordam que as seções Retenção e Exclusão de seus Dados, Tratamento de Dados Pessoais (Transferência e Sigilo), Do Pagamento, Exclusão de Garantias, Licença e Direitos de Propriedade, Responsabilidades sobre os Serviços, Conteúdo, Lei Aplicável e Disputas sobreviverão a qualquer rescisão ou expiração deste Contrato.",
+          "Cada parte declara que validamente celebrou este termo de assinatura (Contrato) e tem o poder legal para fazê-lo."
+        ]
       }
     ]
   },
@@ -96,8 +225,8 @@
     "eyebrow": "Privacidade & Transparência",
     "sidebarLabel": "Nesta página",
     "title": "Política de Privacidade",
-    "updatedLabel": "Última atualização: 1 de setembro de 2026",
-    "intro": "Esta Política de Privacidade descreve como a Interfy Corporation coleta, usa, compartilha e protege dados pessoais no contexto da plataforma Interfy, em conformidade com a Lei Geral de Proteção de Dados (LGPD) e, quando aplicável, o Regulamento Geral de Proteção de Dados europeu (GDPR). Este documento é um rascunho padrão e deve ser revisado pelo time jurídico antes da publicação final.",
+    "updatedLabel": "Última atualização: 18 de fevereiro de 2021",
+    "intro": "Esta Política de Privacidade descreve os procedimentos utilizados pela Interfy para processamento de Dados Pessoais. Ela se aplica a todas as formas de coleta de dados que aplicamos para o fornecimento dos nossos serviços. Para um melhor entendimento desta Política, descrevemos a seguir as definições dos termos utilizados.",
     "certifications": {
       "heading": "Certificações e conformidade",
       "ctaLabel": "Ver detalhes completos",
@@ -111,75 +240,172 @@
     },
     "sections": [
       {
-        "heading": "1. Quem somos",
-        "paragraphs": ["A Interfy Corporation, com sede em Orlando, Flórida, Estados Unidos, é a controladora dos dados pessoais tratados através da plataforma Interfy, salvo quando atuar como operadora de dados por instrução de um cliente."]
-      },
-      {
-        "heading": "2. Quais dados coletamos",
-        "items": [
-          "Dados de cadastro: nome, e-mail, telefone, empresa e cargo",
-          "Dados de uso da plataforma: logs de acesso, ações realizadas e preferências de configuração",
-          "Conteúdo do Cliente: documentos, processos e demais informações inseridas na plataforma pelo próprio cliente",
-          "Dados técnicos: endereço IP, tipo de dispositivo e navegador"
+        "heading": "1. Definições",
+        "paragraphs": [
+          "Dados Pessoais: são as informações que permitem identificar uma pessoa natural, direta ou indiretamente, inclusive através do cruzamento de dados. Exemplo: número de identidade, CPF, endereço, fotografia, opção religiosa ou partidária, data de nascimento, dados de saúde, biometria etc.",
+          "Titular: é o proprietário do dado, ou seja, a pessoa natural a quem o dado se refere.",
+          "Tratamento de Dados: é qualquer ação realizada com uma informação pessoal, como captura, visualização, compartilhamento, recepção, edição, eliminação, transferência etc.",
+          "Finalidade: objetivo que se pretende atingir com o tratamento dos dados realizado.",
+          "Controlador: é a pessoa física ou jurídica indicada pela Interfy para responder aos questionamentos e garantir que o tratamento de dados seja realizado de acordo com a legislação aplicável, respeitando o direito dos titulares.",
+          "Operador: é a pessoa física ou jurídica que realiza o tratamento de dados em nome do controlador.",
+          "Terceiro: pessoa física ou jurídica de direito público ou privado com a qual a Interfy se relaciona ou venha a se relacionar.",
+          "Encarregado: é a pessoa física ou jurídica indicada pela Interfy para responder aos questionamentos e garantir que o tratamento de dados esteja sendo realizado de acordo com a LGPD, respeitando o direito dos titulares."
         ]
       },
       {
-        "heading": "3. Como usamos os dados",
-        "items": [
-          "Prestar e manter os serviços contratados",
-          "Autenticar usuários e proteger contas contra acesso não autorizado",
-          "Enviar comunicações operacionais, de suporte e, mediante consentimento, comunicações comerciais",
-          "Cumprir obrigações legais e regulatórias"
+        "heading": "2. Quais são os seus direitos como titular de dados",
+        "blocks": [
+          { "ul": [
+            "Como titular dos dados, você tem direito a acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara, adequada e ostensiva.",
+            "Você pode confirmar a existência de tratamento, solicitar e ter acesso aos dados.",
+            "Se identificar que os dados estão incompletos, inexatos ou desatualizados, você pode solicitar a correção.",
+            "A Interfy não guarda dados desnecessários, mas se algum dado for considerado excessivo, você pode solicitar a anonimização, o bloqueio ou a eliminação, inclusive se estiverem sendo tratados em desconformidade com a legislação aplicável.",
+            "Se precisar que seus dados sejam transferidos para outro fornecedor, você pode solicitar a portabilidade dos dados, mediante requisição expressa, observados os segredos comercial e industrial.",
+            "Se você nos deu consentimento para tratar seus dados, pode solicitar a eliminação deles, exceto nas hipóteses previstas na legislação aplicável.",
+            "Informaremos quais entidades públicas ou privadas com as quais a Interfy compartilhou seus dados, quando ocorrer compartilhamento.",
+            "Se você desejar não nos fornecer seu consentimento para o tratamento de dados, acataremos sua decisão e informaremos eventuais consequências do não fornecimento.",
+            "Você tem direito de revogar seu consentimento, mediante manifestação expressa, de forma gratuita e facilitada.",
+            "Se necessário, você tem direito de peticionar perante a ANPD, os organismos de defesa do consumidor e as instituições reguladoras de proteção de dados, caso seus dados sejam tratados de forma inadequada pela Interfy.",
+            "Você pode se opor ao tratamento de dados fundamentado em hipótese de dispensa de consentimento em caso de descumprimento à legislação aplicável.",
+            "Se a Interfy tratar dados de forma automatizada e tomar decisões baseadas unicamente nesse tratamento que afetem seus interesses, você pode solicitar a revisão de tais decisões.",
+            "A qualquer momento você pode solicitar informações claras e adequadas sobre os critérios e procedimentos utilizados para decisões automatizadas, observados os segredos comercial e industrial.",
+            "Para exercer seus direitos relacionados à proteção de dados, envie sua solicitação para privacidade@interfy.ai; nossa encarregada pela proteção de dados tomará as medidas necessárias para atendimento à sua solicitação.",
+            "Se você retirar seu consentimento e não houver outra base legal que ampare o processamento, deixaremos de processar seus dados para o objetivo consentido.",
+            "Qualquer informação que você fornecer em blogs ou websites, exposta na internet em locais sem controle de acesso, de forma pública, não pode ter sua proteção garantida por nós, tampouco podemos limitar quem poderá copiar ou compartilhar tais dados."
+          ] }
         ]
       },
       {
-        "heading": "4. Compartilhamento de dados",
-        "paragraphs": ["Dados pessoais podem ser compartilhados com provedores de infraestrutura (como serviços de nuvem AWS), processadores de pagamento e demais operadores estritamente necessários à prestação do serviço, sempre sob obrigações contratuais de confidencialidade e segurança. Não vendemos dados pessoais a terceiros."]
-      },
-      {
-        "heading": "5. Cookies e tecnologias similares",
-        "paragraphs": ["Utilizamos cookies essenciais para o funcionamento do site e, mediante consentimento, cookies analíticos para entender o uso da plataforma e melhorar a experiência do usuário."]
-      },
-      {
-        "heading": "6. Retenção de dados",
-        "paragraphs": ["Dados pessoais são mantidos pelo período necessário para cumprir as finalidades descritas nesta Política, ou conforme exigido por lei, sendo posteriormente eliminados ou anonimizados."]
-      },
-      {
-        "heading": "7. Segurança da informação",
-        "paragraphs": ["Adotamos segurança em múltiplas camadas, desde a arquitetura até o dia a dia da operação:"],
-        "items": [
-          "Isolamento por Workspace e banco de dados dedicado por cliente, sem compartilhamento",
-          "Criptografia avançada: dados em trânsito (TLS 1.2+) e em repouso (AES-256)",
-          "Controle de acesso granular (RBAC) por função, grupo e nível de sensibilidade",
-          "Autenticação corporativa: SSO, SAML 2.0, OAuth 2.0, AD/LDAP e MFA",
-          "Restrição de acesso por IP (IP Blocking)",
-          "Logs e trilha de auditoria imutável e pesquisável",
-          "Monitoramento de segurança 24/7, backups automáticos criptografados e Disaster Recovery com replicação geográfica",
-          "Infraestrutura Multi-AZ na AWS, certificada ISO/IEC 27001:2022, com SOC 2 Type II em andamento"
+        "heading": "3. Quais dados tratamos",
+        "blocks": [
+          { "p": "A Interfy é uma provedora de serviços de gestão inteligente de documentos e automação de processos de negócio, reunindo documentos (Documents), automação de processos (Process), captura inteligente (Capture) e assinatura eletrônica e digital (Sign) em uma única plataforma. Nossos serviços são fornecidos online, com contratação direta pelas empresas usuárias ou através de parceiros de negócios e distribuidores. Tratamos os dados necessários para ativar e manter nossos serviços em funcionamento, garantir a segurança e a disponibilidade, diagnosticar problemas técnicos, lembrar informações úteis para uma melhor utilização do serviço, enviar notificações de manutenção e alertas necessários, prestar suporte técnico, prover treinamentos e orientações de boas práticas, informar sobre melhorias e novas funcionalidades, e ofertar serviços complementares relevantes para usuários e futuros usuários." },
+          { "p": "Cada pessoa física ou jurídica que contrata nossos serviços pode armazenar e tratar dados utilizando as funcionalidades disponíveis em nossa plataforma, sendo identificada como CONTROLADORA, e a Interfy passa a atuar como OPERADORA. Nessa condição, mantemos os dados seguros e acessíveis, eliminando-os ou fornecendo cópia mediante pedido expresso da CONTROLADORA, respeitando as configurações por ela definidas. Como OPERADORA, a Interfy se compromete a tratar as informações classificadas como dados pessoais seguindo rigorosamente os critérios definidos pela CONTROLADORA e especificados no GDPR e na LGPD e demais regulamentos aplicáveis, unicamente para os fins delimitados nos termos de uso, não podendo a Interfy ser responsabilizada perante a Autoridade Nacional de Proteção de Dados (ANPD) e/ou outras autoridades, titulares de dados, ou qualquer outra instituição com poderes para aplicar penalidades administrativas ou judiciais." },
+          { "p": "Se a Interfy vier a ser penalizada na qualidade de OPERADORA, fica resguardado seu direito de regresso para requerer da CONTROLADORA o ressarcimento por todas as perdas, danos e despesas decorrentes do ilícito, além de outras medidas necessárias para proteger os direitos da Interfy." },
+          { "p": "A Interfy e as empresas pertencentes ao grupo não têm controle sobre quais dados os usuários armazenam, de acordo com o item 8 do nosso Termo de Uso." },
+          { "p": "Para usar nossos serviços você fornece as seguintes informações, consideradas Dados Pessoais e pelas quais a Interfy tem responsabilidade como CONTROLADORA: no ato da contratação dos serviços, como usuário da plataforma, ou quando acessa nossos sites e nos envia um currículo pessoal, você nos oferece seu nome, e-mail, telefone, cargo e dados de currículo (que variam de acordo com cada titular)." }
         ],
-        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "Ver Termos de Uso completos", "href": "/legal/termos" }
       },
       {
-        "heading": "8. Seus direitos (LGPD/GDPR)",
-        "items": [
-          "Confirmação da existência de tratamento e acesso aos dados",
-          "Correção de dados incompletos, inexatos ou desatualizados",
-          "Anonimização, bloqueio ou eliminação de dados desnecessários",
-          "Portabilidade dos dados a outro fornecedor de serviço",
-          "Revogação do consentimento, quando aplicável"
+        "heading": "4. Para que usamos cada dado",
+        "blocks": [
+          { "p": "Nome e e-mail: utilizamos esses dados para enviar a notificação inicial de criação da sua área de trabalho e, posteriormente, comunicados relacionados ao serviço, necessidades de manutenção, atualizações, obrigações legais, informações de marketing sobre novos produtos e funcionalidades, ofertas, ou qualquer outro conteúdo necessário para aperfeiçoar a prestação do serviço. Você pode optar por não receber mensagens de marketing, marcando a opção disponibilizada no corpo do e-mail. Se recebermos uma comunicação por e-mail, poderemos reter a mensagem, incluindo nossas respostas, para fins de manutenção de histórico de atendimento." },
+          { "p": "Número de telefone: coletamos o número de telefone para contatos posteriores via WhatsApp ou outros aplicativos de mensagens, com o objetivo de atender solicitações de suporte de forma mais rápida e precisa, enviar comunicados e material de marketing, ou para contatos do nosso departamento financeiro, quando adequado e necessário. Não adicionaremos você a nenhum grupo sem convite prévio." },
+          { "p": "Currículo: os currículos enviados pelos titulares de dados são armazenados em nossa base por 24 meses, utilizados para selecionar colaboradores em nossos processos de contratação quando uma nova vaga é aberta." },
+          { "p": "Cargo: é armazenado no cadastro de clientes e parceiros para que possamos identificar as funções de cada pessoa com quem temos relacionamento, direcionando-nos às pessoas corretas quando necessário." },
+          { "p": "Dados de pagamento: são utilizados para o processamento da cobrança mensal dos serviços. Quando selecionada a opção de pagamento por cartão de crédito e/ou débito, a Interfy não os armazena — eles são associados a um ID de assinatura no processador de pagamentos (por exemplo, Stripe ou PayPal), que coleta e mantém os dados para processamento. A Interfy mantém somente o ID associado; nossos subprocessadores possuem suas próprias políticas de privacidade. Para os demais métodos de pagamento disponibilizados, coletamos e mantemos informações de cobrança, registro de assinatura e registros de pagamento para a continuidade dos serviços. Além dos dados acima, podemos coletar: localização, IP da máquina de acesso e identificação de dispositivos de acesso." }
         ]
       },
       {
-        "heading": "9. Transferência internacional de dados",
-        "paragraphs": ["Por operarmos com infraestrutura global, dados pessoais podem ser transferidos entre países, sempre com salvaguardas contratuais e técnicas compatíveis com a LGPD e o GDPR."]
+        "heading": "5. Como coletamos e para que usamos cada dado",
+        "blocks": [
+          { "p": "Sua localização: podemos coletar, armazenar e monitorar dados de localização quando você acessa um de nossos sites ou a aplicação Interfy. Combinados a outros dados, esses dados podem tornar você identificável; são necessários para o funcionamento adequado de alguns serviços, como identificação da moeda local e idioma." },
+          { "p": "IP da máquina de acesso: unificado ao endereço de e-mail e à localização, nos permite identificar onde o usuário está alocado em nossa plataforma e a qual região pertence, ajudando a melhorar nossos procedimentos de atendimento e identificar possíveis problemas relacionados à região, como questões de performance do serviço." },
+          { "p": "Identificação de dispositivos de acesso: ao acessar os serviços por um dispositivo móvel, podemos coletar, armazenar, monitorar e acessar identificadores do dispositivo, que podem tornar você identificável se associados a outros dados. Armazenamos esses dados para renderizar as páginas de acordo com o tamanho do dispositivo e restringir funções não adequadas a determinados tipos de dispositivo." },
+          { "p": "Outros dados que processamos a partir dos dados coletados acima:" },
+          { "p": "Cookies: ajudam você a fazer login na plataforma de forma mais rápida, armazenando informações sobre como você navega pelo site; essas informações, enviadas a nós de forma anônima, nos permitem melhorar sua experiência de navegação. Um cookie persistente permanece no seu disco rígido depois de fechar o navegador, podendo ser removido conforme as instruções do seu navegador; um cookie de sessão é temporário e desaparece ao fechar o navegador." },
+          { "p": "Arquivos de log: quando você usa o Serviço, nossos servidores registram automaticamente certas informações enviadas pelo seu navegador, como solicitação web, endereço IP, tipo de navegador, páginas de consulta/saída e URLs, número de cliques, como você interage com links no Serviço, nomes de domínio, landing pages, páginas visualizadas, operadora móvel e outras informações." },
+          { "p": "Web beacons: podemos utilizá-los em e-mails baseados em HTML enviados aos usuários, o que nos permite rastrear quais deles são abertos pelos destinatários e os padrões de uso on-line, gerando estatísticas mais elaboradas e tornando nossos serviços mais atraentes aos usuários." }
+        ]
       },
       {
-        "heading": "10. Alterações desta política",
-        "paragraphs": ["Esta Política pode ser atualizada periodicamente. Alterações relevantes serão comunicadas por e-mail ou aviso na plataforma."]
+        "heading": "6. Dados que são coletados opcionalmente",
+        "paragraphs": [
+          "Você pode adicionar sua foto no perfil de acesso da plataforma quando estiver utilizando os serviços. Essa ação é opcional e você pode removê-la quando desejar.",
+          "Você ainda pode nos enviar seus dados ao preencher um formulário online, enviar e-mail ou fazer contato através de chat. Esses dados são processados para fornecer as informações que você nos solicitar e podem ser utilizados para marketing direto e para fins analíticos.",
+          "Se você se inscrever em um de nossos eventos online, enviará suas informações de contato, pelas quais forneceremos acesso ao evento; esses dados são processados para entendermos melhor nossa base de usuários ou futuros usuários e para fins de marketing direto.",
+          "Você pode cancelar o recebimento de comunicações de marketing da Interfy seguindo as instruções de cancelamento no rodapé dos e-mails promocionais, ou enviando um e-mail para privacidade@interfy.ai."
+        ]
       },
       {
-        "heading": "11. Contato do encarregado (DPO)",
-        "paragraphs": ["Para exercer seus direitos ou esclarecer dúvidas sobre esta Política, entre em contato com nosso Encarregado de Proteção de Dados pelo e-mail privacidade@interfy.ai."]
+        "heading": "7. Dados coletados de terceiros",
+        "paragraphs": [
+          "Podemos coletar dados a partir de fontes de terceiros para que você possa fazer login em nossos serviços, ou se você compartilhar dados armazenados nos nossos serviços com terceiros — esses serviços de terceiros podem nos enviar informações sobre você e seu perfil público, desde que as configurações da sua conta na aplicação do terceiro permitam esse tipo de compartilhamento.",
+          "Também podemos receber informações associadas ao uso dos nossos sites a partir de aplicações de terceiros. Se você visitar nossos sites, podemos monitorar e registrar suas atividades, e nossos provedores terceirizados podem nos fornecer informações adicionais disponíveis para acesso público.",
+          "As informações que coletamos também podem ser utilizadas para identificação, autenticação, prevenção de fraude e para melhorar o serviço que prestamos, incluindo solução de problemas, pesquisas de mercado e cumprimento dos nossos Termos de Uso."
+        ]
+      },
+      {
+        "heading": "8. Como a Interfy trata, na qualidade de OPERADORA, os documentos e dados armazenados por você na plataforma",
+        "paragraphs": ["O conteúdo armazenado por você e pelas pessoas da sua organização na plataforma Interfy não é visualizado pela nossa equipe de suporte, exceto se o administrador da plataforma fornecer login e senha de acesso a um de nossos colaboradores, para fins exclusivos de suporte técnico e orientação sobre uso da aplicação — devendo o usuário ser desativado pelo administrador ao final do atendimento. Cada cliente recebe uma base isolada, garantindo a proteção do acesso à informação: apenas terão acesso ao conteúdo as pessoas a quem o administrador da plataforma fornecer login e senha com as respectivas permissões. Todos os conteúdos e dados armazenados (registros, arquivos eletrônicos, metadados, formulários, processos etc.) são transferidos para nossos servidores na infraestrutura AWS (com certificações ISO/IEC 27001:2022, SOC 2 Type II e HIPAA Ready, além de conformidade com a LGPD e o GDPR), mediante digitação, digitalização e/ou upload pelas pessoas autorizadas pela CONTROLADORA, de acordo com as regras e configurações predefinidas pelo administrador da plataforma; o conteúdo trafega entre estações de trabalho ou dispositivos e é transferido via HTTPS, utilizando criptografia TLS."]
+      },
+      {
+        "heading": "9. Compartilhamento com terceiros",
+        "paragraphs": [
+          "A Interfy pode compartilhar seus dados com parceiros de negócios quando considerarmos que são confiáveis e que possam ter produtos e serviços relevantes para você, ou para que possamos executar este contrato de prestação de serviços — como, por exemplo, provedores de hospedagem. Quando precisamos fazer isso, nos certificamos de que o terceiro é confiável e manterá a confidencialidade sobre seus dados.",
+          "Se a Interfy passar por um processo de fusão, aquisição ou mudança no quadro societário, a empresa poderá compartilhar seus dados com terceiros em decorrência desse processo.",
+          "Se você acessar nossa aplicação utilizando aplicativos de terceiros diretamente, os seus dados podem ser compartilhados com eles; certifique-se de que confia no aplicativo e observe as políticas de proteção de dados de sua empresa proprietária.",
+          "Podemos compartilhar dados com aplicativos de terceiros através do uso de API, onde os dados armazenados podem ser consultados e/ou copiados para outras aplicações, com a devida anuência da CONTROLADORA responsável pelos dados armazenados na nossa plataforma.",
+          "A Interfy pode divulgar seus dados pessoais quando obrigada por lei ou disposição legal, com o objetivo de proteger a segurança de qualquer indivíduo em questões de fraude, proteger o direito à vida e à liberdade, ou proteger os direitos da Interfy.",
+          "Usamos ferramentas analíticas de terceiros, que coletam informações enviadas pelo seu navegador como parte de uma solicitação de página web, complementos do navegador e outras informações, para nos ajudar a medir o tráfego e as tendências de uso dos nossos Serviços.",
+          "A Interfy pode armazenar e processar dados pessoais em sistemas de marketing de terceiros, sistemas de relacionamento com cliente (CRM) e sistemas de gerenciamento de correio eletrônico, a fim de promover as operações da empresa e facilitar as interações com usuários e clientes em potencial."
+        ]
+      },
+      {
+        "heading": "10. Blog e comunidade",
+        "paragraphs": [
+          "Podemos criar blogs e comunidades acessíveis ao público, incluindo fóruns. Toda informação que você incluir nessas áreas poderá ser lida por outras pessoas, as quais não podemos controlar, podendo ainda ser coletada e utilizada por quem acessar esse conteúdo; as informações postadas podem permanecer disponíveis mesmo depois que você encerrar sua conta.",
+          "Se você remover informações postadas no serviço de blog e/ou comunidade, as cópias podem permanecer armazenadas em cache do serviço ou por outros usuários. Se desejar que façamos a remoção dessas informações, envie um e-mail para privacidade@interfy.ai; contudo, em alguns casos, podemos não conseguir remover tais informações."
+        ]
+      },
+      {
+        "heading": "11. Compartilhamento internacional de dados",
+        "blocks": [
+          { "p": "A hospedagem dos nossos serviços está distribuída nas regiões abaixo:" },
+          { "ul": ["Amazon AWS — São Paulo (Brasil) e Virgínia (Estados Unidos da América)."] },
+          { "p": "Os dados são distribuídos de forma automatizada através dos recursos tecnológicos aplicados na própria infraestrutura. Para garantir a proteção dos dados, adotamos medidas de segurança seguindo as determinações da LGPD e, em conjunto com o provedor AWS, utilizamos recursos contra destruição acidental, acesso não autorizado, backups automatizados e medidas organizacionais alinhadas com a política de segurança, dentre outros aspectos técnicos razoáveis." },
+          { "p": "Os dados dos usuários da União Europeia, Reino Unido, Liechtenstein, Noruega, Islândia e demais países são armazenados nos Estados Unidos (EUA) através da Interfy e de seus provedores de serviços; se você não residir nos EUA, as leis podem ser diferentes das leis onde você reside. Ao usar os Serviços, você reconhece que qualquer informação pessoal sobre você está sendo fornecida à Interfy nos EUA e hospedada em servidores dos EUA, e autoriza a Interfy a transferir, armazenar e processar suas informações a partir dos e nos Estados Unidos e, quando necessário, em outros países indicados nesta política. Usuários do Brasil podem ter seus dados armazenados nos Estados Unidos e no Brasil." }
+        ]
+      },
+      {
+        "heading": "12. Tempo de processamento e retenção dos dados",
+        "blocks": [
+          { "p": "Dados que a Interfy é CONTROLADORA: os dados coletados diretamente ou por nossos clientes a partir da Plataforma são mantidos somente pelo tempo necessário para o fornecimento dos serviços, ou pelo tempo necessário para cumprimento dos nossos acordos e obrigações legais, contábeis e fiscais. Para eliminação ou anonimização, estabelecemos políticas internas que garantam a segurança do processo, podendo manter o dado por até 3 meses após cessar o uso dos serviços, como margem de segurança antes de serem eliminados ou anonimizados. Os dados utilizados pelo departamento de marketing poderão ser mantidos enquanto entendermos que nossos serviços possam ser relevantes para uma futura contratação, ou até que você se descadastre ou solicite a eliminação dos dados." },
+          { "p": "Dados que a Interfy é OPERADORA: são mantidos até que a CONTROLADORA solicite a eliminação e até que possamos executá-la com segurança, confirmando que todos os dados foram definitivamente eliminados, o que pode levar até 90 dias. A Interfy exige que todas as pessoas físicas e jurídicas contratantes e usuárias dos nossos serviços ajam em conformidade com todas as leis e regulamentos aplicáveis, além desta política, podendo encerrar a prestação dos serviços de forma unilateral se detectar que os usuários da contratante estão infringindo normas de proteção de dados pessoais, conforme especificado em nosso Termo de Uso." },
+          { "p": "Dados processados para manter conformidade: os dados necessários para atendimento às obrigações fiscais, tributárias, previdenciárias, trabalhistas e legais do grupo Interfy, em qualquer dos países em que atuamos, são mantidos pelo tempo determinado pela lei de cada país." }
+        ],
+        "relatedLink": { "label": "Ver Termos de Uso completos", "href": "/legal/termos" }
+      },
+      {
+        "heading": "13. Do consentimento",
+        "paragraphs": [
+          "Ao concordar com nossa Política de Privacidade e ao se cadastrar para utilizar nossa plataforma ou qualquer um dos nossos Serviços, você assume que concorda com ela e nos autoriza a processar seus dados de acordo com esta política.",
+          "Você tem o direito de retirar total ou parcialmente seu consentimento para processarmos seus Dados Pessoais. Para isso, entre em contato com privacidade@interfy.ai, e deixaremos de processar seus dados pessoais para os fins com os quais consentiu originalmente, exceto se existirem motivos legais e convincentes para continuarmos processando seus Dados Pessoais, que anulem os seus interesses, direitos e liberdades, ou para estabelecimento, exercício ou defesa em ações judiciais."
+        ]
+      },
+      {
+        "heading": "14. Corrigir, atualizar ou excluir suas informações",
+        "paragraphs": [
+          "Você pode solicitar a correção, atualização ou exclusão das informações pessoais que fornece diretamente à Interfy; nossa equipe fará os melhores esforços para atender à sua solicitação dentro do prazo legal aplicável, mas não seremos responsáveis por eventual falha na entrega de nossa resposta.",
+          "Quando sua informação é processada por um de nossos clientes contratantes dos nossos serviços, você deve direcionar suas solicitações diretamente ao seu fornecedor (nosso cliente de serviços), que atua como CONTROLADOR dos seus dados."
+        ]
+      },
+      {
+        "heading": "15. Direitos de privacidade para usuários da Califórnia",
+        "paragraphs": ["Os residentes na Califórnia têm o direito de nos solicitar um aviso identificando as categorias de informações pessoais que compartilhamos com nossos parceiros ou terceiros para fins de marketing, incluindo informações de contato de cada terceiro. Se você é residente na Califórnia, utiliza os nossos serviços e deseja solicitar tais informações, envie uma solicitação para privacidade@interfy.ai."]
+      },
+      {
+        "heading": "16. Informações pessoais de crianças",
+        "paragraphs": ["Não coletamos ou solicitamos intencionalmente informações pessoais de menores de 13 anos, de acordo com nosso Termo de Assinatura. Se você for menor de 13 anos, não tente se registrar nos serviços nem nos enviar qualquer informação pessoal sobre você. Se tomarmos conhecimento de uma conta criada por uma pessoa menor de 13 anos, ou de informações enviadas a nós diretamente nessas condições, excluiremos todas as informações o mais rápido possível. Se você identificar que uma criança menor de 13 anos registrou uma conta em nossos serviços ou forneceu informações pessoais, entre em contato conosco em privacidade@interfy.ai."]
+      },
+      {
+        "heading": "17. Base legal para o processamento de dados pessoais",
+        "blocks": [
+          { "p": "Só processamos suas informações pessoais se tivermos uma base legal para fazê-lo. Utilizamos as seguintes bases legais:" },
+          { "ul": [
+            "Necessidade contratual: os dados são processados para cumprir nosso Termo de Serviço com você, sendo fundamentais para que possamos fornecer os serviços — sem eles ficaríamos incapacitados de fazê-lo. Inclui dados essenciais da conta, cookies primários essenciais, dados de conexão e informações de conta de terceiros (se houver), como no caso de login via Active Directory.",
+            "Consentimento: em alguns casos, processamos dados pessoais com base no consentimento formalmente fornecido por você no momento da coleta, solicitado de forma expressa no ato da coleta.",
+            "Legítimo interesse: coletamos determinadas categorias quando acreditamos que favorecem nosso legítimo interesse ou o de terceiros, como dados de cobrança, dados de formulário online, dados adicionais da conta, telefone, chat e e-mail (quando coletados por meios diferentes da conta de usuário do serviço), dados de eventos e comunidades, cookies de rastreamento, ticket de suporte, identificadores de dispositivos e web beacons.",
+            "Outros motivos: podemos processar dados para cumprir obrigações legais, contábeis, fiscais e trabalhistas, para proteger interesses vitais de titulares de dados, ou para atender exigências de instituições governamentais e/ou do poder judiciário."
+          ] }
+        ]
+      },
+      {
+        "heading": "18. Disposições gerais",
+        "paragraphs": [
+          "Se ocorrer atualização nesta Política de Privacidade, faremos uma nova publicação nesta página atualizando as informações.",
+          "Nossa política só abrange o acesso aos nossos sites e aplicações. Links para sites de terceiros não estão cobertos por nossa Política de Privacidade."
+        ]
       }
     ]
   },

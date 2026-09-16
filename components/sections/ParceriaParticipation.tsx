@@ -20,7 +20,7 @@ export default async function ParceriaParticipation() {
     <section
       id="participar"
       aria-labelledby="parceria-participation-heading"
-      className="flex scroll-mt-[var(--header-height)] justify-center bg-branco px-5 py-10 sm:py-16"
+      className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center bg-branco px-5 py-10 sm:py-16"
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <h2 id="parceria-participation-heading" className="text-center text-2xl leading-[1.2] font-bold text-texto">

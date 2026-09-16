@@ -8,8 +8,8 @@ import { CTA_DISABLED } from "@/config/feature-flags";
 // This card is reused with very different href/label combinations per caller
 // (see app/[lang]/{cases,blog,status,suporte,contato}/page.tsx), so which slot
 // is "the" Test Drive / Agende Demo CTA isn't fixed by position — it's
-// whichever slot actually points at /comece-gratis or /demo.
-const isGatedCtaHref = (href: string) => /\/(comece-gratis|demo)$/.test(href);
+// whichever slot actually points at /test-drive or /demo.
+const isGatedCtaHref = (href: string) => /\/(test-drive|demo)$/.test(href);
 
 type GenericCTAProps = {
   ariaLabel: string;

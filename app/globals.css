@@ -257,3 +257,45 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
       0 0 10px rgba(9, 161, 234, 0.75);
   }
 }
+
+/* Integrações logos strip: a compositor-driven CSS animation, not requestAnimationFrame —
+   rAF is paused by the browser whenever the tab/pane isn't in the Page Visibility API's
+   "visible" state (including this preview pane, more often than a normal foregrounded
+   tab), so a JS-timed loop can silently never advance. A CSS keyframe keeps running
+   regardless. The track renders its item list twice back to back and moves exactly one
+   copy's width (-50%), so the loop is seamless regardless of the track's actual pixel
+   width. Below lg the wrapper is also a plain native overflow-x-auto container (see
+   LogosMarquee.tsx), so a swipe there pans the still-animating track independently —
+   transform and scrollLeft don't conflict, so releasing a swipe just resumes the ambient
+   motion with no handoff logic needed. */
+@keyframes logos-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logos-marquee-track {
+  animation: logos-marquee 70s linear infinite;
+}
+
+/* Mobile runs at 2x — the strip reads as slower on a narrower viewport otherwise. */
+@media (max-width: 1023px) {
+  .logos-marquee-track {
+    animation-duration: 35s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logos-marquee-track {
+    animation: none;
+  }
+}
+
+.logos-marquee-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 40px, black calc(100% - 40px), transparent);
+  mask-image: linear-gradient(to right, transparent, black 40px, black calc(100% - 40px), transparent);
+}
+

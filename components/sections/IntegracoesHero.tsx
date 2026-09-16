@@ -19,21 +19,21 @@ export default async function IntegracoesHero() {
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 flex-wrap items-center justify-center gap-10">
-          <Reveal immediate className="flex w-full max-w-[600px] min-w-[280px] flex-1 flex-col items-start gap-10">
+          <Reveal immediate className="flex w-full min-w-[280px] flex-1 flex-col items-center gap-10 lg:max-w-[600px] lg:items-start">
             <h1
               id="integracoes-hero-heading"
-              className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
+              className="text-center text-[2rem] leading-[1.2] font-extrabold text-texto lg:text-left lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)]"
             >
               {hero.headingPrefix}
               <span className="bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                 {hero.headingHighlight}
               </span>
             </h1>
-            <p className="text-[clamp(1rem,0.4167vw+0.9167rem,1.25rem)] leading-[1.2] font-medium text-texto">
+            <p className="text-center text-[clamp(1rem,0.4167vw+0.9167rem,1.25rem)] leading-[1.2] font-medium text-texto lg:text-left">
               {hero.description}
             </p>
 
-            <div className="@container flex w-full flex-nowrap items-stretch gap-2.5 sm:gap-5">
+            <div className="@container flex w-full flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5 lg:justify-start">
               <Button
                 href="#sistemas"
                 variant="primary"
@@ -53,8 +53,8 @@ export default async function IntegracoesHero() {
             </div>
           </Reveal>
 
-          <Reveal immediate delayMs={120} className="min-w-[400px] flex-1">
-            <div id="sistemas" className="scroll-mt-[var(--header-height)]">
+          <Reveal immediate delayMs={120} className="w-full basis-full lg:w-auto lg:basis-auto lg:min-w-[400px] lg:flex-1">
+            <div id="sistemas" className="scroll-mt-[calc(var(--header-height)+20px)]">
               <SegurancaRadialDiagram items={diagramItems} ariaLabel={hero.diagramAriaLabel} />
             </div>
           </Reveal>

@@ -64,13 +64,14 @@ export default async function TestDriveJourney() {
         </Reveal>
 
         <Reveal className="flex flex-col gap-5 rounded-[20px] border border-contorno-base p-5 sm:p-[30px]" delayMs={120}>
-          <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] leading-[1.2] font-bold text-texto">
-            {timelineCard.paragraphPrefix}
+          <h2 className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">
+            {timelineCard.headingPrefix}
             <span className="inline-block bg-[linear-gradient(170deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-              {timelineCard.paragraphHighlight}
-            </span>{" "}
-            <span className="text-base font-medium">{timelineCard.paragraphNote}</span>
-          </p>
+              {timelineCard.headingHighlight}
+            </span>
+            {timelineCard.headingSuffix}
+          </h2>
+          <p className="text-base leading-[1.2] font-medium text-texto">{timelineCard.paragraph}</p>
 
           <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-8 sm:grid-cols-4 lg:flex lg:flex-nowrap lg:gap-x-0">
             {journeyDays.map((day, index) => {

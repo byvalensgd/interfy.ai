@@ -10,7 +10,7 @@ export default async function SegmentsCatalog() {
     <section
       id="catalogo"
       aria-labelledby="segments-catalog-heading"
-      className="flex scroll-mt-[var(--header-height)] justify-center bg-branco px-5 py-10 sm:py-16"
+      className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center bg-branco px-5 py-10 sm:py-16"
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex flex-col items-center gap-5 text-center">

@@ -41,7 +41,7 @@ export default async function EmpresaBlueOcean() {
         </div>
 
         <div className="aspect-[4/3] w-full min-w-[280px] flex-1 overflow-hidden rounded-[30px] bg-gradient-to-b from-[#fafbff] to-[#e8f1f8]">
-          <AutoplayVideo src="/empresa/blue-ocean.mp4" className="size-full object-cover" />
+          <AutoplayVideo src="/empresa/blue-ocean" className="size-full object-cover" />
         </div>
       </Reveal>
     </section>

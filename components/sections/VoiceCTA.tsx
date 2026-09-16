@@ -20,7 +20,7 @@ export default async function VoiceCTA() {
     <section aria-label={cta.ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <Reveal className="relative flex w-full flex-col items-center gap-10 overflow-hidden rounded-2xl p-5 sm:p-[30px]">
-          <Image src="/agentes/cta-bg.png" alt="" aria-hidden="true" fill sizes="100vw" className="-z-10 object-cover" />
+          <Image src="/agentes/cta-bg.webp" alt="" aria-hidden="true" fill sizes="100vw" className="-z-10 object-cover" />
 
           <div className="flex w-full flex-wrap items-center justify-center gap-10">
             <div className="relative flex h-[110px] w-[240px] shrink-0 items-center justify-center">
@@ -50,7 +50,7 @@ export default async function VoiceCTA() {
 
             <div className="flex flex-wrap items-stretch justify-center gap-[15px]">
               <Button
-                href={withLocale("/comece-gratis", locale)}
+                href={withLocale("/test-drive", locale)}
                 variant="secondary"
                 className="!whitespace-normal !text-base"
                 disabled={CTA_DISABLED}

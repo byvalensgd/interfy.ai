@@ -75,7 +75,7 @@ export default async function EmpresaTechnology() {
               ))}
             </ul>
             <div className="relative aspect-[4/3] w-full min-w-[220px] flex-1 self-stretch overflow-hidden rounded-2xl sm:aspect-auto">
-              <Image src="/sobre-nos/saas-handshake.jpg" alt="" aria-hidden="true" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
+              <Image src="/sobre-nos/saas-handshake.webp" alt="" aria-hidden="true" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
             </div>
           </div>
         </div>

@@ -28,7 +28,9 @@ export default async function SegurancaControls() {
                 >
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>
-                <p className="w-full text-xl leading-[1.2] font-bold text-texto">{item.title}</p>
+                <p className="flex min-h-[2lh] w-full flex-col justify-center text-center text-[18px] leading-[1.2] font-bold text-texto">
+                  {item.title}
+                </p>
                 <p className="w-full text-base leading-[1.2] font-medium text-texto">{item.description}</p>
               </li>
             ))}

@@ -11,11 +11,109 @@
     "titleHighlight": "transforma operações",
     "description": "Guias práticos, novidades de produto e tendências sobre documentos, processos, dados e IA para empresas."
   },
+  "featured": {
+    "ariaLabel": "Artigo em destaque e artigos recentes",
+    "heading": "Em destaque",
+    "article": {
+      "category": "IA & Agentes",
+      "title": "Como a IA está mudando a forma como empresas gerenciam documentos e processos",
+      "excerpt": "Da captura inteligente aos agentes autônomos: um panorama de como a inteligência artificial já está no dia a dia de quem usa a Interfy, e o que vem a seguir.",
+      "date": "Set 2026",
+      "author": "Equipe Interfy",
+      "readTime": "9 min de leitura",
+      "ctaLabel": "Ler artigo"
+    },
+    "recentHeading": "Recentes",
+    "recent": [
+      { "title": "Como estruturar um repositório de documentos que escala com a empresa", "date": "Ago 2026", "author": "Equipe Interfy" },
+      { "title": "5 processos que toda empresa deveria automatizar primeiro", "date": "Ago 2026", "author": "Equipe Interfy" },
+      { "title": "Assinatura eletrônica tem validade jurídica no Brasil?", "date": "Jul 2026", "author": "Equipe Interfy" },
+      { "title": "Agentes de IA em processos internos: por onde começar", "date": "Jul 2026", "author": "Equipe Interfy" },
+      { "title": "LGPD na prática: o que muda na gestão de documentos e processos", "date": "Jun 2026", "author": "Equipe Interfy" },
+      { "title": "OCR e captura inteligente: o fim da digitação manual", "date": "Jun 2026", "author": "Equipe Interfy" }
+    ]
+  },
+  "categories": {
+    "ariaLabel": "Artigos por categoria",
+    "ctaLabel": "Leia o blog",
+    "sections": [
+      {
+        "name": "Gestão Documental",
+        "posts": [
+          {
+            "title": "Como estruturar um repositório de documentos que escala com a empresa",
+            "excerpt": "Boas práticas de organização, versionamento e controle de acesso para times que crescem rápido.",
+            "date": "Ago 2026",
+            "readTime": "6 min de leitura"
+          },
+          {
+            "title": "OCR e captura inteligente: o fim da digitação manual",
+            "excerpt": "Como a captura automatizada reduz erros e acelera a entrada de documentos no fluxo de trabalho.",
+            "date": "Jun 2026",
+            "readTime": "5 min de leitura"
+          },
+          {
+            "title": "Digitalização com validade legal: o que diz o Decreto 10.278",
+            "excerpt": "Entenda quando um documento digitalizado pode substituir o original em papel, e como isso reduz custos.",
+            "date": "Mai 2026",
+            "readTime": "6 min de leitura"
+          }
+        ]
+      },
+      {
+        "name": "Processos de Negócios",
+        "posts": [
+          {
+            "title": "5 processos que toda empresa deveria automatizar primeiro",
+            "excerpt": "Um roteiro prático para priorizar automações com maior impacto em custo e tempo de ciclo.",
+            "date": "Ago 2026",
+            "readTime": "7 min de leitura"
+          },
+          {
+            "title": "Esteiras de aprovação: como reduzir o tempo de ciclo em até 80%",
+            "excerpt": "Um passo a passo para desenhar fluxos de aprovação multinível sem virar gargalo.",
+            "date": "Jul 2026",
+            "readTime": "6 min de leitura"
+          },
+          {
+            "title": "Assinatura eletrônica tem validade jurídica no Brasil?",
+            "excerpt": "O que diz a legislação, quais evidências importam e como escolher o nível de assinatura certo.",
+            "date": "Jul 2026",
+            "readTime": "5 min de leitura"
+          }
+        ]
+      },
+      {
+        "name": "Inteligência Artificial",
+        "posts": [
+          {
+            "title": "Agentes de IA em processos internos: por onde começar",
+            "excerpt": "Casos de uso reais para reduzir trabalho manual em triagem, classificação e extração de dados.",
+            "date": "Jul 2026",
+            "readTime": "8 min de leitura"
+          },
+          {
+            "title": "Busca com linguagem natural: encontre qualquer documento em segundos",
+            "excerpt": "Como a IA generativa está mudando a forma como as pessoas encontram informação na empresa.",
+            "date": "Jun 2026",
+            "readTime": "5 min de leitura"
+          },
+          {
+            "title": "LGPD na prática: o que muda na gestão de documentos e processos",
+            "excerpt": "Um guia direto sobre bases legais, retenção de dados e responsabilidades do controlador.",
+            "date": "Jun 2026",
+            "readTime": "6 min de leitura"
+          }
+        ]
+      }
+    ]
+  },
   "grid": {
     "ariaLabel": "Artigos do blog",
+    "heading": "Todos os artigos",
     "categoriesLabel": "Filtrar por categoria",
     "allLabel": "Todos",
-    "categories": ["Gestão Documental", "Automação (BPM)", "Assinatura Eletrônica", "IA & Agentes", "Segurança & Compliance"],
+    "categories": ["Gestão Documental", "Processos de Negócios", "Assinatura Eletrônica", "IA & Agentes", "Segurança & Compliance"],
     "comingSoonLabel": "Novos artigos toda semana. Em breve, também por aqui.",
     "posts": [
       {
@@ -26,7 +124,7 @@
         "readTime": "6 min de leitura"
       },
       {
-        "category": "Automação (BPM)",
+        "category": "Processos de Negócios",
         "title": "5 processos que toda empresa deveria automatizar primeiro",
         "excerpt": "Um roteiro prático para priorizar automações com maior impacto em custo e tempo de ciclo.",
         "date": "Ago 2026",

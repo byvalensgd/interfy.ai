@@ -108,7 +108,7 @@ export default async function FeatureShowcase() {
 
             <div className="relative hidden size-[180px] shrink-0 sm:block">
               <AutoplayVideo
-                src="/features/robot.mp4"
+                src="/features/robot"
                 ariaLabel={agents.videoAriaLabel}
                 className="size-full object-contain mix-blend-multiply"
               />

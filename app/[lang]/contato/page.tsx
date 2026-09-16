@@ -34,7 +34,7 @@ export default async function ContatoPage() {
         primaryLabel={contato.hero.primaryLabel}
         primaryHref={withLocale("/demo", locale)}
         secondaryLabel={contato.hero.secondaryLabel}
-        secondaryHref={withLocale("/comece-gratis", locale)}
+        secondaryHref={withLocale("/test-drive", locale)}
       />
       <ContatoChannels
         ariaLabel={contato.channels.ariaLabel}
@@ -49,7 +49,7 @@ export default async function ContatoPage() {
         heading={contato.cta.heading}
         subheading={contato.cta.subheading}
         primaryLabel={contato.cta.primaryButton}
-        primaryHref={withLocale("/comece-gratis", locale)}
+        primaryHref={withLocale("/test-drive", locale)}
         secondaryLabel={contato.cta.secondaryButton}
         secondaryHref={withLocale("/demo", locale)}
       />

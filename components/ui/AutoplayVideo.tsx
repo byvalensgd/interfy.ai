@@ -9,7 +9,10 @@ const DEFAULT_REPLAY_DELAY_MS = 5000;
  * via the same IntersectionObserver approach as Reveal.tsx. By default it pauses
  * `replayDelayMs` between loops instead of looping back-to-back (no native `loop`,
  * since that gives no hook to insert the pause); pass `loopImmediately` to opt a
- * specific video out of that pause and loop back-to-back instead. */
+ * specific video out of that pause and loop back-to-back instead.
+ *
+ * `src` is the asset path without extension — it renders a WebM source (smaller,
+ * used by default) with an MP4 fallback for browsers without WebM support. */
 export default function AutoplayVideo({
   src,
   className,
@@ -68,7 +71,6 @@ export default function AutoplayVideo({
   return (
     <video
       ref={videoRef}
-      src={src}
       muted
       loop={loopImmediately}
       playsInline
@@ -78,6 +80,9 @@ export default function AutoplayVideo({
       onEnded={loopImmediately ? undefined : handleEnded}
       className={className}
       style={style}
-    />
+    >
+      <source src={`${src}.webm`} type="video/webm" />
+      <source src={`${src}.mp4`} type="video/mp4" />
+    </video>
   );
 }

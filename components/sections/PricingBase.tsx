@@ -50,27 +50,27 @@ export default async function PricingBase({
       </h2>
 
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
-        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-azul-base p-5 text-branco sm:flex-row sm:items-center">
+        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-azul-base p-5 text-branco lg:flex-row lg:items-center">
           <Image src="/icons/pricing/speed.svg" alt="" aria-hidden="true" width={50} height={50} className="shrink-0" />
-          <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center sm:items-start sm:text-left">
+          <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center lg:items-start lg:text-left">
             <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2]">
               {base.trialTitle}
             </p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.trialSub}</p>
           </div>
-          <div className="flex w-full flex-wrap items-stretch gap-5 sm:w-auto">
+          <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto">
             <Button
-              href={withLocale("/comece-gratis", locale)}
+              href={withLocale("/test-drive", locale)}
               variant="secondary"
               showArrow
-              className="grow sm:grow-0"
+              className="grow lg:grow-0"
               disabled={CTA_DISABLED}
             >
               {base.trialCta}
             </Button>
             <CtaLink
               href={withLocale("/demo", locale)}
-              className="inline-flex h-[50px] grow items-center justify-center gap-2.5 rounded-xl border border-branco px-5 text-base font-bold text-branco transition-colors hover:bg-black/10 sm:grow-0"
+              className="inline-flex h-[50px] grow items-center justify-center gap-2.5 rounded-xl border border-branco px-5 text-base font-bold text-branco transition-colors hover:bg-black/10 lg:grow-0"
               outline
             >
               {base.demoCta}
@@ -98,13 +98,13 @@ export default async function PricingBase({
           </div>
         </Reveal>
 
-        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-[#0d215f] p-5 text-branco sm:flex-row sm:items-center">
+        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-[#0d215f] p-5 text-branco lg:flex-row lg:items-center">
           <Image src="/icons/pricing/rocket.svg" alt="" aria-hidden="true" width={50} height={50} className="shrink-0" />
-          <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center sm:items-start sm:text-left">
+          <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center lg:items-start lg:text-left">
             <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2]">{base.ctaTitle}</p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.ctaDesc}</p>
           </div>
-          <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow disabled={CTA_DISABLED}>
+          <Button href={withLocale("/test-drive", locale)} variant="secondary" showArrow disabled={CTA_DISABLED}>
             {base.ctaButton}
           </Button>
         </Reveal>

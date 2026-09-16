@@ -32,7 +32,7 @@ function ProductResourceToggle({ label, features }: { label: string; features: s
           {features.map((feature) => (
             <li key={feature} className="flex items-start gap-2.5 rounded-xl bg-bg-base p-2.5">
               <Image src="/icons/pricing/compare-check.svg" alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
-              <span className="text-sm font-medium leading-[1.2] text-texto">{feature}</span>
+              <span className="flex min-h-[20px] items-center text-sm font-medium leading-[1.2] text-texto">{feature}</span>
             </li>
           ))}
         </ul>

@@ -20,7 +20,7 @@ export default async function ParceriaGrowthCTA() {
       <div className="flex w-full max-w-[1400px] flex-col">
         <Reveal className="relative flex w-full flex-col items-center gap-[30px] overflow-hidden rounded-2xl p-5 sm:px-[30px] sm:py-10">
           <Image
-            src="/parceria/cta-banner-bg.png"
+            src="/parceria/cta-banner-bg.webp"
             alt=""
             aria-hidden="true"
             fill

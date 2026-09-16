@@ -123,7 +123,7 @@ export default async function Header() {
           <LanguageSelectorCompact locale={locale} ariaLabel={header.languageSelectorAria} />
           <div className="hidden items-center gap-2.5 lg:flex">
             <Button
-              href={withLocale("/comece-gratis", locale)}
+              href={withLocale("/test-drive", locale)}
               variant="primary"
               size="sm"
               className="!px-3 xl:!px-5"

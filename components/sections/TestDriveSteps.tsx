@@ -11,7 +11,7 @@ export default async function TestDriveSteps() {
     <section
       id="como-funciona"
       aria-labelledby="test-drive-steps-heading"
-      className="flex scroll-mt-[var(--header-height)] justify-center px-5 py-10 sm:py-16"
+      className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center px-5 py-10 sm:py-16"
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <h2 id="test-drive-steps-heading" className="text-center text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold text-texto">

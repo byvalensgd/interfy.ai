@@ -35,6 +35,9 @@ export default async function CasesPage() {
       <CasesGrid
         ariaLabel={cases.grid.ariaLabel}
         heading={cases.grid.heading}
+        challengeLabel={cases.grid.challengeLabel}
+        solutionLabel={cases.grid.solutionLabel}
+        resultsLabel={cases.grid.resultsLabel}
         illustrativeNote={cases.grid.illustrativeNote}
         complianceNote={cases.grid.complianceNote}
         items={cases.grid.items}
@@ -44,7 +47,7 @@ export default async function CasesPage() {
         heading={cases.cta.heading}
         subheading={cases.cta.subheading}
         primaryLabel={cases.cta.primaryButton}
-        primaryHref={withLocale("/comece-gratis", locale)}
+        primaryHref={withLocale("/test-drive", locale)}
         secondaryLabel={cases.cta.secondaryButton}
         secondaryHref={withLocale("/demo", locale)}
       />

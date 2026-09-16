@@ -31,7 +31,7 @@
   },
   "logosStrip": {
     "heading": "Conéctate con los principales sistemas del mercado",
-    "ctaLabel": "Ver todas"
+    "itemsAriaLabel": "Sistemas y productos integrados con Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Funciones y beneficios de la ",

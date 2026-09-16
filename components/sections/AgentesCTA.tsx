@@ -34,7 +34,7 @@ export default async function AgentesCTA() {
       <div className="flex w-full max-w-[1400px] flex-col items-center">
         <Reveal className="@container relative flex w-full flex-col items-center overflow-hidden rounded-2xl p-5 sm:px-[30px] sm:py-5">
           <div className="absolute inset-0 -z-10 overflow-hidden rounded-2xl">
-            <Image src="/agentes/cta-bg.png" alt="" aria-hidden="true" fill sizes="100vw" className="object-cover" />
+            <Image src="/agentes/cta-bg.webp" alt="" aria-hidden="true" fill sizes="100vw" className="object-cover" />
           </div>
 
           <div className="flex w-full flex-col items-center gap-8 lg:flex-row lg:flex-nowrap lg:items-center lg:gap-10">
@@ -62,7 +62,7 @@ export default async function AgentesCTA() {
             <div className="flex w-full flex-row flex-wrap items-center justify-center gap-5 pr-5 @min-[340px]:min-w-[320px] lg:w-auto lg:flex-1 lg:flex-nowrap lg:justify-end">
               <div className="@container flex min-w-[200px] flex-1 flex-row flex-wrap items-stretch gap-[10px]">
                 <CtaLink
-                  href={withLocale("/comece-gratis", locale)}
+                  href={withLocale("/test-drive", locale)}
                   className="inline-flex min-h-10 min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base bg-branco px-[15px] py-[10px] text-center !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] font-bold text-azul-base transition-colors hover:bg-branco/90"
                 >
                   {cta.ctaPrimary}
@@ -81,7 +81,7 @@ export default async function AgentesCTA() {
                   phones), never because of the 1024px text/row breakpoint
                   above. */}
               <div className="relative h-[154px] w-[160px] shrink-0" aria-hidden="true">
-                <Image src="/agentes/robot-mascot.png" alt="" fill sizes="160px" className="object-cover object-top" />
+                <Image src="/agentes/robot-mascot.webp" alt="" fill sizes="160px" className="object-cover object-top" />
               </div>
             </div>
           </div>

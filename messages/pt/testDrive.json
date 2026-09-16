@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Sugerimos uma ",
-      "paragraphHighlight": "jornada de 7 dias",
-      "paragraphNote": " (mas tudo está disponível desde o primeiro dia)",
+      "headingPrefix": "Sugerimos uma ",
+      "headingHighlight": "jornada de 7 dias",
+      "headingSuffix": "",
+      "paragraph": "(mas tudo está disponível desde o primeiro dia)",
       "dayLabel": "Dia {number}",
       "days": [
         { "line1": "Conheça sua", "line2": "Workspace" },

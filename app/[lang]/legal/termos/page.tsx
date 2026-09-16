@@ -1,4 +1,3 @@
-import LegalHero from "@/components/sections/LegalHero";
 import LegalContent from "@/components/sections/LegalContent";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
@@ -23,14 +22,13 @@ export default async function TermosPage() {
   const { termos } = legal;
 
   return (
-    <>
-      <LegalHero ariaLabel={termos.ariaLabel} subtitle={legal.meta.termos.description} content={termos} />
-      <LegalContent
-        ariaLabel={termos.ariaLabel}
-        content={termos}
-        certificationsCtaHref={withLocale("/legal/seguranca", locale)}
-        locale={locale}
-      />
-    </>
+    <LegalContent
+      ariaLabel={termos.ariaLabel}
+      subtitle={legal.meta.termos.description}
+      content={termos}
+      search={legal.search}
+      certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+      locale={locale}
+    />
   );
 }

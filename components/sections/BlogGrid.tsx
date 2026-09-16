@@ -9,6 +9,7 @@ const accentByIndex = ["bg-ecm", "bg-bpm", "bg-swc", "bg-dss", "bg-cic", "bg-lvs
 
 export default function BlogGrid({
   ariaLabel,
+  heading,
   categoriesLabel,
   categories,
   allLabel,
@@ -16,6 +17,7 @@ export default function BlogGrid({
   posts,
 }: {
   ariaLabel: string;
+  heading: string;
   categoriesLabel: string;
   categories: string[];
   allLabel: string;
@@ -26,8 +28,9 @@ export default function BlogGrid({
   const visible = active ? posts.filter((p) => p.category === active) : posts;
 
   return (
-    <section aria-label={ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
+    <section id="todos-artigos" aria-label={ariaLabel} className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-8">
+        <h2 className="text-lg font-extrabold leading-[1.2] text-texto">{heading}</h2>
         <ul aria-label={categoriesLabel} className="flex w-full flex-wrap items-center justify-center gap-2.5">
           <li>
             <button

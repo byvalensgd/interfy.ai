@@ -13,7 +13,7 @@ export default async function IntegracoesSecurityHighlight() {
   return (
     <section aria-labelledby="integracoes-security-heading" className="flex justify-center bg-branco px-5 py-10">
       <Reveal
-        className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-[20px] border border-contorno-base p-5 sm:p-10"
+        className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-[20px] border border-contorno-base p-5"
         style={{ backgroundImage: cardBackground }}
       >
         <div className="flex min-w-[280px] max-w-[540px] flex-1 items-center gap-5">

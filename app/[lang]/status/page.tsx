@@ -59,7 +59,7 @@ export default async function StatusPage() {
         heading={status.cta.heading}
         subheading={status.cta.subheading}
         primaryLabel={status.cta.primaryButton}
-        primaryHref={withLocale("/comece-gratis", locale)}
+        primaryHref={withLocale("/test-drive", locale)}
         secondaryLabel={status.cta.secondaryButton}
         secondaryHref={withLocale("/demo", locale)}
         stats={ctaStats}

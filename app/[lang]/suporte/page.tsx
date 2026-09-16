@@ -75,7 +75,7 @@ export default async function SuportePage() {
         heading={suporte.cta.heading}
         subheading={suporte.cta.subheading}
         primaryLabel={suporte.cta.primaryButton}
-        primaryHref={withLocale("/comece-gratis", locale)}
+        primaryHref={withLocale("/test-drive", locale)}
         secondaryLabel={suporte.cta.secondaryButton}
         secondaryHref={withLocale("/demo", locale)}
       />

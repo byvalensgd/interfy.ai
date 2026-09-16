@@ -6,6 +6,7 @@ import SegmentsRadialDiagram from "@/components/ui/SegmentsRadialDiagram";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { segmentsHeroStats as segmentsHeroStatIcons } from "@/config/segments-page";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function SegmentsHero() {
   const locale = await getLocale();
@@ -68,6 +69,7 @@ export default async function SegmentsHero() {
                   href={withLocale("/demo", locale)}
                   variant="secondary"
                   className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:!px-5 sm:!py-2.5"
+                  disabled={CTA_DISABLED}
                 >
                   {segments.hero.ctaSecondary}
                 </Button>

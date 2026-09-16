@@ -13,7 +13,7 @@ export default async function EmpresaHistory() {
           <div className="absolute size-[300px] rounded-full bg-gradient-to-b from-[#e8f1f8] to-[#fafbff] blur-2xl" aria-hidden="true" />
           <div className="relative aspect-square h-full max-h-[384px] w-auto">
             <AutoplayVideo
-              src="/empresa/aperfeicoados-no-desafio.mp4"
+              src="/empresa/aperfeicoados-no-desafio"
               loopImmediately
               playbackRate={0.5}
               className="size-full object-cover"

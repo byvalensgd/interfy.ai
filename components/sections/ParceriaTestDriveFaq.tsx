@@ -4,6 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import ParceriaFaqList from "@/components/ui/ParceriaFaqList";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function ParceriaTestDriveFaq() {
   const locale = await getLocale();
@@ -13,7 +14,7 @@ export default async function ParceriaTestDriveFaq() {
   return (
     <section aria-label={`${testDrive.headingPrefix}${testDrive.headingHighlight}`} className="flex justify-center bg-branco px-5 py-5">
       <div className="flex w-full max-w-[1400px] flex-wrap items-stretch gap-5">
-        <Reveal className="min-w-[600px] flex-1">
+        <Reveal className="w-full lg:w-[600px] lg:flex-none">
           <div
             className="flex h-full items-center gap-5 overflow-hidden rounded-[20px] border border-contorno-base px-5 py-[30px]"
             style={{ backgroundImage: "linear-gradient(129deg, #ffffff 4.55%, #efefff 90.43%, #c8c8ff 126.82%)" }}
@@ -30,13 +31,13 @@ export default async function ParceriaTestDriveFaq() {
                   {testDrive.descriptionLine2}
                 </p>
               </div>
-              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow>
+              <Button href={withLocale("/test-drive", locale)} variant="secondary" showArrow disabled={CTA_DISABLED}>
                 {testDrive.cta}
               </Button>
             </div>
             <div className="relative hidden aspect-[2625/1769] flex-1 sm:block">
               <Image
-                src="/parceria/test-drive-mockup.png"
+                src="/parceria/test-drive-mockup.webp"
                 alt=""
                 aria-hidden="true"
                 fill
