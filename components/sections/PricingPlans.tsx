@@ -2,8 +2,8 @@
 
 import { Suspense, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import CtaLink from "@/components/ui/CtaLink";
 import Reveal from "@/components/ui/Reveal";
 import ResourcesAccordion from "@/components/sections/ResourcesAccordion";
 import type { Locale } from "@/lib/i18n/config";
@@ -70,7 +70,12 @@ const smallCheckIcons: Record<SmallPlanKey, string> = {
   startup: "/icons/pricing/check-startup.svg",
 };
 
-const largeCheckIcon = "/icons/pricing/check-starter.svg";
+const largeCheckIcons: Record<PlanKey, string> = {
+  starter: "/icons/pricing/check-starter.svg",
+  business: "/icons/pricing/check-business.svg",
+  corporate: "/icons/pricing/check-corporate.svg",
+  enterprise: "/icons/pricing/check-enterprise.svg",
+};
 const negativeIcon = "/icons/pricing/negative.svg";
 
 function SegmentSwitch({
@@ -83,12 +88,12 @@ function SegmentSwitch({
   dict: PlansSectionDict;
 }) {
   return (
-    <div className="relative flex w-full max-w-[898px] items-center gap-2.5 rounded-full bg-bg-base shadow-[inset_0px_0px_3px_0px_rgba(0,0,0,0.15)]">
+    <div className="relative flex w-full max-w-[898px] items-stretch gap-2.5 rounded-full bg-bg-base shadow-[inset_0px_0px_3px_0px_rgba(0,0,0,0.15)]">
       <button
         type="button"
         onClick={() => onChange("small")}
         aria-pressed={segment === "small"}
-        className={`flex flex-1 flex-col items-center gap-1.5 rounded-full p-2.5 text-center transition-colors sm:gap-2 sm:p-[15px] ${
+        className={`flex flex-1 flex-col items-center justify-center gap-1.5 rounded-full p-2.5 text-center transition-colors sm:gap-2 sm:p-[15px] ${
           segment === "small"
             ? "bg-[linear-gradient(112deg,#184aee_22.86%,#bf18f6_96.41%)] text-branco"
             : "text-texto"
@@ -101,7 +106,7 @@ function SegmentSwitch({
         type="button"
         onClick={() => onChange("large")}
         aria-pressed={segment === "large"}
-        className={`flex flex-1 flex-col items-center gap-1.5 rounded-full p-2.5 text-center transition-colors sm:gap-2 sm:p-[15px] ${
+        className={`flex flex-1 flex-col items-center justify-center gap-1.5 rounded-full p-2.5 text-center transition-colors sm:gap-2 sm:p-[15px] ${
           segment === "large"
             ? "bg-[linear-gradient(112deg,#184aee_22.86%,#bf18f6_96.41%)] text-branco"
             : "text-texto"
@@ -245,17 +250,17 @@ function SmallPlanCard({
         </div>
 
         <div className="flex w-full flex-col items-center gap-5">
-          <Link
+          <CtaLink
             href={withLocale("/comece-gratis", locale)}
-            className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
+            className="inline-flex shrink-0 items-center justify-center rounded-full px-5 py-2 text-base font-bold text-branco"
             style={plan.gradient ? { backgroundImage: "linear-gradient(114deg,#184aee 22.86%,#bf18f6 96.41%)" } : { backgroundColor: plan.colorVar }}
           >
             {dict.ctaLabel}
-          </Link>
+          </CtaLink>
           {dict.trialLabel ? (
-            <Link href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+            <CtaLink href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
               {dict.trialLabel}
-            </Link>
+            </CtaLink>
           ) : (
             <span aria-hidden="true" className="invisible text-sm font-bold leading-[1.2]">
               &nbsp;
@@ -355,21 +360,21 @@ function LargePlanCard({
 
         <div className="flex w-full flex-col items-center gap-5">
           {isEnterprise ? (
-            <Link
+            <CtaLink
               href={withLocale("/demo", locale)}
-              className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
+              className="inline-flex shrink-0 items-center justify-center rounded-full px-5 py-2 text-base font-bold text-branco"
               style={{ backgroundImage: "linear-gradient(114deg,#184aee 22.86%,#bf18f6 96.41%)" }}
             >
               {dict.ctaLabel}
-            </Link>
+            </CtaLink>
           ) : (
-            <Link
+            <CtaLink
               href={withLocale("/comece-gratis", locale)}
-              className="inline-flex shrink-0 items-center justify-center rounded-2xl px-5 py-2 text-base font-bold text-branco"
+              className="inline-flex shrink-0 items-center justify-center rounded-full px-5 py-2 text-base font-bold text-branco"
               style={{ backgroundColor: plan.colorVar }}
             >
               {dict.ctaLabel}
-            </Link>
+            </CtaLink>
           )}
           {dict.trialLabel &&
             (plan.trialLabelPlain ? (
@@ -377,9 +382,9 @@ function LargePlanCard({
                 {dict.trialLabel}
               </span>
             ) : (
-              <Link href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
+              <CtaLink href={withLocale("/comece-gratis", locale)} className="text-sm font-bold underline" style={{ color: plan.colorVar }}>
                 {dict.trialLabel}
-              </Link>
+              </CtaLink>
             ))}
         </div>
 
@@ -415,7 +420,7 @@ function LargePlanCard({
 
           return (
             <li key={index} className="flex items-start gap-[5px]">
-              <Image src={largeCheckIcon} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
+              <Image src={largeCheckIcons[planKey]} alt="" aria-hidden="true" width={14} height={14} className="shrink-0" />
               <span className="text-sm font-medium leading-[1.2] text-texto">{text}</span>
             </li>
           );
@@ -486,9 +491,9 @@ export default function PricingPlans({
 
         {segment === "small" ? (
           <Reveal className="w-full" delayMs={120}>
-            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 sm:grid sm:snap-none sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0">
               {smallPlans.map((plan, index) => (
-                <div key={plan.key} className="w-[85vw] max-w-[320px] shrink-0 snap-center sm:w-auto sm:max-w-none sm:shrink">
+                <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                   <SmallPlanCard
                     planKey={plan.key}
                     annual={annual}
@@ -503,9 +508,9 @@ export default function PricingPlans({
         ) : (
           <>
             <Reveal className="w-full" delayMs={120}>
-              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 sm:grid sm:snap-none sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-4">
+              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0">
                 {pricingPlans.map((plan, index) => (
-                  <div key={plan.key} className="w-[85vw] max-w-[320px] shrink-0 snap-center sm:w-auto sm:max-w-none sm:shrink">
+                  <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                     <LargePlanCard
                       planKey={plan.key}
                       annual={annual}

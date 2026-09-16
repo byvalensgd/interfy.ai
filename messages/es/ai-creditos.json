@@ -70,7 +70,9 @@
       "colCredits": "AI Créditos",
       "colPrice": "Precio",
       "colPricePer1000": "Precio por 1.000 créditos",
-      "footnote": "Valores sin impuestos. Consulta las condiciones."
+      "footnote": "Valores sin impuestos. Consulta las condiciones.",
+      "customCredits": "Bajo demanda",
+      "customPrice": "Habla con un especialista"
     },
     "consumption": {
       "heading": "Ejemplos de consumo",

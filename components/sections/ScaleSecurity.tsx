@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Calendar } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { scaleFeatures, scaleTrustBadges, type TrustBadge } from "@/config/trust";
+import { CTA_DISABLED } from "@/config/feature-flags";
+import CtaLink from "@/components/ui/CtaLink";
 
 type FeatureStripItem = TrustBadge & { label: string };
 
@@ -99,17 +100,17 @@ export default async function ScaleSecurity() {
                   {scaleSecurity.cta.description}
                 </p>
               </div>
-              <div className="@container flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
-                <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] lg:grow-0">
+              <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
+                <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={CTA_DISABLED}>
                   {scaleSecurity.cta.ctaPrimary}
                 </Button>
-                <Link
+                <CtaLink
                   href={withLocale("/demo", locale)}
-                  className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-branco transition-colors hover:bg-black/30 lg:grow-0"
+                  className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-base text-branco transition-colors hover:bg-black/30 lg:grow-0"
                 >
                   {scaleSecurity.cta.ctaSecondary}
                   <Calendar className="size-5" aria-hidden="true" />
-                </Link>
+                </CtaLink>
               </div>
             </div>
 

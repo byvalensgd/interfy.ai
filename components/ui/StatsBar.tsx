@@ -28,15 +28,24 @@ export default function StatsBar({
   const { number, sublabel } = sizeClasses[size];
 
   // Fixed grid columns (instead of flex-wrap) so every row's items start at
-  // the same x position, regardless of how many land in the last row. Two
-  // tiers, both lg+ only (below that, the card grid above takes over): lg
-  // packs a "nice" count based on divisibility, and xl widens out to fit
-  // every stat in a single row (up to 8) once there's genuinely room, per
-  // the site's "stay wide as long as possible" breakpoint rule.
+  // the same x position, regardless of how many land in the last row —
+  // flex-wrap+flex-1 can pack a full row of 6 followed by a lone last item,
+  // which a fixed column count never does (the last row is short by at most
+  // one item). packedCount picks the largest column count (2-4) that still
+  // divides `n` without leaving a lone item, reused at every tier below.
   const n = stats.length;
   const packedCount = n % 4 === 0 || n % 4 === 3 ? 4 : n % 3 === 0 || n % 3 === 2 ? 3 : 2;
+  const cardCols = Math.min(packedCount, n);
+  const cardColsByCount = [
+    "",
+    "grid-cols-1",
+    "grid-cols-2",
+    "grid-cols-2 sm:grid-cols-3",
+    "grid-cols-2 md:grid-cols-4",
+  ];
+  const cardGridCols = cardColsByCount[cardCols];
   const lgColsByCount = ["", "lg:grid-cols-1", "lg:grid-cols-2", "lg:grid-cols-3", "lg:grid-cols-4"];
-  const lgCols = lgColsByCount[Math.min(packedCount, n)];
+  const lgCols = lgColsByCount[cardCols];
   const xlColsByCount = [
     "",
     "xl:grid-cols-1",
@@ -55,11 +64,11 @@ export default function StatsBar({
       {/* Below lg: each stat becomes its own bordered card (icon over
           number, centered), per the Figma mobile spec — instead of the
           desktop's single shared strip with icon+number rows. */}
-      <ul aria-label={label} className="flex w-full flex-wrap gap-4 lg:hidden">
+      <ul aria-label={label} className={`grid w-full gap-4 lg:hidden ${cardGridCols}`}>
         {stats.map((stat) => (
           <li
             key={stat.icon}
-            className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+            className="flex flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
           >
             <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
             <div className="flex w-full flex-col items-center gap-2">

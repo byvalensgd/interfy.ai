@@ -46,7 +46,9 @@ export default async function AiCreditosUsage() {
           <div className="flex w-full items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5">
             <Image src="/icons/ai-creditos/alerta-consumo.svg" alt="" aria-hidden="true" width={32} height={32} className="shrink-0" />
             <div className="flex min-w-0 flex-1 flex-col gap-2.5">
-              <p className="w-full text-xl leading-[1.2] font-bold text-texto">{usage.notice.title}</p>
+              <p className="w-full text-base leading-[1.2] font-bold text-texto sm:text-lg lg:text-[clamp(1.125rem,0.48077vw+0.81731rem,1.25rem)]">
+                {usage.notice.title}
+              </p>
               <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">{usage.notice.description}</p>
             </div>
           </div>

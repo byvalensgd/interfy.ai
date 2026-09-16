@@ -70,7 +70,9 @@
       "colCredits": "AI 크레딧",
       "colPrice": "가격",
       "colPricePer1000": "크레딧 1,000개당 가격",
-      "footnote": "세금 미포함 금액입니다. 자세한 조건은 문의해 주세요."
+      "footnote": "세금 미포함 금액입니다. 자세한 조건은 문의해 주세요.",
+      "customCredits": "주문형",
+      "customPrice": "전문가와 상담하세요"
     },
     "consumption": {
       "heading": "소비 예시",

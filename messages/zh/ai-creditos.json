@@ -70,7 +70,9 @@
       "colCredits": "AI 积分",
       "colPrice": "价格",
       "colPricePer1000": "每 1,000 积分价格",
-      "footnote": "价格不含税。具体条件请咨询我们。"
+      "footnote": "价格不含税。具体条件请咨询我们。",
+      "customCredits": "按需定制",
+      "customPrice": "联系专家顾问"
     },
     "consumption": {
       "heading": "消耗示例",

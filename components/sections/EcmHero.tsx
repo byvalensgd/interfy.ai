@@ -4,6 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import { ecmHeroStatIcons } from "@/config/ecm-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 const aiGradient = "linear-gradient(93.5deg, #184aee 22.863%, #bf18f6 96.412%)";
 

@@ -1,12 +1,17 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
-import { aiCreditosPlans, aiCreditosConsumptionIcons } from "@/config/ai-creditos-page";
-import { getDictionary } from "@/lib/i18n/dictionaries";
+import { aiCreditosPlansBRL, aiCreditosPlansUSD, aiCreditosConsumptionIcons } from "@/config/ai-creditos-page";
+import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 
 export default async function AiCreditosPricing() {
+  const locale = await getLocale();
   const { aiCreditos } = await getDictionary();
   const { pricing } = aiCreditos;
   const consumptionItems = aiCreditosConsumptionIcons.map((icon, i) => ({ icon, ...pricing.consumption.items[i] }));
+  // Figma has two currency variants of this table ("REAL" / "DOLAR") — pt shows BRL, every
+  // other locale shows USD (the Custom row's credits/price cells are localized text, not a
+  // currency amount, so they come from the dictionary regardless of which table is active).
+  const plans = locale === "pt" ? aiCreditosPlansBRL : aiCreditosPlansUSD;
 
   return (
     <section aria-labelledby="ai-creditos-pricing-heading" className="flex justify-center bg-branco px-5 py-10 sm:py-16">
@@ -48,14 +53,21 @@ export default async function AiCreditosPricing() {
                 </tr>
               </thead>
               <tbody>
-                {aiCreditosPlans.map((row) => (
-                  <tr key={row.plan}>
-                    <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.plan}</td>
-                    <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.credits}</td>
-                    <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.price}</td>
-                    <td className="border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.pricePer1000}</td>
-                  </tr>
-                ))}
+                {plans.map((row) => {
+                  const isCustom = row.plan === "Custom";
+                  return (
+                    <tr key={row.plan}>
+                      <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.plan}</td>
+                      <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">
+                        {isCustom ? pricing.table.customCredits : row.credits}
+                      </td>
+                      <td className="border-r border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">
+                        {isCustom ? pricing.table.customPrice : row.price}
+                      </td>
+                      <td className="border-b border-contorno-base p-2.5 text-xs leading-[1.2] font-semibold text-texto sm:p-5 sm:text-base">{row.pricePer1000}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
               <tfoot>
                 <tr>

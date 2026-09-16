@@ -2,9 +2,14 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import AutoplayVideo from "@/components/ui/AutoplayVideo";
-import { aiCreditosHeroBannerItems, aiCreditosStripItemIcons } from "@/config/ai-creditos-page";
+import {
+  aiCreditosHeroBannerItems,
+  aiCreditosStripItemIcons,
+  aiCreditosStripItemIconsBlue,
+} from "@/config/ai-creditos-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function AiCreditosHero() {
   const locale = await getLocale();
@@ -12,6 +17,7 @@ export default async function AiCreditosHero() {
   const { hero } = aiCreditos;
   const banner = aiCreditosHeroBannerItems.map((item, i) => ({ ...item, ...hero.banner[i] }));
   const stripItems = aiCreditosStripItemIcons.map((icon, i) => ({ icon, ...hero.strip.items[i] }));
+  const stripItemsBlue = aiCreditosStripItemIconsBlue.map((icon, i) => ({ icon, ...hero.strip.items[i] }));
 
   return (
     <section
@@ -24,7 +30,7 @@ export default async function AiCreditosHero() {
          * video+cards block, exactly like every other hero's text-over-mockup stacking), and a
          * precise, deliberate 1024px break into two columns instead of flex-wrap's fuzzy
          * fits-or-it-doesn't threshold. */}
-        <div className="grid w-full items-stretch gap-10 lg:grid-cols-[620fr_740fr]">
+        <div className="grid w-full items-stretch gap-10 lg:flex-1 lg:grid-cols-[620fr_740fr]">
           <Reveal immediate className="flex w-full flex-col items-center justify-center gap-10 text-center lg:items-start lg:text-left">
             <h1
               id="ai-creditos-hero-heading"
@@ -47,6 +53,7 @@ export default async function AiCreditosHero() {
                 variant="primary"
                 className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
                 showArrow
+                disabled={CTA_DISABLED}
               >
                 {hero.ctaPrimary}
               </Button>
@@ -54,6 +61,7 @@ export default async function AiCreditosHero() {
                 href={withLocale("/demo", locale)}
                 variant="secondary"
                 className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
+                disabled={CTA_DISABLED}
               >
                 {hero.ctaSecondary}
               </Button>
@@ -120,15 +128,31 @@ export default async function AiCreditosHero() {
 
         <Reveal immediate delayMs={200} className="w-full">
           <div className="flex w-full flex-wrap items-center gap-10 rounded-[14px] border border-contorno-base bg-gradient-to-b from-[#001240] to-[#001149] p-[30px]">
-            <div className="flex items-center gap-5">
+            <div className="flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left">
               <Image src="/icons/ai-creditos/stacked-3d-layers.png" alt="" aria-hidden="true" width={52} height={55} className="shrink-0" />
-              <div className="flex flex-col gap-2.5">
+              <div className="flex flex-col items-center gap-2.5 lg:items-start">
                 <p className="text-xl leading-[1.2] font-bold text-branco">{hero.strip.heading}</p>
                 <p className="text-base leading-[1.2] font-medium text-branco">{hero.strip.description}</p>
               </div>
             </div>
 
-            <ul aria-label={hero.strip.ariaLabel} className="flex flex-1 flex-wrap items-center justify-between gap-5">
+            {/* "Blocos Mobile": below lg, each stat becomes its own bordered white card
+             * (StatsBar.tsx's established mobile-card pattern); at lg+, the flat in-row
+             * treatment that already fits fine directly on the dark navy background. */}
+            <ul aria-label={hero.strip.ariaLabel} className="flex w-full flex-wrap gap-4 lg:hidden">
+              {stripItemsBlue.map((item) => (
+                <li
+                  key={item.icon}
+                  className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                >
+                  <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                  <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
+                    {item.label}
+                  </p>
+                </li>
+              ))}
+            </ul>
+            <ul aria-label={hero.strip.ariaLabel} className="hidden flex-1 flex-wrap items-center justify-between gap-5 lg:flex">
               {stripItems.map((item) => (
                 <li key={item.icon} className="flex flex-1 flex-col items-center gap-2.5">
                   <Image src={item.icon} alt="" aria-hidden="true" width={32} height={32} className="shrink-0" />

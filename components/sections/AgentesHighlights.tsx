@@ -29,7 +29,7 @@ export default async function AgentesHighlights() {
               (col-reverse keeps the image, first in the DOM so it stays on
               the left once side by side, at the bottom when stacked). */}
           <div className="flex h-full w-full flex-col-reverse gap-10 @min-[570px]:flex-row @min-[570px]:items-stretch @min-[570px]:justify-center @min-[570px]:gap-[40px]">
-            <div className="relative h-[210px] w-[210px] shrink-0 self-center">
+            <div className="relative aspect-[179/210] w-[210px] shrink-0 self-center">
               <Image src="/agentes/shield-governance.png" alt="" aria-hidden="true" fill sizes="179px" className="object-cover" />
             </div>
             <div className="flex min-h-[220px] min-w-[280px] flex-1 flex-col gap-[30px]">

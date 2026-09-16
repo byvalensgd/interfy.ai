@@ -96,7 +96,7 @@ function DropdownMenu({
 }) {
   return (
     <div
-      className={`absolute right-[-1px] z-50 flex max-h-[min(360px,70vh)] w-[290px] flex-col gap-3 overflow-y-auto rounded-md border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] ${
+      className={`absolute right-[-1px] z-50 grid w-[420px] grid-cols-2 gap-x-4 gap-y-3 rounded-[12px] border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] ${
         align === "up" ? "bottom-[calc(100%+4px)]" : "top-[calc(100%+4px)]"
       }`}
     >
@@ -110,11 +110,11 @@ function DropdownMenu({
               onSelect(item.locale);
               onClose();
             }}
-            className="flex w-full shrink-0 items-center gap-2.5 transition-opacity hover:opacity-70"
+            className="flex min-w-0 items-center gap-2.5 rounded-lg p-2.5 transition-colors hover:bg-bg-base"
           >
             <FlagImg flag={item.flag} aspectW={item.aspectW} aspectH={item.aspectH} />
             <span
-              className={`min-w-0 flex-1 shrink-0 text-left text-base leading-[1.2] whitespace-nowrap text-texto ${
+              className={`flex-1 text-left text-base leading-[1.2] whitespace-nowrap text-texto ${
                 isActive ? "font-bold" : "font-normal"
               }`}
             >

@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Calendar } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 import { agentesBenefits } from "@/config/agentes";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import CtaLink from "@/components/ui/CtaLink";
 
 type Benefit = { label: string };
 
@@ -61,19 +61,19 @@ export default async function AgentesCTA() {
 
             <div className="flex w-full flex-row flex-wrap items-center justify-center gap-5 pr-5 @min-[340px]:min-w-[320px] lg:w-auto lg:flex-1 lg:flex-nowrap lg:justify-end">
               <div className="@container flex min-w-[200px] flex-1 flex-row flex-wrap items-stretch gap-[10px]">
-                <Link
+                <CtaLink
                   href={withLocale("/comece-gratis", locale)}
                   className="inline-flex min-h-10 min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-azul-base bg-branco px-[15px] py-[10px] text-center !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] font-bold text-azul-base transition-colors hover:bg-branco/90"
                 >
                   {cta.ctaPrimary}
-                </Link>
-                <Link
+                </CtaLink>
+                <CtaLink
                   href={withLocale("/demo", locale)}
                   className="inline-flex min-h-10 min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/40 px-[15px] py-[10px] text-center !text-[clamp(0.625rem,2.222cqw+0.3194rem,0.875rem)] font-bold text-branco transition-colors hover:bg-black/50"
                 >
                   {cta.ctaSecondary}
                   <Calendar className="size-5 shrink-0" aria-hidden="true" />
-                </Link>
+                </CtaLink>
               </div>
               {/* Robot sits beside the buttons at every width — the wrapper
                   is flex-wrap so it only drops to its own line if the

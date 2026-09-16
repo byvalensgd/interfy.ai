@@ -6,6 +6,7 @@ import { legalMenuItems, recursosMenuItems } from "@/config/recursos-menu";
 import { empresaMenuItems } from "@/config/empresa-menu";
 import Button from "@/components/ui/Button";
 import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
+import { CTA_DISABLED } from "@/config/feature-flags";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import MobileNav, { type MobileNavEntry } from "@/components/layout/MobileNav";
@@ -121,10 +122,22 @@ export default async function Header() {
         <div className="flex shrink-0 items-center gap-2.5">
           <LanguageSelectorCompact locale={locale} ariaLabel={header.languageSelectorAria} />
           <div className="hidden items-center gap-2.5 lg:flex">
-            <Button href={withLocale("/comece-gratis", locale)} variant="primary" size="sm" className="!px-3 xl:!px-5">
-              {common.ctaPrimary}
+            <Button
+              href={withLocale("/comece-gratis", locale)}
+              variant="primary"
+              size="sm"
+              className="!px-3 xl:!px-5"
+              disabled={CTA_DISABLED}
+            >
+              {header.ctaPrimary}
             </Button>
-            <Button href={withLocale("/demo", locale)} variant="secondary" size="sm" className="!px-3 xl:!px-5">
+            <Button
+              href={withLocale("/demo", locale)}
+              variant="secondary"
+              size="sm"
+              className="!px-3 xl:!px-5"
+              disabled={CTA_DISABLED}
+            >
               {common.ctaSecondary}
             </Button>
           </div>
@@ -135,7 +148,7 @@ export default async function Header() {
             ariaLabel={header.mobileNavAria}
             openLabel={header.openMenu}
             closeLabel={header.closeMenu}
-            ctaPrimary={common.ctaPrimary}
+            ctaPrimary={header.ctaPrimary}
             ctaSecondary={common.ctaSecondary}
           />
         </div>

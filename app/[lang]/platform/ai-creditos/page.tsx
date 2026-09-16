@@ -1,7 +1,6 @@
 import AiCreditosHero from "@/components/sections/AiCreditosHero";
 import AiCreditosUsage from "@/components/sections/AiCreditosUsage";
 import AiCreditosStructure from "@/components/sections/AiCreditosStructure";
-import AiCreditosPricing from "@/components/sections/AiCreditosPricing";
 import AiCreditosBase from "@/components/sections/AiCreditosBase";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
@@ -25,7 +24,6 @@ export default function AiCreditosPage() {
       <AiCreditosHero />
       <AiCreditosUsage />
       <AiCreditosStructure />
-      <AiCreditosPricing />
       <AiCreditosBase />
     </>
   );

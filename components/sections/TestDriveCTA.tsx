@@ -7,6 +7,7 @@ import Reveal from "@/components/ui/Reveal";
 import { platformStatIcons } from "@/config/platform";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export default async function TestDriveCTA() {
   const locale = await getLocale();
@@ -34,7 +35,7 @@ export default async function TestDriveCTA() {
               </p>
             </div>
             <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
-              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow lg:grow-0">
+              <Button href={withLocale("/comece-gratis", locale)} variant="secondary" className="grow lg:grow-0" disabled={CTA_DISABLED}>
                 {cta.ctaPrimary}
               </Button>
               <Link

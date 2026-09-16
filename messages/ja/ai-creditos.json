@@ -70,7 +70,9 @@
       "colCredits": "AIクレジット",
       "colPrice": "価格",
       "colPricePer1000": "1,000クレジットあたりの価格",
-      "footnote": "表示価格は税抜きです。詳細な条件はお問い合わせください。"
+      "footnote": "表示価格は税抜きです。詳細な条件はお問い合わせください。",
+      "customCredits": "オンデマンド",
+      "customPrice": "専門家にご相談ください"
     },
     "consumption": {
       "heading": "消費量の例",

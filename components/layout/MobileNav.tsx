@@ -7,6 +7,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import { withLocale } from "@/lib/i18n/paths";
 import Button from "@/components/ui/Button";
+import { CTA_DISABLED } from "@/config/feature-flags";
 
 export type MobileNavLink = { href: string; label: string; icon?: string };
 export type MobileNavGroup = {
@@ -137,10 +138,17 @@ export default function MobileNav({
               showArrow
               onClick={close}
               className="w-full"
+              disabled={CTA_DISABLED}
             >
               {ctaPrimary}
             </Button>
-            <Button href={withLocale("/demo", locale)} variant="secondary" onClick={close} className="w-full">
+            <Button
+              href={withLocale("/demo", locale)}
+              variant="secondary"
+              onClick={close}
+              className="w-full"
+              disabled={CTA_DISABLED}
+            >
               {ctaSecondary}
             </Button>
           </div>

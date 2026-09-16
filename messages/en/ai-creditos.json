@@ -70,7 +70,9 @@
       "colCredits": "AI Credits",
       "colPrice": "Price",
       "colPricePer1000": "Price per 1,000 credits",
-      "footnote": "Prices exclude taxes. Contact us for terms."
+      "footnote": "Prices exclude taxes. Contact us for terms.",
+      "customCredits": "On demand",
+      "customPrice": "Talk to a specialist"
     },
     "consumption": {
       "heading": "Usage examples",

@@ -70,7 +70,9 @@
       "colCredits": "AI Créditos",
       "colPrice": "Цена",
       "colPricePer1000": "Цена за 1000 кредитов",
-      "footnote": "Цены указаны без налогов. Уточняйте условия."
+      "footnote": "Цены указаны без налогов. Уточняйте условия.",
+      "customCredits": "По запросу",
+      "customPrice": "Свяжитесь со специалистом"
     },
     "consumption": {
       "heading": "Примеры расхода",

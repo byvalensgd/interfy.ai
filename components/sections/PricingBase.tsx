@@ -1,10 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import Button from "@/components/ui/Button";
+import CtaLink from "@/components/ui/CtaLink";
 import StatsBar from "@/components/ui/StatsBar";
 import Reveal from "@/components/ui/Reveal";
 import PricingFaq from "@/components/sections/PricingFaq";
 import { platformStatIcons } from "@/config/platform";
+import { CTA_DISABLED } from "@/config/feature-flags";
 import type { Locale } from "@/lib/i18n/config";
 import { withLocale } from "@/lib/i18n/paths";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -48,7 +50,7 @@ export default async function PricingBase({
       </h2>
 
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
-        <Reveal className="flex w-full flex-col items-start gap-5 rounded-2xl bg-azul-base p-5 text-branco sm:flex-row sm:items-center">
+        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-azul-base p-5 text-branco sm:flex-row sm:items-center">
           <Image src="/icons/pricing/speed.svg" alt="" aria-hidden="true" width={50} height={50} className="shrink-0" />
           <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center sm:items-start sm:text-left">
             <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2]">
@@ -56,17 +58,24 @@ export default async function PricingBase({
             </p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.trialSub}</p>
           </div>
-          <div className="flex flex-wrap items-stretch gap-5">
-            <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow>
+          <div className="flex w-full flex-wrap items-stretch gap-5 sm:w-auto">
+            <Button
+              href={withLocale("/comece-gratis", locale)}
+              variant="secondary"
+              showArrow
+              className="grow sm:grow-0"
+              disabled={CTA_DISABLED}
+            >
               {base.trialCta}
             </Button>
-            <Link
+            <CtaLink
               href={withLocale("/demo", locale)}
-              className="inline-flex items-center justify-center gap-2.5 rounded-xl border border-branco p-[15px] text-base font-bold text-branco transition-colors hover:bg-black/10"
+              className="inline-flex h-[50px] grow items-center justify-center gap-2.5 rounded-xl border border-branco px-5 text-base font-bold text-branco transition-colors hover:bg-black/10 sm:grow-0"
+              outline
             >
               {base.demoCta}
-              <Image src="/icons/pricing/arrow-right.svg" alt="" aria-hidden="true" width={10} height={10} />
-            </Link>
+              <ArrowRight className="size-4" aria-hidden="true" />
+            </CtaLink>
           </div>
         </Reveal>
 
@@ -89,13 +98,13 @@ export default async function PricingBase({
           </div>
         </Reveal>
 
-        <Reveal className="flex w-full flex-col items-start gap-5 rounded-2xl bg-[#0d215f] p-5 text-branco sm:flex-row sm:items-center">
+        <Reveal className="flex w-full flex-col items-center gap-5 rounded-2xl bg-[#0d215f] p-5 text-branco sm:flex-row sm:items-center">
           <Image src="/icons/pricing/rocket.svg" alt="" aria-hidden="true" width={50} height={50} className="shrink-0" />
           <div className="flex w-full flex-1 flex-col items-center gap-2.5 text-center sm:items-start sm:text-left">
             <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] font-bold leading-[1.2]">{base.ctaTitle}</p>
             <p className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] font-medium leading-[1.2]">{base.ctaDesc}</p>
           </div>
-          <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow>
+          <Button href={withLocale("/comece-gratis", locale)} variant="secondary" showArrow disabled={CTA_DISABLED}>
             {base.ctaButton}
           </Button>
         </Reveal>

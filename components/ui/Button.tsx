@@ -8,6 +8,7 @@ type ButtonProps = {
   size?: "sm" | "md";
   showArrow?: boolean;
   className?: string;
+  disabled?: boolean;
 } & Omit<ComponentPropsWithoutRef<typeof Link>, "href" | "className">;
 
 const variantClasses = {
@@ -28,15 +29,23 @@ export default function Button({
   size = "md",
   showArrow = false,
   className = "",
+  disabled = false,
   children,
   ...props
 }: ButtonProps) {
+  const classes = `inline-flex shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg font-bold leading-[1.2] transition-colors ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+
+  if (disabled) {
+    return (
+      <span aria-disabled="true" className={`${classes} grayscale cursor-not-allowed`}>
+        {children}
+        {showArrow && <ArrowUpRight className="size-6 -mx-[7px]" aria-hidden="true" />}
+      </span>
+    );
+  }
+
   return (
-    <Link
-      href={href}
-      className={`inline-flex shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-lg font-bold leading-[1.2] transition-colors ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
-      {...props}
-    >
+    <Link href={href} className={classes} {...props}>
       {children}
       {showArrow && <ArrowUpRight className="size-6 -mx-[7px]" aria-hidden="true" />}
     </Link>

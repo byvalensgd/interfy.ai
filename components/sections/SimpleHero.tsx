@@ -1,6 +1,12 @@
 import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
 import StatsBar, { type StatItem } from "@/components/ui/StatsBar";
+import { CTA_DISABLED } from "@/config/feature-flags";
+
+// Reused with very different href/label combinations per caller (contato,
+// suporte, cases, blog, status) — the CTA-to-gate is whichever slot actually
+// points at /comece-gratis or /demo, not a fixed primary/secondary position.
+const isGatedCtaHref = (href: string) => /\/(comece-gratis|demo)$/.test(href);
 
 type SimpleHeroProps = {
   ariaLabel: string;
@@ -67,6 +73,7 @@ export default function SimpleHero({
                   href={primaryHref}
                   variant="primary"
                   className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
+                  disabled={CTA_DISABLED && isGatedCtaHref(primaryHref)}
                 >
                   {primaryLabel}
                 </Button>
@@ -76,6 +83,7 @@ export default function SimpleHero({
                   href={secondaryHref}
                   variant="secondary"
                   className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:flex-initial sm:!px-5 sm:!py-2.5"
+                  disabled={CTA_DISABLED && isGatedCtaHref(secondaryHref)}
                 >
                   {secondaryLabel}
                 </Button>

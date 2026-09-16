@@ -3,6 +3,13 @@ import { Calendar } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import StatsBar, { type StatItem } from "@/components/ui/StatsBar";
+import { CTA_DISABLED } from "@/config/feature-flags";
+
+// This card is reused with very different href/label combinations per caller
+// (see app/[lang]/{cases,blog,status,suporte,contato}/page.tsx), so which slot
+// is "the" Test Drive / Agende Demo CTA isn't fixed by position — it's
+// whichever slot actually points at /comece-gratis or /demo.
+const isGatedCtaHref = (href: string) => /\/(comece-gratis|demo)$/.test(href);
 
 type GenericCTAProps = {
   ariaLabel: string;
@@ -29,6 +36,9 @@ export default function GenericCTA({
   stats,
   statsLabel,
 }: GenericCTAProps) {
+  const primaryDisabled = CTA_DISABLED && isGatedCtaHref(primaryHref);
+  const secondaryDisabled = CTA_DISABLED && !!secondaryHref && isGatedCtaHref(secondaryHref);
+
   return (
     <section aria-label={ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col">
@@ -40,18 +50,28 @@ export default function GenericCTA({
                 {subheading}
               </p>
             </div>
-            <div className="@container flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
-              <Button href={primaryHref} variant="secondary" className="grow !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] lg:grow-0">
+            <div className="flex w-full flex-wrap items-stretch gap-5 lg:w-auto lg:shrink-0">
+              <Button href={primaryHref} variant="secondary" className="grow !whitespace-normal !text-base lg:grow-0" disabled={primaryDisabled}>
                 {primaryLabel}
               </Button>
               {secondaryHref && secondaryLabel && (
-                <Link
-                  href={secondaryHref}
-                  className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-branco transition-colors hover:bg-black/30 lg:grow-0"
-                >
-                  {secondaryLabel}
-                  <Calendar className="size-5" aria-hidden="true" />
-                </Link>
+                secondaryDisabled ? (
+                  <span
+                    aria-disabled="true"
+                    className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-base text-branco transition-colors hover:bg-black/30 lg:grow-0 grayscale cursor-not-allowed"
+                  >
+                    {secondaryLabel}
+                    <Calendar className="size-5" aria-hidden="true" />
+                  </span>
+                ) : (
+                  <Link
+                    href={secondaryHref}
+                    className="inline-flex min-h-[50px] grow shrink-0 items-center justify-center gap-2.5 rounded-lg border-[1.5px] border-branco bg-black/20 px-5 py-2.5 text-base leading-[1.2] font-bold !whitespace-normal !text-base text-branco transition-colors hover:bg-black/30 lg:grow-0"
+                  >
+                    {secondaryLabel}
+                    <Calendar className="size-5" aria-hidden="true" />
+                  </Link>
+                )
               )}
             </div>
           </div>
