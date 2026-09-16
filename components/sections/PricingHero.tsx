@@ -52,28 +52,40 @@ export default async function PricingHero() {
                   {hero.description}
                 </p>
 
-                <div className="@container flex flex-wrap items-center justify-center gap-5 lg:justify-start">
-                  <Button
-                    href="?billing=mensal#planos"
-                    variant="primary"
-                    size="md"
-                    className="!whitespace-normal !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)]"
-                  >
+                <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-5 lg:justify-start">
+                  <Button href="?billing=mensal#planos" variant="primary" size="md">
                     {hero.monthlyCta}
                   </Button>
                   <Link
                     href="?billing=anual#planos"
-                    className="inline-flex min-h-[50px] items-center justify-center gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-[30px] py-2.5 !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] leading-[1.2] font-bold text-texto transition-colors hover:border-azul-base"
+                    className="inline-flex min-h-[50px] items-center justify-center gap-2 sm:gap-5 rounded-lg border-[1.5px] border-contorno-base bg-branco px-3 py-2.5 sm:px-[30px] text-base leading-[1.2] font-bold text-texto transition-colors hover:border-azul-base"
                   >
                     {hero.annualCta}
-                    <span className="rounded-full bg-[#e8f7ec] p-2 text-base font-bold leading-[1.2] text-ecm">
+                    <span className="rounded-full bg-[#e8f7ec] px-1.5 py-1 sm:p-2 text-sm sm:text-base font-bold leading-[1.2] text-ecm">
                       {hero.saveBadge}
                     </span>
                   </Link>
                 </div>
               </div>
 
-              <ul className="flex w-full items-center gap-[10px]">
+              {/* Below lg: each highlight becomes its own bordered card (icon
+                  over label, centered), per the site's "Blocos Mobile"
+                  pattern — instead of the desktop's shared borderless row. */}
+              <ul className="flex w-full flex-wrap gap-4 lg:hidden">
+                {pricingHighlights.map((item, index) => (
+                  <li
+                    key={item.icon}
+                    className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                  >
+                    <Image src={highlightIcons[item.icon]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
+                    <span className="flex min-h-[30px] w-full items-center justify-center text-sm leading-[1.2] font-bold text-texto">
+                      {hero.highlights[index]}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <ul className="hidden w-full items-center gap-[10px] lg:flex">
                 {pricingHighlights.map((item, index) => (
                   <li key={item.icon} className="flex flex-1 flex-col items-center gap-[15px] text-center">
                     <Image src={highlightIcons[item.icon]} alt="" aria-hidden="true" width={40} height={40} />
@@ -96,13 +108,13 @@ export default async function PricingHero() {
         </div>
 
         <Reveal immediate delayMs={200}>
-          <ul className="flex w-full flex-wrap items-center justify-center gap-5">
+          <ul className="grid w-full grid-cols-2 gap-2.5 sm:flex sm:flex-wrap sm:items-center sm:justify-center sm:gap-5">
             {pricingProductBadges.map((badge) => (
               <li
                 key={badge.label}
-                className="flex items-center gap-2.5 rounded-full border-[0.5px] border-contorno-base bg-branco px-4 py-3"
+                className="flex items-center justify-center gap-2.5 rounded-full border-[0.5px] border-contorno-base bg-branco px-4 py-3 sm:justify-start"
               >
-                <Image src={badge.icon} alt="" aria-hidden="true" width={26} height={26} />
+                <Image src={badge.icon} alt="" aria-hidden="true" width={26} height={26} className="shrink-0" />
                 <span className="whitespace-nowrap text-base font-bold leading-[1.2] text-texto">
                   {badge.label}
                 </span>

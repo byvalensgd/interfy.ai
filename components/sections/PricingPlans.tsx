@@ -95,7 +95,7 @@ function SegmentSwitch({
         }`}
       >
         <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentSmallTitle}</span>
-        <span className="text-xs leading-[1.2] font-medium sm:text-sm">{dict.segmentSmallDesc}</span>
+        <span className="hidden text-xs leading-[1.2] font-medium sm:block sm:text-sm">{dict.segmentSmallDesc}</span>
       </button>
       <button
         type="button"
@@ -108,7 +108,7 @@ function SegmentSwitch({
         }`}
       >
         <span className="text-sm leading-[1.2] font-bold sm:text-base">{dict.segmentLargeTitle}</span>
-        <span className="text-xs leading-[1.2] font-medium sm:text-sm">{dict.segmentLargeDesc}</span>
+        <span className="hidden text-xs leading-[1.2] font-medium sm:block sm:text-sm">{dict.segmentLargeDesc}</span>
       </button>
     </div>
   );
@@ -457,7 +457,11 @@ export default function PricingPlans({
   const [annual, setAnnual] = useState(true);
 
   return (
-    <section id="planos" aria-labelledby="pricing-plans-heading" className="flex justify-center px-5 py-10 sm:py-16">
+    <section
+      id="planos"
+      aria-labelledby="pricing-plans-heading"
+      className="flex scroll-mt-[var(--header-height)] justify-center px-5 py-10 sm:py-16"
+    >
       {/* The hero's "Mensal"/"Anual" buttons link here with a `billing` query
           param so they switch this section's toggle to match, instead of
           only scrolling to it. */}
