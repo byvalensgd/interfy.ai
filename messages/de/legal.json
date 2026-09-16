@@ -3,18 +3,35 @@
     "termos": {
       "title": "Nutzungsbedingungen",
       "description": "Nutzungsbedingungen der Interfy-Plattform: Nutzungsvoraussetzungen, Registrierung, Tarife, geistiges Eigentum und Verantwortlichkeiten.",
-      "keywords": ["Nutzungsbedingungen Interfy", "Interfy Nutzungsvertrag"]
+      "keywords": [
+        "Nutzungsbedingungen Interfy",
+        "Interfy Nutzungsvertrag"
+      ]
     },
     "privacidade": {
       "title": "Datenschutzrichtlinie",
       "description": "Datenschutzrichtlinie von Interfy: welche Daten wir erheben, wie wir sie verwenden, mit wem wir sie teilen und welche Rechte Sie haben.",
-      "keywords": ["Datenschutzrichtlinie Interfy", "Datenschutz Interfy"]
+      "keywords": [
+        "Datenschutzrichtlinie Interfy",
+        "Datenschutz Interfy"
+      ]
     },
     "lgpd": {
       "title": "LGPD / DSGVO",
       "description": "Wie Interfy personenbezogene Daten im Einklang mit der LGPD und der DSGVO verarbeitet und wie Sie Ihre Rechte als betroffene Person ausüben können.",
-      "keywords": ["LGPD Interfy", "DSGVO Interfy", "Datenschutz Interfy"]
+      "keywords": [
+        "LGPD Interfy",
+        "DSGVO Interfy",
+        "Datenschutz Interfy"
+      ]
     }
+  },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
   },
   "termos": {
     "ariaLabel": "Nutzungsbedingungen von Interfy",
@@ -38,7 +55,9 @@
       },
       {
         "heading": "3. Registrierung und Konto",
-        "paragraphs": ["Zur Nutzung der Plattform ist die Erstellung eines Kontos mit wahren, vollständigen und aktuellen Angaben erforderlich. Sie sind für die Vertraulichkeit Ihrer Zugangsdaten und für alle über Ihr Konto durchgeführten Aktivitäten verantwortlich."],
+        "paragraphs": [
+          "Zur Nutzung der Plattform ist die Erstellung eines Kontos mit wahren, vollständigen und aktuellen Angaben erforderlich. Sie sind für die Vertraulichkeit Ihrer Zugangsdaten und für alle über Ihr Konto durchgeführten Aktivitäten verantwortlich."
+        ],
         "items": [
           "Passwörter oder Zugangsdaten nicht an unbefugte Dritte weitergeben",
           "Interfy unverzüglich benachrichtigen bei Verdacht auf unbefugte Nutzung des Kontos",
@@ -47,19 +66,27 @@
       },
       {
         "heading": "4. Zulässige Nutzung",
-        "paragraphs": ["Sie verpflichten sich, die Plattform nicht für rechtswidrige Zwecke, zur Verletzung von Rechten Dritter, zur Verbreitung von Schadsoftware oder für den unbefugten Zugriff auf Bereiche oder Daten zu nutzen."]
+        "paragraphs": [
+          "Sie verpflichten sich, die Plattform nicht für rechtswidrige Zwecke, zur Verletzung von Rechten Dritter, zur Verbreitung von Schadsoftware oder für den unbefugten Zugriff auf Bereiche oder Daten zu nutzen."
+        ]
       },
       {
         "heading": "5. Geistiges Eigentum",
-        "paragraphs": ["Die Interfy-Plattform, einschließlich Software, Marken, Layouts und Inhalte, ist Eigentum der Interfy Corporation oder ihrer Lizenzgeber und durch Gesetze zum geistigen Eigentum geschützt. Keine Bestimmung dieser Bedingungen übertragt Rechte am geistigen Eigentum an den Kunden, mit Ausnahme der Nutzungslizenz für die Plattform während der Vertragslaufzeit."]
+        "paragraphs": [
+          "Die Interfy-Plattform, einschließlich Software, Marken, Layouts und Inhalte, ist Eigentum der Interfy Corporation oder ihrer Lizenzgeber und durch Gesetze zum geistigen Eigentum geschützt. Keine Bestimmung dieser Bedingungen übertragt Rechte am geistigen Eigentum an den Kunden, mit Ausnahme der Nutzungslizenz für die Plattform während der Vertragslaufzeit."
+        ]
       },
       {
         "heading": "6. Tarife, Zahlung und Kündigung",
-        "paragraphs": ["Der Zugang zur Plattform wird gemäß dem abgeschlossenen Tarif gewährt. Preise, Zahlungsarten und Verlängerungsbedingungen werden bei Vertragsabschluss mitgeteilt. Die Kündigung kann jederzeit unter Beachtung der jeweiligen Tarifbedingungen beantragt werden."]
+        "paragraphs": [
+          "Der Zugang zur Plattform wird gemäß dem abgeschlossenen Tarif gewährt. Preise, Zahlungsarten und Verlängerungsbedingungen werden bei Vertragsabschluss mitgeteilt. Die Kündigung kann jederzeit unter Beachtung der jeweiligen Tarifbedingungen beantragt werden."
+        ]
       },
       {
         "heading": "7. Kundendaten und -inhalte",
-        "paragraphs": ["Alle vom Kunden auf der Plattform hochgeladenen, gespeicherten oder verarbeiteten Inhalte (\"Kundeninhalte\") bleiben Eigentum des Kunden. Interfy fungiert als Auftragsverarbeiter dieser Daten und verarbeitet sie gemäß den Anweisungen des Kunden und unserer Datenschutzrichtlinie."]
+        "paragraphs": [
+          "Alle vom Kunden auf der Plattform hochgeladenen, gespeicherten oder verarbeiteten Inhalte (\"Kundeninhalte\") bleiben Eigentum des Kunden. Interfy fungiert als Auftragsverarbeiter dieser Daten und verarbeitet sie gemäß den Anweisungen des Kunden und unserer Datenschutzrichtlinie."
+        ]
       },
       {
         "heading": "8. Verfügbarkeit und Support",
@@ -67,27 +94,40 @@
           "Interfy betreibt eine cloud-native Multi-AZ-Infrastruktur auf AWS mit einer Verfügbarkeits-SLA von 99,99 %, kontinuierlicher Überwachung (24/7) und einem Disaster-Recovery-Plan mit geografischer Replikation.",
           "Der Support erfolgt gemäß den auf unserer Support-Seite beschriebenen Kanälen und Fristen, und die Verfügbarkeits- und Vorfallshistorie wird in Echtzeit auf der Status-Seite der Plattform veröffentlicht."
         ],
-        "relatedLink": { "label": "Vollständige Sicherheitsarchitektur ansehen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vollständige Sicherheitsarchitektur ansehen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "9. Haftungsbeschränkung",
-        "paragraphs": ["Im gesetzlich maximal zulässigen Umfang haftet Interfy nicht für indirekte, beiläufige oder Folgeschäden, die aus der Nutzung oder Unmöglichkeit der Nutzung der Plattform entstehen."]
+        "paragraphs": [
+          "Im gesetzlich maximal zulässigen Umfang haftet Interfy nicht für indirekte, beiläufige oder Folgeschäden, die aus der Nutzung oder Unmöglichkeit der Nutzung der Plattform entstehen."
+        ]
       },
       {
         "heading": "10. Kündigung durch Interfy",
-        "paragraphs": ["Interfy kann den Zugang zur Plattform im Falle eines Verstoßes gegen diese Bedingungen nach vorheriger Ankündigung aussetzen oder beenden, außer in Fällen unmittelbarer Gefahr für die Sicherheit der Plattform oder Dritter."]
+        "paragraphs": [
+          "Interfy kann den Zugang zur Plattform im Falle eines Verstoßes gegen diese Bedingungen nach vorheriger Ankündigung aussetzen oder beenden, außer in Fällen unmittelbarer Gefahr für die Sicherheit der Plattform oder Dritter."
+        ]
       },
       {
         "heading": "11. Änderungen der Bedingungen",
-        "paragraphs": ["Diese Bedingungen können regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mit angemessener Frist vor Inkrafttreten mitgeteilt."]
+        "paragraphs": [
+          "Diese Bedingungen können regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mit angemessener Frist vor Inkrafttreten mitgeteilt."
+        ]
       },
       {
         "heading": "12. Anwendbares Recht und Gerichtsstand",
-        "paragraphs": ["Diese Bedingungen unterliegen den Gesetzen der Föderativen Republik Brasilien, unbeschadet spezifischer Vertragsbestimmungen für Kunden aus anderen Rechtsordnungen."]
+        "paragraphs": [
+          "Diese Bedingungen unterliegen den Gesetzen der Föderativen Republik Brasilien, unbeschadet spezifischer Vertragsbestimmungen für Kunden aus anderen Rechtsordnungen."
+        ]
       },
       {
         "heading": "13. Kontakt",
-        "paragraphs": ["Fragen zu diesen Bedingungen können an contato@interfy.ai gesendet werden."]
+        "paragraphs": [
+          "Fragen zu diesen Bedingungen können an contato@interfy.ai gesendet werden."
+        ]
       }
     ]
   },
@@ -102,17 +142,36 @@
       "heading": "Zertifizierungen und Konformität",
       "ctaLabel": "Vollständige Details ansehen",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Zertifiziertes Informationssicherheits-Managementsystem." },
-        { "label": "SOC 2 Type II", "description": "Kontrollen für Sicherheit, Verfügbarkeit und Vertraulichkeit.", "badge": "In Bearbeitung" },
-        { "label": "LGPD", "description": "Konform mit dem brasilianischen Datenschutzgesetz (LGPD)." },
-        { "label": "DSGVO", "description": "Konform mit der Datenschutz-Grundverordnung (EU)." },
-        { "label": "HIPAA Ready", "description": "Vorbereitet für Umgebungen mit ePHI in den USA.", "badge": "BAA verfügbar" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Zertifiziertes Informationssicherheits-Managementsystem."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Kontrollen für Sicherheit, Verfügbarkeit und Vertraulichkeit.",
+          "badge": "In Bearbeitung"
+        },
+        {
+          "label": "LGPD",
+          "description": "Konform mit dem brasilianischen Datenschutzgesetz (LGPD)."
+        },
+        {
+          "label": "DSGVO",
+          "description": "Konform mit der Datenschutz-Grundverordnung (EU)."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Vorbereitet für Umgebungen mit ePHI in den USA.",
+          "badge": "BAA verfügbar"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Wer wir sind",
-        "paragraphs": ["Die Interfy Corporation mit Sitz in Orlando, Florida, USA, ist die Verantwortliche für die über die Interfy-Plattform verarbeiteten personenbezogenen Daten, außer wenn sie im Auftrag eines Kunden als Auftragsverarbeiter handelt."]
+        "paragraphs": [
+          "Die Interfy Corporation mit Sitz in Orlando, Florida, USA, ist die Verantwortliche für die über die Interfy-Plattform verarbeiteten personenbezogenen Daten, außer wenn sie im Auftrag eines Kunden als Auftragsverarbeiter handelt."
+        ]
       },
       {
         "heading": "2. Welche Daten wir erheben",
@@ -134,19 +193,27 @@
       },
       {
         "heading": "4. Weitergabe von Daten",
-        "paragraphs": ["Personenbezogene Daten können an Infrastrukturanbieter (wie AWS-Cloud-Dienste), Zahlungsdienstleister und andere für die Erbringung des Dienstes unbedingt erforderliche Auftragsverarbeiter weitergegeben werden, stets unter vertraglichen Vertraulichkeits- und Sicherheitspflichten. Wir verkaufen keine personenbezogenen Daten an Dritte."]
+        "paragraphs": [
+          "Personenbezogene Daten können an Infrastrukturanbieter (wie AWS-Cloud-Dienste), Zahlungsdienstleister und andere für die Erbringung des Dienstes unbedingt erforderliche Auftragsverarbeiter weitergegeben werden, stets unter vertraglichen Vertraulichkeits- und Sicherheitspflichten. Wir verkaufen keine personenbezogenen Daten an Dritte."
+        ]
       },
       {
         "heading": "5. Cookies und ähnliche Technologien",
-        "paragraphs": ["Wir verwenden essenzielle Cookies für den Betrieb der Website und, bei Einwilligung, analytische Cookies, um die Nutzung der Plattform zu verstehen und die Nutzererfahrung zu verbessern."]
+        "paragraphs": [
+          "Wir verwenden essenzielle Cookies für den Betrieb der Website und, bei Einwilligung, analytische Cookies, um die Nutzung der Plattform zu verstehen und die Nutzererfahrung zu verbessern."
+        ]
       },
       {
         "heading": "6. Datenspeicherung",
-        "paragraphs": ["Personenbezogene Daten werden so lange gespeichert, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist, und anschließend gelöscht oder anonymisiert."]
+        "paragraphs": [
+          "Personenbezogene Daten werden so lange gespeichert, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist, und anschließend gelöscht oder anonymisiert."
+        ]
       },
       {
         "heading": "7. Informationssicherheit",
-        "paragraphs": ["Wir setzen mehrschichtige Sicherheit ein, von der Architektur bis zum täglichen Betrieb:"],
+        "paragraphs": [
+          "Wir setzen mehrschichtige Sicherheit ein, von der Architektur bis zum täglichen Betrieb:"
+        ],
         "items": [
           "Isolierung nach Workspace und dedizierte Datenbank pro Kunde, ohne gemeinsame Nutzung",
           "Fortschrittliche Verschlüsselung: Daten während der Übertragung (TLS 1.2+) und im Ruhezustand (AES-256)",
@@ -157,7 +224,10 @@
           "24/7-Sicherheitsüberwachung, automatische verschlüsselte Backups und Disaster Recovery mit geografischer Replikation",
           "Multi-AZ-Infrastruktur auf AWS, zertifiziert nach ISO/IEC 27001:2022, mit SOC 2 Type II in Bearbeitung"
         ],
-        "relatedLink": { "label": "Vollständige Sicherheitsarchitektur ansehen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vollständige Sicherheitsarchitektur ansehen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "8. Ihre Rechte (LGPD/DSGVO)",
@@ -171,15 +241,21 @@
       },
       {
         "heading": "9. Internationale Datenübermittlung",
-        "paragraphs": ["Da wir mit einer globalen Infrastruktur arbeiten, können personenbezogene Daten zwischen Ländern übertragen werden, stets mit vertraglichen und technischen Schutzmaßnahmen, die mit LGPD und DSGVO vereinbar sind."]
+        "paragraphs": [
+          "Da wir mit einer globalen Infrastruktur arbeiten, können personenbezogene Daten zwischen Ländern übertragen werden, stets mit vertraglichen und technischen Schutzmaßnahmen, die mit LGPD und DSGVO vereinbar sind."
+        ]
       },
       {
         "heading": "10. Änderungen dieser Richtlinie",
-        "paragraphs": ["Diese Richtlinie kann regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mitgeteilt."]
+        "paragraphs": [
+          "Diese Richtlinie kann regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mitgeteilt."
+        ]
       },
       {
         "heading": "11. Kontakt des Datenschutzbeauftragten (DPO)",
-        "paragraphs": ["Um Ihre Rechte auszuüben oder Fragen zu dieser Richtlinie zu klären, kontaktieren Sie unseren Datenschutzbeauftragten unter privacidade@interfy.ai."]
+        "paragraphs": [
+          "Um Ihre Rechte auszuüben oder Fragen zu dieser Richtlinie zu klären, kontaktieren Sie unseren Datenschutzbeauftragten unter privacidade@interfy.ai."
+        ]
       }
     ]
   },
@@ -194,21 +270,42 @@
       "heading": "Zertifizierungen und Konformität",
       "ctaLabel": "Vollständige Details ansehen",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Zertifiziertes Informationssicherheits-Managementsystem." },
-        { "label": "SOC 2 Type II", "description": "Kontrollen für Sicherheit, Verfügbarkeit und Vertraulichkeit.", "badge": "In Bearbeitung" },
-        { "label": "LGPD", "description": "Konform mit dem brasilianischen Datenschutzgesetz (LGPD)." },
-        { "label": "DSGVO", "description": "Konform mit der Datenschutz-Grundverordnung (EU)." },
-        { "label": "HIPAA Ready", "description": "Vorbereitet für Umgebungen mit ePHI in den USA.", "badge": "BAA verfügbar" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Zertifiziertes Informationssicherheits-Managementsystem."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Kontrollen für Sicherheit, Verfügbarkeit und Vertraulichkeit.",
+          "badge": "In Bearbeitung"
+        },
+        {
+          "label": "LGPD",
+          "description": "Konform mit dem brasilianischen Datenschutzgesetz (LGPD)."
+        },
+        {
+          "label": "DSGVO",
+          "description": "Konform mit der Datenschutz-Grundverordnung (EU)."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Vorbereitet für Umgebungen mit ePHI in den USA.",
+          "badge": "BAA verfügbar"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Unser Engagement",
-        "paragraphs": ["Wir verfolgen \"Privacy by Design\" in allen Produkten der Plattform, mit technischen und organisatorischen Kontrollen, die eine kontinuierliche Konformität mit LGPD und DSGVO sicherstellen."]
+        "paragraphs": [
+          "Wir verfolgen \"Privacy by Design\" in allen Produkten der Plattform, mit technischen und organisatorischen Kontrollen, die eine kontinuierliche Konformität mit LGPD und DSGVO sicherstellen."
+        ]
       },
       {
         "heading": "2. Rollen: Verantwortlicher und Auftragsverarbeiter",
-        "paragraphs": ["Für Registrierungs- und Nutzungsdaten der Plattform handelt Interfy als Verantwortlicher. Für die auf der Plattform gespeicherten Kundeninhalte handelt Interfy als Auftragsverarbeiter und verarbeitet die Daten ausschließlich gemäß den Anweisungen des verantwortlichen Kunden."]
+        "paragraphs": [
+          "Für Registrierungs- und Nutzungsdaten der Plattform handelt Interfy als Verantwortlicher. Für die auf der Plattform gespeicherten Kundeninhalte handelt Interfy als Auftragsverarbeiter und verarbeitet die Daten ausschließlich gemäß den Anweisungen des verantwortlichen Kunden."
+        ]
       },
       {
         "heading": "3. Rechtsgrundlagen der Verarbeitung",
@@ -221,11 +318,15 @@
       },
       {
         "heading": "4. Rechte der betroffenen Person",
-        "paragraphs": ["Betroffene Personen können Zugang, Berichtigung, Anonymisierung, Löschung, Übertragbarkeit oder Informationen über die Weitergabe ihrer personenbezogenen Daten gemäß LGPD und, soweit anwendbar, DSGVO beantragen."]
+        "paragraphs": [
+          "Betroffene Personen können Zugang, Berichtigung, Anonymisierung, Löschung, Übertragbarkeit oder Informationen über die Weitergabe ihrer personenbezogenen Daten gemäß LGPD und, soweit anwendbar, DSGVO beantragen."
+        ]
       },
       {
         "heading": "5. Wie Sie Ihre Rechte ausüben",
-        "paragraphs": ["Anfragen können an privacidade@interfy.ai gesendet werden. Wir antworten innerhalb der geltenden gesetzlichen Fristen und können zusätzliche Informationen zur Identitätsbestätigung des Antragstellers verlangen."]
+        "paragraphs": [
+          "Anfragen können an privacidade@interfy.ai gesendet werden. Wir antworten innerhalb der geltenden gesetzlichen Fristen und können zusätzliche Informationen zur Identitätsbestätigung des Antragstellers verlangen."
+        ]
       },
       {
         "heading": "6. Technische und organisatorische Sicherheitsmaßnahmen",
@@ -240,19 +341,28 @@
           "Automatische verschlüsselte Backups und Disaster Recovery mit geografischer Replikation",
           "Multi-AZ-Infrastruktur auf AWS mit einer Verfügbarkeits-SLA von 99,99 %"
         ],
-        "relatedLink": { "label": "Vollständige Sicherheitsarchitektur ansehen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vollständige Sicherheitsarchitektur ansehen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "7. Internationale Datenübermittlung",
-        "paragraphs": ["Wenn personenbezogene Daten zwischen Ländern übertragen werden, setzt Interfy vertragliche Klauseln und technische Schutzmaßnahmen ein, die mit den Anforderungen von LGPD und DSGVO für internationale Übermittlungen vereinbar sind."]
+        "paragraphs": [
+          "Wenn personenbezogene Daten zwischen Ländern übertragen werden, setzt Interfy vertragliche Klauseln und technische Schutzmaßnahmen ein, die mit den Anforderungen von LGPD und DSGVO für internationale Übermittlungen vereinbar sind."
+        ]
       },
       {
         "heading": "8. Datenschutzbeauftragter (DPO)",
-        "paragraphs": ["Unser Datenschutzbeauftragter kann unter privacidade@interfy.ai kontaktiert werden, um Fragen zur Verarbeitung personenbezogener Daten zu klären."]
+        "paragraphs": [
+          "Unser Datenschutzbeauftragter kann unter privacidade@interfy.ai kontaktiert werden, um Fragen zur Verarbeitung personenbezogener Daten zu klären."
+        ]
       },
       {
         "heading": "9. Aktualisierungen",
-        "paragraphs": ["Dieses Dokument kann aktualisiert werden, um gesetzliche, regulatorische oder plattformbezogene Änderungen widerzuspiegeln. Das Datum der letzten Aktualisierung wird stets oben auf der Seite angezeigt."]
+        "paragraphs": [
+          "Dieses Dokument kann aktualisiert werden, um gesetzliche, regulatorische oder plattformbezogene Änderungen widerzuspiegeln. Das Datum der letzten Aktualisierung wird stets oben auf der Seite angezeigt."
+        ]
       }
     ]
   }

@@ -2,7 +2,13 @@
   "seo": {
     "title": "Sécurité",
     "description": "Découvrez l'architecture de sécurité, de confidentialité et de conformité d'Interfy : chiffrement, contrôle d'accès, haute disponibilité Multi-AZ et certifications ISO, LGPD, GDPR et SOC 2.",
-    "keywords": ["sécurité Interfy", "conformité RGPD LGPD", "chiffrement des données", "haute disponibilité AWS", "architecture cloud-native sécurisée"]
+    "keywords": [
+      "sécurité Interfy",
+      "conformité RGPD LGPD",
+      "chiffrement des données",
+      "haute disponibilité AWS",
+      "architecture cloud-native sécurisée"
+    ]
   },
   "hero": {
     "headingPrefix": "Une sécurité enterprise dès l'",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Couches de sécurité d'Interfy",
     "diagram": {
       "items": [
-        { "label": "Sécurité dès l'architecture" },
-        { "label": "Contrôle total des accès" },
-        { "label": "Haute disponibilité" },
-        { "label": "Isolation par Workspace" },
-        { "label": "Données toujours protégées" },
-        { "label": "Confidentialité par conception" },
-        { "label": "Conformité mondiale" },
-        { "label": "Infrastructure fiable" }
+        {
+          "label": "Sécurité dès l'architecture"
+        },
+        {
+          "label": "Contrôle total des accès"
+        },
+        {
+          "label": "Haute disponibilité"
+        },
+        {
+          "label": "Isolation par Workspace"
+        },
+        {
+          "label": "Données toujours protégées"
+        },
+        {
+          "label": "Confidentialité par conception"
+        },
+        {
+          "label": "Conformité mondiale"
+        },
+        {
+          "label": "Infrastructure fiable"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99 %", "description": "Disponibilité SLA garantie" },
-      { "label": "24/7", "description": "Surveillance continue" },
-      { "label": "Sûr et fiable", "description": "Protection sur plusieurs couches de sécurité" }
+      {
+        "label": "99,99 %",
+        "description": "Disponibilité SLA garantie"
+      },
+      {
+        "label": "24/7",
+        "description": "Surveillance continue"
+      },
+      {
+        "label": "Sûr et fiable",
+        "description": "Protection sur plusieurs couches de sécurité"
+      }
     ],
     "poweredByLabel": "Propulsé par",
     "awsChecklistAriaLabel": "Infrastructure AWS d'Interfy",
@@ -131,19 +163,42 @@
     "headlineHighlight": "cloud-native",
     "headlineSuffix": " à haute disponibilité",
     "flow": [
-      { "label": "Utilisateurs" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Utilisateurs"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Haute disponibilité - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "Applications" },
-    "az2": { "label": "AZ 2", "title": "Base de données", "subtitle": "(Basculement automatique)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Applications"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Base de données",
+      "subtitle": "(Basculement automatique)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Sauvegarde chiffrée" },
-      { "label": "Surveillance CloudWatch" },
-      { "label": "Journaux CloudTrail" },
-      { "label": "Sécurité GuardDuty" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Sauvegarde chiffrée"
+      },
+      {
+        "label": "Surveillance CloudWatch"
+      },
+      {
+        "label": "Journaux CloudTrail"
+      },
+      {
+        "label": "Sécurité GuardDuty"
+      }
     ],
     "featuresAriaLabel": "Atouts de l'architecture haute disponibilité",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Parler à un spécialiste",
     "featuresAriaLabel": "Piliers de sécurité et de conformité d'Interfy",
     "features": [
-      { "label": "Sécurité by design" },
-      { "label": "Confidentialité par défaut" },
-      { "label": "Transparence totale" },
-      { "label": "Conformité mondiale" },
-      { "label": "Innovation responsable" }
+      {
+        "label": "Sécurité by design"
+      },
+      {
+        "label": "Confidentialité par défaut"
+      },
+      {
+        "label": "Transparence totale"
+      },
+      {
+        "label": "Conformité mondiale"
+      },
+      {
+        "label": "Innovation responsable"
+      }
     ]
   }
 }

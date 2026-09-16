@@ -2,7 +2,13 @@
   "seo": {
     "title": "Säkerhet",
     "description": "Utforska Interfys arkitektur för säkerhet, integritet och regelefterlevnad: kryptering, åtkomstkontroll, hög tillgänglighet med Multi-AZ samt certifieringar enligt ISO, LGPD, GDPR och SOC 2.",
-    "keywords": ["säkerhet Interfy", "regelefterlevnad LGPD GDPR", "datakryptering", "hög tillgänglighet AWS", "säker cloud-native arkitektur"]
+    "keywords": [
+      "säkerhet Interfy",
+      "regelefterlevnad LGPD GDPR",
+      "datakryptering",
+      "hög tillgänglighet AWS",
+      "säker cloud-native arkitektur"
+    ]
   },
   "hero": {
     "headingPrefix": "Säkerhet på företagsnivå ända från ",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Interfys säkerhetslager",
     "diagram": {
       "items": [
-        { "label": "Säkerhet från grunden" },
-        { "label": "Fullständig åtkomstkontroll" },
-        { "label": "Hög tillgänglighet" },
-        { "label": "Isolering per Workspace" },
-        { "label": "Data alltid skyddad" },
-        { "label": "Integritet by design" },
-        { "label": "Global regelefterlevnad" },
-        { "label": "Pålitlig infrastruktur" }
+        {
+          "label": "Säkerhet från grunden"
+        },
+        {
+          "label": "Fullständig åtkomstkontroll"
+        },
+        {
+          "label": "Hög tillgänglighet"
+        },
+        {
+          "label": "Isolering per Workspace"
+        },
+        {
+          "label": "Data alltid skyddad"
+        },
+        {
+          "label": "Integritet by design"
+        },
+        {
+          "label": "Global regelefterlevnad"
+        },
+        {
+          "label": "Pålitlig infrastruktur"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99%", "description": "Garanterad SLA-tillgänglighet" },
-      { "label": "24/7", "description": "Kontinuerlig övervakning" },
-      { "label": "Säker och pålitlig", "description": "Skydd i flera säkerhetslager" }
+      {
+        "label": "99,99%",
+        "description": "Garanterad SLA-tillgänglighet"
+      },
+      {
+        "label": "24/7",
+        "description": "Kontinuerlig övervakning"
+      },
+      {
+        "label": "Säker och pålitlig",
+        "description": "Skydd i flera säkerhetslager"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "Interfys AWS-infrastruktur",
@@ -131,19 +163,42 @@
     "headlineHighlight": "arkitektur",
     "headlineSuffix": " med hög tillgänglighet",
     "flow": [
-      { "label": "Användare" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Användare"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Hög tillgänglighet - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "Applikationer" },
-    "az2": { "label": "AZ 2", "title": "Databas", "subtitle": "(Automatisk failover)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Applikationer"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Databas",
+      "subtitle": "(Automatisk failover)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Krypterad säkerhetskopiering" },
-      { "label": "CloudWatch-övervakning" },
-      { "label": "CloudTrail-loggar" },
-      { "label": "GuardDuty-säkerhet" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Krypterad säkerhetskopiering"
+      },
+      {
+        "label": "CloudWatch-övervakning"
+      },
+      {
+        "label": "CloudTrail-loggar"
+      },
+      {
+        "label": "GuardDuty-säkerhet"
+      }
     ],
     "featuresAriaLabel": "Fördelar med arkitekturen för hög tillgänglighet",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Prata med en specialist",
     "featuresAriaLabel": "Interfys grundpelare för säkerhet och regelefterlevnad",
     "features": [
-      { "label": "Säkerhet by design" },
-      { "label": "Integritet som standard" },
-      { "label": "Full transparens" },
-      { "label": "Global regelefterlevnad" },
-      { "label": "Ansvarsfull innovation" }
+      {
+        "label": "Säkerhet by design"
+      },
+      {
+        "label": "Integritet som standard"
+      },
+      {
+        "label": "Full transparens"
+      },
+      {
+        "label": "Global regelefterlevnad"
+      },
+      {
+        "label": "Ansvarsfull innovation"
+      }
     ]
   }
 }

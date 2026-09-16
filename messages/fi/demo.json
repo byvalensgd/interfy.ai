@@ -2,7 +2,11 @@
   "meta": {
     "title": "Varaa demo",
     "description": "Varaa henkilökohtainen Interfy-esittely ja katso, miten dokumentit, prosessit, sähköinen allekirjoitus ja AI voivat mukautua toimintaanne.",
-    "keywords": ["varaa Interfy-demo", "Interfy-esittely", "pyydä demo AI-alustasta"]
+    "keywords": [
+      "varaa Interfy-demo",
+      "Interfy-esittely",
+      "pyydä demo AI-alustasta"
+    ]
   },
   "hero": {
     "ariaLabel": "Varaa Interfy-esittely",
@@ -12,20 +16,40 @@
     "description": "Asiantuntija tutustuu tilanteeseenne ja näyttää livenä, miten dokumentit, prosessit, sähköinen allekirjoitus, integraatiot ja AI sopivat toimintaanne.",
     "expectHeading": "Mitä demolta odottaa",
     "expectItems": [
-      { "title": "30 minuuttia", "description": "Suoraviivainen keskustelu, ei jaarittelua." },
-      { "title": "Todellinen tilanne", "description": "Esimerkkejä sovellettuna toimintaanne ja toimialaanne." },
-      { "title": "Ei sitoumuksia", "description": "Päätät itse seuraavasta askeleesta keskustelun jälkeen." },
-      { "title": "Omistautunut asiantuntija", "description": "Henkilö, joka tuntee alanne ennalta." }
+      {
+        "title": "30 minuuttia",
+        "description": "Suoraviivainen keskustelu, ei jaarittelua."
+      },
+      {
+        "title": "Todellinen tilanne",
+        "description": "Esimerkkejä sovellettuna toimintaanne ja toimialaanne."
+      },
+      {
+        "title": "Ei sitoumuksia",
+        "description": "Päätät itse seuraavasta askeleesta keskustelun jälkeen."
+      },
+      {
+        "title": "Omistautunut asiantuntija",
+        "description": "Henkilö, joka tuntee alanne ennalta."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "Varaa esittelysi",
     "subheading": "Täytä tiedot alla, ja otamme yhteyttä sopivimman ajan vahvistamiseksi.",
-    "nameLabel": "Koko nimi",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "Yrityssähköposti",
     "companyLabel": "Yritys",
     "phoneLabel": "Puhelin (WhatsApp)",
-    "roleLabel": "Titteli",
     "companySizeLabel": "Yrityksen koko",
     "companySizePlaceholder": "Valitse",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201–1 000 työntekijää",
       "Yli 1 000 työntekijää"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "Kerro lyhyesti, mitä tarvitsette",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(vapaaehtoinen)",
     "errors": {
       "name": "Anna koko nimesi.",
@@ -53,7 +91,9 @@
     "successHeading": "Pyyntösi vastaanotettu!",
     "successMessagePrefix": "Tiimimme ottaa yhteyttä sopivimman ajan vahvistamiseksi osoitteeseen ",
     "successMessageSuffix": ".",
-    "specialistLink": "Aloita ilmaiseksi sillä välin"
+    "specialistLink": "Aloita ilmaiseksi sillä välin",
+    "nameLabel": "Koko nimi",
+    "roleLabel": "Titteli"
   },
   "trust": {
     "ariaLabel": "Miksi varata demo Interfyn kanssa",
@@ -61,10 +101,22 @@
     "subheading": "Yritystason tietoturva, globaali vaatimustenmukaisuus ja asiantunteva tuki jokaisessa esittelyssä.",
     "statsLabel": "Interfyn globaali läsnäolo",
     "stats": [
-      { "label": "180+ maata", "sublabel": "Kasvava globaali läsnäolo" },
-      { "label": "16 kieltä", "sublabel": "Täysi käyttöliittymä ja kokemus" },
-      { "label": "99,99%", "sublabel": "Taattu SLA-käytettävyys" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Sertifioitu vaatimustenmukaisuus" }
+      {
+        "label": "180+ maata",
+        "sublabel": "Kasvava globaali läsnäolo"
+      },
+      {
+        "label": "16 kieltä",
+        "sublabel": "Täysi käyttöliittymä ja kokemus"
+      },
+      {
+        "label": "99,99%",
+        "sublabel": "Taattu SLA-käytettävyys"
+      },
+      {
+        "label": "ISO 27001, LGPD, GDPR",
+        "sublabel": "Sertifioitu vaatimustenmukaisuus"
+      }
     ]
   }
 }

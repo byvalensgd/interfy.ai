@@ -2,7 +2,11 @@
   "meta": {
     "title": "Boka en demo",
     "description": "Boka en personlig demonstration av Interfy och se hur dokument, processer, e-signering och AI kan anpassas till din verksamhet.",
-    "keywords": ["boka demo Interfy", "demonstration Interfy", "begär demo AI-native plattform"]
+    "keywords": [
+      "boka demo Interfy",
+      "demonstration Interfy",
+      "begär demo AI-native plattform"
+    ]
   },
   "hero": {
     "ariaLabel": "Boka en demonstration av Interfy",
@@ -12,20 +16,40 @@
     "description": "En specialist går igenom ditt scenario och visar, live, hur dokument, processer, e-signering, integrationer och AI kan passa in i din verksamhet.",
     "expectHeading": "Vad du kan förvänta dig av demon",
     "expectItems": [
-      { "title": "30 minuter", "description": "Ett rakt på sak-samtal, utan krusiduller." },
-      { "title": "Verkligt scenario", "description": "Exempel anpassade till din verksamhet och din bransch." },
-      { "title": "Inga förpliktelser", "description": "Du bestämmer nästa steg efter samtalet." },
-      { "title": "Dedikerad specialist", "description": "Någon som redan känner till din bransch." }
+      {
+        "title": "30 minuter",
+        "description": "Ett rakt på sak-samtal, utan krusiduller."
+      },
+      {
+        "title": "Verkligt scenario",
+        "description": "Exempel anpassade till din verksamhet och din bransch."
+      },
+      {
+        "title": "Inga förpliktelser",
+        "description": "Du bestämmer nästa steg efter samtalet."
+      },
+      {
+        "title": "Dedikerad specialist",
+        "description": "Någon som redan känner till din bransch."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "Boka din demonstration",
     "subheading": "Fyll i uppgifterna nedan och vi kontaktar dig för att bekräfta en lämplig tid.",
-    "nameLabel": "Fullständigt namn",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "Företags-e-post",
     "companyLabel": "Företag",
     "phoneLabel": "Telefon (WhatsApp)",
-    "roleLabel": "Befattning",
     "companySizeLabel": "Företagets storlek",
     "companySizePlaceholder": "Välj",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201–1 000 anställda",
       "Fler än 1 000 anställda"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "Berätta lite om vad du behöver",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(valfritt)",
     "errors": {
       "name": "Ange ditt fullständiga namn.",
@@ -53,7 +91,9 @@
     "successHeading": "Vi har tagit emot din förfrågan!",
     "successMessagePrefix": "Vårt team kontaktar dig för att bekräfta en lämplig tid via e-post på ",
     "successMessageSuffix": ".",
-    "specialistLink": "Kom igång gratis medan du väntar"
+    "specialistLink": "Kom igång gratis medan du väntar",
+    "nameLabel": "Fullständigt namn",
+    "roleLabel": "Befattning"
   },
   "trust": {
     "ariaLabel": "Varför boka en demo med Interfy",
@@ -61,10 +101,22 @@
     "subheading": "Säkerhet i företagsklass, global efterlevnad och specialiserad support i varje demonstration.",
     "statsLabel": "Interfys globala närvaro",
     "stats": [
-      { "label": "180+ länder", "sublabel": "Växande global närvaro" },
-      { "label": "16 språk", "sublabel": "Fullständigt gränssnitt och upplevelse" },
-      { "label": "99,99%", "sublabel": "Garanterad tillgänglighet (SLA)" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Certifierad efterlevnad" }
+      {
+        "label": "180+ länder",
+        "sublabel": "Växande global närvaro"
+      },
+      {
+        "label": "16 språk",
+        "sublabel": "Fullständigt gränssnitt och upplevelse"
+      },
+      {
+        "label": "99,99%",
+        "sublabel": "Garanterad tillgänglighet (SLA)"
+      },
+      {
+        "label": "ISO 27001, LGPD, GDPR",
+        "sublabel": "Certifierad efterlevnad"
+      }
     ]
   }
 }

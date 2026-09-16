@@ -2,7 +2,13 @@
   "seo": {
     "title": "Sicurezza",
     "description": "Scopri l'architettura di sicurezza, privacy e conformità di Interfy: crittografia, controllo degli accessi, alta disponibilità Multi-AZ e certificazioni ISO, LGPD, GDPR e SOC 2.",
-    "keywords": ["sicurezza Interfy", "conformità LGPD GDPR", "crittografia dei dati", "alta disponibilità AWS", "architettura cloud-native sicura"]
+    "keywords": [
+      "sicurezza Interfy",
+      "conformità LGPD GDPR",
+      "crittografia dei dati",
+      "alta disponibilità AWS",
+      "architettura cloud-native sicura"
+    ]
   },
   "hero": {
     "headingPrefix": "Sicurezza enterprise fin dall'",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Livelli di sicurezza di Interfy",
     "diagram": {
       "items": [
-        { "label": "Sicurezza fin dall'architettura" },
-        { "label": "Controllo totale degli accessi" },
-        { "label": "Alta disponibilità" },
-        { "label": "Isolamento per Workspace" },
-        { "label": "Dati sempre protetti" },
-        { "label": "Privacy by design" },
-        { "label": "Conformità globale" },
-        { "label": "Infrastruttura affidabile" }
+        {
+          "label": "Sicurezza fin dall'architettura"
+        },
+        {
+          "label": "Controllo totale degli accessi"
+        },
+        {
+          "label": "Alta disponibilità"
+        },
+        {
+          "label": "Isolamento per Workspace"
+        },
+        {
+          "label": "Dati sempre protetti"
+        },
+        {
+          "label": "Privacy by design"
+        },
+        {
+          "label": "Conformità globale"
+        },
+        {
+          "label": "Infrastruttura affidabile"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99%", "description": "Disponibilità SLA garantita" },
-      { "label": "24/7", "description": "Monitoraggio continuo" },
-      { "label": "Sicura e affidabile", "description": "Protezione su più livelli di sicurezza" }
+      {
+        "label": "99,99%",
+        "description": "Disponibilità SLA garantita"
+      },
+      {
+        "label": "24/7",
+        "description": "Monitoraggio continuo"
+      },
+      {
+        "label": "Sicura e affidabile",
+        "description": "Protezione su più livelli di sicurezza"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "Infrastruttura AWS di Interfy",
@@ -131,19 +163,42 @@
     "headlineHighlight": "cloud-native",
     "headlineSuffix": " ad alta disponibilità",
     "flow": [
-      { "label": "Utenti" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Utenti"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Alta Disponibilità - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "Applicazioni" },
-    "az2": { "label": "AZ 2", "title": "Database", "subtitle": "(Failover automatico)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Applicazioni"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Database",
+      "subtitle": "(Failover automatico)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Backup Crittografato" },
-      { "label": "Monitoraggio CloudWatch" },
-      { "label": "Log CloudTrail" },
-      { "label": "Sicurezza GuardDuty" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Backup Crittografato"
+      },
+      {
+        "label": "Monitoraggio CloudWatch"
+      },
+      {
+        "label": "Log CloudTrail"
+      },
+      {
+        "label": "Sicurezza GuardDuty"
+      }
     ],
     "featuresAriaLabel": "Punti di forza dell'architettura ad alta disponibilità",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Parla con uno specialista",
     "featuresAriaLabel": "Pilastri di sicurezza e conformità di Interfy",
     "features": [
-      { "label": "Sicurezza by design" },
-      { "label": "Privacy by default" },
-      { "label": "Trasparenza totale" },
-      { "label": "Conformità globale" },
-      { "label": "Innovazione responsabile" }
+      {
+        "label": "Sicurezza by design"
+      },
+      {
+        "label": "Privacy by default"
+      },
+      {
+        "label": "Trasparenza totale"
+      },
+      {
+        "label": "Conformità globale"
+      },
+      {
+        "label": "Innovazione responsabile"
+      }
     ]
   }
 }

@@ -2,7 +2,12 @@
   "meta": {
     "title": "博客与内容",
     "description": "关于文档管理、流程自动化、电子签名以及企业运营中 AI 应用的文章、指南与最新资讯。",
-    "keywords": ["Interfy 博客", "文档管理内容", "流程自动化", "企业 AI"]
+    "keywords": [
+      "Interfy 博客",
+      "文档管理内容",
+      "流程自动化",
+      "企业 AI"
+    ]
   },
   "hero": {
     "ariaLabel": "博客简介",
@@ -11,11 +16,139 @@
     "titleHighlight": "提供的内容",
     "description": "关于文档、流程、数据与企业 AI 的实用指南、产品动态与趋势解读。"
   },
+  "featured": {
+    "ariaLabel": "Featured article and recent posts",
+    "heading": "Featured",
+    "article": {
+      "category": "AI & Agents",
+      "title": "How AI is changing the way companies manage documents and processes",
+      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
+      "date": "Sep 2026",
+      "author": "Interfy Team",
+      "readTime": "9 min read",
+      "ctaLabel": "Read article"
+    },
+    "recentHeading": "Recent",
+    "recent": [
+      {
+        "title": "How to structure a document repository that scales with your company",
+        "date": "Aug 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "5 processes every company should automate first",
+        "date": "Aug 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "Is electronic signature legally valid?",
+        "date": "Jul 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "AI agents in internal processes: where to start",
+        "date": "Jul 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "Data protection in practice: what changes in document and process management",
+        "date": "Jun 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "OCR and smart capture: the end of manual data entry",
+        "date": "Jun 2026",
+        "author": "Interfy Team"
+      }
+    ]
+  },
+  "categories": {
+    "ariaLabel": "Articles by category",
+    "ctaLabel": "Read the blog",
+    "sections": [
+      {
+        "name": "Document Management",
+        "posts": [
+          {
+            "title": "How to structure a document repository that scales with your company",
+            "excerpt": "Best practices for organization, versioning and access control for fast-growing teams.",
+            "date": "Aug 2026",
+            "readTime": "6 min read"
+          },
+          {
+            "title": "OCR and smart capture: the end of manual data entry",
+            "excerpt": "How automated capture reduces errors and speeds up document intake into the workflow.",
+            "date": "Jun 2026",
+            "readTime": "5 min read"
+          },
+          {
+            "title": "Legally valid digitization: what the law says",
+            "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+            "date": "May 2026",
+            "readTime": "6 min read"
+          }
+        ]
+      },
+      {
+        "name": "Business Process Management",
+        "posts": [
+          {
+            "title": "5 processes every company should automate first",
+            "excerpt": "A practical roadmap for prioritizing the automations with the biggest impact on cost and cycle time.",
+            "date": "Aug 2026",
+            "readTime": "7 min read"
+          },
+          {
+            "title": "Approval workflows: how to cut cycle time by up to 80%",
+            "excerpt": "A step-by-step guide to designing multi-level approval flows that don't become a bottleneck.",
+            "date": "Jul 2026",
+            "readTime": "6 min read"
+          },
+          {
+            "title": "Is electronic signature legally valid?",
+            "excerpt": "What the law says, which evidence matters, and how to pick the right signature level.",
+            "date": "Jul 2026",
+            "readTime": "5 min read"
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "posts": [
+          {
+            "title": "AI agents in internal processes: where to start",
+            "excerpt": "Real-world use cases to reduce manual work in triage, classification and data extraction.",
+            "date": "Jul 2026",
+            "readTime": "8 min read"
+          },
+          {
+            "title": "Natural-language search: find any document in seconds",
+            "excerpt": "How generative AI is changing the way people find information inside a company.",
+            "date": "Jun 2026",
+            "readTime": "5 min read"
+          },
+          {
+            "title": "Data protection in practice: what changes in document and process management",
+            "excerpt": "A straightforward guide to legal bases, data retention and controller responsibilities.",
+            "date": "Jun 2026",
+            "readTime": "6 min read"
+          }
+        ]
+      }
+    ]
+  },
   "grid": {
     "ariaLabel": "博客文章",
+    "heading": "All articles",
     "categoriesLabel": "按分类筛选",
     "allLabel": "全部",
-    "categories": ["文档管理", "流程自动化（BPM）", "电子签名", "AI 与智能体", "安全与合规"],
+    "categories": [
+      "文档管理",
+      "流程自动化（BPM）",
+      "电子签名",
+      "AI 与智能体",
+      "安全与合规"
+    ],
     "comingSoonLabel": "每周更新新文章，敬请期待。",
     "posts": [
       {

@@ -2,7 +2,11 @@
   "meta": {
     "title": "קביעת דמו",
     "description": "קבעו הדגמה מותאמת אישית של Interfy וראו כיצד מסמכים, תהליכים, חתימה אלקטרונית ו-AI יכולים להתאים לפעילות שלכם.",
-    "keywords": ["קביעת דמו Interfy", "הדגמת Interfy", "בקשת דמו פלטפורמת AI-native"]
+    "keywords": [
+      "קביעת דמו Interfy",
+      "הדגמת Interfy",
+      "בקשת דמו פלטפורמת AI-native"
+    ]
   },
   "hero": {
     "ariaLabel": "קביעת הדגמה של Interfy",
@@ -12,20 +16,40 @@
     "description": "מומחה יבין את התמונה המלאה שלכם ויראה, בשידור חי, כיצד מסמכים, תהליכים, חתימה אלקטרונית, אינטגרציות ו-AI משתלבים בפעילות שלכם.",
     "expectHeading": "למה לצפות מהדמו",
     "expectItems": [
-      { "title": "30 דקות", "description": "שיחה ממוקדת, בלי בזבוז זמן." },
-      { "title": "תרחיש אמיתי", "description": "דוגמאות המותאמות לפעילות ולתחום שלכם." },
-      { "title": "בלי מחויבות", "description": "אתם מחליטים על השלב הבא לאחר השיחה." },
-      { "title": "מומחה מוקדש", "description": "מישהו שמכיר את התחום שלכם." }
+      {
+        "title": "30 דקות",
+        "description": "שיחה ממוקדת, בלי בזבוז זמן."
+      },
+      {
+        "title": "תרחיש אמיתי",
+        "description": "דוגמאות המותאמות לפעילות ולתחום שלכם."
+      },
+      {
+        "title": "בלי מחויבות",
+        "description": "אתם מחליטים על השלב הבא לאחר השיחה."
+      },
+      {
+        "title": "מומחה מוקדש",
+        "description": "מישהו שמכיר את התחום שלכם."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "קבעו את ההדגמה שלכם",
     "subheading": "מלאו את הפרטים למטה וניצור קשר לאישור השעה המתאימה ביותר.",
-    "nameLabel": "שם מלא",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "אימייל עסקי",
     "companyLabel": "חברה",
     "phoneLabel": "טלפון (וואטסאפ)",
-    "roleLabel": "תפקיד",
     "companySizeLabel": "גודל החברה",
     "companySizePlaceholder": "בחרו",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201 עד 1,000 עובדים",
       "יותר מ-1,000 עובדים"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "ספרו לנו קצת על מה שאתם צריכים",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(אופציונלי)",
     "errors": {
       "name": "יש להזין שם מלא.",
@@ -53,7 +91,9 @@
     "successHeading": "קיבלנו את הבקשה שלכם!",
     "successMessagePrefix": "הצוות שלנו יצור קשר לאישור השעה המתאימה ביותר בכתובת האימייל ",
     "successMessageSuffix": ".",
-    "specialistLink": "התחילו חינם בינתיים"
+    "specialistLink": "התחילו חינם בינתיים",
+    "nameLabel": "שם מלא",
+    "roleLabel": "תפקיד"
   },
   "trust": {
     "ariaLabel": "מדוע לקבוע דמו עם Interfy",
@@ -61,10 +101,22 @@
     "subheading": "אבטחה בסטנדרט אנטרפרייז, תאימות גלובלית ותמיכה מקצועית בכל הדגמה.",
     "statsLabel": "הנוכחות הגלובלית של Interfy",
     "stats": [
-      { "label": "180+ מדינות", "sublabel": "נוכחות גלובלית מתרחבת" },
-      { "label": "16 שפות", "sublabel": "ממשק וחוויה מלאים" },
-      { "label": "99.99%", "sublabel": "זמינות SLA מובטחת" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "תאימות מוסמכת" }
+      {
+        "label": "180+ מדינות",
+        "sublabel": "נוכחות גלובלית מתרחבת"
+      },
+      {
+        "label": "16 שפות",
+        "sublabel": "ממשק וחוויה מלאים"
+      },
+      {
+        "label": "99.99%",
+        "sublabel": "זמינות SLA מובטחת"
+      },
+      {
+        "label": "ISO 27001, LGPD, GDPR",
+        "sublabel": "תאימות מוסמכת"
+      }
     ]
   }
 }

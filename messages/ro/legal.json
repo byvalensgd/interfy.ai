@@ -3,18 +3,35 @@
     "termos": {
       "title": "Termeni și Condiții",
       "description": "Termenii și Condițiile platformei Interfy: condiții de utilizare, înregistrare, planuri, proprietate intelectuală și responsabilități.",
-      "keywords": ["termeni și condiții Interfy", "contract de utilizare Interfy"]
+      "keywords": [
+        "termeni și condiții Interfy",
+        "contract de utilizare Interfy"
+      ]
     },
     "privacidade": {
       "title": "Politica de Confidențialitate",
       "description": "Politica de Confidențialitate a Interfy: ce date colectăm, cum le folosim, cu cine le partajăm și care sunt drepturile dumneavoastră.",
-      "keywords": ["politica de confidențialitate Interfy", "confidențialitatea datelor Interfy"]
+      "keywords": [
+        "politica de confidențialitate Interfy",
+        "confidențialitatea datelor Interfy"
+      ]
     },
     "lgpd": {
       "title": "LGPD / GDPR",
       "description": "Cum tratează Interfy datele cu caracter personal în conformitate cu LGPD și GDPR și cum vă puteți exercita drepturile în calitate de persoană vizată.",
-      "keywords": ["LGPD Interfy", "GDPR Interfy", "protecția datelor Interfy"]
+      "keywords": [
+        "LGPD Interfy",
+        "GDPR Interfy",
+        "protecția datelor Interfy"
+      ]
     }
+  },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
   },
   "termos": {
     "ariaLabel": "Termenii și Condițiile Interfy",
@@ -38,7 +55,9 @@
       },
       {
         "heading": "3. Înregistrare și cont",
-        "paragraphs": ["Pentru a utiliza platforma, este necesar să creați un cont cu informații reale, complete și actualizate. Sunteți responsabil pentru păstrarea confidențialității credențialelor de acces și pentru toate activitățile desfășurate în contul dumneavoastră."],
+        "paragraphs": [
+          "Pentru a utiliza platforma, este necesar să creați un cont cu informații reale, complete și actualizate. Sunteți responsabil pentru păstrarea confidențialității credențialelor de acces și pentru toate activitățile desfășurate în contul dumneavoastră."
+        ],
         "items": [
           "Nu partajați parolele sau credențialele de acces cu terți neautorizați",
           "Notificați Interfy imediat în cazul suspiciunii de utilizare neautorizată a contului",
@@ -47,19 +66,27 @@
       },
       {
         "heading": "4. Utilizare acceptabilă",
-        "paragraphs": ["Sunteți de acord să nu utilizați platforma în scopuri ilegale, pentru a încălca drepturile terților, pentru a distribui malware sau pentru a încerca să accesați zone sau date fără autorizare."]
+        "paragraphs": [
+          "Sunteți de acord să nu utilizați platforma în scopuri ilegale, pentru a încălca drepturile terților, pentru a distribui malware sau pentru a încerca să accesați zone sau date fără autorizare."
+        ]
       },
       {
         "heading": "5. Proprietate intelectuală",
-        "paragraphs": ["Platforma Interfy, inclusiv software-ul, mărcile, layout-urile și conținuturile, este proprietatea Interfy Corporation sau a licențiatorilor săi, protejată prin legile privind proprietatea intelectuală. Nicio prevedere din acești Termeni nu transferă drepturi de proprietate intelectuală către client, cu excepția licenței de utilizare a platformei pe durata abonamentului."]
+        "paragraphs": [
+          "Platforma Interfy, inclusiv software-ul, mărcile, layout-urile și conținuturile, este proprietatea Interfy Corporation sau a licențiatorilor săi, protejată prin legile privind proprietatea intelectuală. Nicio prevedere din acești Termeni nu transferă drepturi de proprietate intelectuală către client, cu excepția licenței de utilizare a platformei pe durata abonamentului."
+        ]
       },
       {
         "heading": "6. Planuri, plată și anulare",
-        "paragraphs": ["Accesul la platformă este acordat în funcție de planul contractat. Valorile, modalitățile de plată și condițiile de reînnoire sunt comunicate în momentul contractării. Anularea poate fi solicitată oricând, cu respectarea condițiilor specifice fiecărui plan."]
+        "paragraphs": [
+          "Accesul la platformă este acordat în funcție de planul contractat. Valorile, modalitățile de plată și condițiile de reînnoire sunt comunicate în momentul contractării. Anularea poate fi solicitată oricând, cu respectarea condițiilor specifice fiecărui plan."
+        ]
       },
       {
         "heading": "7. Date și conținut al clientului",
-        "paragraphs": ["Orice conținut trimis, stocat sau procesat de client pe platformă (\"Conținutul Clientului\") rămâne în proprietatea clientului. Interfy acționează ca operator al acestor date, prelucrându-le conform instrucțiunilor clientului și Politicii noastre de Confidențialitate."]
+        "paragraphs": [
+          "Orice conținut trimis, stocat sau procesat de client pe platformă (\"Conținutul Clientului\") rămâne în proprietatea clientului. Interfy acționează ca operator al acestor date, prelucrându-le conform instrucțiunilor clientului și Politicii noastre de Confidențialitate."
+        ]
       },
       {
         "heading": "8. Disponibilitate și suport",
@@ -67,27 +94,40 @@
           "Interfy operează cu infrastructură cloud-native Multi-AZ pe AWS, cu SLA de disponibilitate de 99,99%, monitorizare continuă 24/7 și plan de recuperare în caz de dezastru cu replicare geografică.",
           "Suportul este oferit conform canalelor și termenelor descrise pe pagina noastră de Suport, iar istoricul de disponibilitate și incidente este publicat în timp real pe pagina de Status al Platformei."
         ],
-        "relatedLink": { "label": "Vedeți arhitectura completă de securitate", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vedeți arhitectura completă de securitate",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "9. Limitarea răspunderii",
-        "paragraphs": ["În limita maximă permisă de legea aplicabilă, Interfy nu va fi răspunzătoare pentru daune indirecte, incidentale sau pe cale de consecință rezultate din utilizarea sau imposibilitatea de utilizare a platformei."]
+        "paragraphs": [
+          "În limita maximă permisă de legea aplicabilă, Interfy nu va fi răspunzătoare pentru daune indirecte, incidentale sau pe cale de consecință rezultate din utilizarea sau imposibilitatea de utilizare a platformei."
+        ]
       },
       {
         "heading": "10. Reziliere",
-        "paragraphs": ["Interfy poate suspenda sau înceta accesul la platformă în cazul încălcării acestor Termeni, cu notificare prealabilă, cu excepția cazurilor de risc iminent pentru securitatea platformei sau a terților."]
+        "paragraphs": [
+          "Interfy poate suspenda sau înceta accesul la platformă în cazul încălcării acestor Termeni, cu notificare prealabilă, cu excepția cazurilor de risc iminent pentru securitatea platformei sau a terților."
+        ]
       },
       {
         "heading": "11. Modificări ale termenilor",
-        "paragraphs": ["Acești Termeni pot fi actualizați periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă, cu un preaviz rezonabil înainte de intrarea în vigoare."]
+        "paragraphs": [
+          "Acești Termeni pot fi actualizați periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă, cu un preaviz rezonabil înainte de intrarea în vigoare."
+        ]
       },
       {
         "heading": "12. Legea aplicabilă și jurisdicția",
-        "paragraphs": ["Acești Termeni sunt guvernați de legile Republicii Federative a Braziliei, fără a aduce atingere prevederilor contractuale specifice pentru clienții din alte jurisdicții."]
+        "paragraphs": [
+          "Acești Termeni sunt guvernați de legile Republicii Federative a Braziliei, fără a aduce atingere prevederilor contractuale specifice pentru clienții din alte jurisdicții."
+        ]
       },
       {
         "heading": "13. Contact",
-        "paragraphs": ["Întrebările referitoare la acești Termeni pot fi trimise la contato@interfy.ai."]
+        "paragraphs": [
+          "Întrebările referitoare la acești Termeni pot fi trimise la contato@interfy.ai."
+        ]
       }
     ]
   },
@@ -102,17 +142,36 @@
       "heading": "Certificări și conformitate",
       "ctaLabel": "Vedeți detaliile complete",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Sistem de Management al Securității Informației certificat." },
-        { "label": "SOC 2 Type II", "description": "Controale de securitate, disponibilitate și confidențialitate.", "badge": "În desfășurare" },
-        { "label": "LGPD", "description": "Conformă cu Legea Generală de Protecție a Datelor (Brazilia)." },
-        { "label": "GDPR", "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)." },
-        { "label": "HIPAA Ready", "description": "Pregătită pentru medii care gestionează ePHI în SUA.", "badge": "BAA disponibil" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Sistem de Management al Securității Informației certificat."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Controale de securitate, disponibilitate și confidențialitate.",
+          "badge": "În desfășurare"
+        },
+        {
+          "label": "LGPD",
+          "description": "Conformă cu Legea Generală de Protecție a Datelor (Brazilia)."
+        },
+        {
+          "label": "GDPR",
+          "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Pregătită pentru medii care gestionează ePHI în SUA.",
+          "badge": "BAA disponibil"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Cine suntem",
-        "paragraphs": ["Interfy Corporation, cu sediul în Orlando, Florida, Statele Unite ale Americii, este operatorul de date care controlează prelucrarea datelor cu caracter personal prin platforma Interfy, cu excepția cazurilor în care acționează ca persoană împuternicită la instrucțiunile unui client."]
+        "paragraphs": [
+          "Interfy Corporation, cu sediul în Orlando, Florida, Statele Unite ale Americii, este operatorul de date care controlează prelucrarea datelor cu caracter personal prin platforma Interfy, cu excepția cazurilor în care acționează ca persoană împuternicită la instrucțiunile unui client."
+        ]
       },
       {
         "heading": "2. Ce date colectăm",
@@ -134,19 +193,27 @@
       },
       {
         "heading": "4. Partajarea datelor",
-        "paragraphs": ["Datele cu caracter personal pot fi partajate cu furnizori de infrastructură (precum serviciile cloud AWS), procesatori de plăți și alți operatori strict necesari pentru furnizarea serviciului, întotdeauna sub obligații contractuale de confidențialitate și securitate. Nu vindem date cu caracter personal către terți."]
+        "paragraphs": [
+          "Datele cu caracter personal pot fi partajate cu furnizori de infrastructură (precum serviciile cloud AWS), procesatori de plăți și alți operatori strict necesari pentru furnizarea serviciului, întotdeauna sub obligații contractuale de confidențialitate și securitate. Nu vindem date cu caracter personal către terți."
+        ]
       },
       {
         "heading": "5. Cookie-uri și tehnologii similare",
-        "paragraphs": ["Utilizăm cookie-uri esențiale pentru funcționarea site-ului și, cu acordul dumneavoastră, cookie-uri analitice pentru a înțelege modul de utilizare a platformei și a îmbunătăți experiența utilizatorului."]
+        "paragraphs": [
+          "Utilizăm cookie-uri esențiale pentru funcționarea site-ului și, cu acordul dumneavoastră, cookie-uri analitice pentru a înțelege modul de utilizare a platformei și a îmbunătăți experiența utilizatorului."
+        ]
       },
       {
         "heading": "6. Păstrarea datelor",
-        "paragraphs": ["Datele cu caracter personal sunt păstrate pe perioada necesară îndeplinirii scopurilor descrise în această Politică sau conform prevederilor legale, fiind ulterior eliminate sau anonimizate."]
+        "paragraphs": [
+          "Datele cu caracter personal sunt păstrate pe perioada necesară îndeplinirii scopurilor descrise în această Politică sau conform prevederilor legale, fiind ulterior eliminate sau anonimizate."
+        ]
       },
       {
         "heading": "7. Securitatea informației",
-        "paragraphs": ["Adoptăm securitate pe mai multe niveluri, de la arhitectură până la operațiunile de zi cu zi:"],
+        "paragraphs": [
+          "Adoptăm securitate pe mai multe niveluri, de la arhitectură până la operațiunile de zi cu zi:"
+        ],
         "items": [
           "Izolare prin Workspace și bază de date dedicată per client, fără partajare",
           "Criptare avansată: date în tranzit (TLS 1.2+) și în repaus (AES-256)",
@@ -157,7 +224,10 @@
           "Monitorizare de securitate 24/7, backup-uri automate criptate și Disaster Recovery cu replicare geografică",
           "Infrastructură Multi-AZ pe AWS, certificată ISO/IEC 27001:2022, cu SOC 2 Type II în desfășurare"
         ],
-        "relatedLink": { "label": "Vedeți arhitectura completă de securitate", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vedeți arhitectura completă de securitate",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "8. Drepturile dumneavoastră (LGPD/GDPR)",
@@ -171,15 +241,21 @@
       },
       {
         "heading": "9. Transferul internațional de date",
-        "paragraphs": ["Deoarece operăm cu infrastructură globală, datele cu caracter personal pot fi transferate între țări, întotdeauna cu garanții contractuale și tehnice compatibile cu LGPD și GDPR."]
+        "paragraphs": [
+          "Deoarece operăm cu infrastructură globală, datele cu caracter personal pot fi transferate între țări, întotdeauna cu garanții contractuale și tehnice compatibile cu LGPD și GDPR."
+        ]
       },
       {
         "heading": "10. Modificări ale acestei politici",
-        "paragraphs": ["Această Politică poate fi actualizată periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă."]
+        "paragraphs": [
+          "Această Politică poate fi actualizată periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă."
+        ]
       },
       {
         "heading": "11. Contactul responsabilului cu protecția datelor (DPO)",
-        "paragraphs": ["Pentru a vă exercita drepturile sau pentru a clarifica întrebări legate de această Politică, contactați Responsabilul nostru cu Protecția Datelor la adresa de e-mail privacidade@interfy.ai."]
+        "paragraphs": [
+          "Pentru a vă exercita drepturile sau pentru a clarifica întrebări legate de această Politică, contactați Responsabilul nostru cu Protecția Datelor la adresa de e-mail privacidade@interfy.ai."
+        ]
       }
     ]
   },
@@ -194,21 +270,42 @@
       "heading": "Certificări și conformitate",
       "ctaLabel": "Vedeți detaliile complete",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Sistem de Management al Securității Informației certificat." },
-        { "label": "SOC 2 Type II", "description": "Controale de securitate, disponibilitate și confidențialitate.", "badge": "În desfășurare" },
-        { "label": "LGPD", "description": "Conformă cu Legea Generală de Protecție a Datelor (Brazilia)." },
-        { "label": "GDPR", "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)." },
-        { "label": "HIPAA Ready", "description": "Pregătită pentru medii care gestionează ePHI în SUA.", "badge": "BAA disponibil" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Sistem de Management al Securității Informației certificat."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Controale de securitate, disponibilitate și confidențialitate.",
+          "badge": "În desfășurare"
+        },
+        {
+          "label": "LGPD",
+          "description": "Conformă cu Legea Generală de Protecție a Datelor (Brazilia)."
+        },
+        {
+          "label": "GDPR",
+          "description": "Conformă cu Regulamentul General privind Protecția Datelor (UE)."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Pregătită pentru medii care gestionează ePHI în SUA.",
+          "badge": "BAA disponibil"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Angajamentul nostru",
-        "paragraphs": ["Adoptăm confidențialitatea încă din faza de concepție (\"privacy by design\") în toate produsele platformei, cu controale tehnice și organizaționale care susțin conformitatea continuă cu LGPD și GDPR."]
+        "paragraphs": [
+          "Adoptăm confidențialitatea încă din faza de concepție (\"privacy by design\") în toate produsele platformei, cu controale tehnice și organizaționale care susțin conformitatea continuă cu LGPD și GDPR."
+        ]
       },
       {
         "heading": "2. Roluri: operator și persoană împuternicită",
-        "paragraphs": ["Pentru datele de înregistrare și de utilizare a platformei, Interfy acționează ca operator de date. Pentru Conținutul Clientului stocat pe platformă, Interfy acționează ca persoană împuternicită, prelucrând datele strict conform instrucțiunilor clientului operator."]
+        "paragraphs": [
+          "Pentru datele de înregistrare și de utilizare a platformei, Interfy acționează ca operator de date. Pentru Conținutul Clientului stocat pe platformă, Interfy acționează ca persoană împuternicită, prelucrând datele strict conform instrucțiunilor clientului operator."
+        ]
       },
       {
         "heading": "3. Temeiuri legale pentru prelucrare",
@@ -221,11 +318,15 @@
       },
       {
         "heading": "4. Drepturile persoanei vizate",
-        "paragraphs": ["Persoanele vizate pot solicita acces, corectare, anonimizare, eliminare, portabilitate sau informații privind partajarea datelor lor cu caracter personal, în condițiile LGPD și, acolo unde este aplicabil, ale GDPR."]
+        "paragraphs": [
+          "Persoanele vizate pot solicita acces, corectare, anonimizare, eliminare, portabilitate sau informații privind partajarea datelor lor cu caracter personal, în condițiile LGPD și, acolo unde este aplicabil, ale GDPR."
+        ]
       },
       {
         "heading": "5. Cum vă puteți exercita drepturile",
-        "paragraphs": ["Solicitările pot fi trimise la privacidade@interfy.ai. Vom răspunde în termenele legale aplicabile, putând solicita informații suplimentare pentru a confirma identitatea solicitantului."]
+        "paragraphs": [
+          "Solicitările pot fi trimise la privacidade@interfy.ai. Vom răspunde în termenele legale aplicabile, putând solicita informații suplimentare pentru a confirma identitatea solicitantului."
+        ]
       },
       {
         "heading": "6. Măsuri de securitate tehnice și organizaționale",
@@ -240,19 +341,28 @@
           "Backup-uri automate criptate și Disaster Recovery cu replicare geografică",
           "Infrastructură Multi-AZ pe AWS, cu SLA de disponibilitate de 99,99%"
         ],
-        "relatedLink": { "label": "Vedeți arhitectura completă de securitate", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Vedeți arhitectura completă de securitate",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "7. Transferul internațional de date",
-        "paragraphs": ["Atunci când datele cu caracter personal sunt transferate între țări, Interfy adoptă clauze contractuale și garanții tehnice compatibile cu cerințele LGPD și GDPR privind transferul internațional."]
+        "paragraphs": [
+          "Atunci când datele cu caracter personal sunt transferate între țări, Interfy adoptă clauze contractuale și garanții tehnice compatibile cu cerințele LGPD și GDPR privind transferul internațional."
+        ]
       },
       {
         "heading": "8. Responsabilul cu Protecția Datelor (DPO)",
-        "paragraphs": ["Responsabilul nostru cu Protecția Datelor poate fi contactat la adresa de e-mail privacidade@interfy.ai pentru orice aspecte legate de prelucrarea datelor cu caracter personal."]
+        "paragraphs": [
+          "Responsabilul nostru cu Protecția Datelor poate fi contactat la adresa de e-mail privacidade@interfy.ai pentru orice aspecte legate de prelucrarea datelor cu caracter personal."
+        ]
       },
       {
         "heading": "9. Actualizări",
-        "paragraphs": ["Acest document poate fi actualizat pentru a reflecta modificări legislative, de reglementare sau ale platformei. Data ultimei actualizări este întotdeauna indicată în partea de sus a paginii."]
+        "paragraphs": [
+          "Acest document poate fi actualizat pentru a reflecta modificări legislative, de reglementare sau ale platformei. Data ultimei actualizări este întotdeauna indicată în partea de sus a paginii."
+        ]
       }
     ]
   }

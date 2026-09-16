@@ -2,7 +2,13 @@
   "seo": {
     "title": "Integrationer & API",
     "description": "Koppla Interfy till de verktyg ditt företag redan använder: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier och mycket mer, med kompletta RESTful API:er och webhooks i realtid.",
-    "keywords": ["integrationer Interfy", "API Interfy", "företagskonnektorer", "webhooks", "systemautomatisering"]
+    "keywords": [
+      "integrationer Interfy",
+      "API Interfy",
+      "företagskonnektorer",
+      "webhooks",
+      "systemautomatisering"
+    ]
   },
   "hero": {
     "headingPrefix": "Koppla Interfy till det ditt ",
@@ -13,24 +19,50 @@
     "diagramAriaLabel": "System integrerade med Interfy",
     "diagram": {
       "items": [
-        { "label": "Microsoft" },
-        { "label": "Google" },
-        { "label": "SAP" },
-        { "label": "Salesforce" },
-        { "label": "Oracle" },
-        { "label": "HubSpot" },
-        { "label": "MySQL" },
-        { "label": "Zapier" }
+        {
+          "label": "Microsoft"
+        },
+        {
+          "label": "Google"
+        },
+        {
+          "label": "SAP"
+        },
+        {
+          "label": "Salesforce"
+        },
+        {
+          "label": "Oracle"
+        },
+        {
+          "label": "HubSpot"
+        },
+        {
+          "label": "MySQL"
+        },
+        {
+          "label": "Zapier"
+        }
       ]
     },
     "banner": [
-      { "title": "Integration utan gränser", "description": "Koppla samman allt ditt företag behöver" },
-      { "title": "Ökad produktivitet", "description": "Automatisera flöden och eliminera dubbelarbete" },
-      { "title": "Smartare beslut", "description": "Integrerad data för insikter i realtid." }
+      {
+        "title": "Integration utan gränser",
+        "description": "Koppla samman allt ditt företag behöver"
+      },
+      {
+        "title": "Ökad produktivitet",
+        "description": "Automatisera flöden och eliminera dubbelarbete"
+      },
+      {
+        "title": "Smartare beslut",
+        "description": "Integrerad data för insikter i realtid."
+      }
     ]
   },
   "logosStrip": {
     "heading": "Anslut till marknadens ledande system",
+    "itemsAriaLabel": "Systems and products integrated with Interfy",
     "ctaLabel": "Se alla"
   },
   "featuresGrid": {
@@ -38,18 +70,54 @@
     "headingHighlight": "Interfy API",
     "ariaLabel": "Interfys integrationsfunktioner och fördelar",
     "items": [
-      { "title": "REST API", "description": "Ett komplett och modernt API för att integrera med alla system eller applikationer." },
-      { "title": "Webhooks", "description": "Ta emot händelser i realtid och håll dina system alltid synkroniserade." },
-      { "title": "Zapier", "description": "Koppla Interfy till tusentals appar enkelt och snabbt via Zapier." },
-      { "title": "Databaser", "description": "Anslut säkert till marknadens ledande SQL- och NoSQL-databaser." },
-      { "title": "ERP", "description": "Integrera med ledande ERP-system och samla data och processer i hela organisationen." },
-      { "title": "CRM", "description": "Synkronisera kunder, kontakter och affärsmöjligheter med ditt favorit-CRM." },
-      { "title": "Microsoft", "description": "Native integration med Microsoft 365, Azure, SharePoint, Teams och mer." },
-      { "title": "Google", "description": "Integration med Google Workspace, Drive, Gmail, Sheets och mycket mer." },
-      { "title": "Extern autentisering", "description": "SSO, SAML 2.0 och OAuth 2.0 för säker autentisering och en enhetlig upplevelse." },
-      { "title": "AD / LDAP", "description": "Integration med Active Directory och LDAP för hantering av användare och behörigheter." },
-      { "title": "Äldre system", "description": "Koppla samman gamla och äldre system med flexibla adaptrar och API:er." },
-      { "title": "Skräddarsydda integrationer", "description": "Bygg anpassade konnektorer med vårt flexibla API för specifika behov." }
+      {
+        "title": "REST API",
+        "description": "Ett komplett och modernt API för att integrera med alla system eller applikationer."
+      },
+      {
+        "title": "Webhooks",
+        "description": "Ta emot händelser i realtid och håll dina system alltid synkroniserade."
+      },
+      {
+        "title": "Zapier",
+        "description": "Koppla Interfy till tusentals appar enkelt och snabbt via Zapier."
+      },
+      {
+        "title": "Databaser",
+        "description": "Anslut säkert till marknadens ledande SQL- och NoSQL-databaser."
+      },
+      {
+        "title": "ERP",
+        "description": "Integrera med ledande ERP-system och samla data och processer i hela organisationen."
+      },
+      {
+        "title": "CRM",
+        "description": "Synkronisera kunder, kontakter och affärsmöjligheter med ditt favorit-CRM."
+      },
+      {
+        "title": "Microsoft",
+        "description": "Native integration med Microsoft 365, Azure, SharePoint, Teams och mer."
+      },
+      {
+        "title": "Google",
+        "description": "Integration med Google Workspace, Drive, Gmail, Sheets och mycket mer."
+      },
+      {
+        "title": "Extern autentisering",
+        "description": "SSO, SAML 2.0 och OAuth 2.0 för säker autentisering och en enhetlig upplevelse."
+      },
+      {
+        "title": "AD / LDAP",
+        "description": "Integration med Active Directory och LDAP för hantering av användare och behörigheter."
+      },
+      {
+        "title": "Äldre system",
+        "description": "Koppla samman gamla och äldre system med flexibla adaptrar och API:er."
+      },
+      {
+        "title": "Skräddarsydda integrationer",
+        "description": "Bygg anpassade konnektorer med vårt flexibla API för specifika behov."
+      }
     ]
   },
   "agentsHighlight": {
@@ -59,11 +127,21 @@
     "diagramAriaLabel": "Interfy-agenter kopplade till produktekosystemet",
     "checklistAriaLabel": "Fördelar med integrerade agenter",
     "checklist": [
-      { "label": "Sökning och analys av data i externa system" },
-      { "label": "Utförande av åtgärder och uppdatering av register" },
-      { "label": "Automatisering från ände till ände med intelligens" },
-      { "label": "Mer kompletta och kontextuella svar" },
-      { "label": "Smarta arbetsflöden mellan flera plattformar" }
+      {
+        "label": "Sökning och analys av data i externa system"
+      },
+      {
+        "label": "Utförande av åtgärder och uppdatering av register"
+      },
+      {
+        "label": "Automatisering från ände till ände med intelligens"
+      },
+      {
+        "label": "Mer kompletta och kontextuella svar"
+      },
+      {
+        "label": "Smarta arbetsflöden mellan flera plattformar"
+      }
     ]
   },
   "securityHighlight": {
@@ -72,11 +150,21 @@
     "description": "Dina integrationer och din data skyddas med marknadens högsta säkerhetsstandarder.",
     "itemsAriaLabel": "Säkerhetsstandarder för integrationer",
     "items": [
-      { "label": "HTTPS / TLS 1.2+ på alla anslutningar" },
-      { "label": "OAuth 2.0 och säkra tokens" },
-      { "label": "Hastighetsbegränsning och åtkomstkontroll" },
-      { "label": "Fullständiga loggar och granskning" },
-      { "label": "Regelefterlevnad enligt LGPD, ISO 27001 och SOC 2" }
+      {
+        "label": "HTTPS / TLS 1.2+ på alla anslutningar"
+      },
+      {
+        "label": "OAuth 2.0 och säkra tokens"
+      },
+      {
+        "label": "Hastighetsbegränsning och åtkomstkontroll"
+      },
+      {
+        "label": "Fullständiga loggar och granskning"
+      },
+      {
+        "label": "Regelefterlevnad enligt LGPD, ISO 27001 och SOC 2"
+      }
     ]
   },
   "developerDocs": {

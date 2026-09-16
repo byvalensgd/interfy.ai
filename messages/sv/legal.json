@@ -3,18 +3,35 @@
     "termos": {
       "title": "Användarvillkor",
       "description": "Interfys användarvillkor: villkor för användning, registrering, planer, immateriella rättigheter och ansvar.",
-      "keywords": ["Interfy användarvillkor", "Interfy avtalsvillkor"]
+      "keywords": [
+        "Interfy användarvillkor",
+        "Interfy avtalsvillkor"
+      ]
     },
     "privacidade": {
       "title": "Integritetspolicy",
       "description": "Interfys integritetspolicy: vilka uppgifter vi samlar in, hur vi använder dem, vem vi delar dem med och vilka rättigheter du har.",
-      "keywords": ["Interfy integritetspolicy", "Interfy dataskydd"]
+      "keywords": [
+        "Interfy integritetspolicy",
+        "Interfy dataskydd"
+      ]
     },
     "lgpd": {
       "title": "LGPD / GDPR",
       "description": "Hur Interfy hanterar personuppgifter i enlighet med LGPD och GDPR, och hur du utövar dina rättigheter som registrerad.",
-      "keywords": ["Interfy LGPD", "Interfy GDPR", "Interfy dataskydd"]
+      "keywords": [
+        "Interfy LGPD",
+        "Interfy GDPR",
+        "Interfy dataskydd"
+      ]
     }
+  },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
   },
   "termos": {
     "ariaLabel": "Interfys användarvillkor",
@@ -38,7 +55,9 @@
       },
       {
         "heading": "3. Registrering och konto",
-        "paragraphs": ["För att använda plattformen krävs ett konto med sanningsenlig, fullständig och uppdaterad information. Du ansvarar för att hålla dina inloggningsuppgifter konfidentiella och för all aktivitet som sker via ditt konto."],
+        "paragraphs": [
+          "För att använda plattformen krävs ett konto med sanningsenlig, fullständig och uppdaterad information. Du ansvarar för att hålla dina inloggningsuppgifter konfidentiella och för all aktivitet som sker via ditt konto."
+        ],
         "items": [
           "Dela inte lösenord eller inloggningsuppgifter med obehöriga tredje parter",
           "Meddela Interfy omedelbart om du misstänker obehörig användning av kontot",
@@ -47,19 +66,27 @@
       },
       {
         "heading": "4. Godtagbar användning",
-        "paragraphs": ["Du godkänner att inte använda plattformen för olagliga ändamål, för att kränka tredje parts rättigheter, för att sprida skadlig kod eller för att försöka få obehörig åtkomst till områden eller data."]
+        "paragraphs": [
+          "Du godkänner att inte använda plattformen för olagliga ändamål, för att kränka tredje parts rättigheter, för att sprida skadlig kod eller för att försöka få obehörig åtkomst till områden eller data."
+        ]
       },
       {
         "heading": "5. Immateriella rättigheter",
-        "paragraphs": ["Interfy-plattformen, inklusive programvara, varumärken, layouter och innehåll, ägs av Interfy Corporation eller dess licensgivare och skyddas av lagar om immateriella rättigheter. Ingen bestämmelse i dessa villkor överför immateriella rättigheter till kunden, förutom licensen att använda plattformen under prenumerationsperioden."]
+        "paragraphs": [
+          "Interfy-plattformen, inklusive programvara, varumärken, layouter och innehåll, ägs av Interfy Corporation eller dess licensgivare och skyddas av lagar om immateriella rättigheter. Ingen bestämmelse i dessa villkor överför immateriella rättigheter till kunden, förutom licensen att använda plattformen under prenumerationsperioden."
+        ]
       },
       {
         "heading": "6. Planer, betalning och uppsägning",
-        "paragraphs": ["Åtkomst till plattformen ges enligt den tecknade planen. Priser, betalningsmetoder och förlängningsvillkor anges vid teckningstillfället. Uppsägning kan begäras när som helst, med hänsyn till respektive plans specifika villkor."]
+        "paragraphs": [
+          "Åtkomst till plattformen ges enligt den tecknade planen. Priser, betalningsmetoder och förlängningsvillkor anges vid teckningstillfället. Uppsägning kan begäras när som helst, med hänsyn till respektive plans specifika villkor."
+        ]
       },
       {
         "heading": "7. Kundens data och innehåll",
-        "paragraphs": ["Allt innehåll som kunden laddar upp, lagrar eller bearbetar på plattformen (\"Kundens innehåll\") fortsätter att ägas av kunden. Interfy agerar som personuppgiftsbiträde för dessa uppgifter och behandlar dem enligt kundens instruktioner och vår integritetspolicy."]
+        "paragraphs": [
+          "Allt innehåll som kunden laddar upp, lagrar eller bearbetar på plattformen (\"Kundens innehåll\") fortsätter att ägas av kunden. Interfy agerar som personuppgiftsbiträde för dessa uppgifter och behandlar dem enligt kundens instruktioner och vår integritetspolicy."
+        ]
       },
       {
         "heading": "8. Tillgänglighet och support",
@@ -67,27 +94,40 @@
           "Interfy drivs på en molnbaserad Multi-AZ-infrastruktur på AWS, med en tillgänglighets-SLA på 99,99 %, kontinuerlig övervakning dygnet runt och en katastrofåterställningsplan med geografisk replikering.",
           "Support tillhandahålls via de kanaler och inom de tidsramar som beskrivs på vår supportsida, och tillgänglighets- och incidenthistorik publiceras i realtid på sidan för plattformsstatus."
         ],
-        "relatedLink": { "label": "Se hela säkerhetsarkitekturen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Se hela säkerhetsarkitekturen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "9. Ansvarsbegränsning",
-        "paragraphs": ["I den utsträckning gällande lag tillåter ansvarar Interfy inte för indirekta, tillfälliga eller följdskador som uppstår till följd av användningen eller oförmågan att använda plattformen."]
+        "paragraphs": [
+          "I den utsträckning gällande lag tillåter ansvarar Interfy inte för indirekta, tillfälliga eller följdskador som uppstår till följd av användningen eller oförmågan att använda plattformen."
+        ]
       },
       {
         "heading": "10. Uppsägning",
-        "paragraphs": ["Interfy kan stänga av eller avsluta åtkomsten till plattformen vid brott mot dessa villkor, efter förhandsmeddelande, utom vid överhängande risk för plattformens eller tredje parts säkerhet."]
+        "paragraphs": [
+          "Interfy kan stänga av eller avsluta åtkomsten till plattformen vid brott mot dessa villkor, efter förhandsmeddelande, utom vid överhängande risk för plattformens eller tredje parts säkerhet."
+        ]
       },
       {
         "heading": "11. Ändringar av villkoren",
-        "paragraphs": ["Dessa villkor kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen, med rimlig tid innan de träder i kraft."]
+        "paragraphs": [
+          "Dessa villkor kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen, med rimlig tid innan de träder i kraft."
+        ]
       },
       {
         "heading": "12. Tillämplig lag och jurisdiktion",
-        "paragraphs": ["Dessa villkor regleras av lagarna i Förbundsrepubliken Brasilien, utan att det påverkar specifika avtalsbestämmelser för kunder i andra jurisdiktioner."]
+        "paragraphs": [
+          "Dessa villkor regleras av lagarna i Förbundsrepubliken Brasilien, utan att det påverkar specifika avtalsbestämmelser för kunder i andra jurisdiktioner."
+        ]
       },
       {
         "heading": "13. Kontakt",
-        "paragraphs": ["Frågor om dessa villkor kan skickas till contato@interfy.ai."]
+        "paragraphs": [
+          "Frågor om dessa villkor kan skickas till contato@interfy.ai."
+        ]
       }
     ]
   },
@@ -102,17 +142,36 @@
       "heading": "Certifieringar och efterlevnad",
       "ctaLabel": "Se alla detaljer",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Certifierat ledningssystem för informationssäkerhet." },
-        { "label": "SOC 2 Type II", "description": "Kontroller för säkerhet, tillgänglighet och konfidentialitet.", "badge": "Pågår" },
-        { "label": "LGPD", "description": "Efterlever den brasilianska dataskyddslagen (LGPD)." },
-        { "label": "GDPR", "description": "I enlighet med EU:s allmänna dataskyddsförordning." },
-        { "label": "HIPAA Ready", "description": "Förberedd för miljöer som hanterar ePHI i USA.", "badge": "BAA tillgänglig" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Certifierat ledningssystem för informationssäkerhet."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Kontroller för säkerhet, tillgänglighet och konfidentialitet.",
+          "badge": "Pågår"
+        },
+        {
+          "label": "LGPD",
+          "description": "Efterlever den brasilianska dataskyddslagen (LGPD)."
+        },
+        {
+          "label": "GDPR",
+          "description": "I enlighet med EU:s allmänna dataskyddsförordning."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Förberedd för miljöer som hanterar ePHI i USA.",
+          "badge": "BAA tillgänglig"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Vilka vi är",
-        "paragraphs": ["Interfy Corporation, med huvudkontor i Orlando, Florida, USA, är personuppgiftsansvarig för de personuppgifter som behandlas via Interfy-plattformen, utom när bolaget agerar som personuppgiftsbiträde på en kunds instruktioner."]
+        "paragraphs": [
+          "Interfy Corporation, med huvudkontor i Orlando, Florida, USA, är personuppgiftsansvarig för de personuppgifter som behandlas via Interfy-plattformen, utom när bolaget agerar som personuppgiftsbiträde på en kunds instruktioner."
+        ]
       },
       {
         "heading": "2. Vilka uppgifter vi samlar in",
@@ -134,19 +193,27 @@
       },
       {
         "heading": "4. Delning av uppgifter",
-        "paragraphs": ["Personuppgifter kan delas med infrastrukturleverantörer (som AWS molntjänster), betalningsleverantörer och andra personuppgiftsbiträden som är strikt nödvändiga för att tillhandahålla tjänsten, alltid under avtalsenliga sekretess- och säkerhetsförpliktelser. Vi säljer aldrig personuppgifter till tredje part."]
+        "paragraphs": [
+          "Personuppgifter kan delas med infrastrukturleverantörer (som AWS molntjänster), betalningsleverantörer och andra personuppgiftsbiträden som är strikt nödvändiga för att tillhandahålla tjänsten, alltid under avtalsenliga sekretess- och säkerhetsförpliktelser. Vi säljer aldrig personuppgifter till tredje part."
+        ]
       },
       {
         "heading": "5. Cookies och liknande tekniker",
-        "paragraphs": ["Vi använder nödvändiga cookies för att webbplatsen ska fungera och, med samtycke, analytiska cookies för att förstå användningen av plattformen och förbättra användarupplevelsen."]
+        "paragraphs": [
+          "Vi använder nödvändiga cookies för att webbplatsen ska fungera och, med samtycke, analytiska cookies för att förstå användningen av plattformen och förbättra användarupplevelsen."
+        ]
       },
       {
         "heading": "6. Datalagring",
-        "paragraphs": ["Personuppgifter bevaras under den tid som krävs för att uppfylla de ändamål som beskrivs i denna policy, eller enligt lag, och raderas eller anonymiseras därefter."]
+        "paragraphs": [
+          "Personuppgifter bevaras under den tid som krävs för att uppfylla de ändamål som beskrivs i denna policy, eller enligt lag, och raderas eller anonymiseras därefter."
+        ]
       },
       {
         "heading": "7. Informationssäkerhet",
-        "paragraphs": ["Vi tillämpar flerskiktad säkerhet, från arkitekturen till den dagliga driften:"],
+        "paragraphs": [
+          "Vi tillämpar flerskiktad säkerhet, från arkitekturen till den dagliga driften:"
+        ],
         "items": [
           "Isolering per arbetsyta och dedikerad databas per kund, utan delning",
           "Avancerad kryptering: data i transit (TLS 1.2+) och i vila (AES-256)",
@@ -157,7 +224,10 @@
           "Säkerhetsövervakning dygnet runt, automatiska krypterade backuper och katastrofåterställning med geografisk replikering",
           "Multi-AZ-infrastruktur på AWS, certifierad enligt ISO/IEC 27001:2022, med SOC 2 Type II pågående"
         ],
-        "relatedLink": { "label": "Se hela säkerhetsarkitekturen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Se hela säkerhetsarkitekturen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "8. Dina rättigheter (LGPD/GDPR)",
@@ -171,15 +241,21 @@
       },
       {
         "heading": "9. Internationell överföring av uppgifter",
-        "paragraphs": ["Eftersom vi verkar med global infrastruktur kan personuppgifter överföras mellan länder, alltid med avtalsenliga och tekniska skyddsåtgärder som är förenliga med LGPD och GDPR."]
+        "paragraphs": [
+          "Eftersom vi verkar med global infrastruktur kan personuppgifter överföras mellan länder, alltid med avtalsenliga och tekniska skyddsåtgärder som är förenliga med LGPD och GDPR."
+        ]
       },
       {
         "heading": "10. Ändringar av denna policy",
-        "paragraphs": ["Denna policy kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen."]
+        "paragraphs": [
+          "Denna policy kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen."
+        ]
       },
       {
         "heading": "11. Kontakt med dataskyddsombudet (DPO)",
-        "paragraphs": ["För att utöva dina rättigheter eller ställa frågor om denna policy, kontakta vårt dataskyddsombud via e-post på privacidade@interfy.ai."]
+        "paragraphs": [
+          "För att utöva dina rättigheter eller ställa frågor om denna policy, kontakta vårt dataskyddsombud via e-post på privacidade@interfy.ai."
+        ]
       }
     ]
   },
@@ -194,21 +270,42 @@
       "heading": "Certifieringar och efterlevnad",
       "ctaLabel": "Se alla detaljer",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Certifierat ledningssystem för informationssäkerhet." },
-        { "label": "SOC 2 Type II", "description": "Kontroller för säkerhet, tillgänglighet och konfidentialitet.", "badge": "Pågår" },
-        { "label": "LGPD", "description": "Efterlever den brasilianska dataskyddslagen (LGPD)." },
-        { "label": "GDPR", "description": "I enlighet med EU:s allmänna dataskyddsförordning." },
-        { "label": "HIPAA Ready", "description": "Förberedd för miljöer som hanterar ePHI i USA.", "badge": "BAA tillgänglig" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Certifierat ledningssystem för informationssäkerhet."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Kontroller för säkerhet, tillgänglighet och konfidentialitet.",
+          "badge": "Pågår"
+        },
+        {
+          "label": "LGPD",
+          "description": "Efterlever den brasilianska dataskyddslagen (LGPD)."
+        },
+        {
+          "label": "GDPR",
+          "description": "I enlighet med EU:s allmänna dataskyddsförordning."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Förberedd för miljöer som hanterar ePHI i USA.",
+          "badge": "BAA tillgänglig"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Vårt åtagande",
-        "paragraphs": ["Vi tillämpar inbyggt integritetsskydd (\"privacy by design\") i alla produkter på plattformen, med tekniska och organisatoriska kontroller som stödjer löpande efterlevnad av LGPD och GDPR."]
+        "paragraphs": [
+          "Vi tillämpar inbyggt integritetsskydd (\"privacy by design\") i alla produkter på plattformen, med tekniska och organisatoriska kontroller som stödjer löpande efterlevnad av LGPD och GDPR."
+        ]
       },
       {
         "heading": "2. Roller: personuppgiftsansvarig och personuppgiftsbiträde",
-        "paragraphs": ["För registrerings- och användningsdata på plattformen agerar Interfy som personuppgiftsansvarig. För kundens innehåll som lagras på plattformen agerar Interfy som personuppgiftsbiträde och behandlar uppgifterna strikt enligt instruktionerna från den personuppgiftsansvariga kunden."]
+        "paragraphs": [
+          "För registrerings- och användningsdata på plattformen agerar Interfy som personuppgiftsansvarig. För kundens innehåll som lagras på plattformen agerar Interfy som personuppgiftsbiträde och behandlar uppgifterna strikt enligt instruktionerna från den personuppgiftsansvariga kunden."
+        ]
       },
       {
         "heading": "3. Rättslig grund för behandling",
@@ -221,11 +318,15 @@
       },
       {
         "heading": "4. Den registrerades rättigheter",
-        "paragraphs": ["Registrerade kan begära åtkomst, rättelse, anonymisering, radering, portabilitet eller information om delning av sina personuppgifter, i enlighet med LGPD och, där tillämplig, GDPR."]
+        "paragraphs": [
+          "Registrerade kan begära åtkomst, rättelse, anonymisering, radering, portabilitet eller information om delning av sina personuppgifter, i enlighet med LGPD och, där tillämplig, GDPR."
+        ]
       },
       {
         "heading": "5. Hur du utövar dina rättigheter",
-        "paragraphs": ["Begäran kan skickas till privacidade@interfy.ai. Vi besvarar begäran inom gällande lagstadgade tidsramar och kan behöva ytterligare information för att bekräfta den sökandes identitet."]
+        "paragraphs": [
+          "Begäran kan skickas till privacidade@interfy.ai. Vi besvarar begäran inom gällande lagstadgade tidsramar och kan behöva ytterligare information för att bekräfta den sökandes identitet."
+        ]
       },
       {
         "heading": "6. Tekniska och organisatoriska säkerhetsåtgärder",
@@ -240,19 +341,28 @@
           "Automatiska krypterade backuper och katastrofåterställning med geografisk replikering",
           "Multi-AZ-infrastruktur på AWS, med en tillgänglighets-SLA på 99,99 %"
         ],
-        "relatedLink": { "label": "Se hela säkerhetsarkitekturen", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Se hela säkerhetsarkitekturen",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "7. Internationell överföring av uppgifter",
-        "paragraphs": ["När personuppgifter överförs mellan länder tillämpar Interfy avtalsklausuler och tekniska skyddsåtgärder som är förenliga med kraven i LGPD och GDPR för internationell överföring."]
+        "paragraphs": [
+          "När personuppgifter överförs mellan länder tillämpar Interfy avtalsklausuler och tekniska skyddsåtgärder som är förenliga med kraven i LGPD och GDPR för internationell överföring."
+        ]
       },
       {
         "heading": "8. Dataskyddsombud (DPO)",
-        "paragraphs": ["Vårt dataskyddsombud kan kontaktas via e-post på privacidade@interfy.ai för frågor som rör behandling av personuppgifter."]
+        "paragraphs": [
+          "Vårt dataskyddsombud kan kontaktas via e-post på privacidade@interfy.ai för frågor som rör behandling av personuppgifter."
+        ]
       },
       {
         "heading": "9. Uppdateringar",
-        "paragraphs": ["Detta dokument kan uppdateras för att reflektera lagstiftnings-, regulatoriska eller plattformsrelaterade ändringar. Datumet för senaste uppdatering anges alltid överst på sidan."]
+        "paragraphs": [
+          "Detta dokument kan uppdateras för att reflektera lagstiftnings-, regulatoriska eller plattformsrelaterade ändringar. Datumet för senaste uppdatering anges alltid överst på sidan."
+        ]
       }
     ]
   }

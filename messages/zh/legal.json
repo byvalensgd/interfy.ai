@@ -3,18 +3,35 @@
     "termos": {
       "title": "使用条款",
       "description": "Interfy 平台使用条款:使用条件、注册、套餐方案、知识产权及责任规定。",
-      "keywords": ["Interfy 使用条款", "Interfy 使用协议"]
+      "keywords": [
+        "Interfy 使用条款",
+        "Interfy 使用协议"
+      ]
     },
     "privacidade": {
       "title": "隐私政策",
       "description": "Interfy 隐私政策:我们收集哪些数据、如何使用、与谁共享,以及您所享有的权利。",
-      "keywords": ["Interfy 隐私政策", "Interfy 数据隐私"]
+      "keywords": [
+        "Interfy 隐私政策",
+        "Interfy 数据隐私"
+      ]
     },
     "lgpd": {
       "title": "LGPD / GDPR",
       "description": "Interfy 如何依据 LGPD 和 GDPR 处理个人数据,以及数据主体如何行使自身权利。",
-      "keywords": ["Interfy LGPD", "Interfy GDPR", "Interfy 数据保护"]
+      "keywords": [
+        "Interfy LGPD",
+        "Interfy GDPR",
+        "Interfy 数据保护"
+      ]
     }
+  },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
   },
   "termos": {
     "ariaLabel": "Interfy 使用条款",
@@ -38,7 +55,9 @@
       },
       {
         "heading": "3. 注册与账户",
-        "paragraphs": ["使用本平台前,须创建账户并提供真实、完整且最新的信息。您有责任对账户凭证保密,并对账户下发生的所有活动负责。"],
+        "paragraphs": [
+          "使用本平台前,须创建账户并提供真实、完整且最新的信息。您有责任对账户凭证保密,并对账户下发生的所有活动负责。"
+        ],
         "items": [
           "不得与未经授权的第三方共享密码或访问凭证",
           "如发现账户存在未经授权的使用嫌疑,应立即通知 Interfy",
@@ -47,19 +66,27 @@
       },
       {
         "heading": "4. 可接受的使用范围",
-        "paragraphs": ["您同意不将本平台用于任何非法目的,不侵犯第三方权利,不传播恶意软件,亦不得尝试访问未获授权的区域或数据。"]
+        "paragraphs": [
+          "您同意不将本平台用于任何非法目的,不侵犯第三方权利,不传播恶意软件,亦不得尝试访问未获授权的区域或数据。"
+        ]
       },
       {
         "heading": "5. 知识产权",
-        "paragraphs": ["Interfy 平台,包括其软件、商标、界面设计和内容,均归 Interfy Corporation 或其授权方所有,受知识产权相关法律保护。本条款不向客户转让任何知识产权,唯在订阅有效期内授予平台使用许可。"]
+        "paragraphs": [
+          "Interfy 平台,包括其软件、商标、界面设计和内容,均归 Interfy Corporation 或其授权方所有,受知识产权相关法律保护。本条款不向客户转让任何知识产权,唯在订阅有效期内授予平台使用许可。"
+        ]
       },
       {
         "heading": "6. 套餐、付款与取消",
-        "paragraphs": ["平台访问权限依据所购买的套餐方案提供。价格、付款方式及续订条件将在购买时予以说明。客户可随时申请取消订阅,具体以各套餐相应条款为准。"]
+        "paragraphs": [
+          "平台访问权限依据所购买的套餐方案提供。价格、付款方式及续订条件将在购买时予以说明。客户可随时申请取消订阅,具体以各套餐相应条款为准。"
+        ]
       },
       {
         "heading": "7. 客户数据与内容",
-        "paragraphs": ["客户在平台上传、存储或处理的所有内容(\"客户内容\")归客户所有。Interfy 作为该数据的处理方,依据客户指示及我们的隐私政策对数据进行处理。"]
+        "paragraphs": [
+          "客户在平台上传、存储或处理的所有内容(\"客户内容\")归客户所有。Interfy 作为该数据的处理方,依据客户指示及我们的隐私政策对数据进行处理。"
+        ]
       },
       {
         "heading": "8. 可用性与技术支持",
@@ -67,27 +94,40 @@
           "Interfy 基于 AWS 云原生多可用区(Multi-AZ)架构运行,可用性 SLA 达 99.99%,提供 7x24 全天候持续监控,并配备具备异地灾备复制能力的灾难恢复方案。",
           "技术支持依据我们支持页面所述的渠道和时限提供,平台可用性及事件历史记录会实时发布于平台状态页面。"
         ],
-        "relatedLink": { "label": "查看完整安全架构", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "查看完整安全架构",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "9. 责任限制",
-        "paragraphs": ["在适用法律允许的最大范围内,Interfy 不对因使用或无法使用本平台而产生的任何间接、附带或后果性损害承担责任。"]
+        "paragraphs": [
+          "在适用法律允许的最大范围内,Interfy 不对因使用或无法使用本平台而产生的任何间接、附带或后果性损害承担责任。"
+        ]
       },
       {
         "heading": "10. 终止",
-        "paragraphs": ["如客户违反本条款,Interfy 可在事先通知的情况下暂停或终止其对平台的访问权限,但在存在对平台或第三方安全的紧急风险时可不经事先通知。"]
+        "paragraphs": [
+          "如客户违反本条款,Interfy 可在事先通知的情况下暂停或终止其对平台的访问权限,但在存在对平台或第三方安全的紧急风险时可不经事先通知。"
+        ]
       },
       {
         "heading": "11. 条款变更",
-        "paragraphs": ["本条款可能会定期更新。重大变更将通过电子邮件或平台内通知的方式提前合理告知。"]
+        "paragraphs": [
+          "本条款可能会定期更新。重大变更将通过电子邮件或平台内通知的方式提前合理告知。"
+        ]
       },
       {
         "heading": "12. 适用法律与管辖权",
-        "paragraphs": ["本条款受巴西联邦共和国法律管辖,但不影响针对其他司法辖区客户所约定的特定合同条款。"]
+        "paragraphs": [
+          "本条款受巴西联邦共和国法律管辖,但不影响针对其他司法辖区客户所约定的特定合同条款。"
+        ]
       },
       {
         "heading": "13. 联系方式",
-        "paragraphs": ["如对本条款有任何疑问,请发送邮件至 contato@interfy.ai。"]
+        "paragraphs": [
+          "如对本条款有任何疑问,请发送邮件至 contato@interfy.ai。"
+        ]
       }
     ]
   },
@@ -102,17 +142,36 @@
       "heading": "认证与合规",
       "ctaLabel": "查看完整详情",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "已通过认证的信息安全管理体系。" },
-        { "label": "SOC 2 Type II", "description": "涵盖安全性、可用性与保密性的控制措施。", "badge": "进行中" },
-        { "label": "LGPD", "description": "符合巴西《通用数据保护法》。" },
-        { "label": "GDPR", "description": "符合欧盟《通用数据保护条例》。" },
-        { "label": "HIPAA Ready", "description": "已为处理美国 ePHI 数据的环境做好准备。", "badge": "可提供 BAA" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "已通过认证的信息安全管理体系。"
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "涵盖安全性、可用性与保密性的控制措施。",
+          "badge": "进行中"
+        },
+        {
+          "label": "LGPD",
+          "description": "符合巴西《通用数据保护法》。"
+        },
+        {
+          "label": "GDPR",
+          "description": "符合欧盟《通用数据保护条例》。"
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "已为处理美国 ePHI 数据的环境做好准备。",
+          "badge": "可提供 BAA"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. 我们是谁",
-        "paragraphs": ["Interfy Corporation 总部位于美国佛罗里达州奥兰多,是通过 Interfy 平台处理个人数据的控制者,除非其依据客户指示作为数据处理者行事。"]
+        "paragraphs": [
+          "Interfy Corporation 总部位于美国佛罗里达州奥兰多,是通过 Interfy 平台处理个人数据的控制者,除非其依据客户指示作为数据处理者行事。"
+        ]
       },
       {
         "heading": "2. 我们收集哪些数据",
@@ -134,19 +193,27 @@
       },
       {
         "heading": "4. 数据共享",
-        "paragraphs": ["个人数据可能与基础设施服务商(如 AWS 云服务)、支付处理机构及其他提供服务所必需的处理方共享,所有共享均受合同层面的保密与安全义务约束。我们不会向第三方出售个人数据。"]
+        "paragraphs": [
+          "个人数据可能与基础设施服务商(如 AWS 云服务)、支付处理机构及其他提供服务所必需的处理方共享,所有共享均受合同层面的保密与安全义务约束。我们不会向第三方出售个人数据。"
+        ]
       },
       {
         "heading": "5. Cookie 及类似技术",
-        "paragraphs": ["我们使用网站正常运行所必需的基本 Cookie;在获得您同意的情况下,还会使用分析类 Cookie,以了解平台使用情况并改善用户体验。"]
+        "paragraphs": [
+          "我们使用网站正常运行所必需的基本 Cookie;在获得您同意的情况下,还会使用分析类 Cookie,以了解平台使用情况并改善用户体验。"
+        ]
       },
       {
         "heading": "6. 数据保留",
-        "paragraphs": ["个人数据将在实现本政策所述目的所需的期限内予以保留,或依法律要求保留,此后将被删除或匿名化处理。"]
+        "paragraphs": [
+          "个人数据将在实现本政策所述目的所需的期限内予以保留,或依法律要求保留,此后将被删除或匿名化处理。"
+        ]
       },
       {
         "heading": "7. 信息安全",
-        "paragraphs": ["我们从架构层面到日常运营均采用多层次安全措施:"],
+        "paragraphs": [
+          "我们从架构层面到日常运营均采用多层次安全措施:"
+        ],
         "items": [
           "按 Workspace 隔离,每个客户拥有专属数据库,不与其他客户共享",
           "先进加密技术:传输中数据采用 TLS 1.2+ 加密,静态数据采用 AES-256 加密",
@@ -157,7 +224,10 @@
           "7x24 安全监控、自动加密备份,以及具备异地灾备复制能力的灾难恢复方案",
           "基于 AWS 的多可用区(Multi-AZ)架构,已通过 ISO/IEC 27001:2022 认证,SOC 2 Type II 认证正在进行中"
         ],
-        "relatedLink": { "label": "查看完整安全架构", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "查看完整安全架构",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "8. 您的权利(LGPD/GDPR)",
@@ -171,15 +241,21 @@
       },
       {
         "heading": "9. 数据跨境传输",
-        "paragraphs": ["由于我们采用全球化基础设施运营,个人数据可能在不同国家之间传输,所有传输均采取符合 LGPD 与 GDPR 要求的合同及技术保障措施。"]
+        "paragraphs": [
+          "由于我们采用全球化基础设施运营,个人数据可能在不同国家之间传输,所有传输均采取符合 LGPD 与 GDPR 要求的合同及技术保障措施。"
+        ]
       },
       {
         "heading": "10. 本政策的变更",
-        "paragraphs": ["本政策可能会定期更新。重大变更将通过电子邮件或平台内通知方式告知。"]
+        "paragraphs": [
+          "本政策可能会定期更新。重大变更将通过电子邮件或平台内通知方式告知。"
+        ]
       },
       {
         "heading": "11. 数据保护负责人(DPO)联系方式",
-        "paragraphs": ["如需行使您的权利或对本政策有任何疑问,请通过 privacidade@interfy.ai 联系我们的数据保护负责人(DPO)。"]
+        "paragraphs": [
+          "如需行使您的权利或对本政策有任何疑问,请通过 privacidade@interfy.ai 联系我们的数据保护负责人(DPO)。"
+        ]
       }
     ]
   },
@@ -194,21 +270,42 @@
       "heading": "认证与合规",
       "ctaLabel": "查看完整详情",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "已通过认证的信息安全管理体系。" },
-        { "label": "SOC 2 Type II", "description": "涵盖安全性、可用性与保密性的控制措施。", "badge": "进行中" },
-        { "label": "LGPD", "description": "符合巴西《通用数据保护法》。" },
-        { "label": "GDPR", "description": "符合欧盟《通用数据保护条例》。" },
-        { "label": "HIPAA Ready", "description": "已为处理美国 ePHI 数据的环境做好准备。", "badge": "可提供 BAA" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "已通过认证的信息安全管理体系。"
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "涵盖安全性、可用性与保密性的控制措施。",
+          "badge": "进行中"
+        },
+        {
+          "label": "LGPD",
+          "description": "符合巴西《通用数据保护法》。"
+        },
+        {
+          "label": "GDPR",
+          "description": "符合欧盟《通用数据保护条例》。"
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "已为处理美国 ePHI 数据的环境做好准备。",
+          "badge": "可提供 BAA"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. 我们的承诺",
-        "paragraphs": ["我们在平台所有产品中贯彻\"设计之初即隐私保护\"(privacy by design)理念,通过技术和组织层面的控制措施,持续保障对 LGPD 与 GDPR 的合规性。"]
+        "paragraphs": [
+          "我们在平台所有产品中贯彻\"设计之初即隐私保护\"(privacy by design)理念,通过技术和组织层面的控制措施,持续保障对 LGPD 与 GDPR 的合规性。"
+        ]
       },
       {
         "heading": "2. 角色定位:控制者与处理者",
-        "paragraphs": ["对于注册数据及平台使用数据,Interfy 作为数据控制者。对于存储在平台上的客户内容,Interfy 作为数据处理者,严格依据作为控制者的客户的指示处理相关数据。"]
+        "paragraphs": [
+          "对于注册数据及平台使用数据,Interfy 作为数据控制者。对于存储在平台上的客户内容,Interfy 作为数据处理者,严格依据作为控制者的客户的指示处理相关数据。"
+        ]
       },
       {
         "heading": "3. 数据处理的法律依据",
@@ -221,11 +318,15 @@
       },
       {
         "heading": "4. 数据主体的权利",
-        "paragraphs": ["依据 LGPD 及适用情况下的 GDPR,数据主体可申请访问、更正、匿名化、删除、转移其个人数据,或了解其数据共享情况。"]
+        "paragraphs": [
+          "依据 LGPD 及适用情况下的 GDPR,数据主体可申请访问、更正、匿名化、删除、转移其个人数据,或了解其数据共享情况。"
+        ]
       },
       {
         "heading": "5. 如何行使您的权利",
-        "paragraphs": ["相关申请可发送至 privacidade@interfy.ai。我们将在适用法律规定的期限内回复,并可能要求提供额外信息以核实申请人身份。"]
+        "paragraphs": [
+          "相关申请可发送至 privacidade@interfy.ai。我们将在适用法律规定的期限内回复,并可能要求提供额外信息以核实申请人身份。"
+        ]
       },
       {
         "heading": "6. 技术与组织安全措施",
@@ -240,19 +341,28 @@
           "自动加密备份及具备异地灾备复制能力的灾难恢复方案",
           "基于 AWS 的多可用区(Multi-AZ)架构,可用性 SLA 达 99.99%"
         ],
-        "relatedLink": { "label": "查看完整安全架构", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "查看完整安全架构",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "7. 数据跨境传输",
-        "paragraphs": ["当个人数据需在不同国家之间传输时,Interfy 将采用符合 LGPD 与 GDPR 跨境数据传输要求的合同条款及技术保障措施。"]
+        "paragraphs": [
+          "当个人数据需在不同国家之间传输时,Interfy 将采用符合 LGPD 与 GDPR 跨境数据传输要求的合同条款及技术保障措施。"
+        ]
       },
       {
         "heading": "8. 数据保护负责人(DPO)",
-        "paragraphs": ["如需咨询个人数据处理相关问题,可通过 privacidade@interfy.ai 联系我们的数据保护负责人(DPO)。"]
+        "paragraphs": [
+          "如需咨询个人数据处理相关问题,可通过 privacidade@interfy.ai 联系我们的数据保护负责人(DPO)。"
+        ]
       },
       {
         "heading": "9. 更新说明",
-        "paragraphs": ["本文档可能会因法律法规变化或平台自身调整而更新。页面顶部会始终标注最近一次更新的日期。"]
+        "paragraphs": [
+          "本文档可能会因法律法规变化或平台自身调整而更新。页面顶部会始终标注最近一次更新的日期。"
+        ]
       }
     ]
   }

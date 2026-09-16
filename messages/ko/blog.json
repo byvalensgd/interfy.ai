@@ -2,7 +2,12 @@
   "meta": {
     "title": "블로그 & 콘텐츠",
     "description": "문서 관리, 프로세스 자동화, 전자서명, 기업 업무에 적용되는 AI에 관한 아티클, 가이드, 최신 소식을 만나보세요.",
-    "keywords": ["Interfy 블로그", "문서 관리 콘텐츠", "프로세스 자동화", "기업용 AI"]
+    "keywords": [
+      "Interfy 블로그",
+      "문서 관리 콘텐츠",
+      "프로세스 자동화",
+      "기업용 AI"
+    ]
   },
   "hero": {
     "ariaLabel": "블로그 소개",
@@ -11,11 +16,139 @@
     "titleHighlight": "콘텐츠",
     "description": "문서, 프로세스, 데이터, AI에 관한 실용적인 가이드와 제품 소식, 그리고 최신 트렌드를 기업에 전합니다."
   },
+  "featured": {
+    "ariaLabel": "Featured article and recent posts",
+    "heading": "Featured",
+    "article": {
+      "category": "AI & Agents",
+      "title": "How AI is changing the way companies manage documents and processes",
+      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
+      "date": "Sep 2026",
+      "author": "Interfy Team",
+      "readTime": "9 min read",
+      "ctaLabel": "Read article"
+    },
+    "recentHeading": "Recent",
+    "recent": [
+      {
+        "title": "How to structure a document repository that scales with your company",
+        "date": "Aug 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "5 processes every company should automate first",
+        "date": "Aug 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "Is electronic signature legally valid?",
+        "date": "Jul 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "AI agents in internal processes: where to start",
+        "date": "Jul 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "Data protection in practice: what changes in document and process management",
+        "date": "Jun 2026",
+        "author": "Interfy Team"
+      },
+      {
+        "title": "OCR and smart capture: the end of manual data entry",
+        "date": "Jun 2026",
+        "author": "Interfy Team"
+      }
+    ]
+  },
+  "categories": {
+    "ariaLabel": "Articles by category",
+    "ctaLabel": "Read the blog",
+    "sections": [
+      {
+        "name": "Document Management",
+        "posts": [
+          {
+            "title": "How to structure a document repository that scales with your company",
+            "excerpt": "Best practices for organization, versioning and access control for fast-growing teams.",
+            "date": "Aug 2026",
+            "readTime": "6 min read"
+          },
+          {
+            "title": "OCR and smart capture: the end of manual data entry",
+            "excerpt": "How automated capture reduces errors and speeds up document intake into the workflow.",
+            "date": "Jun 2026",
+            "readTime": "5 min read"
+          },
+          {
+            "title": "Legally valid digitization: what the law says",
+            "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+            "date": "May 2026",
+            "readTime": "6 min read"
+          }
+        ]
+      },
+      {
+        "name": "Business Process Management",
+        "posts": [
+          {
+            "title": "5 processes every company should automate first",
+            "excerpt": "A practical roadmap for prioritizing the automations with the biggest impact on cost and cycle time.",
+            "date": "Aug 2026",
+            "readTime": "7 min read"
+          },
+          {
+            "title": "Approval workflows: how to cut cycle time by up to 80%",
+            "excerpt": "A step-by-step guide to designing multi-level approval flows that don't become a bottleneck.",
+            "date": "Jul 2026",
+            "readTime": "6 min read"
+          },
+          {
+            "title": "Is electronic signature legally valid?",
+            "excerpt": "What the law says, which evidence matters, and how to pick the right signature level.",
+            "date": "Jul 2026",
+            "readTime": "5 min read"
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "posts": [
+          {
+            "title": "AI agents in internal processes: where to start",
+            "excerpt": "Real-world use cases to reduce manual work in triage, classification and data extraction.",
+            "date": "Jul 2026",
+            "readTime": "8 min read"
+          },
+          {
+            "title": "Natural-language search: find any document in seconds",
+            "excerpt": "How generative AI is changing the way people find information inside a company.",
+            "date": "Jun 2026",
+            "readTime": "5 min read"
+          },
+          {
+            "title": "Data protection in practice: what changes in document and process management",
+            "excerpt": "A straightforward guide to legal bases, data retention and controller responsibilities.",
+            "date": "Jun 2026",
+            "readTime": "6 min read"
+          }
+        ]
+      }
+    ]
+  },
   "grid": {
     "ariaLabel": "블로그 아티클",
+    "heading": "All articles",
     "categoriesLabel": "카테고리로 필터링",
     "allLabel": "전체",
-    "categories": ["문서 관리", "자동화(BPM)", "전자서명", "AI & 에이전트", "보안 & 컴플라이언스"],
+    "categories": [
+      "문서 관리",
+      "자동화(BPM)",
+      "전자서명",
+      "AI & 에이전트",
+      "보안 & 컴플라이언스"
+    ],
     "comingSoonLabel": "매주 새로운 아티클이 올라옵니다. 곧 이곳에서 만나보세요.",
     "posts": [
       {

@@ -2,7 +2,13 @@
   "seo": {
     "title": "Tietoturva",
     "description": "Tutustu Interfyn tietoturva-, tietosuoja- ja vaatimustenmukaisuusarkkitehtuuriin: salaus, käyttöoikeuksien hallinta, korkea Multi-AZ-käytettävyys ja ISO-, LGPD-, GDPR- ja SOC 2 -sertifikaatit.",
-    "keywords": ["Interfyn tietoturva", "LGPD GDPR -vaatimustenmukaisuus", "tietojen salaus", "korkea AWS-käytettävyys", "turvallinen cloud-native-arkkitehtuuri"]
+    "keywords": [
+      "Interfyn tietoturva",
+      "LGPD GDPR -vaatimustenmukaisuus",
+      "tietojen salaus",
+      "korkea AWS-käytettävyys",
+      "turvallinen cloud-native-arkkitehtuuri"
+    ]
   },
   "hero": {
     "headingPrefix": "Yritystason tietoturva ",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Interfyn tietoturvakerrokset",
     "diagram": {
       "items": [
-        { "label": "Tietoturva arkkitehtuurista lähtien" },
-        { "label": "Täysi pääsynhallinta" },
-        { "label": "Korkea käytettävyys" },
-        { "label": "Eristys workspacekohtaisesti" },
-        { "label": "Tiedot aina suojattuna" },
-        { "label": "Tietosuoja oletuksena" },
-        { "label": "Globaali vaatimustenmukaisuus" },
-        { "label": "Luotettava infrastruktuuri" }
+        {
+          "label": "Tietoturva arkkitehtuurista lähtien"
+        },
+        {
+          "label": "Täysi pääsynhallinta"
+        },
+        {
+          "label": "Korkea käytettävyys"
+        },
+        {
+          "label": "Eristys workspacekohtaisesti"
+        },
+        {
+          "label": "Tiedot aina suojattuna"
+        },
+        {
+          "label": "Tietosuoja oletuksena"
+        },
+        {
+          "label": "Globaali vaatimustenmukaisuus"
+        },
+        {
+          "label": "Luotettava infrastruktuuri"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99%", "description": "Taattu SLA-käytettävyys" },
-      { "label": "24/7", "description": "Jatkuva valvonta" },
-      { "label": "Turvallinen ja luotettava", "description": "Suojaus useilla turvakerroksilla" }
+      {
+        "label": "99,99%",
+        "description": "Taattu SLA-käytettävyys"
+      },
+      {
+        "label": "24/7",
+        "description": "Jatkuva valvonta"
+      },
+      {
+        "label": "Turvallinen ja luotettava",
+        "description": "Suojaus useilla turvakerroksilla"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "Interfyn AWS-infrastruktuuri",
@@ -131,19 +163,42 @@
     "headlineHighlight": "cloud-native",
     "headlineSuffix": " -arkkitehtuuri",
     "flow": [
-      { "label": "Käyttäjät" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Käyttäjät"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Korkea käytettävyys - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "Sovellukset" },
-    "az2": { "label": "AZ 2", "title": "Tietokanta", "subtitle": "(Automaattinen vaihto)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Sovellukset"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Tietokanta",
+      "subtitle": "(Automaattinen vaihto)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Salattu varmuuskopio" },
-      { "label": "CloudWatch-valvonta" },
-      { "label": "CloudTrail-lokit" },
-      { "label": "GuardDuty-turvallisuus" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Salattu varmuuskopio"
+      },
+      {
+        "label": "CloudWatch-valvonta"
+      },
+      {
+        "label": "CloudTrail-lokit"
+      },
+      {
+        "label": "GuardDuty-turvallisuus"
+      }
     ],
     "featuresAriaLabel": "Korkean käytettävyyden arkkitehtuurin edut",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Keskustele asiantuntijan kanssa",
     "featuresAriaLabel": "Interfyn tietoturvan ja vaatimustenmukaisuuden peruspilarit",
     "features": [
-      { "label": "Turvallisuus suunnittelusta lähtien" },
-      { "label": "Tietosuoja oletuksena" },
-      { "label": "Täysi läpinäkyvyys" },
-      { "label": "Globaali vaatimustenmukaisuus" },
-      { "label": "Innovaatiota vastuullisesti" }
+      {
+        "label": "Turvallisuus suunnittelusta lähtien"
+      },
+      {
+        "label": "Tietosuoja oletuksena"
+      },
+      {
+        "label": "Täysi läpinäkyvyys"
+      },
+      {
+        "label": "Globaali vaatimustenmukaisuus"
+      },
+      {
+        "label": "Innovaatiota vastuullisesti"
+      }
     ]
   }
 }

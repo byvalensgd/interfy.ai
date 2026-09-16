@@ -3,18 +3,35 @@
     "termos": {
       "title": "Käyttöehdot",
       "description": "Interfy-alustan käyttöehdot: käyttöä, rekisteröitymistä, paketteja, immateriaalioikeuksia ja vastuita koskevat ehdot.",
-      "keywords": ["Interfyn käyttöehdot", "Interfyn käyttösopimus"]
+      "keywords": [
+        "Interfyn käyttöehdot",
+        "Interfyn käyttösopimus"
+      ]
     },
     "privacidade": {
       "title": "Tietosuojakäytäntö",
       "description": "Interfyn tietosuojakäytäntö: mitä tietoja keräämme, miten käytämme niitä, kenen kanssa jaamme niitä ja mitkä ovat oikeutesi.",
-      "keywords": ["Interfyn tietosuojakäytäntö", "Interfyn tietosuoja"]
+      "keywords": [
+        "Interfyn tietosuojakäytäntö",
+        "Interfyn tietosuoja"
+      ]
     },
     "lgpd": {
       "title": "LGPD / GDPR",
       "description": "Miten Interfy käsittelee henkilötietoja LGPD:n ja GDPR:n mukaisesti, ja miten voit käyttää oikeuksiasi rekisteröitynä.",
-      "keywords": ["Interfy LGPD", "Interfy GDPR", "Interfyn tietosuoja"]
+      "keywords": [
+        "Interfy LGPD",
+        "Interfy GDPR",
+        "Interfyn tietosuoja"
+      ]
     }
+  },
+  "search": {
+    "ariaLabel": "Search this page",
+    "placeholder": "Search a topic or keyword...",
+    "clearLabel": "Clear search",
+    "resultsCountLabel": "result(s) found",
+    "noResultsLabel": "No results found for your search."
   },
   "termos": {
     "ariaLabel": "Interfyn käyttöehdot",
@@ -38,7 +55,9 @@
       },
       {
         "heading": "3. Rekisteröityminen ja tili",
-        "paragraphs": ["Alustan käyttö edellyttää tilin luomista todenmukaisilla, täydellisillä ja ajantasaisilla tiedoilla. Olet vastuussa käyttötunnuksesi luottamuksellisuuden säilyttämisestä ja kaikesta tilillasi tapahtuvasta toiminnasta."],
+        "paragraphs": [
+          "Alustan käyttö edellyttää tilin luomista todenmukaisilla, täydellisillä ja ajantasaisilla tiedoilla. Olet vastuussa käyttötunnuksesi luottamuksellisuuden säilyttämisestä ja kaikesta tilillasi tapahtuvasta toiminnasta."
+        ],
         "items": [
           "Salasanoja tai käyttötunnuksia ei saa jakaa valtuuttamattomille kolmansille osapuolille",
           "Ilmoita Interfylle välittömästi, jos epäilet tilisi luvattoman käyttöä",
@@ -47,19 +66,27 @@
       },
       {
         "heading": "4. Hyväksyttävä käyttö",
-        "paragraphs": ["Sitoudut siihen, ettet käytä alustaa laittomiin tarkoituksiin, kolmansien osapuolten oikeuksien loukkaamiseen, haittaohjelmien levittämiseen tai luvattomien alueiden tai tietojen käyttöyritykseen."]
+        "paragraphs": [
+          "Sitoudut siihen, ettet käytä alustaa laittomiin tarkoituksiin, kolmansien osapuolten oikeuksien loukkaamiseen, haittaohjelmien levittämiseen tai luvattomien alueiden tai tietojen käyttöyritykseen."
+        ]
       },
       {
         "heading": "5. Immateriaalioikeudet",
-        "paragraphs": ["Interfy-alusta, mukaan lukien ohjelmisto, tavaramerkit, ulkoasu ja sisällöt, on Interfy Corporationin tai sen lisenssinantajien omaisuutta, suojattuna immateriaalioikeuslainsäädännöllä. Mikään näiden ehtojen määräys ei siirrä immateriaalioikeuksia asiakkaalle, lukuun ottamatta alustan käyttöoikeutta tilauksen voimassaoloaikana."]
+        "paragraphs": [
+          "Interfy-alusta, mukaan lukien ohjelmisto, tavaramerkit, ulkoasu ja sisällöt, on Interfy Corporationin tai sen lisenssinantajien omaisuutta, suojattuna immateriaalioikeuslainsäädännöllä. Mikään näiden ehtojen määräys ei siirrä immateriaalioikeuksia asiakkaalle, lukuun ottamatta alustan käyttöoikeutta tilauksen voimassaoloaikana."
+        ]
       },
       {
         "heading": "6. Paketit, maksut ja peruutus",
-        "paragraphs": ["Pääsy alustalle myönnetään valitun paketin mukaisesti. Hinnat, maksutavat ja uusimisehdot ilmoitetaan tilausta tehdessä. Peruutus voidaan pyytää milloin tahansa, kunkin paketin erityisehtojen mukaisesti."]
+        "paragraphs": [
+          "Pääsy alustalle myönnetään valitun paketin mukaisesti. Hinnat, maksutavat ja uusimisehdot ilmoitetaan tilausta tehdessä. Peruutus voidaan pyytää milloin tahansa, kunkin paketin erityisehtojen mukaisesti."
+        ]
       },
       {
         "heading": "7. Asiakkaan tiedot ja sisältö",
-        "paragraphs": ["Kaikki asiakkaan alustalle lähettämä, tallentama tai käsittelemä sisältö (\"Asiakkaan sisältö\") pysyy asiakkaan omaisuutena. Interfy toimii näiden tietojen käsittelijänä, käsitellen niitä asiakkaan ohjeiden ja tietosuojakäytäntömme mukaisesti."]
+        "paragraphs": [
+          "Kaikki asiakkaan alustalle lähettämä, tallentama tai käsittelemä sisältö (\"Asiakkaan sisältö\") pysyy asiakkaan omaisuutena. Interfy toimii näiden tietojen käsittelijänä, käsitellen niitä asiakkaan ohjeiden ja tietosuojakäytäntömme mukaisesti."
+        ]
       },
       {
         "heading": "8. Käytettävyys ja tuki",
@@ -67,27 +94,40 @@
           "Interfy toimii Multi-AZ-cloud-native-infrastruktuurilla AWS:ssä, 99,99 %:n käytettävyys-SLA:lla, jatkuvalla 24/7-valvonnalla ja katastrofipalautussuunnitelmalla maantieteellisellä replikoinnilla.",
           "Tuki tarjotaan tukisivullamme kuvattujen kanavien ja aikataulujen mukaisesti, ja käytettävyys- ja häiriöhistoria julkaistaan reaaliajassa alustan tilasivulla."
         ],
-        "relatedLink": { "label": "Katso koko tietoturva-arkkitehtuuri", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Katso koko tietoturva-arkkitehtuuri",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "9. Vastuun rajoitus",
-        "paragraphs": ["Sovellettavan lain sallimissa rajoissa Interfy ei ole vastuussa välillisistä, satunnaisista tai seurannaisista vahingoista, jotka johtuvat alustan käytöstä tai käytön estymisestä."]
+        "paragraphs": [
+          "Sovellettavan lain sallimissa rajoissa Interfy ei ole vastuussa välillisistä, satunnaisista tai seurannaisista vahingoista, jotka johtuvat alustan käytöstä tai käytön estymisestä."
+        ]
       },
       {
         "heading": "10. Sopimuksen päättyminen",
-        "paragraphs": ["Interfy voi keskeyttää tai päättää pääsyn alustalle näiden ehtojen rikkomisen vuoksi, ennakkoilmoituksella, paitsi tapauksissa, joissa alustan tai kolmansien osapuolten turvallisuus on välittömässä vaarassa."]
+        "paragraphs": [
+          "Interfy voi keskeyttää tai päättää pääsyn alustalle näiden ehtojen rikkomisen vuoksi, ennakkoilmoituksella, paitsi tapauksissa, joissa alustan tai kolmansien osapuolten turvallisuus on välittömässä vaarassa."
+        ]
       },
       {
         "heading": "11. Ehtojen muutokset",
-        "paragraphs": ["Näitä ehtoja voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella kohtuullisen ajan kuluessa ennen voimaantuloa."]
+        "paragraphs": [
+          "Näitä ehtoja voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella kohtuullisen ajan kuluessa ennen voimaantuloa."
+        ]
       },
       {
         "heading": "12. Sovellettava laki ja oikeuspaikka",
-        "paragraphs": ["Näihin ehtoihin sovelletaan Brasilian liittotasavallan lakeja, ellei muille lainkäyttöalueiden asiakkaille erikseen sovittuja sopimusehtoja sovelleta."]
+        "paragraphs": [
+          "Näihin ehtoihin sovelletaan Brasilian liittotasavallan lakeja, ellei muille lainkäyttöalueiden asiakkaille erikseen sovittuja sopimusehtoja sovelleta."
+        ]
       },
       {
         "heading": "13. Yhteystiedot",
-        "paragraphs": ["Kysymykset näistä ehdoista voi lähettää osoitteeseen contato@interfy.ai."]
+        "paragraphs": [
+          "Kysymykset näistä ehdoista voi lähettää osoitteeseen contato@interfy.ai."
+        ]
       }
     ]
   },
@@ -102,17 +142,36 @@
       "heading": "Sertifikaatit ja vaatimustenmukaisuus",
       "ctaLabel": "Katso täydelliset tiedot",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Sertifioitu tietoturvan hallintajärjestelmä." },
-        { "label": "SOC 2 Type II", "description": "Tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.", "badge": "Käynnissä" },
-        { "label": "LGPD", "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen." },
-        { "label": "GDPR", "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen." },
-        { "label": "HIPAA Ready", "description": "Valmis ympäristöihin, joissa käsitellään ePHI-tietoja Yhdysvalloissa.", "badge": "BAA saatavilla" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Sertifioitu tietoturvan hallintajärjestelmä."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.",
+          "badge": "Käynnissä"
+        },
+        {
+          "label": "LGPD",
+          "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen."
+        },
+        {
+          "label": "GDPR",
+          "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Valmis ympäristöihin, joissa käsitellään ePHI-tietoja Yhdysvalloissa.",
+          "badge": "BAA saatavilla"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Keitä olemme",
-        "paragraphs": ["Interfy Corporation, kotipaikka Orlando, Florida, Yhdysvallat, on Interfy-alustan kautta käsiteltyjen henkilötietojen rekisterinpitäjä, ellei se toimi tietojen käsittelijänä asiakkaan ohjeiden mukaisesti."]
+        "paragraphs": [
+          "Interfy Corporation, kotipaikka Orlando, Florida, Yhdysvallat, on Interfy-alustan kautta käsiteltyjen henkilötietojen rekisterinpitäjä, ellei se toimi tietojen käsittelijänä asiakkaan ohjeiden mukaisesti."
+        ]
       },
       {
         "heading": "2. Mitä tietoja keräämme",
@@ -134,19 +193,27 @@
       },
       {
         "heading": "4. Tietojen jakaminen",
-        "paragraphs": ["Henkilötietoja voidaan jakaa infrastruktuuripalveluntarjoajien (kuten AWS-pilvipalvelut), maksunkäsittelijöiden ja muiden palvelun tarjoamiseksi ehdottoman välttämättömien käsittelijöiden kanssa, aina luottamuksellisuutta ja turvallisuutta koskevien sopimusvelvoitteiden alaisuudessa. Emme myy henkilötietoja kolmansille osapuolille."]
+        "paragraphs": [
+          "Henkilötietoja voidaan jakaa infrastruktuuripalveluntarjoajien (kuten AWS-pilvipalvelut), maksunkäsittelijöiden ja muiden palvelun tarjoamiseksi ehdottoman välttämättömien käsittelijöiden kanssa, aina luottamuksellisuutta ja turvallisuutta koskevien sopimusvelvoitteiden alaisuudessa. Emme myy henkilötietoja kolmansille osapuolille."
+        ]
       },
       {
         "heading": "5. Evästeet ja vastaavat teknologiat",
-        "paragraphs": ["Käytämme sivuston toiminnan kannalta välttämättömiä evästeitä ja, suostumuksella, analytiikkaevästeitä ymmärtääksemme alustan käyttöä ja parantaaksemme käyttäjäkokemusta."]
+        "paragraphs": [
+          "Käytämme sivuston toiminnan kannalta välttämättömiä evästeitä ja, suostumuksella, analytiikkaevästeitä ymmärtääksemme alustan käyttöä ja parantaaksemme käyttäjäkokemusta."
+        ]
       },
       {
         "heading": "6. Tietojen säilytys",
-        "paragraphs": ["Henkilötietoja säilytetään niin kauan kuin on tarpeen tässä käytännössä kuvattujen tarkoitusten täyttämiseksi tai lain vaatimalla ajalla, jonka jälkeen ne poistetaan tai anonymisoidaan."]
+        "paragraphs": [
+          "Henkilötietoja säilytetään niin kauan kuin on tarpeen tässä käytännössä kuvattujen tarkoitusten täyttämiseksi tai lain vaatimalla ajalla, jonka jälkeen ne poistetaan tai anonymisoidaan."
+        ]
       },
       {
         "heading": "7. Tietoturva",
-        "paragraphs": ["Sovellamme useiden kerrosten turvallisuutta arkkitehtuurista päivittäiseen toimintaan asti:"],
+        "paragraphs": [
+          "Sovellamme useiden kerrosten turvallisuutta arkkitehtuurista päivittäiseen toimintaan asti:"
+        ],
         "items": [
           "Eristys workspacekohtaisesti ja omistettu tietokanta asiakasta kohti, ei jaettuna",
           "Kehittynyt salaus: tiedot siirrossa (TLS 1.2+) ja levossa (AES-256)",
@@ -157,7 +224,10 @@
           "Tietoturvan valvonta 24/7, automaattiset salatut varmuuskopiot ja katastrofipalautus maantieteellisellä replikoinnilla",
           "Multi-AZ-infrastruktuuri AWS:ssä, sertifioitu ISO/IEC 27001:2022, SOC 2 Type II käynnissä"
         ],
-        "relatedLink": { "label": "Katso koko tietoturva-arkkitehtuuri", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Katso koko tietoturva-arkkitehtuuri",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "8. Oikeutesi (LGPD/GDPR)",
@@ -171,15 +241,21 @@
       },
       {
         "heading": "9. Kansainvälinen tiedonsiirto",
-        "paragraphs": ["Koska toimimme globaalilla infrastruktuurilla, henkilötietoja voidaan siirtää maiden välillä, aina LGPD:n ja GDPR:n mukaisilla sopimuksellisilla ja teknisilla suojatoimilla."]
+        "paragraphs": [
+          "Koska toimimme globaalilla infrastruktuurilla, henkilötietoja voidaan siirtää maiden välillä, aina LGPD:n ja GDPR:n mukaisilla sopimuksellisilla ja teknisilla suojatoimilla."
+        ]
       },
       {
         "heading": "10. Tämän käytännön muutokset",
-        "paragraphs": ["Tätä käytäntöä voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella."]
+        "paragraphs": [
+          "Tätä käytäntöä voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella."
+        ]
       },
       {
         "heading": "11. Tietosuojavastaavan yhteystiedot (DPO)",
-        "paragraphs": ["Oikeuksiesi käyttämiseksi tai tätä käytäntöä koskevien kysymysten selvittämiseksi ota yhteyttä tietosuojavastaavaamme sähköpostitse osoitteeseen privacidade@interfy.ai."]
+        "paragraphs": [
+          "Oikeuksiesi käyttämiseksi tai tätä käytäntöä koskevien kysymysten selvittämiseksi ota yhteyttä tietosuojavastaavaamme sähköpostitse osoitteeseen privacidade@interfy.ai."
+        ]
       }
     ]
   },
@@ -194,21 +270,42 @@
       "heading": "Sertifikaatit ja vaatimustenmukaisuus",
       "ctaLabel": "Katso täydelliset tiedot",
       "items": [
-        { "label": "ISO/IEC 27001:2022", "description": "Sertifioitu tietoturvan hallintajärjestelmä." },
-        { "label": "SOC 2 Type II", "description": "Tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.", "badge": "Käynnissä" },
-        { "label": "LGPD", "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen." },
-        { "label": "GDPR", "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen." },
-        { "label": "HIPAA Ready", "description": "Valmis ympäristöihin, joissa käsitellään ePHI-tietoja Yhdysvalloissa.", "badge": "BAA saatavilla" }
+        {
+          "label": "ISO/IEC 27001:2022",
+          "description": "Sertifioitu tietoturvan hallintajärjestelmä."
+        },
+        {
+          "label": "SOC 2 Type II",
+          "description": "Tietoturvan, käytettävyyden ja luottamuksellisuuden hallintakeinot.",
+          "badge": "Käynnissä"
+        },
+        {
+          "label": "LGPD",
+          "description": "Brasilian yleisen tietosuojalain (LGPD) mukainen."
+        },
+        {
+          "label": "GDPR",
+          "description": "EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen."
+        },
+        {
+          "label": "HIPAA Ready",
+          "description": "Valmis ympäristöihin, joissa käsitellään ePHI-tietoja Yhdysvalloissa.",
+          "badge": "BAA saatavilla"
+        }
       ]
     },
     "sections": [
       {
         "heading": "1. Sitoumuksemme",
-        "paragraphs": ["Sovellamme sisäänrakennettua tietosuojaa (\"privacy by design\") kaikissa alustan tuotteissa, teknisillä ja organisatorisilla hallintakeinoilla, jotka tukevat jatkuvaa LGPD- ja GDPR-vaatimustenmukaisuutta."]
+        "paragraphs": [
+          "Sovellamme sisäänrakennettua tietosuojaa (\"privacy by design\") kaikissa alustan tuotteissa, teknisillä ja organisatorisilla hallintakeinoilla, jotka tukevat jatkuvaa LGPD- ja GDPR-vaatimustenmukaisuutta."
+        ]
       },
       {
         "heading": "2. Roolit: rekisterinpitäjä ja käsittelijä",
-        "paragraphs": ["Rekisteröinti- ja alustan käyttötietojen osalta Interfy toimii rekisterinpitäjänä. Alustalle tallennetun Asiakkaan sisällön osalta Interfy toimii käsittelijänä, käsitellen tietoja tarkasti rekisterinpitäjänä toimivan asiakkaan ohjeiden mukaisesti."]
+        "paragraphs": [
+          "Rekisteröinti- ja alustan käyttötietojen osalta Interfy toimii rekisterinpitäjänä. Alustalle tallennetun Asiakkaan sisällön osalta Interfy toimii käsittelijänä, käsitellen tietoja tarkasti rekisterinpitäjänä toimivan asiakkaan ohjeiden mukaisesti."
+        ]
       },
       {
         "heading": "3. Käsittelyn oikeusperusteet",
@@ -221,11 +318,15 @@
       },
       {
         "heading": "4. Rekisteröidyn oikeudet",
-        "paragraphs": ["Rekisteröidyt voivat pyytää pääsyä, korjausta, anonymisointia, poistoa, siirrettävyyttä tai tietoa henkilötietojensa jakamisesta LGPD:n ja soveltuvin osin GDPR:n mukaisesti."]
+        "paragraphs": [
+          "Rekisteröidyt voivat pyytää pääsyä, korjausta, anonymisointia, poistoa, siirrettävyyttä tai tietoa henkilötietojensa jakamisesta LGPD:n ja soveltuvin osin GDPR:n mukaisesti."
+        ]
       },
       {
         "heading": "5. Miten käytät oikeuksiasi",
-        "paragraphs": ["Pyynnöt voi lähettää osoitteeseen privacidade@interfy.ai. Vastaamme sovellettavien lakisääteisten määräaikojen puitteissa, ja voimme pyytää lisätietoja pyynnön esittäjän henkilöllisyyden vahvistamiseksi."]
+        "paragraphs": [
+          "Pyynnöt voi lähettää osoitteeseen privacidade@interfy.ai. Vastaamme sovellettavien lakisääteisten määräaikojen puitteissa, ja voimme pyytää lisätietoja pyynnön esittäjän henkilöllisyyden vahvistamiseksi."
+        ]
       },
       {
         "heading": "6. Tekniset ja organisatoriset turvatoimet",
@@ -240,19 +341,28 @@
           "Automaattiset salatut varmuuskopiot ja katastrofipalautus maantieteellisellä replikoinnilla",
           "Multi-AZ-infrastruktuuri AWS:ssä, 99,99 %:n käytettävyys-SLA:lla"
         ],
-        "relatedLink": { "label": "Katso koko tietoturva-arkkitehtuuri", "href": "/legal/seguranca" }
+        "relatedLink": {
+          "label": "Katso koko tietoturva-arkkitehtuuri",
+          "href": "/legal/seguranca"
+        }
       },
       {
         "heading": "7. Kansainvälinen tiedonsiirto",
-        "paragraphs": ["Kun henkilötietoja siirretään maiden välillä, Interfy soveltaa LGPD:n ja GDPR:n kansainvälisen tiedonsiirron vaatimusten mukaisia sopimuslausekkeita ja teknisiä suojatoimia."]
+        "paragraphs": [
+          "Kun henkilötietoja siirretään maiden välillä, Interfy soveltaa LGPD:n ja GDPR:n kansainvälisen tiedonsiirron vaatimusten mukaisia sopimuslausekkeita ja teknisiä suojatoimia."
+        ]
       },
       {
         "heading": "8. Tietosuojavastaava (DPO)",
-        "paragraphs": ["Tietosuojavastaavaamme voi lähestyä sähköpostitse osoitteessa privacidade@interfy.ai henkilötietojen käsittelyyn liittyvissä kysymyksissä."]
+        "paragraphs": [
+          "Tietosuojavastaavaamme voi lähestyä sähköpostitse osoitteessa privacidade@interfy.ai henkilötietojen käsittelyyn liittyvissä kysymyksissä."
+        ]
       },
       {
         "heading": "9. Päivitykset",
-        "paragraphs": ["Tätä asiakirjaa voidaan päivittää lainsäädännön, sääntelyn tai alustan muutosten mukaisesti. Viimeisen päivityksen päivämäärä ilmoitetaan aina sivun ylälaidassa."]
+        "paragraphs": [
+          "Tätä asiakirjaa voidaan päivittää lainsäädännön, sääntelyn tai alustan muutosten mukaisesti. Viimeisen päivityksen päivämäärä ilmoitetaan aina sivun ylälaidassa."
+        ]
       }
     ]
   }

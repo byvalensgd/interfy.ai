@@ -2,7 +2,11 @@
   "meta": {
     "title": "Prenota una Demo",
     "description": "Prenota una demo personalizzata di Interfy e scopri come documenti, processi, firma elettronica e AI possono adattarsi alla tua operatività.",
-    "keywords": ["prenotare demo Interfy", "demo Interfy", "richiedere demo piattaforma AI-native"]
+    "keywords": [
+      "prenotare demo Interfy",
+      "demo Interfy",
+      "richiedere demo piattaforma AI-native"
+    ]
   },
   "hero": {
     "ariaLabel": "Prenota una demo di Interfy",
@@ -12,20 +16,40 @@
     "description": "Un nostro specialista analizzerà il tuo contesto e ti mostrerà, in diretta, come documenti, processi, firma elettronica, integrazioni e AI si integrano nella tua operatività.",
     "expectHeading": "Cosa aspettarsi dalla demo",
     "expectItems": [
-      { "title": "30 minuti", "description": "Una conversazione diretta, senza fronzoli." },
-      { "title": "Scenario reale", "description": "Esempi applicati alla tua operatività e al tuo settore." },
-      { "title": "Nessun impegno", "description": "Decidi tu il passo successivo dopo la conversazione." },
-      { "title": "Specialista dedicato", "description": "Qualcuno che conosce già il tuo settore." }
+      {
+        "title": "30 minuti",
+        "description": "Una conversazione diretta, senza fronzoli."
+      },
+      {
+        "title": "Scenario reale",
+        "description": "Esempi applicati alla tua operatività e al tuo settore."
+      },
+      {
+        "title": "Nessun impegno",
+        "description": "Decidi tu il passo successivo dopo la conversazione."
+      },
+      {
+        "title": "Specialista dedicato",
+        "description": "Qualcuno che conosce già il tuo settore."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "Prenota la tua demo",
     "subheading": "Compila i dati qui sotto e ti contatteremo per confermare l'orario più comodo.",
-    "nameLabel": "Nome completo",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "Email aziendale",
     "companyLabel": "Azienda",
     "phoneLabel": "Telefono (WhatsApp)",
-    "roleLabel": "Ruolo",
     "companySizeLabel": "Dimensione dell'azienda",
     "companySizePlaceholder": "Seleziona",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "Da 201 a 1.000 dipendenti",
       "Più di 1.000 dipendenti"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "Raccontaci brevemente di cosa hai bisogno",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(opzionale)",
     "errors": {
       "name": "Inserisci il tuo nome completo.",
@@ -53,7 +91,9 @@
     "successHeading": "Abbiamo ricevuto la tua richiesta!",
     "successMessagePrefix": "Il nostro team ti contatterà per confermare l'orario più comodo all'indirizzo email ",
     "successMessageSuffix": ".",
-    "specialistLink": "Inizia gratis nel frattempo"
+    "specialistLink": "Inizia gratis nel frattempo",
+    "nameLabel": "Nome completo",
+    "roleLabel": "Ruolo"
   },
   "trust": {
     "ariaLabel": "Perché prenotare una demo con Interfy",
@@ -61,10 +101,22 @@
     "subheading": "Sicurezza enterprise, conformità globale e supporto specializzato in ogni demo.",
     "statsLabel": "Presenza globale di Interfy",
     "stats": [
-      { "label": "180+ paesi", "sublabel": "Presenza globale in espansione" },
-      { "label": "16 lingue", "sublabel": "Interfaccia ed esperienza complete" },
-      { "label": "99,99%", "sublabel": "Disponibilità SLA garantita" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "Conformità certificata" }
+      {
+        "label": "180+ paesi",
+        "sublabel": "Presenza globale in espansione"
+      },
+      {
+        "label": "16 lingue",
+        "sublabel": "Interfaccia ed esperienza complete"
+      },
+      {
+        "label": "99,99%",
+        "sublabel": "Disponibilità SLA garantita"
+      },
+      {
+        "label": "ISO 27001, LGPD, GDPR",
+        "sublabel": "Conformità certificata"
+      }
     ]
   }
 }

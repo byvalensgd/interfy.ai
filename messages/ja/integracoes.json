@@ -2,7 +2,13 @@
   "seo": {
     "title": "連携とAPI",
     "description": "InterfyをMicrosoft、Google、SAP、Salesforce、Oracle、HubSpot、MySQL、Zapierなど、貴社が既に利用しているツールと接続。完全なRESTful APIとリアルタイムのWebhookを備えています。",
-    "keywords": ["Interfy連携", "Interfy API", "エンタープライズコネクタ", "Webhook", "システム自動化"]
+    "keywords": [
+      "Interfy連携",
+      "Interfy API",
+      "エンタープライズコネクタ",
+      "Webhook",
+      "システム自動化"
+    ]
   },
   "hero": {
     "headingPrefix": "貴社が既に使っているものと",
@@ -13,24 +19,50 @@
     "diagramAriaLabel": "Interfyと連携するシステム",
     "diagram": {
       "items": [
-        { "label": "Microsoft" },
-        { "label": "Google" },
-        { "label": "SAP" },
-        { "label": "Salesforce" },
-        { "label": "Oracle" },
-        { "label": "HubSpot" },
-        { "label": "MySQL" },
-        { "label": "Zapier" }
+        {
+          "label": "Microsoft"
+        },
+        {
+          "label": "Google"
+        },
+        {
+          "label": "SAP"
+        },
+        {
+          "label": "Salesforce"
+        },
+        {
+          "label": "Oracle"
+        },
+        {
+          "label": "HubSpot"
+        },
+        {
+          "label": "MySQL"
+        },
+        {
+          "label": "Zapier"
+        }
       ]
     },
     "banner": [
-      { "title": "限界のない連携", "description": "貴社に必要なすべてを接続" },
-      { "title": "さらなる生産性", "description": "フローを自動化し、手戻りをなくす" },
-      { "title": "インテリジェントな意思決定", "description": "統合されたデータでリアルタイムのインサイトを。" }
+      {
+        "title": "限界のない連携",
+        "description": "貴社に必要なすべてを接続"
+      },
+      {
+        "title": "さらなる生産性",
+        "description": "フローを自動化し、手戻りをなくす"
+      },
+      {
+        "title": "インテリジェントな意思決定",
+        "description": "統合されたデータでリアルタイムのインサイトを。"
+      }
     ]
   },
   "logosStrip": {
     "heading": "市場を代表する主要システムと連携",
+    "itemsAriaLabel": "Systems and products integrated with Interfy",
     "ctaLabel": "すべて見る"
   },
   "featuresGrid": {
@@ -38,18 +70,54 @@
     "headingHighlight": "機能とメリット",
     "ariaLabel": "Interfyの連携における機能とメリット",
     "items": [
-      { "title": "REST API", "description": "あらゆるシステムやアプリケーションと連携できる、完全でモダンなAPIです。" },
-      { "title": "Webhook", "description": "イベントをリアルタイムで受け取り、システムを常に同期させます。" },
-      { "title": "Zapier", "description": "Zapierを使えば、Interfyを数千のアプリと簡単かつ迅速に連携できます。" },
-      { "title": "データベース", "description": "主要なSQL・NoSQLデータベースと安全に接続できます。" },
-      { "title": "ERP", "description": "主要なERPと連携し、組織全体でデータとプロセスを統一します。" },
-      { "title": "CRM", "description": "お好みのCRMと顧客、連絡先、商談情報を同期できます。" },
-      { "title": "Microsoft", "description": "Microsoft 365、Azure、SharePoint、Teamsなどとネイティブに連携します。" },
-      { "title": "Google", "description": "Google Workspace、Drive、Gmail、Sheetsなどと連携します。" },
-      { "title": "外部認証", "description": "SSO、SAML 2.0、OAuth 2.0による安全な認証と統一されたユーザー体験を実現します。" },
-      { "title": "AD / LDAP", "description": "Active DirectoryやLDAPと連携し、ユーザーと権限を管理します。" },
-      { "title": "レガシーシステム", "description": "柔軟なアダプタとAPIで、古いレガシーシステムと接続できます。" },
-      { "title": "カスタム連携", "description": "柔軟なAPIを使って、特定の要件に合わせたカスタムコネクタを構築できます。" }
+      {
+        "title": "REST API",
+        "description": "あらゆるシステムやアプリケーションと連携できる、完全でモダンなAPIです。"
+      },
+      {
+        "title": "Webhook",
+        "description": "イベントをリアルタイムで受け取り、システムを常に同期させます。"
+      },
+      {
+        "title": "Zapier",
+        "description": "Zapierを使えば、Interfyを数千のアプリと簡単かつ迅速に連携できます。"
+      },
+      {
+        "title": "データベース",
+        "description": "主要なSQL・NoSQLデータベースと安全に接続できます。"
+      },
+      {
+        "title": "ERP",
+        "description": "主要なERPと連携し、組織全体でデータとプロセスを統一します。"
+      },
+      {
+        "title": "CRM",
+        "description": "お好みのCRMと顧客、連絡先、商談情報を同期できます。"
+      },
+      {
+        "title": "Microsoft",
+        "description": "Microsoft 365、Azure、SharePoint、Teamsなどとネイティブに連携します。"
+      },
+      {
+        "title": "Google",
+        "description": "Google Workspace、Drive、Gmail、Sheetsなどと連携します。"
+      },
+      {
+        "title": "外部認証",
+        "description": "SSO、SAML 2.0、OAuth 2.0による安全な認証と統一されたユーザー体験を実現します。"
+      },
+      {
+        "title": "AD / LDAP",
+        "description": "Active DirectoryやLDAPと連携し、ユーザーと権限を管理します。"
+      },
+      {
+        "title": "レガシーシステム",
+        "description": "柔軟なアダプタとAPIで、古いレガシーシステムと接続できます。"
+      },
+      {
+        "title": "カスタム連携",
+        "description": "柔軟なAPIを使って、特定の要件に合わせたカスタムコネクタを構築できます。"
+      }
     ]
   },
   "agentsHighlight": {
@@ -59,11 +127,21 @@
     "diagramAriaLabel": "Interfyの製品エコシステムに接続されたエージェント",
     "checklistAriaLabel": "連携エージェントのメリット",
     "checklist": [
-      { "label": "外部システムでのデータ検索と分析" },
-      { "label": "アクションの実行とレコードの更新" },
-      { "label": "インテリジェンスによるエンドツーエンドの自動化" },
-      { "label": "より完全で文脈に応じた回答" },
-      { "label": "複数プラットフォームをつなぐインテリジェントなワークフロー" }
+      {
+        "label": "外部システムでのデータ検索と分析"
+      },
+      {
+        "label": "アクションの実行とレコードの更新"
+      },
+      {
+        "label": "インテリジェンスによるエンドツーエンドの自動化"
+      },
+      {
+        "label": "より完全で文脈に応じた回答"
+      },
+      {
+        "label": "複数プラットフォームをつなぐインテリジェントなワークフロー"
+      }
     ]
   },
   "securityHighlight": {
@@ -72,11 +150,21 @@
     "description": "貴社の連携とデータは、市場最高水準のセキュリティ基準で保護されています。",
     "itemsAriaLabel": "連携のセキュリティ基準",
     "items": [
-      { "label": "すべての接続でHTTPS / TLS 1.2以上を使用" },
-      { "label": "OAuth 2.0と安全なトークン" },
-      { "label": "レート制限とアクセス制御" },
-      { "label": "完全なログと監査記録" },
-      { "label": "LGPD、ISO 27001、SOC 2への準拠" }
+      {
+        "label": "すべての接続でHTTPS / TLS 1.2以上を使用"
+      },
+      {
+        "label": "OAuth 2.0と安全なトークン"
+      },
+      {
+        "label": "レート制限とアクセス制御"
+      },
+      {
+        "label": "完全なログと監査記録"
+      },
+      {
+        "label": "LGPD、ISO 27001、SOC 2への準拠"
+      }
     ]
   },
   "developerDocs": {

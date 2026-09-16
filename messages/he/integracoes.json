@@ -2,7 +2,13 @@
   "seo": {
     "title": "אינטגרציות ו-API",
     "description": "חברו את Interfy לכלים שהחברה שלכם כבר משתמשת בהם: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier ועוד רבים, עם API-ים RESTful מלאים ו-webhooks בזמן אמת.",
-    "keywords": ["אינטגרציות Interfy", "API של Interfy", "מחברים עסקיים", "webhooks", "אוטומציה של מערכות"]
+    "keywords": [
+      "אינטגרציות Interfy",
+      "API של Interfy",
+      "מחברים עסקיים",
+      "webhooks",
+      "אוטומציה של מערכות"
+    ]
   },
   "hero": {
     "headingPrefix": "חברו את Interfy למה שה",
@@ -13,24 +19,50 @@
     "diagramAriaLabel": "מערכות המשולבות עם Interfy",
     "diagram": {
       "items": [
-        { "label": "Microsoft" },
-        { "label": "Google" },
-        { "label": "SAP" },
-        { "label": "Salesforce" },
-        { "label": "Oracle" },
-        { "label": "HubSpot" },
-        { "label": "MySQL" },
-        { "label": "Zapier" }
+        {
+          "label": "Microsoft"
+        },
+        {
+          "label": "Google"
+        },
+        {
+          "label": "SAP"
+        },
+        {
+          "label": "Salesforce"
+        },
+        {
+          "label": "Oracle"
+        },
+        {
+          "label": "HubSpot"
+        },
+        {
+          "label": "MySQL"
+        },
+        {
+          "label": "Zapier"
+        }
       ]
     },
     "banner": [
-      { "title": "אינטגרציה בלי הגבלות", "description": "חברו את כל מה שהחברה שלכם צריכה" },
-      { "title": "יותר פרודוקטיביות", "description": "הפכו תהליכים לאוטומטיים וחסכו עבודה כפולה" },
-      { "title": "החלטות חכמות", "description": "נתונים משולבים לתובנות בזמן אמת." }
+      {
+        "title": "אינטגרציה בלי הגבלות",
+        "description": "חברו את כל מה שהחברה שלכם צריכה"
+      },
+      {
+        "title": "יותר פרודוקטיביות",
+        "description": "הפכו תהליכים לאוטומטיים וחסכו עבודה כפולה"
+      },
+      {
+        "title": "החלטות חכמות",
+        "description": "נתונים משולבים לתובנות בזמן אמת."
+      }
     ]
   },
   "logosStrip": {
     "heading": "התחברו למערכות המובילות בשוק",
+    "itemsAriaLabel": "Systems and products integrated with Interfy",
     "ctaLabel": "לצפייה בכולן"
   },
   "featuresGrid": {
@@ -38,18 +70,54 @@
     "headingHighlight": "Interfy API",
     "ariaLabel": "יתרונות ותכונות האינטגרציה של Interfy",
     "items": [
-      { "title": "REST API", "description": "API מלא ומודרני לאינטגרציה עם כל מערכת או אפליקציה." },
-      { "title": "Webhooks", "description": "קבלו אירועים בזמן אמת ושמרו על המערכות שלכם מסונכרנות תמיד." },
-      { "title": "Zapier", "description": "שלבו את Interfy עם אלפי אפליקציות באמצעות Zapier בפשטות ובמהירות." },
-      { "title": "מסדי נתונים", "description": "התחברו למסדי הנתונים SQL ו-NoSQL המובילים באופן מאובטח." },
-      { "title": "ERP", "description": "שלבו עם מערכות ERP מובילות ואחדו נתונים ותהליכים בכל הארגון." },
-      { "title": "CRM", "description": "סנכרנו לקוחות, אנשי קשר והזדמנויות עם ה-CRM המועדף עליכם." },
-      { "title": "Microsoft", "description": "אינטגרציה מובנית עם Microsoft 365, Azure, SharePoint, Teams ועוד." },
-      { "title": "Google", "description": "אינטגרציה עם Google Workspace, Drive, Gmail, Sheets ועוד רבים." },
-      { "title": "אימות חיצוני", "description": "SSO, SAML 2.0 ו-OAuth 2.0 לאימות מאובטח וחוויה מאוחדת." },
-      { "title": "AD / LDAP", "description": "אינטגרציה עם Active Directory ו-LDAP לניהול משתמשים והרשאות." },
-      { "title": "מערכות legacy", "description": "חברו מערכות ישנות ומיושנות באמצעות מתאמים ו-API-ים גמישים." },
-      { "title": "אינטגרציות מותאמות אישית", "description": "בנו מחברים בהתאמה אישית עם ה-API הגמיש שלנו לצרכים ספציפיים." }
+      {
+        "title": "REST API",
+        "description": "API מלא ומודרני לאינטגרציה עם כל מערכת או אפליקציה."
+      },
+      {
+        "title": "Webhooks",
+        "description": "קבלו אירועים בזמן אמת ושמרו על המערכות שלכם מסונכרנות תמיד."
+      },
+      {
+        "title": "Zapier",
+        "description": "שלבו את Interfy עם אלפי אפליקציות באמצעות Zapier בפשטות ובמהירות."
+      },
+      {
+        "title": "מסדי נתונים",
+        "description": "התחברו למסדי הנתונים SQL ו-NoSQL המובילים באופן מאובטח."
+      },
+      {
+        "title": "ERP",
+        "description": "שלבו עם מערכות ERP מובילות ואחדו נתונים ותהליכים בכל הארגון."
+      },
+      {
+        "title": "CRM",
+        "description": "סנכרנו לקוחות, אנשי קשר והזדמנויות עם ה-CRM המועדף עליכם."
+      },
+      {
+        "title": "Microsoft",
+        "description": "אינטגרציה מובנית עם Microsoft 365, Azure, SharePoint, Teams ועוד."
+      },
+      {
+        "title": "Google",
+        "description": "אינטגרציה עם Google Workspace, Drive, Gmail, Sheets ועוד רבים."
+      },
+      {
+        "title": "אימות חיצוני",
+        "description": "SSO, SAML 2.0 ו-OAuth 2.0 לאימות מאובטח וחוויה מאוחדת."
+      },
+      {
+        "title": "AD / LDAP",
+        "description": "אינטגרציה עם Active Directory ו-LDAP לניהול משתמשים והרשאות."
+      },
+      {
+        "title": "מערכות legacy",
+        "description": "חברו מערכות ישנות ומיושנות באמצעות מתאמים ו-API-ים גמישים."
+      },
+      {
+        "title": "אינטגרציות מותאמות אישית",
+        "description": "בנו מחברים בהתאמה אישית עם ה-API הגמיש שלנו לצרכים ספציפיים."
+      }
     ]
   },
   "agentsHighlight": {
@@ -59,11 +127,21 @@
     "diagramAriaLabel": "סוכני Interfy המחוברים למערכת האקולוגית של המוצרים",
     "checklistAriaLabel": "היתרונות של הסוכנים המשולבים",
     "checklist": [
-      { "label": "חיפוש וניתוח נתונים במערכות חיצוניות" },
-      { "label": "ביצוע פעולות ועדכון רשומות" },
-      { "label": "אוטומציה מקצה לקצה עם אינטליגנציה" },
-      { "label": "תשובות מלאות ומותאמות הקשר יותר" },
-      { "label": "תהליכי עבודה חכמים בין מספר פלטפורמות" }
+      {
+        "label": "חיפוש וניתוח נתונים במערכות חיצוניות"
+      },
+      {
+        "label": "ביצוע פעולות ועדכון רשומות"
+      },
+      {
+        "label": "אוטומציה מקצה לקצה עם אינטליגנציה"
+      },
+      {
+        "label": "תשובות מלאות ומותאמות הקשר יותר"
+      },
+      {
+        "label": "תהליכי עבודה חכמים בין מספר פלטפורמות"
+      }
     ]
   },
   "securityHighlight": {
@@ -72,11 +150,21 @@
     "description": "האינטגרציות והנתונים שלכם מוגנים בסטנדרטי האבטחה הגבוהים ביותר בשוק.",
     "itemsAriaLabel": "סטנדרטי האבטחה של האינטגרציות",
     "items": [
-      { "label": "HTTPS / TLS 1.2+ בכל החיבורים" },
-      { "label": "OAuth 2.0 וטוקנים מאובטחים" },
-      { "label": "Rate limiting ובקרת גישה" },
-      { "label": "יומנים וביקורת מלאה" },
-      { "label": "תאימות ל-LGPD, ISO 27001 ו-SOC 2" }
+      {
+        "label": "HTTPS / TLS 1.2+ בכל החיבורים"
+      },
+      {
+        "label": "OAuth 2.0 וטוקנים מאובטחים"
+      },
+      {
+        "label": "Rate limiting ובקרת גישה"
+      },
+      {
+        "label": "יומנים וביקורת מלאה"
+      },
+      {
+        "label": "תאימות ל-LGPD, ISO 27001 ו-SOC 2"
+      }
     ]
   },
   "developerDocs": {

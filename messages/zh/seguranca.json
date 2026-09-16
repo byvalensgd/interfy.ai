@@ -2,7 +2,13 @@
   "seo": {
     "title": "安全",
     "description": "了解 Interfy 的安全、隐私与合规架构：加密、访问控制、跨可用区高可用性,以及 ISO、LGPD、GDPR 和 SOC 2 认证。",
-    "keywords": ["Interfy 安全", "LGPD GDPR 合规", "数据加密", "AWS 高可用性", "安全云原生架构"]
+    "keywords": [
+      "Interfy 安全",
+      "LGPD GDPR 合规",
+      "数据加密",
+      "AWS 高可用性",
+      "安全云原生架构"
+    ]
   },
   "hero": {
     "headingPrefix": "企业级安全,从",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Interfy 的安全层级",
     "diagram": {
       "items": [
-        { "label": "安全始于架构" },
-        { "label": "全面的访问控制" },
-        { "label": "高可用性" },
-        { "label": "按工作空间隔离" },
-        { "label": "数据始终受到保护" },
-        { "label": "默认隐私保护" },
-        { "label": "全球合规" },
-        { "label": "可靠的基础设施" }
+        {
+          "label": "安全始于架构"
+        },
+        {
+          "label": "全面的访问控制"
+        },
+        {
+          "label": "高可用性"
+        },
+        {
+          "label": "按工作空间隔离"
+        },
+        {
+          "label": "数据始终受到保护"
+        },
+        {
+          "label": "默认隐私保护"
+        },
+        {
+          "label": "全球合规"
+        },
+        {
+          "label": "可靠的基础设施"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99.99%", "description": "SLA 保证可用性" },
-      { "label": "24/7", "description": "持续监控" },
-      { "label": "安全可靠", "description": "多层安全防护" }
+      {
+        "label": "99.99%",
+        "description": "SLA 保证可用性"
+      },
+      {
+        "label": "24/7",
+        "description": "持续监控"
+      },
+      {
+        "label": "安全可靠",
+        "description": "多层安全防护"
+      }
     ],
     "poweredByLabel": "技术支持",
     "awsChecklistAriaLabel": "Interfy 的 AWS 基础设施",
@@ -131,19 +163,42 @@
     "headlineHighlight": "云原生",
     "headlineSuffix": "架构",
     "flow": [
-      { "label": "用户" },
-      { "label": "CloudFront CDN" },
-      { "label": "负载均衡器" }
+      {
+        "label": "用户"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "负载均衡器"
+      }
     ],
     "multiAzTitle": "高可用性 - 跨可用区(Multi-AZ)",
-    "az1": { "label": "可用区 1", "title": "应用层" },
-    "az2": { "label": "可用区 2", "title": "数据库", "subtitle": "(自动故障切换)" },
+    "az1": {
+      "label": "可用区 1",
+      "title": "应用层"
+    },
+    "az2": {
+      "label": "可用区 2",
+      "title": "数据库",
+      "subtitle": "(自动故障切换)"
+    },
     "services": [
-      { "label": "S3 存储" },
-      { "label": "加密备份" },
-      { "label": "CloudWatch 监控" },
-      { "label": "CloudTrail 日志" },
-      { "label": "GuardDuty 安全防护" }
+      {
+        "label": "S3 存储"
+      },
+      {
+        "label": "加密备份"
+      },
+      {
+        "label": "CloudWatch 监控"
+      },
+      {
+        "label": "CloudTrail 日志"
+      },
+      {
+        "label": "GuardDuty 安全防护"
+      }
     ],
     "featuresAriaLabel": "高可用架构的核心优势",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "联系专家",
     "featuresAriaLabel": "Interfy 的安全与合规支柱",
     "features": [
-      { "label": "设计即安全" },
-      { "label": "默认隐私保护" },
-      { "label": "完全透明" },
-      { "label": "全球合规" },
-      { "label": "负责任的创新" }
+      {
+        "label": "设计即安全"
+      },
+      {
+        "label": "默认隐私保护"
+      },
+      {
+        "label": "完全透明"
+      },
+      {
+        "label": "全球合规"
+      },
+      {
+        "label": "负责任的创新"
+      }
     ]
   }
 }

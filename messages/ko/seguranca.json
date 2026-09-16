@@ -2,7 +2,13 @@
   "seo": {
     "title": "보안",
     "description": "Interfy의 보안, 개인정보 보호, 컴플라이언스 아키텍처를 확인하세요. 암호화, 접근 제어, 멀티 AZ 고가용성, 그리고 ISO, LGPD, GDPR, SOC 2 인증까지.",
-    "keywords": ["Interfy 보안", "LGPD GDPR 컴플라이언스", "데이터 암호화", "AWS 고가용성", "안전한 클라우드 네이티브 아키텍처"]
+    "keywords": [
+      "Interfy 보안",
+      "LGPD GDPR 컴플라이언스",
+      "데이터 암호화",
+      "AWS 고가용성",
+      "안전한 클라우드 네이티브 아키텍처"
+    ]
   },
   "hero": {
     "headingPrefix": "아키텍처 단계부터 시작되는 ",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Interfy의 보안 계층",
     "diagram": {
       "items": [
-        { "label": "아키텍처부터 시작되는 보안" },
-        { "label": "완벽한 접근 제어" },
-        { "label": "고가용성" },
-        { "label": "워크스페이스별 격리" },
-        { "label": "항상 보호되는 데이터" },
-        { "label": "기본값으로 설정된 개인정보 보호" },
-        { "label": "글로벌 컴플라이언스" },
-        { "label": "신뢰할 수 있는 인프라" }
+        {
+          "label": "아키텍처부터 시작되는 보안"
+        },
+        {
+          "label": "완벽한 접근 제어"
+        },
+        {
+          "label": "고가용성"
+        },
+        {
+          "label": "워크스페이스별 격리"
+        },
+        {
+          "label": "항상 보호되는 데이터"
+        },
+        {
+          "label": "기본값으로 설정된 개인정보 보호"
+        },
+        {
+          "label": "글로벌 컴플라이언스"
+        },
+        {
+          "label": "신뢰할 수 있는 인프라"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99.99%", "description": "보장된 SLA 가용성" },
-      { "label": "24/7", "description": "지속적인 모니터링" },
-      { "label": "안전하고 신뢰할 수 있는", "description": "다층 보안 체계로 보호" }
+      {
+        "label": "99.99%",
+        "description": "보장된 SLA 가용성"
+      },
+      {
+        "label": "24/7",
+        "description": "지속적인 모니터링"
+      },
+      {
+        "label": "안전하고 신뢰할 수 있는",
+        "description": "다층 보안 체계로 보호"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "Interfy의 AWS 인프라",
@@ -131,19 +163,42 @@
     "headlineHighlight": "클라우드 네이티브",
     "headlineSuffix": " 아키텍처",
     "flow": [
-      { "label": "사용자" },
-      { "label": "CloudFront CDN" },
-      { "label": "로드 밸런서" }
+      {
+        "label": "사용자"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "로드 밸런서"
+      }
     ],
     "multiAzTitle": "고가용성 - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "애플리케이션" },
-    "az2": { "label": "AZ 2", "title": "데이터베이스", "subtitle": "(자동 페일오버)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "애플리케이션"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "데이터베이스",
+      "subtitle": "(자동 페일오버)"
+    },
     "services": [
-      { "label": "S3 스토리지" },
-      { "label": "암호화된 백업" },
-      { "label": "CloudWatch 모니터링" },
-      { "label": "CloudTrail 로그" },
-      { "label": "GuardDuty 보안" }
+      {
+        "label": "S3 스토리지"
+      },
+      {
+        "label": "암호화된 백업"
+      },
+      {
+        "label": "CloudWatch 모니터링"
+      },
+      {
+        "label": "CloudTrail 로그"
+      },
+      {
+        "label": "GuardDuty 보안"
+      }
     ],
     "featuresAriaLabel": "고가용성 아키텍처의 차별점",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "전문가와 상담하기",
     "featuresAriaLabel": "Interfy의 보안과 컴플라이언스 원칙",
     "features": [
-      { "label": "설계 단계부터 보안" },
-      { "label": "기본값으로 보장되는 개인정보 보호" },
-      { "label": "완전한 투명성" },
-      { "label": "글로벌 컴플라이언스" },
-      { "label": "책임감 있는 혁신" }
+      {
+        "label": "설계 단계부터 보안"
+      },
+      {
+        "label": "기본값으로 보장되는 개인정보 보호"
+      },
+      {
+        "label": "완전한 투명성"
+      },
+      {
+        "label": "글로벌 컴플라이언스"
+      },
+      {
+        "label": "책임감 있는 혁신"
+      }
     ]
   }
 }

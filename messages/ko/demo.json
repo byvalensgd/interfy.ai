@@ -2,7 +2,11 @@
   "meta": {
     "title": "데모 신청하기",
     "description": "Interfy 맞춤 데모를 신청하고 문서 관리, 프로세스, 전자서명, AI가 어떻게 귀사의 업무에 맞춰지는지 확인해보세요.",
-    "keywords": ["Interfy 데모 신청", "Interfy 시연", "AI 네이티브 플랫폼 데모 요청"]
+    "keywords": [
+      "Interfy 데모 신청",
+      "Interfy 시연",
+      "AI 네이티브 플랫폼 데모 요청"
+    ]
   },
   "hero": {
     "ariaLabel": "Interfy 데모 신청",
@@ -12,20 +16,40 @@
     "description": "전문 컨설턴트가 귀사의 상황을 파악하고, 문서, 프로세스, 전자서명, 연동, AI가 실제 업무에 어떻게 적용되는지 직접 보여드립니다.",
     "expectHeading": "데모에서 기대할 수 있는 것",
     "expectItems": [
-      { "title": "30분", "description": "핵심만 짚는 간결한 상담입니다." },
-      { "title": "실제 시나리오", "description": "귀사의 업무와 업종에 맞춘 사례를 보여드립니다." },
-      { "title": "구매 부담 없음", "description": "상담 후 다음 단계는 귀사가 결정합니다." },
-      { "title": "전담 전문가", "description": "귀사의 업종을 이해하는 전문가가 함께합니다." }
+      {
+        "title": "30분",
+        "description": "핵심만 짚는 간결한 상담입니다."
+      },
+      {
+        "title": "실제 시나리오",
+        "description": "귀사의 업무와 업종에 맞춘 사례를 보여드립니다."
+      },
+      {
+        "title": "구매 부담 없음",
+        "description": "상담 후 다음 단계는 귀사가 결정합니다."
+      },
+      {
+        "title": "전담 전문가",
+        "description": "귀사의 업종을 이해하는 전문가가 함께합니다."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "데모 일정을 예약하세요",
     "subheading": "아래 정보를 입력해 주시면 담당자가 연락드려 가장 적합한 시간을 확정해드립니다.",
-    "nameLabel": "성명",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "업무용 이메일",
     "companyLabel": "회사명",
     "phoneLabel": "전화번호 (WhatsApp)",
-    "roleLabel": "직책",
     "companySizeLabel": "회사 규모",
     "companySizePlaceholder": "선택해주세요",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201~1,000명",
       "1,000명 이상"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "필요하신 사항을 간단히 알려주세요",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(선택 사항)",
     "errors": {
       "name": "성명을 입력해주세요.",
@@ -53,7 +91,9 @@
     "successHeading": "신청이 접수되었습니다!",
     "successMessagePrefix": "담당자가 가장 적합한 시간을 확정하기 위해 다음 이메일로 연락드릴 예정입니다: ",
     "successMessageSuffix": ".",
-    "specialistLink": "그 사이에 무료로 시작해보세요"
+    "specialistLink": "그 사이에 무료로 시작해보세요",
+    "nameLabel": "성명",
+    "roleLabel": "직책"
   },
   "trust": {
     "ariaLabel": "Interfy 데모를 신청해야 하는 이유",
@@ -61,10 +101,22 @@
     "subheading": "모든 데모에서 엔터프라이즈급 보안, 글로벌 규제 준수, 전문 지원을 경험하세요.",
     "statsLabel": "Interfy의 글로벌 진출 현황",
     "stats": [
-      { "label": "180개 이상 국가", "sublabel": "지속적으로 확장 중인 글로벌 진출" },
-      { "label": "16개 언어", "sublabel": "완전한 인터페이스 및 사용자 경험" },
-      { "label": "99.99%", "sublabel": "SLA 보장 가용성" },
-      { "label": "ISO 27001, LGPD, GDPR", "sublabel": "인증된 규제 준수" }
+      {
+        "label": "180개 이상 국가",
+        "sublabel": "지속적으로 확장 중인 글로벌 진출"
+      },
+      {
+        "label": "16개 언어",
+        "sublabel": "완전한 인터페이스 및 사용자 경험"
+      },
+      {
+        "label": "99.99%",
+        "sublabel": "SLA 보장 가용성"
+      },
+      {
+        "label": "ISO 27001, LGPD, GDPR",
+        "sublabel": "인증된 규제 준수"
+      }
     ]
   }
 }

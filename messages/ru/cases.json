@@ -2,7 +2,12 @@
   "meta": {
     "title": "Истории успеха",
     "description": "Типичные результаты, которых компании из разных отраслей достигают с платформой Interfy для документов, процессов и ИИ.",
-    "keywords": ["кейсы Interfy", "результаты Interfy", "истории успеха управления документами", "ROI автоматизации процессов"]
+    "keywords": [
+      "кейсы Interfy",
+      "результаты Interfy",
+      "истории успеха управления документами",
+      "ROI автоматизации процессов"
+    ]
   },
   "hero": {
     "ariaLabel": "Введение к историям успеха",
@@ -14,44 +19,258 @@
   "grid": {
     "ariaLabel": "Результаты по отраслям",
     "heading": "Чего достигают наши клиенты",
+    "challengeLabel": "The challenge",
+    "solutionLabel": "The Interfy solution",
+    "resultsLabel": "Results",
     "illustrativeNote": "Иллюстративные результаты, основанные на средних показателях клиентов Interfy в каждой отрасли. Запросите диагностику, чтобы оценить эффект для вашей компании.",
     "complianceNote": "Результаты достигнуты на инфраструктуре, сертифицированной по ISO/IEC 27001:2022, с SLA доступности 99,99% и соответствием LGPD/GDPR.",
     "items": [
       {
-        "segment": "Финансовые организации",
-        "description": "Оцифровка договоров и автоматизация кредитных конвейеров с полным аудиторским следом.",
-        "metricValue": "-45%",
-        "metricLabel": "среднее время анализа кредита"
+        "segment": "Human Resources",
+        "client": "AFPESP (Association of Public Employees of the State of São Paulo)",
+        "challenge": "Managing thousands of member benefit processes with scattered physical documentation. Slow loan and benefit approvals were causing dissatisfaction among public employees.",
+        "solution": "Full digitization of the document archive (legally-valid scanning). Process automation for benefit approval workflows. A member portal for real-time tracking. Digital signature for loan contracts with Sign.",
+        "results": [
+          {
+            "label": "Speed:",
+            "description": "benefit approval time cut from 30 days to 48 hours."
+          },
+          {
+            "label": "Self-service:",
+            "description": "75% of requests now made through the online portal by members."
+          }
+        ],
+        "quote": "Our members are public employees who deserve fast, transparent service. Digitizing our processes brought efficiency and dramatically improved satisfaction among our more than 100,000 members.",
+        "personName": "Andrea Almeida",
+        "personRole": "Member Services Director"
       },
       {
-        "segment": "Здравоохранение",
-        "description": "Централизованные медицинские карты и заключения с электронной подписью, встроенной в процесс обслуживания.",
-        "metricValue": "-60%",
-        "metricLabel": "время архивирования документов"
+        "segment": "Banks & Fintechs",
+        "client": "Banco Sicoob",
+        "challenge": "Credit analysis for business accounts took 15 days due to back-and-forth information requests by email. Sign-up abandonment (churn) reached 35%.",
+        "solution": "Process automation for the credit workflow. Documents are routed to the right department instantly by the customer via the Mobile app. The analyst receives the information and, when needed, interacts with the customer through Connect, with secure, fast communication.",
+        "results": [
+          {
+            "label": "Account opening time:",
+            "description": "cut from 15 days to 6 hours."
+          },
+          {
+            "label": "Security:",
+            "description": "every step happens digitally, with encryption and authentication."
+          }
+        ],
+        "quote": "Digital customers won't wait 15 days. Cutting that to 6 hours wasn't just an operational improvement — it was a matter of survival and market leadership for us.",
+        "personName": "Roberto Alves",
+        "personRole": "CTO, Sicoob"
       },
       {
-        "segment": "Юридическая сфера",
-        "description": "Управление договорами и процессами с контролем сроков и сквозной электронной подписью.",
-        "metricValue": "3x",
-        "metricLabel": "больше договоров, закрытых в месяц"
+        "segment": "Banks & Fintechs",
+        "client": "Banco Rendimento",
+        "challenge": "Digital account opening was slow and bureaucratic, with a high sign-up abandonment rate. Document validation was manual and time-consuming.",
+        "solution": "Full digitization of onboarding with Capture. Automatic AI document validation. Integrated digital signature with Sign. Real-time customer communication via Connect.",
+        "results": [
+          {
+            "label": "Conversion:",
+            "description": "sign-up completion rate rose from 45% to 82%."
+          },
+          {
+            "label": "Efficiency:",
+            "description": "average account opening time cut from 48h to 15 minutes."
+          }
+        ],
+        "quote": "Digitally transforming our onboarding was essential to compete with fintechs. Today we offer the same agility while keeping the security and compliance our customers expect from a traditional bank.",
+        "personName": "Patricia Fernandes",
+        "personRole": "Director of Digital Transformation"
       },
       {
-        "segment": "Промышленность",
-        "description": "Автоматизация заказов на закупку и многоуровневых согласований, интегрированных с ERP.",
-        "metricValue": "-35%",
-        "metricLabel": "время цикла согласования"
+        "segment": "Banks & Fintechs",
+        "client": "Sicredi",
+        "challenge": "Rural credit approval faced bottlenecks in reviewing physical documents and appraising collateral. Releasing funds took up to 30 days, hurting rural producers.",
+        "solution": "An integrated digital platform for rural credit. Documents submitted via the Mobile app. Automated AI-based collateral validation. Multi-level digital approval via Process.",
+        "results": [
+          {
+            "label": "Speed:",
+            "description": "release time cut from 30 days to 5 business days."
+          },
+          {
+            "label": "Volume:",
+            "description": "a 60% increase in operations without growing the team."
+          }
+        ],
+        "quote": "Agribusiness members can't wait weeks to plant. With Interfy, we digitized the entire rural credit journey and became more competitive than traditional banks.",
+        "personName": "Eduardo Santos",
+        "personRole": "Rural Credit Manager"
       },
       {
-        "segment": "Логистика",
-        "description": "Автоматический захват накладных и счетов-фактур прямо со смартфона водителя.",
-        "metricValue": "+80%",
-        "metricLabel": "документов, захваченных в тот же день"
+        "segment": "Healthcare",
+        "client": "Hospital de Amor",
+        "challenge": "The hospital was spending a fortune renting a warehouse to store physical patient records. Retrieving an old record's history took days.",
+        "solution": "A legally-valid digitization project, certified under Brazilian regulation, with secure disposal of the paper. Access to legacy records directly in the hospital system via Documents.",
+        "results": [
+          {
+            "label": "Savings:",
+            "description": "thousands of dollars a year in rent eliminated."
+          },
+          {
+            "label": "Space:",
+            "description": "the old archive became a new patient ward."
+          }
+        ],
+        "quote": "Turning a paper warehouse into new patient beds is the real definition of efficiency in healthcare. Interfy helped us prioritize what matters: the patient.",
+        "personName": "SAME Lead Renan Migliorini",
+        "personRole": "Clinical Director"
       },
       {
-        "segment": "Розничная торговля",
-        "description": "Онбординг поставщиков и управление типовыми договорами в едином конвейере.",
-        "metricValue": "-50%",
-        "metricLabel": "время онбординга поставщиков"
+        "segment": "Retail",
+        "client": "Rede Dom Pedro",
+        "challenge": "Billing was delayed for weeks because branch staff were slow to hand in documents and invoices.",
+        "solution": "Using the offline Mobile app. Staff digitize documents daily with Capture. The analyst receives them and releases billing instantly.",
+        "results": [
+          {
+            "label": "Cash flow:",
+            "description": "billing cycle cut from 20 days to 2 days."
+          },
+          {
+            "label": "Traceability:",
+            "description": "no more lost receipts."
+          }
+        ],
+        "quote": "In transport, physical delivery is only half the job. Delivering financial information was our bottleneck, and Interfy solved it instantly.",
+        "personName": "Aline Silva",
+        "personRole": "Logistics Manager"
+      },
+      {
+        "segment": "Retail",
+        "client": "Grupo Caçula",
+        "challenge": "Difficulty hiring seasonal sales staff quickly, and inconsistent store shelf standards.",
+        "solution": "A store management app. Digital onboarding within 24 hours via mobile with Sign. Shelf audits via app, with photos and validation by headquarters using Capture.",
+        "results": [
+          {
+            "label": "Time-to-hire:",
+            "description": "hiring completed in 1 day."
+          },
+          {
+            "label": "Standard:",
+            "description": "98% visual compliance across storefronts."
+          }
+        ],
+        "quote": "Retail is about details and speed. If I don't hire fast, I lose sales. If the shelf is off-standard, I lose brand equity. Interfy solved both pains in a single app.",
+        "personName": "Camila Rocha",
+        "personRole": "Head of Expansion"
+      },
+      {
+        "segment": "Education",
+        "client": "Faculdade Novoeste",
+        "challenge": "Risk of losing accreditation for lack of digitized student records, plus a 90-day delay issuing diplomas.",
+        "solution": "A digital academic registrar. Digitization and indexing of student files with Documents. A fully digital diploma issuance flow via Process and Sign.",
+        "results": [
+          {
+            "label": "Compliance:",
+            "description": "100% compliance during the accreditation audit."
+          },
+          {
+            "label": "Speed:",
+            "description": "diplomas issued within 7 business days."
+          }
+        ],
+        "quote": "Passing the accreditation audit with praise for our document organization was a milestone. And delivering the diploma quickly is the last great service we provide to a student.",
+        "personName": "Director Rodrigo Pereira",
+        "personRole": "Academic Dean"
+      },
+      {
+        "segment": "Government",
+        "client": "City of Governador Valadares",
+        "challenge": "Supplier contracts and administrative processes were 100% on paper. Documents got lost between departments, deadlines were missed, and the lack of traceability led to complaints and audit issues. Bidding processes were delayed for months due to disorganized documentation.",
+        "solution": "Full digitization of processes and contracts. Contract management with automatic expiration alerts. Digital routing between departments via Process. Digital signature for contracts and agreements with Sign. A centralized repository with smart search in Documents.",
+        "results": [
+          {
+            "label": "Efficiency:",
+            "description": "process routing time cut from 30 days to 7 days."
+          },
+          {
+            "label": "Savings:",
+            "description": "$200,000 a year saved on paper, printing and physical storage."
+          }
+        ],
+        "quote": "Digitizing processes and contracts wasn't just modernization — it brought transparency and efficiency to public administration. Today we have full control over deadlines, commitments and documents.",
+        "personName": "José Antônio",
+        "personRole": "Systems Manager"
+      },
+      {
+        "segment": "Manufacturing",
+        "client": "Brazilian Nickel",
+        "challenge": "Paper-based Non-Conformance Reports (NCRs) took 48 hours to be reviewed. The line kept producing defective parts during that window.",
+        "solution": "Quality 4.0 on the shop floor. Operators open an NCR with a photo from a tablet on the line, via Capture. Immediate alerts to engineering via Connect.",
+        "results": [
+          {
+            "label": "Waste:",
+            "description": "a 40% reduction in scrapped raw material."
+          },
+          {
+            "label": "Audit:",
+            "description": "ISO 9001 approval with zero findings."
+          }
+        ],
+        "quote": "In manufacturing, delayed information is guaranteed loss. Now, when a defect appears, engineering knows the same second. The impact on margin was immediate.",
+        "personName": "Tolentino Gamarra",
+        "personRole": "Business Manager"
+      },
+      {
+        "segment": "Healthcare",
+        "client": "Hospital São Camilo",
+        "challenge": "Managing hundreds of contracts, suppliers and services manually caused approval delays and made it hard to track deadlines and amendments. Lack of visibility into contract status caused bottlenecks and rework.",
+        "solution": "Smart contract management with Process. Automated multi-level approval workflows. Integrated digital signature with Sign. Automatic expiration and renewal alerts. A centralized repository with smart search by supplier, value or deadline in Documents.",
+        "results": [
+          {
+            "label": "Visibility:",
+            "description": "contract approval time cut from 15 days to 3 days."
+          },
+          {
+            "label": "Control:",
+            "description": "100% visibility into all active contracts and their status."
+          }
+        ],
+        "quote": "Managing dozens of contracts at once demands absolute control. Interfy brought intelligence to our process, eliminating bottlenecks and making sure no deadline gets missed.",
+        "personName": "Dr. Fernando Rodrigues",
+        "personRole": "Administrative Director"
+      },
+      {
+        "segment": "Legal",
+        "client": "Portes Marinho Advogados",
+        "challenge": "A 50-lawyer firm was managing thousands of physical case files spread across archive rooms. Finding old documents took hours, and contracts got lost. Manual signatures delayed closing urgent deals.",
+        "solution": "Certified digitization of the entire legal archive with Documents. Contract management with Process and automatic expiration tracking. Qualified digital signature with Sign, built into the workflows. Smart search by client, case, contract type or keyword.",
+        "results": [
+          {
+            "label": "Productivity:",
+            "description": "document retrieval time cut from 2 hours to 10 seconds."
+          },
+          {
+            "label": "Speed:",
+            "description": "contracts signed in 1 day instead of 1 week."
+          }
+        ],
+        "quote": "In law, time is money, and missing a deadline can cost a client millions. Interfy's digitization and automation gave us surgical precision in managing cases and contracts.",
+        "personName": "Dr. Ricardo Portes",
+        "personRole": "Founding Partner"
+      },
+      {
+        "segment": "Agribusiness",
+        "client": "Granosul",
+        "challenge": "Grain purchase and sale contracts were managed manually, with a risk of errors in volumes and deadlines. Poor traceability led to disputes with suppliers and customers.",
+        "solution": "A commercial agribusiness management platform. Digital contracts with electronic signature via Sign. Real-time tracking of deliveries and payments. Integration with scales and warehousing systems via Connect.",
+        "results": [
+          {
+            "label": "Precision:",
+            "description": "a 98% reduction in contract and delivery-note errors."
+          },
+          {
+            "label": "Financial:",
+            "description": "a 15-day reduction in the payment cycle to producers."
+          }
+        ],
+        "quote": "In agribusiness, trust is everything. Full traceability of contracts and deliveries strengthened our relationship with producers and buyers. Interfy brought transparency to the whole chain.",
+        "personName": "Roberto Machado",
+        "personRole": "Commercial Director"
       }
     ]
   },

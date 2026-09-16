@@ -2,7 +2,13 @@
   "seo": {
     "title": "Integrazioni & API",
     "description": "Collega Interfy agli strumenti che la tua azienda già utilizza: Microsoft, Google, SAP, Salesforce, Oracle, HubSpot, MySQL, Zapier e molto altro, con API RESTful complete e webhook in tempo reale.",
-    "keywords": ["integrazioni Interfy", "API Interfy", "connettori aziendali", "webhook", "automazione dei sistemi"]
+    "keywords": [
+      "integrazioni Interfy",
+      "API Interfy",
+      "connettori aziendali",
+      "webhook",
+      "automazione dei sistemi"
+    ]
   },
   "hero": {
     "headingPrefix": "Collega Interfy a ciò che la tua ",
@@ -13,24 +19,50 @@
     "diagramAriaLabel": "Sistemi integrati con Interfy",
     "diagram": {
       "items": [
-        { "label": "Microsoft" },
-        { "label": "Google" },
-        { "label": "SAP" },
-        { "label": "Salesforce" },
-        { "label": "Oracle" },
-        { "label": "HubSpot" },
-        { "label": "MySQL" },
-        { "label": "Zapier" }
+        {
+          "label": "Microsoft"
+        },
+        {
+          "label": "Google"
+        },
+        {
+          "label": "SAP"
+        },
+        {
+          "label": "Salesforce"
+        },
+        {
+          "label": "Oracle"
+        },
+        {
+          "label": "HubSpot"
+        },
+        {
+          "label": "MySQL"
+        },
+        {
+          "label": "Zapier"
+        }
       ]
     },
     "banner": [
-      { "title": "Integrazione senza limiti", "description": "Collega tutto ciò di cui la tua azienda ha bisogno" },
-      { "title": "Più produttività", "description": "Automatizza i flussi ed elimina il lavoro ripetitivo" },
-      { "title": "Decisioni intelligenti", "description": "Dati integrati per insight in tempo reale." }
+      {
+        "title": "Integrazione senza limiti",
+        "description": "Collega tutto ciò di cui la tua azienda ha bisogno"
+      },
+      {
+        "title": "Più produttività",
+        "description": "Automatizza i flussi ed elimina il lavoro ripetitivo"
+      },
+      {
+        "title": "Decisioni intelligenti",
+        "description": "Dati integrati per insight in tempo reale."
+      }
     ]
   },
   "logosStrip": {
     "heading": "Connettiti ai principali sistemi del mercato",
+    "itemsAriaLabel": "Systems and products integrated with Interfy",
     "ctaLabel": "Vedi tutte"
   },
   "featuresGrid": {
@@ -38,18 +70,54 @@
     "headingHighlight": "Interfy API",
     "ariaLabel": "Funzionalità e vantaggi di integrazione di Interfy",
     "items": [
-      { "title": "REST API", "description": "API completa e moderna per integrarsi con qualsiasi sistema o applicazione." },
-      { "title": "Webhook", "description": "Ricevi eventi in tempo reale e mantieni i tuoi sistemi sempre sincronizzati." },
-      { "title": "Zapier", "description": "Integra Interfy con migliaia di app usando Zapier in modo semplice e veloce." },
-      { "title": "Database", "description": "Connettiti ai principali database SQL e NoSQL in totale sicurezza." },
-      { "title": "ERP", "description": "Integrati con gli ERP leader e unifica dati e processi in tutta l'organizzazione." },
-      { "title": "CRM", "description": "Sincronizza clienti, contatti e opportunità con il tuo CRM preferito." },
-      { "title": "Microsoft", "description": "Integrazione nativa con Microsoft 365, Azure, SharePoint, Teams e altro." },
-      { "title": "Google", "description": "Integrazione con Google Workspace, Drive, Gmail, Sheets e molto altro." },
-      { "title": "Autenticazione esterna", "description": "SSO, SAML 2.0 e OAuth 2.0 per un'autenticazione sicura e un'esperienza unificata." },
-      { "title": "AD / LDAP", "description": "Integrazione con Active Directory e LDAP per la gestione di utenti e permessi." },
-      { "title": "Sistemi legacy", "description": "Collega sistemi obsoleti e legacy con adattatori e API flessibili." },
-      { "title": "Integrazioni personalizzate", "description": "Costruisci connettori su misura con la nostra API flessibile per esigenze specifiche." }
+      {
+        "title": "REST API",
+        "description": "API completa e moderna per integrarsi con qualsiasi sistema o applicazione."
+      },
+      {
+        "title": "Webhook",
+        "description": "Ricevi eventi in tempo reale e mantieni i tuoi sistemi sempre sincronizzati."
+      },
+      {
+        "title": "Zapier",
+        "description": "Integra Interfy con migliaia di app usando Zapier in modo semplice e veloce."
+      },
+      {
+        "title": "Database",
+        "description": "Connettiti ai principali database SQL e NoSQL in totale sicurezza."
+      },
+      {
+        "title": "ERP",
+        "description": "Integrati con gli ERP leader e unifica dati e processi in tutta l'organizzazione."
+      },
+      {
+        "title": "CRM",
+        "description": "Sincronizza clienti, contatti e opportunità con il tuo CRM preferito."
+      },
+      {
+        "title": "Microsoft",
+        "description": "Integrazione nativa con Microsoft 365, Azure, SharePoint, Teams e altro."
+      },
+      {
+        "title": "Google",
+        "description": "Integrazione con Google Workspace, Drive, Gmail, Sheets e molto altro."
+      },
+      {
+        "title": "Autenticazione esterna",
+        "description": "SSO, SAML 2.0 e OAuth 2.0 per un'autenticazione sicura e un'esperienza unificata."
+      },
+      {
+        "title": "AD / LDAP",
+        "description": "Integrazione con Active Directory e LDAP per la gestione di utenti e permessi."
+      },
+      {
+        "title": "Sistemi legacy",
+        "description": "Collega sistemi obsoleti e legacy con adattatori e API flessibili."
+      },
+      {
+        "title": "Integrazioni personalizzate",
+        "description": "Costruisci connettori su misura con la nostra API flessibile per esigenze specifiche."
+      }
     ]
   },
   "agentsHighlight": {
@@ -59,11 +127,21 @@
     "diagramAriaLabel": "Agenti Interfy collegati all'ecosistema di prodotti",
     "checklistAriaLabel": "Vantaggi degli agenti integrati",
     "checklist": [
-      { "label": "Ricerca e analisi dei dati nei sistemi esterni" },
-      { "label": "Esecuzione di azioni e aggiornamento dei record" },
-      { "label": "Automazione end-to-end con intelligenza" },
-      { "label": "Risposte più complete e contestuali" },
-      { "label": "Workflow intelligenti tra più piattaforme" }
+      {
+        "label": "Ricerca e analisi dei dati nei sistemi esterni"
+      },
+      {
+        "label": "Esecuzione di azioni e aggiornamento dei record"
+      },
+      {
+        "label": "Automazione end-to-end con intelligenza"
+      },
+      {
+        "label": "Risposte più complete e contestuali"
+      },
+      {
+        "label": "Workflow intelligenti tra più piattaforme"
+      }
     ]
   },
   "securityHighlight": {
@@ -72,11 +150,21 @@
     "description": "Le tue integrazioni e i tuoi dati protetti con i più alti standard di sicurezza del mercato.",
     "itemsAriaLabel": "Standard di sicurezza delle integrazioni",
     "items": [
-      { "label": "HTTPS / TLS 1.2+ su tutte le connessioni" },
-      { "label": "OAuth 2.0 e token sicuri" },
-      { "label": "Rate limiting e controllo degli accessi" },
-      { "label": "Log e audit completi" },
-      { "label": "Conformità con GDPR, ISO 27001 e SOC 2" }
+      {
+        "label": "HTTPS / TLS 1.2+ su tutte le connessioni"
+      },
+      {
+        "label": "OAuth 2.0 e token sicuri"
+      },
+      {
+        "label": "Rate limiting e controllo degli accessi"
+      },
+      {
+        "label": "Log e audit completi"
+      },
+      {
+        "label": "Conformità con GDPR, ISO 27001 e SOC 2"
+      }
     ]
   },
   "developerDocs": {

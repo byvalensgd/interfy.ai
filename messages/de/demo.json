@@ -2,7 +2,11 @@
   "meta": {
     "title": "Demo vereinbaren",
     "description": "Vereinbaren Sie eine persönliche Interfy-Demo und erfahren Sie, wie sich Dokumente, Prozesse, elektronische Signatur und KI an Ihren Betrieb anpassen können.",
-    "keywords": ["Interfy Demo vereinbaren", "Interfy Demonstration", "AI-native Plattform Demo anfordern"]
+    "keywords": [
+      "Interfy Demo vereinbaren",
+      "Interfy Demonstration",
+      "AI-native Plattform Demo anfordern"
+    ]
   },
   "hero": {
     "ariaLabel": "Vereinbaren Sie eine Interfy-Demonstration",
@@ -12,20 +16,40 @@
     "description": "Ein Experte macht sich ein Bild von Ihrer Situation und zeigt Ihnen live, wie Dokumente, Prozesse, elektronische Signatur, Integrationen und KI zu Ihrem Betrieb passen.",
     "expectHeading": "Was Sie in der Demo erwartet",
     "expectItems": [
-      { "title": "30 Minuten", "description": "Ein zielgerichtetes Gespräch, ohne Umschweife." },
-      { "title": "Reales Szenario", "description": "Beispiele, die auf Ihren Betrieb und Ihre Branche zugeschnitten sind." },
-      { "title": "Unverbindlich", "description": "Sie entscheiden nach dem Gespräch über den nächsten Schritt." },
-      { "title": "Dedizierter Experte", "description": "Jemand, der Ihre Branche bereits kennt." }
+      {
+        "title": "30 Minuten",
+        "description": "Ein zielgerichtetes Gespräch, ohne Umschweife."
+      },
+      {
+        "title": "Reales Szenario",
+        "description": "Beispiele, die auf Ihren Betrieb und Ihre Branche zugeschnitten sind."
+      },
+      {
+        "title": "Unverbindlich",
+        "description": "Sie entscheiden nach dem Gespräch über den nächsten Schritt."
+      },
+      {
+        "title": "Dedizierter Experte",
+        "description": "Jemand, der Ihre Branche bereits kennt."
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "Vereinbaren Sie Ihre Demonstration",
     "subheading": "Füllen Sie die Angaben unten aus, wir melden uns, um den passenden Termin zu bestätigen.",
-    "nameLabel": "Vollständiger Name",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "Geschäftliche E-Mail",
     "companyLabel": "Unternehmen",
     "phoneLabel": "Telefon (WhatsApp)",
-    "roleLabel": "Position",
     "companySizeLabel": "Unternehmensgröße",
     "companySizePlaceholder": "Auswählen",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201 bis 1.000 Mitarbeitende",
       "Mehr als 1.000 Mitarbeitende"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "Erzählen Sie uns kurz, was Sie benötigen",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(optional)",
     "errors": {
       "name": "Bitte geben Sie Ihren vollständigen Namen an.",
@@ -53,7 +91,9 @@
     "successHeading": "Wir haben Ihre Anfrage erhalten!",
     "successMessagePrefix": "Unser Team meldet sich, um den passenden Termin zu bestätigen, per E-Mail an ",
     "successMessageSuffix": ".",
-    "specialistLink": "Starten Sie in der Zwischenzeit kostenlos"
+    "specialistLink": "Starten Sie in der Zwischenzeit kostenlos",
+    "nameLabel": "Vollständiger Name",
+    "roleLabel": "Position"
   },
   "trust": {
     "ariaLabel": "Warum eine Demo mit Interfy vereinbaren",
@@ -61,10 +101,22 @@
     "subheading": "Enterprise-Sicherheit, globale Compliance und spezialisierter Support in jeder Demonstration.",
     "statsLabel": "Globale Präsenz von Interfy",
     "stats": [
-      { "label": "180+ Länder", "sublabel": "Wachsende globale Präsenz" },
-      { "label": "16 Sprachen", "sublabel": "Vollständige Oberfläche und Nutzererfahrung" },
-      { "label": "99,99 %", "sublabel": "Garantierte SLA-Verfügbarkeit" },
-      { "label": "ISO 27001, LGPD, DSGVO", "sublabel": "Zertifizierte Compliance" }
+      {
+        "label": "180+ Länder",
+        "sublabel": "Wachsende globale Präsenz"
+      },
+      {
+        "label": "16 Sprachen",
+        "sublabel": "Vollständige Oberfläche und Nutzererfahrung"
+      },
+      {
+        "label": "99,99 %",
+        "sublabel": "Garantierte SLA-Verfügbarkeit"
+      },
+      {
+        "label": "ISO 27001, LGPD, DSGVO",
+        "sublabel": "Zertifizierte Compliance"
+      }
     ]
   }
 }

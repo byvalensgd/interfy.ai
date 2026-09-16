@@ -2,7 +2,13 @@
   "seo": {
     "title": "Securitate",
     "description": "Descoperiți arhitectura de securitate, confidențialitate și conformitate a Interfy: criptare, control al accesului, disponibilitate ridicată Multi-AZ și certificări ISO, LGPD, GDPR și SOC 2.",
-    "keywords": ["securitate Interfy", "conformitate LGPD GDPR", "criptarea datelor", "disponibilitate ridicată AWS", "arhitectură cloud-native sigură"]
+    "keywords": [
+      "securitate Interfy",
+      "conformitate LGPD GDPR",
+      "criptarea datelor",
+      "disponibilitate ridicată AWS",
+      "arhitectură cloud-native sigură"
+    ]
   },
   "hero": {
     "headingPrefix": "Securitate enterprise încă din ",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Straturile de securitate ale Interfy",
     "diagram": {
       "items": [
-        { "label": "Securitate încă din arhitectură" },
-        { "label": "Control total al accesului" },
-        { "label": "Disponibilitate ridicată" },
-        { "label": "Izolare pe Workspace" },
-        { "label": "Date mereu protejate" },
-        { "label": "Confidențialitate implicită" },
-        { "label": "Conformitate globală" },
-        { "label": "Infrastructură de încredere" }
+        {
+          "label": "Securitate încă din arhitectură"
+        },
+        {
+          "label": "Control total al accesului"
+        },
+        {
+          "label": "Disponibilitate ridicată"
+        },
+        {
+          "label": "Izolare pe Workspace"
+        },
+        {
+          "label": "Date mereu protejate"
+        },
+        {
+          "label": "Confidențialitate implicită"
+        },
+        {
+          "label": "Conformitate globală"
+        },
+        {
+          "label": "Infrastructură de încredere"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99%", "description": "Disponibilitate SLA garantată" },
-      { "label": "24/7", "description": "Monitorizare continuă" },
-      { "label": "Sigur și de încredere", "description": "Protecție pe mai multe straturi de securitate" }
+      {
+        "label": "99,99%",
+        "description": "Disponibilitate SLA garantată"
+      },
+      {
+        "label": "24/7",
+        "description": "Monitorizare continuă"
+      },
+      {
+        "label": "Sigur și de încredere",
+        "description": "Protecție pe mai multe straturi de securitate"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "Infrastructura AWS a Interfy",
@@ -131,19 +163,42 @@
     "headlineHighlight": "cloud-native",
     "headlineSuffix": " cu disponibilitate ridicată",
     "flow": [
-      { "label": "Utilizatori" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Utilizatori"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Disponibilitate Ridicată - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "Aplicații" },
-    "az2": { "label": "AZ 2", "title": "Bază de date", "subtitle": "(Auto Fallover)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Aplicații"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Bază de date",
+      "subtitle": "(Auto Fallover)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Backup Criptat" },
-      { "label": "Monitorizare CloudWatch" },
-      { "label": "Jurnale CloudTrail" },
-      { "label": "Securitate GuardDuty" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Backup Criptat"
+      },
+      {
+        "label": "Monitorizare CloudWatch"
+      },
+      {
+        "label": "Jurnale CloudTrail"
+      },
+      {
+        "label": "Securitate GuardDuty"
+      }
     ],
     "featuresAriaLabel": "Avantajele arhitecturii de disponibilitate ridicată",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Vorbește cu un specialist",
     "featuresAriaLabel": "Pilonii de securitate și conformitate ai Interfy",
     "features": [
-      { "label": "Securitate prin design" },
-      { "label": "Confidențialitate implicită" },
-      { "label": "Transparență totală" },
-      { "label": "Conformitate globală" },
-      { "label": "Inovație responsabilă" }
+      {
+        "label": "Securitate prin design"
+      },
+      {
+        "label": "Confidențialitate implicită"
+      },
+      {
+        "label": "Transparență totală"
+      },
+      {
+        "label": "Conformitate globală"
+      },
+      {
+        "label": "Inovație responsabilă"
+      }
     ]
   }
 }

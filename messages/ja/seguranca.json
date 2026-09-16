@@ -2,7 +2,13 @@
   "seo": {
     "title": "セキュリティ",
     "description": "Interfyのセキュリティ、プライバシー、コンプライアンスのアーキテクチャをご紹介します。暗号化、アクセス制御、マルチAZ高可用性、そしてISO、LGPD、GDPR、SOC 2の各認証について。",
-    "keywords": ["Interfy セキュリティ", "LGPD GDPR コンプライアンス", "データ暗号化", "AWS 高可用性", "セキュアなクラウドネイティブアーキテクチャ"]
+    "keywords": [
+      "Interfy セキュリティ",
+      "LGPD GDPR コンプライアンス",
+      "データ暗号化",
+      "AWS 高可用性",
+      "セキュアなクラウドネイティブアーキテクチャ"
+    ]
   },
   "hero": {
     "headingPrefix": "アーキテクチャから始まる",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Interfyのセキュリティレイヤー",
     "diagram": {
       "items": [
-        { "label": "アーキテクチャから始まるセキュリティ" },
-        { "label": "アクセスの完全な制御" },
-        { "label": "高可用性" },
-        { "label": "ワークスペースによる分離" },
-        { "label": "常に保護されたデータ" },
-        { "label": "デフォルトでのプライバシー保護" },
-        { "label": "グローバルコンプライアンス" },
-        { "label": "信頼できるインフラ" }
+        {
+          "label": "アーキテクチャから始まるセキュリティ"
+        },
+        {
+          "label": "アクセスの完全な制御"
+        },
+        {
+          "label": "高可用性"
+        },
+        {
+          "label": "ワークスペースによる分離"
+        },
+        {
+          "label": "常に保護されたデータ"
+        },
+        {
+          "label": "デフォルトでのプライバシー保護"
+        },
+        {
+          "label": "グローバルコンプライアンス"
+        },
+        {
+          "label": "信頼できるインフラ"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99%", "description": "保証された稼働率SLA" },
-      { "label": "24/7", "description": "継続的なモニタリング" },
-      { "label": "安全 & 信頼できる", "description": "多層的なセキュリティによる保護" }
+      {
+        "label": "99,99%",
+        "description": "保証された稼働率SLA"
+      },
+      {
+        "label": "24/7",
+        "description": "継続的なモニタリング"
+      },
+      {
+        "label": "安全 & 信頼できる",
+        "description": "多層的なセキュリティによる保護"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "InterfyのAWSインフラ",
@@ -131,19 +163,42 @@
     "headlineHighlight": "クラウドネイティブ",
     "headlineSuffix": "アーキテクチャ",
     "flow": [
-      { "label": "ユーザー" },
-      { "label": "CloudFront CDN" },
-      { "label": "ロードバランサー" }
+      {
+        "label": "ユーザー"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "ロードバランサー"
+      }
     ],
     "multiAzTitle": "高可用性 - マルチAZ",
-    "az1": { "label": "AZ 1", "title": "アプリケーション" },
-    "az2": { "label": "AZ 2", "title": "データベース", "subtitle": "（自動フェイルオーバー）" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "アプリケーション"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "データベース",
+      "subtitle": "（自動フェイルオーバー）"
+    },
     "services": [
-      { "label": "S3ストレージ" },
-      { "label": "暗号化バックアップ" },
-      { "label": "CloudWatchモニタリング" },
-      { "label": "CloudTrailログ" },
-      { "label": "GuardDutyセキュリティ" }
+      {
+        "label": "S3ストレージ"
+      },
+      {
+        "label": "暗号化バックアップ"
+      },
+      {
+        "label": "CloudWatchモニタリング"
+      },
+      {
+        "label": "CloudTrailログ"
+      },
+      {
+        "label": "GuardDutyセキュリティ"
+      }
     ],
     "featuresAriaLabel": "高可用性アーキテクチャの強み",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "専門スタッフに相談する",
     "featuresAriaLabel": "Interfyのセキュリティとコンプライアンスの柱",
     "features": [
-      { "label": "設計によるセキュリティ" },
-      { "label": "デフォルトでのプライバシー保護" },
-      { "label": "完全な透明性" },
-      { "label": "グローバルコンプライアンス" },
-      { "label": "責任ある革新" }
+      {
+        "label": "設計によるセキュリティ"
+      },
+      {
+        "label": "デフォルトでのプライバシー保護"
+      },
+      {
+        "label": "完全な透明性"
+      },
+      {
+        "label": "グローバルコンプライアンス"
+      },
+      {
+        "label": "責任ある革新"
+      }
     ]
   }
 }

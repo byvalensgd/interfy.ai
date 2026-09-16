@@ -2,7 +2,13 @@
   "seo": {
     "title": "Sicherheit",
     "description": "Entdecken Sie die Sicherheitsarchitektur, den Datenschutz und die Konformität von Interfy: Verschlüsselung, Zugriffskontrolle, Multi-AZ-Hochverfügbarkeit und Zertifizierungen nach ISO, LGPD, DSGVO und SOC 2.",
-    "keywords": ["Interfy Sicherheit", "LGPD DSGVO Konformität", "Datenverschlüsselung", "AWS Hochverfügbarkeit", "sichere cloud-native Architektur"]
+    "keywords": [
+      "Interfy Sicherheit",
+      "LGPD DSGVO Konformität",
+      "Datenverschlüsselung",
+      "AWS Hochverfügbarkeit",
+      "sichere cloud-native Architektur"
+    ]
   },
   "hero": {
     "headingPrefix": "Enterprise-Sicherheit ab der ",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "Sicherheitsebenen von Interfy",
     "diagram": {
       "items": [
-        { "label": "Sicherheit ab der Architektur" },
-        { "label": "Vollständige Zugriffskontrolle" },
-        { "label": "Hohe Verfügbarkeit" },
-        { "label": "Isolierung nach Workspace" },
-        { "label": "Daten stets geschützt" },
-        { "label": "Datenschutz per Definition" },
-        { "label": "Globale Konformität" },
-        { "label": "Zuverlässige Infrastruktur" }
+        {
+          "label": "Sicherheit ab der Architektur"
+        },
+        {
+          "label": "Vollständige Zugriffskontrolle"
+        },
+        {
+          "label": "Hohe Verfügbarkeit"
+        },
+        {
+          "label": "Isolierung nach Workspace"
+        },
+        {
+          "label": "Daten stets geschützt"
+        },
+        {
+          "label": "Datenschutz per Definition"
+        },
+        {
+          "label": "Globale Konformität"
+        },
+        {
+          "label": "Zuverlässige Infrastruktur"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99,99 %", "description": "Garantierte Verfügbarkeits-SLA" },
-      { "label": "24/7", "description": "Kontinuierliche Überwachung" },
-      { "label": "Sicher & Verlässlich", "description": "Schutz durch mehrschichtige Sicherheit" }
+      {
+        "label": "99,99 %",
+        "description": "Garantierte Verfügbarkeits-SLA"
+      },
+      {
+        "label": "24/7",
+        "description": "Kontinuierliche Überwachung"
+      },
+      {
+        "label": "Sicher & Verlässlich",
+        "description": "Schutz durch mehrschichtige Sicherheit"
+      }
     ],
     "poweredByLabel": "Powered by",
     "awsChecklistAriaLabel": "AWS-Infrastruktur von Interfy",
@@ -131,19 +163,42 @@
     "headlineHighlight": "Architektur",
     "headlineSuffix": " mit hoher Verfügbarkeit",
     "flow": [
-      { "label": "Nutzer" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "Nutzer"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "Hohe Verfügbarkeit – Multi-AZ",
-    "az1": { "label": "AZ 1", "title": "Anwendungen" },
-    "az2": { "label": "AZ 2", "title": "Datenbank", "subtitle": "(Auto Failover)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "Anwendungen"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "Datenbank",
+      "subtitle": "(Auto Failover)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "Verschlüsseltes Backup" },
-      { "label": "CloudWatch-Überwachung" },
-      { "label": "CloudTrail-Protokolle" },
-      { "label": "GuardDuty-Sicherheit" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "Verschlüsseltes Backup"
+      },
+      {
+        "label": "CloudWatch-Überwachung"
+      },
+      {
+        "label": "CloudTrail-Protokolle"
+      },
+      {
+        "label": "GuardDuty-Sicherheit"
+      }
     ],
     "featuresAriaLabel": "Vorteile der Hochverfügbarkeitsarchitektur",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "Mit einem Experten sprechen",
     "featuresAriaLabel": "Sicherheits- und Konformitätssäulen von Interfy",
     "features": [
-      { "label": "Sicherheit by Design" },
-      { "label": "Datenschutz als Standard" },
-      { "label": "Vollständige Transparenz" },
-      { "label": "Globale Konformität" },
-      { "label": "Innovation mit Verantwortung" }
+      {
+        "label": "Sicherheit by Design"
+      },
+      {
+        "label": "Datenschutz als Standard"
+      },
+      {
+        "label": "Vollständige Transparenz"
+      },
+      {
+        "label": "Globale Konformität"
+      },
+      {
+        "label": "Innovation mit Verantwortung"
+      }
     ]
   }
 }

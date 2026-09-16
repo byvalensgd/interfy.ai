@@ -2,7 +2,11 @@
   "meta": {
     "title": "デモを予約する",
     "description": "Interfyの個別デモを予約して、ドキュメント管理、プロセス、電子署名、AIがどのように貴社の業務に適応できるかをご確認ください。",
-    "keywords": ["Interfy デモ予約", "Interfy デモンストレーション", "AIネイティブプラットフォーム デモ依頼"]
+    "keywords": [
+      "Interfy デモ予約",
+      "Interfy デモンストレーション",
+      "AIネイティブプラットフォーム デモ依頼"
+    ]
   },
   "hero": {
     "ariaLabel": "Interfyのデモを予約する",
@@ -12,20 +16,40 @@
     "description": "専門スタッフが貴社の状況をヒアリングし、ドキュメント、プロセス、電子署名、各種連携、AIがどのように業務にフィットするかをライブでご紹介します。",
     "expectHeading": "デモで体験できること",
     "expectItems": [
-      { "title": "30分間", "description": "無駄のない、要点を押さえた対話です。" },
-      { "title": "実際の業務シナリオ", "description": "貴社の業務・業界に合わせた事例をご紹介します。" },
-      { "title": "契約の強制なし", "description": "次のステップは対話後にご自身で判断いただけます。" },
-      { "title": "専任スペシャリスト", "description": "貴社の業界に精通した担当者が対応します。" }
+      {
+        "title": "30分間",
+        "description": "無駄のない、要点を押さえた対話です。"
+      },
+      {
+        "title": "実際の業務シナリオ",
+        "description": "貴社の業務・業界に合わせた事例をご紹介します。"
+      },
+      {
+        "title": "契約の強制なし",
+        "description": "次のステップは対話後にご自身で判断いただけます。"
+      },
+      {
+        "title": "専任スペシャリスト",
+        "description": "貴社の業界に精通した担当者が対応します。"
+      }
+    ],
+    "previewHeading": "What you'll see in the demo:",
+    "previewItems": [
+      "Overview of the Interfy platform",
+      "Demonstration of the Documents and Process modules",
+      "Building workflows with AI",
+      "Electronic signature and compliance",
+      "Q&A session"
     ]
   },
   "form": {
     "heading": "デモを予約する",
     "subheading": "以下の情報を入力してください。担当者よりご都合の良い日時を確認するためにご連絡いたします。",
-    "nameLabel": "氏名",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
     "emailLabel": "会社の連絡先メールアドレス",
     "companyLabel": "会社名",
     "phoneLabel": "電話番号(WhatsApp)",
-    "roleLabel": "役職",
     "companySizeLabel": "従業員数",
     "companySizePlaceholder": "選択してください",
     "companySizeOptions": [
@@ -35,7 +59,21 @@
       "201〜1,000名",
       "1,000名以上"
     ],
+    "interestLabel": "Main interest",
+    "interestPlaceholder": "Select",
+    "interestOptions": [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Agents",
+      "Mobile",
+      "Voice",
+      "Not sure yet"
+    ],
     "messageLabel": "ご要望について少し教えてください",
+    "messagePlaceholder": "Tell us about your needs...",
     "optionalLabel": "(任意)",
     "errors": {
       "name": "氏名を入力してください。",
@@ -53,7 +91,9 @@
     "successHeading": "お申し込みを受け付けました。",
     "successMessagePrefix": "担当者よりご都合の良い日時を確認するため、次のメールアドレスにご連絡いたします: ",
     "successMessageSuffix": "",
-    "specialistLink": "その間に無料でお試しいただく"
+    "specialistLink": "その間に無料でお試しいただく",
+    "nameLabel": "氏名",
+    "roleLabel": "役職"
   },
   "trust": {
     "ariaLabel": "Interfyのデモを予約する理由",
@@ -61,10 +101,22 @@
     "subheading": "エンタープライズレベルのセキュリティ、グローバルなコンプライアンス、専門サポートをすべてのデモでご体感いただけます。",
     "statsLabel": "Interfyのグローバル展開",
     "stats": [
-      { "label": "180ヵ国以上", "sublabel": "拡大を続けるグローバル展開" },
-      { "label": "16言語", "sublabel": "インターフェースと体験を完全対応" },
-      { "label": "99.99%", "sublabel": "保証されたSLA稼働率" },
-      { "label": "ISO 27001、LGPD、GDPR", "sublabel": "認証済みのコンプライアンス" }
+      {
+        "label": "180ヵ国以上",
+        "sublabel": "拡大を続けるグローバル展開"
+      },
+      {
+        "label": "16言語",
+        "sublabel": "インターフェースと体験を完全対応"
+      },
+      {
+        "label": "99.99%",
+        "sublabel": "保証されたSLA稼働率"
+      },
+      {
+        "label": "ISO 27001、LGPD、GDPR",
+        "sublabel": "認証済みのコンプライアンス"
+      }
     ]
   }
 }

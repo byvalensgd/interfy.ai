@@ -2,7 +2,13 @@
   "seo": {
     "title": "אבטחה",
     "description": "הכירו את אדריכלות האבטחה, הפרטיות והתאימות של Interfy: הצפנה, בקרת גישה, זמינות גבוהה מסוג Multi-AZ והסמכות ISO, LGPD, GDPR ו-SOC 2.",
-    "keywords": ["אבטחת Interfy", "תאימות LGPD GDPR", "הצפנת נתונים", "זמינות גבוהה AWS", "אדריכלות cloud-native מאובטחת"]
+    "keywords": [
+      "אבטחת Interfy",
+      "תאימות LGPD GDPR",
+      "הצפנת נתונים",
+      "זמינות גבוהה AWS",
+      "אדריכלות cloud-native מאובטחת"
+    ]
   },
   "hero": {
     "headingPrefix": "אבטחה בסטנדרט אנטרפרייז מעצם ה",
@@ -13,20 +19,46 @@
     "diagramAriaLabel": "שכבות האבטחה של Interfy",
     "diagram": {
       "items": [
-        { "label": "אבטחה מעצם האדריכלות" },
-        { "label": "שליטה מלאה בגישות" },
-        { "label": "זמינות גבוהה" },
-        { "label": "בידוד לפי Workspace" },
-        { "label": "נתונים מוגנים תמיד" },
-        { "label": "פרטיות מעצם ההגדרה" },
-        { "label": "תאימות גלובלית" },
-        { "label": "תשתית אמינה" }
+        {
+          "label": "אבטחה מעצם האדריכלות"
+        },
+        {
+          "label": "שליטה מלאה בגישות"
+        },
+        {
+          "label": "זמינות גבוהה"
+        },
+        {
+          "label": "בידוד לפי Workspace"
+        },
+        {
+          "label": "נתונים מוגנים תמיד"
+        },
+        {
+          "label": "פרטיות מעצם ההגדרה"
+        },
+        {
+          "label": "תאימות גלובלית"
+        },
+        {
+          "label": "תשתית אמינה"
+        }
       ]
     },
+    "statsAriaLabel": "Interfy's security and availability indicators",
     "stats": [
-      { "label": "99.99%", "description": "זמינות SLA מובטחת" },
-      { "label": "24/7", "description": "מעקב רציף" },
-      { "label": "בטוח ואמין", "description": "הגנה במספר שכבות אבטחה" }
+      {
+        "label": "99.99%",
+        "description": "זמינות SLA מובטחת"
+      },
+      {
+        "label": "24/7",
+        "description": "מעקב רציף"
+      },
+      {
+        "label": "בטוח ואמין",
+        "description": "הגנה במספר שכבות אבטחה"
+      }
     ],
     "poweredByLabel": "מופעל על ידי",
     "awsChecklistAriaLabel": "תשתית ה-AWS של Interfy",
@@ -131,19 +163,42 @@
     "headlineHighlight": "cloud-native",
     "headlineSuffix": " בעלת זמינות גבוהה",
     "flow": [
-      { "label": "משתמשים" },
-      { "label": "CloudFront CDN" },
-      { "label": "Load Balancer" }
+      {
+        "label": "משתמשים"
+      },
+      {
+        "label": "CloudFront CDN"
+      },
+      {
+        "label": "Load Balancer"
+      }
     ],
     "multiAzTitle": "זמינות גבוהה - Multi AZ",
-    "az1": { "label": "AZ 1", "title": "אפליקציות" },
-    "az2": { "label": "AZ 2", "title": "מסד נתונים", "subtitle": "(Auto Fallover)" },
+    "az1": {
+      "label": "AZ 1",
+      "title": "אפליקציות"
+    },
+    "az2": {
+      "label": "AZ 2",
+      "title": "מסד נתונים",
+      "subtitle": "(Auto Fallover)"
+    },
     "services": [
-      { "label": "S3 Storage" },
-      { "label": "גיבוי מוצפן" },
-      { "label": "מעקב CloudWatch" },
-      { "label": "יומני CloudTrail" },
-      { "label": "אבטחת GuardDuty" }
+      {
+        "label": "S3 Storage"
+      },
+      {
+        "label": "גיבוי מוצפן"
+      },
+      {
+        "label": "מעקב CloudWatch"
+      },
+      {
+        "label": "יומני CloudTrail"
+      },
+      {
+        "label": "אבטחת GuardDuty"
+      }
     ],
     "featuresAriaLabel": "יתרונות אדריכלות הזמינות הגבוהה",
     "features": [
@@ -171,11 +226,21 @@
     "secondaryButton": "לדבר עם מומחה",
     "featuresAriaLabel": "עמודי התווך של אבטחה ותאימות ב-Interfy",
     "features": [
-      { "label": "אבטחה מעצם התכנון" },
-      { "label": "פרטיות כברירת מחדל" },
-      { "label": "שקיפות מלאה" },
-      { "label": "תאימות גלובלית" },
-      { "label": "חדשנות עם אחריות" }
+      {
+        "label": "אבטחה מעצם התכנון"
+      },
+      {
+        "label": "פרטיות כברירת מחדל"
+      },
+      {
+        "label": "שקיפות מלאה"
+      },
+      {
+        "label": "תאימות גלובלית"
+      },
+      {
+        "label": "חדשנות עם אחריות"
+      }
     ]
   }
 }
