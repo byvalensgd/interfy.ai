@@ -24,7 +24,7 @@ export default async function SegmentsHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-            <Reveal immediate className="flex flex-col items-center gap-8 lg:max-w-[520px] lg:items-start">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-8 lg:mx-0 lg:max-w-[520px] lg:items-start">
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="segments-hero-heading"

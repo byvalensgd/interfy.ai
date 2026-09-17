@@ -4,12 +4,19 @@
     "description": "Articles, guides and news on document management, process automation, electronic signature and AI applied to business operations.",
     "keywords": ["Interfy blog", "document management content", "process automation", "AI for business"]
   },
-  "hero": {
-    "ariaLabel": "Blog introduction",
-    "eyebrow": "Blog & Content",
-    "titleLine1": "Content for those",
-    "titleHighlight": "transforming operations",
-    "description": "Practical guides, product news and trends on documents, processes, data and AI for businesses."
+  "topBar": {
+    "title": "Interfy Blog",
+    "search": {
+      "ariaLabel": "Search the blog",
+      "placeholder": "Search the blog",
+      "clearLabel": "Clear search",
+      "resultsCountLabel": "result(s) found",
+      "noResultsLabel": "No article found for your search."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Top blog searches",
+    "labels": ["Documents - Document Management", "Process - Business Processes", "AI - Interfy Artificial Intelligence"]
   },
   "featured": {
     "ariaLabel": "Featured article and recent posts",
@@ -157,6 +164,48 @@
         "excerpt": "How automated capture reduces errors and speeds up document intake into the workflow.",
         "date": "Jun 2026",
         "readTime": "5 min read"
+      },
+      {
+        "category": "Document Management",
+        "title": "Migrating physical files to digital without losing history",
+        "excerpt": "A roadmap for digitizing old archives while preserving metadata, indexing and legal validity.",
+        "date": "Apr 2026",
+        "readTime": "7 min read"
+      },
+      {
+        "category": "Business Process Management",
+        "title": "How to measure the ROI of process automation",
+        "excerpt": "The metrics that actually matter for proving an automation project's return to leadership.",
+        "date": "Sep 2026",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "Business Process Management",
+        "title": "Multi-level approvals without bottlenecks: designing flows that scale",
+        "excerpt": "A practical guide to distributing approval authority without stalling operations during demand spikes.",
+        "date": "May 2026",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "Electronic Signature",
+        "title": "Qualified, advanced or simple signature: which one to use",
+        "excerpt": "Understand the differences between electronic signature levels and pick the right one for each document.",
+        "date": "May 2026",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "AI & Agents",
+        "title": "How to train AI agents with your company's data",
+        "excerpt": "A guide to knowledge bases, permissions and best practices for trustworthy internal agents.",
+        "date": "Sep 2026",
+        "readTime": "7 min read"
+      },
+      {
+        "category": "Security & Compliance",
+        "title": "ISO 27001 in practice: what auditors actually check",
+        "excerpt": "The most commonly cited controls in a certification audit, and how to prepare ahead of time.",
+        "date": "Apr 2026",
+        "readTime": "6 min read"
       }
     ]
   },

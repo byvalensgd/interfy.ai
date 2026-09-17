@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Universidade Interfy",
+    "description": "A universidade corporativa da Interfy: videoaulas, guias, casos de uso reais e certificação para capacitar sua equipe na plataforma.",
+    "keywords": [
+      "Universidade Interfy",
+      "treinamento Interfy",
+      "universidade corporativa",
+      "certificação Interfy"
+    ]
+  },
+  "hero": {
+    "ariaLabel": "Universidade Interfy",
+    "titleLine1": "Capacite sua equipe na",
+    "titleHighlight": "Universidade Interfy",
+    "description": "Videoaulas, guias, casos de uso reais e certificação oficial para sua equipe dominar a plataforma Interfy no próprio ritmo.",
+    "primaryLabel": "Faça um Test Drive",
+    "secondaryLabel": "Agendar uma demo"
+  },
+  "benefits": {
+    "ariaLabel": "Por que investir em uma universidade corporativa",
+    "heading": "Por que investir em uma",
+    "headingHighlight": "Universidade Corporativa?",
+    "description": "Transforme conhecimento em produtividade e elimine custos operacionais de treinamento.",
+    "items": [
+      {
+        "title": "Redução de Custos",
+        "description": "Elimine gastos com instrutores, viagens, hospedagem e materiais físicos. Treine sua equipe com custo zero operacional."
+      },
+      {
+        "title": "Treinamento 24/7",
+        "description": "Sua equipe aprende no próprio ritmo, a qualquer hora e de qualquer lugar. Flexibilidade total para capacitação."
+      },
+      {
+        "title": "Escalabilidade Infinita",
+        "description": "Treine 10 ou 10.000 colaboradores simultaneamente sem aumentar custos ou complexidade operacional."
+      },
+      {
+        "title": "Onboarding Acelerado",
+        "description": "Novos usuários produtivos desde o primeiro dia. Reduza o tempo de adaptação e aumente a produtividade rapidamente."
+      },
+      {
+        "title": "Certificação Oficial",
+        "description": "Emita certificados de conclusão para seus colaboradores e acompanhe o progresso de cada usuário."
+      },
+      {
+        "title": "Métricas em Tempo Real",
+        "description": "Acompanhe o progresso, engajamento e desempenho de cada colaborador através de dashboards inteligentes."
+      }
+    ]
+  },
+  "resources": {
+    "ariaLabel": "Recursos de aprendizagem",
+    "heading": "Recursos de",
+    "headingHighlight": "Aprendizagem",
+    "description": "Conteúdo completo e diversificado para todos os estilos de aprendizagem.",
+    "items": [
+      {
+        "title": "Videoaulas Práticas",
+        "description": "Conteúdo em vídeo passo a passo sobre todos os módulos da plataforma Interfy."
+      },
+      {
+        "title": "Guias e Manuais",
+        "description": "Documentação completa e tutoriais escritos para consulta rápida e referência."
+      },
+      {
+        "title": "Casos de Uso Reais",
+        "description": "Exemplos práticos de implementação e boas práticas de empresas que já utilizam a plataforma."
+      },
+      {
+        "title": "Suporte Especializado",
+        "description": "Tire dúvidas diretamente com especialistas e compartilhe conhecimento com a comunidade."
+      }
+    ]
+  },
+  "modules": {
+    "ariaLabel": "Módulos de treinamento",
+    "heading": "Módulos de",
+    "headingHighlight": "Treinamento",
+    "description": "Currículo completo cobrindo todos os aspectos da plataforma Interfy.",
+    "items": [
+      "Introdução à Plataforma Interfy",
+      "Gestão de Documentos (Documents)",
+      "Automação de Processos (Process)",
+      "Criação de Fluxos com IA (Agents)",
+      "Assinatura Eletrônica e Digital (Sign)",
+      "Captura Inteligente (Capture)",
+      "Digitalização com Validade Legal",
+      "Comunicação e Colaboração (Connect)",
+      "Aplicativo Mobile",
+      "Administração e Governança",
+      "Segurança e Compliance",
+      "Integrações e APIs"
+    ],
+    "cta": {
+      "heading": "Comece a capacitar sua equipe hoje mesmo",
+      "stats": [
+        {
+          "value": "90%",
+          "label": "Redução em Custos de Treinamento"
+        },
+        {
+          "value": "70%",
+          "label": "Mais Rápido no Onboarding"
+        },
+        {
+          "value": "100%",
+          "label": "Da Equipe Capacitada"
+        }
+      ],
+      "description": "Acesse a Universidade Interfy e transforme conhecimento em resultados."
+    }
+  }
+}

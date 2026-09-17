@@ -11,56 +11,126 @@
     {
       "title": "产品",
       "links": [
-        { "label": "Documents" },
-        { "label": "Process" },
-        { "label": "Capture" },
-        { "label": "Sign" },
-        { "label": "Connect" },
-        { "label": "Agents" },
-        { "label": "Mobile" },
-        { "label": "Voice" }
+        {
+          "label": "Documents"
+        },
+        {
+          "label": "Process"
+        },
+        {
+          "label": "Capture"
+        },
+        {
+          "label": "Sign"
+        },
+        {
+          "label": "Connect"
+        },
+        {
+          "label": "Agents"
+        },
+        {
+          "label": "Mobile"
+        },
+        {
+          "label": "Voice"
+        }
       ]
     },
     {
       "title": "资源",
       "links": [
-        { "label": "行业方案" },
-        { "label": "AI 额度" },
-        { "label": "集成与 API" },
-        { "label": "成功案例" },
-        { "label": "平台状态" }
+        {
+          "label": "行业方案"
+        },
+        {
+          "label": "AI 额度"
+        },
+        {
+          "label": "集成与 API"
+        },
+        {
+          "label": "Interfy 大学"
+        },
+        {
+          "label": "成功案例"
+        },
+        {
+          "label": "平台状态"
+        }
       ]
     },
     {
       "title": "公司",
       "links": [
-        { "label": "关于 Interfy" },
-        { "label": "Interfy 平台" },
-        { "label": "试用体验" },
-        { "label": "合作伙伴（自有品牌）" },
-        { "label": "博客 / 内容" }
+        {
+          "label": "关于 Interfy"
+        },
+        {
+          "label": "Interfy 平台"
+        },
+        {
+          "label": "试用体验"
+        },
+        {
+          "label": "合作伙伴（自有品牌）"
+        },
+        {
+          "label": "博客 / 内容"
+        }
       ]
     },
     {
       "title": "法律与支持",
       "links": [
-        { "label": "使用条款" },
-        { "label": "隐私政策" },
-        { "label": "LGPD / GDPR" },
-        { "label": "安全" },
-        { "label": "支持" },
-        { "label": "联系我们" }
+        {
+          "label": "使用条款"
+        },
+        {
+          "label": "隐私政策"
+        },
+        {
+          "label": "LGPD / GDPR"
+        },
+        {
+          "label": "安全"
+        },
+        {
+          "label": "支持"
+        },
+        {
+          "label": "联系我们"
+        }
       ]
     }
   ],
   "globalLine": "覆盖 180 多个国家和地区的全球平台",
   "regionsIntro": "针对以下地区提供专属商务服务：",
-  "regions": ["美国", "欧洲", "拉丁美洲", "巴西", "亚洲", "非洲"],
+  "regions": [
+    "美国",
+    "欧洲",
+    "拉丁美洲",
+    "巴西",
+    "亚洲",
+    "非洲"
+  ],
   "trustItems": [
-    { "title": "企业级安全", "description": "AES-256 / TLS 1.3 加密" },
-    { "title": "AWS 全球基础设施", "description": "高可用性与可扩展性" },
-    { "title": "全球合规", "description": "LGPD、GDPR 与 ISO 27001" },
-    { "title": "99.98% 在线率 SLA", "description": "全天候 24/7 监控" }
+    {
+      "title": "企业级安全",
+      "description": "AES-256 / TLS 1.3 加密"
+    },
+    {
+      "title": "AWS 全球基础设施",
+      "description": "高可用性与可扩展性"
+    },
+    {
+      "title": "全球合规",
+      "description": "LGPD、GDPR 与 ISO 27001"
+    },
+    {
+      "title": "99.98% 在线率 SLA",
+      "description": "全天候 24/7 监控"
+    }
   ],
   "copyright": {
     "brand": "Interfy Corporation",

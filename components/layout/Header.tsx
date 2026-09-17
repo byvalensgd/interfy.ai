@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { featuredProducts, productsMenu } from "@/config/products-menu";
+import { platformMenuItems } from "@/config/products-menu";
 import { legalMenuItems, recursosMenuItems } from "@/config/recursos-menu";
-import { empresaMenuItems } from "@/config/empresa-menu";
 import Button from "@/components/ui/Button";
 import { LanguageSelectorCompact } from "@/components/ui/LanguageSelector";
 import { CTA_DISABLED } from "@/config/feature-flags";
@@ -12,7 +11,6 @@ import { withLocale } from "@/lib/i18n/paths";
 import MobileNav, { type MobileNavEntry } from "@/components/layout/MobileNav";
 import ProductsMenu from "@/components/layout/ProductsMenu";
 import RecursosMenu from "@/components/layout/RecursosMenu";
-import EmpresaMenu from "@/components/layout/EmpresaMenu";
 
 export default async function Header() {
   const locale = await getLocale();
@@ -25,18 +23,11 @@ export default async function Header() {
         trigger: header.productsMenu.trigger,
         sections: [
           {
-            items: [
-              ...featuredProducts.map((item, i) => ({
-                href: item.href,
-                label: header.productsMenu.featured[i].title,
-                icon: item.icon,
-              })),
-              ...productsMenu.map((item, i) => ({
-                href: item.href,
-                label: header.productsMenu.items[i].label,
-                icon: item.icon,
-              })),
-            ],
+            items: platformMenuItems.map((item, i) => ({
+              href: item.href,
+              label: header.productsMenu.items[i].title,
+              icon: item.icon,
+            })),
           },
         ],
       },
@@ -65,22 +56,9 @@ export default async function Header() {
         ],
       },
     },
+    { type: "link", link: { href: "/segmentos", label: header.nav.segmentos } },
     { type: "link", link: { href: "/planos", label: header.nav.plans } },
-    {
-      type: "group",
-      group: {
-        trigger: header.empresaMenu.trigger,
-        sections: [
-          {
-            items: empresaMenuItems.map((item, i) => ({
-              href: item.href,
-              label: header.empresaMenu.items[i].label,
-              icon: item.icon,
-            })),
-          },
-        ],
-      },
-    },
+    { type: "link", link: { href: "/contato", label: header.nav.contact } },
   ];
 
   return (
@@ -107,6 +85,14 @@ export default async function Header() {
             </li>
             <li>
               <Link
+                href={withLocale("/segmentos", locale)}
+                className="flex min-h-[18px] items-center whitespace-nowrap text-[clamp(0.875rem,0.4808vw+0.5673rem,1rem)] leading-[1.5rem] text-texto transition-colors hover:text-azul-base"
+              >
+                {header.nav.segmentos}
+              </Link>
+            </li>
+            <li>
+              <Link
                 href={withLocale("/planos", locale)}
                 className="flex min-h-[18px] items-center whitespace-nowrap text-[clamp(0.875rem,0.4808vw+0.5673rem,1rem)] leading-[1.5rem] text-texto transition-colors hover:text-azul-base"
               >
@@ -114,7 +100,12 @@ export default async function Header() {
               </Link>
             </li>
             <li>
-              <EmpresaMenu items={header.empresaMenu} locale={locale} />
+              <Link
+                href={withLocale("/contato", locale)}
+                className="flex min-h-[18px] items-center whitespace-nowrap text-[clamp(0.875rem,0.4808vw+0.5673rem,1rem)] leading-[1.5rem] text-texto transition-colors hover:text-azul-base"
+              >
+                {header.nav.contact}
+              </Link>
             </li>
           </ul>
         </nav>

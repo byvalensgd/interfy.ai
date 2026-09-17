@@ -201,5 +201,23 @@
     "subheading": "免费开始，用您自己的文档和流程探索 Interfy 平台。",
     "primaryButton": "免费开始",
     "secondaryButton": "预约演示"
+  },
+  "topBar": {
+    "title": "Interfy 博客",
+    "search": {
+      "ariaLabel": "搜索博客",
+      "placeholder": "搜索博客",
+      "clearLabel": "清除搜索",
+      "resultsCountLabel": "个结果",
+      "noResultsLabel": "未找到与您的搜索匹配的文章。"
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "热门博客搜索",
+    "labels": [
+      "Documents - 文档管理",
+      "Process - 业务流程",
+      "AI - Interfy 人工智能"
+    ]
   }
 }

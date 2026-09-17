@@ -1,37 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Code2 } from "lucide-react";
+import ApiCodeSample from "@/components/ui/ApiCodeSample";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 import { integracoesDevLangs } from "@/config/integracoes-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import CtaLink from "@/components/ui/CtaLink";
-
-function ApiCodeSample() {
-  return (
-    <pre className="w-full overflow-x-auto font-mono text-[13px] leading-[1.6] whitespace-pre text-[#d9dee8]">
-      <span className="font-bold text-[#4fc778]">POST</span> /api/v1/documents{"\n"}
-      curl -X <span className="font-bold text-[#4fc778]">POST</span> https://api.interfy.ai/v1/documents \{"\n"}
-      {"  "}
-      <span className="text-[#ad82de]">-H</span> <span className="text-[#e5bf6b]">&quot;Authorization: Bearer {"{"}seu_token{"}"}&quot;</span> \{"\n"}
-      {"  "}
-      <span className="text-[#ad82de]">-H</span> <span className="text-[#e5bf6b]">&quot;Content-Type: application/json&quot;</span> \{"\n"}
-      {"  "}
-      <span className="text-[#ad82de]">-d</span> {"'{"}
-      {"\n"}
-      {"    "}
-      <span className="text-[#8cc7f2]">&quot;title&quot;</span>: <span className="text-[#de9457]">&quot;Contrato.pdf&quot;</span>,{"\n"}
-      {"    "}
-      <span className="text-[#8cc7f2]">&quot;folderId&quot;</span>: <span className="text-[#de9457]">&quot;12345&quot;</span>,{"\n"}
-      {"    "}
-      <span className="text-[#8cc7f2]">&quot;tags&quot;</span>: [<span className="text-[#de9457]">&quot;contrato&quot;</span>, <span className="text-[#de9457]">&quot;cliente&quot;</span>],{"\n"}
-      {"    "}
-      <span className="text-[#8cc7f2]">&quot;fileUrls&quot;</span>: [<span className="text-[#de9457]">&quot;https://.../arquivo.pdf&quot;</span>]{"\n"}
-      {"  }'"}
-    </pre>
-  );
-}
 
 export default async function IntegracoesDeveloperDocs() {
   const locale = await getLocale();
@@ -41,9 +18,9 @@ export default async function IntegracoesDeveloperDocs() {
 
   return (
     <section aria-label={docsCard.heading} className="flex justify-center bg-branco px-5 py-10">
-      <div className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-3">
+      <div className="grid w-full max-w-[1400px] grid-cols-1 gap-5 lg:grid-cols-[1fr_1fr_minmax(0,350px)]">
         <Reveal
-          className="flex min-h-[310px] flex-col items-start gap-5 rounded-[20px] border border-contorno-base px-5 py-[30px]"
+          className="flex flex-col items-start gap-5 rounded-[20px] border border-contorno-base px-5 py-[30px] lg:min-h-[310px]"
           style={{ backgroundImage: "linear-gradient(118deg, #ffffff 4.55%, #efefff 90.43%, #c8c8ff 126.82%)" }}
         >
           <div className="flex flex-col items-start gap-5">
@@ -51,9 +28,16 @@ export default async function IntegracoesDeveloperDocs() {
             <p className="text-sm leading-[1.2] font-medium text-texto">{docsCard.description}</p>
           </div>
 
-          <ul aria-label={docsCard.langsAriaLabel} className="flex w-full items-start justify-center gap-2.5">
+          {/* "Complete Box" (see lib/completeBox.ts): flex-basis targeting a specific column
+              count per tier, instead of a bare flex-1 greedily wrapping "as many as fit" —
+              keeps rows balanced and lets a short last row stretch to fill instead of leaving
+              a gap. */}
+          <ul aria-label={docsCard.langsAriaLabel} className="flex w-full flex-wrap items-start justify-center gap-2.5">
             {integracoesDevLangs.map((lang) => (
-              <li key={lang.label} className="flex min-w-0 flex-1 flex-col items-center gap-[15px]">
+              <li
+                key={lang.label}
+                className={`flex grow min-w-[80px] ${getCompleteBoxBasis(integracoesDevLangs.length)} flex-col items-center gap-[15px]`}
+              >
                 <Image src={lang.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
                 <p className="w-full text-center text-xs leading-[1.2] font-bold text-texto">{lang.label}</p>
               </li>
@@ -66,12 +50,12 @@ export default async function IntegracoesDeveloperDocs() {
           </Button>
         </Reveal>
 
-        <Reveal className="flex min-h-[310px] flex-col items-start gap-5 rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] px-5 py-[30px]">
+        <Reveal className="flex flex-col items-start gap-5 rounded-[20px] bg-gradient-to-r from-[#001d6b] to-[#000928] px-5 py-[30px] lg:min-h-[310px]">
           <h2 className="text-2xl leading-[1.2] font-bold text-branco">{codeCard.heading}</h2>
           <ApiCodeSample />
         </Reveal>
 
-        <Reveal className="relative flex min-h-[310px] flex-col justify-between gap-[30px] overflow-hidden rounded-[20px] px-5 py-[30px]">
+        <Reveal className="relative flex flex-col justify-between gap-[30px] overflow-hidden rounded-[20px] px-5 py-[30px] lg:min-h-[310px]">
           <Image src="/agentes-integracoes/cta-bg.webp" alt="" aria-hidden="true" fill sizes="(min-width: 1024px) 33vw, 100vw" className="-z-10 object-cover" />
           <div className="flex flex-col gap-5 text-branco">
             <h2 className="text-2xl leading-[1.2] font-bold">{ctaCard.heading}</h2>

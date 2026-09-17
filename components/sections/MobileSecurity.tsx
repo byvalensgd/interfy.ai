@@ -2,10 +2,15 @@ import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { mobileSecurityItems } from "@/config/mobile-page";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function MobileSecurity() {
   const { mobile } = await getDictionary();
   const { security } = mobile;
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const itemsBasis = getCompleteBoxBasis(mobileSecurityItems.length);
 
   return (
     <section aria-labelledby="mobile-security-heading" className="flex justify-center px-5 py-10 sm:py-16">
@@ -25,7 +30,7 @@ export default async function MobileSecurity() {
           {mobileSecurityItems.map((item, i) => (
             <li
               key={item.icon}
-              className="flex min-w-[200px] flex-1 flex-col items-center gap-[15px] rounded-2xl border border-contorno-base bg-branco px-2.5 py-[15px]"
+              className={`flex min-w-[200px] grow flex-col items-center gap-[15px] rounded-2xl border border-contorno-base bg-branco px-2.5 py-[15px] ${itemsBasis}`}
             >
               <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} />
               <p className="min-h-[30px] w-full text-center text-sm leading-[1.2] font-bold text-texto">

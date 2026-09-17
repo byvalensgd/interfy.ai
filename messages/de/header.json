@@ -5,52 +5,98 @@
   "closeMenu": "Menü schließen",
   "ctaPrimary": "Test Drive",
   "nav": {
-    "plans": "Pläne"
+    "plans": "Pläne",
+    "segmentos": "Branchen",
+    "contact": "Kontakt"
   },
   "productsMenu": {
     "trigger": "Produkte",
-    "featuredEyebrow": "Top-Produkte",
-    "listEyebrow": "Weitere Produkte",
-    "featured": [
-      { "title": "Documents", "tagline": "Dokumente mit KI in jedem Schritt organisieren, finden und schützen." },
-      { "title": "Process", "tagline": "Visuelle Prozesse, Formulare und Automatisierungen mit KI erstellen." },
-      { "title": "Capture", "tagline": "Jedes Dokument erfassen — die KI erkennt und organisiert alles." },
-      { "title": "Sign", "tagline": "Digitale Signatur kostenlos, rechtsgültig und vollständig integriert." }
-    ],
     "items": [
-      { "label": "Connect", "description": "Zusammenarbeit und Kommunikation mit Ihrem Team" },
-      { "label": "Agents", "description": "KI, die Nutzer versteht und unterstützt" },
-      { "label": "Mobile", "description": "Ihr Betrieb in der Handfläche" },
-      { "label": "Voice", "description": "Sprechen Sie natürlich mit der Plattform" }
-    ]
+      {
+        "title": "Documents",
+        "description": "Dokumente mit KI in jedem Schritt organisieren, finden und schützen."
+      },
+      {
+        "title": "Process",
+        "description": "Visuelle Prozesse, Formulare und Automatisierungen mit KI erstellen."
+      },
+      {
+        "title": "Capture",
+        "description": "Jedes Dokument erfassen — die KI erkennt und organisiert alles."
+      },
+      {
+        "title": "Sign",
+        "description": "Digitale Signatur kostenlos, rechtsgültig und vollständig integriert."
+      },
+      {
+        "title": "Connect",
+        "description": "Zusammenarbeit und Kommunikation mit Ihrem Team"
+      },
+      {
+        "title": "Voice",
+        "description": "Sprechen Sie natürlich mit der Plattform"
+      },
+      {
+        "title": "Agents",
+        "description": "KI, die Nutzer versteht und unterstützt"
+      },
+      {
+        "title": "Interfy-Plattform",
+        "description": "Plattformübersicht"
+      },
+      {
+        "title": "Über Interfy"
+      },
+      {
+        "title": "Partnerschaft"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "Ihr Management, wo immer Sie sind",
+      "description": "Ein flüssiges, komplettes mobiles Erlebnis. Laden Sie die App herunter und verändern Sie Ihre Arbeitsweise.",
+      "ctaLabel": "Mehr erfahren",
+      "imageAlt": "Interfy-Plattform auf Tablet und Smartphone",
+      "appStoreAlt": "Verfügbar im App Store",
+      "googlePlayAlt": "Verfügbar bei Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "Ressourcen",
     "recursosEyebrow": "Ressourcen",
     "recursosItems": [
-      { "label": "Branchen" },
-      { "label": "AI Créditos" },
-      { "label": "Integrationen & API" },
-      { "label": "Erfolgsgeschichten" }
+      {
+        "label": "AI Créditos"
+      },
+      {
+        "label": "Integrationen & API"
+      },
+      {
+        "label": "Interfy Universität"
+      },
+      {
+        "label": "Erfolgsgeschichten"
+      },
+      {
+        "label": "Blog / Inhalte"
+      }
     ],
     "legalEyebrow": "Recht & Support",
     "legalItems": [
-      { "label": "Nutzungsbedingungen" },
-      { "label": "Datenschutzrichtlinie" },
-      { "label": "LGPD / DSGVO" },
-      { "label": "Sicherheit" },
-      { "label": "Support" },
-      { "label": "Kontakt" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Unternehmen",
-    "eyebrow": "Unternehmen",
-    "items": [
-      { "label": "Über Interfy" },
-      { "label": "Interfy-Plattform" },
-      { "label": "Partnerschaft" },
-      { "label": "Blog / Inhalte" }
+      {
+        "label": "Nutzungsbedingungen"
+      },
+      {
+        "label": "Datenschutzrichtlinie"
+      },
+      {
+        "label": "LGPD / DSGVO"
+      },
+      {
+        "label": "Sicherheit"
+      },
+      {
+        "label": "Support"
+      }
     ]
   },
   "languageSelectorAria": "Sprache auswählen"

@@ -30,7 +30,7 @@ export default async function SegurancaHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_800fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 lg:items-start">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 lg:mx-0 lg:items-start">
               <h1
                 id="seguranca-hero-heading"
                 className="text-center text-[2rem] leading-[1.2] font-extrabold text-texto lg:text-left lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)]"

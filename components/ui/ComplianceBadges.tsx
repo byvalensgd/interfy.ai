@@ -25,9 +25,16 @@ export default function ComplianceBadges({
           </Link>
         )}
       </div>
-      <ul className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
+      {/* "Complete Box" pattern with a hand-calculated basis (the
+          lib/completeBox.ts helper caps at 4 columns, but this grid goes to
+          5 at lg) — flex-basis keeps every row within 1 item of the next and
+          stretches a short last row instead of a CSS Grid leaving it blank. */}
+      <ul className="flex w-full flex-wrap gap-5">
         {items.map((item, i) => (
-          <li key={item.label} className="flex flex-col items-center gap-2 text-center">
+          <li
+            key={item.label}
+            className="flex min-w-[100px] grow basis-[calc(50%-0.625rem)] flex-col items-center gap-2 text-center sm:basis-[calc(33.3333%-0.8333rem)] lg:basis-[calc(20%-1rem)]"
+          >
             <span className="flex size-12 shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco">
               <Image src={legalComplianceIcons[i]} alt="" aria-hidden="true" width={24} height={24} />
             </span>

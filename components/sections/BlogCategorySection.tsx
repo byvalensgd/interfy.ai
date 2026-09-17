@@ -24,7 +24,7 @@ export default function BlogCategorySection({
           const meta = blogCategoryMeta[si];
           return (
             <Reveal key={section.name} delayMs={si * 40}>
-              <div className="flex flex-col gap-6">
+              <div id={meta.anchorId} className="flex scroll-mt-[calc(var(--header-height)+20px)] flex-col gap-6">
                 <div className="flex flex-wrap items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
                     <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-azul-bg-superior">
@@ -41,9 +41,16 @@ export default function BlogCategorySection({
                   </Link>
                 </div>
 
-                <ul className="grid grid-cols-1 gap-5 sm:grid-cols-3">
+                {/* "Complete Box" (see lib/completeBox.ts): flex-basis in
+                    place of grid-cols-1/3 so a short last row (grow)
+                    stretches to fill instead of a CSS Grid leaving it
+                    blank — posts.length is dynamic per category. */}
+                <ul className="flex flex-wrap gap-5">
                   {section.posts.map((post) => (
-                    <li key={post.title} className="flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco">
+                    <li
+                      key={post.title}
+                      className="flex h-full grow basis-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco sm:basis-[calc(33.3333%-0.8333rem)]"
+                    >
                       <div className={`h-[100px] w-full ${meta.accent}`} />
                       <div className="flex flex-1 flex-col gap-2 p-5">
                         <p className="text-base leading-[1.3] font-bold text-texto">{post.title}</p>

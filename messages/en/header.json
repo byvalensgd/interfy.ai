@@ -5,52 +5,98 @@
   "closeMenu": "Close menu",
   "ctaPrimary": "Test Drive",
   "nav": {
-    "plans": "Pricing"
+    "plans": "Pricing",
+    "segmentos": "Industries",
+    "contact": "Contact"
   },
   "productsMenu": {
     "trigger": "Products",
-    "featuredEyebrow": "Flagship products",
-    "listEyebrow": "More products",
-    "featured": [
-      { "title": "Documents", "tagline": "Organize, find, and protect documents with AI at every step." },
-      { "title": "Process", "tagline": "Build visual workflows, forms, and automations with AI." },
-      { "title": "Capture", "tagline": "Capture any document — AI recognizes and organizes it all." },
-      { "title": "Sign", "tagline": "Free digital signatures with full legal validity and integration." }
-    ],
     "items": [
-      { "label": "Connect", "description": "Collaborate and communicate with your team" },
-      { "label": "Agents", "description": "AI that understands and supports your users" },
-      { "label": "Mobile", "description": "Your operation in the palm of your hand" },
-      { "label": "Voice", "description": "Talk to the platform naturally" }
-    ]
+      {
+        "title": "Documents",
+        "description": "Organize, find, and protect documents with AI at every step."
+      },
+      {
+        "title": "Process",
+        "description": "Build visual workflows, forms, and automations with AI."
+      },
+      {
+        "title": "Capture",
+        "description": "Capture any document — AI recognizes and organizes it all."
+      },
+      {
+        "title": "Sign",
+        "description": "Free digital signatures with full legal validity and integration."
+      },
+      {
+        "title": "Connect",
+        "description": "Collaborate and communicate with your team"
+      },
+      {
+        "title": "Voice",
+        "description": "Talk to the platform naturally"
+      },
+      {
+        "title": "Agents",
+        "description": "AI that understands and supports your users"
+      },
+      {
+        "title": "Interfy Platform",
+        "description": "Platform overview"
+      },
+      {
+        "title": "About Interfy"
+      },
+      {
+        "title": "Partners (Private Label)"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "Your management, wherever you are",
+      "description": "A smooth, complete mobile experience. Download the app and transform the way you work.",
+      "ctaLabel": "Learn more",
+      "imageAlt": "Interfy platform shown on tablet and smartphone",
+      "appStoreAlt": "Available on the App Store",
+      "googlePlayAlt": "Get it on Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "Resources",
     "recursosEyebrow": "Resources",
     "recursosItems": [
-      { "label": "Industries" },
-      { "label": "AI Credits" },
-      { "label": "Integrations & API" },
-      { "label": "Success Stories" }
+      {
+        "label": "AI Credits"
+      },
+      {
+        "label": "Integrations & API"
+      },
+      {
+        "label": "Interfy University"
+      },
+      {
+        "label": "Success Stories"
+      },
+      {
+        "label": "Blog / Content"
+      }
     ],
     "legalEyebrow": "Legal & Support",
     "legalItems": [
-      { "label": "Terms of Use" },
-      { "label": "Privacy Policy" },
-      { "label": "GDPR / Data Protection" },
-      { "label": "Security" },
-      { "label": "Support" },
-      { "label": "Contact" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Company",
-    "eyebrow": "Company",
-    "items": [
-      { "label": "About Interfy" },
-      { "label": "Interfy Platform" },
-      { "label": "Partners (Private Label)" },
-      { "label": "Blog / Content" }
+      {
+        "label": "Terms of Use"
+      },
+      {
+        "label": "Privacy Policy"
+      },
+      {
+        "label": "GDPR / Data Protection"
+      },
+      {
+        "label": "Security"
+      },
+      {
+        "label": "Support"
+      }
     ]
   },
   "languageSelectorAria": "Select language"

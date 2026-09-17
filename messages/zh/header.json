@@ -5,52 +5,98 @@
   "closeMenu": "关闭菜单",
   "ctaPrimary": "体验",
   "nav": {
-    "plans": "套餐"
+    "plans": "套餐",
+    "segmentos": "行业方案",
+    "contact": "联系我们"
   },
   "productsMenu": {
     "trigger": "产品",
-    "featuredEyebrow": "核心产品",
-    "listEyebrow": "更多产品",
-    "featured": [
-      { "title": "Documents", "tagline": "借助 AI，在每个环节整理、查找并保护文档。" },
-      { "title": "Process", "tagline": "使用 AI 创建可视化流程、表单与自动化。" },
-      { "title": "Capture", "tagline": "采集任意文档——AI 自动识别并归档整理。" },
-      { "title": "Sign", "tagline": "免费电子签名，具备法律效力并全面集成。" }
-    ],
     "items": [
-      { "label": "Connect", "description": "与团队协作和沟通" },
-      { "label": "Agents", "description": "理解并支持用户的 AI" },
-      { "label": "Mobile", "description": "掌上运营，随时随地" },
-      { "label": "Voice", "description": "用自然语言与平台对话" }
-    ]
+      {
+        "title": "Documents",
+        "description": "借助 AI，在每个环节整理、查找并保护文档。"
+      },
+      {
+        "title": "Process",
+        "description": "使用 AI 创建可视化流程、表单与自动化。"
+      },
+      {
+        "title": "Capture",
+        "description": "采集任意文档——AI 自动识别并归档整理。"
+      },
+      {
+        "title": "Sign",
+        "description": "免费电子签名，具备法律效力并全面集成。"
+      },
+      {
+        "title": "Connect",
+        "description": "与团队协作和沟通"
+      },
+      {
+        "title": "Voice",
+        "description": "用自然语言与平台对话"
+      },
+      {
+        "title": "Agents",
+        "description": "理解并支持用户的 AI"
+      },
+      {
+        "title": "Interfy 平台",
+        "description": "平台概览"
+      },
+      {
+        "title": "关于 Interfy"
+      },
+      {
+        "title": "合作伙伴"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "随时随地管理业务",
+      "description": "流畅完整的移动体验。下载应用程序，改变您的工作方式。",
+      "ctaLabel": "了解更多",
+      "imageAlt": "在平板电脑和智能手机上展示的 Interfy 平台",
+      "appStoreAlt": "在 App Store 上获取",
+      "googlePlayAlt": "在 Google Play 上获取"
+    }
   },
   "recursosMenu": {
     "trigger": "资源",
     "recursosEyebrow": "资源",
     "recursosItems": [
-      { "label": "行业方案" },
-      { "label": "AI 额度" },
-      { "label": "集成与 API" },
-      { "label": "成功案例" }
+      {
+        "label": "AI 额度"
+      },
+      {
+        "label": "集成与 API"
+      },
+      {
+        "label": "Interfy 大学"
+      },
+      {
+        "label": "成功案例"
+      },
+      {
+        "label": "博客 / 内容"
+      }
     ],
     "legalEyebrow": "法律与支持",
     "legalItems": [
-      { "label": "使用条款" },
-      { "label": "隐私政策" },
-      { "label": "LGPD / GDPR" },
-      { "label": "安全" },
-      { "label": "支持" },
-      { "label": "联系我们" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "公司",
-    "eyebrow": "公司",
-    "items": [
-      { "label": "关于 Interfy" },
-      { "label": "Interfy 平台" },
-      { "label": "合作伙伴" },
-      { "label": "博客 / 内容" }
+      {
+        "label": "使用条款"
+      },
+      {
+        "label": "隐私政策"
+      },
+      {
+        "label": "LGPD / GDPR"
+      },
+      {
+        "label": "安全"
+      },
+      {
+        "label": "支持"
+      }
     ]
   },
   "languageSelectorAria": "选择语言"

@@ -10,12 +10,18 @@ type Benefit = { label: string };
 
 function BenefitsRow({ ariaLabel, benefits }: { ariaLabel: string; benefits: Benefit[] }) {
   return (
+    // "Complete Box" (see lib/completeBox.ts): flex-basis per breakpoint in
+    // place of grid-cols-2/3/3/5 so a short last row (grow) stretches to
+    // fill instead of a CSS Grid leaving it blank.
     <ul
       aria-label={ariaLabel}
-      className="grid w-full grid-cols-2 items-stretch gap-10 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px] sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5"
+      className="flex w-full flex-wrap items-stretch gap-10 rounded-[20px] border border-contorno-base bg-branco px-5 py-[30px]"
     >
       {agentesBenefits.map((item, i) => (
-        <li key={item.icon} className="flex min-w-0 flex-row items-center gap-2.5">
+        <li
+          key={item.icon}
+          className="flex min-w-0 grow basis-[calc(50%-1.25rem)] flex-row items-center gap-2.5 sm:basis-[calc(33.3333%-1.6667rem)] xl:basis-[calc(20%-2rem)]"
+        >
           <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
           <span className="min-w-0 flex-1 text-sm leading-[1.2] font-bold text-texto">{benefits[i].label}</span>
         </li>

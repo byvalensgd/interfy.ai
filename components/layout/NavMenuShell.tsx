@@ -21,10 +21,18 @@ export function useClickOutside(onClose: () => void) {
 export default function NavMenuShell({
   trigger,
   panelClassName = "max-w-[1400px]",
+  radiusClassName = "rounded-[12px]",
+  unpadded = false,
   children,
 }: {
   trigger: string;
   panelClassName?: string;
+  /** Panel corner radius; override per menu to match its own Figma spec. */
+  radiusClassName?: string;
+  /** When true, the panel has no default padding and clips to its radius —
+   *  use when the menu's own content manages padding per region (e.g. a
+   *  sidebar that must bleed to the panel edge). */
+  unpadded?: boolean;
   children: (close: () => void) => ReactNode;
 }) {
   const [open, setOpen] = useState(false);
@@ -51,7 +59,7 @@ export default function NavMenuShell({
       {open && (
         <div className="fixed inset-x-0 top-[calc(var(--header-height)+4px)] z-50 flex justify-center px-5">
           <div
-            className={`w-full rounded-[12px] border border-contorno-base bg-branco p-5 shadow-[0_8px_30px_var(--color-shadow)] ${panelClassName}`}
+            className={`w-full overflow-hidden border border-contorno-base bg-branco shadow-[0_8px_30px_var(--color-shadow)] ${radiusClassName} ${unpadded ? "" : "p-5"} ${panelClassName}`}
           >
             {children(close)}
           </div>

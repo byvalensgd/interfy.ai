@@ -47,10 +47,14 @@ const DOT_SIZE = 6.4; // 20% smaller than the original 8px
 /** Icon, text, gap and padding floor at the proportion established when the
  *  card's own width floor (95px) was set against its original 110px width —
  *  frozen so later width-ceiling changes (e.g. 110 -> 120) don't also shrink
- *  every other floor along with it. */
+ *  every other floor along with it. Every floor is scaled by the
+ *  --radial-card-floor-scale custom property (globals.css zeroes it out below
+ *  a 500px viewport) so on very small phones the cards can keep shrinking
+ *  with the diagram instead of the floor holding them at their normal-mobile size. */
 const FLOOR_SCALE = 95 / 110;
-const cqwFloor = (px: number) => `clamp(${px * FLOOR_SCALE}px, ${cqw(px)}, ${px}px)`;
-const cardWidth = `clamp(${CARD_W_FLOOR}px, ${cqw(CARD_W)}, ${CARD_W}px)`;
+const cqwFloor = (px: number) =>
+  `clamp(calc(var(--radial-card-floor-scale, 1) * ${px * FLOOR_SCALE}px), ${cqw(px)}, ${px}px)`;
+const cardWidth = `clamp(calc(var(--radial-card-floor-scale, 1) * ${CARD_W_FLOOR}px), ${cqw(CARD_W)}, ${CARD_W}px)`;
 
 export type RadialDiagramItem = {
   icon: string;

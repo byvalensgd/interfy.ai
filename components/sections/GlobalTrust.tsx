@@ -4,12 +4,14 @@ import Reveal from "@/components/ui/Reveal";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { getWhiteLabelSlides } from "@/lib/i18n/paths";
 import { securityBadges } from "@/config/trust";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function GlobalTrust() {
   const locale = await getLocale();
   const { home } = await getDictionary();
   const { globalTrust } = home;
   const badges = securityBadges.map((badge, i) => ({ ...badge, ...globalTrust.security.badges[i] }));
+  const badgesBasis = getCompleteBoxBasis(badges.length);
   const whiteLabelSlides = getWhiteLabelSlides(locale);
 
   return (
@@ -77,11 +79,11 @@ export default async function GlobalTrust() {
               {globalTrust.security.title}
             </p>
           </div>
-          <ul className="grid w-full grid-cols-1 gap-2.5 sm:grid-cols-3 xl:aspect-[1756/989]">
+          <ul className="flex w-full flex-wrap gap-2.5 xl:aspect-[1756/989]">
             {badges.map((badge) => (
               <li
                 key={badge.label}
-                className="flex min-w-0 flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base px-[15px] py-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base px-[15px] py-5 text-center ${badgesBasis}`}
               >
                 <Image src={badge.icon} alt="" aria-hidden="true" width={40} height={40} />
                 <span className="w-full text-sm leading-[1.2] font-bold text-texto">{badge.label}</span>

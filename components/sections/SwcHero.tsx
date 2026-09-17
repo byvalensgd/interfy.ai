@@ -5,11 +5,13 @@ import { swcHeroTrust, swcHeroFlow } from "@/config/swc-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function SwcHero() {
   const locale = await getLocale();
   const { capture } = await getDictionary();
   const { hero } = capture;
+  const mobileCardsBasis = getCompleteBoxBasis(swcHeroTrust.length + swcHeroFlow.length);
 
   return (
     <section
@@ -28,7 +30,7 @@ export default async function SwcHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="swc-hero-heading"
@@ -85,13 +87,16 @@ export default async function SwcHero() {
         </div>
 
         {/* Below lg: trust + flow items merge into one bordered-card block
-            (icon over centered text), matching StatsBar's mobile pattern. */}
+            (icon over centered text), matching StatsBar's mobile pattern.
+            "Complete Box" (see lib/completeBox.ts) keeps every row balanced
+            within 1 item of the next and stretches a short last row instead
+            of leaving a gap. */}
         <Reveal immediate className="w-full lg:hidden">
           <ul className="flex w-full flex-wrap gap-4">
             {swcHeroTrust.map((icon, index) => (
               <li
                 key={icon}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${mobileCardsBasis}`}
               >
                 <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                 <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
@@ -102,7 +107,7 @@ export default async function SwcHero() {
             {swcHeroFlow.map((icon, index) => (
               <li
                 key={icon}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${mobileCardsBasis}`}
               >
                 <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                 <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">

@@ -28,9 +28,15 @@ function ProductResourceToggle({ label, features }: { label: string; features: s
         />
       </button>
       {open && (
-        <ul className="grid w-full grid-cols-1 gap-2.5 rounded-2xl border border-contorno-base p-5 sm:grid-cols-2">
+        // "Complete Box" (see lib/completeBox.ts): flex-basis in place of
+        // grid-cols-1/2 so a lone last feature (grow) stretches to fill
+        // instead of a CSS Grid leaving half the row blank on an odd count.
+        <ul className="flex w-full flex-wrap gap-2.5 rounded-2xl border border-contorno-base p-5">
           {features.map((feature) => (
-            <li key={feature} className="flex items-start gap-2.5 rounded-xl bg-bg-base p-2.5">
+            <li
+              key={feature}
+              className="flex min-w-0 grow basis-full items-start gap-2.5 rounded-xl bg-bg-base p-2.5 sm:basis-[calc(50%-0.3125rem)]"
+            >
               <Image src="/icons/pricing/compare-check.svg" alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
               <span className="flex min-h-[20px] items-center text-sm font-medium leading-[1.2] text-texto">{feature}</span>
             </li>

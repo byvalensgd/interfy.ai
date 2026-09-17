@@ -201,5 +201,23 @@
     "subheading": "무료로 시작해서 귀사의 문서와 프로세스로 Interfy 플랫폼을 직접 경험해보세요.",
     "primaryButton": "무료로 시작하기",
     "secondaryButton": "데모 신청하기"
+  },
+  "topBar": {
+    "title": "Interfy 블로그",
+    "search": {
+      "ariaLabel": "블로그 검색",
+      "placeholder": "블로그 검색",
+      "clearLabel": "검색 지우기",
+      "resultsCountLabel": "개의 결과를 찾았습니다",
+      "noResultsLabel": "검색 결과와 일치하는 게시물이 없습니다."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "인기 블로그 검색어",
+    "labels": [
+      "Documents - 문서 관리",
+      "Process - 비즈니스 프로세스",
+      "AI - Interfy 인공지능"
+    ]
   }
 }

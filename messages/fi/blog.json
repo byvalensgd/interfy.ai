@@ -201,5 +201,23 @@
     "subheading": "Aloita ilmaiseksi ja tutustu Interfy-alustaan omilla dokumenteillasi ja prosesseillasi.",
     "primaryButton": "Aloita ilmaiseksi",
     "secondaryButton": "Varaa demo"
+  },
+  "topBar": {
+    "title": "Interfy-blogi",
+    "search": {
+      "ariaLabel": "Hae blogista",
+      "placeholder": "Hae blogista",
+      "clearLabel": "Tyhjennä haku",
+      "resultsCountLabel": "tulos(ta) löytyi",
+      "noResultsLabel": "Hakuasi vastaavaa artikkelia ei löytynyt."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Suosituimmat blogihaut",
+    "labels": [
+      "Documents - Dokumenttienhallinta",
+      "Process - Liiketoimintaprosessit",
+      "AI - Interfyn tekoäly"
+    ]
   }
 }

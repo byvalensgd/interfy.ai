@@ -73,12 +73,18 @@ export default async function TestDriveJourney() {
           </h2>
           <p className="text-base leading-[1.2] font-medium text-texto">{timelineCard.paragraph}</p>
 
-          <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-8 sm:grid-cols-4 lg:flex lg:flex-nowrap lg:gap-x-0">
+          {/* Below lg: "Complete Box" (see lib/completeBox.ts) — flex-basis
+              keeps every row within 1 item of the next and stretches a
+              short last row instead of a CSS Grid leaving it blank (7 days
+              packs 4+3, never a lonely trailing item). At lg+: a single
+              non-wrapping row (lg:flex-nowrap overrides the basis via
+              lg:flex-1), connectors included, unchanged. */}
+          <div className="flex w-full flex-wrap items-start gap-x-6 gap-y-8 lg:flex-nowrap lg:gap-x-0">
             {journeyDays.map((day, index) => {
               const text = timelineCard.days[index];
               return (
                 <Fragment key={text.line2}>
-                  <div className="flex min-w-[100px] flex-col items-center gap-5 text-center lg:flex-1">
+                  <div className="flex min-w-[100px] grow basis-[calc(50%-0.75rem)] flex-col items-center gap-5 text-center sm:basis-[calc(25%-1.125rem)] lg:flex-1">
                     <div className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                       <Image src={day.icon} alt="" aria-hidden="true" width={30} height={30} />
                     </div>

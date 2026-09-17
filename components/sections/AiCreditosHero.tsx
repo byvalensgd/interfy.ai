@@ -10,6 +10,7 @@ import {
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function AiCreditosHero() {
   const locale = await getLocale();
@@ -18,6 +19,7 @@ export default async function AiCreditosHero() {
   const banner = aiCreditosHeroBannerItems.map((item, i) => ({ ...item, ...hero.banner[i] }));
   const stripItems = aiCreditosStripItemIcons.map((icon, i) => ({ icon, ...hero.strip.items[i] }));
   const stripItemsBlue = aiCreditosStripItemIconsBlue.map((icon, i) => ({ icon, ...hero.strip.items[i] }));
+  const stripItemsBlueBasis = getCompleteBoxBasis(stripItemsBlue.length);
 
   return (
     <section
@@ -31,7 +33,7 @@ export default async function AiCreditosHero() {
          * precise, deliberate 1024px break into two columns instead of flex-wrap's fuzzy
          * fits-or-it-doesn't threshold. */}
         <div className="grid w-full items-stretch gap-10 lg:flex-1 lg:grid-cols-[620fr_740fr]">
-          <Reveal immediate className="flex w-full flex-col items-center justify-center gap-10 text-center lg:items-start lg:text-left">
+          <Reveal immediate className="mx-auto flex w-full max-w-[900px] flex-col items-center justify-center gap-10 text-center lg:mx-0 lg:items-start lg:text-left">
             <h1
               id="ai-creditos-hero-heading"
               className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"
@@ -144,7 +146,7 @@ export default async function AiCreditosHero() {
               {stripItemsBlue.map((item) => (
                 <li
                   key={item.icon}
-                  className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                  className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${stripItemsBlueBasis}`}
                 >
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                   <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">

@@ -1,20 +1,23 @@
-export type ProductMenuItem = {
+export type PlatformMenuItem = {
   href: string;
   icon: string;
+  hasDescription: boolean;
 };
 
-/** Order matches header.json's `productsMenu.featured` array. */
-export const featuredProducts: ProductMenuItem[] = [
-  { href: "/documents", icon: "/icons/products/documents.svg" },
-  { href: "/process", icon: "/icons/products/automation.svg" },
-  { href: "/capture", icon: "/icons/products/capture.svg" },
-  { href: "/sign", icon: "/icons/products/sign.svg" },
-];
-
-/** Order matches header.json's `productsMenu.items` array (Documents/Process/Capture/Sign render as the featured cards above instead). */
-export const productsMenu: ProductMenuItem[] = [
-  { href: "/connect", icon: "/icons/products/connect.svg" },
-  { href: "/agents", icon: "/icons/products/agents.svg" },
-  { href: "/mobile", icon: "/icons/products/mobile.svg" },
-  { href: "/voice", icon: "/icons/products/voice.svg" },
+/** Order matches header.json's `productsMenu.items` array — row-major 2-column
+ *  grid per Figma node 238:1556 (PLATAFORMA - MENU). The last 2 entries reuse
+ *  the Empresa destinations and label-only styling (no description line);
+ *  Integrações & API and Cases de Sucesso were dropped — they already live
+ *  in the Recursos menu. */
+export const platformMenuItems: PlatformMenuItem[] = [
+  { href: "/documents", icon: "/icons/ecosystem-grid/documents.svg", hasDescription: true },
+  { href: "/process", icon: "/icons/ecosystem-grid/automation.svg", hasDescription: true },
+  { href: "/capture", icon: "/icons/ecosystem-grid/capture.svg", hasDescription: true },
+  { href: "/sign", icon: "/icons/ecosystem-grid/sign.svg", hasDescription: true },
+  { href: "/connect", icon: "/icons/ecosystem-grid/connect.svg", hasDescription: true },
+  { href: "/voice", icon: "/icons/ecosystem-grid/voice.svg", hasDescription: true },
+  { href: "/agents", icon: "/icons/ecosystem-grid/agents.svg", hasDescription: true },
+  { href: "/platform", icon: "/icons/footer/logo-interfy.svg", hasDescription: true },
+  { href: "/empresa/sobre", icon: "/icons/footer/pessoas-bpm.svg", hasDescription: false },
+  { href: "/parceria", icon: "/icons/footer/parceria-dss.svg", hasDescription: false },
 ];

@@ -5,52 +5,98 @@
   "closeMenu": "Închide meniul",
   "ctaPrimary": "Test Drive",
   "nav": {
-    "plans": "Planuri"
+    "plans": "Planuri",
+    "segmentos": "Segmente",
+    "contact": "Contact"
   },
   "productsMenu": {
     "trigger": "Produse",
-    "featuredEyebrow": "Produse principale",
-    "listEyebrow": "Mai multe produse",
-    "featured": [
-      { "title": "Documents", "tagline": "Organizează, găsește și protejează documente cu AI la fiecare pas." },
-      { "title": "Process", "tagline": "Creează procese vizuale, formulare și automatizări cu AI." },
-      { "title": "Capture", "tagline": "Captează orice document — AI recunoaște și organizează totul." },
-      { "title": "Sign", "tagline": "Semnătură digitală gratuită, cu valabilitate juridică și integrare completă." }
-    ],
     "items": [
-      { "label": "Connect", "description": "Colaborează și comunică cu echipa ta" },
-      { "label": "Agents", "description": "AI care înțelege și sprijină utilizatorii" },
-      { "label": "Mobile", "description": "Operațiunea ta în palma mâinii" },
-      { "label": "Voice", "description": "Vorbește cu platforma în mod natural" }
-    ]
+      {
+        "title": "Documents",
+        "description": "Organizează, găsește și protejează documente cu AI la fiecare pas."
+      },
+      {
+        "title": "Process",
+        "description": "Creează procese vizuale, formulare și automatizări cu AI."
+      },
+      {
+        "title": "Capture",
+        "description": "Captează orice document — AI recunoaște și organizează totul."
+      },
+      {
+        "title": "Sign",
+        "description": "Semnătură digitală gratuită, cu valabilitate juridică și integrare completă."
+      },
+      {
+        "title": "Connect",
+        "description": "Colaborează și comunică cu echipa ta"
+      },
+      {
+        "title": "Voice",
+        "description": "Vorbește cu platforma în mod natural"
+      },
+      {
+        "title": "Agents",
+        "description": "AI care înțelege și sprijină utilizatorii"
+      },
+      {
+        "title": "Platforma Interfy",
+        "description": "Prezentare generală a platformei"
+      },
+      {
+        "title": "Despre Interfy"
+      },
+      {
+        "title": "Parteneriat"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "Gestiunea ta, oriunde te-ai afla",
+      "description": "O experiență mobilă fluidă și completă. Descarcă aplicația și transformă modul în care lucrezi.",
+      "ctaLabel": "Află mai multe",
+      "imageAlt": "Platforma Interfy afișată pe tabletă și smartphone",
+      "appStoreAlt": "Disponibil pe App Store",
+      "googlePlayAlt": "Disponibil pe Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "Resurse",
     "recursosEyebrow": "Resurse",
     "recursosItems": [
-      { "label": "Segmente" },
-      { "label": "AI Credite" },
-      { "label": "Integrări & API" },
-      { "label": "Studii de Caz" }
+      {
+        "label": "AI Credite"
+      },
+      {
+        "label": "Integrări & API"
+      },
+      {
+        "label": "Universitatea Interfy"
+      },
+      {
+        "label": "Studii de Caz"
+      },
+      {
+        "label": "Blog / Conținut"
+      }
     ],
     "legalEyebrow": "Legal & Suport",
     "legalItems": [
-      { "label": "Termeni și Condiții" },
-      { "label": "Politici de Confidențialitate" },
-      { "label": "LGPD / GDPR" },
-      { "label": "Securitate" },
-      { "label": "Suport" },
-      { "label": "Contact" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Companie",
-    "eyebrow": "Companie",
-    "items": [
-      { "label": "Despre Interfy" },
-      { "label": "Platforma Interfy" },
-      { "label": "Parteneriat" },
-      { "label": "Blog / Conținut" }
+      {
+        "label": "Termeni și Condiții"
+      },
+      {
+        "label": "Politici de Confidențialitate"
+      },
+      {
+        "label": "LGPD / GDPR"
+      },
+      {
+        "label": "Securitate"
+      },
+      {
+        "label": "Suport"
+      }
     ]
   },
   "languageSelectorAria": "Selectează limba"

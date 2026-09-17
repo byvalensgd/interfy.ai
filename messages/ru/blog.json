@@ -201,5 +201,23 @@
     "subheading": "Начните бесплатно и исследуйте платформу Interfy на своих собственных документах и процессах.",
     "primaryButton": "Начать бесплатно",
     "secondaryButton": "Запланировать демо"
+  },
+  "topBar": {
+    "title": "Блог Interfy",
+    "search": {
+      "ariaLabel": "Поиск по блогу",
+      "placeholder": "Поиск по блогу",
+      "clearLabel": "Очистить поиск",
+      "resultsCountLabel": "найдено результат(ов)",
+      "noResultsLabel": "По вашему запросу статей не найдено."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Популярные запросы блога",
+    "labels": [
+      "Documents - Управление документами",
+      "Process - Бизнес-процессы",
+      "AI - Искусственный интеллект Interfy"
+    ]
   }
 }

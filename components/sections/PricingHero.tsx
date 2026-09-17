@@ -6,6 +6,7 @@ import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { pricingHighlights, pricingProductBadges } from "@/config/pricing";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { getHeroSlides } from "@/lib/i18n/paths";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 const highlightIcons = {
   trial: "/icons/pricing/trial.svg",
@@ -19,6 +20,10 @@ export default async function PricingHero() {
   const { pricing, common } = await getDictionary();
   const { hero } = pricing;
   const heroSlides = getHeroSlides(locale);
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const highlightsBasis = getCompleteBoxBasis(pricingHighlights.length);
 
   return (
     <section
@@ -37,7 +42,7 @@ export default async function PricingHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[520px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="pricing-hero-heading"
@@ -75,7 +80,7 @@ export default async function PricingHero() {
                 {pricingHighlights.map((item, index) => (
                   <li
                     key={item.icon}
-                    className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                    className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${highlightsBasis}`}
                   >
                     <Image src={highlightIcons[item.icon]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
                     <span className="flex min-h-[30px] w-full items-center justify-center text-sm leading-[1.2] font-bold text-texto">

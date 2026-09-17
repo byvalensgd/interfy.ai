@@ -299,3 +299,26 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
   mask-image: linear-gradient(to right, transparent, black 40px, black calc(100% - 40px), transparent);
 }
 
+/* SegurancaRadialDiagram's cards normally floor their cqw-based sizing so they stay legible
+   on a normal mobile width — below 500px that floor would start winning over the cqw value
+   outright, holding the cards at their normal-mobile size instead of continuing to shrink
+   with the (now much smaller) diagram. Zeroing the scale here removes the floor only past
+   that point, letting cqw alone govern every size the component derives from cqwFloor(). */
+@media (max-width: 500px) {
+  :root {
+    --radial-card-floor-scale: 0;
+  }
+}
+
+/* Integrações "Chamada de API" sample: reveals top-to-bottom once scrolled into view, as if
+   the snippet were being typed out. clip-path (not height/width) so it composites cheaply
+   and never reflows the card while it plays. */
+@keyframes code-build-reveal {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+

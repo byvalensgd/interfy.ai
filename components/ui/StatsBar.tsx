@@ -16,7 +16,7 @@ const sizeClasses = {
   sm: { number: "text-base", sublabel: "text-sm" },
   lg: {
     number: "text-[clamp(1.1875rem,0.1042vw+1.1667rem,1.25rem)]",
-    sublabel: "text-lg",
+    sublabel: "text-base",
   },
 } as const;
 

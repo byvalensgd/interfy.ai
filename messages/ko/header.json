@@ -5,52 +5,98 @@
   "closeMenu": "메뉴 닫기",
   "ctaPrimary": "체험하기",
   "nav": {
-    "plans": "요금제"
+    "plans": "요금제",
+    "segmentos": "산업 분야",
+    "contact": "문의하기"
   },
   "productsMenu": {
     "trigger": "제품",
-    "featuredEyebrow": "주요 제품",
-    "listEyebrow": "더 많은 제품",
-    "featured": [
-      { "title": "Documents", "tagline": "AI가 모든 단계에서 문서를 정리, 검색, 보호합니다." },
-      { "title": "Process", "tagline": "AI로 시각적 프로세스, 양식, 자동화를 만드세요." },
-      { "title": "Capture", "tagline": "모든 문서를 캡처하면 AI가 인식하고 정리합니다." },
-      { "title": "Sign", "tagline": "법적 효력을 갖춘 무료 전자서명, 완벽하게 통합됩니다." }
-    ],
     "items": [
-      { "label": "Connect", "description": "팀과 함께 협업하고 소통하세요" },
-      { "label": "Agents", "description": "사용자를 이해하고 지원하는 AI" },
-      { "label": "Mobile", "description": "손안에서 관리하는 업무" },
-      { "label": "Voice", "description": "플랫폼과 자연스럽게 대화하세요" }
-    ]
+      {
+        "title": "Documents",
+        "description": "AI가 모든 단계에서 문서를 정리, 검색, 보호합니다."
+      },
+      {
+        "title": "Process",
+        "description": "AI로 시각적 프로세스, 양식, 자동화를 만드세요."
+      },
+      {
+        "title": "Capture",
+        "description": "모든 문서를 캡처하면 AI가 인식하고 정리합니다."
+      },
+      {
+        "title": "Sign",
+        "description": "법적 효력을 갖춘 무료 전자서명, 완벽하게 통합됩니다."
+      },
+      {
+        "title": "Connect",
+        "description": "팀과 함께 협업하고 소통하세요"
+      },
+      {
+        "title": "Voice",
+        "description": "플랫폼과 자연스럽게 대화하세요"
+      },
+      {
+        "title": "Agents",
+        "description": "사용자를 이해하고 지원하는 AI"
+      },
+      {
+        "title": "Interfy 플랫폼",
+        "description": "플랫폼 개요"
+      },
+      {
+        "title": "Interfy 소개"
+      },
+      {
+        "title": "파트너십"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "언제 어디서나 관리하세요",
+      "description": "매끄럽고 완전한 모바일 경험. 앱을 다운로드하고 업무 방식을 바꿔보세요.",
+      "ctaLabel": "자세히 보기",
+      "imageAlt": "태블릿과 스마트폰에 표시된 Interfy 플랫폼",
+      "appStoreAlt": "App Store에서 다운로드",
+      "googlePlayAlt": "Google Play에서 다운로드"
+    }
   },
   "recursosMenu": {
     "trigger": "리소스",
     "recursosEyebrow": "리소스",
     "recursosItems": [
-      { "label": "산업 분야" },
-      { "label": "AI 크레딧" },
-      { "label": "연동 & API" },
-      { "label": "성공 사례" }
+      {
+        "label": "AI 크레딧"
+      },
+      {
+        "label": "연동 & API"
+      },
+      {
+        "label": "Interfy 대학"
+      },
+      {
+        "label": "성공 사례"
+      },
+      {
+        "label": "블로그 / 콘텐츠"
+      }
     ],
     "legalEyebrow": "법적 정보 & 고객지원",
     "legalItems": [
-      { "label": "이용 약관" },
-      { "label": "개인정보 보호정책" },
-      { "label": "LGPD / GDPR" },
-      { "label": "보안" },
-      { "label": "고객지원" },
-      { "label": "문의하기" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "회사",
-    "eyebrow": "회사",
-    "items": [
-      { "label": "Interfy 소개" },
-      { "label": "Interfy 플랫폼" },
-      { "label": "파트너십" },
-      { "label": "블로그 / 콘텐츠" }
+      {
+        "label": "이용 약관"
+      },
+      {
+        "label": "개인정보 보호정책"
+      },
+      {
+        "label": "LGPD / GDPR"
+      },
+      {
+        "label": "보안"
+      },
+      {
+        "label": "고객지원"
+      }
     ]
   },
   "languageSelectorAria": "언어 선택"

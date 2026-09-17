@@ -17,7 +17,7 @@ export default async function DemoHero() {
     >
       <div className="flex w-full max-w-[1400px] flex-1 items-center">
         <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-          <Reveal immediate className="flex flex-col items-center gap-8 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+          <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-8 text-center lg:mx-0 lg:max-w-[520px] lg:items-start lg:text-left">
             <h1 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto">
               {hero.headingPrefix}{" "}
               <span className="inline-block bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">

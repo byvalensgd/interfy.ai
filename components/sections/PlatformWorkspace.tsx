@@ -30,14 +30,14 @@ export default async function PlatformWorkspace() {
               >
                 <div className="flex items-center gap-[15px]">
                   <span
-                    className="flex size-[60px] shrink-0 items-center justify-center rounded-full p-3"
+                    className="flex size-[50px] shrink-0 items-center justify-center rounded-full p-2.5"
                     style={{ backgroundImage: "linear-gradient(93deg, rgba(24,106,238,0.15) 0%, rgba(183,216,255,0.1) 100%)" }}
                   >
                     <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                   </span>
-                  <p className="min-w-0 flex-1 text-xl leading-[1.2] font-bold text-texto">{item.title}</p>
+                  <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto">{item.title}</p>
                 </div>
-                <p className="text-base leading-[1.2] font-medium text-texto">{item.description}</p>
+                <p className="text-sm leading-[1.2] font-medium text-texto">{item.description}</p>
               </li>
             ))}
           </ul>

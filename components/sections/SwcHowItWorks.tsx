@@ -19,11 +19,19 @@ export default async function SwcHowItWorks() {
         </h2>
 
         <Reveal className="w-full">
-          <ol className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
+          {/* "Complete Box" (see lib/completeBox.ts): flex-basis per
+              breakpoint in place of grid-cols-1/2/4/7 so a short last row
+              (grow) stretches to fill instead of a CSS Grid leaving it
+              blank (7 items in a 2- or 4-col row lands on an incomplete
+              last row). */}
+          <ol className="flex w-full flex-wrap gap-5">
             {swcHowItWorksSteps.map((icon, index) => {
               const step = howItWorks.steps[index];
               return (
-                <li key={icon} className="flex flex-col items-center gap-10">
+                <li
+                  key={icon}
+                  className="flex min-w-0 grow basis-full flex-col items-center gap-10 sm:basis-[calc(50%-0.625rem)] lg:basis-[calc(25%-0.9375rem)] xl:basis-[calc(14.2857%-1.0714rem)]"
+                >
                   <div className="relative flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                     <span className="absolute -top-px -left-[1.33px] flex size-[18px] items-center justify-center rounded-full bg-azul-base text-[10px] leading-[1.2] font-bold text-branco">
                       {index + 1}

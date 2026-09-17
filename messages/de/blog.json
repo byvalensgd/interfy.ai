@@ -201,5 +201,23 @@
     "subheading": "Starten Sie kostenlos und erkunden Sie die Interfy-Plattform mit Ihren eigenen Dokumenten und Prozessen.",
     "primaryButton": "Kostenlos starten",
     "secondaryButton": "Demo vereinbaren"
+  },
+  "topBar": {
+    "title": "Interfy Blog",
+    "search": {
+      "ariaLabel": "Blog durchsuchen",
+      "placeholder": "Blog durchsuchen",
+      "clearLabel": "Suche löschen",
+      "resultsCountLabel": "Ergebnis(se) gefunden",
+      "noResultsLabel": "Kein Artikel für Ihre Suche gefunden."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Beliebte Blog-Suchen",
+    "labels": [
+      "Documents - Dokumentenmanagement",
+      "Process - Geschäftsprozesse",
+      "AI - Interfy Künstliche Intelligenz"
+    ]
   }
 }

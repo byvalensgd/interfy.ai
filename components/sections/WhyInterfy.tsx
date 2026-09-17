@@ -2,11 +2,13 @@ import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { whyInterfyFeatures } from "@/config/features";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function WhyInterfy() {
   const { home } = await getDictionary();
   const { whyInterfy } = home;
   const features = whyInterfyFeatures.map((feature, i) => ({ ...feature, ...whyInterfy.items[i] }));
+  const featuresBasis = getCompleteBoxBasis(features.length);
 
   return (
     <section
@@ -26,7 +28,10 @@ export default async function WhyInterfy() {
 
         <Reveal className="w-full">
           {/* Below lg: each item becomes its own bordered card ("Blocos Mobile"),
-              the site's standing icon+text mobile treatment (see StatsBar.tsx). */}
+              the site's standing icon+text mobile treatment (see StatsBar.tsx).
+              "Complete Box" (see lib/completeBox.ts) keeps every row balanced
+              within 1 item of the next and stretches a short last row instead
+              of leaving a gap. */}
           <ul
             aria-label={`${whyInterfy.headline} ${whyInterfy.headlineHighlight}`}
             className="flex w-full flex-wrap gap-4 lg:hidden"
@@ -34,7 +39,7 @@ export default async function WhyInterfy() {
             {features.map((feature) => (
               <li
                 key={feature.title}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${featuresBasis}`}
               >
                 <Image src={feature.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                 <div className="flex w-full flex-col items-center gap-2">

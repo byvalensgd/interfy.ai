@@ -44,9 +44,13 @@ export default function CasesGrid({
         <h2 className="text-center text-[clamp(1.5rem,0.8333vw+1.3333rem,2rem)] font-extrabold leading-[1.2] text-texto">
           {heading}
         </h2>
-        <ul className="grid w-full grid-cols-1 gap-6 lg:grid-cols-2">
+        {/* "Complete Box" (see lib/completeBox.ts): flex-basis in place of
+            grid-cols-1/2 so a lone last card (grow) stretches to fill
+            instead of a CSS Grid leaving half the row blank when the case
+            count is odd. */}
+        <ul className="flex w-full flex-wrap gap-6">
           {cases.map((item, i) => (
-            <Reveal key={item.client} delayMs={(i % 2) * 80}>
+            <Reveal key={item.client} delayMs={(i % 2) * 80} className="grow basis-full lg:basis-[calc(50%-0.75rem)]">
               <li className="flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco">
                 <div className="flex items-center gap-3 border-b border-contorno-base bg-bg-base p-6">
                   <span className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-azul-bg-superior">

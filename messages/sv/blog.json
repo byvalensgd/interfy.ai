@@ -201,5 +201,23 @@
     "subheading": "Kom igång gratis och utforska Interfy-plattformen med dina egna dokument och processer.",
     "primaryButton": "Kom igång gratis",
     "secondaryButton": "Boka en demo"
+  },
+  "topBar": {
+    "title": "Interfy-bloggen",
+    "search": {
+      "ariaLabel": "Sök i bloggen",
+      "placeholder": "Sök i bloggen",
+      "clearLabel": "Rensa sökning",
+      "resultsCountLabel": "resultat hittades",
+      "noResultsLabel": "Ingen artikel hittades för din sökning."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Populära blogg-sökningar",
+    "labels": [
+      "Documents - Dokumenthantering",
+      "Process - Affärsprocesser",
+      "AI - Interfy artificiell intelligens"
+    ]
   }
 }

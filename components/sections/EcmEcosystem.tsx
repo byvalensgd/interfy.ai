@@ -2,10 +2,12 @@ import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { ecmEcosystemLinks } from "@/config/ecm-page";
 import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function EcmEcosystem() {
   const { documents } = await getDictionary();
   const links = ecmEcosystemLinks.map((item, i) => ({ ...item, ...documents.ecosystem.items[i] }));
+  const ecosystemBasis = getCompleteBoxBasis(links.length);
 
   return (
     <section
@@ -20,10 +22,18 @@ export default async function EcmEcosystem() {
           {documents.ecosystem.heading} <span className="text-azul-base">{documents.ecosystem.headingHighlight}</span>
         </h2>
 
+        {/* "Complete Box" (see lib/completeBox.ts) — flex-basis keeps every
+            row within 1 item of the next and stretches a short last row
+            instead of a CSS Grid leaving it blank. At lg+: a single
+            non-wrapping row (lg:flex-nowrap overrides the basis via
+            lg:flex-1). */}
         <Reveal className="w-full">
-          <div className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-10 sm:grid-cols-3 lg:flex lg:flex-nowrap lg:gap-x-5">
+          <div className="flex w-full flex-wrap items-start gap-x-6 gap-y-10 lg:flex-nowrap lg:gap-x-5">
             {links.map((item) => (
-              <div key={item.product} className="flex min-w-[140px] flex-col items-center gap-5 text-center lg:flex-1">
+              <div
+                key={item.product}
+                className={`flex min-w-[140px] grow flex-col items-center gap-5 text-center ${ecosystemBasis} lg:flex-1`}
+              >
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>

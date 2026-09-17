@@ -6,12 +6,14 @@ import { platformHeroChipIcons } from "@/config/platform-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { getHeroSlides, withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function PlatformHero() {
   const locale = await getLocale();
   const { platform, common } = await getDictionary();
   const { hero } = platform;
   const chips = platformHeroChipIcons.map((icon, i) => ({ icon, ...hero.chips[i] }));
+  const chipCardBasis = getCompleteBoxBasis(chips.length);
   const [homeSlide, loginSlide] = getHeroSlides(locale);
   const heroSlides = [loginSlide, homeSlide];
 
@@ -32,23 +34,22 @@ export default async function PlatformHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[520fr_840fr]">
-            <Reveal immediate className="flex flex-col items-center gap-8 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-8 text-center lg:mx-0 lg:max-w-[520px] lg:items-start lg:text-left">
               <h1
                 id="platform-hero-heading"
                 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
               >
                 {hero.headingLine1}
-                <br />
-                {hero.headingLine2}
-                <br />
+                <br className="hidden lg:block" /> {hero.headingLine2}
+                <br className="hidden lg:block" />{" "}
                 <span className="inline-block bg-[linear-gradient(102deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
                   {hero.headingHighlight}
                 </span>
               </h1>
-              <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
+              <p className="text-base leading-[1.2] font-medium text-texto sm:text-lg lg:text-[clamp(1.125rem,0.48077vw+0.81731rem,1.25rem)]">
                 {hero.description1}
               </p>
-              <p className="text-[clamp(1rem,0.2083vw+0.9583rem,1.125rem)] font-medium leading-[1.2] text-texto">
+              <p className="text-base leading-[1.2] font-medium text-texto sm:text-lg lg:text-[clamp(1.125rem,0.48077vw+0.81731rem,1.25rem)]">
                 {hero.description2}
               </p>
 
@@ -84,7 +85,26 @@ export default async function PlatformHero() {
           </div>
         </div>
 
-        <Reveal immediate delayMs={200}>
+        {/* Below lg: "Blocos Mobile" — each chip becomes an equal-width card,
+            balanced via "Complete Box" (see lib/completeBox.ts). At lg+: the
+            original hug-contents row (Figma auto-layout) below. */}
+        <Reveal immediate delayMs={200} className="w-full lg:hidden">
+          <ul aria-label={hero.chipsAriaLabel} className="flex w-full flex-wrap gap-4">
+            {chips.map((chip) => (
+              <li
+                key={chip.icon}
+                className={`flex min-w-[140px] grow items-center justify-center gap-2.5 rounded-2xl border border-contorno-base bg-branco px-[15px] py-5 ${chipCardBasis}`}
+              >
+                <Image src={chip.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
+                <span className="text-base leading-[1.2] font-bold whitespace-nowrap text-texto-doc-ok">
+                  {chip.label}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal immediate delayMs={200} className="hidden w-full lg:block">
           <ul aria-label={hero.chipsAriaLabel} className="flex w-full flex-wrap items-center justify-center gap-10">
             {chips.map((chip) => (
               <li

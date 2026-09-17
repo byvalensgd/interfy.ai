@@ -23,7 +23,7 @@ export default async function EmpresaHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[minmax(0,620px)_1fr]">
-            <Reveal immediate className="flex w-full flex-col items-center gap-10 text-center lg:max-w-[620px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex w-full max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[620px] lg:items-start lg:text-left">
               <h1
                 id="empresa-hero-heading"
                 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] leading-[1.2] font-extrabold text-texto"

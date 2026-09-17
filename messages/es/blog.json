@@ -4,12 +4,19 @@
     "description": "Artículos, guías y novedades sobre gestión documental, automatización de procesos, firma electrónica e IA aplicada a operaciones empresariales.",
     "keywords": ["blog Interfy", "contenido gestión documental", "automatización de procesos", "IA para empresas"]
   },
-  "hero": {
-    "ariaLabel": "Introducción al blog",
-    "eyebrow": "Blog & Contenido",
-    "titleLine1": "Contenido para quienes",
-    "titleHighlight": "transforman operaciones",
-    "description": "Guías prácticas, novedades de producto y tendencias sobre documentos, procesos, datos e IA para empresas."
+  "topBar": {
+    "title": "Blog Interfy",
+    "search": {
+      "ariaLabel": "Buscar en el blog",
+      "placeholder": "Buscar en el blog",
+      "clearLabel": "Limpiar búsqueda",
+      "resultsCountLabel": "resultado(s) encontrado(s)",
+      "noResultsLabel": "No se encontró ningún artículo para tu búsqueda."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Búsquedas principales del blog",
+    "labels": ["Documents - Gestión Documental", "Process - Procesos de Negocio", "IA - Inteligencia Artificial Interfy"]
   },
   "featured": {
     "ariaLabel": "Artículo destacado y artículos recientes",
@@ -157,6 +164,48 @@
         "excerpt": "Cómo la captura automatizada reduce errores y acelera el ingreso de documentos al flujo de trabajo.",
         "date": "Jun 2026",
         "readTime": "5 min de lectura"
+      },
+      {
+        "category": "Gestión Documental",
+        "title": "Migrar archivos físicos a digital sin perder el historial",
+        "excerpt": "Una hoja de ruta para digitalizar archivos antiguos preservando metadatos, indexación y validez legal.",
+        "date": "Abr 2026",
+        "readTime": "7 min de lectura"
+      },
+      {
+        "category": "Procesos de Negocio",
+        "title": "Cómo medir el ROI de la automatización de procesos",
+        "excerpt": "Las métricas que realmente importan para demostrar el retorno de un proyecto de automatización a la dirección.",
+        "date": "Sep 2026",
+        "readTime": "6 min de lectura"
+      },
+      {
+        "category": "Procesos de Negocio",
+        "title": "Aprobaciones multinivel sin cuellos de botella: cómo diseñar flujos que escalan",
+        "excerpt": "Una guía práctica para distribuir niveles de aprobación sin frenar la operación en picos de demanda.",
+        "date": "May 2026",
+        "readTime": "6 min de lectura"
+      },
+      {
+        "category": "Firma Electrónica",
+        "title": "Firma calificada, avanzada o simple: cuál usar en cada caso",
+        "excerpt": "Entiende las diferencias entre los niveles de firma electrónica y elige el más adecuado para cada documento.",
+        "date": "May 2026",
+        "readTime": "6 min de lectura"
+      },
+      {
+        "category": "IA & Agentes",
+        "title": "Cómo entrenar agentes de IA con los datos de tu empresa",
+        "excerpt": "Una guía sobre bases de conocimiento, permisos y buenas prácticas para agentes internos confiables.",
+        "date": "Sep 2026",
+        "readTime": "7 min de lectura"
+      },
+      {
+        "category": "Seguridad & Compliance",
+        "title": "ISO 27001 en la práctica: qué verifican realmente los auditores",
+        "excerpt": "Los controles más exigidos en una auditoría de certificación, y cómo prepararte con antelación.",
+        "date": "Abr 2026",
+        "readTime": "6 min de lectura"
       }
     ]
   },

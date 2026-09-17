@@ -26,6 +26,7 @@ export const footerColumns: FooterColumn[] = [
       { href: "/segmentos", icon: "/icons/footer/segmentos.svg" },
       { href: "/platform/ai-creditos", icon: "/icons/footer/ai-icon.svg" },
       { href: "/platform/integracoes", icon: "/icons/footer/integracoes.svg" },
+      { href: "/universidade", icon: "/icons/footer/book.svg" },
       { href: "/cases", icon: "/icons/footer/certificado.svg" },
       { href: "/status", icon: "/icons/footer/status-plataforma.svg" },
     ],

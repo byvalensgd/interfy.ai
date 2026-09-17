@@ -5,52 +5,98 @@
   "closeMenu": "סגירת תפריט",
   "ctaPrimary": "התנסות",
   "nav": {
-    "plans": "תוכניות"
+    "plans": "תוכניות",
+    "segmentos": "תחומי פעילות",
+    "contact": "צור קשר"
   },
   "productsMenu": {
     "trigger": "מוצרים",
-    "featuredEyebrow": "המוצרים המובילים",
-    "listEyebrow": "מוצרים נוספים",
-    "featured": [
-      { "title": "Documents", "tagline": "ארגנו, מצאו והגנו על מסמכים עם AI בכל שלב." },
-      { "title": "Process", "tagline": "צרו תהליכים חזותיים, טפסים ואוטומציות עם AI." },
-      { "title": "Capture", "tagline": "סרקו כל מסמך — ה-AI מזהה ומארגן הכול." },
-      { "title": "Sign", "tagline": "חתימה דיגיטלית חינמית, עם תוקף משפטי ואינטגרציה מלאה." }
-    ],
     "items": [
-      { "label": "Connect", "description": "שתפו פעולה ותקשרו עם הצוות שלכם" },
-      { "label": "Agents", "description": "AI שמבין ותומך במשתמשים" },
-      { "label": "Mobile", "description": "התפעול שלכם בכף היד" },
-      { "label": "Voice", "description": "דברו עם הפלטפורמה בצורה טבעית" }
-    ]
+      {
+        "title": "Documents",
+        "description": "ארגנו, מצאו והגנו על מסמכים עם AI בכל שלב."
+      },
+      {
+        "title": "Process",
+        "description": "צרו תהליכים חזותיים, טפסים ואוטומציות עם AI."
+      },
+      {
+        "title": "Capture",
+        "description": "סרקו כל מסמך — ה-AI מזהה ומארגן הכול."
+      },
+      {
+        "title": "Sign",
+        "description": "חתימה דיגיטלית חינמית, עם תוקף משפטי ואינטגרציה מלאה."
+      },
+      {
+        "title": "Connect",
+        "description": "שתפו פעולה ותקשרו עם הצוות שלכם"
+      },
+      {
+        "title": "Voice",
+        "description": "דברו עם הפלטפורמה בצורה טבעית"
+      },
+      {
+        "title": "Agents",
+        "description": "AI שמבין ותומך במשתמשים"
+      },
+      {
+        "title": "פלטפורמת Interfy",
+        "description": "סקירת הפלטפורמה"
+      },
+      {
+        "title": "על Interfy"
+      },
+      {
+        "title": "שותפות"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "הניהול שלכם, בכל מקום שתהיו",
+      "description": "חוויה ניידת חלקה ומלאה. הורידו את האפליקציה ושנו את אופן העבודה שלכם.",
+      "ctaLabel": "למידע נוסף",
+      "imageAlt": "פלטפורמת Interfy מוצגת על טאבלט וסמארטפון",
+      "appStoreAlt": "זמין ב-App Store",
+      "googlePlayAlt": "זמין ב-Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "משאבים",
     "recursosEyebrow": "משאבים",
     "recursosItems": [
-      { "label": "תחומי פעילות" },
-      { "label": "AI קרדיטים" },
-      { "label": "אינטגרציות ו-API" },
-      { "label": "סיפורי הצלחה" }
+      {
+        "label": "AI קרדיטים"
+      },
+      {
+        "label": "אינטגרציות ו-API"
+      },
+      {
+        "label": "אוניברסיטת Interfy"
+      },
+      {
+        "label": "סיפורי הצלחה"
+      },
+      {
+        "label": "בלוג / תוכן"
+      }
     ],
     "legalEyebrow": "משפטי ותמיכה",
     "legalItems": [
-      { "label": "תנאי שימוש" },
-      { "label": "מדיניות פרטיות" },
-      { "label": "LGPD / GDPR" },
-      { "label": "אבטחה" },
-      { "label": "תמיכה" },
-      { "label": "צור קשר" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "החברה",
-    "eyebrow": "החברה",
-    "items": [
-      { "label": "על Interfy" },
-      { "label": "פלטפורמת Interfy" },
-      { "label": "שותפות" },
-      { "label": "בלוג / תוכן" }
+      {
+        "label": "תנאי שימוש"
+      },
+      {
+        "label": "מדיניות פרטיות"
+      },
+      {
+        "label": "LGPD / GDPR"
+      },
+      {
+        "label": "אבטחה"
+      },
+      {
+        "label": "תמיכה"
+      }
     ]
   },
   "languageSelectorAria": "בחירת שפה"

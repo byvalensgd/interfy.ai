@@ -5,6 +5,7 @@ import { ecmHeroStatIcons } from "@/config/ecm-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 const aiGradient = "linear-gradient(93.5deg, #184aee 22.863%, #bf18f6 96.412%)";
 
@@ -17,6 +18,7 @@ export default async function EcmHero() {
   const locale = await getLocale();
   const { documents } = await getDictionary();
   const stats = ecmHeroStatIcons.map((icon, i) => ({ icon, ...documents.hero.stats[i] }));
+  const statsBasis = getCompleteBoxBasis(stats.length);
   const heroMockup = locale === "pt" ? heroMockupPt : heroMockupEn;
 
   return (
@@ -36,7 +38,7 @@ export default async function EcmHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
-          <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
+          <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left">
             <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
               <h1
                 id="ecm-hero-heading"
@@ -133,13 +135,16 @@ export default async function EcmHero() {
         </div>
 
         {/* Below lg: hero stats become their own bordered-card block
-            (icon over centered text), matching the site's mobile blocks pattern. */}
+            (icon over centered text), matching the site's mobile blocks
+            pattern. "Complete Box" (see lib/completeBox.ts) keeps every row
+            balanced within 1 item of the next and stretches a short last row
+            instead of leaving a gap. */}
         <Reveal immediate delayMs={200} className="w-full lg:hidden">
           <ul className="flex w-full flex-wrap gap-4">
             {stats.map((stat) => (
               <li
                 key={stat.icon}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${statsBasis}`}
               >
                 <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                 <p className="w-full text-base leading-[1.2] font-bold text-texto-doc-ok">{stat.label}</p>

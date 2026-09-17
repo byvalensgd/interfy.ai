@@ -201,5 +201,23 @@
     "subheading": "Începeți gratuit și explorați platforma Interfy cu propriile documente și procese.",
     "primaryButton": "Începeți gratuit",
     "secondaryButton": "Programați o demonstrație"
+  },
+  "topBar": {
+    "title": "Blogul Interfy",
+    "search": {
+      "ariaLabel": "Caută în blog",
+      "placeholder": "Caută în blog",
+      "clearLabel": "Șterge căutarea",
+      "resultsCountLabel": "rezultat(e) găsit(e)",
+      "noResultsLabel": "Niciun articol găsit pentru căutarea ta."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Cele mai populare căutări din blog",
+    "labels": [
+      "Documents - Managementul documentelor",
+      "Process - Procese de afaceri",
+      "AI - Inteligența artificială Interfy"
+    ]
   }
 }

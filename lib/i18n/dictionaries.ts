@@ -34,6 +34,7 @@ const NAMESPACES = [
   "parceria",
   "empresa",
   "aiCreditos",
+  "universidade",
 ] as const;
 
 type Namespace = (typeof NAMESPACES)[number];
@@ -69,6 +70,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/pt/parceria.json"),
     empresa: () => import("@/messages/pt/empresa.json"),
     aiCreditos: () => import("@/messages/pt/ai-creditos.json"),
+    universidade: () => import("@/messages/pt/universidade.json"),
   },
   en: {
     common: () => import("@/messages/en/common.json"),
@@ -99,6 +101,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/en/parceria.json"),
     empresa: () => import("@/messages/en/empresa.json"),
     aiCreditos: () => import("@/messages/en/ai-creditos.json"),
+    universidade: () => import("@/messages/en/universidade.json"),
   },
   es: {
     common: () => import("@/messages/es/common.json"),
@@ -129,6 +132,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/es/parceria.json"),
     empresa: () => import("@/messages/es/empresa.json"),
     aiCreditos: () => import("@/messages/es/ai-creditos.json"),
+    universidade: () => import("@/messages/es/universidade.json"),
   },
   fr: {
     common: () => import("@/messages/fr/common.json"),
@@ -159,6 +163,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/fr/parceria.json"),
     empresa: () => import("@/messages/fr/empresa.json"),
     aiCreditos: () => import("@/messages/fr/ai-creditos.json"),
+    universidade: () => import("@/messages/fr/universidade.json"),
   },
   de: {
     common: () => import("@/messages/de/common.json"),
@@ -189,6 +194,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/de/parceria.json"),
     empresa: () => import("@/messages/de/empresa.json"),
     aiCreditos: () => import("@/messages/de/ai-creditos.json"),
+    universidade: () => import("@/messages/de/universidade.json"),
   },
   it: {
     common: () => import("@/messages/it/common.json"),
@@ -219,6 +225,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/it/parceria.json"),
     empresa: () => import("@/messages/it/empresa.json"),
     aiCreditos: () => import("@/messages/it/ai-creditos.json"),
+    universidade: () => import("@/messages/it/universidade.json"),
   },
   zh: {
     common: () => import("@/messages/zh/common.json"),
@@ -249,6 +256,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/zh/parceria.json"),
     empresa: () => import("@/messages/zh/empresa.json"),
     aiCreditos: () => import("@/messages/zh/ai-creditos.json"),
+    universidade: () => import("@/messages/zh/universidade.json"),
   },
   ja: {
     common: () => import("@/messages/ja/common.json"),
@@ -279,6 +287,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/ja/parceria.json"),
     empresa: () => import("@/messages/ja/empresa.json"),
     aiCreditos: () => import("@/messages/ja/ai-creditos.json"),
+    universidade: () => import("@/messages/ja/universidade.json"),
   },
   ko: {
     common: () => import("@/messages/ko/common.json"),
@@ -309,6 +318,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/ko/parceria.json"),
     empresa: () => import("@/messages/ko/empresa.json"),
     aiCreditos: () => import("@/messages/ko/ai-creditos.json"),
+    universidade: () => import("@/messages/ko/universidade.json"),
   },
   sv: {
     common: () => import("@/messages/sv/common.json"),
@@ -339,6 +349,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/sv/parceria.json"),
     empresa: () => import("@/messages/sv/empresa.json"),
     aiCreditos: () => import("@/messages/sv/ai-creditos.json"),
+    universidade: () => import("@/messages/sv/universidade.json"),
   },
   fi: {
     common: () => import("@/messages/fi/common.json"),
@@ -369,6 +380,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/fi/parceria.json"),
     empresa: () => import("@/messages/fi/empresa.json"),
     aiCreditos: () => import("@/messages/fi/ai-creditos.json"),
+    universidade: () => import("@/messages/fi/universidade.json"),
   },
   ru: {
     common: () => import("@/messages/ru/common.json"),
@@ -399,6 +411,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/ru/parceria.json"),
     empresa: () => import("@/messages/ru/empresa.json"),
     aiCreditos: () => import("@/messages/ru/ai-creditos.json"),
+    universidade: () => import("@/messages/ru/universidade.json"),
   },
   ro: {
     common: () => import("@/messages/ro/common.json"),
@@ -429,6 +442,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/ro/parceria.json"),
     empresa: () => import("@/messages/ro/empresa.json"),
     aiCreditos: () => import("@/messages/ro/ai-creditos.json"),
+    universidade: () => import("@/messages/ro/universidade.json"),
   },
   he: {
     common: () => import("@/messages/he/common.json"),
@@ -459,6 +473,7 @@ const loaders: Record<Locale, Record<Namespace, () => Promise<{ default: unknown
     parceria: () => import("@/messages/he/parceria.json"),
     empresa: () => import("@/messages/he/empresa.json"),
     aiCreditos: () => import("@/messages/he/ai-creditos.json"),
+    universidade: () => import("@/messages/he/universidade.json"),
   },
 };
 

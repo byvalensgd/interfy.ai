@@ -5,6 +5,7 @@ import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { parceriaHeroBannerIcons } from "@/config/parceria-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { getWhiteLabelSlides } from "@/lib/i18n/paths";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function ParceriaHero() {
   const locale = await getLocale();
@@ -12,6 +13,10 @@ export default async function ParceriaHero() {
   const { hero } = parceria;
   const banner = parceriaHeroBannerIcons.map((icon, i) => ({ icon, ...hero.banner[i] }));
   const heroSlides = getWhiteLabelSlides(locale);
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const bannerBasis = getCompleteBoxBasis(banner.length);
 
   return (
     <section
@@ -23,7 +28,7 @@ export default async function ParceriaHero() {
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
             <Reveal
               immediate
-              className="mx-auto flex w-full flex-col items-center gap-[30px] text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left"
+              className="mx-auto flex w-full max-w-[900px] flex-col items-center gap-[30px] text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left"
             >
               <div className="flex w-full flex-col items-center gap-[30px] lg:items-start">
                 <h1
@@ -79,7 +84,7 @@ export default async function ParceriaHero() {
             {banner.map((item) => (
               <li
                 key={item.icon}
-                className="flex min-w-[240px] flex-1 flex-col items-center gap-2.5 rounded-2xl border border-contorno-base bg-branco p-5"
+                className={`flex min-w-[240px] grow flex-col items-center gap-2.5 rounded-2xl border border-contorno-base bg-branco p-5 ${bannerBasis}`}
               >
                 <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
                 <p className="w-full text-center text-base leading-[1.2] font-bold text-texto">{item.title}</p>

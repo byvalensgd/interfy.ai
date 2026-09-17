@@ -16,11 +16,14 @@ export default async function AiCreditosStructure() {
           <span className="text-azul-base">{structure.headingHighlight}</span>
         </h2>
 
-        <ul aria-label={structure.ariaLabel} className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        {/* "Complete Box" (see lib/completeBox.ts): flex-basis per breakpoint
+            in place of grid-cols-1/2/3/5 so a short last row (grow)
+            stretches to fill instead of a CSS Grid leaving it blank. */}
+        <ul aria-label={structure.ariaLabel} className="flex w-full flex-wrap gap-5">
           {items.map((item) => (
             <li
               key={item.title}
-              className="flex min-w-[200px] flex-1 flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center"
+              className="flex min-w-[200px] grow basis-full flex-col items-center gap-5 rounded-[20px] border border-contorno-base px-[15px] py-5 text-center sm:basis-[calc(50%-0.625rem)] lg:basis-[calc(33.3333%-0.8333rem)] xl:basis-[calc(20%-1rem)]"
             >
               <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
               <div className="flex w-full flex-col gap-2.5 px-2.5">

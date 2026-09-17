@@ -201,5 +201,23 @@
     "subheading": "Inizia gratis ed esplora la piattaforma Interfy con i tuoi documenti e processi.",
     "primaryButton": "Inizia gratis",
     "secondaryButton": "Prenota una demo"
+  },
+  "topBar": {
+    "title": "Blog Interfy",
+    "search": {
+      "ariaLabel": "Cerca nel blog",
+      "placeholder": "Cerca nel blog",
+      "clearLabel": "Cancella ricerca",
+      "resultsCountLabel": "risultato/i trovato/i",
+      "noResultsLabel": "Nessun articolo trovato per la tua ricerca."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "Ricerche più popolari del blog",
+    "labels": [
+      "Documents - Gestione documentale",
+      "Process - Processi aziendali",
+      "AI - Intelligenza artificiale Interfy"
+    ]
   }
 }

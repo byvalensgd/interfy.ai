@@ -18,10 +18,17 @@ export default async function DssHowItWorks() {
           <span className="text-azul-base">{howItWorks.headingProduct}</span>
         </h2>
 
+        {/* "Complete Box" (see lib/completeBox.ts): flex-basis (hand-calculated
+            for this row's gap-5) in place of a bare flex-1, so every row stays
+            within 1 item of the next and a short last row stretches (grow) to
+            fill instead of an uneven greedy wrap. */}
         <Reveal className="w-full">
           <ol className="flex w-full flex-wrap items-start gap-5">
             {dssHowItWorksSteps.map((step, index) => (
-              <li key={step.number} className="flex min-w-[140px] flex-1 flex-col items-center gap-5">
+              <li
+                key={step.number}
+                className="flex min-w-[140px] grow basis-[calc(50%-0.625rem)] flex-col items-center gap-5 sm:basis-[calc(33.3333%-0.8333rem)]"
+              >
                 <div className="relative flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <span className="absolute -top-px -left-[1.33px] flex size-[18px] items-center justify-center rounded-full bg-azul-base text-[10px] leading-[1.2] font-bold text-branco">
                     {step.number}

@@ -5,33 +5,42 @@
   "closeMenu": "Fechar menu",
   "ctaPrimary": "Test Drive",
   "nav": {
-    "plans": "Planos"
+    "segmentos": "Segmentos",
+    "plans": "Planos",
+    "contact": "Contato"
   },
   "productsMenu": {
-    "trigger": "Produtos",
-    "featuredEyebrow": "Principais produtos",
-    "listEyebrow": "Mais produtos",
-    "featured": [
-      { "title": "Documents", "tagline": "Organize, encontre e proteja documentos com AI em cada etapa." },
-      { "title": "Process", "tagline": "Crie processos visuais, formulários e automações com AI." },
-      { "title": "Capture", "tagline": "Capture qualquer documento — a AI reconhece e organiza tudo." },
-      { "title": "Sign", "tagline": "Assinatura digital grátis, com validade jurídica e integração total." }
-    ],
+    "trigger": "Plataforma",
     "items": [
-      { "label": "Connect", "description": "Colabore e comunique-se com sua equipe" },
-      { "label": "Agents", "description": "IA que entende e apoia usuários" },
-      { "label": "Mobile", "description": "Sua operação na palma da mão" },
-      { "label": "Voice", "description": "Fale com a plataforma de forma natural" }
-    ]
+      { "title": "Documents", "description": "Organize e proteja documentos com AI." },
+      { "title": "Process", "description": "Processos visuais e automações com AI." },
+      { "title": "Capture", "description": "AI reconhece e organiza qualquer documento." },
+      { "title": "Sign", "description": "Assinatura digital grátis e com validade jurídica." },
+      { "title": "Connect", "description": "Colabore e comunique-se com sua equipe" },
+      { "title": "Voice", "description": "Fale com a plataforma de forma natural" },
+      { "title": "Agents", "description": "IA que entende e apoia usuários" },
+      { "title": "Plataforma Interfy", "description": "Visão geral da plataforma" },
+      { "title": "Sobre a Interfy" },
+      { "title": "Parceria" }
+    ],
+    "mobilePromo": {
+      "heading": "Sua gestão, onde você estiver",
+      "description": "Uma experiência mobile fluida e completa. Baixe o app e transforme sua forma de trabalhar",
+      "ctaLabel": "Veja mais",
+      "imageAlt": "Plataforma Interfy exibida em tablet e smartphone",
+      "appStoreAlt": "Disponível na App Store",
+      "googlePlayAlt": "Disponível no Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "Recursos",
     "recursosEyebrow": "Recursos",
     "recursosItems": [
-      { "label": "Segmentos" },
       { "label": "AI Créditos" },
       { "label": "Integrações & API" },
-      { "label": "Cases de Sucesso" }
+      { "label": "Universidade Interfy" },
+      { "label": "Cases de Sucesso" },
+      { "label": "Blog / Conteúdo" }
     ],
     "legalEyebrow": "Legal & Suporte",
     "legalItems": [
@@ -39,18 +48,7 @@
       { "label": "Políticas de Privacidade" },
       { "label": "LGPD / GDPR" },
       { "label": "Segurança" },
-      { "label": "Suporte" },
-      { "label": "Contato" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Empresa",
-    "eyebrow": "Empresa",
-    "items": [
-      { "label": "Sobre a Interfy" },
-      { "label": "Plataforma Interfy" },
-      { "label": "Parceria" },
-      { "label": "Blog / Conteúdo" }
+      { "label": "Suporte" }
     ]
   },
   "languageSelectorAria": "Selecionar idioma"

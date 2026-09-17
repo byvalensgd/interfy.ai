@@ -2,10 +2,15 @@ import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { mobileEcosystemLinks } from "@/config/mobile-page";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function MobileEcosystem() {
   const { mobile } = await getDictionary();
   const { ecosystem } = mobile;
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const itemsBasis = getCompleteBoxBasis(mobileEcosystemLinks.length);
 
   return (
     <section aria-labelledby="mobile-ecosystem-heading" className="flex justify-center bg-branco px-5 py-10 sm:py-16">
@@ -20,7 +25,7 @@ export default async function MobileEcosystem() {
         <Reveal className="w-full">
           <div className="flex w-full flex-wrap items-start gap-5">
             {mobileEcosystemLinks.map((item, i) => (
-              <div key={item.product} className="flex min-w-[140px] flex-1 flex-col items-center gap-5">
+              <div key={item.product} className={`flex min-w-[140px] grow flex-col items-center gap-5 ${itemsBasis}`}>
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>

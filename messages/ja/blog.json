@@ -201,5 +201,23 @@
     "subheading": "無料で始めて、貴社の文書とプロセスでInterfyプラットフォームを体験してください。",
     "primaryButton": "無料で始める",
     "secondaryButton": "デモを予約する"
+  },
+  "topBar": {
+    "title": "Interfyブログ",
+    "search": {
+      "ariaLabel": "ブログを検索",
+      "placeholder": "ブログを検索",
+      "clearLabel": "検索をクリア",
+      "resultsCountLabel": "件の結果が見つかりました",
+      "noResultsLabel": "検索に一致する記事が見つかりませんでした。"
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "人気のブログ検索",
+    "labels": [
+      "Documents - ドキュメント管理",
+      "Process - ビジネスプロセス",
+      "AI - Interfyの人工知能"
+    ]
   }
 }

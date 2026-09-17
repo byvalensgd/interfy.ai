@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Reveal from "@/components/ui/Reveal";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 type Post = { category: string; title: string; excerpt: string; date: string; readTime: string };
 
@@ -26,6 +27,7 @@ export default function BlogGrid({
 }) {
   const [active, setActive] = useState<string | null>(null);
   const visible = active ? posts.filter((p) => p.category === active) : posts;
+  const basis = getCompleteBoxBasis(visible.length);
 
   return (
     <section id="todos-artigos" aria-label={ariaLabel} className="flex scroll-mt-[calc(var(--header-height)+20px)] justify-center px-5 py-10 sm:py-16">
@@ -60,9 +62,13 @@ export default function BlogGrid({
           ))}
         </ul>
 
-        <ul className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {/* "Complete Box" (see lib/completeBox.ts): flex-basis in place of
+            grid-cols so a short last row (grow) stretches to fill instead of
+            a CSS Grid leaving it blank — visible.length changes with the
+            category filter above, so the basis is recomputed every render. */}
+        <ul className="flex w-full flex-wrap gap-6">
           {visible.map((post, i) => (
-            <Reveal key={post.title} delayMs={(i % 3) * 80}>
+            <Reveal key={post.title} delayMs={(i % 4) * 80} className={`grow ${basis}`}>
               <li className="flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco">
                 <div className={`relative flex h-[140px] w-full items-end p-4 ${accentByIndex[i % accentByIndex.length]}`}>
                   <span className="rounded-full bg-branco/90 px-3 py-1 text-xs font-bold leading-[1.2] text-texto">

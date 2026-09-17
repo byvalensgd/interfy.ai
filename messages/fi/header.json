@@ -5,52 +5,98 @@
   "closeMenu": "Sulje valikko",
   "ctaPrimary": "Kokeilu",
   "nav": {
-    "plans": "Hinnoittelu"
+    "plans": "Hinnoittelu",
+    "segmentos": "Toimialat",
+    "contact": "Yhteystiedot"
   },
   "productsMenu": {
     "trigger": "Tuotteet",
-    "featuredEyebrow": "Tärkeimmät tuotteet",
-    "listEyebrow": "Lisää tuotteita",
-    "featured": [
-      { "title": "Documents", "tagline": "Järjestä, löydä ja suojaa dokumentit AI:n avulla jokaisessa vaiheessa." },
-      { "title": "Process", "tagline": "Luo visuaalisia prosesseja, lomakkeita ja automaatioita AI:n kanssa." },
-      { "title": "Capture", "tagline": "Kaappaa mikä tahansa dokumentti — AI tunnistaa ja järjestää kaiken." },
-      { "title": "Sign", "tagline": "Ilmainen digitaalinen allekirjoitus, oikeudellisesti pätevä ja täysin integroitu." }
-    ],
     "items": [
-      { "label": "Connect", "description": "Tee yhteistyötä ja viesti tiimisi kanssa" },
-      { "label": "Agents", "description": "AI, joka ymmärtää ja tukee käyttäjiä" },
-      { "label": "Mobile", "description": "Toimintasi kämmenelläsi" },
-      { "label": "Voice", "description": "Keskustele alustan kanssa luonnollisesti" }
-    ]
+      {
+        "title": "Documents",
+        "description": "Järjestä, löydä ja suojaa dokumentit AI:n avulla jokaisessa vaiheessa."
+      },
+      {
+        "title": "Process",
+        "description": "Luo visuaalisia prosesseja, lomakkeita ja automaatioita AI:n kanssa."
+      },
+      {
+        "title": "Capture",
+        "description": "Kaappaa mikä tahansa dokumentti — AI tunnistaa ja järjestää kaiken."
+      },
+      {
+        "title": "Sign",
+        "description": "Ilmainen digitaalinen allekirjoitus, oikeudellisesti pätevä ja täysin integroitu."
+      },
+      {
+        "title": "Connect",
+        "description": "Tee yhteistyötä ja viesti tiimisi kanssa"
+      },
+      {
+        "title": "Voice",
+        "description": "Keskustele alustan kanssa luonnollisesti"
+      },
+      {
+        "title": "Agents",
+        "description": "AI, joka ymmärtää ja tukee käyttäjiä"
+      },
+      {
+        "title": "Interfy-alusta",
+        "description": "Alustan yleiskatsaus"
+      },
+      {
+        "title": "Tietoa Interfystä"
+      },
+      {
+        "title": "Kumppanuus"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "Hallintasi, missä tahansa oletkin",
+      "description": "Sujuva ja täydellinen mobiilikokemus. Lataa sovellus ja muuta tapaasi työskennellä.",
+      "ctaLabel": "Lue lisää",
+      "imageAlt": "Interfy-alusta näytettynä tabletilla ja älypuhelimella",
+      "appStoreAlt": "Saatavilla App Storessa",
+      "googlePlayAlt": "Saatavilla Google Playssa"
+    }
   },
   "recursosMenu": {
     "trigger": "Resurssit",
     "recursosEyebrow": "Resurssit",
     "recursosItems": [
-      { "label": "Toimialat" },
-      { "label": "AI-krediitit" },
-      { "label": "Integraatiot & API" },
-      { "label": "Asiakastarinat" }
+      {
+        "label": "AI-krediitit"
+      },
+      {
+        "label": "Integraatiot & API"
+      },
+      {
+        "label": "Interfy-yliopisto"
+      },
+      {
+        "label": "Asiakastarinat"
+      },
+      {
+        "label": "Blogi / Sisältö"
+      }
     ],
     "legalEyebrow": "Lakiasiat & Tuki",
     "legalItems": [
-      { "label": "Käyttöehdot" },
-      { "label": "Tietosuojakäytäntö" },
-      { "label": "LGPD / GDPR" },
-      { "label": "Tietoturva" },
-      { "label": "Tuki" },
-      { "label": "Yhteystiedot" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Yritys",
-    "eyebrow": "Yritys",
-    "items": [
-      { "label": "Tietoa Interfystä" },
-      { "label": "Interfy-alusta" },
-      { "label": "Kumppanuus" },
-      { "label": "Blogi / Sisältö" }
+      {
+        "label": "Käyttöehdot"
+      },
+      {
+        "label": "Tietosuojakäytäntö"
+      },
+      {
+        "label": "LGPD / GDPR"
+      },
+      {
+        "label": "Tietoturva"
+      },
+      {
+        "label": "Tuki"
+      }
     ]
   },
   "languageSelectorAria": "Valitse kieli"

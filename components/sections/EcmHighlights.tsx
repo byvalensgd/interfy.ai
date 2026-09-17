@@ -20,11 +20,11 @@ export default async function EcmHighlights() {
                 <p className="text-[24px] leading-[1.2] font-bold text-branco">{mobileBlock.title}</p>
                 <p className="text-sm leading-[1.2] font-medium text-branco">{mobileBlock.description}</p>
               </div>
-              <ul className="flex flex-col items-start gap-[15px]">
+              <ul className="flex w-full flex-col items-start gap-[15px]">
                 {mobileBlock.checklist.map((item: string) => (
-                  <li key={item} className="flex items-center gap-2.5">
+                  <li key={item} className="flex w-full items-center gap-2.5">
                     <Image src="/icons/ecm/checkin-white.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
-                    <span className="text-sm leading-[1.2] font-medium text-branco">{item}</span>
+                    <span className="min-w-0 flex-1 text-sm leading-[1.2] font-medium text-branco">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -46,11 +46,11 @@ export default async function EcmHighlights() {
                 <p className="text-[24px] leading-[1.2] font-bold text-texto">{securityBlock.title}</p>
                 <p className="text-sm leading-[1.2] font-medium text-texto">{securityBlock.description}</p>
               </div>
-              <ul className="flex flex-col items-start gap-[15px]">
+              <ul className="flex w-full flex-col items-start gap-[15px]">
                 {securityBlock.checklist.map((item: string) => (
-                  <li key={item} className="flex items-center gap-2.5">
+                  <li key={item} className="flex w-full items-center gap-2.5">
                     <Image src="/icons/ecm/checkin-blue.svg" alt="" aria-hidden="true" width={16} height={16} className="shrink-0" />
-                    <span className="text-sm leading-[1.2] font-medium text-texto">{item}</span>
+                    <span className="min-w-0 flex-1 text-sm leading-[1.2] font-medium text-texto">{item}</span>
                   </li>
                 ))}
               </ul>

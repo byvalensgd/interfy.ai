@@ -6,6 +6,7 @@ import { voiceHeroHighlights, voicePlatformCards } from "@/config/voice-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { getHeroSlides, withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function VoiceHero() {
   const locale = await getLocale();
@@ -13,6 +14,7 @@ export default async function VoiceHero() {
   const { hero } = voice;
   // Same "logged in" dashboard screenshot as the Home hero's second slide.
   const [, heroMockup] = getHeroSlides(locale);
+  const highlightsBasis = getCompleteBoxBasis(voiceHeroHighlights.length);
 
   return (
     <section
@@ -24,7 +26,7 @@ export default async function VoiceHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[620fr_760fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[620px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[620px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="voice-hero-heading"
@@ -64,12 +66,14 @@ export default async function VoiceHero() {
 
               {/* Below lg: each highlight becomes its own bordered card (icon
                   over centered text), matching the site's "Blocos Mobile"
-                  pattern. */}
+                  pattern. "Complete Box" (see lib/completeBox.ts) keeps every
+                  row balanced within 1 item of the next and stretches a short
+                  last row instead of leaving a gap. */}
               <ul className="flex w-full flex-wrap gap-4 lg:hidden">
                 {voiceHeroHighlights.map((item, i) => (
                   <li
                     key={item.icon}
-                    className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                    className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${highlightsBasis}`}
                   >
                     <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                     <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">
@@ -107,11 +111,15 @@ export default async function VoiceHero() {
         </div>
 
         <Reveal immediate delayMs={200} className="w-full">
+          {/* "Complete Box" pattern with a hand-calculated basis (gap-[30px]
+              doesn't match the lib/completeBox.ts helper's gap-4 assumption):
+              2-col until there's room for all 3 side by side, so a wrapped
+              last row always stretches full width instead of leaving a gap. */}
           <ul className="flex w-full flex-wrap items-stretch justify-center gap-[30px]">
             {voicePlatformCards.map((item, i) => (
               <li
                 key={item.icon}
-                className="flex min-w-[320px] flex-1 flex-col items-start gap-5 rounded-[20px] border border-contorno-base bg-branco p-5"
+                className="flex min-w-[320px] grow basis-[calc(50%-0.9375rem)] flex-col items-start gap-5 rounded-[20px] border border-contorno-base bg-branco p-5 sm:basis-[calc(33.3333%-1.25rem)]"
               >
                 <div className="flex w-full items-center gap-5">
                   <Image src={item.icon} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />

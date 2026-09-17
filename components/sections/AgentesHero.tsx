@@ -21,7 +21,7 @@ export default async function AgentesHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
-            <Reveal immediate className="order-1 flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
+            <Reveal immediate className="order-1 mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-8 text-center lg:items-start lg:text-left">
                 <h1
                   id="agentes-hero-heading"

@@ -1,4 +1,5 @@
-import SimpleHero from "@/components/sections/SimpleHero";
+import BlogSearchBar from "@/components/sections/BlogSearchBar";
+import BlogTopSearches from "@/components/sections/BlogTopSearches";
 import BlogFeatured from "@/components/sections/BlogFeatured";
 import BlogCategorySection from "@/components/sections/BlogCategorySection";
 import BlogGrid from "@/components/sections/BlogGrid";
@@ -26,14 +27,8 @@ export default async function BlogPage() {
 
   return (
     <>
-      <SimpleHero
-        ariaLabel={blog.hero.ariaLabel}
-        headingId="blog-hero-heading"
-        eyebrow={blog.hero.eyebrow}
-        titleLine1={blog.hero.titleLine1}
-        titleHighlight={blog.hero.titleHighlight}
-        description={blog.hero.description}
-      />
+      <BlogSearchBar title={blog.topBar.title} search={blog.topBar.search} posts={blog.grid.posts} />
+      <BlogTopSearches ariaLabel={blog.topSearches.ariaLabel} labels={blog.topSearches.labels} />
       <BlogFeatured
         ariaLabel={blog.featured.ariaLabel}
         heading={blog.featured.heading}

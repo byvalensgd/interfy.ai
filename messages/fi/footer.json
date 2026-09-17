@@ -11,56 +11,126 @@
     {
       "title": "Tuotteet",
       "links": [
-        { "label": "Documents" },
-        { "label": "Process" },
-        { "label": "Capture" },
-        { "label": "Sign" },
-        { "label": "Connect" },
-        { "label": "Agents" },
-        { "label": "Mobile" },
-        { "label": "Voice" }
+        {
+          "label": "Documents"
+        },
+        {
+          "label": "Process"
+        },
+        {
+          "label": "Capture"
+        },
+        {
+          "label": "Sign"
+        },
+        {
+          "label": "Connect"
+        },
+        {
+          "label": "Agents"
+        },
+        {
+          "label": "Mobile"
+        },
+        {
+          "label": "Voice"
+        }
       ]
     },
     {
       "title": "Resurssit",
       "links": [
-        { "label": "Toimialat" },
-        { "label": "AI-krediitit" },
-        { "label": "Integraatiot & API" },
-        { "label": "Asiakastarinat" },
-        { "label": "Alustan tila" }
+        {
+          "label": "Toimialat"
+        },
+        {
+          "label": "AI-krediitit"
+        },
+        {
+          "label": "Integraatiot & API"
+        },
+        {
+          "label": "Interfy-yliopisto"
+        },
+        {
+          "label": "Asiakastarinat"
+        },
+        {
+          "label": "Alustan tila"
+        }
       ]
     },
     {
       "title": "Yritys",
       "links": [
-        { "label": "Tietoa Interfystä" },
-        { "label": "Interfy-alusta" },
-        { "label": "Test Drive" },
-        { "label": "Kumppanit (Private Label)" },
-        { "label": "Blogi / Sisältö" }
+        {
+          "label": "Tietoa Interfystä"
+        },
+        {
+          "label": "Interfy-alusta"
+        },
+        {
+          "label": "Test Drive"
+        },
+        {
+          "label": "Kumppanit (Private Label)"
+        },
+        {
+          "label": "Blogi / Sisältö"
+        }
       ]
     },
     {
       "title": "Lakiasiat & Tuki",
       "links": [
-        { "label": "Käyttöehdot" },
-        { "label": "Tietosuojakäytäntö" },
-        { "label": "LGPD / GDPR" },
-        { "label": "Tietoturva" },
-        { "label": "Tuki" },
-        { "label": "Yhteystiedot" }
+        {
+          "label": "Käyttöehdot"
+        },
+        {
+          "label": "Tietosuojakäytäntö"
+        },
+        {
+          "label": "LGPD / GDPR"
+        },
+        {
+          "label": "Tietoturva"
+        },
+        {
+          "label": "Tuki"
+        },
+        {
+          "label": "Yhteystiedot"
+        }
       ]
     }
   ],
   "globalLine": "Globaali alusta, käytössä yli 180 maassa",
   "regionsIntro": "Alueellisilla myyntisivuilla seuraaville markkinoille:",
-  "regions": ["Yhdysvallat", "Eurooppa", "LATAM", "Brasilia", "Aasia", "Afrikka"],
+  "regions": [
+    "Yhdysvallat",
+    "Eurooppa",
+    "LATAM",
+    "Brasilia",
+    "Aasia",
+    "Afrikka"
+  ],
   "trustItems": [
-    { "title": "Enterprise-tason tietoturva", "description": "AES-256 / TLS 1.3 -salaus" },
-    { "title": "Globaali AWS-infrastruktuuri", "description": "Korkea käytettävyys ja skaalautuvuus" },
-    { "title": "Globaali vaatimustenmukaisuus", "description": "LGPD, GDPR ja ISO 27001" },
-    { "title": "99,98 % Uptime SLA", "description": "24/7-valvonta" }
+    {
+      "title": "Enterprise-tason tietoturva",
+      "description": "AES-256 / TLS 1.3 -salaus"
+    },
+    {
+      "title": "Globaali AWS-infrastruktuuri",
+      "description": "Korkea käytettävyys ja skaalautuvuus"
+    },
+    {
+      "title": "Globaali vaatimustenmukaisuus",
+      "description": "LGPD, GDPR ja ISO 27001"
+    },
+    {
+      "title": "99,98 % Uptime SLA",
+      "description": "24/7-valvonta"
+    }
   ],
   "copyright": {
     "brand": "Interfy Corporation",

@@ -5,11 +5,13 @@ import { dssHeroFeatureChips } from "@/config/dss-page";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function DssHero() {
   const locale = await getLocale();
   const { sign } = await getDictionary();
   const hero = sign.hero;
+  const heroFeatureChipsBasis = getCompleteBoxBasis(dssHeroFeatureChips.length);
 
   return (
     <section
@@ -28,7 +30,7 @@ export default async function DssHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left">
               <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
                 <h1
                   id="dss-hero-heading"
@@ -90,13 +92,16 @@ export default async function DssHero() {
         </div>
 
         {/* Below lg: each chip becomes its own bordered card (icon over
-            centered text), matching StatsBar/SwcHero's mobile pattern. */}
+            centered text), matching StatsBar/SwcHero's mobile pattern.
+            "Complete Box" (see lib/completeBox.ts) keeps every row balanced
+            within 1 item of the next and stretches a short last row instead
+            of leaving a gap. */}
         <Reveal immediate delayMs={200} className="w-full lg:hidden">
           <ul className="flex w-full flex-wrap gap-4">
             {dssHeroFeatureChips.map((item, index) => (
               <li
                 key={item.icon}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${heroFeatureChipsBasis}`}
               >
                 <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                 <p className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 import { integracoesSecurityIcons } from "@/config/integracoes-page";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 
@@ -16,7 +17,10 @@ export default async function IntegracoesSecurityHighlight() {
         className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-[20px] border border-contorno-base p-5"
         style={{ backgroundImage: cardBackground }}
       >
-        <div className="flex min-w-[280px] max-w-[540px] flex-1 items-center gap-5">
+        {/* Below md: illustration stacks above the text and the text centers, matching the
+            sitewide stacked-layout convention — the text's own min-w-280 only makes sense
+            once it's sharing a row with the illustration, so it's dropped in that state. */}
+        <div className="flex min-w-[280px] max-w-[540px] flex-1 flex-col items-center gap-5 md:flex-row">
           <div className="relative h-[150px] w-[151px] shrink-0">
             <Image
               src="/icons/integracoes/security/shield-illustration.webp"
@@ -27,23 +31,49 @@ export default async function IntegracoesSecurityHighlight() {
               className="object-contain"
             />
           </div>
-          <div className="flex min-w-[280px] flex-1 flex-col gap-[30px]">
-            <h2 id="integracoes-security-heading" className="text-2xl leading-[1.2] font-bold text-texto">
+          <div className="flex min-w-0 flex-1 flex-col gap-[30px] md:min-w-[280px]">
+            <h2
+              id="integracoes-security-heading"
+              className="text-center text-2xl leading-[1.2] font-bold text-texto md:text-left"
+            >
               {securityHighlight.headingPrefix}
               <span className="bg-[linear-gradient(112deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
                 {securityHighlight.headingHighlight}
               </span>
             </h2>
-            <p className="text-base leading-[1.2] font-medium text-texto">{securityHighlight.description}</p>
+            <p className="text-center text-base leading-[1.2] font-medium text-texto md:text-left">
+              {securityHighlight.description}
+            </p>
           </div>
         </div>
 
+        {/* Below lg: Blocos Mobile — each standard becomes its own bordered card. "Complete
+            Box" (see lib/completeBox.ts) keeps the wrap balanced (2 cols, 3 from sm) instead
+            of a short last row leaving a gap. */}
+        <ul aria-label={securityHighlight.itemsAriaLabel} className="flex w-full flex-wrap gap-4 lg:hidden">
+          {items.map((item) => (
+            <li
+              key={item.label}
+              className={`flex grow min-w-[140px] ${getCompleteBoxBasis(items.length)} flex-col items-center gap-[15px] rounded-[14px] border border-contorno-base bg-branco p-4 text-center`}
+            >
+              <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} className="shrink-0" />
+              <p className="w-full text-sm leading-[1.2] font-bold text-texto">{item.label}</p>
+            </li>
+          ))}
+        </ul>
+
+        {/* "Complete Box" (see lib/completeBox.ts): flex-basis (hand-calculated for this
+            row's gap-[15px] and its 5-col layout) in place of grid-cols-5, so a short last
+            row (grow) stretches to fill instead of a CSS Grid leaving it blank. */}
         <ul
           aria-label={securityHighlight.itemsAriaLabel}
-          className="grid min-w-[280px] flex-1 grid-cols-2 gap-[15px] sm:grid-cols-3 lg:grid-cols-5"
+          className="hidden min-w-[280px] flex-1 flex-wrap gap-[15px] lg:flex"
         >
           {items.map((item) => (
-            <li key={item.label} className="flex flex-col items-center gap-[15px] text-center">
+            <li
+              key={item.label}
+              className="flex min-w-0 grow basis-[calc(20%-0.75rem)] flex-col items-center gap-[15px] text-center"
+            >
               <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} className="shrink-0" />
               <p className="w-full text-sm leading-[1.2] font-bold text-texto">{item.label}</p>
             </li>

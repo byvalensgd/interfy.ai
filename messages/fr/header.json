@@ -5,52 +5,98 @@
   "closeMenu": "Fermer le menu",
   "ctaPrimary": "Essai",
   "nav": {
-    "plans": "Tarifs"
+    "plans": "Tarifs",
+    "segmentos": "Secteurs",
+    "contact": "Contact"
   },
   "productsMenu": {
     "trigger": "Produits",
-    "featuredEyebrow": "Produits phares",
-    "listEyebrow": "Plus de produits",
-    "featured": [
-      { "title": "Documents", "tagline": "Organisez, retrouvez et protégez vos documents grâce à l'IA à chaque étape." },
-      { "title": "Process", "tagline": "Créez des processus visuels, des formulaires et des automatisations avec l'IA." },
-      { "title": "Capture", "tagline": "Capturez n'importe quel document — l'IA reconnaît et organise tout." },
-      { "title": "Sign", "tagline": "Signature électronique gratuite, avec valeur juridique et intégration totale." }
-    ],
     "items": [
-      { "label": "Connect", "description": "Collaborez et communiquez avec votre équipe" },
-      { "label": "Agents", "description": "Une IA qui comprend et accompagne les utilisateurs" },
-      { "label": "Mobile", "description": "Votre activité au creux de la main" },
-      { "label": "Voice", "description": "Dialoguez avec la plateforme en toute simplicité" }
-    ]
+      {
+        "title": "Documents",
+        "description": "Organisez, retrouvez et protégez vos documents grâce à l'IA à chaque étape."
+      },
+      {
+        "title": "Process",
+        "description": "Créez des processus visuels, des formulaires et des automatisations avec l'IA."
+      },
+      {
+        "title": "Capture",
+        "description": "Capturez n'importe quel document — l'IA reconnaît et organise tout."
+      },
+      {
+        "title": "Sign",
+        "description": "Signature électronique gratuite, avec valeur juridique et intégration totale."
+      },
+      {
+        "title": "Connect",
+        "description": "Collaborez et communiquez avec votre équipe"
+      },
+      {
+        "title": "Voice",
+        "description": "Dialoguez avec la plateforme en toute simplicité"
+      },
+      {
+        "title": "Agents",
+        "description": "Une IA qui comprend et accompagne les utilisateurs"
+      },
+      {
+        "title": "Plateforme Interfy",
+        "description": "Vue d'ensemble de la plateforme"
+      },
+      {
+        "title": "À propos d'Interfy"
+      },
+      {
+        "title": "Partenariat"
+      }
+    ],
+    "mobilePromo": {
+      "heading": "Votre gestion, où que vous soyez",
+      "description": "Une expérience mobile fluide et complète. Téléchargez l'application et transformez votre façon de travailler.",
+      "ctaLabel": "En savoir plus",
+      "imageAlt": "Plateforme Interfy affichée sur tablette et smartphone",
+      "appStoreAlt": "Disponible sur l'App Store",
+      "googlePlayAlt": "Disponible sur Google Play"
+    }
   },
   "recursosMenu": {
     "trigger": "Ressources",
     "recursosEyebrow": "Ressources",
     "recursosItems": [
-      { "label": "Secteurs" },
-      { "label": "Crédits IA" },
-      { "label": "Intégrations & API" },
-      { "label": "Études de Cas" }
+      {
+        "label": "Crédits IA"
+      },
+      {
+        "label": "Intégrations & API"
+      },
+      {
+        "label": "Université Interfy"
+      },
+      {
+        "label": "Études de Cas"
+      },
+      {
+        "label": "Blog / Contenus"
+      }
     ],
     "legalEyebrow": "Mentions Légales & Support",
     "legalItems": [
-      { "label": "Conditions d'Utilisation" },
-      { "label": "Politique de Confidentialité" },
-      { "label": "RGPD / LGPD" },
-      { "label": "Sécurité" },
-      { "label": "Support" },
-      { "label": "Contact" }
-    ]
-  },
-  "empresaMenu": {
-    "trigger": "Entreprise",
-    "eyebrow": "Entreprise",
-    "items": [
-      { "label": "À propos d'Interfy" },
-      { "label": "Plateforme Interfy" },
-      { "label": "Partenariat" },
-      { "label": "Blog / Contenus" }
+      {
+        "label": "Conditions d'Utilisation"
+      },
+      {
+        "label": "Politique de Confidentialité"
+      },
+      {
+        "label": "RGPD / LGPD"
+      },
+      {
+        "label": "Sécurité"
+      },
+      {
+        "label": "Support"
+      }
     ]
   },
   "languageSelectorAria": "Sélectionner la langue"

@@ -11,56 +11,126 @@
     {
       "title": "プロダクト",
       "links": [
-        { "label": "Documents" },
-        { "label": "Process" },
-        { "label": "Capture" },
-        { "label": "Sign" },
-        { "label": "Connect" },
-        { "label": "Agents" },
-        { "label": "Mobile" },
-        { "label": "Voice" }
+        {
+          "label": "Documents"
+        },
+        {
+          "label": "Process"
+        },
+        {
+          "label": "Capture"
+        },
+        {
+          "label": "Sign"
+        },
+        {
+          "label": "Connect"
+        },
+        {
+          "label": "Agents"
+        },
+        {
+          "label": "Mobile"
+        },
+        {
+          "label": "Voice"
+        }
       ]
     },
     {
       "title": "リソース",
       "links": [
-        { "label": "セグメント" },
-        { "label": "AIクレジット" },
-        { "label": "インテグレーション & API" },
-        { "label": "導入事例" },
-        { "label": "プラットフォームステータス" }
+        {
+          "label": "セグメント"
+        },
+        {
+          "label": "AIクレジット"
+        },
+        {
+          "label": "インテグレーション & API"
+        },
+        {
+          "label": "Interfy大学"
+        },
+        {
+          "label": "導入事例"
+        },
+        {
+          "label": "プラットフォームステータス"
+        }
       ]
     },
     {
       "title": "会社情報",
       "links": [
-        { "label": "Interfyについて" },
-        { "label": "Interfyプラットフォーム" },
-        { "label": "テストドライブ" },
-        { "label": "パートナー（プライベートラベル）" },
-        { "label": "ブログ / コンテンツ" }
+        {
+          "label": "Interfyについて"
+        },
+        {
+          "label": "Interfyプラットフォーム"
+        },
+        {
+          "label": "テストドライブ"
+        },
+        {
+          "label": "パートナー（プライベートラベル）"
+        },
+        {
+          "label": "ブログ / コンテンツ"
+        }
       ]
     },
     {
       "title": "法務 & サポート",
       "links": [
-        { "label": "利用規約" },
-        { "label": "プライバシーポリシー" },
-        { "label": "LGPD / GDPR" },
-        { "label": "セキュリティ" },
-        { "label": "サポート" },
-        { "label": "お問い合わせ" }
+        {
+          "label": "利用規約"
+        },
+        {
+          "label": "プライバシーポリシー"
+        },
+        {
+          "label": "LGPD / GDPR"
+        },
+        {
+          "label": "セキュリティ"
+        },
+        {
+          "label": "サポート"
+        },
+        {
+          "label": "お問い合わせ"
+        }
       ]
     }
   ],
   "globalLine": "180カ国以上で利用されるグローバルプラットフォーム",
   "regionsIntro": "以下の地域に特化した商用ページを展開:",
-  "regions": ["アメリカ合衆国", "ヨーロッパ", "ラテンアメリカ", "ブラジル", "アジア", "アフリカ"],
+  "regions": [
+    "アメリカ合衆国",
+    "ヨーロッパ",
+    "ラテンアメリカ",
+    "ブラジル",
+    "アジア",
+    "アフリカ"
+  ],
   "trustItems": [
-    { "title": "エンタープライズセキュリティ", "description": "AES-256 / TLS 1.3 暗号化" },
-    { "title": "AWSグローバルインフラ", "description": "高可用性とスケーラビリティ" },
-    { "title": "グローバルコンプライアンス", "description": "LGPD、GDPR、ISO 27001" },
-    { "title": "稼働率99.98% SLA", "description": "24時間365日のモニタリング" }
+    {
+      "title": "エンタープライズセキュリティ",
+      "description": "AES-256 / TLS 1.3 暗号化"
+    },
+    {
+      "title": "AWSグローバルインフラ",
+      "description": "高可用性とスケーラビリティ"
+    },
+    {
+      "title": "グローバルコンプライアンス",
+      "description": "LGPD、GDPR、ISO 27001"
+    },
+    {
+      "title": "稼働率99.98% SLA",
+      "description": "24時間365日のモニタリング"
+    }
   ],
   "copyright": {
     "brand": "Interfy Corporation",

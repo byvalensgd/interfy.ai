@@ -3,6 +3,7 @@ import Reveal from "@/components/ui/Reveal";
 import HeroSlideshow from "@/components/ui/HeroSlideshow";
 import { mobileHeroHighlights, mobileHeroFloatingCards, mobileAppStoreUrl, mobileGooglePlayUrl } from "@/config/mobile-page";
 import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 const heroSlides = [
   "/mobile/mobile-slide-1.webp",
@@ -16,6 +17,10 @@ const heroSlides = [
 export default async function MobileHero() {
   const { mobile, common } = await getDictionary();
   const { hero } = mobile;
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const highlightsBasis = getCompleteBoxBasis(mobileHeroHighlights.length);
 
   return (
     <section
@@ -27,7 +32,7 @@ export default async function MobileHero() {
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <div className="flex w-full flex-1 items-center">
           <div className="grid w-full items-center gap-10 lg:grid-cols-[600fr_760fr]">
-            <Reveal immediate className="flex flex-col items-center gap-10 text-center lg:max-w-[600px] lg:items-start lg:text-left">
+            <Reveal immediate className="mx-auto flex max-w-[900px] flex-col items-center gap-10 text-center lg:mx-0 lg:max-w-[600px] lg:items-start lg:text-left">
               <h1
                 id="mobile-hero-heading"
                 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"
@@ -68,7 +73,7 @@ export default async function MobileHero() {
                 {mobileHeroHighlights.map((item, i) => (
                   <li
                     key={item.icon}
-                    className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                    className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${highlightsBasis}`}
                   >
                     <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
                     <span className="flex min-h-[30px] w-full items-center justify-center text-base leading-[1.2] font-bold text-texto-doc-ok">

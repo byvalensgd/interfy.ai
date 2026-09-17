@@ -11,56 +11,126 @@
     {
       "title": "Prodotti",
       "links": [
-        { "label": "Documents" },
-        { "label": "Process" },
-        { "label": "Capture" },
-        { "label": "Sign" },
-        { "label": "Connect" },
-        { "label": "Agents" },
-        { "label": "Mobile" },
-        { "label": "Voice" }
+        {
+          "label": "Documents"
+        },
+        {
+          "label": "Process"
+        },
+        {
+          "label": "Capture"
+        },
+        {
+          "label": "Sign"
+        },
+        {
+          "label": "Connect"
+        },
+        {
+          "label": "Agents"
+        },
+        {
+          "label": "Mobile"
+        },
+        {
+          "label": "Voice"
+        }
       ]
     },
     {
       "title": "Risorse",
       "links": [
-        { "label": "Settori" },
-        { "label": "AI Crediti" },
-        { "label": "Integrazioni & API" },
-        { "label": "Casi di Successo" },
-        { "label": "Stato della Piattaforma" }
+        {
+          "label": "Settori"
+        },
+        {
+          "label": "AI Crediti"
+        },
+        {
+          "label": "Integrazioni & API"
+        },
+        {
+          "label": "Università Interfy"
+        },
+        {
+          "label": "Casi di Successo"
+        },
+        {
+          "label": "Stato della Piattaforma"
+        }
       ]
     },
     {
       "title": "Azienda",
       "links": [
-        { "label": "Chi è Interfy" },
-        { "label": "Piattaforma Interfy" },
-        { "label": "Test Drive" },
-        { "label": "Partner (Private Label)" },
-        { "label": "Blog / Contenuti" }
+        {
+          "label": "Chi è Interfy"
+        },
+        {
+          "label": "Piattaforma Interfy"
+        },
+        {
+          "label": "Test Drive"
+        },
+        {
+          "label": "Partner (Private Label)"
+        },
+        {
+          "label": "Blog / Contenuti"
+        }
       ]
     },
     {
       "title": "Legale & Supporto",
       "links": [
-        { "label": "Termini di Utilizzo" },
-        { "label": "Informativa sulla Privacy" },
-        { "label": "LGPD / GDPR" },
-        { "label": "Sicurezza" },
-        { "label": "Supporto" },
-        { "label": "Contatti" }
+        {
+          "label": "Termini di Utilizzo"
+        },
+        {
+          "label": "Informativa sulla Privacy"
+        },
+        {
+          "label": "LGPD / GDPR"
+        },
+        {
+          "label": "Sicurezza"
+        },
+        {
+          "label": "Supporto"
+        },
+        {
+          "label": "Contatti"
+        }
       ]
     }
   ],
   "globalLine": "Una piattaforma globale, presente in oltre 180 paesi",
   "regionsIntro": "Con pagine commerciali dedicate per:",
-  "regions": ["Stati Uniti", "Europa", "LATAM", "Brasile", "Asia", "Africa"],
+  "regions": [
+    "Stati Uniti",
+    "Europa",
+    "LATAM",
+    "Brasile",
+    "Asia",
+    "Africa"
+  ],
   "trustItems": [
-    { "title": "Sicurezza Enterprise", "description": "Crittografia AES-256 / TLS 1.3" },
-    { "title": "Infrastruttura AWS Globale", "description": "Alta disponibilità e scalabilità" },
-    { "title": "Compliance Globale", "description": "LGPD, GDPR e ISO 27001" },
-    { "title": "99,98% Uptime SLA", "description": "Monitoraggio 24/7" }
+    {
+      "title": "Sicurezza Enterprise",
+      "description": "Crittografia AES-256 / TLS 1.3"
+    },
+    {
+      "title": "Infrastruttura AWS Globale",
+      "description": "Alta disponibilità e scalabilità"
+    },
+    {
+      "title": "Compliance Globale",
+      "description": "LGPD, GDPR e ISO 27001"
+    },
+    {
+      "title": "99,98% Uptime SLA",
+      "description": "Monitoraggio 24/7"
+    }
   ],
   "copyright": {
     "brand": "Interfy Corporation",

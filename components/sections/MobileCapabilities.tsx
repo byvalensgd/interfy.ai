@@ -2,10 +2,15 @@ import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { mobileCapabilities } from "@/config/mobile-page";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function MobileCapabilities() {
   const { mobile } = await getDictionary();
   const { capabilities } = mobile;
+  // "Complete Box" (see lib/completeBox.ts): flex-basis in place of plain
+  // flex-1 so a short last row (grow) stretches to fill instead of greedy
+  // wrapping landing on an unbalanced split.
+  const itemsBasis = getCompleteBoxBasis(mobileCapabilities.length);
 
   return (
     <section aria-labelledby="mobile-capabilities-heading" className="flex justify-center bg-branco px-5 py-10 sm:py-16">
@@ -22,7 +27,7 @@ export default async function MobileCapabilities() {
             {mobileCapabilities.map((item, i) => (
               <li
                 key={item.icon}
-                className="flex min-w-[280px] flex-1 flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco px-[15px] py-5"
+                className={`flex min-w-[280px] grow flex-col items-center gap-5 rounded-[20px] border border-contorno-base bg-branco px-[15px] py-5 ${itemsBasis}`}
               >
                 <div className="flex w-full items-center gap-[15px]">
                   <Image src={item.icon} alt="" aria-hidden="true" width={35} height={35} className="shrink-0" />

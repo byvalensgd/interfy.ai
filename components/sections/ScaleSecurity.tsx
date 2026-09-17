@@ -7,6 +7,7 @@ import { withLocale } from "@/lib/i18n/paths";
 import { scaleFeatures, scaleTrustBadges, type TrustBadge } from "@/config/trust";
 import { CTA_DISABLED } from "@/config/feature-flags";
 import CtaLink from "@/components/ui/CtaLink";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 type FeatureStripItem = TrustBadge & { label: string };
 
@@ -19,16 +20,19 @@ function FeatureStrip({
   label: string;
   dense?: boolean;
 }) {
+  const cardBasis = getCompleteBoxBasis(items.length);
+
   return (
     <>
-      {/* Below lg: each item becomes its own bordered card (icon over label,
-          centered), per the Figma mobile spec — instead of the desktop's
-          single shared strip with icon+label rows. */}
+      {/* Below lg: "Blocos Mobile" — each item becomes its own bordered card
+          (icon over label, centered) via "Complete Box" (see
+          lib/completeBox.ts), instead of the desktop's single shared strip
+          with icon+label rows. */}
       <ul aria-label={label} className="flex w-full flex-wrap gap-4 lg:hidden">
         {items.map((item) => (
           <li
             key={item.label}
-            className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+            className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
           >
             <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
             <span className="flex min-h-[30px] w-full items-center justify-center text-sm leading-[1.2] font-bold text-texto">

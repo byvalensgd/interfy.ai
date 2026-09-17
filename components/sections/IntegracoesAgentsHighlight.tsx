@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import Reveal from "@/components/ui/Reveal";
 import { ecosystemItems } from "@/config/platform";
 import { integracoesAgentsChecklistIcon } from "@/config/integracoes-page";
@@ -15,12 +16,33 @@ const DIAGRAM_BASIS = 315;
 const cqw = (px: number) => `${(px / DIAGRAM_BASIS) * 100}cqw`;
 
 function EcosystemBadge({ icon, x, y }: { icon: string; x: number; y: number }) {
+  // max-w-none overrides Tailwind's preflight `img { max-width: 100% }`: with the badge's
+  // padding subtracted, its content box (26px) is narrower than the icon's own cqw width
+  // (30px) — since height is set to a definite cqw value too (not auto), that stylesheet
+  // rule would otherwise clamp only the width, distorting the icon instead of shrinking it.
+  // The counter-rotation cancels the orbit wrapper's spin (same duration/easing) so the
+  // badge itself stays upright while its position still travels around the ring.
   return (
     <span
       className="absolute -translate-x-1/2 -translate-y-1/2 flex items-center justify-center rounded-full border-[0.5px] border-contorno-base bg-branco"
-      style={{ left: `${x}%`, top: `${y}%`, width: cqw(50), height: cqw(50), padding: cqw(12) }}
+      style={{
+        left: `${x}%`,
+        top: `${y}%`,
+        width: cqw(50),
+        height: cqw(50),
+        padding: cqw(12),
+        animation: "trust-illu-spin-reverse 40s linear infinite",
+      }}
     >
-      <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" style={{ width: cqw(30), height: cqw(30) }} />
+      <Image
+        src={icon}
+        alt=""
+        aria-hidden="true"
+        width={30}
+        height={30}
+        className="max-w-none shrink-0"
+        style={{ width: cqw(30), height: cqw(30) }}
+      />
     </span>
   );
 }
@@ -44,26 +66,27 @@ function AgentsRingDiagram({ ariaLabel }: { ariaLabel: string }) {
       />
       <div
         className="absolute top-1/2 left-1/2 flex -translate-x-1/2 -translate-y-1/2 items-end justify-center overflow-hidden rounded-full border-[2.5px] border-[#d5dfff] bg-branco"
-        style={{ width: cqw(190), height: cqw(190) }}
+        style={{ width: cqw(190), height: cqw(190), paddingBottom: cqw(10) }}
       >
-        <Image
-          src="/agentes/robot-mascot.webp"
-          alt=""
-          aria-hidden="true"
-          width={165}
-          height={154}
-          className="object-cover object-top mix-blend-multiply"
+        <AutoplayVideo
+          src="/features/robot"
+          replayDelayMs={2500}
+          className="max-w-none object-cover object-top mix-blend-multiply"
           style={{ width: cqw(165), height: cqw(154) }}
         />
       </div>
 
-      {ecosystemItems.map((item, i) => {
-        const angle = (360 / RING_COUNT) * i - 90;
-        const rad = (angle * Math.PI) / 180;
-        const x = 50 + RING_RADIUS_PCT * Math.cos(rad);
-        const y = 50 + RING_RADIUS_PCT * Math.sin(rad);
-        return <EcosystemBadge key={item.title} icon={item.icon} x={x} y={y} />;
-      })}
+      {/* The ring orbits slowly around the mascot; each badge counter-rotates (same
+          duration/easing) so its own icon stays upright while it travels around the circle. */}
+      <div className="absolute inset-0" style={{ animation: "radial-icon-spin 40s linear infinite" }}>
+        {ecosystemItems.map((item, i) => {
+          const angle = (360 / RING_COUNT) * i - 90;
+          const rad = (angle * Math.PI) / 180;
+          const x = 50 + RING_RADIUS_PCT * Math.cos(rad);
+          const y = 50 + RING_RADIUS_PCT * Math.sin(rad);
+          return <EcosystemBadge key={item.title} icon={item.icon} x={x} y={y} />;
+        })}
+      </div>
     </div>
   );
 }
@@ -78,23 +101,29 @@ export default async function IntegracoesAgentsHighlight() {
         className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-[20px] border border-contorno-base px-5 py-[30px]"
         style={{ backgroundImage: "linear-gradient(100deg, rgba(24,106,238,0.15) 0%, rgba(183,216,255,0.1) 100%)" }}
       >
-        {/* Diagram and heading/description are one block (never hidden, never split apart) —
-            min-w is set explicitly to the pair's real combined minimum (diagram + text's own
-            floor + the gap between them) since a flex-wrap container's automatic minimum would
-            otherwise shrink to just its widest child, letting the pair collapse into an internal
-            wrap (diagram on top, text below) before the outer row itself needs to wrap. This
-            way the whole pair only ever moves to its own line as a unit, same as the checklist. */}
-        <div className="flex min-w-[600px] max-w-[700px] flex-1 flex-wrap items-center justify-center gap-5 max-sm:min-w-0">
+        {/* Diagram and heading/description are only grouped into one block below lg (they
+            share a line, wrapping together as a unit above the checklist) — at lg and up
+            "contents" removes this wrapper's own box entirely, so the diagram and text become
+            direct flex children of the row again, same as the checklist, instead of being
+            forced to share space with each other as a pair. Below md (the phone breakpoint)
+            the pair itself goes fully vertical (diagram over text) and the text centers,
+            matching the sitewide stacked-layout convention. */}
+        <div className="flex w-full flex-col items-center justify-center gap-5 md:flex-row lg:contents">
           <AgentsRingDiagram ariaLabel={agentsHighlight.diagramAriaLabel} />
 
           <div className="flex min-w-0 flex-1 flex-col gap-5">
-            <h2 id="integracoes-agents-heading" className="text-[32px] leading-[1.2] font-bold text-texto">
+            <h2
+              id="integracoes-agents-heading"
+              className="text-center text-[32px] leading-[1.2] font-bold text-texto md:text-left"
+            >
               {agentsHighlight.headingPrefix}
               <span className="bg-[linear-gradient(112deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
                 {agentsHighlight.headingHighlight}
               </span>
             </h2>
-            <p className="text-base leading-[1.2] font-medium text-texto">{agentsHighlight.description}</p>
+            <p className="text-center text-base leading-[1.2] font-medium text-texto md:text-left">
+              {agentsHighlight.description}
+            </p>
           </div>
         </div>
 

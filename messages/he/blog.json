@@ -201,5 +201,23 @@
     "subheading": "התחילו בחינם וחקרו את פלטפורמת Interfy עם המסמכים והתהליכים שלכם.",
     "primaryButton": "התחילו בחינם",
     "secondaryButton": "קבעו הדגמה"
+  },
+  "topBar": {
+    "title": "הבלוג של Interfy",
+    "search": {
+      "ariaLabel": "חיפוש בבלוג",
+      "placeholder": "חיפוש בבלוג",
+      "clearLabel": "נקה חיפוש",
+      "resultsCountLabel": "תוצאה(ות) נמצאו",
+      "noResultsLabel": "לא נמצא מאמר התואם את החיפוש שלך."
+    }
+  },
+  "topSearches": {
+    "ariaLabel": "חיפושים מובילים בבלוג",
+    "labels": [
+      "Documents - ניהול מסמכים",
+      "Process - תהליכים עסקיים",
+      "AI - בינה מלאכותית של Interfy"
+    ]
   }
 }

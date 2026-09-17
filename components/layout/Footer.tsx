@@ -4,6 +4,7 @@ import { LanguageSelectorFull } from "@/components/ui/LanguageSelector";
 import FooterNavColumn from "@/components/ui/FooterNavColumn";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { footerColumns as footerColumnLinks, footerSocialBadges } from "@/config/footer";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function Footer() {
   const locale = await getLocale();
@@ -16,6 +17,7 @@ export default async function Footer() {
     "/footer/trust-uptime.svg",
   ];
   const trustItems = footer.trustItems as { title: string; description: string }[];
+  const trustItemsBasis = getCompleteBoxBasis(trustItems.length);
 
   return (
     <footer className="flex flex-col items-center gap-10 bg-bg-base pt-[50px]">
@@ -93,12 +95,15 @@ export default async function Footer() {
         <div className="flex w-full max-w-[1400px] flex-col">
           {/* Below lg: each trust item becomes its own bordered card (icon
               over title, centered), same Figma mobile card used across the
-              site's stat/feature strips. */}
+              site's stat/feature strips. "Complete Box" (see
+              lib/completeBox.ts) keeps every row balanced within 1 item of
+              the next and stretches a short last row instead of leaving a
+              gap. */}
           <ul className="flex w-full flex-wrap gap-4 lg:hidden">
             {trustItems.map((item, i) => (
               <li
                 key={item.title}
-                className="flex min-w-[140px] flex-1 flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center"
+                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${trustItemsBasis}`}
               >
                 <Image src={trustIcons[i]} alt="" aria-hidden="true" width={40} height={40} className="shrink-0" />
                 <div className="flex w-full flex-col items-center gap-2">
