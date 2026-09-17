@@ -159,11 +159,11 @@ export default function ChatDemo({ dict }: { dict: ChatDemoDict }) {
       </div>
 
       <div
-        className={`flex items-start gap-2.5 transition-opacity duration-500 ${
+        className={`flex items-center gap-2.5 transition-opacity duration-500 ${
           showWaveform ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="relative h-[54px] min-h-10 flex-1 overflow-hidden rounded-full">
+        <div className="relative h-[54px] min-h-10 flex-1 overflow-hidden rounded-full bg-branco shadow-[1px_2px_10px_0px_var(--color-shadow)]">
           <Image
             src="/features/waveform.svg"
             alt=""

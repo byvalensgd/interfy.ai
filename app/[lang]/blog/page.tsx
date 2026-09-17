@@ -40,6 +40,7 @@ export default async function BlogPage() {
         ariaLabel={blog.categories.ariaLabel}
         ctaLabel={blog.categories.ctaLabel}
         sections={blog.categories.sections}
+        locale={locale}
       />
       <BlogGrid
         ariaLabel={blog.grid.ariaLabel}

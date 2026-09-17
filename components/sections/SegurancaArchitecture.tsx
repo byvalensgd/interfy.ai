@@ -32,14 +32,30 @@ export default async function SegurancaArchitecture() {
             {flow.map((item, i) => (
               <Fragment key={item.icon}>
                 {i > 0 && (
-                  <Image
-                    src="/icons/seguranca/arrow-connector.svg"
-                    alt=""
-                    aria-hidden="true"
-                    width={30}
-                    height={7}
-                    className="h-auto max-w-[20px] flex-none rotate-90 self-center md:flex-1 md:rotate-0 sm:max-w-[30px]"
-                  />
+                  <>
+                    {/* Below md the flow stacks vertically: the arrow itself (not a
+                        wrapper) carries the rotated footprint — asymmetric margins
+                        shrink its reserved width and grow its reserved height to
+                        match what rotate-90 actually paints (7x30 instead of the
+                        unrotated 30x7 layout box), so it stays fully visible between
+                        the two cards with no extra space around it. */}
+                    <Image
+                      src="/icons/seguranca/arrow-connector.svg"
+                      alt=""
+                      aria-hidden="true"
+                      width={30}
+                      height={7}
+                      className="my-[11.5px] h-auto w-[30px] shrink-0 -mx-[11.5px] rotate-90 self-center md:hidden"
+                    />
+                    <Image
+                      src="/icons/seguranca/arrow-connector.svg"
+                      alt=""
+                      aria-hidden="true"
+                      width={30}
+                      height={7}
+                      className="hidden h-auto max-w-[30px] flex-1 self-center md:block"
+                    />
+                  </>
                 )}
                 <div className="flex w-full flex-1 flex-col items-center justify-center gap-5 rounded-xl border border-contorno-base bg-branco px-2.5 py-[15px] text-center">
                   <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} />

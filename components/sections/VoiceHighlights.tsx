@@ -42,7 +42,7 @@ export default async function VoiceHighlights() {
                   className="object-cover"
                 />
               </div>
-              <Button href={withLocale("/legal/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
+              <Button href={withLocale("/seguranca", locale)} variant="secondary" size="sm" className="!rounded-md">
                 {highlights.governance.cta}
               </Button>
             </div>

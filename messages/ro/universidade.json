@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "Universitatea Interfy",
+    "description": "Universitatea corporativă a Interfy: videoclipuri de instruire, ghiduri, studii de caz reale și certificare pentru a vă pregăti echipa pe platformă.",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Universitatea Interfy",
+      "instruire Interfy",
+      "universitate corporativă",
+      "certificare Interfy"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "Universitatea Interfy",
+    "titleLine1": "Pregătiți-vă echipa la",
+    "titleHighlight": "Universitatea Interfy",
+    "description": "Videoclipuri de instruire, ghiduri, studii de caz reale și certificare oficială pentru ca echipa dumneavoastră să stăpânească platforma Interfy în propriul ritm.",
+    "primaryLabel": "Începe un Test Drive",
+    "secondaryLabel": "Programează o demonstrație"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "De ce să investești într-o universitate corporativă",
+    "heading": "De ce să investești într-o",
+    "headingHighlight": "Universitate Corporativă?",
+    "description": "Transformă cunoștințele în productivitate și elimină costurile operaționale de instruire.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "Reducerea Costurilor",
+        "description": "Elimină cheltuielile cu instructori, deplasări, cazare și materiale fizice. Instruiește-ți echipa cu cost operațional zero."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "Instruire 24/7",
+        "description": "Echipa dumneavoastră învață în propriul ritm, în orice moment și din orice loc. Flexibilitate totală pentru pregătire."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "Scalabilitate Infinită",
+        "description": "Instruiește 10 sau 10.000 de colaboratori simultan fără a crește costurile sau complexitatea operațională."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "Onboarding Accelerat",
+        "description": "Utilizatori noi productivi chiar din prima zi. Reduce timpul de adaptare și crește rapid productivitatea."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "Certificare Oficială",
+        "description": "Emite certificate de absolvire pentru colaboratorii tăi și urmărește progresul fiecărui utilizator."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "Statistici în Timp Real",
+        "description": "Urmărește progresul, implicarea și performanța fiecărui colaborator prin dashboard-uri inteligente."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "Resurse de învățare",
+    "heading": "Resurse de",
+    "headingHighlight": "Învățare",
+    "description": "Conținut complet și diversificat pentru toate stilurile de învățare.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "Videoclipuri Practice",
+        "description": "Conținut video, pas cu pas, despre toate modulele platformei Interfy."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "Ghiduri și Manuale",
+        "description": "Documentație completă și tutoriale scrise pentru consultare rapidă și referință."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "Studii de Caz Reale",
+        "description": "Exemple practice de implementare și bune practici de la companii care utilizează deja platforma."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "Suport Specializat",
+        "description": "Adresează-ți întrebările direct specialiștilor și partajează cunoștințe cu comunitatea."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "Module de instruire",
+    "heading": "Module de",
+    "headingHighlight": "Instruire",
+    "description": "Curriculă completă care acoperă toate aspectele platformei Interfy.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Introducere în Platforma Interfy",
+      "Gestiunea Documentelor (Documents)",
+      "Automatizarea Proceselor (Process)",
+      "Crearea Fluxurilor cu IA (Agents)",
+      "Semnătura Electronică și Digitală (Sign)",
+      "Captare Inteligentă (Capture)",
+      "Digitalizare cu Valoare Juridică",
+      "Comunicare și Colaborare (Connect)",
+      "Aplicația Mobilă",
+      "Administrare și Guvernanță",
+      "Securitate și Conformitate",
+      "Integrări și API-uri"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "Începe astăzi să îți pregătești echipa",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "Reducere a Costurilor de Instruire"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "Onboarding Mai Rapid"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "Din Echipă Pregătită"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Accesează Universitatea Interfy și transformă cunoștințele în rezultate."
     }
   }
 }

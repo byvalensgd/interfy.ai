@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Vi föreslår en ",
-      "paragraphHighlight": "7-dagars resa",
-      "paragraphNote": " (men allt finns tillgängligt redan från dag ett)",
+      "headingPrefix": "Vi föreslår en ",
+      "headingHighlight": "7-dagars resa",
+      "headingSuffix": "",
+      "paragraph": "(men allt finns tillgängligt redan från dag ett)",
       "dayLabel": "Dag {number}",
       "days": [
         { "line1": "Lär känna din", "line2": "Workspace" },

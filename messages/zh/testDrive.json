@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "我们建议按 ",
-      "paragraphHighlight": "7 天旅程",
-      "paragraphNote": "循序体验(不过从第一天起所有功能都已开放)",
+      "headingPrefix": "我们建议按 ",
+      "headingHighlight": "7 天旅程",
+      "headingSuffix": "",
+      "paragraph": "(不过从第一天起所有功能都已开放)",
       "dayLabel": "第 {number} 天",
       "days": [
         { "line1": "了解您的", "line2": "工作空间" },

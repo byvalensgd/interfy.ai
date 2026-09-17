@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "אנחנו מציעים ",
-      "paragraphHighlight": "מסע של 7 ימים",
-      "paragraphNote": " (אבל הכול זמין מהיום הראשון)",
+      "headingPrefix": "אנחנו מציעים ",
+      "headingHighlight": "מסע של 7 ימים",
+      "headingSuffix": "",
+      "paragraph": "(אבל הכול זמין מהיום הראשון)",
       "dayLabel": "יום {number}",
       "days": [
         { "line1": "הכירו את", "line2": "Workspace" },

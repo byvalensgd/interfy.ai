@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Мы предлагаем ",
-      "paragraphHighlight": "7-дневный маршрут",
-      "paragraphNote": " (но всё доступно с первого дня)",
+      "headingPrefix": "Мы предлагаем ",
+      "headingHighlight": "7-дневный маршрут",
+      "headingSuffix": "",
+      "paragraph": "(но всё доступно с первого дня)",
       "dayLabel": "День {number}",
       "days": [
         { "line1": "Изучите свой", "line2": "Workspace" },

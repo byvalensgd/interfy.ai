@@ -52,7 +52,7 @@ export default async function AgentesHighlights() {
                 ))}
               </ul>
               <Button
-                href={withLocale("/legal/seguranca", locale)}
+                href={withLocale("/seguranca", locale)}
                 variant="secondary"
                 size="sm"
                 className="!mt-auto !w-fit !rounded-md"

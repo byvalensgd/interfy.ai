@@ -9,12 +9,34 @@ import { withLocale } from "@/lib/i18n/paths";
 import Button from "@/components/ui/Button";
 import { CTA_DISABLED } from "@/config/feature-flags";
 
-export type MobileNavLink = { href: string; label: string; icon?: string };
+export type MobileNavLink = { href: string; label: string; icon?: string; description?: string };
 export type MobileNavGroup = {
   trigger: string;
   sections: { title?: string; items: MobileNavLink[] }[];
 };
 export type MobileNavEntry = { type: "link"; link: MobileNavLink } | { type: "group"; group: MobileNavGroup };
+
+type RenderEntry = { type: "links"; links: MobileNavLink[] } | { type: "group"; group: MobileNavGroup };
+
+// Runs plain top-level links (Segmentos/Planos/Contato) together in a single
+// horizontal row instead of one full-width block each, while accordion
+// groups (Plataforma/Recursos) keep their own row.
+function groupConsecutiveLinks(entries: MobileNavEntry[]): RenderEntry[] {
+  const result: RenderEntry[] = [];
+  for (const entry of entries) {
+    if (entry.type === "link") {
+      const last = result[result.length - 1];
+      if (last?.type === "links") {
+        last.links.push(entry.link);
+      } else {
+        result.push({ type: "links", links: [entry.link] });
+      }
+    } else {
+      result.push(entry);
+    }
+  }
+  return result;
+}
 
 function MobileNavAccordion({
   group,
@@ -33,7 +55,7 @@ function MobileNavAccordion({
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between rounded-md px-3 py-2.5 text-base text-texto hover:bg-bg-base"
+        className="flex w-full items-center justify-between rounded-[12px] border-[0.5px] border-contorno-base p-2.5 text-base text-texto transition-shadow hover:bg-bg-base hover:shadow-[0_0_0_10px_var(--color-bg-base)]"
       >
         {group.trigger}
         <ChevronDown
@@ -42,28 +64,28 @@ function MobileNavAccordion({
         />
       </button>
       {open && (
-        <div className="flex flex-col gap-4 px-3 pt-1 pb-3">
-          {group.sections.map((section, i) => (
-            <div key={section.title ?? i} className="flex flex-col gap-1">
-              {section.title && (
-                <p className="px-2 text-xs leading-[1.2] font-bold tracking-wide text-texto-medio uppercase">
-                  {section.title}
-                </p>
+        <div className="grid grid-cols-1 gap-5 p-5 sm:grid-cols-2">
+          {group.sections.flatMap((section) => section.items).map((item) => (
+            <Link
+              key={item.href}
+              href={withLocale(item.href, locale)}
+              onClick={onNavigate}
+              className="flex min-w-0 items-start gap-2.5 rounded-[12px] border-[0.5px] border-contorno-base p-2.5 transition-shadow hover:bg-bg-base hover:shadow-[0_0_0_10px_var(--color-bg-base)]"
+            >
+              {item.icon && (
+                <Image src={item.icon} alt="" aria-hidden="true" width={24} height={24} className="shrink-0" />
               )}
-              {section.items.map((item) => (
-                <Link
-                  key={item.href}
-                  href={withLocale(item.href, locale)}
-                  onClick={onNavigate}
-                  className="flex items-center gap-2.5 rounded-md px-2 py-2 text-sm font-medium text-texto hover:bg-bg-base"
-                >
-                  {item.icon && (
-                    <Image src={item.icon} alt="" aria-hidden="true" width={18} height={18} className="shrink-0" />
-                  )}
+              <span className="flex min-w-0 flex-1 flex-col justify-center gap-[5px]">
+                <span className="flex min-h-[24px] w-full items-center text-base leading-[1.2] font-bold text-texto">
                   {item.label}
-                </Link>
-              ))}
-            </div>
+                </span>
+                {item.description && (
+                  <span className="w-full text-xs leading-[1.2] font-medium text-texto-medio">
+                    {item.description}
+                  </span>
+                )}
+              </span>
+            </Link>
           ))}
         </div>
       )}
@@ -114,17 +136,20 @@ export default function MobileNav({
           aria-label={ariaLabel}
           className="absolute inset-x-0 top-full max-h-[calc(100vh-var(--header-height))] overflow-y-auto border-t border-contorno-base bg-branco px-4 py-4 shadow-lg"
         >
-          <ul className="flex flex-col gap-1">
-            {entries.map((entry) =>
-              entry.type === "link" ? (
-                <li key={entry.link.href}>
-                  <Link
-                    href={withLocale(entry.link.href, locale)}
-                    onClick={close}
-                    className="block rounded-md px-3 py-2.5 text-base text-texto hover:bg-bg-base"
-                  >
-                    {entry.link.label}
-                  </Link>
+          <ul className="flex flex-col gap-2.5">
+            {groupConsecutiveLinks(entries).map((entry, i) =>
+              entry.type === "links" ? (
+                <li key={`links-${i}`} className="flex items-stretch gap-2.5">
+                  {entry.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={withLocale(link.href, locale)}
+                      onClick={close}
+                      className="flex flex-1 items-center justify-center rounded-[12px] border-[0.5px] border-contorno-base p-2.5 text-base text-texto transition-shadow hover:bg-bg-base hover:shadow-[0_0_0_10px_var(--color-bg-base)]"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
                 </li>
               ) : (
                 <MobileNavAccordion key={entry.group.trigger} group={entry.group} locale={locale} onNavigate={close} />

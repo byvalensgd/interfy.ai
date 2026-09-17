@@ -9,65 +9,58 @@
       "AI yrityksille"
     ]
   },
-  "hero": {
-    "ariaLabel": "Johdanto blogiin",
-    "eyebrow": "Blogi & Sisältö",
-    "titleLine1": "Sisältöä niille, jotka",
-    "titleHighlight": "uudistavat toimintaa",
-    "description": "Käytännön oppaita, tuotepäivityksiä ja trendejä dokumenteista, prosesseista, datasta ja AI:sta yrityksille."
-  },
   "featured": {
-    "ariaLabel": "Featured article and recent posts",
-    "heading": "Featured",
+    "ariaLabel": "Nostettu artikkeli ja uusimmat julkaisut",
+    "heading": "Esillä",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
+      "category": "AI & Agentit",
+      "title": "Miten AI muuttaa tapaa, jolla yritykset hallitsevat dokumentteja ja prosesseja",
+      "excerpt": "Älykkäästä kaappauksesta autonomisiin agentteihin: katsaus siihen, miten AI on jo osa Interfy-käyttäjien arkea, ja mitä on tulossa seuraavaksi.",
+      "date": "Set 2026",
+      "author": "Interfy-tiimi",
+      "readTime": "9 min lukuaika",
+      "ctaLabel": "Lue artikkeli"
     },
-    "recentHeading": "Recent",
+    "recentHeading": "Uusimmat",
     "recent": [
       {
-        "title": "How to structure a document repository that scales with your company",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "Miten rakentaa dokumenttiarkisto, joka kasvaa yrityksen mukana",
+        "date": "Elo 2026",
+        "author": "Interfy-tiimi"
       },
       {
-        "title": "5 processes every company should automate first",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "5 prosessia, jotka jokaisen yrityksen kannattaisi automatisoida ensin",
+        "date": "Elo 2026",
+        "author": "Interfy-tiimi"
       },
       {
-        "title": "Is electronic signature legally valid?",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "Onko sähköisellä allekirjoituksella oikeudellinen pätevyys?",
+        "date": "Hei 2026",
+        "author": "Interfy-tiimi"
       },
       {
-        "title": "AI agents in internal processes: where to start",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "AI-agentit sisäisissä prosesseissa: mistä aloittaa",
+        "date": "Hei 2026",
+        "author": "Interfy-tiimi"
       },
       {
-        "title": "Data protection in practice: what changes in document and process management",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "GDPR käytännössä: mikä muuttuu dokumenttien ja prosessien hallinnassa",
+        "date": "Kesä 2026",
+        "author": "Interfy-tiimi"
       },
       {
-        "title": "OCR and smart capture: the end of manual data entry",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "OCR ja älykäs kaappaus: manuaalisen kirjaamisen loppu",
+        "date": "Kesä 2026",
+        "author": "Interfy-tiimi"
       }
     ]
   },
   "categories": {
     "ariaLabel": "Articles by category",
-    "ctaLabel": "Read the blog",
+    "ctaLabel": "Lue blogia",
     "sections": [
       {
-        "name": "Document Management",
+        "name": "Dokumenttienhallinta",
         "posts": [
           {
             "title": "How to structure a document repository that scales with your company",
@@ -90,7 +83,7 @@
         ]
       },
       {
-        "name": "Business Process Management",
+        "name": "Automaatio (BPM)",
         "posts": [
           {
             "title": "5 processes every company should automate first",
@@ -113,7 +106,7 @@
         ]
       },
       {
-        "name": "Artificial Intelligence",
+        "name": "AI & Agentit",
         "posts": [
           {
             "title": "AI agents in internal processes: where to start",
@@ -192,6 +185,48 @@
         "excerpt": "Miten automatisoitu kaappaus vähentää virheitä ja nopeuttaa dokumenttien siirtämistä työnkulkuun.",
         "date": "Kesä 2026",
         "readTime": "5 min lukuaika"
+      },
+      {
+        "category": "Dokumenttienhallinta",
+        "title": "Miten siirtää fyysiset asiakirjat digitaaliseen muotoon menettämättä historiaa",
+        "excerpt": "Opas vanhojen arkistojen digitointiin metatietoja, indeksointia ja oikeudellista pätevyyttä säilyttäen.",
+        "date": "Abr 2026",
+        "readTime": "7 min lukuaika"
+      },
+      {
+        "category": "Automaatio (BPM)",
+        "title": "Miten mitata prosessiautomaation ROI",
+        "excerpt": "Mittarit, jotka todella ratkaisevat, kun automaatioprojektin tuottoa perustellaan johdolle.",
+        "date": "Set 2026",
+        "readTime": "6 min lukuaika"
+      },
+      {
+        "category": "Automaatio (BPM)",
+        "title": "Moniportaiset hyväksynnät pullonkauloitta: miten suunnitella skaalautuvia työnkulkuja",
+        "excerpt": "Käytännön opas hyväksyntävaltuuksien jakamiseen niin, että toiminta ei tyssää kysyntäpiikeissä.",
+        "date": "Mai 2026",
+        "readTime": "6 min lukuaika"
+      },
+      {
+        "category": "Sähköinen allekirjoitus",
+        "title": "Vahva, kehittynyt tai yksinkertainen allekirjoitus: kumpaa käyttää missä tilanteessa",
+        "excerpt": "Ymmärrä sähköisen allekirjoituksen tasojen erot ja valitse sopivin vaihtoehto joka asiakirjalle.",
+        "date": "Mai 2026",
+        "readTime": "6 min lukuaika"
+      },
+      {
+        "category": "AI & Agentit",
+        "title": "Miten kouluttaa AI-agentteja yrityksesi omalla datalla",
+        "excerpt": "Opas tietopohjista, käyttöoikeuksista ja parhaista käytännöistä luotettaville sisäisille agenteille.",
+        "date": "Set 2026",
+        "readTime": "7 min lukuaika"
+      },
+      {
+        "category": "Tietoturva & Vaatimustenmukaisuus",
+        "title": "ISO 27001 käytännössä: mitä auditoijat todella tarkastavat",
+        "excerpt": "Sertifiointiauditoinnissa yleisimmin vaaditut kontrollit ja miten valmistautua niihin etukäteen.",
+        "date": "Abr 2026",
+        "readTime": "6 min lukuaika"
       }
     ]
   },

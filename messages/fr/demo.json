@@ -33,20 +33,20 @@
         "description": "Une personne qui connaît déjà votre secteur."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Ce que vous verrez pendant la démo :",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Vue d'ensemble de la plateforme Interfy",
+      "Démonstration des modules Documents et Process",
+      "Création de workflows avec l'IA",
+      "Signature électronique et conformité",
+      "Séance de questions-réponses"
     ]
   },
   "form": {
     "heading": "Planifiez votre démonstration",
     "subheading": "Renseignez les informations ci-dessous et nous vous contacterons pour confirmer le meilleur créneau.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Prénom",
+    "lastNameLabel": "Nom",
     "emailLabel": "E-mail professionnel",
     "companyLabel": "Entreprise",
     "phoneLabel": "Téléphone (WhatsApp)",
@@ -59,8 +59,8 @@
       "201 à 1 000 collaborateurs",
       "Plus de 1 000 collaborateurs"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Intérêt principal",
+    "interestPlaceholder": "Sélectionner",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "Je ne sais pas encore"
     ],
     "messageLabel": "Parlez-nous un peu de votre besoin",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Parlez-nous de vos besoins...",
     "optionalLabel": "(facultatif)",
     "errors": {
       "name": "Indiquez votre nom complet.",
@@ -91,32 +91,6 @@
     "successHeading": "Nous avons reçu votre demande !",
     "successMessagePrefix": "Notre équipe vous contactera pour confirmer le meilleur créneau à l'adresse ",
     "successMessageSuffix": ".",
-    "specialistLink": "Commencez gratuitement en attendant",
-    "nameLabel": "Nom complet",
-    "roleLabel": "Fonction"
-  },
-  "trust": {
-    "ariaLabel": "Pourquoi planifier une démo avec Interfy",
-    "heading": "Une plateforme prête pour les entreprises mondiales",
-    "subheading": "Sécurité enterprise, conformité mondiale et support spécialisé à chaque démonstration.",
-    "statsLabel": "Présence mondiale d'Interfy",
-    "stats": [
-      {
-        "label": "180+ pays",
-        "sublabel": "Présence mondiale en expansion"
-      },
-      {
-        "label": "16 langues",
-        "sublabel": "Interface et expérience complètes"
-      },
-      {
-        "label": "99,99 %",
-        "sublabel": "Disponibilité SLA garantie"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Conformité certifiée"
-      }
-    ]
+    "specialistLink": "Commencez gratuitement en attendant"
   }
 }

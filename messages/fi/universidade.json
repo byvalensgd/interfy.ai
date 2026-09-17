@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "Interfy-yliopisto",
+    "description": "Interfyn yritysyliopisto: videokursseja, oppaita, todellisia käyttötapauksia ja sertifiointi tiimisi osaamisen kehittämiseen alustalla.",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Interfy-yliopisto",
+      "Interfy-koulutus",
+      "yritysyliopisto",
+      "Interfy-sertifiointi"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "Interfy-yliopisto",
+    "titleLine1": "Kehitä tiimisi osaamista",
+    "titleHighlight": "Interfy-yliopistossa",
+    "description": "Videokursseja, oppaita, todellisia käyttötapauksia ja virallinen sertifiointi, joiden avulla tiimisi hallitsee Interfy-alustan omaan tahtiinsa.",
+    "primaryLabel": "Kokeile Test Drivea",
+    "secondaryLabel": "Varaa demo"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "Miksi panostaa yritysyliopistoon",
+    "heading": "Miksi panostaa",
+    "headingHighlight": "yritysyliopistoon?",
+    "description": "Muuta osaaminen tuottavuudeksi ja poista koulutuksen operatiiviset kustannukset.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "Kustannusten vähentäminen",
+        "description": "Poista kouluttajiin, matkoihin, majoitukseen ja fyysisiin materiaaleihin liittyvät kulut. Kouluta tiimisi ilman operatiivisia kustannuksia."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "Koulutus 24/7",
+        "description": "Tiimisi oppii omaan tahtiinsa, milloin ja missä tahansa. Täysi joustavuus osaamisen kehittämiseen."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "Rajaton skaalautuvuus",
+        "description": "Kouluta 10 tai 10 000 työntekijää samanaikaisesti kustannusten tai operatiivisen monimutkaisuuden kasvattamatta."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "Nopeutettu perehdytys",
+        "description": "Uudet käyttäjät tuottavia ensimmäisestä päivästä lähtien. Lyhennä sopeutumisaikaa ja nosta tuottavuutta nopeasti."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "Virallinen sertifiointi",
+        "description": "Myönnä suoritustodistuksia työntekijöillesi ja seuraa kunkin käyttäjän edistymistä."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "Reaaliaikaiset mittarit",
+        "description": "Seuraa kunkin työntekijän edistymistä, sitoutumista ja suoritusta älykkäiden hallintapaneelien avulla."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "Oppimisresurssit",
+    "heading": "Oppimis-",
+    "headingHighlight": "resurssit",
+    "description": "Kattava ja monipuolinen sisältö kaikille oppimistyyleille.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "Käytännönläheiset videokurssit",
+        "description": "Vaiheittaista videosisältöä kaikista Interfy-alustan moduuleista."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "Oppaat ja käsikirjat",
+        "description": "Kattava dokumentaatio ja kirjalliset ohjeet nopeaa hakua ja käyttöä varten."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "Todelliset käyttötapaukset",
+        "description": "Käytännön esimerkkejä käyttöönotosta ja parhaista käytännöistä alustaa jo käyttäviltä yrityksiltä."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "Asiantunteva tuki",
+        "description": "Kysy kysymyksiä suoraan asiantuntijoilta ja jaa osaamista yhteisön kanssa."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "Koulutusmoduulit",
+    "heading": "Koulutus-",
+    "headingHighlight": "moduulit",
+    "description": "Kattava opetussuunnitelma, joka käsittelee kaikki Interfy-alustan osa-alueet.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Johdatus Interfy-alustaan",
+      "Dokumenttienhallinta (Documents)",
+      "Prosessiautomaatio (Process)",
+      "AI-työnkulkujen luominen (Agents)",
+      "Sähköinen ja digitaalinen allekirjoitus (Sign)",
+      "Älykäs kaappaus (Capture)",
+      "Oikeudellisesti pätevä digitointi",
+      "Viestintä ja yhteistyö (Connect)",
+      "Mobiilisovellus",
+      "Hallinta ja governance",
+      "Tietoturva ja vaatimustenmukaisuus",
+      "Integraatiot ja API:t"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "Ala kehittää tiimisi osaamista juuri tänään",
       "stats": [
         {
-          "value": "90%",
-          "label": "Reduction in Training Costs"
+          "value": "90 %",
+          "label": "vähemmän koulutuskustannuksia"
         },
         {
-          "value": "70%",
-          "label": "Faster Onboarding"
+          "value": "70 %",
+          "label": "nopeampi perehdytys"
         },
         {
-          "value": "100%",
-          "label": "Of the Team Trained"
+          "value": "100 %",
+          "label": "tiimistä koulutettuna"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Käy Interfy-yliopistossa ja muuta osaaminen tuloksiksi."
     }
   }
 }

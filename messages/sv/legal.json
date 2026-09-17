@@ -42,91 +42,190 @@
     "intro": "Dessa användarvillkor reglerar tillgången till och användningen av Interfy-plattformen, inklusive produkterna Documents, Process, Capture, Sign, Connect, Agents, Mobile och Voice, som tillhandahålls av Interfy Corporation. Genom att skapa ett konto eller använda våra tjänster godkänner du villkoren nedan. Detta dokument är ett standardutkast och ska granskas av juristteamet innan slutlig publicering.",
     "sections": [
       {
-        "heading": "1. Godkännande av villkoren",
-        "paragraphs": [
-          "Genom att komma åt eller använda Interfy-plattformen bekräftar du att du har läst, förstått och fullt ut godkänt dessa användarvillkor samt vår integritetspolicy. Om du inte godkänner någon av bestämmelserna ska du inte använda tjänsterna."
-        ]
-      },
-      {
-        "heading": "2. Beskrivning av tjänsten",
-        "paragraphs": [
-          "Interfy erbjuder en företagsplattform som samlar dokumenthantering, processautomation (BPM), intelligent inskanning, elektronisk signatur, integrationer, AI-agenter och mobilappar, tillhandahållen som en prenumerationstjänst (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Registrering och konto",
-        "paragraphs": [
-          "För att använda plattformen krävs ett konto med sanningsenlig, fullständig och uppdaterad information. Du ansvarar för att hålla dina inloggningsuppgifter konfidentiella och för all aktivitet som sker via ditt konto."
+        "heading": "1. Definitioner",
+        "blocks": [
+          { "ul": [
+            "Användare: alla personer som Kunden auktoriserat, genom att tillhandahålla inloggning och lösenord, att få tillgång till och använda plattformens tjänster. \"Användare\" kan vara direktanställda, tjänsteleverantörer, underleverantörer, konsulter osv. som Kunden bedriver verksamhet med.",
+            "Tjänster: den uppsättning verktyg och funktioner som tillhandahålls online av Leverantören via det åtkomstkonto som skapats av dig eller av en av våra auktoriserade affärspartners, på en av våra webbportaler.",
+            "Data: allt data eller alla dokument som samlas in, bearbetas och lagras av/för Kunden med hjälp av de lösningar som tillhandahålls på plattformen av Leverantören.",
+            "Immateriella rättigheter: alla affärshemligheter, registrerade eller oregistrerade varumärken för produkt eller tjänst, patent och patentansökningar, handelsnamn, upphovsrätt, ideella rättigheter, uppfinningar eller immateriella rättigheter och alla andra rättigheter som tillhör Leverantören var de än finns i världen.",
+            "Integritetspolicy: de regler och rutiner som styr hur Leverantören hanterar sekretessen för information som behandlas på plattformen för onlinetjänster."
+          ] },
+          { "p": "Integritetspolicyn är kopplad till detta prenumerationsavtal och innehåller information om hur vi samlar in och behandlar personuppgifter via våra webbplatser och tjänster." },
+          { "ul": [
+            "Onlineplattform: den virtuella miljö genom vilken användaren, efter att ha skapat en arbetsyta (workspace), kan komma åt och använda de tecknade tjänsterna.",
+            "Skadlig kod: datafiler, program eller källkod vars syfte är att skada plattformens funktion, till exempel virus.",
+            "Faktura (Invoice): det dokument som utfärdas för fakturering av de tjänster som tillhandahålls månadsvis, som även används som skattehandling.",
+            "Avtal: motsvarar detta prenumerationsavtal för de tjänster som Leverantören tillhandahåller.",
+            "Dokumentation: de hjälp- och utbildningsmaterial som Leverantören tillhandahåller Kundens användare, och som uppdateras regelbundet.",
+            "Virtuellt konto: det konto som Kunden använder för att få tillgång till de tjänster som Leverantören tillhandahåller, och som endast används online av användare som auktoriserats av Kunden, och genom vilket alla tecknade funktioner görs tillgängliga.",
+            "Tredjepartstjänster: andra tjänster som kan användas tillsammans med de lösningar som tillhandahålls via onlineplattformen, och för vilka Leverantören inte ansvarar för funktion eller störningar i de tecknade tjänsterna enligt detta avtal."
+          ] }
         ],
-        "items": [
-          "Dela inte lösenord eller inloggningsuppgifter med obehöriga tredje parter",
-          "Meddela Interfy omedelbart om du misstänker obehörig användning av kontot",
-          "Håll registreringsuppgifterna uppdaterade"
+        "relatedLink": { "label": "Se hela integritetspolicyn", "href": "/legal/privacidade" }
+      },
+      {
+        "heading": "2. Allmänna villkor",
+        "blocks": [
+          { "p": "Leverantören tillhandahåller, i och med formaliseringen av tillträdet till tjänsterna genom godkännande av detta prenumerationsavtal (Avtalet) och Integritetspolicyn, i tillämpliga fall: a) den lösning som Kunden förvärvat enligt den plan som valts vid onlineregistreringen; b) standardteknisk support för de förvärvade lösningarna, utan extra kostnad för Kunden; c) upprätthåller den förvärvade lösningen tillgänglig online dygnet runt, alla dagar i veckan, med undantag för i förväg planerade driftstopp, eller eventuell otillgänglighet orsakad av omständigheter utanför Leverantörens rimliga kontroll, inklusive fel eller problem hos internet- och/eller infrastrukturleverantören, problem med externa anslutningar till den tecknade lösningen, eller relaterade till blockering av tjänsterna, oavsett orsak." },
+          { "p": "Tjänsterna kan innehålla komponenter, system och andra tjänster från tredje part, för vilka ytterligare villkor, policyer eller krav från andra leverantörer kan gälla, inklusive åldersgränser." },
+          { "p": "Integritetspolicyn som finns på denna webbplats utgör en integrerad del av detta Avtal. Leverantören ska upprätthålla administrativa, fysiska och tekniska skydd för att bevara säkerheten, sekretessen och integriteten hos det lagrade innehållet, med hänsyn till en rimlig och godtagbar marknadsstandard. Du måste följa de policyer som finns inom Tjänsterna, och du får inte missbruka dem, störa användningen av Tjänsterna eller försöka komma åt dem på annat sätt än via det gränssnitt och de instruktioner och lagliga metoder vi tillhandahåller." },
+          { "p": "Du får endast använda tjänsterna i den utsträckning som lagen tillåter. Vi kan stänga av eller upphöra att tillhandahålla Tjänsterna om du bryter mot våra Villkor eller Policyer, eller mot tillämplig lag, eller om vi utreder misstänkt otillbörligt agerande." },
+          { "p": "Du måste godkänna att inte använda, eller tillåta tredje part att använda, Tjänsterna eller innehållet på ett sätt som strider mot lag, eller mot reglerna i detta avtal och Integritetspolicyn. Du godkänner att du inte kommer att:" },
+          { "ul": [
+            "Ge åtkomst till eller tillhandahålla någon del av Tjänsterna till tredje part som inte är kopplad till din verksamhet.",
+            "Reproducera, ändra, kopiera, dekonstruera, sälja, marknadsföra eller sälja vidare Tjänsterna, om du inte är en återförsäljare som auktoriserats av Leverantören skriftligen."
+          ] },
+          { "p": "Tjänsterna skyddas av upphovsrätt, affärshemligheter och andra immaterialrättsliga lagar, vilket inkluderar, men inte begränsat till, alla varumärken eller logotyper som används på webbplatserna. Du har endast rätt att använda Tjänsterna för de ändamål som beskrivs i detta prenumerationsavtal." },
+          { "p": "Leverantören förbehåller sig alla andra rättigheter till Tjänsterna, oavsett om de ägs av Leverantören eller av tredje part. Fram till uppsägningen av detta Avtal, och förutsatt att du uppfyller alla tillämpliga betalningsskyldigheter och följer detta Avtal, beviljar Leverantören dig en personlig, begränsad, icke-exklusiv och icke-överlåtbar rätt och licens att använda Tjänsterna." },
+          { "p": "Vi svarar på meddelanden om påstådda upphovsrättsintrång och avslutar konton för återfallsförbrytare i enlighet med de förfaranden som fastställs i amerikansk upphovsrättslagstiftning. Vi tillhandahåller information för att hjälpa upphovsrättsinnehavare att hantera sin immateriella egendom online." },
+          { "p": "Om du anser att någon kränker din upphovsrätt och vill meddela oss kan du skicka din anmälan till contato@interfy.ai. Tjänsterna gör det möjligt för dig att skicka innehåll, data och dokument för lagring. Du behåller äganderätten till alla immateriella rättigheter du har till det innehållet eller dokumentet. Kort sagt: det som tillhör dig fortsätter att tillhöra dig." }
         ]
       },
       {
-        "heading": "4. Godtagbar användning",
+        "heading": "3. Ditt konto",
+        "paragraphs": ["Du måste skapa ett konto för att använda Tjänsterna. Du kan skapa ditt eget konto på webbplatsen, eller det kan tilldelas dig av en Partneradministratör hos Leverantören. Om du använder ett konto på plattformen för onlinetjänster som tilldelats dig av en administratör kan andra eller ytterligare villkor gälla, och din administratör kan ha möjlighet att blockera eller inaktivera ditt konto."]
+      },
+      {
+        "heading": "4. Bevarande och radering av dina data",
+        "paragraphs": ["Kundens data lagras i Leverantörens databas så länge kontot har skapats och detta avtal är giltigt. I enlighet med Integritetspolicyn kommer data att raderas (permanent tas bort) inom 90 dagar efter avtalets upphörande."]
+      },
+      {
+        "heading": "5. Behandling av personuppgifter, överföring och sekretess",
         "paragraphs": [
-          "Du godkänner att inte använda plattformen för olagliga ändamål, för att kränka tredje parts rättigheter, för att sprida skadlig kod eller för att försöka få obehörig åtkomst till områden eller data."
+          "Du kan läsa Leverantörens Integritetspolicy, som finns på vår webbplats. Du måste godkänna Integritetspolicyn och eventuella ändringar som publiceras av Leverantören. Du godkänner att Leverantören får använda och lagra dina data i enlighet med Integritetspolicyn, som en del av Tjänsterna. Du ger Leverantören tillstånd att kombinera identifierbar och icke-identifierbar information som du anger eller laddar upp i Tjänsterna med information från andra användare av Tjänsterna och/eller andra av Leverantörens tjänster. Detta innebär att Leverantören kan använda aggregerad data från sina användare för att förbättra Tjänsterna eller för att utforma kampanjer och tillhandahålla sätt att jämföra affärspraxis med andra användare. Leverantören är ett globalt företag och kan komma åt eller lagra personuppgifter i flera länder, enligt vad som anges i vår Integritetspolicy.",
+          "Kunden och Leverantören åtar sig att behandla information som juridiskt klassificeras som personuppgifter, med avseende på detta avtal, i enlighet med tillämplig lagstiftning, vid äventyr av ansvar för avtalsbrott, utan att det påverkar rätten till skadestånd. Behandlingen av personuppgifter ska ske uteslutande i enlighet med det ändamål som fastställs i detta avtal.",
+          "Parterna åtar sig att inte överföra och/eller dela behandlade personuppgifter med tredje part, såvida det inte är ett väsentligt krav för att uppfylla detta avtal eller lagliga/rättsliga skyldigheter; dock, även om en av parterna är juridiskt skyldig att överföra data till tredje part, ska den meddela den andra parten och säkerställa sekretessen och integriteten för data, vid äventyr av ansvar. Information om med vem vi delar data för att tillhandahålla våra tjänster finns i vår Integritetspolicy.",
+          "Kunden ansvarar för att dess användare följer detta avtal, för riktigheten, mängden, kvaliteten och lagligheten av dess data och de sätt på vilka de förvärvats, samt för metoderna och formen för behandling av lagrad information, och ska göra sitt bästa för att säkerställa att plattformen används i enlighet med tillämpliga bestämmelser, både vad gäller laglighet, sekretess, integritet, konfidentialitet och säkerhet för behandlade data, samt för att använda tjänsterna i enlighet med det ändamål som anges i detta prenumerationsavtal.",
+          "Om Kunden ansluter andra applikationer till våra tjänster och använder dem tillsammans med våra lösningar, är Kunden medveten om och godkänner att leverantören av den applikationen, oavsett anslutningssätt, kan komma åt och kopiera Kundens data i den utsträckning som krävs för att driva applikationen. Leverantören ansvarar inte för någon incident, avslöjande, ändring eller radering av data som beror på åtkomst från en tredje part som auktoriserats av Kunden.",
+          "Om Leverantören identifierar att en ansluten applikation inte erbjuder rimliga förutsättningar för samverkan med den tecknade lösningen, kan Leverantören upphöra att ge tredje part åtkomst, utan att någon straffavgift, återbetalning eller ersättning utgår från Leverantören. Leverantören är inte skyldig att utvärdera tredjepartsapplikationer, men kan göra det om den anser det lämpligt."
         ]
       },
       {
-        "heading": "5. Immateriella rättigheter",
-        "paragraphs": [
-          "Interfy-plattformen, inklusive programvara, varumärken, layouter och innehåll, ägs av Interfy Corporation eller dess licensgivare och skyddas av lagar om immateriella rättigheter. Ingen bestämmelse i dessa villkor överför immateriella rättigheter till kunden, förutom licensen att använda plattformen under prenumerationsperioden."
+        "heading": "6. Betalning",
+        "blocks": [
+          { "p": "Kunden ska betala i amerikanska dollar alla belopp som anges på det Virtuella Kontot i samband med den ursprungliga planen som förvärvats, plus eventuella belopp för överskjutande förbrukning. Genom att lämna betalningsinformation ger du Leverantören, eller tredje part som vi anlitar för betalningshantering, tillstånd att debitera det kredit-/betalkortet för de belopp som motsvarar den tecknade lösningen, i enlighet med den Faktura som tillhandahålls vid varje faktureringsperiods slut. Du måste betala med en av följande metoder:" },
+          { "ul": [
+            "Ett giltigt kreditkort som godtas av Leverantören.",
+            "Ett giltigt betalkort som godtas av Leverantören.",
+            "Ett annat betalningsalternativ som Leverantören tillhandahåller dig skriftligen eller gör tillgängligt i inställningarna för din prenumerationsplan."
+          ] },
+          { "p": "Det första alternativet är det vanligaste och giltiga för fakturering av tjänster till alla länder; för vissa länder kan vi erbjuda de andra alternativen." },
+          { "p": "Om din betalnings- och registreringsinformation inte är korrekt, aktuell och fullständig, och du inte uppdaterar den när den ändras, kan vi stänga av eller avsluta ditt konto och vägra användning av Tjänsterna." },
+          { "p": "Om du inte meddelar oss om uppdateringar av din betalningsmetod (till exempel utgångsdatum för kreditkort), kan vi, för att undvika avbrott i din tjänst, delta i program som stöds av din kortutgivare (till exempel uppdateringstjänster, program för återkommande fakturering osv.) för att försöka uppdatera din betalningsinformation, och du ger oss tillstånd att fortsätta fakturera ditt konto med den uppdaterade informationen vi erhåller, även om detta inte är en skyldighet för Leverantören." },
+          { "p": "Leverantören förnyar automatiskt dina månatliga eller årliga Tjänster till de vid tidpunkten gällande avgifterna, om inte Tjänsterna avbryts eller sägs upp enligt detta Avtal." },
+          { "p": "Om något fakturerat belopp inte har mottagits av Leverantören på förfallodagen, utan att det påverkar andra tillämpliga åtgärder: a) tas ränta ut med 1 % av det utestående saldot per månad, eller den högsta räntesats som lagen tillåter, beroende på vilket som är lägst; och/eller b) kan tjänsterna stängas av om förseningen överstiger 10 dagar; c) om förseningen överstiger 30 dagar kan Leverantören anlita tredjepartsföretag för indrivning av det utestående beloppet, inklusive de lagliga avgifter som föreskrivs i lag; och/eller d) rapportera betalningsförsummelsen till kreditupplysningsorgan; och/eller e) avsluta Kundens konto efter 40 dagars obetald skuld utan lösning." },
+          { "p": "Vid väsentligt avtalsbrott träder avstängningen i kraft omedelbart, oavsett föregående meddelande." },
+          { "p": "Utan att det påverkar ovanstående, om Kunden på ett tydligt, rimligt och i god tro sätt bestrider tillämpliga avgifter, och samarbetar aktivt för att lösa tvisten, ska Leverantören göra sitt bästa för att lösa frågan så snabbt som möjligt och undvika de ovan nämnda åtgärderna." },
+          { "p": "Kunden godkänner att dess köp inte är villkorade av någon förväntning om leverans av framtida funktioner som ska utvecklas, även om Leverantören muntligt eller skriftligt har kommenterat planerade funktioner." },
+          { "p": "Om detta Avtal sägs upp har Leverantören härmed tillstånd att slutgiltigt avsluta Kundens Virtuella Konto, genom meddelande via e-post till Kunden." }
         ]
       },
       {
-        "heading": "6. Planer, betalning och uppsägning",
+        "heading": "7. Användningsgränser",
         "paragraphs": [
-          "Åtkomst till plattformen ges enligt den tecknade planen. Priser, betalningsmetoder och förlängningsvillkor anges vid teckningstillfället. Uppsägning kan begäras när som helst, med hänsyn till respektive plans specifika villkor."
+          "När du skapar ditt konto väljer du plattformens ursprungliga plan, som fastställer de resurser som ingår i din prenumeration, funktionerna, mängden lagringsutrymme och antalet användare. Valfria tillägg kan inkluderas vid tecknandet, eller senare av arbetsytans administratörsanvändare.",
+          "Så länge detta avtal är aktivt kommer Leverantören inte att begränsa Kundens användares förbrukning; därför, även om det finns ett ursprungligt tjänstepaket, kan du registrera och hålla aktiva så många användare du önskar, om du agerar som plattformens administratör, utan begränsning av lagringsvolym. Månadligen bokförs den totala förbrukningen, som inkluderar värdet av det ursprungliga paketet och alla överskjutande poster, oavsett om det rör antal aktiva användare, lagringsvolym eller andra tillägg, som tillsammans utgör den totala månadsfakturan. Vid överskridande, oavsett Kundens föregående godkännande, är Leverantören auktoriserad att debitera pro rata för det månatliga paketet inklusive de ytterligare mängderna.",
+          "Arbetsytans administratör kan byta sin tjänsteplan till en större plan än sin nuvarande förbrukning, eller till en plan med andra egenskaper och verktyg; administratören bör dock vara medveten om att vid migrering till en plan med färre funktioner kommer alla funktioner som inte ingår i den nya planen inte längre att vara tillgängliga för användarna."
         ]
       },
       {
-        "heading": "7. Kundens data och innehåll",
+        "heading": "8. Ändra eller avsluta tjänsterna",
         "paragraphs": [
-          "Allt innehåll som kunden laddar upp, lagrar eller bearbetar på plattformen (\"Kundens innehåll\") fortsätter att ägas av kunden. Interfy agerar som personuppgiftsbiträde för dessa uppgifter och behandlar dem enligt kundens instruktioner och vår integritetspolicy."
+          "Vi ändrar och förbättrar ständigt Tjänsterna. Vi kan lägga till eller ta bort funktioner eller resurser, och vi kan även stänga av eller helt avsluta en Tjänst. Du kan sluta använda Tjänsterna när du vill, även om vi tycker det är tråkigt att se dig gå.",
+          "Leverantören kan även upphöra att tillhandahålla Tjänsterna till dig, eller lägga till nya begränsningar för Tjänsterna, när som helst. Vi anser att du äger dina data och att det är viktigt att bevara din åtkomst till dem. Om vi avslutar en Tjänst kommer du, när det är rimligt möjligt, att informeras i förväg och ges möjlighet att hämta din information från våra Tjänster."
         ]
       },
       {
-        "heading": "8. Tillgänglighet och support",
+        "heading": "9. Friskrivning från garantier",
         "paragraphs": [
-          "Interfy drivs på en molnbaserad Multi-AZ-infrastruktur på AWS, med en tillgänglighets-SLA på 99,99 %, kontinuerlig övervakning dygnet runt och en katastrofåterställningsplan med geografisk replikering.",
-          "Support tillhandahålls via de kanaler och inom de tidsramar som beskrivs på vår supportsida, och tillgänglighets- och incidenthistorik publiceras i realtid på sidan för plattformsstatus."
-        ],
-        "relatedLink": {
-          "label": "Se hela säkerhetsarkitekturen",
-          "href": "/legal/seguranca"
-        }
-      },
-      {
-        "heading": "9. Ansvarsbegränsning",
-        "paragraphs": [
-          "I den utsträckning gällande lag tillåter ansvarar Interfy inte för indirekta, tillfälliga eller följdskador som uppstår till följd av användningen eller oförmågan att använda plattformen."
+          "Vi tillhandahåller våra Tjänster med en rimlig nivå av kompetens och omsorg och hoppas att du uppskattar att använda dem. Men det finns vissa saker vi inte utfäster om Tjänsterna. Förutom när det uttryckligen anges i dessa villkor eller i tilläggsvillkor, lämnar varken Leverantören eller dess leverantörer, partners eller distributörer vissa garantier om Tjänsterna. Vi ansvarar till exempel inte för innehållet i Tjänsterna, för specifika funktioner, tillgänglighet eller förmåga att tillgodose dina behov. Vi tillhandahåller Tjänsterna \"i befintligt skick\". Vissa jurisdiktioner föreskriver vissa garantier, såsom den underförstådda garantin för säljbarhet, lämplighet för ett särskilt ändamål och icke-intrång. I den utsträckning lagen tillåter utesluter vi alla garantier.",
+          "I enlighet med detta Avtal lämnar ingen av parterna någon garanti av något slag, uttrycklig, underförstådd, lagstadgad eller annan, och varje part frånsäger sig särskilt alla underförstådda garantier, inklusive alla underförstådda garantier om säljbarhet, lämplighet för ett särskilt ändamål eller icke-intrång, i den utsträckning som tillämplig lag tillåter. Varje part är befriad från allt ansvar och skadeståndsskyldighet för förluster eller skador orsakade av tredjepartsleverantörer av hosting och applikationer."
         ]
       },
       {
-        "heading": "10. Uppsägning",
+        "heading": "10. Licens och äganderätter",
         "paragraphs": [
-          "Interfy kan stänga av eller avsluta åtkomsten till plattformen vid brott mot dessa villkor, efter förhandsmeddelande, utom vid överhängande risk för plattformens eller tredje parts säkerhet."
+          "Leverantören förbehåller sig alla sina rättigheter, äganderätt och intressen avseende Lösningarna, inklusive alla relaterade immateriella rättigheter.",
+          "Tjänsten tillhandahålls med begränsad åtkomst och ingen äganderätt överförs till Kunden. Leverantören har och behåller alla rättigheter, äganderätt och intressen, inklusive alla immateriella rättigheter, i och till tjänsten, inklusive alla ändringar, uppdateringar, uppgraderingar, tillägg, komponenter och härledda verk av tjänsterna.",
+          "Kunden ger Leverantören och dess Anknutna bolag eller Partners en världsomfattande licens, begränsad till löptiden för detta prenumerationsavtal, att kopiera, överföra, hosta och visa dina Data, inklusive källkod när den skapats av eller för Kunden, samt för tredjepartsapplikationer, i den utsträckning som krävs för att Leverantören ska kunna tillhandahålla åtkomst till Lösningarna i enlighet med detta avtal.",
+          "Leverantören kan använda dessa insamlade Data för att ta fram anonymiserad information och statistik, för att förbättra och utveckla Tjänsterna och för andra ändamål som produktutveckling, diagnostik och korrigering, alltid anonymiserat, utan identifiering av Kunden.",
+          "Kunden ger Leverantören en världsomfattande, slutgiltig, oåterkallelig och royaltyfri licens att införliva och använda i lösningarna nya funktioner och egenskaper som utvecklats på begäran av eller efter förslag från Kunden och/eller dess användare.",
+          "Leverantören, dess leverantörer, partners och distributörer frånsäger sig alla utfästelser eller garantier om att din användning av Tjänsterna uppfyller eller garanterar efterlevnad av juridiska skyldigheter, lagar eller föreskrifter."
         ]
       },
       {
-        "heading": "11. Ändringar av villkoren",
+        "heading": "11. Ansvar för tjänsterna",
         "paragraphs": [
-          "Dessa villkor kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen, med rimlig tid innan de träder i kraft."
+          "I den utsträckning lagen tillåter ansvarar Leverantören och dess leverantörer, partners och distributörer inte för utebliven vinst, uteblivna intäkter, dataförlust, ekonomiska förluster eller indirekta, särskilda, följd-, exemplariska eller straffskadestånd. I den utsträckning lagen tillåter är Leverantörens och dess leverantörers, partners och distributörers totala ansvar för alla anspråk enligt dessa villkor, inklusive underförstådda garantier, begränsat till det belopp du betalat till Leverantören under de senaste 12 månaderna för användningen av Tjänsterna. I samtliga fall ansvarar Leverantören och dess leverantörer, partners och distributörer inte för förlust eller skada som inte rimligen kunde förutses.",
+          "Om du använder våra Tjänster på uppdrag av ett företag måste det företaget godkänna dessa villkor. Företaget ska hålla Leverantören och dess anknutna bolag, partners, distributörer, chefer, agenter och anställda skadeslösa och gottgöra dem för alla anspråk, rättegångar eller rättsliga åtgärder som uppstår från eller är relaterade till användningen av Tjänsterna eller brott mot dessa villkor, inklusive allt ansvar eller kostnader som följer av anspråk, förluster, skador, rättegångar, domar, rättegångskostnader och advokatarvoden.",
+          "Om Kunden blir föremål för en rättslig process med påstående om att användningen av de tecknade Tjänsterna kränker eller innebär obehörigt tillgodogörande av tredje parts immateriella rättigheter, ska Leverantören försvara Kunden mot anspråket, kravet eller den rättsliga åtgärden, och gottgöra Kunden för skador, kostnader och avgifter som tilldelas genom ett negativt utfall, förutsatt att Kunden skriftligen och i god tid meddelar Leverantören och ger Leverantören exklusiv kontroll över och nödvändigt stöd för försvaret, inklusive möjligheten för Leverantören att ändra lösningen eller säga upp detta avtal med 30 dagars varsel.",
+          "Om Kunden ställs inför rättslig åtgärd för immaterialrättsintrång orsakat av tredjepartsapplikationer som är anslutna till de Tjänster som omfattas av detta Avtal, är Leverantören befriad från allt ansvar, och skyldigheterna att försvara och gottgöra Kunden gäller inte Leverantören.",
+          "Om Leverantören blir föremål för anspråk, krav, åtgärd eller rättsprocess från en tredje part med påstående att de Data som lagras och behandlas av Kunden, eller det sätt på vilket Kunden använder tjänsterna och behandlar data, bryter mot detta avtal eller strider mot någon tillämplig föreskrift eller lag, inklusive tredje parts immateriella rättigheter, ska Kunden gottgöra Leverantören för skador, kostnader och utgifter som uppstår från försvaret eller en eventuell fällande dom, förutsatt att Leverantören omedelbart och skriftligen meddelar Kunden och ger Kunden exklusiv kontroll över försvaret efter en begäran i god tid, med förbehåll för att Kunden inte får ingå förlikning på Leverantörens vägnar utan dess föregående skriftliga godkännande. Leverantören ska ge Kunden rimlig assistans, på egen bekostnad, för försvaret."
         ]
       },
       {
-        "heading": "12. Tillämplig lag och jurisdiktion",
+        "heading": "12. Innehåll",
         "paragraphs": [
-          "Dessa villkor regleras av lagarna i Förbundsrepubliken Brasilien, utan att det påverkar specifika avtalsbestämmelser för kunder i andra jurisdiktioner."
+          "Du ansvarar för allt material, dokument, data och personuppgifter (\"Innehåll\") som laddas upp, publiceras eller lagras genom användningen av Tjänsterna. Du ger Leverantören en världsomfattande, royaltyfri och icke-exklusiv licens att hosta och övervaka allt Innehåll som tillhandahålls genom användningen av Tjänsterna.",
+          "Du måste använda bästa praxis för att lagra ditt innehåll, eftersom du ansvarar för allt innehåll som går förlorat eller inte kan återställas på grund av oskicklighet eller felaktig användning av Tjänsten. Leverantören ansvarar inte för Innehållet eller de data som skickas via Plattformen. Du godkänner att inte använda, eller tillåta tredje part att använda, Tjänsterna för att ladda upp, publicera, distribuera, länka, återge, involvera eller överföra olagligt, bedrägligt, förtalande, obscent, pornografiskt, profant, hotfullt, kränkande, offensivt eller anstötligt innehåll; som utger sig för att vara en annan person; av typen kedjebrev, pyramidspel eller skräppost; virus, trojaner, maskar eller annan skadlig kod; eller information, programvara eller innehåll som inte lagligen tillhör dig och utan vederbörligt tillstånd från rättighetsinnehavaren.",
+          "Leverantören kan, men är inte skyldig att, övervaka innehållet i Tjänsterna. Vi kan lämna ut all information som krävs för att uppfylla våra lagliga skyldigheter, skydda Leverantören eller dess kunder, skydda sekretessen, främja säkerheten och skydda liv, eller för att driva Tjänsterna på ett korrekt sätt.",
+          "Om Leverantören enligt lag är skyldig att skicka meddelanden till dig om Tjänsterna eller tredjepartsprodukter, godkänner du att Leverantören kan skicka dem via e-post eller publicera dem på våra webbplatser eller applikationer som du har tillgång till, med respekt för informationens konfidentialitet.",
+          "Den part som tar emot konfidentiell information får endast lämna ut den när det krävs enligt lag, föreskrift eller domstols- eller myndighetsbeslut, och är skyldig att omedelbart meddela den andra parten innan den lämnas ut, för att underlätta ansträngningar att skydda den konfidentiella informationen, och endast lämna ut den del som strikt krävs. När utlämnandet sker på dessa villkor ska den utlämnande parten inte hållas ansvarig för det."
         ]
       },
       {
-        "heading": "13. Kontakt",
+        "heading": "13. Uppsägning",
+        "blocks": [
+          { "p": "Leverantören kan omedelbart, enligt eget gottfinnande och utan föregående meddelande, säga upp detta Avtal eller stänga av Tjänsterna om du inte uppfyller villkoren i detta Avtal eller om du inte längre samtycker till att ta emot elektroniska meddelanden. Efter uppsägningen måste du omedelbart sluta använda Tjänsterna, och alla utestående betalningar förfaller till betalning. Uppsägning av detta Avtal påverkar inte Leverantörens rätt till betalningar som förfallit till dess fördel." },
+          { "p": "Leverantören kan stänga av användningen av Tjänsterna, ta bort innehåll eller inaktivera och även avsluta ett virtuellt konto om den, i god tro, rimligen anser att Kunden eller någon av dess användare bryter mot villkoren i detta avtal och Integritetspolicyn. Leverantören ska meddela Kunden innan kontot stängs av eller inaktiveras, om inte laglig hinder föreligger, i vilket fall Kunden meddelas så snart hindret upphör." },
+          { "p": "Kunden kan säga upp detta avtal, utan att behöva ange skäl, med minst 30 dagars förhandsbesked, utan uppsägningsavgift. Endera parten kan säga upp detta avtal om något av följande inträffar:" },
+          { "ul": [
+            "En av parterna inleder ett konkurs- eller rekonstruktionsförfarande.",
+            "Ett bevisat väsentligt avtalsbrott som inte åtgärdas.",
+            "Force majeure-situationer, katastrofer, pandemier eller naturhändelser som bevisligen förhindrar fortsatt tillhandahållande av tjänsterna."
+          ] },
+          { "p": "Alla ovan angivna uppsägningsgrunder kräver minst 30 dagars förhandsbesked, utan att det påverkar Leverantörens rätt att erhålla de belopp som Kunden är skyldig fram till uppsägningens ikraftträdandedatum. Ingen återbetalning ska utgå till Kunden." }
+        ]
+      },
+      {
+        "heading": "14. Ändringar av detta villkor",
+        "blocks": [
+          { "p": "Vi kan ändra dessa villkor eller eventuella tilläggsvillkor som gäller för Tjänsten, till exempel för att återspegla ändringar i lagen eller ändringar i våra Tjänster. Du bör kontrollera villkoren regelbundet. Vi kommer att publicera meddelanden om ändringar på denna sida, och ett meddelande om ändring inom den aktuella Tjänsten när det är relevant. Ändringarna gäller inte retroaktivt och träder i kraft minst 14 dagar efter publicering; ändringar avseende nya funktioner i en Tjänst, eller som görs av juridiska skäl, träder i kraft omedelbart. Om du inte godkänner de ändrade villkoren för en Tjänst måste du sluta använda den Tjänsten." },
+          { "p": "Beloppen som debiteras för tjänsterna kan ändras av Leverantören, som ska informera Kunden via den e-postadress som är kopplad till det virtuella kontot; ändringarna börjar gälla för tjänsternas pris från nästa förnyelse av prenumerationen." },
+          { "p": "Leverantören kan meddela Kunden om allmän information om användningen av Tjänsterna, eller annan nödvändig kommunikation, via den e-post som du registrerat på Plattformen för det virtuella kontots administratör och för faktureringsadressen, när det gäller faktureringsinformation. Det är Kundens ansvar att hålla det virtuella kontots uppgifter uppdaterade och att konfigurera e-postmeddelanden som skickas från Plattformens domän som säkra, så att de inte behandlas som skräppost; all information som skickas ska anses levererad från och med 1 arbetsdag efter avsändandet." },
+          { "p": "Meddelanden om underhåll av tjänsterna, planerade ingrepp, tekniska frågor av intresse för användarna och tillgängliggörande av nya funktioner kan skickas direkt till användarna, efter Kundens eget val. För att kommunicera med Leverantören kan Kunden använda följande kanaler:" },
+          { "ul": [
+            "Plattformens chatt: för direkt support till tjänstens användare, förtydligande av frågor, teknisk support och användningsvägledning.",
+            "E-post suporte@interfy.ai: för att öppna tekniska supportärenden, förslag på förbättringar och förtydliganden om konfigurationer och användning av tjänsterna.",
+            "Frågor om databehandling: privacidade@interfy.ai.",
+            "E-post legal@interfy.ai: för övriga förfrågningar, inklusive uppsägning av detta prenumerationsavtal eller juridiska frågor."
+          ] }
+        ]
+      },
+      {
+        "heading": "15. Tillämplig lag",
+        "paragraphs": ["Kunden godkänner att lagen i delstaten Florida, USA, styr detta Avtal, utan hänsyn till lagkonflikter eller val av annan jurisdiktion, hur fördelaktig den än må vara."]
+      },
+      {
+        "heading": "16. Tvister",
         "paragraphs": [
-          "Frågor om dessa villkor kan skickas till contato@interfy.ai."
+          "Alla tvister eller anspråk relaterade till Tjänsterna eller till detta Avtal ska lösas genom bindande skiljeförfarande, i stället för i domstol, förutom när du kan göra gällande dina anspråk i småmålsdomstol, om dina anspråk kvalificerar sig för det. Federal Arbitration Act reglerar tolkningen och tillämpningen av denna bestämmelse; skiljemannen ska tillämpa Floridas/USA:s lag på övriga frågor. Endera parten i skiljeförfarandet kan när som helst begära interimistiska åtgärder eller andra former av skälig gottgörelse från valfri behörig domstol.",
+          "Detta Avtal, inklusive Integritetspolicyn, utgör hela avtalet mellan dig och Leverantören och ersätter alla tidigare överenskommelser, kommunikationer och avtal, muntliga eller skriftliga, om ämnet i fråga. Om en behörig domstol fastställer att någon del av detta Avtal är ogiltig, ska den delen tas bort utan att det påverkar resten av Avtalet, som förblir giltigt och verkställbart.",
+          "Förenta nationernas konvention om internationella köp av varor gäller inte för detta Avtal. Du får inte överlåta eller överföra äganderätten till detta Avtal till någon utan Leverantörens skriftliga godkännande. Leverantören kan dock överlåta eller överföra det utan ditt samtycke till en partner, till ett företag genom försäljning av tillgångar, eller till en efterträdare genom fusion. Alla överlåtelser som bryter mot denna del ska ogiltigförklaras.",
+          "Kunden avstår från all rätt att framställa anspråk som representant eller ombud för en viss grupp på en kollektiv eller aggregerad basis, eller att slå samman skiljeförfaranden utan samtycke från alla parter. Alla domar som meddelas av skiljemannen ska vara slutgiltiga, avgörande och bindande för parterna; om inte skiljemannen bestämmer annat ska varje part bära sina egna kostnader och utgifter. Efter att en skiljedom bekräftats i en federal eller delstatlig domstol i Florida kan domen verkställas i valfri behörig domstol, utan att det påverkar Leverantörens rätt att begära interimistisk åtgärd eller annan skälig gottgörelse i valfri behörig domstol.",
+          "Detta avtal ingås av oberoende parter och skapar inte något partnerskap, samfund, bolag, franchise, samriskföretag eller anställningsförhållande. Att en part inte omedelbart utövar en rättighet vid avtalsbrott innebär inte att den avstår från rätten, och en enskild bestämmelses ogiltighet ska inte påverka övriga bestämmelser."
+        ]
+      },
+      {
+        "heading": "17. Bekämpning av korruption och penningtvätt",
+        "paragraphs": ["Inom ramen för det avtalsförhållande som fastställs genom detta Prenumerationsavtal åtar sig parterna, för egen del och för sina anställda, delägare, ombud, chefer, medarbetare, tredje parter, anknutna bolag och alla personer som agerar för deras räkning, att bedriva sin affärsverksamhet på ett etiskt sätt och i enlighet med tillämpliga lagbestämmelser, och får inte direkt eller indirekt utlova betalningar, göra betalningar, donationer eller ge någon annan förmån till tredje part, representanter för regeringen eller för offentliga eller privata organ, i syfte att påverka ett beslut för att säkerställa en otillbörlig, olaglig, oegentlig eller orättvis fördel. Båda parter förklarar att de är medvetna om och åtar sig att troget följa de lagbestämmelser som rör bekämpning och förebyggande av penningtvätt och döljande av tillgångar."]
+      },
+      {
+        "heading": "18. Slutbestämmelser",
+        "paragraphs": [
+          "Parterna är överens om att avsnitten om Bevarande och radering av dina data, Behandling av personuppgifter (överföring och sekretess), Betalning, Friskrivning från garantier, Licens och äganderätter, Ansvar för tjänsterna, Innehåll, Tillämplig lag och Tvister ska fortsätta att gälla efter uppsägning eller upphörande av detta Avtal.",
+          "Varje part förklarar att den giltigt har ingått detta prenumerationsavtal (Avtalet) och har den juridiska befogenheten att göra det."
         ]
       }
     ]
@@ -168,93 +267,171 @@
     },
     "sections": [
       {
-        "heading": "1. Vilka vi är",
+        "heading": "1. Definitioner",
         "paragraphs": [
-          "Interfy Corporation, med huvudkontor i Orlando, Florida, USA, är personuppgiftsansvarig för de personuppgifter som behandlas via Interfy-plattformen, utom när bolaget agerar som personuppgiftsbiträde på en kunds instruktioner."
+          "Personuppgifter: information som gör det möjligt att identifiera en fysisk person, direkt eller indirekt, inklusive genom att korsreferera data. Exempel: identitetsnummer, personnummer/CPF, adress, fotografi, religiös eller politisk uppfattning, födelsedatum, hälsodata, biometri osv.",
+          "Registrerad: ägaren av uppgiften, det vill säga den fysiska person som uppgiften avser.",
+          "Databehandling: alla åtgärder som utförs med personuppgifter, såsom insamling, visning, delning, mottagande, redigering, radering, överföring osv.",
+          "Ändamål: det mål man avser att uppnå med den behandling av data som genomförs.",
+          "Personuppgiftsansvarig: den fysiska eller juridiska person som utsetts av Interfy för att besvara frågor och säkerställa att databehandlingen sker i enlighet med tillämplig lagstiftning, med respekt för de registrerades rättigheter.",
+          "Personuppgiftsbiträde: den fysiska eller juridiska person som utför databehandlingen på uppdrag av den personuppgiftsansvarige.",
+          "Tredje part: fysisk eller juridisk person, offentlig eller privat, som Interfy har eller kan komma att ha en relation med.",
+          "Dataskyddsombud: den fysiska eller juridiska person som utsetts av Interfy för att besvara frågor och säkerställa att databehandlingen sker i enlighet med LGPD, med respekt för de registrerades rättigheter."
         ]
       },
       {
-        "heading": "2. Vilka uppgifter vi samlar in",
-        "items": [
-          "Registreringsuppgifter: namn, e-post, telefonnummer, företag och befattning",
-          "Användningsdata för plattformen: åtkomstloggar, utförda åtgärder och inställningsinställningar",
-          "Kundens innehåll: dokument, processer och övrig information som kunden själv lägger in i plattformen",
-          "Tekniska uppgifter: IP-adress, enhetstyp och webbläsare"
+        "heading": "2. Vilka rättigheter du har som registrerad",
+        "blocks": [
+          { "ul": [
+            "Som registrerad har du rätt till enkel åtkomst till information om behandlingen av dina uppgifter, som ska göras tillgänglig på ett tydligt, lämpligt och tillgängligt sätt.",
+            "Du kan bekräfta att behandling sker samt begära och få tillgång till uppgifterna.",
+            "Om du upptäcker att uppgifterna är ofullständiga, felaktiga eller inaktuella kan du begära rättelse.",
+            "Interfy sparar inte onödiga uppgifter, men om någon uppgift anses vara överdriven kan du begära anonymisering, blockering eller radering, även om uppgifterna behandlas i strid med tillämplig lagstiftning.",
+            "Om du behöver att dina uppgifter överförs till en annan leverantör kan du begära dataportabilitet, genom en uttrycklig begäran, med hänsyn till affärs- och yrkeshemligheter.",
+            "Om du har gett oss samtycke att behandla dina uppgifter kan du begära att de raderas, förutom i de fall som föreskrivs i tillämplig lagstiftning.",
+            "Vi kommer att informera dig om vilka offentliga eller privata organ Interfy har delat dina uppgifter med, om delning sker.",
+            "Om du inte vill ge oss ditt samtycke till databehandlingen respekterar vi ditt beslut och informerar om eventuella konsekvenser av att inte lämna det.",
+            "Du har rätt att återkalla ditt samtycke, genom uttrycklig, kostnadsfri och enkel begäran.",
+            "Om nödvändigt har du rätt att vända dig till ANPD (den brasilianska dataskyddsmyndigheten), konsumentskyddsorgan och tillsynsmyndigheter för dataskydd, om dina uppgifter behandlas på ett olämpligt sätt av Interfy.",
+            "Du kan motsätta dig databehandling som grundas på undantag från samtycke i fall av bristande efterlevnad av tillämplig lagstiftning.",
+            "Om Interfy behandlar uppgifter på ett automatiserat sätt och fattar beslut som enbart baseras på sådan behandling och som påverkar dina intressen, kan du begära att sådana beslut omprövas.",
+            "Du kan när som helst begära tydlig och adekvat information om de kriterier och förfaranden som används för automatiserade beslut, med hänsyn till affärs- och yrkeshemligheter.",
+            "För att utöva dina rättigheter kopplade till dataskydd, skicka din begäran till privacidade@interfy.ai; vårt dataskyddsombud kommer att vidta de åtgärder som krävs för att tillmötesgå din begäran.",
+            "Om du återkallar ditt samtycke och det inte finns någon annan rättslig grund som stödjer behandlingen, kommer vi att sluta behandla dina uppgifter för det ändamål som samtycket avsåg.",
+            "All information som du lämnar på bloggar eller webbplatser, offentligt exponerad på internet utan åtkomstkontroll, kan inte garanteras skydd av oss, och vi kan inte heller begränsa vem som får kopiera eller dela sådan information."
+          ] }
         ]
       },
       {
-        "heading": "3. Hur vi använder uppgifterna",
-        "items": [
-          "Tillhandahålla och underhålla de tecknade tjänsterna",
-          "Autentisera användare och skydda konton mot obehörig åtkomst",
-          "Skicka operativa meddelanden, supportmeddelanden och, med samtycke, kommersiella meddelanden",
-          "Uppfylla juridiska och regulatoriska skyldigheter"
-        ]
-      },
-      {
-        "heading": "4. Delning av uppgifter",
-        "paragraphs": [
-          "Personuppgifter kan delas med infrastrukturleverantörer (som AWS molntjänster), betalningsleverantörer och andra personuppgiftsbiträden som är strikt nödvändiga för att tillhandahålla tjänsten, alltid under avtalsenliga sekretess- och säkerhetsförpliktelser. Vi säljer aldrig personuppgifter till tredje part."
-        ]
-      },
-      {
-        "heading": "5. Cookies och liknande tekniker",
-        "paragraphs": [
-          "Vi använder nödvändiga cookies för att webbplatsen ska fungera och, med samtycke, analytiska cookies för att förstå användningen av plattformen och förbättra användarupplevelsen."
-        ]
-      },
-      {
-        "heading": "6. Datalagring",
-        "paragraphs": [
-          "Personuppgifter bevaras under den tid som krävs för att uppfylla de ändamål som beskrivs i denna policy, eller enligt lag, och raderas eller anonymiseras därefter."
-        ]
-      },
-      {
-        "heading": "7. Informationssäkerhet",
-        "paragraphs": [
-          "Vi tillämpar flerskiktad säkerhet, från arkitekturen till den dagliga driften:"
+        "heading": "3. Vilka uppgifter vi behandlar",
+        "blocks": [
+          { "p": "Interfy är en leverantör av tjänster för intelligent dokumenthantering och automatisering av affärsprocesser, som samlar dokument (Documents), processautomation (Process), intelligent inskanning (Capture) och elektronisk och digital signatur (Sign) i en enda plattform. Våra tjänster tillhandahålls online, med direkt avtal från användarföretagen eller via affärspartners och distributörer. Vi behandlar de uppgifter som är nödvändiga för att aktivera och upprätthålla våra tjänster, säkerställa säkerhet och tillgänglighet, diagnostisera tekniska problem, komma ihåg användbar information för en bättre användning av tjänsten, skicka nödvändiga underhållsmeddelanden och varningar, tillhandahålla teknisk support, ge utbildning och vägledning om bästa praxis, informera om förbättringar och nya funktioner, samt erbjuda relevanta kompletterande tjänster för användare och framtida användare." },
+          { "p": "Varje fysisk eller juridisk person som tecknar våra tjänster kan lagra och behandla uppgifter med hjälp av de funktioner som finns tillgängliga på vår plattform, och identifieras som PERSONUPPGIFTSANSVARIG, medan Interfy agerar som PERSONUPPGIFTSBITRÄDE. I den rollen håller vi uppgifterna säkra och tillgängliga, raderar dem eller tillhandahåller kopior på uttrycklig begäran av den PERSONUPPGIFTSANSVARIGA, i enlighet med de inställningar som denne har fastställt. Som PERSONUPPGIFTSBITRÄDE åtar sig Interfy att behandla information som klassificeras som personuppgifter strikt enligt de kriterier som fastställs av den PERSONUPPGIFTSANSVARIGA och som anges i GDPR och LGPD samt övriga tillämpliga förordningar, uteslutande för de ändamål som anges i användarvillkoren, och Interfy kan inte hållas ansvarigt gentemot den nationella dataskyddsmyndigheten (ANPD) och/eller andra myndigheter, registrerade eller någon annan institution med befogenhet att tillämpa administrativa eller rättsliga sanktioner." },
+          { "p": "Om Interfy skulle bli föremål för sanktioner i egenskap av PERSONUPPGIFTSBITRÄDE, förbehåller vi oss rätten att i sin tur kräva av den PERSONUPPGIFTSANSVARIGA ersättning för alla förluster, skador och kostnader som uppstår till följd av det olagliga agerandet, samt andra åtgärder som krävs för att skydda Interfys rättigheter." },
+          { "p": "Interfy och de företag som ingår i koncernen har ingen kontroll över vilka uppgifter användarna lagrar, i enlighet med punkt 8 i våra Användarvillkor." },
+          { "p": "För att använda våra tjänster lämnar du följande information, som betraktas som Personuppgifter och för vilka Interfy ansvarar som PERSONUPPGIFTSANSVARIG: vid tecknandet av tjänsterna, som användare av plattformen, eller när du besöker våra webbplatser och skickar oss ett personligt CV, lämnar du ditt namn, e-post, telefonnummer, befattning och CV-uppgifter (som varierar beroende på varje registrerad)." }
         ],
-        "items": [
-          "Isolering per arbetsyta och dedikerad databas per kund, utan delning",
-          "Avancerad kryptering: data i transit (TLS 1.2+) och i vila (AES-256)",
-          "Detaljerad åtkomstkontroll (RBAC) per roll, grupp och känslighetsnivå",
-          "Företagsautentisering: SSO, SAML 2.0, OAuth 2.0, AD/LDAP och MFA",
-          "IP-baserad åtkomstbegränsning (IP Blocking)",
-          "Oföränderliga och sökbara loggar och revisionsspår",
-          "Säkerhetsövervakning dygnet runt, automatiska krypterade backuper och katastrofåterställning med geografisk replikering",
-          "Multi-AZ-infrastruktur på AWS, certifierad enligt ISO/IEC 27001:2022, med SOC 2 Type II pågående"
+        "relatedLink": { "label": "Se hela användarvillkoren", "href": "/legal/termos" }
+      },
+      {
+        "heading": "4. Vad vi använder varje uppgift till",
+        "blocks": [
+          { "p": "Namn och e-post: vi använder dessa uppgifter för att skicka det första meddelandet om att din arbetsyta har skapats, och därefter meddelanden relaterade till tjänsten, underhållsbehov, uppdateringar, lagstadgade skyldigheter, marknadsföringsinformation om nya produkter och funktioner, erbjudanden, eller annat innehåll som är nödvändigt för att förbättra tjänsten. Du kan välja att inte ta emot marknadsföringsmeddelanden genom att markera det alternativ som finns i e-postmeddelandet. Om vi tar emot ett e-postmeddelande kan vi behålla meddelandet, inklusive våra svar, för att upprätthålla en historik över supportärenden." },
+          { "p": "Telefonnummer: vi samlar in telefonnumret för senare kontakt via WhatsApp eller andra meddelandeappar, i syfte att besvara supportförfrågningar snabbare och mer korrekt, skicka meddelanden och marknadsföringsmaterial, eller för kontakter från vår ekonomiavdelning, när det är lämpligt och nödvändigt. Vi lägger inte till dig i någon grupp utan föregående inbjudan." },
+          { "p": "CV: de CV:n som skickas in av de registrerade lagras i vår databas under 24 månader, och används för att välja ut medarbetare i våra rekryteringsprocesser när en ny tjänst öppnas." },
+          { "p": "Befattning: lagras i register över kunder och partners så att vi kan identifiera funktionerna hos varje person vi har en relation med, för att kunna vända oss till rätt personer när det behövs." },
+          { "p": "Betalningsuppgifter: används för behandling av den månatliga faktureringen av tjänsterna. När betalning via kredit- och/eller betalkort väljs lagrar Interfy inte uppgifterna — de kopplas till ett prenumerations-ID hos betalningsprocessorn (till exempel Stripe eller PayPal), som samlar in och lagrar uppgifterna för behandling. Interfy behåller endast det tillhörande ID:t; våra underleverantörer (subprocessorer) har sina egna integritetspolicyer. För övriga tillgängliga betalningsmetoder samlar vi in och lagrar faktureringsinformation, prenumerationsregister och betalningsregister för att säkerställa tjänsternas kontinuitet. Utöver ovanstående uppgifter kan vi samla in: plats, IP-adress för den anslutna enheten och identifiering av anslutna enheter." }
+        ]
+      },
+      {
+        "heading": "5. Hur vi samlar in och använder varje uppgift",
+        "blocks": [
+          { "p": "Din plats: vi kan samla in, lagra och övervaka platsdata när du besöker en av våra webbplatser eller Interfy-applikationen. Kombinerat med andra uppgifter kan dessa data göra dig identifierbar; de är nödvändiga för att vissa tjänster ska fungera korrekt, som identifiering av lokal valuta och språk." },
+          { "p": "IP-adress för den anslutna enheten: tillsammans med e-postadress och plats gör detta det möjligt för oss att identifiera var användaren är placerad på vår plattform och till vilken region den hör, vilket hjälper oss att förbättra våra supportrutiner och identifiera eventuella regionrelaterade problem, såsom prestandafrågor för tjänsten." },
+          { "p": "Identifiering av anslutna enheter: när du använder tjänsterna från en mobil enhet kan vi samla in, lagra, övervaka och komma åt enhetsidentifierare, som kan göra dig identifierbar om de kombineras med andra uppgifter. Vi lagrar dessa uppgifter för att rendera sidorna enligt enhetens storlek och begränsa funktioner som inte är lämpliga för vissa typer av enheter." },
+          { "p": "Andra uppgifter som vi behandlar utifrån de ovan insamlade uppgifterna:" },
+          { "p": "Cookies: hjälper dig att logga in på plattformen snabbare, genom att lagra information om hur du navigerar på webbplatsen; denna information, som skickas till oss anonymt, gör det möjligt för oss att förbättra din surfupplevelse. En beständig cookie ligger kvar på din hårddisk efter att du stängt webbläsaren, och kan tas bort enligt instruktionerna för din webbläsare; en sessionscookie är tillfällig och försvinner när webbläsaren stängs." },
+          { "p": "Loggfiler: när du använder Tjänsten registrerar våra servrar automatiskt viss information som skickas av din webbläsare, till exempel webbförfrågan, IP-adress, webbläsartyp, sökningar/utgångssidor och URL:er, antal klick, hur du interagerar med länkar i Tjänsten, domännamn, landningssidor, visade sidor, mobiloperatör och annan information." },
+          { "p": "Webbfyrar (web beacons): vi kan använda dem i HTML-baserade e-postmeddelanden som skickas till användare, vilket gör det möjligt för oss att spåra vilka som öppnas av mottagarna och användningsmönster online, vilket genererar mer detaljerad statistik och gör våra tjänster mer attraktiva för användarna." }
+        ]
+      },
+      {
+        "heading": "6. Uppgifter som samlas in på frivillig basis",
+        "paragraphs": [
+          "Du kan lägga till ditt foto i din åtkomstprofil på plattformen när du använder tjänsterna. Detta är valfritt och du kan ta bort det när du vill.",
+          "Du kan även skicka oss dina uppgifter genom att fylla i ett onlineformulär, skicka e-post eller kontakta oss via chatt. Dessa uppgifter behandlas för att ge dig den information du begär och kan användas för direktmarknadsföring och analysändamål.",
+          "Om du registrerar dig för ett av våra onlineevenemang lämnar du dina kontaktuppgifter, genom vilka vi ger dig åtkomst till evenemanget; dessa uppgifter behandlas för att bättre förstå vår bas av användare eller framtida användare och för direktmarknadsföring.",
+          "Du kan avsluta prenumerationen på marknadsföringskommunikation från Interfy genom att följa avregistreringsinstruktionerna i sidfoten på våra marknadsföringsmejl, eller genom att skicka ett e-postmeddelande till privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "7. Uppgifter som samlas in från tredje part",
+        "paragraphs": [
+          "Vi kan samla in uppgifter från tredjepartskällor för att du ska kunna logga in på våra tjänster, eller om du delar uppgifter som lagras i våra tjänster med tredje part — dessa tredjepartstjänster kan skicka information till oss om dig och din offentliga profil, förutsatt att inställningarna för ditt konto i tredjepartsapplikationen tillåter denna typ av delning.",
+          "Vi kan också ta emot information kopplad till användningen av våra webbplatser från tredjepartsapplikationer. Om du besöker våra webbplatser kan vi övervaka och registrera dina aktiviteter, och våra tredjepartsleverantörer kan förse oss med ytterligare information som är tillgänglig för allmänheten.",
+          "Den information vi samlar in kan även användas för identifiering, autentisering, förebyggande av bedrägerier och för att förbättra den tjänst vi tillhandahåller, inklusive felsökning, marknadsundersökningar och efterlevnad av våra Användarvillkor."
+        ]
+      },
+      {
+        "heading": "8. Hur Interfy, i egenskap av PERSONUPPGIFTSBITRÄDE, hanterar dokument och data som du lagrar på plattformen",
+        "paragraphs": ["Innehåll som du och personerna i din organisation lagrar på Interfy-plattformen visas inte av vår supportpersonal, förutom om plattformens administratör tillhandahåller inloggning och lösenord till en av våra medarbetare, uteslutande för teknisk support och vägledning om användning av applikationen — och användaren ska inaktiveras av administratören när ärendet är avslutat. Varje kund får en isolerad databas, vilket garanterar skydd av åtkomsten till informationen: endast de personer som plattformens administratör ger inloggning och lösenord med respektive behörigheter får tillgång till innehållet. Allt lagrat innehåll och alla data (register, elektroniska filer, metadata, formulär, processer osv.) överförs till våra servrar i AWS-infrastrukturen (certifierad enligt ISO/IEC 27001:2022, SOC 2 Type II och HIPAA Ready, samt i enlighet med LGPD och GDPR), genom inmatning, skanning och/eller uppladdning av personer som auktoriserats av den PERSONUPPGIFTSANSVARIGA, i enlighet med de regler och inställningar som plattformens administratör fastställt i förväg; innehållet överförs mellan arbetsstationer eller enheter och skickas via HTTPS, med TLS-kryptering."]
+      },
+      {
+        "heading": "9. Delning med tredje part",
+        "paragraphs": [
+          "Interfy kan dela dina uppgifter med affärspartners när vi anser att de är tillförlitliga och kan ha produkter och tjänster som är relevanta för dig, eller för att vi ska kunna fullgöra detta tjänsteavtal — till exempel hostingleverantörer. När vi behöver göra detta säkerställer vi att tredje part är tillförlitlig och kommer att bevara sekretessen för dina uppgifter.",
+          "Om Interfy genomgår en fusion, förvärv eller ägarförändring kan bolaget dela dina uppgifter med tredje part till följd av den processen.",
+          "Om du använder vår applikation via tredjepartsappar direkt kan dina uppgifter delas med dem; se till att du litar på appen och observera dataskyddspolicyerna hos det ägande företaget.",
+          "Vi kan dela uppgifter med tredjepartsapplikationer via API, där lagrade uppgifter kan hämtas och/eller kopieras till andra applikationer, med vederbörligt godkännande från den PERSONUPPGIFTSANSVARIGA som ansvarar för de uppgifter som lagras på vår plattform.",
+          "Interfy kan lämna ut dina personuppgifter när det krävs enligt lag eller lagbestämmelse, i syfte att skydda säkerheten för en individ i bedrägerifrågor, skydda rätten till liv och frihet, eller skydda Interfys rättigheter.",
+          "Vi använder tredjeparts analysverktyg, som samlar in information som skickas av din webbläsare som en del av en begäran om en webbsida, webbläsartillägg och annan information, för att hjälpa oss mäta trafik och användningstrender för våra Tjänster.",
+          "Interfy kan lagra och behandla personuppgifter i tredjeparts marknadsföringssystem, kundrelationssystem (CRM) och system för hantering av e-post, i syfte att främja företagets verksamhet och underlätta interaktioner med användare och potentiella kunder."
+        ]
+      },
+      {
+        "heading": "10. Blogg och community",
+        "paragraphs": [
+          "Vi kan skapa bloggar och offentligt tillgängliga communities, inklusive forum. All information du lägger in i dessa områden kan läsas av andra personer, som vi inte kan kontrollera, och kan även samlas in och användas av den som får tillgång till detta innehåll; publicerad information kan finnas kvar även efter att du avslutat ditt konto.",
+          "Om du tar bort information som publicerats i blogg- och/eller community-tjänsten kan kopior finnas kvar i tjänstens cache eller hos andra användare. Om du vill att vi tar bort denna information, skicka ett e-postmeddelande till privacidade@interfy.ai; i vissa fall kan vi dock inte kunna ta bort sådan information."
+        ]
+      },
+      {
+        "heading": "11. Internationell delning av data",
+        "blocks": [
+          { "p": "Hostingen av våra tjänster är fördelad på nedanstående regioner:" },
+          { "ul": ["Amazon AWS — São Paulo (Brasilien) och Virginia (Amerikas Förenta Stater)."] },
+          { "p": "Uppgifterna distribueras på ett automatiserat sätt genom de tekniska resurserna som tillämpas i själva infrastrukturen. För att säkerställa dataskyddet vidtar vi säkerhetsåtgärder i enlighet med LGPD:s bestämmelser och, tillsammans med leverantören AWS, använder vi resurser mot oavsiktlig förstörelse, obehörig åtkomst, automatiserade säkerhetskopior och organisatoriska åtgärder i linje med säkerhetspolicyn, bland andra rimliga tekniska aspekter." },
+          { "p": "Uppgifter från användare i Europeiska unionen, Storbritannien, Liechtenstein, Norge, Island och övriga länder lagras i Amerikas Förenta Stater (USA) via Interfy och dess tjänsteleverantörer; om du inte är bosatt i USA kan lagarna skilja sig från de lagar som gäller där du bor. Genom att använda Tjänsterna bekräftar du att all personlig information om dig lämnas till Interfy i USA och hostas på servrar i USA, och du ger Interfy tillstånd att överföra, lagra och behandla din information från och i Amerikas Förenta Stater och, när det behövs, i andra länder som anges i denna policy. Användare i Brasilien kan ha sina uppgifter lagrade både i USA och i Brasilien." }
+        ]
+      },
+      {
+        "heading": "12. Behandlings- och lagringstid för uppgifter",
+        "blocks": [
+          { "p": "Uppgifter där Interfy är PERSONUPPGIFTSANSVARIG: de uppgifter som samlas in direkt eller av våra kunder via Plattformen bevaras endast under den tid som krävs för att tillhandahålla tjänsterna, eller under den tid som krävs för att uppfylla våra avtal och lagliga, redovisnings- och skattemässiga skyldigheter. För radering eller anonymisering har vi fastställt interna policyer som säkerställer processens säkerhet, och vi kan behålla uppgifterna i upp till 3 månader efter att användningen av tjänsterna upphört, som en säkerhetsmarginal innan de raderas eller anonymiseras. Uppgifter som används av marknadsföringsavdelningen kan behållas så länge vi anser att våra tjänster kan vara relevanta för ett framtida avtal, eller tills du avregistrerar dig eller begär radering av uppgifterna." },
+          { "p": "Uppgifter där Interfy är PERSONUPPGIFTSBITRÄDE: bevaras tills den PERSONUPPGIFTSANSVARIGA begär radering och tills vi säkert kan genomföra den, och bekräftar att alla uppgifter har raderats slutgiltigt, vilket kan ta upp till 90 dagar. Interfy kräver att alla fysiska och juridiska personer som tecknar och använder våra tjänster agerar i enlighet med alla tillämpliga lagar och förordningar, utöver denna policy, och kan ensidigt avsluta tillhandahållandet av tjänsterna om vi upptäcker att kundens användare bryter mot regler för skydd av personuppgifter, enligt vad som anges i våra Användarvillkor." },
+          { "p": "Uppgifter som behandlas för att upprätthålla efterlevnad: de uppgifter som krävs för att uppfylla skatte-, avgifts-, socialförsäkrings-, arbetsrättsliga och juridiska skyldigheter för Interfy-koncernen, i vilket land vi verkar, bevaras under den tid som fastställs i respektive lands lagstiftning." }
         ],
-        "relatedLink": {
-          "label": "Se hela säkerhetsarkitekturen",
-          "href": "/legal/seguranca"
-        }
+        "relatedLink": { "label": "Se hela användarvillkoren", "href": "/legal/termos" }
       },
       {
-        "heading": "8. Dina rättigheter (LGPD/GDPR)",
-        "items": [
-          "Bekräftelse av att behandling sker och åtkomst till uppgifterna",
-          "Rättelse av ofullständiga, felaktiga eller inaktuella uppgifter",
-          "Anonymisering, blockering eller radering av onödiga uppgifter",
-          "Dataportabilitet till en annan tjänsteleverantör",
-          "Återkallelse av samtycke, när tillämplig"
+        "heading": "13. Om samtycke",
+        "paragraphs": [
+          "Genom att godkänna vår Integritetspolicy och registrera dig för att använda vår plattform eller någon av våra Tjänster, godkänner du den och ger oss tillstånd att behandla dina uppgifter i enlighet med denna policy.",
+          "Du har rätt att helt eller delvis återkalla ditt samtycke till att vi behandlar dina Personuppgifter. För att göra detta, kontakta privacidade@interfy.ai, och vi kommer att sluta behandla dina personuppgifter för de ändamål du ursprungligen samtyckte till, om det inte finns lagliga och övertygande skäl att fortsätta behandla dina Personuppgifter som väger tyngre än dina intressen, rättigheter och friheter, eller för att fastställa, utöva eller försvara rättsliga anspråk."
         ]
       },
       {
-        "heading": "9. Internationell överföring av uppgifter",
+        "heading": "14. Rätta, uppdatera eller radera din information",
         "paragraphs": [
-          "Eftersom vi verkar med global infrastruktur kan personuppgifter överföras mellan länder, alltid med avtalsenliga och tekniska skyddsåtgärder som är förenliga med LGPD och GDPR."
+          "Du kan begära rättelse, uppdatering eller radering av de personuppgifter du lämnar direkt till Interfy; vårt team gör sitt bästa för att tillmötesgå din begäran inom tillämplig lagstadgad tidsram, men vi ansvarar inte för eventuella fel i leveransen av vårt svar.",
+          "När din information behandlas av en av våra kunder som tecknat våra tjänster, ska du rikta din begäran direkt till din leverantör (vår tjänstekund), som agerar som PERSONUPPGIFTSANSVARIG för dina uppgifter."
         ]
       },
       {
-        "heading": "10. Ändringar av denna policy",
-        "paragraphs": [
-          "Denna policy kan uppdateras periodiskt. Väsentliga ändringar kommer att meddelas via e-post eller på plattformen."
+        "heading": "15. Integritetsrättigheter för användare i Kalifornien",
+        "paragraphs": ["Invånare i Kalifornien har rätt att begära ett meddelande från oss som identifierar de kategorier av personuppgifter vi delar med våra partners eller tredje part i marknadsföringssyfte, inklusive kontaktinformation för varje tredje part. Om du är bosatt i Kalifornien, använder våra tjänster och vill begära sådan information, skicka en begäran till privacidade@interfy.ai."]
+      },
+      {
+        "heading": "16. Barns personuppgifter",
+        "paragraphs": ["Vi samlar inte medvetet in eller begär personuppgifter från personer under 13 år, i enlighet med vårt Prenumerationsavtal. Om du är under 13 år ska du inte försöka registrera dig för tjänsterna eller skicka oss någon personlig information om dig. Om vi får kännedom om ett konto som skapats av en person under 13 år, eller information som skickats direkt till oss under sådana omständigheter, kommer vi att radera all information så snart som möjligt. Om du upptäcker att ett barn under 13 år har registrerat ett konto i våra tjänster eller lämnat personuppgifter, kontakta oss på privacidade@interfy.ai."]
+      },
+      {
+        "heading": "17. Rättslig grund för behandling av personuppgifter",
+        "blocks": [
+          { "p": "Vi behandlar endast din personliga information om vi har en rättslig grund för att göra det. Vi använder följande rättsliga grunder:" },
+          { "ul": [
+            "Avtalsnödvändighet: uppgifterna behandlas för att uppfylla vårt Användaravtal med dig, och är avgörande för att vi ska kunna tillhandahålla tjänsterna — utan dem skulle vi inte kunna göra det. Inkluderar väsentliga kontouppgifter, primära nödvändiga cookies, anslutningsdata och tredjeparts kontoinformation (om sådan finns), som vid inloggning via Active Directory.",
+            "Samtycke: i vissa fall behandlar vi personuppgifter baserat på det samtycke du formellt lämnat vid insamlingstillfället, uttryckligen begärt vid insamlingen.",
+            "Berättigat intresse: vi samlar in vissa kategorier när vi anser att de gynnar vårt eller tredje parts berättigade intresse, såsom faktureringsdata, uppgifter från onlineformulär, ytterligare kontouppgifter, telefon, chatt och e-post (när de samlas in på andra sätt än via tjänstens användarkonto), uppgifter om evenemang och communities, spårningscookies, supportärenden, enhetsidentifierare och webbfyrar.",
+            "Andra skäl: vi kan behandla uppgifter för att uppfylla juridiska, redovisnings-, skatte- och arbetsrättsliga skyldigheter, för att skydda registrerades vitala intressen, eller för att tillmötesgå krav från myndigheter och/eller domstolar."
+          ] }
         ]
       },
       {
-        "heading": "11. Kontakt med dataskyddsombudet (DPO)",
+        "heading": "18. Allmänna bestämmelser",
         "paragraphs": [
-          "För att utöva dina rättigheter eller ställa frågor om denna policy, kontakta vårt dataskyddsombud via e-post på privacidade@interfy.ai."
+          "Om denna Integritetspolicy uppdateras kommer vi att publicera en ny version på denna sida med den uppdaterade informationen.",
+          "Vår policy omfattar endast åtkomst till våra webbplatser och applikationer. Länkar till tredje parts webbplatser omfattas inte av vår Integritetspolicy."
         ]
       }
     ]
@@ -343,7 +520,7 @@
         ],
         "relatedLink": {
           "label": "Se hela säkerhetsarkitekturen",
-          "href": "/legal/seguranca"
+          "href": "/seguranca"
         }
       },
       {

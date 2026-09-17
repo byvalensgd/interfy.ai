@@ -28,73 +28,195 @@
     "eyebrow": "Legal Information",
     "sidebarLabel": "On this page",
     "title": "Terms of Use",
-    "updatedLabel": "Last updated: September 1, 2026",
-    "intro": "These Terms of Use govern access to and use of the Interfy platform, including the Documents, Process, Capture, Sign, Connect, Agents, Mobile and Voice products, made available by Interfy Corporation. By creating an account or using our services, you agree to the conditions described below. This document is a standard draft and should be reviewed by legal counsel before final publication.",
+    "updatedLabel": "Standard Subscription Agreement — Version 1/2021, updated February 18, 2021",
+    "intro": "This Agreement will take effect on the first date on which you agree to, access, or use the Contracted Services of Interfy Corporation, headquartered in Orlando, Florida, United States (\"Provider\"), and You (\"Customer\"). This is a legal agreement between you (Customer) and Interfy Corporation (Provider), describing the terms governing the use of Interfy's online services, made available to you through this website, including content, updates and new releases, identified as the \"Agreement.\" If you are entering into this Agreement on behalf of a company or other legal entity, you represent and warrant that you have the authority to bind that entity and its affiliates to these terms and conditions as its legal and authorized representative, and that you have read and understood this agreement. In that case, the terms 'You' or 'Your' refer to such entity and its affiliates, as well as to you. By electronically accepting by clicking \"I Agree,\" accessing or using the Services, you irrevocably agree to this Agreement and to the Privacy Policy available on this website.",
     "sections": [
       {
-        "heading": "1. Acceptance of terms",
-        "paragraphs": [
-          "By accessing or using the Interfy platform, you state that you have read, understood and fully accepted these Terms of Use and our Privacy Policy. If you do not agree with any provision, you should not use the services."
-        ]
-      },
-      {
-        "heading": "2. Service description",
-        "paragraphs": [
-          "Interfy provides an enterprise platform that brings together document management, process automation (BPM), intelligent capture, electronic signature, integrations, AI agents and mobile apps, delivered as a subscription (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Registration and account",
-        "paragraphs": ["To use the platform, you must create an account with true, complete and up-to-date information. You are responsible for keeping your access credentials confidential and for all activity under your account."],
-        "items": [
-          "Do not share passwords or access credentials with unauthorized third parties",
-          "Notify Interfy immediately if you suspect unauthorized use of your account",
-          "Keep your registration data up to date"
-        ]
-      },
-      {
-        "heading": "4. Acceptable use",
-        "paragraphs": ["You agree not to use the platform for unlawful purposes, to violate third-party rights, to distribute malware, or to attempt to access areas or data without authorization."]
-      },
-      {
-        "heading": "5. Intellectual property",
-        "paragraphs": ["The Interfy platform, including software, trademarks, layouts and content, is owned by Interfy Corporation or its licensors and protected by intellectual property laws. Nothing in these Terms transfers intellectual property rights to the customer, other than the license to use the platform during the subscription term."]
-      },
-      {
-        "heading": "6. Plans, payment and cancellation",
-        "paragraphs": ["Access to the platform is granted according to the contracted plan. Prices, payment methods and renewal terms are informed at the time of purchase. Cancellation can be requested at any time, subject to the specific conditions of each plan."]
-      },
-      {
-        "heading": "7. Customer data and content",
-        "paragraphs": ["All content submitted, stored or processed by the customer on the platform (\"Customer Content\") remains the customer's property. Interfy acts as a processor of this data, handling it according to the customer's instructions and our Privacy Policy."]
-      },
-      {
-        "heading": "8. Availability and support",
-        "paragraphs": [
-          "Interfy runs on cloud-native, Multi-AZ infrastructure on AWS, with a 99.99% availability SLA, continuous 24/7 monitoring and a disaster recovery plan with geographic replication.",
-          "Support is provided through the channels and timeframes described on our Support page, and real-time availability and incident history are published on our Platform Status page."
+        "heading": "1. Definitions",
+        "blocks": [
+          { "ul": [
+            "Users: all individuals authorized by the Customer, through the release of a login and password, to access and use the Platform's services. \"Users\" may be direct employees, service providers, outsourced staff, consultants, etc., with whom the Customer does business.",
+            "Services: the set of tools and features provided online by the Provider through the access account created by you or by one of our accredited business partners, on one of our web portals.",
+            "Data: means any and all data or documents collected, processed and maintained by/for the Customer, using the solutions made available on the Platform by the Provider.",
+            "Intellectual Property: all trade secrets, registered or unregistered trademarks for a product or service, patents and patent applications, trade names, copyrights, moral rights, invention rights or intellectual property rights, and all other rights of the Provider anywhere in the world.",
+            "Privacy Policy: means the rules and practices governing how the Provider handles the privacy of information processed on the Online Services Platform."
+          ] },
+          { "p": "The Privacy Policy is linked to this services subscription agreement and contains information about how we collect and process personal data through our websites and our services." },
+          { "ul": [
+            "Online Platform: means the virtual environment through which the user, after creating a workspace, can access and use the contracted services.",
+            "Malicious Code: data files, programs or source code whose purpose is to cause damage to the platform's operation, such as viruses, for example.",
+            "Invoice: the document issued to bill for the services rendered monthly, also used as a tax document.",
+            "Agreement: equivalent to this subscription agreement for the services provided by the Provider.",
+            "Documentation: means the help and training materials provided by the Provider to the Customer's users, updated periodically.",
+            "Virtual Account: the account used by the Customer to access the services provided by the Provider, carried out online only by users authorized by the Customer, through which all contracted features are made available.",
+            "Third-Party Services: means other services that may be used together with the solutions made available through the online platform, for which the Provider will not be responsible for the operation of or interference with the contracted services under this agreement."
+          ] }
         ],
-        "relatedLink": { "label": "See our full security architecture", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "See the full Privacy Policy", "href": "/legal/privacidade" }
       },
       {
-        "heading": "9. Limitation of liability",
-        "paragraphs": ["To the maximum extent permitted by applicable law, Interfy will not be liable for indirect, incidental or consequential damages arising from the use or inability to use the platform."]
+        "heading": "2. General conditions",
+        "blocks": [
+          { "p": "Upon formalizing your subscription to the services through acceptance of this Subscription Agreement (Agreement) and the Privacy Policy, as applicable, the Provider will make available: a) the solution acquired by the Customer according to the plan selected at the time of online sign-up; b) standard technical support for the acquired solutions, at no additional cost to the Customer; c) will keep the acquired solution available online 24 hours a day, 7 days a week, except for previously scheduled downtime, or any unavailability caused by circumstances beyond the Provider's reasonable control, including failures or issues with the internet and/or infrastructure provider, issues with connections external to the contracted solution, or related to the blocking of the services, whatever the cause." },
+          { "p": "The Services may include third-party components, systems and other services, to which additional terms, policies or requirements from other vendors may apply, including age requirements." },
+          { "p": "The Privacy Policy available on this website is an integral part of this Agreement. The Provider will maintain administrative, physical and technical safeguards to preserve the security, confidentiality and integrity of stored content, in line with a reasonable and acceptable market standard. You must follow the policies made available within the Services, and must not misuse them, interfere with the use of the Services, or attempt to access them by any method other than the interface and the lawful instructions and methods we provide." },
+          { "p": "You may use the services only as permitted by law. We may suspend or stop providing the Services if you breach our Terms or Policies, or any applicable laws, or if we are investigating suspected misconduct." },
+          { "p": "You must agree not to use, nor allow third parties to use, the Services or the content in a manner that violates any law, or the rules of this agreement and the Privacy Policy. You agree that you will not:" },
+          { "ul": [
+            "Provide access to, or provide any part of, the Services to third parties unrelated to your business.",
+            "Reproduce, modify, copy, reverse engineer, sell, market or resell the Services, unless you are a reseller accredited by the Provider and authorized in writing."
+          ] },
+          { "p": "The Services are protected by copyright, trade secrets and other intellectual property laws, including, among others, any trademarks or logos used on the sites. You only have the right to use the Services for the purposes described in this subscription agreement." },
+          { "p": "The Provider reserves all other rights in the Services, whether owned by it or by third parties. Until termination of this Agreement, and provided you comply with all applicable payment obligations and remain in compliance with this Agreement, the Provider grants you a personal, limited, non-exclusive and non-transferable right, and a license, to use the Services." },
+          { "p": "We respond to notices alleging copyright infringement and terminate the accounts of repeat infringers in accordance with the procedures established under US copyright law. We provide information to help copyright holders manage their intellectual property online." },
+          { "p": "If you believe someone is infringing your copyright and wish to notify us, you may send your notice to contact@interfy.ai. The Services allow you to submit content, data and documents for storage. You retain ownership of any intellectual property rights you hold over that content or document. In short, what belongs to you stays with you." }
+        ]
       },
       {
-        "heading": "10. Termination",
-        "paragraphs": ["Interfy may suspend or terminate access to the platform in case of a breach of these Terms, upon prior notice, except in cases of imminent risk to the security of the platform or third parties."]
+        "heading": "3. Your account",
+        "paragraphs": ["You need to create an account to use the Services. You may create your own account on the website, or it may be assigned to you by a Partner administrator of the Provider. If you are using an Online Services Platform account assigned to you by an administrator, different or additional terms may apply, and your administrator may be able to block or deactivate your account."]
       },
       {
-        "heading": "11. Changes to these terms",
-        "paragraphs": ["These Terms may be updated periodically. Material changes will be communicated by email or notice on the platform, with reasonable notice before they take effect."]
+        "heading": "4. Retention and deletion of your data",
+        "paragraphs": ["The Customer's data will be stored in the Provider's database for as long as the account has been created and this agreement remains valid. In accordance with the Privacy Policy, the data will be erased (permanently deleted) within 90 days after termination of the agreement."]
       },
       {
-        "heading": "12. Governing law and jurisdiction",
-        "paragraphs": ["These Terms are governed by the laws of the Federative Republic of Brazil, without prejudice to specific contractual provisions for customers in other jurisdictions."]
+        "heading": "5. Processing of personal data, transfer and confidentiality",
+        "paragraphs": [
+          "You may review the Provider's Privacy Policy, available on our website. You must agree to the Privacy Policy and any changes published by the Provider. You agree that the Provider may use and maintain your data in accordance with the Privacy Policy, as part of the Services. You grant the Provider permission to combine identifiable and non-identifiable information that you enter or upload into the Services with that of other users of the Services and/or other Provider services. This means the Provider may use aggregated data from its users to improve the Services or to design promotions and provide ways to compare business practices with other users. The Provider is a global company and may access or store personal information in various countries, as specified in our Privacy Policy.",
+          "Customer and Provider undertake to handle information legally classified as personal data, under this agreement, in observance of applicable law, subject to liability for contractual breach, without prejudice to losses and damages. The processing of personal data will occur solely in accordance with the purpose established in this agreement.",
+          "The parties undertake not to transfer and/or share the personal data processed with third parties, except where this is an essential requirement for compliance with this agreement or with legal/judicial obligations; however, even if one party is legally required to transfer data to third parties, it must notify the other party and ensure the confidentiality and integrity of the data, subject to liability. Information about with whom we share data to provide our services can be found in our Privacy Policy.",
+          "The Customer will be responsible for its users' compliance with this agreement, for the accuracy, quantity, quality and legality of its data and the means by which it was obtained, and for the methods and manner of processing its stored information, making its best efforts to ensure the platform is used in accordance with applicable regulations, both with respect to the legality, privacy, integrity, confidentiality and security of the processed data, and to use the services in accordance with the purpose specified in this subscription agreement.",
+          "If the Customer connects other applications to our services and uses them together with our solutions, the Customer acknowledges and agrees that the provider of that application, regardless of the connection method, may access and copy Customer data as necessary to operate the application. The Provider is not responsible for any incident, disclosure, modification or deletion of data resulting from access by a third party authorized by the Customer.",
+          "If the Provider determines that a connected application does not provide reasonable conditions for interoperation with the contracted solution, it may discontinue access for that third party, without any penalty, refund or compensation from the Provider. The Provider is not obligated to evaluate third-party applications, but may do so if it deems appropriate."
+        ]
       },
       {
-        "heading": "13. Contact",
-        "paragraphs": ["Questions about these Terms can be sent to contact@interfy.ai."]
+        "heading": "6. Payment",
+        "blocks": [
+          { "p": "The Customer will pay, in United States dollars, all amounts specified in the Virtual Account related to the subscription to the initial plan acquired, plus any excess usage amounts, where applicable. By providing payment information, you authorize the Provider, or third parties engaged by us for payment processing, to charge that credit/debit card the amounts corresponding to the contracted solution, in accordance with the Invoice made available at each billing cycle close. You must pay using one of the following methods:" },
+          { "ul": [
+            "A valid credit card accepted by the Provider.",
+            "A valid debit card accepted by the Provider.",
+            "Another payment option that the Provider provides to you in writing or makes available in your subscription plan settings."
+          ] },
+          { "p": "The first option is the most common and valid for charges for services provided to any country; for some countries we may make the other options available." },
+          { "p": "If your payment and registration information is not accurate, current and complete, and you do not update it whenever it changes, we may suspend or terminate your account and refuse the use of the Services." },
+          { "p": "If you do not notify us of updates to your payment method (for example, credit card expiration date), to avoid interruption of your service we may participate in programs supported by your card provider (for example, account updater services, recurring billing programs, etc.) to try to update your payment information, and you authorize us to continue billing your account with the updated information we obtain, although this is not an obligation of the Provider." },
+          { "p": "The Provider will automatically renew your monthly or annual Services at the rates in effect at that time, unless the Services are canceled or terminated under this Agreement." },
+          { "p": "If any amount invoiced by the Provider is not received by its due date, without prejudice to other applicable measures: a) interest of 1% of the outstanding balance per month, or the maximum rate permitted by law, whichever is lower, will be charged; and/or b) the services may be suspended when the delay exceeds 10 days; c) in the event of a delay exceeding 30 days, the Provider may use third-party collection agencies to collect the amount owed, including the legal charges provided by law; and/or d) report the default to credit protection agencies and entities; and/or e) delete the Customer's account after 40 days of unresolved default." },
+          { "p": "In cases of material breach of the Agreement, suspension will be immediately effective, regardless of prior notice." },
+          { "p": "Notwithstanding the above, if the Customer is disputing the applicable charges in a clear, reasonable and good-faith manner, and is diligently cooperating to resolve the disagreement, the Provider will make its best efforts to resolve the matter as quickly as possible and avoid the measures mentioned above." },
+          { "p": "The Customer agrees that its purchases are not conditioned on any expectation related to the delivery of future features to be developed, even if the Provider has made any oral or written comment about planned features." },
+          { "p": "Upon termination of this Agreement, the Provider is hereby authorized to permanently delete the Customer's Virtual Account, upon notice by email to the Customer." }
+        ]
+      },
+      {
+        "heading": "7. Usage limits",
+        "paragraphs": [
+          "When creating your account, you will select the solution's initial plan, which will define the resources included in your subscription, the features, the amount of storage space and the number of users. Optional items may be included at sign-up, or later by the workspace administrator user.",
+          "While this agreement is active, the Provider will not limit the Customer's users' consumption; therefore, although there is an initial service package, you may register and keep active as many users as you wish, if you are acting as the platform administrator, with no limitation on storage volume. Total consumption will be tallied monthly, including the value of the initial package and all excess items, whether in number of active users, storage volume or additional items, which together make up the total monthly invoice. Where there are overages, regardless of prior approval by the Customer, the Provider is authorized to charge pro rata for the monthly package including the additional quantities.",
+          "The workspace administrator may change their services plan to a larger plan than their current consumption, or a plan with different features and tools; however, they should be aware that, when migrating to a plan with fewer features, all functions not included in the new plan will no longer be made available to users."
+        ]
+      },
+      {
+        "heading": "8. Modifying or canceling the services",
+        "paragraphs": [
+          "We are constantly changing and improving the Services. We may add or remove features or capabilities, and we may also suspend or discontinue a Service entirely. You may stop using the Services at any time, although we will be sorry to see you go.",
+          "The Provider may also stop providing the Services to you, or add new limits to the Services, at any time. We believe you own your data and that it is important to preserve your access to it. If we discontinue a Service, when reasonably possible, you will be informed in advance and will have the chance to withdraw your information from our Services."
+        ]
+      },
+      {
+        "heading": "9. Disclaimer of warranties",
+        "paragraphs": [
+          "We provide our Services using a reasonable level of skill and care and expect that you will enjoy using them. But there are some things we do not promise about the Services. Except as expressly provided in these terms or in additional terms, neither the Provider, nor its suppliers, partners or distributors offer certain warranties about the Services. For example, we are not responsible for the content within the Services, for specific functionality, availability, or the ability to meet your needs. We provide the Services \"as is.\" Certain jurisdictions provide for certain warranties, such as the implied warranty of merchantability, fitness for a particular purpose and non-infringement. To the extent permitted by law, we exclude all warranties.",
+          "As provided in this Agreement, neither party makes any warranty of any kind, express, implied, statutory or otherwise, and each party specifically disclaims all implied warranties, including any implied warranty of merchantability, fitness for a particular purpose or non-infringement, to the maximum extent permitted by applicable law. Each party is released from all liability and indemnification obligations for losses or damages caused by any third-party hosting and application providers."
+        ]
+      },
+      {
+        "heading": "10. License and ownership rights",
+        "paragraphs": [
+          "The Provider reserves all its rights, title and interest in the Solutions, including all related Intellectual Property rights.",
+          "The Service is made available with limited access and no ownership right is conveyed to the Customer. The Provider has and retains all rights, title and interest, including all intellectual property rights, in and to the service, including all modifications, updates, upgrades, extensions, components and works derived from the services.",
+          "The Customer grants the Provider and its Affiliates or Partners a worldwide license, limited in term to the duration of this subscription agreement, to copy, transmit, host and display your Data, including source code when created by or for the Customer, as well as for third-party applications, as necessary for the Provider to provide access to the Solutions in accordance with this agreement.",
+          "The Provider may use this collected Data for the purposes of gathering anonymized information and metrics, to improve and enhance the Services and for other product development, diagnostic and correction purposes, always in anonymized form, without identifying the Customer.",
+          "The Customer grants the Provider a worldwide, perpetual, irrevocable and royalty-free license to incorporate and use in the solutions new features and functionality developed at the request or suggestion of the Customer and/or its users.",
+          "The Provider, its suppliers, partners and distributors disclaim any representations or warranties that your use of the Services satisfies or guarantees compliance with any legal obligations, laws or regulations."
+        ]
+      },
+      {
+        "heading": "11. Responsibilities regarding the services",
+        "paragraphs": [
+          "Where permitted by law, the Provider and its suppliers, partners and distributors will not be liable for loss of profits, loss of revenue, loss of data, financial losses or indirect, special, consequential, exemplary or punitive damages. To the extent permitted by law, the total liability of the Provider and its suppliers, partners and distributors, for any claim under these terms, including any implied warranties, is limited to the amount you paid to the Provider in the preceding 12 months for use of the Services. In all cases, the Provider and its suppliers, partners and distributors will not be liable for any loss or damage that is not reasonably foreseeable.",
+          "If you are using our Services on behalf of a company, that company must accept these terms. It will hold harmless and indemnify the Provider and its affiliates, partners, distributors, officers, agents and workers from any claim, lawsuit or legal action arising from or related to the use of the Services or the breach of these terms, including any liability or expense resulting from claims, losses, damages, lawsuits, litigation costs and attorneys' fees.",
+          "If the Customer becomes the target of a lawsuit alleging that use of the contracted Services infringes or results from the misappropriation of a third party's intellectual property rights, the Provider will defend the Customer against the claim, demand or lawsuit, and will indemnify it for damages, expenses and costs awarded in an adverse decision, provided that the Customer promptly notifies the Provider in writing, within a timeframe that allows for a defense, and gives the Provider exclusive control and the necessary support to conduct the defense, including the option for the Provider to modify the solution or terminate this agreement with 30 days' prior notice.",
+          "If the Customer is sued for intellectual property infringement caused by third-party applications connected to the Services covered by this Agreement, the Provider will be released from any liability, and the defense and indemnification obligations to the Customer will not apply to the Provider.",
+          "If the Provider becomes the target of a claim, demand, action or lawsuit brought by a third party alleging that the Data stored and processed by the Customer, or the manner in which it uses the services and processes the data, violates this agreement or infringes any applicable regulation or law, including third-party intellectual property, the Customer will indemnify the Provider for damages, costs and expenses arising from the defense or any resulting judgment, provided that the Provider gives immediate written notice to the Customer and gives it exclusive control of the defense upon timely request, it being understood that the Customer may not settle on behalf of the Provider without its prior written approval. The Provider must provide the Customer with reasonable assistance, at its own expense, for the defense."
+        ]
+      },
+      {
+        "heading": "12. Content",
+        "paragraphs": [
+          "You are responsible for all materials, documents, data and personal information (\"Content\") uploaded, posted or stored through your use of the Services. You grant the Provider a worldwide, royalty-free and non-exclusive license to host and monitor any Content provided through your use of the Services.",
+          "You must use best practices to store your content, as you are responsible for any content lost or unrecoverable due to negligence or misuse of the Service. The Provider is not responsible for the Content or data submitted through the Platform. You agree not to use, or allow third parties to use, the Services to upload, post, distribute, link, reproduce, engage in or transmit content that is illegal, fraudulent, defamatory, obscene, pornographic, profane, threatening, abusive, offensive or objectionable; that impersonates another person; chain letters, pyramid schemes or spam; viruses, Trojan horses, worms or other malicious code; or any information, software or content that is not legally yours and without the proper permission of the rights holder.",
+          "The Provider may, but is not obligated to, monitor the content of the Services. We may disclose any information necessary to satisfy our legal obligations, protect the Provider or its customers, protect privacy, promote safety and protect life, or operate the Services properly.",
+          "If the Provider is required by law to send you communications about the Services or third-party products, you agree that the Provider may send them by email or post them on our sites or applications to which you have access, respecting the confidentiality of the information.",
+          "The party receiving confidential information may disclose it only when required by law, regulation, or judicial or administrative order, and is required to promptly notify the other party before disclosure, to facilitate efforts to protect the confidential information, disclosing only the portion strictly required. When disclosure is made under these terms, the disclosing party will not be held liable for it."
+        ]
+      },
+      {
+        "heading": "13. Termination",
+        "blocks": [
+          { "p": "The Provider may immediately, at its sole discretion and without prior notice, terminate this Agreement or suspend the Services if you fail to comply with the terms of this Agreement or if you no longer agree to receive electronic communications. Upon termination, you must immediately stop using the Services, and any outstanding payments will be due. Any termination of this Agreement will not affect the Provider's rights to any payments owed to it." },
+          { "p": "The Provider may suspend use of the Services, remove content, or deactivate and even terminate any virtual account if it reasonably and in good faith believes that the Customer or any of its users is violating the terms of this agreement and the Privacy Policy. The Provider will notify the Customer before suspending or deactivating the account, unless legally prevented from doing so, in which case it will notify the Customer as soon as the impediment ceases." },
+          { "p": "The Customer may terminate this agreement, without cause, upon at least 30 days' prior notice, with no termination penalty. Either party may terminate this agreement if any of the following circumstances is identified:" },
+          { "ul": [
+            "Either party enters bankruptcy or insolvency proceedings.",
+            "An uncured, proven material breach of this agreement.",
+            "Situations of force majeure, disasters, pandemics or natural events that demonstrably prevent the continuity of service delivery."
+          ] },
+          { "p": "Any of the termination circumstances specified above requires at least 30 days' prior notice, without prejudice to the Provider's receipt of amounts owed by the Customer up to the effective date of termination. No refund will be owed to the Customer." }
+        ]
+      },
+      {
+        "heading": "14. Changes to this agreement",
+        "blocks": [
+          { "p": "We may modify these terms or any additional terms applicable to the Service, for example, to reflect changes in the law or changes to our Services. You should review the terms regularly. We will post notices about modifications on this page, and a notice of change within the applicable Service when relevant. Changes will not be applied retroactively and will take effect at least 14 days after publication; changes related to new features of a Service, or made for legal reasons, will take effect immediately. If you do not agree with the changed terms of a Service, you should discontinue using that Service." },
+          { "p": "The fees charged for the services may be changed by the Provider, who must inform the Customer through the email address responsible for the virtual account; the changes will begin to apply to the value of the services starting from the next subscription renewal." },
+          { "p": "The Provider may notify the Customer of general information regarding use of the Services, or any necessary communication, through the email registered by you on the Platform for the virtual account administrator and to the billing email, when it concerns billing information. It is the Customer's responsibility to keep the virtual account's data up to date and to configure emails sent from the Platform's domain as safe, so they are not treated as spam; all information sent will be considered delivered as of 1 business day after sending." },
+          { "p": "Notices regarding service maintenance, scheduled interventions, technical matters of interest to users, and the availability of new features may be sent directly to users, at the Customer's discretion. To communicate with the Provider, the Customer may use the following channels:" },
+          { "ul": [
+            "Platform Chat: for direct support to service users, clarifying questions, technical support and usage guidance.",
+            "Email support@interfy.ai: for opening technical support tickets, suggesting improvements and clarifying questions about configuration and use of the services.",
+            "Questions related to data processing: privacy@interfy.ai.",
+            "Email legal@interfy.ai: for other requests, including termination of this subscription agreement or legal matters."
+          ] }
+        ]
+      },
+      {
+        "heading": "15. Governing law",
+        "paragraphs": ["The Customer agrees that the state law of Florida/USA governs this Agreement, without regard to conflict of law provisions nor the choice of any other jurisdiction, however beneficial it may be."]
+      },
+      {
+        "heading": "16. Disputes",
+        "paragraphs": [
+          "Any dispute or claim relating to the Services or to this Agreement will be resolved by binding arbitration, rather than in court, except where you may bring a claim in small claims court, if your claims qualify. The Federal Arbitration Act governs the interpretation and enforcement of this provision; the arbitrator will apply the law of Florida/USA to all other matters. Any party to the arbitration may, at any time, seek injunctions or other forms of equitable relief from any court of competent jurisdiction.",
+          "This Agreement, including the Privacy Policy, is the entire agreement between you and the Provider and supersedes all prior understandings, communications and agreements, oral or written, regarding the subject matter. If any competent court determines that any part of this Agreement is invalid, that section will be removed without affecting the remainder of the Agreement, which will remain valid and enforceable.",
+          "The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement. You may not assign or transfer ownership of this Agreement to anyone without the Provider's written approval. The Provider, however, may assign or transfer it without your consent to a partner, to a company through the sale of assets, or to a successor through a merger. Any assignment that violates this section will be void.",
+          "The Customer waives any right to bring a claim as a representative or attorney of a specific class on a mass or aggregate basis, or to consolidate the arbitration proceeding without the consent of all parties. Any award rendered by the arbitrator will be final, conclusive and binding on the parties; unless otherwise determined by the arbitrator, each party will bear its own costs and expenses. After confirmation of an arbitration award in a federal or state court in Florida, the judgment may be enforced in any court of competent jurisdiction, without prejudice to the Provider seeking an injunction or other equitable remedy in any competent court.",
+          "This agreement is entered into by independent parties and does not create a partnership, association, joint venture or employment relationship. The failure to immediately exercise a right due to a breach does not imply a waiver of it, nor will the unenforceability of a specific provision impair the others."
+        ]
+      },
+      {
+        "heading": "17. Anti-corruption and anti-money laundering",
+        "paragraphs": ["Within the limits of the contractual relationship established by this Subscription Agreement, the parties undertake, on their own behalf and on behalf of their employees, partners, agents, directors, associates, third parties, affiliates and any person acting on their behalf, to conduct their business practices ethically and in accordance with applicable legal requirements, and may not make promises of payment, payments, donations or any benefit, directly or indirectly, to third parties, representatives of government or public or private entities, for the purpose of influencing a decision to secure an improper, unlawful, irregular or unfair advantage. Both parties declare that they are aware of and undertake to faithfully comply with the legal provisions related to combating and preventing money laundering and the concealment of assets."]
+      },
+      {
+        "heading": "18. Final provisions",
+        "paragraphs": [
+          "The parties agree that the sections on Retention and Deletion of Your Data, Processing of Personal Data (Transfer and Confidentiality), Payment, Disclaimer of Warranties, License and Ownership Rights, Responsibilities Regarding the Services, Content, Governing Law and Disputes will survive any termination or expiration of this Agreement.",
+          "Each party represents that it has validly entered into this subscription agreement (Agreement) and has the legal authority to do so."
+        ]
       }
     ]
   },
@@ -103,8 +225,8 @@
     "eyebrow": "Privacy & Transparency",
     "sidebarLabel": "On this page",
     "title": "Privacy Policy",
-    "updatedLabel": "Last updated: September 1, 2026",
-    "intro": "This Privacy Policy describes how Interfy Corporation collects, uses, shares and protects personal data in connection with the Interfy platform, in compliance with Brazil's General Data Protection Law (LGPD) and, where applicable, the European General Data Protection Regulation (GDPR). This document is a standard draft and should be reviewed by legal counsel before final publication.",
+    "updatedLabel": "Last updated: February 18, 2021",
+    "intro": "This Privacy Policy describes the procedures used by Interfy for processing Personal Data. It applies to all forms of data collection that we use to provide our services. For a better understanding of this Policy, we describe below the definitions of the terms used.",
     "certifications": {
       "heading": "Certifications and compliance",
       "ctaLabel": "See full details",
@@ -118,75 +240,172 @@
     },
     "sections": [
       {
-        "heading": "1. Who we are",
-        "paragraphs": ["Interfy Corporation, headquartered in Orlando, Florida, United States, is the controller of personal data processed through the Interfy platform, except when acting as a processor on behalf of a customer."]
-      },
-      {
-        "heading": "2. What data we collect",
-        "items": [
-          "Registration data: name, email, phone, company and job title",
-          "Platform usage data: access logs, actions taken and configuration preferences",
-          "Customer Content: documents, processes and other information entered into the platform by the customer",
-          "Technical data: IP address, device type and browser"
+        "heading": "1. Definitions",
+        "paragraphs": [
+          "Personal Data: information that allows a natural person to be identified, directly or indirectly, including through data cross-referencing. Example: identification number, national ID/tax ID, address, photograph, religious or political affiliation, date of birth, health data, biometrics, etc.",
+          "Data Subject: the owner of the data, i.e., the natural person to whom the data refers.",
+          "Data Processing: any action performed with personal information, such as capture, viewing, sharing, receipt, editing, deletion, transfer, etc.",
+          "Purpose: the objective sought through the processing of the data.",
+          "Controller: the natural or legal person designated by Interfy to respond to inquiries and ensure that data processing is carried out in accordance with applicable law, respecting the rights of data subjects.",
+          "Processor: the natural or legal person who processes data on behalf of the controller.",
+          "Third Party: a natural or legal person, public or private, with whom Interfy has or may have a relationship.",
+          "Data Protection Officer: the natural or legal person designated by Interfy to respond to inquiries and ensure that data processing is being carried out in accordance with the LGPD, respecting the rights of data subjects."
         ]
       },
       {
-        "heading": "3. How we use data",
-        "items": [
-          "Provide and maintain the contracted services",
-          "Authenticate users and protect accounts from unauthorized access",
-          "Send operational, support and, with consent, marketing communications",
-          "Comply with legal and regulatory obligations"
+        "heading": "2. What are your rights as a data subject",
+        "blocks": [
+          { "ul": [
+            "As a data subject, you have the right to easy access to information about the processing of your data, which must be made available in a clear, appropriate and conspicuous manner.",
+            "You may confirm the existence of processing, and request and have access to the data.",
+            "If you identify that the data is incomplete, inaccurate or outdated, you may request correction.",
+            "Interfy does not keep unnecessary data, but if any data is considered excessive, you may request anonymization, blocking or deletion, including if it is being processed in non-compliance with applicable law.",
+            "If you need your data transferred to another provider, you may request data portability, upon express request, subject to trade and industrial secrets.",
+            "If you have given us consent to process your data, you may request its deletion, except in cases provided for by applicable law.",
+            "We will inform you which public or private entities Interfy has shared your data with, whenever sharing occurs.",
+            "If you do not wish to give us your consent for data processing, we will respect your decision and inform you of any consequences of not providing it.",
+            "You have the right to withdraw your consent, through an express statement, free of charge and easily.",
+            "If necessary, you have the right to file a petition with the ANPD (Brazilian data protection authority), consumer protection bodies and data protection regulatory institutions, if your data is processed inappropriately by Interfy.",
+            "You may object to data processing based on a case where consent is waived, in the event of non-compliance with applicable law.",
+            "If Interfy processes data in an automated manner and makes decisions based solely on that processing that affect your interests, you may request a review of such decisions.",
+            "At any time you may request clear and adequate information about the criteria and procedures used for automated decisions, subject to trade and industrial secrets.",
+            "To exercise your data protection rights, send your request to privacy@interfy.ai; our data protection officer will take the necessary steps to handle your request.",
+            "If you withdraw your consent and there is no other legal basis supporting the processing, we will stop processing your data for the consented purpose.",
+            "Any information you provide on blogs or websites, publicly exposed on the internet in places without access control, cannot have its protection guaranteed by us, nor can we limit who may copy or share such data."
+          ] }
         ]
       },
       {
-        "heading": "4. Data sharing",
-        "paragraphs": ["Personal data may be shared with infrastructure providers (such as AWS cloud services), payment processors and other processors strictly necessary to deliver the service, always under contractual confidentiality and security obligations. We do not sell personal data to third parties."]
-      },
-      {
-        "heading": "5. Cookies and similar technologies",
-        "paragraphs": ["We use essential cookies for the site to function and, with consent, analytics cookies to understand platform usage and improve the user experience."]
-      },
-      {
-        "heading": "6. Data retention",
-        "paragraphs": ["Personal data is kept for as long as necessary to fulfill the purposes described in this Policy, or as required by law, and is later deleted or anonymized."]
-      },
-      {
-        "heading": "7. Information security",
-        "paragraphs": ["We apply security in multiple layers, from the architecture to day-to-day operations:"],
-        "items": [
-          "Workspace isolation and a dedicated database per customer, with no sharing",
-          "Advanced encryption: data in transit (TLS 1.2+) and at rest (AES-256)",
-          "Granular access control (RBAC) by role, group and sensitivity level",
-          "Enterprise authentication: SSO, SAML 2.0, OAuth 2.0, AD/LDAP and MFA",
-          "IP-based access restriction (IP blocking)",
-          "Immutable, searchable audit logs and trails",
-          "24/7 security monitoring, automated encrypted backups and disaster recovery with geographic replication",
-          "Multi-AZ infrastructure on AWS, certified ISO/IEC 27001:2022, with SOC 2 Type II in progress"
+        "heading": "3. What data we process",
+        "blocks": [
+          { "p": "Interfy is a provider of intelligent document management and business process automation services, bringing together document management (Documents), process automation (Process), intelligent capture (Capture) and electronic and digital signature (Sign) in a single platform. Our services are provided online, contracted directly by customer companies or through business partners and distributors. We process the data necessary to activate and keep our services running, ensure security and availability, diagnose technical issues, remember useful information for better use of the service, send necessary maintenance notifications and alerts, provide technical support, offer training and best-practice guidance, inform about improvements and new features, and offer relevant complementary services to users and prospective users." },
+          { "p": "Each individual or legal entity that contracts our services may store and process data using the features available on our platform, and is identified as CONTROLLER, with Interfy acting as PROCESSOR. In that capacity, we keep the data secure and accessible, deleting it or providing a copy upon the CONTROLLER's express request, respecting the settings defined by it. As PROCESSOR, Interfy undertakes to handle information classified as personal data strictly following the criteria defined by the CONTROLLER and specified in the GDPR and the LGPD and other applicable regulations, solely for the purposes set out in the terms of use, and Interfy may not be held liable before the National Data Protection Authority (ANPD) and/or other authorities, data subjects, or any other institution with the power to impose administrative or judicial penalties." },
+          { "p": "If Interfy is penalized in its capacity as PROCESSOR, it retains the right of recourse to seek reimbursement from the CONTROLLER for all losses, damages and expenses arising from the wrongdoing, in addition to other measures necessary to protect Interfy's rights." },
+          { "p": "Interfy and the companies belonging to the group have no control over what data users store, in accordance with item 8 of our Terms of Use." },
+          { "p": "To use our services you provide the following information, considered Personal Data, for which Interfy is responsible as CONTROLLER: when contracting the services, as a platform user, or when you access our sites and send us a personal résumé, you provide us with your name, email, phone, job title and résumé data (which vary depending on each data subject)." }
         ],
-        "relatedLink": { "label": "See our full security architecture", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "See the full Terms of Use", "href": "/legal/termos" }
       },
       {
-        "heading": "8. Your rights (LGPD/GDPR)",
-        "items": [
-          "Confirmation that processing exists and access to your data",
-          "Correction of incomplete, inaccurate or outdated data",
-          "Anonymization, blocking or deletion of unnecessary data",
-          "Portability of your data to another service provider",
-          "Withdrawal of consent, where applicable"
+        "heading": "4. What we use each piece of data for",
+        "blocks": [
+          { "p": "Name and email: we use this data to send the initial notification of the creation of your workspace and, subsequently, communications related to the service, maintenance needs, updates, legal obligations, marketing information about new products and features, offers, or any other content necessary to improve service delivery. You may opt out of receiving marketing messages by selecting the option available in the body of the email. If we receive a communication by email, we may retain the message, including our replies, for the purpose of maintaining a service history." },
+          { "p": "Phone number: we collect the phone number for subsequent contact via WhatsApp or other messaging apps, in order to handle support requests more quickly and accurately, send notices and marketing material, or for contacts from our finance department, when appropriate and necessary. We will not add you to any group without a prior invitation." },
+          { "p": "Résumé: résumés submitted by data subjects are stored in our database for 24 months, used to select candidates in our hiring processes when a new position is opened." },
+          { "p": "Job title: is stored in the customer and partner records so that we can identify the roles of each person we have a relationship with, directing us to the right people when necessary." },
+          { "p": "Payment data: used to process the monthly billing of the services. When the credit and/or debit card payment option is selected, Interfy does not store it — it is associated with a subscription ID in the payment processor (for example, Stripe or PayPal), which collects and maintains the data for processing. Interfy retains only the associated ID; our subprocessors have their own privacy policies. For the other payment methods made available, we collect and retain billing information, subscription records and payment records to ensure continuity of the services. In addition to the data above, we may collect: location, access device IP and access device identification." }
         ]
       },
       {
-        "heading": "9. International data transfer",
-        "paragraphs": ["Because we operate on a global infrastructure, personal data may be transferred between countries, always with contractual and technical safeguards compatible with LGPD and GDPR."]
+        "heading": "5. How we collect and use each piece of data",
+        "blocks": [
+          { "p": "Your location: we may collect, store and monitor location data when you access one of our sites or the Interfy application. Combined with other data, this data may make you identifiable; it is necessary for the proper functioning of some services, such as identifying the local currency and language." },
+          { "p": "Access device IP: combined with the email address and location, it allows us to identify where the user is allocated on our platform and which region they belong to, helping to improve our support procedures and identify possible region-related issues, such as service performance issues." },
+          { "p": "Access device identification: when accessing the services via a mobile device, we may collect, store, monitor and access device identifiers, which may make you identifiable if combined with other data. We store this data to render pages according to the device size and restrict functions not suited to certain types of device." },
+          { "p": "Other data we process from the data collected above:" },
+          { "p": "Cookies: help you log in to the platform faster, by storing information about how you browse the site; this information, sent to us anonymously, allows us to improve your browsing experience. A persistent cookie remains on your hard drive after you close the browser, and may be removed according to your browser's instructions; a session cookie is temporary and disappears when the browser is closed." },
+          { "p": "Log files: when you use the Service, our servers automatically record certain information sent by your browser, such as web request, IP address, browser type, referring/exit pages and URLs, number of clicks, how you interact with links in the Service, domain names, landing pages, pages viewed, mobile carrier and other information." },
+          { "p": "Web beacons: we may use them in HTML-based emails sent to users, which allows us to track which of them are opened by recipients and online usage patterns, generating more detailed statistics and making our services more appealing to users." }
+        ]
       },
       {
-        "heading": "10. Changes to this policy",
-        "paragraphs": ["This Policy may be updated periodically. Material changes will be communicated by email or notice on the platform."]
+        "heading": "6. Data collected optionally",
+        "paragraphs": [
+          "You may add your photo to your platform access profile when using the services. This action is optional and you may remove it whenever you wish.",
+          "You may also send us your data by filling out an online form, sending an email or contacting us via chat. This data is processed to provide the information you request from us and may be used for direct marketing and for analytical purposes.",
+          "If you sign up for one of our online events, you will submit your contact information, through which we will provide access to the event; this data is processed to help us better understand our user base or prospective users and for direct marketing purposes.",
+          "You may unsubscribe from Interfy marketing communications by following the unsubscribe instructions in the footer of promotional emails, or by sending an email to privacy@interfy.ai."
+        ]
       },
       {
-        "heading": "11. Contact our Data Protection Officer (DPO)",
-        "paragraphs": ["To exercise your rights or ask questions about this Policy, contact our Data Protection Officer at privacy@interfy.ai."]
+        "heading": "7. Data collected from third parties",
+        "paragraphs": [
+          "We may collect data from third-party sources so that you can log in to our services, or if you share data stored in our services with third parties — these third-party services may send us information about you and your public profile, provided that your account settings in the third party's application allow this type of sharing.",
+          "We may also receive information associated with the use of our sites from third-party applications. If you visit our sites, we may monitor and record your activities, and our third-party providers may provide us with additional information available for public access.",
+          "The information we collect may also be used for identification, authentication, fraud prevention and to improve the service we provide, including troubleshooting, market research and compliance with our Terms of Use."
+        ]
+      },
+      {
+        "heading": "8. How Interfy, as PROCESSOR, handles the documents and data you store on the platform",
+        "paragraphs": ["The content stored by you and by the people in your organization on the Interfy platform is not viewed by our support team, unless the platform administrator provides login and password access to one of our staff members, for the sole purpose of technical support and guidance on using the application — the user must be deactivated by the administrator at the end of the support session. Each customer receives an isolated database, ensuring the protection of access to information: only people to whom the platform administrator provides login and password with the corresponding permissions will have access to the content. All stored content and data (records, electronic files, metadata, forms, processes, etc.) are transferred to our servers on AWS infrastructure (certified ISO/IEC 27001:2022, SOC 2 Type II and HIPAA Ready, in addition to compliance with LGPD and GDPR), through typing, scanning and/or upload by persons authorized by the CONTROLLER, in accordance with the rules and settings predefined by the platform administrator; content travels between workstations or devices and is transferred via HTTPS, using TLS encryption."]
+      },
+      {
+        "heading": "9. Sharing with third parties",
+        "paragraphs": [
+          "Interfy may share your data with business partners when we believe they are trustworthy and may have products and services relevant to you, or so that we can perform this services agreement — such as, for example, hosting providers. When we need to do this, we make sure the third party is trustworthy and will maintain the confidentiality of your data.",
+          "If Interfy undergoes a merger, acquisition or change in its ownership structure, the company may share your data with third parties as a result of that process.",
+          "If you access our application using third-party apps directly, your data may be shared with them; make sure you trust the app and review the data protection policies of its owning company.",
+          "We may share data with third-party applications through the use of an API, where stored data may be queried and/or copied to other applications, with the proper consent of the CONTROLLER responsible for the data stored on our platform.",
+          "Interfy may disclose your personal data when required by law or legal provision, for the purpose of protecting the safety of any individual in matters of fraud, protecting the right to life and liberty, or protecting Interfy's rights.",
+          "We use third-party analytics tools, which collect information sent by your browser as part of a web page request, browser add-ons and other information, to help us measure traffic and usage trends for our Services.",
+          "Interfy may store and process personal data in third-party marketing systems, customer relationship management (CRM) systems and email management systems, in order to promote the company's operations and facilitate interactions with users and prospective customers."
+        ]
+      },
+      {
+        "heading": "10. Blog and community",
+        "paragraphs": [
+          "We may create publicly accessible blogs and communities, including forums. Any information you include in these areas may be read by other people, whom we cannot control, and may also be collected and used by anyone who accesses that content; posted information may remain available even after you close your account.",
+          "If you remove information posted on the blog and/or community service, copies may remain stored in the service's cache or with other users. If you would like us to remove such information, send an email to privacy@interfy.ai; however, in some cases, we may not be able to remove such information."
+        ]
+      },
+      {
+        "heading": "11. International data sharing",
+        "blocks": [
+          { "p": "Hosting for our services is distributed across the regions below:" },
+          { "ul": ["Amazon AWS — São Paulo (Brazil) and Virginia (United States of America)."] },
+          { "p": "Data is distributed automatically through the technological resources applied within the infrastructure itself. To ensure data protection, we adopt security measures following LGPD requirements and, together with the AWS provider, use safeguards against accidental destruction, unauthorized access, automated backups and organizational measures aligned with our security policy, among other reasonable technical measures." },
+          { "p": "Data from users in the European Union, United Kingdom, Liechtenstein, Norway, Iceland and other countries is stored in the United States (US) through Interfy and its service providers; if you do not reside in the US, the laws may differ from the laws where you reside. By using the Services, you acknowledge that any personal information about you is being provided to Interfy in the US and hosted on US servers, and you authorize Interfy to transfer, store and process your information from and in the United States and, when necessary, in other countries indicated in this policy. Users from Brazil may have their data stored in the United States and in Brazil." }
+        ]
+      },
+      {
+        "heading": "12. Data processing and retention period",
+        "blocks": [
+          { "p": "Data for which Interfy is CONTROLLER: data collected directly or by our customers from the Platform is kept only for as long as necessary to provide the services, or for as long as needed to comply with our legal, accounting and tax agreements and obligations. For deletion or anonymization, we have established internal policies to ensure the security of the process, and we may retain the data for up to 3 months after use of the services ends, as a safety margin before it is deleted or anonymized. Data used by the marketing department may be retained for as long as we understand our services may be relevant for a future engagement, or until you unsubscribe or request deletion of the data." },
+          { "p": "Data for which Interfy is PROCESSOR: is retained until the CONTROLLER requests deletion and until we can safely carry it out, confirming that all data has been permanently deleted, which may take up to 90 days. Interfy requires all individuals and legal entities contracting and using our services to act in compliance with all applicable laws and regulations, in addition to this policy, and may unilaterally terminate the provision of services if it detects that the customer's users are violating personal data protection rules, as specified in our Terms of Use." },
+          { "p": "Data processed to maintain compliance: the data necessary to meet the tax, social security, labor and legal obligations of the Interfy group, in any of the countries in which we operate, is retained for the period determined by the law of each country." }
+        ],
+        "relatedLink": { "label": "See the full Terms of Use", "href": "/legal/termos" }
+      },
+      {
+        "heading": "13. Consent",
+        "paragraphs": [
+          "By agreeing to our Privacy Policy and by signing up to use our platform or any of our Services, you acknowledge that you agree to it and authorize us to process your data in accordance with this policy.",
+          "You have the right to withdraw, in whole or in part, your consent for us to process your Personal Data. To do so, contact privacy@interfy.ai, and we will stop processing your personal data for the purposes originally consented to, except where there are compelling legal reasons for us to continue processing your Personal Data that override your interests, rights and freedoms, or for the establishment, exercise or defense of legal claims."
+        ]
+      },
+      {
+        "heading": "14. Correct, update or delete your information",
+        "paragraphs": [
+          "You may request the correction, updating or deletion of the personal information you provide directly to Interfy; our team will make its best efforts to fulfill your request within the applicable legal timeframe, but we will not be liable for any failure to deliver our response.",
+          "When your information is processed by one of our customers who contract our services, you should direct your requests directly to your provider (our services customer), who acts as the CONTROLLER of your data."
+        ]
+      },
+      {
+        "heading": "15. Privacy rights for California residents",
+        "paragraphs": ["California residents have the right to request from us a notice identifying the categories of personal information we share with our partners or third parties for marketing purposes, including contact information for each third party. If you are a California resident, use our services and wish to request such information, send a request to privacy@interfy.ai."]
+      },
+      {
+        "heading": "16. Children's personal information",
+        "paragraphs": ["We do not knowingly collect or solicit personal information from children under 13 years of age, in accordance with our Subscription Agreement. If you are under 13 years of age, do not attempt to register for the services or send us any personal information about yourself. If we become aware of an account created by a person under 13 years of age, or of information sent to us directly under these conditions, we will delete all such information as quickly as possible. If you become aware that a child under 13 years of age has registered an account on our services or provided personal information, please contact us at privacy@interfy.ai."]
+      },
+      {
+        "heading": "17. Legal basis for processing personal data",
+        "blocks": [
+          { "p": "We only process your personal information if we have a legal basis for doing so. We use the following legal bases:" },
+          { "ul": [
+            "Contractual necessity: data is processed to fulfill our Terms of Service with you, and is essential for us to be able to provide the services — without it we would be unable to do so. This includes essential account data, essential primary cookies, connection data and third-party account information (if any), such as in the case of login via Active Directory.",
+            "Consent: in some cases, we process personal data based on the consent formally provided by you at the time of collection, expressly requested at the time of collection.",
+            "Legitimate interest: we collect certain categories when we believe they favor our legitimate interest or that of third parties, such as billing data, online form data, additional account data, phone, chat and email (when collected through means other than the service's user account), event and community data, tracking cookies, support tickets, device identifiers and web beacons.",
+            "Other reasons: we may process data to comply with legal, accounting, tax and labor obligations, to protect the vital interests of data subjects, or to meet the requirements of government institutions and/or the judiciary."
+          ] }
+        ]
+      },
+      {
+        "heading": "18. General provisions",
+        "paragraphs": [
+          "If this Privacy Policy is updated, we will make a new post on this page updating the information.",
+          "Our policy only covers access to our sites and applications. Links to third-party sites are not covered by our Privacy Policy."
+        ]
       }
     ]
   },
@@ -247,7 +466,7 @@
           "Automated encrypted backups and disaster recovery with geographic replication",
           "Multi-AZ infrastructure on AWS, with a 99.99% availability SLA"
         ],
-        "relatedLink": { "label": "See our full security architecture", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "See our full security architecture", "href": "/seguranca" }
       },
       {
         "heading": "7. International data transfer",

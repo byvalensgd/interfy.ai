@@ -42,91 +42,269 @@
     "intro": "Diese Nutzungsbedingungen regeln den Zugang zur und die Nutzung der Interfy-Plattform, einschließlich der Produkte Documents, Process, Capture, Sign, Connect, Agents, Mobile und Voice, bereitgestellt von der Interfy Corporation. Mit der Erstellung eines Kontos oder der Nutzung unserer Dienste erklären Sie sich mit den nachstehenden Bedingungen einverstanden. Dieses Dokument ist ein Standardentwurf und muss vor der endgültigen Veröffentlichung vom Rechtsteam geprüft werden.",
     "sections": [
       {
-        "heading": "1. Annahme der Bedingungen",
-        "paragraphs": [
-          "Durch den Zugriff auf oder die Nutzung der Interfy-Plattform erklären Sie, diese Nutzungsbedingungen und unsere Datenschutzrichtlinie gelesen, verstanden und vollständig akzeptiert zu haben. Falls Sie mit einer Bestimmung nicht einverstanden sind, dürfen Sie die Dienste nicht nutzen."
-        ]
-      },
-      {
-        "heading": "2. Beschreibung des Dienstes",
-        "paragraphs": [
-          "Interfy bietet eine Unternehmensplattform, die Dokumentenmanagement, Prozessautomatisierung (BPM), intelligente Erfassung, elektronische Signatur, Integrationen, KI-Agenten und mobile Anwendungen vereint, bereitgestellt als Abonnementmodell (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Registrierung und Konto",
-        "paragraphs": [
-          "Zur Nutzung der Plattform ist die Erstellung eines Kontos mit wahren, vollständigen und aktuellen Angaben erforderlich. Sie sind für die Vertraulichkeit Ihrer Zugangsdaten und für alle über Ihr Konto durchgeführten Aktivitäten verantwortlich."
-        ],
-        "items": [
-          "Passwörter oder Zugangsdaten nicht an unbefugte Dritte weitergeben",
-          "Interfy unverzüglich benachrichtigen bei Verdacht auf unbefugte Nutzung des Kontos",
-          "Kontodaten stets aktuell halten"
-        ]
-      },
-      {
-        "heading": "4. Zulässige Nutzung",
-        "paragraphs": [
-          "Sie verpflichten sich, die Plattform nicht für rechtswidrige Zwecke, zur Verletzung von Rechten Dritter, zur Verbreitung von Schadsoftware oder für den unbefugten Zugriff auf Bereiche oder Daten zu nutzen."
-        ]
-      },
-      {
-        "heading": "5. Geistiges Eigentum",
-        "paragraphs": [
-          "Die Interfy-Plattform, einschließlich Software, Marken, Layouts und Inhalte, ist Eigentum der Interfy Corporation oder ihrer Lizenzgeber und durch Gesetze zum geistigen Eigentum geschützt. Keine Bestimmung dieser Bedingungen übertragt Rechte am geistigen Eigentum an den Kunden, mit Ausnahme der Nutzungslizenz für die Plattform während der Vertragslaufzeit."
-        ]
-      },
-      {
-        "heading": "6. Tarife, Zahlung und Kündigung",
-        "paragraphs": [
-          "Der Zugang zur Plattform wird gemäß dem abgeschlossenen Tarif gewährt. Preise, Zahlungsarten und Verlängerungsbedingungen werden bei Vertragsabschluss mitgeteilt. Die Kündigung kann jederzeit unter Beachtung der jeweiligen Tarifbedingungen beantragt werden."
-        ]
-      },
-      {
-        "heading": "7. Kundendaten und -inhalte",
-        "paragraphs": [
-          "Alle vom Kunden auf der Plattform hochgeladenen, gespeicherten oder verarbeiteten Inhalte (\"Kundeninhalte\") bleiben Eigentum des Kunden. Interfy fungiert als Auftragsverarbeiter dieser Daten und verarbeitet sie gemäß den Anweisungen des Kunden und unserer Datenschutzrichtlinie."
-        ]
-      },
-      {
-        "heading": "8. Verfügbarkeit und Support",
-        "paragraphs": [
-          "Interfy betreibt eine cloud-native Multi-AZ-Infrastruktur auf AWS mit einer Verfügbarkeits-SLA von 99,99 %, kontinuierlicher Überwachung (24/7) und einem Disaster-Recovery-Plan mit geografischer Replikation.",
-          "Der Support erfolgt gemäß den auf unserer Support-Seite beschriebenen Kanälen und Fristen, und die Verfügbarkeits- und Vorfallshistorie wird in Echtzeit auf der Status-Seite der Plattform veröffentlicht."
+        "heading": "1. Definitionen",
+        "blocks": [
+          {
+            "ul": [
+              "Nutzer: Alle von der Vertragspartnerin autorisierten Personen, denen durch die Freigabe von Login und Passwort der Zugriff auf und die Nutzung der Dienste der Plattform ermöglicht wird. „Nutzer\" können direkte Angestellte, Dienstleister, Drittfirmen, Berater usw. sein, mit denen die Vertragspartnerin Geschäfte tätigt.",
+              "Dienste: Die Gesamtheit der Werkzeuge und Funktionen, die die Auftragnehmerin online über das von Ihnen oder einem unserer akkreditierten Geschäftspartner erstellte Zugangskonto in einem unserer Webportale bereitstellt.",
+              "Daten: Alle Daten oder Dokumente jeglicher Art, die von/für die Vertragspartnerin unter Nutzung der auf der Plattform von der Auftragnehmerin bereitgestellten Lösungen erhoben, verarbeitet und gespeichert werden.",
+              "Geistiges Eigentum: Alle Geschäftsgeheimnisse, eingetragenen oder nicht eingetragenen Marken für Produkte oder Dienstleistungen, Patente und Patentanmeldungen, Handelsnamen, Urheberrechte, Persönlichkeitsrechte, Erfindungsrechte oder sonstige Rechte des geistigen Eigentums sowie alle weiteren Rechte der Auftragnehmerin, gleich in welchem Teil der Welt.",
+              "Datenschutzrichtlinie: Die Regeln und Praktiken, die festlegen, wie die Auftragnehmerin die Vertraulichkeit der auf der Online-Diensteplattform verarbeiteten Informationen behandelt."
+            ]
+          },
+          {
+            "p": "Die Datenschutzrichtlinie ist mit diesem Nutzungsvertrag verbunden und enthält Informationen darüber, wie wir über unsere Websites und unsere Dienste personenbezogene Daten erheben und verarbeiten."
+          },
+          {
+            "ul": [
+              "Online-Plattform: Die virtuelle Umgebung, über die der Nutzer nach Erstellung des Workspace auf die vertraglich vereinbarten Dienste zugreifen und diese nutzen kann.",
+              "Schadhafter Code: Datendateien, Programme oder Quellcode, deren Zweck es ist, die Funktionsweise der Plattform zu beeinträchtigen, wie beispielsweise Viren.",
+              "Rechnung (Invoice): Das Dokument, das zur monatlichen Abrechnung der erbrachten Dienste ausgestellt wird und zugleich als Steuerbeleg dient.",
+              "Vertrag: Entspricht diesem Abonnementvertrag über die von der Auftragnehmerin erbrachten Dienste.",
+              "Dokumentation: Die von der Auftragnehmerin bereitgestellten und regelmäßig aktualisierten Hilfe- und Schulungsmaterialien für die Nutzer der Vertragspartnerin.",
+              "Virtuelles Konto: Das Konto, über das die Vertragspartnerin online Zugriff auf die von der Auftragnehmerin bereitgestellten Dienste erhält, ausschließlich durch von der Vertragspartnerin autorisierte Nutzer, über das sämtliche vertraglich vereinbarten Funktionen bereitgestellt werden.",
+              "Dienste Dritter: Weitere Dienste, die zusammen mit den über die Online-Plattform bereitgestellten Lösungen genutzt werden können und für die die Auftragnehmerin nicht für die Funktionsweise oder Beeinträchtigungen der vertraglich vereinbarten Dienste verantwortlich ist."
+            ]
+          }
         ],
         "relatedLink": {
-          "label": "Vollständige Sicherheitsarchitektur ansehen",
-          "href": "/legal/seguranca"
+          "label": "Vollständige Datenschutzrichtlinie ansehen",
+          "href": "/legal/privacidade"
         }
       },
       {
-        "heading": "9. Haftungsbeschränkung",
-        "paragraphs": [
-          "Im gesetzlich maximal zulässigen Umfang haftet Interfy nicht für indirekte, beiläufige oder Folgeschäden, die aus der Nutzung oder Unmöglichkeit der Nutzung der Plattform entstehen."
+        "heading": "2. Allgemeine Bedingungen",
+        "blocks": [
+          {
+            "p": "Die Auftragnehmerin stellt nach Abschluss dieses Abonnementvertrags (Vertrag) und der Datenschutzrichtlinie, soweit anwendbar, Folgendes bereit: a) die von der Vertragspartnerin gemäß dem beim Online-Beitritt gewählten Tarif erworbene Lösung; b) technischen Standardsupport für die erworbenen Lösungen, ohne zusätzliche Kosten für die Vertragspartnerin; c) die Verfügbarkeit der erworbenen Lösung online 24 Stunden am Tag, 7 Tage die Woche, außer bei vorab geplanten Ausfallzeiten oder jeglicher Nichtverfügbarkeit, die durch Umstände außerhalb der angemessenen Kontrolle der Auftragnehmerin verursacht wird, einschließlich Störungen oder Problemen beim Internet- und/oder Infrastrukturanbieter, Problemen mit externen Verbindungen zur vertraglich vereinbarten Lösung oder im Zusammenhang mit der Blockierung der Dienste, unabhängig von der Ursache."
+          },
+          {
+            "p": "Die Dienste können Komponenten, Systeme und weitere Dienste Dritter enthalten, auf die zusätzliche Bedingungen, Richtlinien oder Anforderungen anderer Anbieter, einschließlich Altersanforderungen, anwendbar sein können."
+          },
+          {
+            "p": "Die auf dieser Website verfügbare Datenschutzrichtlinie ist fester Bestandteil dieses Vertrags. Die Auftragnehmerin unterhält administrative, physische und technische Schutzmaßnahmen, um die Sicherheit, Vertraulichkeit und Integrität der gespeicherten Inhalte gemäß einem angemessenen und marktüblichen Standard zu gewährleisten. Sie müssen die innerhalb der Dienste bereitgestellten Richtlinien befolgen, dürfen sie nicht missbräuchlich nutzen, nicht in die Nutzung der Dienste eingreifen und nicht versuchen, auf sie über eine andere Methode als die von uns bereitgestellte Schnittstelle sowie die rechtmäßigen Anweisungen und Methoden zuzugreifen."
+          },
+          {
+            "p": "Sie dürfen die Dienste nur im gesetzlich zulässigen Rahmen nutzen. Wir können die Dienste aussetzen oder deren Bereitstellung einstellen, wenn Sie gegen unsere Bedingungen oder Richtlinien oder geltendes Recht verstoßen oder wenn wir Fälle vermuteten Fehlverhaltens untersuchen."
+          },
+          {
+            "p": "Sie müssen zustimmen, die Dienste oder Inhalte nicht in einer Weise zu nutzen oder Dritten zu ermöglichen, die gegen geltendes Recht oder die Regeln dieses Vertrags und der Datenschutzrichtlinie verstößt. Sie erklären sich damit einverstanden, Folgendes nicht zu tun:"
+          },
+          {
+            "ul": [
+              "Dritten, die nicht mit Ihrem Unternehmen verbunden sind, Zugriff auf einen Teil der Dienste zu gewähren.",
+              "Die Dienste zu reproduzieren, zu verändern, zu kopieren, zurückzuentwickeln, zu verkaufen, zu vermarkten oder weiterzuverkaufen, außer wenn Sie ein von der Auftragnehmerin akkreditierter und schriftlich autorisierter Wiederverkäufer sind."
+            ]
+          },
+          {
+            "p": "Die Dienste sind durch Urheberrecht, Geschäftsgeheimnisse und andere Gesetze zum geistigen Eigentum geschützt, einschließlich, aber nicht beschränkt auf, sämtliche auf den Websites verwendeten Marken oder Logos. Sie sind nur berechtigt, die Dienste für die in diesem Abonnementvertrag beschriebenen Zwecke zu nutzen."
+          },
+          {
+            "p": "Die Auftragnehmerin behält sich alle sonstigen Rechte an den Diensten vor, unabhängig davon, ob diese ihr oder Dritten gehören. Bis zur Beendigung dieses Vertrags und solange Sie alle geltenden Zahlungspflichten erfüllen und diesen Vertrag einhalten, gewährt Ihnen die Auftragnehmerin ein persönliches, beschränktes, nicht ausschließliches und nicht übertragbares Recht sowie eine Lizenz zur Nutzung der Dienste."
+          },
+          {
+            "p": "Wir reagieren auf Mitteilungen über angebliche Urheberrechtsverletzungen und schließen Konten wiederholter Verstöße gemäß den in den US-amerikanischen Urheberrechtsgesetzen festgelegten Verfahren. Wir stellen Informationen bereit, um Urheberrechtsinhabern zu helfen, ihr geistiges Eigentum online zu verwalten."
+          },
+          {
+            "p": "Wenn Sie glauben, dass jemand Ihre Urheberrechte verletzt, und uns dies mitteilen möchten, können Sie Ihre Mitteilung an contato@interfy.ai senden. Die Dienste ermöglichen es Ihnen, Inhalte, Daten und Dokumente zur Speicherung hochzuladen. Sie behalten das Eigentum an allen Rechten des geistigen Eigentums, die Sie an diesen Inhalten oder Dokumenten besitzen. Kurz gesagt: Was Ihnen gehört, bleibt Ihr Eigentum."
+          }
         ]
       },
       {
-        "heading": "10. Kündigung durch Interfy",
+        "heading": "3. Ihr Konto",
         "paragraphs": [
-          "Interfy kann den Zugang zur Plattform im Falle eines Verstoßes gegen diese Bedingungen nach vorheriger Ankündigung aussetzen oder beenden, außer in Fällen unmittelbarer Gefahr für die Sicherheit der Plattform oder Dritter."
+          "Sie müssen ein Konto erstellen, um die Dienste nutzen zu können. Sie können Ihr eigenes Konto auf der Website erstellen, oder es kann Ihnen von einem Partner-Administrator der Auftragnehmerin zugewiesen werden. Wenn Sie ein Konto der Online-Diensteplattform nutzen, das Ihnen von einem Administrator zugewiesen wurde, können abweichende oder zusätzliche Bedingungen gelten, und Ihr Administrator kann möglicherweise Ihr Konto blockieren oder deaktivieren."
         ]
       },
       {
-        "heading": "11. Änderungen der Bedingungen",
+        "heading": "4. Aufbewahrung und Löschung Ihrer Daten",
         "paragraphs": [
-          "Diese Bedingungen können regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mit angemessener Frist vor Inkrafttreten mitgeteilt."
+          "Die Daten der Vertragspartnerin werden in der Datenbank der Auftragnehmerin gespeichert, solange das Konto besteht und dieser Vertrag gültig ist. Gemäß der Datenschutzrichtlinie werden die Daten innerhalb von 90 Tagen nach Beendigung des Vertrags gelöscht (endgültig entfernt)."
         ]
       },
       {
-        "heading": "12. Anwendbares Recht und Gerichtsstand",
+        "heading": "5. Verarbeitung personenbezogener Daten, Übermittlung und Vertraulichkeit",
         "paragraphs": [
-          "Diese Bedingungen unterliegen den Gesetzen der Föderativen Republik Brasilien, unbeschadet spezifischer Vertragsbestimmungen für Kunden aus anderen Rechtsordnungen."
+          "Sie können die Datenschutzrichtlinie der Auftragnehmerin auf unserer Website einsehen. Sie müssen der Datenschutzrichtlinie und allen von der Auftragnehmerin veröffentlichten Änderungen zustimmen. Sie erklären sich damit einverstanden, dass die Auftragnehmerin Ihre Daten gemäß der Datenschutzrichtlinie im Rahmen der Dienste nutzen und verwalten darf. Sie gewähren der Auftragnehmerin die Erlaubnis, identifizierbare und nicht identifizierbare Informationen, die Sie in die Dienste eingeben oder hochladen, mit denen anderer Nutzer der Dienste und/oder anderer Dienste der Auftragnehmerin zu kombinieren. Das bedeutet, dass die Auftragnehmerin aggregierte Daten ihrer Nutzer verwenden kann, um die Dienste zu verbessern oder um Werbeaktionen zu gestalten und Möglichkeiten zum Vergleich von Geschäftspraktiken mit anderen Nutzern bereitzustellen. Die Auftragnehmerin ist ein globales Unternehmen und kann personenbezogene Informationen in verschiedenen Ländern abrufen oder speichern, wie in unserer Datenschutzrichtlinie näher beschrieben.",
+          "Vertragspartnerin und Auftragnehmerin verpflichten sich, die rechtlich als personenbezogene Daten eingestuften Informationen im Rahmen dieses Vertrags unter Beachtung des geltenden Rechts zu behandeln, andernfalls haften sie für die Vertragsverletzung, unbeschadet etwaiger Schadensersatzansprüche. Die Verarbeitung personenbezogener Daten erfolgt ausschließlich im Einklang mit dem in diesem Vertrag festgelegten Zweck.",
+          "Die Parteien verpflichten sich, die verarbeiteten personenbezogenen Daten nicht an Dritte zu übermitteln und/oder mit ihnen zu teilen, außer wenn dies zur Erfüllung dieses Vertrags oder gesetzlicher/gerichtlicher Verpflichtungen unerlässlich ist; selbst wenn eine Partei gesetzlich verpflichtet ist, Daten an Dritte zu übermitteln, muss sie die andere Partei benachrichtigen und die Vertraulichkeit und Integrität der Daten gewährleisten, andernfalls haftet sie dafür. Informationen darüber, mit wem wir Daten zur Erbringung unserer Dienste teilen, finden Sie in unserer Datenschutzrichtlinie.",
+          "Die Vertragspartnerin ist verantwortlich für die Einhaltung dieses Vertrags durch ihre Nutzer, für die Richtigkeit, Menge, Qualität und Rechtmäßigkeit ihrer Daten sowie der Mittel, mit denen sie diese erlangt hat, und für die Methoden und die Art der Verarbeitung ihrer gespeicherten Informationen, wobei sie sich nach besten Kräften bemüht, die Nutzung der Plattform in Übereinstimmung mit den geltenden Vorschriften zu gewährleisten, sowohl hinsichtlich der Rechtmäßigkeit, Privatsphäre, Integrität, Vertraulichkeit und Sicherheit der verarbeiteten Daten als auch hinsichtlich der Nutzung der Dienste gemäß dem in diesem Abonnementvertrag festgelegten Zweck.",
+          "Wenn die Vertragspartnerin andere Anwendungen mit unseren Diensten verbindet und sie zusammen mit unseren Lösungen nutzt, ist sich die Vertragspartnerin bewusst und erklärt sich damit einverstanden, dass der Anbieter dieser Anwendung, unabhängig von der Art der Verbindung, auf Daten der Vertragspartnerin zugreifen und diese kopieren kann, soweit dies für den Betrieb der Anwendung erforderlich ist. Die Auftragnehmerin haftet nicht für Vorfälle, Offenlegungen, Änderungen oder Löschungen von Daten, die aus dem Zugriff durch einen von der Vertragspartnerin autorisierten Dritten resultieren.",
+          "Wenn die Auftragnehmerin feststellt, dass eine verbundene Anwendung keine angemessenen Voraussetzungen für die Interoperabilität mit der vertraglich vereinbarten Lösung bietet, kann sie den Zugriff für den Dritten einstellen, ohne dass dies zu einer Strafe, Erstattung oder Entschädigung durch die Auftragnehmerin führt. Die Auftragnehmerin ist nicht verpflichtet, Anwendungen Dritter zu bewerten, kann dies jedoch tun, wenn sie es für angebracht hält."
         ]
       },
       {
-        "heading": "13. Kontakt",
+        "heading": "6. Zahlung",
+        "blocks": [
+          {
+            "p": "Die Vertragspartnerin zahlt in US-Dollar alle in ihrem virtuellen Konto angegebenen Beträge im Zusammenhang mit dem Abonnement des ursprünglich erworbenen Plans zuzüglich etwaiger Mehrverbrauchsbeträge. Durch die Angabe der Zahlungsinformationen ermächtigen Sie die Auftragnehmerin oder von uns beauftragte Dritte zur Zahlungsabwicklung, die entsprechenden Beträge der vertraglich vereinbarten Lösung gemäß der in jedem Abrechnungszyklus bereitgestellten Rechnung von dieser Kredit-/Debitkarte abzubuchen. Sie müssen mit einer der folgenden Methoden zahlen:"
+          },
+          {
+            "ul": [
+              "Eine gültige und von der Auftragnehmerin akzeptierte Kreditkarte.",
+              "Eine gültige und von der Auftragnehmerin akzeptierte Debitkarte.",
+              "Eine andere Zahlungsoption, die Ihnen die Auftragnehmerin schriftlich mitteilt oder in den Einstellungen Ihres Abonnements bereitstellt."
+            ]
+          },
+          {
+            "p": "Die erste Option ist die üblichste und für Abrechnungen von Diensten in jedem Land gültig; für einige Länder können wir die anderen Optionen bereitstellen."
+          },
+          {
+            "p": "Wenn Ihre Zahlungs- und Registrierungsangaben nicht korrekt, aktuell und vollständig sind und Sie sie nicht bei jeder Änderung aktualisieren, können wir Ihr Konto aussetzen oder beenden und die Nutzung der Dienste verweigern."
+          },
+          {
+            "p": "Wenn Sie uns nicht über Aktualisierungen Ihrer Zahlungsmethode informieren (zum Beispiel das Ablaufdatum der Kreditkarte), können wir, um eine Unterbrechung Ihres Dienstes zu vermeiden, an von Ihrem Kartenanbieter unterstützten Programmen teilnehmen (zum Beispiel Aktualisierungsdiensten, wiederkehrenden Abrechnungsprogrammen usw.), um zu versuchen, Ihre Zahlungsinformationen zu aktualisieren, und Sie ermächtigen uns, Ihr Konto mit den aktualisierten Informationen, die wir erhalten, weiterhin abzurechnen, auch wenn dies keine Verpflichtung der Auftragnehmerin darstellt."
+          },
+          {
+            "p": "Die Auftragnehmerin verlängert Ihre monatlichen oder jährlichen Dienste automatisch zu den jeweils geltenden Tarifen, sofern die Dienste nicht gemäß diesem Vertrag gekündigt oder beendet werden."
+          },
+          {
+            "p": "Wird ein von der Auftragnehmerin in Rechnung gestellter Betrag nicht bis zum Fälligkeitsdatum eingezogen, gilt unbeschadet anderer anwendbarer Maßnahmen Folgendes: a) es werden Zinsen von 1 % des ausstehenden Saldos pro Monat oder der gesetzlich zulässige Höchstsatz berechnet, je nachdem, welcher niedriger ist; und/oder b) die Dienste können ausgesetzt werden, wenn der Zahlungsrückstand 10 Tage überschreitet; c) bei einem Zahlungsrückstand von mehr als 30 Tagen kann die Auftragnehmerin Drittunternehmen mit dem Inkasso des fälligen Betrags beauftragen, einschließlich der gesetzlich vorgesehenen Gebühren; und/oder d) die Zahlungsunfähigkeit an Kreditschutzstellen melden; und/oder e) das Konto der Vertragspartnerin nach 40 Tagen ungelöster Zahlungsunfähigkeit löschen."
+          },
+          {
+            "p": "Bei wesentlicher Vertragsverletzung wird die Aussetzung unverzüglich wirksam, unabhängig von einer vorherigen Ankündigung."
+          },
+          {
+            "p": "Unbeschadet des Vorstehenden wird sich die Auftragnehmerin, sofern die Vertragspartnerin die geltenden Gebühren klar, angemessen und in gutem Glauben anfechtet und sorgfältig an der Lösung der Divergenz mitwirkt, nach besten Kräften bemühen, die Angelegenheit so schnell wie möglich zu lösen und die oben genannten Maßnahmen zu vermeiden."
+          },
+          {
+            "p": "Die Vertragspartnerin erklärt sich damit einverstanden, dass ihre Käufe nicht von Erwartungen im Zusammenhang mit der Bereitstellung künftiger, noch zu entwickelnder Funktionen abhängen, selbst wenn die Auftragnehmerin mündlich oder schriftlich Kommentare zu geplanten Funktionen abgegeben hat."
+          },
+          {
+            "p": "Wird dieser Vertrag beendet, ist die Auftragnehmerin ab sofort berechtigt, das virtuelle Konto der Vertragspartnerin endgültig zu löschen, nach vorheriger Benachrichtigung der Vertragspartnerin per E-Mail."
+          }
+        ]
+      },
+      {
+        "heading": "7. Nutzungsgrenzen",
         "paragraphs": [
-          "Fragen zu diesen Bedingungen können an contato@interfy.ai gesendet werden."
+          "Bei der Erstellung Ihres Kontos wählen Sie den ursprünglichen Plan der Lösung aus, in dem die in Ihrem Vertrag enthaltenen Ressourcen, Funktionen, die Speicherkapazität und die Anzahl der Nutzer festgelegt sind. Optionale Elemente können bei Vertragsabschluss oder später durch den Administrator-Nutzer des Workspace hinzugefügt werden.",
+          "Solange dieser Vertrag aktiv ist, wird die Auftragnehmerin den Verbrauch der Nutzer der Vertragspartnerin nicht einschränken; obwohl also ein anfängliches Dienstpaket besteht, können Sie so viele Nutzer registrieren und aktiv halten, wie Sie möchten, sofern Sie die Rolle des Plattform-Administrators ausüben, ohne Einschränkung des Speichervolumens. Monatlich wird der Gesamtverbrauch abgerechnet, der den Wert des Anfangspakets und alle über dieses Paket hinausgehenden Elemente umfasst, sei es hinsichtlich der Anzahl aktiver Nutzer, des Speichervolumens oder zusätzlicher Elemente, die zusammen den Gesamtbetrag der monatlichen Rechnung bilden. Bei Überschreitungen ist die Auftragnehmerin unabhängig von einer vorherigen Genehmigung der Vertragspartnerin berechtigt, die Mehrmengen anteilig zum Monatspaket abzurechnen.",
+          "Der Administrator des Workspace kann seinen Tarif auf einen größeren Plan als seinen aktuellen Verbrauch oder auf einen Plan mit anderen Merkmalen und Werkzeugen umstellen; er sollte sich jedoch bewusst sein, dass beim Wechsel zu einem Plan mit weniger Funktionen alle im neuen Plan nicht enthaltenen Funktionen den Nutzern nicht mehr zur Verfügung stehen."
+        ]
+      },
+      {
+        "heading": "8. Änderung oder Kündigung der Dienste",
+        "paragraphs": [
+          "Wir ändern und verbessern die Dienste ständig. Wir können Funktionen oder Merkmale hinzufügen oder entfernen und können einen Dienst auch vollständig aussetzen oder beenden. Sie können die Nutzung der Dienste jederzeit beenden, auch wenn wir es bedauern würden, Sie gehen zu sehen.",
+          "Die Auftragnehmerin kann die Erbringung der Dienste für Sie jederzeit einstellen oder den Diensten neue Grenzen setzen. Wir glauben, dass Sie Eigentümer Ihrer Daten sind und dass es wichtig ist, Ihren Zugriff darauf zu bewahren. Wenn wir einen Dienst einstellen, werden Sie, soweit vernünftigerweise möglich, im Voraus informiert und erhalten die Möglichkeit, Ihre Informationen aus unseren Diensten abzuziehen."
+        ]
+      },
+      {
+        "heading": "9. Gewährleistungsausschluss",
+        "paragraphs": [
+          "Wir erbringen unsere Dienste mit einem angemessenen Maß an Sorgfalt und Kompetenz und hoffen, dass Sie sie gerne nutzen. Es gibt jedoch einige Dinge, die wir bezüglich der Dienste nicht versprechen. Außer wenn ausdrücklich in diesen oder zusätzlichen Bedingungen vorgesehen, geben weder die Auftragnehmerin noch ihre Lieferanten, Partner oder Vertriebshändler bestimmte Garantien zu den Diensten. Beispielsweise haften wir nicht für die Inhalte in den Diensten, für bestimmte Funktionen, die Verfügbarkeit oder die Fähigkeit, Ihre Bedürfnisse zu erfüllen. Wir stellen die Dienste „wie besehen\" bereit. Bestimmte Rechtsordnungen sehen bestimmte Garantien vor, wie die stillschweigende Garantie der Marktgängigkeit, der Eignung für einen bestimmten Zweck und der Nichtverletzung von Rechten. Soweit gesetzlich zulässig, schließen wir alle Garantien aus.",
+          "Gemäß diesem Vertrag gibt keine der Parteien irgendeine Garantie jeglicher Art, ausdrücklich, stillschweigend, gesetzlich oder anderweitig, und jede Partei verzichtet ausdrücklich auf alle stillschweigenden Garantien, einschließlich jeder stillschweigenden Garantie der Marktgängigkeit, der Eignung für einen bestimmten Zweck oder der Nichtverletzung von Rechten, soweit dies nach geltendem Recht maximal zulässig ist. Jede der Parteien ist von jeglicher Haftung und Entschädigungspflicht für Verluste oder Schäden befreit, die durch Dritte, die Hosting- und Anwendungsanbieter sind, verursacht werden."
+        ]
+      },
+      {
+        "heading": "10. Lizenz und Eigentumsrechte",
+        "paragraphs": [
+          "Die Auftragnehmerin behält sich alle Rechte, Titel und Interessen an den Lösungen vor, einschließlich aller damit verbundenen Rechte des geistigen Eigentums.",
+          "Der Dienst wird mit eingeschränktem Zugriff bereitgestellt, und es wird kein Eigentumsrecht auf die Vertragspartnerin übertragen. Die Auftragnehmerin besitzt und behält alle Rechte, Titel und Interessen, einschließlich aller Rechte des geistigen Eigentums, an und in Bezug auf den Dienst, einschließlich aller Änderungen, Aktualisierungen, Upgrades, Erweiterungen, Komponenten und daraus abgeleiteten Werke.",
+          "Die Vertragspartnerin gewährt der Auftragnehmerin und ihren verbundenen Unternehmen oder Partnern eine weltweite Lizenz, befristet auf die Laufzeit dieses Abonnementvertrags, um ihre Daten, einschließlich von oder für die Vertragspartnerin erstellten Quellcodes, sowie für Anwendungen Dritter zu kopieren, zu übertragen, zu hosten und anzuzeigen, soweit dies erforderlich ist, damit die Auftragnehmerin den Zugriff auf die Lösungen gemäß diesem Vertrag bereitstellen kann.",
+          "Die Auftragnehmerin kann diese erhobenen Daten zum Zweck der Erhebung von anonymisierten Informationen und Kennzahlen nutzen, um die Dienste zu verbessern und weiterzuentwickeln, sowie für andere Zwecke der Entwicklung, Diagnose und Fehlerbehebung des Produkts, stets in anonymisierter Form, ohne Identifizierung der Vertragspartnerin.",
+          "Die Vertragspartnerin gewährt der Auftragnehmerin eine weltweite, endgültige, unwiderrufliche und lizenzgebührenfreie Lizenz zur Einbindung und Nutzung neuer, auf Wunsch oder Vorschlag der Vertragspartnerin und/oder ihrer Nutzer entwickelter Funktionen und Merkmale in den Lösungen.",
+          "Die Auftragnehmerin, ihre Lieferanten, Partner und Vertriebshändler verzichten auf jegliche Zusicherungen oder Garantien, dass Ihre Nutzung der Dienste die Einhaltung gesetzlicher Verpflichtungen, Gesetze oder Vorschriften erfüllt oder gewährleistet."
+        ]
+      },
+      {
+        "heading": "11. Verantwortlichkeiten bezüglich der Dienste",
+        "paragraphs": [
+          "Soweit gesetzlich zulässig, haften die Auftragnehmerin und ihre Lieferanten, Partner und Vertriebshändler nicht für entgangenen Gewinn, entgangene Einnahmen, Datenverlust, finanzielle Verluste oder indirekte, besondere, Folge-, exemplarische oder Strafschäden. Soweit gesetzlich zulässig, ist die Gesamthaftung der Auftragnehmerin und ihrer Lieferanten, Partner und Vertriebshändler für jegliche Ansprüche im Rahmen dieser Bedingungen, einschließlich stillschweigender Garantien, auf den Betrag begrenzt, den Sie der Auftragnehmerin in den letzten 12 Monaten für die Nutzung der Dienste gezahlt haben. In allen Fällen haften die Auftragnehmerin und ihre Lieferanten, Partner und Vertriebshändler nicht für Verluste oder Schäden, die nicht vernünftigerweise vorhersehbar sind.",
+          "Wenn Sie unsere Dienste im Namen eines Unternehmens nutzen, muss dieses Unternehmen diesen Bedingungen zustimmen. Es wird die Auftragnehmerin und ihre verbundenen Unternehmen, Partner, Vertriebshändler, Führungskräfte, Vertreter und Mitarbeiter von jeglichen Ansprüchen, Klagen oder Verfahren freistellen und schadlos halten, die aus oder im Zusammenhang mit der Nutzung der Dienste oder der Verletzung dieser Bedingungen entstehen, einschließlich jeglicher Haftung oder Kosten, die aus Ansprüchen, Verlusten, Schäden, Verfahren, Urteilen, Prozesskosten und Anwaltskosten resultieren.",
+          "Wird die Vertragspartnerin Opfer eines Gerichtsverfahrens mit der Behauptung, dass die Nutzung der vertraglich vereinbarten Dienste Rechte des geistigen Eigentums Dritter verletzt oder aus deren unrechtmäßiger Aneignung resultiert, wird die Auftragnehmerin die Vertragspartnerin gegen den Anspruch, die Forderung oder das Gerichtsverfahren verteidigen und sie für Schäden, Kosten und Auslagen entschädigen, die einer ungünstigen Entscheidung zugerechnet werden, sofern die Vertragspartnerin die Auftragnehmerin unverzüglich schriftlich und innerhalb einer für die Verteidigung angemessenen Frist benachrichtigt und der Auftragnehmerin die alleinige Kontrolle und die notwendige Unterstützung zur Führung der Verteidigung überlässt, einschließlich der Möglichkeit für die Auftragnehmerin, die Lösung zu ändern oder diesen Vertrag mit einer Vorankündigung von 30 Tagen zu beenden.",
+          "Wird die Vertragspartnerin wegen einer durch Anwendungen Dritter, die mit den in diesem Vertrag genannten Diensten verbunden sind, verursachten Verletzung von Rechten des geistigen Eigentums gerichtlich belangt, ist die Auftragnehmerin von jeglicher Haftung befreit, und die Verteidigungs- und Entschädigungspflichten gegenüber der Vertragspartnerin gelten nicht für die Auftragnehmerin.",
+          "Wird die Auftragnehmerin Opfer eines von einem Dritten eingereichten Anspruchs, einer Forderung, Klage oder eines Gerichtsverfahrens mit der Behauptung, dass die von der Vertragspartnerin gespeicherten und verarbeiteten Daten oder die Art und Weise, wie sie die Dienste nutzt und die Daten verarbeitet, gegen diesen Vertrag verstößt oder gegen geltende Vorschriften oder Gesetze verstößt, einschließlich der Rechte des geistigen Eigentums Dritter, wird die Vertragspartnerin die Auftragnehmerin für Schäden, Kosten und Auslagen entschädigen, die aus der Verteidigung oder einer etwaigen Verurteilung entstehen, sofern die Auftragnehmerin die Vertragspartnerin unverzüglich schriftlich benachrichtigt und ihr auf rechtzeitiges Ersuchen die alleinige Kontrolle über die Verteidigung überlässt, wobei die Vertragspartnerin keinen Vergleich im Namen der Auftragnehmerin ohne deren vorherige schriftliche Zustimmung abschließen darf. Die Auftragnehmerin muss der Vertragspartnerin angemessene Unterstützung auf deren Kosten für die Verteidigung leisten."
+        ]
+      },
+      {
+        "heading": "12. Inhalt",
+        "paragraphs": [
+          "Sie sind für alle Materialien, Dokumente, Daten und personenbezogenen Informationen (\"Inhalt\") verantwortlich, die über die Nutzung der Dienste hochgeladen, veröffentlicht oder gespeichert werden. Sie gewähren der Auftragnehmerin eine weltweite, lizenzgebührenfreie und nicht ausschließliche Lizenz zum Hosten und Überwachen jeglichen über die Nutzung der Dienste bereitgestellten Inhalts.",
+          "Sie müssen bewährte Verfahren zur Speicherung Ihres Inhalts anwenden, da Sie für jeglichen durch Unsachgemäßheit oder Missbrauch des Dienstes verlorenen oder nicht wiederherstellbaren Inhalt verantwortlich sind. Die Auftragnehmerin haftet nicht für den über die Plattform gesendeten Inhalt oder die Daten. Sie erklären sich damit einverstanden, die Dienste nicht zu nutzen oder Dritten zu ermöglichen, sie zu nutzen, um rechtswidrigen, betrügerischen, verleumderischen, obszönen, pornografischen, unanständigen, bedrohlichen, missbräuchlichen, anstößigen oder verwerflichen Inhalt hochzuladen, zu veröffentlichen, zu verbreiten, zu verlinken, zu reproduzieren, zu übermitteln oder zu übertragen; sich als eine andere Person auszugeben; Kettenbriefe, Pyramidensysteme oder Spam zu versenden; Viren, Trojaner, Würmer oder anderen schadhaften Code zu verbreiten; oder Informationen, Software oder Inhalte weiterzugeben, die nicht rechtmäßig Ihnen gehören und für die Sie nicht die entsprechende Erlaubnis des Rechteinhabers haben.",
+          "Die Auftragnehmerin kann den Inhalt der Dienste überwachen, ist dazu jedoch nicht verpflichtet. Wir können jegliche Informationen offenlegen, die zur Erfüllung unserer gesetzlichen Verpflichtungen, zum Schutz der Auftragnehmerin oder ihrer Kunden, zum Schutz der Privatsphäre, zur Förderung der Sicherheit und zum Schutz des Lebens oder zum ordnungsgemäßen Betrieb der Dienste erforderlich sind.",
+          "Ist die Auftragnehmerin gesetzlich verpflichtet, Ihnen Mitteilungen über die Dienste oder Produkte Dritter zu senden, erklären Sie sich damit einverstanden, dass die Auftragnehmerin diese per E-Mail senden oder auf unseren Websites oder Anwendungen veröffentlichen kann, auf die Sie Zugriff haben, unter Beachtung der Vertraulichkeit der Informationen.",
+          "Die Partei, die vertrauliche Informationen erhält, darf diese nur offenlegen, wenn sie gesetzlich, durch Verordnung oder gerichtliche bzw. behördliche Anordnung dazu verpflichtet ist, und muss die andere Partei unverzüglich vor der Offenlegung benachrichtigen, um Bemühungen zum Schutz der vertraulichen Informationen zu erleichtern, wobei nur der unbedingt erforderliche Teil offengelegt werden darf. Erfolgt die Offenlegung unter diesen Bedingungen, haftet die offenlegende Partei nicht dafür."
+        ]
+      },
+      {
+        "heading": "13. Beendigung",
+        "blocks": [
+          {
+            "p": "Die Auftragnehmerin kann diesen Vertrag unverzüglich, nach ihrem alleinigen Ermessen und ohne vorherige Ankündigung beenden oder die Dienste aussetzen, wenn Sie die Bedingungen dieses Vertrags nicht einhalten oder nicht mehr zustimmen, elektronische Mitteilungen zu erhalten. Nach Beendigung müssen Sie die Nutzung der Dienste unverzüglich einstellen, und alle ausstehenden Zahlungen werden fällig. Eine Beendigung dieses Vertrags berührt nicht die Rechte der Auftragnehmerin auf ihr geschuldete Zahlungen."
+          },
+          {
+            "p": "Die Auftragnehmerin kann die Nutzung der Dienste aussetzen, Inhalte entfernen oder ein virtuelles Konto deaktivieren oder sogar beenden, wenn sie in gutem Glauben angemessenerweise davon ausgeht, dass die Vertragspartnerin oder einer ihrer Nutzer gegen die Bedingungen dieses Vertrags und die Datenschutzrichtlinie verstößt. Die Auftragnehmerin wird die Vertragspartnerin vor der Aussetzung oder Deaktivierung des Kontos benachrichtigen, außer wenn ihr dies gesetzlich untersagt ist; in diesem Fall wird sie die Vertragspartnerin benachrichtigen, sobald das Verbot aufgehoben ist."
+          },
+          {
+            "p": "Die Vertragspartnerin kann diesen Vertrag ohne Angabe von Gründen mit einer Vorankündigung von mindestens 30 Tagen und ohne Vertragsstrafe kündigen. Jede Partei kann diesen Vertrag kündigen, wenn einer der folgenden Fälle vorliegt:"
+          },
+          {
+            "ul": [
+              "Eine der Parteien tritt in ein Insolvenz- oder Vergleichsverfahren ein.",
+              "Eine nachweislich wesentliche Verletzung dieses Vertrags wird nicht behoben.",
+              "Fälle höherer Gewalt, Katastrophen, Pandemien oder Naturereignisse, die die Fortsetzung der Diensterbringung nachweislich verhindern."
+            ]
+          },
+          {
+            "p": "Jeder der oben genannten Kündigungsgründe erfordert eine Vorankündigung von mindestens 30 Tagen, unbeschadet des Anspruchs der Auftragnehmerin auf die von der Vertragspartnerin bis zum Wirksamkeitsdatum der Kündigung geschuldeten Beträge. Der Vertragspartnerin steht keine Erstattung zu."
+          }
+        ]
+      },
+      {
+        "heading": "14. Änderungen dieser Bedingungen",
+        "blocks": [
+          {
+            "p": "Wir können diese Bedingungen oder zusätzliche, auf den Dienst anwendbare Bedingungen ändern, um beispielsweise Gesetzesänderungen oder Änderungen unserer Dienste widerzuspiegeln. Sie sollten die Bedingungen regelmäßig prüfen. Wir werden Hinweise zu Änderungen auf dieser Seite veröffentlichen und, sofern relevant, einen Änderungshinweis innerhalb des betreffenden Dienstes anzeigen. Die Änderungen werden nicht rückwirkend angewendet und treten mindestens 14 Tage nach ihrer Veröffentlichung in Kraft; Änderungen im Zusammenhang mit neuen Funktionen eines Dienstes oder aus rechtlichen Gründen treten sofort in Kraft. Wenn Sie den geänderten Bedingungen eines Dienstes nicht zustimmen, müssen Sie die Nutzung dieses Dienstes einstellen."
+          },
+          {
+            "p": "Die für die Dienste in Rechnung gestellten Beträge können von der Auftragnehmerin geändert werden, die die Vertragspartnerin über die für das virtuelle Konto verantwortliche E-Mail-Adresse informieren muss; die Änderungen wirken sich ab der nächsten Vertragsverlängerung auf den Preis der Dienste aus."
+          },
+          {
+            "p": "Die Auftragnehmerin kann die Vertragspartnerin über allgemeine Informationen zur Nutzung der Dienste oder jede erforderliche Mitteilung per E-Mail informieren, die Sie auf der Plattform für den Administrator des virtuellen Kontos und, bei Abrechnungsangelegenheiten, für die Rechnungs-E-Mail-Adresse registriert haben. Die Vertragspartnerin ist dafür verantwortlich, die Daten des virtuellen Kontos aktuell zu halten und die von der Domain der Plattform gesendeten E-Mails als sicher zu konfigurieren, damit sie nicht als Spam behandelt werden; jede gesendete Information gilt einen Werktag nach dem Versand als zugestellt."
+          },
+          {
+            "p": "Hinweise zur Wartung der Dienste, geplante Eingriffe, technische Angelegenheiten von Interesse für die Nutzer und die Bereitstellung neuer Funktionen können nach dem freien Ermessen der Vertragspartnerin direkt an die Nutzer gesendet werden. Um mit der Auftragnehmerin zu kommunizieren, kann die Vertragspartnerin folgende Kanäle nutzen:"
+          },
+          {
+            "ul": [
+              "Chat der Plattform: für die direkte Betreuung der Dienstnutzer, die Klärung von Fragen, technischen Support und Nutzungshinweise.",
+              "E-Mail suporte@interfy.ai: zur Eröffnung von technischen Support-Tickets, für Verbesserungsvorschläge und zur Klärung von Fragen zu Konfigurationen und zur Nutzung der Dienste.",
+              "Fragen zur Datenverarbeitung: privacidade@interfy.ai.",
+              "E-Mail legal@interfy.ai: für sonstige Anfragen, einschließlich der Kündigung dieses Abonnementvertrags oder rechtlicher Fragen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "15. Anwendbares Recht",
+        "paragraphs": [
+          "Die Vertragspartnerin erklärt sich damit einverstanden, dass das Recht des Bundesstaats Florida/USA diesen Vertrag regelt, ohne Berücksichtigung von Kollisionsnormen oder der Wahl einer anderen Rechtsordnung, wie vorteilhaft diese auch sein mag."
+        ]
+      },
+      {
+        "heading": "16. Streitigkeiten",
+        "paragraphs": [
+          "Jede Streitigkeit oder Forderung im Zusammenhang mit den Diensten oder diesem Vertrag wird durch bindende Schiedsgerichtsbarkeit anstelle eines Gerichtsverfahrens beigelegt, außer wenn Sie vor einem Gericht für geringfügige Forderungen klagen können, sofern Ihre Ansprüche dafür qualifiziert sind. Der Federal Arbitration Act regelt die Auslegung und Anwendung dieser Bestimmung; der Schiedsrichter wendet auf alle übrigen Angelegenheiten das Recht von Florida/USA an. Jede Partei des Schiedsverfahrens kann jederzeit einstweilige Verfügungen oder andere Formen des Rechtsschutzes bei jedem zuständigen Gericht beantragen.",
+          "Dieser Vertrag, einschließlich der Datenschutzrichtlinie, stellt die gesamte Vereinbarung zwischen Ihnen und der Auftragnehmerin dar und ersetzt alle vorherigen mündlichen oder schriftlichen Vereinbarungen, Mitteilungen und Absprachen zu diesem Thema. Stellt ein zuständiges Gericht fest, dass ein Teil dieses Vertrags ungültig ist, wird dieser Abschnitt entfernt, ohne den Rest des Vertrags zu beeinträchtigen, der weiterhin gültig und anwendbar bleibt.",
+          "Das Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf findet auf diesen Vertrag keine Anwendung. Sie dürfen die Rechte aus diesem Vertrag ohne schriftliche Genehmigung der Auftragnehmerin nicht an Dritte übertragen. Die Auftragnehmerin kann diesen Vertrag jedoch ohne Ihre Zustimmung an einen Partner, ein Unternehmen im Rahmen eines Asset-Verkaufs oder einen Rechtsnachfolger durch Fusion übertragen. Jede Übertragung, die gegen diesen Abschnitt verstößt, wird für nichtig erklärt.",
+          "Die Vertragspartnerin verzichtet auf jegliches Recht, als Vertreter oder Anwalt einer bestimmten Gruppe im Rahmen einer Massen- oder Sammelklage vorzugehen oder das Schiedsverfahren ohne Zustimmung aller Parteien zu konsolidieren. Jeder vom Schiedsrichter gefällte Schiedsspruch ist endgültig, abschließend und für die Parteien bindend; sofern der Schiedsrichter nichts anderes bestimmt, trägt jede Partei ihre eigenen Kosten und Auslagen. Nach Bestätigung eines Schiedsspruchs durch ein Bundes- oder Landesgericht von Florida kann das Urteil vor jedem zuständigen Gericht vollstreckt werden, unbeschadet der Möglichkeit der Auftragnehmerin, eine einstweilige Verfügung oder einen anderen Billigkeitsrechtsbehelf bei jedem zuständigen Gericht zu beantragen.",
+          "Dieser Vertrag wird von unabhängigen Parteien geschlossen und begründet keine Partnerschaft, Vereinigung, Gesellschaft, Franchise, Joint Venture oder ein Beschäftigungsverhältnis. Die verspätete Ausübung eines Rechts aufgrund einer Vertragsverletzung stellt keinen Verzicht auf dieses Recht dar, und die Unwirksamkeit einer bestimmten Bestimmung beeinträchtigt nicht die übrigen Bestimmungen."
+        ]
+      },
+      {
+        "heading": "17. Bekämpfung von Korruption und Geldwäsche",
+        "paragraphs": [
+          "Im Rahmen der durch diesen Abonnementvertrag festgelegten Vertragsbeziehung verpflichten sich die Parteien, sowohl für sich selbst als auch für ihre Angestellten, Gesellschafter, Bevollmächtigten, Direktoren, verbundenen Personen, Dritte, verbundenen Unternehmen und jede Person, die im Namen einer Partei handelt, ihre Geschäftspraktiken ethisch und im Einklang mit den geltenden gesetzlichen Vorschriften zu führen, und dürfen weder direkt noch indirekt Zahlungsversprechen, Zahlungen, Spenden oder sonstige Vorteile an Dritte, Vertreter von Regierungen oder öffentlichen oder privaten Einrichtungen leisten, um eine Entscheidung zu beeinflussen und einen unrechtmäßigen, rechtswidrigen, unregelmäßigen oder ungerechten Vorteil zu sichern. Beide Parteien erklären, sich der gesetzlichen Bestimmungen zur Bekämpfung und Verhinderung der Geldwäsche und der Verschleierung von Vermögenswerten bewusst zu sein und sich zu deren gewissenhafter Einhaltung zu verpflichten."
+        ]
+      },
+      {
+        "heading": "18. Schlussbestimmungen",
+        "paragraphs": [
+          "Die Parteien vereinbaren, dass die Abschnitte Aufbewahrung und Löschung Ihrer Daten, Verarbeitung personenbezogener Daten (Übermittlung und Vertraulichkeit), Zahlung, Gewährleistungsausschluss, Lizenz und Eigentumsrechte, Verantwortlichkeiten bezüglich der Dienste, Inhalt, Anwendbares Recht und Streitigkeiten die Beendigung oder das Auslaufen dieses Vertrags überleben.",
+          "Jede Partei erklärt, diesen Abonnementvertrag (Vertrag) rechtsgültig abgeschlossen zu haben und über die gesetzliche Befugnis dazu zu verfügen."
         ]
       }
     ]
@@ -168,93 +346,239 @@
     },
     "sections": [
       {
-        "heading": "1. Wer wir sind",
+        "heading": "1. Definitionen",
         "paragraphs": [
-          "Die Interfy Corporation mit Sitz in Orlando, Florida, USA, ist die Verantwortliche für die über die Interfy-Plattform verarbeiteten personenbezogenen Daten, außer wenn sie im Auftrag eines Kunden als Auftragsverarbeiter handelt."
+          "Personenbezogene Daten: Informationen, die es ermöglichen, eine natürliche Person direkt oder indirekt zu identifizieren, auch durch den Abgleich von Daten. Beispiel: Ausweisnummer, Steuer-ID, Adresse, Foto, religiöse oder parteipolitische Zugehörigkeit, Geburtsdatum, Gesundheitsdaten, biometrische Daten usw.",
+          "Betroffene Person: Der Eigentümer der Daten, also die natürliche Person, auf die sich die Daten beziehen.",
+          "Datenverarbeitung: Jede mit einer personenbezogenen Information durchgeführte Handlung, wie Erfassung, Einsichtnahme, Weitergabe, Empfang, Bearbeitung, Löschung, Übermittlung usw.",
+          "Zweck: Das mit der durchgeführten Datenverarbeitung angestrebte Ziel.",
+          "Verantwortlicher: Die von Interfy benannte natürliche oder juristische Person, die für die Beantwortung von Anfragen zuständig ist und gewährleistet, dass die Datenverarbeitung im Einklang mit dem geltenden Recht unter Achtung der Rechte der betroffenen Personen erfolgt.",
+          "Auftragsverarbeiter: Die natürliche oder juristische Person, die die Datenverarbeitung im Namen des Verantwortlichen durchführt.",
+          "Dritter: Eine natürliche oder juristische Person des öffentlichen oder privaten Rechts, mit der Interfy eine Geschäftsbeziehung unterhält oder unterhalten wird.",
+          "Datenschutzbeauftragter: Die von Interfy benannte natürliche oder juristische Person, die für die Beantwortung von Anfragen zuständig ist und gewährleistet, dass die Datenverarbeitung im Einklang mit der LGPD unter Achtung der Rechte der betroffenen Personen erfolgt."
         ]
       },
       {
-        "heading": "2. Welche Daten wir erheben",
-        "items": [
-          "Registrierungsdaten: Name, E-Mail, Telefon, Unternehmen und Position",
-          "Nutzungsdaten der Plattform: Zugriffsprotokolle, durchgeführte Aktionen und Konfigurationseinstellungen",
-          "Kundeninhalte: Dokumente, Prozesse und weitere vom Kunden selbst in die Plattform eingegebene Informationen",
-          "Technische Daten: IP-Adresse, Geräte- und Browsertyp"
+        "heading": "2. Welche Rechte Sie als betroffene Person haben",
+        "blocks": [
+          {
+            "ul": [
+              "Als betroffene Person haben Sie Anspruch auf erleichterten Zugang zu Informationen über die Verarbeitung Ihrer Daten, die klar, angemessen und deutlich bereitgestellt werden müssen.",
+              "Sie können das Bestehen einer Verarbeitung bestätigen, Daten anfordern und Zugang zu ihnen erhalten.",
+              "Stellen Sie fest, dass die Daten unvollständig, ungenau oder veraltet sind, können Sie deren Berichtigung verlangen.",
+              "Interfy speichert keine unnötigen Daten, aber wenn ein Datum als übermäßig angesehen wird, können Sie dessen Anonymisierung, Sperrung oder Löschung verlangen, auch wenn es entgegen dem geltenden Recht verarbeitet wird.",
+              "Wenn Sie benötigen, dass Ihre Daten an einen anderen Anbieter übertragen werden, können Sie auf ausdrücklichen Antrag die Portabilität der Daten verlangen, unter Beachtung von Geschäfts- und Betriebsgeheimnissen.",
+              "Wenn Sie uns Ihre Einwilligung zur Verarbeitung Ihrer Daten gegeben haben, können Sie deren Löschung verlangen, außer in den gesetzlich vorgesehenen Fällen.",
+              "Wir informieren Sie darüber, mit welchen öffentlichen oder privaten Einrichtungen Interfy Ihre Daten geteilt hat, sofern eine Weitergabe erfolgt ist.",
+              "Wenn Sie uns Ihre Einwilligung zur Datenverarbeitung nicht geben möchten, respektieren wir Ihre Entscheidung und informieren Sie über etwaige Folgen der Nichterteilung.",
+              "Sie haben das Recht, Ihre Einwilligung durch ausdrückliche Erklärung, unentgeltlich und auf einfache Weise, zu widerrufen.",
+              "Falls erforderlich, haben Sie das Recht, sich an die ANPD, Verbraucherschutzorganisationen und die für den Datenschutz zuständigen Aufsichtsbehörden zu wenden, falls Ihre Daten von Interfy unangemessen verarbeitet werden.",
+              "Sie können der Datenverarbeitung widersprechen, die sich auf einen Fall des Verzichts auf die Einwilligung bei Nichteinhaltung des geltenden Rechts stützt.",
+              "Wenn Interfy Daten automatisiert verarbeitet und Entscheidungen ausschließlich auf Grundlage dieser Verarbeitung trifft, die Ihre Interessen betreffen, können Sie die Überprüfung solcher Entscheidungen verlangen.",
+              "Sie können jederzeit klare und angemessene Informationen über die für automatisierte Entscheidungen verwendeten Kriterien und Verfahren verlangen, unter Beachtung von Geschäfts- und Betriebsgeheimnissen.",
+              "Um Ihre Rechte im Zusammenhang mit dem Datenschutz auszuüben, senden Sie Ihre Anfrage an privacidade@interfy.ai; unsere Datenschutzbeauftragte wird die notwendigen Maßnahmen ergreifen, um Ihrer Anfrage nachzukommen.",
+              "Wenn Sie Ihre Einwilligung widerrufen und es keine andere Rechtsgrundlage gibt, die die Verarbeitung stützt, werden wir die Verarbeitung Ihrer Daten für den Zweck, dem Sie zugestimmt haben, einstellen.",
+              "Jegliche Informationen, die Sie in Blogs oder Websites bereitstellen und die im Internet an Orten ohne Zugriffskontrolle öffentlich zugänglich gemacht werden, können von uns nicht geschützt werden, und wir können auch nicht einschränken, wer solche Daten kopieren oder weitergeben darf."
+            ]
+          }
         ]
       },
       {
-        "heading": "3. Wie wir die Daten verwenden",
-        "items": [
-          "Erbringung und Aufrechterhaltung der vertraglich vereinbarten Dienste",
-          "Authentifizierung von Nutzern und Schutz von Konten vor unbefugtem Zugriff",
-          "Versand betrieblicher Mitteilungen, Supportmitteilungen und, bei Einwilligung, kommerzieller Mitteilungen",
-          "Erfüllung gesetzlicher und regulatorischer Pflichten"
-        ]
-      },
-      {
-        "heading": "4. Weitergabe von Daten",
-        "paragraphs": [
-          "Personenbezogene Daten können an Infrastrukturanbieter (wie AWS-Cloud-Dienste), Zahlungsdienstleister und andere für die Erbringung des Dienstes unbedingt erforderliche Auftragsverarbeiter weitergegeben werden, stets unter vertraglichen Vertraulichkeits- und Sicherheitspflichten. Wir verkaufen keine personenbezogenen Daten an Dritte."
-        ]
-      },
-      {
-        "heading": "5. Cookies und ähnliche Technologien",
-        "paragraphs": [
-          "Wir verwenden essenzielle Cookies für den Betrieb der Website und, bei Einwilligung, analytische Cookies, um die Nutzung der Plattform zu verstehen und die Nutzererfahrung zu verbessern."
-        ]
-      },
-      {
-        "heading": "6. Datenspeicherung",
-        "paragraphs": [
-          "Personenbezogene Daten werden so lange gespeichert, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist, und anschließend gelöscht oder anonymisiert."
-        ]
-      },
-      {
-        "heading": "7. Informationssicherheit",
-        "paragraphs": [
-          "Wir setzen mehrschichtige Sicherheit ein, von der Architektur bis zum täglichen Betrieb:"
-        ],
-        "items": [
-          "Isolierung nach Workspace und dedizierte Datenbank pro Kunde, ohne gemeinsame Nutzung",
-          "Fortschrittliche Verschlüsselung: Daten während der Übertragung (TLS 1.2+) und im Ruhezustand (AES-256)",
-          "Granulare Zugriffskontrolle (RBAC) nach Funktion, Gruppe und Sensibilitätsstufe",
-          "Unternehmensauthentifizierung: SSO, SAML 2.0, OAuth 2.0, AD/LDAP und MFA",
-          "IP-basierte Zugriffsbeschränkung (IP Blocking)",
-          "Unveränderliche und durchsuchbare Protokolle und Audit-Trails",
-          "24/7-Sicherheitsüberwachung, automatische verschlüsselte Backups und Disaster Recovery mit geografischer Replikation",
-          "Multi-AZ-Infrastruktur auf AWS, zertifiziert nach ISO/IEC 27001:2022, mit SOC 2 Type II in Bearbeitung"
+        "heading": "3. Welche Daten wir verarbeiten",
+        "blocks": [
+          {
+            "p": "Interfy ist ein Anbieter von Diensten für intelligentes Dokumentenmanagement und Geschäftsprozessautomatisierung und vereint Dokumentenverwaltung (Documents), Prozessautomatisierung (Process), intelligente Erfassung (Capture) und elektronische sowie digitale Signatur (Sign) auf einer einzigen Plattform. Unsere Dienste werden online bereitgestellt, entweder durch direkten Vertragsabschluss mit den Nutzerunternehmen oder über Geschäftspartner und Vertriebshändler. Wir verarbeiten die Daten, die notwendig sind, um unsere Dienste zu aktivieren und in Betrieb zu halten, Sicherheit und Verfügbarkeit zu gewährleisten, technische Probleme zu diagnostizieren, nützliche Informationen für eine bessere Nutzung des Dienstes zu speichern, erforderliche Wartungsbenachrichtigungen und Warnungen zu senden, technischen Support zu leisten, Schulungen und Anleitungen zu bewährten Verfahren anzubieten, über Verbesserungen und neue Funktionen zu informieren und relevante ergänzende Dienste für Nutzer und künftige Nutzer anzubieten."
+          },
+          {
+            "p": "Jede natürliche oder juristische Person, die unsere Dienste in Anspruch nimmt, kann Daten unter Nutzung der auf unserer Plattform verfügbaren Funktionen speichern und verarbeiten und wird als VERANTWORTLICHE identifiziert, während Interfy als AUFTRAGSVERARBEITER agiert. In dieser Funktion halten wir die Daten sicher und zugänglich, löschen sie oder stellen auf ausdrückliche Anfrage der VERANTWORTLICHEN eine Kopie bereit, unter Beachtung der von ihr festgelegten Einstellungen. Als AUFTRAGSVERARBEITER verpflichtet sich Interfy, die als personenbezogene Daten eingestuften Informationen strikt nach den von der VERANTWORTLICHEN festgelegten Kriterien und den in der DSGVO und der LGPD sowie weiteren geltenden Vorschriften festgelegten Vorgaben zu verarbeiten, ausschließlich für die in den Nutzungsbedingungen festgelegten Zwecke, wobei Interfy nicht gegenüber der Nationalen Datenschutzbehörde (ANPD) und/oder anderen Behörden, betroffenen Personen oder anderen Einrichtungen mit Befugnis zur Verhängung verwaltungsrechtlicher oder gerichtlicher Sanktionen haftbar gemacht werden kann."
+          },
+          {
+            "p": "Sollte Interfy in ihrer Rolle als AUFTRAGSVERARBEITER sanktioniert werden, bleibt ihr Rückgriffsrecht gewahrt, um von der VERANTWORTLICHEN den Ersatz aller aus der rechtswidrigen Handlung entstandenen Verluste, Schäden und Auslagen zu verlangen, sowie weiterer notwendiger Maßnahmen zum Schutz der Rechte von Interfy."
+          },
+          {
+            "p": "Interfy und die zur Unternehmensgruppe gehörenden Firmen haben keine Kontrolle darüber, welche Daten die Nutzer speichern, gemäß Ziffer 8 unserer Nutzungsbedingungen."
+          },
+          {
+            "p": "Um unsere Dienste zu nutzen, stellen Sie folgende Informationen bereit, die als personenbezogene Daten gelten und für die Interfy als VERANTWORTLICHE haftet: bei Vertragsabschluss, als Nutzer der Plattform, oder wenn Sie unsere Websites besuchen und uns einen Lebenslauf senden, geben Sie uns Ihren Namen, Ihre E-Mail-Adresse, Ihre Telefonnummer, Ihre Position und Lebenslaufdaten (die je nach betroffener Person variieren)."
+          }
         ],
         "relatedLink": {
-          "label": "Vollständige Sicherheitsarchitektur ansehen",
-          "href": "/legal/seguranca"
+          "label": "Vollständige Nutzungsbedingungen ansehen",
+          "href": "/legal/termos"
         }
       },
       {
-        "heading": "8. Ihre Rechte (LGPD/DSGVO)",
-        "items": [
-          "Bestätigung der Verarbeitung und Zugang zu den Daten",
-          "Berichtigung unvollständiger, ungenauer oder veralteter Daten",
-          "Anonymisierung, Sperrung oder Löschung unnötiger Daten",
-          "Übertragbarkeit der Daten zu einem anderen Dienstanbieter",
-          "Widerruf der Einwilligung, soweit anwendbar"
+        "heading": "4. Wofür wir jedes Datum verwenden",
+        "blocks": [
+          {
+            "p": "Name und E-Mail: Wir verwenden diese Daten, um die erste Benachrichtigung über die Erstellung Ihres Arbeitsbereichs und anschließend Mitteilungen im Zusammenhang mit dem Dienst zu senden, wie Wartungsbedarf, Aktualisierungen, gesetzliche Verpflichtungen, Marketinginformationen über neue Produkte und Funktionen, Angebote oder jeglichen anderen Inhalt, der zur Verbesserung der Diensterbringung erforderlich ist. Sie können sich gegen den Empfang von Marketingmitteilungen entscheiden, indem Sie die im Text der E-Mail bereitgestellte Option markieren. Erhalten wir eine E-Mail-Mitteilung, können wir die Nachricht, einschließlich unserer Antworten, zur Führung eines Supporthistorie speichern."
+          },
+          {
+            "p": "Telefonnummer: Wir erheben die Telefonnummer für spätere Kontakte über WhatsApp oder andere Nachrichtenanwendungen, um Supportanfragen schneller und präziser zu bearbeiten, Mitteilungen und Marketingmaterial zu senden oder für Kontakte unserer Finanzabteilung, wenn angemessen und erforderlich. Wir werden Sie ohne vorherige Einladung keiner Gruppe hinzufügen."
+          },
+          {
+            "p": "Lebenslauf: Die von betroffenen Personen eingesendeten Lebensläufe werden 24 Monate lang in unserer Datenbank gespeichert und zur Auswahl von Mitarbeitern in unseren Einstellungsverfahren verwendet, wenn eine neue Stelle ausgeschrieben wird."
+          },
+          {
+            "p": "Position: Wird in der Kunden- und Partnerdatenbank gespeichert, damit wir die Funktionen jeder Person, mit der wir eine Geschäftsbeziehung haben, identifizieren können, um uns bei Bedarf an die richtigen Personen zu wenden."
+          },
+          {
+            "p": "Zahlungsdaten: Werden zur Verarbeitung der monatlichen Abrechnung der Dienste verwendet. Bei Auswahl der Zahlung per Kredit- und/oder Debitkarte speichert Interfy diese nicht selbst — sie werden mit einer Abonnement-ID beim Zahlungsabwickler (zum Beispiel Stripe oder PayPal) verknüpft, der die Daten zur Verarbeitung erhebt und speichert. Interfy behält lediglich die zugehörige ID; unsere Unterauftragsverarbeiter verfügen über eigene Datenschutzrichtlinien. Für die übrigen verfügbaren Zahlungsmethoden erheben und speichern wir Abrechnungsinformationen, Abonnementregistrierungen und Zahlungsaufzeichnungen zur Aufrechterhaltung der Dienste. Neben den oben genannten Daten können wir Folgendes erheben: Standort, IP-Adresse des Zugriffsgeräts und Identifizierung der Zugriffsgeräte."
+          }
         ]
       },
       {
-        "heading": "9. Internationale Datenübermittlung",
-        "paragraphs": [
-          "Da wir mit einer globalen Infrastruktur arbeiten, können personenbezogene Daten zwischen Ländern übertragen werden, stets mit vertraglichen und technischen Schutzmaßnahmen, die mit LGPD und DSGVO vereinbar sind."
+        "heading": "5. Wie wir jedes Datum erheben und wofür wir es verwenden",
+        "blocks": [
+          {
+            "p": "Ihr Standort: Wir können Standortdaten erheben, speichern und überwachen, wenn Sie auf eine unserer Websites oder die Interfy-Anwendung zugreifen. In Kombination mit anderen Daten können diese Daten Sie identifizierbar machen; sie sind für das ordnungsgemäße Funktionieren einiger Dienste erforderlich, wie die Identifizierung der Landeswährung und Sprache."
+          },
+          {
+            "p": "IP-Adresse des Zugriffsgeräts: In Kombination mit der E-Mail-Adresse und dem Standort ermöglicht sie uns zu erkennen, wo der Nutzer auf unserer Plattform zugeordnet ist und zu welcher Region er gehört, was uns hilft, unsere Betreuungsverfahren zu verbessern und mögliche regionale Probleme wie Fragen der Dienstleistung zu identifizieren."
+          },
+          {
+            "p": "Identifizierung der Zugriffsgeräte: Beim Zugriff auf die Dienste über ein Mobilgerät können wir Geräteidentifikatoren erheben, speichern, überwachen und darauf zugreifen, die Sie identifizierbar machen können, wenn sie mit anderen Daten kombiniert werden. Wir speichern diese Daten, um die Seiten entsprechend der Gerätegröße darzustellen und für bestimmte Gerätetypen ungeeignete Funktionen einzuschränken."
+          },
+          {
+            "p": "Weitere Daten, die wir aus den oben erhobenen Daten verarbeiten:"
+          },
+          {
+            "p": "Cookies: Sie helfen Ihnen, sich schneller auf der Plattform anzumelden, indem sie Informationen darüber speichern, wie Sie auf der Website navigieren; diese uns anonym übermittelten Informationen ermöglichen es uns, Ihr Navigationserlebnis zu verbessern. Ein persistentes Cookie bleibt nach dem Schließen des Browsers auf Ihrer Festplatte gespeichert und kann gemäß den Anweisungen Ihres Browsers entfernt werden; ein Sitzungscookie ist temporär und verschwindet beim Schließen des Browsers."
+          },
+          {
+            "p": "Protokolldateien: Wenn Sie den Dienst nutzen, erfassen unsere Server automatisch bestimmte, von Ihrem Browser gesendete Informationen, wie Webanfragen, IP-Adresse, Browsertyp, aufgerufene/verlassene Seiten und URLs, Anzahl der Klicks, wie Sie mit Links im Dienst interagieren, Domainnamen, Landingpages, aufgerufene Seiten, Mobilfunkanbieter und weitere Informationen."
+          },
+          {
+            "p": "Web-Beacons: Wir können diese in HTML-basierten E-Mails an Nutzer verwenden, wodurch wir nachvollziehen können, welche davon von den Empfängern geöffnet werden, sowie Muster der Online-Nutzung erkennen, was ausführlichere Statistiken erzeugt und unsere Dienste für die Nutzer attraktiver macht."
+          }
         ]
       },
       {
-        "heading": "10. Änderungen dieser Richtlinie",
+        "heading": "6. Optional erhobene Daten",
         "paragraphs": [
-          "Diese Richtlinie kann regelmäßig aktualisiert werden. Wesentliche Änderungen werden per E-Mail oder Hinweis auf der Plattform mitgeteilt."
+          "Sie können Ihr Foto im Zugangsprofil der Plattform hinzufügen, wenn Sie die Dienste nutzen. Diese Handlung ist optional, und Sie können es jederzeit entfernen.",
+          "Sie können uns auch Ihre Daten übermitteln, indem Sie ein Online-Formular ausfüllen, eine E-Mail senden oder über den Chat Kontakt aufnehmen. Diese Daten werden verarbeitet, um Ihnen die von Ihnen angeforderten Informationen bereitzustellen, und können für Direktmarketing und für analytische Zwecke verwendet werden.",
+          "Wenn Sie sich für eine unserer Online-Veranstaltungen anmelden, senden Sie Ihre Kontaktinformationen, mit denen wir Ihnen Zugang zur Veranstaltung gewähren; diese Daten werden verarbeitet, um unsere Nutzerbasis oder künftige Nutzer besser zu verstehen und für Direktmarketingzwecke.",
+          "Sie können den Erhalt von Marketingmitteilungen von Interfy abbestellen, indem Sie den Abbestellungsanweisungen in der Fußzeile der Werbe-E-Mails folgen oder eine E-Mail an privacidade@interfy.ai senden."
         ]
       },
       {
-        "heading": "11. Kontakt des Datenschutzbeauftragten (DPO)",
+        "heading": "7. Von Dritten erhobene Daten",
         "paragraphs": [
-          "Um Ihre Rechte auszuüben oder Fragen zu dieser Richtlinie zu klären, kontaktieren Sie unseren Datenschutzbeauftragten unter privacidade@interfy.ai."
+          "Wir können Daten aus Quellen Dritter erheben, damit Sie sich bei unseren Diensten anmelden können, oder wenn Sie in unseren Diensten gespeicherte Daten mit Dritten teilen — diese Dienste Dritter können uns Informationen über Sie und Ihr öffentliches Profil senden, sofern die Kontoeinstellungen in der Anwendung des Dritten diese Art der Weitergabe zulassen.",
+          "Wir können auch Informationen im Zusammenhang mit der Nutzung unserer Websites von Anwendungen Dritter erhalten. Wenn Sie unsere Websites besuchen, können wir Ihre Aktivitäten überwachen und aufzeichnen, und unsere Drittanbieter können uns zusätzliche, öffentlich zugängliche Informationen zur Verfügung stellen.",
+          "Die von uns erhobenen Informationen können auch zur Identifizierung, Authentifizierung, Betrugsprävention und zur Verbesserung des von uns erbrachten Dienstes verwendet werden, einschließlich Problemlösung, Marktforschung und Einhaltung unserer Nutzungsbedingungen."
+        ]
+      },
+      {
+        "heading": "8. Wie Interfy in ihrer Rolle als AUFTRAGSVERARBEITER die von Ihnen auf der Plattform gespeicherten Dokumente und Daten behandelt",
+        "paragraphs": [
+          "Der von Ihnen und den Personen Ihrer Organisation auf der Interfy-Plattform gespeicherte Inhalt wird von unserem Support-Team nicht eingesehen, außer wenn der Administrator der Plattform einem unserer Mitarbeiter Login und Passwort für den Zugriff bereitstellt, ausschließlich zum Zweck des technischen Supports und der Nutzungsanleitung der Anwendung — wobei der Nutzer nach Abschluss der Betreuung vom Administrator deaktiviert werden muss. Jeder Kunde erhält eine isolierte Datenbasis, wodurch der Zugriffsschutz auf die Informationen gewährleistet wird: Nur Personen, denen der Administrator der Plattform Login und Passwort mit den entsprechenden Berechtigungen bereitstellt, erhalten Zugriff auf den Inhalt. Alle gespeicherten Inhalte und Daten (Datensätze, elektronische Dateien, Metadaten, Formulare, Prozesse usw.) werden auf unsere Server in der AWS-Infrastruktur (zertifiziert nach ISO/IEC 27001:2022, SOC 2 Type II und HIPAA Ready, sowie konform mit LGPD und DSGVO) übertragen, durch Eingabe, Digitalisierung und/oder Hochladen durch von der VERANTWORTLICHEN autorisierte Personen, gemäß den vom Administrator der Plattform vordefinierten Regeln und Einstellungen; der Inhalt wird zwischen Arbeitsstationen oder Geräten übertragen und via HTTPS unter Verwendung von TLS-Verschlüsselung übermittelt."
+        ]
+      },
+      {
+        "heading": "9. Weitergabe an Dritte",
+        "paragraphs": [
+          "Interfy kann Ihre Daten mit Geschäftspartnern teilen, wenn wir diese für vertrauenswürdig halten und der Ansicht sind, dass sie für Sie relevante Produkte und Dienstleistungen anbieten können, oder um diesen Dienstleistungsvertrag zu erfüllen — wie zum Beispiel Hosting-Anbieter. Wenn wir dies tun müssen, stellen wir sicher, dass der Dritte vertrauenswürdig ist und die Vertraulichkeit Ihrer Daten wahren wird.",
+          "Falls Interfy einen Fusions-, Übernahme- oder Gesellschafterwechselprozess durchläuft, kann das Unternehmen Ihre Daten infolge dieses Prozesses mit Dritten teilen.",
+          "Wenn Sie direkt über Anwendungen Dritter auf unsere Anwendung zugreifen, können Ihre Daten mit ihnen geteilt werden; stellen Sie sicher, dass Sie der Anwendung vertrauen, und beachten Sie die Datenschutzrichtlinien des Unternehmens, dem sie gehört.",
+          "Wir können Daten mit Anwendungen Dritter über die Nutzung einer API teilen, wobei gespeicherte Daten von anderen Anwendungen abgerufen und/oder kopiert werden können, mit der entsprechenden Zustimmung der für die auf unserer Plattform gespeicherten Daten verantwortlichen VERANTWORTLICHEN.",
+          "Interfy kann Ihre personenbezogenen Daten offenlegen, wenn dies gesetzlich oder durch rechtliche Bestimmungen vorgeschrieben ist, mit dem Ziel, die Sicherheit einer Person in Betrugsangelegenheiten zu schützen, das Recht auf Leben und Freiheit zu schützen oder die Rechte von Interfy zu schützen.",
+          "Wir verwenden Analysewerkzeuge Dritter, die von Ihrem Browser als Teil einer Webseitenanfrage gesendete Informationen, Browser-Plugins und andere Informationen erheben, um uns zu helfen, den Datenverkehr und die Nutzungstrends unserer Dienste zu messen.",
+          "Interfy kann personenbezogene Daten in Marketingsystemen Dritter, Kundenbeziehungsmanagementsystemen (CRM) und E-Mail-Verwaltungssystemen speichern und verarbeiten, um die Geschäftstätigkeit des Unternehmens zu fördern und die Interaktion mit Nutzern und potenziellen Kunden zu erleichtern."
+        ]
+      },
+      {
+        "heading": "10. Blog und Community",
+        "paragraphs": [
+          "Wir können öffentlich zugängliche Blogs und Communities einrichten, einschließlich Foren. Alle von Ihnen in diesen Bereichen bereitgestellten Informationen können von anderen Personen gelesen werden, die wir nicht kontrollieren können, und können von jedem, der auf diesen Inhalt zugreift, erhoben und verwendet werden; die veröffentlichten Informationen können auch nach Beendigung Ihres Kontos verfügbar bleiben.",
+          "Wenn Sie im Blog- und/oder Community-Dienst veröffentlichte Informationen entfernen, können Kopien im Cache des Dienstes oder bei anderen Nutzern verbleiben. Wenn Sie möchten, dass wir diese Informationen entfernen, senden Sie eine E-Mail an privacidade@interfy.ai; in manchen Fällen können wir solche Informationen jedoch nicht entfernen."
+        ]
+      },
+      {
+        "heading": "11. Internationale Datenweitergabe",
+        "blocks": [
+          {
+            "p": "Das Hosting unserer Dienste ist auf die folgenden Regionen verteilt:"
+          },
+          {
+            "ul": [
+              "Amazon AWS — São Paulo (Brasilien) und Virginia (Vereinigte Staaten von Amerika)."
+            ]
+          },
+          {
+            "p": "Die Daten werden automatisiert über die in der Infrastruktur selbst eingesetzten technologischen Ressourcen verteilt. Um den Schutz der Daten zu gewährleisten, ergreifen wir Sicherheitsmaßnahmen gemäß den Vorgaben der LGPD und setzen zusammen mit dem Anbieter AWS Maßnahmen gegen versehentliche Zerstörung, unbefugten Zugriff, automatisierte Backups und organisatorische Maßnahmen im Einklang mit der Sicherheitsrichtlinie sowie weitere angemessene technische Aspekte ein."
+          },
+          {
+            "p": "Die Daten der Nutzer aus der Europäischen Union, dem Vereinigten Königreich, Liechtenstein, Norwegen, Island und weiteren Ländern werden in den Vereinigten Staaten (USA) durch Interfy und ihre Dienstanbieter gespeichert; wenn Sie nicht in den USA ansässig sind, können die Gesetze von denen abweichen, wo Sie ansässig sind. Durch die Nutzung der Dienste erkennen Sie an, dass jegliche personenbezogene Information über Sie an Interfy in den USA übermittelt und auf Servern in den USA gehostet wird, und ermächtigen Interfy, Ihre Informationen von und in den Vereinigten Staaten sowie, falls erforderlich, in anderen in dieser Richtlinie genannten Ländern zu übertragen, zu speichern und zu verarbeiten. Nutzer aus Brasilien können ihre Daten sowohl in den Vereinigten Staaten als auch in Brasilien gespeichert haben."
+          }
+        ]
+      },
+      {
+        "heading": "12. Verarbeitungs- und Speicherdauer der Daten",
+        "blocks": [
+          {
+            "p": "Daten, für die Interfy VERANTWORTLICHE ist: Die direkt von uns oder von unseren Kunden über die Plattform erhobenen Daten werden nur so lange aufbewahrt, wie es für die Erbringung der Dienste erforderlich ist, oder solange es zur Erfüllung unserer vertraglichen sowie gesetzlichen, buchhalterischen und steuerlichen Verpflichtungen notwendig ist. Für die Löschung oder Anonymisierung haben wir interne Richtlinien festgelegt, die die Sicherheit des Prozesses gewährleisten, wobei die Daten bis zu 3 Monate nach Einstellung der Nutzung der Dienste als Sicherheitsspanne aufbewahrt werden können, bevor sie gelöscht oder anonymisiert werden. Die von der Marketingabteilung verwendeten Daten können so lange aufbewahrt werden, wie wir davon ausgehen, dass unsere Dienste für einen künftigen Vertragsabschluss relevant sein könnten, oder bis Sie sich abmelden oder die Löschung der Daten beantragen."
+          },
+          {
+            "p": "Daten, für die Interfy AUFTRAGSVERARBEITER ist: Werden aufbewahrt, bis die VERANTWORTLICHE die Löschung beantragt und bis wir diese sicher durchführen können, wobei wir bestätigen, dass alle Daten endgültig gelöscht wurden, was bis zu 90 Tage dauern kann. Interfy verlangt von allen natürlichen und juristischen Personen, die unsere Dienste in Anspruch nehmen und nutzen, dass sie im Einklang mit allen geltenden Gesetzen und Vorschriften sowie dieser Richtlinie handeln, und kann die Erbringung der Dienste einseitig beenden, wenn festgestellt wird, dass die Nutzer der Vertragspartnerin gegen die Vorschriften zum Schutz personenbezogener Daten verstoßen, wie in unseren Nutzungsbedingungen festgelegt."
+          },
+          {
+            "p": "Zur Einhaltung der Konformität verarbeitete Daten: Die für die Erfüllung der steuerlichen, abgabenrechtlichen, sozialversicherungsrechtlichen, arbeitsrechtlichen und gesetzlichen Verpflichtungen der Interfy-Gruppe in jedem der Länder, in denen wir tätig sind, erforderlichen Daten werden für die von den Gesetzen jedes Landes festgelegte Dauer aufbewahrt."
+          }
+        ],
+        "relatedLink": {
+          "label": "Vollständige Nutzungsbedingungen ansehen",
+          "href": "/legal/termos"
+        }
+      },
+      {
+        "heading": "13. Einwilligung",
+        "paragraphs": [
+          "Indem Sie unserer Datenschutzrichtlinie zustimmen und sich registrieren, um unsere Plattform oder einen unserer Dienste zu nutzen, erklären Sie sich damit einverstanden und ermächtigen uns, Ihre Daten gemäß dieser Richtlinie zu verarbeiten.",
+          "Sie haben das Recht, Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten ganz oder teilweise zu widerrufen. Kontaktieren Sie dazu privacidade@interfy.ai, und wir werden die Verarbeitung Ihrer personenbezogenen Daten für die Zwecke einstellen, denen Sie ursprünglich zugestimmt haben, außer wenn zwingende und rechtmäßige Gründe bestehen, die Verarbeitung Ihrer personenbezogenen Daten fortzusetzen, welche Ihre Interessen, Rechte und Freiheiten überwiegen, oder zur Feststellung, Ausübung oder Verteidigung in Gerichtsverfahren."
+        ]
+      },
+      {
+        "heading": "14. Berichtigung, Aktualisierung oder Löschung Ihrer Informationen",
+        "paragraphs": [
+          "Sie können die Berichtigung, Aktualisierung oder Löschung der personenbezogenen Informationen beantragen, die Sie direkt an Interfy übermitteln; unser Team wird sich nach besten Kräften bemühen, Ihrer Anfrage innerhalb der geltenden gesetzlichen Frist nachzukommen, haftet jedoch nicht für ein etwaiges Versäumnis bei der Zustellung unserer Antwort.",
+          "Wenn Ihre Information von einem unserer Kunden verarbeitet wird, die unsere Dienste in Anspruch nehmen, müssen Sie Ihre Anfragen direkt an Ihren Anbieter (unseren Dienstleistungskunden) richten, der als VERANTWORTLICHER für Ihre Daten agiert."
+        ]
+      },
+      {
+        "heading": "15. Datenschutzrechte für Nutzer aus Kalifornien",
+        "paragraphs": [
+          "Einwohner Kaliforniens haben das Recht, von uns einen Hinweis zu verlangen, der die Kategorien personenbezogener Informationen benennt, die wir mit unseren Partnern oder Dritten zu Marketingzwecken teilen, einschließlich der Kontaktinformationen jedes Dritten. Wenn Sie in Kalifornien ansässig sind, unsere Dienste nutzen und solche Informationen anfordern möchten, senden Sie eine Anfrage an privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "16. Personenbezogene Daten von Kindern",
+        "paragraphs": [
+          "Wir erheben oder verlangen nicht wissentlich personenbezogene Informationen von Personen unter 13 Jahren, gemäß unserem Abonnementvertrag. Wenn Sie unter 13 Jahre alt sind, versuchen Sie nicht, sich für die Dienste zu registrieren oder uns personenbezogene Informationen über sich zu senden. Wenn wir Kenntnis von einem Konto erhalten, das von einer Person unter 13 Jahren erstellt wurde, oder von Informationen, die uns direkt unter diesen Umständen gesendet wurden, werden wir alle Informationen so schnell wie möglich löschen. Wenn Sie feststellen, dass ein Kind unter 13 Jahren ein Konto bei unseren Diensten registriert oder personenbezogene Informationen bereitgestellt hat, kontaktieren Sie uns unter privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "17. Rechtsgrundlage für die Verarbeitung personenbezogener Daten",
+        "blocks": [
+          {
+            "p": "Wir verarbeiten Ihre personenbezogenen Informationen nur, wenn wir eine Rechtsgrundlage dafür haben. Wir stützen uns auf folgende Rechtsgrundlagen:"
+          },
+          {
+            "ul": [
+              "Vertragserfordernis: Die Daten werden verarbeitet, um unsere Nutzungsbedingungen mit Ihnen zu erfüllen, und sind grundlegend dafür, dass wir die Dienste erbringen können — ohne sie wären wir dazu nicht in der Lage. Dazu gehören wesentliche Kontodaten, primäre essenzielle Cookies, Verbindungsdaten und Kontoinformationen Dritter (falls vorhanden), wie im Fall der Anmeldung über Active Directory.",
+              "Einwilligung: In manchen Fällen verarbeiten wir personenbezogene Daten auf Grundlage der von Ihnen zum Zeitpunkt der Erhebung förmlich erteilten Einwilligung, die zum Zeitpunkt der Erhebung ausdrücklich angefordert wird.",
+              "Berechtigtes Interesse: Wir erheben bestimmte Kategorien, wenn wir davon ausgehen, dass sie unserem berechtigten Interesse oder dem Dritter dienen, wie Abrechnungsdaten, Daten aus Online-Formularen, zusätzliche Kontodaten, Telefon-, Chat- und E-Mail-Daten (wenn diese auf andere Weise als über das Nutzerkonto des Dienstes erhoben werden), Daten zu Veranstaltungen und Communities, Tracking-Cookies, Support-Tickets, Geräteidentifikatoren und Web-Beacons.",
+              "Andere Gründe: Wir können Daten verarbeiten, um gesetzliche, buchhalterische, steuerliche und arbeitsrechtliche Verpflichtungen zu erfüllen, um lebenswichtige Interessen der betroffenen Personen zu schützen oder um Anforderungen von Regierungsbehörden und/oder der Justiz zu erfüllen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "18. Allgemeine Bestimmungen",
+        "paragraphs": [
+          "Falls diese Datenschutzrichtlinie aktualisiert wird, werden wir eine neue Veröffentlichung auf dieser Seite mit den aktualisierten Informationen vornehmen.",
+          "Unsere Richtlinie gilt nur für den Zugriff auf unsere Websites und Anwendungen. Links zu Websites Dritter werden von unserer Datenschutzrichtlinie nicht erfasst."
         ]
       }
     ]
@@ -343,7 +667,7 @@
         ],
         "relatedLink": {
           "label": "Vollständige Sicherheitsarchitektur ansehen",
-          "href": "/legal/seguranca"
+          "href": "/seguranca"
         }
       },
       {

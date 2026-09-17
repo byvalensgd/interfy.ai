@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Connectez-vous aux principaux systèmes du marché",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Voir tout"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Fonctionnalités et avantages de l'",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "Langages pris en charge par le SDK"
     },
     "codeCard": {
-      "heading": "Un appel d'API en quelques secondes"
+      "heading": "Un appel d'API en quelques secondes",
+      "sampleFileName": "fichier.pdf",
+      "sampleTags": ["contrat", "client"]
     },
     "ctaCard": {
       "heading": "Intégrez. Automatisez. Transformez.",

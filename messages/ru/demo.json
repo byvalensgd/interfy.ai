@@ -33,20 +33,20 @@
         "description": "Человек, который уже знаком с вашей отраслью."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Что вы увидите на демо:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Обзор платформы Interfy",
+      "Демонстрация модулей Documents и Process",
+      "Создание рабочих процессов с помощью ИИ",
+      "Электронная подпись и соответствие требованиям",
+      "Сессия вопросов и ответов"
     ]
   },
   "form": {
     "heading": "Запланируйте демонстрацию",
     "subheading": "Заполните данные ниже, и мы свяжемся с вами, чтобы подтвердить удобное время.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Имя",
+    "lastNameLabel": "Фамилия",
     "emailLabel": "Корпоративная почта",
     "companyLabel": "Компания",
     "phoneLabel": "Телефон (WhatsApp)",
@@ -59,8 +59,8 @@
       "201–1000 сотрудников",
       "Более 1000 сотрудников"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Основной интерес",
+    "interestPlaceholder": "Выберите",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "Пока не знаю"
     ],
     "messageLabel": "Расскажите немного о том, что вам нужно",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Расскажите о ваших потребностях...",
     "optionalLabel": "(необязательно)",
     "errors": {
       "name": "Укажите ваше полное имя.",
@@ -91,32 +91,6 @@
     "successHeading": "Мы получили вашу заявку!",
     "successMessagePrefix": "Наша команда свяжется с вами, чтобы подтвердить удобное время, по адресу ",
     "successMessageSuffix": ".",
-    "specialistLink": "Начать бесплатно тем временем",
-    "nameLabel": "Полное имя",
-    "roleLabel": "Должность"
-  },
-  "trust": {
-    "ariaLabel": "Почему стоит запланировать демо с Interfy",
-    "heading": "Платформа, готовая для глобальных компаний",
-    "subheading": "Безопасность корпоративного уровня, глобальное соответствие требованиям и специализированная поддержка на каждой демонстрации.",
-    "statsLabel": "Глобальное присутствие Interfy",
-    "stats": [
-      {
-        "label": "180+ стран",
-        "sublabel": "Растущее глобальное присутствие"
-      },
-      {
-        "label": "16 языков",
-        "sublabel": "Полноценный интерфейс и опыт"
-      },
-      {
-        "label": "99,99%",
-        "sublabel": "Гарантированная доступность по SLA"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Сертифицированное соответствие требованиям"
-      }
-    ]
+    "specialistLink": "Начать бесплатно тем временем"
   }
 }

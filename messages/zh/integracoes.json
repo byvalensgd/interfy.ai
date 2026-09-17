@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "与市场主流系统连接",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "查看全部"
+    "itemsAriaLabel": "与 Interfy 集成的系统和产品"
   },
   "featuresGrid": {
     "headingPrefix": "Interfy API 的 ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "SDK 支持的编程语言"
     },
     "codeCard": {
-      "heading": "几秒钟内完成 API 调用"
+      "heading": "几秒钟内完成 API 调用",
+      "sampleFileName": "文件.pdf",
+      "sampleTags": ["合同", "客户"]
     },
     "ctaCard": {
       "heading": "集成。自动化。转型升级。",

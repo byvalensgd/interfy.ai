@@ -45,7 +45,7 @@ export const footerColumns: FooterColumn[] = [
       { href: "/legal/termos", icon: "/icons/footer/doc.svg" },
       { href: "/legal/privacidade", icon: "/icons/footer/shield.svg" },
       { href: "/legal/lgpd", icon: "/icons/footer/shield-lgpd.svg" },
-      { href: "/legal/seguranca", icon: "/icons/footer/lock.svg" },
+      { href: "/seguranca", icon: "/icons/footer/lock.svg" },
       { href: "/suporte", icon: "/icons/footer/fone.svg" },
       { href: "/contato", icon: "/icons/footer/telefone.svg" },
     ],
@@ -59,17 +59,17 @@ export type FooterSocialLink = {
 };
 
 export const footerSocialLinks: FooterSocialLink[] = [
-  { icon: "/footer/social-instagram.svg", label: "Instagram", href: "https://instagram.com" },
+  { icon: "/footer/social-instagram.svg", label: "Instagram", href: "https://www.instagram.com/interfycorp/" },
   { icon: "/footer/social-x.svg", label: "X (Twitter)", href: "https://x.com" },
-  { icon: "/footer/social-linkedin.svg", label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: "/footer/social-youtube.svg", label: "YouTube", href: "https://youtube.com" },
-  { icon: "/footer/social-facebook.svg", label: "Facebook", href: "https://facebook.com" },
+  { icon: "/footer/social-linkedin.svg", label: "LinkedIn", href: "https://www.linkedin.com/company/interfy-platform/" },
+  { icon: "/footer/social-youtube.svg", label: "YouTube", href: "https://www.youtube.com/@interfy_corp" },
+  { icon: "/footer/social-facebook.svg", label: "Facebook", href: "https://www.facebook.com/interfyllc" },
 ];
 
 export const footerSocialBadges: FooterSocialLink[] = [
-  { icon: "/footer/badge-instagram.svg", label: "Instagram", href: "https://instagram.com" },
+  { icon: "/footer/badge-instagram.svg", label: "Instagram", href: "https://www.instagram.com/interfycorp/" },
   { icon: "/footer/badge-x.svg", label: "X (Twitter)", href: "https://x.com" },
-  { icon: "/footer/badge-linkedin.svg", label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: "/footer/badge-youtube.svg", label: "YouTube", href: "https://youtube.com" },
-  { icon: "/footer/badge-facebook.svg", label: "Facebook", href: "https://facebook.com" },
+  { icon: "/footer/badge-linkedin.svg", label: "LinkedIn", href: "https://www.linkedin.com/company/interfy-platform/" },
+  { icon: "/footer/badge-youtube.svg", label: "YouTube", href: "https://www.youtube.com/@interfy_corp" },
+  { icon: "/footer/badge-facebook.svg", label: "Facebook", href: "https://www.facebook.com/interfyllc" },
 ];

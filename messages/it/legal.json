@@ -38,95 +38,273 @@
     "eyebrow": "Informazioni Legali",
     "sidebarLabel": "In questa pagina",
     "title": "Termini di Utilizzo",
-    "updatedLabel": "Ultimo aggiornamento: 1 settembre 2026",
-    "intro": "I presenti Termini di Utilizzo disciplinano l'accesso e l'utilizzo della piattaforma Interfy, inclusi i prodotti Documents, Process, Capture, Sign, Connect, Agents, Mobile e Voice, resi disponibili da Interfy Corporation. Creando un account o utilizzando i nostri servizi, accetti le condizioni descritte di seguito. Questo documento è una bozza standard e deve essere revisionato dal team legale prima della pubblicazione finale.",
+    "updatedLabel": "Contratto Standard di Abbonamento — Versione 1/2021, aggiornato il 18 febbraio 2021",
+    "intro": "Il presente Contratto entra in vigore alla prima data in cui Lei accetta, accede o utilizza i Servizi Contrattati di Interfy Corporation, con sede a Orlando, Florida, Stati Uniti (\"Contraente Fornitrice\"), e Lei (\"Cliente\"). Si tratta di un accordo legale tra Lei (Cliente) e Interfy Corporation (Contraente Fornitrice), che descrive i termini che regolano l'uso dei servizi online di Interfy, forniti tramite questo sito, inclusi contenuti, aggiornamenti e nuove versioni, identificato come \"Contratto\". Se Lei sta stipulando questo Contratto per conto di un'azienda o di un'altra entità giuridica, dichiara e garantisce di avere l'autorità per vincolare tale entità e le sue affiliate ai presenti termini e condizioni in qualità di rappresentante legale e autorizzato, e di aver letto e compreso il presente contratto. In tal caso, i termini \"Lei\" o \"Suo\" si riferiscono a tale entità e alle sue affiliate, oltre che a Lei stesso. Accettando elettronicamente facendo clic su \"Accetto\", accedendo o utilizzando i Servizi, Lei accetta irrevocabilmente il presente Contratto e l'Informativa sulla Privacy disponibile su questo sito.",
     "sections": [
       {
-        "heading": "1. Accettazione dei termini",
-        "paragraphs": [
-          "Accedendo o utilizzando la piattaforma Interfy, dichiari di aver letto, compreso e accettato integralmente i presenti Termini di Utilizzo e la nostra Informativa sulla Privacy. Se non sei d'accordo con una qualsiasi disposizione, non devi utilizzare i servizi."
-        ]
-      },
-      {
-        "heading": "2. Descrizione del servizio",
-        "paragraphs": [
-          "Interfy offre una piattaforma aziendale che riunisce gestione documentale, automazione dei processi (BPM), cattura intelligente, firma elettronica, integrazioni, agenti AI e applicazioni mobili, resa disponibile in abbonamento (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Registrazione e account",
-        "paragraphs": [
-          "Per utilizzare la piattaforma è necessario creare un account con informazioni veritiere, complete e aggiornate. Sei responsabile della riservatezza delle tue credenziali di accesso e di tutte le attività svolte sul tuo account."
-        ],
-        "items": [
-          "Non condividere password o credenziali di accesso con terzi non autorizzati",
-          "Notificare immediatamente a Interfy qualsiasi sospetto di uso non autorizzato dell'account",
-          "Mantenere aggiornati i dati anagrafici"
-        ]
-      },
-      {
-        "heading": "4. Uso accettabile",
-        "paragraphs": [
-          "Accetti di non utilizzare la piattaforma per scopi illeciti, per violare i diritti di terzi, per distribuire malware o per tentare di accedere ad aree o dati senza autorizzazione."
-        ]
-      },
-      {
-        "heading": "5. Proprietà intellettuale",
-        "paragraphs": [
-          "La piattaforma Interfy, inclusi software, marchi, layout e contenuti, è di proprietà di Interfy Corporation o dei suoi licenzianti, protetta dalle leggi sulla proprietà intellettuale. Nessuna disposizione dei presenti Termini trasferisce diritti di proprietà intellettuale al cliente, salvo la licenza d'uso della piattaforma durante la validità dell'abbonamento."
-        ]
-      },
-      {
-        "heading": "6. Piani, pagamento e cancellazione",
-        "paragraphs": [
-          "L'accesso alla piattaforma viene concesso in base al piano sottoscritto. Prezzi, modalità di pagamento e condizioni di rinnovo sono comunicati al momento della sottoscrizione. La cancellazione può essere richiesta in qualsiasi momento, nel rispetto delle condizioni specifiche di ciascun piano."
-        ]
-      },
-      {
-        "heading": "7. Dati e contenuti del cliente",
-        "paragraphs": [
-          "Tutti i contenuti inviati, archiviati o elaborati dal cliente sulla piattaforma (\"Contenuto del Cliente\") restano di proprietà del cliente. Interfy agisce come responsabile del trattamento di tali dati, elaborandoli secondo le istruzioni del cliente e la nostra Informativa sulla Privacy."
-        ]
-      },
-      {
-        "heading": "8. Disponibilità e supporto",
-        "paragraphs": [
-          "Interfy opera con infrastruttura cloud-native Multi-AZ su AWS, con SLA di disponibilità del 99,99%, monitoraggio continuo 24/7 e piano di disaster recovery con replica geografica.",
-          "Il supporto viene fornito secondo i canali e i tempi descritti nella nostra pagina di Supporto, e la cronologia di disponibilità e incidenti è pubblicata in tempo reale nella pagina di Status della Piattaforma."
+        "heading": "1. Definizioni",
+        "blocks": [
+          {
+            "ul": [
+              "Utenti: sono tutte le persone autorizzate dal Cliente, tramite il rilascio di credenziali di accesso (login e password), ad accedere e utilizzare i servizi della Piattaforma. Gli \"Utenti\" possono essere dipendenti diretti, prestatori di servizi, collaboratori esterni, consulenti, ecc., con i quali il Cliente svolga attività commerciali.",
+              "Servizi: è l'insieme di strumenti e funzionalità fornite online da Interfy tramite l'account creato da Lei o da uno dei nostri partner commerciali accreditati, su uno dei nostri portali web.",
+              "Dati: indica qualsiasi dato o documento raccolto, elaborato e conservato da/per il Cliente, utilizzando le soluzioni rese disponibili sulla Piattaforma da Interfy.",
+              "Proprietà Intellettuale: sono tutti i segreti commerciali, i marchi registrati o non registrati per prodotti o servizi, i brevetti e le domande di brevetto, i nomi commerciali, i diritti d'autore, i diritti morali, i diritti di invenzione o di proprietà intellettuale e tutti gli altri diritti di Interfy in qualsiasi parte del mondo.",
+              "Informativa sulla Privacy: indica le regole e le pratiche che disciplinano il modo in cui Interfy tratta la riservatezza delle informazioni elaborate sulla Piattaforma di Servizi Online."
+            ]
+          },
+          {
+            "p": "L'Informativa sulla Privacy è vincolata al presente termine di accettazione di abbonamento ai servizi e contiene informazioni su come raccogliamo ed elaboriamo i dati personali attraverso i nostri siti e i nostri servizi."
+          },
+          {
+            "ul": [
+              "Piattaforma Online: indica l'ambiente virtuale attraverso il quale l'utente, dopo la creazione della workspace, può accedere e utilizzare i servizi sottoscritti.",
+              "Codice Malevolo: sono file di dati, programmi o codice sorgente il cui scopo è causare danni al funzionamento della piattaforma, come ad esempio i virus.",
+              "Invoice (Fattura): è il documento emesso per la riscossione dei servizi prestati mensilmente, utilizzato anche come documento fiscale.",
+              "Contratto: equivale al presente termine di accordo di abbonamento ai servizi forniti da Interfy.",
+              "Documentazione: indica i materiali di supporto e formazione forniti da Interfy agli utenti del Cliente, aggiornati periodicamente.",
+              "Account Virtuale: è l'account utilizzato dal Cliente per accedere ai servizi forniti da Interfy, utilizzato online esclusivamente dagli utenti autorizzati dal Cliente, tramite il quale sono rese disponibili tutte le funzionalità sottoscritte.",
+              "Servizi di Terzi: indica altri servizi che possono essere utilizzati insieme alle soluzioni rese disponibili tramite la piattaforma online, per i quali Interfy non sarà responsabile del funzionamento o di interferenze con i servizi sottoscritti in base al presente termine."
+            ]
+          }
         ],
         "relatedLink": {
-          "label": "Vedi l'architettura di sicurezza completa",
-          "href": "/legal/seguranca"
+          "label": "Vedi l'Informativa sulla Privacy completa",
+          "href": "/legal/privacidade"
         }
       },
       {
-        "heading": "9. Limitazione di responsabilità",
-        "paragraphs": [
-          "Nella misura massima consentita dalla legge applicabile, Interfy non sarà responsabile per danni indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare la piattaforma."
+        "heading": "2. Condizioni generali",
+        "blocks": [
+          {
+            "p": "Interfy renderà disponibile, previa formalizzazione dell'adesione ai servizi tramite l'accettazione del presente Termine di Accordo di Abbonamento (Contratto) e dell'Informativa sulla Privacy, come applicabile: a) la soluzione acquistata dal Cliente in base al piano selezionato al momento dell'adesione online; b) supporto tecnico standard per l'assistenza alle soluzioni acquistate, senza costi aggiuntivi per il Cliente; c) manterrà la soluzione acquistata disponibile online 24 ore al giorno, 7 giorni alla settimana, salvo periodi di inattività programmati in anticipo, o qualsiasi indisponibilità causata da circostanze al di fuori del ragionevole controllo di Interfy, incluse anomalie o problemi con il provider Internet e/o l'infrastruttura, problemi con connessioni esterne alla soluzione sottoscritta, o relativi al blocco dei servizi, qualunque ne sia la causa."
+          },
+          {
+            "p": "I Servizi possono includere componenti, sistemi e altri servizi di terzi, ai quali possono applicarsi termini aggiuntivi, politiche o requisiti di altri fornitori, incluse eventuali restrizioni di età."
+          },
+          {
+            "p": "L'Informativa sulla Privacy disponibile su questo sito è parte integrante del presente Contratto. Interfy manterrà misure di protezione amministrative, fisiche e tecniche per garantire la sicurezza, la riservatezza e l'integrità dei contenuti archiviati, secondo uno standard di mercato ragionevole e accettabile. È necessario che Lei segua le politiche rese disponibili all'interno dei Servizi, e non ne faccia un uso improprio, non interferisca con il loro utilizzo né tenti di accedervi con un metodo diverso dall'interfaccia e dalle istruzioni e metodi leciti da noi fornite."
+          },
+          {
+            "p": "Lei può utilizzare i servizi solo come consentito dalla legge. Possiamo sospendere o interrompere la fornitura dei Servizi se Lei viola i nostri Termini o le nostre Politiche, o qualsiasi legge applicabile, o se stiamo investigando casi di sospetta condotta scorretta."
+          },
+          {
+            "p": "Lei deve accettare di non utilizzare, né consentire a terzi di utilizzare, i Servizi o i contenuti in modo che violi qualsiasi legge, e le regole del presente contratto e dell'Informativa sulla Privacy. Lei accetta di non:"
+          },
+          {
+            "ul": [
+              "Fornire accesso o qualsiasi parte dei Servizi a terzi non collegati alla propria attività.",
+              "Riprodurre, modificare, copiare, decompilare, vendere, commercializzare o rivendere i Servizi, salvo che Lei sia un rivenditore accreditato da Interfy e autorizzato per iscritto."
+            ]
+          },
+          {
+            "p": "I Servizi sono protetti da diritti d'autore, segreti commerciali e altre leggi sulla proprietà intellettuale che includono, tra l'altro, eventuali marchi o loghi utilizzati nei siti. Lei ha il diritto di utilizzare i Servizi esclusivamente per le finalità descritte nel presente contratto di abbonamento."
+          },
+          {
+            "p": "Interfy si riserva tutti gli altri diritti sui Servizi, siano essi di sua proprietà o di proprietà di terzi. Fino alla risoluzione del presente Contratto, e purché Lei adempia a tutti gli obblighi di pagamento applicabili e sia in conformità con il presente Contratto, Interfy Le concede un diritto personale, limitato, non esclusivo e non trasferibile, e una licenza per utilizzare i Servizi."
+          },
+          {
+            "p": "Rispondiamo alle notifiche di presunta violazione del diritto d'autore e chiudiamo gli account dei trasgressori recidivi in conformità con le procedure stabilite dalle leggi statunitensi sul diritto d'autore. Forniamo informazioni per aiutare i titolari dei diritti d'autore a gestire la propria proprietà intellettuale online."
+          },
+          {
+            "p": "Se Lei ritiene che qualcuno stia violando i Suoi diritti d'autore e desidera segnalarlo, può inviare la Sua notifica a contato@interfy.ai. I Servizi Le consentono di inviare contenuti, dati e documenti per l'archiviazione. Lei mantiene la proprietà di qualsiasi diritto di proprietà intellettuale detenga su tali contenuti o documenti. In sintesi, ciò che appartiene a Lei resta di Sua proprietà."
+          }
         ]
       },
       {
-        "heading": "10. Risoluzione",
+        "heading": "3. Il tuo account",
         "paragraphs": [
-          "Interfy può sospendere o interrompere l'accesso alla piattaforma in caso di violazione dei presenti Termini, previa notifica, salvo in caso di rischio imminente per la sicurezza della piattaforma o di terzi."
+          "Lei deve creare un account per utilizzare i Servizi. Può creare il proprio account sul sito oppure esso potrà esserLe assegnato da un amministratore Partner di Interfy. Se Lei sta utilizzando un account della Piattaforma di Servizi Online assegnatoLe da un amministratore, potrebbero applicarsi termini diversi o aggiuntivi, e il Suo amministratore potrebbe essere in grado di bloccare o disattivare il Suo account."
         ]
       },
       {
-        "heading": "11. Modifiche ai termini",
+        "heading": "4. Conservazione ed eliminazione dei tuoi dati",
         "paragraphs": [
-          "I presenti Termini possono essere aggiornati periodicamente. Le modifiche rilevanti saranno comunicate via e-mail o tramite avviso sulla piattaforma, con ragionevole anticipo rispetto all'entrata in vigore."
+          "I dati del Cliente saranno archiviati nel database di Interfy, per tutto il tempo in cui l'account sia stato creato e il presente contratto sia valido. In conformità con l'Informativa sulla Privacy, i dati saranno eliminati (in modo permanente) entro 90 giorni dalla cessazione del contratto."
         ]
       },
       {
-        "heading": "12. Legge applicabile e foro competente",
+        "heading": "5. Trattamento dei dati personali, trasferimento e riservatezza",
         "paragraphs": [
-          "I presenti Termini sono regolati dalle leggi della Repubblica Federativa del Brasile, fatte salve disposizioni contrattuali specifiche per i clienti di altre giurisdizioni."
+          "Lei può consultare l'Informativa sulla Privacy di Interfy, disponibile sul nostro sito. Lei deve accettare l'Informativa sulla Privacy e qualsiasi modifica pubblicata da Interfy. Lei accetta che Interfy possa utilizzare e conservare i Suoi dati in conformità con l'Informativa sulla Privacy, come parte dei Servizi. Lei concede a Interfy l'autorizzazione a combinare informazioni identificabili e non identificabili che Lei inserisce o carica nei Servizi con quelle di altri utenti dei Servizi e/o di altri servizi di Interfy. Ciò significa che Interfy potrà utilizzare dati aggregati dei propri utenti per migliorare i Servizi o per progettare promozioni e fornire modalità di confronto delle pratiche commerciali con altri utenti. Interfy è un'azienda globale e può accedere o archiviare informazioni personali in diversi paesi, come specificato nella nostra Informativa sulla Privacy.",
+          "Il Cliente e Interfy si impegnano a trattare le informazioni classificate legalmente come dati personali, in virtù del presente contratto, osservando la legislazione applicabile, sotto pena di responsabilità per inadempimento contrattuale, senza pregiudizio per perdite e danni. Il trattamento dei dati personali avverrà unicamente in conformità con la finalità stabilita nel presente contratto.",
+          "Le parti si impegnano a non trasferire e/o condividere con terzi i dati personali trattati, salvo qualora ciò costituisca un requisito essenziale per l'adempimento del presente termine o di obblighi legali/giudiziari; tuttavia, anche qualora una delle parti sia legalmente obbligata a trasferire dati a terzi, dovrà notificare l'altra parte e garantire la riservatezza e l'integrità dei dati, sotto pena di responsabilità. Le informazioni su con chi condividiamo i dati per fornire i nostri servizi possono essere consultate nella nostra Informativa sulla Privacy.",
+          "Il Cliente sarà responsabile del rispetto del presente contratto da parte dei propri utenti, dell'esattezza, quantità, qualità e legalità dei propri dati e dei mezzi con cui li ha acquisiti, nonché dei metodi e delle modalità di elaborazione delle proprie informazioni archiviate, impegnandosi al meglio per garantire l'utilizzo della piattaforma in conformità con i regolamenti applicabili, sia per quanto riguarda la legalità, la riservatezza, l'integrità, la confidenzialità e la sicurezza dei dati trattati, sia per utilizzare i servizi in conformità con la finalità specificata nel presente termine di abbonamento.",
+          "Se il Cliente collega altre applicazioni ai nostri servizi e le utilizza insieme alle nostre soluzioni, il Cliente è consapevole e accetta che il fornitore di tale applicazione, indipendentemente dalla modalità di connessione, potrà accedere e copiare i dati del Cliente, nella misura necessaria per il funzionamento dell'applicazione. Interfy non si assume alcuna responsabilità per incidenti, divulgazioni, modifiche o eliminazioni di dati derivanti dall'accesso da parte di un terzo autorizzato dal Cliente.",
+          "Se Interfy individua che un'applicazione connessa non offre condizioni ragionevoli per l'interoperabilità con la soluzione sottoscritta, potrà interrompere l'accesso a tale terzo, senza alcuna penalizzazione, rimborso o compensazione da parte di Interfy. Interfy non è obbligata a valutare le applicazioni di terzi, tuttavia potrà farlo se lo ritiene opportuno."
         ]
       },
       {
-        "heading": "13. Contatti",
+        "heading": "6. Pagamento",
+        "blocks": [
+          {
+            "p": "Il Cliente pagherà in dollari statunitensi tutti gli importi specificati nell'Account Virtuale relativi all'abbonamento al piano iniziale acquistato, oltre agli importi di consumo eccedente, quando applicabili. Fornendo le informazioni di pagamento, Lei autorizza Interfy, o terzi da noi incaricati per l'elaborazione dei pagamenti, ad addebitare su tale carta di credito/debito gli importi corrispondenti alla soluzione sottoscritta, in conformità con la Invoice resa disponibile in ciascun ciclo di chiusura. Lei deve pagare con uno dei seguenti metodi:"
+          },
+          {
+            "ul": [
+              "Una carta di credito valida e accettabile da Interfy.",
+              "Una carta di debito valida e accettabile da Interfy.",
+              "Un'altra opzione di pagamento che Interfy Le fornisca per iscritto o rende disponibile nelle impostazioni del Suo piano di abbonamento."
+            ]
+          },
+          {
+            "p": "La prima opzione è la più comune e valida per le fatturazioni dei servizi forniti in qualsiasi paese; per alcuni paesi possiamo rendere disponibili le altre opzioni."
+          },
+          {
+            "p": "Se le Sue informazioni di pagamento e registrazione non sono precise, aggiornate e complete, e Lei non le aggiorna ogni volta che cambiano, potremo sospendere o chiudere il Suo account e rifiutare l'utilizzo dei Servizi."
+          },
+          {
+            "p": "Se Lei non ci notifica gli aggiornamenti del Suo metodo di pagamento (ad esempio, la data di scadenza della carta di credito), per evitare l'interruzione del Suo servizio potremo partecipare a programmi supportati dal Suo fornitore di carte (ad esempio, servizi di aggiornamento, programmi di fatturazione ricorrente, ecc.) per tentare di aggiornare le Sue informazioni di pagamento, e Lei ci autorizza a continuare a fatturare il Suo account con le informazioni aggiornate ottenute, sebbene ciò non costituisca un obbligo per Interfy."
+          },
+          {
+            "p": "Interfy rinnoverà automaticamente i Suoi Servizi mensili o annuali alle tariffe vigenti al momento, salvo che i Servizi vengano cancellati o risolti in base al presente Contratto."
+          },
+          {
+            "p": "Se non viene ricevuto alcun importo fatturato da Interfy alla data di scadenza, senza pregiudizio per altre misure applicabili: a) verranno applicati interessi dell'1% del saldo in sospeso al mese, o l'aliquota massima consentita dalla legge, applicandosi quella inferiore; e/o b) i servizi potranno essere sospesi quando il ritardo superi i 10 giorni; c) in caso di ritardo superiore a 30 giorni, Interfy potrà utilizzare servizi di società terze per la riscossione dell'importo dovuto, inclusi gli oneri legali previsti dalla legge; e/o d) segnalare l'inadempimento agli organi e agli enti di protezione del credito; e/o e) eliminare l'account del Cliente dopo 40 giorni di inadempimento non risolto."
+          },
+          {
+            "p": "Nei casi di inadempimento materiale del Contratto, la sospensione sarà immediatamente efficace, indipendentemente da una notifica preventiva."
+          },
+          {
+            "p": "Senza pregiudizio per quanto sopra esposto, qualora il Cliente stia contestando gli importi applicabili in modo chiaro, ragionevole e in buona fede, e stia cooperando diligentemente per risolvere la controversia, Interfy si impegnerà al meglio per risolvere la questione nel modo più rapido possibile ed evitare le misure sopra menzionate."
+          },
+          {
+            "p": "Il Cliente accetta che i propri acquisti non sono condizionati ad alcuna aspettativa relativa alla fornitura di funzionalità future da sviluppare, anche se Interfy avesse fatto qualche commento orale o scritto su funzionalità previste."
+          },
+          {
+            "p": "In caso di risoluzione del presente Contratto, Interfy è sin d'ora autorizzata a eliminare definitivamente l'Account Virtuale del Cliente, previa notifica via e-mail al Cliente."
+          }
+        ]
+      },
+      {
+        "heading": "7. Limiti di utilizzo",
         "paragraphs": [
-          "Domande sui presenti Termini possono essere inviate a contato@interfy.ai."
+          "Al momento della creazione del Suo account, Lei selezionerà il piano iniziale della soluzione, in cui saranno definite le risorse incluse nella Sua sottoscrizione, le funzionalità, la quantità di spazio di archiviazione e il numero di utenti. Elementi opzionali possono essere inclusi nella sottoscrizione, o successivamente dall'utente amministratore della workspace.",
+          "Per tutta la durata del presente contratto, Interfy non limiterà il consumo degli utenti del Cliente; pertanto, sebbene esista un pacchetto di servizi iniziale, Lei potrà registrare e mantenere attivi tutti gli utenti che desidera, se svolge il ruolo di amministratore della piattaforma, senza limitazioni riguardo al volume di archiviazione. Mensilmente verrà contabilizzato il consumo totale, che include il valore del pacchetto iniziale e tutti gli elementi eccedenti, sia in termini di numero di utenti attivi, volume di archiviazione o elementi aggiuntivi, i quali, sommati, compongono il totale della fattura mensile. In presenza di eccedenze, indipendentemente da una previa approvazione del Cliente, Interfy è autorizzata a effettuare la fatturazione pro rata del pacchetto mensile, incluse le quantità aggiuntive.",
+          "L'amministratore della workspace può modificare il proprio piano di servizi verso un piano superiore rispetto al consumo attuale, oppure un piano con caratteristiche e strumenti diversi; tuttavia, deve essere consapevole che, migrando verso un piano con meno funzionalità, tutte le funzioni non incluse nel nuovo piano cesseranno di essere disponibili per gli utenti."
+        ]
+      },
+      {
+        "heading": "8. Modificare o annullare i servizi",
+        "paragraphs": [
+          "Modifichiamo e miglioriamo costantemente i Servizi. Possiamo includere o rimuovere funzionalità o risorse, e possiamo anche sospendere o terminare completamente un Servizio. Lei può interrompere l'utilizzo dei Servizi in qualsiasi momento, sebbene ci rammarichi vederLa andare via.",
+          "Interfy potrà anche interrompere la fornitura dei Servizi a Lei, oppure introdurre nuovi limiti ai Servizi in qualsiasi momento. Crediamo che Lei sia il proprietario dei Suoi dati e che sia importante preservare il Suo accesso a essi. Se interrompiamo un Servizio, quando ragionevolmente possibile, Lei sarà informato in anticipo e avrà l'opportunità di ritirare le Sue informazioni dai nostri Servizi."
+        ]
+      },
+      {
+        "heading": "9. Esclusione di garanzie",
+        "paragraphs": [
+          "Forniamo i nostri Servizi utilizzando un livello ragionevole di capacità e cura e ci aspettiamo che Lei ne apprezzi l'utilizzo. Tuttavia, ci sono alcune cose che non promettiamo riguardo ai Servizi. Salvo quanto espressamente previsto nei presenti termini o in termini aggiuntivi, né Interfy, né i suoi fornitori, partner o distributori offrono determinate garanzie sui Servizi. Ad esempio, non siamo responsabili per i contenuti dei Servizi, per funzionalità specifiche, disponibilità o capacità di soddisfare le Sue esigenze. Forniamo i Servizi \"nello stato in cui si trovano\". Alcune giurisdizioni prevedono determinate garanzie, come la garanzia implicita di commerciabilità, idoneità a uno scopo specifico e non violazione. Nella misura consentita dalla legge, escludiamo tutte le garanzie.",
+          "Come previsto nel presente Contratto, nessuna delle parti fornisce alcuna garanzia di alcun tipo, espressa, implicita, legale o altrimenti, e ciascuna parte rinuncia specificamente a tutte le garanzie implicite, incluse eventuali garanzie implicite di commerciabilità, idoneità a uno scopo particolare o non violazione, nella misura massima consentita dalla legge applicabile. Ciascuna delle parti è esonerata da qualsiasi responsabilità e obbligo di indennizzo per perdite o danni causati da qualsiasi fornitore terzo di hosting e applicazioni."
+        ]
+      },
+      {
+        "heading": "10. Licenza e diritti di proprietà",
+        "paragraphs": [
+          "Interfy si riserva tutti i propri diritti, titolo e interesse relativi alle Soluzioni, inclusi tutti i relativi diritti di Proprietà Intellettuale.",
+          "Il Servizio viene fornito con accesso limitato e nessun diritto di proprietà è trasferito al Cliente. Interfy detiene e conserva tutti i diritti, titoli e interessi, inclusi tutti i diritti di proprietà intellettuale, nel e sul servizio, incluse tutte le modifiche, aggiornamenti, upgrade, estensioni, componenti e opere derivate dei servizi.",
+          "Il Cliente concede a Interfy e alle sue Affiliate o Partner una licenza mondiale, con durata limitata al periodo di validità del presente termine di abbonamento, per copiare, trasmettere, ospitare ed esporre i Suoi Dati, incluso il codice sorgente quando creati da o per il Cliente, così come per applicazioni di terzi, nella misura necessaria affinché Interfy fornisca l'accesso alle Soluzioni in conformità con il presente contratto.",
+          "Interfy potrà utilizzare tali Dati raccolti per finalità di rilevamento di informazioni e metriche anonimizzate, per migliorare e perfezionare i Servizi e per altre finalità di sviluppo, diagnosi e correzione del prodotto, sempre in forma anonimizzata, senza identificazione del Cliente.",
+          "Il Cliente concede a Interfy una licenza mondiale, definitiva, irrevocabile e libera da royalty per incorporare e utilizzare nelle soluzioni nuove risorse e funzionalità sviluppate a richiesta o su suggerimento del Cliente e/o dei suoi utenti.",
+          "Interfy, i suoi fornitori, partner e distributori rinunciano a qualsiasi dichiarazione o garanzia che l'utilizzo dei Servizi da parte Sua soddisfi o garantisca l'adempimento di qualsiasi obbligo legale, legge o regolamento."
+        ]
+      },
+      {
+        "heading": "11. Responsabilità relative ai servizi",
+        "paragraphs": [
+          "Quando consentito dalla legge, Interfy e i suoi fornitori, partner e distributori non saranno responsabili per perdita di profitti, perdita di ricavi, perdita di dati, perdite finanziarie o danni indiretti, speciali, consequenziali, esemplari o punitivi. Nella misura consentita dalla legge, la responsabilità totale di Interfy e dei suoi fornitori, partner e distributori, per qualsiasi reclamo ai sensi dei presenti termini, incluse eventuali garanzie implicite, è limitata all'importo che Lei ha pagato a Interfy negli ultimi 12 mesi per l'utilizzo dei Servizi. In tutti i casi, Interfy e i suoi fornitori, partner e distributori non saranno responsabili per alcuna perdita o danno che non sia ragionevolmente prevedibile.",
+          "Se Lei utilizza i nostri Servizi per conto di un'azienda, tale azienda deve accettare i presenti termini. Essa esonererà da responsabilità e indennizzerà Interfy e le sue affiliate, partner, distributori, dirigenti, agenti e collaboratori da qualsiasi rivendicazione, causa o azione legale derivante o correlata all'utilizzo dei Servizi o alla violazione dei presenti termini, inclusa qualsiasi responsabilità o spesa derivante da rivendicazioni, perdite, danni, procedimenti, sentenze, costi di contenzioso e spese legali.",
+          "Se il Cliente subisce un'azione legale che sostiene che l'utilizzo dei Servizi sottoscritti violi o derivi da un'appropriazione indebita di diritti di proprietà intellettuale di terzi, Interfy difenderà il Cliente contro il reclamo, la richiesta o l'azione legale, e lo indennizzerà per danni, spese e costi attribuiti a una decisione sfavorevole, a condizione che il Cliente notifichi per iscritto Interfy prontamente, entro un termine utile per la difesa, e conceda il controllo esclusivo e il supporto necessario a Interfy per condurre la difesa, incluso l'opzione per Interfy di modificare la soluzione o risolvere il presente contratto con un preavviso di 30 giorni.",
+          "Se il Cliente viene citato in giudizio per violazione di proprietà intellettuale causata da applicazioni di terzi collegate ai Servizi oggetto del presente Contratto, Interfy sarà esonerata da qualsiasi responsabilità, e gli obblighi di difesa e indennizzo verso il Cliente non si applicheranno a Interfy.",
+          "Se Interfy subisce un reclamo, richiesta, azione o procedimento giudiziario presentato da un terzo che sostenga che i Dati archiviati ed elaborati dal Cliente, o le modalità con cui utilizza i servizi ed elabora i dati, violino il presente accordo o infrangano qualche regolamento o legge applicabile, inclusa la proprietà intellettuale di terzi, il Cliente indennizzerà Interfy per danni, costi e spese derivanti dalla difesa o da un'eventuale condanna, a condizione che Interfy dia notifica immediata e scritta al Cliente e gli conceda il controllo esclusivo della difesa mediante richiesta tempestiva, fermo restando che il Cliente non può raggiungere un accordo per conto di Interfy senza la sua previa approvazione scritta. Interfy deve fornire al Cliente assistenza ragionevole, a proprie spese, per la difesa."
+        ]
+      },
+      {
+        "heading": "12. Contenuti",
+        "paragraphs": [
+          "Lei è responsabile di tutti i materiali, documenti, dati e informazioni personali (\"Contenuto\") caricati, pubblicati o archiviati tramite l'utilizzo dei Servizi. Lei concede a Interfy una licenza mondiale, gratuita e non esclusiva per ospitare e monitorare qualsiasi Contenuto fornito tramite l'utilizzo dei Servizi.",
+          "Lei deve utilizzare le migliori pratiche per archiviare i propri contenuti, poiché è responsabile di qualsiasi contenuto perso o irrecuperabile a causa di negligenza o uso improprio del Servizio. Interfy non è responsabile per il Contenuto o per i dati inviati tramite la Piattaforma. Lei accetta di non utilizzare, né di consentire a terzi di utilizzare, i Servizi per caricare, pubblicare, distribuire, collegare, riprodurre, coinvolgere o trasmettere contenuti illegali, fraudolenti, diffamatori, osceni, pornografici, blasfemi, minacciosi, offensivi o censurabili; che impersonino un'altra persona; del tipo lettere a catena, schemi piramidali o spam; virus, trojan, worm o altro codice malevolo; o qualsiasi informazione, software o contenuto che non sia legalmente Suo e senza la debita autorizzazione del titolare dei diritti.",
+          "Interfy può, ma non è obbligata a, monitorare il contenuto dei Servizi. Possiamo divulgare qualsiasi informazione necessaria per soddisfare i nostri obblighi legali, proteggere Interfy o i suoi clienti, proteggere la riservatezza, promuovere la sicurezza e proteggere la vita, o far funzionare adeguatamente i Servizi.",
+          "Se Interfy è obbligata dalla legge a inviarLe comunicazioni sui Servizi o su prodotti di terzi, Lei accetta che Interfy possa inviarle via e-mail o pubblicarle sui nostri siti o applicazioni a cui Lei ha accesso, nel rispetto della riservatezza delle informazioni.",
+          "La parte ricevente di informazioni riservate potrà divulgarle solo quando obbligata dalla legge, da un regolamento o da un ordine giudiziario o amministrativo, essendo obbligata a notificare prontamente l'altra parte prima della divulgazione, per facilitare gli sforzi di protezione delle informazioni riservate, divulgando solo la porzione strettamente richiesta. Quando la divulgazione viene effettuata in questi termini, la parte divulgante non ne sarà ritenuta responsabile."
+        ]
+      },
+      {
+        "heading": "13. Risoluzione",
+        "blocks": [
+          {
+            "p": "Interfy può immediatamente, a sua esclusiva discrezione e senza preavviso, risolvere il presente Contratto o sospendere i Servizi se Lei non rispetta i termini del presente Contratto o se non accetta più di ricevere comunicazioni elettroniche. Dopo la cessazione, Lei deve interrompere immediatamente l'utilizzo dei Servizi e qualsiasi pagamento in sospeso sarà dovuto. Qualsiasi risoluzione del presente Contratto non pregiudicherà i diritti di Interfy a eventuali pagamenti a essa dovuti."
+          },
+          {
+            "p": "Interfy può sospendere l'utilizzo dei Servizi, rimuovere contenuti o disattivare e persino chiudere qualsiasi account virtuale se, in buona fede, ritiene ragionevolmente che il Cliente o uno dei suoi utenti stia violando i termini del presente contratto e l'Informativa sulla Privacy. Interfy notificherà il Cliente prima di sospendere o disattivare l'account, salvo che sia legalmente impedita di farlo, nel qual caso notificherà il Cliente non appena l'impedimento cessi."
+          },
+          {
+            "p": "Il Cliente può risolvere il presente contratto, senza necessità di motivazione, con un preavviso minimo di 30 giorni, senza applicazione di penali di risoluzione. Ciascuna delle parti può risolvere il presente contratto se si verifica una delle seguenti ipotesi:"
+          },
+          {
+            "ul": [
+              "Una delle parti entra in un procedimento di fallimento o di concordato preventivo.",
+              "Violazione materiale comprovata del presente contratto non sanata.",
+              "Situazioni di forza maggiore, disastri, pandemie o eventi naturali che impediscano comprovatamente la continuità della prestazione dei servizi."
+            ]
+          },
+          {
+            "p": "Qualsiasi delle ipotesi di risoluzione sopra specificate richiede un preavviso minimo di 30 giorni, senza pregiudizio per la riscossione da parte di Interfy degli importi dovuti dal Cliente fino alla data effettiva della risoluzione. Nessun rimborso sarà dovuto al Cliente."
+          }
+        ]
+      },
+      {
+        "heading": "14. Modifiche al presente termine",
+        "blocks": [
+          {
+            "p": "Possiamo modificare i presenti termini o eventuali termini aggiuntivi applicabili al Servizio, ad esempio, per riflettere cambiamenti nella legge o modifiche ai nostri Servizi. Lei deve consultare i termini regolarmente. Pubblicheremo avvisi sulle modifiche in questa pagina, e un avviso di modifica all'interno del Servizio applicabile quando pertinente. Le modifiche non saranno applicate retroattivamente ed entreranno in vigore almeno 14 giorni dopo la loro pubblicazione; le modifiche relative a nuove funzionalità di un Servizio, o effettuate per motivi legali, entreranno in vigore immediatamente. Se Lei non accetta i termini modificati di un Servizio, deve interrompere l'utilizzo di tale Servizio."
+          },
+          {
+            "p": "Gli importi addebitati per i servizi possono essere modificati da Interfy, che dovrà informare il Cliente tramite l'indirizzo e-mail responsabile dell'account virtuale; le modifiche inizieranno a incidere sul valore dei servizi a partire dal successivo rinnovo dell'abbonamento."
+          },
+          {
+            "p": "Interfy potrà notificare al Cliente informazioni generali relative all'utilizzo dei Servizi, o qualsiasi comunicazione necessaria, tramite l'e-mail registrata da Lei sulla Piattaforma per l'amministratore dell'account virtuale e per l'e-mail di fatturazione, quando si tratti di informazioni di fatturazione. È responsabilità del Cliente mantenere aggiornati i dati dell'account virtuale e configurare le e-mail inviate dal dominio della Piattaforma come sicure, affinché non vengano trattate come spam; qualsiasi informazione inviata sarà considerata consegnata a partire da 1 giorno lavorativo dopo l'invio."
+          },
+          {
+            "p": "Avvisi di manutenzione dei servizi, interventi programmati, questioni tecniche di interesse degli utenti e disponibilità di nuove funzionalità possono essere inviati direttamente agli utenti, a discrezione del Cliente. Per comunicare con Interfy, il Cliente può utilizzare i seguenti mezzi:"
+          },
+          {
+            "ul": [
+              "Chat della Piattaforma: per assistenza diretta agli utenti del servizio, chiarimento di dubbi, supporto tecnico e orientamento all'uso.",
+              "E-mail suporte@interfy.ai: per l'apertura di richieste di supporto tecnico, suggerimenti di miglioramento e chiarimento di dubbi su configurazioni e utilizzo dei servizi.",
+              "Questioni relative al trattamento dei dati: privacidade@interfy.ai.",
+              "E-mail legal@interfy.ai: per ulteriori richieste, inclusa la risoluzione del presente termine di abbonamento o questioni legali."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "15. Legge applicabile",
+        "paragraphs": [
+          "Il Cliente accetta che la legge dello stato della Florida/USA disciplini il presente Contratto, senza considerare i conflitti di norme legali né la scelta di un'altra giurisdizione, per quanto essa possa essere più favorevole."
+        ]
+      },
+      {
+        "heading": "16. Controversie",
+        "paragraphs": [
+          "Qualsiasi controversia o rivendicazione relativa ai Servizi o al presente Contratto sarà risolta tramite arbitrato vincolante, invece che in tribunale, salvo qualora Lei possa presentare rivendicazione dinanzi al tribunale delle piccole controversie, qualora le Sue rivendicazioni siano idonee. Il Federal Arbitration Act disciplina l'interpretazione e l'applicazione della presente disposizione; l'arbitro applicherà la legge della Florida/USA alle restanti questioni. Qualsiasi parte nell'arbitrato può, in qualsiasi momento, richiedere provvedimenti cautelari o altre forme di riparazione equitativa a qualsiasi tribunale di giurisdizione competente.",
+          "Il presente Contratto, incluso l'Informativa sulla Privacy, costituisce l'accordo integrale tra Lei e Interfy e sostituisce tutte le intese, comunicazioni e accordi precedenti, orali o scritti, sull'argomento in questione. Se un tribunale competente stabilisce che una parte del presente Contratto è invalida, tale sezione sarà rimossa senza pregiudicare il resto del Contratto, che rimarrà valido e applicabile.",
+          "La Convenzione delle Nazioni Unite sui Contratti di Vendita Internazionale di Merci non si applica al presente Contratto. Lei non può cedere o trasferire la proprietà del presente Contratto a nessuno senza l'approvazione scritta di Interfy. Interfy, tuttavia, può cederlo o trasferirlo senza il Suo consenso a un partner, a un'azienda tramite vendita di attività, o a un successore mediante fusione. Qualsiasi cessione che violi la presente sezione sarà annullata.",
+          "Il Cliente rinuncia a qualsiasi diritto di formulare richieste come rappresentante o avvocato di una determinata classe su base collettiva o aggregata, o di consolidare il procedimento arbitrale senza il consenso di tutte le parti. Qualsiasi decisione emessa dall'arbitro sarà definitiva, conclusiva e vincolante per le parti; salvo diversa determinazione dell'arbitro, ciascuna parte sosterrà i propri costi e spese. Dopo la conferma di una sentenza arbitrale in un tribunale federale o statale della Florida, la condanna può essere eseguita in qualsiasi tribunale di giurisdizione competente, senza pregiudizio per Interfy di richiedere un provvedimento cautelare o altro rimedio equitativo in qualsiasi tribunale competente.",
+          "Il presente contratto è stipulato tra parti indipendenti e non crea una partnership, associazione, società, franchising, joint venture o rapporto di lavoro. L'eventuale mancato esercizio immediato di un diritto a seguito di un inadempimento non implica rinuncia a esso, né l'inapplicabilità di una disposizione specifica pregiudicherà le altre."
+        ]
+      },
+      {
+        "heading": "17. Lotta alla corruzione e al riciclaggio di denaro",
+        "paragraphs": [
+          "Nei limiti del rapporto contrattuale stabilito dal presente Termine di Abbonamento, le parti si obbligano, per se stesse, per i propri dipendenti, socî, procuratori, direttori, collaboratori, terzi, affiliate e qualsiasi persona che agisca in loro nome, a condurre le proprie pratiche commerciali in modo etico e in conformità con i precetti legali applicabili, non potendo effettuare promesse di pagamento, pagamenti, donazioni o qualsiasi beneficio, direttamente o indirettamente, a terzi, rappresentanti governativi o di enti pubblici o privati, con la finalità di influenzare una decisione per assicurare un vantaggio indebito, illecito, irregolare o ingiusto. Entrambe le parti dichiarano di essere consapevoli e si impegnano a rispettare fedelmente le disposizioni legali relative al contrasto e alla prevenzione del riciclaggio e dell'occultamento di beni."
+        ]
+      },
+      {
+        "heading": "18. Disposizioni finali",
+        "paragraphs": [
+          "Le parti concordano che le sezioni Conservazione ed Eliminazione dei Tuoi Dati, Trattamento dei Dati Personali (Trasferimento e Riservatezza), Pagamento, Esclusione di Garanzie, Licenza e Diritti di Proprietà, Responsabilità relative ai Servizi, Contenuti, Legge Applicabile e Controversie sopravviveranno a qualsiasi risoluzione o scadenza del presente Contratto.",
+          "Ciascuna parte dichiara di aver validamente stipulato il presente termine di abbonamento (Contratto) e di avere il potere legale per farlo."
         ]
       }
     ]
@@ -136,8 +314,8 @@
     "eyebrow": "Privacy & Trasparenza",
     "sidebarLabel": "In questa pagina",
     "title": "Informativa sulla Privacy",
-    "updatedLabel": "Ultimo aggiornamento: 1 settembre 2026",
-    "intro": "La presente Informativa sulla Privacy descrive come Interfy Corporation raccoglie, utilizza, condivide e protegge i dati personali nel contesto della piattaforma Interfy, in conformità con la Legge Generale sulla Protezione dei Dati (LGPD) e, ove applicabile, il Regolamento Generale sulla Protezione dei Dati europeo (GDPR). Questo documento è una bozza standard e deve essere revisionato dal team legale prima della pubblicazione finale.",
+    "updatedLabel": "Ultimo aggiornamento: 18 febbraio 2021",
+    "intro": "La presente Informativa sulla Privacy descrive le procedure utilizzate da Interfy per il trattamento dei Dati Personali. Si applica a tutte le forme di raccolta dati che applichiamo per la fornitura dei nostri servizi. Per una migliore comprensione della presente Informativa, descriviamo di seguito le definizioni dei termini utilizzati.",
     "certifications": {
       "heading": "Certificazioni e conformità",
       "ctaLabel": "Vedi tutti i dettagli",
@@ -168,93 +346,239 @@
     },
     "sections": [
       {
-        "heading": "1. Chi siamo",
+        "heading": "1. Definizioni",
         "paragraphs": [
-          "Interfy Corporation, con sede a Orlando, Florida, Stati Uniti, è il titolare del trattamento dei dati personali trattati attraverso la piattaforma Interfy, salvo quando agisce come responsabile del trattamento su istruzione di un cliente."
+          "Dati Personali: sono le informazioni che permettono di identificare una persona fisica, direttamente o indirettamente, anche attraverso l'incrocio di dati. Esempio: numero di documento d'identità, codice fiscale, indirizzo, fotografia, opinione religiosa o politica, data di nascita, dati sanitari, dati biometrici, ecc.",
+          "Interessato: è il titolare del dato, ossia la persona fisica a cui il dato si riferisce.",
+          "Trattamento dei Dati: è qualsiasi azione effettuata su un'informazione personale, come raccolta, visualizzazione, condivisione, ricezione, modifica, eliminazione, trasferimento, ecc.",
+          "Finalità: obiettivo che si intende raggiungere con il trattamento dei dati effettuato.",
+          "Titolare del Trattamento: è la persona fisica o giuridica indicata da Interfy per rispondere alle richieste e garantire che il trattamento dei dati sia effettuato in conformità con la legislazione applicabile, nel rispetto dei diritti degli interessati.",
+          "Responsabile del Trattamento: è la persona fisica o giuridica che effettua il trattamento dei dati per conto del titolare.",
+          "Terzo: persona fisica o giuridica di diritto pubblico o privato con cui Interfy ha o potrà avere rapporti.",
+          "Responsabile della Protezione dei Dati (DPO): è la persona fisica o giuridica indicata da Interfy per rispondere alle richieste e garantire che il trattamento dei dati sia effettuato in conformità con la LGPD, nel rispetto dei diritti degli interessati."
         ]
       },
       {
-        "heading": "2. Quali dati raccogliamo",
-        "items": [
-          "Dati di registrazione: nome, e-mail, telefono, azienda e ruolo",
-          "Dati di utilizzo della piattaforma: log di accesso, azioni effettuate e preferenze di configurazione",
-          "Contenuto del Cliente: documenti, processi e altre informazioni inserite sulla piattaforma dal cliente stesso",
-          "Dati tecnici: indirizzo IP, tipo di dispositivo e browser"
+        "heading": "2. Quali sono i tuoi diritti come interessato",
+        "blocks": [
+          {
+            "ul": [
+              "Come interessato, Lei ha diritto a un accesso facilitato alle informazioni sul trattamento dei Suoi dati, che devono essere rese disponibili in modo chiaro, adeguato e ostensivo.",
+              "Lei può confermare l'esistenza del trattamento, richiedere e avere accesso ai dati.",
+              "Se individua che i dati sono incompleti, inesatti o non aggiornati, Lei può richiederne la correzione.",
+              "Interfy non conserva dati non necessari, ma se un dato viene considerato eccessivo, Lei può richiederne l'anonimizzazione, il blocco o l'eliminazione, anche se trattato in violazione della legislazione applicabile.",
+              "Se necessita che i Suoi dati vengano trasferiti a un altro fornitore, Lei può richiederne la portabilità, mediante richiesta espressa, nel rispetto dei segreti commerciali e industriali.",
+              "Se ci ha fornito il consenso al trattamento dei Suoi dati, può richiederne l'eliminazione, salvo nelle ipotesi previste dalla legislazione applicabile.",
+              "La informeremo su quali enti pubblici o privati con cui Interfy ha condiviso i Suoi dati, quando si verifichi una condivisione.",
+              "Se Lei desidera non fornirci il Suo consenso al trattamento dei dati, rispetteremo la Sua decisione e La informeremo delle eventuali conseguenze del mancato consenso.",
+              "Lei ha il diritto di revocare il proprio consenso, mediante manifestazione espressa, in modo gratuito e agevolato.",
+              "Se necessario, Lei ha il diritto di presentare reclamo all'ANPD, agli organismi di tutela dei consumatori e alle istituzioni regolatrici della protezione dei dati, qualora i Suoi dati siano trattati in modo inadeguato da Interfy.",
+              "Lei può opporsi al trattamento dei dati basato su un'ipotesi di esenzione dal consenso in caso di violazione della legislazione applicabile.",
+              "Se Interfy tratta i dati in modo automatizzato e prende decisioni basate esclusivamente su tale trattamento che influiscano sui Suoi interessi, Lei può richiedere il riesame di tali decisioni.",
+              "In qualsiasi momento Lei può richiedere informazioni chiare e adeguate sui criteri e le procedure utilizzate per le decisioni automatizzate, nel rispetto dei segreti commerciali e industriali.",
+              "Per esercitare i Suoi diritti relativi alla protezione dei dati, invii la Sua richiesta a privacidade@interfy.ai; il nostro Responsabile della Protezione dei Dati adotterà le misure necessarie per soddisfare la Sua richiesta.",
+              "Se Lei ritira il proprio consenso e non esiste un'altra base giuridica che sostenga il trattamento, cesseremo di trattare i Suoi dati per la finalità consentita.",
+              "Qualsiasi informazione che Lei fornisca su blog o siti web, esposta su Internet in luoghi senza controllo di accesso, in modo pubblico, non può avere la propria protezione garantita da noi, né possiamo limitare chi potrà copiare o condividere tali dati."
+            ]
+          }
         ]
       },
       {
-        "heading": "3. Come utilizziamo i dati",
-        "items": [
-          "Fornire e mantenere i servizi sottoscritti",
-          "Autenticare gli utenti e proteggere gli account da accessi non autorizzati",
-          "Inviare comunicazioni operative, di supporto e, previo consenso, comunicazioni commerciali",
-          "Adempiere a obblighi legali e regolamentari"
-        ]
-      },
-      {
-        "heading": "4. Condivisione dei dati",
-        "paragraphs": [
-          "I dati personali possono essere condivisi con fornitori di infrastruttura (come i servizi cloud AWS), processori di pagamento e altri responsabili strettamente necessari all'erogazione del servizio, sempre nel rispetto di obblighi contrattuali di riservatezza e sicurezza. Non vendiamo dati personali a terzi."
-        ]
-      },
-      {
-        "heading": "5. Cookie e tecnologie simili",
-        "paragraphs": [
-          "Utilizziamo cookie essenziali per il funzionamento del sito e, previo consenso, cookie analitici per comprendere l'utilizzo della piattaforma e migliorare l'esperienza dell'utente."
-        ]
-      },
-      {
-        "heading": "6. Conservazione dei dati",
-        "paragraphs": [
-          "I dati personali sono conservati per il periodo necessario a soddisfare le finalità descritte nella presente Informativa, o secondo quanto richiesto dalla legge, per poi essere eliminati o anonimizzati."
-        ]
-      },
-      {
-        "heading": "7. Sicurezza delle informazioni",
-        "paragraphs": [
-          "Adottiamo la sicurezza su più livelli, dall'architettura all'operatività quotidiana:"
-        ],
-        "items": [
-          "Isolamento per Workspace e database dedicato per cliente, senza condivisione",
-          "Crittografia avanzata: dati in transito (TLS 1.2+) e a riposo (AES-256)",
-          "Controllo degli accessi granulare (RBAC) per ruolo, gruppo e livello di sensibilità",
-          "Autenticazione aziendale: SSO, SAML 2.0, OAuth 2.0, AD/LDAP e MFA",
-          "Restrizione dell'accesso per IP (IP Blocking)",
-          "Log e traccia di audit immutabile e ricercabile",
-          "Monitoraggio della sicurezza 24/7, backup automatici crittografati e Disaster Recovery con replica geografica",
-          "Infrastruttura Multi-AZ su AWS, certificata ISO/IEC 27001:2022, con SOC 2 Type II in corso"
+        "heading": "3. Quali dati trattiamo",
+        "blocks": [
+          {
+            "p": "Interfy è un fornitore di servizi di gestione intelligente di documenti e automazione dei processi aziendali, che riunisce gestione documentale (Documents), automazione dei processi (Process), cattura intelligente (Capture) e firma elettronica e digitale (Sign) in un'unica piattaforma. I nostri servizi sono forniti online, con sottoscrizione diretta da parte delle aziende utenti o tramite partner commerciali e distributori. Trattiamo i dati necessari per attivare e mantenere in funzione i nostri servizi, garantire la sicurezza e la disponibilità, diagnosticare problemi tecnici, ricordare informazioni utili per un migliore utilizzo del servizio, inviare notifiche di manutenzione e avvisi necessari, fornire supporto tecnico, offrire formazione e orientamenti sulle buone pratiche, informare su miglioramenti e nuove funzionalità, e offrire servizi complementari rilevanti per utenti e futuri utenti."
+          },
+          {
+            "p": "Ogni persona fisica o giuridica che sottoscrive i nostri servizi può archiviare e trattare dati utilizzando le funzionalità disponibili sulla nostra piattaforma, essendo identificata come TITOLARE DEL TRATTAMENTO, mentre Interfy agisce come RESPONSABILE DEL TRATTAMENTO. In tale condizione, manteniamo i dati sicuri e accessibili, eliminandoli o fornendone copia su richiesta espressa del TITOLARE, nel rispetto delle configurazioni da esso definite. In qualità di RESPONSABILE, Interfy si impegna a trattare le informazioni classificate come dati personali seguendo rigorosamente i criteri definiti dal TITOLARE e specificati nel GDPR e nella LGPD e negli altri regolamenti applicabili, unicamente per le finalità delimitate nei termini di utilizzo, non potendo Interfy essere ritenuta responsabile dinanzi all'Autorità Nazionale per la Protezione dei Dati (ANPD) e/o altre autorità, interessati, o qualsiasi altra istituzione con poteri per applicare sanzioni amministrative o giudiziarie."
+          },
+          {
+            "p": "Se Interfy viene sanzionata in qualità di RESPONSABILE, resta riservato il suo diritto di regresso per richiedere al TITOLARE il risarcimento di tutte le perdite, i danni e le spese derivanti dall'illecito, oltre ad altre misure necessarie per proteggere i diritti di Interfy."
+          },
+          {
+            "p": "Interfy e le società appartenenti al gruppo non hanno controllo su quali dati gli utenti archiviano, in conformità con il punto 8 dei nostri Termini di Utilizzo."
+          },
+          {
+            "p": "Per utilizzare i nostri servizi Lei fornisce le seguenti informazioni, considerate Dati Personali e per le quali Interfy ha responsabilità come TITOLARE: al momento della sottoscrizione dei servizi, come utente della piattaforma, o quando accede ai nostri siti e ci invia un curriculum personale, Lei ci fornisce il Suo nome, e-mail, telefono, ruolo e dati del curriculum (che variano in base a ciascun interessato)."
+          }
         ],
         "relatedLink": {
-          "label": "Vedi l'architettura di sicurezza completa",
-          "href": "/legal/seguranca"
+          "label": "Vedi i Termini di Utilizzo completi",
+          "href": "/legal/termos"
         }
       },
       {
-        "heading": "8. I tuoi diritti (LGPD/GDPR)",
-        "items": [
-          "Conferma dell'esistenza del trattamento e accesso ai dati",
-          "Correzione di dati incompleti, inesatti o non aggiornati",
-          "Anonimizzazione, blocco o eliminazione di dati non necessari",
-          "Portabilità dei dati verso un altro fornitore di servizi",
-          "Revoca del consenso, quando applicabile"
+        "heading": "4. Per quali finalità utilizziamo ciascun dato",
+        "blocks": [
+          {
+            "p": "Nome ed e-mail: utilizziamo questi dati per inviare la notifica iniziale di creazione della Sua area di lavoro e, successivamente, comunicazioni relative al servizio, esigenze di manutenzione, aggiornamenti, obblighi legali, informazioni di marketing su nuovi prodotti e funzionalità, offerte, o qualsiasi altro contenuto necessario per migliorare la prestazione del servizio. Lei può scegliere di non ricevere messaggi di marketing, selezionando l'opzione disponibile nel corpo dell'e-mail. Se riceviamo una comunicazione via e-mail, potremo conservare il messaggio, incluse le nostre risposte, per finalità di mantenimento della cronologia di assistenza."
+          },
+          {
+            "p": "Numero di telefono: raccogliamo il numero di telefono per contatti successivi tramite WhatsApp o altre applicazioni di messaggistica, con l'obiettivo di soddisfare richieste di supporto in modo più rapido e preciso, inviare comunicazioni e materiale di marketing, o per contatti del nostro reparto finanziario, quando adeguato e necessario. Non La aggiungeremo ad alcun gruppo senza previo invito."
+          },
+          {
+            "p": "Curriculum: i curriculum inviati dagli interessati sono archiviati nella nostra base per 24 mesi, utilizzati per selezionare collaboratori nei nostri processi di assunzione quando viene aperta una nuova posizione."
+          },
+          {
+            "p": "Ruolo: è archiviato nell'anagrafica di clienti e partner affinché possiamo identificare le funzioni di ciascuna persona con cui abbiamo un rapporto, indirizzandoci alle persone corrette quando necessario."
+          },
+          {
+            "p": "Dati di pagamento: sono utilizzati per l'elaborazione della fatturazione mensile dei servizi. Quando viene selezionata l'opzione di pagamento con carta di credito e/o debito, Interfy non li archivia — essi vengono associati a un ID di abbonamento nel processore di pagamenti (ad esempio, Stripe o PayPal), che raccoglie e conserva i dati per l'elaborazione. Interfy conserva solo l'ID associato; i nostri subresponsabili hanno le proprie politiche sulla privacy. Per gli altri metodi di pagamento disponibili, raccogliamo e conserviamo informazioni di fatturazione, registro di abbonamento e registri di pagamento per la continuità dei servizi. Oltre ai dati sopra indicati, possiamo raccogliere: posizione, IP della macchina di accesso e identificazione dei dispositivi di accesso."
+          }
         ]
       },
       {
-        "heading": "9. Trasferimento internazionale dei dati",
-        "paragraphs": [
-          "Poiché operiamo con un'infrastruttura globale, i dati personali possono essere trasferiti tra paesi, sempre con garanzie contrattuali e tecniche compatibili con la LGPD e il GDPR."
+        "heading": "5. Come raccogliamo e per quali finalità utilizziamo ciascun dato",
+        "blocks": [
+          {
+            "p": "La Sua posizione: possiamo raccogliere, archiviare e monitorare dati di posizione quando Lei accede a uno dei nostri siti o all'applicazione Interfy. Combinati con altri dati, questi dati possono renderLa identificabile; sono necessari per il corretto funzionamento di alcuni servizi, come l'identificazione della valuta locale e della lingua."
+          },
+          {
+            "p": "IP della macchina di accesso: unificato all'indirizzo e-mail e alla posizione, ci permette di identificare dove l'utente è allocato sulla nostra piattaforma e a quale regione appartiene, aiutandoci a migliorare le nostre procedure di assistenza e a identificare possibili problemi relativi alla regione, come questioni di performance del servizio."
+          },
+          {
+            "p": "Identificazione dei dispositivi di accesso: quando si accede ai servizi tramite un dispositivo mobile, possiamo raccogliere, archiviare, monitorare e accedere a identificatori del dispositivo, che possono renderLa identificabile se associati ad altri dati. Archiviamo questi dati per rendere le pagine in base alla dimensione del dispositivo e limitare funzioni non adeguate a determinati tipi di dispositivo."
+          },
+          {
+            "p": "Altri dati che elaboriamo a partire dai dati raccolti sopra:"
+          },
+          {
+            "p": "Cookie: Le consentono di accedere alla piattaforma più rapidamente, archiviando informazioni su come naviga sul sito; queste informazioni, inviateci in forma anonima, ci permettono di migliorare la Sua esperienza di navigazione. Un cookie persistente rimane sul Suo disco fisso dopo la chiusura del browser, potendo essere rimosso secondo le istruzioni del Suo browser; un cookie di sessione è temporaneo e scompare alla chiusura del browser."
+          },
+          {
+            "p": "File di log: quando Lei utilizza il Servizio, i nostri server registrano automaticamente determinate informazioni inviate dal Suo browser, come richiesta web, indirizzo IP, tipo di browser, pagine di provenienza/uscita e URL, numero di clic, come interagisce con i link nel Servizio, nomi di dominio, landing page, pagine visualizzate, operatore mobile e altre informazioni."
+          },
+          {
+            "p": "Web beacon: possiamo utilizzarli in e-mail basate su HTML inviate agli utenti, il che ci permette di rilevare quali di essi vengono aperti dai destinatari e i modelli di utilizzo online, generando statistiche più elaborate e rendendo i nostri servizi più interessanti per gli utenti."
+          }
         ]
       },
       {
-        "heading": "10. Modifiche alla presente informativa",
+        "heading": "6. Dati raccolti facoltativamente",
         "paragraphs": [
-          "La presente Informativa può essere aggiornata periodicamente. Le modifiche rilevanti saranno comunicate via e-mail o tramite avviso sulla piattaforma."
+          "Lei può aggiungere la propria foto al profilo di accesso della piattaforma quando utilizza i servizi. Questa azione è facoltativa e Lei può rimuoverla quando desidera.",
+          "Lei può inoltre inviarci i propri dati compilando un modulo online, inviando un'e-mail o contattandoci tramite chat. Questi dati vengono trattati per fornire le informazioni richieste e possono essere utilizzati per marketing diretto e per finalità analitiche.",
+          "Se Lei si iscrive a uno dei nostri eventi online, invierà le proprie informazioni di contatto, tramite le quali Le forniremo l'accesso all'evento; questi dati vengono trattati per comprendere meglio la nostra base di utenti o futuri utenti e per finalità di marketing diretto.",
+          "Lei può annullare la ricezione di comunicazioni di marketing da Interfy seguendo le istruzioni di annullamento nel footer delle e-mail promozionali, oppure inviando un'e-mail a privacidade@interfy.ai."
         ]
       },
       {
-        "heading": "11. Contatti del responsabile della protezione dei dati (DPO)",
+        "heading": "7. Dati raccolti da terzi",
         "paragraphs": [
-          "Per esercitare i tuoi diritti o chiarire dubbi sulla presente Informativa, contatta il nostro Responsabile della Protezione dei Dati all'indirizzo privacidade@interfy.ai."
+          "Possiamo raccogliere dati da fonti terze per consentirLe di accedere ai nostri servizi, oppure se Lei condivide dati archiviati nei nostri servizi con terzi — questi servizi terzi possono inviarci informazioni su di Lei e sul Suo profilo pubblico, purché le impostazioni del Suo account nell'applicazione del terzo consentano questo tipo di condivisione.",
+          "Possiamo inoltre ricevere informazioni associate all'utilizzo dei nostri siti da applicazioni di terzi. Se Lei visita i nostri siti, possiamo monitorare e registrare le Sue attività, e i nostri fornitori terzi possono fornirci informazioni aggiuntive disponibili per l'accesso pubblico.",
+          "Le informazioni che raccogliamo possono anche essere utilizzate per identificazione, autenticazione, prevenzione delle frodi e per migliorare il servizio che forniamo, incluse la risoluzione di problemi, le ricerche di mercato e il rispetto dei nostri Termini di Utilizzo."
+        ]
+      },
+      {
+        "heading": "8. Come Interfy tratta, in qualità di RESPONSABILE, i documenti e i dati archiviati da Lei sulla piattaforma",
+        "paragraphs": [
+          "Il contenuto archiviato da Lei e dalle persone della Sua organizzazione sulla piattaforma Interfy non viene visualizzato dal nostro team di supporto, salvo che l'amministratore della piattaforma fornisca credenziali di accesso (login e password) a uno dei nostri collaboratori, per finalità esclusive di supporto tecnico e orientamento sull'utilizzo dell'applicazione — dovendo l'utente essere disattivato dall'amministratore al termine dell'assistenza. Ogni cliente riceve una base isolata, garantendo la protezione dell'accesso alle informazioni: solo le persone a cui l'amministratore della piattaforma fornisce credenziali di accesso con le rispettive autorizzazioni avranno accesso al contenuto. Tutti i contenuti e i dati archiviati (registri, file elettronici, metadati, moduli, processi, ecc.) vengono trasferiti sui nostri server nell'infrastruttura AWS (con certificazioni ISO/IEC 27001:2022, SOC 2 Type II e HIPAA Ready, oltre alla conformità con la LGPD e il GDPR), tramite digitazione, digitalizzazione e/o caricamento da parte delle persone autorizzate dal TITOLARE, in conformità con le regole e le configurazioni predefinite dall'amministratore della piattaforma; il contenuto transita tra postazioni di lavoro o dispositivi ed è trasferito tramite HTTPS, utilizzando crittografia TLS."
+        ]
+      },
+      {
+        "heading": "9. Condivisione con terzi",
+        "paragraphs": [
+          "Interfy può condividere i Suoi dati con partner commerciali quando li riteniamo affidabili e con prodotti e servizi rilevanti per Lei, o affinché possiamo eseguire il presente contratto di prestazione di servizi — come, ad esempio, i fornitori di hosting. Quando dobbiamo farlo, ci assicuriamo che il terzo sia affidabile e manterrà la riservatezza dei Suoi dati.",
+          "Se Interfy attraversa un processo di fusione, acquisizione o cambiamento nella struttura societaria, l'azienda potrà condividere i Suoi dati con terzi in conseguenza di tale processo.",
+          "Se Lei accede alla nostra applicazione utilizzando direttamente applicazioni di terzi, i Suoi dati potrebbero essere condivisi con esse; si assicuri di fidarsi dell'applicazione e osservi le politiche di protezione dei dati della sua azienda proprietaria.",
+          "Possiamo condividere dati con applicazioni di terzi tramite l'utilizzo di API, dove i dati archiviati possono essere consultati e/o copiati per altre applicazioni, con il debito consenso del TITOLARE responsabile dei dati archiviati sulla nostra piattaforma.",
+          "Interfy può divulgare i Suoi dati personali quando obbligata dalla legge o da disposizione legale, con l'obiettivo di proteggere la sicurezza di qualsiasi individuo in questioni di frode, proteggere il diritto alla vita e alla libertà, o proteggere i diritti di Interfy.",
+          "Utilizziamo strumenti analitici di terzi, che raccolgono informazioni inviate dal Suo browser come parte di una richiesta di pagina web, componenti aggiuntivi del browser e altre informazioni, per aiutarci a misurare il traffico e le tendenze di utilizzo dei nostri Servizi.",
+          "Interfy può archiviare ed elaborare dati personali in sistemi di marketing di terzi, sistemi di gestione delle relazioni con i clienti (CRM) e sistemi di gestione della posta elettronica, al fine di promuovere le operazioni dell'azienda e facilitare le interazioni con utenti e potenziali clienti."
+        ]
+      },
+      {
+        "heading": "10. Blog e comunità",
+        "paragraphs": [
+          "Possiamo creare blog e comunità accessibili al pubblico, inclusi i forum. Qualsiasi informazione che Lei inserisca in queste aree potrà essere letta da altre persone, che non possiamo controllare, e potrà inoltre essere raccolta e utilizzata da chiunque accede a tale contenuto; le informazioni pubblicate possono rimanere disponibili anche dopo che Lei chiude il proprio account.",
+          "Se Lei rimuove informazioni pubblicate sul servizio di blog e/o comunità, le copie possono rimanere archiviate nella cache del servizio o presso altri utenti. Se desidera che effettuiamo la rimozione di tali informazioni, invii un'e-mail a privacidade@interfy.ai; tuttavia, in alcuni casi, potremmo non essere in grado di rimuovere tali informazioni."
+        ]
+      },
+      {
+        "heading": "11. Condivisione internazionale dei dati",
+        "blocks": [
+          {
+            "p": "L'hosting dei nostri servizi è distribuito nelle regioni indicate di seguito:"
+          },
+          {
+            "ul": [
+              "Amazon AWS — San Paolo (Brasile) e Virginia (Stati Uniti d'America)."
+            ]
+          },
+          {
+            "p": "I dati sono distribuiti in modo automatizzato tramite le risorse tecnologiche applicate nella stessa infrastruttura. Per garantire la protezione dei dati, adottiamo misure di sicurezza secondo le disposizioni della LGPD e, insieme al fornitore AWS, utilizziamo risorse contro la distruzione accidentale, l'accesso non autorizzato, backup automatizzati e misure organizzative in linea con la politica di sicurezza, tra altri aspetti tecnici ragionevoli."
+          },
+          {
+            "p": "I dati degli utenti dell'Unione Europea, del Regno Unito, del Liechtenstein, della Norvegia, dell'Islanda e degli altri paesi sono archiviati negli Stati Uniti (USA) tramite Interfy e i suoi fornitori di servizi; se Lei non risiede negli USA, le leggi potrebbero essere diverse da quelle del paese in cui risiede. Utilizzando i Servizi, Lei riconosce che qualsiasi informazione personale su di Lei viene fornita a Interfy negli USA e ospitata su server statunitensi, e autorizza Interfy a trasferire, archiviare ed elaborare le Sue informazioni da e negli Stati Uniti e, quando necessario, in altri paesi indicati nella presente informativa. Gli utenti del Brasile possono avere i propri dati archiviati negli Stati Uniti e in Brasile."
+          }
+        ]
+      },
+      {
+        "heading": "12. Tempo di trattamento e conservazione dei dati",
+        "blocks": [
+          {
+            "p": "Dati per i quali Interfy è TITOLARE: i dati raccolti direttamente o dai nostri clienti tramite la Piattaforma vengono conservati solo per il tempo necessario alla fornitura dei servizi, o per il tempo necessario all'adempimento dei nostri accordi e obblighi legali, contabili e fiscali. Per l'eliminazione o l'anonimizzazione, stabiliamo politiche interne che garantiscano la sicurezza del processo, potendo conservare il dato per fino a 3 mesi dopo la cessazione dell'utilizzo dei servizi, come margine di sicurezza prima di essere eliminati o anonimizzati. I dati utilizzati dal reparto marketing potranno essere conservati fino a quando riterremo che i nostri servizi possano essere rilevanti per una futura sottoscrizione, o fino a quando Lei si cancelli o richieda l'eliminazione dei dati."
+          },
+          {
+            "p": "Dati per i quali Interfy è RESPONSABILE: vengono conservati fino a quando il TITOLARE richieda l'eliminazione e fino a quando possiamo eseguirla in sicurezza, confermando che tutti i dati sono stati definitivamente eliminati, il che può richiedere fino a 90 giorni. Interfy richiede che tutte le persone fisiche e giuridiche che sottoscrivono e utilizzano i nostri servizi agiscano in conformità con tutte le leggi e i regolamenti applicabili, oltre alla presente informativa, potendo interrompere unilateralmente la prestazione dei servizi se rileva che gli utenti del cliente stanno violando le norme di protezione dei dati personali, come specificato nei nostri Termini di Utilizzo."
+          },
+          {
+            "p": "Dati trattati per mantenere la conformità: i dati necessari per l'adempimento degli obblighi fiscali, tributari, previdenziali, lavorativi e legali del gruppo Interfy, in qualsiasi dei paesi in cui operiamo, sono conservati per il tempo determinato dalla legge di ciascun paese."
+          }
+        ],
+        "relatedLink": {
+          "label": "Vedi i Termini di Utilizzo completi",
+          "href": "/legal/termos"
+        }
+      },
+      {
+        "heading": "13. Del consenso",
+        "paragraphs": [
+          "Accettando la nostra Informativa sulla Privacy e registrandosi per utilizzare la nostra piattaforma o qualsiasi dei nostri Servizi, Lei accetta la presente informativa e ci autorizza a trattare i Suoi dati in conformità con essa.",
+          "Lei ha il diritto di ritirare, totalmente o parzialmente, il proprio consenso al trattamento dei Suoi Dati Personali. Per farlo, contatti privacidade@interfy.ai, e cesseremo di trattare i Suoi dati personali per le finalità per cui aveva originariamente consentito, salvo che esistano motivi legali e convincenti per continuare a trattare i Suoi Dati Personali, che prevalgano sui Suoi interessi, diritti e libertà, o per la costituzione, l'esercizio o la difesa in procedimenti giudiziari."
+        ]
+      },
+      {
+        "heading": "14. Correggere, aggiornare o eliminare le tue informazioni",
+        "paragraphs": [
+          "Lei può richiedere la correzione, l'aggiornamento o l'eliminazione delle informazioni personali che fornisce direttamente a Interfy; il nostro team si impegnerà al meglio per soddisfare la Sua richiesta entro il termine legale applicabile, ma non saremo responsabili per un'eventuale mancata consegna della nostra risposta.",
+          "Quando la Sua informazione viene trattata da uno dei nostri clienti che sottoscrivono i nostri servizi, Lei deve indirizzare le Sue richieste direttamente al Suo fornitore (nostro cliente dei servizi), che agisce come TITOLARE dei Suoi dati."
+        ]
+      },
+      {
+        "heading": "15. Diritti alla privacy per gli utenti della California",
+        "paragraphs": [
+          "I residenti in California hanno il diritto di richiederci un avviso che identifichi le categorie di informazioni personali che condividiamo con i nostri partner o terzi per finalità di marketing, incluse le informazioni di contatto di ciascun terzo. Se Lei è residente in California, utilizza i nostri servizi e desidera richiedere tali informazioni, invii una richiesta a privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "16. Informazioni personali dei minori",
+        "paragraphs": [
+          "Non raccogliamo né richiediamo intenzionalmente informazioni personali di minori di 13 anni, in conformità con il nostro Termine di Abbonamento. Se Lei ha meno di 13 anni, non tenti di registrarsi ai servizi né di inviarci alcuna informazione personale su di Lei. Se veniamo a conoscenza di un account creato da una persona minore di 13 anni, o di informazioni inviateci direttamente in tali condizioni, elimineremo tutte le informazioni il più rapidamente possibile. Se Lei individua che un minore di 13 anni ha registrato un account sui nostri servizi o ha fornito informazioni personali, ci contatti all'indirizzo privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "17. Base giuridica per il trattamento dei dati personali",
+        "blocks": [
+          {
+            "p": "Trattiamo le Sue informazioni personali solo se disponiamo di una base giuridica per farlo. Utilizziamo le seguenti basi giuridiche:"
+          },
+          {
+            "ul": [
+              "Necessità contrattuale: i dati vengono trattati per adempiere al nostro Termine di Servizio con Lei, essendo fondamentali per poter fornire i servizi — senza di essi non saremmo in grado di farlo. Include dati essenziali dell'account, cookie primari essenziali, dati di connessione e informazioni dell'account di terzi (se presenti), come nel caso del login tramite Active Directory.",
+              "Consenso: in alcuni casi, trattiamo dati personali sulla base del consenso formalmente fornito da Lei al momento della raccolta, richiesto in modo espresso al momento della raccolta.",
+              "Legittimo interesse: raccogliamo determinate categorie quando riteniamo che favoriscano il nostro legittimo interesse o quello di terzi, come dati di fatturazione, dati di modulo online, dati aggiuntivi dell'account, telefono, chat ed e-mail (quando raccolti tramite mezzi diversi dall'account utente del servizio), dati di eventi e comunità, cookie di tracciamento, ticket di supporto, identificatori di dispositivi e web beacon.",
+              "Altri motivi: possiamo trattare dati per adempiere a obblighi legali, contabili, fiscali e lavorativi, per proteggere interessi vitali degli interessati, o per soddisfare le richieste di istituzioni governative e/o del potere giudiziario."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "18. Disposizioni generali",
+        "paragraphs": [
+          "In caso di aggiornamento della presente Informativa sulla Privacy, effettueremo una nuova pubblicazione in questa pagina aggiornando le informazioni.",
+          "La nostra informativa riguarda esclusivamente l'accesso ai nostri siti e applicazioni. I link a siti di terzi non sono coperti dalla nostra Informativa sulla Privacy."
         ]
       }
     ]
@@ -343,7 +667,7 @@
         ],
         "relatedLink": {
           "label": "Vedi l'architettura di sicurezza completa",
-          "href": "/legal/seguranca"
+          "href": "/seguranca"
         }
       },
       {

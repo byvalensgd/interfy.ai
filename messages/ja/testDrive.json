@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "",
-      "paragraphHighlight": "7日間のジャーニー",
-      "paragraphNote": "をおすすめします(初日からすべての機能をご利用いただけます)",
+      "headingPrefix": "",
+      "headingHighlight": "7日間のジャーニー",
+      "headingSuffix": "をおすすめします",
+      "paragraph": "(初日からすべての機能をご利用いただけます)",
       "dayLabel": "{number}日目",
       "days": [
         { "line1": "Workspaceを", "line2": "知る" },

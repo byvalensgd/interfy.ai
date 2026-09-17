@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "市場を代表する主要システムと連携",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "すべて見る"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Interfy APIの",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "SDKが対応する言語"
     },
     "codeCard": {
-      "heading": "数秒でAPIを呼び出す"
+      "heading": "数秒でAPIを呼び出す",
+      "sampleFileName": "ファイル.pdf",
+      "sampleTags": ["契約書", "顧客"]
     },
     "ctaCard": {
       "heading": "連携する。自動化する。変革する。",

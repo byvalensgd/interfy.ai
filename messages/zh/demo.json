@@ -33,20 +33,20 @@
         "description": "熟悉您所在行业的专业人士。"
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "您将在演示中看到:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Interfy 平台总览",
+      "Documents 与 Process 模块演示",
+      "使用 AI 构建工作流",
+      "电子签名与合规",
+      "问答环节"
     ]
   },
   "form": {
     "heading": "预约您的演示",
     "subheading": "填写以下信息,我们将与您联系确认最合适的时间。",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "名字",
+    "lastNameLabel": "姓氏",
     "emailLabel": "企业邮箱",
     "companyLabel": "公司",
     "phoneLabel": "电话(WhatsApp)",
@@ -59,8 +59,8 @@
       "201 至 1,000 人",
       "1,000 人以上"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "主要兴趣",
+    "interestPlaceholder": "请选择",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "尚未确定"
     ],
     "messageLabel": "简单描述一下您的需求",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "告诉我们您的需求...",
     "optionalLabel": "(选填)",
     "errors": {
       "name": "请填写您的全名。",
@@ -91,32 +91,6 @@
     "successHeading": "我们已收到您的申请!",
     "successMessagePrefix": "我们的团队将通过以下邮箱与您联系,确认最合适的时间:",
     "successMessageSuffix": "。",
-    "specialistLink": "在此期间免费开始使用",
-    "nameLabel": "全名",
-    "roleLabel": "职位"
-  },
-  "trust": {
-    "ariaLabel": "为什么要预约 Interfy 演示",
-    "heading": "为全球企业量身打造的平台",
-    "subheading": "每一次演示都提供企业级安全、全球合规和专业支持。",
-    "statsLabel": "Interfy 全球覆盖情况",
-    "stats": [
-      {
-        "label": "180+ 个国家",
-        "sublabel": "全球覆盖持续扩展"
-      },
-      {
-        "label": "16 种语言",
-        "sublabel": "完整的界面与使用体验"
-      },
-      {
-        "label": "99.99%",
-        "sublabel": "SLA 保证可用性"
-      },
-      {
-        "label": "ISO 27001、LGPD、GDPR",
-        "sublabel": "认证合规"
-      }
-    ]
+    "specialistLink": "在此期间免费开始使用"
   }
 }

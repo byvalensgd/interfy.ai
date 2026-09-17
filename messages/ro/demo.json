@@ -33,20 +33,20 @@
         "description": "Cineva care îți cunoaște deja domeniul."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Ce vei vedea în demo:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Prezentare generală a platformei Interfy",
+      "Demonstrația modulelor Documents și Process",
+      "Crearea fluxurilor cu IA",
+      "Semnătură electronică și conformitate",
+      "Sesiune de întrebări și răspunsuri"
     ]
   },
   "form": {
     "heading": "Programează-ți demonstrația",
     "subheading": "Completează datele de mai jos și te vom contacta pentru a confirma cel mai potrivit interval orar.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Prenume",
+    "lastNameLabel": "Nume",
     "emailLabel": "E-mail corporativ",
     "companyLabel": "Companie",
     "phoneLabel": "Telefon (WhatsApp)",
@@ -59,8 +59,8 @@
       "201 - 1.000 de angajați",
       "Peste 1.000 de angajați"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Interes principal",
+    "interestPlaceholder": "Selectează",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "Nu sunt sigur încă"
     ],
     "messageLabel": "Spune-ne pe scurt de ce ai nevoie",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Spune-ne despre nevoile tale...",
     "optionalLabel": "(opțional)",
     "errors": {
       "name": "Introdu numele tău complet.",
@@ -91,32 +91,6 @@
     "successHeading": "Am primit solicitarea ta!",
     "successMessagePrefix": "Echipa noastră te va contacta pentru a confirma cel mai potrivit interval orar la adresa de e-mail ",
     "successMessageSuffix": ".",
-    "specialistLink": "Începe gratuit între timp",
-    "nameLabel": "Nume complet",
-    "roleLabel": "Funcție"
-  },
-  "trust": {
-    "ariaLabel": "De ce să programezi o demo cu Interfy",
-    "heading": "O platformă pregătită pentru companii globale",
-    "subheading": "Securitate enterprise, conformitate globală și suport specializat la fiecare demonstrație.",
-    "statsLabel": "Prezența globală a Interfy",
-    "stats": [
-      {
-        "label": "180+ țări",
-        "sublabel": "Prezență globală în expansiune"
-      },
-      {
-        "label": "16 limbi",
-        "sublabel": "Interfață și experiență complete"
-      },
-      {
-        "label": "99,99%",
-        "sublabel": "Disponibilitate SLA garantată"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Conformitate certificată"
-      }
-    ]
+    "specialistLink": "Începe gratuit între timp"
   }
 }

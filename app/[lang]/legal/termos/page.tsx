@@ -27,7 +27,7 @@ export default async function TermosPage() {
       subtitle={legal.meta.termos.description}
       content={termos}
       search={legal.search}
-      certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+      certificationsCtaHref={withLocale("/seguranca", locale)}
       locale={locale}
     />
   );

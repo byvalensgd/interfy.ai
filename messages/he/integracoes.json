@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "התחברו למערכות המובילות בשוק",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "לצפייה בכולן"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "יתרונות ותכונות של ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "השפות הנתמכות על ידי ה-SDK"
     },
     "codeCard": {
-      "heading": "קריאת API בשניות"
+      "heading": "קריאת API בשניות",
+      "sampleFileName": "קובץ.pdf",
+      "sampleTags": ["חוזה", "לקוח"]
     },
     "ctaCard": {
       "heading": "שלבו. הפכו לאוטומטי. שנו.",

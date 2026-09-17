@@ -74,15 +74,15 @@ export default async function IntegracoesHero() {
             {banner.map((item) => (
               <li
                 key={item.icon}
-                className="flex min-h-[140px] min-w-[320px] grow basis-[calc(50%-0.625rem)] flex-col justify-center gap-5 rounded-[20px] border border-contorno-base bg-branco p-5 sm:basis-[calc(33.3333%-0.8333rem)]"
+                className="flex min-h-[140px] min-w-[320px] grow basis-[calc(50%-0.625rem)] flex-col items-center justify-center gap-5 rounded-[20px] border border-contorno-base bg-branco p-5 text-center sm:basis-[calc(33.3333%-0.8333rem)] lg:items-stretch lg:text-left"
               >
-                <div className="flex h-[50px] items-center gap-5">
+                <div className="flex flex-col items-center gap-5 lg:h-[50px] lg:flex-row">
                   <span className={`flex size-[50px] shrink-0 items-center justify-center rounded-full p-3 ${item.bg}`}>
                     <Image src={item.icon} alt="" aria-hidden="true" width={26} height={26} />
                   </span>
-                  <p className="min-w-0 flex-1 text-xl leading-[1.2] font-bold text-texto-doc-ok">{item.title}</p>
+                  <p className="min-w-0 flex-1 text-lg leading-[1.2] font-bold text-texto-doc-ok">{item.title}</p>
                 </div>
-                <p className="text-base leading-[1.2] font-medium text-texto">{item.description}</p>
+                <p className="text-sm leading-[1.2] font-medium text-texto">{item.description}</p>
               </li>
             ))}
           </ul>

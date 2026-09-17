@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/platform/ai-creditos", priority: 0.7, changeFrequency: "monthly" },
     { path: "/parceria", priority: 0.7, changeFrequency: "monthly" },
     { path: "/empresa/sobre", priority: 0.6, changeFrequency: "monthly" },
-    { path: "/legal/seguranca", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/seguranca", priority: 0.8, changeFrequency: "monthly" },
     { path: "/agents", priority: 0.8, changeFrequency: "monthly" },
     { path: "/documents", priority: 0.9, changeFrequency: "monthly" },
     { path: "/process", priority: 0.9, changeFrequency: "monthly" },

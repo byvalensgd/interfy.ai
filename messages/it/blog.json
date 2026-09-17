@@ -9,65 +9,58 @@
       "AI per le aziende"
     ]
   },
-  "hero": {
-    "ariaLabel": "Introduzione al blog",
-    "eyebrow": "Blog & Contenuti",
-    "titleLine1": "Contenuti per chi",
-    "titleHighlight": "trasforma le operazioni",
-    "description": "Guide pratiche, novità di prodotto e tendenze su documenti, processi, dati e AI per le aziende."
-  },
   "featured": {
-    "ariaLabel": "Featured article and recent posts",
-    "heading": "Featured",
+    "ariaLabel": "Articolo in evidenza e post recenti",
+    "heading": "In evidenza",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
+      "category": "AI & Agenti",
+      "title": "Come l'AI sta cambiando il modo in cui le aziende gestiscono documenti e processi",
+      "excerpt": "Dall'acquisizione intelligente agli agenti autonomi: una panoramica di come l'AI fa già parte della quotidianità degli utenti Interfy, e di cosa arriverà in futuro.",
+      "date": "Set 2026",
+      "author": "Team Interfy",
+      "readTime": "9 min di lettura",
+      "ctaLabel": "Leggi l'articolo"
     },
-    "recentHeading": "Recent",
+    "recentHeading": "Recenti",
     "recent": [
       {
-        "title": "How to structure a document repository that scales with your company",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "Come strutturare un repository documentale che scala con l'azienda",
+        "date": "Ago 2026",
+        "author": "Team Interfy"
       },
       {
-        "title": "5 processes every company should automate first",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "5 processi che ogni azienda dovrebbe automatizzare per primi",
+        "date": "Ago 2026",
+        "author": "Team Interfy"
       },
       {
-        "title": "Is electronic signature legally valid?",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "La firma elettronica ha valore legale in Brasile?",
+        "date": "Lug 2026",
+        "author": "Team Interfy"
       },
       {
-        "title": "AI agents in internal processes: where to start",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "Agenti AI nei processi interni: da dove iniziare",
+        "date": "Lug 2026",
+        "author": "Team Interfy"
       },
       {
-        "title": "Data protection in practice: what changes in document and process management",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "LGPD in pratica: cosa cambia nella gestione di documenti e processi",
+        "date": "Giu 2026",
+        "author": "Team Interfy"
       },
       {
-        "title": "OCR and smart capture: the end of manual data entry",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "OCR e acquisizione intelligente: la fine dell'inserimento manuale",
+        "date": "Giu 2026",
+        "author": "Team Interfy"
       }
     ]
   },
   "categories": {
     "ariaLabel": "Articles by category",
-    "ctaLabel": "Read the blog",
+    "ctaLabel": "Leggi il blog",
     "sections": [
       {
-        "name": "Document Management",
+        "name": "Gestione Documentale",
         "posts": [
           {
             "title": "How to structure a document repository that scales with your company",
@@ -90,7 +83,7 @@
         ]
       },
       {
-        "name": "Business Process Management",
+        "name": "Automazione (BPM)",
         "posts": [
           {
             "title": "5 processes every company should automate first",
@@ -113,7 +106,7 @@
         ]
       },
       {
-        "name": "Artificial Intelligence",
+        "name": "AI & Agenti",
         "posts": [
           {
             "title": "AI agents in internal processes: where to start",
@@ -192,6 +185,48 @@
         "excerpt": "Come l'acquisizione automatizzata riduce gli errori e accelera l'ingresso dei documenti nel flusso di lavoro.",
         "date": "Giu 2026",
         "readTime": "5 min di lettura"
+      },
+      {
+        "category": "Gestione Documentale",
+        "title": "Migrare gli archivi fisici al digitale senza perdere lo storico",
+        "excerpt": "Una guida per digitalizzare archivi storici preservando metadati, indicizzazione e validità legale.",
+        "date": "Abr 2026",
+        "readTime": "7 min di lettura"
+      },
+      {
+        "category": "Automazione (BPM)",
+        "title": "Come misurare il ROI dell'automazione dei processi",
+        "excerpt": "Le metriche che contano davvero per dimostrare il ritorno di un progetto di automazione al management.",
+        "date": "Set 2026",
+        "readTime": "6 min di lettura"
+      },
+      {
+        "category": "Automazione (BPM)",
+        "title": "Approvazioni multilivello senza colli di bottiglia: come progettare flussi che scalano",
+        "excerpt": "Una guida pratica per distribuire le soglie di approvazione senza bloccare l'operatività nei picchi di domanda.",
+        "date": "Mai 2026",
+        "readTime": "6 min di lettura"
+      },
+      {
+        "category": "Firma Elettronica",
+        "title": "Firma qualificata, avanzata o semplice: quale usare in ogni caso",
+        "excerpt": "Scopri le differenze tra i livelli di firma elettronica e scegli quello più adatto per ogni documento.",
+        "date": "Mai 2026",
+        "readTime": "6 min di lettura"
+      },
+      {
+        "category": "AI & Agenti",
+        "title": "Come addestrare agenti AI con i dati della tua azienda",
+        "excerpt": "Una guida su basi di conoscenza, permessi e best practice per agenti interni affidabili.",
+        "date": "Set 2026",
+        "readTime": "7 min di lettura"
+      },
+      {
+        "category": "Sicurezza & Compliance",
+        "title": "ISO 27001 in pratica: cosa verificano davvero gli auditor",
+        "excerpt": "I controlli più richiesti in un audit di certificazione, e come prepararsi in anticipo.",
+        "date": "Abr 2026",
+        "readTime": "6 min di lettura"
       }
     ]
   },

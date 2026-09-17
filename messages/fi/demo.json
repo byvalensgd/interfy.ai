@@ -33,20 +33,20 @@
         "description": "Henkilö, joka tuntee alanne ennalta."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Mitä näet demossa:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Yleiskatsaus Interfy-alustaan",
+      "Documents- ja Process-moduulien esittely",
+      "Työnkulkujen rakentaminen AI:n avulla",
+      "Sähköinen allekirjoitus ja vaatimustenmukaisuus",
+      "Kysymykset ja vastaukset"
     ]
   },
   "form": {
     "heading": "Varaa esittelysi",
     "subheading": "Täytä tiedot alla, ja otamme yhteyttä sopivimman ajan vahvistamiseksi.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Etunimi",
+    "lastNameLabel": "Sukunimi",
     "emailLabel": "Yrityssähköposti",
     "companyLabel": "Yritys",
     "phoneLabel": "Puhelin (WhatsApp)",
@@ -59,8 +59,8 @@
       "201–1 000 työntekijää",
       "Yli 1 000 työntekijää"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Ensisijainen kiinnostus",
+    "interestPlaceholder": "Valitse",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "En tiedä vielä"
     ],
     "messageLabel": "Kerro lyhyesti, mitä tarvitsette",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Kerro tarpeistasi...",
     "optionalLabel": "(vapaaehtoinen)",
     "errors": {
       "name": "Anna koko nimesi.",
@@ -91,32 +91,6 @@
     "successHeading": "Pyyntösi vastaanotettu!",
     "successMessagePrefix": "Tiimimme ottaa yhteyttä sopivimman ajan vahvistamiseksi osoitteeseen ",
     "successMessageSuffix": ".",
-    "specialistLink": "Aloita ilmaiseksi sillä välin",
-    "nameLabel": "Koko nimi",
-    "roleLabel": "Titteli"
-  },
-  "trust": {
-    "ariaLabel": "Miksi varata demo Interfyn kanssa",
-    "heading": "Alusta, joka on valmis globaaleille yrityksille",
-    "subheading": "Yritystason tietoturva, globaali vaatimustenmukaisuus ja asiantunteva tuki jokaisessa esittelyssä.",
-    "statsLabel": "Interfyn globaali läsnäolo",
-    "stats": [
-      {
-        "label": "180+ maata",
-        "sublabel": "Kasvava globaali läsnäolo"
-      },
-      {
-        "label": "16 kieltä",
-        "sublabel": "Täysi käyttöliittymä ja kokemus"
-      },
-      {
-        "label": "99,99%",
-        "sublabel": "Taattu SLA-käytettävyys"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Sertifioitu vaatimustenmukaisuus"
-      }
-    ]
+    "specialistLink": "Aloita ilmaiseksi sillä välin"
   }
 }

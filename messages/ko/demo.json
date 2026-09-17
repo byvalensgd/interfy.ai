@@ -33,20 +33,20 @@
         "description": "귀사의 업종을 이해하는 전문가가 함께합니다."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "데모에서 확인하실 내용:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Interfy 플랫폼 개요",
+      "Documents 및 Process 모듈 시연",
+      "AI를 활용한 워크플로우 구성",
+      "전자서명 및 컴플라이언스",
+      "질의응답 시간"
     ]
   },
   "form": {
     "heading": "데모 일정을 예약하세요",
     "subheading": "아래 정보를 입력해 주시면 담당자가 연락드려 가장 적합한 시간을 확정해드립니다.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "이름",
+    "lastNameLabel": "성",
     "emailLabel": "업무용 이메일",
     "companyLabel": "회사명",
     "phoneLabel": "전화번호 (WhatsApp)",
@@ -59,8 +59,8 @@
       "201~1,000명",
       "1,000명 이상"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "주요 관심 분야",
+    "interestPlaceholder": "선택해주세요",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "아직 잘 모르겠습니다"
     ],
     "messageLabel": "필요하신 사항을 간단히 알려주세요",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "필요하신 사항을 알려주세요...",
     "optionalLabel": "(선택 사항)",
     "errors": {
       "name": "성명을 입력해주세요.",
@@ -91,32 +91,6 @@
     "successHeading": "신청이 접수되었습니다!",
     "successMessagePrefix": "담당자가 가장 적합한 시간을 확정하기 위해 다음 이메일로 연락드릴 예정입니다: ",
     "successMessageSuffix": ".",
-    "specialistLink": "그 사이에 무료로 시작해보세요",
-    "nameLabel": "성명",
-    "roleLabel": "직책"
-  },
-  "trust": {
-    "ariaLabel": "Interfy 데모를 신청해야 하는 이유",
-    "heading": "글로벌 기업을 위한 준비된 플랫폼",
-    "subheading": "모든 데모에서 엔터프라이즈급 보안, 글로벌 규제 준수, 전문 지원을 경험하세요.",
-    "statsLabel": "Interfy의 글로벌 진출 현황",
-    "stats": [
-      {
-        "label": "180개 이상 국가",
-        "sublabel": "지속적으로 확장 중인 글로벌 진출"
-      },
-      {
-        "label": "16개 언어",
-        "sublabel": "완전한 인터페이스 및 사용자 경험"
-      },
-      {
-        "label": "99.99%",
-        "sublabel": "SLA 보장 가용성"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "인증된 규제 준수"
-      }
-    ]
+    "specialistLink": "그 사이에 무료로 시작해보세요"
   }
 }

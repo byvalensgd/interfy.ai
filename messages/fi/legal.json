@@ -42,91 +42,269 @@
     "intro": "Näissä käyttöehdoissa määritellään Interfy-alustan käyttöä koskevat säännöt, mukaan lukien Interfy Corporationin tarjoamat tuotteet Documents, Process, Capture, Sign, Connect, Agents, Mobile ja Voice. Luomalla tilin tai käyttämällä palveluitamme hyväksyt alla kuvatut ehdot. Tämä asiakirja on vakioluonnos, ja lakitiimin tulee tarkistaa se ennen lopullista julkaisua.",
     "sections": [
       {
-        "heading": "1. Ehtojen hyväksyminen",
-        "paragraphs": [
-          "Käyttämällä Interfy-alustaa vahvistat lukeneesi, ymmärtäneesi ja hyväksyneesi täysin näiden käyttöehtojen ja tietosuojakäytäntömme sisällön. Jos et hyväksy jotakin ehtoa, sinun ei tule käyttää palveluitamme."
-        ]
-      },
-      {
-        "heading": "2. Palvelun kuvaus",
-        "paragraphs": [
-          "Interfy tarjoaa yritysalustan, joka yhdistää dokumenttienhallinnan, prosessiautomaation (BPM), älykkään kaappauksen, sähköisen allekirjoituksen, integraatiot, AI-agentit ja mobiilisovellukset tilauspalveluna (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Rekisteröityminen ja tili",
-        "paragraphs": [
-          "Alustan käyttö edellyttää tilin luomista todenmukaisilla, täydellisillä ja ajantasaisilla tiedoilla. Olet vastuussa käyttötunnuksesi luottamuksellisuuden säilyttämisestä ja kaikesta tilillasi tapahtuvasta toiminnasta."
-        ],
-        "items": [
-          "Salasanoja tai käyttötunnuksia ei saa jakaa valtuuttamattomille kolmansille osapuolille",
-          "Ilmoita Interfylle välittömästi, jos epäilet tilisi luvattoman käyttöä",
-          "Pidä rekisteröintitiedot ajan tasalla"
-        ]
-      },
-      {
-        "heading": "4. Hyväksyttävä käyttö",
-        "paragraphs": [
-          "Sitoudut siihen, ettet käytä alustaa laittomiin tarkoituksiin, kolmansien osapuolten oikeuksien loukkaamiseen, haittaohjelmien levittämiseen tai luvattomien alueiden tai tietojen käyttöyritykseen."
-        ]
-      },
-      {
-        "heading": "5. Immateriaalioikeudet",
-        "paragraphs": [
-          "Interfy-alusta, mukaan lukien ohjelmisto, tavaramerkit, ulkoasu ja sisällöt, on Interfy Corporationin tai sen lisenssinantajien omaisuutta, suojattuna immateriaalioikeuslainsäädännöllä. Mikään näiden ehtojen määräys ei siirrä immateriaalioikeuksia asiakkaalle, lukuun ottamatta alustan käyttöoikeutta tilauksen voimassaoloaikana."
-        ]
-      },
-      {
-        "heading": "6. Paketit, maksut ja peruutus",
-        "paragraphs": [
-          "Pääsy alustalle myönnetään valitun paketin mukaisesti. Hinnat, maksutavat ja uusimisehdot ilmoitetaan tilausta tehdessä. Peruutus voidaan pyytää milloin tahansa, kunkin paketin erityisehtojen mukaisesti."
-        ]
-      },
-      {
-        "heading": "7. Asiakkaan tiedot ja sisältö",
-        "paragraphs": [
-          "Kaikki asiakkaan alustalle lähettämä, tallentama tai käsittelemä sisältö (\"Asiakkaan sisältö\") pysyy asiakkaan omaisuutena. Interfy toimii näiden tietojen käsittelijänä, käsitellen niitä asiakkaan ohjeiden ja tietosuojakäytäntömme mukaisesti."
-        ]
-      },
-      {
-        "heading": "8. Käytettävyys ja tuki",
-        "paragraphs": [
-          "Interfy toimii Multi-AZ-cloud-native-infrastruktuurilla AWS:ssä, 99,99 %:n käytettävyys-SLA:lla, jatkuvalla 24/7-valvonnalla ja katastrofipalautussuunnitelmalla maantieteellisellä replikoinnilla.",
-          "Tuki tarjotaan tukisivullamme kuvattujen kanavien ja aikataulujen mukaisesti, ja käytettävyys- ja häiriöhistoria julkaistaan reaaliajassa alustan tilasivulla."
+        "heading": "1. Määritelmät",
+        "blocks": [
+          {
+            "ul": [
+              "Käyttäjät: kaikki Tilaajan valtuuttamat henkilöt, joille on myönnetty käyttäjätunnus ja salasana palvelualustan palvelujen käyttöön. \"Käyttäjät\" voivat olla suoria työntekijöitä, palveluntarjoajia, alihankkijoita, konsultteja tms., joiden kanssa Tilaaja harjoittaa liiketoimintaa.",
+              "Palvelut: Palveluntarjoajan verkossa tarjoama työkalujen ja toimintojen kokonaisuus, joka on käytettävissä sinun tai valtuutetun liikekumppanimme luoman käyttäjätilin kautta jollakin verkkoportaalillamme.",
+              "Tiedot: kaikki data ja asiakirjat, joita Tilaaja kerää, käsittelee ja säilyttää käyttäen Palveluntarjoajan alustalla tarjoamia ratkaisuja.",
+              "Immateriaalioikeudet: kaikki liikesalaisuudet, rekisteröidyt tai rekisteröimättömät tuote- tai palvelumerkit, patentit ja patenttihakemukset, toiminimet, tekijänoikeudet, moraaliset oikeudet, keksintöoikeudet tai muut immateriaalioikeudet ja kaikki muut Palveluntarjoajan oikeudet missä tahansa maailmassa.",
+              "Tietosuojakäytäntö: säännöt ja käytännöt, jotka määrittävät, miten Palveluntarjoaja käsittelee verkkopalvelualustalla käsiteltävien tietojen yksityisyyttä."
+            ]
+          },
+          {
+            "p": "Tietosuojakäytäntö on sidoksissa tähän palvelutilaussopimukseen ja sisältää tietoa siitä, miten keräämme ja käsittelemme henkilötietoja sivustojemme ja palvelujemme välityksellä."
+          },
+          {
+            "ul": [
+              "Verkkoalusta: virtuaaliympäristö, jonka kautta käyttäjä voi työtilan luomisen jälkeen käyttää tilattuja palveluita.",
+              "Haittakoodi: tiedostot, ohjelmat tai lähdekoodi, joiden tarkoituksena on vahingoittaa alustan toimintaa, kuten virukset.",
+              "Lasku (Invoice): asiakirja, joka laaditaan kuukausittaisten palvelumaksujen laskutukseen ja joka toimii myös verotusasiakirjana.",
+              "Sopimus: vastaa tätä Palveluntarjoajan tarjoamien palvelujen tilaussopimusta.",
+              "Dokumentaatio: Palveluntarjoajan Tilaajan käyttäjille tarjoamat, säännöllisesti päivitettävät ohje- ja koulutusmateriaalit.",
+              "Virtuaalitili: tili, jota Tilaaja käyttää Palveluntarjoajan tarjoamien palvelujen käyttöön, ja jota vain Tilaajan valtuuttamat käyttäjät käyttävät verkossa; sen kautta kaikki tilatut toiminnot ovat saatavilla.",
+              "Kolmannen osapuolen palvelut: muut palvelut, joita voidaan käyttää yhdessä verkkoalustan ratkaisujen kanssa, ja joiden toiminnasta tai häiriöistä Palveluntarjoaja ei vastaa tämän ehdon mukaisesti."
+            ]
+          }
         ],
         "relatedLink": {
-          "label": "Katso koko tietoturva-arkkitehtuuri",
-          "href": "/legal/seguranca"
+          "label": "Katso koko tietosuojakäytäntö",
+          "href": "/legal/privacidade"
         }
       },
       {
-        "heading": "9. Vastuun rajoitus",
-        "paragraphs": [
-          "Sovellettavan lain sallimissa rajoissa Interfy ei ole vastuussa välillisistä, satunnaisista tai seurannaisista vahingoista, jotka johtuvat alustan käytöstä tai käytön estymisestä."
+        "heading": "2. Yleiset ehdot",
+        "blocks": [
+          {
+            "p": "Palveluntarjoaja tarjoaa, tämän Tilaussopimuksen (Sopimuksen) ja soveltuvin osin Tietosuojakäytännön hyväksymisen myötä: a) Tilaajan tilausvaiheessa valitseman paketin mukaisen ratkaisun; b) hankittuja ratkaisuja koskevan vakiomuotoisen teknisen tuen, ilman lisäkustannuksia Tilaajalle; c) hankitun ratkaisun saatavuuden verkossa 24 tuntia vuorokaudessa, 7 päivää viikossa, lukuun ottamatta ennalta suunniteltuja huoltokatkoja tai muuta Palveluntarjoajan kohtuullisen hallinnan ulkopuolella olevaa käyttökatkoa, mukaan lukien internet- tai infrastruktuuripalveluntarjoajan häiriöt, tilatun ratkaisun ulkopuolisiin yhteyksiin liittyvät ongelmat tai palvelujen estoon liittyvät tilanteet, syystä riippumatta."
+          },
+          {
+            "p": "Palvelut voivat sisältää kolmansien osapuolten komponentteja, järjestelmiä ja muita palveluita, joihin voidaan soveltaa muiden toimittajien lisäehtoja, käytäntöjä tai vaatimuksia, mukaan lukien ikävaatimukset."
+          },
+          {
+            "p": "Tällä sivustolla saatavilla oleva Tietosuojakäytäntö on erottamaton osa tätä Sopimusta. Palveluntarjoaja ylläpitää hallinnollisia, fyysisiä ja teknisiä suojatoimia tallennetun sisällön turvallisuuden, luottamuksellisuuden ja eheyden ylläpitämiseksi, kohtuullisen ja hyväksyttävän markkinastandardin mukaisesti. Sinun on noudatettava Palveluissa annettuja käytäntöjä, käytettävä niitä asianmukaisesti, oltava puuttumatta Palvelujen käyttöön ja oltava yrittämättä käyttää niitä muulla kuin tarjoamallamme käyttöliittymällä ja laillisilla ohjeilla ja menetelmillä."
+          },
+          {
+            "p": "Voit käyttää palveluita vain lain sallimalla tavalla. Voimme keskeyttää tai lakata tarjoamasta Palveluita, jos rikot Ehtojamme tai Käytäntöjämme, sovellettavaa lainsäädäntöä, tai jos tutkimme epäiltyä väärinkäyttöä."
+          },
+          {
+            "p": "Sinun on sitouduttava siihen, etteivät sinä tai kolmannet osapuolet käytä Palveluita tai sisältöä millään tavalla, joka rikkoo lakia, tätä sopimusta tai Tietosuojakäytäntöä. Sitoudut siihen, ettet:"
+          },
+          {
+            "ul": [
+              "Tarjoa liiketoimintaasi liittymättömille kolmansille osapuolille pääsyä tai osaa Palveluista.",
+              "Toisinna, muokkaa, kopioi, pura, myy, markkinoi tai jälleenmyy Palveluita, paitsi jos olet Palveluntarjoajan valtuuttama ja kirjallisesti hyväksytty jälleenmyyjä."
+            ]
+          },
+          {
+            "p": "Palvelut on suojattu tekijänoikeuksilla, liikesalaisuuksilla ja muilla immateriaalioikeuslaeilla, mukaan lukien sivustoilla käytetyt tavaramerkit ja logot. Sinulla on oikeus käyttää Palveluita vain tässä tilaussopimuksessa kuvattuihin tarkoituksiin."
+          },
+          {
+            "p": "Palveluntarjoaja pidättää itsellään kaikki muut oikeudet Palveluihin, olivatpa ne sen omia tai kolmansien osapuolten omaisuutta. Tämän Sopimuksen päättymiseen asti, ja edellyttäen että täytät kaikki sovellettavat maksuvelvoitteet ja noudatat tätä Sopimusta, Palveluntarjoaja myöntää sinulle henkilökohtaisen, rajoitetun, ei-yksinomaisen ja siirtokelvottoman oikeuden ja lisenssin Palveluiden käyttöön."
+          },
+          {
+            "p": "Vastaamme tekijänoikeuksien loukkausväitteitä koskeviin ilmoituksiin ja suljemme toistuvasti rikkovien käyttäjien tilit Yhdysvaltain tekijänoikeuslainsäädännössä säädettyjen menettelyjen mukaisesti. Tarjoamme tietoa, joka auttaa tekijänoikeuksien haltijoita hallinnoimaan immateriaalioikeuksiaan verkossa."
+          },
+          {
+            "p": "Jos katsot, että joku loukkaa tekijänoikeuksiasi ja haluat ilmoittaa siitä meille, voit lähettää ilmoituksen osoitteeseen contato@interfy.ai. Palvelut mahdollistavat sisällön, tietojen ja asiakirjojen lähettämisen tallennettavaksi. Säilytät omistusoikeuden kaikkiin immateriaalioikeuksiin, jotka sinulla on kyseiseen sisältöön tai asiakirjaan. Lyhyesti: se, mikä on sinun, pysyy sinun."
+          }
         ]
       },
       {
-        "heading": "10. Sopimuksen päättyminen",
+        "heading": "3. Tilisi",
         "paragraphs": [
-          "Interfy voi keskeyttää tai päättää pääsyn alustalle näiden ehtojen rikkomisen vuoksi, ennakkoilmoituksella, paitsi tapauksissa, joissa alustan tai kolmansien osapuolten turvallisuus on välittömässä vaarassa."
+          "Palveluiden käyttöä varten sinun on luotava tili. Voit luoda oman tilisi sivustolla, tai Palveluntarjoajan Kumppanin järjestelmänvalvoja voi myöntää sen sinulle. Jos käytät järjestelmänvalvojan sinulle myöntämää Verkkopalvelualustan tiliä, siihen voidaan soveltaa erilaisia tai lisäehtoja, ja järjestelmänvalvojasi voi pystyä lukitsemaan tai poistamaan tilisi käytöstä."
         ]
       },
       {
-        "heading": "11. Ehtojen muutokset",
+        "heading": "4. Tietojesi säilyttäminen ja poistaminen",
         "paragraphs": [
-          "Näitä ehtoja voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella kohtuullisen ajan kuluessa ennen voimaantuloa."
+          "Tilaajan tiedot tallennetaan Palveluntarjoajan tietokantaan niin kauan kuin tili on olemassa ja tämä sopimus on voimassa. Tietosuojakäytännön mukaisesti tiedot poistetaan (pysyvästi) 90 päivän kuluessa sopimuksen päättymisestä."
         ]
       },
       {
-        "heading": "12. Sovellettava laki ja oikeuspaikka",
+        "heading": "5. Henkilötietojen käsittely, siirto ja salassapito",
         "paragraphs": [
-          "Näihin ehtoihin sovelletaan Brasilian liittotasavallan lakeja, ellei muille lainkäyttöalueiden asiakkaille erikseen sovittuja sopimusehtoja sovelleta."
+          "Voit tarkastella Palveluntarjoajan Tietosuojakäytäntöä, joka on saatavilla sivustollamme. Sinun on hyväksyttävä Tietosuojakäytäntö ja Palveluntarjoajan julkaisemat muutokset siihen. Hyväksyt, että Palveluntarjoaja voi käyttää ja säilyttää tietojasi Tietosuojakäytännön mukaisesti osana Palveluita. Myönnät Palveluntarjoajalle luvan yhdistää Palveluihin syöttämiäsi tai lataamiasi tunnistettavia ja ei-tunnistettavia tietoja muiden Palvelujen käyttäjien ja/tai Palveluntarjoajan muiden palvelujen tietoihin. Tämä tarkoittaa, että Palveluntarjoaja voi käyttää käyttäjiensä yhdistettyjä (aggregoituja) tietoja Palvelujen parantamiseen tai kampanjoiden suunnitteluun ja liiketoimintakäytäntöjen vertailun mahdollistamiseen muiden käyttäjien kanssa. Palveluntarjoaja on globaali yritys ja voi käsitellä tai tallentaa henkilötietoja useissa maissa Tietosuojakäytännössämme määritellyllä tavalla.",
+          "Tilaaja ja Palveluntarjoaja sitoutuvat käsittelemään lain mukaan henkilötiedoiksi luokiteltuja tietoja tämän sopimuksen perusteella soveltuvaa lainsäädäntöä noudattaen, sopimusrikkomuksesta vastuuseen joutumisen uhalla, sanotun rajoittamatta vahingonkorvausvastuuta. Henkilötietojen käsittely tapahtuu ainoastaan tässä sopimuksessa määritellyn tarkoituksen mukaisesti.",
+          "Osapuolet sitoutuvat siihen, etteivät ne siirrä ja/tai jaa käsiteltyjä henkilötietoja kolmansille osapuolille, paitsi jos se on olennaisen tärkeää tämän ehdon tai lakisääteisten/oikeudellisten velvoitteiden täyttämiseksi; kuitenkin, vaikka toinen osapuoli olisi lain mukaan velvoitettu siirtämään tietoja kolmannelle osapuolelle, sen on ilmoitettava tästä toiselle osapuolelle ja varmistettava tietojen luottamuksellisuus ja eheys vastuuseen joutumisen uhalla. Tietoa siitä, kenen kanssa jaamme tietoja palvelujemme tarjoamiseksi, löytyy Tietosuojakäytännöstämme.",
+          "Tilaaja vastaa siitä, että sen käyttäjät noudattavat tätä sopimusta, tietojensa ja niiden hankintatapojen tarkkuudesta, määrästä, laadusta ja laillisuudesta, sekä tallennettujen tietojensa käsittelymenetelmistä ja -tavoista, tehden parhaansa varmistaakseen alustan käytön sovellettavien säädösten mukaisesti, sekä käsiteltyjen tietojen laillisuuden, yksityisyyden, eheyden, luottamuksellisuuden ja turvallisuuden osalta, että palvelujen käytön tässä tilausehdossa määritellyn tarkoituksen mukaisesti.",
+          "Jos Tilaaja yhdistää muita sovelluksia palveluihimme ja käyttää niitä yhdessä ratkaisujemme kanssa, Tilaaja tiedostaa ja hyväksyy, että kyseisen sovelluksen tarjoaja voi yhteystavasta riippumatta käyttää ja kopioida Tilaajan tietoja siinä määrin kuin se on tarpeen sovelluksen toiminnalle. Palveluntarjoaja ei vastaa mistään tapahtumasta, tietojen paljastumisesta, muuttamisesta tai poistamisesta, joka johtuu Tilaajan valtuuttaman kolmannen osapuolen pääsystä tietoihin.",
+          "Jos Palveluntarjoaja toteaa, että liitetty sovellus ei täytä kohtuullisia edellytyksiä tilatun ratkaisun kanssa yhteentoimimiseksi, se voi lakata tarjoamasta pääsyä kyseiselle kolmannelle osapuolelle, ilman että Palveluntarjoajalle aiheutuu tästä sanktioita, hyvityksiä tai korvausvelvoitteita. Palveluntarjoajalla ei ole velvollisuutta arvioida kolmansien osapuolten sovelluksia, mutta se voi tehdä sen, jos katsoo sen aiheelliseksi."
         ]
       },
       {
-        "heading": "13. Yhteystiedot",
+        "heading": "6. Maksusta",
+        "blocks": [
+          {
+            "p": "Tilaaja maksaa Yhdysvaltain dollareissa kaikki Virtuaalitilillä eritellyt, alun perin valitun paketin tilaukseen liittyvät summat, lisättynä ylimenevän käytön summilla, jos sellaisia on. Antamalla maksutietosi valtuutat Palveluntarjoajan, tai kolmannen osapuolen, jonka olemme valtuuttaneet maksujen käsittelyyn, veloittamaan kyseiseltä luotto-/pankkikortilta tilatun ratkaisun mukaiset summat, kunkin laskutusjakson Laskun mukaisesti. Sinun on maksettava jollakin seuraavista tavoista:"
+          },
+          {
+            "ul": [
+              "Voimassa oleva ja Palveluntarjoajan hyväksymä luottokortti.",
+              "Voimassa oleva ja Palveluntarjoajan hyväksymä pankkikortti.",
+              "Muu maksutapa, jonka Palveluntarjoaja tarjoaa sinulle kirjallisesti tai asettaa saatavilla tilausasetuksissasi."
+            ]
+          },
+          {
+            "p": "Ensimmäinen vaihtoehto on yleisin ja pätevä kaikkiin maihin tarjottavien palveluiden laskutukseen; joissakin maissa voimme tarjota myös muita vaihtoehtoja."
+          },
+          {
+            "p": "Jos maksu- ja rekisteröintitietosi eivät ole tarkkoja, ajantasaisia ja täydellisiä, ja et päivitä niitä niiden muuttuessa, voimme keskeyttää tai lopettaa tilisi ja kieltäytyä tarjoamasta Palveluita."
+          },
+          {
+            "p": "Jos et ilmoita meille maksutapasi päivityksistä (esimerkiksi luottokortin voimassaoloajan päättymisestä), voimme palvelun keskeytymisen estämiseksi osallistua korttitarjoajasi tukemiin ohjelmiin (esimerkiksi päivityspalveluihin, toistuvan laskutuksen ohjelmiin tms.) yrittääksemme päivittää maksutietosi, ja valtuutat meidät jatkamaan tilisi laskuttamista saamillamme päivitetyillä tiedoilla, vaikka tämä ei olekaan Palveluntarjoajan velvollisuus."
+          },
+          {
+            "p": "Palveluntarjoaja uusii automaattisesti kuukausittaiset tai vuosittaiset Palvelusi kulloinkin voimassa oleviin hintoihin, jollei Palveluita peruuteta tai irtisanota tämän Sopimuksen mukaisesti."
+          },
+          {
+            "p": "Jos Palveluntarjoajan laskuttamaa summaa ei vastaanoteta eräpäivänä, sanotun rajoittamatta muita sovellettavia toimenpiteitä: a) veloitetaan 1 %:n kuukausikorko maksamattomasta saldosta, tai lain sallima enimmäiskorko, sen mukaan kumpi on pienempi; ja/tai b) palvelut voidaan keskeyttää, kun viive ylittää 10 päivää; c) yli 30 päivän viiveen tapauksessa Palveluntarjoaja voi käyttää ulkoisten yritysten palveluita erääntyneen summan perimiseksi, mukaan lukien lain mukaiset laillisiin perintäkuluihin liittyvät maksut; ja/tai d) ilmoittaa maksulaiminlyönnistä luottotietolaitoksille; ja/tai e) poistaa Tilaajan tilin 40 päivän maksulaiminlyönnin jälkeen, jos tilannetta ei ole ratkaistu."
+          },
+          {
+            "p": "Sopimuksen olennaisen rikkomuksen tapauksissa keskeytys tulee voimaan välittömästi, ilman edeltävää ilmoitusta."
+          },
+          {
+            "p": "Sanotun rajoittamatta edellä mainittua, jos Tilaaja riitauttaa sovellettavat maksut selkeästi, kohtuullisesti ja vilpittömässä mielessä, ja toimii huolellisesti erimielisyyden ratkaisemiseksi, Palveluntarjoaja pyrkii parhaansa mukaan ratkaisemaan asian nopeimmalla mahdollisella tavalla ja välttämään edellä mainitut toimenpiteet."
+          },
+          {
+            "p": "Tilaaja hyväksyy, että ostoksensa eivät ole ehdollisia minkäänlaisille odotuksille tulevaisuudessa kehitettävien toimintojen toimittamisesta, vaikka Palveluntarjoaja olisi kommentoinut suunniteltuja toimintoja suullisesti tai kirjallisesti."
+          },
+          {
+            "p": "Kun tämä Sopimus irtisanotaan, Palveluntarjoaja on tästä lähtien valtuutettu poistamaan Tilaajan Virtuaalitilin pysyvästi, ilmoittaen tästä Tilaajalle sähköpostitse."
+          }
+        ]
+      },
+      {
+        "heading": "7. Käytön rajat",
         "paragraphs": [
-          "Kysymykset näistä ehdoista voi lähettää osoitteeseen contato@interfy.ai."
+          "Tiliä luodessasi valitset ratkaisun alkupaketin, jossa määritellään tilaukseesi sisältyvät resurssit, toiminnot, tallennustilan määrä ja käyttäjämäärä. Valinnaisia lisäosia voidaan sisällyttää tilaukseen tai lisätä myöhemmin työtilan pääkäyttäjän toimesta.",
+          "Sopimuksen ollessa voimassa Palveluntarjoaja ei rajoita Tilaajan käyttäjien kulutusta; siksi, vaikka alkupaketti on olemassa, voit rekisteröidä ja pitää aktiivisena niin monta käyttäjää kuin haluat, jos toimit alustan pääkäyttäjänä, tallennustilan määrää rajoittamatta. Kokonaiskulutus lasketaan kuukausittain, mukaan lukien alkupaketin hinta ja kaikki ylimenevät kohteet, olivatpa ne aktiivisten käyttäjien määrää, tallennustilaa tai lisäosia, jotka yhdessä muodostavat kuukausilaskun kokonaissumman. Ylimenevien kohteiden tapauksessa Palveluntarjoaja on valtuutettu, riippumatta Tilaajan ennakkohyväksynnästä, laskuttamaan kuukausipaketin pro rata -perusteella, sisältäen lisämäärät.",
+          "Työtilan pääkäyttäjä voi vaihtaa palvelupakettinsa nykyistä kulutustaan suuremmaksi, tai eri ominaisuuksia ja työkaluja sisältäväksi paketiksi; hänen on kuitenkin tiedostettava, että siirtyessä pakettiin, jossa on vähemmän toimintoja, kaikki uuteen pakettiin kuulumattomat toiminnot lakkaavat olemasta käyttäjien käytettävissä."
+        ]
+      },
+      {
+        "heading": "8. Palveluiden muuttaminen tai peruuttaminen",
+        "paragraphs": [
+          "Muutamme ja parannamme Palveluita jatkuvasti. Voimme lisätä tai poistaa toimintoja tai ominaisuuksia, ja voimme myös keskeyttää tai lopettaa Palvelun kokonaan. Voit lakata käyttämästä Palveluita milloin tahansa, vaikka valitettavasti näkisimme sinun lähtevän.",
+          "Palveluntarjoaja voi myös lopettaa Palveluiden tarjoamisen sinulle, tai asettaa Palveluille uusia rajoituksia milloin tahansa. Uskomme, että olet tietojesi omistaja ja että on tärkeää säilyttää pääsysi niihin. Jos lopetamme Palvelun, kun se on kohtuudella mahdollista, sinua ilmoitetaan etukäteen ja saat mahdollisuuden noutaa tietosi Palveluistamme."
+        ]
+      },
+      {
+        "heading": "9. Takuiden poissulkeminen",
+        "paragraphs": [
+          "Tarjoamme Palvelumme kohtuullisella osaamis- ja huolellisuustasolla ja toivomme, että nautit niiden käytöstä. Mutta on olemassa asioita, joita emme lupaa Palveluista. Ellei näissä ehdoissa tai lisäehdoissa nimenomaisesti toisin määrätä, Palveluntarjoaja, sen toimittajat, kumppanit tai jälleenmyyjät eivät anna tiettyjä takuita Palveluista. Esimerkiksi emme vastaa Palveluiden sisällöstä, tietyistä toiminnoista, saatavuudesta tai kyvystä vastata tarpeisiisi. Tarjoamme Palvelut \"sellaisina kuin ne ovat\". Joillakin lainkäyttöalueilla säädetään tietyistä takuista, kuten hiljaisesta kaupanpitokelpoisuutta koskevasta takuusta, sopivuudesta tiettyyn tarkoitukseen ja loukkaamattomuudesta. Lain sallimissa rajoissa suljemme pois kaikki takuut.",
+          "Tämän Sopimuksen mukaisesti kumpikaan osapuoli ei anna minkäänlaista nimenomaista, hiljaista, lakisääteistä tai muunlaista takuuta, ja kukin osapuoli luopuu erityisesti kaikista hiljaisista takuista, mukaan lukien hiljainen kaupanpitokelpoisuutta, tiettyyn tarkoitukseen sopivuutta tai loukkaamattomuutta koskeva takuu, sovellettavan lain suurimmassa mahdollisessa laajuudessa. Kukin osapuoli on vapautettu kaikesta vastuusta ja korvausvelvollisuudesta kolmansien osapuolten hosting- ja sovellustoimittajien aiheuttamista tappioista tai vahingoista."
+        ]
+      },
+      {
+        "heading": "10. Lisenssi ja omistusoikeudet",
+        "paragraphs": [
+          "Palveluntarjoaja pidättää itsellään kaikki oikeutensa, oikeutensa ja intressinsä Ratkaisuihin, mukaan lukien kaikki niihin liittyvät Immateriaalioikeutensa.",
+          "Palvelu tarjotaan rajoitetulla käyttöoikeudella, eikä Tilaajalle siirretä minkäänlaista omistusoikeutta. Palveluntarjoajalla on ja se säilyttää kaikki oikeudet, oikeudet ja intressit, mukaan lukien kaikki immateriaalioikeudet, Palveluun, mukaan lukien kaikki Palveluiden muutokset, päivitykset, laajennukset, komponentit ja johdannaistyöt.",
+          "Tilaaja myöntää Palveluntarjoajalle ja sen Kumppaneille tai Yhteistyökumppaneille maailmanlaajuisen, tämän tilausehdon voimassaoloaikaan rajoitetun lisenssin kopioida, siirtää, isännöidä ja näyttää Tietojaan, mukaan lukien lähdekoodi, kun Tilaaja tai kolmas osapuoli on luonut sen Tilaajalle, sen tarpeen mukaan, että Palveluntarjoaja voi tarjota pääsyn Ratkaisuihin tämän sopimuksen mukaisesti.",
+          "Palveluntarjoaja voi käyttää näitä kerättyjä Tietoja anonymisoitujen tietojen ja mittareiden keräämiseen, Palveluiden parantamiseksi ja kehittämiseksi, sekä muihin tuotteen kehitys-, diagnoosi- ja korjaustarkoituksiin, aina anonymisoituna, ilman Tilaajan tunnistamista.",
+          "Tilaaja myöntää Palveluntarjoajalle maailmanlaajuisen, lopullisen, peruuttamattoman ja rojaltivapaan lisenssin sisällyttää ja käyttää ratkaisuissa uusia ominaisuuksia ja toimintoja, jotka on kehitetty Tilaajan ja/tai sen käyttäjien pyynnöstä tai ehdotuksesta.",
+          "Palveluntarjoaja, sen toimittajat, kumppanit ja jälleenmyyjät kieltäytyvät antamasta lausuntoja tai takuita siitä, että Palveluiden käyttösi täyttää tai varmistaa minkäänlaisten lakisääteisten velvoitteiden, lakien tai säädösten noudattamisen."
+        ]
+      },
+      {
+        "heading": "11. Palveluihin liittyvät vastuut",
+        "paragraphs": [
+          "Lain sallimissa rajoissa Palveluntarjoaja, sen toimittajat, kumppanit ja jälleenmyyjät eivät vastaa voitonmenetyksestä, tulonmenetyksestä, tietojen menetyksestä, taloudellisista tappioista tai välillisistä, erityisistä, seurannaisista, esimerkillisistä tai rankaisevista vahingoista. Lain sallimissa rajoissa Palveluntarjoajan ja sen toimittajien, kumppanien ja jälleenmyyjien kokonaisvastuu minkä tahansa näiden ehtojen mukaisen vaatimuksen osalta, mukaan lukien mahdolliset hiljaiset takuut, rajoittuu summaan, jonka olet maksanut Palveluntarjoajalle viimeisten 12 kuukauden aikana Palveluiden käytöstä. Kaikissa tapauksissa Palveluntarjoaja ja sen toimittajat, kumppanit ja jälleenmyyjät eivät vastaa mistään tappiosta tai vahingosta, joka ei ole kohtuudella ennakoitavissa.",
+          "Jos käytät Palveluitamme yrityksen puolesta, kyseisen yrityksen on hyväksyttävä nämä ehdot. Se vapauttaa vastuusta ja korvaa Palveluntarjoajalle ja sen tytäryhtiöille, kumppaneille, jälleenmyyjille, johtajille, edustajille ja työntekijöille kaikki vaatimukset, oikeudenkäynnit tai kanteet, jotka johtuvat Palveluiden käytöstä tai näiden ehtojen rikkomisesta, mukaan lukien mikä tahansa vastuu tai kustannus, joka johtuu vaatimuksista, tappioista, vahingoista, oikeudenkäynneistä, tuomioista, oikeudenkäyntikuluista ja asianajajapalkkioista.",
+          "Jos Tilaajaa vastaan nostetaan kanne, jossa väitetään, että tilattujen Palveluiden käyttö loukkaa tai perustuu kolmannen osapuolen immateriaalioikeuksien luvattomaan käyttöön, Palveluntarjoaja puolustaa Tilaajaa vaatimusta, vaatimusta tai kannetta vastaan, ja korvaa sille vahingot, kulut ja oikeudenkäyntikulut, jotka aiheutuvat epäedullisesta päätöksestä, edellyttäen että Tilaaja ilmoittaa asiasta kirjallisesti Palveluntarjoajalle viipymättä, kohtuullisessa ajassa puolustuksen valmistelemiseksi, ja antaa Palveluntarjoajalle yksinomaisen määräysvallan ja tarvittavan tuen puolustuksen hoitamiseksi, mukaan lukien mahdollisuuden Palveluntarjoajalle muokata ratkaisua tai irtisanoa tämä sopimus 30 päivän ennakkoilmoituksella.",
+          "Jos Tilaajaa vastaan nostetaan kanne immateriaalioikeuksien loukkauksesta, jonka aiheuttavat Palveluihin liitetyt kolmansien osapuolten sovellukset, Palveluntarjoaja on vapautettu kaikesta vastuusta, eikä puolustus- ja korvausvelvollisuutta Tilaajaa kohtaan sovelleta Palveluntarjoajaan.",
+          "Jos kolmas osapuoli nostaa Palveluntarjoajaa vastaan vaatimuksen, kanteen tai oikeudenkäynnin väittäen, että Tilaajan tallentamat ja käsittelemät Tiedot, tai tapa, jolla se käyttää palveluita ja käsittelee tietoja, rikkoo tätä sopimusta tai loukkaa sovellettavaa säädöstä tai lakia, mukaan lukien kolmansien osapuolten immateriaalioikeudet, Tilaaja korvaa Palveluntarjoajalle puolustuksesta tai mahdollisesta tuomiosta aiheutuvat vahingot, kulut ja kustannukset, edellyttäen että Palveluntarjoaja ilmoittaa asiasta välittömästi ja kirjallisesti Tilaajalle ja antaa sille yksinomaisen määräysvallan puolustuksesta ajoissa tehdyllä pyynnöllä, huomioiden, että Tilaaja ei voi sopia asiasta Palveluntarjoajan puolesta ilman tämän ennakkohyväksyntää kirjallisesti. Palveluntarjoajan on tarjottava Tilaajalle kohtuullista apua, tämän omalla kustannuksella, puolustuksen hoitamisessa."
+        ]
+      },
+      {
+        "heading": "12. Sisältö",
+        "paragraphs": [
+          "Vastaat kaikesta materiaalista, asiakirjoista, tiedoista ja henkilötiedoista (\"Sisältö\"), jotka on ladattu, julkaistu tai tallennettu Palveluiden käytön yhteydessä. Myönnät Palveluntarjoajalle maailmanlaajuisen, rojaltivapaan ja ei-yksinomaisen lisenssin isännöidä ja valvoa kaikkea Palveluiden käytön yhteydessä toimitettua Sisältöä.",
+          "Sinun on käytettävä parhaita käytäntöjä sisältösi tallentamiseen, sillä vastaat kaikesta sisällöstä, joka menetetään tai on palautumattomassa tilassa Palvelun väärän käytön tai huolimattomuuden seurauksena. Palveluntarjoaja ei vastaa alustan kautta lähetetystä Sisällöstä tai tiedoista. Sitoudut siihen, ettet sinä tai kolmannet osapuolet käytä Palveluita laittoman, vilpillisen, kunniaa loukkaavan, säädyttömän, pornografisen, häpäisevän, uhkaavan, loukkaavan, hyökkäävän tai moitittavan sisällön lataamiseen, julkaisemiseen, jakeluun, linkittämiseen, toisintamiseen tai välittämiseen; toisen henkilön identiteetin väärinkäyttöön; ketjukirjeisiin, pyramidijärjestelmiin tai roskapostiin; viruksiin, troijalaisiin, matoihin tai muuhun haittakoodiin; tai mihinkään tietoon, ohjelmistoon tai sisältöön, joka ei laillisesti kuulu sinulle ja jonka käyttöön ei ole oikeudenhaltijan asianmukaista lupaa.",
+          "Palveluntarjoaja voi, mutta ei ole velvollinen, valvoa Palveluiden sisältöä. Voimme paljastaa tarvittavat tiedot lakisääteisten velvoitteidemme täyttämiseksi, Palveluntarjoajan tai sen asiakkaiden suojaamiseksi, yksityisyyden suojaamiseksi, turvallisuuden edistämiseksi ja elämän suojaamiseksi, tai Palveluiden asianmukaiseksi toimintaan saattamiseksi.",
+          "Jos Palveluntarjoajan on lain mukaan lähetettävä sinulle tiedonantoja Palveluista tai kolmansien osapuolten tuotteista, hyväksyt, että Palveluntarjoaja voi lähettää niitä sähköpostitse tai julkaista ne sivustoillamme tai sovelluksissa, joihin sinulla on pääsy, kunnioittaen tietojen luottamuksellisuutta.",
+          "Luottamuksellisia tietoja vastaanottava osapuoli voi paljastaa niitä vain, kun lain, säädöksen tai tuomioistuimen tai viranomaisen määräyksen niin vaatiessa, ja sen on ilmoitettava tästä viipymättä toiselle osapuolelle ennen paljastamista, jotta luottamuksellisten tietojen suojaamiseksi voidaan ryhtyä toimiin, ja paljastaa vain tarkasti vaadittu osa. Kun paljastaminen tapahtuu näiden ehtojen mukaisesti, paljastava osapuoli ei ole siitä vastuussa."
+        ]
+      },
+      {
+        "heading": "13. Irtisanominen",
+        "blocks": [
+          {
+            "p": "Palveluntarjoaja voi välittömästi, oman yksinomaisen harkintansa mukaan ja ilman ennakkoilmoitusta, irtisanoa tämän Sopimuksen tai keskeyttää Palvelut, jos et noudata tämän Sopimuksen ehtoja tai et enää suostu vastaanottamaan sähköisiä tiedonantoja. Irtisanomisen jälkeen sinun on lopetettava Palveluiden käyttö välittömästi, ja kaikki erääntyneet maksut on suoritettava. Tämän Sopimuksen irtisanominen ei vaikuta Palveluntarjoajan oikeuteen sille kuuluviin maksuihin."
+          },
+          {
+            "p": "Palveluntarjoaja voi keskeyttää Palveluiden käytön, poistaa sisältöä tai poistaa käytöstä ja jopa lopettaa virtuaalitilin, jos se vilpittömässä mielessä kohtuudella uskoo, että Tilaaja tai jokin sen käyttäjistä rikkoo tämän sopimuksen ja Tietosuojakäytännön ehtoja. Palveluntarjoaja ilmoittaa Tilaajalle ennen tilin keskeyttämistä tai käytöstä poistamista, ellei se ole lain mukaan estynyt tekemästä sitä, jolloin se ilmoittaa Tilaajalle esteen poistuttua."
+          },
+          {
+            "p": "Tilaaja voi irtisanoa tämän sopimuksen ilman perusteluvelvollisuutta vähintään 30 päivän ennakkoilmoituksella, ilman irtisanomissakkoa. Kumpi tahansa osapuoli voi irtisanoa tämän sopimuksen, jos todetaan jokin seuraavista tilanteista:"
+          },
+          {
+            "ul": [
+              "Toinen osapuoli asetetaan konkurssiin tai selvitystilaan.",
+              "Tämän sopimuksen todistetusti olennaista rikkomusta ei ole korjattu.",
+              "Ylivoimainen este, katastrofit, pandemiat tai luonnontapahtumat, jotka todistetusti estävät palvelujen tarjoamisen jatkumisen."
+            ]
+          },
+          {
+            "p": "Jokainen edellä mainittu irtisanomistapaus edellyttää vähintään 30 päivän ennakkoilmoitusta, sanotun rajoittamatta Palveluntarjoajan oikeutta Tilaajalta erääntyviin summiin irtisanomisen voimaantulopäivään asti. Tilaajalle ei palauteta mitään summia."
+          }
+        ]
+      },
+      {
+        "heading": "14. Näiden ehtojen muutokset",
+        "blocks": [
+          {
+            "p": "Voimme muokata näitä ehtoja tai Palveluun sovellettavia lisäehtoja esimerkiksi heijastaaksemme lain muutoksia tai muutoksia Palveluissamme. Sinun tulee tarkistaa ehdot säännöllisesti. Julkaisemme ilmoituksia muutoksista tällä sivulla, ja tarvittaessa ilmoituksen muutoksesta soveltuvan Palvelun sisällä. Muutoksia ei sovelleta takautuvasti, ja ne tulevat voimaan vähintään 14 päivän kuluttua julkaisusta; Palvelun uusiin toimintoihin liittyvät muutokset, tai lakisääteisistä syistä tehdyt muutokset, tulevat voimaan välittömästi. Jos et hyväksy Palvelun muutettuja ehtoja, sinun on lopetettava kyseisen Palvelun käyttö."
+          },
+          {
+            "p": "Palveluntarjoaja voi muuttaa palveluista perittäviä maksuja, ja sen on ilmoitettava asiasta Tilaajalle virtuaalitilistä vastaavaan sähköpostiosoitteeseen; muutokset alkavat vaikuttaa palvelujen hintaan tilauksen seuraavasta uudistumisesta lähtien."
+          },
+          {
+            "p": "Palveluntarjoaja voi ilmoittaa Tilaajalle Palveluiden käyttöön liittyvistä yleisistä tiedoista tai muusta tarpeellisesta viestinnästä Alustalle rekisteröimäsi sähköpostiosoitteen kautta, joka on osoitettu virtuaalitilin pääkäyttäjälle, ja laskutustietojen osalta laskutussähköpostiin. Tilaajan vastuulla on pitää virtuaalitilin tiedot ajan tasalla ja määrittää Alustan verkkotunnuksesta lähetetyt sähköpostit turvallisiksi, jotta niitä ei käsitellä roskapostina; kaikki lähetetty tieto katsotaan toimitetuksi 1 arkipäivän kuluttua lähettämisestä."
+          },
+          {
+            "p": "Palveluiden huoltoilmoitukset, suunnitellut käyttökatkot, käyttäjiä kiinnostavat tekniset asiat ja uusien toimintojen saatavuus voidaan lähettää suoraan käyttäjille, Tilaajan valinnaisen harkinnan mukaan. Ollakseen yhteydessä Palveluntarjoajaan, Tilaaja voi käyttää seuraavia kanavia:"
+          },
+          {
+            "ul": [
+              "Alustan chat: suoraan palvelun käyttäjille tarkoitettu tuki, kysymysten selvittäminen, tekninen tuki ja käytön ohjaus.",
+              "Sähköposti suporte@interfy.ai: teknisen tuen tikettien avaamiseen, parannusehdotuksiin ja asetuksia ja palvelujen käyttöä koskevien kysymysten selvittämiseen.",
+              "Tietojenkäsittelyyn liittyvät kysymykset: privacidade@interfy.ai.",
+              "Sähköposti legal@interfy.ai: muihin pyyntöihin, mukaan lukien tämän tilausehdon irtisanominen tai oikeudelliset kysymykset."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "15. Sovellettava laki",
+        "paragraphs": [
+          "Tilaaja hyväksyy, että tätä Sopimusta säätelee Floridan/Yhdysvaltain valtion laki, ottamatta huomioon lainvalintasäännöksiä tai muun, mahdollisesti edullisemman, lainkäyttöalueen valintaa."
+        ]
+      },
+      {
+        "heading": "16. Riidat",
+        "paragraphs": [
+          "Kaikki Palveluihin tai tähän Sopimukseen liittyvät riidat tai vaatimukset ratkaistaan sitovalla välimiesmenettelyllä tuomioistuimen sijaan, paitsi jos voit tehdä vaatimuksen pienten vaatimusten tuomioistuimessa, jos vaatimuksesi täyttävät sen edellytykset. Federal Arbitration Act säätelee tämän määräyksen tulkintaa ja soveltamista; välimies soveltaa Floridan/Yhdysvaltain lakia muihin asioihin. Kumpi tahansa välimiesmenettelyn osapuoli voi milloin tahansa pyytää väliaikaisia kieltoja tai muita kohtuullisuusperusteisia oikeussuojakeinoja toimivaltaiselta tuomioistuimelta.",
+          "Tämä Sopimus, mukaan lukien Tietosuojakäytäntö, on sinun ja Palveluntarjoajan välinen kokonaissopimus ja korvaa kaikki aikaisemmat, suulliset tai kirjalliset, ymmärrykset, viestinnän ja sopimukset kyseisestä aiheesta. Jos toimivaltainen tuomioistuin toteaa, että jokin osa tästä Sopimuksesta on pätemätön, kyseinen osa poistetaan vaikuttamatta Sopimuksen muihin osiin, jotka pysyvät voimassa ja täytäntöönpanokelpoisina.",
+          "Yhdistyneiden kansakuntien yleissopimusta kansainvälistä tavaran kauppaa koskevista sopimuksista ei sovelleta tähän Sopimukseen. Et voi siirtää tai luovuttaa tätä Sopimusta kenellekään ilman Palveluntarjoajan kirjallista hyväksyntää. Palveluntarjoaja voi kuitenkin luovuttaa tai siirtää sen sinun suostumuksettasi kumppanille, yritykselle omaisuuserien myynnin yhteydessä, tai seuraajalle sulautumisen yhteydessä. Mikä tahansa tätä kohtaa rikkova siirto mitätöidään.",
+          "Tilaaja luopuu oikeudesta esittää vaatimuksia edustajana tai asianajajana joukko- tai yhteiskanteen perusteella, tai yhdistää välimiesmenettelyä ilman kaikkien osapuolten suostumusta. Välimiehen antama tuomio on lopullinen, sitova ja osapuolia velvoittava; jollei välimies määrää toisin, kukin osapuoli vastaa omista kustannuksistaan ja kuluistaan. Kun välitystuomio on vahvistettu Floridan liitto- tai valtiontuomioistuimessa, tuomio voidaan panna täytäntöön missä tahansa toimivaltaisessa tuomioistuimessa, sanotun rajoittamatta Palveluntarjoajan oikeutta hakea väliaikaista kieltoa tai muuta kohtuullisuusperusteista oikeussuojaa missä tahansa toimivaltaisessa tuomioistuimessa.",
+          "Tämä sopimus tehdään itsenäisten osapuolten välillä, ja se ei luo kumppanuutta, yhteenliittymää, yhtiötä, franchisingia, yhteisyritystä tai työsuhdetta. Oikeuden käyttämättä jättäminen välittömästi rikkomuksen johdosta ei merkitse siitä luopumista, eikä yksittäisen määräyksen täytäntöönpanokelvottomuus vaikuta muihin määräyksiin."
+        ]
+      },
+      {
+        "heading": "17. Korruption ja rahanpesun torjunta",
+        "paragraphs": [
+          "Tämän Tilausehdon mukaisen sopimussuhteen rajoissa osapuolet sitoutuvat, itse ja työntekijöidensä, osakkaidensa, edustajiensa, johtajiensa, yhteistyökumppaneidensa, kolmansien osapuolten, tytäryhtiöidensä ja kaikkien niiden puolesta toimivien henkilöiden osalta, harjoittamaan liiketoimintaansa eettisesti ja sovellettavien lakisääteisten määräysten mukaisesti, eivätkä ne saa luvata maksuja, suorittaa maksuja, lahjoituksia tai muita etuja, suoraan tai välillisesti, kolmansille osapuolille, viranomaisten tai julkisten tai yksityisten yhteisöjen edustajille, tarkoituksenaan vaikuttaa päätökseen väärän, laittoman, sääntöjenvastaisen tai epäoikeudenmukaisen edun varmistamiseksi. Molemmat osapuolet vakuuttavat olevansa tietoisia ja sitoutuvat noudattamaan tarkasti rahanpesun ja omaisuuden kätkemisen torjuntaan ja ehkäisyyn liittyviä lakisääteisiä määräyksiä."
+        ]
+      },
+      {
+        "heading": "18. Loppumääräykset",
+        "paragraphs": [
+          "Osapuolet hyväksyvät, että kohdat Tietojen säilyttäminen ja poistaminen, Henkilötietojen käsittely (siirto ja salassapito), Maksusta, Takuiden poissulkeminen, Lisenssi ja omistusoikeudet, Palveluihin liittyvät vastuut, Sisältö, Sovellettava laki ja Riidat säilyvät voimassa tämän Sopimuksen irtisanomisen tai päättymisen jälkeen.",
+          "Kukin osapuoli vakuuttaa tehneensä tämän tilaussopimuksen (Sopimuksen) pätevästi ja omaavansa siihen tarvittavan oikeudellisen toimivallan."
         ]
       }
     ]
@@ -168,93 +346,239 @@
     },
     "sections": [
       {
-        "heading": "1. Keitä olemme",
+        "heading": "1. Määritelmät",
         "paragraphs": [
-          "Interfy Corporation, kotipaikka Orlando, Florida, Yhdysvallat, on Interfy-alustan kautta käsiteltyjen henkilötietojen rekisterinpitäjä, ellei se toimi tietojen käsittelijänä asiakkaan ohjeiden mukaisesti."
+          "Henkilötiedot: tiedot, joiden avulla luonnollinen henkilö voidaan tunnistaa suoraan tai välillisesti, myös tietoja yhdistämällä. Esimerkiksi: henkilötunnus, verotunniste (CPF), osoite, valokuva, uskonnollinen tai poliittinen kanta, syntymäaika, terveystiedot, biometriset tiedot jne.",
+          "Rekisteröity: tiedon omistaja, eli luonnollinen henkilö, jota tieto koskee.",
+          "Tietojenkäsittely: kaikki henkilötietoon kohdistuvat toimet, kuten kerääminen, tarkastelu, jakaminen, vastaanottaminen, muokkaaminen, poistaminen, siirtäminen jne.",
+          "Tarkoitus: tavoite, joka tietojenkäsittelylle asetetaan.",
+          "Rekisterinpitäjä: Interfyn nimeämä luonnollinen tai oikeushenkilö, joka vastaa kysymyksiin ja varmistaa, että tietojenkäsittely tapahtuu sovellettavan lainsäädännön mukaisesti, kunnioittaen rekisteröityjen oikeuksia.",
+          "Käsittelijä: luonnollinen tai oikeushenkilö, joka käsittelee tietoja rekisterinpitäjän puolesta.",
+          "Kolmas osapuoli: julkis- tai yksityisoikeudellinen luonnollinen tai oikeushenkilö, jonka kanssa Interfyllä on tai voi olla suhde.",
+          "Tietosuojavastaava: Interfyn nimeämä luonnollinen tai oikeushenkilö, joka vastaa kysymyksiin ja varmistaa, että tietojenkäsittely tapahtuu LGPD:n mukaisesti, kunnioittaen rekisteröityjen oikeuksia."
         ]
       },
       {
-        "heading": "2. Mitä tietoja keräämme",
-        "items": [
-          "Rekisteröintitiedot: nimi, sähköposti, puhelinnumero, yritys ja titteli",
-          "Alustan käyttötiedot: pääsylokit, suoritetut toiminnot ja asetusten mieltymykset",
-          "Asiakkaan sisältö: dokumentit, prosessit ja muut asiakkaan itse alustalle syöttämät tiedot",
-          "Tekniset tiedot: IP-osoite, laitetyyppi ja selain"
+        "heading": "2. Mitkä ovat oikeutesi rekisteröitynä",
+        "blocks": [
+          {
+            "ul": [
+              "Rekisteröitynä sinulla on oikeus saada helposti tietoa tietojesi käsittelystä; tiedot on annettava selkeästi, asianmukaisesti ja näkyvästi.",
+              "Voit vahvistaa käsittelyn olemassaolon, pyytää ja saada pääsyn tietoihin.",
+              "Jos havaitset, että tiedot ovat puutteellisia, virheellisiä tai vanhentuneita, voit pyytää niiden korjaamista.",
+              "Interfy ei säilytä tarpeettomia tietoja, mutta jos jokin tieto katsotaan liialliseksi, voit pyytää sen anonymisointia, käsittelyn rajoittamista tai poistamista, myös jos sitä käsitellään sovellettavan lainsäädännön vastaisesti.",
+              "Jos tietojesi siirtäminen toiselle palveluntarjoajalle on tarpeen, voit pyytää tietojen siirrettävyyttä nimenomaisella pyynnöllä, liike- ja teollisuussalaisuudet huomioon ottaen.",
+              "Jos olet antanut meille suostumuksen tietojesi käsittelyyn, voit pyytää niiden poistamista, paitsi sovellettavan lainsäädännön mukaisissa poikkeustapauksissa.",
+              "Ilmoitamme, mille julkisille tai yksityisille tahoille Interfy on jakanut tietojasi, kun jakamista tapahtuu.",
+              "Jos et halua antaa meille suostumusta tietojesi käsittelyyn, kunnioitamme päätöstäsi ja kerromme mahdollisista seurauksista.",
+              "Sinulla on oikeus peruuttaa suostumuksesi milloin tahansa nimenomaisella, maksuttomalla ja helpolla ilmoituksella.",
+              "Tarvittaessa sinulla on oikeus tehdä valitus ANPD:lle (Brasilian tietosuojaviranomainen), kuluttajansuojaelimille ja tietosuojaa valvoville viranomaisille, jos Interfy käsittelee tietojasi asianmukaisesti.",
+              "Voit vastustaa tietojenkäsittelyä, joka perustuu suostumuksesta vapautumiseen tapauksissa, joissa sovellettavaa lainsäädäntöä ei noudateta.",
+              "Jos Interfy käsittelee tietoja automatisoidusti ja tekee yksinomaan tähän käsittelyyn perustuvia, etujasi koskevia päätöksiä, voit pyytää näiden päätösten uudelleenkäsittelyä.",
+              "Voit milloin tahansa pyytää selkeää ja asianmukaista tietoa automatisoituihin päätöksiin käytetyistä kriteereistä ja menettelyistä, liike- ja teollisuussalaisuudet huomioon ottaen.",
+              "Käyttääksesi tietosuojaan liittyviä oikeuksiasi, lähetä pyyntösi osoitteeseen privacidade@interfy.ai; tietosuojavastaavamme ryhtyy tarvittaviin toimiin pyyntösi käsittelemiseksi.",
+              "Jos peruutat suostumuksesi ja käsittelylle ei ole muuta oikeusperustaa, lopetamme tietojesi käsittelyn siihen tarkoitukseen, johon suostumus annettiin.",
+              "Kaikki tiedot, jotka annat blogeissa tai verkkosivustoilla, jotka on julkisesti näkyvillä internetissä paikoissa, joissa ei ole pääsynhallintaa, eivät voi saada meiltä suojaa, eikä voimme rajoittaa sitä, kuka voi kopioida tai jakaa näitä tietoja."
+            ]
+          }
         ]
       },
       {
-        "heading": "3. Miten käytämme tietoja",
-        "items": [
-          "Tilattujen palveluiden tarjoaminen ja ylläpito",
-          "Käyttäjien tunnistaminen ja tilien suojaaminen luvattomalta pääsyltä",
-          "Toiminnallisten ja tukiviestien lähettäminen, ja suostumuksella kaupallisten viestien lähettäminen",
-          "Lakisääteisten ja sääntelyvelvoitteiden täyttäminen"
-        ]
-      },
-      {
-        "heading": "4. Tietojen jakaminen",
-        "paragraphs": [
-          "Henkilötietoja voidaan jakaa infrastruktuuripalveluntarjoajien (kuten AWS-pilvipalvelut), maksunkäsittelijöiden ja muiden palvelun tarjoamiseksi ehdottoman välttämättömien käsittelijöiden kanssa, aina luottamuksellisuutta ja turvallisuutta koskevien sopimusvelvoitteiden alaisuudessa. Emme myy henkilötietoja kolmansille osapuolille."
-        ]
-      },
-      {
-        "heading": "5. Evästeet ja vastaavat teknologiat",
-        "paragraphs": [
-          "Käytämme sivuston toiminnan kannalta välttämättömiä evästeitä ja, suostumuksella, analytiikkaevästeitä ymmärtääksemme alustan käyttöä ja parantaaksemme käyttäjäkokemusta."
-        ]
-      },
-      {
-        "heading": "6. Tietojen säilytys",
-        "paragraphs": [
-          "Henkilötietoja säilytetään niin kauan kuin on tarpeen tässä käytännössä kuvattujen tarkoitusten täyttämiseksi tai lain vaatimalla ajalla, jonka jälkeen ne poistetaan tai anonymisoidaan."
-        ]
-      },
-      {
-        "heading": "7. Tietoturva",
-        "paragraphs": [
-          "Sovellamme useiden kerrosten turvallisuutta arkkitehtuurista päivittäiseen toimintaan asti:"
-        ],
-        "items": [
-          "Eristys workspacekohtaisesti ja omistettu tietokanta asiakasta kohti, ei jaettuna",
-          "Kehittynyt salaus: tiedot siirrossa (TLS 1.2+) ja levossa (AES-256)",
-          "Tarkka käyttöoikeuksien hallinta (RBAC) roolin, ryhmän ja arkaluontoisuustason mukaan",
-          "Yritystason tunnistautuminen: SSO, SAML 2.0, OAuth 2.0, AD/LDAP ja MFA",
-          "IP-pohjainen pääsyrajoitus (IP Blocking)",
-          "Muuttumaton ja haettava lokien ja auditointijäljen kirjaus",
-          "Tietoturvan valvonta 24/7, automaattiset salatut varmuuskopiot ja katastrofipalautus maantieteellisellä replikoinnilla",
-          "Multi-AZ-infrastruktuuri AWS:ssä, sertifioitu ISO/IEC 27001:2022, SOC 2 Type II käynnissä"
+        "heading": "3. Mitä tietoja käsittelemme",
+        "blocks": [
+          {
+            "p": "Interfy on älykkään dokumenttienhallinnan ja liiketoimintaprosessien automaation palveluntarjoaja, joka yhdistää dokumentit (Documents), prosessiautomaation (Process), älykkään kaappauksen (Capture) ja sähköisen ja digitaalisen allekirjoituksen (Sign) yhdelle alustalle. Palvelumme tarjotaan verkossa, ja niitä voi tilata suoraan käyttäjäyritys tai liikekumppanien ja jakelijoiden välityksellä. Käsittelemme tarvittavia tietoja palveluidemme käyttöönottamiseksi ja toiminnassa pitämiseksi, turvallisuuden ja saatavuuden varmistamiseksi, teknisten ongelmien diagnosoimiseksi, palvelun paremman käytön kannalta hyödyllisten tietojen muistamiseksi, tarvittavien huoltoilmoitusten ja hälytysten lähettämiseksi, teknisen tuen tarjoamiseksi, koulutusten ja parhaiden käytäntöjen ohjeiden antamiseksi, parannuksista ja uusista toiminnoista tiedottamiseksi, sekä käyttäjille ja tuleville käyttäjille relevanttien täydentävien palveluiden tarjoamiseksi."
+          },
+          {
+            "p": "Jokainen luonnollinen tai oikeushenkilö, joka tilaa palvelumme, voi tallentaa ja käsitellä tietoja alustallamme saatavilla olevia toimintoja käyttäen, ja se tunnistetaan REKISTERINPITÄJÄNÄ, jolloin Interfy toimii KÄSITTELIJÄNÄ. Tässä ominaisuudessa pidämme tiedot turvallisina ja saatavilla, poistamme ne tai toimitamme niistä kopion REKISTERINPITÄJÄN nimenomaisesta pyynnöstä, sen määrittelemiä asetuksia kunnioittaen. KÄSITTELIJÄNÄ Interfy sitoutuu käsittelemään henkilötiedoiksi luokiteltuja tietoja tarkasti REKISTERINPITÄJÄN määrittelemien kriteerien mukaisesti, GDPR:ssä ja LGPD:ssä ja muissa sovellettavissa säädöksissä määritellyllä tavalla, yksinomaan käyttöehdoissa määriteltyihin tarkoituksiin, eikä Interfyä voida asettaa vastuuseen Brasilian tietosuojaviranomaisen (ANPD) ja/tai muiden viranomaisten, rekisteröityjen tai muun hallinnollisia tai oikeudellisia seuraamuksia määräävän tahon edessä."
+          },
+          {
+            "p": "Jos Interfyä rangaistaan KÄSITTELIJÄNÄ, sillä on oikeus vaatia REKISTERINPITÄJÄLTÄ korvaus kaikista rikkomuksesta aiheutuneista tappioista, vahingoista ja kustannuksista, sekä muihin tarvittaviin toimenpiteisiin Interfyn oikeuksien suojaamiseksi."
+          },
+          {
+            "p": "Interfy ja siihen kuuluvat konserniyhtiöt eivät valvo, mitä tietoja käyttäjät tallentavat, Käyttöehtojemme kohdan 8 mukaisesti."
+          },
+          {
+            "p": "Käyttääksesi palveluitamme annat seuraavat tiedot, joita pidetään Henkilötietoina ja joiden osalta Interfy on vastuussa REKISTERINPITÄJÄNÄ: palveluiden tilausvaiheessa, alustan käyttäjänä, tai kun käyt sivustoillamme ja lähetät meille ansioluettelosi, annat meille nimesi, sähköpostiosoitteesi, puhelinnumerosi, tehtävänimikkeesi ja ansioluettelon tiedot (jotka vaihtelevat rekisteröidyn mukaan)."
+          }
         ],
         "relatedLink": {
-          "label": "Katso koko tietoturva-arkkitehtuuri",
-          "href": "/legal/seguranca"
+          "label": "Katso koko käyttöehdot",
+          "href": "/legal/termos"
         }
       },
       {
-        "heading": "8. Oikeutesi (LGPD/GDPR)",
-        "items": [
-          "Vahvistus käsittelyn olemassaolosta ja pääsy tietoihin",
-          "Puutteellisten, virheellisten tai vanhentuneiden tietojen korjaus",
-          "Tarpeettomien tietojen anonymisointi, esto tai poisto",
-          "Tietojen siirrettävyys toiselle palveluntarjoajalle",
-          "Suostumuksen peruuttaminen, kun sovellettavissa"
+        "heading": "4. Mihin käytämme kutakin tietoa",
+        "blocks": [
+          {
+            "p": "Nimi ja sähköposti: käytämme näitä tietoja lähettääksemme alkuperäisen ilmoituksen työtilasi luomisesta ja sen jälkeen palveluun liittyviä tiedotteita, huoltotarpeita, päivityksiä, lakisääteisiä velvoitteita, markkinointitietoja uusista tuotteista ja toiminnoista, tarjouksia, tai muuta sisältöä, joka on tarpeen palvelun tarjoamisen parantamiseksi. Voit valita, ettet halua vastaanottaa markkinointiviestejä, valitsemalla sähköpostin sisällä olevan vaihtoehdon. Jos vastaanotamme sähköpostiviestin, voimme säilyttää viestin, mukaan lukien vastauksemme, asiakaspalveluhistorian ylläpitämiseksi."
+          },
+          {
+            "p": "Puhelinnumero: keräämme puhelinnumeron myöhempää yhteydenottoa varten WhatsAppin tai muiden viestisovellusten kautta, tavoitteena vastata tukipyyntöihin nopeammin ja tarkemmin, lähettää tiedotteita ja markkinointimateriaalia, tai talousosastomme yhteydenottoja varten, kun se on tarkoituksenmukaista ja tarpeellista. Emme lisää sinua mihinkään ryhmään ilman ennakkokutsua."
+          },
+          {
+            "p": "Ansioluettelo: rekisteröityjen lähettämät ansioluettelot säilytetään tietokannassamme 24 kuukauden ajan, ja niitä käytetään työntekijöiden valintaan rekrytointiprosesseissamme, kun uusi tehtävä avataan."
+          },
+          {
+            "p": "Tehtävänimike: tallennetaan asiakas- ja kumppanirekisteriin, jotta voimme tunnistaa kunkin suhteessa olevan henkilön roolin ja ohjata yhteydenotot oikeille henkilöille tarvittaessa."
+          },
+          {
+            "p": "Maksutiedot: käytetään palveluiden kuukausittaisen laskutuksen käsittelyyn. Kun valitaan luotto- ja/tai pankkikorttimaksu, Interfy ei tallenna niitä — ne yhdistetään tilaustunnisteeseen maksujenkäsittelijässä (esimerkiksi Stripe tai PayPal), joka kerää ja säilyttää tiedot käsittelyä varten. Interfy säilyttää vain siihen liitetyn tunnisteen; alikäsittelijöillämme on omat tietosuojakäytäntönsä. Muiden käytettävissä olevien maksutapojen osalta keräämme ja säilytämme laskutus-, tilaus- ja maksutietoja palveluiden jatkuvuuden varmistamiseksi. Edellä mainittujen tietojen lisäksi voimme kerätä: sijainnin, käyttölaitteen IP-osoitteen ja käyttölaitteiden tunnisteet."
+          }
         ]
       },
       {
-        "heading": "9. Kansainvälinen tiedonsiirto",
-        "paragraphs": [
-          "Koska toimimme globaalilla infrastruktuurilla, henkilötietoja voidaan siirtää maiden välillä, aina LGPD:n ja GDPR:n mukaisilla sopimuksellisilla ja teknisilla suojatoimilla."
+        "heading": "5. Miten keräämme ja mihin käytämme kutakin tietoa",
+        "blocks": [
+          {
+            "p": "Sijaintisi: voimme kerätä, tallentaa ja seurata sijaintitietoja, kun käytät jotakin sivustoamme tai Interfy-sovellusta. Yhdistettynä muihin tietoihin näiden tietojen avulla voit olla tunnistettavissa; ne ovat tarpeen joidenkin palveluiden asianmukaiselle toiminnalle, kuten paikallisen valuutan ja kielen tunnistamiselle."
+          },
+          {
+            "p": "Käyttölaitteen IP-osoite: yhdistettynä sähköpostiosoitteeseen ja sijaintiin, sen avulla voimme tunnistaa, missä käyttäjä on sijoitettu alustallamme ja mihin alueeseen hän kuuluu, mikä auttaa parantamaan palveluprosessejamme ja tunnistamaan alueeseen liittyviä mahdollisia ongelmia, kuten palvelun suorituskykyongelmia."
+          },
+          {
+            "p": "Käyttölaitteiden tunnisteet: kun käytät palveluita mobiililaitteella, voimme kerätä, tallentaa, seurata ja käyttää laitteen tunnisteita, joiden avulla voit olla tunnistettavissa yhdistettynä muihin tietoihin. Tallennamme näitä tietoja renderöidäksemme sivut laitteen koon mukaan ja rajoittaaksemme toimintoja, jotka eivät sovi kaikentyyppisiin laitteisiin."
+          },
+          {
+            "p": "Muut tiedot, joita käsittelemme edellä kerätyistä tiedoista:"
+          },
+          {
+            "p": "Evästeet: auttavat sinua kirjautumaan alustalle nopeammin, tallentamalla tietoa siitä, miten selaat sivustoa; nämä tiedot, jotka lähetetään meille anonyymisti, antavat meille mahdollisuuden parantaa selauskokemustasi. Pysyvä eväste pysyy kiintolevylläsi selaimen sulkemisen jälkeen, ja se voidaan poistaa selaimesi ohjeiden mukaisesti; istuntoeväste on väliaikainen ja katoaa selaimen sulkemisen yhteydessä."
+          },
+          {
+            "p": "Lokitiedostot: kun käytät Palvelua, palvelimemme tallentavat automaattisesti tietyt selaimesi lähettämät tiedot, kuten verkkopyynnön, IP-osoitteen, selaintyypin, haku-/poistumissivut ja URL-osoitteet, klikkausten määrän, tavan, jolla vuorovaikutat Palvelun linkkien kanssa, verkkotunnusnimet, laskeutumissivut, katsotut sivut, matkapuhelinoperaattorin ja muut tiedot."
+          },
+          {
+            "p": "Verkkomajakat (web beacons): voimme käyttää niitä käyttäjille lähetetyissä HTML-muotoisissa sähköposteissa, minkä avulla voimme seurata, kuka niistä avaa vastaanottajien viestit ja verkkokäytön kaavoja, tuottaen tarkempia tilastoja ja tehden palveluistamme houkuttelevampia käyttäjille."
+          }
         ]
       },
       {
-        "heading": "10. Tämän käytännön muutokset",
+        "heading": "6. Valinnaisesti kerätyt tiedot",
         "paragraphs": [
-          "Tätä käytäntöä voidaan päivittää ajoittain. Olennaisista muutoksista ilmoitetaan sähköpostitse tai alustan ilmoituksella."
+          "Voit lisätä valokuvasi alustan käyttäjäprofiiliin palveluita käyttäessäsi. Tämä on valinnaista, ja voit poistaa sen milloin tahansa.",
+          "Voit myös lähettää meille tietojasi täyttämällä verkkolomakkeen, lähettämällä sähköpostia tai ottamalla yhteyttä chatin kautta. Näitä tietoja käsitellään pyytämiesi tietojen toimittamiseksi, ja niitä voidaan käyttää suoramarkkinointiin ja analyyttisiin tarkoituksiin.",
+          "Jos ilmoittaudut yhteen tapahtumistamme verkossa, lähetät yhteystietosi, joiden avulla tarjoamme pääsyn tapahtumaan; näitä tietoja käsitellään käyttäjä- tai tulevaisuuden käyttäjäkuntamme ymmärtämiseksi ja suoramarkkinointitarkoituksiin.",
+          "Voit peruuttaa Interfyn markkinointiviestinnän tilauksen noudattamalla mainossähköpostien alatunnisteessa olevia peruutusohjeita, tai lähettämällä sähköpostin osoitteeseen privacidade@interfy.ai."
         ]
       },
       {
-        "heading": "11. Tietosuojavastaavan yhteystiedot (DPO)",
+        "heading": "7. Kolmansilta osapuolilta kerätyt tiedot",
         "paragraphs": [
-          "Oikeuksiesi käyttämiseksi tai tätä käytäntöä koskevien kysymysten selvittämiseksi ota yhteyttä tietosuojavastaavaamme sähköpostitse osoitteeseen privacidade@interfy.ai."
+          "Voimme kerätä tietoja kolmansien osapuolten lähteistä, jotta voit kirjautua palveluihimme, tai jos jaat palveluihimme tallennettuja tietoja kolmansien osapuolten kanssa — näiden kolmansien osapuolten palvelut voivat lähettää meille tietoja sinusta ja julkisesta profiilistasi, mikäli tilisi asetukset kolmannen osapuolen sovelluksessa sallivat tällaisen jakamisen.",
+          "Voimme myös vastaanottaa sivustojemme käyttöön liittyviä tietoja kolmansien osapuolten sovelluksista. Jos vierailet sivustoillamme, voimme seurata ja tallentaa toimintaasi, ja ulkopuoliset palveluntarjoajamme voivat toimittaa meille lisätietoja, jotka ovat julkisesti saatavilla.",
+          "Keräämiämme tietoja voidaan käyttää myös tunnistamiseen, todentamiseen, petosten estämiseen ja tarjoamamme palvelun parantamiseen, mukaan lukien ongelmanratkaisu, markkinatutkimus ja Käyttöehtojemme noudattaminen."
+        ]
+      },
+      {
+        "heading": "8. Miten Interfy KÄSITTELIJÄNÄ käsittelee alustalle tallentamiasi asiakirjoja ja tietoja",
+        "paragraphs": [
+          "Sisältöä, jonka sinä ja organisaatiosi henkilöt tallennatte Interfy-alustalle, ei näe tukitiimimme, paitsi jos alustan pääkäyttäjä antaa käyttäjätunnuksen ja salasanan jollekulle työntekijällemme, yksinomaan teknisen tuen ja sovelluksen käytön ohjaamisen tarkoituksessa — ja käyttäjä on pääkäyttäjän poistettava käytöstä tuen päättyessä. Jokainen asiakas saa eristetyn tietokannan, joka takaa tiedon käyttöoikeuden suojan: sisältöön pääsevät käsiksi vain henkilöt, joille alustan pääkäyttäjä on antanut käyttäjätunnuksen ja salasanan sekä vastaavat käyttöoikeudet. Kaikki tallennettu sisältö ja tiedot (tietueet, sähköiset tiedostot, metatiedot, lomakkeet, prosessit jne.) siirretään palvelimillemme AWS-infrastruktuuriin (jolla on ISO/IEC 27001:2022-, SOC 2 Type II- ja HIPAA Ready -sertifikaatit sekä LGPD- ja GDPR-vaatimustenmukaisuus), REKISTERINPITÄJÄN valtuuttamien henkilöiden kirjoittamana, skannaamana ja/tai lataamana, alustan pääkäyttäjän ennalta määrittämien sääntöjen ja asetusten mukaisesti; sisältö kulkee työasemien tai laitteiden välillä ja siirtyy HTTPS-yhteyden kautta TLS-salausta käyttäen."
+        ]
+      },
+      {
+        "heading": "9. Jakaminen kolmansien osapuolten kanssa",
+        "paragraphs": [
+          "Interfy voi jakaa tietojasi liikekumppaneiden kanssa, kun katsomme heidän olevan luotettavia ja tarjoavan sinulle relevantteja tuotteita ja palveluita, tai jotta voimme toteuttaa tämän palvelusopimuksen — esimerkiksi hosting-palveluntarjoajien kanssa. Kun meidän on tehtävä tämä, varmistamme, että kolmas osapuoli on luotettava ja säilyttää tietojesi luottamuksellisuuden.",
+          "Jos Interfy käy läpi sulautumis-, hankinta- tai omistusrakenteen muutosprosessin, yritys voi jakaa tietosi kolmansien osapuolten kanssa tämän prosessin seurauksena.",
+          "Jos käytät sovellustamme suoraan kolmannen osapuolen sovellusten kautta, tietosi voidaan jakaa niiden kanssa; varmista, että luotat sovellukseen ja tarkista sen omistavan yrityksen tietosuojakäytännöt.",
+          "Voimme jakaa tietoja kolmansien osapuolten sovellusten kanssa API:n käytön avulla, jolloin tallennettuja tietoja voidaan hakea ja/tai kopioida muihin sovelluksiin, alustallamme tallennetuista tiedoista vastaavan REKISTERINPITÄJÄN asianmukaisella suostumuksella.",
+          "Interfy voi paljastaa henkilötietojasi, kun lain tai säädöksen niin vaatiessa, tarkoituksenaan suojata jonkun henkilön turvallisuutta petostapauksissa, suojata oikeutta elämään ja vapauteen, tai suojata Interfyn oikeuksia.",
+          "Käytämme kolmansien osapuolten analytiikkatyökaluja, jotka keräävät selaimesi lähettämiä tietoja osana verkkosivupyyntöä, selainlaajennuksia ja muita tietoja, auttaaksemme meitä mittaamaan liikennettä ja Palveluidemme käyttötrendejä.",
+          "Interfy voi tallentaa ja käsitellä henkilötietoja kolmansien osapuolten markkinointijärjestelmissä, asiakkuudenhallintajärjestelmissä (CRM) ja sähköpostinhallintajärjestelmissä, edistääkseen yrityksen toimintaa ja helpottaakseen vuorovaikutusta käyttäjien ja mahdollisten asiakkaiden kanssa."
+        ]
+      },
+      {
+        "heading": "10. Blogi ja yhteisö",
+        "paragraphs": [
+          "Voimme luoda julkisesti käytettäviä blogeja ja yhteisöjä, mukaan lukien keskustelupalstoja. Kaikki tieto, jonka lisäät näille alueille, voi olla muiden luettavissa, joita emme voi valvoa, ja se voidaan myös kerätä ja käyttää kenen tahansa tämän sisällön nähneen toimesta; julkaistut tiedot voivat pysyä saatavilla myös sen jälkeen, kun olet lopettanut tilisi käytön.",
+          "Jos poistat blogi- ja/tai yhteisöpalveluun julkaisemasi tiedot, kopiot voivat säilyä palvelun välimuistissa tai muiden käyttäjien hallussa. Jos haluat, että poistamme näitä tietoja, lähetä sähköposti osoitteeseen privacidade@interfy.ai; joissakin tapauksissa emme kuitenkaan voi poistaa tällaisia tietoja."
+        ]
+      },
+      {
+        "heading": "11. Kansainvälinen tietojen jakaminen",
+        "blocks": [
+          {
+            "p": "Palvelujemme hosting on hajautettu seuraaville alueille:"
+          },
+          {
+            "ul": [
+              "Amazon AWS — São Paulo (Brasilia) ja Virginia (Yhdysvallat)."
+            ]
+          },
+          {
+            "p": "Tiedot jaetaan automatisoidusti itse infrastruktuurin teknologisten resurssien avulla. Tietojen suojaamiseksi otamme käyttöön turvatoimia LGPD:n määräysten mukaisesti, ja yhdessä AWS-toimittajan kanssa käytämme suojauksia vahinkotuhoa, luvattomia käyttöyrityksiä vastaan, automatisoituja varmuuskopioita ja tietoturvakäytännön mukaisia organisatorisia toimenpiteitä, muiden kohtuullisten teknisten seikkojen lisäksi."
+          },
+          {
+            "p": "Euroopan unionin, Yhdistyneen kuningaskunnan, Liechtensteinin, Norjan, Islannin ja muiden maiden käyttäjien tietoja säilytetään Yhdysvalloissa Interfyn ja sen palveluntarjoajien välityksellä; jos et asu Yhdysvalloissa, lait voivat poiketa asuinmaasi laeista. Käyttämällä Palveluita hyväksyt, että kaikki sinua koskevat henkilötiedot toimitetaan Interfylle Yhdysvalloissa ja isännöidään Yhdysvaltain palvelimilla, ja valtuutat Interfyn siirtämään, tallentamaan ja käsittelemään tietojasi Yhdysvalloista ja Yhdysvalloissa, ja tarpeen mukaan muissa tässä käytännössä mainituissa maissa. Brasilialaisten käyttäjien tiedot voidaan tallentaa Yhdysvalloissa ja Brasiliassa."
+          }
+        ]
+      },
+      {
+        "heading": "12. Tietojen käsittelyaika ja säilytys",
+        "blocks": [
+          {
+            "p": "Tiedot, joiden osalta Interfy on REKISTERINPITÄJÄ: suoraan tai asiakkaidemme kautta Alustalta kerätyt tiedot säilytetään vain palvelujen tarjoamiseen tarvittavan ajan, tai sopimustemme ja lakisääteisten, kirjanpidollisten ja verotuksellisten velvoitteiden täyttämiseen tarvittavan ajan. Poistamista tai anonymisointia varten olemme laatineet sisäiset käytännöt, jotka varmistavat prosessin turvallisuuden, ja voimme säilyttää tietoa jopa 3 kuukautta palvelujen käytön päättymisen jälkeen turvamarginaalina ennen poistamista tai anonymisointia. Markkinointiosaston käyttämiä tietoja voidaan säilyttää niin kauan kuin katsomme palvelujemme voivan olla relevantteja tulevalle tilaukselle, tai kunnes peruutat tilauksesi tai pyydät tietojen poistamista."
+          },
+          {
+            "p": "Tiedot, joiden osalta Interfy on KÄSITTELIJÄ: säilytetään, kunnes REKISTERINPITÄJÄ pyytää poistoa ja kunnes voimme suorittaa sen turvallisesti, varmistaen, että kaikki tiedot on lopullisesti poistettu, mikä voi kestää jopa 90 päivää. Interfy vaatii, että kaikki palveluitamme tilaavat ja käyttävät luonnolliset ja oikeushenkilöt toimivat kaikkien sovellettavien lakien ja säädösten sekä tämän käytännön mukaisesti, ja voi lopettaa palvelujen tarjoamisen yksipuolisesti, jos havaitsee, että tilaajan käyttäjät rikkovat henkilötietojen suojaa koskevia sääntöjä, Käyttöehtojemme mukaisesti."
+          },
+          {
+            "p": "Vaatimustenmukaisuuden ylläpitämiseksi käsiteltävät tiedot: tiedot, jotka ovat tarpeen Interfy-konsernin vero-, sosiaaliturva-, työ- ja lakisääteisten velvoitteiden täyttämiseksi kaikissa maissa, joissa toimimme, säilytetään kunkin maan lain määrittämän ajan."
+          }
+        ],
+        "relatedLink": {
+          "label": "Katso koko käyttöehdot",
+          "href": "/legal/termos"
+        }
+      },
+      {
+        "heading": "13. Suostumuksesta",
+        "paragraphs": [
+          "Hyväksymällä Tietosuojakäytäntömme ja rekisteröitymällä käyttämään alustaamme tai jotakin Palveluistamme, oletetaan, että hyväksyt sen ja valtuutat meidät käsittelemään tietojasi tämän käytännön mukaisesti.",
+          "Sinulla on oikeus peruuttaa suostumuksesi kokonaan tai osittain Henkilötietojesi käsittelyyn. Tätä varten ota yhteyttä osoitteeseen privacidade@interfy.ai, ja lopetamme henkilötietojesi käsittelyn alkuperäisesti suostuttuihin tarkoituksiin, ellei ole olemassa laillisia ja vakuuttavia syitä jatkaa Henkilötietojesi käsittelyä, jotka kumoavat etusi, oikeutesi ja vapautesi, tai oikeudellisten toimien perustamiseksi, käyttämiseksi tai puolustamiseksi."
+        ]
+      },
+      {
+        "heading": "14. Tietojesi korjaaminen, päivittäminen tai poistaminen",
+        "paragraphs": [
+          "Voit pyytää suoraan Interfylle antamiesi henkilötietojen korjaamista, päivittämistä tai poistamista; tiimimme tekee parhaansa vastatakseen pyyntöösi sovellettavassa lakisääteisessä määräajassa, mutta emme vastaa vastauksemme toimituksen mahdollisesta epäonnistumisesta.",
+          "Kun tietojasi käsittelee joku palveluitamme tilaavista asiakkaistamme, sinun on osoitettava pyyntösi suoraan palveluntarjoajallesi (asiakkaallemme), joka toimii tietojesi REKISTERINPITÄJÄNÄ."
+        ]
+      },
+      {
+        "heading": "15. Kalifornian käyttäjien tietosuojaoikeudet",
+        "paragraphs": [
+          "Kalifornian asukkailla on oikeus pyytää meiltä ilmoitus, jossa yksilöidään henkilötietojen luokat, joita jaamme kumppaneidemme tai kolmansien osapuolten kanssa markkinointitarkoituksiin, mukaan lukien kunkin kolmannen osapuolen yhteystiedot. Jos asut Kaliforniassa, käytät palveluitamme ja haluat pyytää näitä tietoja, lähetä pyyntö osoitteeseen privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "16. Lasten henkilötiedot",
+        "paragraphs": [
+          "Emme kerää tai pyydä tarkoituksellisesti alle 13-vuotiaiden henkilötietoja Tilaussopimuksemme mukaisesti. Jos olet alle 13-vuotias, älä yritä rekisteröityä palveluihin tai lähettää meille mitään henkilötietoa itsestäsi. Jos huomaamme, että alle 13-vuotias on luonut tilin tai lähettänyt meille tietoja suoraan tällaisissa olosuhteissa, poistamme kaikki tiedot mahdollisimman pian. Jos havaitset, että alle 13-vuotias lapsi on rekisteröinyt tilin palveluihimme tai antanut henkilötietoja, ota yhteyttä meihin osoitteessa privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "17. Henkilötietojen käsittelyn oikeusperusta",
+        "blocks": [
+          {
+            "p": "Käsittelemme henkilötietojasi vain, jos meillä on siihen oikeusperusta. Käytämme seuraavia oikeusperusteita:"
+          },
+          {
+            "ul": [
+              "Sopimuksen täyttäminen: tietoja käsitellään Käyttöehtomme täyttämiseksi kanssasi, ja ne ovat olennaisia, jotta voimme tarjota palveluita — niitä ilman emme pystyisi tekemään sitä. Sisältää tilin olennaiset tiedot, olennaiset ensisijaiset evästeet, yhteystiedot ja kolmannen osapuolen tilitiedot (jos sellaisia on), kuten Active Directory -kirjautumisen tapauksessa.",
+              "Suostumus: joissakin tapauksissa käsittelemme henkilötietoja sinun keräämishetkellä nimenomaisesti antamasi suostumuksen perusteella.",
+              "Oikeutettu etu: keräämme tiettyjä tietoluokkia, kun uskomme niiden edistävän oikeutettua etuamme tai kolmannen osapuolen etua, kuten laskutustietoja, verkkolomaketietoja, tilin lisätietoja, puhelinta, chatia ja sähköpostia (kun kerätty muulla tavalla kuin palvelun käyttäjätilin kautta), tapahtuma- ja yhteisötietoja, seurantaevästeitä, tukilippuja, laitetunnisteita ja verkkomajakoita.",
+              "Muut syyt: voimme käsitellä tietoja lakisääteisten, kirjanpidollisten, verotuksellisten ja työoikeudellisten velvoitteiden täyttämiseksi, rekisteröityjen elintärkeiden etujen suojaamiseksi, tai viranomaisten ja/tai tuomioistuinten vaatimusten täyttämiseksi."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "18. Yleiset määräykset",
+        "paragraphs": [
+          "Jos tähän Tietosuojakäytäntöön tehdään päivitys, julkaisemme tällä sivulla uuden version, joka päivittää tiedot.",
+          "Käytäntömme kattaa vain pääsyn sivustoillemme ja sovelluksiimme. Kolmansien osapuolten sivustojen linkit eivät kuulu Tietosuojakäytäntömme piiriin."
         ]
       }
     ]
@@ -343,7 +667,7 @@
         ],
         "relatedLink": {
           "label": "Katso koko tietoturva-arkkitehtuuri",
-          "href": "/legal/seguranca"
+          "href": "/seguranca"
         }
       },
       {

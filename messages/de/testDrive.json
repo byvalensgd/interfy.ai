@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Wir empfehlen eine ",
-      "paragraphHighlight": "7-tägige Reise",
-      "paragraphNote": " (alles ist jedoch bereits ab dem ersten Tag verfügbar)",
+      "headingPrefix": "Wir empfehlen eine ",
+      "headingHighlight": "7-tägige Reise",
+      "headingSuffix": "",
+      "paragraph": "(alles ist jedoch bereits ab dem ersten Tag verfügbar)",
       "dayLabel": "Tag {number}",
       "days": [
         { "line1": "Lernen Sie Ihren", "line2": "Workspace kennen" },

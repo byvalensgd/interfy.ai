@@ -28,7 +28,6 @@ type Certifications = {
 };
 
 export type LegalContentData = {
-  eyebrow: string;
   title: string;
   updatedLabel: string;
   sidebarLabel: string;
@@ -154,11 +153,11 @@ export default function LegalContent({
   content: LegalContentData;
   /** Search block copy — shared across the legal documents (Termos/Privacidade/LGPD). */
   search: LegalSearchDict;
-  /** Localized href for the certifications block's "see details" link (e.g. /legal/seguranca). */
+  /** Localized href for the certifications block's "see details" link (e.g. /seguranca). */
   certificationsCtaHref?: string;
   locale: Locale;
 }) {
-  const { eyebrow, title, updatedLabel, sidebarLabel, intro, sections, certifications } = content;
+  const { title, updatedLabel, sidebarLabel, intro, sections, certifications } = content;
   const [firstWord, ...rest] = title.split(" ");
   const restText = rest.join(" ");
 
@@ -239,12 +238,8 @@ export default function LegalContent({
         aria-label={ariaLabel}
         className="relative z-10 flex justify-center bg-gradient-to-b from-bg-base to-[#e8f1f8] px-5 py-16 sm:py-20"
       >
-        <div className="flex w-full max-w-[800px] flex-col items-center gap-8">
+        <div className="flex w-full max-w-[800px] flex-col items-center gap-16">
           <Reveal immediate className="flex flex-col items-center gap-5 text-center">
-            <span className="rounded-full border border-azul-base/20 bg-azul-bg-superior px-4 py-1.5 text-sm font-bold leading-[1.2] text-azul-base">
-              {eyebrow}
-            </span>
-
             <h1 className="text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto">
               {firstWord}
               {restText && (
@@ -326,14 +321,14 @@ export default function LegalContent({
       </section>
 
       <section className="flex justify-center bg-branco px-5 py-16 sm:py-20">
-        <div className="flex w-full max-w-[1200px] items-start gap-10 lg:gap-[60px]">
+        <div className="flex w-full max-w-[1200px] items-start gap-20 lg:gap-[120px]">
           <aside className="sticky top-[calc(var(--header-height)+20px)] hidden w-[260px] shrink-0 flex-col gap-1 self-start xl:flex">
             <p className="mb-2 text-xs font-bold uppercase tracking-wider text-texto-medio">{sidebarLabel}</p>
             {sections.map((section, i) => (
               <a
                 key={section.heading}
                 href={`#section-${i}`}
-                className={`border-l-2 py-1 pl-3 text-sm font-medium leading-[1.4] transition-colors hover:border-azul-base hover:text-azul-base ${
+                className={`border-l-2 py-1 pl-3 text-base font-medium leading-[1.4] transition-colors hover:border-azul-base hover:text-azul-base ${
                   i === activeIndex ? "border-azul-base text-azul-base" : "border-transparent text-texto-medio"
                 }`}
               >
@@ -342,9 +337,9 @@ export default function LegalContent({
             ))}
           </aside>
 
-          <article className="flex min-w-0 flex-1 flex-col gap-10">
-            <Reveal immediate className="rounded-2xl border border-contorno-base bg-bg-base p-6 sm:p-8">
-              <p className="text-sm leading-[1.6] font-medium text-texto-medio">{intro}</p>
+          <article className="flex min-w-0 flex-1 flex-col gap-20">
+            <Reveal immediate className="rounded-2xl border border-contorno-base bg-bg-base p-9 sm:p-12">
+              <p className="text-base leading-[1.6] font-medium text-texto-medio">{intro}</p>
             </Reveal>
 
             {certifications && (
@@ -453,7 +448,7 @@ export default function LegalContent({
                       {section.relatedLink && (
                         <Link
                           href={localizeHref(section.relatedLink.href, locale)}
-                          className="inline-flex w-fit items-center gap-1.5 text-sm leading-[1.2] font-bold text-azul-base hover:underline"
+                          className="inline-flex w-fit items-center gap-1.5 text-base leading-[1.2] font-bold text-azul-base hover:underline"
                         >
                           {section.relatedLink.label}
                           <ArrowUpRight className="size-4" aria-hidden="true" />

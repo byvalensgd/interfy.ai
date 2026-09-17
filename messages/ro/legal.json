@@ -42,91 +42,269 @@
     "intro": "Acești Termeni și Condiții guvernează accesul și utilizarea platformei Interfy, inclusiv produsele Documents, Process, Capture, Sign, Connect, Agents, Mobile și Voice, puse la dispoziție de Interfy Corporation. Prin crearea unui cont sau utilizarea serviciilor noastre, sunteți de acord cu condițiile descrise mai jos. Acest document este un document standard și trebuie revizuit de echipa juridică înainte de publicarea finală.",
     "sections": [
       {
-        "heading": "1. Acceptarea termenilor",
-        "paragraphs": [
-          "Prin accesarea sau utilizarea platformei Interfy, declarați că ați citit, înțeles și acceptat integral acești Termeni și Condiții, precum și Politica noastră de Confidențialitate. Dacă nu sunteți de acord cu vreo prevedere, nu trebuie să utilizați serviciile."
-        ]
-      },
-      {
-        "heading": "2. Descrierea serviciului",
-        "paragraphs": [
-          "Interfy oferă o platformă enterprise care reunește gestiunea documentelor, automatizarea proceselor (BPM), captarea inteligentă, semnătura electronică, integrări, agenți de IA și aplicații mobile, disponibilă prin abonament (SaaS)."
-        ]
-      },
-      {
-        "heading": "3. Înregistrare și cont",
-        "paragraphs": [
-          "Pentru a utiliza platforma, este necesar să creați un cont cu informații reale, complete și actualizate. Sunteți responsabil pentru păstrarea confidențialității credențialelor de acces și pentru toate activitățile desfășurate în contul dumneavoastră."
-        ],
-        "items": [
-          "Nu partajați parolele sau credențialele de acces cu terți neautorizați",
-          "Notificați Interfy imediat în cazul suspiciunii de utilizare neautorizată a contului",
-          "Mențineți datele de înregistrare actualizate"
-        ]
-      },
-      {
-        "heading": "4. Utilizare acceptabilă",
-        "paragraphs": [
-          "Sunteți de acord să nu utilizați platforma în scopuri ilegale, pentru a încălca drepturile terților, pentru a distribui malware sau pentru a încerca să accesați zone sau date fără autorizare."
-        ]
-      },
-      {
-        "heading": "5. Proprietate intelectuală",
-        "paragraphs": [
-          "Platforma Interfy, inclusiv software-ul, mărcile, layout-urile și conținuturile, este proprietatea Interfy Corporation sau a licențiatorilor săi, protejată prin legile privind proprietatea intelectuală. Nicio prevedere din acești Termeni nu transferă drepturi de proprietate intelectuală către client, cu excepția licenței de utilizare a platformei pe durata abonamentului."
-        ]
-      },
-      {
-        "heading": "6. Planuri, plată și anulare",
-        "paragraphs": [
-          "Accesul la platformă este acordat în funcție de planul contractat. Valorile, modalitățile de plată și condițiile de reînnoire sunt comunicate în momentul contractării. Anularea poate fi solicitată oricând, cu respectarea condițiilor specifice fiecărui plan."
-        ]
-      },
-      {
-        "heading": "7. Date și conținut al clientului",
-        "paragraphs": [
-          "Orice conținut trimis, stocat sau procesat de client pe platformă (\"Conținutul Clientului\") rămâne în proprietatea clientului. Interfy acționează ca operator al acestor date, prelucrându-le conform instrucțiunilor clientului și Politicii noastre de Confidențialitate."
-        ]
-      },
-      {
-        "heading": "8. Disponibilitate și suport",
-        "paragraphs": [
-          "Interfy operează cu infrastructură cloud-native Multi-AZ pe AWS, cu SLA de disponibilitate de 99,99%, monitorizare continuă 24/7 și plan de recuperare în caz de dezastru cu replicare geografică.",
-          "Suportul este oferit conform canalelor și termenelor descrise pe pagina noastră de Suport, iar istoricul de disponibilitate și incidente este publicat în timp real pe pagina de Status al Platformei."
+        "heading": "1. Definiții",
+        "blocks": [
+          {
+            "ul": [
+              "Utilizatori: sunt toate persoanele autorizate de Client, prin acordarea unui login și a unei parole, să acceseze și să utilizeze serviciile Platformei. „Utilizatorii” pot fi angajați direcți, prestatori de servicii, personal externalizat, consultanți etc., cu care Clientul desfășoară activități.",
+              "Servicii: este ansamblul de instrumente și funcționalități furnizate online de Interfy prin contul de acces creat de dumneavoastră sau de unul dintre partenerii noștri de afaceri autorizați, pe unul dintre portalurile noastre web.",
+              "Date: înseamnă orice date sau documente colectate, prelucrate și păstrate de/pentru Client, utilizând soluțiile puse la dispoziție pe Platformă de către Interfy.",
+              "Proprietate Intelectuală: sunt toate secretele comerciale, mărcile înregistrate sau neînregistrate pentru produse sau servicii, brevetele și cererile de brevet, denumirile comerciale, drepturile de autor, drepturile morale, de invenție sau de proprietate intelectuală și toate celelalte drepturi ale Interfy, oriunde în lume.",
+              "Politica de Confidențialitate: înseamnă regulile și practicile care reglementează modul în care Interfy tratează confidențialitatea informațiilor prelucrate pe Platforma de Servicii Online."
+            ]
+          },
+          {
+            "p": "Politica de Confidențialitate este asociată acestui termen de acceptare a abonării la servicii și conține informații despre modul în care colectăm și prelucrăm datele cu caracter personal prin site-urile și serviciile noastre."
+          },
+          {
+            "ul": [
+              "Platformă Online: înseamnă mediul virtual prin care utilizatorul, după crearea workspace-ului, poate accesa și utiliza serviciile contractate.",
+              "Cod Malițios: sunt fișiere de date, programe sau cod sursă al căror scop este să provoace daune funcționării platformei, precum virușii, de exemplu.",
+              "Factură (Invoice): este documentul emis pentru facturarea lunară a serviciilor prestate, utilizat și ca document fiscal.",
+              "Contract: este echivalentul acestui termen de acord privind abonarea la serviciile furnizate de Interfy.",
+              "Documentație: înseamnă materialele de ajutor și instruire puse la dispoziția utilizatorilor Clientului de către Interfy, actualizate periodic.",
+              "Cont Virtual: este contul utilizat de Client pentru a accesa serviciile furnizate de Interfy, realizat online exclusiv de utilizatorii autorizați de Client, prin care sunt puse la dispoziție toate funcționalitățile contractate.",
+              "Servicii Terțe: înseamnă alte servicii care pot fi utilizate împreună cu soluțiile puse la dispoziție prin platforma online, pentru care Interfy nu va fi responsabilă de funcționare sau de interferențele cu serviciile contractate conform acestui termen."
+            ]
+          }
         ],
         "relatedLink": {
-          "label": "Vedeți arhitectura completă de securitate",
-          "href": "/legal/seguranca"
+          "label": "Vezi Politica de Confidențialitate completă",
+          "href": "/legal/privacidade"
         }
       },
       {
-        "heading": "9. Limitarea răspunderii",
-        "paragraphs": [
-          "În limita maximă permisă de legea aplicabilă, Interfy nu va fi răspunzătoare pentru daune indirecte, incidentale sau pe cale de consecință rezultate din utilizarea sau imposibilitatea de utilizare a platformei."
+        "heading": "2. Condiții generale",
+        "blocks": [
+          {
+            "p": "Interfy va pune la dispoziție, prin formalizarea adeziunii la servicii prin acceptarea acestui Termen de Acord de Abonare (Contract) și a Politicii de Confidențialitate, după caz: a) soluția achiziționată de Client conform planului selectat în momentul adeziunii online; b) suport tehnic standard pentru soluțiile achiziționate, fără cost adițional pentru Client; c) va menține soluția achiziționată disponibilă online 24 de ore din 24, 7 zile din 7, cu excepția perioadelor de indisponibilitate programate anterior, sau a oricărei indisponibilități cauzate de circumstanțe care exced controlul rezonabil al Interfy, inclusiv defecțiuni sau probleme ale furnizorului de internet și/sau de infrastructură, probleme cu conexiuni externe soluției contractate, sau legate de blocarea serviciilor, indiferent de cauză."
+          },
+          {
+            "p": "Serviciile pot include componente, sisteme și alte servicii ale unor terți, cărora li se pot aplica termeni adiționali, politici sau cerințe ale altor furnizori, inclusiv cerințe de vârstă."
+          },
+          {
+            "p": "Politica de Confidențialitate disponibilă pe acest site face parte integrantă din acest Contract. Interfy va menține protecții administrative, fizice și tehnice pentru a asigura securitatea, confidențialitatea și integritatea conținutului stocat, având în vedere un standard de piață rezonabil și acceptabil. Este necesar să respectați politicile puse la dispoziție în cadrul Serviciilor și să nu faceți o utilizare abuzivă, să nu interferați cu utilizarea Serviciilor și nici să nu încercați să le accesați printr-o altă metodă decât interfața și instrucțiunile și metodele legale pe care le punem la dispoziție."
+          },
+          {
+            "p": "Puteți utiliza serviciile numai în modul permis de lege. Putem suspenda sau întrerupe furnizarea Serviciilor dacă nu respectați Termenii sau Politicile noastre, sau orice legi aplicabile, sau dacă investigăm cazuri de suspiciune de conduită necorespunzătoare."
+          },
+          {
+            "p": "Trebuie să acceptați să nu utilizați și să nu permiteți terților să utilizeze Serviciile sau conținutul într-un mod care violează orice lege și regulile acestui contract și ale Politicii de Confidențialitate. Sunteți de acord că nu veți:"
+          },
+          {
+            "ul": [
+              "Acorda acces sau furniza vreo parte a Serviciilor unor terți nelegați de afacerea dumneavoastră.",
+              "Reproduce, modifica, copia, decompila, vinde, comercializa sau revinde Serviciile, cu excepția cazului în care sunteți un revânzător autorizat de Interfy și autorizat în scris."
+            ]
+          },
+          {
+            "p": "Serviciile sunt protejate de drepturi de autor, secrete comerciale și alte legi de proprietate intelectuală care includ, printre altele, orice mărci sau logo-uri utilizate pe site-uri. Aveți dreptul să utilizați Serviciile numai în scopurile descrise în acest contract de abonare."
+          },
+          {
+            "p": "Interfy își rezervă toate celelalte drepturi asupra Serviciilor, fie că îi apartin ei, fie unor terți. Până la rezilierea acestui Contract și cu condiția să respectați toate obligațiile de plată aplicabile și să fiți în conformitate cu acest Contract, Interfy vă acordă un drept personal, limitat, neexclusiv și netransferabil, și o licență de a utiliza Serviciile."
+          },
+          {
+            "p": "Răspundem la notificările privind presupuse violări ale drepturilor de autor și închidem conturile infractorilor recidiviști conform procedurilor stabilite de legile americane privind drepturile de autor. Furnizăm informații pentru a ajuta titularii drepturilor de autor să își gestioneze proprietatea intelectuală online."
+          },
+          {
+            "p": "Dacă înțelegeți că cineva vă violează drepturile de autor și doriți să ne notificați, puteți trimite notificarea dumneavoastră la contato@interfy.ai. Serviciile vă permit să încărcați conținut, date și documente pentru stocare. Păstrați proprietatea asupra oricăror drepturi de proprietate intelectuală pe care le deținați asupra acelui conținut sau document. În concluzie, ceea ce vă apartine rămâne al dumneavoastră."
+          }
         ]
       },
       {
-        "heading": "10. Reziliere",
+        "heading": "3. Contul dumneavoastră",
         "paragraphs": [
-          "Interfy poate suspenda sau înceta accesul la platformă în cazul încălcării acestor Termeni, cu notificare prealabilă, cu excepția cazurilor de risc iminent pentru securitatea platformei sau a terților."
+          "Trebuie să creați un cont pentru a utiliza Serviciile. Vă puteți crea propriul cont pe site sau acesta vă poate fi atribuit de un administrator Partener al Interfy. Dacă utilizați un cont al Platformei de Servicii Online care v-a fost atribuit de un administrator, se pot aplica termeni diferiți sau adiționali, iar administratorul dumneavoastră poate avea posibilitatea de a bloca sau dezactiva contul dumneavoastră."
         ]
       },
       {
-        "heading": "11. Modificări ale termenilor",
+        "heading": "4. Păstrarea și eliminarea datelor dumneavoastră",
         "paragraphs": [
-          "Acești Termeni pot fi actualizați periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă, cu un preaviz rezonabil înainte de intrarea în vigoare."
+          "Datele Clientului vor fi stocate în baza de date a Interfy, atât timp cât contul a fost creat și acest contract este valabil. Conform Politicii de Confidențialitate, datele vor fi eliminate (șterse definitiv) în cel mult 90 de zile de la încetarea contractului."
         ]
       },
       {
-        "heading": "12. Legea aplicabilă și jurisdicția",
+        "heading": "5. Prelucrarea datelor cu caracter personal, transferul și confidențialitatea",
         "paragraphs": [
-          "Acești Termeni sunt guvernați de legile Republicii Federative a Braziliei, fără a aduce atingere prevederilor contractuale specifice pentru clienții din alte jurisdicții."
+          "Puteți consulta Politica de Confidențialitate a Interfy, disponibilă pe site-ul nostru. Trebuie să fiți de acord cu Politica de Confidențialitate și cu orice modificări publicate de Interfy. Sunteți de acord că Interfy poate utiliza și păstra datele dumneavoastră conform Politicii de Confidențialitate, ca parte a Serviciilor. Acordați Interfy permisiunea de a combina informații identificabile și neidentificabile pe care le introduceți sau le încărcați în Servicii cu cele ale altor utilizatori ai Serviciilor și/sau ale altor servicii ale Interfy. Aceasta înseamnă că Interfy poate utiliza date agregate ale utilizatorilor săi pentru a îmbunătăți Serviciile sau pentru a proiecta promoții și pentru a oferi modalități de comparare a practicilor de afaceri cu alți utilizatori. Interfy este o companie globală și poate accesa sau stoca informații personale în mai multe țări, conform specificat în Politica noastră de Confidențialitate.",
+          "Clientul și Interfy se angajează să trateze informațiile clasificate legal ca date cu caracter personal, în temeiul prezentului contract, respectând legislația aplicabilă, sub sancțiunea răspunderii pentru neîndeplinirea obligațiilor contractuale, fără a prejudicia dreptul la despăgubiri. Prelucrarea datelor cu caracter personal se va face exclusiv în conformitate cu scopul stabilit în acest contract.",
+          "Părțile se angajează să nu transfere și/sau să nu partajeze cu terți datele cu caracter personal prelucrate, cu excepția cazului în care acest lucru este o cerință esențială pentru îndeplinirea prezentului termen sau a obligațiilor legale/judiciare; totuși, chiar dacă una dintre părți este obligată legal să transfere date unor terți, trebuie să notifice cealaltă parte și să asigure confidențialitatea și integritatea datelor, sub sancțiunea răspunderii. Informații despre cu cine partajăm date pentru a furniza serviciile noastre pot fi consultate în Politica noastră de Confidențialitate.",
+          "Clientul va fi responsabil pentru respectarea acestui contract de către utilizatorii săi, pentru exactitatea, cantitatea, calitatea și legalitatea datelor sale și a mijloacelor prin care le-a obținut, și pentru metodele și forma de prelucrare a informațiilor sale stocate, făcând toate eforturile pentru a garanta utilizarea platformei în conformitate cu reglementările aplicabile, atât în ceea ce privește legalitatea, confidențialitatea, integritatea și securitatea datelor prelucrate, cât și pentru a utiliza serviciile conform scopului specificat în acest termen de abonare.",
+          "Dacă Clientul conectează alte aplicații la serviciile noastre și le utilizează împreună cu soluțiile noastre, Clientul este conștient și de acord că furnizorul acelei aplicații, indiferent de modul de conectare, poate accesa și copia datele Clientului, după cum este necesar pentru a opera aplicația. Interfy nu este responsabilă pentru niciun incident, divulgare, modificare sau eliminare a datelor rezultată din accesul unui terț autorizat de Client.",
+          "Dacă Interfy identifică faptul că o aplicație conectată nu oferă condiții rezonabile pentru interoperarea cu soluția contractată, poate întrerupe accesul terțului, fără vreo penalizare, rambursare sau compensație din partea Interfy. Interfy nu este obligată să evalueze aplicațiile terțe, dar poate face acest lucru dacă consideră relevant."
         ]
       },
       {
-        "heading": "13. Contact",
+        "heading": "6. Plata",
+        "blocks": [
+          {
+            "p": "Clientul va plăti în dolari americani toate valorile specificate în Contul Virtual referitoare la abonamentul planului inițial achiziționat, plus valorile de consum suplimentar, dacă există. Prin furnizarea informațiilor de plată, autorizați Interfy, sau terții contractați de noi pentru procesarea plăților, să debiteze de pe acel card de credit/debit sumele corespunzătoare soluției contractate, conform Facturii puse la dispoziție în fiecare ciclu de facturare. Trebuie să plătiți utilizând una dintre următoarele metode:"
+          },
+          {
+            "ul": [
+              "Un card de credit valid și acceptat de Interfy.",
+              "Un card de debit valid și acceptat de Interfy.",
+              "O altă opțiune de plată pusă la dispoziție de Interfy în scris sau disponibilă în setările planului dumneavoastră de abonament."
+            ]
+          },
+          {
+            "p": "Prima opțiune este cea mai obișnuită și validă pentru facturarea serviciilor furnizate în orice țară; pentru unele țări putem pune la dispoziție și celelalte opțiuni."
+          },
+          {
+            "p": "Dacă informațiile dumneavoastră de plată și de înregistrare nu sunt precise, actuale și complete, și nu le actualizați de fiecare dată când se modifică, putem suspenda sau închide contul dumneavoastră și refuza utilizarea Serviciilor."
+          },
+          {
+            "p": "Dacă nu ne notificați despre actualizări ale metodei dumneavoastră de plată (de exemplu, data de expirare a cardului de credit), pentru a evita întreruperea serviciului dumneavoastră putem participa la programe susținute de furnizorul cardului dumneavoastră (de exemplu, servicii de actualizare, programe de facturare recurentă etc.) pentru a încerca să actualizăm informațiile dumneavoastră de plată, iar dumneavoastră ne autorizați să continuăm facturarea contului dumneavoastră cu informațiile actualizate pe care le obținem, cu toate că aceasta nu este o obligație a Interfy."
+          },
+          {
+            "p": "Interfy va reînnoi automat Serviciile dumneavoastră lunare sau anuale la tarifele în vigoare la momentul respectiv, cu excepția cazului în care Serviciile sunt anulate sau reziliate conform acestui Contract."
+          },
+          {
+            "p": "Dacă nu se primește nicio sumă facturată de Interfy la data scadenței, fără a prejudicia alte măsuri aplicabile: a) se va percepe o dobândă de 1% din soldul restant pe lună, sau rata maximă permisă de lege, aplicându-se cea mai mică; și/sau b) serviciile pot fi suspendate atunci când întârzierea depășește 10 zile; c) în caz de întârziere de peste 30 de zile, Interfy poate utiliza servicii ale unor companii terțe pentru recuperarea sumei datorate, inclusiv taxele legale prevăzute de lege; și/sau d) informarea neplății la organismele și entitățile de protecție a creditului; și/sau e) eliminarea contului Clientului după 40 de zile de neplată nerezolvată."
+          },
+          {
+            "p": "În cazurile de încălcare materială a Contractului, suspendarea va fi imediat efectivă, indiferent de notificarea prealabilă."
+          },
+          {
+            "p": "Fără a prejudicia cele de mai sus, în cazul în care Clientul contestă în mod clar, rezonabil și de bună-credință facturile aplicabile și cooperează cu diligență pentru rezolvarea diferendului, Interfy va face toate eforturile pentru a rezolva problema cât mai rapid posibil și pentru a evita măsurile menționate mai sus."
+          },
+          {
+            "p": "Clientul este de acord că achizițiile sale nu sunt condiționate de vreo așteptare legată de livrarea unor funcționalități viitoare care vor fi dezvoltate, chiar dacă Interfy a făcut vreun comentariu oral sau scris despre funcționalități preconizate."
+          },
+          {
+            "p": "În cazul rezilierii acestui Contract, Interfy este autorizată de pe acum să elimine definitiv Contul Virtual al Clientului, printr-o notificare prin e-mail către Client."
+          }
+        ]
+      },
+      {
+        "heading": "7. Limite de utilizare",
         "paragraphs": [
-          "Întrebările referitoare la acești Termeni pot fi trimise la contato@interfy.ai."
+          "La crearea contului dumneavoastră, veți selecta planul inițial al soluției, unde vor fi definite resursele incluse în contractare, funcționalitățile, cantitatea de spațiu de stocare și numărul de utilizatori. Elemente opționale pot fi incluse la contractare, sau ulterior de către utilizatorul administrator al workspace-ului.",
+          "Cât timp acest contract este activ, Interfy nu va limita consumul utilizatorilor Clientului; astfel, chiar dacă există un pachet inițial de servicii, veți putea înregistra și menține activi câți utilizatori doriți, dacă exercitați rolul de administrator al platformei, fără limitare privind volumul de stocare. Lunar va fi contabilizat consumul total, care include valoarea pachetului inițial și toate elementele suplimentare, fie în număr de utilizatori activi, volum de stocare sau elemente adiționale, care, adunate, compun totalul facturii lunare. În cazul unor excedente, indiferent de aprobarea prealabilă a Clientului, Interfy este autorizată să realizeze facturarea pro rata a pachetului lunar, incluzând cantitățile adiționale.",
+          "Administratorul workspace-ului poate schimba planul de servicii pentru un plan mai mare decât consumul actual, sau un plan cu caracteristici și instrumente diferite; totuși, trebuie să fie conștient că, la migrarea către un plan cu mai puține funcționalități, toate funcțiile neincluse în noul plan vor fi întrerupte pentru utilizatori."
+        ]
+      },
+      {
+        "heading": "8. Modificarea sau anularea serviciilor",
+        "paragraphs": [
+          "Modificăm și îmbunătățim constant Serviciile. Putem include sau elimina funcționalități sau resurse, și putem, de asemenea, suspenda sau întrerupe complet un Serviciu. Puteți întrerupe utilizarea Serviciilor în orice moment, cu toate că am regreta să vă vedem plecând.",
+          "Interfy poate, de asemenea, să întrerupă furnizarea Serviciilor către dumneavoastră, sau să includă noi limite Serviciilor în orice moment. Credem că sunteți proprietarul datelor dumneavoastră și că este important să vă păstrăm accesul la ele. Dacă întrerupem un Serviciu, atunci când este posibil în mod rezonabil, veți fi informat în avans și veți avea șansa de a vă retrage informațiile din Serviciile noastre."
+        ]
+      },
+      {
+        "heading": "9. Excluderea garanțiilor",
+        "paragraphs": [
+          "Furnizăm Serviciile noastre utilizând un nivel rezonabil de competență și grijă și ne așteptăm să vă bucurați de utilizarea lor. Dar există anumite lucruri pe care nu le promitem despre Servicii. Cu excepția cazului în care se prevede expres în acești termeni sau în termeni adiționali, nici Interfy, nici furnizorii, partenerii sau distribuitorii săi nu oferă anumite garanții privind Serviciile. De exemplu, nu ne asumăm responsabilitatea pentru conținutul din Servicii, pentru funcționalități specifice, disponibilitate sau capacitatea de a satisface nevoile dumneavoastră. Furnizăm Serviciile „așa cum sunt”. Anumite jurisdicții prevăd anumite garanții, cum ar fi garanția implicită de vandabilitate, adecvare pentru un scop anume și non-violare. În măsura permisă de lege, excludem toate garanțiile.",
+          "Conform prevăzut în acest Contract, niciuna dintre părți nu oferă vreo garanție de niciun fel, expresă, implicită, statutară sau de altă natură, iar fiecare parte renunță expres la toate garanțiile implicite, inclusiv orice garanție implicită de vandabilitate, adecvare pentru un scop anume sau non-violare, în măsura maximă permisă de legea aplicabilă. Fiecare dintre părți este exonerată de orice răspundere și obligație de despăgubire pentru pierderi sau daune cauzate de orice furnizori terți de hosting și aplicații."
+        ]
+      },
+      {
+        "heading": "10. Licența și drepturile de proprietate",
+        "paragraphs": [
+          "Interfy își rezervă toate drepturile, titlul și interesul referitoare la Soluții, inclusiv toate drepturile sale de Proprietate Intelectuală conexe.",
+          "Serviciul este pus la dispoziție cu acces limitat și niciun drept de proprietate nu este transmis Clientului. Interfy deține și păstrează toate drepturile, titlurile și interesele, inclusiv toate drepturile de proprietate intelectuală, asupra serviciului, inclusiv toate modificările, actualizările, upgrade-urile, extensiile, componentele și lucrările derivate din servicii.",
+          "Clientul acordă Interfy și afiliaților sau partenerilor săi o licență mondială, cu durata limitată la perioada de valabilitate a acestui termen de abonare, pentru a copia, transmite, găzdui și afișa Datele dumneavoastră, inclusiv codul sursă atunci când este creat de sau pentru Client, precum și pentru aplicații terțe, după cum este necesar pentru ca Interfy să furnizeze accesul la Soluții în conformitate cu acest contract.",
+          "Interfy poate utiliza aceste Date colectate în scopul colectării de informații și metrici anonimizate, pentru a îmbunătăți și perfecționa Serviciile și pentru alte scopuri de dezvoltare, diagnosticare și corectare a produsului, întotdeauna în mod anonimizat, fără identificarea Clientului.",
+          "Clientul acordă Interfy o licență mondială, definitivă, irevocabilă și fără redevențe pentru a încorpora și utiliza în soluții noi resurse și funcționalități dezvoltate la solicitarea sau sugestia Clientului și/sau a utilizatorilor săi.",
+          "Interfy, furnizorii, partenerii și distribuitorii săi renunță la orice declarații sau garanții că utilizarea dumneavoastră a Serviciilor satisface sau garantează respectarea oricăror obligații legale, legi sau reglementări."
+        ]
+      },
+      {
+        "heading": "11. Responsabilități privind serviciile",
+        "paragraphs": [
+          "Atunci când este permis de lege, Interfy și furnizorii, partenerii și distribuitorii săi nu vor fi responsabili pentru pierderea profiturilor, pierderea veniturilor, pierderea datelor, pierderi financiare sau daune indirecte, speciale, subsecvente, exemplare sau punitive. În măsura permisă de lege, responsabilitatea totală a Interfy și a furnizorilor, partenerilor și distribuitorilor săi, pentru orice reclamație în temeiul acestor termeni, inclusiv orice garanții implicite, se limitează la suma pe care ați plătit-o Interfy în ultimele 12 luni pentru utilizarea Serviciilor. În toate cazurile, Interfy și furnizorii, partenerii și distribuitorii săi nu vor fi responsabili pentru nicio pierdere sau daună care nu este previzibilă în mod rezonabil.",
+          "Dacă utilizați Serviciile noastre în numele unei companii, acea companie trebuie să accepte acești termeni. Aceasta va exonera de răspundere și va despăgubi Interfy și afiliații, partenerii, distribuitorii, directorii, agenții și angajații săi de orice reclamație, proces sau acțiune în justiție provenind din sau legată de utilizarea Serviciilor sau de violarea acestor termeni, inclusiv orice răspundere sau cheltuială rezultată din reclamații, pierderi, daune, procese, hotărâri judecătorești, costuri de litigiu și onorarii de avocat.",
+          "Dacă Clientul este victima unui proces judiciar care afirmă că utilizarea Serviciilor contractate violează sau este rezultatul unei aproprieri ilegale a drepturilor de proprietate intelectuală ale unor terți, Interfy va apăra Clientul împotriva reclamației, cererii sau acțiunii în justiție, și îl va despăgubi pentru daune, cheltuieli și costuri atribuite unei decizii nefavorabile, cu condiția ca Clientul să notifice în scris Interfy prompt, într-un termen viabil pentru apărare, și să dea controlul exclusiv și suportul necesar Interfy pentru a promova apărarea, inclusiv opțiunea ca Interfy să modifice soluția sau să încheie acest contract cu un preaviz de 30 de zile.",
+          "Dacă Clientul este acționat în judecată pentru violarea proprietății intelectuale cauzată de aplicații terțe conectate la Serviciile obiect al acestui Contract, Interfy va fi exonerată de orice răspundere, iar obligațiile de apărare și despăgubire față de Client nu se vor aplica Interfy.",
+          "Dacă Interfy este victima unei reclamații, cereri, acțiuni sau proces judiciar prezentat de un terț sub afirmația că Datele stocate și prelucrate de Client, sau modul în care acesta utilizează serviciile și prelucrează datele, violează prezentul acord sau infringe vreo reglementare ori lege aplicabilă, inclusiv proprietatea intelectuală a unor terți, Clientul va despăgubi Interfy pentru daune, costuri și cheltuieli rezultate din apărare sau dintr-o eventuală condamnare, cu condiția ca Interfy să dea o notificare imediată și în scris Clientului și să îi dea controlul exclusiv al apărării printr-o solicitare în timp util, precizându-se că Clientul nu poate face o înțelegere în numele Interfy fără aprobarea sa prealabilă în scris. Interfy trebuie să ofere Clientului asistență rezonabilă, pe cheltuiala sa, pentru apărare."
+        ]
+      },
+      {
+        "heading": "12. Conținut",
+        "paragraphs": [
+          "Sunteți responsabil pentru toate materialele, documentele, datele și informațiile personale („Conținut”) încărcate, postate sau stocate prin utilizarea Serviciilor. Acordați Interfy o licență mondială, fără redevențe și neexclusivă pentru a găzdui și monitoriza orice Conținut furnizat prin utilizarea Serviciilor.",
+          "Trebuie să utilizați cele mai bune practici pentru a stoca conținutul dumneavoastră, întrucât sunteți responsabil pentru orice conținut pierdut sau irecuperabil din cauza neîndemânării sau utilizării greșite a Serviciului. Interfy nu este responsabilă pentru Conținutul sau datele trimise prin Platformă. Sunteți de acord să nu utilizați și să nu permiteți terților să utilizeze Serviciile pentru a încărca, publica, distribui, conecta, reproduce, implica sau transmite conținut ilegal, fraudulos, defăimător, obscen, pornografic, profan, amenințător, abuziv, ofensator sau reprobabil; care să impersoneze o altă persoană; de tip scrisori în lanț, scheme piramidale sau spam; viruși, cai troieni, viermi sau alt cod malițios; sau orice informație, software ori conținut care nu vă apartine legal și fără permisiunea corespunzătoare a titularului drepturilor.",
+          "Interfy poate, dar nu are obligația să monitorizeze conținutul Serviciilor. Putem divulga orice informație necesară pentru a satisface obligațiile noastre legale, pentru a proteja Interfy sau clienții săi, pentru a proteja confidențialitatea, pentru a promova securitatea și a proteja viața, sau pentru a opera Serviciile în mod adecvat.",
+          "Dacă Interfy este obligată prin lege să vă trimită comunicări despre Servicii sau produse terțe, sunteți de acord că Interfy poate să le trimită prin e-mail sau să le publice pe site-urile sau aplicațiile noastre la care aveți acces, respectând confidențialitatea informațiilor.",
+          "Partea care primește informații confidențiale le poate divulga numai atunci când este obligată prin lege, reglementare sau ordin judiciar sau administrativ, fiind obligată să notifice prompt cealaltă parte înainte de divulgare, pentru a facilita eforturile de protecție a informațiilor confidențiale, divulgând doar porțiunea strict cerută. Atunci când divulgarea este făcută în aceste condiții, partea care divulgă nu va fi trasă la răspundere pentru aceasta."
+        ]
+      },
+      {
+        "heading": "13. Rezilierea",
+        "blocks": [
+          {
+            "p": "Interfy poate, imediat, la discreția sa exclusivă și fără preaviz, rezilia acest Contract sau suspenda Serviciile dacă nu respectați termenii acestui Contract sau dacă nu mai sunteți de acord să primiți comunicări electronice. După încetare, trebuie să încetați imediat utilizarea Serviciilor, iar orice plăți restante vor fi datorate. Orice reziliere a acestui Contract nu va afecta drepturile Interfy la orice plăți datorate acesteia."
+          },
+          {
+            "p": "Interfy poate suspenda utilizarea Serviciilor, elimina conținut sau dezactiva și chiar închide orice cont virtual dacă, de bună-credință, consideră în mod rezonabil că Clientul sau vreunul dintre utilizatorii săi violează termenii acestui contract și Politica de Confidențialitate. Interfy va notifica Clientul înainte de a suspenda sau dezactiva contul, cu excepția cazului în care este împiedicată legal să facă acest lucru, caz în care va notifica Clientul imediat ce impedimentul cesează."
+          },
+          {
+            "p": "Clientul poate rezilia acest contract, fără a fi necesară o motivare, cu un preaviz de minimum 30 de zile, fără incidența unei penalități de reziliere. Oricare dintre părți poate rezilia acest contract dacă este identificată una dintre următoarele situații:"
+          },
+          {
+            "ul": [
+              "Una dintre părți intră în proces de faliment sau insolvență.",
+              "Violare materială dovedită și nesancționată a acestui contract.",
+              "Situații de forță majoră, dezastre, pandemii sau evenimente naturale care împiedică, în mod dovedit, continuarea prestării serviciilor."
+            ]
+          },
+          {
+            "p": "Oricare dintre situațiile de reziliere specificate mai sus necesită un preaviz minim de 30 de zile, fără a prejudicia primirea de către Interfy a sumelor datorate de Client până la data efectivă a rezilierii. Niciun rambursament nu va fi datorat Clientului."
+          }
+        ]
+      },
+      {
+        "heading": "14. Modificări ale acestui termen",
+        "blocks": [
+          {
+            "p": "Putem modifica acești termeni sau orice termeni adiționali aplicabili Serviciului, de exemplu, pentru a reflecta modificări ale legii sau schimbări în Serviciile noastre. Trebuie să consultați termenii în mod regulat. Vom posta avize despre modificări pe această pagină, și un aviz de modificare în cadrul Serviciului aplicabil, atunci când este relevant. Modificările nu se vor aplica retroactiv și vor intra în vigoare cel puțin 14 zile după publicarea lor; modificările referitoare la noi funcționalități ale unui Serviciu, sau făcute din motive legale, vor intra în vigoare imediat. Dacă nu sunteți de acord cu termenii modificați ai unui Serviciu, trebuie să întrerupeți utilizarea acelui Serviciu."
+          },
+          {
+            "p": "Valorile facturate pentru servicii pot fi modificate de Interfy, care va trebui să informeze Clientul prin adresa electronică responsabilă de contul virtual; modificările vor începe să se aplice valorii serviciilor de la următoarea reînnoire a abonamentului."
+          },
+          {
+            "p": "Interfy poate notifica Clientul despre informații generale referitoare la utilizarea Serviciilor, sau orice comunicare necesară, prin poșta electronică înregistrată de dumneavoastră pe Platformă pentru administratorul contului virtual și pentru e-mailul de facturare, atunci când este vorba despre informații de facturare. Este responsabilitatea Clientului să mențină datele contului virtual actualizate și să configureze e-mailurile trimise din domeniul Platformei ca fiind sigure, pentru a nu fi tratate drept spam; orice informație trimisă va fi considerată livrată la 1 zi lucrătoare de la trimitere."
+          },
+          {
+            "p": "Avize privind întreținerea serviciilor, intervenții programate, aspecte tehnice de interes pentru utilizatori și disponibilitatea unor noi funcționalități pot fi trimise direct utilizatorilor, la discreția opțională a Clientului. Pentru a comunica cu Interfy, Clientul poate utiliza următoarele mijloace:"
+          },
+          {
+            "ul": [
+              "Chat-ul Platformei: pentru asistență directă a utilizatorilor serviciului, clarificarea întrebărilor, suport tehnic și îndrumări privind utilizarea.",
+              "E-mail suporte@interfy.ai: pentru deschiderea de tichete de suport tehnic, sugestii de îmbunătățire și clarificarea întrebărilor privind configurările și utilizarea serviciilor.",
+              "Întrebări legate de prelucrarea datelor: privacidade@interfy.ai.",
+              "E-mail legal@interfy.ai: pentru alte solicitări, inclusiv rezilierea acestui termen de abonare sau probleme juridice."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "15. Legea aplicabilă",
+        "paragraphs": [
+          "Clientul este de acord că legea statului Florida/SUA reglementează acest Contract, fără a lua în considerare conflictele de dispoziții legale și nici alegerea unei alte jurisdicții, indiferent cât de avantajoasă ar fi aceasta."
+        ]
+      },
+      {
+        "heading": "16. Litigii",
+        "paragraphs": [
+          "Orice litigiu sau reclamație legată de Servicii sau de acest Contract va fi rezolvată prin arbitraj obligatoriu, în locul unei instanțe judecătorești, cu excepția cazului în care puteți formula o reclamație la instanța de mică valoare, dacă reclamațiile dumneavoastră se califică. Federal Arbitration Act reglementează interpretarea și aplicarea acestei prevederi; arbitrul va aplica legea statului Florida/SUA celorlalte aspecte. Orice parte în arbitraj poate, în orice moment, solicita măsuri provizorii sau alte forme de reparație echitabilă din partea oricărei instanțe de jurisdicție competentă.",
+          "Acest Contract, inclusiv Politica de Confidențialitate, este acordul integral dintre dumneavoastră și Interfy și înlocuiește toate înțelegerile, comunicările și acordurile anterioare, orale sau scrise, privind obiectul în discuție. Dacă orice instanță competentă stabilește că vreo parte a acestui Contract este invalidă, acea secțiune va fi eliminată fără a afecta restul Contractului, care va rămâne valabil și aplicabil.",
+          "Convenția Națiunilor Unite privind Contractele de Vânzare Internațională de Mărfuri nu se aplică acestui Contract. Nu puteți atribui sau transfera proprietatea acestui Contract niciunei persoane fără aprobarea scrisă a Interfy. Interfy, însă, îl poate ceda sau transfera fără consimțământul dumneavoastră unui partener, unei companii prin vânzare de active, sau unui succesor prin fuziune. Orice atribuire care violează această secțiune va fi anulată.",
+          "Clientul renunță la orice drept de a formula o cerere ca reprezentant sau avocat al unei anumite clase, pe bază de masă sau agregată, ori de a consolida procesul de arbitraj fără consimțământul tuturor părților. Orice hotărâre pronunțată de arbitru va fi finală, concludentă și obligatorie pentru părți; cu excepția unei determinări diferite a arbitrului, fiecare parte va suporta propriile costuri și cheltuieli. După confirmarea unei hotărâri arbitrale la o instanță federală sau statală din Florida, condamnarea poate fi executată la orice instanță de jurisdicție competentă, fără a prejudicia dreptul Interfy de a solicita o măsură provizorie sau alt recurs echitabil la orice instanță competentă.",
+          "Acest contract este realizat de părți independente și nu creează o asociere, parteneriat, societate, franciză, joint venture sau relație de muncă. Neexercitarea imediată a unui drept ca urmare a nerespectării nu implică renunțarea la acesta, și nici inaplicabilitatea unei dispoziții specifice nu va afecta celelalte."
+        ]
+      },
+      {
+        "heading": "17. Combaterea corupției și a spălării de bani",
+        "paragraphs": [
+          "În limitele relației contractuale stabilite prin acest Termen de Abonare, părțile se obligă, prin ele însele, prin angajații, asociații, reprezentanții, directorii, colaboratorii, terții, afiliații lor și orice persoană care ar acționa în numele lor, să își desfășoare practicile comerciale în mod etic și conform preceptelor legale aplicabile, neputând face promisiuni de plată, plăți, donații sau orice beneficiu, direct sau indirect, unor terți, reprezentanți guvernamentali sau ai unor entități publice sau private, cu scopul de a influența o decizie pentru a asigura un avantaj nejustificat, ilicit, neregulamentar sau nedrept. Ambele părți declară că sunt conștiente și se angajează să respecte cu fidelitate dispozițiile legale legate de combaterea și prevenirea spălării și ascunderii de bunuri."
+        ]
+      },
+      {
+        "heading": "18. Dispoziții finale",
+        "paragraphs": [
+          "Părțile convin că secțiunile Păstrarea și Eliminarea Datelor dumneavoastră, Prelucrarea Datelor cu Caracter Personal (Transfer și Confidențialitate), Plata, Excluderea Garanțiilor, Licența și Drepturile de Proprietate, Responsabilități privind Serviciile, Conținut, Legea Aplicabilă și Litigii vor supraviețui oricărei rezilieri sau expirări a acestui Contract.",
+          "Fiecare parte declară că a încheiat în mod valid acest termen de abonare (Contract) și că are puterea legală de a face acest lucru."
         ]
       }
     ]
@@ -168,93 +346,239 @@
     },
     "sections": [
       {
-        "heading": "1. Cine suntem",
+        "heading": "1. Definiții",
         "paragraphs": [
-          "Interfy Corporation, cu sediul în Orlando, Florida, Statele Unite ale Americii, este operatorul de date care controlează prelucrarea datelor cu caracter personal prin platforma Interfy, cu excepția cazurilor în care acționează ca persoană împuternicită la instrucțiunile unui client."
+          "Date cu Caracter Personal: sunt informațiile care permit identificarea unei persoane fizice, direct sau indirect, inclusiv prin corelarea datelor. Exemplu: număr de identitate, CNP, adresă, fotografie, opțiune religioasă sau politică, data nașterii, date de sănătate, date biometrice etc.",
+          "Titular: este proprietarul datelor, adică persoana fizică la care se referă datele.",
+          "Prelucrarea Datelor: este orice acțiune realizată asupra unei informații personale, precum captarea, vizualizarea, partajarea, primirea, editarea, eliminarea, transferul etc.",
+          "Scop: obiectivul care se dorește a fi atins prin prelucrarea datelor realizată.",
+          "Operator: este persoana fizică sau juridică indicată de Interfy pentru a răspunde la întrebări și pentru a garanta că prelucrarea datelor se realizează conform legislației aplicabile, respectând drepturile titularilor.",
+          "Persoană Împuternicită: este persoana fizică sau juridică care realizează prelucrarea datelor în numele operatorului.",
+          "Terț: persoană fizică sau juridică de drept public sau privat cu care Interfy are sau va avea o relație.",
+          "Responsabil (DPO): este persoana fizică sau juridică indicată de Interfy pentru a răspunde la întrebări și pentru a garanta că prelucrarea datelor se realizează conform LGPD, respectând drepturile titularilor."
         ]
       },
       {
-        "heading": "2. Ce date colectăm",
-        "items": [
-          "Date de înregistrare: nume, e-mail, telefon, companie și funcție",
-          "Date privind utilizarea platformei: jurnale de acces, acțiuni efectuate și preferințe de configurare",
-          "Conținutul Clientului: documente, procese și alte informații introduse pe platformă de către client",
-          "Date tehnice: adresă IP, tip de dispozitiv și browser"
+        "heading": "2. Care sunt drepturile dumneavoastră în calitate de titular de date",
+        "blocks": [
+          {
+            "ul": [
+              "În calitate de titular al datelor, aveți dreptul la acces facilitat la informațiile despre prelucrarea datelor dumneavoastră, care trebuie puse la dispoziție într-un mod clar, adecvat și ostensibil.",
+              "Puteți confirma existența prelucrării, solicita și avea acces la date.",
+              "Dacă identificați că datele sunt incomplete, inexacte sau depășite, puteți solicita corectarea acestora.",
+              "Interfy nu păstrează date inutile, dar dacă vreo dată este considerată excesivă, puteți solicita anonimizarea, blocarea sau eliminarea acesteia, inclusiv dacă este prelucrată în neconformitate cu legislația aplicabilă.",
+              "Dacă aveți nevoie ca datele dumneavoastră să fie transferate către un alt furnizor, puteți solicita portabilitatea datelor, printr-o cerere expresă, respectând secretele comerciale și industriale.",
+              "Dacă ne-ați dat consimțământul de a prelucra datele dumneavoastră, puteți solicita eliminarea lor, cu excepția situațiilor prevăzute de legislația aplicabilă.",
+              "Vă vom informa cu privire la entitățile publice sau private cu care Interfy a partajat datele dumneavoastră, atunci când are loc o partajare.",
+              "Dacă doriți să nu ne oferiți consimțământul pentru prelucrarea datelor, vom respecta decizia dumneavoastră și vă vom informa despre eventualele consecințe ale neacordării acestuia.",
+              "Aveți dreptul de a vă revoca consimțământul, printr-o manifestare expresă, în mod gratuit și facil.",
+              "Dacă este necesar, aveți dreptul de a depune o petiție la ANPD, la organismele de protecție a consumatorilor și la instituțiile de reglementare a protecției datelor, în cazul în care datele dumneavoastră sunt prelucrate în mod inadecvat de Interfy.",
+              "Vă puteți opune prelucrării datelor fundamentate pe ipoteza de dispensă de consimțământ, în cazul nerespectării legislației aplicabile.",
+              "Dacă Interfy prelucrează date în mod automatizat și ia decizii bazate exclusiv pe această prelucrare care vă afectează interesele, puteți solicita revizuirea unor astfel de decizii.",
+              "În orice moment puteți solicita informații clare și adecvate despre criteriile și procedurile utilizate pentru deciziile automatizate, respectând secretele comerciale și industriale.",
+              "Pentru a vă exercita drepturile legate de protecția datelor, trimiteți solicitarea dumneavoastră la privacidade@interfy.ai; responsabilul nostru cu protecția datelor va lua măsurile necesare pentru a răspunde solicitării dumneavoastră.",
+              "Dacă vă retrageți consimțământul și nu există o altă bază legală care să susțină prelucrarea, vom întrerupe prelucrarea datelor dumneavoastră pentru obiectivul consimțit.",
+              "Orice informație pe care o furnizați pe bloguri sau site-uri web, expusă pe internet în locuri fără control al accesului, în mod public, nu poate avea protecția garantată de noi, și nici nu putem limita cine poate copia sau partaja astfel de date."
+            ]
+          }
         ]
       },
       {
-        "heading": "3. Cum utilizăm datele",
-        "items": [
-          "Furnizarea și menținerea serviciilor contractate",
-          "Autentificarea utilizatorilor și protejarea conturilor împotriva accesului neautorizat",
-          "Trimiterea de comunicări operaționale, de suport și, cu acordul dumneavoastră, comunicări comerciale",
-          "Respectarea obligațiilor legale și de reglementare"
-        ]
-      },
-      {
-        "heading": "4. Partajarea datelor",
-        "paragraphs": [
-          "Datele cu caracter personal pot fi partajate cu furnizori de infrastructură (precum serviciile cloud AWS), procesatori de plăți și alți operatori strict necesari pentru furnizarea serviciului, întotdeauna sub obligații contractuale de confidențialitate și securitate. Nu vindem date cu caracter personal către terți."
-        ]
-      },
-      {
-        "heading": "5. Cookie-uri și tehnologii similare",
-        "paragraphs": [
-          "Utilizăm cookie-uri esențiale pentru funcționarea site-ului și, cu acordul dumneavoastră, cookie-uri analitice pentru a înțelege modul de utilizare a platformei și a îmbunătăți experiența utilizatorului."
-        ]
-      },
-      {
-        "heading": "6. Păstrarea datelor",
-        "paragraphs": [
-          "Datele cu caracter personal sunt păstrate pe perioada necesară îndeplinirii scopurilor descrise în această Politică sau conform prevederilor legale, fiind ulterior eliminate sau anonimizate."
-        ]
-      },
-      {
-        "heading": "7. Securitatea informației",
-        "paragraphs": [
-          "Adoptăm securitate pe mai multe niveluri, de la arhitectură până la operațiunile de zi cu zi:"
-        ],
-        "items": [
-          "Izolare prin Workspace și bază de date dedicată per client, fără partajare",
-          "Criptare avansată: date în tranzit (TLS 1.2+) și în repaus (AES-256)",
-          "Control de acces granular (RBAC) pe funcție, grup și nivel de sensibilitate",
-          "Autentificare corporativă: SSO, SAML 2.0, OAuth 2.0, AD/LDAP și MFA",
-          "Restricționarea accesului pe IP (IP Blocking)",
-          "Jurnale și trasee de audit imuabile și căutabile",
-          "Monitorizare de securitate 24/7, backup-uri automate criptate și Disaster Recovery cu replicare geografică",
-          "Infrastructură Multi-AZ pe AWS, certificată ISO/IEC 27001:2022, cu SOC 2 Type II în desfășurare"
+        "heading": "3. Ce date prelucrăm",
+        "blocks": [
+          {
+            "p": "Interfy este o furnizoare de servicii de gestiune inteligentă a documentelor și automatizare a proceselor de afaceri, reunind gestiunea documentelor (Documents), automatizarea proceselor (Process), captarea inteligentă (Capture) și semnătura electronică și digitală (Sign) într-o singură platformă. Serviciile noastre sunt furnizate online, cu contractare directă de către companiile utilizatoare sau prin parteneri de afaceri și distribuitori. Prelucrăm datele necesare pentru a activa și menține funcționarea serviciilor noastre, a garanta securitatea și disponibilitatea, a diagnostica probleme tehnice, a reține informații utile pentru o utilizare mai bună a serviciului, a trimite notificări de întreținere și alerte necesare, a oferi suport tehnic, a asigura instruiri și îndrumări privind bunele practici, a informa despre îmbunătățiri și funcționalități noi, și a oferi servicii complementare relevante pentru utilizatori și viitori utilizatori."
+          },
+          {
+            "p": "Fiecare persoană fizică sau juridică care contractează serviciile noastre poate stoca și prelucra date utilizând funcționalitățile disponibile pe platforma noastră, fiind identificată drept OPERATOR, iar Interfy acționează ca PERSOANĂ ÎMPUTERNICITĂ. În această calitate, păstrăm datele în siguranță și accesibile, eliminându-le sau oferind o copie la cererea expresă a OPERATORULUI, respectând configurările definite de acesta. În calitate de PERSOANĂ ÎMPUTERNICITĂ, Interfy se angajează să prelucreze informațiile clasificate ca date cu caracter personal respectând riguros criteriile definite de OPERATOR și specificate în GDPR și LGPD și în alte reglementări aplicabile, exclusiv pentru scopurile delimitate în termenii de utilizare, Interfy neputând fi trasă la răspundere în fața Autorității Naționale de Protecție a Datelor (ANPD) și/sau a altor autorități, titulari de date, sau a oricărei alte instituții cu competența de a aplica sancțiuni administrative sau judiciare."
+          },
+          {
+            "p": "Dacă Interfy va fi sancționată în calitate de PERSOANĂ ÎMPUTERNICITĂ, își rezervă dreptul de regres pentru a solicita de la OPERATOR despăgubirea pentru toate pierderile, daunele și cheltuielile rezultate din fapta ilicită, precum și alte măsuri necesare pentru a proteja drepturile Interfy."
+          },
+          {
+            "p": "Interfy și companiile din grup nu au control asupra datelor pe care utilizatorii le stochează, conform pct. 8 din Termenii noștri de Utilizare."
+          },
+          {
+            "p": "Pentru a utiliza serviciile noastre, furnizați următoarele informații, considerate Date cu Caracter Personal și pentru care Interfy are responsabilitatea ca OPERATOR: la momentul contractării serviciilor, ca utilizator al platformei, sau când accesați site-urile noastre și ne trimiteți un CV, ne oferiți numele, e-mailul, telefonul, funcția și datele din CV (care variază în funcție de fiecare titular)."
+          }
         ],
         "relatedLink": {
-          "label": "Vedeți arhitectura completă de securitate",
-          "href": "/legal/seguranca"
+          "label": "Vezi Termenii de Utilizare completi",
+          "href": "/legal/termos"
         }
       },
       {
-        "heading": "8. Drepturile dumneavoastră (LGPD/GDPR)",
-        "items": [
-          "Confirmarea existenței prelucrării și accesul la date",
-          "Corectarea datelor incomplete, inexacte sau neactualizate",
-          "Anonimizarea, blocarea sau eliminarea datelor inutile",
-          "Portabilitatea datelor către un alt furnizor de servicii",
-          "Retragerea consimțământului, acolo unde este aplicabil"
+        "heading": "4. Pentru ce folosim fiecare dată",
+        "blocks": [
+          {
+            "p": "Nume și e-mail: utilizăm aceste date pentru a trimite notificarea inițială de creare a spațiului dumneavoastră de lucru și, ulterior, comunicări legate de serviciu, necesități de întreținere, actualizări, obligații legale, informații de marketing despre produse și funcționalități noi, oferte, sau orice alt conținut necesar pentru a îmbunătăți furnizarea serviciului. Puteți opta să nu primiți mesaje de marketing, bifând opțiunea disponibilă în corpul e-mailului. Dacă primim o comunicare prin e-mail, putem reține mesajul, inclusiv răspunsurile noastre, în scopul păstrării istoricului de asistență."
+          },
+          {
+            "p": "Număr de telefon: colectăm numărul de telefon pentru contacte ulterioare prin WhatsApp sau alte aplicații de mesagerie, cu scopul de a răspunde solicitărilor de suport mai rapid și mai precis, de a trimite comunicări și materiale de marketing, sau pentru contacte ale departamentului nostru financiar, atunci când este adecvat și necesar. Nu vă vom adăuga în niciun grup fără o invitație anterioară."
+          },
+          {
+            "p": "CV: CV-urile trimise de titularii de date sunt stocate în baza noastră de date timp de 24 de luni, utilizate pentru a selecta colaboratori în procesele noastre de recrutare atunci când este deschis un post nou."
+          },
+          {
+            "p": "Funcție: este stocată în evidența clienților și partenerilor pentru a putea identifica funcțiile fiecărei persoane cu care avem o relație, direcționându-ne către persoanele corecte atunci când este necesar."
+          },
+          {
+            "p": "Date de plată: sunt utilizate pentru procesarea facturării lunare a serviciilor. Atunci când este selectată opțiunea de plată prin card de credit și/sau debit, Interfy nu le stochează — acestea sunt asociate unui ID de abonament în procesatorul de plăți (de exemplu, Stripe sau PayPal), care colectează și păstrează datele pentru procesare. Interfy păstrează doar ID-ul asociat; subprocesatorii noștri au propriile politici de confidențialitate. Pentru celelalte metode de plată disponibile, colectăm și păstrăm informații de facturare, înregistrare de abonament și evidențe de plată pentru continuitatea serviciilor. În plus față de datele de mai sus, putem colecta: locație, IP-ul aparatului de acces și identificarea dispozitivelor de acces."
+          }
         ]
       },
       {
-        "heading": "9. Transferul internațional de date",
-        "paragraphs": [
-          "Deoarece operăm cu infrastructură globală, datele cu caracter personal pot fi transferate între țări, întotdeauna cu garanții contractuale și tehnice compatibile cu LGPD și GDPR."
+        "heading": "5. Cum colectăm și pentru ce folosim fiecare dată",
+        "blocks": [
+          {
+            "p": "Locația dumneavoastră: putem colecta, stoca și monitoriza date de localizare atunci când accesați unul dintre site-urile noastre sau aplicația Interfy. Combinate cu alte date, aceste date vă pot face identificabil; sunt necesare pentru funcționarea adecvată a unor servicii, cum ar fi identificarea monedei locale și a limbii."
+          },
+          {
+            "p": "IP-ul aparatului de acces: unificat cu adresa de e-mail și locația, ne permite să identificăm unde este alocat utilizatorul pe platforma noastră și cărei regiuni apartine, ajutându-ne să îmbunătățim procedurile de asistență și să identificăm eventuale probleme legate de regiune, cum ar fi aspecte de performanță a serviciului."
+          },
+          {
+            "p": "Identificarea dispozitivelor de acces: la accesarea serviciilor printr-un dispozitiv mobil, putem colecta, stoca, monitoriza și accesa identificatorii dispozitivului, care vă pot face identificabil dacă sunt asociați cu alte date. Stocăm aceste date pentru a reda paginile în funcție de dimensiunea dispozitivului și pentru a restricționa funcții neadecvate anumitor tipuri de dispozitive."
+          },
+          {
+            "p": "Alte date pe care le prelucrăm pe baza datelor colectate mai sus:"
+          },
+          {
+            "p": "Cookie-uri: vă ajută să vă autentificați pe platformă mai rapid, stocând informații despre modul în care navigați pe site; aceste informații, trimise nouă anonim, ne permit să vă îmbunătățim experiența de navigare. Un cookie persistent rămâne pe hard disk-ul dumneavoastră după închiderea browserului, putând fi eliminat conform instrucțiunilor browserului dumneavoastră; un cookie de sesiune este temporar și dispare la închiderea browserului."
+          },
+          {
+            "p": "Fișiere de log: atunci când utilizați Serviciul, serverele noastre înregistrează automat anumite informații trimise de browserul dumneavoastră, cum ar fi solicitarea web, adresa IP, tipul de browser, paginile de intrare/ieșire și URL-urile, numărul de click-uri, modul în care interacționați cu linkurile din Serviciu, numele de domeniu, paginile de destinație, paginile vizualizate, operatorul de telefonie mobilă și alte informații."
+          },
+          {
+            "p": "Web beacons: le putem utiliza în e-mailurile bazate pe HTML trimise utilizatorilor, ceea ce ne permite să urmărim care dintre acestea sunt deschise de destinatari și tiparele de utilizare online, generând statistici mai elaborate și făcând serviciile noastre mai atractive pentru utilizatori."
+          }
         ]
       },
       {
-        "heading": "10. Modificări ale acestei politici",
+        "heading": "6. Date colectate opțional",
         "paragraphs": [
-          "Această Politică poate fi actualizată periodic. Modificările relevante vor fi comunicate prin e-mail sau notificare pe platformă."
+          "Puteți adăuga fotografia dumneavoastră în profilul de acces al platformei atunci când utilizați serviciile. Această acțiune este opțională și o puteți elimina atunci când doriți.",
+          "De asemenea, ne puteți trimite datele dumneavoastră completând un formular online, trimițând un e-mail sau contactându-ne prin chat. Aceste date sunt prelucrate pentru a vă furniza informațiile pe care ni le solicitați și pot fi utilizate pentru marketing direct și în scopuri analitice.",
+          "Dacă vă înscrieți la unul dintre evenimentele noastre online, ne veți trimite informațiile de contact, prin care vă vom oferi acces la eveniment; aceste date sunt prelucrate pentru a înțelege mai bine baza noastră de utilizatori sau viitori utilizatori și în scopuri de marketing direct.",
+          "Puteți anula primirea comunicărilor de marketing de la Interfy urmând instrucțiunile de dezabonare din subsolul e-mailurilor promoționale, sau trimițând un e-mail la privacidade@interfy.ai."
         ]
       },
       {
-        "heading": "11. Contactul responsabilului cu protecția datelor (DPO)",
+        "heading": "7. Date colectate de la terți",
         "paragraphs": [
-          "Pentru a vă exercita drepturile sau pentru a clarifica întrebări legate de această Politică, contactați Responsabilul nostru cu Protecția Datelor la adresa de e-mail privacidade@interfy.ai."
+          "Putem colecta date din surse terțe pentru a vă permite să vă autentificați în serviciile noastre, sau dacă partajați date stocate în serviciile noastre cu terți — aceste servicii terțe ne pot trimite informații despre dumneavoastră și profilul dumneavoastră public, în măsura în care setările contului dumneavoastră din aplicația terțului permit acest tip de partajare.",
+          "De asemenea, putem primi informații asociate utilizării site-urilor noastre din aplicații terțe. Dacă vizitați site-urile noastre, putem monitoriza și înregistra activitățile dumneavoastră, iar furnizorii noștri terți ne pot oferi informații adiționale disponibile pentru acces public.",
+          "Informațiile pe care le colectăm pot fi, de asemenea, utilizate pentru identificare, autentificare, prevenirea fraudei și pentru a îmbunătăți serviciul pe care îl prestăm, inclusiv rezolvarea problemelor, cercetări de piață și respectarea Termenilor noștri de Utilizare."
+        ]
+      },
+      {
+        "heading": "8. Cum tratează Interfy, în calitate de PERSOANĂ ÎMPUTERNICITĂ, documentele și datele stocate de dumneavoastră pe platformă",
+        "paragraphs": [
+          "Conținutul stocat de dumneavoastră și de persoanele din organizația dumneavoastră pe platforma Interfy nu este vizualizat de echipa noastră de suport, cu excepția cazului în care administratorul platformei furnizează login și parolă de acces unui dintre colaboratorii noștri, exclusiv în scopul suportului tehnic și al îndrumării privind utilizarea aplicației — utilizatorul trebuind să fie dezactivat de administrator la finalul asistenței. Fiecare client primește o bază izolată, garantând protecția accesului la informații: doar persoanele căreia administratorul platformei le furnizează login și parolă cu permisiunile respective vor avea acces la conținut. Toate conținuturile și datele stocate (înregistrări, fișiere electronice, metadate, formulare, procese etc.) sunt transferate pe serverele noastre din infrastructura AWS (cu certificări ISO/IEC 27001:2022, SOC 2 Type II și HIPAA Ready, în plus față de conformitatea cu LGPD și GDPR), prin tastare, scanare și/sau încărcare de către persoanele autorizate de OPERATOR, conform regulilor și configurărilor predefinite de administratorul platformei; conținutul circulă între stații de lucru sau dispozitive și este transferat prin HTTPS, utilizând criptare TLS."
+        ]
+      },
+      {
+        "heading": "9. Partajarea cu terți",
+        "paragraphs": [
+          "Interfy poate partaja datele dumneavoastră cu parteneri de afaceri atunci când considerăm că sunt de încredere și că pot avea produse și servicii relevante pentru dumneavoastră, sau pentru a putea executa acest contract de prestare de servicii — cum ar fi, de exemplu, furnizorii de hosting. Atunci când trebuie să facem acest lucru, ne asigurăm că terțul este de încredere și că va păstra confidențialitatea datelor dumneavoastră.",
+          "Dacă Interfy trece printr-un proces de fuziune, achiziție sau modificare a structurii acționariatului, compania poate partaja datele dumneavoastră cu terți ca urmare a acestui proces.",
+          "Dacă accesați aplicația noastră utilizând direct aplicații terțe, datele dumneavoastră pot fi partajate cu acestea; asigurați-vă că aveți încredere în aplicație și respectați politicile de protecție a datelor ale companiei proprietare a acesteia.",
+          "Putem partaja date cu aplicații terțe prin utilizarea unui API, unde datele stocate pot fi consultate și/sau copiate către alte aplicații, cu acordul corespunzător al OPERATORULUI responsabil de datele stocate pe platforma noastră.",
+          "Interfy poate divulga datele dumneavoastră cu caracter personal atunci când este obligată prin lege sau dispoziție legală, cu scopul de a proteja securitatea oricărei persoane în chestiuni de fraudă, de a proteja dreptul la viață și la libertate, sau de a proteja drepturile Interfy.",
+          "Utilizăm instrumente analitice terțe, care colectează informații trimise de browserul dumneavoastră ca parte a unei solicitări de pagină web, module suplimentare ale browserului și alte informații, pentru a ne ajuta să măsurăm traficul și tendințele de utilizare a Serviciilor noastre.",
+          "Interfy poate stoca și prelucra date cu caracter personal în sisteme de marketing terțe, sisteme de gestiune a relației cu clienții (CRM) și sisteme de gestionare a poștei electronice, cu scopul de a promova operațiunile companiei și de a facilita interacțiunile cu utilizatorii și clienții potențiali."
+        ]
+      },
+      {
+        "heading": "10. Blog și comunitate",
+        "paragraphs": [
+          "Putem crea bloguri și comunități accesibile publicului, inclusiv forumuri. Orice informație pe care o includeți în aceste zone poate fi citită de alte persoane, pe care nu le putem controla, putând fi, de asemenea, colectată și utilizată de cei care accesează acel conținut; informațiile postate pot rămâne disponibile chiar și după ce vă închideți contul.",
+          "Dacă eliminați informații postate în serviciul de blog și/sau comunitate, copiile pot rămâne stocate în cache-ul serviciului sau la alți utilizatori. Dacă doriți să eliminăm aceste informații, trimiteți un e-mail la privacidade@interfy.ai; totuși, în unele cazuri, este posibil să nu putem elimina astfel de informații."
+        ]
+      },
+      {
+        "heading": "11. Partajarea internațională a datelor",
+        "blocks": [
+          {
+            "p": "Găzduirea serviciilor noastre este distribuită în regiunile de mai jos:"
+          },
+          {
+            "ul": [
+              "Amazon AWS — São Paulo (Brazilia) și Virginia (Statele Unite ale Americii)."
+            ]
+          },
+          {
+            "p": "Datele sunt distribuite în mod automatizat prin resursele tehnologice aplicate în propria infrastructură. Pentru a garanta protecția datelor, adoptăm măsuri de securitate conform prevederilor LGPD și, împreună cu furnizorul AWS, utilizăm resurse împotriva distrugerii accidentale, accesului neautorizat, copii de rezervă automatizate și măsuri organizatorice alineate cu politica de securitate, printre alte aspecte tehnice rezonabile."
+          },
+          {
+            "p": "Datele utilizatorilor din Uniunea Europeană, Regatul Unit, Liechtenstein, Norvegia, Islanda și alte țări sunt stocate în Statele Unite (SUA) prin Interfy și furnizorii săi de servicii; dacă nu locuiți în SUA, legile pot fi diferite de cele din țara în care locuiți. Prin utilizarea Serviciilor, recunoașteți că orice informație personală despre dumneavoastră este furnizată către Interfy în SUA și găzduită pe servere din SUA, și autorizați Interfy să transfere, să stocheze și să prelucreze informațiile dumneavoastră din și în Statele Unite și, atunci când este necesar, în alte țări indicate în această politică. Utilizatorii din Brazilia pot avea datele stocate atât în Statele Unite, cât și în Brazilia."
+          }
+        ]
+      },
+      {
+        "heading": "12. Timpul de prelucrare și păstrarea datelor",
+        "blocks": [
+          {
+            "p": "Date pentru care Interfy este OPERATOR: datele colectate direct sau de clienții noștri de pe Platformă sunt păstrate doar atât timp cât este necesar pentru furnizarea serviciilor, sau atât timp cât este necesar pentru respectarea acordurilor și obligațiilor noastre legale, contabile și fiscale. Pentru eliminare sau anonimizare, am stabilit politici interne care garantează siguranța procesului, putând păstra datele până la 3 luni după încetarea utilizării serviciilor, ca marjă de siguranță înainte de a fi eliminate sau anonimizate. Datele utilizate de departamentul de marketing pot fi păstrate atât timp cât considerăm că serviciile noastre pot fi relevante pentru o viitoare contractare, sau până când vă dezabonați sau solicitați eliminarea datelor."
+          },
+          {
+            "p": "Date pentru care Interfy este PERSOANĂ ÎMPUTERNICITĂ: sunt păstrate până când OPERATORUL solicită eliminarea și până când putem să o executăm în siguranță, confirmând că toate datele au fost definitiv eliminate, ceea ce poate dura până la 90 de zile. Interfy solicită tuturor persoanelor fizice și juridice care contractează și utilizează serviciile noastre să acționeze în conformitate cu toate legile și reglementările aplicabile, în plus față de această politică, putând întrerupe unilateral furnizarea serviciilor dacă detectează că utilizatorii clientului violează normele de protecție a datelor cu caracter personal, conform specificat în Termenii noștri de Utilizare."
+          },
+          {
+            "p": "Date prelucrate pentru asigurarea conformității: datele necesare pentru respectarea obligațiilor fiscale, contabile, de asigurări sociale, de muncă și legale ale grupului Interfy, în oricare dintre țările în care operăm, sunt păstrate pentru perioada determinată de legea fiecărei țări."
+          }
+        ],
+        "relatedLink": {
+          "label": "Vezi Termenii de Utilizare completi",
+          "href": "/legal/termos"
+        }
+      },
+      {
+        "heading": "13. Consimțământul",
+        "paragraphs": [
+          "Prin acceptarea Politicii noastre de Confidențialitate și prin înregistrarea pentru a utiliza platforma noastră sau orice altă componentă a Serviciilor noastre, vă asumați că sunteți de acord cu aceasta și ne autorizați să vă prelucrăm datele conform acestei politici.",
+          "Aveți dreptul de a vă retrage, total sau parțial, consimțământul pentru a vă prelucra Datele cu Caracter Personal. Pentru aceasta, contactați privacidade@interfy.ai, și vom întrerupe prelucrarea datelor dumneavoastră cu caracter personal pentru scopurile pentru care ați consimțit inițial, cu excepția cazului în care există motive legale și convingătoare pentru a continua prelucrarea Datelor dumneavoastră cu Caracter Personal, care anulează interesele, drepturile și libertățile dumneavoastră, sau pentru stabilirea, exercitarea sau apărarea în acțiuni judiciare."
+        ]
+      },
+      {
+        "heading": "14. Corectarea, actualizarea sau ștergerea informațiilor dumneavoastră",
+        "paragraphs": [
+          "Puteți solicita corectarea, actualizarea sau ștergerea informațiilor personale pe care le furnizați direct Interfy; echipa noastră va face toate eforturile pentru a răspunde solicitării dumneavoastră în termenul legal aplicabil, dar nu vom fi responsabili pentru eventuala neîndeplinire a răspunsului nostru.",
+          "Atunci când informația dumneavoastră este prelucrată de unul dintre clienții noștri care contractează serviciile noastre, trebuie să adresați solicitările direct furnizorului dumneavoastră (clientul nostru de servicii), care acționează ca OPERATOR al datelor dumneavoastră."
+        ]
+      },
+      {
+        "heading": "15. Drepturi de confidențialitate pentru utilizatorii din California",
+        "paragraphs": [
+          "Rezidenții din California au dreptul de a ne solicita un aviz care să identifice categoriile de informații personale pe care le partajăm cu partenerii sau terții noștri în scopuri de marketing, inclusiv informațiile de contact ale fiecărui terț. Dacă sunteți rezident în California, utilizați serviciile noastre și doriți să solicitați astfel de informații, trimiteți o solicitare la privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "16. Informații personale ale copiilor",
+        "paragraphs": [
+          "Nu colectăm și nu solicităm intenționat informații personale de la persoane sub 13 ani, conform Termenilor noștri de Abonare. Dacă aveți sub 13 ani, nu încercați să vă înregistrați la servicii și nu ne trimiteți nicio informație personală despre dumneavoastră. Dacă luăm cunoștință de un cont creat de o persoană sub 13 ani, sau de informații trimise direct nouă în aceste condiții, vom șterge toate informațiile cât mai rapid posibil. Dacă identificați că un copil sub 13 ani a înregistrat un cont în serviciile noastre sau a furnizat informații personale, contactați-ne la privacidade@interfy.ai."
+        ]
+      },
+      {
+        "heading": "17. Baza legală pentru prelucrarea datelor cu caracter personal",
+        "blocks": [
+          {
+            "p": "Prelucrăm informațiile dumneavoastră personale doar dacă avem o bază legală pentru a face acest lucru. Utilizăm următoarele baze legale:"
+          },
+          {
+            "ul": [
+              "Necesitate contractuală: datele sunt prelucrate pentru a respecta Termenii noștri de Serviciu cu dumneavoastră, fiind fundamentale pentru a putea furniza serviciile — fără ele nu am putea face acest lucru. Include date esențiale ale contului, cookie-uri primare esențiale, date de conexiune și informații ale contului de la terți (dacă există), ca în cazul autentificării prin Active Directory.",
+              "Consimțământ: în unele cazuri, prelucrăm date cu caracter personal pe baza consimțământului furnizat formal de dumneavoastră în momentul colectării, solicitat expres în momentul colectării.",
+              "Interes legitim: colectăm anumite categorii atunci când credem că favorizează interesul nostru legitim sau cel al unor terți, cum ar fi date de facturare, date din formulare online, date adiționale ale contului, telefon, chat și e-mail (atunci când sunt colectate prin mijloace diferite de contul de utilizator al serviciului), date despre evenimente și comunități, cookie-uri de urmărire, tichete de suport, identificatori ai dispozitivelor și web beacons.",
+              "Alte motive: putem prelucra date pentru a respecta obligații legale, contabile, fiscale și de muncă, pentru a proteja interesele vitale ale titularilor de date, sau pentru a răspunde cerințelor instituțiilor guvernamentale și/sau ale puterii judecătorești."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "18. Dispoziții generale",
+        "paragraphs": [
+          "Dacă are loc o actualizare a acestei Politici de Confidențialitate, vom publica o nouă versiune pe această pagină, actualizând informațiile.",
+          "Politica noastră acoperă doar accesul la site-urile și aplicațiile noastre. Linkurile către site-uri terțe nu sunt acoperite de Politica noastră de Confidențialitate."
         ]
       }
     ]
@@ -343,7 +667,7 @@
         ],
         "relatedLink": {
           "label": "Vedeți arhitectura completă de securitate",
-          "href": "/legal/seguranca"
+          "href": "/seguranca"
         }
       },
       {

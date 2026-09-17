@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "Interfy 대학교",
+    "description": "Interfy의 사내 대학교: 동영상 강의, 가이드, 실제 활용 사례 및 자격증 과정으로 팀이 플랫폼을 능숙하게 다루도록 지원합니다.",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Interfy 대학교",
+      "Interfy 교육",
+      "사내 대학교",
+      "Interfy 자격증"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "Interfy 대학교",
+    "titleLine1": "팀의 역량을 키우는",
+    "titleHighlight": "Interfy 대학교",
+    "description": "동영상 강의, 가이드, 실제 활용 사례 및 공식 자격증으로 팀이 원하는 속도에 맞춰 Interfy 플랫폼을 완벽하게 익힐 수 있습니다.",
+    "primaryLabel": "테스트 드라이브 시작하기",
+    "secondaryLabel": "데모 예약하기"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "사내 대학교에 투자해야 하는 이유",
+    "heading": "왜",
+    "headingHighlight": "사내 대학교에 투자해야 할까요?",
+    "description": "지식을 생산성으로 전환하고 교육 운영 비용을 없애세요.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "비용 절감",
+        "description": "강사, 출장, 숙박 및 인쇄 자료에 드는 비용을 없애세요. 운영 비용 없이 팀을 교육할 수 있습니다."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "24시간 연중무휴 교육",
+        "description": "팀원들은 언제 어디서든 자신의 속도에 맞춰 학습합니다. 완전히 유연한 역량 강화가 가능합니다."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "무한한 확장성",
+        "description": "비용이나 운영 복잡성을 늘리지 않고 10명이든 10,000명이든 동시에 교육할 수 있습니다."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "빠른 온보딩",
+        "description": "신규 이용자가 첫날부터 생산성을 발휘합니다. 적응 시간을 줄이고 생산성을 빠르게 높이세요."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "공식 자격증",
+        "description": "팀원들에게 수료증을 발급하고 각 이용자의 진행 상황을 추적하세요."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "실시간 지표",
+        "description": "스마트 대시보드를 통해 각 팀원의 진행 상황, 참여도 및 성과를 추적하세요."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "학습 자료",
+    "heading": "학습",
+    "headingHighlight": "자료",
+    "description": "모든 학습 스타일에 맞춘 다양하고 완성도 높은 콘텐츠를 제공합니다.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "실습형 동영상 강의",
+        "description": "Interfy 플랫폼의 모든 모듈을 단계별로 다루는 동영상 콘텐츠입니다."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "가이드 및 매뉴얼",
+        "description": "빠른 참조와 확인을 위한 완전한 문서와 문서화된 튜토리얼입니다."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "실제 활용 사례",
+        "description": "플랫폼을 이미 이용 중인 기업들의 실제 도입 사례와 모범 사례입니다."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "전문가 지원",
+        "description": "전문가에게 직접 질문하고 커뮤니티와 지식을 공유하세요."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "교육 모듈",
+    "heading": "교육",
+    "headingHighlight": "모듈",
+    "description": "Interfy 플랫폼의 모든 측면을 다루는 완성도 높은 커리큘럼입니다.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Interfy 플랫폼 소개",
+      "문서 관리 (Documents)",
+      "프로세스 자동화 (Process)",
+      "AI 기반 흐름 구축 (Agents)",
+      "전자 및 디지털 서명 (Sign)",
+      "지능형 캡처 (Capture)",
+      "법적 효력을 갖춘 디지털화",
+      "커뮤니케이션 및 협업 (Connect)",
+      "모바일 애플리케이션",
+      "관리 및 거버넌스",
+      "보안 및 컴플라이언스",
+      "연동 및 API"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "지금 바로 팀의 역량 강화를 시작하세요",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "교육 비용 절감"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "더 빠른 온보딩"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "역량을 갖춘 팀"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Interfy 대학교에 접속하여 지식을 성과로 전환하세요."
     }
   }
 }

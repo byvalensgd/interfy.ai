@@ -52,7 +52,7 @@ export default async function StatusPage() {
         subheading={status.infra.subheading}
         items={infraItems}
         certifications={status.infra.certifications}
-        certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+        certificationsCtaHref={withLocale("/seguranca", locale)}
       />
       <GenericCTA
         ariaLabel={status.cta.ariaLabel}

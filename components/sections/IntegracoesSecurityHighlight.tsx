@@ -19,8 +19,12 @@ export default async function IntegracoesSecurityHighlight() {
       >
         {/* Below md: illustration stacks above the text and the text centers, matching the
             sitewide stacked-layout convention — the text's own min-w-280 only makes sense
-            once it's sharing a row with the illustration, so it's dropped in that state. */}
-        <div className="flex min-w-[280px] max-w-[540px] flex-1 flex-col items-center gap-5 md:flex-row">
+            once it's sharing a row with the illustration, so it's dropped in that state.
+            Below lg the pair is still one grouped block; at lg and up "contents" removes this
+            wrapper's own box entirely, so the illustration and text become direct flex
+            children of the row (alongside the items list) instead of being forced to share
+            space with each other as a pair. */}
+        <div className="flex min-w-[280px] max-w-[540px] flex-1 flex-col items-center gap-5 md:flex-row lg:contents">
           <div className="relative h-[150px] w-[151px] shrink-0">
             <Image
               src="/icons/integracoes/security/shield-illustration.webp"
@@ -72,7 +76,7 @@ export default async function IntegracoesSecurityHighlight() {
           {items.map((item) => (
             <li
               key={item.label}
-              className="flex min-w-0 grow basis-[calc(20%-0.75rem)] flex-col items-center gap-[15px] text-center"
+              className="flex min-w-[100px] grow basis-[calc(20%-0.75rem)] flex-col items-center gap-[15px] text-center"
             >
               <Image src={item.icon} alt="" aria-hidden="true" width={36} height={36} className="shrink-0" />
               <p className="w-full text-sm leading-[1.2] font-bold text-texto">{item.label}</p>

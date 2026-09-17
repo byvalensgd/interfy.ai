@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "אוניברסיטת Interfy",
+    "description": "האוניברסיטה הארגונית של Interfy: שיעורי וידאו, מדריכים, מקרי שימוש אמיתיים והסמכה להכשרת הצוות שלכם בפלטפורמה.",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "אוניברסיטת Interfy",
+      "הכשרת Interfy",
+      "אוניברסיטה ארגונית",
+      "הסמכת Interfy"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "אוניברסיטת Interfy",
+    "titleLine1": "הכשירו את הצוות שלכם ב",
+    "titleHighlight": "אוניברסיטת Interfy",
+    "description": "שיעורי וידאו, מדריכים, מקרי שימוש אמיתיים והסמכה רשמית כדי שהצוות שלכם ישלוט בפלטפורמת Interfy בקצב שלו.",
+    "primaryLabel": "התחילו Test Drive",
+    "secondaryLabel": "קביעת דמו"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "למה להשקיע באוניברסיטה ארגונית",
+    "heading": "למה להשקיע ב",
+    "headingHighlight": "אוניברסיטה ארגונית?",
+    "description": "הפכו ידע לפרודוקטיביות וחסכו בעלויות תפעוליות של הכשרה.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "הפחתת עלויות",
+        "description": "חסכו בהוצאות על מדריכים, נסיעות, אכסון וחומרים מודפסים. הכשירו את הצוות שלכם בעלות תפעולית אפסית."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "הכשרה 24/7",
+        "description": "הצוות שלכם לומד בקצב שלו, בכל שעה ומכל מקום. גמישות מלאה להכשרה."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "יכולת הרחבה בלתי מוגבלת",
+        "description": "הכשירו 10 או 10,000 עובדים בו-זמנית בלי להעלות עלויות או מורכבות תפעולית."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "Onboarding מהיר",
+        "description": "משתמשים חדשים פרודוקטיביים מהיום הראשון. קצרו את זמן ההסתגלות והעלו את הפרודוקטיביות במהירות."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "הסמכה רשמית",
+        "description": "הנפיקו תעודות סיום לעובדים שלכם ועקבו אחר ההתקדמות של כל משתמש."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "מדדים בזמן אמת",
+        "description": "עקבו אחר ההתקדמות, המעורבות והביצועים של כל עובד באמצעות דשבורדים חכמים."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "משאבי למידה",
+    "heading": "משאבי",
+    "headingHighlight": "למידה",
+    "description": "תוכן מלא ומגוון לכל סוגי הלמידה.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "שיעורי וידאו מעשיים",
+        "description": "תוכן וידאו שלב-אחר-שלב על כל מודולי פלטפורמת Interfy."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "מדריכים וחוברות הדרכה",
+        "description": "תיעוד מלא ומדריכים כתובים לעיון מהיר ולהפניה."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "מקרי שימוש אמיתיים",
+        "description": "דוגמאות מעשיות ליישום ושיטות עבודה מומלצות מחברות שכבר משתמשות בפלטפורמה."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "תמיכה מקצועית",
+        "description": "שאלו שאלות ישירות ממומחים ושתפו ידע עם הקהילה."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "מודולי הכשרה",
+    "heading": "מודולי",
+    "headingHighlight": "הכשרה",
+    "description": "תוכנית לימודים מלאה המכסה את כל ההיבטים של פלטפורמת Interfy.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "היכרות עם פלטפורמת Interfy",
+      "ניהול מסמכים (Documents)",
+      "אוטומציית תהליכים (Process)",
+      "בניית תהליכים עם AI (Agents)",
+      "חתימה אלקטרונית ודיגיטלית (Sign)",
+      "לכידה חכמה (Capture)",
+      "דיגיטציה עם תוקף משפטי",
+      "תקשורת ושיתוף פעולה (Connect)",
+      "אפליקציית Mobile",
+      "ניהול ובקרה",
+      "אבטחה וציות",
+      "אינטגרציות ו-API"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "התחילו להכשיר את הצוות שלכם עוד היום",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "הפחתה בעלויות הכשרה"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "Onboarding מהיר יותר"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "מהצוות מוכשר"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "היכנסו לאוניברסיטת Interfy והפכו ידע לתוצאות."
     }
   }
 }

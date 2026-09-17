@@ -466,7 +466,7 @@
           "Backups automáticos criptografados e Disaster Recovery com replicação geográfica",
           "Infraestrutura Multi-AZ na AWS, com SLA de disponibilidade de 99,99%"
         ],
-        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/legal/seguranca" }
+        "relatedLink": { "label": "Ver arquitetura de segurança completa", "href": "/seguranca" }
       },
       {
         "heading": "7. Transferência internacional de dados",

@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Conectează-te cu principalele sisteme de pe piață",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Vezi toate"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Funcționalități și beneficii ale ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "Limbaje suportate de SDK"
     },
     "codeCard": {
-      "heading": "Apel API în câteva secunde"
+      "heading": "Apel API în câteva secunde",
+      "sampleFileName": "fisier.pdf",
+      "sampleTags": ["contract", "client"]
     },
     "ctaCard": {
       "heading": "Integrează. Automatizează. Transformă.",

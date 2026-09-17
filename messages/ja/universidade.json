@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "Interfy大学",
+    "description": "Interfyの企業内大学：動画レッスン、ガイド、実際の活用事例、そして認定制度で、チームのプラットフォーム習得を支援します。",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Interfy大学",
+      "Interfyトレーニング",
+      "企業内大学",
+      "Interfy認定"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "Interfy大学",
+    "titleLine1": "チームを育成する",
+    "titleHighlight": "Interfy大学",
+    "description": "動画レッスン、ガイド、実際の活用事例、そして公式認定制度で、チームが自分のペースでInterfyプラットフォームを使いこなせるようになります。",
+    "primaryLabel": "無料Test Driveを試す",
+    "secondaryLabel": "デモを予約する"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "企業内大学に投資する理由",
+    "heading": "なぜ",
+    "headingHighlight": "企業内大学に投資するのか？",
+    "description": "知識を生産性に変え、トレーニングの運用コストをなくします。",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "コスト削減",
+        "description": "講師、出張、宿泊、印刷物などの費用を削減。運用コストゼロでチームをトレーニングできます。"
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "24時間365日のトレーニング",
+        "description": "チームは自分のペースで、いつでもどこでも学習できます。育成のための完全な柔軟性を実現します。"
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "無限のスケーラビリティ",
+        "description": "コストや運用の複雑さを増やすことなく、10人でも10,000人でも同時にトレーニングできます。"
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "オンボーディングの加速",
+        "description": "新規ユーザーが初日から生産的に活動できます。適応期間を短縮し、生産性を素早く高めます。"
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "公式認定",
+        "description": "従業員に修了証を発行し、各ユーザーの進捗を管理できます。"
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "リアルタイムの分析指標",
+        "description": "インテリジェントなダッシュボードで、各従業員の進捗、エンゲージメント、パフォーマンスを追跡できます。"
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "学習リソース",
+    "heading": "学習",
+    "headingHighlight": "リソース",
+    "description": "あらゆる学習スタイルに対応する、充実した多様なコンテンツ。",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "実践的な動画レッスン",
+        "description": "Interfyプラットフォームの全モジュールをステップバイステップで解説する動画コンテンツ。"
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "ガイドとマニュアル",
+        "description": "すぐに参照できる、充実したドキュメントと文章によるチュートリアル。"
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "実際の活用事例",
+        "description": "すでにプラットフォームを利用している企業による、実践的な導入例とベストプラクティス。"
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "専門サポート",
+        "description": "専門家に直接質問し、コミュニティと知識を共有できます。"
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "トレーニングモジュール",
+    "heading": "トレーニング",
+    "headingHighlight": "モジュール",
+    "description": "Interfyプラットフォームのすべての側面をカバーする、充実したカリキュラム。",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Interfyプラットフォーム入門",
+      "文書管理（Documents）",
+      "プロセス自動化（Process）",
+      "AIによるフロー作成（Agents）",
+      "電子署名とデジタル署名（Sign）",
+      "インテリジェントキャプチャ（Capture）",
+      "法的効力のあるデジタル化",
+      "コミュニケーションとコラボレーション（Connect）",
+      "モバイルアプリ",
+      "管理とガバナンス",
+      "セキュリティとコンプライアンス",
+      "連携とAPI"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "今すぐチームの育成を始めましょう",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "トレーニングコストの削減"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "オンボーディングの高速化"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "チームの育成率"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Interfy大学にアクセスして、知識を成果に変えましょう。"
     }
   }
 }

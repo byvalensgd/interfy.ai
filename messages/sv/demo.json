@@ -33,20 +33,20 @@
         "description": "Någon som redan känner till din bransch."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Vad du kommer att se i demon:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Översikt av Interfy-plattformen",
+      "Demonstration av modulerna Documents och Process",
+      "Bygg arbetsflöden med AI",
+      "Elektronisk signatur och efterlevnad",
+      "Frågor och svar"
     ]
   },
   "form": {
     "heading": "Boka din demonstration",
     "subheading": "Fyll i uppgifterna nedan och vi kontaktar dig för att bekräfta en lämplig tid.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Förnamn",
+    "lastNameLabel": "Efternamn",
     "emailLabel": "Företags-e-post",
     "companyLabel": "Företag",
     "phoneLabel": "Telefon (WhatsApp)",
@@ -59,8 +59,8 @@
       "201–1 000 anställda",
       "Fler än 1 000 anställda"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Huvudintresse",
+    "interestPlaceholder": "Välj",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "Vet inte än"
     ],
     "messageLabel": "Berätta lite om vad du behöver",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Berätta om dina behov...",
     "optionalLabel": "(valfritt)",
     "errors": {
       "name": "Ange ditt fullständiga namn.",
@@ -91,32 +91,6 @@
     "successHeading": "Vi har tagit emot din förfrågan!",
     "successMessagePrefix": "Vårt team kontaktar dig för att bekräfta en lämplig tid via e-post på ",
     "successMessageSuffix": ".",
-    "specialistLink": "Kom igång gratis medan du väntar",
-    "nameLabel": "Fullständigt namn",
-    "roleLabel": "Befattning"
-  },
-  "trust": {
-    "ariaLabel": "Varför boka en demo med Interfy",
-    "heading": "En plattform redo för globala företag",
-    "subheading": "Säkerhet i företagsklass, global efterlevnad och specialiserad support i varje demonstration.",
-    "statsLabel": "Interfys globala närvaro",
-    "stats": [
-      {
-        "label": "180+ länder",
-        "sublabel": "Växande global närvaro"
-      },
-      {
-        "label": "16 språk",
-        "sublabel": "Fullständigt gränssnitt och upplevelse"
-      },
-      {
-        "label": "99,99%",
-        "sublabel": "Garanterad tillgänglighet (SLA)"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Certifierad efterlevnad"
-      }
-    ]
+    "specialistLink": "Kom igång gratis medan du väntar"
   }
 }

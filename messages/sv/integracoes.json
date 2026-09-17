@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Anslut till marknadens ledande system",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Se alla"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Funktioner och fördelar med ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "Språk som stöds av SDK:et"
     },
     "codeCard": {
-      "heading": "API-anrop på sekunder"
+      "heading": "API-anrop på sekunder",
+      "sampleFileName": "fil.pdf",
+      "sampleTags": ["kontrakt", "kund"]
     },
     "ctaCard": {
       "heading": "Integrera. Automatisera. Transformera.",

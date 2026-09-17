@@ -27,7 +27,7 @@ export default async function LgpdPage() {
       subtitle={legal.meta.lgpd.description}
       content={lgpd}
       search={legal.search}
-      certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+      certificationsCtaHref={withLocale("/seguranca", locale)}
       locale={locale}
     />
   );

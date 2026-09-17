@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Digitalização com Validade Legal: o Que Diz o Decreto 10.278",
+    "description": "Entenda o que o Decreto 10.278/2020 muda para o descarte do papel, os requisitos para digitalizar documentos com validade legal e os impactos da LGPD nesse processo.",
+    "keywords": ["Decreto 10.278", "digitalização de documentos", "gestão eletrônica de documentos", "LGPD", "descarte de papel"]
+  },
+  "topBar": {
+    "backLabel": "Voltar"
+  },
+  "article": {
+    "date": "Mai 2026",
+    "author": "Equipe Interfy",
+    "readTime": "6 min de leitura",
+    "tags": ["Gestão Documental", "Decreto 10.278", "LGPD", "Compliance"],
+    "title": "Digitalização com validade legal: o que diz o Decreto 10.278",
+    "image": "/images/blog/post-decreto-10278.png",
+    "intro": [
+      "Digitalizar documentos e fazer a gestão eletrônica já é algo que agrega muito valor às organizações por trazer diversos benefícios para a operação, tais como: organização, agilidade, segurança e eficiência.",
+      "Embora todos os benefícios sejam inquestionáveis, é evidente que havia uma lacuna sobre esse tema, visto que não era possível se livrar do papel, a não ser através da microfilmagem — o que passou a ser utilizado mais por instituições públicas e em apenas uma pequena parcela de documentos, devido à forma como se realiza a microfilmagem e ao custo não tão acessível."
+    ],
+    "sections": [
+      {
+        "heading": "O Decreto 10.278/2020 e o Descarte do Papel",
+        "paragraphs": [
+          "Finalmente, com o Decreto 10.278/2020, de 18 de março de 2020, as empresas passam a ter um excelente motivo para comemorar: passa a ser possível descartar o papel! Pelo menos para a grande maioria dos documentos disponíveis — aqueles cujo conteúdo não tem valor histórico —, que agora podem ser descartados, desde que digitalizados de acordo com os requisitos especificados no decreto.",
+          "Só quem lida com grandes volumes de documentos diariamente sabe o que isso representa. Para muitas empresas, essa nova realidade estabelece a necessidade de modernizar a maneira de lidar com documentos; já para as que vinham se preparando há algum tempo para esse momento, resta conferir se os documentos digitalizados atendem aos requisitos e, definitivamente, descartar a papelada ou ajustar o que não estiver de acordo."
+        ]
+      },
+      {
+        "heading": "Transformação Digital e Processos",
+        "paragraphs": [
+          "É óbvio que essa tarefa não é tão simples, e nada se transforma do dia para a noite: a maioria das empresas ainda não tem uma gestão de documentos totalmente digital e certamente terá que reorganizar seus processos de produção, distribuição e controle de documentos. Para isso, será fundamental dedicar esforços para que essa migração seja bem feita e no menor tempo possível.",
+          "Essa possibilidade real de conversão do legado em documentos digitais, viabilizada pelo Decreto 10.278 com a permissão para descarte do papel, vem a calhar com o fenômeno da transformação digital, que tem exigido das organizações que passem a operar em ambientes cada vez mais digitais. Para isso, as empresas têm deixado de gerar documentos em papel através do uso de tecnologias como o Documents (gestão de documentos) e o Process (automação de processos), aliados à Assinatura Digital, para a gestão e distribuição de documentos e processos."
+        ]
+      },
+      {
+        "heading": "Impactos da LGPD (Lei Geral de Proteção de Dados)",
+        "paragraphs": [
+          "As empresas também terão que se atentar à Lei Geral de Proteção de Dados (LGPD), cujas exigências entraram em vigor nos anos seguintes à sua publicação.",
+          "Atender à LGPD impacta na forma de controle das informações envolvidas nas operações que podem identificar um indivíduo. Como estamos tratando da digitalização de documentos, que seguramente em muitos casos contêm dados de identificação — tanto nos documentos quanto nos registros —, isso influencia diretamente no atendimento à norma. Portanto, as empresas precisam prever em seus processos formas seguras de trabalhar com dados, registros e documentos, mitigando os riscos envolvidos e criando novas políticas e uma nova cultura para o uso da informação.",
+          "Todas essas exigências e melhorias pelas quais as empresas terão que passar, seja por força de lei ou por exigências do mercado, vão tomar tempo e esforço — mas o resultado é um avanço considerável na capacidade de operar, já que haverá uma modernização significativa nos processos."
+        ]
+      },
+      {
+        "heading": "Requisitos para o Descarte de Documentos Digitalizados",
+        "paragraphs": ["Para descartar os documentos digitalizados, é necessário considerar os seguintes requisitos:"],
+        "items": [
+          "Resolução: digitalizar os documentos com no mínimo 300 dpi, exceto plantas e mapas, que devem ser digitalizados com 600 dpi — o documento digitalizado deve se equiparar ao documento físico;",
+          "Certificação: o responsável pela digitalização deve assinar com certificado digital ICP-Brasil, para garantir a integridade e a autoria;",
+          "Qualidade: não deve ocorrer perda de qualidade do arquivo, caso ocorra compressão;",
+          "Formato: os arquivos devem ser em formato PDF/A, e PNG para plantas, mapas, fotos e cartazes;",
+          "Indexação: deve conter a indexação mínima exigida — assunto, autor, data e local da digitalização, identificador do documento digital, responsável pela digitalização, título, tipo documental e hash (checksum) da imagem;",
+          "Segurança: é necessário garantir a proteção do documento contra destruição, alteração, acesso e reprodução não autorizados;",
+          "Valor histórico: o documento não deve ter conteúdo de valor histórico."
+        ]
+      },
+      {
+        "heading": "Como as Empresas Vão Lidar com Essas Novas Demandas?",
+        "paragraphs": [
+          "Diante desse cenário, muitas empresas têm dificuldade em se adequar, tanto no que diz respeito à digitalização do legado quanto à modernização de seus processos para aumentar a eficiência e atender à LGPD. Vale lembrar que todas as empresas devem se adequar — não importa o porte ou o segmento: modernizar é uma questão de sobrevivência e compliance.",
+          "Já vivemos momentos cruciais em que as empresas buscam soluções internas e externas para atender a essa nova realidade. Isso traz muitas oportunidades para prestadores de serviços de digitalização e consultoria em gestão de processos, que lidam diariamente com documentos, regras e processos, e podem auxiliar as organizações na modernização de suas políticas e na escolha das ferramentas certas — com o objetivo de garantir uma transição menos turbulenta e mais segura."
+        ]
+      },
+      {
+        "heading": "Como a Plataforma Interfy Pode Ajudar as Empresas a se Adequarem?",
+        "paragraphs": [
+          "A Plataforma Interfy possui os recursos e funcionalidades necessários para digitalizar documentos atendendo aos requisitos do Decreto 10.278 e da LGPD — é um serviço 100% online, de implementação rápida e acessível a qualquer empresa.",
+          "Ela desempenha um papel importante no processo de transformação digital das empresas, por reunir recursos de gestão de documentos e automação de processos em um mesmo login. Através da definição de perfis de acesso, do registro de logs e da possibilidade de a própria empresa desenhar seus fluxos de trabalho, a plataforma facilita a implementação das políticas necessárias para garantir a segurança dos dados e das informações sob responsabilidade da empresa."
+        ]
+      }
+    ],
+    "backLabel": "Voltar para a página principal"
+  },
+  "sidebar": {
+    "newsletter": {
+      "heading": "Fique por dentro das novidades!",
+      "placeholder": "Seu melhor email",
+      "consentLabel": "Eu concordo com a Política de Privacidade"
+    }
+  },
+  "promo": {
+    "heading": "Lançamento do Módulo de Captura de Alta Performance – Interfy",
+    "description": "Solução inteligente de captura de documentos que coloca o poder dos aplicativos de digitalização profissionais ao alcance de todos os usuários de uma organização.",
+    "image": "/images/blog/promo-captura-webinar.png",
+    "primaryLabel": "Assista agora",
+    "secondaryLabel": "Veja mais vídeos da Interfy"
+  }
+}

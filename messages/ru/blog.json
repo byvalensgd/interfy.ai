@@ -9,65 +9,58 @@
       "ИИ для бизнеса"
     ]
   },
-  "hero": {
-    "ariaLabel": "Введение в блог",
-    "eyebrow": "Блог и контент",
-    "titleLine1": "Контент для тех, кто",
-    "titleHighlight": "преобразует операции",
-    "description": "Практические руководства, новости продуктов и тренды о документах, процессах, данных и ИИ для бизнеса."
-  },
   "featured": {
-    "ariaLabel": "Featured article and recent posts",
-    "heading": "Featured",
+    "ariaLabel": "Избранная статья и последние публикации",
+    "heading": "Избранное",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
+      "category": "ИИ и агенты",
+      "title": "Как ИИ меняет способ, которым компании управляют документами и процессами",
+      "excerpt": "От умного захвата данных до автономных агентов: обзор того, как ИИ уже стал частью повседневной работы пользователей Interfy, и что появится дальше.",
+      "date": "Сен 2026",
+      "author": "Команда Interfy",
+      "readTime": "9 мин чтения",
+      "ctaLabel": "Читать статью"
     },
-    "recentHeading": "Recent",
+    "recentHeading": "Недавние",
     "recent": [
       {
-        "title": "How to structure a document repository that scales with your company",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "Как построить репозиторий документов, который растёт вместе с компанией",
+        "date": "Авг 2026",
+        "author": "Команда Interfy"
       },
       {
-        "title": "5 processes every company should automate first",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "5 процессов, которые каждая компания должна автоматизировать в первую очередь",
+        "date": "Авг 2026",
+        "author": "Команда Interfy"
       },
       {
-        "title": "Is electronic signature legally valid?",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "Имеет ли электронная подпись юридическую силу?",
+        "date": "Июл 2026",
+        "author": "Команда Interfy"
       },
       {
-        "title": "AI agents in internal processes: where to start",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "ИИ-агенты во внутренних процессах: с чего начать",
+        "date": "Июл 2026",
+        "author": "Команда Interfy"
       },
       {
-        "title": "Data protection in practice: what changes in document and process management",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "GDPR на практике: что меняется в управлении документами и процессами",
+        "date": "Июн 2026",
+        "author": "Команда Interfy"
       },
       {
-        "title": "OCR and smart capture: the end of manual data entry",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "OCR и интеллектуальный захват: конец ручному вводу данных",
+        "date": "Июн 2026",
+        "author": "Команда Interfy"
       }
     ]
   },
   "categories": {
     "ariaLabel": "Articles by category",
-    "ctaLabel": "Read the blog",
+    "ctaLabel": "Читать блог",
     "sections": [
       {
-        "name": "Document Management",
+        "name": "Управление документами",
         "posts": [
           {
             "title": "How to structure a document repository that scales with your company",
@@ -90,7 +83,7 @@
         ]
       },
       {
-        "name": "Business Process Management",
+        "name": "Автоматизация (BPM)",
         "posts": [
           {
             "title": "5 processes every company should automate first",
@@ -113,7 +106,7 @@
         ]
       },
       {
-        "name": "Artificial Intelligence",
+        "name": "ИИ и агенты",
         "posts": [
           {
             "title": "AI agents in internal processes: where to start",
@@ -192,6 +185,48 @@
         "excerpt": "Как автоматизированный захват снижает количество ошибок и ускоряет ввод документов в рабочий процесс.",
         "date": "Июн 2026",
         "readTime": "5 мин чтения"
+      },
+      {
+        "category": "Управление документами",
+        "title": "Перевод бумажных архивов в цифровой формат без потери истории",
+        "excerpt": "План по оцифровке старых архивов с сохранением метаданных, индексации и юридической силы документов.",
+        "date": "Апр 2026",
+        "readTime": "7 мин чтения"
+      },
+      {
+        "category": "Автоматизация (BPM)",
+        "title": "Как измерить ROI автоматизации процессов",
+        "excerpt": "Метрики, которые действительно важны, чтобы доказать руководству отдачу от проекта автоматизации.",
+        "date": "Сен 2026",
+        "readTime": "6 мин чтения"
+      },
+      {
+        "category": "Автоматизация (BPM)",
+        "title": "Многоуровневые согласования без узких мест: как проектировать масштабируемые процессы",
+        "excerpt": "Практическое руководство по распределению полномочий согласования без остановки работы в пиковые периоды.",
+        "date": "Май 2026",
+        "readTime": "6 мин чтения"
+      },
+      {
+        "category": "Электронная подпись",
+        "title": "Квалифицированная, усиленная или простая подпись: что использовать в каждом случае",
+        "excerpt": "Разберитесь в различиях между уровнями электронной подписи и выберите подходящий для каждого документа.",
+        "date": "Май 2026",
+        "readTime": "6 мин чтения"
+      },
+      {
+        "category": "ИИ и агенты",
+        "title": "Как обучать ИИ-агентов на данных вашей компании",
+        "excerpt": "Руководство по базам знаний, правам доступа и лучшим практикам для надёжных внутренних агентов.",
+        "date": "Сен 2026",
+        "readTime": "7 мин чтения"
+      },
+      {
+        "category": "Безопасность и комплаенс",
+        "title": "ISO 27001 на практике: что действительно проверяют аудиторы",
+        "excerpt": "Наиболее проверяемые меры контроля при сертификационном аудите и как подготовиться заранее.",
+        "date": "Апр 2026",
+        "readTime": "6 мин чтения"
       }
     ]
   },

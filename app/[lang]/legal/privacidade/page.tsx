@@ -27,7 +27,7 @@ export default async function PrivacidadePage() {
       subtitle={legal.meta.privacidade.description}
       content={privacidade}
       search={legal.search}
-      certificationsCtaHref={withLocale("/legal/seguranca", locale)}
+      certificationsCtaHref={withLocale("/seguranca", locale)}
       locale={locale}
     />
   );

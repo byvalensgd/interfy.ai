@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Te sugerimos un ",
-      "paragraphHighlight": "recorrido de 7 días",
-      "paragraphNote": " (pero todo está disponible desde el primer día)",
+      "headingPrefix": "Te sugerimos un ",
+      "headingHighlight": "recorrido de 7 días",
+      "headingSuffix": "",
+      "paragraph": "(pero todo está disponible desde el primer día)",
       "dayLabel": "Día {number}",
       "days": [
         { "line1": "Conoce tu", "line2": "Workspace" },

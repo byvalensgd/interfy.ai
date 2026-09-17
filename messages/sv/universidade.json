@@ -1,114 +1,114 @@
 {
   "meta": {
     "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "description": "Interfys företagsuniversitet: videolektioner, guider, verkliga användningsfall och certifiering för att utbilda ditt team på plattformen.",
     "keywords": [
       "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Interfy-utbildning",
+      "företagsuniversitet",
+      "Interfy-certifiering"
     ]
   },
   "hero": {
     "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
+    "titleLine1": "Utbilda ditt team på",
     "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "description": "Videolektioner, guider, verkliga användningsfall och officiell certifiering för att ditt team ska bemästra Interfy-plattformen i egen takt.",
+    "primaryLabel": "Gör en Test Drive",
+    "secondaryLabel": "Boka en demo"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "Varför investera i ett företagsuniversitet",
+    "heading": "Varför investera i ett",
+    "headingHighlight": "företagsuniversitet?",
+    "description": "Förvandla kunskap till produktivitet och eliminera operativa utbildningskostnader.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "Kostnadsreduktion",
+        "description": "Eliminera utgifter för instruktörer, resor, boende och fysiskt material. Utbilda ditt team utan operativ kostnad."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "Utbildning dygnet runt",
+        "description": "Ditt team lär sig i egen takt, när och var som helst. Total flexibilitet för kompetensutveckling."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "Obegränsad skalbarhet",
+        "description": "Utbilda 10 eller 10 000 medarbetare samtidigt utan att öka kostnader eller operativ komplexitet."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "Snabbare onboarding",
+        "description": "Nya användare är produktiva från dag ett. Minska anpassningstiden och öka produktiviteten snabbt."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "Officiell certifiering",
+        "description": "Utfärda certifikat för genomförd utbildning till dina medarbetare och följ varje användares framsteg."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "Mätvärden i realtid",
+        "description": "Följ framsteg, engagemang och prestation för varje medarbetare via smarta dashboards."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "Läranderesurser",
+    "heading": "Resurser för",
+    "headingHighlight": "lärande",
+    "description": "Komplett och varierat innehåll för alla typer av lärstilar.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "Praktiska videolektioner",
+        "description": "Steg-för-steg videoinnehåll om alla moduler i Interfy-plattformen."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "Guider och manualer",
+        "description": "Fullständig dokumentation och skriftliga handledningar för snabb uppslagning och referens."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "Verkliga användningsfall",
+        "description": "Praktiska implementeringsexempel och bästa praxis från företag som redan använder plattformen."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "Specialiserad support",
+        "description": "Ställ frågor direkt till specialister och dela kunskap med communityn."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "Utbildningsmoduler",
+    "heading": "Moduler för",
+    "headingHighlight": "utbildning",
+    "description": "Ett komplett kursprogram som täcker alla aspekter av Interfy-plattformen.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
-      "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Introduktion till Interfy-plattformen",
+      "Dokumenthantering (Documents)",
+      "Processautomation (Process)",
+      "Bygga flöden med AI (Agents)",
+      "Elektronisk och digital signatur (Sign)",
+      "Smart insamling (Capture)",
+      "Digitalisering med juridisk giltighet",
+      "Kommunikation och samarbete (Connect)",
+      "Mobilapp",
+      "Administration och styrning",
+      "Säkerhet och regelefterlevnad",
+      "Integrationer och API:er"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "Börja utbilda ditt team redan idag",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "minskning av utbildningskostnader"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "snabbare onboarding"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "av teamet utbildat"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Få tillgång till Interfy University och förvandla kunskap till resultat."
     }
   }
 }

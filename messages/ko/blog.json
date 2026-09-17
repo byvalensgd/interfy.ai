@@ -9,65 +9,58 @@
       "기업용 AI"
     ]
   },
-  "hero": {
-    "ariaLabel": "블로그 소개",
-    "eyebrow": "블로그 & 콘텐츠",
-    "titleLine1": "업무를 혁신하는 이들을 위한",
-    "titleHighlight": "콘텐츠",
-    "description": "문서, 프로세스, 데이터, AI에 관한 실용적인 가이드와 제품 소식, 그리고 최신 트렌드를 기업에 전합니다."
-  },
   "featured": {
-    "ariaLabel": "Featured article and recent posts",
-    "heading": "Featured",
+    "ariaLabel": "추천 아티클과 최신 게시물",
+    "heading": "추천",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
+      "category": "AI & 에이전트",
+      "title": "AI가 기업의 문서 및 프로세스 관리 방식을 바꾸는 방법",
+      "excerpt": "지능형 캡처부터 자율 에이전트까지: AI가 이미 Interfy 사용자의 일상 업무에 어떻게 적용되고 있는지, 그리고 앞으로 어떤 변화가 있을지 살펴봅니다.",
+      "date": "2026년 9월",
+      "author": "Interfy 팀",
+      "readTime": "읽는 시간 9분",
+      "ctaLabel": "아티클 읽기"
     },
-    "recentHeading": "Recent",
+    "recentHeading": "최신",
     "recent": [
       {
-        "title": "How to structure a document repository that scales with your company",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "기업 성장에 맞춰 확장되는 문서 저장소 구축하기",
+        "date": "2026년 8월",
+        "author": "Interfy 팀"
       },
       {
-        "title": "5 processes every company should automate first",
-        "date": "Aug 2026",
-        "author": "Interfy Team"
+        "title": "모든 기업이 가장 먼저 자동화해야 할 5가지 프로세스",
+        "date": "2026년 8월",
+        "author": "Interfy 팀"
       },
       {
-        "title": "Is electronic signature legally valid?",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "브라질에서 전자서명은 법적 효력이 있을까?",
+        "date": "2026년 7월",
+        "author": "Interfy 팀"
       },
       {
-        "title": "AI agents in internal processes: where to start",
-        "date": "Jul 2026",
-        "author": "Interfy Team"
+        "title": "내부 프로세스에 도입하는 AI 에이전트, 어디서부터 시작할까",
+        "date": "2026년 7월",
+        "author": "Interfy 팀"
       },
       {
-        "title": "Data protection in practice: what changes in document and process management",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "실무에서 본 LGPD: 문서 및 프로세스 관리에서 달라지는 점",
+        "date": "2026년 6월",
+        "author": "Interfy 팀"
       },
       {
-        "title": "OCR and smart capture: the end of manual data entry",
-        "date": "Jun 2026",
-        "author": "Interfy Team"
+        "title": "OCR과 지능형 캡처: 수작업 입력의 종말",
+        "date": "2026년 6월",
+        "author": "Interfy 팀"
       }
     ]
   },
   "categories": {
     "ariaLabel": "Articles by category",
-    "ctaLabel": "Read the blog",
+    "ctaLabel": "블로그 보기",
     "sections": [
       {
-        "name": "Document Management",
+        "name": "문서 관리",
         "posts": [
           {
             "title": "How to structure a document repository that scales with your company",
@@ -90,7 +83,7 @@
         ]
       },
       {
-        "name": "Business Process Management",
+        "name": "자동화(BPM)",
         "posts": [
           {
             "title": "5 processes every company should automate first",
@@ -113,7 +106,7 @@
         ]
       },
       {
-        "name": "Artificial Intelligence",
+        "name": "AI & 에이전트",
         "posts": [
           {
             "title": "AI agents in internal processes: where to start",
@@ -192,6 +185,48 @@
         "excerpt": "자동화된 캡처가 오류를 줄이고 문서를 업무 흐름에 더 빠르게 반영하는 방법을 알아봅니다.",
         "date": "2026년 6월",
         "readTime": "읽는 시간 5분"
+      },
+      {
+        "category": "문서 관리",
+        "title": "이력을 그대로 보존하며 종이 문서를 디지털로 이전하는 방법",
+        "excerpt": "메타데이터, 색인, 법적 유효성을 유지하면서 오래된 자료를 디지털화하는 로드맵입니다.",
+        "date": "Abr 2026",
+        "readTime": "읽는 시간 7분"
+      },
+      {
+        "category": "자동화(BPM)",
+        "title": "프로세스 자동화의 ROI를 측정하는 방법",
+        "excerpt": "경영진에게 자동화 프로젝트의 성과를 입증할 때 실제로 중요한 지표들을 소개합니다.",
+        "date": "Set 2026",
+        "readTime": "읽는 시간 6분"
+      },
+      {
+        "category": "자동화(BPM)",
+        "title": "병목 없는 다단계 승인: 확장 가능한 흐름을 설계하는 방법",
+        "excerpt": "수요가 몰릴 때도 운영이 막히지 않도록 승인 권한을 분산하는 실용 가이드입니다.",
+        "date": "Mai 2026",
+        "readTime": "읽는 시간 6분"
+      },
+      {
+        "category": "전자서명",
+        "title": "정규, 고급, 단순 서명: 상황별로 어떤 것을 사용해야 할까",
+        "excerpt": "전자서명 등급별 차이를 이해하고 문서마다 가장 적합한 방식을 선택하는 방법을 알아봅니다.",
+        "date": "Mai 2026",
+        "readTime": "읽는 시간 6분"
+      },
+      {
+        "category": "AI & 에이전트",
+        "title": "회사 데이터로 AI 에이전트를 학습시키는 방법",
+        "excerpt": "신뢰할 수 있는 내부 에이전트를 위한 지식 기반, 권한 설정, 모범 사례를 다루는 가이드입니다.",
+        "date": "Set 2026",
+        "readTime": "읽는 시간 7분"
+      },
+      {
+        "category": "보안 & 컴플라이언스",
+        "title": "실전 ISO 27001: 감사관이 실제로 확인하는 것",
+        "excerpt": "인증 감사에서 가장 많이 요구되는 통제 항목과 미리 준비하는 방법을 소개합니다.",
+        "date": "Abr 2026",
+        "readTime": "읽는 시간 6분"
       }
     ]
   },

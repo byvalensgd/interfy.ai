@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Ehdotamme ",
-      "paragraphHighlight": "7 päivän matkaa",
-      "paragraphNote": " (mutta kaikki on käytettävissä ensimmäisestä päivästä alkaen)",
+      "headingPrefix": "Ehdotamme ",
+      "headingHighlight": "7 päivän matkaa",
+      "headingSuffix": "",
+      "paragraph": "(mutta kaikki on käytettävissä ensimmäisestä päivästä alkaen)",
       "dayLabel": "Päivä {number}",
       "days": [
         { "line1": "Tutustu", "line2": "Workspaceen" },

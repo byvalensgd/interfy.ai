@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Подключайтесь к ведущим системам рынка",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Смотреть все"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Возможности и преимущества ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "Языки, поддерживаемые SDK"
     },
     "codeCard": {
-      "heading": "Вызов API за секунды"
+      "heading": "Вызов API за секунды",
+      "sampleFileName": "файл.pdf",
+      "sampleTags": ["договор", "клиент"]
     },
     "ctaCard": {
       "heading": "Интегрируйте. Автоматизируйте. Преобразуйте.",

@@ -3,8 +3,10 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 import { blogCategoryMeta } from "@/config/blog-page";
+import { localizeHref } from "@/lib/i18n/paths";
+import type { Locale } from "@/lib/i18n/config";
 
-type Post = { title: string; excerpt: string; date: string; readTime: string };
+type Post = { title: string; excerpt: string; date: string; readTime: string; href?: string };
 
 type CategorySection = { name: string; posts: Post[] };
 
@@ -12,10 +14,12 @@ export default function BlogCategorySection({
   ariaLabel,
   ctaLabel,
   sections,
+  locale,
 }: {
   ariaLabel: string;
   ctaLabel: string;
   sections: CategorySection[];
+  locale: Locale;
 }) {
   return (
     <section aria-label={ariaLabel} className="flex justify-center px-5 py-10">
@@ -46,21 +50,32 @@ export default function BlogCategorySection({
                     stretches to fill instead of a CSS Grid leaving it
                     blank — posts.length is dynamic per category. */}
                 <ul className="flex flex-wrap gap-5">
-                  {section.posts.map((post) => (
-                    <li
-                      key={post.title}
-                      className="flex h-full grow basis-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco sm:basis-[calc(33.3333%-0.8333rem)]"
-                    >
-                      <div className={`h-[100px] w-full ${meta.accent}`} />
-                      <div className="flex flex-1 flex-col gap-2 p-5">
-                        <p className="text-base leading-[1.3] font-bold text-texto">{post.title}</p>
-                        <p className="flex-1 text-sm leading-[1.4] font-medium text-texto-medio">{post.excerpt}</p>
-                        <p className="text-xs leading-[1.2] font-medium text-texto-medio">
-                          {post.date} · {post.readTime}
-                        </p>
-                      </div>
-                    </li>
-                  ))}
+                  {section.posts.map((post) => {
+                    const cardClassName = "flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco";
+                    const content = (
+                      <>
+                        <div className={`h-[100px] w-full ${meta.accent}`} />
+                        <div className="flex flex-1 flex-col gap-2 p-5">
+                          <p className="text-base leading-[1.3] font-bold text-texto">{post.title}</p>
+                          <p className="flex-1 text-sm leading-[1.4] font-medium text-texto-medio">{post.excerpt}</p>
+                          <p className="text-xs leading-[1.2] font-medium text-texto-medio">
+                            {post.date} · {post.readTime}
+                          </p>
+                        </div>
+                      </>
+                    );
+                    return (
+                      <li key={post.title} className="grow basis-full sm:basis-[calc(33.3333%-0.8333rem)]">
+                        {post.href ? (
+                          <Link href={localizeHref(post.href, locale)} className={`${cardClassName} transition-colors hover:border-azul-base`}>
+                            {content}
+                          </Link>
+                        ) : (
+                          <div className={cardClassName}>{content}</div>
+                        )}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </Reveal>

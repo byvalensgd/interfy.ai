@@ -26,6 +26,7 @@ export default async function Header() {
             items: platformMenuItems.map((item, i) => ({
               href: item.href,
               label: header.productsMenu.items[i].title,
+              description: header.productsMenu.items[i].description,
               icon: item.icon,
             })),
           },

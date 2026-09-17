@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "시장을 대표하는 주요 시스템과 연결하세요",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "전체 보기"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "SDK에서 지원하는 언어"
     },
     "codeCard": {
-      "heading": "몇 초 만에 완료되는 API 호출"
+      "heading": "몇 초 만에 완료되는 API 호출",
+      "sampleFileName": "파일.pdf",
+      "sampleTags": ["계약서", "고객"]
     },
     "ctaCard": {
       "heading": "연동하세요. 자동화하세요. 혁신하세요.",

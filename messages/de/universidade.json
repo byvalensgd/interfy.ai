@@ -1,114 +1,114 @@
 {
   "meta": {
-    "title": "Interfy University",
-    "description": "Interfy's corporate university: video lessons, guides, real use cases and certification to train your team on the platform.",
+    "title": "Interfy Universität",
+    "description": "Die Unternehmensuniversität von Interfy: Videokurse, Leitfäden, reale Anwendungsfälle und Zertifizierung, um Ihr Team auf der Plattform zu qualifizieren.",
     "keywords": [
-      "Interfy University",
-      "Interfy training",
-      "corporate university",
-      "Interfy certification"
+      "Interfy Universität",
+      "Interfy Schulung",
+      "Unternehmensuniversität",
+      "Interfy Zertifizierung"
     ]
   },
   "hero": {
-    "ariaLabel": "Interfy University",
-    "titleLine1": "Train your team at",
-    "titleHighlight": "Interfy University",
-    "description": "Video lessons, guides, real use cases and official certification for your team to master the Interfy platform at their own pace.",
-    "primaryLabel": "Get started",
-    "secondaryLabel": "Schedule a demo"
+    "ariaLabel": "Interfy Universität",
+    "titleLine1": "Qualifizieren Sie Ihr Team in der",
+    "titleHighlight": "Interfy Universität",
+    "description": "Videokurse, Leitfäden, reale Anwendungsfälle und offizielle Zertifizierung, damit Ihr Team die Interfy-Plattform in seinem eigenen Tempo beherrscht.",
+    "primaryLabel": "Test Drive starten",
+    "secondaryLabel": "Demo vereinbaren"
   },
   "benefits": {
-    "ariaLabel": "Why invest in a corporate university",
-    "heading": "Why invest in a",
-    "headingHighlight": "Corporate University?",
-    "description": "Turn knowledge into productivity and eliminate operational training costs.",
+    "ariaLabel": "Warum in eine Unternehmensuniversität investieren",
+    "heading": "Warum in eine",
+    "headingHighlight": "Unternehmensuniversität investieren?",
+    "description": "Verwandeln Sie Wissen in Produktivität und eliminieren Sie operative Schulungskosten.",
     "items": [
       {
-        "title": "Cost Reduction",
-        "description": "Eliminate spending on instructors, travel, lodging and physical materials. Train your team at zero operational cost."
+        "title": "Kostenreduzierung",
+        "description": "Sparen Sie Ausgaben für Trainer, Reisen, Unterkunft und physische Materialien. Schulen Sie Ihr Team mit null operativen Kosten."
       },
       {
-        "title": "24/7 Training",
-        "description": "Your team learns at their own pace, anytime, anywhere. Total flexibility for skill-building."
+        "title": "Schulung 24/7",
+        "description": "Ihr Team lernt im eigenen Tempo, zu jeder Zeit und von überall. Volle Flexibilität für die Weiterbildung."
       },
       {
-        "title": "Infinite Scalability",
-        "description": "Train 10 or 10,000 employees at once without increasing cost or operational complexity."
+        "title": "Unendliche Skalierbarkeit",
+        "description": "Schulen Sie 10 oder 10.000 Mitarbeitende gleichzeitig, ohne Kosten oder operative Komplexität zu erhöhen."
       },
       {
-        "title": "Faster Onboarding",
-        "description": "New users productive from day one. Cut adaptation time and boost productivity quickly."
+        "title": "Beschleunigtes Onboarding",
+        "description": "Neue Nutzer sind vom ersten Tag an produktiv. Verkürzen Sie die Einarbeitungszeit und steigern Sie die Produktivität schnell."
       },
       {
-        "title": "Official Certification",
-        "description": "Issue completion certificates for your employees and track each user's progress."
+        "title": "Offizielle Zertifizierung",
+        "description": "Stellen Sie Abschlusszertifikate für Ihre Mitarbeitenden aus und verfolgen Sie den Fortschritt jedes Nutzers."
       },
       {
-        "title": "Real-Time Metrics",
-        "description": "Track progress, engagement and performance for every employee through smart dashboards."
+        "title": "Echtzeit-Kennzahlen",
+        "description": "Verfolgen Sie Fortschritt, Engagement und Leistung jedes Mitarbeitenden über intelligente Dashboards."
       }
     ]
   },
   "resources": {
-    "ariaLabel": "Learning resources",
-    "heading": "Learning",
-    "headingHighlight": "Resources",
-    "description": "Complete, diverse content for every learning style.",
+    "ariaLabel": "Lernressourcen",
+    "heading": "Ressourcen zum",
+    "headingHighlight": "Lernen",
+    "description": "Umfassende und vielfältige Inhalte für alle Lernstile.",
     "items": [
       {
-        "title": "Hands-On Video Lessons",
-        "description": "Step-by-step video content covering every module of the Interfy platform."
+        "title": "Praktische Videokurse",
+        "description": "Schritt-für-Schritt-Videoinhalte zu allen Modulen der Interfy-Plattform."
       },
       {
-        "title": "Guides & Manuals",
-        "description": "Complete documentation and written tutorials for quick reference."
+        "title": "Leitfäden und Handbücher",
+        "description": "Vollständige Dokumentation und schriftliche Tutorials für schnelles Nachschlagen und Referenz."
       },
       {
-        "title": "Real Use Cases",
-        "description": "Practical implementation examples and best practices from companies already using the platform."
+        "title": "Reale Anwendungsfälle",
+        "description": "Praktische Implementierungsbeispiele und Best Practices von Unternehmen, die die Plattform bereits nutzen."
       },
       {
-        "title": "Specialized Support",
-        "description": "Ask questions directly to specialists and share knowledge with the community."
+        "title": "Spezialisierter Support",
+        "description": "Klären Sie Fragen direkt mit Experten und teilen Sie Wissen mit der Community."
       }
     ]
   },
   "modules": {
-    "ariaLabel": "Training modules",
-    "heading": "Training",
-    "headingHighlight": "Modules",
-    "description": "A complete curriculum covering every aspect of the Interfy platform.",
+    "ariaLabel": "Schulungsmodule",
+    "heading": "Schulungs-",
+    "headingHighlight": "module",
+    "description": "Vollständiger Lehrplan, der alle Aspekte der Interfy-Plattform abdeckt.",
     "items": [
-      "Introduction to the Interfy Platform",
-      "Document Management (Documents)",
-      "Process Automation (Process)",
-      "Building Workflows with AI (Agents)",
-      "Electronic & Digital Signature (Sign)",
-      "Smart Capture (Capture)",
-      "Legally Valid Digitization",
-      "Communication & Collaboration (Connect)",
+      "Einführung in die Interfy-Plattform",
+      "Dokumentenmanagement (Documents)",
+      "Prozessautomatisierung (Process)",
+      "Workflow-Erstellung mit KI (Agents)",
+      "Elektronische und digitale Signatur (Sign)",
+      "Intelligente Erfassung (Capture)",
+      "Rechtsgültige Digitalisierung",
+      "Kommunikation und Zusammenarbeit (Connect)",
       "Mobile App",
-      "Administration & Governance",
-      "Security & Compliance",
-      "Integrations & APIs"
+      "Verwaltung und Governance",
+      "Sicherheit und Compliance",
+      "Integrationen und APIs"
     ],
     "cta": {
-      "heading": "Start training your team today",
+      "heading": "Beginnen Sie noch heute, Ihr Team zu qualifizieren",
       "stats": [
         {
           "value": "90%",
-          "label": "Reduction in Training Costs"
+          "label": "Reduzierung der Schulungskosten"
         },
         {
           "value": "70%",
-          "label": "Faster Onboarding"
+          "label": "Schnelleres Onboarding"
         },
         {
           "value": "100%",
-          "label": "Of the Team Trained"
+          "label": "Des Teams qualifiziert"
         }
       ],
-      "description": "Access Interfy University and turn knowledge into results."
+      "description": "Besuchen Sie die Interfy Universität und verwandeln Sie Wissen in Ergebnisse."
     }
   }
 }

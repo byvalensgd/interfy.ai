@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Legally Valid Digitization: What Brazil's Decree 10.278 Says",
+    "description": "Understand what Decree 10.278/2020 changes for paper disposal, the requirements for legally valid document digitization, and the impact of LGPD on this process.",
+    "keywords": ["Decree 10.278", "document digitization", "electronic document management", "LGPD", "paper disposal"]
+  },
+  "topBar": {
+    "backLabel": "Back"
+  },
+  "article": {
+    "date": "May 2026",
+    "author": "Interfy Team",
+    "readTime": "6 min read",
+    "tags": ["Document Management", "Decree 10.278", "LGPD", "Compliance"],
+    "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+    "image": "/images/blog/post-decreto-10278.png",
+    "intro": [
+      "Digitizing documents and managing them electronically already adds a lot of value to organizations by bringing several benefits to the operation, such as: organization, agility, security, and efficiency.",
+      "While all these benefits are unquestionable, there was clearly a gap on this topic, since it wasn't possible to get rid of paper except through microfilming — which ended up being used mostly by public institutions and for only a small share of documents, given how microfilming is done and its not-so-accessible cost."
+    ],
+    "sections": [
+      {
+        "heading": "Decree 10.278/2020 and Paper Disposal",
+        "paragraphs": [
+          "Finally, with Decree 10.278/2020, published on March 18, 2020, companies have an excellent reason to celebrate: it is now possible to dispose of paper! At least for the vast majority of available documents — those whose content has no historical value — which can now be discarded, as long as they are digitized according to the requirements specified in the decree.",
+          "Only those who deal with large volumes of documents daily know what this means. For many companies, this new reality establishes the need to modernize the way they handle documents; for those that had already been preparing for this moment, all that's left is to check whether the digitized documents meet the requirements and, finally, dispose of the paperwork or adjust whatever doesn't comply."
+        ]
+      },
+      {
+        "heading": "Digital Transformation and Processes",
+        "paragraphs": [
+          "It's obvious that this task isn't so simple, and nothing transforms overnight: most companies still don't have fully digital document management and will certainly need to reorganize their document production, distribution, and control processes. To do that, it will be essential to dedicate effort so this migration is done well and in the shortest possible time.",
+          "This real possibility of converting legacy records into digital documents, enabled by Decree 10.278 with its permission to dispose of paper, comes at the same time as the digital transformation phenomenon, which has required organizations to operate in increasingly digital environments. To do so, companies have stopped generating paper documents by using technologies such as Documents (document management) and Process (process automation), together with Digital Signature, to manage and distribute documents and processes."
+        ]
+      },
+      {
+        "heading": "The Impact of LGPD (Brazil's General Data Protection Law)",
+        "paragraphs": [
+          "Companies will also need to pay attention to the General Data Protection Law (LGPD), whose requirements took effect in the years following its publication.",
+          "Complying with LGPD affects how companies control information involved in operations that can identify an individual. Since we're talking about document digitization, which in many cases surely contains identifying data — both in the documents and in the records — this directly affects compliance with the law. Companies therefore need to build secure ways of working with data, records, and documents into their processes, mitigating the risks involved and creating new policies and a new culture around the use of information.",
+          "All these requirements and improvements that companies will have to go through, whether by force of law or market demands, will take time and effort — but the result is a considerable advance in operational capability, since there will be significant modernization of processes."
+        ]
+      },
+      {
+        "heading": "Requirements for Disposing of Digitized Documents",
+        "paragraphs": ["To dispose of digitized documents, the following requirements must be considered:"],
+        "items": [
+          "Resolution: digitize documents at a minimum of 300 dpi, except for blueprints and maps, which must be digitized at 600 dpi — the digitized document must be equivalent to the physical document;",
+          "Certification: whoever is responsible for the digitization must sign it with an ICP-Brasil digital certificate, to guarantee integrity and authorship;",
+          "Quality: there must be no loss of file quality if compression occurs;",
+          "Format: files must be in PDF/A format, and PNG for blueprints, maps, photos, and posters;",
+          "Indexing: must contain the minimum required indexing — subject, author, date and place of digitization, digital document identifier, person responsible for the digitization, title, document type, and image hash (checksum);",
+          "Security: the document must be protected against unauthorized destruction, alteration, access, and reproduction;",
+          "Historical value: the document must not have content of historical value."
+        ]
+      },
+      {
+        "heading": "How Will Companies Handle These New Demands?",
+        "paragraphs": [
+          "Given this scenario, many companies will have difficulty adapting, both in digitizing their legacy records and in modernizing their processes to increase efficiency and comply with LGPD. It's worth remembering that every company must adapt — regardless of size or segment: modernizing is a matter of survival and compliance.",
+          "We are already living through crucial moments in which companies are looking for internal and external solutions to meet this new reality. This creates many opportunities for digitization service providers and process management consultants, who deal daily with documents, rules, and processes, and can help organizations modernize their policies and choose the right tools — aiming to guarantee a less turbulent and safer transition."
+        ]
+      },
+      {
+        "heading": "How Can the Interfy Platform Help Companies Adapt?",
+        "paragraphs": [
+          "The Interfy Platform has the resources and features needed to digitize documents in compliance with the requirements of Decree 10.278 and LGPD — it's a 100% online service, quick to implement, and accessible to any company.",
+          "It plays an important role in companies' digital transformation process by bringing together document management and process automation resources under a single login. Through access profile definitions, activity logs, and the ability for the company itself to design its own workflows, the platform makes it easier to implement the policies needed to guarantee the security of data and information under the company's responsibility."
+        ]
+      }
+    ],
+    "backLabel": "Back to the main page"
+  },
+  "sidebar": {
+    "newsletter": {
+      "heading": "Stay up to date with the latest news!",
+      "placeholder": "Your best email",
+      "consentLabel": "I agree to the Privacy Policy"
+    }
+  },
+  "promo": {
+    "heading": "Launch of the High-Performance Capture Module – Interfy",
+    "description": "An intelligent document capture solution that puts the power of professional scanning apps within reach of every user in an organization.",
+    "image": "/images/blog/promo-captura-webinar.png",
+    "primaryLabel": "Watch now",
+    "secondaryLabel": "See more Interfy videos"
+  }
+}

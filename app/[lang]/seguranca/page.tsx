@@ -14,7 +14,7 @@ export async function generateMetadata() {
     locale,
     title: seguranca.seo.title,
     description: seguranca.seo.description,
-    path: "/legal/seguranca",
+    path: "/seguranca",
     keywords: seguranca.seo.keywords,
   });
 }

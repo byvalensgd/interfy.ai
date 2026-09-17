@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "We suggest a ",
-      "paragraphHighlight": "7-day journey",
-      "paragraphNote": " (but everything is available from day one)",
+      "headingPrefix": "We suggest a ",
+      "headingHighlight": "7-day journey",
+      "headingSuffix": "",
+      "paragraph": "(but everything is available from day one)",
       "dayLabel": "Day {number}",
       "days": [
         { "line1": "Get to know your", "line2": "Workspace" },

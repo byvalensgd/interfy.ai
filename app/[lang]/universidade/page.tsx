@@ -58,6 +58,9 @@ export default async function UniversidadePage() {
         description={modules.description}
         items={modules.items}
         cta={modules.cta}
+        primaryLabel={hero.primaryLabel}
+        secondaryLabel={hero.secondaryLabel}
+        locale={locale}
       />
     </>
   );

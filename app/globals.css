@@ -310,9 +310,10 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
   }
 }
 
-/* Integrações "Chamada de API" sample: reveals top-to-bottom once scrolled into view, as if
-   the snippet were being typed out. clip-path (not height/width) so it composites cheaply
-   and never reflows the card while it plays. */
+/* Integrações "Chamada de API" sample (ApiCodeSample.tsx): the whole snippet is one
+   <pre> — one piece of text with inline color spans, not separate per-line elements — that
+   reveals top-to-bottom once scrolled into view, as if it were being typed out. clip-path
+   (not height) so it composites cheaply and never reflows the card while it plays. */
 @keyframes code-build-reveal {
   from {
     clip-path: inset(0 0 100% 0);

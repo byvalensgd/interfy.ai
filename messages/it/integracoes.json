@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Connettiti ai principali sistemi del mercato",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Vedi tutte"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Funzionalità e vantaggi di ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "Linguaggi supportati dall'SDK"
     },
     "codeCard": {
-      "heading": "Chiamata API in pochi secondi"
+      "heading": "Chiamata API in pochi secondi",
+      "sampleFileName": "file.pdf",
+      "sampleTags": ["contratto", "cliente"]
     },
     "ctaCard": {
       "heading": "Integra. Automatizza. Trasforma.",

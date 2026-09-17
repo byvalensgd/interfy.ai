@@ -9,65 +9,58 @@
       "AI för företag"
     ]
   },
-  "hero": {
-    "ariaLabel": "Introduktion till bloggen",
-    "eyebrow": "Blogg & Innehåll",
-    "titleLine1": "Innehåll för dem som",
-    "titleHighlight": "transformerar verksamheter",
-    "description": "Praktiska guider, produktnyheter och trender om dokument, processer, data och AI för företag."
-  },
   "featured": {
-    "ariaLabel": "Featured article and recent posts",
-    "heading": "Featured",
+    "ariaLabel": "Utvald artikel och senaste inlägg",
+    "heading": "Utvald",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
+      "category": "AI & Agenter",
+      "title": "Hur AI förändrar hur företag hanterar dokument och processer",
+      "excerpt": "Från smart inskanning till autonoma agenter: en översikt över hur AI redan är en del av vardagen för Interfys användare, och vad som är på väg.",
       "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
+      "author": "Interfy-teamet",
+      "readTime": "9 min läsning",
+      "ctaLabel": "Läs artikeln"
     },
-    "recentHeading": "Recent",
+    "recentHeading": "Senaste",
     "recent": [
       {
-        "title": "How to structure a document repository that scales with your company",
+        "title": "Hur man bygger ett dokumentarkiv som växer med företaget",
         "date": "Aug 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       },
       {
-        "title": "5 processes every company should automate first",
+        "title": "5 processer varje företag borde automatisera först",
         "date": "Aug 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       },
       {
-        "title": "Is electronic signature legally valid?",
+        "title": "Är elektronisk signatur juridiskt giltig i Brasilien?",
         "date": "Jul 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       },
       {
-        "title": "AI agents in internal processes: where to start",
+        "title": "AI-agenter i interna processer: var man börjar",
         "date": "Jul 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       },
       {
-        "title": "Data protection in practice: what changes in document and process management",
+        "title": "LGPD i praktiken: vad som förändras i dokument- och processhantering",
         "date": "Jun 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       },
       {
-        "title": "OCR and smart capture: the end of manual data entry",
+        "title": "OCR och intelligent inskanning: slutet för manuell datainmatning",
         "date": "Jun 2026",
-        "author": "Interfy Team"
+        "author": "Interfy-teamet"
       }
     ]
   },
   "categories": {
     "ariaLabel": "Articles by category",
-    "ctaLabel": "Read the blog",
+    "ctaLabel": "Läs bloggen",
     "sections": [
       {
-        "name": "Document Management",
+        "name": "Dokumenthantering",
         "posts": [
           {
             "title": "How to structure a document repository that scales with your company",
@@ -90,7 +83,7 @@
         ]
       },
       {
-        "name": "Business Process Management",
+        "name": "Automation (BPM)",
         "posts": [
           {
             "title": "5 processes every company should automate first",
@@ -113,7 +106,7 @@
         ]
       },
       {
-        "name": "Artificial Intelligence",
+        "name": "AI & Agenter",
         "posts": [
           {
             "title": "AI agents in internal processes: where to start",
@@ -192,6 +185,48 @@
         "excerpt": "Hur automatiserad inskanning minskar fel och påskyndar dokumentflödet i arbetsprocessen.",
         "date": "Jun 2026",
         "readTime": "5 min läsning"
+      },
+      {
+        "category": "Dokumenthantering",
+        "title": "Flytta fysiska arkiv till digitalt utan att förlora historiken",
+        "excerpt": "En plan för att skanna in äldre arkiv och samtidigt bevara metadata, indexering och juridisk giltighet.",
+        "date": "Apr 2026",
+        "readTime": "7 min läsning"
+      },
+      {
+        "category": "Automation (BPM)",
+        "title": "Så mäter du ROI för processautomation",
+        "excerpt": "De mätvärden som verkligen räknas för att bevisa avkastningen av ett automationsprojekt för ledningen.",
+        "date": "Sep 2026",
+        "readTime": "6 min läsning"
+      },
+      {
+        "category": "Automation (BPM)",
+        "title": "Flernivågodkännanden utan flaskhalsar: så designar du flöden som skalar",
+        "excerpt": "En praktisk guide för att fördela godkännandenivåer utan att stoppa verksamheten vid toppar i efterfrågan.",
+        "date": "Maj 2026",
+        "readTime": "6 min läsning"
+      },
+      {
+        "category": "Elektronisk signatur",
+        "title": "Kvalificerad, avancerad eller enkel signatur: vilken ska du använda när",
+        "excerpt": "Förstå skillnaderna mellan nivåerna av elektronisk signatur och välj den som passar varje dokument.",
+        "date": "Maj 2026",
+        "readTime": "6 min läsning"
+      },
+      {
+        "category": "AI & Agenter",
+        "title": "Så tränar du AI-agenter med ditt företags data",
+        "excerpt": "En guide om kunskapsbaser, behörigheter och bästa praxis för pålitliga interna agenter.",
+        "date": "Sep 2026",
+        "readTime": "7 min läsning"
+      },
+      {
+        "category": "Säkerhet & Efterlevnad",
+        "title": "ISO 27001 i praktiken: vad revisorerna verkligen kontrollerar",
+        "excerpt": "De kontroller som granskas mest vid en certifieringsrevision, och hur du förbereder dig i god tid.",
+        "date": "Apr 2026",
+        "readTime": "6 min läsning"
       }
     ]
   },

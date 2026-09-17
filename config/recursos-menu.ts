@@ -18,6 +18,6 @@ export const legalMenuItems: NavMenuItem[] = [
   { href: "/legal/termos", icon: "/icons/footer/doc-nav.svg" },
   { href: "/legal/privacidade", icon: "/icons/footer/shield-nav.svg" },
   { href: "/legal/lgpd", icon: "/icons/footer/shield-lgpd-nav.svg" },
-  { href: "/legal/seguranca", icon: "/icons/footer/lock-nav.svg" },
+  { href: "/seguranca", icon: "/icons/footer/lock-nav.svg" },
   { href: "/suporte", icon: "/icons/footer/fone-nav.svg" },
 ];

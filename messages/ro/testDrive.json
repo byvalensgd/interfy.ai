@@ -66,9 +66,10 @@
       ]
     },
     "timelineCard": {
-      "paragraphPrefix": "Îți sugerăm o ",
-      "paragraphHighlight": "călătorie de 7 zile",
-      "paragraphNote": " (dar totul este disponibil încă din prima zi)",
+      "headingPrefix": "Îți sugerăm o ",
+      "headingHighlight": "călătorie de 7 zile",
+      "headingSuffix": "",
+      "paragraph": "(dar totul este disponibil încă din prima zi)",
       "dayLabel": "Ziua {number}",
       "days": [
         { "line1": "Descoperă-ți", "line2": "Workspace-ul" },

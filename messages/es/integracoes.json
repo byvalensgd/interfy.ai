@@ -87,7 +87,9 @@
       "langsAriaLabel": "Lenguajes compatibles con el SDK"
     },
     "codeCard": {
-      "heading": "Llamadas a la API en segundos"
+      "heading": "Llamadas a la API en segundos",
+      "sampleFileName": "archivo.pdf",
+      "sampleTags": ["contrato", "cliente"]
     },
     "ctaCard": {
       "heading": "Integra. Automatiza. Transforma.",

@@ -33,20 +33,20 @@
         "description": "Qualcuno che conosce già il tuo settore."
       }
     ],
-    "previewHeading": "What you'll see in the demo:",
+    "previewHeading": "Cosa vedrai nella demo:",
     "previewItems": [
-      "Overview of the Interfy platform",
-      "Demonstration of the Documents and Process modules",
-      "Building workflows with AI",
-      "Electronic signature and compliance",
-      "Q&A session"
+      "Panoramica della piattaforma Interfy",
+      "Demo dei moduli Documents e Process",
+      "Creazione di flussi di lavoro con l'AI",
+      "Firma elettronica e conformità",
+      "Sessione di domande e risposte"
     ]
   },
   "form": {
     "heading": "Prenota la tua demo",
     "subheading": "Compila i dati qui sotto e ti contatteremo per confermare l'orario più comodo.",
-    "firstNameLabel": "First name",
-    "lastNameLabel": "Last name",
+    "firstNameLabel": "Nome",
+    "lastNameLabel": "Cognome",
     "emailLabel": "Email aziendale",
     "companyLabel": "Azienda",
     "phoneLabel": "Telefono (WhatsApp)",
@@ -59,8 +59,8 @@
       "Da 201 a 1.000 dipendenti",
       "Più di 1.000 dipendenti"
     ],
-    "interestLabel": "Main interest",
-    "interestPlaceholder": "Select",
+    "interestLabel": "Interesse principale",
+    "interestPlaceholder": "Seleziona",
     "interestOptions": [
       "Documents",
       "Process",
@@ -70,10 +70,10 @@
       "Agents",
       "Mobile",
       "Voice",
-      "Not sure yet"
+      "Non ancora sicuro"
     ],
     "messageLabel": "Raccontaci brevemente di cosa hai bisogno",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Raccontaci le tue esigenze...",
     "optionalLabel": "(opzionale)",
     "errors": {
       "name": "Inserisci il tuo nome completo.",
@@ -91,32 +91,6 @@
     "successHeading": "Abbiamo ricevuto la tua richiesta!",
     "successMessagePrefix": "Il nostro team ti contatterà per confermare l'orario più comodo all'indirizzo email ",
     "successMessageSuffix": ".",
-    "specialistLink": "Inizia gratis nel frattempo",
-    "nameLabel": "Nome completo",
-    "roleLabel": "Ruolo"
-  },
-  "trust": {
-    "ariaLabel": "Perché prenotare una demo con Interfy",
-    "heading": "Una piattaforma pronta per le aziende globali",
-    "subheading": "Sicurezza enterprise, conformità globale e supporto specializzato in ogni demo.",
-    "statsLabel": "Presenza globale di Interfy",
-    "stats": [
-      {
-        "label": "180+ paesi",
-        "sublabel": "Presenza globale in espansione"
-      },
-      {
-        "label": "16 lingue",
-        "sublabel": "Interfaccia ed esperienza complete"
-      },
-      {
-        "label": "99,99%",
-        "sublabel": "Disponibilità SLA garantita"
-      },
-      {
-        "label": "ISO 27001, LGPD, GDPR",
-        "sublabel": "Conformità certificata"
-      }
-    ]
+    "specialistLink": "Inizia gratis nel frattempo"
   }
 }

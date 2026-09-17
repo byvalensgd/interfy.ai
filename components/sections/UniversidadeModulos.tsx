@@ -1,6 +1,10 @@
 import Image from "next/image";
+import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { PLANO_AZUL_BASE } from "@/lib/backgrounds";
+import { CTA_DISABLED } from "@/config/feature-flags";
+import { withLocale } from "@/lib/i18n/paths";
+import type { Locale } from "@/lib/i18n/config";
 
 type ModulesCta = {
   heading: string;
@@ -15,6 +19,9 @@ export default function UniversidadeModulos({
   description,
   items,
   cta,
+  primaryLabel,
+  secondaryLabel,
+  locale,
 }: {
   ariaLabel: string;
   heading: string;
@@ -22,6 +29,9 @@ export default function UniversidadeModulos({
   description: string;
   items: string[];
   cta: ModulesCta;
+  primaryLabel: string;
+  secondaryLabel: string;
+  locale: Locale;
 }) {
   return (
     <section aria-label={ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
@@ -76,7 +86,27 @@ export default function UniversidadeModulos({
             ))}
           </ul>
 
-          <p className="max-w-xl text-lg leading-[1.5] font-medium text-branco">{cta.description}</p>
+          <div className="flex flex-col items-center gap-5">
+            <p className="max-w-xl text-lg leading-[1.5] font-medium text-branco">{cta.description}</p>
+            <div className="@container flex w-full max-w-md flex-nowrap items-stretch justify-center gap-2.5 sm:gap-5">
+              <Button
+                href={withLocale("/test-drive", locale)}
+                variant="primary"
+                className="min-w-0 flex-1 !h-auto min-h-9 !whitespace-normal !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:!px-5 sm:!py-2.5"
+                disabled={CTA_DISABLED}
+              >
+                {primaryLabel}
+              </Button>
+              <Button
+                href={withLocale("/demo", locale)}
+                variant="secondary"
+                className="min-w-0 flex-1 !h-auto min-h-9 border-branco bg-branco !px-2.5 !py-1.5 !leading-tight !text-[clamp(0.625rem,3.333cqw+0.1667rem,1rem)] text-center sm:min-h-[50px] sm:!px-5 sm:!py-2.5"
+                disabled={CTA_DISABLED}
+              >
+                {secondaryLabel}
+              </Button>
+            </div>
+          </div>
         </div>
       </Reveal>
     </section>

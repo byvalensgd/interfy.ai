@@ -62,8 +62,7 @@
   },
   "logosStrip": {
     "heading": "Yhdisty markkinoiden tärkeimpiin järjestelmiin",
-    "itemsAriaLabel": "Systems and products integrated with Interfy",
-    "ctaLabel": "Katso kaikki"
+    "itemsAriaLabel": "Systems and products integrated with Interfy"
   },
   "featuresGrid": {
     "headingPrefix": "Interfy APIn ",
@@ -175,7 +174,9 @@
       "langsAriaLabel": "SDK:n tukemat kielet"
     },
     "codeCard": {
-      "heading": "API-kutsu sekunneissa"
+      "heading": "API-kutsu sekunneissa",
+      "sampleFileName": "tiedosto.pdf",
+      "sampleTags": ["sopimus", "asiakas"]
     },
     "ctaCard": {
       "heading": "Integroi. Automatisoi. Uudista.",
