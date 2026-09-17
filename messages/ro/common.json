@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "suport"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "Folosim cookie-uri pentru funcționarea site-ului și, cu acordul tău, pentru a măsura utilizarea și a personaliza conținutul.",
+    "policyLinkLabel": "Politica de Confidențialitate",
+    "acceptAllLabel": "Acceptă tot",
+    "rejectLabel": "Respinge neesențiale",
+    "customizeLabel": "Personalizează",
+    "saveLabel": "Salvează preferințele",
+    "manageLabel": "Gestionează Cookie-urile",
+    "backLabel": "Înapoi",
+    "alwaysActiveLabel": "Mereu activ",
+    "preferencesTitle": "Preferințe cookie-uri",
+    "preferencesDescription": "Alege ce categorii de cookie-uri permiți. Cookie-urile necesare nu pot fi dezactivate.",
+    "categories": {
+      "necessary": {
+        "label": "Necesare",
+        "description": "Esențiale pentru autentificare, securitate și funcționarea de bază."
+      },
+      "analytics": {
+        "label": "Analitice",
+        "description": "Ne ajută să înțelegem cum este folosit site-ul pentru a-l îmbunătăți."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Folosite de noi și partenerii publicitari pentru a personaliza reclame și conținut."
+      }
+    }
+  }
 }

@@ -13,15 +13,15 @@
     "ariaLabel": "Articolo in evidenza e post recenti",
     "heading": "In evidenza",
     "article": {
-      "category": "AI & Agenti",
-      "title": "Come l'AI sta cambiando il modo in cui le aziende gestiscono documenti e processi",
-      "excerpt": "Dall'acquisizione intelligente agli agenti autonomi: una panoramica di come l'AI fa già parte della quotidianità degli utenti Interfy, e di cosa arriverà in futuro.",
-      "date": "Set 2026",
-      "author": "Team Interfy",
-      "readTime": "9 min di lettura",
-      "ctaLabel": "Leggi l'articolo"
-    },
-    "recentHeading": "Recenti",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Leggi l'articolo"
+      },
+      "recentHeading": "Recenti",
     "recent": [
       {
         "title": "Come strutturare un repository documentale che scala con l'azienda",

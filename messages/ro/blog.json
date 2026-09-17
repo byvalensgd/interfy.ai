@@ -13,15 +13,15 @@
     "ariaLabel": "Articolul recomandat și postările recente",
     "heading": "Recomandat",
     "article": {
-      "category": "IA & Agenți",
-      "title": "Cum schimbă IA modul în care companiile gestionează documentele și procesele",
-      "excerpt": "De la captarea inteligentă la agenți autonomi: o privire de ansamblu asupra modului în care IA face deja parte din viața de zi cu zi a utilizatorilor Interfy și ce urmează.",
-      "date": "Sep 2026",
-      "author": "Echipa Interfy",
-      "readTime": "9 min de citit",
-      "ctaLabel": "Citește articolul"
-    },
-    "recentHeading": "Recente",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Citește articolul"
+      },
+      "recentHeading": "Recente",
     "recent": [
       {
         "title": "Cum să structurați un depozit de documente care crește odată cu compania",

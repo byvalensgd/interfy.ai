@@ -4,6 +4,7 @@ import Reveal from "@/components/ui/Reveal";
 import { PLANO_AZUL_BASE } from "@/lib/backgrounds";
 import { CTA_DISABLED } from "@/config/feature-flags";
 import { withLocale } from "@/lib/i18n/paths";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 import type { Locale } from "@/lib/i18n/config";
 
 type ModulesCta = {
@@ -49,11 +50,11 @@ export default function UniversidadeModulos({
           <p className="max-w-2xl text-lg leading-[1.5] font-medium text-texto-medio">{description}</p>
         </div>
 
-        <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+        <ul className="flex w-full flex-wrap gap-4">
           {items.map((item) => (
             <li
               key={item}
-              className="flex items-center gap-2.5 rounded-2xl border border-contorno-base bg-branco p-5"
+              className={`flex min-h-[64px] min-w-[240px] grow items-center gap-2.5 rounded-2xl border border-contorno-base bg-branco p-5 ${getCompleteBoxBasis(items.length)}`}
             >
               <Image src="/icons/features/check-blue.svg" alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
               <p className="min-w-0 flex-1 text-base leading-[1.2] font-bold text-texto">{item}</p>

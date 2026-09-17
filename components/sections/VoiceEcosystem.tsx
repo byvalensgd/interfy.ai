@@ -27,24 +27,19 @@ export default async function VoiceEcosystem() {
             {voiceEcosystemLinks.map((item, i) => (
               <li
                 key={item.product}
-                className={`flex min-w-[140px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
+                className={`flex grow flex-col items-center gap-5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
               >
-                <span
-                  className={`flex size-[50px] shrink-0 items-center justify-center rounded-full border bg-branco p-2.5 ${
-                    item.highlight ? "border-2 border-[rgba(9,161,234,0.3)]" : "border-contorno-base"
-                  }`}
-                  style={item.highlight ? { animation: "voice-badge-glow 3s ease-in-out infinite" } : undefined}
-                >
-                  <Image src={item.icon} alt="" aria-hidden="true" width={22} height={22} />
-                </span>
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 {item.gradient ? (
-                  <p className="w-full bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-sm leading-[1.2] font-extrabold text-transparent">
-                    {item.product}
+                  <p className="w-full text-lg leading-[1.2] font-extrabold">
+                    <span className="inline-block bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                      {item.product}
+                    </span>
                   </p>
                 ) : (
-                  <p className={`w-full text-sm leading-[1.2] font-extrabold ${item.colorClass}`}>{item.product}</p>
+                  <p className={`w-full text-lg leading-[1.2] font-extrabold ${item.colorClass}`}>{item.product}</p>
                 )}
-                <p className="w-full text-xs leading-[1.2] font-medium text-texto-medio">
+                <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">
                   {ecosystem.items[i].description}
                 </p>
               </li>
@@ -53,9 +48,12 @@ export default async function VoiceEcosystem() {
         </Reveal>
 
         <Reveal className="hidden w-full lg:block">
-          <div className="flex w-full flex-nowrap items-start gap-5">
+          <div className="flex w-full flex-wrap gap-4 @container">
             {voiceEcosystemLinks.map((item, i) => (
-              <div key={item.product} className="flex min-w-[120px] flex-1 flex-col items-center gap-5">
+              <div
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 ${cardBasis} @min-[936px]:basis-[120px]`}
+              >
                 <span
                   className={`flex size-[70px] shrink-0 items-center justify-center rounded-full border bg-branco p-4 ${
                     item.highlight ? "border-2 border-[rgba(9,161,234,0.3)]" : "border-contorno-base"
@@ -65,8 +63,10 @@ export default async function VoiceEcosystem() {
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>
                 {item.gradient ? (
-                  <p className="w-full bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-center text-lg leading-[1.2] font-extrabold text-transparent">
-                    {item.product}
+                  <p className="w-full text-center text-lg leading-[1.2] font-extrabold">
+                    <span className="inline-block bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                      {item.product}
+                    </span>
                   </p>
                 ) : (
                   <p className={`w-full text-center text-lg leading-[1.2] font-extrabold ${item.colorClass}`}>

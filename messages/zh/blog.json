@@ -13,15 +13,15 @@
     "ariaLabel": "精选文章与近期文章",
     "heading": "精选",
     "article": {
-      "category": "AI 与智能体",
-      "title": "AI 如何改变企业管理文档与流程的方式",
-      "excerpt": "从智能采集到自主智能体:概览人工智能如何已经融入 Interfy 用户的日常工作,以及未来的发展方向。",
-      "date": "2026年9月",
-      "author": "Interfy 团队",
-      "readTime": "9 分钟阅读",
-      "ctaLabel": "阅读文章"
-    },
-    "recentHeading": "近期文章",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "阅读文章"
+      },
+      "recentHeading": "近期文章",
     "recent": [
       {
         "title": "如何搭建一个能随企业规模扩展的文档库",

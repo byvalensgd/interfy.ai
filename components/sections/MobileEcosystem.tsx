@@ -22,16 +22,51 @@ export default async function MobileEcosystem() {
           {ecosystem.heading} <span className="text-azul-base">{ecosystem.headingHighlight}</span>
         </h2>
 
-        <Reveal className="w-full">
-          <div className="flex w-full flex-wrap items-start gap-5">
+        {/* Below lg: "Blocos Mobile" — each product becomes its own bordered
+            card, balanced via "Complete Box" (see lib/completeBox.ts). At
+            lg+: the original single-row icon strip below. */}
+        <Reveal className="w-full lg:hidden">
+          <ul aria-label={ecosystem.heading} className="flex w-full flex-wrap gap-4">
             {mobileEcosystemLinks.map((item, i) => (
-              <div key={item.product} className={`flex min-w-[140px] grow flex-col items-center gap-5 ${itemsBasis}`}>
+              <li
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${itemsBasis}`}
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
+                {item.gradient ? (
+                  <p className="w-full text-center text-lg leading-[1.2] font-extrabold">
+                    <span className="inline-block bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                      {item.product}
+                    </span>
+                  </p>
+                ) : (
+                  <p className={`w-full text-center text-lg leading-[1.2] font-extrabold ${item.colorClass}`}>
+                    {item.product}
+                  </p>
+                )}
+                <p className="w-full text-center text-base leading-[1.2] font-medium text-texto-medio">
+                  {ecosystem.items[i].description}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal className="hidden w-full lg:block">
+          <div className="flex w-full flex-wrap gap-4 @container">
+            {mobileEcosystemLinks.map((item, i) => (
+              <div
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 ${itemsBasis} @min-[1076px]:basis-[140px]`}
+              >
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>
                 {item.gradient ? (
-                  <p className="w-full bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-center text-lg leading-[1.2] font-extrabold text-transparent">
-                    {item.product}
+                  <p className="w-full text-center text-lg leading-[1.2] font-extrabold">
+                    <span className="inline-block bg-[linear-gradient(141deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                      {item.product}
+                    </span>
                   </p>
                 ) : (
                   <p className={`w-full text-center text-lg leading-[1.2] font-extrabold ${item.colorClass}`}>

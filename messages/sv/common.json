@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "support"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "Vi använder cookies för att driva webbplatsen och, med ditt samtycke, för att mäta användning och anpassa innehåll.",
+    "policyLinkLabel": "Integritetspolicy",
+    "acceptAllLabel": "Acceptera alla",
+    "rejectLabel": "Avvisa icke-nödvändiga",
+    "customizeLabel": "Anpassa",
+    "saveLabel": "Spara inställningar",
+    "manageLabel": "Hantera Cookies",
+    "backLabel": "Tillbaka",
+    "alwaysActiveLabel": "Alltid aktiv",
+    "preferencesTitle": "Cookie-inställningar",
+    "preferencesDescription": "Välj vilka cookie-kategorier du tillåter. Nödvändiga cookies kan inte inaktiveras.",
+    "categories": {
+      "necessary": {
+        "label": "Nödvändiga",
+        "description": "Väsentliga för inloggning, säkerhet och grundläggande drift."
+      },
+      "analytics": {
+        "label": "Analys",
+        "description": "Hjälper oss förstå hur webbplatsen används för att förbättra den."
+      },
+      "marketing": {
+        "label": "Marknadsföring",
+        "description": "Används av oss och annonspartners för att anpassa annonser och innehåll."
+      }
+    }
+  }
 }

@@ -33,16 +33,14 @@ export default async function AgentesEcosystem() {
             {agentesEcosystemLinks.map((item, i) => (
               <li
                 key={item.product}
-                className={`flex min-w-[160px] grow flex-col items-center gap-2.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
+                className={`flex grow flex-col items-center gap-5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${cardBasis}`}
               >
-                <span className="flex size-[50px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-2.5">
-                  <Image src={item.icon} alt="" aria-hidden="true" width={22} height={22} />
-                </span>
-                <div className="flex w-full flex-col items-center gap-1 text-sm leading-[1.2] font-extrabold">
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
+                <div className="flex w-full flex-col items-center gap-2.5 text-lg leading-[1.2] font-extrabold">
                   <p className="w-full leading-[1.2] text-texto">{ecosystem.agentsPlusLabel}</p>
                   <p className={`w-full leading-[1.2] ${item.colorClass}`}>{item.product}</p>
                 </div>
-                <p className="w-full text-xs leading-[1.2] font-medium text-texto-medio">
+                <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">
                   {ecosystem.items[i].description}
                 </p>
               </li>
@@ -51,9 +49,12 @@ export default async function AgentesEcosystem() {
         </Reveal>
 
         <Reveal className="hidden w-full lg:block">
-          <div className="flex w-full flex-nowrap items-start gap-x-5">
+          <div className="flex w-full flex-wrap gap-4 @container">
             {agentesEcosystemLinks.map((item, i) => (
-              <div key={item.product} className="flex min-w-[180px] flex-1 flex-col items-center gap-5 text-center">
+              <div
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 text-center ${cardBasis} @min-[964px]:basis-[180px]`}
+              >
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
                 </span>

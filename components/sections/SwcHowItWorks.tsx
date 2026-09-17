@@ -39,7 +39,9 @@ export default async function SwcHowItWorks() {
                     <Image src={icon} alt="" aria-hidden="true" width={36} height={36} />
                   </div>
                   <div className="flex w-full flex-col items-center gap-[30px] text-center">
-                    <p className="w-full text-lg leading-[1.2] font-extrabold text-texto">{step.title}</p>
+                    <p className="flex min-h-[2.7rem] w-full items-center justify-center text-center text-lg leading-[1.2] font-extrabold text-texto">
+                      {step.title}
+                    </p>
                     <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{step.description}</p>
                   </div>
                 </li>

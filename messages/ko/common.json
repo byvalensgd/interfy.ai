@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "고객 지원"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "사이트 운영을 위해 쿠키를 사용하며, 동의하시면 이용 현황 측정 및 콘텐츠 개인화에도 사용합니다.",
+    "policyLinkLabel": "개인정보 보호정책",
+    "acceptAllLabel": "모두 동의",
+    "rejectLabel": "필수 외 거부",
+    "customizeLabel": "설정",
+    "saveLabel": "설정 저장",
+    "manageLabel": "쿠키 관리",
+    "backLabel": "뒤로",
+    "alwaysActiveLabel": "항상 활성화",
+    "preferencesTitle": "쿠키 환경설정",
+    "preferencesDescription": "허용할 쿠키 범주를 선택하세요. 필수 쿠키는 사이트의 기본 작동을 위해 비활성화할 수 없습니다.",
+    "categories": {
+      "necessary": {
+        "label": "필수",
+        "description": "로그인, 보안 및 기본 작동에 필수적입니다."
+      },
+      "analytics": {
+        "label": "분석",
+        "description": "사이트 사용 방식을 파악하여 개선하는 데 도움이 됩니다."
+      },
+      "marketing": {
+        "label": "마케팅",
+        "description": "광고 및 콘텐츠 개인화를 위해 사용됩니다."
+      }
+    }
+  }
 }

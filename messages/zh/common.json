@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "支持"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "我们使用 Cookie 来运行网站，并在您同意的情况下衡量使用情况并个性化内容。",
+    "policyLinkLabel": "隐私政策",
+    "acceptAllLabel": "全部接受",
+    "rejectLabel": "拒绝非必要项",
+    "customizeLabel": "自定义",
+    "saveLabel": "保存偏好设置",
+    "manageLabel": "管理 Cookie",
+    "backLabel": "返回",
+    "alwaysActiveLabel": "始终启用",
+    "preferencesTitle": "Cookie 偏好设置",
+    "preferencesDescription": "选择您允许的 Cookie 类别。必要 Cookie 无法关闭，因为它们保证网站基本运行。",
+    "categories": {
+      "necessary": {
+        "label": "必要",
+        "description": "登录、安全和基本运行所必需。"
+      },
+      "analytics": {
+        "label": "分析",
+        "description": "帮助我们了解网站使用情况以便改进。"
+      },
+      "marketing": {
+        "label": "营销",
+        "description": "我们和广告合作伙伴用于个性化广告和内容。"
+      }
+    }
+  }
 }

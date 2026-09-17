@@ -37,7 +37,7 @@ export default async function SegmentsTrust() {
               <ArrowUpRight className="size-2.5" aria-hidden="true" />
             </Link>
           </div>
-          <div className="relative aspect-[254/211] w-full max-w-[220px] shrink-0 sm:max-w-none sm:flex-1">
+          <div className="relative aspect-[1118/868] w-full max-w-[220px] shrink-0 sm:max-w-none sm:flex-1">
             <SegmentsTrustIllustration ariaLabel={segments.trust.illustrationAlt} />
           </div>
         </Reveal>
@@ -51,7 +51,7 @@ export default async function SegmentsTrust() {
             {stats.map((stat) => (
               <li key={stat.label} className="flex flex-col items-center gap-3.5 text-center">
                 <Image src={stat.icon} alt="" aria-hidden="true" width={30} height={30} />
-                <p className="w-full text-2xl leading-[1.2] font-bold text-texto">{stat.value}</p>
+                <p className="w-full text-[22px] leading-[1.2] font-bold text-texto">{stat.value}</p>
                 <p className="w-full text-sm leading-[1.2] font-medium text-texto-medio">{stat.label}</p>
               </li>
             ))}

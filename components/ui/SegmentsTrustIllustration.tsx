@@ -1,38 +1,37 @@
 // Recreated (not a photo) as real SVG shapes so it can actually animate — a
-// static image can't grow bars or spin a donut chart. Matches the reference
-// mockup closely: a "Total Visitors" donut-chart card floating in front of
-// a monitor showing a growing bar chart, plus a growth-arrow badge.
-const VIEW_W = 254;
-const VIEW_H = 211;
+// static image can't grow bars or float a badge. Geometry below is copied
+// 1:1 from the Figma node (K1DjxWj4LaSQpEI0yifRBp, 5587:25885): the viewBox
+// and every x/y/width/height match the design's own pixel values exactly,
+// so this renders at the same layout, measurements and relative/absolute
+// positions as the source — just scaled down by the container.
+const VIEW_W = 1118;
+const VIEW_H = 868;
 
-// Monitor screen
-const SCREEN = { x: 104, y: 6, w: 132, h: 133 };
-const BARS = [
-  { x: 163, w: 13, h: 29, color: "#6d28d9" },
-  { x: 182, w: 13, h: 43, color: "#c4b5fd" },
-  { x: 201, w: 13, h: 53, color: "#8b5cf6" },
-  { x: 220, w: 13, h: 69, color: "#a78bfa" },
-];
-const BAR_BASE_Y = SCREEN.y + SCREEN.h - 5;
+// Left "Total Visitors" card (white, rounded top corners only).
+const CARD = { x: 101, y: 0, w: 372, h: 629 };
+const CARD_TITLE = { x: 158, y: 45 };
+const CARD_TITLE_BAR = { x: 158, y: 69, w: 163, h: 14 };
 
-// Donut chart ("Total Visitors" card)
-const DONUT_SLICES = [
-  { pct: 30, color: "#5b21b6" },
-  { pct: 30, color: "#3b82f6" },
-  { pct: 20, color: "#7c3aed" },
-  { pct: 15, color: "#a78bfa" },
-  { pct: 10, color: "#ddd6fe" },
-];
-const DONUT_CX = 63.5;
-const DONUT_CY = 43;
-const DONUT_R_OUTER = 31;
-const DONUT_R_INNER = 18;
-const DONUT_TOTAL = DONUT_SLICES.reduce((sum, s) => sum + s.pct, 0);
-
+// Donut chart standing in for the design's own placeholder circle — same
+// purple family used by the bars/badge/dot elsewhere in this illustration
+// (never an arbitrary palette), with a white gap between slices and a
+// percentage label on each, darkest slice first shading out to the palest.
+// Sized to fill its parent content area edge to edge: the circle's own
+// wrapper (Figma's "Frame 409") is 258px wide, so the outer radius is half
+// that (129) — up from the original 101 — with the ring's inner radius
+// scaled by the same factor so the (already 30%-thickened) ring proportion
+// holds.
+const PIE = { cx: 287, cy: 285.5, rOuter: 129, rInner: 52.62 };
+const PIE_SLICES = [
+  { pct: 30, color: "#6f47d5" },
+  { pct: 25, color: "#845cec" },
+  { pct: 20, color: "#a57cf7" },
+  { pct: 15, color: "#a487f6" },
+  { pct: 10, color: "#cabafb" },
+]; // 30+25+20+15+10 = 100
 function polar(cx: number, cy: number, r: number, angle: number): [number, number] {
   return [cx + r * Math.cos(angle), cy + r * Math.sin(angle)];
 }
-
 function donutSlicePath(cx: number, cy: number, rOuter: number, rInner: number, startAngle: number, endAngle: number) {
   const [x1, y1] = polar(cx, cy, rOuter, startAngle);
   const [x2, y2] = polar(cx, cy, rOuter, endAngle);
@@ -41,111 +40,229 @@ function donutSlicePath(cx: number, cy: number, rOuter: number, rInner: number, 
   const largeArc = endAngle - startAngle > Math.PI ? 1 : 0;
   return `M${x1} ${y1} A${rOuter} ${rOuter} 0 ${largeArc} 1 ${x2} ${y2} L${x3} ${y3} A${rInner} ${rInner} 0 ${largeArc} 0 ${x4} ${y4} Z`;
 }
-
-// Computed once at module scope — the slice list is static, so there's no
-// reason to recompute the arc math (or label positions) on every render.
-const DONUT_PATHS = DONUT_SLICES.reduce<
-  { cursor: number; slices: (typeof DONUT_SLICES)[number] extends infer S ? (S & { d: string; labelX: number; labelY: number })[] : never }
->(
+const PIE_TOTAL = PIE_SLICES.reduce((sum, s) => sum + s.pct, 0);
+const PIE_PATHS = PIE_SLICES.reduce<{ cursor: number; slices: { d: string; color: string; labelX: number; labelY: number; pct: number }[] }>(
   (acc, slice) => {
     const start = acc.cursor;
-    const end = start + (slice.pct / DONUT_TOTAL) * Math.PI * 2;
+    const end = start + (slice.pct / PIE_TOTAL) * Math.PI * 2;
     const mid = (start + end) / 2;
-    const [labelX, labelY] = polar(DONUT_CX, DONUT_CY, (DONUT_R_OUTER + DONUT_R_INNER) / 2, mid);
-    acc.slices.push({ ...slice, d: donutSlicePath(DONUT_CX, DONUT_CY, DONUT_R_OUTER, DONUT_R_INNER, start, end), labelX, labelY });
+    const [labelX, labelY] = polar(PIE.cx, PIE.cy, (PIE.rOuter + PIE.rInner) / 2, mid);
+    acc.slices.push({ d: donutSlicePath(PIE.cx, PIE.cy, PIE.rOuter, PIE.rInner, start, end), color: slice.color, labelX, labelY, pct: slice.pct });
     acc.cursor = end;
     return acc;
   },
   { cursor: -Math.PI / 2, slices: [] }
 ).slices;
+const ROW_VISITORS_TEXT = { x: 190, y: 488 };
+const ROW_VISITORS_BAR = { x: 316, y: 488, w: 100, h: 14 };
+const ROW_GROWTH_TEXT = { x: 190, y: 529 };
+const ROW_GROWTH_BAR = { x: 312, y: 529, w: 104, h: 14 };
+const ROW_PLAIN_BAR = { x: 190, y: 570, w: 226, h: 14 };
+
+// Right panel (3 lavender bands) behind the bar-chart card. The panel as a
+// whole is one 50px-rounded-corner shape (Figma clips its 3 bands to that
+// silhouette) — a plain per-band <rect> would leave every corner square.
+const PANEL = { x: 100, y: 43, w: 1018, h: 717 };
+const STRIP_TOP = { x: 100, y: 43, w: 1018, h: 55, color: "#e5e3f9" };
+const STRIP_MID = { x: 100, y: 98, w: 1018, h: 532, color: "#f1f0fc" };
+const STRIP_BOTTOM = { x: 100, y: 630, w: 1018, h: 130, color: "#e8e6f9" };
+const DOT = { cx: 609, cy: 695, r: 24 };
+
+const CHART_CARD = { x: 510, y: 136, w: 551, h: 429 };
+const CHART_LINES = [
+  { x: 549, y: 175, w: 354, h: 14 },
+  { x: 549, y: 216, w: 207, h: 14 },
+  { x: 549, y: 257, w: 166, h: 14 },
+];
+
+// The 4 bars sit in a "justify-between" row (Figma's own auto-layout on
+// this node): fixed width each, evenly spaced to fill the container edge
+// to edge, bottom-aligned ("items-end") — computed here instead of as
+// hardcoded x positions, which is both what auto-spacing means and what
+// had thrown bar 3 out of alignment (a stale hand-copied value).
+const BAR_ROW = { x: 549, y: 197, w: 473, h: 329 };
+const BAR_W = 79;
+const BAR_HEIGHTS = [
+  { h: 113, color: "#845cec" },
+  { h: 189, color: "#cabafb" },
+  { h: 231, color: "#a57cf7" },
+  { h: 329, color: "#a487f6" },
+];
+const BAR_GAP = (BAR_ROW.w - BAR_HEIGHTS.length * BAR_W) / (BAR_HEIGHTS.length - 1);
+const BARS = BAR_HEIGHTS.map((bar, i) => ({
+  x: BAR_ROW.x + i * (BAR_W + BAR_GAP),
+  y: BAR_ROW.y + BAR_ROW.h - bar.h,
+  w: BAR_W,
+  h: bar.h,
+  color: bar.color,
+}));
+
+// Growth-arrow badge (bottom-left, overlapping the card and panel).
+const BADGE = { x: 0, y: 600, w: 268, h: 268 };
+
+// One-shot entrance: every shape pops in from nothing (small -> full size),
+// staggered "outside in" — the panel/card/badge containers first, then the
+// bars, donut, dot and text that live inside them. Every delay/duration
+// below is written at its original pace (the badge — the last thing to
+// arrive — finishes at 1.35s) and then scaled up so the whole sequence
+// takes a fixed 3s: stretch the total without hand-adjusting every step.
+const ENTRANCE_TOTAL_S = 3;
+const ENTRANCE_ORIGINAL_TOTAL_S = 1.35; // badge delay (0.75s) + its own duration (0.6s)
+const TIME_SCALE = ENTRANCE_TOTAL_S / ENTRANCE_ORIGINAL_TOTAL_S;
+
+function popIn(delaySeconds: number, durationSeconds = 0.5) {
+  return {
+    transformBox: "fill-box" as const,
+    animation: `trust-illu-pop-in ${durationSeconds * TIME_SCALE}s ease-out ${delaySeconds * TIME_SCALE}s both`,
+  };
+}
 
 export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: string }) {
   return (
-    <svg viewBox={`0 0 ${VIEW_W} ${VIEW_H}`} className="size-full" role="img" aria-label={ariaLabel}>
+    <svg
+      viewBox={`0 0 ${VIEW_W} ${VIEW_H}`}
+      className="size-full overflow-visible"
+      style={{ overflow: "visible" }}
+      role="img"
+      aria-label={ariaLabel}
+    >
       <defs>
-        <linearGradient id="trust-illu-badge" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#184aee" />
-          <stop offset="100%" stopColor="#bf18f6" />
+        <linearGradient id="trust-illu-card-bg" gradientTransform="rotate(73.53 0.5 0.5)">
+          <stop offset="7.44%" stopColor="#f8f9fb" />
+          <stop offset="100%" stopColor="#f9f9fb" />
         </linearGradient>
+        {/* objectBoundingBox (the SVG default) keeps this gradient's vector
+            relative to the badge rect's own box — 0..1 on each axis — so it
+            always tracks that rect's actual position and size. The earlier
+            userSpaceOnUse version hardcoded the vector to the badge's
+            original 0..268 local coordinates, which broke the moment the
+            badge was translated into place: the gradient rendered outside
+            the shape entirely, so the badge showed as one flat color
+            instead of the diagonal blue-to-purple blend. */}
+        <linearGradient id="trust-illu-badge-fill" x1="0.3209" y1="0.4142" x2="1" y2="1">
+          <stop stopColor="#4d6bf2" />
+          <stop offset="1" stopColor="#8735df" />
+        </linearGradient>
+        <linearGradient id="trust-illu-badge-stroke" x1="0" y1="0" x2="1" y2="1">
+          <stop stopColor="#7495e2" />
+          <stop offset="1" stopColor="#8735df" />
+        </linearGradient>
+        <filter id="trust-illu-badge-shadow" x="-30%" y="-30%" width="160%" height="160%">
+          <feDropShadow dx="0" dy="4" stdDeviation="2" floodOpacity="0.25" />
+        </filter>
+        <clipPath id="trust-illu-panel-clip">
+          <rect x={PANEL.x} y={PANEL.y} width={PANEL.w} height={PANEL.h} rx="50" />
+        </clipPath>
       </defs>
 
-      {/* Monitor behind the card: screen + growing bar chart */}
-      <rect x={SCREEN.x} y={SCREEN.y} width={SCREEN.w} height={SCREEN.h} rx="10" fill="white" stroke="#e6e6e6" />
-      <rect x={SCREEN.x + 14} y={SCREEN.y + 16} width="70" height="4" rx="2" fill="#eef0fb" />
-      <rect x={SCREEN.x + 14} y={SCREEN.y + 28} width="55" height="4" rx="2" fill="#eef0fb" />
-      <rect x={SCREEN.x + 14} y={SCREEN.y + 40} width="42" height="4" rx="2" fill="#eef0fb" />
-      {BARS.map((bar, i) => (
+      {/* Right panel: 3 lavender bands, the bar-chart card, and the small dot,
+          all clipped to the panel's own single rounded silhouette. Outer
+          bands/cards pop in first, the content living inside them after. */}
+      <g clipPath="url(#trust-illu-panel-clip)">
+        <rect x={STRIP_TOP.x} y={STRIP_TOP.y} width={STRIP_TOP.w} height={STRIP_TOP.h} fill={STRIP_TOP.color} style={popIn(0)} />
+        <rect x={STRIP_MID.x} y={STRIP_MID.y} width={STRIP_MID.w} height={STRIP_MID.h} fill={STRIP_MID.color} style={popIn(0.05)} />
+        <rect x={STRIP_BOTTOM.x} y={STRIP_BOTTOM.y} width={STRIP_BOTTOM.w} height={STRIP_BOTTOM.h} fill={STRIP_BOTTOM.color} style={popIn(0.1)} />
+        <circle cx={DOT.cx} cy={DOT.cy} r={DOT.r} fill="#6f47d5" style={popIn(0.3)} />
+
         <rect
-          key={bar.x}
-          x={bar.x}
-          width={bar.w}
-          y={BAR_BASE_Y - bar.h}
-          height={bar.h}
-          rx="4"
-          fill={bar.color}
-          style={{
-            transformBox: "fill-box",
-            transformOrigin: "bottom",
-            animation: `trust-illu-grow 3.2s ease-in-out ${i * 0.25}s infinite`,
-          }}
+          x={CHART_CARD.x}
+          y={CHART_CARD.y}
+          width={CHART_CARD.w}
+          height={CHART_CARD.h}
+          rx="25"
+          fill="white"
+          stroke="white"
+          strokeWidth="3"
+          style={{ filter: "drop-shadow(0px 5px 11px rgba(0,0,0,0.1))", ...popIn(0.15) }}
+        />
+        {CHART_LINES.map((line, i) => (
+          <rect key={line.y} x={line.x} y={line.y} width={line.w} height={line.h} rx="7" fill="#e4e4f9" style={popIn(0.3 + i * 0.05)} />
+        ))}
+        {BARS.map((bar, i) => (
+          <rect key={bar.x} x={bar.x} y={bar.y} width={bar.w} height={bar.h} rx="12" fill={bar.color} style={popIn(0.35 + i * 0.05)} />
+        ))}
+      </g>
+
+      {/* Left card: title, pie chart, and 3 stat rows. Only the top corners
+          are rounded (per the design), so this is a path rather than a
+          plain rounded <rect>. */}
+      <path
+        d={`M${CARD.x + 35} ${CARD.y} H${CARD.x + CARD.w - 35} A35 35 0 0 1 ${CARD.x + CARD.w} ${CARD.y + 35} V${CARD.y + CARD.h} H${CARD.x} V${CARD.y + 35} A35 35 0 0 1 ${CARD.x + 35} ${CARD.y} Z`}
+        fill="url(#trust-illu-card-bg)"
+        style={popIn(0)}
+      />
+      <text
+        x={CARD_TITLE.x}
+        y={CARD_TITLE.y}
+        dominantBaseline="hanging"
+        className="fill-black text-[20px] font-medium"
+        style={popIn(0.35)}
+      >
+        Total Visitors
+      </text>
+      <rect x={CARD_TITLE_BAR.x} y={CARD_TITLE_BAR.y} width={CARD_TITLE_BAR.w} height={CARD_TITLE_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.35)} />
+
+      {PIE_PATHS.map((slice, i) => (
+        <path
+          key={slice.color}
+          d={slice.d}
+          fill={slice.color}
+          stroke="white"
+          strokeWidth="4"
+          strokeLinejoin="round"
+          style={popIn(0.4 + i * 0.05)}
         />
       ))}
-      {/* stand */}
-      <path d="M158 139 L188 139 L182 153 L164 153 Z" fill="#ece9fb" />
-      <rect x="150" y="153" width="46" height="5" rx="2.5" fill="#ece9fb" />
-      <circle cx="173" cy="144" r="3.5" fill="#7a3ff2" />
+      {PIE_PATHS.map((slice) => (
+        <text
+          key={slice.color}
+          x={slice.labelX}
+          y={slice.labelY}
+          textAnchor="middle"
+          dominantBaseline="middle"
+          className="fill-white text-[16.8px] font-bold"
+          style={popIn(0.65)}
+        >
+          {slice.pct}%
+        </text>
+      ))}
 
-      {/* Floating "Total Visitors" donut-chart card */}
-      <rect x="23" y="0" width="81" height="131" rx="12" fill="white" stroke="#e6e6e6" />
-      <text x="35" y="12" className="fill-texto-doc-ok text-[7px] font-bold">
+      <text x={ROW_VISITORS_TEXT.x} y={ROW_VISITORS_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(0.4)}>
         Total Visitors
       </text>
-      <rect x="35" y="17" width="30" height="3" rx="1.5" fill="#dfe3fb" />
-
-      <g style={{ transformBox: "fill-box", transformOrigin: "center", animation: "trust-illu-spin 26s linear infinite" }}>
-        {DONUT_PATHS.map((slice, i) => (
-          <path key={i} d={slice.d} fill={slice.color} />
-        ))}
-      </g>
-      {/* Percent labels counter-rotate against the donut's own spin so the
-          text itself always stays upright and readable. */}
-      <g style={{ transformBox: "fill-box", transformOrigin: "center", animation: "trust-illu-spin-reverse 26s linear infinite" }}>
-        {DONUT_PATHS.map((slice, i) => (
-          <text
-            key={i}
-            x={slice.labelX}
-            y={slice.labelY}
-            textAnchor="middle"
-            dominantBaseline="middle"
-            className="fill-branco text-[6.5px] font-bold"
-          >
-            {slice.pct}%
-          </text>
-        ))}
-      </g>
-
-      <text x="35" y="100" className="fill-texto-medio text-[6px] font-medium">
-        Total Visitors
-      </text>
-      <rect x="66" y="96.5" width="20" height="4" rx="2" fill="#dfe3fb" />
-      <text x="35" y="112" className="fill-texto-medio text-[6px] font-medium">
+      <rect x={ROW_VISITORS_BAR.x} y={ROW_VISITORS_BAR.y} width={ROW_VISITORS_BAR.w} height={ROW_VISITORS_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.4)} />
+      <text x={ROW_GROWTH_TEXT.x} y={ROW_GROWTH_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(0.45)}>
         Growth Rate
       </text>
-      <rect x="72" y="108.5" width="14" height="4" rx="2" fill="#dfe3fb" />
-      <rect x="35" y="120" width="53" height="3" rx="1.5" fill="#eef0fb" />
+      <rect x={ROW_GROWTH_BAR.x} y={ROW_GROWTH_BAR.y} width={ROW_GROWTH_BAR.w} height={ROW_GROWTH_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.45)} />
+      <rect x={ROW_PLAIN_BAR.x} y={ROW_PLAIN_BAR.y} width={ROW_PLAIN_BAR.w} height={ROW_PLAIN_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.5)} />
 
-      {/* Growth-arrow badge */}
-      <g style={{ animation: "hex-badge-float 3s ease-in-out infinite" }}>
-        <rect x="0" y="134" width="60" height="60" rx="14" fill="url(#trust-illu-badge)" />
-        <path
-          d="M12 176 L24 162 L32 170 L47 152"
-          fill="none"
-          stroke="white"
-          strokeWidth="3.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+      {/* Growth-arrow badge: the last piece to arrive, well after everything
+          else has settled — it pops in already mid-rotation and overshoots
+          to 45deg before swinging back to 0, a little "jump" rather than a
+          plain fade/grow. */}
+      <g
+        style={{
+          transformBox: "fill-box",
+          transformOrigin: "center",
+          animation: `trust-illu-badge-pop ${0.6 * TIME_SCALE}s ease-out ${0.75 * TIME_SCALE}s both`,
+        }}
+      >
+        <rect
+          x={BADGE.x + 1.5}
+          y={BADGE.y + 1.5}
+          width={BADGE.w - 3}
+          height={BADGE.h - 3}
+          rx="33.5"
+          fill="url(#trust-illu-badge-fill)"
+          stroke="url(#trust-illu-badge-stroke)"
+          strokeWidth="3"
         />
-        <path d="M36 152 L47 152 L47 162" fill="none" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path
+          d="M213.091 675.0995C213.77 674.8771 214.517 675.0333 215.049 675.5097C215.581 675.9862 215.819 676.711 215.672 677.41L209.753 705.664C209.607 706.363 209.099 706.931 208.42 707.154C207.742 707.377 206.995 707.22 206.462 706.744L198.627 699.7313L140.762 764.173C139.359 765.735 136.987 765.946 135.329 764.657L106.672 742.368L59.1692 791.772C57.6381 793.365 55.1054 793.415 53.513 791.884C51.9206 790.353 51.8707 787.82 53.4017 786.227L103.402 734.227C104.821 732.752 107.126 732.586 108.742 733.843L137.298 756.054L192.665 694.3944L184.952 687.4911C184.42 687.0145 184.183 686.29 184.329 685.5907C184.476 684.8916 184.984 684.3233 185.662 684.1005L213.091 675.0995Z"
+          fill="white"
+          filter="url(#trust-illu-badge-shadow)"
+        />
       </g>
     </svg>
   );

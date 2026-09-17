@@ -71,7 +71,7 @@ body {
 }
 
 /* Figma vertical trim: cap height -> baseline, on every text element site-wide */
-p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
+p, h1, h2, h3, h4, h5, h6, span, a, li, button, label, input {
   text-box-trim: trim-both;
   text-box-edge: cap alphabetic;
 }
@@ -99,6 +99,31 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
 
 .segments-list:hover:not(:has(> li:last-child:hover)) .segments-cta {
   animation: segments-cta-nudge 0.35s ease-in-out 2;
+}
+
+/* Cookie consent banner: nudges the user with a brief shake every 5s until
+   they interact with it (see components/ui/CookieConsent.tsx). */
+@keyframes cookie-consent-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+.cookie-consent-shake {
+  animation: cookie-consent-shake 0.5s ease-in-out;
 }
 
 @keyframes waveform-sweep {
@@ -200,8 +225,10 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
 }
 
 /* Segments trust illustration (dashboard mockup): bars grow and settle,
-   the donut chart drifts in a slow continuous spin, and the growth badge
-   floats gently — same float keyframe the radial diagram's icon badges use. */
+   and the growth badge floats gently — same float keyframe the radial
+   diagram's icon badges use. trust-illu-spin/-reverse below are no longer
+   used by this illustration (it has no donut chart to spin) but stay in
+   use elsewhere (see IntegracoesAgentsHighlight.tsx). */
 @keyframes trust-illu-grow {
   0%,
   100% {
@@ -209,6 +236,55 @@ p, h1, h2, h3, h4, h5, h6, span, a, li, button, label {
   }
   50% {
     scale: 1 1;
+  }
+}
+
+/* One-shot entrance for the trust illustration: every piece pops in from
+   nothing, staggered outside-in (the panel/card containers first, then the
+   bars/donut/text living inside them) — see SegmentsTrustIllustration.tsx
+   for the actual per-element delays. */
+@keyframes trust-illu-pop-in {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* The growth badge is the last thing to arrive (see SegmentsTrustIllustration.tsx):
+   it pops in already mid-rotation and overshoots to 45deg before settling
+   back to 0 — a little "jump" instead of a plain fade/grow. */
+@keyframes trust-illu-badge-pop {
+  0% {
+    opacity: 0;
+    scale: 0;
+    rotate: 0deg;
+  }
+  75% {
+    opacity: 1;
+    scale: 1.05;
+    rotate: 45deg;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+
+/* The grey circle placeholder (Figma's own "Ellipse 130" — a flat
+   placeholder shape, not a real chart) gets a slow, subtle breathing pulse
+   so it doesn't read as inert while everything else around it animates. */
+@keyframes trust-illu-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
   }
 }
 

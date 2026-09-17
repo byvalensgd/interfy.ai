@@ -7,6 +7,7 @@ import { withLocale } from "@/lib/i18n/paths";
 import { finalFeatureStrip as finalFeatureIcons } from "@/config/segments-page";
 import { CTA_DISABLED } from "@/config/feature-flags";
 import CtaLink from "@/components/ui/CtaLink";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function SegmentsCTA() {
   const locale = await getLocale();
@@ -15,6 +16,7 @@ export default async function SegmentsCTA() {
     icon: item.icon,
     ...segments.cta.features[i],
   }));
+  const featuresBasis = getCompleteBoxBasis(features.length);
 
   return (
     <section aria-label={segments.cta.ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
@@ -51,7 +53,32 @@ export default async function SegmentsCTA() {
             </div>
           </div>
 
-          <ul className="grid w-full grid-cols-2 items-start gap-x-6 gap-y-8 rounded-[20px] border border-contorno-base bg-branco p-5 sm:grid-cols-3 lg:grid-cols-6">
+          {/* Below lg: each feature becomes its own bordered card ("Blocos
+              Mobile", the site's standing icon+text mobile treatment — see
+              StatsBar.tsx), balanced via "Complete Box" (lib/completeBox.ts)
+              instead of sharing one big grid-in-a-box. At lg+: the original
+              single bordered banner with a fixed 6-column grid. */}
+          <ul aria-label={segments.cta.ariaLabel} className="flex w-full flex-wrap gap-4 lg:hidden">
+            {features.map((item) => (
+              <li
+                key={item.title}
+                className={`flex min-w-0 grow flex-col items-center gap-3.5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${featuresBasis}`}
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
+                <div className="flex w-full flex-col gap-1.5">
+                  <p className="flex min-h-[2lh] w-full items-center justify-center text-center text-[18px] leading-[1.2] font-extrabold text-texto-doc-ok">
+                    {item.title}
+                  </p>
+                  <p className="w-full text-sm leading-[1.2] font-medium text-texto">{item.description}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          <ul
+            aria-label={segments.cta.ariaLabel}
+            className="hidden w-full grid-cols-6 items-start gap-x-6 gap-y-8 rounded-[20px] border border-contorno-base bg-branco p-5 lg:grid"
+          >
             {features.map((item) => (
               <li key={item.title} className="flex flex-col items-center gap-3.5 text-center">
                 <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />

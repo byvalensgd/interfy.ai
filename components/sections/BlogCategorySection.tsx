@@ -51,23 +51,29 @@ export default function BlogCategorySection({
                     blank — posts.length is dynamic per category. */}
                 <ul className="flex flex-wrap gap-5">
                   {section.posts.map((post) => {
-                    const cardClassName = "flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco";
+                    const cardClassName =
+                      "relative flex min-h-[220px] w-full flex-col items-start justify-end gap-2.5 overflow-hidden rounded-[20px] p-5 transition-transform hover:scale-[1.02]";
                     const content = (
                       <>
-                        <div className={`h-[100px] w-full ${meta.accent}`} />
-                        <div className="flex flex-1 flex-col gap-2 p-5">
-                          <p className="text-base leading-[1.3] font-bold text-texto">{post.title}</p>
-                          <p className="flex-1 text-sm leading-[1.4] font-medium text-texto-medio">{post.excerpt}</p>
-                          <p className="text-xs leading-[1.2] font-medium text-texto-medio">
-                            {post.date} · {post.readTime}
-                          </p>
-                        </div>
+                        <Image
+                          src="/images/blog/post-card-bg.webp"
+                          alt=""
+                          aria-hidden="true"
+                          fill
+                          sizes="(min-width: 1024px) 33vw, 100vw"
+                          className="-z-10 object-cover"
+                        />
+                        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/0 to-black/50" />
+                        <span className={`flex h-[19px] items-center rounded-full px-2.5 text-xs font-medium leading-[1.2] text-branco ${meta.accent}`}>
+                          {section.name}
+                        </span>
+                        <p className="line-clamp-2 text-lg leading-[1.3] font-semibold text-branco">{post.title}</p>
                       </>
                     );
                     return (
                       <li key={post.title} className="grow basis-full sm:basis-[calc(33.3333%-0.8333rem)]">
                         {post.href ? (
-                          <Link href={localizeHref(post.href, locale)} className={`${cardClassName} transition-colors hover:border-azul-base`}>
+                          <Link href={localizeHref(post.href, locale)} className={cardClassName}>
                             {content}
                           </Link>
                         ) : (

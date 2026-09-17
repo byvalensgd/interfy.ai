@@ -13,15 +13,15 @@
     "ariaLabel": "Избранная статья и последние публикации",
     "heading": "Избранное",
     "article": {
-      "category": "ИИ и агенты",
-      "title": "Как ИИ меняет способ, которым компании управляют документами и процессами",
-      "excerpt": "От умного захвата данных до автономных агентов: обзор того, как ИИ уже стал частью повседневной работы пользователей Interfy, и что появится дальше.",
-      "date": "Сен 2026",
-      "author": "Команда Interfy",
-      "readTime": "9 мин чтения",
-      "ctaLabel": "Читать статью"
-    },
-    "recentHeading": "Недавние",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Читать статью"
+      },
+      "recentHeading": "Недавние",
     "recent": [
       {
         "title": "Как построить репозиторий документов, который растёт вместе с компанией",

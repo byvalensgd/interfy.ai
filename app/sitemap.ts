@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/test-drive", priority: 0.9, changeFrequency: "monthly" },
     { path: "/demo", priority: 0.8, changeFrequency: "monthly" },
     { path: "/segmentos", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/universidade", priority: 0.7, changeFrequency: "monthly" },
     { path: "/platform", priority: 0.9, changeFrequency: "monthly" },
     { path: "/platform/integracoes", priority: 0.7, changeFrequency: "monthly" },
     { path: "/platform/ai-creditos", priority: 0.7, changeFrequency: "monthly" },

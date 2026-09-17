@@ -96,8 +96,8 @@ function DropdownMenu({
 }) {
   return (
     <div
-      className={`absolute right-[-1px] z-50 grid w-[420px] grid-cols-2 gap-x-4 gap-y-3 rounded-[12px] border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] ${
-        align === "up" ? "bottom-[calc(100%+4px)]" : "top-[calc(100%+4px)]"
+      className={`fixed inset-x-4 z-50 grid grid-cols-2 gap-x-4 gap-y-3 rounded-[12px] border border-contorno-base bg-branco px-5 py-5 shadow-[0_0_5px_var(--color-shadow)] sm:absolute sm:inset-x-auto sm:right-[-1px] sm:w-[420px] ${
+        align === "up" ? "bottom-10 sm:bottom-[calc(100%+4px)]" : "top-10 sm:top-[calc(100%+4px)]"
       }`}
     >
       {LANGUAGES.map((item) => {

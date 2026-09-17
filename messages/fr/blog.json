@@ -13,15 +13,15 @@
     "ariaLabel": "Article à la une et articles récents",
     "heading": "À la une",
     "article": {
-      "category": "IA & Agents",
-      "title": "Comment l'IA change la façon dont les entreprises gèrent les documents et les processus",
-      "excerpt": "De la capture intelligente aux agents autonomes : un aperçu de la façon dont l'IA fait déjà partie du quotidien des utilisateurs d'Interfy, et de ce qui arrive ensuite.",
-      "date": "Sept. 2026",
-      "author": "Équipe Interfy",
-      "readTime": "9 min de lecture",
-      "ctaLabel": "Lire l'article"
-    },
-    "recentHeading": "Récents",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Lire l'article"
+      },
+      "recentHeading": "Récents",
     "recent": [
       {
         "title": "Comment structurer un référentiel de documents qui évolue avec l'entreprise",

@@ -4,6 +4,7 @@ import GenericCTA from "@/components/sections/GenericCTA";
 import { buildMetadata } from "@/lib/seo";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
+import { casesHeroBadgeIcons } from "@/config/cases-page";
 
 export async function generateMetadata() {
   const locale = await getLocale();
@@ -27,10 +28,13 @@ export default async function CasesPage() {
       <SimpleHero
         ariaLabel={cases.hero.ariaLabel}
         headingId="cases-hero-heading"
-        eyebrow={cases.hero.eyebrow}
         titleLine1={cases.hero.titleLine1}
         titleHighlight={cases.hero.titleHighlight}
         description={cases.hero.description}
+        badges={cases.hero.badges.map((badge: { value: string; label: string }, i: number) => ({
+          ...badge,
+          icon: casesHeroBadgeIcons[i],
+        }))}
       />
       <CasesGrid
         ariaLabel={cases.grid.ariaLabel}
@@ -38,8 +42,6 @@ export default async function CasesPage() {
         challengeLabel={cases.grid.challengeLabel}
         solutionLabel={cases.grid.solutionLabel}
         resultsLabel={cases.grid.resultsLabel}
-        illustrativeNote={cases.grid.illustrativeNote}
-        complianceNote={cases.grid.complianceNote}
         items={cases.grid.items}
       />
       <GenericCTA

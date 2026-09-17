@@ -4,8 +4,11 @@ import { articulat } from "@/app/fonts";
 import { locales, HTML_LANG, OG_LOCALE } from "@/lib/i18n/config";
 import { getLocale, getDictionary } from "@/lib/i18n/dictionaries";
 import { LANGUAGE_INFO } from "@/config/languages";
+import { footerSocialLinks } from "@/config/footer";
+import { withLocale } from "@/lib/i18n/paths";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import CookieConsent from "@/components/ui/CookieConsent";
 import "../globals.css";
 
 export async function generateStaticParams() {
@@ -74,27 +77,59 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   const locale = await getLocale();
-  const { common } = await getDictionary();
+  const { common, header } = await getDictionary();
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    alternateName: "Interfy Corporation",
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo/interfy-logo.svg`,
     description: common.defaultDescription,
+    sameAs: footerSocialLinks.filter((s) => !s.href.match(/^https:\/\/x\.com\/?$/)).map((s) => s.href),
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      url: `${siteConfig.url}${withLocale("/contato", locale)}`,
+    },
   };
 
+  // No SearchAction: the site has no query-param-driven search page yet,
+  // so a fake target would just be invalid structured data.
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: siteConfig.name,
     url: siteConfig.url,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteConfig.url}/segmentos?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
+    inLanguage: HTML_LANG[locale],
+  };
+
+  // Helps search engines surface sitelinks under the main "interfy" result
+  // by spelling out the primary sections of the site.
+  const siteNavigationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    name: [
+      "Documents",
+      "Process",
+      "Capture",
+      "Sign",
+      "Connect",
+      "Voice",
+      "Agents",
+      header.nav.plans,
+    ],
+    url: [
+      "/documents",
+      "/process",
+      "/capture",
+      "/sign",
+      "/connect",
+      "/voice",
+      "/agents",
+      "/planos",
+    ].map((path) => `${siteConfig.url}${withLocale(path, locale)}`),
   };
 
   return (
@@ -112,9 +147,14 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationJsonLd) }}
+        />
         <Header />
         <main className="flex-1 pt-[var(--header-height)]">{children}</main>
         <Footer />
+        <CookieConsent dict={common.cookieConsent} privacyHref={withLocale("/legal/privacidade", locale)} />
       </body>
     </html>
   );

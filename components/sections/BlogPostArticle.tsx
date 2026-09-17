@@ -45,15 +45,13 @@ export default function BlogPostArticle({
           <Reveal immediate className="flex flex-col gap-5">
             <p className="text-xs font-medium text-texto-medio">
               {article.date} <span aria-hidden="true">-</span>{" "}
-              <span className="bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
-                {article.author}
-              </span>
+              <span className="text-azul-base">{article.author}</span>
             </p>
             <ul className="flex flex-wrap gap-2.5">
               {article.tags.map((tag) => (
                 <li
                   key={tag}
-                  className="rounded-full bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] px-2.5 py-0.5 text-xs font-bold leading-[1.4] text-branco"
+                  className="flex min-h-[25px] items-center justify-center rounded-full bg-azul-base px-2.5 py-0.5 text-xs font-bold leading-[1.4] text-branco"
                 >
                   {tag}
                 </li>
@@ -66,7 +64,7 @@ export default function BlogPostArticle({
           </Reveal>
 
           <Reveal immediate delayMs={40} className="flex flex-col gap-8">
-            <div className="flex flex-col gap-2.5 pl-5 text-justify text-lg leading-[1.4] text-texto">
+            <div className="flex flex-col gap-2.5 pl-5 text-justify text-base leading-[1.4] text-texto">
               {article.intro.map((p) => (
                 <p key={p}>{p}</p>
               ))}
@@ -74,14 +72,14 @@ export default function BlogPostArticle({
 
             {article.sections.map((section) => (
               <div key={section.heading} className="flex flex-col gap-5">
-                <h2 className="text-xl leading-[1.2] font-bold text-texto sm:text-[1.625rem]">{section.heading}</h2>
-                <div className="flex flex-col gap-2.5 pl-5 text-justify text-lg leading-[1.4] text-texto">
+                <h2 className="text-lg leading-[1.2] font-bold text-texto sm:text-2xl">{section.heading}</h2>
+                <div className="flex flex-col gap-2.5 pl-5 text-justify text-base leading-[1.4] text-texto">
                   {section.paragraphs.map((p) => (
                     <p key={p}>{p}</p>
                   ))}
                 </div>
                 {section.items && (
-                  <ul className="ml-5 flex list-disc flex-col gap-2.5 rounded-2xl border border-contorno-base bg-[linear-gradient(-65.6deg,#fbfffd_1%,#fafffe_97.5%)] p-5 pl-10 text-justify text-lg leading-[1.4] text-texto">
+                  <ul className="ml-5 flex list-disc flex-col gap-2.5 rounded-2xl border border-contorno-base bg-[linear-gradient(-65.6deg,#fbfffd_1%,#fafffe_97.5%)] p-5 pl-10 text-justify text-base leading-[1.4] text-texto">
                     {section.items.map((item) => (
                       <li key={item}>{item}</li>
                     ))}
@@ -103,16 +101,14 @@ export default function BlogPostArticle({
         <aside className="flex w-full shrink-0 flex-col gap-5 lg:sticky lg:top-[calc(var(--header-height)+20px)] lg:w-[380px] lg:self-start">
           <Reveal immediate delayMs={80} className="flex flex-col gap-[30px] rounded-2xl border border-contorno-base p-5">
             <div className="flex flex-col gap-0.5">
-              <p className="bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-sm font-bold text-transparent">
-                {recentHeading}
-              </p>
-              <span className="h-0.5 w-[76px] rounded-full bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)]" aria-hidden="true" />
+              <p className="text-sm font-bold text-azul-base">{recentHeading}</p>
+              <span className="h-0.5 w-[76px] rounded-full bg-azul-base" aria-hidden="true" />
             </div>
             <ul className="flex flex-col gap-4">
               {recent.slice(0, 4).map((post, i) => (
                 <li key={post.title} className="flex items-start gap-3 border-t border-contorno-base pt-4 first:border-t-0 first:pt-0">
                   <span className="text-xs font-bold leading-[1.4] text-texto-medio">{String(i + 1).padStart(2, "0")}</span>
-                  <div className="flex flex-col gap-1">
+                  <div className="flex flex-col gap-2.5">
                     <p className="text-base leading-[1.3] font-semibold text-texto">{post.title}</p>
                     <p className="text-xs leading-[1.2] font-medium text-texto-medio">
                       {post.date} — {post.author}

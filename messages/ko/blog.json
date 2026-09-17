@@ -13,15 +13,15 @@
     "ariaLabel": "추천 아티클과 최신 게시물",
     "heading": "추천",
     "article": {
-      "category": "AI & 에이전트",
-      "title": "AI가 기업의 문서 및 프로세스 관리 방식을 바꾸는 방법",
-      "excerpt": "지능형 캡처부터 자율 에이전트까지: AI가 이미 Interfy 사용자의 일상 업무에 어떻게 적용되고 있는지, 그리고 앞으로 어떤 변화가 있을지 살펴봅니다.",
-      "date": "2026년 9월",
-      "author": "Interfy 팀",
-      "readTime": "읽는 시간 9분",
-      "ctaLabel": "아티클 읽기"
-    },
-    "recentHeading": "최신",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "아티클 읽기"
+      },
+      "recentHeading": "최신",
     "recent": [
       {
         "title": "기업 성장에 맞춰 확장되는 문서 저장소 구축하기",

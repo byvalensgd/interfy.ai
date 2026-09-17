@@ -22,13 +22,13 @@
     "ariaLabel": "Artigo em destaque e artigos recentes",
     "heading": "Em destaque",
     "article": {
-      "category": "IA & Agentes",
-      "title": "Como a IA está mudando a forma como empresas gerenciam documentos e processos",
-      "excerpt": "Da captura inteligente aos agentes autônomos: um panorama de como a inteligência artificial já está no dia a dia de quem usa a Interfy, e o que vem a seguir.",
-      "date": "Set 2026",
+      "image": "/images/blog/post-decreto-10278.png",
+      "title": "Digitalização com validade legal: o que diz o Decreto 10.278",
+      "excerpt": "Entenda quando um documento digitalizado pode substituir o original em papel, e como isso reduz custos.",
+      "date": "Mai 2026",
       "author": "Equipe Interfy",
-      "readTime": "9 min de leitura",
-      "ctaLabel": "Ler artigo"
+      "tags": ["Gestão Documental", "Decreto 10.278", "LGPD", "Compliance"],
+      "ctaLabel": "Ler artigo completo"
     },
     "recentHeading": "Recentes",
     "recent": [
@@ -36,13 +36,12 @@
       { "title": "5 processos que toda empresa deveria automatizar primeiro", "date": "Ago 2026", "author": "Equipe Interfy" },
       { "title": "Assinatura eletrônica tem validade jurídica no Brasil?", "date": "Jul 2026", "author": "Equipe Interfy" },
       { "title": "Agentes de IA em processos internos: por onde começar", "date": "Jul 2026", "author": "Equipe Interfy" },
-      { "title": "LGPD na prática: o que muda na gestão de documentos e processos", "date": "Jun 2026", "author": "Equipe Interfy" },
-      { "title": "OCR e captura inteligente: o fim da digitação manual", "date": "Jun 2026", "author": "Equipe Interfy" }
+      { "title": "LGPD na prática: o que muda na gestão de documentos e processos", "date": "Jun 2026", "author": "Equipe Interfy" }
     ]
   },
   "categories": {
     "ariaLabel": "Artigos por categoria",
-    "ctaLabel": "Leia o blog",
+    "ctaLabel": "Ver todos os artigos",
     "sections": [
       {
         "name": "Gestão Documental",

@@ -5,10 +5,11 @@ import FooterNavColumn from "@/components/ui/FooterNavColumn";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { footerColumns as footerColumnLinks, footerSocialBadges } from "@/config/footer";
 import { getCompleteBoxBasis } from "@/lib/completeBox";
+import ManageCookiesButton from "@/components/ui/ManageCookiesButton";
 
 export default async function Footer() {
   const locale = await getLocale();
-  const { footer, header } = await getDictionary();
+  const { footer, header, common } = await getDictionary();
   const year = new Date().getFullYear();
   const trustIcons = [
     "/footer/trust-security.svg",
@@ -132,10 +133,13 @@ export default async function Footer() {
 
       <div className="flex w-full justify-center bg-branco px-5 py-5">
         <div className="flex w-full max-w-[1400px] flex-col items-center gap-3.5 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-x-[50px] lg:gap-y-3.5">
-          <p className="flex-1 min-w-[200px] text-center text-base leading-[1.2] font-normal text-texto lg:text-left">
-            <span className="font-bold">{footer.copyright.brand}</span>{" "}
-            {footer.copyright.suffix.replace("{year}", String(year))}
-          </p>
+          <div className="flex flex-1 min-w-[200px] flex-col items-center gap-1 text-center lg:items-start lg:text-left">
+            <p className="text-base leading-[1.2] font-normal text-texto">
+              <span className="font-bold">{footer.copyright.brand}</span>{" "}
+              {footer.copyright.suffix.replace("{year}", String(year))}
+            </p>
+            <ManageCookiesButton label={common.cookieConsent.manageLabel} />
+          </div>
 
           <LanguageSelectorFull locale={locale} ariaLabel={header.languageSelectorAria} />
 

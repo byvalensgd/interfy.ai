@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "suporte"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "Usamos cookies para o funcionamento do site e, com o seu consentimento, também para medir audiência e personalizar conteúdo.",
+    "policyLinkLabel": "Política de Privacidade",
+    "acceptAllLabel": "Aceitar todos",
+    "rejectLabel": "Rejeitar não essenciais",
+    "customizeLabel": "Personalizar",
+    "saveLabel": "Salvar preferências",
+    "manageLabel": "Gerenciar Cookies",
+    "backLabel": "Voltar",
+    "alwaysActiveLabel": "Sempre ativo",
+    "preferencesTitle": "Preferências de cookies",
+    "preferencesDescription": "Escolha quais categorias de cookies você permite. Cookies necessários não podem ser desativados porque garantem o funcionamento básico do site.",
+    "categories": {
+      "necessary": {
+        "label": "Necessários",
+        "description": "Essenciais para login, segurança e funcionamento básico da plataforma."
+      },
+      "analytics": {
+        "label": "Analíticos",
+        "description": "Ajudam a entender como o site é usado, para melhorarmos a experiência."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Usados por nós e parceiros de publicidade para personalizar anúncios e conteúdo."
+      }
+    }
+  }
 }

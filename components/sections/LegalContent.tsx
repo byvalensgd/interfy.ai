@@ -393,7 +393,7 @@ export default function LegalContent({
                               <p
                                 key={bi}
                                 data-chunk-index={nextChunkIndex()}
-                                className={`text-sm leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
+                                className={`text-base leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
                               >
                                 {highlightText(block.p, queryWords)}
                               </p>
@@ -403,7 +403,7 @@ export default function LegalContent({
                                   <li
                                     key={item}
                                     data-chunk-index={nextChunkIndex()}
-                                    className={`flex items-start gap-2.5 pl-3 text-sm leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
+                                    className={`flex items-start gap-2.5 pl-3 text-base leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
                                   >
                                     <span
                                       className="mt-2 size-1.5 shrink-0 rounded-full bg-[linear-gradient(135deg,#184aee,#bf18f6)]"
@@ -421,7 +421,7 @@ export default function LegalContent({
                                 <p
                                   key={pi}
                                   data-chunk-index={nextChunkIndex()}
-                                  className={`text-sm leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
+                                  className={`text-base leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
                                 >
                                   {highlightText(p, queryWords)}
                                 </p>
@@ -432,7 +432,7 @@ export default function LegalContent({
                                     <li
                                       key={item}
                                       data-chunk-index={nextChunkIndex()}
-                                      className={`flex items-start gap-2.5 text-sm leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
+                                      className={`flex items-start gap-2.5 text-base leading-[1.6] font-medium text-texto-medio ${CHUNK_SCROLL_MT}`}
                                     >
                                       <span
                                         className="mt-2 size-1.5 shrink-0 rounded-full bg-[linear-gradient(135deg,#184aee,#bf18f6)]"

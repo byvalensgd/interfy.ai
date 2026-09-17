@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "tuki"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "Käytämme evästeitä sivuston toimintaan ja suostumuksellasi käytön mittaamiseen ja sisällön personointiin.",
+    "policyLinkLabel": "Tietosuojakäytäntö",
+    "acceptAllLabel": "Hyväksy kaikki",
+    "rejectLabel": "Hylkää ei-välttämättömät",
+    "customizeLabel": "Mukauta",
+    "saveLabel": "Tallenna asetukset",
+    "manageLabel": "Hallitse evästeitä",
+    "backLabel": "Takaisin",
+    "alwaysActiveLabel": "Aina käytössä",
+    "preferencesTitle": "Evästeasetukset",
+    "preferencesDescription": "Valitse, mitä evästekategorioita sallit. Välttämättömiä evästeitä ei voi poistaa käytöstä.",
+    "categories": {
+      "necessary": {
+        "label": "Välttämättömät",
+        "description": "Tarpeellisia kirjautumiselle, tietoturvalle ja perustoiminnalle."
+      },
+      "analytics": {
+        "label": "Analytiikka",
+        "description": "Auttavat ymmärtämään sivuston käyttöä sen parantamiseksi."
+      },
+      "marketing": {
+        "label": "Markkinointi",
+        "description": "Käytämme mainosten ja sisällön personointiin."
+      }
+    }
+  }
 }

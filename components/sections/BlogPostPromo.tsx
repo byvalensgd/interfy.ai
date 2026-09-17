@@ -35,7 +35,7 @@ export default function BlogPostPromo({
               href={youtubeHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-[38px] items-center justify-center rounded-lg bg-[linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] px-5 text-sm font-bold leading-[1.2] text-branco"
+              className="inline-flex h-[38px] items-center justify-center rounded-lg bg-azul-base px-5 text-sm font-bold leading-[1.2] text-branco"
             >
               {primaryLabel}
             </a>
@@ -43,7 +43,7 @@ export default function BlogPostPromo({
               href={youtubeHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-[38px] items-center justify-center rounded-lg border border-azul-base bg-branco px-5 text-sm font-bold leading-[1.2] text-transparent [background-image:linear-gradient(111.8deg,#184aee_22.86%,#bf18f6_96.41%)] [background-clip:text] [-webkit-background-clip:text]"
+              className="inline-flex h-[38px] items-center justify-center rounded-lg border border-azul-base bg-branco px-5 text-sm font-bold leading-[1.2] text-azul-base"
             >
               {secondaryLabel}
             </a>

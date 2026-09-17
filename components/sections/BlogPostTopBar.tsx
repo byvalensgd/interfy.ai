@@ -34,7 +34,7 @@ export default function BlogPostTopBar({
   }, [posts, queryWords]);
 
   return (
-    <section className="relative z-10 flex justify-center bg-branco px-5 pt-8">
+    <section className="relative z-30 flex justify-center bg-branco px-5 pt-8">
       <div className="flex w-full max-w-[1300px] items-center justify-between gap-4 border-b border-contorno-base pb-5">
         <Link
           href={backHref}

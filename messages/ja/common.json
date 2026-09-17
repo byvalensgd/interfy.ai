@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "サポート"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "当サイトの運営のためにCookieを使用しており、同意いただいた場合は利用状況の測定やコンテンツのパーソナライズにも使用します。",
+    "policyLinkLabel": "プライバシーポリシー",
+    "acceptAllLabel": "すべて同意する",
+    "rejectLabel": "必須以外を拒否",
+    "customizeLabel": "カスタマイズ",
+    "saveLabel": "設定を保存",
+    "manageLabel": "Cookie設定を管理",
+    "backLabel": "戻る",
+    "alwaysActiveLabel": "常に有効",
+    "preferencesTitle": "Cookieの設定",
+    "preferencesDescription": "許可するCookieのカテゴリを選択してください。必須Cookieはサイトの基本動作のため無効にできません。",
+    "categories": {
+      "necessary": {
+        "label": "必須",
+        "description": "ログイン、セキュリティ、基本動作に必要です。"
+      },
+      "analytics": {
+        "label": "分析",
+        "description": "サイトの利用状況を把握し改善するために役立ちます。"
+      },
+      "marketing": {
+        "label": "マーケティング",
+        "description": "広告やコンテンツのパーソナライズのために使用します。"
+      }
+    }
+  }
 }

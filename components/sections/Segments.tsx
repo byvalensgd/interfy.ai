@@ -31,19 +31,24 @@ export default async function Segments() {
               const isViewAll = index === items.length - 1;
               return (
                 <li key={segment.label} className="flex flex-1">
-                  <Link
-                    href={withLocale(segment.href, locale)}
-                    className={`flex w-full flex-col items-center gap-4 rounded-[12px] border border-contorno-base px-4 py-5 ${
-                      isViewAll
-                        ? "segments-cta transition-[transform,box-shadow] duration-200 hover:scale-105 hover:shadow-[0_10px_24px_-8px_rgba(0,0,0,0.2)]"
-                        : ""
-                    }`}
-                  >
-                    <Image src={segment.icon} alt="" aria-hidden="true" width={35} height={35} />
-                    <span className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-bold text-texto">
-                      {segment.label}
-                    </span>
-                  </Link>
+                  {isViewAll ? (
+                    <Link
+                      href={withLocale(segment.href, locale)}
+                      className="segments-cta flex w-full flex-col items-center gap-4 rounded-[12px] border border-contorno-base px-4 py-5 transition-[transform,box-shadow] duration-200 hover:scale-105 hover:shadow-[0_10px_24px_-8px_rgba(0,0,0,0.2)]"
+                    >
+                      <Image src={segment.icon} alt="" aria-hidden="true" width={35} height={35} />
+                      <span className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-bold text-texto">
+                        {segment.label}
+                      </span>
+                    </Link>
+                  ) : (
+                    <div className="flex w-full flex-col items-center gap-4 rounded-[12px] border border-contorno-base px-4 py-5">
+                      <Image src={segment.icon} alt="" aria-hidden="true" width={35} height={35} />
+                      <span className="text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[1.2] font-bold text-texto">
+                        {segment.label}
+                      </span>
+                    </div>
+                  )}
                 </li>
               );
             })}

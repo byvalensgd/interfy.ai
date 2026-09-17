@@ -22,15 +22,15 @@
     "ariaLabel": "Featured article and recent posts",
     "heading": "Featured",
     "article": {
-      "category": "AI & Agents",
-      "title": "How AI is changing the way companies manage documents and processes",
-      "excerpt": "From smart capture to autonomous agents: an overview of how AI is already part of everyday life for Interfy users, and what's coming next.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 min read",
-      "ctaLabel": "Read article"
-    },
-    "recentHeading": "Recent",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Read article"
+      },
+      "recentHeading": "Recent",
     "recent": [
       { "title": "How to structure a document repository that scales with your company", "date": "Aug 2026", "author": "Interfy Team" },
       { "title": "5 processes every company should automate first", "date": "Aug 2026", "author": "Interfy Team" },

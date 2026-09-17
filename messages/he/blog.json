@@ -13,15 +13,15 @@
     "ariaLabel": "מאמר מומלץ ופוסטים אחרונים",
     "heading": "מומלץ",
     "article": {
-      "category": "AI וסוכנים",
-      "title": "איך ה-AI משנה את האופן שבו חברות מנהלות מסמכים ותהליכים",
-      "excerpt": "מלכידה חכמה ועד סוכנים אוטונומיים: סקירה של איך AI כבר חלק מהשגרה היומית של משתמשי Interfy, ומה עוד צפוי בקרוב.",
-      "date": "ספט 2026",
-      "author": "צוות Interfy",
-      "readTime": "9 דקות קריאה",
-      "ctaLabel": "קראו את המאמר"
-    },
-    "recentHeading": "אחרונים",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "קראו את המאמר"
+      },
+      "recentHeading": "אחרונים",
     "recent": [
       {
         "title": "איך לבנות מאגר מסמכים שגדל עם החברה",

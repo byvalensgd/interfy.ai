@@ -46,7 +46,7 @@ export default function UniversidadeRecursos({
                 >
                   <IconComponent className="size-[30px] text-branco" aria-hidden="true" strokeWidth={1.75} />
                 </span>
-                <div className="flex flex-col gap-2.5">
+                <div className="flex flex-col gap-5">
                   <p className="text-xl leading-[1.2] font-bold text-texto">{item.title}</p>
                   <p className="text-base leading-[1.4] font-medium text-texto-medio">{item.description}</p>
                 </div>

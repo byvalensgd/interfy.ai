@@ -5,6 +5,7 @@ import Reveal from "@/components/ui/Reveal";
 import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
 import { withLocale } from "@/lib/i18n/paths";
 import { platformEcosystemItems as platformEcosystemIcons } from "@/config/segments-page";
+import { getCompleteBoxBasis } from "@/lib/completeBox";
 
 export default async function SegmentsPlatform() {
   const locale = await getLocale();
@@ -13,6 +14,7 @@ export default async function SegmentsPlatform() {
     ...entry,
     ...segments.platform.items[i],
   }));
+  const itemsBasis = getCompleteBoxBasis(ecosystemItems.length);
 
   return (
     <section aria-labelledby="segments-platform-heading" className="flex justify-center px-5 py-10 sm:py-16">
@@ -27,7 +29,39 @@ export default async function SegmentsPlatform() {
           {segments.platform.titleSuffix}
         </h2>
 
-        <Reveal className="w-full">
+        {/* Below lg: "Blocos Mobile" — each product becomes its own bordered
+            card, balanced via "Complete Box" (see lib/completeBox.ts). At
+            lg+: the original single-row icon strip below. */}
+        <Reveal className="w-full lg:hidden">
+          <ul
+            aria-label={`${segments.platform.titleHighlight} ${segments.platform.titleSuffix}`}
+            className="flex w-full flex-wrap gap-4"
+          >
+            {ecosystemItems.map((item) => (
+              <li
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${itemsBasis}`}
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
+                <div className="flex w-full flex-col items-center gap-2.5 text-lg leading-[1.2] font-bold">
+                  <p className="w-full leading-[1.2] text-texto">{segments.platform.brandName}</p>
+                  {item.colorClass === "gradient" ? (
+                    <p className="w-full leading-[1.2]">
+                      <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                        {item.product}
+                      </span>
+                    </p>
+                  ) : (
+                    <p className={`w-full leading-[1.2] ${item.colorClass}`}>{item.product}</p>
+                  )}
+                </div>
+                <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">{item.description}</p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal className="hidden w-full lg:block">
           <ul className="grid w-full grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-4 lg:grid-cols-8">
             {ecosystemItems.map((item) => (
               <li key={item.product} className="flex flex-col items-center gap-5">
@@ -38,8 +72,10 @@ export default async function SegmentsPlatform() {
                   <div className="flex w-full flex-col items-center gap-2.5 text-[clamp(1.0625rem,0.1042vw+1.0417rem,1.125rem)] leading-[0] font-bold">
                     <p className="w-full leading-[1.2] text-texto">{segments.platform.brandName}</p>
                     {item.colorClass === "gradient" ? (
-                      <p className="inline-block w-full bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text leading-[1.2] text-transparent">
-                        {item.product}
+                      <p className="w-full leading-[1.2]">
+                        <span className="inline-block bg-[linear-gradient(123.44deg,#184aee_22.86%,#bf18f6_96.41%)] bg-clip-text text-transparent">
+                          {item.product}
+                        </span>
                       </p>
                     ) : (
                       <p className={`w-full leading-[1.2] ${item.colorClass}`}>{item.product}</p>
@@ -57,7 +93,7 @@ export default async function SegmentsPlatform() {
           className="inline-flex min-h-[50px] shrink-0 items-center justify-center gap-2.5 rounded-lg bg-[linear-gradient(104.3deg,#184aee_22.86%,#bf18f6_96.41%)] px-[30px] py-2.5 text-base leading-[1.2] font-extrabold whitespace-nowrap text-branco transition-opacity hover:opacity-90"
         >
           {segments.platform.ctaLabel}
-          <ArrowUpRight className="size-2.5" aria-hidden="true" />
+          <ArrowUpRight className="size-6 -mx-[7px]" aria-hidden="true" />
         </Link>
       </div>
     </section>

@@ -53,5 +53,32 @@
       "label": "24/7",
       "sublabel": "תמיכה"
     }
-  ]
+  ],
+  "cookieConsent": {
+    "message": "אנו משתמשים בעוגיות להפעלת האתר, ובהסכמתך, למדידת שימוש והתאמה אישית של תוכן.",
+    "policyLinkLabel": "מדיניות פרטיות",
+    "acceptAllLabel": "קבל הכול",
+    "rejectLabel": "דחה לא הכרחיים",
+    "customizeLabel": "התאמה אישית",
+    "saveLabel": "שמור העדפות",
+    "manageLabel": "ניהול עוגיות",
+    "backLabel": "חזרה",
+    "alwaysActiveLabel": "תמיד פעיל",
+    "preferencesTitle": "העדפות עוגיות",
+    "preferencesDescription": "בחר אילו קטגוריות עוגיות לאשר. עוגיות הכרחיות לא ניתנות לביטול.",
+    "categories": {
+      "necessary": {
+        "label": "הכרחיות",
+        "description": "חיוניות להתחברות, אבטחה ותפעול בסיסי."
+      },
+      "analytics": {
+        "label": "אנליטיקה",
+        "description": "עוזרות לנו להבין כיצד האתר בשימוש כדי לשפר אותו."
+      },
+      "marketing": {
+        "label": "שיווק",
+        "description": "משמשות אותנו ושותפי פרסום להתאמה אישית של פרסומות ותוכן."
+      }
+    }
+  }
 }

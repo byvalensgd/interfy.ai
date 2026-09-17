@@ -70,7 +70,7 @@ export default async function SwcHero() {
                 {swcHeroTrust.map((icon, index) => (
                   <li key={icon} className="flex w-full min-w-[240px] items-start gap-5">
                     <Image src={icon} alt="" aria-hidden="true" width={30} height={30} className="shrink-0" />
-                    <span className="flex min-h-[30px] w-full min-w-0 flex-1 flex-col justify-center text-lg leading-[1.2] font-extrabold text-texto">
+                    <span className="flex min-h-[30px] w-full min-w-0 flex-1 flex-col justify-center text-base leading-[1.2] font-bold text-texto">
                       {hero.trust[index].text}
                     </span>
                   </li>

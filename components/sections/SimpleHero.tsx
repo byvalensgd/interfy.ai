@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import Button from "@/components/ui/Button";
 import StatsBar, { type StatItem } from "@/components/ui/StatsBar";
@@ -7,6 +8,8 @@ import { CTA_DISABLED } from "@/config/feature-flags";
 // suporte, cases, blog, status) — the CTA-to-gate is whichever slot actually
 // points at /test-drive or /demo, not a fixed primary/secondary position.
 const isGatedCtaHref = (href: string) => /\/(test-drive|demo)$/.test(href);
+
+export type SimpleHeroBadge = { icon: string; value: string; label: string };
 
 type SimpleHeroProps = {
   ariaLabel: string;
@@ -21,6 +24,7 @@ type SimpleHeroProps = {
   secondaryHref?: string;
   stats?: StatItem[];
   statsLabel?: string;
+  badges?: SimpleHeroBadge[];
 };
 
 /** Lighter hero (single centered column, no side illustration) for support-tier
@@ -38,6 +42,7 @@ export default function SimpleHero({
   secondaryHref,
   stats,
   statsLabel,
+  badges,
 }: SimpleHeroProps) {
   return (
     <section
@@ -88,6 +93,22 @@ export default function SimpleHero({
                   {secondaryLabel}
                 </Button>
               )}
+            </div>
+          )}
+
+          {badges && badges.length > 0 && (
+            <div className="flex flex-wrap items-center justify-center gap-10">
+              {badges.map((badge) => (
+                <div key={badge.icon} className="flex items-center gap-5">
+                  <span className="flex size-[50px] shrink-0 items-center justify-center rounded-xl border border-contorno-base bg-[linear-gradient(94.43deg,#fffafe_4.022%,#edf4ff_96.466%)] p-2.5">
+                    <Image src={badge.icon} alt="" aria-hidden="true" width={30} height={30} />
+                  </span>
+                  <div className="flex flex-col gap-[5px] text-left">
+                    <p className="text-xl leading-[1.2] font-bold text-texto">{badge.value}</p>
+                    <p className="text-base leading-[25px] font-normal text-texto">{badge.label}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           )}
         </Reveal>

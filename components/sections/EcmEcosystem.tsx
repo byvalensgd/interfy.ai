@@ -22,17 +22,43 @@ export default async function EcmEcosystem() {
           {documents.ecosystem.heading} <span className="text-azul-base">{documents.ecosystem.headingHighlight}</span>
         </h2>
 
-        {/* "Complete Box" (see lib/completeBox.ts) — flex-basis keeps every
-            row within 1 item of the next and stretches a short last row
-            instead of a CSS Grid leaving it blank. At lg+: a single
-            non-wrapping row (lg:flex-nowrap overrides the basis via
-            lg:flex-1). */}
-        <Reveal className="w-full">
-          <div className="flex w-full flex-wrap items-start gap-x-6 gap-y-10 lg:flex-nowrap lg:gap-x-5">
+        {/* Below lg: "Blocos Mobile" — each product becomes its own bordered
+            card, balanced via "Complete Box" (see lib/completeBox.ts). At
+            lg+: the original single-row icon strip below. */}
+        <Reveal className="w-full lg:hidden">
+          <ul aria-label={documents.ecosystem.heading} className="flex w-full flex-wrap gap-4">
+            {links.map((item) => (
+              <li
+                key={item.product}
+                className={`flex grow flex-col items-center gap-5 rounded-[14px] border border-contorno-base bg-branco p-5 text-center ${ecosystemBasis}`}
+              >
+                <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
+                <div className="flex w-full flex-col items-center gap-2.5 text-lg leading-[1.2] font-extrabold">
+                  <p className="w-full leading-[1.2] text-texto">{documents.ecosystem.brandPrefix}</p>
+                  {item.colorClass === "gradient" ? (
+                    <p className="w-full leading-[1.2]">
+                      <span className="inline-block bg-[linear-gradient(141.02deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                        {item.product}
+                      </span>
+                    </p>
+                  ) : (
+                    <p className={`w-full leading-[1.2] ${item.colorClass}`}>{item.product}</p>
+                  )}
+                </div>
+                <p className="w-full text-base leading-[1.2] font-medium text-texto-medio">
+                  {item.description}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+
+        <Reveal className="hidden w-full lg:block">
+          <div className="flex w-full flex-wrap gap-4 @container">
             {links.map((item) => (
               <div
                 key={item.product}
-                className={`flex min-w-[140px] grow flex-col items-center gap-5 text-center ${ecosystemBasis} lg:flex-1`}
+                className={`flex grow flex-col items-center gap-5 text-center ${ecosystemBasis} @min-[764px]:basis-[140px]`}
               >
                 <span className="flex size-[70px] shrink-0 items-center justify-center rounded-full border border-contorno-base bg-branco p-4">
                   <Image src={item.icon} alt="" aria-hidden="true" width={30} height={30} />
@@ -40,8 +66,10 @@ export default async function EcmEcosystem() {
                 <div className="flex w-full flex-col items-center gap-2.5 text-lg leading-[1.2] font-extrabold">
                   <p className="w-full leading-[1.2] text-texto">{documents.ecosystem.brandPrefix}</p>
                   {item.colorClass === "gradient" ? (
-                    <p className="inline-block w-full bg-[linear-gradient(141.02deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text leading-[1.2] text-transparent">
-                      {item.product}
+                    <p className="w-full leading-[1.2]">
+                      <span className="inline-block bg-[linear-gradient(141.02deg,#184aee_22.863%,#bf18f6_96.412%)] bg-clip-text text-transparent">
+                        {item.product}
+                      </span>
                     </p>
                   ) : (
                     <p className={`w-full leading-[1.2] ${item.colorClass}`}>{item.product}</p>

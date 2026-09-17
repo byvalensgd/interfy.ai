@@ -33,6 +33,7 @@ export default async function BlogPage() {
         ariaLabel={blog.featured.ariaLabel}
         heading={blog.featured.heading}
         article={blog.featured.article}
+        articleHref={withLocale("/blog/decreto-10278-digitalizacao", locale)}
         recentHeading={blog.featured.recentHeading}
         recent={blog.featured.recent}
       />

@@ -13,15 +13,15 @@
     "ariaLabel": "Ausgewählter Artikel und aktuelle Beiträge",
     "heading": "Empfohlen",
     "article": {
-      "category": "KI & Agenten",
-      "title": "Wie KI die Art verändert, wie Unternehmen Dokumente und Prozesse verwalten",
-      "excerpt": "Von intelligenter Erfassung bis zu autonomen Agenten: ein Überblick darüber, wie KI bereits Teil des Alltags von Interfy-Nutzern ist – und was als Nächstes kommt.",
-      "date": "Sep 2026",
-      "author": "Interfy Team",
-      "readTime": "9 Min. Lesezeit",
-      "ctaLabel": "Artikel lesen"
-    },
-    "recentHeading": "Aktuell",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Legally valid digitization: what Brazil's Decree 10.278 says",
+        "excerpt": "Understand when a digitized document can replace the paper original, and how that cuts costs.",
+        "date": "May 2026",
+        "author": "Interfy Team",
+        "tags": ["Document Management","Decree 10.278","LGPD","Compliance"],
+        "ctaLabel": "Artikel lesen"
+      },
+      "recentHeading": "Aktuell",
     "recent": [
       {
         "title": "So strukturieren Sie ein Dokumentenrepository, das mit dem Unternehmen mitwächst",

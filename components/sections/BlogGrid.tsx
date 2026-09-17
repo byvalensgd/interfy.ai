@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
 import { getCompleteBoxBasis } from "@/lib/completeBox";
 
@@ -69,19 +70,22 @@ export default function BlogGrid({
         <ul className="flex w-full flex-wrap gap-6">
           {visible.map((post, i) => (
             <Reveal key={post.title} delayMs={(i % 4) * 80} className={`grow ${basis}`}>
-              <li className="flex h-full flex-col overflow-hidden rounded-2xl border border-contorno-base bg-branco">
-                <div className={`relative flex h-[140px] w-full items-end p-4 ${accentByIndex[i % accentByIndex.length]}`}>
-                  <span className="rounded-full bg-branco/90 px-3 py-1 text-xs font-bold leading-[1.2] text-texto">
-                    {post.category}
-                  </span>
-                </div>
-                <div className="flex flex-1 flex-col gap-2.5 p-5">
-                  <p className="text-base leading-[1.3] font-bold text-texto">{post.title}</p>
-                  <p className="flex-1 text-sm leading-[1.4] font-medium text-texto-medio">{post.excerpt}</p>
-                  <p className="text-xs leading-[1.2] font-medium text-texto-medio">
-                    {post.date} · {post.readTime}
-                  </p>
-                </div>
+              <li className="relative flex min-h-[220px] w-full flex-col items-start justify-end gap-2.5 overflow-hidden rounded-[20px] p-5">
+                <Image
+                  src="/images/blog/post-card-bg.webp"
+                  alt=""
+                  aria-hidden="true"
+                  fill
+                  sizes="(min-width: 1024px) 25vw, 50vw"
+                  className="-z-10 object-cover"
+                />
+                <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/0 to-black/50" />
+                <span
+                  className={`flex h-[19px] items-center rounded-full px-2.5 text-xs font-medium leading-[1.2] text-branco ${accentByIndex[i % accentByIndex.length]}`}
+                >
+                  {post.category}
+                </span>
+                <p className="line-clamp-2 text-base leading-[1.3] font-semibold text-branco">{post.title}</p>
               </li>
             </Reveal>
           ))}

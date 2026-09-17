@@ -22,15 +22,15 @@
     "ariaLabel": "Artículo destacado y artículos recientes",
     "heading": "Destacado",
     "article": {
-      "category": "IA & Agentes",
-      "title": "Cómo la IA está cambiando la forma en que las empresas gestionan documentos y procesos",
-      "excerpt": "De la captura inteligente a los agentes autónomos: un panorama de cómo la IA ya forma parte del día a día de quienes usan Interfy, y lo que viene a continuación.",
-      "date": "Sep 2026",
-      "author": "Equipo Interfy",
-      "readTime": "9 min de lectura",
-      "ctaLabel": "Leer artículo"
-    },
-    "recentHeading": "Recientes",
+        "image": "/images/blog/post-decreto-10278.png",
+        "title": "Digitalización con validez legal: qué dice el Decreto 10.278",
+        "excerpt": "Entiende cuándo un documento digitalizado puede sustituir al original en papel, y cómo eso reduce costos.",
+        "date": "May 2026",
+        "author": "Equipo Interfy",
+        "tags": ["Gestión Documental","Decreto 10.278","LGPD","Cumplimiento"],
+        "ctaLabel": "Leer artículo"
+      },
+      "recentHeading": "Recientes",
     "recent": [
       { "title": "Cómo estructurar un repositorio de documentos que escale con la empresa", "date": "Ago 2026", "author": "Equipo Interfy" },
       { "title": "5 procesos que toda empresa debería automatizar primero", "date": "Ago 2026", "author": "Equipo Interfy" },

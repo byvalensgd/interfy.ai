@@ -1,9 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Calendar } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import StatsBar, { type StatItem } from "@/components/ui/StatsBar";
 import { CTA_DISABLED } from "@/config/feature-flags";
+import { PLANO_AZUL_BASE } from "@/lib/backgrounds";
 
 // This card is reused with very different href/label combinations per caller
 // (see app/[lang]/{cases,blog,status,suporte,contato}/page.tsx), so which slot
@@ -42,7 +44,15 @@ export default function GenericCTA({
   return (
     <section aria-label={ariaLabel} className="flex justify-center px-5 py-10 sm:py-16">
       <div className="flex w-full max-w-[1400px] flex-col">
-        <Reveal className="relative flex w-full flex-col items-center gap-8 rounded-2xl bg-[linear-gradient(135deg,#0c2f8f_0%,#184aee_45%,#bf18f6_100%)] p-5 py-8 sm:gap-10 sm:px-[30px] sm:py-10">
+        <Reveal className="relative flex w-full flex-col items-center gap-8 overflow-hidden rounded-2xl p-5 py-8 sm:gap-10 sm:px-[30px] sm:py-10">
+          <Image
+            src={PLANO_AZUL_BASE}
+            alt=""
+            aria-hidden="true"
+            fill
+            sizes="(min-width: 1400px) 1400px, 100vw"
+            className="-z-10 object-cover"
+          />
           <div className="flex w-full flex-col items-start gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-col items-center gap-3 text-center text-branco lg:items-start lg:text-left">
               <p className="text-[clamp(1.25rem,0.4167vw+1.1667rem,1.5rem)] leading-[1.2] font-bold">{heading}</p>
