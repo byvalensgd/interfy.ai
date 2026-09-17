@@ -505,7 +505,7 @@ export default function PricingPlans({
 
         {segment === "small" ? (
           <Reveal className="w-full" delayMs={120}>
-            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
+            <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pt-4 pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pt-0 lg:pb-0 [&::-webkit-scrollbar]:hidden">
               {smallPlans.map((plan, index) => (
                 <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                   <SmallPlanCard
@@ -522,7 +522,7 @@ export default function PricingPlans({
         ) : (
           <>
             <Reveal className="w-full" delayMs={120}>
-              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden">
+              <div className="flex w-full snap-x snap-mandatory gap-5 overflow-x-auto pt-4 pb-2 [scrollbar-width:none] lg:grid lg:snap-none lg:grid-cols-4 lg:overflow-visible lg:pt-0 lg:pb-0 [&::-webkit-scrollbar]:hidden">
                 {pricingPlans.map((plan, index) => (
                   <div key={plan.key} className="w-[85vw] max-w-[335px] shrink-0 snap-center lg:w-auto lg:max-w-none lg:shrink">
                     <LargePlanCard
