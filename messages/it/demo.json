@@ -79,6 +79,9 @@
       "name": "Inserisci il tuo nome completo.",
       "email": "Inserisci un'email valida.",
       "company": "Inserisci il nome della tua azienda.",
+      "phone": "Inserisci un numero di telefono valido.",
+      "companySize": "Seleziona la dimensione dell'azienda.",
+      "interest": "Seleziona il tuo interesse principale.",
       "consent": "Devi accettare i termini per continuare."
     },
     "consentPrefix": "Ho letto e accetto i ",

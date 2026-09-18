@@ -86,8 +86,26 @@
       {
         "question": "Interfy 是否提供其他语言和地区的支持?",
         "answer": "是的。该平台支持 16 种语言,业务覆盖超过 180 个国家,并为巴西提供专属商务服务及国际水准的支持 SLA。"
+      },
+      {
+        "question": "支持服务是否包含入驻（onboarding）协助?",
+        "answer": "是的。每位客户在入驻期间都可获得专属支持,包括初始配置、数据迁移和团队培训。Corporate 和 Enterprise 方案包含专属的入驻专员。"
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "为常见问题提出建议问题",
+      "heading": "没有找到您需要的答案？",
+      "description": "把您的问题发给我们，我们的团队会通过邮件回复您。",
+      "emailPlaceholder": "您的邮箱",
+      "questionPlaceholder": "输入您的问题",
+      "errors": {
+        "email": "请输入有效的邮箱地址。",
+        "question": "请输入您的问题。"
+      },
+      "submitButton": "发送问题",
+      "submittingButton": "发送中...",
+      "successMessage": "问题已发送！我们的团队会尽快回复您。"
+    }
   },
   "cta": {
     "ariaLabel": "开始使用 Interfy",

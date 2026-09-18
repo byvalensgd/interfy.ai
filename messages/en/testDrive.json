@@ -124,6 +124,7 @@
       "name": "Please enter your full name.",
       "email": "Please enter a valid email address.",
       "company": "Please enter your company name.",
+      "phone": "Enter a valid phone number.",
       "consent": "You must accept the terms to continue."
     },
     "consentPrefix": "I have read and agree to the ",

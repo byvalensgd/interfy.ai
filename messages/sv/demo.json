@@ -79,6 +79,9 @@
       "name": "Ange ditt fullständiga namn.",
       "email": "Ange en giltig e-postadress.",
       "company": "Ange namnet på ditt företag.",
+      "phone": "Ange ett giltigt telefonnummer.",
+      "companySize": "Välj företagets storlek.",
+      "interest": "Välj ditt huvudintresse.",
       "consent": "Du måste godkänna villkoren för att fortsätta."
     },
     "consentPrefix": "Jag har läst och godkänner ",

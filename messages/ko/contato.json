@@ -13,33 +13,73 @@
     "primaryLabel": "데모 예약하기",
     "secondaryLabel": "무료로 시작하기"
   },
+  "form": {
+    "heading": "메시지 보내기",
+    "nameLabel": "성명",
+    "namePlaceholder": "이름을 입력하세요",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "문의 유형",
+    "subjectPlaceholder": "문의 유형을 선택하세요",
+    "subjectOptions": [
+      "영업 및 요금제",
+      "기술 지원",
+      "파트너십",
+      "언론 문의",
+      "기타 문의"
+    ],
+    "messageLabel": "메시지",
+    "messagePlaceholder": "어떻게 도와드릴까요",
+    "errors": {
+      "name": "성명을 입력해 주세요.",
+      "email": "유효한 이메일을 입력해 주세요.",
+      "subject": "문의 유형을 선택해 주세요.",
+      "message": "메시지를 작성해 주세요.",
+      "consent": "개인정보처리방침에 동의해야 합니다."
+    },
+    "consentPrefix": "Interfy의 ",
+    "consentPrivacy": "개인정보처리방침",
+    "consentSuffix": "을 읽었으며 이에 동의합니다.",
+    "submitButton": "메시지 보내기",
+    "submittingButton": "전송 중...",
+    "successHeading": "메시지가 전송되었습니다!",
+    "successMessagePrefix": "",
+    "successMessageSuffix": "(으)로 최대한 빨리 답변드리겠습니다."
+  },
   "channels": {
     "ariaLabel": "문의 채널",
     "heading": "가장 편한 채널을 선택하세요",
+    "subheading": "편하신 채널을 선택해 문의해 주세요.",
     "items": [
       {
-        "title": "영업 문의 이메일",
-        "description": "contato@interfy.ai — 요금제, 영업, 파트너십 관련 문의.",
-        "actionLabel": "이메일 보내기",
-        "href": "mailto:contato@interfy.ai"
+        "title": "실시간 채팅",
+        "description": "월요일부터 금요일, 오전 8시부터 오후 8시까지 지원팀과 실시간으로 채팅하세요.",
+        "actionLabel": "채팅 시작",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "질문 및 지원을 위한 빠른 WhatsApp 상담.",
+        "actionLabel": "WhatsApp 열기",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "전화",
-        "description": "+55 11 4020-1000 — 월요일부터 금요일, 오전 8시부터 오후 8시까지 (브라질리아 기준).",
+        "description": "+55 11 4020-1000 — 월요일부터 금요일, 오전 8시부터 오후 8시까지(브라질리아 시간).",
         "actionLabel": "지금 전화하기",
         "href": "tel:+551140201000"
       },
       {
-        "title": "주소",
-        "description": "Interfy Corporation — 미국 플로리다주 올랜도, 180개국 이상에서 영업 활동을 하며 브라질 전담 지원팀을 운영합니다.",
-        "actionLabel": "전체 지역 보기",
-        "href": "/segmentos"
+        "title": "미팅 예약",
+        "description": "전문가와의 상담을 예약하세요.",
+        "actionLabel": "예약하기",
+        "href": "/demo"
       },
       {
-        "title": "상담 시간",
-        "description": "월요일부터 금요일, 오전 8시부터 오후 8시까지. Enterprise 고객은 24/7 확장 지원을 이용할 수 있습니다.",
-        "actionLabel": "고객지원 보기",
-        "href": "/suporte"
+        "title": "비즈니스 이메일",
+        "description": "contato@interfy.ai — 영업, 요금제, 파트너십 문의.",
+        "actionLabel": "이메일 보내기",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

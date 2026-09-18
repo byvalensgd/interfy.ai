@@ -1,13 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 import { segurancaComplianceIcons } from "@/config/seguranca-page";
-import { getDictionary, getLocale } from "@/lib/i18n/dictionaries";
-import { withLocale } from "@/lib/i18n/paths";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 
 export default async function SegurancaCompliance() {
-  const locale = await getLocale();
   const { seguranca } = await getDictionary();
   const { compliance } = seguranca;
   const items = segurancaComplianceIcons.map((icon, i) => ({ icon, ...compliance.items[i] }));
@@ -38,14 +34,6 @@ export default async function SegurancaCompliance() {
             ))}
           </ul>
         </Reveal>
-
-        <Link
-          href={withLocale("/contato", locale)}
-          className="inline-flex items-center gap-2.5 text-base leading-[1.2] font-bold text-azul-base"
-        >
-          {compliance.ctaLabel}
-          <ArrowUpRight className="size-[18px]" aria-hidden="true" />
-        </Link>
       </div>
     </section>
   );

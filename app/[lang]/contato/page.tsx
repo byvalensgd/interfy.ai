@@ -1,4 +1,5 @@
 import SimpleHero from "@/components/sections/SimpleHero";
+import ContatoForm from "@/components/sections/ContatoForm";
 import ContatoChannels from "@/components/sections/ContatoChannels";
 import GenericCTA from "@/components/sections/GenericCTA";
 import { buildMetadata } from "@/lib/seo";
@@ -27,7 +28,6 @@ export default async function ContatoPage() {
       <SimpleHero
         ariaLabel={contato.hero.ariaLabel}
         headingId="contato-hero-heading"
-        eyebrow={contato.hero.eyebrow}
         titleLine1={contato.hero.titleLine1}
         titleHighlight={contato.hero.titleHighlight}
         description={contato.hero.description}
@@ -36,9 +36,11 @@ export default async function ContatoPage() {
         secondaryLabel={contato.hero.secondaryLabel}
         secondaryHref={withLocale("/test-drive", locale)}
       />
+      <ContatoForm dict={contato.form} locale={locale} />
       <ContatoChannels
         ariaLabel={contato.channels.ariaLabel}
         heading={contato.channels.heading}
+        subheading={contato.channels.subheading}
         items={contato.channels.items.map((item: { href?: string; [key: string]: unknown }) => ({
           ...item,
           href: item.href ? localizeHref(item.href, locale) : item.href,

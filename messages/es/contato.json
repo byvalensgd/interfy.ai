@@ -13,33 +13,73 @@
     "primaryLabel": "Agenda una demo",
     "secondaryLabel": "Comienza gratis"
   },
+  "form": {
+    "heading": "Envía un mensaje",
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Selecciona el asunto",
+    "subjectOptions": [
+      "Ventas y planes",
+      "Soporte técnico",
+      "Alianzas",
+      "Prensa",
+      "Otro asunto"
+    ],
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "errors": {
+      "name": "Ingresa tu nombre completo.",
+      "email": "Ingresa un correo válido.",
+      "subject": "Selecciona un asunto.",
+      "message": "Escribe tu mensaje.",
+      "consent": "Debes aceptar la Política de Privacidad."
+    },
+    "consentPrefix": "Leí y acepto la ",
+    "consentPrivacy": "Política de Privacidad",
+    "consentSuffix": " de Interfy.",
+    "submitButton": "Enviar mensaje",
+    "submittingButton": "Enviando...",
+    "successHeading": "¡Mensaje enviado!",
+    "successMessagePrefix": "Responderemos a ",
+    "successMessageSuffix": " lo antes posible."
+  },
   "channels": {
     "ariaLabel": "Canales de contacto",
     "heading": "Elige el mejor canal",
+    "subheading": "Elige el canal que prefieras para hablar con nosotros.",
     "items": [
+      {
+        "title": "Chat en vivo",
+        "description": "Habla en tiempo real con nuestro equipo de soporte, de lunes a viernes, de 8h a 20h.",
+        "actionLabel": "Iniciar chat",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Atención rápida por WhatsApp para dudas y soporte.",
+        "actionLabel": "Abrir WhatsApp",
+        "href": "https://wa.me/551140201000"
+      },
+      {
+        "title": "Teléfono",
+        "description": "+55 11 4020-1000 — de lunes a viernes, de 8h a 20h (horario de Brasilia).",
+        "actionLabel": "Llamar ahora",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Agenda una reunión",
+        "description": "Agenda una conversación con uno de nuestros especialistas.",
+        "actionLabel": "Agendar",
+        "href": "/demo"
+      },
       {
         "title": "Correo comercial",
         "description": "contato@interfy.ai — para dudas comerciales, planes y alianzas.",
         "actionLabel": "Enviar correo",
         "href": "mailto:contato@interfy.ai"
-      },
-      {
-        "title": "Teléfono",
-        "description": "+55 11 4020-1000 — de lunes a viernes, de 8h a 20h (horario de Brasília).",
-        "actionLabel": "Llamar ahora",
-        "href": "tel:+551140201000"
-      },
-      {
-        "title": "Dirección",
-        "description": "Interfy Corporation — Orlando, Florida, Estados Unidos, con presencia comercial en más de 180 países y atención dedicada a Brasil.",
-        "actionLabel": "Ver todas las regiones",
-        "href": "/segmentos"
-      },
-      {
-        "title": "Horario de atención",
-        "description": "De lunes a viernes, de 8h a 20h. Las cuentas Enterprise pueden contratar soporte extendido 24/7.",
-        "actionLabel": "Ver soporte",
-        "href": "/suporte"
       }
     ]
   },

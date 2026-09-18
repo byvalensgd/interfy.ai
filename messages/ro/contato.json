@@ -13,33 +13,73 @@
     "primaryLabel": "Programează o demo",
     "secondaryLabel": "Începe gratuit"
   },
+  "form": {
+    "heading": "Trimite un mesaj",
+    "nameLabel": "Nume complet",
+    "namePlaceholder": "Numele tău",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "tu@email.com",
+    "subjectLabel": "Subiect",
+    "subjectPlaceholder": "Selectează subiectul",
+    "subjectOptions": [
+      "Vânzări și planuri",
+      "Suport tehnic",
+      "Parteneriate",
+      "Presă",
+      "Alt subiect"
+    ],
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Cum te putem ajuta",
+    "errors": {
+      "name": "Introdu numele complet.",
+      "email": "Introdu un e-mail valid.",
+      "subject": "Selectează un subiect.",
+      "message": "Scrie mesajul tău.",
+      "consent": "Trebuie să accepți Politica de Confidențialitate."
+    },
+    "consentPrefix": "Am citit și sunt de acord cu ",
+    "consentPrivacy": "Politica de Confidențialitate",
+    "consentSuffix": " Interfy.",
+    "submitButton": "Trimite mesajul",
+    "submittingButton": "Se trimite...",
+    "successHeading": "Mesaj trimis!",
+    "successMessagePrefix": "Îți vom răspunde la ",
+    "successMessageSuffix": " cât mai curând posibil."
+  },
   "channels": {
     "ariaLabel": "Canale de contact",
     "heading": "Alege cel mai bun canal",
+    "subheading": "Alege canalul preferat pentru a discuta cu noi.",
     "items": [
+      {
+        "title": "Chat live",
+        "description": "Discută în timp real cu echipa noastră de suport, de luni până vineri, între 8:00 și 20:00.",
+        "actionLabel": "Pornește chatul",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Suport rapid prin WhatsApp pentru întrebări și asistență.",
+        "actionLabel": "Deschide WhatsApp",
+        "href": "https://wa.me/551140201000"
+      },
+      {
+        "title": "Telefon",
+        "description": "+55 11 4020-1000 — de luni până vineri, între 8:00 și 20:00 (ora Brasília).",
+        "actionLabel": "Sună acum",
+        "href": "tel:+551140201000"
+      },
+      {
+        "title": "Programează o întâlnire",
+        "description": "Programează o discuție cu unul dintre specialiștii noștri.",
+        "actionLabel": "Programează",
+        "href": "/demo"
+      },
       {
         "title": "E-mail comercial",
         "description": "contato@interfy.ai — pentru întrebări comerciale, planuri și parteneriate.",
         "actionLabel": "Trimite e-mail",
         "href": "mailto:contato@interfy.ai"
-      },
-      {
-        "title": "Telefon",
-        "description": "+55 11 4020-1000 — luni până vineri, între orele 8:00 și 20:00 (ora Brasília).",
-        "actionLabel": "Sună acum",
-        "href": "tel:+551140201000"
-      },
-      {
-        "title": "Adresă",
-        "description": "Interfy Corporation — Orlando, Florida, Statele Unite, cu prezență comercială în peste 180 de țări și servicii dedicate pentru Brazilia.",
-        "actionLabel": "Vezi toate regiunile",
-        "href": "/segmentos"
-      },
-      {
-        "title": "Program de lucru",
-        "description": "Luni până vineri, între orele 8:00 și 20:00. Conturile Enterprise pot contracta suport extins 24/7.",
-        "actionLabel": "Vezi suportul",
-        "href": "/suporte"
       }
     ]
   },

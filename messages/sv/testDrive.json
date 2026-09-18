@@ -124,6 +124,7 @@
       "name": "Ange ditt fullständiga namn.",
       "email": "Ange en giltig e-postadress.",
       "company": "Ange ditt företagsnamn.",
+      "phone": "Ange ett giltigt telefonnummer.",
       "consent": "Du måste godkänna villkoren för att fortsätta."
     },
     "consentPrefix": "Jag har läst och godkänner ",

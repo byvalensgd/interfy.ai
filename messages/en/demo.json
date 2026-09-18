@@ -53,6 +53,9 @@
       "name": "Please enter your full name.",
       "email": "Please enter a valid email.",
       "company": "Please enter your company name.",
+      "phone": "Enter a valid phone number.",
+      "companySize": "Select your company size.",
+      "interest": "Select your main interest.",
       "consent": "You must accept the terms to continue."
     },
     "consentPrefix": "I have read and agree to the ",

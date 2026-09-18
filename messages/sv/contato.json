@@ -13,33 +13,73 @@
     "primaryLabel": "Boka en demo",
     "secondaryLabel": "Kom igång gratis"
   },
+  "form": {
+    "heading": "Skicka ett meddelande",
+    "nameLabel": "Fullständigt namn",
+    "namePlaceholder": "Ditt namn",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "du@email.com",
+    "subjectLabel": "Ämne",
+    "subjectPlaceholder": "Välj ämne",
+    "subjectOptions": [
+      "Försäljning och planer",
+      "Teknisk support",
+      "Partnerskap",
+      "Press",
+      "Annat ämne"
+    ],
+    "messageLabel": "Meddelande",
+    "messagePlaceholder": "Hur kan vi hjälpa dig",
+    "errors": {
+      "name": "Ange ditt fullständiga namn.",
+      "email": "Ange en giltig e-postadress.",
+      "subject": "Välj ett ämne.",
+      "message": "Skriv ditt meddelande.",
+      "consent": "Du måste godkänna integritetspolicyn."
+    },
+    "consentPrefix": "Jag har läst och godkänner Interfys ",
+    "consentPrivacy": "integritetspolicy",
+    "consentSuffix": ".",
+    "submitButton": "Skicka meddelande",
+    "submittingButton": "Skickar...",
+    "successHeading": "Meddelandet har skickats!",
+    "successMessagePrefix": "Vi återkommer till ",
+    "successMessageSuffix": " så snart som möjligt."
+  },
   "channels": {
     "ariaLabel": "Kontaktvägar",
     "heading": "Välj den kanal som passar dig",
+    "subheading": "Välj den kanal du föredrar för att prata med oss.",
     "items": [
       {
-        "title": "Försäljningsepost",
-        "description": "contato@interfy.ai — för frågor om försäljning, planer och partnerskap.",
-        "actionLabel": "Skicka e-post",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Livechatt",
+        "description": "Chatta i realtid med vårt supportteam, måndag till fredag, kl. 8–20.",
+        "actionLabel": "Starta chatt",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Snabb support via WhatsApp för frågor och hjälp.",
+        "actionLabel": "Öppna WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Telefon",
-        "description": "+55 11 4020-1000 — måndag till fredag, 08.00–20.00 (Brasiliatid).",
+        "description": "+55 11 4020-1000 — måndag till fredag, kl. 8–20 (Brasília-tid).",
         "actionLabel": "Ring nu",
         "href": "tel:+551140201000"
       },
       {
-        "title": "Adress",
-        "description": "Interfy Corporation — Orlando, Florida, USA, med kommersiell närvaro i över 180 länder och dedikerad service för Brasilien.",
-        "actionLabel": "Se alla regioner",
-        "href": "/segmentos"
+        "title": "Boka ett möte",
+        "description": "Boka ett samtal med en av våra specialister.",
+        "actionLabel": "Boka",
+        "href": "/demo"
       },
       {
-        "title": "Öppettider",
-        "description": "Måndag till fredag, 08.00–20.00. Enterprise-konton kan teckna utökad support dygnet runt.",
-        "actionLabel": "Se support",
-        "href": "/suporte"
+        "title": "Företags-e-post",
+        "description": "contato@interfy.ai — för försäljning, paket och partnerskap.",
+        "actionLabel": "Skicka e-post",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

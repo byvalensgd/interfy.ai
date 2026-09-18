@@ -13,33 +13,73 @@
     "primaryLabel": "デモを予約する",
     "secondaryLabel": "無料で始める"
   },
+  "form": {
+    "heading": "メッセージを送る",
+    "nameLabel": "お名前",
+    "namePlaceholder": "お名前を入力",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "件名",
+    "subjectPlaceholder": "件名を選択してください",
+    "subjectOptions": [
+      "料金プランについて",
+      "テクニカルサポート",
+      "パートナーシップ",
+      "取材・プレス",
+      "その他"
+    ],
+    "messageLabel": "メッセージ",
+    "messagePlaceholder": "ご相談内容をご記入ください",
+    "errors": {
+      "name": "お名前を入力してください。",
+      "email": "有効なメールアドレスを入力してください。",
+      "subject": "件名を選択してください。",
+      "message": "メッセージを入力してください。",
+      "consent": "プライバシーポリシーへの同意が必要です。"
+    },
+    "consentPrefix": "Interfyの",
+    "consentPrivacy": "プライバシーポリシー",
+    "consentSuffix": "を読み、同意します。",
+    "submitButton": "メッセージを送信",
+    "submittingButton": "送信中...",
+    "successHeading": "メッセージを送信しました！",
+    "successMessagePrefix": "",
+    "successMessageSuffix": " 宛に、できるだけ早くご返信いたします。"
+  },
   "channels": {
     "ariaLabel": "お問い合わせ方法",
     "heading": "お好きな方法でご連絡ください",
+    "subheading": "ご都合の良い方法でお問い合わせください。",
     "items": [
       {
-        "title": "営業メール",
-        "description": "contato@interfy.ai — 料金プランやパートナーシップに関するお問い合わせはこちら。",
-        "actionLabel": "メールを送る",
-        "href": "mailto:contato@interfy.ai"
+        "title": "ライブチャット",
+        "description": "月曜から金曜、8時から20時まで、サポートチームとリアルタイムでチャットできます。",
+        "actionLabel": "チャットを開始",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "ご質問やサポートにはWhatsAppで迅速に対応します。",
+        "actionLabel": "WhatsAppを開く",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "電話",
-        "description": "+55 11 4020-1000 — 月曜〜金曜、8時〜20時（ブラジリア時間）。",
-        "actionLabel": "今すぐ電話する",
+        "description": "+55 11 4020-1000 — 月曜から金曜、8時から20時まで（ブラジリア時間）。",
+        "actionLabel": "今すぐ電話",
         "href": "tel:+551140201000"
       },
       {
-        "title": "所在地",
-        "description": "Interfy Corporation — 米国フロリダ州オーランド。180カ国以上で事業展開し、ブラジル向け専任チームも設置。",
-        "actionLabel": "すべての地域を見る",
-        "href": "/segmentos"
+        "title": "打ち合わせを予約",
+        "description": "専門スタッフとの打ち合わせを予約できます。",
+        "actionLabel": "予約する",
+        "href": "/demo"
       },
       {
-        "title": "対応時間",
-        "description": "月曜〜金曜、8時〜20時。Enterpriseプランのお客様は24時間365日対応の拡張サポートをご契約いただけます。",
-        "actionLabel": "サポートを見る",
-        "href": "/suporte"
+        "title": "営業用メール",
+        "description": "contato@interfy.ai — 営業、プラン、パートナーシップに関するお問い合わせ。",
+        "actionLabel": "メールを送信",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

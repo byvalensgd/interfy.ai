@@ -53,6 +53,9 @@
       "name": "Ingresa tu nombre completo.",
       "email": "Ingresa un correo electrónico válido.",
       "company": "Ingresa el nombre de tu empresa.",
+      "phone": "Ingresa un número de teléfono válido.",
+      "companySize": "Selecciona el tamaño de la empresa.",
+      "interest": "Selecciona tu principal interés.",
       "consent": "Debes aceptar los términos para continuar."
     },
     "consentPrefix": "He leído y acepto los ",

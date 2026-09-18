@@ -86,8 +86,26 @@
       {
         "question": "Erbjuder Interfy support på andra språk och i andra regioner?",
         "answer": "Ja. Plattformen finns tillgänglig på 16 språk och i mer än 180 länder, med dedikerad kommersiell service för Brasilien och support-SLA:er på internationell nivå."
+      },
+      {
+        "question": "Ingår hjälp med onboarding i supporten?",
+        "answer": "Ja. Alla kunder får dedikerad support under onboardingen, inklusive den initiala konfigurationen, datamigrering och teamutbildning. Corporate- och Enterprise-planer inkluderar en dedikerad onboardingspecialist."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "Föreslå en fråga till FAQ",
+      "heading": "Hittade du inte ditt svar?",
+      "description": "Skicka din fråga så svarar vårt team via e-post.",
+      "emailPlaceholder": "Din e-postadress",
+      "questionPlaceholder": "Skriv din fråga",
+      "errors": {
+        "email": "Ange en giltig e-postadress.",
+        "question": "Skriv din fråga."
+      },
+      "submitButton": "Skicka fråga",
+      "submittingButton": "Skickar...",
+      "successMessage": "Fråga skickad! Vårt team svarar snart."
+    }
   },
   "cta": {
     "ariaLabel": "Kom igång med Interfy",

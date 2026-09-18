@@ -14,7 +14,6 @@ export type SimpleHeroBadge = { icon: string; value: string; label: string };
 type SimpleHeroProps = {
   ariaLabel: string;
   headingId: string;
-  eyebrow?: string;
   titleLine1: string;
   titleHighlight?: string;
   description: string;
@@ -32,7 +31,6 @@ type SimpleHeroProps = {
 export default function SimpleHero({
   ariaLabel,
   headingId,
-  eyebrow,
   titleLine1,
   titleHighlight,
   description,
@@ -51,11 +49,6 @@ export default function SimpleHero({
     >
       <div className="flex w-full max-w-[1400px] flex-col items-center gap-10">
         <Reveal immediate className="flex flex-col items-center gap-6 text-center">
-          {eyebrow && (
-            <span className="rounded-full border border-azul-base/20 bg-azul-bg-superior px-4 py-1.5 text-sm font-bold leading-[1.2] text-azul-base">
-              {eyebrow}
-            </span>
-          )}
           <h1
             id={headingId}
             className="max-w-3xl text-[2rem] lg:text-[clamp(2.25rem,2.88462vw+0.40385rem,3rem)] font-extrabold leading-[1.2] text-texto"

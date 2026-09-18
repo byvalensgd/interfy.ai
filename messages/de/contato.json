@@ -13,15 +13,55 @@
     "primaryLabel": "Demo vereinbaren",
     "secondaryLabel": "Kostenlos starten"
   },
+  "form": {
+    "heading": "Nachricht senden",
+    "nameLabel": "Vollständiger Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "sie@email.com",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Betreff auswählen",
+    "subjectOptions": [
+      "Vertrieb und Tarife",
+      "Technischer Support",
+      "Partnerschaften",
+      "Presse",
+      "Sonstiges"
+    ],
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Wie können wir Ihnen helfen",
+    "errors": {
+      "name": "Bitte geben Sie Ihren vollständigen Namen ein.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "subject": "Bitte wählen Sie einen Betreff.",
+      "message": "Bitte schreiben Sie Ihre Nachricht.",
+      "consent": "Sie müssen der Datenschutzerklärung zustimmen."
+    },
+    "consentPrefix": "Ich habe die ",
+    "consentPrivacy": "Datenschutzerklärung",
+    "consentSuffix": " von Interfy gelesen und stimme zu.",
+    "submitButton": "Nachricht senden",
+    "submittingButton": "Wird gesendet...",
+    "successHeading": "Nachricht gesendet!",
+    "successMessagePrefix": "Wir antworten so schnell wie möglich an ",
+    "successMessageSuffix": "."
+  },
   "channels": {
     "ariaLabel": "Kontaktkanäle",
     "heading": "Wählen Sie den passenden Kanal",
+    "subheading": "Wählen Sie den Kanal, der Ihnen am besten passt.",
     "items": [
       {
-        "title": "Geschäftliche E-Mail",
-        "description": "contato@interfy.ai — für Vertriebsfragen, Pläne und Partnerschaften.",
-        "actionLabel": "E-Mail senden",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Live-Chat",
+        "description": "Sprechen Sie in Echtzeit mit unserem Support-Team, montags bis freitags, 8 bis 20 Uhr.",
+        "actionLabel": "Chat starten",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Schneller Support über WhatsApp für Fragen und Hilfe.",
+        "actionLabel": "WhatsApp öffnen",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Telefon",
@@ -30,16 +70,16 @@
         "href": "tel:+551140201000"
       },
       {
-        "title": "Adresse",
-        "description": "Interfy Corporation — Orlando, Florida, USA, mit geschäftlicher Präsenz in über 180 Ländern und dediziertem Service für Brasilien.",
-        "actionLabel": "Alle Regionen ansehen",
-        "href": "/segmentos"
+        "title": "Termin vereinbaren",
+        "description": "Vereinbaren Sie ein Gespräch mit einem unserer Experten.",
+        "actionLabel": "Termin buchen",
+        "href": "/demo"
       },
       {
-        "title": "Servicezeiten",
-        "description": "Montag bis Freitag, 8 bis 20 Uhr. Enterprise-Konten können erweiterten 24/7-Support buchen.",
-        "actionLabel": "Support ansehen",
-        "href": "/suporte"
+        "title": "Geschäftliche E-Mail",
+        "description": "contato@interfy.ai — für Vertriebsfragen, Pläne und Partnerschaften.",
+        "actionLabel": "E-Mail senden",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

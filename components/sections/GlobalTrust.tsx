@@ -79,7 +79,7 @@ export default async function GlobalTrust() {
               {globalTrust.security.title}
             </p>
           </div>
-          <ul className="flex w-full flex-wrap gap-2.5 xl:aspect-[1756/989]">
+          <ul className="flex w-full flex-1 flex-wrap content-center gap-2.5">
             {badges.map((badge) => (
               <li
                 key={badge.label}

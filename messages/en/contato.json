@@ -13,15 +13,55 @@
     "primaryLabel": "Schedule a demo",
     "secondaryLabel": "Start for free"
   },
+  "form": {
+    "heading": "Send a message",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Select a subject",
+    "subjectOptions": [
+      "Sales and plans",
+      "Technical support",
+      "Partnerships",
+      "Press",
+      "Other"
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you",
+    "errors": {
+      "name": "Enter your full name.",
+      "email": "Enter a valid email.",
+      "subject": "Select a subject.",
+      "message": "Write your message.",
+      "consent": "You must accept the Privacy Policy."
+    },
+    "consentPrefix": "I've read and agree to Interfy's ",
+    "consentPrivacy": "Privacy Policy",
+    "consentSuffix": ".",
+    "submitButton": "Send message",
+    "submittingButton": "Sending...",
+    "successHeading": "Message sent!",
+    "successMessagePrefix": "We'll get back to ",
+    "successMessageSuffix": " as soon as possible."
+  },
   "channels": {
     "ariaLabel": "Contact channels",
     "heading": "Choose the best channel",
+    "subheading": "Choose whichever channel works best for you.",
     "items": [
       {
-        "title": "Sales email",
-        "description": "contato@interfy.ai — for sales, plans, and partnership questions.",
-        "actionLabel": "Send an email",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Live chat",
+        "description": "Chat in real time with our support team, Monday to Friday, 8am to 8pm.",
+        "actionLabel": "Start chat",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Fast support over WhatsApp for quick questions and help.",
+        "actionLabel": "Open WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Phone",
@@ -30,16 +70,16 @@
         "href": "tel:+551140201000"
       },
       {
-        "title": "Address",
-        "description": "Interfy Corporation — Orlando, Florida, United States, with a commercial presence in 180+ countries and dedicated service for Brazil.",
-        "actionLabel": "See all regions",
-        "href": "/segmentos"
+        "title": "Schedule a meeting",
+        "description": "Book a conversation with one of our specialists.",
+        "actionLabel": "Schedule",
+        "href": "/demo"
       },
       {
-        "title": "Business hours",
-        "description": "Monday to Friday, 8am to 8pm. Enterprise accounts can add extended 24/7 support.",
-        "actionLabel": "See support",
-        "href": "/suporte"
+        "title": "Business email",
+        "description": "contato@interfy.ai — for sales, plans, and partnership questions.",
+        "actionLabel": "Send email",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

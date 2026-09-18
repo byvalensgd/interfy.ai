@@ -86,8 +86,26 @@
       {
         "question": "Tarjoaako Interfy tukea muilla kielillä ja alueilla?",
         "answer": "Kyllä. Alusta on saatavilla 16 kielellä ja käytössä yli 180 maassa, erillisellä myyntipalvelulla Brasilialle ja kansainvälisen tason tuen SLA:illa."
+      },
+      {
+        "question": "Sisältääkö tuki apua käyttöönotossa?",
+        "answer": "Kyllä. Jokainen asiakas saa käyttöönoton aikana omistetun tuen, mukaan lukien alkuasetukset, datan migraation ja tiimin koulutuksen. Corporate- ja Enterprise-paketit sisältävät oman käyttöönottospesialistin."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "Ehdota kysymystä UKK-osioon",
+      "heading": "Etkö löytänyt vastausta?",
+      "description": "Lähetä kysymyksesi, niin tiimimme vastaa sähköpostitse.",
+      "emailPlaceholder": "Sähköpostisi",
+      "questionPlaceholder": "Kirjoita kysymyksesi",
+      "errors": {
+        "email": "Anna kelvollinen sähköpostiosoite.",
+        "question": "Kirjoita kysymyksesi."
+      },
+      "submitButton": "Lähetä kysymys",
+      "submittingButton": "Lähetetään...",
+      "successMessage": "Kysymys lähetetty! Tiimimme vastaa pian."
+    }
   },
   "cta": {
     "ariaLabel": "Aloita Interfyn käyttö",

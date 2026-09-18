@@ -53,6 +53,9 @@
       "name": "Informe seu nome completo.",
       "email": "Informe um e-mail válido.",
       "company": "Informe o nome da sua empresa.",
+      "phone": "Informe um número de telefone válido.",
+      "companySize": "Selecione o número de funcionários.",
+      "interest": "Selecione seu principal interesse.",
       "consent": "É necessário aceitar os termos para continuar."
     },
     "consentPrefix": "Li e concordo com os ",

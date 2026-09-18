@@ -1,6 +1,7 @@
 import SimpleHero from "@/components/sections/SimpleHero";
 import SuporteChannels from "@/components/sections/SuporteChannels";
 import FaqAccordion from "@/components/ui/FaqAccordion";
+import FaqSuggestionForm from "@/components/sections/FaqSuggestionForm";
 import StatsBar from "@/components/ui/StatsBar";
 import Reveal from "@/components/ui/Reveal";
 import GenericCTA from "@/components/sections/GenericCTA";
@@ -38,7 +39,6 @@ export default async function SuportePage() {
       <SimpleHero
         ariaLabel={suporte.hero.ariaLabel}
         headingId="suporte-hero-heading"
-        eyebrow={suporte.hero.eyebrow}
         titleLine1={suporte.hero.titleLine1}
         titleHighlight={suporte.hero.titleHighlight}
         description={suporte.hero.description}
@@ -60,14 +60,15 @@ export default async function SuportePage() {
           <h2 className="text-center text-[clamp(1.5rem,0.8333vw+1.3333rem,2rem)] font-extrabold leading-[1.2] text-texto">
             {suporte.global.heading}
           </h2>
-          <Reveal className="max-w-4xl">
+          <Reveal className="w-full">
             <StatsBar stats={globalStats} label={suporte.global.statsLabel} />
           </Reveal>
         </div>
       </section>
       <section id="faq" className="flex justify-center px-5 py-10 sm:py-16">
-        <div className="w-full max-w-[900px]">
+        <div className="flex w-full max-w-[1400px] flex-col gap-6">
           <FaqAccordion faq={suporte.faq.items} heading={suporte.faq.heading} ariaExpand={suporte.faq.ariaExpand} />
+          <FaqSuggestionForm dict={suporte.faq.suggestion} />
         </div>
       </section>
       <GenericCTA

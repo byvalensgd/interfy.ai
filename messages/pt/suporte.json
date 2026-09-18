@@ -86,8 +86,26 @@
       {
         "question": "A Interfy oferece suporte em outros idiomas e regiões?",
         "answer": "Sim. A plataforma está disponível em 16 idiomas e presente em mais de 180 países, com atendimento comercial dedicado ao Brasil e SLAs de suporte de nível internacional."
+      },
+      {
+        "question": "O suporte inclui ajuda na implantação (onboarding)?",
+        "answer": "Sim. Todo cliente conta com suporte dedicado durante a implantação, incluindo configuração inicial, migração de dados e treinamento da equipe. Planos Corporate e Enterprise contam com um especialista de onboarding dedicado."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "Sugerir uma pergunta para o FAQ",
+      "heading": "Não encontrou sua resposta?",
+      "description": "Envie sua pergunta e nossa equipe responde por e-mail.",
+      "emailPlaceholder": "Seu e-mail",
+      "questionPlaceholder": "Digite sua pergunta",
+      "errors": {
+        "email": "Informe um e-mail válido.",
+        "question": "Escreva sua pergunta."
+      },
+      "submitButton": "Enviar pergunta",
+      "submittingButton": "Enviando...",
+      "successMessage": "Pergunta enviada! Nossa equipe vai responder em breve."
+    }
   },
   "cta": {
     "ariaLabel": "Comece a usar a Interfy",

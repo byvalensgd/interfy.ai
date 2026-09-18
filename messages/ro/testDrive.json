@@ -124,6 +124,7 @@
       "name": "Introdu numele tău complet.",
       "email": "Introdu o adresă de e-mail validă.",
       "company": "Introdu numele companiei tale.",
+      "phone": "Introdu un număr de telefon valid.",
       "consent": "Este necesar să accepți termenii pentru a continua."
     },
     "consentPrefix": "Am citit și sunt de acord cu ",

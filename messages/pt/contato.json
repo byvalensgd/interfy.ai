@@ -13,15 +13,50 @@
     "primaryLabel": "Agende uma demo",
     "secondaryLabel": "Comece grátis"
   },
+  "form": {
+    "ariaLabel": "Formulário de contato",
+    "heading": "Envie uma mensagem",
+    "nameLabel": "Nome completo",
+    "namePlaceholder": "Seu nome",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "subjectLabel": "Assunto",
+    "subjectPlaceholder": "Selecione o assunto",
+    "subjectOptions": ["Vendas e planos", "Suporte técnico", "Parcerias", "Imprensa", "Outro assunto"],
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudar você",
+    "errors": {
+      "name": "Informe seu nome completo.",
+      "email": "Informe um e-mail válido.",
+      "subject": "Selecione um assunto.",
+      "message": "Escreva sua mensagem.",
+      "consent": "É preciso aceitar a Política de Privacidade."
+    },
+    "consentPrefix": "Li e concordo com a ",
+    "consentPrivacy": "Política de Privacidade",
+    "consentSuffix": " da Interfy.",
+    "submitButton": "Enviar mensagem",
+    "submittingButton": "Enviando...",
+    "successHeading": "Mensagem enviada!",
+    "successMessagePrefix": "Vamos responder para ",
+    "successMessageSuffix": " o quanto antes."
+  },
   "channels": {
     "ariaLabel": "Canais de contato",
     "heading": "Escolha o melhor canal",
+    "subheading": "Escolha o canal que preferir para falar conosco.",
     "items": [
       {
-        "title": "E-mail comercial",
-        "description": "contato@interfy.ai — para dúvidas comerciais, planos e parcerias.",
-        "actionLabel": "Enviar e-mail",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Chat ao vivo",
+        "description": "Fale em tempo real com nosso time de suporte, de segunda a sexta, das 8h às 20h.",
+        "actionLabel": "Iniciar conversa",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Atendimento rápido pelo WhatsApp para dúvidas e suporte.",
+        "actionLabel": "Abrir WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Telefone",
@@ -30,16 +65,16 @@
         "href": "tel:+551140201000"
       },
       {
-        "title": "Endereço",
-        "description": "Interfy Corporation — Orlando, Flórida, Estados Unidos, com presença comercial em mais de 180 países e atendimento dedicado ao Brasil.",
-        "actionLabel": "Ver todas as regiões",
-        "href": "/segmentos"
+        "title": "Agende uma reunião",
+        "description": "Agende uma conversa com um de nossos especialistas.",
+        "actionLabel": "Agendar",
+        "href": "/demo"
       },
       {
-        "title": "Horário de atendimento",
-        "description": "Segunda a sexta, das 8h às 20h. Contas Enterprise podem contratar suporte estendido 24/7.",
-        "actionLabel": "Ver suporte",
-        "href": "/suporte"
+        "title": "E-mail comercial",
+        "description": "contato@interfy.ai — para dúvidas comerciais, planos e parcerias.",
+        "actionLabel": "Enviar e-mail",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

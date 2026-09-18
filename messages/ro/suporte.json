@@ -86,8 +86,26 @@
       {
         "question": "Interfy oferă suport în alte limbi și regiuni?",
         "answer": "Da. Platforma este disponibilă în 16 limbi și prezentă în peste 180 de țări, cu asistență comercială dedicată Braziliei și SLA-uri de suport la nivel internațional."
+      },
+      {
+        "question": "Suportul include ajutor pentru implementare (onboarding)?",
+        "answer": "Da. Fiecare client beneficiază de suport dedicat în timpul implementării, inclusiv configurare inițială, migrarea datelor și instruirea echipei. Planurile Corporate și Enterprise includ un specialist dedicat de onboarding."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "Sugerează o întrebare pentru FAQ",
+      "heading": "Nu ai găsit răspunsul?",
+      "description": "Trimite-ne întrebarea ta și echipa noastră va răspunde prin e-mail.",
+      "emailPlaceholder": "E-mailul tău",
+      "questionPlaceholder": "Scrie întrebarea ta",
+      "errors": {
+        "email": "Introdu o adresă de e-mail validă.",
+        "question": "Scrie întrebarea ta."
+      },
+      "submitButton": "Trimite întrebarea",
+      "submittingButton": "Se trimite...",
+      "successMessage": "Întrebare trimisă! Echipa noastră va răspunde în curând."
+    }
   },
   "cta": {
     "ariaLabel": "Începe să folosești Interfy",

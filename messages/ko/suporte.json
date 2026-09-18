@@ -86,8 +86,26 @@
       {
         "question": "Interfy는 다른 언어와 지역에서도 지원을 제공하나요?",
         "answer": "네, 플랫폼은 16개 언어로 제공되며 180개국 이상에 진출해 있습니다. 브라질 현지 상담팀과 국제 수준의 지원 SLA를 함께 제공합니다."
+      },
+      {
+        "question": "지원에는 온보딩(도입) 지원도 포함되나요?",
+        "answer": "네. 모든 고객은 초기 설정, 데이터 마이그레이션, 팀 교육을 포함한 온보딩 기간 동안 전담 지원을 받습니다. Corporate 및 Enterprise 플랜에는 전담 온보딩 전문가가 포함됩니다."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "FAQ에 질문 제안하기",
+      "heading": "원하는 답변을 찾지 못하셨나요?",
+      "description": "질문을 보내주시면 저희 팀이 이메일로 답변드립니다.",
+      "emailPlaceholder": "이메일 주소",
+      "questionPlaceholder": "질문을 입력하세요",
+      "errors": {
+        "email": "유효한 이메일 주소를 입력하세요.",
+        "question": "질문을 작성해 주세요."
+      },
+      "submitButton": "질문 보내기",
+      "submittingButton": "전송 중...",
+      "successMessage": "질문이 전송되었습니다! 저희 팀이 곧 답변드리겠습니다."
+    }
   },
   "cta": {
     "ariaLabel": "Interfy 시작하기",

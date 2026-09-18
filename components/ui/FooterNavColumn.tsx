@@ -7,6 +7,11 @@ import type { FooterColumn } from "@/config/footer";
 import type { Locale } from "@/lib/i18n/config";
 import { withLocale } from "@/lib/i18n/paths";
 import { getCompleteBoxBasis } from "@/lib/completeBox";
+import CtaLink from "@/components/ui/CtaLink";
+
+// "Test Drive" and "Agende uma Demo" are the site's two gated CTAs (see
+// config/feature-flags.ts) — every other footer link stays a plain Link.
+const isGatedHref = (href: string) => href === "/test-drive" || href === "/demo";
 
 type FooterColumnDict = {
   title: string;
@@ -52,35 +57,41 @@ export default function FooterNavColumn({
           own bordered card via "Complete Box" (see lib/completeBox.ts),
           with half the standard card padding. At sm+: the plain list below. */}
       <ul className={`w-full flex-wrap gap-2.5 sm:hidden ${open ? "flex" : "hidden"}`}>
-        {column.links.map((link, i) => (
-          <li key={link.href} className={`flex min-w-[90px] grow ${cardBasis}`}>
-            <Link
-              href={withLocale(link.href, locale)}
-              className="flex min-h-[76px] w-full flex-col items-center justify-center gap-2 rounded-[14px] border border-contorno-base p-2.5 text-center text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
-            >
-              {link.icon && (
-                <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
-              )}
-              {dict.links[i].label}
-            </Link>
-          </li>
-        ))}
+        {column.links.map((link, i) => {
+          const LinkComponent = isGatedHref(link.href) ? CtaLink : Link;
+          return (
+            <li key={link.href} className={`flex min-w-[90px] grow ${cardBasis}`}>
+              <LinkComponent
+                href={withLocale(link.href, locale)}
+                className="flex min-h-[76px] w-full flex-col items-center justify-center gap-2 rounded-[14px] border border-contorno-base p-2.5 text-center text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
+              >
+                {link.icon && (
+                  <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
+                )}
+                {dict.links[i].label}
+              </LinkComponent>
+            </li>
+          );
+        })}
       </ul>
 
       <ul className="hidden w-full flex-1 flex-col items-start justify-between gap-2.5 sm:flex">
-        {column.links.map((link, i) => (
-          <li key={link.href}>
-            <Link
-              href={withLocale(link.href, locale)}
-              className="flex items-center gap-2.5 text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
-            >
-              {link.icon && (
-                <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
-              )}
-              {dict.links[i].label}
-            </Link>
-          </li>
-        ))}
+        {column.links.map((link, i) => {
+          const LinkComponent = isGatedHref(link.href) ? CtaLink : Link;
+          return (
+            <li key={link.href}>
+              <LinkComponent
+                href={withLocale(link.href, locale)}
+                className="flex items-center gap-2.5 text-sm leading-[1.2] font-medium text-texto transition-colors hover:text-azul-base"
+              >
+                {link.icon && (
+                  <Image src={link.icon} alt="" aria-hidden="true" width={20} height={20} className="shrink-0" />
+                )}
+                {dict.links[i].label}
+              </LinkComponent>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

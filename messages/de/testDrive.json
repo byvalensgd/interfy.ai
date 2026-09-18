@@ -124,6 +124,7 @@
       "name": "Bitte geben Sie Ihren vollständigen Namen an.",
       "email": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
       "company": "Bitte geben Sie den Namen Ihres Unternehmens an.",
+      "phone": "Geben Sie eine gültige Telefonnummer ein.",
       "consent": "Sie müssen die Bedingungen akzeptieren, um fortzufahren."
     },
     "consentPrefix": "Ich habe die ",

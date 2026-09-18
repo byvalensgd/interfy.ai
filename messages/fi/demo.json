@@ -79,6 +79,9 @@
       "name": "Anna koko nimesi.",
       "email": "Anna kelvollinen sähköpostiosoite.",
       "company": "Anna yrityksesi nimi.",
+      "phone": "Anna kelvollinen puhelinnumero.",
+      "companySize": "Valitse yrityksen koko.",
+      "interest": "Valitse pääasiallinen kiinnostuksen kohteesi.",
       "consent": "Ehdot on hyväksyttävä jatkaaksesi."
     },
     "consentPrefix": "Olen lukenut ja hyväksyn ",

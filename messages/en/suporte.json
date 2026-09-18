@@ -86,8 +86,26 @@
       {
         "question": "Does Interfy support other languages and regions?",
         "answer": "Yes. The platform is available in 16 languages and present in more than 180 countries, with dedicated commercial support for Brazil and international-grade support SLAs."
+      },
+      {
+        "question": "Does support include help with onboarding?",
+        "answer": "Yes. Every customer gets dedicated support during onboarding, including initial setup, data migration, and team training. Corporate and Enterprise plans include a dedicated onboarding specialist."
       }
-    ]
+    ],
+    "suggestion": {
+      "ariaLabel": "Suggest a question for the FAQ",
+      "heading": "Didn't find your answer?",
+      "description": "Send us your question and our team will reply by email.",
+      "emailPlaceholder": "Your email",
+      "questionPlaceholder": "Type your question",
+      "errors": {
+        "email": "Enter a valid email address.",
+        "question": "Write your question."
+      },
+      "submitButton": "Send question",
+      "submittingButton": "Sending...",
+      "successMessage": "Question sent! Our team will get back to you soon."
+    }
   },
   "cta": {
     "ariaLabel": "Start using Interfy",

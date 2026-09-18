@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight, CheckCircle2, Loader2 } from "lucide-react";
 import { withLocale } from "@/lib/i18n/paths";
 import type { Locale } from "@/lib/i18n/config";
+import { PHONE_PLACEHOLDERS } from "@/lib/i18n/phoneFormat";
 
 type FormValues = {
   name: string;
@@ -36,6 +37,7 @@ type FormDict = {
     name: string;
     email: string;
     company: string;
+    phone: string;
     consent: string;
   };
   consentPrefix: string;
@@ -56,6 +58,7 @@ function validate(values: FormValues, errorMessages: FormDict["errors"]): FormEr
   if (values.name.trim().length < 2) errors.name = errorMessages.name;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = errorMessages.email;
   if (!values.company.trim()) errors.company = errorMessages.company;
+  if (!values.phone.trim()) errors.phone = errorMessages.phone;
   if (!values.consent) errors.consent = errorMessages.consent;
   return errors;
 }
@@ -78,7 +81,11 @@ function FormField({
     <div className="flex flex-col gap-2">
       <label htmlFor={id} className="text-sm font-bold leading-[1.2] text-texto">
         {label}
-        {optional && <span className="font-medium text-texto-medio"> {optionalLabel}</span>}
+        {optional ? (
+          <span className="font-medium text-texto-medio"> {optionalLabel}</span>
+        ) : (
+          <span className="text-red-500"> *</span>
+        )}
       </label>
       <input
         id={id}
@@ -180,10 +187,10 @@ export default function TestDriveSignupForm({ dict, locale }: { dict: FormDict; 
               label={dict.phoneLabel}
               id="td-phone"
               type="tel"
-              optional
-              optionalLabel={dict.optionalLabel}
               autoComplete="tel"
+              placeholder={PHONE_PLACEHOLDERS[locale]}
               value={values.phone}
+              error={errors.phone}
               onChange={(e) => handleChange("phone", e.target.value)}
             />
 

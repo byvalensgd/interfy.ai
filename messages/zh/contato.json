@@ -13,33 +13,73 @@
     "primaryLabel": "预约演示",
     "secondaryLabel": "免费开始"
   },
+  "form": {
+    "heading": "发送消息",
+    "nameLabel": "姓名",
+    "namePlaceholder": "请输入您的姓名",
+    "emailLabel": "电子邮箱",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "请选择主题",
+    "subjectOptions": [
+      "销售与套餐",
+      "技术支持",
+      "合作伙伴",
+      "媒体垂询",
+      "其他"
+    ],
+    "messageLabel": "留言",
+    "messagePlaceholder": "请告诉我们能如何帮助您",
+    "errors": {
+      "name": "请输入您的姓名。",
+      "email": "请输入有效的电子邮箱。",
+      "subject": "请选择主题。",
+      "message": "请填写留言内容。",
+      "consent": "您必须同意隐私政策。"
+    },
+    "consentPrefix": "我已阅读并同意 Interfy 的",
+    "consentPrivacy": "隐私政策",
+    "consentSuffix": "。",
+    "submitButton": "发送消息",
+    "submittingButton": "发送中...",
+    "successHeading": "消息已发送！",
+    "successMessagePrefix": "我们会尽快回复至 ",
+    "successMessageSuffix": "。"
+  },
   "channels": {
     "ariaLabel": "联系渠道",
     "heading": "选择最合适的渠道",
+    "subheading": "选择您偏好的渠道与我们联系。",
     "items": [
       {
-        "title": "商务邮箱",
-        "description": "contato@interfy.ai —— 用于商务咨询、套餐与合作事宜。",
-        "actionLabel": "发送邮件",
-        "href": "mailto:contato@interfy.ai"
+        "title": "在线聊天",
+        "description": "周一至周五 8:00-20:00,与我们的支持团队实时聊天。",
+        "actionLabel": "开始聊天",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "通过 WhatsApp 快速获得问题解答和支持。",
+        "actionLabel": "打开 WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "电话",
-        "description": "+55 11 4020-1000 —— 周一至周五，8:00 至 20:00（巴西利亚时间）。",
+        "description": "+55 11 4020-1000 — 周一至周五 8:00-20:00(巴西利亚时间)。",
         "actionLabel": "立即致电",
         "href": "tel:+551140201000"
       },
       {
-        "title": "地址",
-        "description": "Interfy Corporation —— 总部位于美国佛罗里达州奥兰多，商务网络覆盖 180 多个国家和地区，并为巴西提供专属服务。",
-        "actionLabel": "查看所有地区",
-        "href": "/segmentos"
+        "title": "预约会议",
+        "description": "预约与我们专家的沟通。",
+        "actionLabel": "预约",
+        "href": "/demo"
       },
       {
-        "title": "服务时间",
-        "description": "周一至周五，8:00 至 20:00。Enterprise 客户可选购 24/7 全天候支持服务。",
-        "actionLabel": "查看支持",
-        "href": "/suporte"
+        "title": "商务邮箱",
+        "description": "contato@interfy.ai — 用于销售、方案和合作伙伴咨询。",
+        "actionLabel": "发送邮件",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

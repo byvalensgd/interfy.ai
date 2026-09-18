@@ -44,10 +44,15 @@ const DOT_SIZE = 6.4; // 20% smaller than the original 8px
 
 /** Same width-floor treatment as SegurancaRadialDiagram.tsx: the card never
  *  shrinks past 95px, and icon/text/gap/padding floor at the proportion
- *  established there (95/110) so both site diagrams' cards match exactly. */
+ *  established there (95/110) so both site diagrams' cards match exactly —
+ *  including the --radial-card-floor-scale custom property (globals.css
+ *  zeroes it out below a 500px viewport) that lets the floor itself relax
+ *  on very small phones instead of holding cards at their normal-mobile
+ *  size while the rest of the diagram keeps shrinking. */
 const FLOOR_SCALE = 95 / 110;
-const cqwFloor = (px: number) => `clamp(${px * FLOOR_SCALE}px, ${cqw(px)}, ${px}px)`;
-const cardWidth = `clamp(${CARD_W_FLOOR}px, ${cqw(CARD_W)}, ${CARD_W}px)`;
+const cqwFloor = (px: number) =>
+  `clamp(calc(var(--radial-card-floor-scale, 1) * ${px * FLOOR_SCALE}px), ${cqw(px)}, ${px}px)`;
+const cardWidth = `clamp(calc(var(--radial-card-floor-scale, 1) * ${CARD_W_FLOOR}px), ${cqw(CARD_W)}, ${CARD_W}px)`;
 
 // Entrance choreography, in seconds: the hex pops in first, then the 12
 // spoke lines grow from the center outward; each ring (and the dots on it)

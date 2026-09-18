@@ -33,7 +33,6 @@ export default async function StatusPage() {
       <SimpleHero
         ariaLabel={status.hero.ariaLabel}
         headingId="status-hero-heading"
-        eyebrow={status.hero.eyebrow}
         titleLine1={status.hero.titleLine1}
         titleHighlight={status.hero.titleHighlight}
         description={status.hero.description}

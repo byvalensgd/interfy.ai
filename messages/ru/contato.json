@@ -13,15 +13,55 @@
     "primaryLabel": "Запланировать демо",
     "secondaryLabel": "Начать бесплатно"
   },
+  "form": {
+    "heading": "Отправить сообщение",
+    "nameLabel": "Полное имя",
+    "namePlaceholder": "Ваше имя",
+    "emailLabel": "Эл. почта",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "Тема",
+    "subjectPlaceholder": "Выберите тему",
+    "subjectOptions": [
+      "Продажи и тарифы",
+      "Техническая поддержка",
+      "Партнёрство",
+      "Пресса",
+      "Другое"
+    ],
+    "messageLabel": "Сообщение",
+    "messagePlaceholder": "Чем мы можем помочь",
+    "errors": {
+      "name": "Укажите полное имя.",
+      "email": "Укажите корректный адрес эл. почты.",
+      "subject": "Выберите тему.",
+      "message": "Напишите сообщение.",
+      "consent": "Необходимо принять Политику конфиденциальности."
+    },
+    "consentPrefix": "Я прочитал(а) и согласен(на) с ",
+    "consentPrivacy": "Политикой конфиденциальности",
+    "consentSuffix": " Interfy.",
+    "submitButton": "Отправить сообщение",
+    "submittingButton": "Отправка...",
+    "successHeading": "Сообщение отправлено!",
+    "successMessagePrefix": "Мы ответим на ",
+    "successMessageSuffix": " как можно скорее."
+  },
   "channels": {
     "ariaLabel": "Каналы связи",
     "heading": "Выберите удобный канал",
+    "subheading": "Выберите удобный канал, чтобы связаться с нами.",
     "items": [
       {
-        "title": "Коммерческая почта",
-        "description": "contato@interfy.ai — по вопросам продаж, тарифов и партнёрства.",
-        "actionLabel": "Написать письмо",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Онлайн-чат",
+        "description": "Общайтесь в реальном времени с нашей службой поддержки, с понедельника по пятницу, с 8:00 до 20:00.",
+        "actionLabel": "Начать чат",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Быстрая поддержка через WhatsApp по вопросам и помощи.",
+        "actionLabel": "Открыть WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Телефон",
@@ -30,16 +70,16 @@
         "href": "tel:+551140201000"
       },
       {
-        "title": "Адрес",
-        "description": "Interfy Corporation — Орландо, Флорида, США, с коммерческим присутствием более чем в 180 странах и выделенной поддержкой для Бразилии.",
-        "actionLabel": "Посмотреть все регионы",
-        "href": "/segmentos"
+        "title": "Запланировать встречу",
+        "description": "Запланируйте разговор с одним из наших специалистов.",
+        "actionLabel": "Запланировать",
+        "href": "/demo"
       },
       {
-        "title": "Часы работы",
-        "description": "С понедельника по пятницу, с 8:00 до 20:00. Enterprise-аккаунты могут подключить расширенную поддержку 24/7.",
-        "actionLabel": "Перейти в поддержку",
-        "href": "/suporte"
+        "title": "Корпоративная почта",
+        "description": "contato@interfy.ai — по вопросам продаж, тарифов и партнёрства.",
+        "actionLabel": "Отправить письмо",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

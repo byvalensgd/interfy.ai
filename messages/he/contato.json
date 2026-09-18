@@ -13,33 +13,73 @@
     "primaryLabel": "קבעו הדגמה",
     "secondaryLabel": "התחילו בחינם"
   },
+  "form": {
+    "heading": "שלחו הודעה",
+    "nameLabel": "שם מלא",
+    "namePlaceholder": "השם שלכם",
+    "emailLabel": "אימייל",
+    "emailPlaceholder": "you@email.com",
+    "subjectLabel": "נושא",
+    "subjectPlaceholder": "בחרו נושא",
+    "subjectOptions": [
+      "מכירות ותוכניות",
+      "תמיכה טכנית",
+      "שותפויות",
+      "תקשורת",
+      "נושא אחר"
+    ],
+    "messageLabel": "הודעה",
+    "messagePlaceholder": "כיצד נוכל לעזור לכם",
+    "errors": {
+      "name": "הזינו את שמכם המלא.",
+      "email": "הזינו כתובת אימייל תקינה.",
+      "subject": "בחרו נושא.",
+      "message": "כתבו את ההודעה שלכם.",
+      "consent": "יש לאשר את מדיניות הפרטיות."
+    },
+    "consentPrefix": "קראתי ואני מסכים/ה ל",
+    "consentPrivacy": "מדיניות הפרטיות",
+    "consentSuffix": " של Interfy.",
+    "submitButton": "שליחת הודעה",
+    "submittingButton": "שולח...",
+    "successHeading": "ההודעה נשלחה!",
+    "successMessagePrefix": "נחזור אל ",
+    "successMessageSuffix": " בהקדם האפשרי."
+  },
   "channels": {
     "ariaLabel": "ערוצי יצירת קשר",
     "heading": "בחרו את הערוץ המתאים",
+    "subheading": "בחרו את הערוץ המועדף עליכם כדי לדבר איתנו.",
     "items": [
       {
-        "title": "אימייל מסחרי",
-        "description": "contato@interfy.ai — לשאלות מסחריות, תוכניות ושותפויות.",
-        "actionLabel": "לשלוח אימייל",
-        "href": "mailto:contato@interfy.ai"
+        "title": "צ'אט חי",
+        "description": "שוחחו בזמן אמת עם צוות התמיכה שלנו, בימים ראשון עד חמישי, 8:00-20:00.",
+        "actionLabel": "התחל צ'אט",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "תמיכה מהירה דרך WhatsApp לשאלות ועזרה.",
+        "actionLabel": "פתח WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "טלפון",
-        "description": "+55 11 4020-1000 — בימים א'-ה', בין השעות 8:00-20:00 (לפי שעון סאו פאולו).",
-        "actionLabel": "להתקשר עכשיו",
+        "description": "+55 11 4020-1000 — בימים ראשון עד חמישי, 8:00-20:00 (שעון ברזיליה).",
+        "actionLabel": "התקשרו עכשיו",
         "href": "tel:+551140201000"
       },
       {
-        "title": "כתובת",
-        "description": "Interfy Corporation — אורלנדו, פלורידה, ארצות הברית, עם נוכחות מסחרית ביותר מ-180 מדינות ושירות ייעודי לברזיל.",
-        "actionLabel": "לצפייה בכל האזורים",
-        "href": "/segmentos"
+        "title": "קביעת פגישה",
+        "description": "קבעו שיחה עם אחד המומחים שלנו.",
+        "actionLabel": "לקבוע פגישה",
+        "href": "/demo"
       },
       {
-        "title": "שעות פעילות",
-        "description": "בימים א'-ה', בין השעות 8:00-20:00. חשבונות Enterprise יכולים לרכוש תמיכה מורחבת 24/7.",
-        "actionLabel": "לתמיכה",
-        "href": "/suporte"
+        "title": "אימייל עסקי",
+        "description": "contato@interfy.ai — לשאלות מכירות, תוכניות ושותפויות.",
+        "actionLabel": "שליחת אימייל",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

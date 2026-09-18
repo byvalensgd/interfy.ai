@@ -124,6 +124,7 @@
       "name": "Indica tu nombre completo.",
       "email": "Indica un correo electrónico válido.",
       "company": "Indica el nombre de tu empresa.",
+      "phone": "Ingresa un número de teléfono válido.",
       "consent": "Debes aceptar los términos para continuar."
     },
     "consentPrefix": "Leí y acepto los ",

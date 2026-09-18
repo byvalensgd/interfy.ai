@@ -13,33 +13,73 @@
     "primaryLabel": "Varaa demo",
     "secondaryLabel": "Aloita ilmaiseksi"
   },
+  "form": {
+    "heading": "Lähetä viesti",
+    "nameLabel": "Koko nimi",
+    "namePlaceholder": "Nimesi",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "sinä@email.com",
+    "subjectLabel": "Aihe",
+    "subjectPlaceholder": "Valitse aihe",
+    "subjectOptions": [
+      "Myynti ja hinnoittelu",
+      "Tekninen tuki",
+      "Kumppanuudet",
+      "Lehdistö",
+      "Muu aihe"
+    ],
+    "messageLabel": "Viesti",
+    "messagePlaceholder": "Miten voimme auttaa sinua",
+    "errors": {
+      "name": "Anna koko nimesi.",
+      "email": "Anna kelvollinen sähköpostiosoite.",
+      "subject": "Valitse aihe.",
+      "message": "Kirjoita viestisi.",
+      "consent": "Sinun on hyväksyttävä tietosuojakäytäntö."
+    },
+    "consentPrefix": "Olen lukenut ja hyväksyn Interfyn ",
+    "consentPrivacy": "tietosuojakäytännön",
+    "consentSuffix": ".",
+    "submitButton": "Lähetä viesti",
+    "submittingButton": "Lähetetään...",
+    "successHeading": "Viesti lähetetty!",
+    "successMessagePrefix": "Vastaamme osoitteeseen ",
+    "successMessageSuffix": " mahdollisimman pian."
+  },
   "channels": {
     "ariaLabel": "Yhteydenottokanavat",
     "heading": "Valitse parhaiten sopiva kanava",
+    "subheading": "Valitse kanava, joka sopii sinulle parhaiten.",
     "items": [
       {
-        "title": "Myyntisähköposti",
-        "description": "contato@interfy.ai — myyntikysymyksiin, hinnoitteluun ja kumppanuuksiin.",
-        "actionLabel": "Lähetä sähköposti",
-        "href": "mailto:contato@interfy.ai"
+        "title": "Live-chat",
+        "description": "Keskustele reaaliajassa tukitiimimme kanssa, maanantaista perjantaihin klo 8–20.",
+        "actionLabel": "Aloita chat",
+        "href": "#mensagem"
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Nopeaa tukea WhatsAppin kautta kysymyksiin ja apuun.",
+        "actionLabel": "Avaa WhatsApp",
+        "href": "https://wa.me/551140201000"
       },
       {
         "title": "Puhelin",
-        "description": "+55 11 4020-1000 — maanantaista perjantaihin klo 8–20 (Brasilian aikaa).",
+        "description": "+55 11 4020-1000 — maanantaista perjantaihin klo 8–20 (Brasílian aikaa).",
         "actionLabel": "Soita nyt",
         "href": "tel:+551140201000"
       },
       {
-        "title": "Osoite",
-        "description": "Interfy Corporation — Orlando, Florida, Yhdysvallat, liiketoimintaa yli 180 maassa ja erillinen palvelu Brasilialle.",
-        "actionLabel": "Katso kaikki alueet",
-        "href": "/segmentos"
+        "title": "Varaa tapaaminen",
+        "description": "Varaa keskustelu asiantuntijamme kanssa.",
+        "actionLabel": "Varaa aika",
+        "href": "/demo"
       },
       {
-        "title": "Palveluajat",
-        "description": "Maanantaista perjantaihin klo 8–20. Enterprise-asiakkaat voivat hankkia laajennetun 24/7-tuen.",
-        "actionLabel": "Katso tuki",
-        "href": "/suporte"
+        "title": "Yrityssähköposti",
+        "description": "contato@interfy.ai — myynti-, paketti- ja kumppanuuskysymyksiin.",
+        "actionLabel": "Lähetä sähköposti",
+        "href": "mailto:contato@interfy.ai"
       }
     ]
   },

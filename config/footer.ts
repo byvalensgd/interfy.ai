@@ -38,6 +38,7 @@ export const footerColumns: FooterColumn[] = [
       { href: "/test-drive", icon: "/icons/footer/free.svg" },
       { href: "/parceria", icon: "/icons/footer/parceria.svg" },
       { href: "/blog", icon: "/icons/footer/blog.svg" },
+      { href: "/demo", icon: "/icons/footer/demo-play.svg" },
     ],
   },
   {

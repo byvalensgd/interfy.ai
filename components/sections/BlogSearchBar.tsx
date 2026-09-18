@@ -41,7 +41,7 @@ export default function BlogSearchBar({
   return (
     <section
       aria-label={title}
-      className="relative z-10 flex justify-center border-b border-contorno-base bg-branco px-5 py-5"
+      className="relative z-30 flex justify-center border-b border-contorno-base bg-branco px-5 py-5"
     >
       <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-4">
         <h1 className="text-2xl leading-[1.2] font-extrabold text-texto sm:text-[2rem]">{title}</h1>
@@ -72,7 +72,7 @@ export default function BlogSearchBar({
           )}
 
           {normalizedQuery && (
-            <div className="absolute top-full right-0 z-20 mt-3 flex w-[340px] flex-col gap-3 rounded-2xl border border-contorno-base bg-branco p-4 shadow-[0px_16px_40px_rgba(20,30,60,0.16)]">
+            <div className="absolute top-full right-0 z-40 mt-3 flex w-[340px] flex-col gap-3 rounded-2xl border border-contorno-base bg-branco p-4 shadow-[0px_16px_40px_rgba(20,30,60,0.16)]">
               <p className="text-xs font-bold tracking-wider text-texto-medio uppercase">
                 {results.length} {search.resultsCountLabel}
               </p>

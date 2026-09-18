@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight, CheckCircle2, Loader2 } from "lucide-react";
 import { withLocale } from "@/lib/i18n/paths";
 import type { Locale } from "@/lib/i18n/config";
+import { PHONE_PLACEHOLDERS } from "@/lib/i18n/phoneFormat";
 
 type FormValues = {
   firstName: string;
@@ -18,7 +19,9 @@ type FormValues = {
   consent: boolean;
 };
 
-type FormErrors = Partial<Record<"firstName" | "lastName" | "email" | "company" | "consent", string>>;
+type FormErrors = Partial<
+  Record<"firstName" | "lastName" | "email" | "company" | "phone" | "companySize" | "interest" | "consent", string>
+>;
 
 const initialValues: FormValues = {
   firstName: "",
@@ -49,7 +52,7 @@ type DemoFormDict = {
   messageLabel: string;
   messagePlaceholder: string;
   optionalLabel: string;
-  errors: { name: string; email: string; company: string; consent: string };
+  errors: { name: string; email: string; company: string; phone: string; companySize: string; interest: string; consent: string };
   consentPrefix: string;
   consentTerms: string;
   consentMiddle: string;
@@ -69,6 +72,9 @@ function validate(values: FormValues, errorMessages: DemoFormDict["errors"]): Fo
   if (!values.lastName.trim()) errors.lastName = errorMessages.name;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = errorMessages.email;
   if (!values.company.trim()) errors.company = errorMessages.company;
+  if (!values.phone.trim()) errors.phone = errorMessages.phone;
+  if (!values.companySize) errors.companySize = errorMessages.companySize;
+  if (!values.interest) errors.interest = errorMessages.interest;
   if (!values.consent) errors.consent = errorMessages.consent;
   return errors;
 }
@@ -91,7 +97,11 @@ function FormField({
     <div className="flex flex-col gap-2">
       <label htmlFor={id} className="text-sm font-bold leading-[1.2] text-texto">
         {label}
-        {optional && <span className="font-medium text-texto-medio"> {optionalLabel}</span>}
+        {optional ? (
+          <span className="font-medium text-texto-medio"> {optionalLabel}</span>
+        ) : (
+          <span className="text-red-500"> *</span>
+        )}
       </label>
       <input
         id={id}
@@ -118,9 +128,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
 
   function handleChange<K extends keyof FormValues>(key: K, value: FormValues[K]) {
     setValues((prev) => ({ ...prev, [key]: value }));
-    if (key === "firstName" || key === "lastName" || key === "email" || key === "company" || key === "consent") {
-      setErrors((prev) => ({ ...prev, [key]: undefined }));
-    }
+    setErrors((prev) => ({ ...prev, [key]: undefined }));
   }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -192,7 +200,9 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
               id="demo-phone"
               type="tel"
               autoComplete="tel"
+              placeholder={PHONE_PLACEHOLDERS[locale]}
               value={values.phone}
+              error={errors.phone}
               onChange={(e) => handleChange("phone", e.target.value)}
             />
 
@@ -207,13 +217,16 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
               />
               <div className="flex flex-col gap-2">
                 <label htmlFor="demo-size" className="text-sm font-bold leading-[1.2] text-texto">
-                  {dict.companySizeLabel}
+                  {dict.companySizeLabel} <span className="text-red-500">*</span>
                 </label>
                 <select
                   id="demo-size"
+                  aria-invalid={!!errors.companySize}
                   value={values.companySize}
                   onChange={(e) => handleChange("companySize", e.target.value)}
-                  className="h-[50px] w-full rounded-lg border border-contorno-base bg-branco px-4 text-base leading-[1.2] text-texto focus:border-azul-base focus:outline-none focus:ring-2 focus:ring-azul-base/20"
+                  className={`h-[50px] w-full rounded-lg border bg-branco px-4 text-base leading-[1.2] text-texto focus:outline-none focus:ring-2 focus:ring-azul-base/20 ${
+                    errors.companySize ? "border-red-500" : "border-contorno-base focus:border-azul-base"
+                  }`}
                 >
                   <option value="">{dict.companySizePlaceholder}</option>
                   {dict.companySizeOptions.map((option) => (
@@ -222,18 +235,22 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
                     </option>
                   ))}
                 </select>
+                {errors.companySize && <p className="text-xs font-medium text-red-600">{errors.companySize}</p>}
               </div>
             </div>
 
             <div className="flex flex-col gap-2">
               <label htmlFor="demo-interest" className="text-sm font-bold leading-[1.2] text-texto">
-                {dict.interestLabel}
+                {dict.interestLabel} <span className="text-red-500">*</span>
               </label>
               <select
                 id="demo-interest"
+                aria-invalid={!!errors.interest}
                 value={values.interest}
                 onChange={(e) => handleChange("interest", e.target.value)}
-                className="h-[50px] w-full rounded-lg border border-contorno-base bg-branco px-4 text-base leading-[1.2] text-texto focus:border-azul-base focus:outline-none focus:ring-2 focus:ring-azul-base/20"
+                className={`h-[50px] w-full rounded-lg border bg-branco px-4 text-base leading-[1.2] text-texto focus:outline-none focus:ring-2 focus:ring-azul-base/20 ${
+                  errors.interest ? "border-red-500" : "border-contorno-base focus:border-azul-base"
+                }`}
               >
                 <option value="">{dict.interestPlaceholder}</option>
                 {dict.interestOptions.map((option) => (
@@ -242,6 +259,7 @@ export default function DemoForm({ dict, locale }: { dict: DemoFormDict; locale:
                   </option>
                 ))}
               </select>
+              {errors.interest && <p className="text-xs font-medium text-red-600">{errors.interest}</p>}
             </div>
 
             <div className="flex flex-col gap-2">

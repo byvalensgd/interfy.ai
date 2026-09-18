@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+
 // Recreated (not a photo) as real SVG shapes so it can actually animate — a
 // static image can't grow bars or float a badge. Geometry below is copied
 // 1:1 from the Figma node (K1DjxWj4LaSQpEI0yifRBp, 5587:25885): the viewBox
@@ -110,16 +114,44 @@ const ENTRANCE_TOTAL_S = 3;
 const ENTRANCE_ORIGINAL_TOTAL_S = 1.35; // badge delay (0.75s) + its own duration (0.6s)
 const TIME_SCALE = ENTRANCE_TOTAL_S / ENTRANCE_ORIGINAL_TOTAL_S;
 
-function popIn(delaySeconds: number, durationSeconds = 0.5) {
-  return {
-    transformBox: "fill-box" as const,
-    animation: `trust-illu-pop-in ${durationSeconds * TIME_SCALE}s ease-out ${delaySeconds * TIME_SCALE}s both`,
-  };
+// Before the illustration has scrolled into view, every shape sits frozen at
+// the animation's own "from" state (opacity 0, scale 0) instead of playing —
+// starting the `animation` only once `started` flips true is what makes the
+// pop-in fire when the block scrolls into view rather than the instant this
+// (otherwise off-screen, already-mounted) SVG hits the DOM on page load.
+function popIn(started: boolean, delaySeconds: number, durationSeconds = 0.5) {
+  return started
+    ? {
+        transformBox: "fill-box" as const,
+        animation: `trust-illu-pop-in ${durationSeconds * TIME_SCALE}s ease-out ${delaySeconds * TIME_SCALE}s both`,
+      }
+    : { transformBox: "fill-box" as const, opacity: 0, scale: 0 };
 }
 
 export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: string }) {
+  const ref = useRef<SVGSVGElement>(null);
+  const [started, setStarted] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStarted(true);
+          observer.unobserve(el);
+        }
+      },
+      { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <svg
+      ref={ref}
       viewBox={`0 0 ${VIEW_W} ${VIEW_H}`}
       className="size-full overflow-visible"
       style={{ overflow: "visible" }}
@@ -159,10 +191,10 @@ export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: st
           all clipped to the panel's own single rounded silhouette. Outer
           bands/cards pop in first, the content living inside them after. */}
       <g clipPath="url(#trust-illu-panel-clip)">
-        <rect x={STRIP_TOP.x} y={STRIP_TOP.y} width={STRIP_TOP.w} height={STRIP_TOP.h} fill={STRIP_TOP.color} style={popIn(0)} />
-        <rect x={STRIP_MID.x} y={STRIP_MID.y} width={STRIP_MID.w} height={STRIP_MID.h} fill={STRIP_MID.color} style={popIn(0.05)} />
-        <rect x={STRIP_BOTTOM.x} y={STRIP_BOTTOM.y} width={STRIP_BOTTOM.w} height={STRIP_BOTTOM.h} fill={STRIP_BOTTOM.color} style={popIn(0.1)} />
-        <circle cx={DOT.cx} cy={DOT.cy} r={DOT.r} fill="#6f47d5" style={popIn(0.3)} />
+        <rect x={STRIP_TOP.x} y={STRIP_TOP.y} width={STRIP_TOP.w} height={STRIP_TOP.h} fill={STRIP_TOP.color} style={popIn(started, 0)} />
+        <rect x={STRIP_MID.x} y={STRIP_MID.y} width={STRIP_MID.w} height={STRIP_MID.h} fill={STRIP_MID.color} style={popIn(started, 0.05)} />
+        <rect x={STRIP_BOTTOM.x} y={STRIP_BOTTOM.y} width={STRIP_BOTTOM.w} height={STRIP_BOTTOM.h} fill={STRIP_BOTTOM.color} style={popIn(started, 0.1)} />
+        <circle cx={DOT.cx} cy={DOT.cy} r={DOT.r} fill="#6f47d5" style={popIn(started, 0.3)} />
 
         <rect
           x={CHART_CARD.x}
@@ -173,13 +205,13 @@ export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: st
           fill="white"
           stroke="white"
           strokeWidth="3"
-          style={{ filter: "drop-shadow(0px 5px 11px rgba(0,0,0,0.1))", ...popIn(0.15) }}
+          style={{ filter: "drop-shadow(0px 5px 11px rgba(0,0,0,0.1))", ...popIn(started, 0.15) }}
         />
         {CHART_LINES.map((line, i) => (
-          <rect key={line.y} x={line.x} y={line.y} width={line.w} height={line.h} rx="7" fill="#e4e4f9" style={popIn(0.3 + i * 0.05)} />
+          <rect key={line.y} x={line.x} y={line.y} width={line.w} height={line.h} rx="7" fill="#e4e4f9" style={popIn(started, 0.3 + i * 0.05)} />
         ))}
         {BARS.map((bar, i) => (
-          <rect key={bar.x} x={bar.x} y={bar.y} width={bar.w} height={bar.h} rx="12" fill={bar.color} style={popIn(0.35 + i * 0.05)} />
+          <rect key={bar.x} x={bar.x} y={bar.y} width={bar.w} height={bar.h} rx="12" fill={bar.color} style={popIn(started, 0.35 + i * 0.05)} />
         ))}
       </g>
 
@@ -189,18 +221,18 @@ export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: st
       <path
         d={`M${CARD.x + 35} ${CARD.y} H${CARD.x + CARD.w - 35} A35 35 0 0 1 ${CARD.x + CARD.w} ${CARD.y + 35} V${CARD.y + CARD.h} H${CARD.x} V${CARD.y + 35} A35 35 0 0 1 ${CARD.x + 35} ${CARD.y} Z`}
         fill="url(#trust-illu-card-bg)"
-        style={popIn(0)}
+        style={popIn(started, 0)}
       />
       <text
         x={CARD_TITLE.x}
         y={CARD_TITLE.y}
         dominantBaseline="hanging"
         className="fill-black text-[20px] font-medium"
-        style={popIn(0.35)}
+        style={popIn(started, 0.35)}
       >
         Total Visitors
       </text>
-      <rect x={CARD_TITLE_BAR.x} y={CARD_TITLE_BAR.y} width={CARD_TITLE_BAR.w} height={CARD_TITLE_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.35)} />
+      <rect x={CARD_TITLE_BAR.x} y={CARD_TITLE_BAR.y} width={CARD_TITLE_BAR.w} height={CARD_TITLE_BAR.h} rx="7" fill="#e4e4f9" style={popIn(started, 0.35)} />
 
       {PIE_PATHS.map((slice, i) => (
         <path
@@ -210,7 +242,7 @@ export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: st
           stroke="white"
           strokeWidth="4"
           strokeLinejoin="round"
-          style={popIn(0.4 + i * 0.05)}
+          style={popIn(started, 0.4 + i * 0.05)}
         />
       ))}
       {PIE_PATHS.map((slice) => (
@@ -221,32 +253,36 @@ export default function SegmentsTrustIllustration({ ariaLabel }: { ariaLabel: st
           textAnchor="middle"
           dominantBaseline="middle"
           className="fill-white text-[16.8px] font-bold"
-          style={popIn(0.65)}
+          style={popIn(started, 0.65)}
         >
           {slice.pct}%
         </text>
       ))}
 
-      <text x={ROW_VISITORS_TEXT.x} y={ROW_VISITORS_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(0.4)}>
+      <text x={ROW_VISITORS_TEXT.x} y={ROW_VISITORS_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(started, 0.4)}>
         Total Visitors
       </text>
-      <rect x={ROW_VISITORS_BAR.x} y={ROW_VISITORS_BAR.y} width={ROW_VISITORS_BAR.w} height={ROW_VISITORS_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.4)} />
-      <text x={ROW_GROWTH_TEXT.x} y={ROW_GROWTH_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(0.45)}>
+      <rect x={ROW_VISITORS_BAR.x} y={ROW_VISITORS_BAR.y} width={ROW_VISITORS_BAR.w} height={ROW_VISITORS_BAR.h} rx="7" fill="#e4e4f9" style={popIn(started, 0.4)} />
+      <text x={ROW_GROWTH_TEXT.x} y={ROW_GROWTH_TEXT.y} dominantBaseline="hanging" className="fill-black text-[20px] font-medium" style={popIn(started, 0.45)}>
         Growth Rate
       </text>
-      <rect x={ROW_GROWTH_BAR.x} y={ROW_GROWTH_BAR.y} width={ROW_GROWTH_BAR.w} height={ROW_GROWTH_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.45)} />
-      <rect x={ROW_PLAIN_BAR.x} y={ROW_PLAIN_BAR.y} width={ROW_PLAIN_BAR.w} height={ROW_PLAIN_BAR.h} rx="7" fill="#e4e4f9" style={popIn(0.5)} />
+      <rect x={ROW_GROWTH_BAR.x} y={ROW_GROWTH_BAR.y} width={ROW_GROWTH_BAR.w} height={ROW_GROWTH_BAR.h} rx="7" fill="#e4e4f9" style={popIn(started, 0.45)} />
+      <rect x={ROW_PLAIN_BAR.x} y={ROW_PLAIN_BAR.y} width={ROW_PLAIN_BAR.w} height={ROW_PLAIN_BAR.h} rx="7" fill="#e4e4f9" style={popIn(started, 0.5)} />
 
       {/* Growth-arrow badge: the last piece to arrive, well after everything
           else has settled — it pops in already mid-rotation and overshoots
           to 45deg before swinging back to 0, a little "jump" rather than a
           plain fade/grow. */}
       <g
-        style={{
-          transformBox: "fill-box",
-          transformOrigin: "center",
-          animation: `trust-illu-badge-pop ${0.6 * TIME_SCALE}s ease-out ${0.75 * TIME_SCALE}s both`,
-        }}
+        style={
+          started
+            ? {
+                transformBox: "fill-box",
+                transformOrigin: "center",
+                animation: `trust-illu-badge-pop ${0.6 * TIME_SCALE}s ease-out ${0.75 * TIME_SCALE}s both`,
+              }
+            : { transformBox: "fill-box", transformOrigin: "center", opacity: 0, scale: 0 }
+        }
       >
         <rect
           x={BADGE.x + 1.5}

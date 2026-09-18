@@ -124,6 +124,7 @@
       "name": "Informe seu nome completo.",
       "email": "Informe um e-mail válido.",
       "company": "Informe o nome da sua empresa.",
+      "phone": "Informe um número de telefone válido.",
       "consent": "É necessário aceitar os termos para continuar."
     },
     "consentPrefix": "Li e concordo com os ",
