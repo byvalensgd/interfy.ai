@@ -6,6 +6,7 @@ import { getLocale, getDictionary } from "@/lib/i18n/dictionaries";
 import { LANGUAGE_INFO } from "@/config/languages";
 import { footerSocialLinks } from "@/config/footer";
 import { withLocale } from "@/lib/i18n/paths";
+import { OG_ICON } from "@/lib/seo";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CookieConsent from "@/components/ui/CookieConsent";
@@ -66,11 +67,13 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: siteConfig.name,
       locale: OG_LOCALE[locale],
       type: "website",
+      images: [{ url: OG_ICON, width: 1200, height: 1200, alt: siteConfig.name }],
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title: common.defaultTitle,
       description: common.defaultDescription,
+      images: [OG_ICON],
     },
   };
 }

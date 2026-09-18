@@ -3,6 +3,12 @@ import { siteConfig } from "@/config/site";
 import { locales, OG_LOCALE, type Locale } from "@/lib/i18n/config";
 import { withLocale } from "@/lib/i18n/paths";
 
+// The favicon mark rendered as a square PNG (social platforms don't reliably
+// rasterize SVG for og:image) — used as the link-preview image everywhere
+// instead of a marketing banner, so a shared link shows just the brand icon
+// beside its title/description.
+export const OG_ICON = `${siteConfig.url}/decor/interfy-icon-og.png`;
+
 export function buildMetadata({
   locale,
   title,
@@ -37,11 +43,16 @@ export function buildMetadata({
       siteName: siteConfig.name,
       locale: OG_LOCALE[locale],
       type: "website",
+      images: [{ url: OG_ICON, width: 1200, height: 1200, alt: siteConfig.name }],
     },
     twitter: {
-      card: "summary_large_image",
+      // "summary" (small square thumbnail beside the text), not
+      // "summary_large_image" — OG_ICON is a square brand mark, not a
+      // 1.91:1 banner, so the large-image card would just crop it.
+      card: "summary",
       title: fullTitle,
       description,
+      images: [OG_ICON],
     },
   };
 }
