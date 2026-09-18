@@ -87,7 +87,13 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo/interfy-logo.svg`,
     description: common.defaultDescription,
-    sameAs: footerSocialLinks.filter((s) => !s.href.match(/^https:\/\/x\.com\/?$/)).map((s) => s.href),
+    // Third-party profiles of the SAME entity (social + review/directory listings)
+    // help Google consolidate them under this one Organization node — the reason
+    // Capterra sits alongside the footer's own social links here.
+    sameAs: [
+      ...footerSocialLinks.filter((s) => !s.href.match(/^https:\/\/x\.com\/?$/)).map((s) => s.href),
+      "https://www.capterra.com.br/software/219451/interfy",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",

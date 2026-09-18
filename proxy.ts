@@ -40,7 +40,14 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
+  // opengraph-image is deliberately NOT excluded here, unlike the other
+  // framework routes: sitemap.xml/robots.txt/favicon.ico are single root
+  // files, but app/[lang]/opengraph-image.tsx is per-locale — it needs to
+  // flow through the same default-locale rewrite as every other page (strip
+  // /pt/opengraph-image to /opengraph-image, then rewrite that internally
+  // back to /pt/opengraph-image) or Next resolves the bare path against
+  // app/[lang]/page.tsx instead, serving the homepage where the image should be.
   matcher: [
-    "/((?!_next/static|_next/image|api|favicon.ico|sitemap.xml|robots.txt|opengraph-image|.*\\.(?:svg|png|jpg|jpeg|webp|gif|ico|otf|ttf|woff|woff2|css|js|map|json|xml|txt|mp4|webm)$).*)",
+    "/((?!_next/static|_next/image|api|favicon.ico|sitemap.xml|robots.txt|.*\\.(?:svg|png|jpg|jpeg|webp|gif|ico|otf|ttf|woff|woff2|css|js|map|json|xml|txt|mp4|webm)$).*)",
   ],
 };
